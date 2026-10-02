@@ -1,0 +1,147 @@
+'use client'
+
+/* Guitar Lab — o Fretlab e o CAGED Lab num app só.
+ *
+ * Consulta (Escalas, Acordes, Notas) e Treino (Prática, Reunião, Plano) olham
+ * para a mesma tônica e a mesma forma CAGED, desenham o mesmo braço com as
+ * mesmas cores e escrevem as notas do mesmo jeito. Trocar a forma numa tela
+ * troca nas outras; os botões de ponte levam de uma metade para a outra sem
+ * perder o lugar.
+ */
+import { useCallback, useEffect, useMemo, useState } from 'react'
+
+import { chordIntervals, type QualityId } from '@/lib/chords'
+import { SCALES } from '@/lib/fretboard'
+import { MODES, type ModeId } from '@/lib/modes'
+import { PROG_BY } from '@/lib/practice/caged'
+import { computePractice, modeName, tonicName } from '@/lib/practice/session'
+import { DEFAULTS, STORAGE_KEY, loadSettings, type Settings } from '@/lib/settings'
+import { isMinorish, namesForScale, namesForTonic, sharpNames } from '@/lib/spelling'
+
+import { ConsultView } from './consult/ConsultView'
+import { NamesContext } from './names'
+import { MeetingView } from './practice/MeetingView'
+import { PlanView } from './practice/PlanView'
+import { PracticeView } from './practice/PracticeView'
+import { Footer, Nav, TabBar } from './Shell'
+
+export function GuitarLab() {
+  const [settings, setSettings] = useState<Settings>(DEFAULTS)
+  const [loaded, setLoaded] = useState(false)
+
+  /* O servidor não sabe o que ficou salvo no navegador: a primeira pintura sai
+     com o padrão e a escolha salva entra logo depois. */
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setSettings(loadSettings())
+    setLoaded(true)
+  }, [])
+
+  useEffect(() => {
+    if (!loaded) return
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(settings))
+    } catch {
+      // Sem armazenamento (aba anônima, cota): a escolha só não sobrevive.
+    }
+  }, [settings, loaded])
+
+  const set = useCallback(
+    <K extends keyof Settings>(key: K) =>
+      (value: Settings[K]) =>
+        setSettings((s) => ({ ...s, [key]: value })),
+    [],
+  )
+  const patch = useCallback((p: Partial<Settings>) => setSettings((s) => ({ ...s, ...p })), [])
+
+  const goTop = () => {
+    try {
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    } catch {
+      window.scrollTo(0, 0)
+    }
+  }
+
+  const setMode = useCallback((mode: ModeId) => {
+    setSettings((s) => ({ ...s, mode }))
+    goTop()
+  }, [])
+
+  const { mode, rootPc, shape, scaleId, quality, tonality, prog } = settings
+  const group = MODES.find((m) => m.id === mode)?.group ?? 'consulta'
+  const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
+
+  /* A posição do treino: calculada uma vez e dividida pelas três telas. */
+  const P = useMemo(() => computePractice(rootPc, tonality, prog, shape), [rootPc, tonality, prog, shape])
+
+  const names = useMemo(() => {
+    if (mode === 'scales') return namesForScale(rootPc, scale.intervals)
+    if (mode === 'chords') return namesForTonic(rootPc, isMinorish(chordIntervals(quality)))
+    if (mode === 'notes') return sharpNames
+    return P.names
+  }, [mode, rootPc, scale, quality, P])
+
+  /* Da escala para o treino: a tônica e a forma ficam; menor ou maior sai da escala. */
+  const toPractice = useCallback(() => {
+    setSettings((s) => {
+      const sc = SCALES.find((x) => x.id === s.scaleId) ?? SCALES[0]
+      const t = s.mode === 'scales' ? (isMinorish(sc.intervals) ? 'min' : 'maj') : s.tonality
+      const p = PROG_BY[t].some((x) => x.id === s.prog) ? s.prog : PROG_BY[t][0].id
+      return { ...s, mode: 'practice', tonality: t, prog: p }
+    })
+    goTop()
+  }, [])
+
+  /* Do treino para a consulta: a pentatônica do tom, na mesma forma. */
+  const toConsult = useCallback(() => {
+    setSettings((s) => ({ ...s, mode: 'scales', scaleId: s.tonality === 'min' ? 'pentaMinor' : 'pentaMajor', lookup: null }))
+    goTop()
+  }, [])
+
+  const openChord = useCallback((root: number, q: QualityId) => setSettings((s) => ({ ...s, mode: 'chords', rootPc: root, quality: q })), [])
+
+  const context =
+    group === 'treino'
+      ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
+      : mode === 'notes'
+        ? `${settings.notePcs.length} notas`
+        : `${names(rootPc)} · forma ${shape}`
+
+  return (
+    <NamesContext.Provider value={names}>
+      <div className="app">
+        <div className="backdrop" aria-hidden />
+        <Nav
+          mode={mode}
+          onMode={setMode}
+          context={context}
+          cta={group === 'consulta' ? { label: 'Praticar', onPress: toPractice } : { label: 'Consultar', onPress: toConsult }}
+        />
+
+        {group === 'consulta' && <ConsultView settings={settings} set={set} onOpenChord={openChord} onPractice={toPractice} />}
+        {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
+        {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
+        {mode === 'plan' && (
+          <PlanView
+            P={P}
+            onExercise={(exercise) => {
+              patch({ exercise, mode: 'practice' })
+              goTop()
+            }}
+            onPosition={(s) => {
+              patch({ shape: s, mode: 'practice' })
+              goTop()
+            }}
+            onLoad={(load) => {
+              patch({ tonality: load.tonality, prog: load.prog, rootPc: load.tonicPc, chordSel: 0, mode: 'practice' })
+              goTop()
+            }}
+          />
+        )}
+
+        <Footer onMode={setMode} />
+        <TabBar mode={mode} onMode={setMode} />
+      </div>
+    </NamesContext.Provider>
+  )
+}

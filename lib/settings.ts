@@ -1,0 +1,129 @@
+/* O que fica salvo no navegador, para as seis telas.
+ *
+ * A tônica e a forma CAGED são uma só: escolher A na forma E em Escalas abre a
+ * Prática em A, na posição da forma E — e vice-versa. O modo de leitura do braço
+ * (notas, graus) e o "fora da forma" também valem para tudo.
+ */
+import { QUALITIES, type QualityId } from './chords'
+import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
+import { MODES, type ModeId } from './modes'
+import { NATURALS } from './notes'
+import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
+import { DRILLS, PERMS, type DrillId } from './practice/drills'
+import { EXERCISES, type ExerciseId } from './practice/session'
+
+export type LabelMode = 'both' | 'note' | 'degree'
+export type VisMode = 'both' | 'tab' | 'neck'
+
+export const SETTINGS_VERSION = 1
+
+export interface Settings {
+  version: number
+  mode: ModeId
+  /** Tônica de tudo: da escala, do acorde, do treino. */
+  rootPc: number
+  /** Forma CAGED de tudo: a caixa da escala, a digitação, a posição do treino. */
+  shape: ShapeId
+  labelMode: LabelMode
+  showOutside: boolean
+
+  /* Consulta */
+  scaleId: string
+  /** Acorde consultado por cima da escala. Null é braço limpo. */
+  lookup: QualityId | null
+  quality: QualityId
+  /** Notas do mapa, na ordem de escolha: a primeira é a referência dos graus. */
+  notePcs: number[]
+
+  /* Treino */
+  tonality: Tonality
+  prog: ProgId
+  vis: VisMode
+  exercise: ExerciseId
+  /** O acorde da progressão em foco no braço. */
+  chordSel: number
+  bpm: number
+  click: boolean
+  drill: DrillId
+  drillVis: VisMode
+  perm: string
+  box: number
+  invSet: number
+  cagedSel: number
+  rootSel: number
+  accSel: number
+}
+
+export const DEFAULTS: Settings = {
+  version: SETTINGS_VERSION,
+  mode: 'scales',
+  rootPc: 9,
+  shape: 'E',
+  labelMode: 'both',
+  showOutside: true,
+  scaleId: 'pentaMinor',
+  lookup: null,
+  quality: 'min',
+  notePcs: NATURALS,
+  tonality: 'min',
+  prog: 'menor',
+  vis: 'both',
+  exercise: 'box',
+  chordSel: 0,
+  bpm: 70,
+  click: false,
+  drill: 'caged',
+  drillVis: 'both',
+  perm: '1234',
+  box: 0,
+  invSet: 3,
+  cagedSel: 0,
+  rootSel: 0,
+  accSel: 0,
+}
+
+export const STORAGE_KEY = 'guitarlab:settings'
+
+const VIS: VisMode[] = ['both', 'tab', 'neck']
+const int = (v: unknown, lo: number, hi: number, d: number) => (Number.isInteger(v) && (v as number) >= lo && (v as number) <= hi ? (v as number) : d)
+
+/** Lê o que ficou salvo, descartando o que não existe mais nesta versão. */
+export function loadSettings(): Settings {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    if (!raw) return DEFAULTS
+    const parsed = JSON.parse(raw)
+    const s = Object.fromEntries(
+      Object.entries(DEFAULTS).map(([key, value]) => [key, key in parsed ? parsed[key] : value]),
+    ) as unknown as Settings
+    s.version = SETTINGS_VERSION
+    if (!MODES.some((m) => m.id === s.mode)) s.mode = DEFAULTS.mode
+    s.rootPc = int(s.rootPc, 0, 11, DEFAULTS.rootPc)
+    if (!SHAPE_IDS.includes(s.shape)) s.shape = DEFAULTS.shape
+    if (!['both', 'note', 'degree'].includes(s.labelMode)) s.labelMode = DEFAULTS.labelMode
+    s.showOutside = s.showOutside !== false
+    if (!SCALES.some((x) => x.id === s.scaleId)) s.scaleId = DEFAULTS.scaleId
+    if (!(s.quality in QUALITIES)) s.quality = DEFAULTS.quality
+    if (s.lookup !== null && !(s.lookup in QUALITIES)) s.lookup = null
+    const pcs = s.notePcs
+    s.notePcs = Array.isArray(pcs) && pcs.every((p) => Number.isInteger(p) && p >= 0 && p <= 11) ? [...new Set(pcs)] : DEFAULTS.notePcs
+    if (s.tonality !== 'min' && s.tonality !== 'maj') s.tonality = DEFAULTS.tonality
+    if (!PROG_BY[s.tonality].some((p) => p.id === s.prog)) s.prog = PROG_BY[s.tonality][0].id
+    if (!VIS.includes(s.vis)) s.vis = DEFAULTS.vis
+    if (!VIS.includes(s.drillVis)) s.drillVis = DEFAULTS.drillVis
+    if (!EXERCISES.some((e) => e.id === s.exercise)) s.exercise = DEFAULTS.exercise
+    if (!DRILLS.some((d) => d.id === s.drill)) s.drill = DEFAULTS.drill
+    if (!PERMS.includes(s.perm)) s.perm = DEFAULTS.perm
+    s.chordSel = int(s.chordSel, 0, 3, 0)
+    s.bpm = int(s.bpm, 40, 160, DEFAULTS.bpm)
+    s.click = s.click === true
+    s.box = int(s.box, 0, 4, 0)
+    s.invSet = int(s.invSet, 0, 3, DEFAULTS.invSet)
+    s.cagedSel = int(s.cagedSel, 0, 5, 0)
+    s.rootSel = int(s.rootSel, 0, 3, 0)
+    s.accSel = int(s.accSel, 0, 3, 0)
+    return s
+  } catch {
+    return DEFAULTS
+  }
+}
