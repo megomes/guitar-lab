@@ -41,8 +41,8 @@ interface Props {
   focus?: NeckWindow | null
   /** Quantas casas desenhar. */
   frets?: number
-  /** Tocar ou arrastar o dedo no braço: a casa debaixo do dedo, a cada movimento. */
-  onPick?: (fret: number) => void
+  /** Tocar ou arrastar o dedo no braço: a casa e a corda debaixo do dedo, a cada movimento. */
+  onPick?: (fret: number, string: number) => void
 }
 
 /* ── Medidas ─────────────────────────────────────────────────────────── */
@@ -140,16 +140,19 @@ function FretboardView({
   /* No celular o braço não cabe e rola de lado: trocar de forma leva a rolagem até lá. */
   /* Arrastar: a casa mais perto do dedo, e só avisa quando ela muda. */
   const dragging = useRef(false)
-  const lastPick = useRef(-1)
-  const pick = (clientX: number) => {
+  const lastPick = useRef('')
+  const pick = (clientX: number, clientY: number) => {
     const el = board.current
     if (!el || !onPick) return
-    const x = clientX - el.getBoundingClientRect().left
+    const rect = el.getBoundingClientRect()
+    const x = clientX - rect.left
     let best = 0
     for (let n = 1; n <= fretCount; n++) if (Math.abs(slotX(n) - x) < Math.abs(slotX(best) - x)) best = n
-    if (best !== lastPick.current) {
-      lastPick.current = best
-      onPick(best)
+    const string = Math.max(0, Math.min(5, 5 - Math.floor((clientY - rect.top - boardTop) / rowHeight)))
+    const key = `${best}:${string}`
+    if (key !== lastPick.current) {
+      lastPick.current = key
+      onPick(best, string)
     }
   }
 
@@ -243,17 +246,17 @@ function FretboardView({
         ref={board}
         style={{
           ...(fretCount === FRET_COUNT ? {} : { ['--fb-scale' as string]: fretCount / FRET_COUNT }),
-          ...(onPick ? { touchAction: 'pan-y', cursor: 'grab' } : {}),
+          ...(onPick ? { touchAction: 'none', cursor: 'grab' } : {}),
         }}
         onMouseLeave={() => setHover(null)}
         onPointerDown={(e) => {
           if (!onPick) return
           dragging.current = true
-          lastPick.current = -1
+          lastPick.current = ''
           e.currentTarget.setPointerCapture(e.pointerId)
-          pick(e.clientX)
+          pick(e.clientX, e.clientY)
         }}
-        onPointerMove={(e) => dragging.current && pick(e.clientX)}
+        onPointerMove={(e) => dragging.current && pick(e.clientX, e.clientY)}
         onPointerUp={() => (dragging.current = false)}
         onPointerCancel={() => (dragging.current = false)}
       >
@@ -352,13 +355,16 @@ function FretboardView({
                 const x = bandX(w)
                 const r = bandRight(w)
                 const lift = i % 2 ? 0 : 6
+                /* Com `strings`, o tracejado cobre só aquelas cordas. */
+                const top = w.strings ? stringY(w.strings[1]) - rowHeight / 2 + 2 : boardTop - 6 + lift
+                const bottom = w.strings ? stringY(w.strings[0]) + rowHeight / 2 - 2 : boardBottom + 6 - lift
                 return (
                   <g key={`win-${i}`}>
                     <rect
                       x={x + 1}
-                      y={boardTop - 6 + lift}
+                      y={top}
                       width={r - x - 2}
-                      height={boardBottom - boardTop + 12 - lift * 2}
+                      height={bottom - top}
                       rx={10}
                       fill="none"
                       stroke="rgba(255,122,69,0.55)"

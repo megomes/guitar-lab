@@ -39,7 +39,7 @@ interface Props {
   /** Casas do braço; o padrão são 17. */
   frets?: number
   /** Arrastar o dedo no braço: a casa debaixo dele. */
-  onPick?: (fret: number) => void
+  onPick?: (fret: number, string: number) => void
 }
 
 function NeckView(props: Props) {

@@ -88,13 +88,19 @@ export function ConsultView({ settings, set, patch, onPractice }: Props) {
     return {
       label: setLabel(set),
       marks: marks.map((m) => ({ ...m, level: lit(m.string, m.fret) ? ('on' as const) : ('ghost' as const) })),
-      windows: shapes.map((t) => ({ from: t.from, to: t.to, label: INVERSION_NAME[t.inv] })),
+      windows: shapes.map((t) => ({ from: t.from, to: t.to, label: INVERSION_NAME[t.inv], strings: [set[0], set[2]] as [number, number] })),
     }
   }, [mode, chordView, quality, triadSet, rootPc, marks])
 
   /* Arrastar o dedo no braço leva a forma CAGED junto: a que tem o vão debaixo do dedo. */
   const onPick = useMemo(() => {
-    if (mode === 'notes' || triads) return undefined
+    if (mode === 'notes') return undefined
+    /* Nas tríades o dedo escolhe o grupo de cordas: o que tem a corda tocada no meio. */
+    if (triads)
+      return (_fret: number, string: number) => {
+        const next = Math.max(0, Math.min(STRING_SETS.length - 1, string - 1))
+        if (next !== triadSet) set('triadSet')(next)
+      }
     /* Cada forma em cada oitava que cabe: arrastando, o CAGED dá a volta até a casa 21. */
     const options = SHAPE_IDS.flatMap((id) => {
       const w = mode === 'chords' ? (chordVoicing(rootPc, quality, id)?.window ?? null) : (boxFor(rootPc, id, scale)?.window ?? null)
@@ -106,7 +112,7 @@ export function ConsultView({ settings, set, patch, onPractice }: Props) {
       const next = nearestWindow(options, fret)
       if (next && (next.id !== shape || next.oct !== shapeOct)) patch({ shape: next.id, shapeOct: next.oct })
     }
-  }, [mode, triads, rootPc, quality, scale, shape, shapeOct, patch])
+  }, [mode, triads, triadSet, set, rootPc, quality, scale, shape, shapeOct, patch])
 
   const scaleMinor = isMinorish(scale.intervals)
   const chordMinor = isMinorish(chordIntervals(quality))
