@@ -1585,8 +1585,19 @@ button.wk-on:hover {
 }
 
 @media (min-width: 700px) and (min-height: 560px) {
+  /* Presa nas bordas da janela, e não medida em vh: o Safari do iPad conta a barra
+     de ferramentas no vh e ainda deixa a página "quicar" mesmo sem nada sobrando. */
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
   .app {
-    height: 100dvh;
+    position: fixed;
+    inset: 0;
+    height: auto;
     min-height: 0;
     overflow: hidden;
   }
