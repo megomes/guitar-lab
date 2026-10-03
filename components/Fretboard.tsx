@@ -41,6 +41,8 @@ interface Props {
   focus?: NeckWindow | null
   /** Quantas casas desenhar. */
   frets?: number
+  /** Tocar ou arrastar o dedo no braço: a casa debaixo do dedo, a cada movimento. */
+  onPick?: (fret: number) => void
 }
 
 /* ── Medidas ─────────────────────────────────────────────────────────── */
@@ -89,6 +91,7 @@ function FretboardView({
   labelMode,
   focus,
   frets: fretCount = FRET_COUNT,
+  onPick,
 }: Props) {
   const OFFSETS = useMemo(() => fretOffsets(fretCount), [fretCount])
   const names = useNames()
@@ -135,6 +138,21 @@ function FretboardView({
   const stringY = (s: number) => boardTop + (5 - s) * rowHeight + rowHeight / 2
 
   /* No celular o braço não cabe e rola de lado: trocar de forma leva a rolagem até lá. */
+  /* Arrastar: a casa mais perto do dedo, e só avisa quando ela muda. */
+  const dragging = useRef(false)
+  const lastPick = useRef(-1)
+  const pick = (clientX: number) => {
+    const el = board.current
+    if (!el || !onPick) return
+    const x = clientX - el.getBoundingClientRect().left
+    let best = 0
+    for (let n = 1; n <= fretCount; n++) if (Math.abs(slotX(n) - x) < Math.abs(slotX(best) - x)) best = n
+    if (best !== lastPick.current) {
+      lastPick.current = best
+      onPick(best)
+    }
+  }
+
   const target = focus === undefined ? (voicing?.window ?? windows[0] ?? null) : focus
   useEffect(() => {
     const el = scroller.current
@@ -223,8 +241,21 @@ function FretboardView({
       <div
         className="fb-board"
         ref={board}
-        style={fretCount === FRET_COUNT ? undefined : { ['--fb-scale' as string]: fretCount / FRET_COUNT }}
+        style={{
+          ...(fretCount === FRET_COUNT ? {} : { ['--fb-scale' as string]: fretCount / FRET_COUNT }),
+          ...(onPick ? { touchAction: 'pan-y', cursor: 'grab' } : {}),
+        }}
         onMouseLeave={() => setHover(null)}
+        onPointerDown={(e) => {
+          if (!onPick) return
+          dragging.current = true
+          lastPick.current = -1
+          e.currentTarget.setPointerCapture(e.pointerId)
+          pick(e.clientX)
+        }}
+        onPointerMove={(e) => dragging.current && pick(e.clientX)}
+        onPointerUp={() => (dragging.current = false)}
+        onPointerCancel={() => (dragging.current = false)}
       >
         {width > 0 && (
           <svg width={width} height={height} className="fb-svg" role="img" aria-label="braço da guitarra">

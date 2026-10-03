@@ -8,8 +8,8 @@ import { ArrowUpRight } from 'lucide-react'
 import { useMemo } from 'react'
 
 import { chordIntervals, chordSymbol, chordVoicing, QUALITIES } from '@/lib/chords'
-import { SCALES, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
-import { marksFromSpots } from '@/lib/marks'
+import { SCALES, SHAPE_IDS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
+import { marksFromSpots, nearestWindow } from '@/lib/marks'
 import { noteSpots } from '@/lib/notes'
 import { PROG_BY } from '@/lib/practice/caged'
 import { computePractice, diagLegend, diagNeck } from '@/lib/practice/session'
@@ -83,6 +83,19 @@ export function ConsultView({ settings, set, onPractice }: Props) {
       windows: shapes.map((t) => ({ from: t.from, to: t.to, label: INVERSION_NAME[t.inv] })),
     }
   }, [mode, chordView, quality, triadSet, rootPc, marks])
+
+  /* Arrastar o dedo no braço leva a forma CAGED junto: a que tem o vão debaixo do dedo. */
+  const onPick = useMemo(() => {
+    if (mode === 'notes' || triads) return undefined
+    const options = SHAPE_IDS.map((id) => ({
+      key: id,
+      window: mode === 'chords' ? (chordVoicing(rootPc, quality, id)?.window ?? null) : (boxFor(rootPc, id, scale)?.window ?? null),
+    }))
+    return (fret: number) => {
+      const next = nearestWindow(options, fret)
+      if (next && next !== shape) set('shape')(next)
+    }
+  }, [mode, triads, rootPc, quality, scale, shape, set])
 
   const scaleMinor = isMinorish(scale.intervals)
   const chordMinor = isMinorish(chordIntervals(quality))
@@ -158,6 +171,7 @@ export function ConsultView({ settings, set, onPractice }: Props) {
           outsideLabel={mode === 'notes' ? null : diag ? 'fora das duas' : triads ? 'resto do arpejo' : 'fora da forma'}
           onLabelMode={set('labelMode')}
           onShowOutside={set('showOutside')}
+          onPick={onPick}
         />
       </div>
     </main>

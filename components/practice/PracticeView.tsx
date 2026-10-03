@@ -22,6 +22,7 @@ import {
 } from '@/lib/practice/session'
 import type { Settings } from '@/lib/settings'
 import { tonicLabel } from '@/lib/spelling'
+import { nearestWindow } from '@/lib/marks'
 import { ALL_PCS } from '@/lib/notes'
 
 import { Neck } from '../Neck'
@@ -66,6 +67,18 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
     setHow({ title: ex.name, how: t.how, steps: t.more, src: t.src })
   }
 
+
+  /* Arrastar o dedo no braço muda a posição: a que tem as casas debaixo do dedo. */
+  const pickPosition = useCallback(
+    (fret: number) => {
+      const next = nearestWindow(
+        P.positions.map((p) => ({ key: p, window: { from: p.lo, to: p.hi } })),
+        fret,
+      )
+      if (next && next.id !== P.pos.id) set('shape')(shapeOf(next))
+    },
+    [P, set],
+  )
 
   /* Nos exercícios de escala o solo fica no tom: a progressão não muda nada, então nem aparece. */
   const onChords = followsChord(ex.id)
@@ -189,6 +202,7 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
             outsideLabel={ex.id === 'box' ? 'fora da forma' : ex.id === 'diag' ? 'fora das duas' : ex.id === 'zig' ? 'fora das formas' : ex.id === 'neck' ? null : 'fora da posição'}
             onLabelMode={set('labelMode')}
             onShowOutside={set('showOutside')}
+            onPick={ex.id === 'neck' || ex.id === 'zig' ? undefined : pickPosition}
           />
         )}
       </div>
