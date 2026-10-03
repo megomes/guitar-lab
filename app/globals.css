@@ -1060,6 +1060,16 @@ h3 {
   border-radius: 3px;
 }
 
+.legend-item .lg-shift {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1;
+  color: #fff;
+}
+
 .legend-chord {
   font-weight: 600;
 }
@@ -1096,7 +1106,7 @@ h3 {
 .fb-board {
   position: relative;
   height: 100%;
-  min-width: 760px;
+  min-width: calc(760px * var(--fb-scale, 1));
 }
 
 .fb-svg {
@@ -1168,6 +1178,15 @@ h3 {
 
 .fb-ring {
   filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+}
+
+.fb-shift {
+  pointer-events: none;
+  animation: fb-fade 260ms var(--ease) both;
+}
+
+.fb-slice {
+  animation: fb-fade 260ms var(--ease) both;
 }
 
 .fb-now {
@@ -2184,7 +2203,7 @@ button.wk-on:hover {
   }
 
   .fb-board {
-    min-width: 980px;
+    min-width: calc(980px * var(--fb-scale, 1));
   }
 
   .neck-lg {

@@ -87,7 +87,10 @@ export function GuitarLab() {
       const sc = SCALES.find((x) => x.id === s.scaleId) ?? SCALES[0]
       const t = s.mode === 'scales' ? (isMinorish(sc.intervals) ? 'min' : 'maj') : s.tonality
       const p = PROG_BY[t].some((x) => x.id === s.prog) ? s.prog : PROG_BY[t][0].id
-      return { ...s, mode: 'practice', tonality: t, prog: p }
+      /* Vendo a diagonal na consulta, o treino abre no exercício dela. */
+      const penta = s.scaleId === 'pentaMinor' || s.scaleId === 'pentaMajor'
+      const exercise = s.mode === 'scales' && penta && s.scaleView === 'diag' ? 'diag' : s.exercise
+      return { ...s, mode: 'practice', tonality: t, prog: p, exercise }
     })
     goTop()
   }, [])

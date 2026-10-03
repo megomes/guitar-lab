@@ -14,6 +14,8 @@ import { EXERCISES, type ExerciseId } from './practice/session'
 
 export type LabelMode = 'both' | 'note' | 'degree'
 export type VisMode = 'both' | 'tab' | 'neck'
+/** A pentatônica na consulta: a forma CAGED, ou a diagonal com a escada das formas. */
+export type ScaleView = 'box' | 'diag'
 
 export const SETTINGS_VERSION = 1
 
@@ -34,6 +36,7 @@ export interface Settings {
   quality: QualityId
   /** Notas do mapa, na ordem de escolha: a primeira é a referência dos graus. */
   notePcs: number[]
+  scaleView: ScaleView
 
   /* Treino */
   tonality: Tonality
@@ -66,6 +69,7 @@ export const DEFAULTS: Settings = {
   lookup: null,
   quality: 'min',
   notePcs: NATURALS,
+  scaleView: 'box',
   tonality: 'min',
   prog: 'menor',
   vis: 'both',
@@ -109,6 +113,7 @@ export function loadSettings(): Settings {
     if (s.lookup !== null && !(s.lookup in QUALITIES)) s.lookup = null
     const pcs = s.notePcs
     s.notePcs = Array.isArray(pcs) && pcs.every((p) => Number.isInteger(p) && p >= 0 && p <= 11) ? [...new Set(pcs)] : DEFAULTS.notePcs
+    if (s.scaleView !== 'box' && s.scaleView !== 'diag') s.scaleView = DEFAULTS.scaleView
     if (s.tonality !== 'min' && s.tonality !== 'maj') s.tonality = DEFAULTS.tonality
     if (!PROG_BY[s.tonality].some((p) => p.id === s.prog)) s.prog = PROG_BY[s.tonality][0].id
     if (!VIS.includes(s.vis)) s.vis = DEFAULTS.vis

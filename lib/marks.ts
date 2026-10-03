@@ -27,11 +27,23 @@ export interface Pin {
   fret: number
 }
 
-/** Um vão de casas aceso. Com rótulo, quando há vários (as 5 posições). */
+/** Um vão de casas aceso. Com rótulo, quando há vários (as 5 posições). Com `strings`,
+ * só um recorte de cordas — os degraus da escada da penta diagonal. */
 export interface NeckWindow {
   from: number
   to: number
   label?: string
+  /** Da corda mais grave à mais aguda do recorte (0 = 6ª). */
+  strings?: [number, number]
+  /** De que lado do recorte vai o rótulo: o lado sem a troca de forma. */
+  labelSide?: 'left' | 'right'
+}
+
+/** Uma troca de forma: a seta de uma casa a outra na mesma corda, sempre subindo o braço. */
+export interface Shift {
+  string: number
+  from: number
+  to: number
 }
 
 /** As casas de uma escala, do jeito do Fretlab: a forma acesa, o resto fantasma. */
@@ -48,4 +60,4 @@ export function marksFromSpots(spots: Spot[], dimAll = false): Mark[] {
 export type LegendItem =
   | { kind: 'dot'; color: string; text: string }
   | { kind: 'chord'; color: string; text: string }
-  | { kind: 'ghost' | 'ring' | 'windows' | 'text'; text: string }
+  | { kind: 'ghost' | 'ring' | 'windows' | 'shift' | 'text'; text: string }

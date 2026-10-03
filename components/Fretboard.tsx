@@ -13,7 +13,7 @@ import { memo, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } fr
 
 import type { Voicing } from '@/lib/chords'
 import { DOUBLE_INLAYS, FRET_COUNT, INLAYS, STRING_LABELS } from '@/lib/fretboard'
-import type { Mark, NeckWindow, Pin } from '@/lib/marks'
+import type { Mark, NeckWindow, Pin, Shift } from '@/lib/marks'
 import { ROLE_COLOR, mix, roleOf } from '@/lib/roles'
 import type { LabelMode } from '@/lib/settings'
 
@@ -39,6 +39,10 @@ interface Props {
   labelMode: LabelMode
   /** Para onde rolar no celular; sem isso, a digitação ou o primeiro vão. */
   focus?: NeckWindow | null
+  /** Quantas casas desenhar. */
+  frets?: number
+  /** Trocas de forma: um arco por cima da corda, de uma casa a outra. */
+  shifts?: Shift[]
 }
 
 /* ── Medidas ─────────────────────────────────────────────────────────── */
@@ -65,8 +69,6 @@ function fretOffsets(count: number): number[] {
   return offsets
 }
 
-const OFFSETS = fretOffsets(FRET_COUNT)
-
 const gradientKey = (hex: string) => hex.replace('#', '').toLowerCase()
 
 interface Hover {
@@ -79,7 +81,19 @@ interface Hover {
   fret: number
 }
 
-function FretboardView({ marks, windows = [], showOutside, voicing = null, rings = [], now = [], labelMode, focus }: Props) {
+function FretboardView({
+  marks,
+  windows = [],
+  showOutside,
+  voicing = null,
+  rings = [],
+  now = [],
+  labelMode,
+  focus,
+  frets: fretCount = FRET_COUNT,
+  shifts = [],
+}: Props) {
+  const OFFSETS = useMemo(() => fretOffsets(fretCount), [fretCount])
   const names = useNames()
   const uid = useId().replace(/[^a-zA-Z0-9]/g, '')
   const id = (name: string) => `${uid}-${name}`
@@ -102,7 +116,9 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
     return () => observer.disconnect()
   }, [])
 
-  const labeled = windows.some((w) => w.label)
+  /* Recortes de cordas (a escada da diagonal) levam o rótulo dentro: não precisam de margem em cima. */
+  const sliced = windows.some((w) => w.strings)
+  const labeled = !sliced && windows.some((w) => w.label)
   const padTop = labeled ? 34 : 12
   const { width, height } = size
   const boardLeft = OPEN_WIDTH + NUT_WIDTH
@@ -130,7 +146,7 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
       return
     }
     const from = target.from <= 0 ? 0 : fretX(target.from - 1)
-    const to = fretX(Math.min(FRET_COUNT, target.to))
+    const to = fretX(Math.min(fretCount, target.to))
     el.scrollTo({ left: (from + to) / 2 - el.clientWidth / 2, behavior: still ? 'auto' : 'smooth' })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [target?.from, target?.to, width])
@@ -149,13 +165,13 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
 
   const geometry = useMemo(() => {
     if (width <= 0) return null
-    const frets = Array.from({ length: FRET_COUNT }, (_, i) => i + 1)
+    const frets = Array.from({ length: fretCount }, (_, i) => i + 1)
     return (
       <g>
         <rect x={boardLeft - 2} y={boardTop} width={boardRight - boardLeft + 2} height={boardBottom - boardTop} rx={14} fill={`url(#${id('wood')})`} stroke="rgba(255,255,255,0.07)" />
         <rect x={boardLeft - 2} y={boardTop} width={boardRight - boardLeft + 2} height={boardBottom - boardTop} rx={14} fill={`url(#${id('sheen')})`} />
 
-        {INLAYS.filter((n) => n <= FRET_COUNT).map((n) =>
+        {INLAYS.filter((n) => n <= fretCount).map((n) =>
           (DOUBLE_INLAYS.includes(n) ? [1.5, 4.5] : [3]).map((row) => (
             <circle key={`inlay-${n}-${row}`} cx={slotX(n)} cy={boardTop + rowHeight * row} r={5.5} fill={`url(#${id('pearl')})`} />
           )),
@@ -191,18 +207,23 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
     )
     // Tudo aqui dentro sai das dimensões.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [width, height, uid, padTop])
+  }, [width, height, uid, padTop, fretCount])
 
   const inWindow = (n: number) => windows.some((w) => n >= w.from && n <= w.to)
   const bandX = (w: NeckWindow) => (w.from <= 0 ? slotX(0) - radius - 8 : fretX(w.from - 1))
-  const bandRight = (w: NeckWindow) => fretX(Math.min(FRET_COUNT, Math.max(1, w.to)))
+  const bandRight = (w: NeckWindow) => fretX(Math.min(fretCount, Math.max(1, w.to)))
 
   const hoverOn = (x: number, y: number, m: { pc: number; degree: string; string: number; fret: number; color?: string }) => () =>
     setHover({ x, y, note: names(m.pc), degree: m.degree, color: colorOf(m), string: m.string, fret: m.fret })
 
   return (
     <div className="fb-scroll" ref={scroller}>
-      <div className="fb-board" ref={board} onMouseLeave={() => setHover(null)}>
+      <div
+        className="fb-board"
+        ref={board}
+        style={fretCount === FRET_COUNT ? undefined : { ['--fb-scale' as string]: fretCount / FRET_COUNT }}
+        onMouseLeave={() => setHover(null)}
+      >
         {width > 0 && (
           <svg width={width} height={height} className="fb-svg" role="img" aria-label="braço da guitarra">
             <defs>
@@ -256,6 +277,9 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
               <filter id={id('glow')} x="-150%" y="-150%" width="400%" height="400%">
                 <feGaussianBlur stdDeviation="6" />
               </filter>
+              <marker id={id('arrow')} viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#fff" />
+              </marker>
               <linearGradient id={id('band')} x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0" stopColor="rgba(255,91,36,0.13)" />
                 <stop offset="0.5" stopColor="rgba(255,91,36,0.04)" />
@@ -273,14 +297,43 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
             {geometry}
 
             {/* Números das casas: os do vão aceso em laranja. */}
-            {Array.from({ length: FRET_COUNT }, (_, i) => i + 1).map((n) => (
+            {Array.from({ length: fretCount }, (_, i) => i + 1).map((n) => (
               <text key={`num-${n}`} x={slotX(n)} y={boardBottom + NUMBER_ROW / 2 + 2} className={`fb-fret-number${inWindow(n) ? ' fb-fret-number-on' : ''}`}>
                 {n}
               </text>
             ))}
 
             {/* Um vão: faixa de luz. Vários: contornos tracejados com o nome da posição. */}
-            {windows.length === 1 && (
+            {/* Recortes: um retângulo por par de cordas, com o nome da forma num selo no canto. */}
+            {sliced &&
+              windows.map((w, i) => {
+                const [lo, hi] = w.strings ?? [0, 5]
+                const x = bandX(w)
+                const r = bandRight(w)
+                const top = stringY(hi) - rowHeight / 2 + 3
+                const bottom = stringY(lo) + rowHeight / 2 - 3
+                const pill = w.label ? Math.max(30, w.label.length * 6.4 + 14) : 0
+                /* O selo fica fora do recorte, entre as duas cordas (onde nunca há nota), do lado
+                   sem a seta; se não couber antes da pestana, vai para o outro lado. */
+                const left = w.labelSide !== 'right' && x - 6 - pill > boardLeft
+                const px = left ? x - 6 - pill : r + 6
+                const py = (stringY(lo) + stringY(hi)) / 2
+                return (
+                  <g key={`slice-${i}`} className="fb-slice">
+                    <rect x={x + 1} y={top} width={r - x - 2} height={bottom - top} rx={10} fill="rgba(255,122,69,0.06)" stroke="rgba(255,122,69,0.6)" strokeDasharray="4 5" strokeWidth={1.2} />
+                    {w.label && (
+                      <g transform={`translate(${px} ${py})`}>
+                        <rect x={0} y={-8} width={pill} height={16} rx={8} fill="rgba(12,12,13,0.94)" stroke="rgba(255,122,69,0.55)" />
+                        <text x={pill / 2} y={0.5} className="fb-win-label">
+                          {w.label}
+                        </text>
+                      </g>
+                    )}
+                  </g>
+                )
+              })}
+
+            {!sliced && windows.length === 1 && (
               <rect
                 className="fb-band"
                 x={bandX(windows[0])}
@@ -293,7 +346,8 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
                 strokeWidth={1.2}
               />
             )}
-            {windows.length > 1 &&
+            {!sliced &&
+              windows.length > 1 &&
               windows.map((w, i) => {
                 const x = bandX(w)
                 const r = bandRight(w)
@@ -319,6 +373,21 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
                   </g>
                 )
               })}
+
+            {/* A troca de forma: arco por cima da corda, da casa de baixo para a de cima. */}
+            {shifts.map((sh) => {
+              const x1 = slotX(sh.from) + radius * 0.55
+              const x2 = slotX(sh.to) - radius * 0.55
+              const y = stringY(sh.string) - radius * 0.75
+              const lift = Math.min(rowHeight * 0.42, radius * 1.15)
+              const d = `M ${x1} ${y} Q ${(x1 + x2) / 2} ${y - lift} ${x2} ${y}`
+              return (
+                <g key={`shift-${sh.string}-${sh.from}`} className="fb-shift">
+                  <path d={d} fill="none" stroke="rgba(0,0,0,0.6)" strokeWidth={4} strokeLinecap="round" />
+                  <path d={d} fill="none" stroke="#fff" strokeWidth={1.8} strokeLinecap="round" markerEnd={`url(#${id('arrow')})`} />
+                </g>
+              )
+            })}
 
             {visible.map((m) => {
               const x = slotX(m.fret)

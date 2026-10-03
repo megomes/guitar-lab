@@ -5,7 +5,7 @@
 import { memo, type ReactNode } from 'react'
 
 import type { Voicing } from '@/lib/chords'
-import type { LegendItem, Mark, NeckWindow, Pin } from '@/lib/marks'
+import type { LegendItem, Mark, NeckWindow, Pin, Shift } from '@/lib/marks'
 import { ROLE_COLOR, ROLE_NAME, ROLES } from '@/lib/roles'
 
 import { Fretboard, type LabelMode } from './Fretboard'
@@ -36,6 +36,9 @@ interface Props {
   size?: 'md' | 'lg'
   className?: string
   extra?: ReactNode
+  /** Casas do braço; o padrão são 17. */
+  frets?: number
+  shifts?: Shift[]
 }
 
 function NeckView(props: Props) {
@@ -58,6 +61,8 @@ function NeckView(props: Props) {
           rings={props.rings}
           now={props.now}
           focus={props.focus}
+          frets={props.frets}
+          shifts={props.shifts}
           labelMode={labelMode}
           showOutside={showOutside || !outsideLabel}
         />

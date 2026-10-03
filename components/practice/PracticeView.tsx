@@ -217,6 +217,8 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
             windows={neck.windows}
             rings={neck.rings}
             focus={neck.focus}
+            shifts={neck.shifts}
+            frets={neck.frets}
             now={player.now?.pins}
             legend={legend}
             labelMode={labelMode}

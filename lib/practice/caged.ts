@@ -198,14 +198,13 @@ export interface Diagonal {
   notes: PNote[]
 }
 
-/** As diagonais do tom no braço, da mais grave à mais aguda. As notas fora das 17 casas
- * ficam de fora (perto da pestana, a diagonal começa nas cordas soltas); vale a que ainda
- * tem pelo menos 10 das 15 notas. */
-export function diagonals(keyPc: number): Diagonal[] {
+/** As diagonais do tom, sempre inteiras (as 15 notas), da mais grave à mais aguda. Uma
+ * diagonal ocupa 10 casas, então com 21 casas os dois desenhos cabem em qualquer tom. */
+export function diagonals(keyPc: number, maxFret = 21): Diagonal[] {
   const out: Diagonal[] = []
   for (const first of [3, 2] as const) {
     const startPc = mod12(keyPc + (first === 3 ? TRIO : DUO)[0])
-    for (let oct = -1; oct <= 1; oct++) {
+    for (let oct = 0; oct <= 1; oct++) {
       const f0 = mod12(startPc - OPEN[0]) + 12 * oct
       const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
       const notes: PNote[] = []
@@ -214,15 +213,42 @@ export function diagonals(keyPc: number): Diagonal[] {
         const g = groups[s % 2]
         for (let k = 0; k < g.length; k++) {
           while (mod12(m - keyPc) !== g[k]) m++
-          const f = m - OPEN[s]
-          if (f >= 0 && f <= 17) notes.push({ s, f, midi: m })
+          notes.push({ s, f: m - OPEN[s], midi: m })
           m++
         }
       }
-      if (notes.length >= 10) out.push({ first, notes })
+      if (notes.every((n) => n.f >= 0 && n.f <= maxFret)) out.push({ first, notes })
     }
   }
-  return out.sort((a, b) => Math.min(...a.notes.map((n) => n.f)) - Math.min(...b.notes.map((n) => n.f)))
+  return out.sort((a, b) => a.notes[0].f - b.notes[0].f)
+}
+
+export interface StairStep {
+  /** As duas cordas do degrau: [grave, aguda]. */
+  strings: [number, number]
+  /** As 4 notas do par que são da forma CAGED. */
+  inBox: PNote[]
+  /** A forma inteira, para dar nome a ela. */
+  box: PNote[]
+  /** A 5ª nota do par: emprestada da forma vizinha. É ali que se troca de forma. */
+  borrowed: PNote
+}
+
+/** A escada de uma diagonal: cada par de cordas mora numa forma CAGED da penta, com uma
+ * nota a mais na corda de 3 notas — a da forma vizinha. Três pares, três formas em degrau. */
+export function diagStair(keyPc: number, diag: PNote[]): StairStep[] {
+  const boxes = pentBoxes(keyPc).flatMap((b) => [-12, 0, 12].map((sh) => b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))))
+  const steps: StairStep[] = []
+  for (const lo of [0, 2, 4]) {
+    const pair = diag.filter((n) => n.s === lo || n.s === lo + 1)
+    const has = (n: PNote) => pair.some((p) => p.s === n.s && p.f === n.f)
+    const box = boxes.find((b) => b.filter((n) => n.s === lo || n.s === lo + 1).every(has))
+    if (!box) continue
+    const inBox = box.filter((n) => n.s === lo || n.s === lo + 1)
+    const borrowed = pair.find((p) => !inBox.some((n) => n.s === p.s && n.f === p.f))
+    if (borrowed) steps.push({ strings: [lo, lo + 1], inBox, box, borrowed })
+  }
+  return steps
 }
 
 /** O nome do desenho: em que corda grave cai a raiz, a 6ª ou a 5ª. No menor a raiz é a
