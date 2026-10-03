@@ -185,12 +185,44 @@ export function pentBoxes(keyPc: number): PentBox[] {
   })
 }
 
-/** Grupos de três: 1 2 3, 2 3 4, 3 4 5… */
-export function threes<T>(notes: T[]): T[] {
-  const out: T[] = []
-  for (let i = 0; i + 2 < notes.length; i++) out.push(notes[i], notes[i + 1], notes[i + 2])
+/** Pentatônica diagonal (sistema 3-2): 15 notas seguidas da escala da 6ª à 1ª corda,
+ * três numa corda e duas na próxima. Cada par de cordas fecha uma oitava, então a
+ * forma sobe o braço e atravessa as posições. Null se não cabe nas 17 casas. */
+export function diagonal(keyPc: number, startMidi: number): PNote[] | null {
+  const pcs = pentPcs(keyPc)
+  const notes: PNote[] = []
+  let m = startMidi
+  for (let s = 0; s < 6; s++)
+    for (let k = 0; k < (s % 2 ? 2 : 3); k++) {
+      while (!pcs.includes(mod12(m))) m++
+      const f = m - OPEN[s]
+      if (f < 0 || f > 17) return null
+      notes.push({ s, f, midi: m })
+      m++
+    }
+  return notes
+}
+
+/** As diagonais do tom que cabem no braço, uma por nota de partida na 6ª corda, do grave ao agudo. */
+export function diagonals(keyPc: number): PNote[][] {
+  const pcs = pentPcs(keyPc)
+  const out: PNote[][] = []
+  for (let f = 0; f < 12; f++) {
+    if (!pcs.includes(mod12(OPEN[0] + f))) continue
+    const d = diagonal(keyPc, OPEN[0] + f)
+    if (d) out.push(d)
+  }
   return out
 }
+
+/** Grupos de n notas seguidas: em 3s, 1 2 3, 2 3 4, 3 4 5… */
+export function groups<T>(notes: T[], n: number): T[] {
+  const out: T[] = []
+  for (let i = 0; i + n <= notes.length; i++) out.push(...notes.slice(i, i + n))
+  return out
+}
+
+export const threes = <T,>(notes: T[]) => groups(notes, 3)
 
 export function rootPositions(pc: number): PNote[] {
   const out: PNote[] = []
@@ -301,11 +333,6 @@ export interface PosChord extends Chord {
   voicing: FullVoicing
   tones: Tone[]
   third: number
-}
-
-/** Pentatônica do acorde: maior em acorde maior, menor em acorde menor. */
-export function chordPent(ch: { q: ChordQ; root: number }): number[] {
-  return (ch.q === 'maj' ? [0, 2, 4, 7, 9] : [0, 3, 5, 7, 10]).map((x) => mod12(ch.root + x))
 }
 
 export function pitchesIn(pcs: number[], lo: number, hi: number): number[] {

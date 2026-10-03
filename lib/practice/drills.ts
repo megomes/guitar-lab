@@ -1,4 +1,4 @@
-/* Modo reunião: seis drills de mão esquerda, desplugado e sem som.
+/* Modo reunião: sete drills de mão esquerda, desplugado e sem som.
  *
  * Cada drill usa a tônica e a posição da Prática — a escada CAGED é a da tônica,
  * os acordes são os da posição, as raízes são as da progressão.
@@ -6,11 +6,11 @@
 import { STRING_LABELS } from '../fretboard'
 import type { LegendItem, Mark, NeckWindow } from '../marks'
 import { CHORD_COLOR, ROLE_COLOR, degreeColor } from '../roles'
-import { OPEN, degree, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
+import { OPEN, degree, diagonals, groups, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
 import { chordColor, modeName, pentDeg, tonicName, type Bar, type BarHead, type FollowKey, type Practice, type TabEvent } from './session'
 
-export type DrillId = 'caged' | 'acordes' | 'inversoes' | 'aranha' | 'pent3' | 'raizes'
-export type DrillIcon = 'ladder' | 'layers' | 'move' | 'spider' | 'wave' | 'eye'
+export type DrillId = 'caged' | 'acordes' | 'inversoes' | 'aranha' | 'pent3' | 'diag' | 'raizes'
+export type DrillIcon = 'ladder' | 'layers' | 'move' | 'spider' | 'wave' | 'diag' | 'eye'
 
 export interface Drill {
   id: DrillId
@@ -71,6 +71,18 @@ export const DRILLS: Drill[] = [
     steps: ['Escolha a forma do dia.', 'Grupos de 3 subindo: 1 2 3, 2 3 4, 3 4 5...', 'Só hammer-on e pull-off. Volte no espelho.'],
   },
   {
+    id: 'diag',
+    name: 'Diagonal 3-2',
+    min: 4,
+    icon: 'diag',
+    why: 'A penta do tom na diagonal (3 notas numa corda, 2 na próxima), em grupos de 4, atravessando o braço.',
+    steps: [
+      'Escolha a diagonal pela nota de saída na 6ª corda.',
+      'Grupos de 4 subindo: 1 2 3 4, 2 3 4 5...',
+      'Na corda de 3 notas, hammer-on. Na troca de posição, deslize o dedo em vez de pular.',
+    ],
+  },
+  {
     id: 'raizes',
     name: 'Raízes às cegas',
     min: 3,
@@ -98,6 +110,7 @@ export interface DrillChoices {
   invSet: number
   perm: string
   box: number
+  diag: number
   rootSel: number
 }
 
@@ -285,6 +298,35 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       focus: w,
       opts: { key: 'box', value: bi, items: boxes.map((x, i) => ({ v: i, label: `Forma ${x.forma}` })) },
       legend: [{ kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)}` }],
+    }
+  }
+
+  if (id === 'diag') {
+    const D = diagonals(P.keyPc)
+    const di = Math.min(Math.max(S.diag, 0), D.length - 1)
+    const notes = D[di]
+    const seq = groups(notes, 4)
+    const deg = (n: PNote) => pentDeg(mod12(n.midi), T, P.minor)
+    const bars: Bar[] = []
+    for (let i = 0; i < seq.length; i += 8)
+      bars.push({
+        ci: null,
+        head: i === 0 ? { text: 'Sobe em 4s', sub: '3-2' } : undefined,
+        events: seq.slice(i, i + 8).map((n, k) => ({ col: k, notes: [{ ...n, role: 'deg' as const, deg: deg(n), color: degreeColor(deg(n)) }] })),
+      })
+    const w = span(notes.map((n) => n.f))
+    return {
+      bars,
+      cols: 8,
+      marks: notes.map((n) => on(n, deg(n))),
+      windows: [],
+      focus: w,
+      opts: {
+        key: 'diag',
+        value: di,
+        items: D.map((d, i) => ({ v: i, label: `Sai do ${nn(mod12(d[0].midi))} (casa ${d[0].f})` })),
+      },
+      legend: [{ kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)} · 3-2` }],
     }
   }
 

@@ -13,8 +13,8 @@ import {
   OPEN,
   buildChords,
   chordPcs,
-  chordPent,
   degree,
+  diagonals,
   fullVoicing,
   mod12,
   pentBoxes,
@@ -80,6 +80,8 @@ export interface Practice {
   tonicChord: Chord
   /** A caixa da pentatônica (2 notas por corda) que mora na posição. */
   box: { forma: number; notes: PNote[] }
+  /** A penta diagonal (3-2) que sai da posição — ou chega nela, se sair não cabe no braço. */
+  diag: PNote[]
 }
 
 /** A letra da forma de uma posição: "Em" → E. É o elo com a forma da consulta. */
@@ -121,7 +123,20 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
       }
     }
 
-  return { tonicPc, minor, keyPc, names, positions: ps, pos, chords, pent, tonicChord, box: box! }
+  /* A diagonal que começa na posição (6ª corda dentro dela). Nas posições do alto
+     a que começa ali passa da casa 17: vale então a que termina nela (1ª corda). */
+  const away = (ns: PNote[]) => ns.reduce((a, n) => a + Math.max(0, pos.lo - n.f, n.f - pos.hi), 0)
+  let diag: PNote[] = []
+  let dc = 1e9
+  for (const d of diagonals(keyPc)) {
+    const c = Math.min(away(d.filter((n) => n.s === 0)), 0.5 + away(d.filter((n) => n.s === 5)))
+    if (c < dc) {
+      dc = c
+      diag = d
+    }
+  }
+
+  return { tonicPc, minor, keyPc, names, positions: ps, pos, chords, pent, tonicChord, box: box!, diag }
 }
 
 export const modeName = (P: Practice) => (P.minor ? 'menor' : 'maior')
@@ -210,9 +225,8 @@ function arpLine(P: Practice, loops = 2): Bar[] {
   return bars
 }
 
-/* "key": pentatônica do tom, terça de cada acorde no tempo 1.
-   "chord": pentatônica de cada acorde, nota do acorde mais próxima no tempo 1. */
-function pentLine(P: Practice, mode: 'key' | 'chord'): Bar[] {
+/** Pentatônica do tom o tempo todo; no tempo 1, a terça de cada acorde. */
+function pentLine(P: Practice): Bar[] {
   const { lo, hi } = P.pos
   const C = P.chords
   const n = C.length
@@ -220,7 +234,7 @@ function pentLine(P: Practice, mode: 'key' | 'chord'): Bar[] {
   const T: number[] = []
   let ref = mid
   for (let i = 0; i < n; i++) {
-    const wanted = [...new Set(C[i].tones.filter((t) => (mode === 'key' ? mod12(t.midi) === C[i].third : true)).map((t) => t.midi))]
+    const wanted = [...new Set(C[i].tones.filter((t) => mod12(t.midi) === C[i].third).map((t) => t.midi))]
     // Numa posição apertada a única terça pode ser a própria nota de partida:
     // aí ela mesma serve, em vez de ficar sem alvo.
     const pool = wanted.filter((m) => m !== ref).length ? wanted.filter((m) => m !== ref) : wanted.length ? wanted : C[i].tones.map((t) => t.midi)
@@ -228,10 +242,9 @@ function pentLine(P: Practice, mode: 'key' | 'chord'): Bar[] {
     T.push(t)
     ref = t
   }
-  const keySC = pitchesIn(P.pent, lo, hi)
+  const SC = pitchesIn(P.pent, lo, hi)
   let prev: PNote | null = null
   return C.map((c, i) => {
-    const SC = mode === 'key' ? keySC : pitchesIn(chordPent(c), lo, hi)
     const path = [T[i]].concat(walk(T[i], T[(i + 1) % n], SC))
     return {
       ci: i,
@@ -304,31 +317,50 @@ function boxLine(P: Practice): Bar[] {
   return bars
 }
 
+/** Penta diagonal: sobe as 15 notas da 6ª à 1ª corda, 3-2-3-2-3-2, e desce de volta. */
+function diagLine(P: Practice): Bar[] {
+  const d = P.diag
+  const seq = d.concat(d.slice(0, -1).reverse())
+  const bars: Bar[] = []
+  for (let i = 0; i < seq.length; i += 8) {
+    bars.push({
+      ci: null,
+      head: i === 0 ? { dot: CHORD_COLOR.I, text: `${tonicName(P)} ${modeName(P)}`, sub: '3-2' } : undefined,
+      events: seq.slice(i, i + 8).map((n, k) => {
+        const g = pentDeg(mod12(n.midi), P.tonicPc, P.minor)
+        return { col: k, notes: [{ ...n, role: 'deg' as const, deg: g, color: degreeColor(g) }] }
+      }),
+    })
+  }
+  return bars
+}
+
 /* ── Os exercícios ────────────────────────────────────────────────────── */
 
-export type ExerciseId = 'box' | 'arp' | 'penta' | 'pchord' | 'base' | 'neck'
+export type ExerciseId = 'box' | 'diag' | 'arp' | 'penta' | 'base' | 'neck'
 
 export const EXERCISES: { id: ExerciseId; name: string; cols: number }[] = [
   { id: 'box', name: 'Forma da penta', cols: 8 },
+  { id: 'diag', name: 'Penta diagonal', cols: 8 },
   { id: 'arp', name: 'Arpejos encadeados', cols: 8 },
   { id: 'penta', name: 'Penta até a terça', cols: 8 },
-  { id: 'pchord', name: 'Penta de cada acorde', cols: 8 },
   { id: 'base', name: 'Acordes cheios', cols: 8 },
   { id: 'neck', name: 'Um acorde no braço todo', cols: 12 },
 ]
 
 /** Os exercícios que olham para um acorde da progressão de cada vez. */
-export const followsChord = (id: ExerciseId) => id !== 'neck' && id !== 'box'
+export const followsChord = (id: ExerciseId) => id === 'arp' || id === 'penta' || id === 'base'
 
 export function exerciseBars(id: ExerciseId, P: Practice): Bar[] {
   if (id === 'box') return boxLine(P)
+  if (id === 'diag') return diagLine(P)
   if (id === 'neck') return neckArp(P).map((b) => ({ ...b, events: colorNotes(b.events) }))
-  const raw = id === 'arp' ? arpLine(P, 2) : id === 'penta' ? pentLine(P, 'key') : id === 'pchord' ? pentLine(P, 'chord') : fullBase(P)
+  const raw = id === 'arp' ? arpLine(P, 2) : id === 'penta' ? pentLine(P) : fullBase(P)
   return raw.map((b) => {
     const c = P.chords[b.ci as number]
     return {
       ci: b.ci,
-      head: { ...chordHead(c), sub: id === 'pchord' ? `penta ${c.q === 'maj' ? 'maior' : 'menor'}` : undefined },
+      head: chordHead(c),
       events: colorNotes(b.events),
     }
   })
@@ -388,17 +420,23 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
       ],
       src: SRC.penta,
     }
-  if (id === 'pchord')
+  if (id === 'diag') {
+    const d = P.diag
+    const from = d[0]
+    const to = d[d.length - 1]
     return {
-      how: 'Cada compasso usa a pentatônica do próprio acorde: <b>maior</b> nos acordes maiores, <b>menor</b> nos menores. O tempo 1 é sempre uma nota do acorde.',
+      how:
+        `A pentatônica de <b>${key}</b> na diagonal: <b>3 notas numa corda, 2 na próxima</b>, da 6ª à 1ª. ` +
+        `Cada par de cordas fecha uma oitava, então a forma sobe o braço — da casa ${from.f} à ${to.f} — e atravessa as posições sem sair do tom.`,
       more: [
-        'No braço, toque num acorde para ver a penta dele dentro da posição.',
-        'Toque a penta de um acorde só, parado, até enxergar o desenho em volta da forma CAGED.',
-        'Troque de penta a cada compasso sem sair da posição.',
-        'Repare que a penta de cada acorde fica colada na forma dele: é o CAGED fazendo o mapa.',
+        'Nas cordas de 3 notas, palheta na primeira e hammer-on nas outras. Na descida, pull-off.',
+        'A mudança de posição acontece na troca de corda: deslize o dedo 1 ou o 4 em vez de pular.',
+        'Ache o root (laranja) em cada oitava. É ele que diz em que posição você chegou.',
+        'Troque a posição e repare que a diagonal sai de outro lugar, mas as notas são sempre as mesmas: o tom não muda.',
+        'Depois improvise com backing track no tom, usando a diagonal para atravessar o braço.',
       ],
-      src: SRC.penta,
     }
+  }
   if (id === 'base')
     return {
       how: `A progressão com as formas CAGED completas, sem sair da posição: ${C.map((c) => `${c.name} na forma ${c.voicing.nm}`).join(', ')}.`,
@@ -439,13 +477,15 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
     for (let s = 0; s < 6; s++) for (let f = 0; f <= 17; f++) fn(s, f, mod12(OPEN[s] + f))
   }
 
-  if (id === 'box') {
-    const inBox = (s: number, f: number) => P.box.notes.some((n) => n.s === s && n.f === f)
+  if (id === 'box' || id === 'diag') {
+    const shape = id === 'box' ? P.box.notes : P.diag
+    const inShape = (s: number, f: number) => shape.some((n) => n.s === s && n.f === f)
     each((s, f, pc) => {
       if (!P.pent.includes(pc)) return
-      marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level: inBox(s, f) ? 'on' : 'ghost' })
+      marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level: inShape(s, f) ? 'on' : 'ghost' })
     })
-    return { marks, rings, windows: posWindow, focus }
+    const fs = shape.map((n) => n.f)
+    return { marks, rings, windows: posWindow, focus: id === 'box' ? focus : { from: Math.min(...fs), to: Math.max(...fs) } }
   }
   if (id === 'neck') {
     const I = P.tonicChord
@@ -464,20 +504,16 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
     })
     return { marks, rings, windows: posWindow, focus }
   }
-  const pcs = id === 'penta' ? P.pent : chordPent(c)
-  const root = id === 'penta' ? P.tonicPc : c.root
-  const minor = id === 'penta' ? P.minor : c.q === 'min'
   each((s, f, pc) => {
-    if (!pcs.includes(pc)) return
-    marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, root, minor), level: inW(f) ? (c.pcs.includes(pc) ? 'on' : 'soft') : 'ghost' })
+    if (!P.pent.includes(pc)) return
+    marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level: inW(f) ? (c.pcs.includes(pc) ? 'on' : 'soft') : 'ghost' })
   })
-  if (id === 'penta')
-    for (let s = 0; s < 6; s++)
-      for (let f = lo; f <= hi; f++) {
-        if (mod12(OPEN[s] + f) !== c.third) continue
-        rings.push({ string: s, fret: f })
-        if (!pcs.includes(c.third)) marks.push({ string: s, fret: f, pc: c.third, degree: degree(c.third, c), level: 'on', color: OUTSIDE_COLOR })
-      }
+  for (let s = 0; s < 6; s++)
+    for (let f = lo; f <= hi; f++) {
+      if (mod12(OPEN[s] + f) !== c.third) continue
+      rings.push({ string: s, fret: f })
+      if (!P.pent.includes(c.third)) marks.push({ string: s, fret: f, pc: c.third, degree: degree(c.third, c), level: 'on', color: OUTSIDE_COLOR })
+    }
   return { marks, rings, windows: posWindow, focus }
 }
 
@@ -485,18 +521,17 @@ export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): Legend
   const c = P.chords[Math.min(sel, P.chords.length - 1)]
   const who: LegendItem[] = followsChord(id) ? [{ kind: 'chord', color: chordColor(c), text: c.name }] : []
   const dot = (color: string, text: string): LegendItem => ({ kind: 'dot', color, text })
-  if (id === 'box' || id === 'penta' || id === 'pchord') {
-    const minor = id === 'pchord' ? c.q === 'min' : P.minor
-    const title = id === 'pchord' ? `Penta ${minor ? 'menor' : 'maior'} de ${P.names(c.root)}` : `Penta ${tonicName(P)} ${modeName(P)}`
+  if (id === 'box' || id === 'diag' || id === 'penta') {
+    const minor = P.minor
     return [
       ...who,
-      { kind: 'text', text: title },
+      { kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)}${id === 'diag' ? ' · 3-2' : ''}` },
       dot(ROLE_COLOR.root, '1'),
       dot(ROLE_COLOR.third, minor ? '♭3' : '3'),
       dot(ROLE_COLOR.fifth, '5'),
       dot(ROLE_COLOR.other, minor ? '4 e ♭7' : '2 e 6'),
       ...(id === 'penta' ? [{ kind: 'ring', text: 'terça' } as LegendItem] : []),
-      { kind: 'ghost', text: id === 'box' ? 'fora da forma' : 'fora da posição' },
+      { kind: 'ghost', text: id === 'box' ? 'fora da forma' : id === 'diag' ? 'fora da diagonal' : 'fora da posição' },
     ]
   }
   return [
