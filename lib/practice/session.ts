@@ -15,6 +15,7 @@ import {
   chordPcs,
   degree,
   diagonals,
+  diagRoot,
   fullVoicing,
   mod12,
   pentBoxes,
@@ -25,6 +26,7 @@ import {
   tonesIn,
   walk,
   type Chord,
+  type Diagonal,
   type PNote,
   type PosChord,
   type Position,
@@ -80,8 +82,8 @@ export interface Practice {
   tonicChord: Chord
   /** A caixa da pentatônica (2 notas por corda) que mora na posição. */
   box: { forma: number; notes: PNote[] }
-  /** A penta diagonal (3-2) que sai da posição — ou chega nela, se sair não cabe no braço. */
-  diag: PNote[]
+  /** A penta diagonal (3-2) que mais passa pela posição. */
+  diag: Diagonal
 }
 
 /** A letra da forma de uma posição: "Em" → E. É o elo com a forma da consulta. */
@@ -123,20 +125,21 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
       }
     }
 
-  /* A diagonal que começa na posição (6ª corda dentro dela). Nas posições do alto
-     a que começa ali passa da casa 17: vale então a que termina nela (1ª corda). */
-  const away = (ns: PNote[]) => ns.reduce((a, n) => a + Math.max(0, pos.lo - n.f, n.f - pos.hi), 0)
-  let diag: PNote[] = []
+  /* A diagonal com mais notas dentro da posição; no empate, a que sai dela (corda mais grave). */
+  const away = (n: PNote) => Math.max(0, pos.lo - n.f, n.f - pos.hi)
+  let diag: Diagonal | null = null
   let dc = 1e9
   for (const d of diagonals(keyPc)) {
-    const c = Math.min(away(d.filter((n) => n.s === 0)), 0.5 + away(d.filter((n) => n.s === 5)))
+    const notes = d.notes
+    const low = notes.filter((n) => n.s === notes[0].s)
+    const c = -notes.filter((n) => away(n) === 0).length + 0.01 * low.reduce((a, n) => a + away(n), 0)
     if (c < dc) {
       dc = c
       diag = d
     }
   }
 
-  return { tonicPc, minor, keyPc, names, positions: ps, pos, chords, pent, tonicChord, box: box!, diag }
+  return { tonicPc, minor, keyPc, names, positions: ps, pos, chords, pent, tonicChord, box: box!, diag: diag! }
 }
 
 export const modeName = (P: Practice) => (P.minor ? 'menor' : 'maior')
@@ -319,7 +322,7 @@ function boxLine(P: Practice): Bar[] {
 
 /** Penta diagonal: sobe as 15 notas da 6ª à 1ª corda, 3-2-3-2-3-2, e desce de volta. */
 function diagLine(P: Practice): Bar[] {
-  const d = P.diag
+  const d = P.diag.notes
   const seq = d.concat(d.slice(0, -1).reverse())
   const bars: Bar[] = []
   for (let i = 0; i < seq.length; i += 8) {
@@ -475,18 +478,20 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
     }
   }
   if (id === 'diag') {
-    const d = P.diag
+    const d = P.diag.notes
     const from = d[0]
     const to = d[d.length - 1]
     return {
       how:
-        `A pentatônica de <b>${key}</b> na diagonal: <b>3 notas numa corda, 2 na próxima</b>, da 6ª à 1ª. ` +
-        `Cada par de cordas fecha uma oitava, então a forma sobe o braço — da casa ${from.f} à ${to.f} — e atravessa as posições sem sair do tom.`,
+        `A pentatônica de <b>${key}</b> na diagonal, <b>raiz na ${diagRoot(P.diag, P.minor)}ª corda</b>: 3 notas numa corda, 2 na próxima. ` +
+        `As de 3 levam sempre ${P.minor ? '♭3 4 5' : '1 2 3'}, as de 2 levam ${P.minor ? '♭7 1' : '5 6'}. Cada par de cordas fecha uma oitava, ` +
+        `então o mesmo desenho se repete duas casas acima (três na corda B) e a forma sobe o braço — da casa ${from.f} à ${to.f} — sem sair do tom.`,
       more: [
+        'Decore o desenho de um par de cordas. Nos outros dois pares é o mesmo, só mais acima.',
         'Nas cordas de 3 notas, palheta na primeira e hammer-on nas outras. Na descida, pull-off.',
         'A mudança de posição acontece na troca de corda: deslize o dedo 1 ou o 4 em vez de pular.',
         'Ache o root (laranja) em cada oitava. É ele que diz em que posição você chegou.',
-        'Troque a posição e repare que a diagonal sai de outro lugar, mas as notas são sempre as mesmas: o tom não muda.',
+        'Troque a posição: só existem dois desenhos (raiz na 6ª e raiz na 5ª), e a diagonal que passa por ela muda entre eles. O tom não muda.',
         'Depois improvise com backing track no tom, usando a diagonal para atravessar o braço.',
       ],
     }
@@ -532,7 +537,7 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
   }
 
   if (id === 'box' || id === 'diag') {
-    const shape = id === 'box' ? P.box.notes : P.diag
+    const shape = id === 'box' ? P.box.notes : P.diag.notes
     const inShape = (s: number, f: number) => shape.some((n) => n.s === s && n.f === f)
     each((s, f, pc) => {
       if (!P.pent.includes(pc)) return

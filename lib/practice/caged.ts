@@ -185,35 +185,49 @@ export function pentBoxes(keyPc: number): PentBox[] {
   })
 }
 
-/** Pentatônica diagonal (sistema 3-2): 15 notas seguidas da escala da 6ª à 1ª corda,
- * três numa corda e duas na próxima. Cada par de cordas fecha uma oitava, então a
- * forma sobe o braço e atravessa as posições. Null se não cabe nas 17 casas. */
-export function diagonal(keyPc: number, startMidi: number): PNote[] | null {
-  const pcs = pentPcs(keyPc)
-  const notes: PNote[] = []
-  let m = startMidi
-  for (let s = 0; s < 6; s++)
-    for (let k = 0; k < (s % 2 ? 2 : 3); k++) {
-      while (!pcs.includes(mod12(m))) m++
-      const f = m - OPEN[s]
-      if (f < 0 || f > 17) return null
-      notes.push({ s, f, midi: m })
-      m++
-    }
-  return notes
+/* Penta diagonal (sistema 3-2): a escala em pares de cordas, sempre agrupada do mesmo
+   jeito. As cordas de 3 notas levam 1 2 3 do tom maior (♭3 4 5 da relativa menor), as de 2
+   levam 5 6 (♭7 1). Cada par de cordas fecha uma oitava, e o desenho se repete duas casas
+   acima — três na corda B. Só há dois desenhos: o trio na 6ª corda, ou o par na 6ª. */
+const TRIO = [0, 2, 4]
+const DUO = [7, 9]
+
+export interface Diagonal {
+  /** Quantas notas na 6ª corda: 3 (trio) ou 2 (par). */
+  first: 3 | 2
+  notes: PNote[]
 }
 
-/** As diagonais do tom que cabem no braço, uma por nota de partida na 6ª corda, do grave ao agudo. */
-export function diagonals(keyPc: number): PNote[][] {
-  const pcs = pentPcs(keyPc)
-  const out: PNote[][] = []
-  for (let f = 0; f < 12; f++) {
-    if (!pcs.includes(mod12(OPEN[0] + f))) continue
-    const d = diagonal(keyPc, OPEN[0] + f)
-    if (d) out.push(d)
+/** As diagonais do tom no braço, da mais grave à mais aguda. As notas fora das 17 casas
+ * ficam de fora (perto da pestana, a diagonal começa nas cordas soltas); vale a que ainda
+ * tem pelo menos 10 das 15 notas. */
+export function diagonals(keyPc: number): Diagonal[] {
+  const out: Diagonal[] = []
+  for (const first of [3, 2] as const) {
+    const startPc = mod12(keyPc + (first === 3 ? TRIO : DUO)[0])
+    for (let oct = -1; oct <= 1; oct++) {
+      const f0 = mod12(startPc - OPEN[0]) + 12 * oct
+      const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
+      const notes: PNote[] = []
+      let m = OPEN[0] + f0
+      for (let s = 0; s < 6; s++) {
+        const g = groups[s % 2]
+        for (let k = 0; k < g.length; k++) {
+          while (mod12(m - keyPc) !== g[k]) m++
+          const f = m - OPEN[s]
+          if (f >= 0 && f <= 17) notes.push({ s, f, midi: m })
+          m++
+        }
+      }
+      if (notes.length >= 10) out.push({ first, notes })
+    }
   }
-  return out
+  return out.sort((a, b) => Math.min(...a.notes.map((n) => n.f)) - Math.min(...b.notes.map((n) => n.f)))
 }
+
+/** O nome do desenho: em que corda grave cai a raiz, a 6ª ou a 5ª. No menor a raiz é a
+ * 2ª nota do par (♭7 1); no maior, a 1ª do trio (1 2 3). */
+export const diagRoot = (d: Diagonal, minor: boolean): 6 | 5 => ((d.first === 2) === minor ? 6 : 5)
 
 /** Grupos de n notas seguidas: em 3s, 1 2 3, 2 3 4, 3 4 5… */
 export function groups<T>(notes: T[], n: number): T[] {
