@@ -16,6 +16,8 @@ export type LabelMode = 'both' | 'note' | 'degree'
 export type VisMode = 'both' | 'tab' | 'neck'
 /** A pentatônica na consulta: a forma CAGED, ou a diagonal com a escada das formas. */
 export type ScaleView = 'box' | 'diag'
+/** O acorde na consulta: a forma CAGED inteira, ou as tríades num grupo de três cordas. */
+export type ChordView = 'caged' | 'triads'
 
 export const SETTINGS_VERSION = 1
 
@@ -37,6 +39,9 @@ export interface Settings {
   /** Notas do mapa, na ordem de escolha: a primeira é a referência dos graus. */
   notePcs: number[]
   scaleView: ScaleView
+  chordView: ChordView
+  /** O grupo de cordas das tríades: 0 = 6-5-4 … 3 = 3-2-1. */
+  triadSet: number
 
   /* Treino */
   tonality: Tonality
@@ -70,6 +75,8 @@ export const DEFAULTS: Settings = {
   quality: 'min',
   notePcs: NATURALS,
   scaleView: 'box',
+  chordView: 'caged',
+  triadSet: 0,
   tonality: 'min',
   prog: 'menor',
   vis: 'both',
@@ -114,6 +121,8 @@ export function loadSettings(): Settings {
     const pcs = s.notePcs
     s.notePcs = Array.isArray(pcs) && pcs.every((p) => Number.isInteger(p) && p >= 0 && p <= 11) ? [...new Set(pcs)] : DEFAULTS.notePcs
     if (s.scaleView !== 'box' && s.scaleView !== 'diag') s.scaleView = DEFAULTS.scaleView
+    if (s.chordView !== 'caged' && s.chordView !== 'triads') s.chordView = DEFAULTS.chordView
+    s.triadSet = int(s.triadSet, 0, 3, 0)
     if (s.tonality !== 'min' && s.tonality !== 'maj') s.tonality = DEFAULTS.tonality
     if (!PROG_BY[s.tonality].some((p) => p.id === s.prog)) s.prog = PROG_BY[s.tonality][0].id
     if (!VIS.includes(s.vis)) s.vis = DEFAULTS.vis

@@ -7,9 +7,11 @@ import { memo, type ReactNode } from 'react'
 import { QUALITIES, QUALITY_IDS, SHAPE_ROOT_STRING, type QualityId } from '@/lib/chords'
 import { SCALES, SHAPE_IDS, type ShapeId } from '@/lib/fretboard'
 import { ALL_PCS, NATURALS, togglePc } from '@/lib/notes'
+import type { ChordView } from '@/lib/settings'
 import { sharpNames, tonicLabel } from '@/lib/spelling'
+import { STRING_SETS, hasTriad, setLabel } from '@/lib/triads'
 
-import { Chip } from '../ui'
+import { Chip, Segmented } from '../ui'
 
 const qualityLabel = (id: QualityId) => (QUALITIES[id].symbol === '' ? 'maior' : QUALITIES[id].symbol)
 
@@ -81,20 +83,43 @@ interface ChordControlsProps {
   minor: boolean
   shape: ShapeId
   quality: QualityId
+  view: ChordView
+  triadSet: number
   onRoot: (pc: number) => void
   onShape: (shape: ShapeId) => void
   onQuality: (quality: QualityId) => void
+  onView: (view: ChordView) => void
+  onTriadSet: (set: number) => void
 }
 
-function ChordControlsView({ rootPc, minor, shape, quality, onRoot, onShape, onQuality }: ChordControlsProps) {
+function ChordControlsView({ rootPc, minor, shape, quality, view, triadSet, onRoot, onShape, onQuality, onView, onTriadSet }: ChordControlsProps) {
+  const triads = view === 'triads' && hasTriad(quality)
   return (
     <>
       <Tonics rootPc={rootPc} minor={minor} onRoot={onRoot} />
-      <CGroup label="Forma" hint="corda da tônica">
-        {SHAPE_IDS.map((id) => (
-          <Chip key={id} label={`${id} ${SHAPE_ROOT_STRING[id]}ª`} fixed on={shape === id} onPress={() => onShape(id)} />
-        ))}
-      </CGroup>
+      {hasTriad(quality) && (
+        <Segmented<ChordView>
+          options={[
+            { value: 'caged', label: 'forma CAGED' },
+            { value: 'triads', label: 'tríades' },
+          ]}
+          value={view}
+          onChange={onView}
+        />
+      )}
+      {triads ? (
+        <CGroup label="Cordas" hint="uma nota em cada">
+          {STRING_SETS.map((set, i) => (
+            <Chip key={i} label={setLabel(set)} fixed on={triadSet === i} onPress={() => onTriadSet(i)} />
+          ))}
+        </CGroup>
+      ) : (
+        <CGroup label="Forma" hint="corda da tônica">
+          {SHAPE_IDS.map((id) => (
+            <Chip key={id} label={`${id} ${SHAPE_ROOT_STRING[id]}ª`} fixed on={shape === id} onPress={() => onShape(id)} />
+          ))}
+        </CGroup>
+      )}
       <CGroup label="Qualidade">
         {QUALITY_IDS.map((id) => (
           <Chip key={id} label={qualityLabel(id)} fixed on={quality === id} onPress={() => onQuality(id)} />
