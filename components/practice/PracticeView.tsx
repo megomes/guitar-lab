@@ -70,6 +70,8 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
 
 
   const tonic = `${tonicName(P)} ${modeName(P)}`
+  /* Nos exercícios de escala o solo fica no tom: a progressão não muda nada, então nem aparece. */
+  const onChords = followsChord(ex.id)
 
   return (
     <main className="wrap stack">
@@ -85,8 +87,8 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
           </button>
         </div>
         <p className="lede">
-          Posição {P.pos.id}, forma {P.pos.label}, casas {P.pos.lo} a {P.pos.hi}. Progressão{' '}
-          {P.chords.map((c) => c.name).join(' · ')}.
+          Posição {P.pos.id}, forma {P.pos.label}, casas {P.pos.lo} a {P.pos.hi}.
+          {onChords ? ` Progressão ${P.chords.map((c) => c.name).join(' · ')}.` : ` Só a escala de ${tonic}, sem progressão.`}
         </p>
       </section>
 
@@ -166,35 +168,37 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
         </div>
       </div>
 
-      <div className="cchips">
-        {P.chords.map((c, i) => {
-          const on = followsChord(ex.id) && i === sel
-          const inPent = P.pent.includes(c.third)
-          return (
-            <button
-              key={i}
-              type="button"
-              className={`cchip${on ? ' cchip-on' : ''}`}
-              style={{ ['--c' as string]: chordColor(c) }}
-              aria-pressed={on}
-              onClick={() => patch({ chordSel: i, ...(followsChord(ex.id) ? {} : { exercise: 'arp' }) })}
-            >
-              <span className="coin">{c.name}</span>
-              <span className="cc-txt">
-                <b>
-                  {c.name}
-                  <span>{romanOf(P, c)}</span>
-                </b>
-                <small>forma {c.voicing.nm}</small>
-              </span>
-              <span className={`tgt${inPent ? '' : ' tgt-out'}`}>
-                <small>terça</small>
-                <b>{P.names(c.third)}</b>
-              </span>
-            </button>
-          )
-        })}
-      </div>
+      {onChords && (
+        <div className="cchips">
+          {P.chords.map((c, i) => {
+            const on = i === sel
+            const inPent = P.pent.includes(c.third)
+            return (
+              <button
+                key={i}
+                type="button"
+                className={`cchip${on ? ' cchip-on' : ''}`}
+                style={{ ['--c' as string]: chordColor(c) }}
+                aria-pressed={on}
+                onClick={() => patch({ chordSel: i })}
+              >
+                <span className="coin">{c.name}</span>
+                <span className="cc-txt">
+                  <b>
+                    {c.name}
+                    <span>{romanOf(P, c)}</span>
+                  </b>
+                  <small>forma {c.voicing.nm}</small>
+                </span>
+                <span className={`tgt${inPent ? '' : ' tgt-out'}`}>
+                  <small>terça</small>
+                  <b>{P.names(c.third)}</b>
+                </span>
+              </button>
+            )
+          })}
+        </div>
+      )}
 
       <div className="card practice">
         <PlayerBar
@@ -217,7 +221,7 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
             legend={legend}
             labelMode={labelMode}
             showOutside={showOutside}
-            outsideLabel={ex.id === 'box' ? 'fora da forma' : ex.id === 'neck' ? null : 'fora da posição'}
+            outsideLabel={ex.id === 'box' ? 'fora da forma' : ex.id === 'diag' ? 'fora da diagonal' : ex.id === 'zig' ? 'fora das formas' : ex.id === 'neck' ? null : 'fora da posição'}
             onLabelMode={set('labelMode')}
             onShowOutside={set('showOutside')}
           />

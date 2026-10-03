@@ -1,7 +1,7 @@
 'use client'
 
 /* Reunião — drills silenciosos de mão esquerda, do CAGED Lab. */
-import { AudioWaveform, Bug, Check, Eye, Layers, MoveHorizontal, TrendingUp } from 'lucide-react'
+import { AudioWaveform, Bug, Check, Eye, Layers, MoveHorizontal, MoveUpRight, TrendingUp } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import type { SeqEvent } from '@/lib/practice/audio'
@@ -24,6 +24,7 @@ const ICONS: Record<DrillIcon, React.ReactNode> = {
   move: <MoveHorizontal size={17} strokeWidth={1.6} />,
   spider: <Bug size={17} strokeWidth={1.6} />,
   wave: <AudioWaveform size={17} strokeWidth={1.6} />,
+  diag: <MoveUpRight size={17} strokeWidth={1.6} />,
   eye: <Eye size={17} strokeWidth={1.6} />,
 }
 
@@ -42,7 +43,7 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
   const data = useMemo(
     () => drillData(d.id, P, settings),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [d.id, P, settings.cagedSel, settings.accSel, settings.invSet, settings.perm, settings.box, settings.rootSel],
+    [d.id, P, settings.cagedSel, settings.accSel, settings.invSet, settings.perm, settings.box, settings.diag, settings.rootSel],
   )
 
   /* A escada e os acordes acompanham o som: a forma que soa é a que o braço mostra. */
@@ -62,7 +63,7 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
         <h1 className="headline">
           Mão esquerda <em>no automático</em>
         </h1>
-        <p className="lede">Desplugado e sem som. Circuito de 20 min, na ordem dos cards.</p>
+        <p className="lede">Desplugado e sem som. Circuito de {DRILLS.reduce((a, x) => a + x.min, 0)} min, na ordem dos cards.</p>
       </section>
 
       <div className="dchips">

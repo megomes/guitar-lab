@@ -48,6 +48,7 @@ export interface Settings {
   drillVis: VisMode
   perm: string
   box: number
+  diag: number
   invSet: number
   cagedSel: number
   rootSel: number
@@ -76,6 +77,7 @@ export const DEFAULTS: Settings = {
   drillVis: 'both',
   perm: '1234',
   box: 0,
+  diag: 0,
   invSet: 3,
   cagedSel: 0,
   rootSel: 0,
@@ -118,6 +120,7 @@ export function loadSettings(): Settings {
     s.bpm = int(s.bpm, 40, 160, DEFAULTS.bpm)
     s.click = s.click === true
     s.box = int(s.box, 0, 4, 0)
+    s.diag = int(s.diag, 0, 4, 0)
     s.invSet = int(s.invSet, 0, 3, DEFAULTS.invSet)
     s.cagedSel = int(s.cagedSel, 0, 5, 0)
     s.rootSel = int(s.rootSel, 0, 3, 0)

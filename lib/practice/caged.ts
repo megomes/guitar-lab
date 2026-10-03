@@ -185,12 +185,58 @@ export function pentBoxes(keyPc: number): PentBox[] {
   })
 }
 
-/** Grupos de três: 1 2 3, 2 3 4, 3 4 5… */
-export function threes<T>(notes: T[]): T[] {
+/* Penta diagonal (sistema 3-2): a escala em pares de cordas, sempre agrupada do mesmo
+   jeito. As cordas de 3 notas levam 1 2 3 do tom maior (♭3 4 5 da relativa menor), as de 2
+   levam 5 6 (♭7 1). Cada par de cordas fecha uma oitava, e o desenho se repete duas casas
+   acima — três na corda B. Só há dois desenhos: o trio na 6ª corda, ou o par na 6ª. */
+const TRIO = [0, 2, 4]
+const DUO = [7, 9]
+
+export interface Diagonal {
+  /** Quantas notas na 6ª corda: 3 (trio) ou 2 (par). */
+  first: 3 | 2
+  notes: PNote[]
+}
+
+/** As diagonais do tom no braço, da mais grave à mais aguda. As notas fora das 17 casas
+ * ficam de fora (perto da pestana, a diagonal começa nas cordas soltas); vale a que ainda
+ * tem pelo menos 10 das 15 notas. */
+export function diagonals(keyPc: number): Diagonal[] {
+  const out: Diagonal[] = []
+  for (const first of [3, 2] as const) {
+    const startPc = mod12(keyPc + (first === 3 ? TRIO : DUO)[0])
+    for (let oct = -1; oct <= 1; oct++) {
+      const f0 = mod12(startPc - OPEN[0]) + 12 * oct
+      const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
+      const notes: PNote[] = []
+      let m = OPEN[0] + f0
+      for (let s = 0; s < 6; s++) {
+        const g = groups[s % 2]
+        for (let k = 0; k < g.length; k++) {
+          while (mod12(m - keyPc) !== g[k]) m++
+          const f = m - OPEN[s]
+          if (f >= 0 && f <= 17) notes.push({ s, f, midi: m })
+          m++
+        }
+      }
+      if (notes.length >= 10) out.push({ first, notes })
+    }
+  }
+  return out.sort((a, b) => Math.min(...a.notes.map((n) => n.f)) - Math.min(...b.notes.map((n) => n.f)))
+}
+
+/** O nome do desenho: em que corda grave cai a raiz, a 6ª ou a 5ª. No menor a raiz é a
+ * 2ª nota do par (♭7 1); no maior, a 1ª do trio (1 2 3). */
+export const diagRoot = (d: Diagonal, minor: boolean): 6 | 5 => ((d.first === 2) === minor ? 6 : 5)
+
+/** Grupos de n notas seguidas: em 3s, 1 2 3, 2 3 4, 3 4 5… */
+export function groups<T>(notes: T[], n: number): T[] {
   const out: T[] = []
-  for (let i = 0; i + 2 < notes.length; i++) out.push(notes[i], notes[i + 1], notes[i + 2])
+  for (let i = 0; i + n <= notes.length; i++) out.push(...notes.slice(i, i + n))
   return out
 }
+
+export const threes = <T,>(notes: T[]) => groups(notes, 3)
 
 export function rootPositions(pc: number): PNote[] {
   const out: PNote[] = []
@@ -301,11 +347,6 @@ export interface PosChord extends Chord {
   voicing: FullVoicing
   tones: Tone[]
   third: number
-}
-
-/** Pentatônica do acorde: maior em acorde maior, menor em acorde menor. */
-export function chordPent(ch: { q: ChordQ; root: number }): number[] {
-  return (ch.q === 'maj' ? [0, 2, 4, 7, 9] : [0, 3, 5, 7, 10]).map((x) => mod12(ch.root + x))
 }
 
 export function pitchesIn(pcs: number[], lo: number, hi: number): number[] {
