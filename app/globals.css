@@ -1907,7 +1907,7 @@ button.wk-on:hover {
 /* No celular o braço não cabe: rola de lado, com casas de tamanho de dedo. */
 @media (max-width: 699px) {
   .fb-board {
-    min-width: calc(980px * var(--fb-scale, 1));
+    min-width: calc(1200px * var(--fb-scale, 1));
   }
 }
 

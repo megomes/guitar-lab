@@ -323,7 +323,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       opts: {
         key: 'diag',
         value: di,
-        items: D.map((d, i) => ({ v: i, label: `${diagCell(P.minor)} · casa ${d.notes[0].f}` })),
+        items: D.map((d, i) => ({ v: i, label: `${6 - d.start}ª corda · casa ${d.notes[0].f}` })),
       },
       legend: diagLegend(P, `forma ${P.pos.label}`),
     }

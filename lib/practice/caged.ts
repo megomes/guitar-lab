@@ -8,7 +8,7 @@
  *
  * As notas andam como { s, f, midi }: corda (0 = 6ª), casa e altura.
  */
-import { STANDARD_TUNING } from '../fretboard'
+import { FRET_COUNT, STANDARD_TUNING } from '../fretboard'
 import type { Names } from '../spelling'
 
 export const OPEN = STANDARD_TUNING
@@ -119,10 +119,10 @@ export function ladderFor(rootPc: number, q: ChordQ, keepAll = false): LadderSha
       }
       return { nm, fr, pos: Math.min(...fr.filter((x) => x >= 0)) }
     })
-    .filter((x) => keepAll || Math.max(...x.fr) <= 17)
+    .filter((x) => keepAll || Math.max(...x.fr) <= FRET_COUNT)
     .sort((a, b) => a.pos - b.pos)
   const again = out[0].fr.map((x) => (x < 0 ? -1 : x + 12))
-  if (Math.max(...again) <= 17) out.push({ nm: out[0].nm, fr: again, pos: out[0].pos + 12 })
+  if (Math.max(...again) <= FRET_COUNT) out.push({ nm: out[0].nm, fr: again, pos: out[0].pos + 12 })
   return out
 }
 
@@ -133,7 +133,7 @@ export interface Inversion {
 }
 
 export function inversionLadder(ch: { root: number; pcs: number[] }, set: number[]): Inversion[] {
-  const v = triadVoicings(ch.pcs, set, 1, 17).sort((a, b) => Math.min(...a) - Math.min(...b) || a[0] - b[0])
+  const v = triadVoicings(ch.pcs, set, 1, FRET_COUNT).sort((a, b) => Math.min(...a) - Math.min(...b) || a[0] - b[0])
   return v.map((fr) => {
     const bass = mod12(OPEN[set[0]] + fr[0])
     const inv = bass === ch.root ? 0 : bass === ch.pcs[1] ? 1 : 2
@@ -195,37 +195,43 @@ const TRIO = [0, 2, 4]
 const DUO = [7, 9]
 
 export interface Diagonal {
-  /** Quantas notas na 6ª corda: 2 no menor (2-3), 3 no maior (3-2). */
+  /** Quantas notas na corda de saída: 2 no menor (2-3), 3 no maior (3-2). */
   first: 3 | 2
+  /** A corda de onde a diagonal sai (0 = 6ª): a raiz pode estar em qualquer uma. */
+  start: number
   notes: PNote[]
 }
 
 /** O nome da célula: 2-3 no menor, 3-2 no maior. */
 export const diagCell = (minor: boolean) => (minor ? '2-3' : '3-2')
 
-/** A diagonal do tom, sempre inteira (as 15 notas), saindo da 6ª corda: casa 0 a 11, e a
- * mesma uma oitava acima se couber. Ela ocupa 10 casas, então com 21 casas sempre cabe. */
-export function diagonals(keyPc: number, minor: boolean, maxFret = 21): Diagonal[] {
+/** As cordas de onde a diagonal pode sair: da 6ª à 2ª. */
+export const DIAG_STARTS = [0, 1, 2, 3, 4]
+
+/** As diagonais do tom, inteiras, saindo de cada corda e em cada oitava que cabe no braço.
+ * Da corda de saída para cima a célula se repete igual; a corda Si soma uma casa sozinha,
+ * porque a conta é feita em altura, não em desenho. */
+export function diagonals(keyPc: number, minor: boolean, maxFret = FRET_COUNT): Diagonal[] {
   const out: Diagonal[] = []
-  for (const first of [minor ? 2 : 3] as const) {
-    const startPc = mod12(keyPc + (first === 3 ? TRIO : DUO)[0])
+  const first = minor ? 2 : 3
+  const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
+  const startPc = mod12(keyPc + groups[0][0])
+  for (const start of DIAG_STARTS)
     for (let oct = 0; oct <= 1; oct++) {
-      const f0 = mod12(startPc - OPEN[0]) + 12 * oct
-      const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
+      const f0 = mod12(startPc - OPEN[start]) + 12 * oct
       const notes: PNote[] = []
-      let m = OPEN[0] + f0
-      for (let s = 0; s < 6; s++) {
-        const g = groups[s % 2]
+      let m = OPEN[start] + f0
+      for (let s = start; s < 6; s++) {
+        const g = groups[(s - start) % 2]
         for (let k = 0; k < g.length; k++) {
           while (mod12(m - keyPc) !== g[k]) m++
           notes.push({ s, f: m - OPEN[s], midi: m })
           m++
         }
       }
-      if (notes.every((n) => n.f >= 0 && n.f <= maxFret)) out.push({ first, notes })
+      if (notes.every((n) => n.f >= 0 && n.f <= maxFret)) out.push({ first, start, notes })
     }
-  }
-  return out.sort((a, b) => a.notes[0].f - b.notes[0].f)
+  return out.sort((a, b) => a.start - b.start || a.notes[0].f - b.notes[0].f)
 }
 
 /** Grupos de n notas seguidas: em 3s, 1 2 3, 2 3 4, 3 4 5… */
@@ -261,7 +267,7 @@ export function positions(keyPc: number): Omit<Position, 'label'>[] {
     .slice(0, 5)
     .map((sh, i) => {
       const fs = sh.fr.filter((f) => f >= 0)
-      return { id: i + 1, shape: sh.nm, lo: Math.max(1, Math.min(...fs) - 1), hi: Math.min(17, Math.max(...fs) + 1) }
+      return { id: i + 1, shape: sh.nm, lo: Math.max(1, Math.min(...fs) - 1), hi: Math.min(FRET_COUNT, Math.max(...fs) + 1) }
     })
 }
 
@@ -305,7 +311,7 @@ export function fullVoicing(ch: Chord, lo: number, hi: number): FullVoicing {
     for (const sh of [base - 12, base, base + 12]) {
       const fr = t.map((x) => (x < 0 ? -1 : x + sh))
       const pl = fr.filter((f) => f >= 0)
-      if (pl.length !== t.filter((x) => x >= 0).length || Math.min(...pl) < 0 || Math.max(...pl) > 17) continue
+      if (pl.length !== t.filter((x) => x >= 0).length || Math.min(...pl) < 0 || Math.max(...pl) > FRET_COUNT) continue
       if (fr.some((f, s) => t[s] >= 0 && f < 0)) continue
       const out = pl.reduce((a, f) => a + Math.max(0, lo - f, f - hi), 0)
       const opens = pl.filter((f) => f === 0).length
@@ -331,7 +337,7 @@ export function placeIn(midi: number, prev: PNote | null, lo: number, hi: number
   let bc = 1e9
   for (let s = 0; s < 6; s++) {
     const f = midi - OPEN[s]
-    if (f < 0 || f > 17) continue
+    if (f < 0 || f > FRET_COUNT) continue
     const out = Math.max(0, lo - f, f - hi)
     const c = (prev ? Math.abs(f - prev.f) + 1.5 * Math.abs(s - prev.s) : s * 0.5) + 5 * out
     if (c < bc) {

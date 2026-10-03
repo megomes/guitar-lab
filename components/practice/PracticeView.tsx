@@ -6,7 +6,7 @@
 import { BookOpen } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
-import { PROG_BY } from '@/lib/practice/caged'
+import { DIAG_STARTS, PROG_BY } from '@/lib/practice/caged'
 import type { SeqEvent } from '@/lib/practice/audio'
 import {
   EXERCISES,
@@ -22,6 +22,7 @@ import {
 } from '@/lib/practice/session'
 import type { Settings } from '@/lib/settings'
 import { tonicLabel } from '@/lib/spelling'
+import { FRET_COUNT } from '@/lib/fretboard'
 import { nearestWindow } from '@/lib/marks'
 import { ALL_PCS } from '@/lib/notes'
 
@@ -71,13 +72,17 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
   /* Arrastar o dedo no braço muda a posição: a que tem as casas debaixo do dedo. */
   const pickPosition = useCallback(
     (fret: number) => {
+      /* Cada posição e a mesma uma oitava acima: arrastando, o CAGED dá a volta até a casa 21. */
       const next = nearestWindow(
-        P.positions.map((p) => ({ key: p, window: { from: p.lo, to: p.hi } })),
+        P.positions.flatMap((p) => [
+          { key: { p, oct: 0 }, window: { from: p.lo, to: p.hi } },
+          ...(p.hi + 12 <= FRET_COUNT ? [{ key: { p, oct: 1 }, window: { from: p.lo + 12, to: p.hi + 12 } }] : []),
+        ]),
         fret,
       )
-      if (next && next.id !== P.pos.id) set('shape')(shapeOf(next))
+      if (next && (next.p.id !== P.pos.id || next.oct !== settings.shapeOct)) patch({ shape: shapeOf(next.p), shapeOct: next.oct })
     },
-    [P, set],
+    [P, patch, settings.shapeOct],
   )
 
   /* Nos exercícios de escala o solo fica no tom: a progressão não muda nada, então nem aparece. */
@@ -104,7 +109,7 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
               <Chip
                 key={p.id}
                 on={p.id === P.pos.id}
-                onPress={() => set('shape')(shapeOf(p))}
+                onPress={() => patch({ shape: shapeOf(p), shapeOct: 0 })}
                 label={
                   <>
                     {p.label}
@@ -117,6 +122,18 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
             ))}
           </div>
           <div className="tsub">
+            {ex.id === 'diag' && (
+              <label className="select">
+                Sai da
+                <select value={settings.diagString} onChange={(e) => set('diagString')(Number(e.target.value))}>
+                  {DIAG_STARTS.map((s) => (
+                    <option key={s} value={s}>
+                      {6 - s}ª corda
+                    </option>
+                  ))}
+                </select>
+              </label>
+            )}
             {(['min', 'maj'] as const).map((t) => (
               <Chip
                 key={t}
