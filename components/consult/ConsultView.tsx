@@ -15,6 +15,7 @@ import { PROG_BY } from '@/lib/practice/caged'
 import { computePractice, diagLegend, diagNeck } from '@/lib/practice/session'
 import type { ScaleView, Settings } from '@/lib/settings'
 import { isMinorish } from '@/lib/spelling'
+import { INVERSION_NAME, STRING_SETS, closedTriads, hasTriad, setLabel } from '@/lib/triads'
 
 import { Neck } from '../Neck'
 import { Segmented } from '../ui'
@@ -30,7 +31,7 @@ interface Props {
 }
 
 export function ConsultView({ settings, set, onPractice }: Props) {
-  const { mode, rootPc, scaleId, shape, labelMode, showOutside, quality, notePcs, scaleView } = settings
+  const { mode, rootPc, scaleId, shape, labelMode, showOutside, quality, notePcs, scaleView, chordView, triadSet } = settings
 
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
   const position = useMemo(() => boxFor(rootPc, shape, scale), [rootPc, shape, scale])
@@ -69,6 +70,20 @@ export function ConsultView({ settings, set, onPractice }: Props) {
     return { neck: diagNeck(P, P.diag.notes, box), legend: diagLegend(P, `forma ${shape}`) }
   }, [isPenta, scaleView, scaleId, rootPc, shape, scale, position])
 
+  /* Acordes em tríades: as três inversões fechadas no grupo de cordas, subindo o braço,
+     cada uma num vão com o nome; o resto do arpejo fica fantasma. */
+  const triads = useMemo(() => {
+    if (mode !== 'chords' || chordView !== 'triads' || !hasTriad(quality)) return null
+    const set = STRING_SETS[triadSet] ?? STRING_SETS[0]
+    const shapes = closedTriads(rootPc, quality, set)
+    const lit = (s: number, f: number) => shapes.some((t) => t.notes.some((n) => n.string === s && n.fret === f))
+    return {
+      label: setLabel(set),
+      marks: marks.map((m) => ({ ...m, level: lit(m.string, m.fret) ? ('on' as const) : ('ghost' as const) })),
+      windows: shapes.map((t) => ({ from: t.from, to: t.to, label: INVERSION_NAME[t.inv] })),
+    }
+  }, [mode, chordView, quality, triadSet, rootPc, marks])
+
   const scaleMinor = isMinorish(scale.intervals)
   const chordMinor = isMinorish(chordIntervals(quality))
   const canPractice = scale.intervals.length >= 5
@@ -77,7 +92,7 @@ export function ConsultView({ settings, set, onPractice }: Props) {
     <main className="wrap screen">
       <div className="screen-head">
         {mode === 'scales' && <ScaleHero rootPc={rootPc} scale={scale} />}
-        {mode === 'chords' && <ChordHero rootPc={rootPc} quality={quality} shape={shape} voicing={voicing} />}
+        {mode === 'chords' && <ChordHero rootPc={rootPc} quality={quality} shape={shape} voicing={voicing} triads={triads?.label} />}
         {mode === 'notes' && <NoteHero pcs={notePcs} />}
         <span className="spacer" />
         {mode === 'scales' && canPractice && (
@@ -117,9 +132,13 @@ export function ConsultView({ settings, set, onPractice }: Props) {
             minor={chordMinor}
             shape={shape}
             quality={quality}
+            view={chordView}
+            triadSet={triadSet}
             onRoot={set('rootPc')}
             onShape={set('shape')}
             onQuality={set('quality')}
+            onView={set('chordView')}
+            onTriadSet={set('triadSet')}
           />
         )}
         {mode === 'notes' && <NoteControls pcs={notePcs} onPcs={set('notePcs')} />}
@@ -128,15 +147,15 @@ export function ConsultView({ settings, set, onPractice }: Props) {
       <div className="screen-fill">
         <Neck
           className="card"
-          marks={diag ? diag.neck.marks : marks}
-          windows={diag ? diag.neck.windows : window ? [window] : []}
-          voicing={diag ? null : voicing}
+          marks={diag ? diag.neck.marks : triads ? triads.marks : marks}
+          windows={diag ? diag.neck.windows : triads ? triads.windows : window ? [window] : []}
+          voicing={diag || triads ? null : voicing}
           frets={diag?.neck.frets}
           focus={diag?.neck.focus}
           legend={diag?.legend}
           labelMode={labelMode}
           showOutside={showOutside}
-          outsideLabel={mode === 'notes' ? null : diag ? 'fora das duas' : 'fora da forma'}
+          outsideLabel={mode === 'notes' ? null : diag ? 'fora das duas' : triads ? 'resto do arpejo' : 'fora da forma'}
           onLabelMode={set('labelMode')}
           onShowOutside={set('showOutside')}
         />

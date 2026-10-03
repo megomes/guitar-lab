@@ -4,7 +4,7 @@
  * cada uma na cor do papel. O resto (forma, casas) já está nos controles e no braço. */
 import { memo } from 'react'
 
-import { chordSymbol, tabOf, type QualityId, type Voicing } from '@/lib/chords'
+import { QUALITIES, chordIntervals, chordSymbol, tabOf, type QualityId, type Voicing } from '@/lib/chords'
 import { STRING_LABELS, type Scale, type ShapeId } from '@/lib/fretboard'
 import { degreeColor } from '@/lib/roles'
 import { sharpNames } from '@/lib/spelling'
@@ -49,8 +49,35 @@ export const ScaleHero = memo(ScaleHeroView)
 
 /* ── Acordes ──────────────────────────────────────────────────────────── */
 
-function ChordHeroView({ rootPc, quality, shape, voicing }: { rootPc: number; quality: QualityId; shape: ShapeId; voicing: Voicing | null }) {
+function ChordHeroView({
+  rootPc,
+  quality,
+  shape,
+  voicing,
+  triads,
+}: {
+  rootPc: number
+  quality: QualityId
+  shape: ShapeId
+  voicing: Voicing | null
+  /** Vendo as tríades: o grupo de cordas, no lugar da digitação. */
+  triads?: string
+}) {
   const nn = useNames()
+  if (triads)
+    return (
+      <>
+        <h1 className="screen-title">
+          {chordSymbol(rootPc, quality, nn)}
+          <small>tríades nas cordas {triads}</small>
+        </h1>
+        <div className="pips">
+          {chordIntervals(quality).map((iv, i) => (
+            <Pip key={iv} top={QUALITIES[quality].degrees[i] ?? ''} main={nn(rootPc + iv)} degree={QUALITIES[quality].degrees[i] ?? ''} />
+          ))}
+        </div>
+      </>
+    )
   return (
     <>
       <h1 className="screen-title">
