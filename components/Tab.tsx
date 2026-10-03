@@ -5,8 +5,11 @@
  * Compassos lado a lado enquanto couberem, quebrando em linhas iguais. Colcheias
  * que só caem nos tempos viram semínimas largas, para ler de longe. A nota que
  * está soando acende — é ela que diz onde o olho tem que estar.
+ *
+ * Em faixa (`strip`), quando divide a tela com o braço: uma linha só, que anda
+ * sozinha até o compasso que está tocando, em vez de empurrar o braço para baixo.
  */
-import { memo, useLayoutEffect, useRef, useState } from 'react'
+import { memo, useEffect, useLayoutEffect, useRef, useState } from 'react'
 
 import { STRING_LABELS } from '@/lib/fretboard'
 import type { Bar } from '@/lib/practice/session'
@@ -16,11 +19,12 @@ interface Props {
   cols: number
   /** "compasso:coluna" do que está soando. */
   now: string | null
+  strip?: boolean
 }
 
 const LBL = 16
 
-function TabView({ bars, cols, now }: Props) {
+function TabView({ bars, cols, now, strip = false }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const [avail, setAvail] = useState(900)
 
@@ -56,10 +60,23 @@ function TabView({ bars, cols, now }: Props) {
   })
 
   const lines: number[] = []
-  for (let i = 0; i < bars.length; i += per) lines.push(i)
+  if (strip) lines.push(0)
+  else for (let i = 0; i < bars.length; i += per) lines.push(i)
+  const span = strip ? bars.length : per
+
+  /* Na faixa, o compasso que soa fica à vista. */
+  const playingBar = now === null ? null : Number(now.split(':')[0])
+  useEffect(() => {
+    const el = ref.current
+    if (!strip || !el || playingBar === null) return
+    const bar = el.querySelector<HTMLElement>(`[data-bi="${playingBar}"]`)
+    if (!bar) return
+    const left = bar.offsetLeft - LBL - 10
+    if (left < el.scrollLeft || bar.offsetLeft + bar.offsetWidth > el.scrollLeft + el.clientWidth) el.scrollTo({ left, behavior: 'smooth' })
+  }, [strip, playingBar])
 
   return (
-    <div className="tabwrap" ref={ref}>
+    <div className={`tabwrap${strip ? ' tabwrap-strip' : ''}`} ref={ref}>
       {lines.map((start) => (
         <div key={start} className="tab" style={{ ['--cols' as string]: res, ['--cw' as string]: `${cw}px` }}>
           <div className="tab-lbl">
@@ -69,10 +86,10 @@ function TabView({ bars, cols, now }: Props) {
             ))}
             <div />
           </div>
-          {bars.slice(start, start + per).map((b, j) => {
+          {bars.slice(start, start + span).map((b, j) => {
             const bi = start + j
             return (
-              <div key={bi} className="bar">
+              <div key={bi} className="bar" data-bi={bi}>
                 <div className="bar-head">
                   {b.head?.dot && <span className="dot" style={{ background: b.head.dot }} />}
                   {b.head?.text}

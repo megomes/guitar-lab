@@ -1,11 +1,10 @@
 'use client'
 
-/* A casca: a barra de cima com as seis telas, a barra de baixo no celular e o
- * rodapé com a marca grande, pontilhada, como no Artivo. */
+/* A casca: a barra de cima com as seis telas e a barra de baixo no celular. */
 import { ArrowUpRight, CalendarDays, Crosshair, Guitar, Repeat, Video, Waypoints } from 'lucide-react'
 import { Fragment } from 'react'
 
-import { GROUP_NAME, MODES, type ModeId } from '@/lib/modes'
+import { MODES, type ModeId } from '@/lib/modes'
 
 const ICON = { size: 18, strokeWidth: 1.6 }
 
@@ -82,43 +81,5 @@ export function TabBar({ mode, onMode }: { mode: ModeId; onMode: (m: ModeId) => 
         </button>
       ))}
     </nav>
-  )
-}
-
-export function Footer({ onMode }: { onMode: (m: ModeId) => void }) {
-  return (
-    <footer className="footer">
-      <div className="wrap">
-        <div className="foot-cols">
-          <div>
-            <div className="brand" style={{ marginBottom: 10 }}>
-              <BrandMark size={24} />
-              Guitar Lab
-            </div>
-            <p>
-              O Fretlab e o CAGED Lab num lugar só: a mesma tônica, a mesma forma e as mesmas cores do braço, da consulta ao treino.
-              Funciona sem rede, depois de aberto uma vez.
-            </p>
-          </div>
-          {(['consulta', 'treino'] as const).map((g) => (
-            <div key={g}>
-              <h4>{GROUP_NAME[g]}</h4>
-              <ul>
-                {MODES.filter((m) => m.group === g).map((m) => (
-                  <li key={m.id}>
-                    <button type="button" onClick={() => onMode(m.id)}>
-                      {m.name} <span style={{ color: 'var(--fg-4)' }}>— {m.hint}</span>
-                    </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
-      </div>
-      <span className="wordmark" aria-hidden>
-        Guitar Lab
-      </span>
-    </footer>
   )
 }

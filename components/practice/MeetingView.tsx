@@ -1,7 +1,7 @@
 'use client'
 
-/* Reunião — drills silenciosos de mão esquerda, do CAGED Lab. */
-import { AudioWaveform, Bug, Check, Eye, Layers, MoveHorizontal, MoveUpRight, TrendingUp } from 'lucide-react'
+/* Reunião — drills silenciosos de mão esquerda, do CAGED Lab, numa tela só. */
+import { AudioWaveform, Bug, Eye, Layers, MoveHorizontal, MoveUpRight, TrendingUp } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import type { SeqEvent } from '@/lib/practice/audio'
@@ -11,7 +11,7 @@ import type { Settings } from '@/lib/settings'
 
 import { Neck, ROLE_LEGEND } from '../Neck'
 import { Tab } from '../Tab'
-import { Chip, Eyebrow, HowDialog, type HowContent } from '../ui'
+import { Chip, HowDialog, type HowContent } from '../ui'
 import { PlayerBar, VisSwitch } from './PlayerBar'
 import { usePlayer } from './usePlayer'
 import { useSpaceToPlay } from './useSpaceToPlay'
@@ -56,38 +56,25 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
   const player = usePlayer(data.bars, data.cols, bpm, click, follow)
   useSpaceToPlay(player.toggle)
 
-  return (
-    <main className="wrap stack">
-      <section className="intro">
-        <Eyebrow group="Treino · Reunião">{` · ${P.tonicChord.name}, posição ${P.pos.id}`}</Eyebrow>
-        <h1 className="headline">
-          Mão esquerda <em>no automático</em>
-        </h1>
-        <p className="lede">Desplugado e sem som. Circuito de {DRILLS.reduce((a, x) => a + x.min, 0)} min, na ordem dos cards.</p>
-      </section>
+  const circuit = DRILLS.reduce((a, x) => a + x.min, 0)
+  const openHow = () =>
+    setHow({ title: d.name, how: d.why, steps: d.steps, notes: [`Circuito de ${circuit} min, na ordem dos cards.`, ...TIPS] })
 
-      <div className="dchips">
-        {DRILLS.map((x, i) => (
+  return (
+    <main className="wrap screen">
+      <div className="dchips" role="group" aria-label="Drills">
+        {DRILLS.map((x) => (
           <button key={x.id} type="button" className={`dchip${x.id === d.id ? ' dchip-on' : ''}`} aria-pressed={x.id === d.id} onClick={() => set('drill')(x.id)}>
             <span className="icon-tile">{ICONS[x.icon]}</span>
             <span>
               <b>{x.name}</b>
               <small>{x.min} min</small>
             </span>
-            <span className="n">{i + 1}</span>
           </button>
         ))}
       </div>
 
-      <div className="card practice">
-        <div className="player">
-          <VisSwitch value={drillVis} onChange={set('drillVis')} />
-          <div className="chips chips-scroll" style={{ flex: 1 }}>
-            {data.opts.items.map((it) => (
-              <Chip key={String(it.v)} label={it.label} on={it.v === data.opts.value} onPress={() => patch({ [data.opts.key]: it.v })} />
-            ))}
-          </div>
-        </div>
+      <div className="card practice screen-fill">
         <PlayerBar
           playing={player.playing}
           bpm={bpm}
@@ -95,15 +82,21 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
           onToggle={player.toggle}
           onBpm={set('bpm')}
           onClick={() => set('click')(!click)}
-          onHow={() => setHow({ title: d.name, how: d.why, steps: d.steps })}
-        />
-        {drillVis !== 'neck' && <Tab bars={data.bars} cols={data.cols} now={player.now?.key ?? null} />}
+          onHow={openHow}
+        >
+          <VisSwitch value={drillVis} onChange={set('drillVis')} />
+        </PlayerBar>
+        <div className="chips">
+          {data.opts.items.map((it) => (
+            <Chip key={String(it.v)} label={it.label} on={it.v === data.opts.value} onPress={() => patch({ [data.opts.key]: it.v })} />
+          ))}
+        </div>
+        {drillVis !== 'neck' && <Tab bars={data.bars} cols={data.cols} now={player.now?.key ?? null} strip={drillVis === 'both'} />}
         {drillVis !== 'tab' && (
           <Neck
             marks={data.marks}
             windows={data.windows}
             focus={data.focus}
-            shifts={data.shifts}
             frets={data.frets}
             now={player.now?.pins}
             legend={data.legend.length ? data.legend : ROLE_LEGEND}
@@ -114,15 +107,6 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
             onShowOutside={set('showOutside')}
           />
         )}
-      </div>
-
-      <div className="card tips">
-        {TIPS.map((t) => (
-          <span key={t}>
-            <Check size={15} strokeWidth={2} />
-            {t}
-          </span>
-        ))}
       </div>
 
       <HowDialog content={how} onClose={() => setHow(null)} />

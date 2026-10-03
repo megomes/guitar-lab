@@ -5,7 +5,7 @@
  * casas para o braço e o texto do "Como funciona" — e as telas só desenham.
  */
 import { LONG_FRET_COUNT, type ShapeId } from '../fretboard'
-import type { LegendItem, Mark, NeckWindow, Pin, Shift } from '../marks'
+import type { LegendItem, Mark, NeckWindow, Pin } from '../marks'
 import { CHORD_COLOR, OUTSIDE_COLOR, ROLE_COLOR, degreeColor } from '../roles'
 import { keyOf, namesForKey, type Names } from '../spelling'
 import {
@@ -14,7 +14,6 @@ import {
   buildChords,
   chordPcs,
   degree,
-  diagStair,
   diagonals,
   diagCell,
   fullVoicing,
@@ -345,32 +344,23 @@ export function positionOf(P: Practice, notes: PNote[]): Position {
   return P.positions.reduce((a, p) => (fit(p) > fit(a) ? p : a))
 }
 
-/** O braço da penta diagonal com a escada: a diagonal acesa, o resto da penta fantasma, um
- * recorte tracejado por par de cordas com o nome da forma CAGED e um arco na troca de forma. */
-export function diagNeck(P: Practice, diag: PNote[], labelOf: (p: Position) => string = (p) => `forma ${p.label}`) {
+/** O braço da penta diagonal com a forma CAGED por cima: a diagonal acesa, as notas da forma
+ * que não estão nela só em contorno, a faixa da forma, e o resto da penta fantasma. Assim dá
+ * para ver onde a diagonal entra e sai da forma sem duas camadas acesas brigando. */
+export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number }[]) {
+  const has = (list: { s: number; f: number }[], s: number, f: number) => list.some((n) => n.s === s && n.f === f)
   const marks: Mark[] = []
   for (let s = 0; s < 6; s++)
     for (let f = 0; f <= LONG_FRET_COUNT; f++) {
       const pc = mod12(OPEN[s] + f)
       if (!P.pent.includes(pc)) continue
-      const on = diag.some((n) => n.s === s && n.f === f)
-      marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level: on ? 'on' : 'ghost' })
+      const level = has(diag, s, f) ? 'on' : has(box, s, f) ? 'outline' : 'ghost'
+      marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level })
     }
-  const steps = diagStair(P.keyPc, diag)
-  const windows: NeckWindow[] = steps.map((st) => {
-    const fs = st.inBox.map((n) => n.f)
-    const from = Math.min(...fs)
-    const to = Math.max(...fs)
-    return { from, to, strings: st.strings, label: labelOf(positionOf(P, st.box)), labelSide: st.borrowed.f > to ? 'left' : 'right' }
-  })
-  /* A seta sobe o braço: da nota de baixo para a de cima, entre a emprestada e a vizinha dela na forma. */
-  const shifts: Shift[] = steps.map((st) => {
-    const b = st.borrowed
-    const near = st.inBox.filter((n) => n.s === b.s).reduce((a, n) => (Math.abs(n.f - b.f) < Math.abs(a.f - b.f) ? n : a))
-    return { string: b.s, from: Math.min(b.f, near.f), to: Math.max(b.f, near.f) }
-  })
-  const fs = diag.map((n) => n.f)
-  return { marks, windows, shifts, focus: { from: Math.min(...fs), to: Math.max(...fs) }, frets: LONG_FRET_COUNT }
+  const bf = box.map((n) => n.f)
+  const windows: NeckWindow[] = box.length ? [{ from: Math.min(...bf), to: Math.max(...bf) }] : []
+  const fs = diag.map((n) => n.f).concat(bf)
+  return { marks, windows, focus: { from: Math.min(...fs), to: Math.max(...fs) }, frets: LONG_FRET_COUNT }
 }
 
 /** As 5 formas da penta em ordem no braço, da mais grave, com o nome da posição CAGED de cada uma. */
@@ -408,14 +398,15 @@ function zigLine(P: Practice): Bar[] {
 
 export type ExerciseId = 'box' | 'diag' | 'zig' | 'arp' | 'penta' | 'base' | 'neck'
 
-export const EXERCISES: { id: ExerciseId; name: string; cols: number }[] = [
-  { id: 'box', name: 'Forma da penta', cols: 8 },
-  { id: 'diag', name: 'Penta diagonal', cols: 8 },
-  { id: 'zig', name: 'Zigue-zague das formas', cols: 12 },
-  { id: 'arp', name: 'Arpejos encadeados', cols: 8 },
-  { id: 'penta', name: 'Penta até a terça', cols: 8 },
-  { id: 'base', name: 'Acordes cheios', cols: 8 },
-  { id: 'neck', name: 'Um acorde no braço todo', cols: 12 },
+/** `short` é o nome no botão; `name`, o do "Como funciona". */
+export const EXERCISES: { id: ExerciseId; name: string; short: string; cols: number }[] = [
+  { id: 'box', name: 'Forma da penta', short: 'Forma', cols: 8 },
+  { id: 'diag', name: 'Penta diagonal', short: 'Diagonal', cols: 8 },
+  { id: 'zig', name: 'Zigue-zague das formas', short: 'Zigue-zague', cols: 12 },
+  { id: 'arp', name: 'Arpejos encadeados', short: 'Arpejos', cols: 8 },
+  { id: 'penta', name: 'Penta até a terça', short: 'Até a terça', cols: 8 },
+  { id: 'base', name: 'Acordes cheios', short: 'Acordes', cols: 8 },
+  { id: 'neck', name: 'Um acorde no braço todo', short: 'Braço todo', cols: 12 },
 ]
 
 /** Os exercícios que olham para um acorde da progressão de cada vez. */
@@ -521,14 +512,14 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
         `A pentatônica de <b>${key}</b> na diagonal. No ${modeName(P)} a célula é ${cell}. ` +
         `Cada nota fica a um tom da vizinha, e a célula se repete igual a cada par de cordas — duas casas acima, três ao entrar na corda Si — ` +
         `da casa ${from.f} à ${to.f}: três oitavas sem trocar de desenho. ` +
-        'No braço, cada recorte tracejado é a <b>forma CAGED</b> onde aquele par de cordas mora: 4 das 5 notas são dela. A da seta já é da forma seguinte — é ali que você <b>troca de forma</b>.',
+        `No braço, a faixa e as notas em contorno são a <b>forma ${P.pos.label}</b> da posição: dá para ver por onde a diagonal entra nela e por onde sai. Troque a posição para ver a diagonal cruzando as outras formas.`,
       more: [
         'Só indicador e anelar: as notas de cada grupo ficam a duas casas uma da outra, sem precisar do mindinho.',
         'Subindo, na corda de 3 notas: indicador na 1ª, anelar na 2ª, e deslize o anelar um tom até a 3ª.',
         'Descendo: anelar na nota de cima, indicador na do meio, e deslize o indicador um tom até a última.',
         'Ao entrar no par da corda Si, o desenho inteiro sobe uma casa.',
         'Para seguir na mesma corda depois da última nota de um grupo, deslize três casas: é o shift de 3 casas, que cai no bloco seguinte da penta.',
-        'Entre e saia: toque a forma CAGED de um recorte, volte para a diagonal e saia pela seta. No fim da frase, pouse numa forma e resolva na tônica.',
+        'Entre e saia: toque a forma da posição, pegue a diagonal onde ela cruza a forma e saia por ela. No fim da frase, pouse numa forma e resolva na tônica.',
       ],
     }
   }
@@ -558,7 +549,6 @@ export interface NeckData {
   windows: NeckWindow[]
   /** Para onde o braço rola no celular. Null mostra do começo. */
   focus: NeckWindow | null
-  shifts?: Shift[]
   /** Casas do braço, quando não são as 17 de sempre. */
   frets?: number
 }
@@ -575,7 +565,7 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
     for (let s = 0; s < 6; s++) for (let f = 0; f <= 17; f++) fn(s, f, mod12(OPEN[s] + f))
   }
 
-  if (id === 'diag') return { rings, ...diagNeck(P, P.diag.notes) }
+  if (id === 'diag') return { rings, ...diagNeck(P, P.diag.notes, P.box.notes) }
   if (id === 'box') {
     const inBox = (s: number, f: number) => P.box.notes.some((n) => n.s === s && n.f === f)
     each((s, f, pc) => {
@@ -627,19 +617,23 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
   return { marks, rings, windows: posWindow, focus }
 }
 
-function diagLegendTail(id: ExerciseId): LegendItem[] {
+function diagLegendTail(id: ExerciseId, P: Practice): LegendItem[] {
   if (id === 'zig') return [{ kind: 'windows', text: '5 formas' }]
-  if (id === 'diag')
-    return [
-      { kind: 'windows', text: 'forma CAGED de cada par' },
-      { kind: 'shift', text: 'troca de forma' },
-      { kind: 'ghost', text: 'fora da diagonal' },
-    ]
+  if (id === 'diag') return diagLegendEnd(`forma ${P.pos.label}`)
   return [{ kind: 'ghost', text: id === 'box' ? 'fora da forma' : 'fora da posição' }]
 }
 
-/** A legenda do braço da diagonal, para quem desenha a escada fora da Prática. */
-export const diagLegend = (P: Practice): LegendItem[] => exerciseLegend('diag', P, 0)
+const diagLegendEnd = (form: string): LegendItem[] => [
+  { kind: 'outline', text: form },
+  { kind: 'ghost', text: 'fora das duas' },
+]
+
+/** A legenda da diagonal com a forma por cima, para quem desenha fora da Prática. */
+export function diagLegend(P: Practice, form: string): LegendItem[] {
+  return [...exerciseLegend('box', P, 0).filter((it) => it.kind !== 'ghost'), ...diagLegendEnd(form)].map((it) =>
+    it.kind === 'text' ? { ...it, text: `${it.text} · ${diagCell(P.minor)}` } : it,
+  )
+}
 
 export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): LegendItem[] {
   const c = P.chords[Math.min(sel, P.chords.length - 1)]
@@ -655,7 +649,7 @@ export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): Legend
       dot(ROLE_COLOR.fifth, '5'),
       dot(ROLE_COLOR.other, minor ? '4 e ♭7' : '2 e 6'),
       ...(id === 'penta' ? [{ kind: 'ring', text: 'terça' } as LegendItem] : []),
-      ...diagLegendTail(id),
+      ...diagLegendTail(id, P),
     ]
   }
   return [
