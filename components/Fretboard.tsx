@@ -118,14 +118,17 @@ function FretboardView({
   const { width, height } = size
   const boardLeft = OPEN_WIDTH + NUT_WIDTH
   const boardRight = width - PAD_RIGHT
-  /* Num espaço alto (tablet em pé) as cordas não se afastam além da conta: o braço
-     fica com a altura de um braço e centrado, em vez de esticar. */
-  const rowHeight = Math.min((height - NUMBER_ROW - padTop) / 6, 66)
+  /* A distância entre as cordas acompanha a largura das casas, como num braço de
+     verdade: sem isso, num espaço alto o braço vira uma escada. O que sobrar de
+     altura fica em volta, com o braço centrado. */
+  const boardWidth = Math.max(0, width - PAD_RIGHT - OPEN_WIDTH - NUT_WIDTH)
+  const rowMax = Math.max(36, Math.min(50, (boardWidth / fretCount) * 0.85))
+  const rowHeight = Math.min((height - NUMBER_ROW - padTop) / 6, rowMax)
   const boardTop = padTop + Math.max(0, (height - NUMBER_ROW - padTop - rowHeight * 6) / 2)
   const boardBottom = boardTop + rowHeight * 6
   /* A esfera também respeita a casa mais estreita, para não encostar na vizinha. */
-  const narrowest = (OFFSETS[fretCount] - OFFSETS[fretCount - 1]) * Math.max(0, width - PAD_RIGHT - OPEN_WIDTH - NUT_WIDTH)
-  const radius = Math.max(10, Math.min(17, rowHeight * 0.34, narrowest * 0.46))
+  const narrowest = (OFFSETS[fretCount] - OFFSETS[fretCount - 1]) * boardWidth
+  const radius = Math.max(10, Math.min(17, rowHeight * 0.36, narrowest * 0.46))
 
   const fretX = (n: number) => boardLeft + OFFSETS[n] * (boardRight - boardLeft)
   const slotX = (n: number) => (n === 0 ? OPEN_WIDTH - radius - 10 : (fretX(n - 1) + fretX(n)) / 2)
