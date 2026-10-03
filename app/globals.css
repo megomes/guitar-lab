@@ -1060,6 +1060,16 @@ h3 {
   border-radius: 3px;
 }
 
+.legend-item .lg-shift {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1;
+  color: #fff;
+}
+
 .legend-chord {
   font-weight: 600;
 }
@@ -1168,6 +1178,15 @@ h3 {
 
 .fb-ring {
   filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
+}
+
+.fb-shift {
+  pointer-events: none;
+  animation: fb-fade 260ms var(--ease) both;
+}
+
+.fb-slice {
+  animation: fb-fade 260ms var(--ease) both;
 }
 
 .fb-now {

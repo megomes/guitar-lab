@@ -158,6 +158,7 @@ export function Legend({ items }: { items: LegendItem[] }) {
           {it.kind === 'ghost' && <i className="lg-ghost" />}
           {it.kind === 'ring' && <i className="lg-ring" />}
           {it.kind === 'windows' && <i className="lg-win" />}
+          {it.kind === 'shift' && <i className="lg-shift">↷</i>}
           {it.text}
         </span>
       ))}

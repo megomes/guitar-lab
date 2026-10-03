@@ -4,10 +4,10 @@
  * os acordes são os da posição, as raízes são as da progressão.
  */
 import { STRING_LABELS } from '../fretboard'
-import type { LegendItem, Mark, NeckWindow } from '../marks'
+import type { LegendItem, Mark, NeckWindow, Shift } from '../marks'
 import { CHORD_COLOR, ROLE_COLOR, degreeColor } from '../roles'
 import { OPEN, degree, diagRoot, diagonals, groups, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
-import { chordColor, modeName, pentDeg, tonicName, type Bar, type BarHead, type FollowKey, type Practice, type TabEvent } from './session'
+import { chordColor, diagLegend, diagNeck, modeName, pentDeg, tonicName, type Bar, type BarHead, type FollowKey, type Practice, type TabEvent } from './session'
 
 export type DrillId = 'caged' | 'acordes' | 'inversoes' | 'aranha' | 'pent3' | 'diag' | 'raizes'
 export type DrillIcon = 'ladder' | 'layers' | 'move' | 'spider' | 'wave' | 'diag' | 'eye'
@@ -125,6 +125,8 @@ export interface DrillData {
   /** As opções do drill: uma fileira de pílulas, uma ativa. */
   opts: { key: OptKey; value: number | string; items: { v: number | string; label: string }[] }
   legend: LegendItem[]
+  shifts?: Shift[]
+  frets?: number
 }
 
 const frNotes = (fr: number[]): PNote[] =>
@@ -314,19 +316,17 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
         head: i === 0 ? { text: 'Sobe em 4s', sub: '3-2' } : undefined,
         events: seq.slice(i, i + 8).map((n, k) => ({ col: k, notes: [{ ...n, role: 'deg' as const, deg: deg(n), color: degreeColor(deg(n)) }] })),
       })
-    const w = span(notes.map((n) => n.f))
+    const neck = diagNeck(P, notes)
     return {
       bars,
       cols: 8,
-      marks: notes.map((n) => on(n, deg(n))),
-      windows: [],
-      focus: w,
+      ...neck,
       opts: {
         key: 'diag',
         value: di,
         items: D.map((d, i) => ({ v: i, label: `Raiz na ${diagRoot(d, P.minor)}ª · casa ${Math.min(...d.notes.map((n) => n.f))}` })),
       },
-      legend: [{ kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)} · 3-2` }],
+      legend: diagLegend(P),
     }
   }
 

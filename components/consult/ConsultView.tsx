@@ -10,10 +10,13 @@ import { chordIntervals, chordSymbol, chordVoicing, QUALITIES, type QualityId } 
 import { SCALES, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
 import { marksFromSpots } from '@/lib/marks'
 import { noteSpots } from '@/lib/notes'
-import type { Settings } from '@/lib/settings'
+import { PROG_BY } from '@/lib/practice/caged'
+import { computePractice, diagLegend, diagNeck } from '@/lib/practice/session'
+import type { ScaleView, Settings } from '@/lib/settings'
 import { isMinorish } from '@/lib/spelling'
 
 import { Neck } from '../Neck'
+import { Segmented } from '../ui'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
 import { ChordInsights, NoteInsights, ScaleInsights } from './Insights'
 import { ChordSidebar, NoteSidebar, ScaleSidebar } from './Sidebars'
@@ -28,7 +31,7 @@ interface Props {
 }
 
 export function ConsultView({ settings, set, onOpenChord, onPractice }: Props) {
-  const { mode, rootPc, scaleId, shape, labelMode, showOutside, lookup, quality, notePcs } = settings
+  const { mode, rootPc, scaleId, shape, labelMode, showOutside, lookup, quality, notePcs, scaleView } = settings
 
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
   const position = useMemo(() => boxFor(rootPc, shape, scale), [rootPc, shape, scale])
@@ -57,6 +60,15 @@ export function ConsultView({ settings, set, onOpenChord, onPractice }: Props) {
   }, [mode, notePcs, quality, rootPc, scale, position, voicing])
 
   const window = mode === 'notes' ? null : voicing ? voicing.window : (position?.window ?? null)
+
+  /* Pentatônica: a diagonal que passa pela forma escolhida, com a escada das formas CAGED. */
+  const isPenta = mode === 'scales' && (scaleId === 'pentaMinor' || scaleId === 'pentaMajor')
+  const diag = useMemo(() => {
+    if (!isPenta || scaleView !== 'diag') return null
+    const t = scaleId === 'pentaMinor' ? 'min' : 'maj'
+    const P = computePractice(rootPc, t, PROG_BY[t][0].id, shape)
+    return { neck: diagNeck(P, P.diag.notes, (p) => `forma ${p.label[0]}`), legend: diagLegend(P) }
+  }, [isPenta, scaleView, scaleId, rootPc, shape])
 
   const scaleMinor = isMinorish(scale.intervals)
   const chordMinor = isMinorish(chordIntervals(quality))
@@ -128,14 +140,30 @@ export function ConsultView({ settings, set, onOpenChord, onPractice }: Props) {
         <Neck
           className="card"
           size="lg"
-          marks={marks}
-          windows={window ? [window] : []}
-          voicing={voicing}
+          marks={diag ? diag.neck.marks : marks}
+          windows={diag ? diag.neck.windows : window ? [window] : []}
+          voicing={diag ? null : voicing}
+          shifts={diag?.neck.shifts}
+          frets={diag?.neck.frets}
+          focus={diag?.neck.focus}
+          legend={diag?.legend}
           labelMode={labelMode}
           showOutside={showOutside}
-          outsideLabel={mode === 'notes' ? null : 'fora da forma'}
+          outsideLabel={mode === 'notes' ? null : diag ? 'fora da diagonal' : 'fora da forma'}
           onLabelMode={set('labelMode')}
           onShowOutside={set('showOutside')}
+          extra={
+            isPenta ? (
+              <Segmented<ScaleView>
+                options={[
+                  { value: 'box', label: 'forma' },
+                  { value: 'diag', label: 'diagonal' },
+                ]}
+                value={scaleView}
+                onChange={set('scaleView')}
+              />
+            ) : undefined
+          }
         />
       </div>
     </main>
