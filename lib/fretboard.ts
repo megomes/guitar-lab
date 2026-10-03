@@ -11,9 +11,8 @@ export const SHARP_NAMES = ['C', 'C♯', 'D', 'D♯', 'E', 'F', 'F♯', 'G', 'G�
 /** Afinação padrão, da 6ª para a 1ª corda: E2 A2 D3 G3 B3 E4. */
 export const STANDARD_TUNING = [40, 45, 50, 55, 59, 64]
 export const STRING_LABELS = ['E', 'A', 'D', 'G', 'B', 'e']
-export const FRET_COUNT = 17
-/** O braço inteiro de uma guitarra, para o que não cabe nas 17 casas (a penta diagonal). */
-export const LONG_FRET_COUNT = 21
+/** O braço inteiro de uma guitarra, em todas as telas. */
+export const FRET_COUNT = 21
 
 /** Marcações de posição do braço. 12 leva dois pontos. */
 export const INLAYS = [3, 5, 7, 9, 12, 15, 17, 19, 21]
@@ -141,6 +140,12 @@ export function boxFor(
     base += size
   }
   return null
+}
+
+/** A mesma forma uma oitava acima — o CAGED recomeça depois do D. Null se não cabe. */
+export function shiftPosition(p: Position, by: number, fretCount = FRET_COUNT): Position | null {
+  if (p.window.to + by > fretCount || p.window.from + by < 0) return null
+  return { ...p, window: { from: p.window.from + by, to: p.window.to + by }, frets: p.frets.map((fs) => fs.map((f) => f + by)) }
 }
 
 /* ── Posições no braço ────────────────────────────────────────────────── */

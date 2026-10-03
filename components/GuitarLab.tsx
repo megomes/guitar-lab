@@ -72,7 +72,10 @@ export function GuitarLab() {
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
 
   /* A posição do treino: calculada uma vez e dividida pelas três telas. */
-  const P = useMemo(() => computePractice(rootPc, tonality, prog, shape), [rootPc, tonality, prog, shape])
+  const P = useMemo(
+    () => computePractice(rootPc, tonality, prog, shape, settings.shapeOct, settings.diagString),
+    [rootPc, tonality, prog, shape, settings.shapeOct, settings.diagString],
+  )
 
   const names = useMemo(() => {
     if (mode === 'scales') return namesForScale(rootPc, scale.intervals)
@@ -119,7 +122,7 @@ export function GuitarLab() {
           cta={group === 'consulta' ? { label: 'Praticar', onPress: toPractice } : { label: 'Consultar', onPress: toConsult }}
         />
 
-        {group === 'consulta' && <ConsultView settings={settings} set={set} onPractice={toPractice} />}
+        {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
         {mode === 'plan' && (

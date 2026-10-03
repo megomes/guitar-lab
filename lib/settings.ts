@@ -42,6 +42,10 @@ export interface Settings {
   chordView: ChordView
   /** O grupo de cordas das tríades: 0 = 6-5-4 … 3 = 3-2-1. */
   triadSet: number
+  /** 1: a forma uma oitava acima (o CAGED recomeça depois do D), se couber. */
+  shapeOct: number
+  /** A corda de onde a diagonal sai: 0 = 6ª … 4 = 2ª. */
+  diagString: number
 
   /* Treino */
   tonality: Tonality
@@ -77,6 +81,8 @@ export const DEFAULTS: Settings = {
   scaleView: 'box',
   chordView: 'caged',
   triadSet: 0,
+  shapeOct: 0,
+  diagString: 0,
   tonality: 'min',
   prog: 'menor',
   vis: 'both',
@@ -123,6 +129,8 @@ export function loadSettings(): Settings {
     if (s.scaleView !== 'box' && s.scaleView !== 'diag') s.scaleView = DEFAULTS.scaleView
     if (s.chordView !== 'caged' && s.chordView !== 'triads') s.chordView = DEFAULTS.chordView
     s.triadSet = int(s.triadSet, 0, 3, 0)
+    s.shapeOct = int(s.shapeOct, 0, 1, 0)
+    s.diagString = int(s.diagString, 0, 4, 0)
     if (s.tonality !== 'min' && s.tonality !== 'maj') s.tonality = DEFAULTS.tonality
     if (!PROG_BY[s.tonality].some((p) => p.id === s.prog)) s.prog = PROG_BY[s.tonality][0].id
     if (!VIS.includes(s.vis)) s.vis = DEFAULTS.vis
@@ -134,7 +142,7 @@ export function loadSettings(): Settings {
     s.bpm = int(s.bpm, 40, 160, DEFAULTS.bpm)
     s.click = s.click === true
     s.box = int(s.box, 0, 4, 0)
-    s.diag = int(s.diag, 0, 4, 0)
+    s.diag = int(s.diag, 0, 9, 0)
     s.invSet = int(s.invSet, 0, 3, DEFAULTS.invSet)
     s.cagedSel = int(s.cagedSel, 0, 5, 0)
     s.rootSel = int(s.rootSel, 0, 3, 0)

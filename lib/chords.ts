@@ -153,6 +153,12 @@ export interface Voicing {
   window: Window
 }
 
+/** A mesma digitação uma oitava acima. Null se não cabe no braço. */
+export function shiftVoicing(v: Voicing, by: number, fretCount = 21): Voicing | null {
+  if (v.window.to + by > fretCount || v.window.from + by < 0) return null
+  return { ...v, voices: v.voices.map((x) => ({ ...x, fret: x.fret + by })), window: { from: v.window.from + by, to: v.window.to + by } }
+}
+
 export function chordSymbol(root: number, quality: QualityId, name: (pc: number) => string = (pc) => SHARP_NAMES[pc]): string {
   return name(((root % 12) + 12) % 12) + QUALITIES[quality].symbol
 }

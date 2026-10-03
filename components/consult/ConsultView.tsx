@@ -7,19 +7,19 @@
 import { ArrowUpRight } from 'lucide-react'
 import { useMemo } from 'react'
 
-import { chordIntervals, chordSymbol, chordVoicing, QUALITIES } from '@/lib/chords'
-import { SCALES, SHAPE_IDS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
+import { chordIntervals, chordSymbol, chordVoicing, shiftVoicing, QUALITIES } from '@/lib/chords'
+import { SCALES, SHAPE_IDS, boxFor, scaleSpots, shiftPosition, type Scale, type ShapeId } from '@/lib/fretboard'
 import { marksFromSpots, nearestWindow } from '@/lib/marks'
 import { noteSpots } from '@/lib/notes'
-import { PROG_BY } from '@/lib/practice/caged'
+import { DIAG_STARTS, PROG_BY } from '@/lib/practice/caged'
 import { computePractice, diagLegend, diagNeck } from '@/lib/practice/session'
 import type { ScaleView, Settings } from '@/lib/settings'
 import { isMinorish } from '@/lib/spelling'
 import { INVERSION_NAME, STRING_SETS, closedTriads, hasTriad, setLabel } from '@/lib/triads'
 
 import { Neck } from '../Neck'
-import { Segmented } from '../ui'
-import { ChordControls, NoteControls, ScaleControls } from './Controls'
+import { Chip, Segmented } from '../ui'
+import { CGroup, ChordControls, NoteControls, ScaleControls } from './Controls'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
 
 type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
@@ -27,17 +27,25 @@ type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
 interface Props {
   settings: Settings
   set: Setter
+  patch: (p: Partial<Settings>) => void
   onPractice: () => void
 }
 
-export function ConsultView({ settings, set, onPractice }: Props) {
+/* A forma na oitava escolhida: o CAGED recomeça depois do D, até a casa 21. */
+const atOct = <T,>(x: T | null, oct: number, shift: (x: T, by: number) => T | null): T | null => (x && oct ? (shift(x, 12) ?? x) : x)
+
+export function ConsultView({ settings, set, patch, onPractice }: Props) {
   const { mode, rootPc, scaleId, shape, labelMode, showOutside, quality, notePcs, scaleView, chordView, triadSet } = settings
 
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
-  const position = useMemo(() => boxFor(rootPc, shape, scale), [rootPc, shape, scale])
+  const { shapeOct, diagString } = settings
+  const position = useMemo(() => atOct(boxFor(rootPc, shape, scale), shapeOct, shiftPosition), [rootPc, shape, scale, shapeOct])
 
   /* A digitação na tela: só no modo Acordes. */
-  const voicing = useMemo(() => (mode === 'chords' ? chordVoicing(rootPc, quality, shape) : null), [mode, rootPc, quality, shape])
+  const voicing = useMemo(
+    () => (mode === 'chords' ? atOct(chordVoicing(rootPc, quality, shape), shapeOct, shiftVoicing) : null),
+    [mode, rootPc, quality, shape, shapeOct],
+  )
 
   /* No modo Acordes o fundo é o arpejo: as notas do acorde pelo braço inteiro, apagadas. */
   const marks = useMemo(() => {
@@ -62,13 +70,13 @@ export function ConsultView({ settings, set, onPractice }: Props) {
   const diag = useMemo(() => {
     if (!isPenta || scaleView !== 'diag') return null
     const t = scaleId === 'pentaMinor' ? 'min' : 'maj'
-    const P = computePractice(rootPc, t, PROG_BY[t][0].id, shape)
+    const P = computePractice(rootPc, t, PROG_BY[t][0].id, shape, shapeOct, diagString)
     /* A forma por cima é a mesma da visão "forma": a caixa da escala na forma escolhida. */
     const box = scaleSpots(rootPc, scale, position)
       .filter((sp) => sp.inShape)
       .map((sp) => ({ s: sp.string, f: sp.fret }))
     return { neck: diagNeck(P, P.diag.notes, box), legend: diagLegend(P, `forma ${shape}`) }
-  }, [isPenta, scaleView, scaleId, rootPc, shape, scale, position])
+  }, [isPenta, scaleView, scaleId, rootPc, shape, scale, position, shapeOct, diagString])
 
   /* Acordes em tríades: as três inversões fechadas no grupo de cordas, subindo o braço,
      cada uma num vão com o nome; o resto do arpejo fica fantasma. */
@@ -87,15 +95,18 @@ export function ConsultView({ settings, set, onPractice }: Props) {
   /* Arrastar o dedo no braço leva a forma CAGED junto: a que tem o vão debaixo do dedo. */
   const onPick = useMemo(() => {
     if (mode === 'notes' || triads) return undefined
-    const options = SHAPE_IDS.map((id) => ({
-      key: id,
-      window: mode === 'chords' ? (chordVoicing(rootPc, quality, id)?.window ?? null) : (boxFor(rootPc, id, scale)?.window ?? null),
-    }))
+    /* Cada forma em cada oitava que cabe: arrastando, o CAGED dá a volta até a casa 21. */
+    const options = SHAPE_IDS.flatMap((id) => {
+      const w = mode === 'chords' ? (chordVoicing(rootPc, quality, id)?.window ?? null) : (boxFor(rootPc, id, scale)?.window ?? null)
+      if (!w) return []
+      const up = w.to + 12 <= 21 ? [{ key: { id, oct: 1 }, window: { from: w.from + 12, to: w.to + 12 } }] : []
+      return [{ key: { id, oct: 0 }, window: w }, ...up]
+    })
     return (fret: number) => {
       const next = nearestWindow(options, fret)
-      if (next && next !== shape) set('shape')(next)
+      if (next && (next.id !== shape || next.oct !== shapeOct)) patch({ shape: next.id, shapeOct: next.oct })
     }
-  }, [mode, triads, rootPc, quality, scale, shape, set])
+  }, [mode, triads, rootPc, quality, scale, shape, shapeOct, patch])
 
   const scaleMinor = isMinorish(scale.intervals)
   const chordMinor = isMinorish(chordIntervals(quality))
@@ -125,9 +136,16 @@ export function ConsultView({ settings, set, onPractice }: Props) {
             scaleId={scaleId}
             window={position?.window ?? null}
             onRoot={set('rootPc')}
-            onShape={set('shape') as (s: ShapeId) => void}
+            onShape={(s: ShapeId) => patch({ shape: s, shapeOct: 0 })}
             onScale={set('scaleId')}
           />
+        )}
+        {diag && (
+          <CGroup label="Sai da" hint="corda da raiz">
+            {DIAG_STARTS.map((s) => (
+              <Chip key={s} label={`${6 - s}ª`} fixed on={diagString === s} onPress={() => set('diagString')(s)} />
+            ))}
+          </CGroup>
         )}
         {mode === 'scales' && isPenta && (
           <Segmented<ScaleView>
@@ -148,7 +166,7 @@ export function ConsultView({ settings, set, onPractice }: Props) {
             view={chordView}
             triadSet={triadSet}
             onRoot={set('rootPc')}
-            onShape={set('shape')}
+            onShape={(s: ShapeId) => patch({ shape: s, shapeOct: 0 })}
             onQuality={set('quality')}
             onView={set('chordView')}
             onTriadSet={set('triadSet')}
@@ -163,7 +181,6 @@ export function ConsultView({ settings, set, onPractice }: Props) {
           marks={diag ? diag.neck.marks : triads ? triads.marks : marks}
           windows={diag ? diag.neck.windows : triads ? triads.windows : window ? [window] : []}
           voicing={diag || triads ? null : voicing}
-          frets={diag?.neck.frets}
           focus={diag?.neck.focus}
           legend={diag?.legend}
           labelMode={labelMode}

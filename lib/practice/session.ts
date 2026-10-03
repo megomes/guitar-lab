@@ -4,7 +4,7 @@
  * Cada exercício devolve a mesma coisa — compassos para a tab e para o som, as
  * casas para o braço e o texto do "Como funciona" — e as telas só desenham.
  */
-import { LONG_FRET_COUNT, type ShapeId } from '../fretboard'
+import { FRET_COUNT, type ShapeId } from '../fretboard'
 import type { LegendItem, Mark, NeckWindow, Pin } from '../marks'
 import { CHORD_COLOR, OUTSIDE_COLOR, ROLE_COLOR, degreeColor } from '../roles'
 import { keyOf, namesForKey, type Names } from '../spelling'
@@ -89,12 +89,15 @@ export interface Practice {
 /** A letra da forma de uma posição: "Em" → E. É o elo com a forma da consulta. */
 export const shapeOf = (p: Position) => p.label[0] as ShapeId
 
-export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgId, shape: ShapeId): Practice {
+/** `oct` 1: a posição uma oitava acima, se couber — o CAGED recomeça depois do D.
+ * `diagString`: a corda de onde a diagonal sai (0 = 6ª). */
+export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgId, shape: ShapeId, oct = 0, diagString = 0): Practice {
   const minor = tonality === 'min'
   const keyPc = keyOf(tonicPc, minor)
   const names = namesForKey(keyPc)
   const ps: Position[] = positions(keyPc).map((p) => ({ ...p, label: minor ? MINOR_LABEL[p.shape] : p.shape }))
-  const pos = ps.find((p) => shapeOf(p) === shape) ?? ps[0]
+  const base = ps.find((p) => shapeOf(p) === shape) ?? ps[0]
+  const pos = oct && base.hi + 12 <= FRET_COUNT ? { ...base, lo: base.lo + 12, hi: base.hi + 12 } : base
   const chords: PosChord[] = buildChords(keyPc, prog, names).map((c) => ({
     ...c,
     voicing: fullVoicing(c, pos.lo, pos.hi),
@@ -117,7 +120,7 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
   for (const b of pentBoxes(keyPc))
     for (const sh of [0, 12, -12]) {
       const notes = b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))
-      if (notes.some((n) => n.f < 0 || n.f > 17)) continue
+      if (notes.some((n) => n.f < 0 || n.f > FRET_COUNT)) continue
       const c = notes.reduce((a, n) => a + Math.max(0, pos.lo - n.f, n.f - pos.hi), 0)
       if (c < bc) {
         bc = c
@@ -129,7 +132,9 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
   const away = (n: PNote) => Math.max(0, pos.lo - n.f, n.f - pos.hi)
   let diag: Diagonal | null = null
   let dc = 1e9
-  for (const d of diagonals(keyPc, minor)) {
+  const all = diagonals(keyPc, minor)
+  const fromString = all.filter((d) => d.start === diagString)
+  for (const d of fromString.length ? fromString : all) {
     const notes = d.notes
     const low = notes.filter((n) => n.s === notes[0].s)
     const c = -notes.filter((n) => away(n) === 0).length + 0.01 * low.reduce((a, n) => a + away(n), 0)
@@ -351,7 +356,7 @@ export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number
   const has = (list: { s: number; f: number }[], s: number, f: number) => list.some((n) => n.s === s && n.f === f)
   const marks: Mark[] = []
   for (let s = 0; s < 6; s++)
-    for (let f = 0; f <= LONG_FRET_COUNT; f++) {
+    for (let f = 0; f <= FRET_COUNT; f++) {
       const pc = mod12(OPEN[s] + f)
       if (!P.pent.includes(pc)) continue
       const level = has(diag, s, f) ? 'on' : has(box, s, f) ? 'outline' : 'ghost'
@@ -360,7 +365,7 @@ export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number
   const bf = box.map((n) => n.f)
   const windows: NeckWindow[] = box.length ? [{ from: Math.min(...bf), to: Math.max(...bf) }] : []
   const fs = diag.map((n) => n.f).concat(bf)
-  return { marks, windows, focus: { from: Math.min(...fs), to: Math.max(...fs) }, frets: LONG_FRET_COUNT }
+  return { marks, windows, focus: { from: Math.min(...fs), to: Math.max(...fs) } }
 }
 
 /** As 5 formas da penta em ordem no braço, da mais grave, com o nome da posição CAGED de cada uma. */
@@ -369,7 +374,7 @@ export function neckBoxes(P: Practice): { label: string; notes: PNote[] }[] {
   for (const b of pentBoxes(P.keyPc))
     for (const sh of [-12, 0, 12]) {
       const notes = b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))
-      if (notes.every((n) => n.f >= 0 && n.f <= 17)) all.push(notes)
+      if (notes.every((n) => n.f >= 0 && n.f <= FRET_COUNT)) all.push(notes)
     }
   all.sort((a, b) => a[0].f - b[0].f)
   return all.slice(0, 5).map((notes) => ({ label: positionOf(P, notes).label, notes }))
@@ -505,13 +510,13 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
     const to = d[d.length - 1]
     const nn = P.names
     const cell = P.minor
-      ? `<b>2-3</b>, saindo da ♭7: na 6ª corda ♭7 e 1 (${nn(d[0].midi)} e ${nn(d[1].midi)}), na 5ª ♭3 4 5`
-      : `<b>3-2</b>, saindo da tônica: na 6ª corda 1 2 3 (${nn(d[0].midi)}, ${nn(d[1].midi)}, ${nn(d[2].midi)}), na 5ª 5 e 6`
+      ? `<b>2-3</b>, saindo da ♭7: na ${6 - P.diag.start}ª corda ♭7 e 1 (${nn(d[0].midi)} e ${nn(d[1].midi)}), na ${5 - P.diag.start}ª ♭3 4 5`
+      : `<b>3-2</b>, saindo da tônica: na ${6 - P.diag.start}ª corda 1 2 3 (${nn(d[0].midi)}, ${nn(d[1].midi)}, ${nn(d[2].midi)}), na ${5 - P.diag.start}ª 5 e 6`
     return {
       how:
         `A pentatônica de <b>${key}</b> na diagonal. No ${modeName(P)} a célula é ${cell}. ` +
         `Cada nota fica a um tom da vizinha, e a célula se repete igual a cada par de cordas — duas casas acima, três ao entrar na corda Si — ` +
-        `da casa ${from.f} à ${to.f}: três oitavas sem trocar de desenho. ` +
+        `da casa ${from.f} à ${to.f}, sem trocar de desenho. ` +
         `No braço, a faixa e as notas em contorno são a <b>forma ${P.pos.label}</b> da posição: dá para ver por onde a diagonal entra nela e por onde sai. Troque a posição para ver a diagonal cruzando as outras formas.`,
       more: [
         'Só indicador e anelar: as notas de cada grupo ficam a duas casas uma da outra, sem precisar do mindinho.',
@@ -562,7 +567,7 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
   const posWindow = [{ from: lo, to: hi }]
   const focus = { from: lo, to: hi }
   const each = (fn: (s: number, f: number, pc: number) => void) => {
-    for (let s = 0; s < 6; s++) for (let f = 0; f <= 17; f++) fn(s, f, mod12(OPEN[s] + f))
+    for (let s = 0; s < 6; s++) for (let f = 0; f <= FRET_COUNT; f++) fn(s, f, mod12(OPEN[s] + f))
   }
 
   if (id === 'diag') return { rings, ...diagNeck(P, P.diag.notes, P.box.notes) }
