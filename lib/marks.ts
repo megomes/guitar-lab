@@ -50,3 +50,19 @@ export type LegendItem =
   | { kind: 'dot'; color: string; text: string }
   | { kind: 'chord'; color: string; text: string }
   | { kind: 'ghost' | 'ring' | 'windows' | 'outline' | 'text'; text: string }
+
+/** Qual dos vãos está debaixo do dedo: o que contém a casa ou, se nenhum, o mais perto. */
+export function nearestWindow<T>(options: { key: T; window: NeckWindow | null }[], fret: number): T | null {
+  let best: T | null = null
+  let bd = Infinity
+  for (const o of options) {
+    if (!o.window) continue
+    const { from, to } = o.window
+    const d = Math.max(0, from - fret, fret - to) * 100 + Math.abs((from + to) / 2 - fret)
+    if (d < bd) {
+      bd = d
+      best = o.key
+    }
+  }
+  return best
+}
