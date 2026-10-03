@@ -7,7 +7,6 @@
 import { QUALITIES, type QualityId } from './chords'
 import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, type ModeId } from './modes'
-import { NATURALS } from './notes'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
 import { DRILLS, PERMS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
@@ -19,7 +18,8 @@ export type ScaleView = 'box' | 'diag'
 /** O acorde na consulta: a forma CAGED inteira, ou as tríades num grupo de três cordas. */
 export type ChordView = 'caged' | 'triads'
 
-export const SETTINGS_VERSION = 1
+/** 2: a pentatônica menor virou o padrão de tudo. */
+export const SETTINGS_VERSION = 2
 
 export interface Settings {
   version: number
@@ -77,7 +77,8 @@ export const DEFAULTS: Settings = {
   scaleId: 'pentaMinor',
   lookup: null,
   quality: 'min',
-  notePcs: NATURALS,
+  /** A pentatônica menor de Lá, com a tônica primeiro (a referência dos graus). */
+  notePcs: [9, 0, 2, 4, 7],
   scaleView: 'box',
   chordView: 'caged',
   triadSet: 0,
@@ -115,6 +116,11 @@ export function loadSettings(): Settings {
     const s = Object.fromEntries(
       Object.entries(DEFAULTS).map(([key, value]) => [key, key in parsed ? parsed[key] : value]),
     ) as unknown as Settings
+    /* Quem vem da versão 1 passa a abrir na pentatônica menor, o padrão agora. */
+    if (!(parsed.version >= 2)) {
+      s.scaleId = 'pentaMinor'
+      s.notePcs = DEFAULTS.notePcs
+    }
     s.version = SETTINGS_VERSION
     if (!MODES.some((m) => m.id === s.mode)) s.mode = DEFAULTS.mode
     s.rootPc = int(s.rootPc, 0, 11, DEFAULTS.rootPc)

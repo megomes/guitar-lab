@@ -36,10 +36,10 @@ export interface Scale {
 
 /* As quatro primeiras são as do dia a dia; o resto fica para quando fizer falta. */
 export const SCALES: Scale[] = [
+  { id: 'pentaMinor', name: 'Pentatônica menor', intervals: [0, 3, 5, 7, 10],     degrees: ['1', '♭3', '4', '5', '♭7'] },
+  { id: 'pentaMajor', name: 'Pentatônica maior', intervals: [0, 2, 4, 7, 9],      degrees: ['1', '2', '3', '5', '6'] },
   { id: 'major',      name: 'Maior (jônio)',   intervals: [0, 2, 4, 5, 7, 9, 11], degrees: ['1', '2', '3', '4', '5', '6', '7'] },
   { id: 'minor',      name: 'Menor natural',   intervals: [0, 2, 3, 5, 7, 8, 10], degrees: ['1', '2', '♭3', '4', '5', '♭6', '♭7'] },
-  { id: 'pentaMajor', name: 'Pentatônica maior', intervals: [0, 2, 4, 7, 9],      degrees: ['1', '2', '3', '5', '6'] },
-  { id: 'pentaMinor', name: 'Pentatônica menor', intervals: [0, 3, 5, 7, 10],     degrees: ['1', '♭3', '4', '5', '♭7'] },
   { id: 'dorian',     name: 'Dórico',          intervals: [0, 2, 3, 5, 7, 9, 10], degrees: ['1', '2', '♭3', '4', '5', '6', '♭7'] },
   { id: 'phrygian',   name: 'Frígio',          intervals: [0, 1, 3, 5, 7, 8, 10], degrees: ['1', '♭2', '♭3', '4', '5', '♭6', '♭7'] },
   { id: 'lydian',     name: 'Lídio',           intervals: [0, 2, 4, 6, 7, 9, 11], degrees: ['1', '2', '3', '♯4', '5', '6', '7'] },
