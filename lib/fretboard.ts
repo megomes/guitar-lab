@@ -12,9 +12,11 @@ export const SHARP_NAMES = ['C', 'C♯', 'D', 'D♯', 'E', 'F', 'F♯', 'G', 'G�
 export const STANDARD_TUNING = [40, 45, 50, 55, 59, 64]
 export const STRING_LABELS = ['E', 'A', 'D', 'G', 'B', 'e']
 export const FRET_COUNT = 17
+/** O braço inteiro de uma guitarra, para o que não cabe nas 17 casas (a penta diagonal). */
+export const LONG_FRET_COUNT = 21
 
 /** Marcações de posição do braço. 12 leva dois pontos. */
-export const INLAYS = [3, 5, 7, 9, 12, 15, 17]
+export const INLAYS = [3, 5, 7, 9, 12, 15, 17, 19, 21]
 export const DOUBLE_INLAYS = [12]
 
 export function noteName(pc: number): string {

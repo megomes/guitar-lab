@@ -36,6 +36,8 @@ interface Props {
   size?: 'md' | 'lg'
   className?: string
   extra?: ReactNode
+  /** Casas do braço; o padrão são 17. */
+  frets?: number
 }
 
 function NeckView(props: Props) {
@@ -58,6 +60,7 @@ function NeckView(props: Props) {
           rings={props.rings}
           now={props.now}
           focus={props.focus}
+          frets={props.frets}
           labelMode={labelMode}
           showOutside={showOutside || !outsideLabel}
         />

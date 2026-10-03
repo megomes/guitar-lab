@@ -39,6 +39,8 @@ interface Props {
   labelMode: LabelMode
   /** Para onde rolar no celular; sem isso, a digitação ou o primeiro vão. */
   focus?: NeckWindow | null
+  /** Quantas casas desenhar. */
+  frets?: number
 }
 
 /* ── Medidas ─────────────────────────────────────────────────────────── */
@@ -65,8 +67,6 @@ function fretOffsets(count: number): number[] {
   return offsets
 }
 
-const OFFSETS = fretOffsets(FRET_COUNT)
-
 const gradientKey = (hex: string) => hex.replace('#', '').toLowerCase()
 
 interface Hover {
@@ -79,7 +79,8 @@ interface Hover {
   fret: number
 }
 
-function FretboardView({ marks, windows = [], showOutside, voicing = null, rings = [], now = [], labelMode, focus }: Props) {
+function FretboardView({ marks, windows = [], showOutside, voicing = null, rings = [], now = [], labelMode, focus, frets: fretCount = FRET_COUNT }: Props) {
+  const OFFSETS = useMemo(() => fretOffsets(fretCount), [fretCount])
   const names = useNames()
   const uid = useId().replace(/[^a-zA-Z0-9]/g, '')
   const id = (name: string) => `${uid}-${name}`
@@ -130,7 +131,7 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
       return
     }
     const from = target.from <= 0 ? 0 : fretX(target.from - 1)
-    const to = fretX(Math.min(FRET_COUNT, target.to))
+    const to = fretX(Math.min(fretCount, target.to))
     el.scrollTo({ left: (from + to) / 2 - el.clientWidth / 2, behavior: still ? 'auto' : 'smooth' })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [target?.from, target?.to, width])
@@ -149,13 +150,13 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
 
   const geometry = useMemo(() => {
     if (width <= 0) return null
-    const frets = Array.from({ length: FRET_COUNT }, (_, i) => i + 1)
+    const frets = Array.from({ length: fretCount }, (_, i) => i + 1)
     return (
       <g>
         <rect x={boardLeft - 2} y={boardTop} width={boardRight - boardLeft + 2} height={boardBottom - boardTop} rx={14} fill={`url(#${id('wood')})`} stroke="rgba(255,255,255,0.07)" />
         <rect x={boardLeft - 2} y={boardTop} width={boardRight - boardLeft + 2} height={boardBottom - boardTop} rx={14} fill={`url(#${id('sheen')})`} />
 
-        {INLAYS.filter((n) => n <= FRET_COUNT).map((n) =>
+        {INLAYS.filter((n) => n <= fretCount).map((n) =>
           (DOUBLE_INLAYS.includes(n) ? [1.5, 4.5] : [3]).map((row) => (
             <circle key={`inlay-${n}-${row}`} cx={slotX(n)} cy={boardTop + rowHeight * row} r={5.5} fill={`url(#${id('pearl')})`} />
           )),
@@ -191,18 +192,23 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
     )
     // Tudo aqui dentro sai das dimensões.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [width, height, uid, padTop])
+  }, [width, height, uid, padTop, fretCount])
 
   const inWindow = (n: number) => windows.some((w) => n >= w.from && n <= w.to)
   const bandX = (w: NeckWindow) => (w.from <= 0 ? slotX(0) - radius - 8 : fretX(w.from - 1))
-  const bandRight = (w: NeckWindow) => fretX(Math.min(FRET_COUNT, Math.max(1, w.to)))
+  const bandRight = (w: NeckWindow) => fretX(Math.min(fretCount, Math.max(1, w.to)))
 
   const hoverOn = (x: number, y: number, m: { pc: number; degree: string; string: number; fret: number; color?: string }) => () =>
     setHover({ x, y, note: names(m.pc), degree: m.degree, color: colorOf(m), string: m.string, fret: m.fret })
 
   return (
     <div className="fb-scroll" ref={scroller}>
-      <div className="fb-board" ref={board} onMouseLeave={() => setHover(null)}>
+      <div
+        className="fb-board"
+        ref={board}
+        style={fretCount === FRET_COUNT ? undefined : { ['--fb-scale' as string]: fretCount / FRET_COUNT }}
+        onMouseLeave={() => setHover(null)}
+      >
         {width > 0 && (
           <svg width={width} height={height} className="fb-svg" role="img" aria-label="braço da guitarra">
             <defs>
@@ -273,7 +279,7 @@ function FretboardView({ marks, windows = [], showOutside, voicing = null, rings
             {geometry}
 
             {/* Números das casas: os do vão aceso em laranja. */}
-            {Array.from({ length: FRET_COUNT }, (_, i) => i + 1).map((n) => (
+            {Array.from({ length: fretCount }, (_, i) => i + 1).map((n) => (
               <text key={`num-${n}`} x={slotX(n)} y={boardBottom + NUMBER_ROW / 2 + 2} className={`fb-fret-number${inWindow(n) ? ' fb-fret-number-on' : ''}`}>
                 {n}
               </text>
