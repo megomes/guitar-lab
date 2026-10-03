@@ -1,8 +1,8 @@
 'use client'
 
-/* As peças que toda tela usa: chip, grupo, segmentado, interruptor, métrica,
- * painel, selo, legenda e o diálogo do "Como funciona". */
-import { X } from 'lucide-react'
+/* As peças que toda tela usa: chip, segmentado, interruptor, legenda e o
+ * diálogo do "Como funciona". */
+import { Check, X } from 'lucide-react'
 import { memo, useEffect, useRef, type ReactNode } from 'react'
 
 import type { LegendItem } from '@/lib/marks'
@@ -33,50 +33,6 @@ function ChipView({ label, on = false, onPress, fixed = false, dot, strong = fal
 }
 
 export const Chip = memo(ChipView)
-
-export interface GroupAction {
-  label: string
-  onPress: () => void
-}
-
-/** Um grupo de controles com rótulo em cima e, se fizer sentido, ações. */
-export function Group({
-  label,
-  hint,
-  action,
-  children,
-  grid,
-}: {
-  label: string
-  hint?: string
-  action?: GroupAction | GroupAction[]
-  children: ReactNode
-  grid?: number
-}) {
-  const actions = action === undefined ? [] : Array.isArray(action) ? action : [action]
-  return (
-    <section className="group">
-      <div className="group-head">
-        <h3 className="group-label">
-          {label}
-          {hint && <span className="group-hint">{hint}</span>}
-        </h3>
-        {actions.length > 0 && (
-          <div className="group-actions">
-            {actions.map((a) => (
-              <button key={a.label} type="button" className="group-action" onClick={a.onPress}>
-                {a.label}
-              </button>
-            ))}
-          </div>
-        )}
-      </div>
-      <div className={grid ? 'chips chips-grid' : 'chips'} style={grid ? { gridTemplateColumns: `repeat(${grid}, 1fr)` } : undefined}>
-        {children}
-      </div>
-    </section>
-  )
-}
 
 export function Segmented<T extends string>({
   options,
@@ -117,38 +73,6 @@ export function Switch({ label, on, onChange }: { label: string; on: boolean; on
   )
 }
 
-export function Metric({ icon, label, value }: { icon: ReactNode; label: string; value: ReactNode }) {
-  return (
-    <div className="metric">
-      <span className="icon-tile">{icon}</span>
-      <span className="metric-text">
-        <span className="metric-label">{label}</span>
-        <span className="metric-value">{value}</span>
-      </span>
-    </div>
-  )
-}
-
-export function Panel({ title, children, className }: { title?: string; children: ReactNode; className?: string }) {
-  return (
-    <section className={`panel${className ? ` ${className}` : ''}`}>
-      {title && <h2 className="panel-title">{title}</h2>}
-      {children}
-    </section>
-  )
-}
-
-/** O selo de cima de cada tela: ponto laranja, grupo e o que está em uso. */
-export function Eyebrow({ group, children }: { group: string; children?: ReactNode }) {
-  return (
-    <span className="eyebrow">
-      <i />
-      <b>{group}</b>
-      {children && <span className="eyebrow-ctx">{children}</span>}
-    </span>
-  )
-}
-
 export function Legend({ items }: { items: LegendItem[] }) {
   return (
     <div className="legend" aria-label="legenda">
@@ -158,7 +82,7 @@ export function Legend({ items }: { items: LegendItem[] }) {
           {it.kind === 'ghost' && <i className="lg-ghost" />}
           {it.kind === 'ring' && <i className="lg-ring" />}
           {it.kind === 'windows' && <i className="lg-win" />}
-          {it.kind === 'shift' && <i className="lg-shift">↷</i>}
+          {it.kind === 'outline' && <i className="lg-outline" />}
           {it.text}
         </span>
       ))}
@@ -172,6 +96,8 @@ export interface HowContent {
   how: string
   steps: string[]
   src?: string
+  /** Lembretes soltos, fora da ordem dos passos. */
+  notes?: string[]
 }
 
 /** O "Como funciona": o porquê, os passos e de onde veio a ideia. */
@@ -209,6 +135,16 @@ export function HowDialog({ content, onClose }: { content: HowContent | null; on
               <li key={s}>{s}</li>
             ))}
           </ol>
+          {content.notes && (
+            <ul className="dlg-notes">
+              {content.notes.map((n) => (
+                <li key={n}>
+                  <Check size={14} strokeWidth={2} />
+                  {n}
+                </li>
+              ))}
+            </ul>
+          )}
           {content.src && <div className="src" dangerouslySetInnerHTML={{ __html: `Fonte da ideia: ${content.src}` }} />}
         </div>
       )}

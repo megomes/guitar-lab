@@ -10,7 +10,7 @@
  */
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
-import { chordIntervals, type QualityId } from '@/lib/chords'
+import { chordIntervals } from '@/lib/chords'
 import { SCALES } from '@/lib/fretboard'
 import { MODES, type ModeId } from '@/lib/modes'
 import { PROG_BY } from '@/lib/practice/caged'
@@ -23,7 +23,7 @@ import { NamesContext } from './names'
 import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
-import { Footer, Nav, TabBar } from './Shell'
+import { Nav, TabBar } from './Shell'
 
 export function GuitarLab() {
   const [settings, setSettings] = useState<Settings>(DEFAULTS)
@@ -101,8 +101,6 @@ export function GuitarLab() {
     goTop()
   }, [])
 
-  const openChord = useCallback((root: number, q: QualityId) => setSettings((s) => ({ ...s, mode: 'chords', rootPc: root, quality: q })), [])
-
   const context =
     group === 'treino'
       ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
@@ -121,7 +119,7 @@ export function GuitarLab() {
           cta={group === 'consulta' ? { label: 'Praticar', onPress: toPractice } : { label: 'Consultar', onPress: toConsult }}
         />
 
-        {group === 'consulta' && <ConsultView settings={settings} set={set} onOpenChord={openChord} onPractice={toPractice} />}
+        {group === 'consulta' && <ConsultView settings={settings} set={set} onPractice={toPractice} />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
         {mode === 'plan' && (
@@ -142,7 +140,6 @@ export function GuitarLab() {
           />
         )}
 
-        <Footer onMode={setMode} />
         <TabBar mode={mode} onMode={setMode} />
       </div>
     </NamesContext.Provider>

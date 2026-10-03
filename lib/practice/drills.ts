@@ -4,7 +4,7 @@
  * os acordes são os da posição, as raízes são as da progressão.
  */
 import { STRING_LABELS } from '../fretboard'
-import type { LegendItem, Mark, NeckWindow, Shift } from '../marks'
+import type { LegendItem, Mark, NeckWindow } from '../marks'
 import { CHORD_COLOR, ROLE_COLOR, degreeColor } from '../roles'
 import { OPEN, degree, diagCell, diagonals, groups, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
 import { chordColor, diagLegend, diagNeck, modeName, pentDeg, tonicName, type Bar, type BarHead, type FollowKey, type Practice, type TabEvent } from './session'
@@ -125,7 +125,6 @@ export interface DrillData {
   /** As opções do drill: uma fileira de pílulas, uma ativa. */
   opts: { key: OptKey; value: number | string; items: { v: number | string; label: string }[] }
   legend: LegendItem[]
-  shifts?: Shift[]
   frets?: number
 }
 
@@ -316,7 +315,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
         head: i === 0 ? { text: 'Sobe em 4s', sub: diagCell(P.minor) } : undefined,
         events: seq.slice(i, i + 8).map((n, k) => ({ col: k, notes: [{ ...n, role: 'deg' as const, deg: deg(n), color: degreeColor(deg(n)) }] })),
       })
-    const neck = diagNeck(P, notes)
+    const neck = diagNeck(P, notes, P.box.notes)
     return {
       bars,
       cols: 8,
@@ -326,7 +325,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
         value: di,
         items: D.map((d, i) => ({ v: i, label: `${diagCell(P.minor)} · casa ${d.notes[0].f}` })),
       },
-      legend: diagLegend(P),
+      legend: diagLegend(P, `forma ${P.pos.label}`),
     }
   }
 

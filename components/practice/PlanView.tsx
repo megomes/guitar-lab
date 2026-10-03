@@ -1,14 +1,13 @@
 'use client'
 
-/* Plano — 30 minutos por noite, do CAGED Lab: os cinco blocos, a rotação das
- * posições e o critério para avançar, com as evoluções do tom em uso. */
+/* Plano — 30 minutos por noite, do CAGED Lab: os cinco blocos lado a lado, a
+ * rotação das posições e o critério para avançar, com as evoluções do tom em uso. */
 import { ArrowUpRight } from 'lucide-react'
 
 import { BLOCKS, blockRanges, evolutions, type Evolution } from '@/lib/practice/plan'
 import { shapeOf, type ExerciseId, type Practice } from '@/lib/practice/session'
 import type { ShapeId } from '@/lib/fretboard'
 
-import { Eyebrow } from '../ui'
 
 interface Props {
   P: Practice
@@ -22,14 +21,13 @@ export function PlanView({ P, onExercise, onPosition, onLoad }: Props) {
   const evos = evolutions(P)
 
   return (
-    <main className="wrap stack">
-      <section className="intro">
-        <Eyebrow group="Treino · Plano">{` · ${P.tonicChord.name}`}</Eyebrow>
-        <h1 className="headline">
+    <main className="wrap screen plan">
+      <div className="screen-head">
+        <h1 className="screen-title">
           30 minutos, <em>toda noite</em>
         </h1>
-        <p className="lede">Cinco blocos, uma posição por noite, critério claro para avançar.</p>
-      </section>
+        <span className="lede">Cinco blocos, uma posição por noite, critério claro para avançar.</span>
+      </div>
 
       <div className="card blocks">
         {BLOCKS.map((b, i) => (
