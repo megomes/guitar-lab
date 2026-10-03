@@ -16,7 +16,7 @@ import {
   degree,
   diagStair,
   diagonals,
-  diagRoot,
+  diagCell,
   fullVoicing,
   mod12,
   pentBoxes,
@@ -83,7 +83,7 @@ export interface Practice {
   tonicChord: Chord
   /** A caixa da pentatônica (2 notas por corda) que mora na posição. */
   box: { forma: number; notes: PNote[] }
-  /** A penta diagonal (3-2) que mais passa pela posição. */
+  /** A penta diagonal do tom (2-3 no menor, 3-2 no maior); se há duas, a que mais passa pela posição. */
   diag: Diagonal
 }
 
@@ -130,7 +130,7 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
   const away = (n: PNote) => Math.max(0, pos.lo - n.f, n.f - pos.hi)
   let diag: Diagonal | null = null
   let dc = 1e9
-  for (const d of diagonals(keyPc)) {
+  for (const d of diagonals(keyPc, minor)) {
     const notes = d.notes
     const low = notes.filter((n) => n.s === notes[0].s)
     const c = -notes.filter((n) => away(n) === 0).length + 0.01 * low.reduce((a, n) => a + away(n), 0)
@@ -321,7 +321,7 @@ function boxLine(P: Practice): Bar[] {
   return bars
 }
 
-/** Penta diagonal: sobe as 15 notas da 6ª à 1ª corda, 3-2-3-2-3-2, e desce de volta. */
+/** Penta diagonal: sobe as 15 notas da 6ª à 1ª corda, 2-3 no menor e 3-2 no maior, e desce de volta. */
 function diagLine(P: Practice): Bar[] {
   const d = P.diag.notes
   const seq = d.concat(d.slice(0, -1).reverse())
@@ -329,7 +329,7 @@ function diagLine(P: Practice): Bar[] {
   for (let i = 0; i < seq.length; i += 8) {
     bars.push({
       ci: null,
-      head: i === 0 ? { dot: CHORD_COLOR.I, text: `${tonicName(P)} ${modeName(P)}`, sub: '3-2' } : undefined,
+      head: i === 0 ? { dot: CHORD_COLOR.I, text: `${tonicName(P)} ${modeName(P)}`, sub: diagCell(P.minor) } : undefined,
       events: seq.slice(i, i + 8).map((n, k) => {
         const g = pentDeg(mod12(n.midi), P.tonicPc, P.minor)
         return { col: k, notes: [{ ...n, role: 'deg' as const, deg: g, color: degreeColor(g) }] }
@@ -512,20 +512,23 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
     const d = P.diag.notes
     const from = d[0]
     const to = d[d.length - 1]
+    const nn = P.names
+    const cell = P.minor
+      ? `<b>2-3</b>, saindo da ♭7: na 6ª corda ♭7 e 1 (${nn(d[0].midi)} e ${nn(d[1].midi)}), na 5ª ♭3 4 5`
+      : `<b>3-2</b>, saindo da tônica: na 6ª corda 1 2 3 (${nn(d[0].midi)}, ${nn(d[1].midi)}, ${nn(d[2].midi)}), na 5ª 5 e 6`
     return {
       how:
-        `A pentatônica de <b>${key}</b> na diagonal, <b>raiz na ${diagRoot(P.diag, P.minor)}ª corda</b>: 3 notas numa corda, 2 na próxima. ` +
-        `As de 3 levam sempre ${P.minor ? '♭3 4 5' : '1 2 3'}, as de 2 levam ${P.minor ? '♭7 1' : '5 6'}. Cada par de cordas fecha uma oitava, ` +
-        `então o mesmo desenho se repete duas casas acima (três na corda B) e a forma sobe o braço — da casa ${from.f} à ${to.f} — sem sair do tom. ` +
-        'No braço, cada recorte tracejado é a <b>forma CAGED</b> onde aquele par de cordas mora: 4 das 5 notas são dela. A 5ª, marcada com a seta, já é da forma seguinte — é ali que você <b>troca de forma</b>.',
+        `A pentatônica de <b>${key}</b> na diagonal. No ${modeName(P)} a célula é ${cell}. ` +
+        `Cada nota fica a um tom da vizinha, e a célula se repete igual a cada par de cordas — duas casas acima, três ao entrar na corda Si — ` +
+        `da casa ${from.f} à ${to.f}: três oitavas sem trocar de desenho. ` +
+        'No braço, cada recorte tracejado é a <b>forma CAGED</b> onde aquele par de cordas mora: 4 das 5 notas são dela. A da seta já é da forma seguinte — é ali que você <b>troca de forma</b>.',
       more: [
-        'Decore o desenho de um par de cordas. Nos outros dois pares é o mesmo, só mais acima.',
-        'Nas cordas de 3 notas, palheta na primeira e hammer-on nas outras. Na descida, pull-off.',
-        'A troca de forma é a nota da seta: deslize o dedo até ela em vez de abrir a mão.',
-        'Toque a forma CAGED de um recorte inteira, volte para a diagonal e saia pela seta. É assim que se entra e sai da diagonal no meio de um solo.',
-        'Ache o root (laranja) em cada oitava. É ele que diz em que posição você chegou.',
-        'Troque a posição: só existem dois desenhos (raiz na 6ª e raiz na 5ª), e a diagonal que passa por ela muda entre eles. O tom não muda.',
-        'Depois improvise com backing track no tom, usando a diagonal para atravessar o braço.',
+        'Só indicador e anelar: as notas de cada grupo ficam a duas casas uma da outra, sem precisar do mindinho.',
+        'Subindo, na corda de 3 notas: indicador na 1ª, anelar na 2ª, e deslize o anelar um tom até a 3ª.',
+        'Descendo: anelar na nota de cima, indicador na do meio, e deslize o indicador um tom até a última.',
+        'Ao entrar no par da corda Si, o desenho inteiro sobe uma casa.',
+        'Para seguir na mesma corda depois da última nota de um grupo, deslize três casas: é o shift de 3 casas, que cai no bloco seguinte da penta.',
+        'Entre e saia: toque a forma CAGED de um recorte, volte para a diagonal e saia pela seta. No fim da frase, pouse numa forma e resolva na tônica.',
       ],
     }
   }
@@ -646,7 +649,7 @@ export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): Legend
     const minor = P.minor
     return [
       ...who,
-      { kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)}${id === 'diag' ? ' · 3-2' : ''}` },
+      { kind: 'text', text: `Penta ${tonicName(P)} ${modeName(P)}${id === 'diag' ? ` · ${diagCell(P.minor)}` : ''}` },
       dot(ROLE_COLOR.root, '1'),
       dot(ROLE_COLOR.third, minor ? '♭3' : '3'),
       dot(ROLE_COLOR.fifth, '5'),
