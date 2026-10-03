@@ -335,13 +335,49 @@ function diagLine(P: Practice): Bar[] {
   return bars
 }
 
+/** As 5 formas da penta em ordem no braço, da mais grave, com o nome da posição CAGED de cada uma. */
+export function neckBoxes(P: Practice): { label: string; notes: PNote[] }[] {
+  const all: PNote[][] = []
+  for (const b of pentBoxes(P.keyPc))
+    for (const sh of [-12, 0, 12]) {
+      const notes = b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))
+      if (notes.every((n) => n.f >= 0 && n.f <= 17)) all.push(notes)
+    }
+  all.sort((a, b) => a[0].f - b[0].f)
+  return all.slice(0, 5).map((notes) => {
+    const fit = (p: Position) => notes.filter((n) => mod12(n.f - p.lo) <= p.hi - p.lo).length
+    const pos = P.positions.reduce((a, p) => (fit(p) > fit(a) ? p : a))
+    return { label: pos.label, notes }
+  })
+}
+
+/** Zigue-zague: sobe a forma 1, desce a 2, sobe a 3… até a última, e volta pelo mesmo caminho.
+ * A troca de forma é um passo na corda da ponta (1ª em cima, 6ª embaixo), como na diagonal. */
+function zigLine(P: Practice): Bar[] {
+  const B = neckBoxes(P)
+  const order = B.map((_, i) => i).concat(B.map((_, i) => B.length - 1 - i))
+  return order.map((bi, k) => {
+    const up = k % 2 === 0
+    const notes = B[bi].notes.slice().sort((a, b) => (up ? a.midi - b.midi : b.midi - a.midi))
+    return {
+      ci: null,
+      head: { dot: CHORD_COLOR.I, text: `Forma ${B[bi].label}`, sub: up ? 'sobe' : 'desce' },
+      events: notes.map((n, c) => {
+        const g = pentDeg(mod12(n.midi), P.tonicPc, P.minor)
+        return { col: c, notes: [{ ...n, role: 'deg' as const, deg: g, color: degreeColor(g) }] }
+      }),
+    }
+  })
+}
+
 /* ── Os exercícios ────────────────────────────────────────────────────── */
 
-export type ExerciseId = 'box' | 'diag' | 'arp' | 'penta' | 'base' | 'neck'
+export type ExerciseId = 'box' | 'diag' | 'zig' | 'arp' | 'penta' | 'base' | 'neck'
 
 export const EXERCISES: { id: ExerciseId; name: string; cols: number }[] = [
   { id: 'box', name: 'Forma da penta', cols: 8 },
   { id: 'diag', name: 'Penta diagonal', cols: 8 },
+  { id: 'zig', name: 'Zigue-zague das formas', cols: 12 },
   { id: 'arp', name: 'Arpejos encadeados', cols: 8 },
   { id: 'penta', name: 'Penta até a terça', cols: 8 },
   { id: 'base', name: 'Acordes cheios', cols: 8 },
@@ -354,6 +390,7 @@ export const followsChord = (id: ExerciseId) => id === 'arp' || id === 'penta' |
 export function exerciseBars(id: ExerciseId, P: Practice): Bar[] {
   if (id === 'box') return boxLine(P)
   if (id === 'diag') return diagLine(P)
+  if (id === 'zig') return zigLine(P)
   if (id === 'neck') return neckArp(P).map((b) => ({ ...b, events: colorNotes(b.events) }))
   const raw = id === 'arp' ? arpLine(P, 2) : id === 'penta' ? pentLine(P) : fullBase(P)
   return raw.map((b) => {
@@ -367,6 +404,7 @@ export function exerciseBars(id: ExerciseId, P: Practice): Bar[] {
 }
 
 const SRC = {
+  zig: '<a href="https://blog.truefire.com/guitar-lessons/metal-pentatonic-workout/" target="_blank" rel="noopener">TrueFire</a> e <a href="https://www.guitarhabits.com/pentatonic-scale-shape-exercises-around-the-fretboard/" target="_blank" rel="noopener">Guitar Habits</a>',
   arp: '<a href="https://www.jazzguitar.be/forum/improvisation/64528-arpeggio-practice.html" target="_blank" rel="noopener">jazzguitar.be</a>',
   penta: '<a href="https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/" target="_blank" rel="noopener">JG Music Lessons</a>',
   neck: '<a href="https://appliedguitartheory.com/lessons/navigating-with-caged-is-hard-until-you-do-this/" target="_blank" rel="noopener">Applied Guitar Theory</a> e <a href="https://www.musicradar.com/how-to/guitar-lesson-learn-chords-across-the-fretboard-quickly-and-easily" target="_blank" rel="noopener">MusicRadar</a>',
@@ -420,6 +458,22 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
       ],
       src: SRC.penta,
     }
+  if (id === 'zig') {
+    const B = neckBoxes(P)
+    return {
+      how:
+        `As 5 formas da penta de <b>${key}</b> em fila, subindo o braço: <b>sobe uma, desce a próxima</b>, até a forma ${B[B.length - 1].label}, e volta pelo mesmo caminho. ` +
+        'A troca de forma acontece na corda da ponta — na 1ª em cima, na 6ª embaixo — com um deslize de dedo, que é a mesma troca da penta diagonal.',
+      more: [
+        `Suba a forma ${B[0].label} inteira, da nota mais grave à mais aguda.`,
+        'Na 1ª corda, deslize para a nota de cima da forma seguinte e desça por ela.',
+        'Embaixo, na 6ª corda, passe para a forma seguinte e suba de novo. Sem parar o pulso na troca.',
+        'Chegou na última forma: faça o caminho de volta, descendo o braço.',
+        'Quando ficar fácil, troque de forma em outra corda (a 2ª, a 3ª…), e não só nas pontas.',
+      ],
+      src: SRC.zig,
+    }
+  }
   if (id === 'diag') {
     const d = P.diag
     const from = d[0]
@@ -487,6 +541,19 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
     const fs = shape.map((n) => n.f)
     return { marks, rings, windows: posWindow, focus: id === 'box' ? focus : { from: Math.min(...fs), to: Math.max(...fs) } }
   }
+  if (id === 'zig') {
+    const B = neckBoxes(P)
+    const inAny = (s: number, f: number) => B.some((b) => b.notes.some((n) => n.s === s && n.f === f))
+    each((s, f, pc) => {
+      if (!P.pent.includes(pc)) return
+      marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level: inAny(s, f) ? 'on' : 'ghost' })
+    })
+    const windows = B.map((b) => {
+      const fs = b.notes.map((n) => n.f)
+      return { from: Math.min(...fs), to: Math.max(...fs), label: b.label }
+    })
+    return { marks, rings, windows, focus: null }
+  }
   if (id === 'neck') {
     const I = P.tonicChord
     each((s, f, pc) => {
@@ -521,7 +588,7 @@ export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): Legend
   const c = P.chords[Math.min(sel, P.chords.length - 1)]
   const who: LegendItem[] = followsChord(id) ? [{ kind: 'chord', color: chordColor(c), text: c.name }] : []
   const dot = (color: string, text: string): LegendItem => ({ kind: 'dot', color, text })
-  if (id === 'box' || id === 'diag' || id === 'penta') {
+  if (id === 'box' || id === 'diag' || id === 'zig' || id === 'penta') {
     const minor = P.minor
     return [
       ...who,
@@ -531,7 +598,9 @@ export function exerciseLegend(id: ExerciseId, P: Practice, sel: number): Legend
       dot(ROLE_COLOR.fifth, '5'),
       dot(ROLE_COLOR.other, minor ? '4 e ♭7' : '2 e 6'),
       ...(id === 'penta' ? [{ kind: 'ring', text: 'terça' } as LegendItem] : []),
-      { kind: 'ghost', text: id === 'box' ? 'fora da forma' : id === 'diag' ? 'fora da diagonal' : 'fora da posição' },
+      id === 'zig'
+        ? { kind: 'windows', text: '5 formas' }
+        : { kind: 'ghost', text: id === 'box' ? 'fora da forma' : id === 'diag' ? 'fora da diagonal' : 'fora da posição' },
     ]
   }
   return [

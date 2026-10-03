@@ -221,7 +221,7 @@ export function PracticeView({ P, settings, set, patch, onConsult }: Props) {
             legend={legend}
             labelMode={labelMode}
             showOutside={showOutside}
-            outsideLabel={ex.id === 'box' ? 'fora da forma' : ex.id === 'diag' ? 'fora da diagonal' : ex.id === 'neck' ? null : 'fora da posição'}
+            outsideLabel={ex.id === 'box' ? 'fora da forma' : ex.id === 'diag' ? 'fora da diagonal' : ex.id === 'zig' ? 'fora das formas' : ex.id === 'neck' ? null : 'fora da posição'}
             onLabelMode={set('labelMode')}
             onShowOutside={set('showOutside')}
           />
