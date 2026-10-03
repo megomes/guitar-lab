@@ -6,7 +6,7 @@
 import { STRING_LABELS } from '../fretboard'
 import type { LegendItem, Mark, NeckWindow, Shift } from '../marks'
 import { CHORD_COLOR, ROLE_COLOR, degreeColor } from '../roles'
-import { OPEN, degree, diagRoot, diagonals, groups, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
+import { OPEN, degree, diagCell, diagonals, groups, inversionLadder, ladderFor, mod12, pentBoxes, rootPositions, spider, threes, type PNote } from './caged'
 import { chordColor, diagLegend, diagNeck, modeName, pentDeg, tonicName, type Bar, type BarHead, type FollowKey, type Practice, type TabEvent } from './session'
 
 export type DrillId = 'caged' | 'acordes' | 'inversoes' | 'aranha' | 'pent3' | 'diag' | 'raizes'
@@ -72,14 +72,14 @@ export const DRILLS: Drill[] = [
   },
   {
     id: 'diag',
-    name: 'Diagonal 3-2',
+    name: 'Diagonal em 4s',
     min: 4,
     icon: 'diag',
-    why: 'A penta do tom na diagonal (3 notas numa corda, 2 na próxima), em grupos de 4, atravessando o braço.',
+    why: 'A penta do tom na diagonal — 2-3 no menor, 3-2 no maior —, em grupos de 4 notas, atravessando o braço.',
     steps: [
-      'Escolha a diagonal: raiz na 6ª ou na 5ª corda, em cada altura do braço.',
+      'Uma célula por tom: no menor ♭7 1 | ♭3 4 5, no maior 1 2 3 | 5 6, repetida a cada par de cordas.',
       'Grupos de 4 subindo: 1 2 3 4, 2 3 4 5...',
-      'Na corda de 3 notas, hammer-on. Na troca de posição, deslize o dedo em vez de pular.',
+      'Só indicador e anelar. Na corda de 3 notas, deslize um tom em vez de abrir a mão.',
     ],
   },
   {
@@ -304,7 +304,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
   }
 
   if (id === 'diag') {
-    const D = diagonals(P.keyPc)
+    const D = diagonals(P.keyPc, P.minor)
     const di = Math.min(Math.max(S.diag, 0), D.length - 1)
     const notes = D[di].notes
     const seq = groups(notes, 4)
@@ -313,7 +313,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
     for (let i = 0; i < seq.length; i += 8)
       bars.push({
         ci: null,
-        head: i === 0 ? { text: 'Sobe em 4s', sub: '3-2' } : undefined,
+        head: i === 0 ? { text: 'Sobe em 4s', sub: diagCell(P.minor) } : undefined,
         events: seq.slice(i, i + 8).map((n, k) => ({ col: k, notes: [{ ...n, role: 'deg' as const, deg: deg(n), color: degreeColor(deg(n)) }] })),
       })
     const neck = diagNeck(P, notes)
@@ -324,7 +324,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       opts: {
         key: 'diag',
         value: di,
-        items: D.map((d, i) => ({ v: i, label: `Raiz na ${diagRoot(d, P.minor)}ª · casa ${Math.min(...d.notes.map((n) => n.f))}` })),
+        items: D.map((d, i) => ({ v: i, label: `${diagCell(P.minor)} · casa ${d.notes[0].f}` })),
       },
       legend: diagLegend(P),
     }

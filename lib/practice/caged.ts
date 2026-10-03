@@ -185,24 +185,29 @@ export function pentBoxes(keyPc: number): PentBox[] {
   })
 }
 
-/* Penta diagonal (sistema 3-2): a escala em pares de cordas, sempre agrupada do mesmo
-   jeito. As cordas de 3 notas levam 1 2 3 do tom maior (♭3 4 5 da relativa menor), as de 2
-   levam 5 6 (♭7 1). Cada par de cordas fecha uma oitava, e o desenho se repete duas casas
-   acima — três na corda B. Só há dois desenhos: o trio na 6ª corda, ou o par na 6ª. */
+/* Penta diagonal (o método de Daniel Seriff): uma célula de 5 notas num par de cordas,
+   repetida igual no par seguinte, duas casas acima — três ao entrar no par da corda Si.
+   A célula depende só da tonalidade e sai da raiz na 6ª corda:
+   - menor, 2-3: ♭7 1 na corda grave do par, ♭3 4 5 na aguda (Lá menor: Sol 3, Lá 5 | Dó 3, Ré 5, Mi 7);
+   - maior, 3-2: 1 2 3 na corda grave, 5 6 na aguda (Dó maior: 8, 10, 12 | 10, 12).
+   Em graus do tom maior, o trio é sempre 1 2 3 e o par 5 6: a menor é a mesma conta lida da relativa. */
 const TRIO = [0, 2, 4]
 const DUO = [7, 9]
 
 export interface Diagonal {
-  /** Quantas notas na 6ª corda: 3 (trio) ou 2 (par). */
+  /** Quantas notas na 6ª corda: 2 no menor (2-3), 3 no maior (3-2). */
   first: 3 | 2
   notes: PNote[]
 }
 
-/** As diagonais do tom, sempre inteiras (as 15 notas), da mais grave à mais aguda. Uma
- * diagonal ocupa 10 casas, então com 21 casas os dois desenhos cabem em qualquer tom. */
-export function diagonals(keyPc: number, maxFret = 21): Diagonal[] {
+/** O nome da célula: 2-3 no menor, 3-2 no maior. */
+export const diagCell = (minor: boolean) => (minor ? '2-3' : '3-2')
+
+/** A diagonal do tom, sempre inteira (as 15 notas), saindo da 6ª corda: casa 0 a 11, e a
+ * mesma uma oitava acima se couber. Ela ocupa 10 casas, então com 21 casas sempre cabe. */
+export function diagonals(keyPc: number, minor: boolean, maxFret = 21): Diagonal[] {
   const out: Diagonal[] = []
-  for (const first of [3, 2] as const) {
+  for (const first of [minor ? 2 : 3] as const) {
     const startPc = mod12(keyPc + (first === 3 ? TRIO : DUO)[0])
     for (let oct = 0; oct <= 1; oct++) {
       const f0 = mod12(startPc - OPEN[0]) + 12 * oct
@@ -250,10 +255,6 @@ export function diagStair(keyPc: number, diag: PNote[]): StairStep[] {
   }
   return steps
 }
-
-/** O nome do desenho: em que corda grave cai a raiz, a 6ª ou a 5ª. No menor a raiz é a
- * 2ª nota do par (♭7 1); no maior, a 1ª do trio (1 2 3). */
-export const diagRoot = (d: Diagonal, minor: boolean): 6 | 5 => ((d.first === 2) === minor ? 6 : 5)
 
 /** Grupos de n notas seguidas: em 3s, 1 2 3, 2 3 4, 3 4 5… */
 export function groups<T>(notes: T[], n: number): T[] {
