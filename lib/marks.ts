@@ -33,6 +33,8 @@ export interface NeckWindow {
   from: number
   to: number
   label?: string
+  /** Só estas cordas, da mais grave à mais aguda (0 = 6ª) — as tríades num grupo de cordas. */
+  strings?: [number, number]
 }
 
 /** As casas de uma escala, do jeito do Fretlab: a forma acesa, o resto fantasma. */
