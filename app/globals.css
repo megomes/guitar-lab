@@ -1613,9 +1613,10 @@ button.wk-on:hover {
     min-height: 0;
   }
 
+  /* A altura acompanha a largura (as cordas seguem as casas): ~3,5 por 1. */
   .screen-fill .neck {
-    flex: 0 1 440px;
-    height: 440px;
+    flex: 0 1 auto;
+    height: clamp(250px, 29vw, 340px);
     min-height: 170px;
   }
 }
