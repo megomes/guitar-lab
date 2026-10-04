@@ -27,8 +27,13 @@ Design system escuro e quente, copiado do Artivo: quase tudo preto, títulos em 
 
 ## PWA
 
-- `app/manifest.ts` é o manifest. Os ícones saem de `icons/*.svg` com `node icons/build-icons.mjs`.
+- `app/manifest.ts` é o manifest. Instalado, o app abre em tela cheia e sempre deitado (`orientation: 'landscape'`), sem depender da rotação automática. Os ícones saem de `icons/*.svg` com `node icons/build-icons.mjs`.
 - `public/sw.js` é o service worker: a página vem da rede primeiro, com o cache de reserva, e `/_next/static` vem do cache primeiro. Ele só é registrado em produção.
+
+## Celular
+
+- **Deitado** (`orientation: landscape` e altura até 559px): a navegação vira um trilho de ícones na lateral, com a ponte (Praticar, Consultar…) no pé. A roda de notas e os diagramas CAGED saem, os controles ficam em uma ou duas linhas e o braço pega a altura que sobra, com as 21 casas sem rolar. Nada da página rola.
+- **Em pé**: um aviso pede para deitar e, no Chrome do Android, abre em tela cheia já travado deitado. Quando o braço não cabe e rola de lado, deslizar rola e um toque escolhe a forma; quando cabe, arrastar leva a forma junto.
 
 ## Rodando
 
