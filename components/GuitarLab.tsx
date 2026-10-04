@@ -24,7 +24,7 @@ import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
 import { QuizView } from './quiz/QuizView'
-import { Nav, RotateHint, TabBar } from './Shell'
+import { Nav, TabBar } from './Shell'
 
 export function GuitarLab() {
   const [settings, setSettings] = useState<Settings>(DEFAULTS)
@@ -36,6 +36,17 @@ export function GuitarLab() {
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setSettings(loadSettings())
     setLoaded(true)
+  }, [])
+
+  /* Instalado, o navegador deixa travar deitado (o manifest pede o mesmo, mas só
+     vale depois de reinstalar). Na aba ele recusa, e o CSS gira o app no lugar. */
+  useEffect(() => {
+    try {
+      const o = screen.orientation as ScreenOrientation & { lock?: (o: string) => Promise<void> }
+      o.lock?.('landscape').catch(() => {})
+    } catch {
+      // Sem a API: o CSS gira.
+    }
   }, [])
 
   useEffect(() => {
@@ -143,7 +154,6 @@ export function GuitarLab() {
           context={context}
           cta={cta}
         />
-        {mode !== 'plan' && <RotateHint />}
 
         {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
