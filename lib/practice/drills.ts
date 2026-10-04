@@ -125,7 +125,6 @@ export interface DrillData {
   /** As opções do drill: uma fileira de pílulas, uma ativa. */
   opts: { key: OptKey; value: number | string; items: { v: number | string; label: string }[] }
   legend: LegendItem[]
-  frets?: number
 }
 
 const frNotes = (fr: number[]): PNote[] =>

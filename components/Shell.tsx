@@ -1,7 +1,7 @@
 'use client'
 
-/* A casca: a barra de cima com as seis telas e a barra de baixo no celular. */
-import { ArrowUpRight, CalendarDays, Crosshair, Guitar, Repeat, Video, Waypoints } from 'lucide-react'
+/* A casca: a barra de cima com as sete telas e a barra de baixo no celular. */
+import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, Repeat, Video, Waypoints } from 'lucide-react'
 import { Fragment } from 'react'
 
 import { MODES, type ModeId } from '@/lib/modes'
@@ -15,6 +15,7 @@ export const MODE_ICON: Record<ModeId, React.ReactNode> = {
   practice: <Repeat {...ICON} />,
   meeting: <Video {...ICON} />,
   plan: <CalendarDays {...ICON} />,
+  quiz: <Gamepad2 {...ICON} />,
 }
 
 export function BrandMark({ size = 28 }: { size?: number }) {

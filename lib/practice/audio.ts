@@ -179,6 +179,29 @@ export class Player {
     if (last) this.onEvent(last.e)
   }
 
+  /** Uma nota avulsa, agora: a casa que o dedo tocou no jogo. */
+  pluckNow(midi: number, vel = 0.6) {
+    const ctx = this.ensure()
+    this.pluck(midi, ctx.currentTime + 0.01, vel, 1.2)
+  }
+
+  /** Um bipe curto e grave: errou. */
+  buzz() {
+    const ctx = this.ensure()
+    const t = ctx.currentTime + 0.01
+    const o = ctx.createOscillator()
+    const g = ctx.createGain()
+    o.type = 'triangle'
+    o.frequency.setValueAtTime(180, t)
+    o.frequency.exponentialRampToValueAtTime(110, t + 0.18)
+    g.gain.setValueAtTime(0.0001, t)
+    g.gain.exponentialRampToValueAtTime(0.18, t + 0.01)
+    g.gain.exponentialRampToValueAtTime(0.0001, t + 0.22)
+    o.connect(g).connect(this.master!)
+    o.start(t)
+    o.stop(t + 0.25)
+  }
+
   start(seq: Seq, bpm: number) {
     this.stop()
     if (!seq.evs.length) return

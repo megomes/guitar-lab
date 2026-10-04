@@ -554,8 +554,6 @@ export interface NeckData {
   windows: NeckWindow[]
   /** Para onde o braço rola no celular. Null mostra do começo. */
   focus: NeckWindow | null
-  /** Casas do braço, quando não são as 17 de sempre. */
-  frets?: number
 }
 
 export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData {

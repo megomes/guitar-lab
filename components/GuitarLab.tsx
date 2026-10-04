@@ -23,6 +23,7 @@ import { NamesContext } from './names'
 import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
+import { QuizView } from './quiz/QuizView'
 import { Nav, TabBar } from './Shell'
 
 export function GuitarLab() {
@@ -104,8 +105,20 @@ export function GuitarLab() {
     goTop()
   }, [])
 
+  /* Do mapa de notas para o jogo, com as mesmas notas — e de volta. */
+  const toQuiz = useCallback(() => {
+    setSettings((s) => ({ ...s, mode: 'quiz', quizPcs: s.mode === 'notes' && s.notePcs.length ? s.notePcs : s.quizPcs }))
+    goTop()
+  }, [])
+  const toNotes = useCallback(() => {
+    setSettings((s) => ({ ...s, mode: 'notes', notePcs: s.quizPcs }))
+    goTop()
+  }, [])
+
   const context =
-    group === 'treino'
+    mode === 'quiz'
+      ? `${settings.quizPcs.length} notas · ${settings.quizStrings.length} cordas`
+      : group === 'treino'
       ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
       : mode === 'notes'
         ? `${settings.notePcs.length} notas`
@@ -119,10 +132,19 @@ export function GuitarLab() {
           mode={mode}
           onMode={setMode}
           context={context}
-          cta={group === 'consulta' ? { label: 'Praticar', onPress: toPractice } : { label: 'Consultar', onPress: toConsult }}
+          cta={
+            mode === 'notes'
+              ? { label: 'Jogar', onPress: toQuiz }
+              : mode === 'quiz'
+                ? { label: 'Ver as notas', onPress: toNotes }
+                : group === 'consulta'
+                  ? { label: 'Praticar', onPress: toPractice }
+                  : { label: 'Consultar', onPress: toConsult }
+          }
         />
 
-        {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} />}
+        {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
+        {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
         {mode === 'plan' && (

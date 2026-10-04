@@ -10,7 +10,7 @@ import { useMemo } from 'react'
 import { chordIntervals, chordSymbol, chordVoicing, shiftVoicing, QUALITIES } from '@/lib/chords'
 import { SCALES, SHAPE_IDS, boxFor, scaleSpots, shiftPosition, type Scale, type ShapeId } from '@/lib/fretboard'
 import { marksFromSpots, nearestWindow } from '@/lib/marks'
-import { noteSpots } from '@/lib/notes'
+import { noteSpots, togglePc } from '@/lib/notes'
 import { DIAG_STARTS, PROG_BY } from '@/lib/practice/caged'
 import { computePractice, diagLegend, diagNeck } from '@/lib/practice/session'
 import type { ScaleView, Settings } from '@/lib/settings'
@@ -21,6 +21,7 @@ import { Neck } from '../Neck'
 import { Chip, Segmented } from '../ui'
 import { CGroup, ChordControls, NoteControls, ScaleControls } from './Controls'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
+import { ChordStage, NoteStage, ScaleStage } from './Stage'
 
 type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
 
@@ -29,12 +30,14 @@ interface Props {
   set: Setter
   patch: (p: Partial<Settings>) => void
   onPractice: () => void
+  /** Do mapa de notas para o jogo, com as mesmas notas. */
+  onQuiz: () => void
 }
 
 /* A forma na oitava escolhida: o CAGED recomeça depois do D, até a casa 21. */
 const atOct = <T,>(x: T | null, oct: number, shift: (x: T, by: number) => T | null): T | null => (x && oct ? (shift(x, 12) ?? x) : x)
 
-export function ConsultView({ settings, set, patch, onPractice }: Props) {
+export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props) {
   const { mode, rootPc, scaleId, shape, labelMode, showOutside, quality, notePcs, scaleView, chordView, triadSet } = settings
 
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
@@ -131,6 +134,12 @@ export function ConsultView({ settings, set, patch, onPractice }: Props) {
             <ArrowUpRight size={15} strokeWidth={1.8} />
           </button>
         )}
+        {mode === 'notes' && notePcs.length > 0 && (
+          <button type="button" className="btn btn-primary" onClick={onQuiz}>
+            Decorar estas notas
+            <ArrowUpRight size={15} strokeWidth={1.8} />
+          </button>
+        )}
       </div>
 
       <div className="controls card">
@@ -180,6 +189,29 @@ export function ConsultView({ settings, set, patch, onPractice }: Props) {
         )}
         {mode === 'notes' && <NoteControls pcs={notePcs} onPcs={set('notePcs')} />}
       </div>
+
+      {mode === 'scales' && (
+        <ScaleStage
+          rootPc={rootPc}
+          scale={scale}
+          shape={shape}
+          onRoot={set('rootPc')}
+          onShape={(s) => patch({ shape: s, shapeOct: 0 })}
+          onChord={(root, q) => patch({ mode: 'chords', rootPc: root, quality: q, chordView: 'caged' })}
+        />
+      )}
+      {mode === 'chords' && (
+        <ChordStage
+          rootPc={rootPc}
+          quality={quality}
+          shape={shape}
+          triadSet={triadSet}
+          triads={!!triads}
+          onRoot={set('rootPc')}
+          onShape={(s) => patch({ shape: s, shapeOct: 0 })}
+        />
+      )}
+      {mode === 'notes' && <NoteStage pcs={notePcs} onToggle={(pc) => set('notePcs')(togglePc(notePcs, pc))} />}
 
       <div className="screen-fill">
         <Neck

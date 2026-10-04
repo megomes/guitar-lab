@@ -36,8 +36,6 @@ interface Props {
   size?: 'md' | 'lg'
   className?: string
   extra?: ReactNode
-  /** Casas do braço; o padrão são 17. */
-  frets?: number
   /** Arrastar o dedo no braço: a casa debaixo dele. */
   onPick?: (fret: number, string: number) => void
 }
@@ -62,7 +60,6 @@ function NeckView(props: Props) {
           rings={props.rings}
           now={props.now}
           focus={props.focus}
-          frets={props.frets}
           onPick={props.onPick}
           labelMode={labelMode}
           showOutside={showOutside || !outsideLabel}
