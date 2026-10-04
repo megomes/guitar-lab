@@ -32,7 +32,7 @@ Design system escuro e quente, copiado do Artivo: quase tudo preto, títulos em 
 
 ## Celular
 
-- **Sempre deitado.** Instalado, o manifest pede paisagem e o app tenta `screen.orientation.lock('landscape')`. Onde isso não vale (aba do Chrome, app instalado antes da mudança, rotação automática desligada), o CSS gira o app 90° quando a tela está em pé (`(orientation: portrait) and (max-width: 559px)`, a mesma condição de `lib/rotated.ts`), e o braço converte o toque para o eixo girado.
+- **Sempre deitado.** Instalado, o manifest pede paisagem e o app tenta `screen.orientation.lock('landscape')`. Onde isso não vale (aba do Chrome, app instalado antes da mudança, rotação automática desligada), o CSS gira o app 90° quando a tela está em pé (`(orientation: portrait) and (max-width: 559px)`, a mesma condição de `lib/rotated.ts`), e o braço converte o toque para o eixo girado. O tamanho do app girado vem da janela medida por um script em `app/layout.tsx` antes da primeira pintura (`--win-w`, `--win-h`), e não de `100dvh`: no app instalado do Android, `100dvh` conta a barra de status e o app passava da tela.
 - **O layout deitado** (altura até 559px, ou em pé girado): a navegação vira um trilho na lateral, com rótulos, a tela atual em laranja e a ponte (Praticar, Consultar…) no pé. A roda de notas e os diagramas CAGED saem, os controles ficam em uma ou duas linhas e o braço pega a altura que sobra, com as 21 casas sem rolar. Nada da página rola.
 - **Braço que rola de lado**: deslizar rola e um toque escolhe a forma. Quando cabe, arrastar leva a forma junto.
 
