@@ -117,9 +117,11 @@ function FretboardView({
     const box = scroller.current
     if (!el || !box) return
     const measure = () => {
-      /* O tamanho do layout, e não o da tela: com o app girado, o retângulo na tela vem trocado. */
-      const width = el.offsetWidth
-      const height = el.offsetHeight
+      /* Com o app girado, o retângulo na tela vem trocado: vale o tamanho do layout. */
+      const rect = el.getBoundingClientRect()
+      const rotated = isRotated()
+      const width = rotated ? el.offsetWidth : rect.width
+      const height = rotated ? el.offsetHeight : rect.height
       setSize((s) => (s.width === width && s.height === height ? s : { width, height }))
       setScrolls(box.scrollWidth > box.clientWidth + 1)
     }
