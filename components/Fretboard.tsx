@@ -14,6 +14,7 @@ import { memo, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } fr
 import type { Voicing } from '@/lib/chords'
 import { DOUBLE_INLAYS, FRET_COUNT, INLAYS, STRING_LABELS } from '@/lib/fretboard'
 import type { Mark, NeckWindow, Pin } from '@/lib/marks'
+import { isRotated } from '@/lib/rotated'
 import { ROLE_COLOR, mix, roleOf } from '@/lib/roles'
 import type { LabelMode } from '@/lib/settings'
 
@@ -116,7 +117,9 @@ function FretboardView({
     const box = scroller.current
     if (!el || !box) return
     const measure = () => {
-      const { width, height } = el.getBoundingClientRect()
+      /* O tamanho do layout, e não o da tela: com o app girado, o retângulo na tela vem trocado. */
+      const width = el.offsetWidth
+      const height = el.offsetHeight
       setSize((s) => (s.width === width && s.height === height ? s : { width, height }))
       setScrolls(box.scrollWidth > box.clientWidth + 1)
     }
@@ -154,7 +157,10 @@ function FretboardView({
   const lastPick = useRef('')
   const spotAt = (clientX: number, clientY: number) => {
     const rect = board.current!.getBoundingClientRect()
-    const x = clientX - rect.left
+    /* Com o app girado 90° (celular em pé), o comprimento do braço corre para baixo na tela. */
+    const rotated = isRotated()
+    const x = rotated ? clientY - rect.top : clientX - rect.left
+    const y = rotated ? rect.right - clientX : clientY - rect.top
     /* Casa: entre dois trastes é dela; antes do capotraste é a corda solta. */
     let best = 0
     for (let n = 1; n <= fretCount; n++) if (Math.abs(slotX(n) - x) < Math.abs(slotX(best) - x)) best = n
@@ -162,7 +168,7 @@ function FretboardView({
       best = n
       break
     }
-    const string = Math.max(0, Math.min(5, 5 - Math.floor((clientY - rect.top - boardTop) / rowHeight)))
+    const string = Math.max(0, Math.min(5, 5 - Math.floor((y - boardTop) / rowHeight)))
     return { fret: best, string }
   }
   const pick = (clientX: number, clientY: number) => {
