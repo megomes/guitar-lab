@@ -38,10 +38,16 @@ export const viewport: Viewport = {
   viewportFit: 'cover',
 }
 
+/* O tamanho de verdade da janela, antes da primeira pintura: com o celular em pé
+   o app gira e usa isto no lugar de 100dvh, que no app instalado do Android às
+   vezes conta a barra de navegação e deixa o app maior que a tela. */
+const VIEWPORT = `(function(){var d=document.documentElement;function s(){d.style.setProperty('--win-w',innerWidth+'px');d.style.setProperty('--win-h',innerHeight+'px')}s();addEventListener('resize',s);if(window.visualViewport)visualViewport.addEventListener('resize',s)})()`
+
 export default function RootLayout({ children }: LayoutProps<'/'>) {
   return (
-    <html lang="pt-BR" className={`${inter.variable} ${serif.variable} ${mono.variable}`}>
+    <html lang="pt-BR" className={`${inter.variable} ${serif.variable} ${mono.variable}`} suppressHydrationWarning>
       <body>
+        <script dangerouslySetInnerHTML={{ __html: VIEWPORT }} />
         {children}
         <ServiceWorker />
       </body>

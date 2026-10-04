@@ -3162,7 +3162,11 @@ button.stage-box-on:hover {
     font-size: 0;
   }
 
+  /* Cai do botão para a esquerda, por cima do braço (o celular estreito em pé
+     abria para a direita, para fora da tela). */
   .quiz-pop {
+    left: auto;
+    right: 0;
     max-height: calc(100dvh - 110px);
     overflow-y: auto;
   }
@@ -3182,10 +3186,11 @@ button.stage-box-on:hover {
 @media (orientation: portrait) and (max-width: 559px) {
   .app {
     inset: 0 auto auto 0;
-    width: 100dvh;
-    height: 100dvw;
+    /* A janela medida (layout.tsx), com 100dvh de reserva antes do script. */
+    width: var(--win-h, 100dvh);
+    height: var(--win-w, 100dvw);
     transform-origin: 0 0;
-    transform: translateX(100dvw) rotate(90deg);
+    transform: translateX(var(--win-w, 100dvw)) rotate(90deg);
   }
 
   /* Em pé ainda valem as regras do celular estreito: o braço volta a caber. */
@@ -3203,15 +3208,15 @@ button.stage-box-on:hover {
   }
 
   .quiz-pop {
-    width: min(640px, calc(100dvh - 120px));
-    max-height: calc(100dvw - 110px);
+    width: min(640px, calc(var(--win-h, 100dvh) - 120px));
+    max-height: calc(var(--win-w, 100dvw) - 110px);
   }
 
   /* O diálogo abre fora do app (camada de cima): gira sozinho, no centro. */
   .dlg {
-    width: min(580px, calc(100dvh - 24px));
+    width: min(580px, calc(var(--win-h, 100dvh) - 24px));
     max-width: none;
-    max-height: calc(100dvw - 40px);
+    max-height: calc(var(--win-w, 100dvw) - 40px);
     inset: 50% auto auto 50%;
     margin: 0;
     transform: translate(-50%, -50%) rotate(90deg);
