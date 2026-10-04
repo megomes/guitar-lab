@@ -8,7 +8,11 @@ export default function manifest(): MetadataRoute.Manifest {
     lang: 'pt-BR',
     start_url: '/',
     scope: '/',
-    display: 'standalone',
+    /* Instalado: tela cheia e sempre deitado, sem barra de status e sem depender da
+       rotação automática. O braço só cabe inteiro assim. */
+    display: 'fullscreen',
+    display_override: ['fullscreen', 'standalone'],
+    orientation: 'landscape',
     background_color: '#0B0B0C',
     theme_color: '#0B0B0C',
     icons: [

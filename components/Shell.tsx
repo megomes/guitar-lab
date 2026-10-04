@@ -1,8 +1,9 @@
 'use client'
 
-/* A casca: a barra de cima com as sete telas e a barra de baixo no celular. */
-import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, Repeat, Video, Waypoints } from 'lucide-react'
-import { Fragment } from 'react'
+/* A casca: a barra de cima com as sete telas e a barra de baixo no celular, que
+ * vira um trilho na lateral com o celular deitado. */
+import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, Repeat, RotateCw, Video, Waypoints, X } from 'lucide-react'
+import { Fragment, useEffect, useState } from 'react'
 
 import { MODES, type ModeId } from '@/lib/modes'
 
@@ -72,15 +73,58 @@ export function Nav({ mode, onMode, context, cta }: NavProps) {
   )
 }
 
-export function TabBar({ mode, onMode }: { mode: ModeId; onMode: (m: ModeId) => void }) {
+export function TabBar({ mode, onMode, cta }: { mode: ModeId; onMode: (m: ModeId) => void; cta: NavProps['cta'] }) {
   return (
     <nav className="tabbar" aria-label="telas">
       {MODES.map((m) => (
-        <button key={m.id} type="button" className={`tab-btn${m.id === mode ? ' tab-btn-on' : ''}`} aria-current={m.id === mode ? 'page' : undefined} onClick={() => onMode(m.id)}>
+        <button key={m.id} type="button" className={`tab-btn${m.id === mode ? ' tab-btn-on' : ''}`} aria-current={m.id === mode ? 'page' : undefined} title={m.name} onClick={() => onMode(m.id)}>
           {MODE_ICON[m.id]}
-          {m.name}
+          <span>{m.name}</span>
         </button>
       ))}
+      {/* A ponte da barra de cima (Praticar, Consultar…): só aparece no trilho. */}
+      <button type="button" className="tab-cta" title={cta.label} aria-label={cta.label} onClick={cta.onPress}>
+        <ArrowUpRight size={18} strokeWidth={1.9} />
+      </button>
     </nav>
+  )
+}
+
+/* Celular em pé: o braço não cabe. O aviso pede para deitar e, onde o navegador
+ * deixa (Chrome no Android), abre em tela cheia já travado deitado — sem depender
+ * da rotação automática. Instalado, o manifest já abre deitado. */
+export function RotateHint() {
+  const [closed, setClosed] = useState(false)
+  const [canLock, setCanLock] = useState(false)
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setCanLock(!!document.documentElement.requestFullscreen && 'orientation' in screen && 'lock' in screen.orientation)
+  }, [])
+
+  if (closed) return null
+
+  const open = async () => {
+    try {
+      await document.documentElement.requestFullscreen({ navigationUI: 'hide' })
+      await (screen.orientation as ScreenOrientation & { lock: (o: string) => Promise<void> }).lock('landscape')
+    } catch {
+      // Recusou (iPhone, navegador sem suporte): fica o aviso para girar na mão.
+    }
+  }
+
+  return (
+    <div className="rotate" role="note">
+      <RotateCw size={15} strokeWidth={1.8} />
+      <span>O braço inteiro cabe com o celular deitado.</span>
+      {canLock && (
+        <button type="button" className="btn btn-primary btn-sm" onClick={open}>
+          Abrir deitado
+        </button>
+      )}
+      <button type="button" className="icon-btn" aria-label="Fechar o aviso" onClick={() => setClosed(true)}>
+        <X size={15} strokeWidth={1.8} />
+      </button>
+    </div>
   )
 }

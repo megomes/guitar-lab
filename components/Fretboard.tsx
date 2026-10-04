@@ -105,19 +105,25 @@ function FretboardView({
   const scroller = useRef<HTMLDivElement>(null)
   const board = useRef<HTMLDivElement>(null)
   const [size, setSize] = useState({ width: 0, height: 0 })
+  /* O braço não cabe e rola de lado (celular em pé): o dedo deslizando rola, e
+     escolher a forma passa a ser um toque. Cabendo, arrastar leva a forma junto. */
+  const [scrolls, setScrolls] = useState(false)
   const [hover, setHover] = useState<Hover | null>(null)
   const settled = useRef(false)
 
   useLayoutEffect(() => {
     const el = board.current
-    if (!el) return
+    const box = scroller.current
+    if (!el || !box) return
     const measure = () => {
       const { width, height } = el.getBoundingClientRect()
       setSize((s) => (s.width === width && s.height === height ? s : { width, height }))
+      setScrolls(box.scrollWidth > box.clientWidth + 1)
     }
     measure()
     const observer = new ResizeObserver(measure)
     observer.observe(el)
+    observer.observe(box)
     return () => observer.disconnect()
   }, [])
 
@@ -258,17 +264,21 @@ function FretboardView({
         className="fb-board"
         ref={board}
         style={{
-          ...(onPick ? { touchAction: 'none', cursor: 'grab' } : {}),
-          ...(onTap ? { cursor: 'pointer' } : {}),
+          ...(onPick && !scrolls ? { touchAction: 'none', cursor: 'grab' } : {}),
+          ...(onTap || (onPick && scrolls) ? { cursor: 'pointer' } : {}),
         }}
         onClick={(e) => {
+          if (onPick && scrolls) {
+            lastPick.current = ''
+            pick(e.clientX, e.clientY)
+          }
           if (!onTap || !board.current) return
           const { fret, string } = spotAt(e.clientX, e.clientY)
           onTap(fret, string)
         }}
         onMouseLeave={() => setHover(null)}
         onPointerDown={(e) => {
-          if (!onPick) return
+          if (!onPick || scrolls) return
           dragging.current = true
           lastPick.current = ''
           e.currentTarget.setPointerCapture(e.pointerId)

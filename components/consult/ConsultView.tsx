@@ -123,7 +123,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
 
   return (
     <main className="wrap screen">
-      <div className="screen-head">
+      <div className="screen-head consult-head">
         {mode === 'scales' && <ScaleHero rootPc={rootPc} scale={scale} />}
         {mode === 'chords' && <ChordHero rootPc={rootPc} quality={quality} shape={shape} voicing={voicing} triads={triads?.label} />}
         {mode === 'notes' && <NoteHero pcs={notePcs} />}

@@ -24,7 +24,7 @@ import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
 import { QuizView } from './quiz/QuizView'
-import { Nav, TabBar } from './Shell'
+import { Nav, RotateHint, TabBar } from './Shell'
 
 export function GuitarLab() {
   const [settings, setSettings] = useState<Settings>(DEFAULTS)
@@ -124,6 +124,15 @@ export function GuitarLab() {
         ? `${settings.notePcs.length} notas`
         : `${names(rootPc)} · forma ${shape}`
 
+  const cta =
+    mode === 'notes'
+      ? { label: 'Jogar', onPress: toQuiz }
+      : mode === 'quiz'
+        ? { label: 'Ver as notas', onPress: toNotes }
+        : group === 'consulta'
+          ? { label: 'Praticar', onPress: toPractice }
+          : { label: 'Consultar', onPress: toConsult }
+
   return (
     <NamesContext.Provider value={names}>
       <div className="app">
@@ -132,16 +141,9 @@ export function GuitarLab() {
           mode={mode}
           onMode={setMode}
           context={context}
-          cta={
-            mode === 'notes'
-              ? { label: 'Jogar', onPress: toQuiz }
-              : mode === 'quiz'
-                ? { label: 'Ver as notas', onPress: toNotes }
-                : group === 'consulta'
-                  ? { label: 'Praticar', onPress: toPractice }
-                  : { label: 'Consultar', onPress: toConsult }
-          }
+          cta={cta}
         />
+        {mode !== 'plan' && <RotateHint />}
 
         {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
@@ -165,7 +167,7 @@ export function GuitarLab() {
           />
         )}
 
-        <TabBar mode={mode} onMode={setMode} />
+        <TabBar mode={mode} onMode={setMode} cta={cta} />
       </div>
     </NamesContext.Provider>
   )

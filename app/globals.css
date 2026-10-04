@@ -2806,3 +2806,377 @@ button.stage-box-on:hover {
     max-height: 320px;
   }
 }
+
+/* ── Celular deitado: o palco ────────────────────────────────────────── */
+
+/* A ponte no trilho e o aviso de girar: cada um só existe numa orientação. */
+.tab-cta,
+.rotate {
+  display: none;
+}
+
+/* Em pé o braço não cabe: um aviso discreto pede para deitar o celular. */
+@media (orientation: portrait) and (max-width: 699px) {
+  .rotate {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px var(--gutter) 0;
+    padding: 5px 5px 5px 12px;
+    border-radius: var(--r-md);
+    border: 1px solid var(--line-2);
+    background: var(--card-2);
+    color: var(--fg-2);
+    font-size: 12.5px;
+    line-height: 1.3;
+  }
+
+  .rotate > svg {
+    flex: none;
+    color: var(--accent-2);
+  }
+
+  .rotate > span {
+    flex: 1;
+  }
+
+  .rotate .btn {
+    flex: none;
+  }
+}
+
+/* Deitado, a altura é o que falta (uns 360px no Chrome) e a largura sobra: a
+   navegação vira um trilho na lateral, a roda e os diagramas saem, os controles
+   ficam numa ou duas linhas e o braço pega toda a altura que sobrar, com as 21
+   casas inteiras, sem rolar de lado. Nada da página rola. */
+@media (orientation: landscape) and (max-height: 559px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  .app {
+    position: fixed;
+    inset: 0;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    padding: 0;
+  }
+
+  .nav,
+  .stage,
+  .consult-head,
+  .viewport-bar .legend {
+    display: none;
+  }
+
+  /* O trilho: só os ícones, e a ponte (Praticar, Consultar…) no pé. */
+  .tabbar {
+    position: static;
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: calc(54px + env(safe-area-inset-left));
+    padding: calc(6px + env(safe-area-inset-top)) 6px calc(6px + env(safe-area-inset-bottom)) calc(6px + env(safe-area-inset-left));
+    border: 0;
+    border-right: 1px solid var(--line);
+    border-radius: 0;
+    background: rgba(13, 13, 14, 0.92);
+    box-shadow: none;
+  }
+
+  .tab-btn {
+    flex: 1 1 0;
+    min-height: 0;
+    height: auto;
+    max-height: 48px;
+    gap: 0;
+  }
+
+  .tab-btn span {
+    display: none;
+  }
+
+  .tab-cta {
+    display: grid;
+    place-items: center;
+    flex: 1 1 0;
+    min-height: 0;
+    max-height: 48px;
+    margin-top: auto;
+    border-radius: 11px;
+    color: #fff;
+    background: linear-gradient(180deg, var(--accent-2), var(--accent));
+    box-shadow: 0 1px 0 rgba(255, 210, 190, 0.5) inset, 0 4px 16px rgba(255, 80, 30, 0.3);
+  }
+
+  .screen {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: none;
+    min-height: 0;
+    overflow-y: auto;
+    gap: 6px;
+    padding: calc(6px + env(safe-area-inset-top)) calc(8px + env(safe-area-inset-right)) calc(6px + env(safe-area-inset-bottom)) 8px;
+  }
+
+  .screen > * {
+    flex: none;
+  }
+
+  /* O braço come a sobra de altura, preso embaixo. */
+  .screen > .screen-fill {
+    flex: 1 1 auto;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .screen-fill > .viewport,
+  .practice.screen-fill > .viewport {
+    flex: 1 1 auto;
+    min-height: 0;
+    gap: 2px;
+    padding: 4px 6px 0;
+  }
+
+  .screen-fill .neck,
+  .screen-fill .neck-lg {
+    flex: 1 1 auto;
+    height: auto;
+    /* Abaixo disso as cordas grudam: melhor a tela rolar um pouco (só no Chrome
+       com a barra de endereço; instalado, em tela cheia, sobra altura). */
+    min-height: 150px;
+  }
+
+  .viewport-bar {
+    justify-content: flex-end;
+  }
+
+  .viewport-bar:not(:has(.toolbar > *)) {
+    display: none;
+  }
+
+  /* Tudo um degrau menor: chips, segmentos, botões. */
+  .chip {
+    height: 30px;
+    padding: 0 10px;
+  }
+
+  .controls .chip-fixed {
+    min-width: 30px;
+    padding: 0 5px;
+  }
+
+  .segment {
+    height: 24px;
+  }
+
+  .switch {
+    height: 30px;
+  }
+
+  .btn-lg {
+    height: 34px;
+    padding: 0 14px;
+  }
+
+  .controls {
+    gap: 6px 14px;
+    padding: 6px 10px;
+  }
+
+  .cgroup-label small {
+    display: none;
+  }
+
+  /* Prática: os rótulos das linhas saem (os chips se explicam) e o player fica numa linha. */
+  .screen .tree {
+    padding: 0 10px;
+  }
+
+  .screen .trow {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    padding: 5px 0;
+  }
+
+  .screen .trow > .tlbl {
+    display: none;
+  }
+
+  .screen .trow > .tsub,
+  .screen .trow > .icon-btn {
+    grid-column: auto;
+  }
+
+  .practice.screen-fill {
+    gap: 6px;
+    padding: 6px;
+  }
+
+  .player {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .player > * {
+    flex: none;
+  }
+
+  .player .btn-ghost {
+    gap: 0;
+    font-size: 0;
+  }
+
+  .bpm,
+  .toggle {
+    height: 32px;
+  }
+
+  .cpills {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .cpill {
+    flex: none;
+    height: 28px;
+  }
+
+  /* Reunião: os drills numa fileira que rola, só o nome. */
+  .screen .dchips {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .screen .dchip {
+    flex: none;
+    width: auto;
+    padding: 4px 10px 4px 4px;
+  }
+
+  .screen .dchip .icon-tile {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* As duas linhas de escolha da Prática lado a lado: cada uma rola por dentro. */
+  .screen .tree {
+    display: flex;
+    gap: 12px;
+  }
+
+  .screen .tree > .trow {
+    flex: 1 1 0;
+  }
+
+  .screen .tree > .trow + .trow {
+    flex-grow: 1.4;
+    padding-left: 12px;
+    border-top: 0;
+    border-left: 1px solid var(--line);
+  }
+
+  /* No treino a legenda e o "notas + graus" saem (valem os da consulta): a
+     altura fica para a tab e o braço. */
+  .practice .viewport-bar {
+    display: none;
+  }
+
+  /* As opções do drill numa fileira que rola. */
+  .practice > .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .practice > .chips > * {
+    flex: none;
+  }
+
+  /* A tab em faixa, mais baixa: 13px por corda. */
+  .tabwrap {
+    padding: 4px 8px;
+  }
+
+  .tab-lbl {
+    grid-template-rows: 16px repeat(6, 13px) 12px;
+  }
+
+  .bar {
+    grid-template-rows: 16px auto 12px;
+  }
+
+  .bar-grid {
+    grid-template-rows: repeat(6, 13px);
+  }
+
+  .fn {
+    line-height: 13px;
+    font-size: 11px;
+  }
+
+  /* Jogo: a pergunta numa faixa só, o placar e os botões noutra, o braço grande. */
+  .screen > .quiz-stage {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 12px;
+    min-height: 0;
+    padding: 0;
+  }
+
+  .quiz-big {
+    font-size: 54px;
+  }
+
+  .quiz-msg-slot {
+    min-height: 0;
+    align-self: center;
+  }
+
+  .quiz-clock {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .quiz-bar {
+    flex-wrap: nowrap;
+  }
+
+  .quiz-menu {
+    flex-wrap: nowrap;
+  }
+
+  .quiz-sum {
+    display: none;
+  }
+
+  /* Ajustes, mapa e mostrar: só o ícone. */
+  .quiz-menu .btn-sm {
+    gap: 0;
+    font-size: 0;
+  }
+
+  .quiz-pop {
+    max-height: calc(100dvh - 110px);
+    overflow-y: auto;
+  }
+
+  .quiz-pad {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .quiz-key {
+    height: 34px;
+  }
+}
