@@ -97,7 +97,6 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
             marks={data.marks}
             windows={data.windows}
             focus={data.focus}
-            frets={data.frets}
             now={player.now?.pins}
             legend={data.legend.length ? data.legend : ROLE_LEGEND}
             labelMode={labelMode}

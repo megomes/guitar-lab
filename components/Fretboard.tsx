@@ -39,10 +39,12 @@ interface Props {
   labelMode: LabelMode
   /** Para onde rolar no celular; sem isso, a digitação ou o primeiro vão. */
   focus?: NeckWindow | null
-  /** Quantas casas desenhar. */
-  frets?: number
   /** Tocar ou arrastar o dedo no braço: a casa e a corda debaixo do dedo, a cada movimento. */
   onPick?: (fret: number, string: number) => void
+  /** Um toque só (clique), sem arrasto: deixa o braço rolar de lado no celular. O jogo. */
+  onTap?: (fret: number, string: number) => void
+  /** Sem o balão com o nome da nota ao passar o mouse — no jogo ele entregaria a resposta. */
+  noTip?: boolean
 }
 
 /* ── Medidas ─────────────────────────────────────────────────────────── */
@@ -90,9 +92,12 @@ function FretboardView({
   now = [],
   labelMode,
   focus,
-  frets: fretCount = FRET_COUNT,
   onPick,
+  onTap,
+  noTip = false,
 }: Props) {
+  /* Sempre o braço inteiro, 21 casas, em todas as telas. */
+  const fretCount = FRET_COUNT
   const OFFSETS = useMemo(() => fretOffsets(fretCount), [fretCount])
   const names = useNames()
   const uid = useId().replace(/[^a-zA-Z0-9]/g, '')
@@ -141,14 +146,22 @@ function FretboardView({
   /* Arrastar: a casa mais perto do dedo, e só avisa quando ela muda. */
   const dragging = useRef(false)
   const lastPick = useRef('')
-  const pick = (clientX: number, clientY: number) => {
-    const el = board.current
-    if (!el || !onPick) return
-    const rect = el.getBoundingClientRect()
+  const spotAt = (clientX: number, clientY: number) => {
+    const rect = board.current!.getBoundingClientRect()
     const x = clientX - rect.left
+    /* Casa: entre dois trastes é dela; antes do capotraste é a corda solta. */
     let best = 0
     for (let n = 1; n <= fretCount; n++) if (Math.abs(slotX(n) - x) < Math.abs(slotX(best) - x)) best = n
+    if (x > boardLeft) for (let n = 1; n <= fretCount; n++) if (x <= fretX(n)) {
+      best = n
+      break
+    }
     const string = Math.max(0, Math.min(5, 5 - Math.floor((clientY - rect.top - boardTop) / rowHeight)))
+    return { fret: best, string }
+  }
+  const pick = (clientX: number, clientY: number) => {
+    if (!board.current || !onPick) return
+    const { fret: best, string } = spotAt(clientX, clientY)
     const key = `${best}:${string}`
     if (key !== lastPick.current) {
       lastPick.current = key
@@ -237,7 +250,7 @@ function FretboardView({
   const bandRight = (w: NeckWindow) => fretX(Math.min(fretCount, Math.max(1, w.to)))
 
   const hoverOn = (x: number, y: number, m: { pc: number; degree: string; string: number; fret: number; color?: string }) => () =>
-    setHover({ x, y, note: names(m.pc), degree: m.degree, color: colorOf(m), string: m.string, fret: m.fret })
+    !noTip && setHover({ x, y, note: names(m.pc), degree: m.degree, color: colorOf(m), string: m.string, fret: m.fret })
 
   return (
     <div className="fb-scroll" ref={scroller}>
@@ -245,8 +258,13 @@ function FretboardView({
         className="fb-board"
         ref={board}
         style={{
-          ...(fretCount === FRET_COUNT ? {} : { ['--fb-scale' as string]: fretCount / FRET_COUNT }),
           ...(onPick ? { touchAction: 'none', cursor: 'grab' } : {}),
+          ...(onTap ? { cursor: 'pointer' } : {}),
+        }}
+        onClick={(e) => {
+          if (!onTap || !board.current) return
+          const { fret, string } = spotAt(e.clientX, e.clientY)
+          onTap(fret, string)
         }}
         onMouseLeave={() => setHover(null)}
         onPointerDown={(e) => {
@@ -341,9 +359,9 @@ function FretboardView({
               <rect
                 className="fb-band"
                 x={bandX(windows[0])}
-                y={boardTop - 4}
+                y={windows[0].strings ? stringY(windows[0].strings[1]) - rowHeight / 2 + 1 : boardTop - 4}
                 width={bandRight(windows[0]) - bandX(windows[0])}
-                height={boardBottom - boardTop + 8}
+                height={windows[0].strings ? (windows[0].strings[1] - windows[0].strings[0] + 1) * rowHeight - 2 : boardBottom - boardTop + 8}
                 rx={10}
                 fill={`url(#${id('band')})`}
                 stroke="rgba(255,122,69,0.6)"

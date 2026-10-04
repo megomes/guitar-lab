@@ -700,7 +700,7 @@ h3 {
 .fb-board {
   position: relative;
   height: 100%;
-  min-width: calc(600px * var(--fb-scale, 1));
+  min-width: 600px;
 }
 
 .fb-svg {
@@ -1611,24 +1611,29 @@ button.wk-on:hover {
     flex: none;
   }
 
-  /* O braço tem a altura de um braço e só encolhe quando falta espaço; num
-     tablet em pé, o que sobra fica embaixo, e não espalhado entre as cordas. */
+  /* O braço fica preso embaixo e com a mesma altura em todas as telas: o que
+     muda em cima (título, controles, tab) nunca o empurra nem o encolhe. A
+     sobra de altura fica acima dele. */
   .screen > .screen-fill {
-    flex: 0 1 auto;
-    min-height: 0;
+    flex: none;
+    margin-top: auto;
   }
 
   .screen-fill .viewport,
   .practice.screen-fill > .viewport {
-    flex: 0 1 auto;
-    min-height: 0;
+    flex: none;
   }
 
   /* A altura acompanha a largura (as cordas seguem as casas): ~3,5 por 1. */
   .screen-fill .neck {
-    flex: 0 1 auto;
-    height: clamp(250px, 29vw, 340px);
-    min-height: 170px;
+    flex: none;
+    height: max(200px, min(29vw, 36vh, 340px));
+  }
+
+  /* Na Prática e na Reunião o braço mora dentro do card do player: a mesma
+     margem de baixo da consulta, para ele ficar no mesmo lugar. */
+  .screen > .practice.screen-fill {
+    padding-bottom: 10px;
   }
 }
 
@@ -1819,9 +1824,21 @@ button.wk-on:hover {
   font-size: 11px;
 }
 
+/* Tablet: os drills numa fileira só, que rola de lado — a altura fica para o braço. */
 @media (max-width: 1099px) {
   .screen .dchips {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .screen .dchips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .screen .dchip {
+    flex: none;
+    width: 180px;
   }
 }
 
@@ -1918,7 +1935,7 @@ button.wk-on:hover {
 /* No celular o braço não cabe: rola de lado, com casas de tamanho de dedo. */
 @media (max-width: 699px) {
   .fb-board {
-    min-width: calc(1200px * var(--fb-scale, 1));
+    min-width: 1200px;
   }
 }
 
@@ -1949,7 +1966,7 @@ button.wk-on:hover {
     bottom: calc(8px + env(safe-area-inset-bottom));
     z-index: 50;
     display: grid;
-    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-template-columns: repeat(7, minmax(0, 1fr));
     gap: 2px;
     padding: 5px;
     border-radius: 16px;
@@ -2053,5 +2070,739 @@ button.wk-on:hover {
   *::after {
     transition: none !important;
     animation: none !important;
+  }
+}
+
+/* ── Jogo ────────────────────────────────────────────────────────────── */
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: default;
+  transform: none;
+}
+
+.btn-sm {
+  height: 30px;
+  padding: 0 11px;
+  font-size: 12px;
+}
+
+.quiz .btn-on {
+  color: var(--accent-2);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+/* O palco: a nota enorme no meio, com toda a altura que sobra acima do braço. */
+.quiz-stage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: 180px;
+  padding: 4px 0 0;
+  text-align: center;
+}
+
+.quiz-over {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(18px, 2vw, 24px);
+  color: var(--fg-2);
+}
+
+.quiz-big {
+  font-family: var(--serif);
+  font-size: clamp(76px, 14vh, 150px);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  color: var(--accent-2);
+  text-shadow: 0 0 60px rgba(255, 91, 36, 0.45);
+  animation: quiz-pop 280ms var(--ease) both;
+  transition: color var(--t) var(--ease), text-shadow var(--t) var(--ease);
+}
+
+.quiz-big-plain,
+.quiz-big-info {
+  color: var(--fg);
+  text-shadow: none;
+}
+
+.quiz-big-good {
+  color: #6edbc5;
+  text-shadow: 0 0 60px rgba(110, 219, 197, 0.45);
+}
+
+.quiz-under {
+  font-size: 13.5px;
+  color: var(--fg-3);
+}
+
+.quiz-msg-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+}
+
+.quiz-clock {
+  position: absolute;
+  top: 6px;
+  right: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid var(--line-2);
+  color: var(--fg);
+  font-size: 16px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.quiz-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.quiz-menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.quiz-sum {
+  color: var(--fg-4);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.quiz-pop-anchor {
+  position: relative;
+}
+
+/* O painel dos ajustes: cai do botão, alinhado à direita, por cima do braço. */
+.quiz-pop {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  z-index: 40;
+  display: grid;
+  gap: 12px;
+  width: min(640px, calc(100vw - 2 * var(--gutter)));
+  padding: 14px;
+  background: #151516;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.65);
+  animation: quiz-in 180ms var(--ease) both;
+}
+
+.quiz-pop .cgroup {
+  align-items: flex-start;
+}
+
+.quiz-pop .cgroup-label {
+  width: 52px;
+  padding-top: 9px;
+}
+
+.quiz-pop .chip-fixed {
+  min-width: 38px;
+  height: 36px;
+  padding: 0 7px;
+}
+
+.quiz-shortcuts {
+  padding-left: 60px;
+}
+
+.quiz-pop-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+@keyframes quiz-pop {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+
+.quiz-msg {
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 11px;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 500;
+  border: 1px solid var(--line-2);
+  animation: quiz-in 220ms var(--ease) both;
+}
+
+.quiz-msg-good {
+  color: #6edbc5;
+  border-color: rgba(110, 219, 197, 0.4);
+  background: rgba(110, 219, 197, 0.1);
+}
+
+.quiz-msg-bad {
+  color: var(--warn);
+  border-color: rgba(255, 77, 109, 0.4);
+  background: rgba(255, 77, 109, 0.1);
+  animation: quiz-shake 300ms var(--ease) both;
+}
+
+.quiz-msg-info {
+  color: var(--fg-2);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.quiz-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.quiz-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 5px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.02);
+  color: var(--fg-3);
+  font-size: 12px;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.quiz-stat svg {
+  align-self: center;
+}
+
+.quiz-stat b {
+  color: var(--fg);
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.quiz-stat small {
+  font-size: 11px;
+  color: var(--fg-4);
+}
+
+.quiz-hot {
+  color: var(--accent-2);
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.quiz-clock-end {
+  color: var(--warn);
+  border-color: rgba(255, 77, 109, 0.45);
+}
+
+.quiz-to {
+  font-size: 12px;
+  color: var(--fg-3);
+}
+
+/* O braço esperando o dedo: as casas acendem de leve debaixo do mouse. */
+.quiz-live .fb-board {
+  cursor: pointer;
+}
+
+/* Nomear: as doze notas como teclas, grandes o bastante para o polegar. */
+.quiz-pad {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 6px;
+}
+
+.quiz-key {
+  height: 48px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line-2);
+  background: var(--card-2);
+  color: var(--fg);
+  font-size: 15px;
+  font-weight: 600;
+  transition: background var(--t) var(--ease), border-color var(--t) var(--ease), opacity var(--t) var(--ease);
+}
+
+.quiz-key:hover:not(:disabled) {
+  border-color: var(--accent-line);
+}
+
+.quiz-key:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.quiz-key-acc {
+  background: #101011;
+  color: var(--fg-2);
+  font-size: 13px;
+}
+
+.quiz-key:disabled {
+  cursor: default;
+}
+
+.quiz-key-wrong {
+  opacity: 0.35;
+  border-color: rgba(255, 77, 109, 0.5);
+  color: var(--warn);
+  text-decoration: line-through;
+}
+
+.quiz-key-right {
+  color: #0b0b0c;
+  border-color: transparent;
+  background: #6edbc5;
+  box-shadow: 0 4px 18px rgba(110, 219, 197, 0.35);
+}
+
+@keyframes quiz-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+}
+
+@keyframes quiz-shake {
+  20% {
+    transform: translateX(-4px);
+  }
+  50% {
+    transform: translateX(4px);
+  }
+  80% {
+    transform: translateX(-2px);
+  }
+}
+
+@media (max-width: 1099px) {
+  .quiz-pad {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+/* No tablet o palco estica: a nota cresce com a sobra e o braço fica embaixo. */
+@media (min-width: 700px) and (min-height: 560px) {
+  .screen > .quiz-stage {
+    flex: 1 1 auto;
+    min-height: 140px;
+  }
+}
+
+@media (max-width: 699px) {
+  .quiz-menu {
+    justify-content: flex-start;
+  }
+
+  .quiz-sum {
+    display: none;
+  }
+
+  .quiz-pop {
+    right: auto;
+    left: 0;
+  }
+
+  .quiz-key {
+    height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .quiz-msg {
+    animation: none !important;
+  }
+}
+
+/* ── Palco da consulta ───────────────────────────────────────────────── */
+
+/* O espaço entre os controles e o braço: a roda das notas e os diagramas. No
+   tablet ele ocupa a sobra de altura e tudo dentro escala junto (SVG). */
+.stage {
+  min-width: 0;
+  padding: 12px 14px;
+}
+
+.stage-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 12px 22px;
+  height: 100%;
+  min-height: 0;
+}
+
+.stage-wheel {
+  display: block;
+  height: 100%;
+  max-height: 300px;
+  aspect-ratio: 1;
+  width: auto;
+  overflow: visible;
+}
+
+.stage-wheel-center {
+  fill: var(--fg);
+  font-family: var(--serif);
+  font-size: 26px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.stage-wheel-sub {
+  fill: var(--fg-3);
+  font-size: 9px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.stage-wheel-name {
+  font-size: 7.5px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+
+.stage-wheel-degree {
+  font-size: 7px;
+  font-weight: 600;
+  text-anchor: middle;
+  dominant-baseline: central;
+  pointer-events: none;
+}
+
+.stage-press {
+  cursor: pointer;
+}
+
+.stage-press:hover > circle:nth-child(2) {
+  stroke: var(--accent-2);
+}
+
+.stage-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  min-width: 0;
+  height: 100%;
+  min-height: 0;
+}
+
+.stage-boxes {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 150px);
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  min-height: 0;
+}
+
+.stage-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  padding: 8px 6px 6px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.015);
+  color: var(--fg-2);
+  transition: border-color var(--t) var(--ease), background var(--t) var(--ease);
+}
+
+button.stage-box:hover {
+  border-color: var(--line-2);
+}
+
+.stage-box-on,
+button.stage-box-on:hover {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--fg);
+}
+
+.stage-box svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* Não passa da altura do palco, tirando o título e as margens. */
+  max-height: 170px;
+}
+
+.stage-box-title {
+  display: grid;
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.stage-box-title small {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--fg-4);
+}
+
+.stage-box-fret {
+  fill: var(--fg-3);
+  font-size: 9px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.stage-box-mute {
+  fill: var(--fg-3);
+  font-size: 11px;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.stage-box-name {
+  font-size: 6.5px;
+  font-weight: 700;
+  text-anchor: middle;
+  dominant-baseline: central;
+}
+
+.stage-label {
+  font-size: 11px;
+  color: var(--fg-3);
+  white-space: nowrap;
+}
+
+.stage-field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.stage-chord {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  height: 30px;
+  padding: 0 11px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--card-2);
+  color: var(--fg);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.stage-chord small {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--fg-3);
+}
+
+.stage-chord:hover {
+  border-color: var(--accent-line);
+}
+
+.stage-empty {
+  color: var(--fg-3);
+  font-size: 13px;
+  text-align: center;
+}
+
+.stage-table-wrap {
+  min-height: 0;
+  max-height: 100%;
+  overflow: auto;
+  scrollbar-width: thin;
+}
+
+.stage-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-variant-numeric: tabular-nums;
+}
+
+.stage-table th,
+.stage-table td {
+  padding: 5px 8px;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  white-space: nowrap;
+  font-size: 13px;
+}
+
+.stage-table thead th {
+  position: sticky;
+  top: 0;
+  background: #141415;
+  color: var(--fg-2);
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.stage-table thead th small {
+  margin-left: 4px;
+  color: var(--fg-4);
+  font-weight: 400;
+}
+
+.stage-table tbody th {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.stage-table tbody th i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.stage-table td {
+  color: var(--fg-2);
+  font-family: var(--mono);
+  font-size: 12px;
+}
+
+/* Tablet e computador: o palco é a sobra de altura entre os controles e o braço. */
+@media (min-width: 700px) and (min-height: 560px) {
+  .screen > .stage {
+    flex: 1 1 0;
+    min-height: 0;
+    container: stage / size;
+  }
+
+  /* Sobrou pouco: só os diagramas, sem a roda; menos ainda, nada. */
+  .stage .stage-box svg {
+    max-height: calc(100cqh - 74px);
+  }
+
+  .stage:has(.stage-field) .stage-box svg {
+    max-height: calc(100cqh - 116px);
+  }
+
+  @container stage (max-height: 170px) {
+    .stage-wheel,
+    .stage-field {
+      display: none;
+    }
+
+    .stage-in {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    /* Pouca altura: o título ao lado do diagrama, para ele crescer. */
+    .stage-boxes {
+      grid-auto-columns: minmax(0, 190px);
+    }
+
+    .stage-box {
+      flex-direction: row;
+      gap: 8px;
+      padding: 6px 10px;
+    }
+
+    .stage .stage-box svg {
+      width: auto;
+      max-width: 60%;
+      height: calc(100cqh - 40px);
+      max-height: none;
+    }
+
+    .stage-box-title {
+      text-align: left;
+    }
+  }
+
+  @container stage (max-height: 90px) {
+    .stage-in {
+      display: none;
+    }
+  }
+
+  /* Palco alto (tablet em pé): a roda em cima, os diagramas embaixo. */
+  @container stage (max-aspect-ratio: 2.2) and (min-height: 300px) {
+    .stage-in {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: minmax(0, 1fr) auto;
+      justify-items: center;
+    }
+
+    .stage-wheel {
+      max-height: 360px;
+    }
+
+    .stage-side {
+      width: 100%;
+      height: auto;
+    }
+
+    .stage .stage-box svg,
+    .stage:has(.stage-field) .stage-box svg {
+      max-height: 190px;
+    }
+  }
+}
+
+/* Celular: a página rola; a roda e os diagramas com tamanho fixo, os diagramas
+   numa fileira que rola de lado. */
+@media (max-width: 699px), (max-height: 559px) {
+  .stage-in {
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+  }
+
+  .stage-wheel {
+    height: 230px;
+  }
+
+  .stage-side {
+    width: 100%;
+  }
+
+  .stage-boxes {
+    grid-auto-columns: minmax(0, 1fr);
+    gap: 5px;
+  }
+
+  .stage-box {
+    padding: 6px 3px 5px;
+  }
+
+  .stage-box-title small {
+    display: none;
+  }
+
+  .stage-table-wrap {
+    max-height: 320px;
   }
 }

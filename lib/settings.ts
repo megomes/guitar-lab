@@ -10,6 +10,7 @@ import { MODES, type ModeId } from './modes'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
 import { DRILLS, PERMS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
+import { QUIZ_KINDS, type QuizKind, type QuizRound, type QuizSpell } from './quiz'
 
 export type LabelMode = 'both' | 'note' | 'degree'
 export type VisMode = 'both' | 'tab' | 'neck'
@@ -18,8 +19,8 @@ export type ScaleView = 'box' | 'diag'
 /** O acorde na consulta: a forma CAGED inteira, ou as tríades num grupo de três cordas. */
 export type ChordView = 'caged' | 'triads'
 
-/** 2: a pentatônica menor virou o padrão de tudo. */
-export const SETTINGS_VERSION = 2
+/** 2: a pentatônica menor virou o padrão de tudo. 3: o jogo pega o braço inteiro. */
+export const SETTINGS_VERSION = 3
 
 export interface Settings {
   version: number
@@ -65,6 +66,20 @@ export interface Settings {
   cagedSel: number
   rootSel: number
   accSel: number
+
+  /* Jogo */
+  quizKind: QuizKind
+  /** As cordas que entram no sorteio (0 = 6ª). */
+  quizStrings: number[]
+  /** As notas que entram no sorteio. */
+  quizPcs: number[]
+  /** O vão de casas do sorteio. */
+  quizLo: number
+  quizHi: number
+  quizRound: QuizRound
+  quizSpell: QuizSpell
+  /** Tocar a nota da casa tocada. */
+  quizSound: boolean
 }
 
 export const DEFAULTS: Settings = {
@@ -100,6 +115,15 @@ export const DEFAULTS: Settings = {
   cagedSel: 0,
   rootSel: 0,
   accSel: 0,
+  quizKind: 'find',
+  quizStrings: [0, 1, 2, 3, 4, 5],
+  /** Começa pelas naturais: os sustenidos vêm de graça depois. */
+  quizPcs: [0, 2, 4, 5, 7, 9, 11],
+  quizLo: 0,
+  quizHi: 21,
+  quizRound: 'free',
+  quizSpell: 'sharp',
+  quizSound: true,
 }
 
 export const STORAGE_KEY = 'guitarlab:settings'
@@ -120,6 +144,11 @@ export function loadSettings(): Settings {
     if (!(parsed.version >= 2)) {
       s.scaleId = 'pentaMinor'
       s.notePcs = DEFAULTS.notePcs
+    }
+    /* Quem vem da versão 2 tinha o jogo só até a casa 12: passa a ser o braço inteiro. */
+    if (!(parsed.version >= 3)) {
+      s.quizLo = DEFAULTS.quizLo
+      s.quizHi = DEFAULTS.quizHi
     }
     s.version = SETTINGS_VERSION
     if (!MODES.some((m) => m.id === s.mode)) s.mode = DEFAULTS.mode
@@ -153,6 +182,16 @@ export function loadSettings(): Settings {
     s.cagedSel = int(s.cagedSel, 0, 5, 0)
     s.rootSel = int(s.rootSel, 0, 3, 0)
     s.accSel = int(s.accSel, 0, 3, 0)
+    if (!QUIZ_KINDS.some((k) => k.id === s.quizKind)) s.quizKind = DEFAULTS.quizKind
+    const list = (v: unknown, hi: number) => (Array.isArray(v) && v.every((x) => Number.isInteger(x) && x >= 0 && x <= hi) ? [...new Set(v as number[])] : null)
+    s.quizStrings = list(s.quizStrings, 5) ?? DEFAULTS.quizStrings
+    s.quizPcs = list(s.quizPcs, 11) ?? DEFAULTS.quizPcs
+    s.quizLo = int(s.quizLo, 0, 21, DEFAULTS.quizLo)
+    s.quizHi = int(s.quizHi, 0, 21, DEFAULTS.quizHi)
+    if (s.quizHi < s.quizLo) [s.quizLo, s.quizHi] = [DEFAULTS.quizLo, DEFAULTS.quizHi]
+    if (s.quizRound !== 'free' && s.quizRound !== 'sprint') s.quizRound = DEFAULTS.quizRound
+    if (!['sharp', 'flat', 'mix'].includes(s.quizSpell)) s.quizSpell = DEFAULTS.quizSpell
+    s.quizSound = s.quizSound !== false
     return s
   } catch {
     return DEFAULTS
