@@ -28,7 +28,7 @@ export interface JazzSymbol {
   name: string
   /** O nome em duas palavras, para caber no seletor. */
   short: string
-  /** Como se fala em voz alta: "maior 7", "menor 7". */
+  /** O que vem depois da nota quando se fala: "maior com 7ª maior". */
   say: string
   /** Em uma frase: de que é feito. */
   blurb: string
@@ -37,18 +37,26 @@ export interface JazzSymbol {
 export const JAZZ: Partial<Record<QualityId, JazzSymbol>> = {
   maj: { jazz: '', pop: '', name: 'maior', short: 'maior', say: 'maior', blurb: 'fundamental, terça maior, quinta' },
   min: { jazz: '−', pop: 'm', name: 'menor', short: 'menor', say: 'menor', blurb: 'fundamental, terça menor, quinta' },
-  maj7: { jazz: 'Δ7', pop: 'maj7', name: 'maior com 7ª maior', short: 'maior', say: 'maior 7', blurb: 'tríade maior + sétima maior (7)' },
-  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'dominante', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
-  min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', say: 'menor 7', blurb: 'tríade menor + sétima menor (♭7)' },
-  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'meio-diminuto', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
-  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
+  maj7: { jazz: 'Δ7', pop: 'Maj7', name: 'maior com 7ª maior', short: 'maior', say: 'maior com 7ª maior', blurb: 'tríade maior + sétima maior (7)' },
+  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'maior com 7ª', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
+  min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', say: 'menor com 7ª', blurb: 'tríade menor + sétima menor (♭7)' },
+  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'menor com 7ª e 5ª bemol', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
+  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto com 7ª diminuta', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
 }
 
 /** A cifra do jazz: "C", "C−", "CΔ7", "C−7", "C7", "Cø7", "C°7". */
 export const jazzSymbol = (rootName: string, quality: QualityId) => rootName + (JAZZ[quality]?.jazz ?? QUALITIES[quality].symbol)
 
 /** A mesma cifra no estilo comum: "C", "Cm", "Cmaj7", "Cm7", "C7", "Cm7♭5", "Cdim7". */
-export const popSymbol = (rootName: string, quality: QualityId) => rootName + QUALITIES[quality].symbol
+export const popSymbol = (rootName: string, quality: QualityId) => rootName + (JAZZ[quality]?.pop ?? QUALITIES[quality].symbol)
+
+const PT_NOTE: Record<string, string> = { C: 'Dó', D: 'Ré', E: 'Mi', F: 'Fá', G: 'Sol', A: 'Lá', B: 'Si' }
+
+/** A nota como se fala: "B♭" vira "Si bemol", "C♯" vira "Dó sustenido". */
+export const ptNote = (name: string) => (PT_NOTE[name[0]] ?? name[0]) + (name[1] === '♯' ? ' sustenido' : name[1] === '♭' ? ' bemol' : '')
+
+/** O acorde como se fala: "Dó maior com 7ª maior". */
+export const spokenName = (rootName: string, quality: QualityId) => `${ptNote(rootName)} ${JAZZ[quality]?.say ?? ''}`.trim()
 
 /**
  * O shell voicing: fundamental, terça e sétima, sem a quinta.

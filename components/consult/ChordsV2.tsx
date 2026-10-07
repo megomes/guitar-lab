@@ -13,7 +13,7 @@
  * seu seletor, e o quadro de baixo desfaz a dúvida de qual símbolo é qual.
  */
 import { QUALITIES, chordVoicing, tabOf, type QualityId } from '@/lib/chords'
-import { JAZZ, MAJOR_SEVENTHS, MINOR_SEVENTHS, V2_SHAPES, jazzSymbol, popSymbol, shellVoicing } from '@/lib/jazz'
+import { JAZZ, MAJOR_SEVENTHS, MINOR_SEVENTHS, V2_SHAPES, jazzSymbol, popSymbol, shellVoicing, spokenName } from '@/lib/jazz'
 import { degreeColor } from '@/lib/roles'
 import type { Settings, V2Voicing } from '@/lib/settings'
 
@@ -92,9 +92,8 @@ export function ChordsV2({ settings, set }: Props) {
                   <Segmented<QualityId>
                     options={col.options.map((q) => ({ value: q, label: (
                         <>
-                          <b>{JAZZ[q]?.jazz}</b>
-                          <small className="v2-pop">{popSymbol(nn(rootPc), q)}</small>
-                          <small>{JAZZ[q]?.say}</small>
+                          <b>{popSymbol(nn(rootPc), q)}</b>
+                          <small>{spokenName(nn(rootPc), q)}</small>
                         </>
                       ),
                     }))}

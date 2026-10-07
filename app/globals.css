@@ -3245,7 +3245,7 @@ button.stage-box-on:hover {
   flex-direction: column;
   gap: 5px;
   /* Igual nas quatro colunas, com ou sem seletor: os diagramas alinham. */
-  min-height: 146px;
+  min-height: 156px;
 }
 
 .v2-head h2 {
@@ -3264,27 +3264,25 @@ button.stage-box-on:hover {
 
 .v2-head .segment {
   flex: 1;
-  justify-content: center;
+  min-width: 0;
   flex-direction: column;
   gap: 1px;
-  height: 66px;
+  min-height: 74px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   padding: 0 4px;
   line-height: 1.1;
 }
 
 .v2-head .segment b {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .v2-head .segment small {
-  font-size: 10.5px;
+  font-size: 10px;
+  white-space: normal;
   font-weight: 400;
-}
-
-.v2-head .segment .v2-pop {
-  font-size: 11.5px;
-  font-weight: 600;
-  color: var(--fg-2);
 }
 
 .v2-blurb {
@@ -3371,7 +3369,7 @@ button.stage-box-on:hover {
   }
 
   .v2 .stage-box svg {
-    max-height: max(60px, min(210px, calc((100cqh - 343px) / 2)));
+    max-height: max(60px, min(210px, calc((100cqh - 353px) / 2)));
   }
 }
 
