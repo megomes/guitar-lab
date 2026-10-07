@@ -39,7 +39,7 @@ export function Segmented<T extends string>({
   value,
   onChange,
 }: {
-  options: { value: T; label: string; icon?: ReactNode }[]
+  options: { value: T; label: ReactNode; icon?: ReactNode }[]
   value: T
   onChange: (value: T) => void
 }) {

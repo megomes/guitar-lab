@@ -45,8 +45,8 @@ export function ChordsV2({ settings, set }: Props) {
   const columns: Column[] = [
     { key: 'maj', title: 'Maior', quality: 'maj' },
     { key: 'min', title: 'Menor', quality: 'min' },
-    { key: 'maj7', title: 'Maior com 7ª', quality: v2Maj7, options: MAJOR_SEVENTHS, onQuality: set('v2Maj7') },
     { key: 'min7', title: 'Menor com 7ª', quality: v2Min7, options: MINOR_SEVENTHS, onQuality: set('v2Min7') },
+    { key: 'maj7', title: 'Maior com 7ª', quality: v2Maj7, options: MAJOR_SEVENTHS, onQuality: set('v2Maj7') },
   ]
 
   const label = (d: Dot) => (labelMode === 'note' ? nn(d.pc) : d.degree)
@@ -90,7 +90,13 @@ export function ChordsV2({ settings, set }: Props) {
                 <h2>{col.title}</h2>
                 {col.options && col.onQuality && (
                   <Segmented<QualityId>
-                    options={col.options.map((q) => ({ value: q, label: JAZZ[q]?.jazz ?? '' }))}
+                    options={col.options.map((q) => ({ value: q, label: (
+                        <>
+                          <b>{JAZZ[q]?.jazz}</b>
+                          <small>{JAZZ[q]?.say}</small>
+                        </>
+                      ),
+                    }))}
                     value={col.quality}
                     onChange={col.onQuality}
                   />

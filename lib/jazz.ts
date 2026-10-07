@@ -28,18 +28,20 @@ export interface JazzSymbol {
   name: string
   /** O nome em duas palavras, para caber no seletor. */
   short: string
+  /** Como se fala em voz alta: "delta sete", "menos sete". */
+  say: string
   /** Em uma frase: de que é feito. */
   blurb: string
 }
 
 export const JAZZ: Partial<Record<QualityId, JazzSymbol>> = {
-  maj: { jazz: '', pop: '', name: 'maior', short: 'maior', blurb: 'fundamental, terça maior, quinta' },
-  min: { jazz: '−', pop: 'm', name: 'menor', short: 'menor', blurb: 'fundamental, terça menor, quinta' },
-  maj7: { jazz: 'Δ7', pop: 'maj7', name: 'maior com 7ª maior', short: 'maior', blurb: 'tríade maior + sétima maior (7)' },
-  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
-  min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', blurb: 'tríade menor + sétima menor (♭7)' },
-  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
-  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
+  maj: { jazz: '', pop: '', name: 'maior', short: 'maior', say: 'maior', blurb: 'fundamental, terça maior, quinta' },
+  min: { jazz: '−', pop: 'm', name: 'menor', short: 'menor', say: 'menor', blurb: 'fundamental, terça menor, quinta' },
+  maj7: { jazz: 'Δ7', pop: 'maj7', name: 'maior com 7ª maior', short: 'maior', say: 'delta 7', blurb: 'tríade maior + sétima maior (7)' },
+  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'sete (dominante)', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
+  min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', say: 'menos 7', blurb: 'tríade menor + sétima menor (♭7)' },
+  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'meio-diminuto', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
+  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
 }
 
 /** A cifra do jazz: "C", "C−", "CΔ7", "C−7", "C7", "Cø7", "C°7". */
