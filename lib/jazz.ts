@@ -6,8 +6,8 @@
  * sétima (maior, menor ou diminuta). Por isso as duas colunas de 7ª ganham um
  * seletor cada uma, com a cifra do jazz na frente e a cifra de cifra-club ao lado.
  */
-import { QUALITIES, type QualityId } from './chords'
-import type { ShapeId } from './fretboard'
+import { QUALITIES, type QualityId, type Role, type Voice, type Voicing } from './chords'
+import { STANDARD_TUNING, type ShapeId } from './fretboard'
 
 /** As duas formas com pestana: a E (fundamental na 6ª corda) e a A (na 5ª). */
 export const V2_SHAPES: { id: ShapeId; string: number; name: string }[] = [
@@ -47,3 +47,57 @@ export const jazzSymbol = (rootName: string, quality: QualityId) => rootName + (
 
 /** A mesma cifra no estilo comum: "C", "Cm", "Cmaj7", "Cm7", "C7", "Cm7♭5", "Cdim7". */
 export const popSymbol = (rootName: string, quality: QualityId) => rootName + QUALITIES[quality].symbol
+
+/**
+ * O shell voicing: fundamental, terça e sétima, sem a quinta.
+ *
+ * Três notas em três cordas vizinhas, o que o professor ensina para comping. A
+ * quinta é a nota que menos diz sobre o acorde, e a terça com a sétima dizem
+ * tudo (maior ou menor, Δ7, −7 ou dominante). Com a raiz na 6ª corda a ordem
+ * subindo é 1–7–3 (cordas 6, 4, 3); com a raiz na 5ª é 1–3–7 (cordas 5, 4, 3).
+ * Só vale para acordes com sétima.
+ */
+export function shellVoicing(root: number, quality: QualityId, shape: ShapeId): Voicing | null {
+  const q = QUALITIES[quality]
+  if (q.seventh === undefined) return null
+  const rootString = V2_SHAPES.find((s) => s.id === shape)?.string === 6 ? 0 : 1
+  const plan: [number, Role, number][] =
+    rootString === 0
+      ? [[0, 'R', 0], [2, 'S', q.seventh], [3, 'T', q.third]]
+      : [[1, 'R', 0], [2, 'T', q.third], [3, 'S', q.seventh]]
+  const rootPc = ((root % 12) + 12) % 12
+  const roles: Role[] = ['R', 'T', 'F', 'S']
+
+  /* A fundamental fica entre as casas 1 e 12 (sem corda solta), ou uma oitava acima
+     quando é isso que aproxima as outras notas: o Bm7♭5 na forma A fica na casa 14,
+     e não com uma nota na casa 12 e outra na 2. */
+  const rootBase = (((rootPc - STANDARD_TUNING[rootString]) % 12) + 12) % 12 || 12
+  let voices: Voice[] = []
+  let bestSpan = Infinity
+  for (const anchor of [rootBase, rootBase + 12]) {
+    const candidate: Voice[] = plan.map(([string, role, interval]) => {
+      const pc = (rootPc + interval) % 12
+      const base = (((pc - STANDARD_TUNING[string]) % 12) + 12) % 12
+      const near = [base, base + 12, base + 24].filter((f) => f >= 1)
+      const fret = role === 'R' ? anchor : near.reduce((x, y) => (Math.abs(y - anchor) < Math.abs(x - anchor) ? y : x))
+      return { string, fret, midi: STANDARD_TUNING[string] + fret, pc, role, degree: q.degrees[roles.indexOf(role)] ?? '', isRoot: role === 'R' }
+    })
+    const frets = candidate.map((v) => v.fret)
+    const span = Math.max(...frets) - Math.min(...frets)
+    if (span < bestSpan) {
+      bestSpan = span
+      voices = candidate
+    }
+  }
+  const sounding = new Set(voices.map((v) => v.string))
+  const frets = voices.map((v) => v.fret)
+  return {
+    root: rootPc,
+    quality,
+    shape,
+    symbol: '',
+    voices,
+    muted: STANDARD_TUNING.map((_, s) => s).filter((s) => !sounding.has(s)),
+    window: { from: Math.min(...frets), to: Math.max(...frets) },
+  }
+}

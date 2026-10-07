@@ -13,9 +13,9 @@
  * seu seletor, e o quadro de baixo desfaz a dúvida de qual símbolo é qual.
  */
 import { QUALITIES, chordVoicing, tabOf, type QualityId } from '@/lib/chords'
-import { JAZZ, MAJOR_SEVENTHS, MINOR_SEVENTHS, V2_SHAPES, jazzSymbol, popSymbol } from '@/lib/jazz'
+import { JAZZ, MAJOR_SEVENTHS, MINOR_SEVENTHS, V2_SHAPES, jazzSymbol, popSymbol, shellVoicing } from '@/lib/jazz'
 import { degreeColor } from '@/lib/roles'
-import type { Settings } from '@/lib/settings'
+import type { Settings, V2Voicing } from '@/lib/settings'
 
 import { useNames } from '../names'
 import { Segmented } from '../ui'
@@ -39,7 +39,7 @@ interface Column {
 }
 
 export function ChordsV2({ settings, set }: Props) {
-  const { rootPc, labelMode, v2Maj7, v2Min7 } = settings
+  const { rootPc, labelMode, v2Maj7, v2Min7, v2Voicing } = settings
   const nn = useNames()
 
   const columns: Column[] = [
@@ -62,6 +62,14 @@ export function ChordsV2({ settings, set }: Props) {
 
       <div className="controls card">
         <Tonics rootPc={rootPc} minor={false} onRoot={set('rootPc')} />
+        <Segmented<V2Voicing>
+          options={[
+            { value: 'full', label: 'completo' },
+            { value: 'shell', label: 'shell: 1 · 3 · 7' },
+          ]}
+          value={v2Voicing}
+          onChange={set('v2Voicing')}
+        />
         <Segmented
           options={[
             { value: 'degree', label: 'graus' },
@@ -75,6 +83,7 @@ export function ChordsV2({ settings, set }: Props) {
       <div className="v2-grid">
         {columns.map((col) => {
           const info = JAZZ[col.quality]
+          const shell = v2Voicing === 'shell' && !!col.options
           return (
             <section key={col.key} className="v2-col card" aria-label={col.title}>
               <header className="v2-head">
@@ -87,14 +96,17 @@ export function ChordsV2({ settings, set }: Props) {
                   />
                 )}
                 <p className="v2-blurb">
-                  <b>{[info?.jazz && `${info.jazz} ${info.name}`, QUALITIES[col.quality].degrees.join(' ')].filter(Boolean).join(' · ') || info?.name}</b>
+                  <b>{[info?.jazz && `${info.jazz} ${info.name}`, QUALITIES[col.quality].degrees.filter((d) => !(shell && d?.includes('5'))).join(' ')].filter(Boolean).join(' · ') || info?.name}</b>
                   {info?.blurb}
                 </p>
               </header>
               <div className="v2-cells">
                 {V2_SHAPES.map((shape) => {
                   /* Sem corda solta: o que se decora é a forma que anda pelo braço. */
-                  const v = chordVoicing(rootPc, col.quality, shape.id, 1)
+                  const v =
+                    shell
+                      ? shellVoicing(rootPc, col.quality, shape.id)
+                      : chordVoicing(rootPc, col.quality, shape.id, 1)
                   return (
                     <div key={shape.id} className="v2-cell">
                       <Box
@@ -105,7 +117,7 @@ export function ChordsV2({ settings, set }: Props) {
                           <>
                             {jazzSymbol(nn(rootPc), col.quality)}
                             <small>
-                              {popSymbol(nn(rootPc), col.quality)} · raiz na {shape.string}ª
+                              {popSymbol(nn(rootPc), col.quality)} · raiz na {shape.string}ª{shell ? ' · sem 5ª' : ''}
                             </small>
                           </>
                         }

@@ -20,6 +20,9 @@ export type ScaleView = 'box' | 'diag'
 /** O acorde na consulta: a forma CAGED inteira, ou as tríades num grupo de três cordas. */
 export type ChordView = 'caged' | 'triads'
 
+/** Acordes V2: as formas completas, ou o shell (fundamental, terça e sétima). */
+export type V2Voicing = 'full' | 'shell'
+
 /** 2: a pentatônica menor virou o padrão de tudo. 3: o jogo pega o braço inteiro. */
 export const SETTINGS_VERSION = 3
 
@@ -41,6 +44,7 @@ export interface Settings {
   /** Acordes V2: qual sétima aparece na coluna da terça maior e na da terça menor. */
   v2Maj7: QualityId
   v2Min7: QualityId
+  v2Voicing: V2Voicing
   /** Notas do mapa, na ordem de escolha: a primeira é a referência dos graus. */
   notePcs: number[]
   scaleView: ScaleView
@@ -98,6 +102,7 @@ export const DEFAULTS: Settings = {
   quality: 'min',
   v2Maj7: 'maj7',
   v2Min7: 'min7',
+  v2Voicing: 'full',
   /** A pentatônica menor de Lá, com a tônica primeiro (a referência dos graus). */
   notePcs: [9, 0, 2, 4, 7],
   scaleView: 'box',
@@ -166,6 +171,7 @@ export function loadSettings(): Settings {
     if (!(s.quality in QUALITIES)) s.quality = DEFAULTS.quality
     if (!MAJOR_SEVENTHS.includes(s.v2Maj7)) s.v2Maj7 = DEFAULTS.v2Maj7
     if (!MINOR_SEVENTHS.includes(s.v2Min7)) s.v2Min7 = DEFAULTS.v2Min7
+    if (s.v2Voicing !== 'full' && s.v2Voicing !== 'shell') s.v2Voicing = DEFAULTS.v2Voicing
     if (s.lookup !== null && !(s.lookup in QUALITIES)) s.lookup = null
     const pcs = s.notePcs
     s.notePcs = Array.isArray(pcs) && pcs.every((p) => Number.isInteger(p) && p >= 0 && p <= 11) ? [...new Set(pcs)] : DEFAULTS.notePcs
