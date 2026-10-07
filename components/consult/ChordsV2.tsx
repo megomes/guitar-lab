@@ -65,7 +65,7 @@ export function ChordsV2({ settings, set }: Props) {
         <Segmented<V2Voicing>
           options={[
             { value: 'full', label: 'completo' },
-            { value: 'shell', label: 'shell: 1 · 3 · 7' },
+            { value: 'shell', label: 'shell: 3 notas' },
           ]}
           value={v2Voicing}
           onChange={set('v2Voicing')}
@@ -83,7 +83,7 @@ export function ChordsV2({ settings, set }: Props) {
       <div className="v2-grid">
         {columns.map((col) => {
           const info = JAZZ[col.quality]
-          const shell = v2Voicing === 'shell' && !!col.options
+          const shell = v2Voicing === 'shell'
           return (
             <section key={col.key} className="v2-col card" aria-label={col.title}>
               <header className="v2-head">
@@ -102,7 +102,7 @@ export function ChordsV2({ settings, set }: Props) {
                   />
                 )}
                 <p className="v2-blurb">
-                  <b>{[info?.jazz && `${info.jazz} ${info.name}`, QUALITIES[col.quality].degrees.filter((d) => !(shell && d?.includes('5'))).join(' ')].filter(Boolean).join(' · ') || info?.name}</b>
+                  <b>{[info?.jazz && `${info.jazz} ${info.name}`, QUALITIES[col.quality].degrees.filter((d) => !(shell && col.options && d?.includes('5'))).join(' ')].filter(Boolean).join(' · ') || info?.name}</b>
                   {info?.blurb}
                 </p>
               </header>
@@ -123,7 +123,7 @@ export function ChordsV2({ settings, set }: Props) {
                           <>
                             {jazzSymbol(nn(rootPc), col.quality)}
                             <small>
-                              {popSymbol(nn(rootPc), col.quality)} · raiz na {shape.string}ª{shell ? ' · sem 5ª' : ''}
+                              {popSymbol(nn(rootPc), col.quality)} · raiz na {shape.string}ª{shell ? (col.options ? ' · sem 5ª' : ' · 3 notas') : ''}
                             </small>
                           </>
                         }

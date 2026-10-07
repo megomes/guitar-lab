@@ -66,16 +66,19 @@ export const spokenName = (rootName: string, quality: QualityId) => `${ptNote(ro
  * quinta é a nota que menos diz sobre o acorde, e a terça com a sétima dizem
  * tudo (maior ou menor, Δ7, −7 ou dominante). Com a raiz na 6ª corda a ordem
  * subindo é 1–7–3 (cordas 6, 4, 3); com a raiz na 5ª é 1–3–7 (cordas 5, 4, 3).
- * Só vale para acordes com sétima.
+ *
+ * Maior e menor não têm sétima: a mesma geometria fica com a quinta no lugar
+ * dela (1–5–3 e 1–3–5), três notas em três cordas, a tríade enxuta.
  */
 export function shellVoicing(root: number, quality: QualityId, shape: ShapeId): Voicing | null {
   const q = QUALITIES[quality]
-  if (q.seventh === undefined) return null
+  /* A nota de cima: a sétima, ou a quinta quando o acorde é uma tríade. */
+  const top: [Role, number] = q.seventh === undefined ? ['F', q.fifth] : ['S', q.seventh]
   const rootString = V2_SHAPES.find((s) => s.id === shape)?.string === 6 ? 0 : 1
   const plan: [number, Role, number][] =
     rootString === 0
-      ? [[0, 'R', 0], [2, 'S', q.seventh], [3, 'T', q.third]]
-      : [[1, 'R', 0], [2, 'T', q.third], [3, 'S', q.seventh]]
+      ? [[0, 'R', 0], [2, top[0], top[1]], [3, 'T', q.third]]
+      : [[1, 'R', 0], [2, 'T', q.third], [3, top[0], top[1]]]
   const rootPc = ((root % 12) + 12) % 12
   const roles: Role[] = ['R', 'T', 'F', 'S']
 
