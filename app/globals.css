@@ -3222,3 +3222,183 @@ button.stage-box-on:hover {
     transform: translate(-50%, -50%) rotate(90deg);
   }
 }
+
+/* ── Acordes V2: as oito formas, em quatro colunas ──────────────────────── */
+.v2-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.v2-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px;
+}
+
+.v2-head {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 94px;
+}
+
+.v2-head h2 {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.v2-head .segmented {
+  align-self: flex-start;
+  max-width: 100%;
+}
+
+.v2-blurb {
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: var(--fg-3);
+}
+
+.v2-cells {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.v2-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.v2 .stage-box {
+  width: 100%;
+  max-width: 190px;
+}
+
+.v2 .stage-box svg {
+  max-height: 210px;
+}
+
+.v2 .stage-box-title {
+  font-size: 15px;
+}
+
+.v2 .stage-box-title small {
+  font-size: 11px;
+}
+
+.v2-degs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px 8px;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.v2-degs small {
+  margin-right: 3px;
+  font-size: 9.5px;
+  font-weight: 400;
+  color: var(--fg-4);
+}
+
+.v2-tab {
+  font-size: 11px;
+  color: var(--fg-3);
+}
+
+.v2-key {
+  padding: 12px 14px;
+}
+
+.v2-key h2 {
+  margin-bottom: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+.v2-key ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4px 12px;
+  list-style: none;
+}
+
+.v2-key-row {
+  display: grid;
+  grid-template-columns: 62px 58px 1fr auto;
+  grid-template-areas: 'sym pop name formula' 'blurb blurb blurb blurb';
+  align-items: baseline;
+  gap: 0 8px;
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid transparent;
+  border-radius: var(--r-md);
+  text-align: left;
+  color: var(--fg-2);
+}
+
+.v2-key-row:hover {
+  border-color: var(--line-2);
+}
+
+.v2-key-on,
+.v2-key-on:hover {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.v2-key-row b {
+  grid-area: sym;
+  font-family: var(--serif);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--fg);
+}
+
+.v2-key-pop {
+  grid-area: pop;
+  font-size: 12px;
+  color: var(--fg-3);
+}
+
+.v2-key-name {
+  grid-area: name;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.v2-key-formula {
+  grid-area: formula;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--fg-3);
+}
+
+.v2-key-blurb {
+  grid-area: blurb;
+  font-size: 11.5px;
+  color: var(--fg-4);
+}
+
+@media (max-width: 899px) {
+  .v2-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .v2-head {
+    min-height: 0;
+  }
+}

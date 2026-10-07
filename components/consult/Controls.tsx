@@ -28,7 +28,7 @@ export function CGroup({ label, hint, children }: { label: string; hint?: string
 }
 
 /** As doze tônicas, cada uma escrita no tom dela: D♭ maior, C♯ menor. */
-function Tonics({ rootPc, minor, onRoot }: { rootPc: number; minor: boolean; onRoot: (pc: number) => void }) {
+export function Tonics({ rootPc, minor, onRoot }: { rootPc: number; minor: boolean; onRoot: (pc: number) => void }) {
   return (
     <CGroup label="Tônica">
       {ALL_PCS.map((pc) => (
