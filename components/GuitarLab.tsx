@@ -18,6 +18,7 @@ import { computePractice, modeName, tonicName } from '@/lib/practice/session'
 import { DEFAULTS, STORAGE_KEY, loadSettings, type Settings } from '@/lib/settings'
 import { isMinorish, namesForScale, namesForTonic, sharpNames } from '@/lib/spelling'
 
+import { ChordsV2 } from './consult/ChordsV2'
 import { ConsultView } from './consult/ConsultView'
 import { NamesContext } from './names'
 import { MeetingView } from './practice/MeetingView'
@@ -92,6 +93,8 @@ export function GuitarLab() {
   const names = useMemo(() => {
     if (mode === 'scales') return namesForScale(rootPc, scale.intervals)
     if (mode === 'chords') return namesForTonic(rootPc, isMinorish(chordIntervals(quality)))
+    /* As oito formas misturam maiores e menores: a grafia é a da tônica como tom maior. */
+    if (mode === 'chords2') return namesForTonic(rootPc, false)
     if (mode === 'notes') return sharpNames
     return P.names
   }, [mode, rootPc, scale, quality, P])
@@ -131,6 +134,8 @@ export function GuitarLab() {
       ? `${settings.quizPcs.length} notas · ${settings.quizStrings.length} cordas`
       : group === 'treino'
       ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
+      : mode === 'chords2'
+        ? `${names(rootPc)} · 8 formas`
       : mode === 'notes'
         ? `${settings.notePcs.length} notas`
         : `${names(rootPc)} · forma ${shape}`
@@ -155,7 +160,8 @@ export function GuitarLab() {
           cta={cta}
         />
 
-        {group === 'consulta' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
+        {mode === 'chords2' && <ChordsV2 settings={settings} set={set} />}
+        {group === 'consulta' && mode !== 'chords2' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}

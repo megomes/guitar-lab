@@ -5,6 +5,7 @@
  * (notas, graus) e o "fora da forma" também valem para tudo.
  */
 import { QUALITIES, type QualityId } from './chords'
+import { MAJOR_SEVENTHS, MINOR_SEVENTHS } from './jazz'
 import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, type ModeId } from './modes'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
@@ -37,6 +38,9 @@ export interface Settings {
   /** Acorde consultado por cima da escala. Null é braço limpo. */
   lookup: QualityId | null
   quality: QualityId
+  /** Acordes V2: qual sétima aparece na coluna da terça maior e na da terça menor. */
+  v2Maj7: QualityId
+  v2Min7: QualityId
   /** Notas do mapa, na ordem de escolha: a primeira é a referência dos graus. */
   notePcs: number[]
   scaleView: ScaleView
@@ -92,6 +96,8 @@ export const DEFAULTS: Settings = {
   scaleId: 'pentaMinor',
   lookup: null,
   quality: 'min',
+  v2Maj7: 'maj7',
+  v2Min7: 'min7',
   /** A pentatônica menor de Lá, com a tônica primeiro (a referência dos graus). */
   notePcs: [9, 0, 2, 4, 7],
   scaleView: 'box',
@@ -158,6 +164,8 @@ export function loadSettings(): Settings {
     s.showOutside = s.showOutside !== false
     if (!SCALES.some((x) => x.id === s.scaleId)) s.scaleId = DEFAULTS.scaleId
     if (!(s.quality in QUALITIES)) s.quality = DEFAULTS.quality
+    if (!MAJOR_SEVENTHS.includes(s.v2Maj7)) s.v2Maj7 = DEFAULTS.v2Maj7
+    if (!MINOR_SEVENTHS.includes(s.v2Min7)) s.v2Min7 = DEFAULTS.v2Min7
     if (s.lookup !== null && !(s.lookup in QUALITIES)) s.lookup = null
     const pcs = s.notePcs
     s.notePcs = Array.isArray(pcs) && pcs.every((p) => Number.isInteger(p) && p >= 0 && p <= 11) ? [...new Set(pcs)] : DEFAULTS.notePcs

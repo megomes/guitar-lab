@@ -116,7 +116,7 @@ const Wheel = memo(WheelView)
 
 /* ── Um diagrama de pé, como no caderno de acordes ────────────────────── */
 
-interface Dot {
+export interface Dot {
   string: number
   fret: number
   pc: number
@@ -130,9 +130,11 @@ interface BoxProps {
   sub?: string
   on?: boolean
   onPress?: () => void
+  /** O que vai escrito na bolinha; sem isso, o nome da nota. */
+  label?: (d: Dot) => string
 }
 
-function BoxView({ dots, muted = [], title, sub, on = false, onPress }: BoxProps) {
+function BoxView({ dots, muted = [], title, sub, on = false, onPress, label }: BoxProps) {
   const nn = useNames()
   const pressed = dots.filter((d) => d.fret > 0).map((d) => d.fret)
   const lo = pressed.length ? Math.min(...pressed) : 1
@@ -182,7 +184,7 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress }: BoxProps
                 <>
                   <circle r={7.4} fill={c} />
                   <text className="stage-box-name" fill="#141212">
-                    {nn(d.pc)}
+                    {label ? label(d) : nn(d.pc)}
                   </text>
                 </>
               )}
@@ -198,7 +200,7 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress }: BoxProps
   )
 }
 
-const Box = memo(BoxView)
+export const Box = memo(BoxView)
 
 /* ── Escalas ──────────────────────────────────────────────────────────── */
 

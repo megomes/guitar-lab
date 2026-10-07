@@ -1,8 +1,8 @@
 'use client'
 
-/* A casca: a barra de cima com as sete telas e a barra de baixo no celular, que
+/* A casca: a barra de cima com as oito telas e a barra de baixo no celular, que
  * vira um trilho na lateral no celular, que fica sempre deitado. */
-import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, Repeat, Video, Waypoints } from 'lucide-react'
+import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, LayoutGrid, Repeat, Video, Waypoints } from 'lucide-react'
 import { Fragment } from 'react'
 
 import { MODES, type ModeId } from '@/lib/modes'
@@ -12,6 +12,7 @@ const ICON = { size: 18, strokeWidth: 1.6 }
 export const MODE_ICON: Record<ModeId, React.ReactNode> = {
   scales: <Waypoints {...ICON} />,
   chords: <Guitar {...ICON} />,
+  chords2: <LayoutGrid {...ICON} />,
   notes: <Crosshair {...ICON} />,
   practice: <Repeat {...ICON} />,
   meeting: <Video {...ICON} />,
