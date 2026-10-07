@@ -93,6 +93,7 @@ export function ChordsV2({ settings, set }: Props) {
                     options={col.options.map((q) => ({ value: q, label: (
                         <>
                           <b>{JAZZ[q]?.jazz}</b>
+                          <small className="v2-pop">{popSymbol(nn(rootPc), q)}</small>
                           <small>{JAZZ[q]?.say}</small>
                         </>
                       ),
