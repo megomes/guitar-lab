@@ -15,8 +15,9 @@ export const V2_SHAPES: { id: ShapeId; string: number; name: string }[] = [
   { id: 'A', string: 5, name: 'fundamental na 5ª corda' },
 ]
 
-/** As 7ªs de terça maior e as de terça menor: uma coluna para cada. */
-export const MAJOR_SEVENTHS: QualityId[] = ['maj7', 'dom7']
+/** As 7ªs de terça maior e as de terça menor: uma coluna para cada. A 7ª menor vem
+ * sempre à esquerda da maior. */
+export const MAJOR_SEVENTHS: QualityId[] = ['dom7', 'maj7']
 export const MINOR_SEVENTHS: QualityId[] = ['min7', 'm7b5', 'dim7']
 
 export interface JazzSymbol {
@@ -37,8 +38,8 @@ export interface JazzSymbol {
 export const JAZZ: Partial<Record<QualityId, JazzSymbol>> = {
   maj: { jazz: '', pop: '', name: 'maior', short: 'maior', say: 'maior', blurb: 'fundamental, terça maior, quinta' },
   min: { jazz: '−', pop: 'm', name: 'menor', short: 'menor', say: 'menor', blurb: 'fundamental, terça menor, quinta' },
-  maj7: { jazz: 'Δ7', pop: 'Maj7', name: 'maior com 7ª maior', short: 'maior', say: 'maior com 7ª maior', blurb: 'tríade maior + sétima maior (7)' },
-  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'maior com 7ª', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
+  maj7: { jazz: 'Δ7', pop: 'Maj7', name: 'maior com 7ª maior', short: 'maior', say: 'com 7ª maior', blurb: 'tríade maior + sétima maior (7)' },
+  dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'sete (dominante)', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
   min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', say: 'menor com 7ª', blurb: 'tríade menor + sétima menor (♭7)' },
   m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'meio-diminuto', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
   dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },

@@ -43,8 +43,8 @@ export function ChordsV2({ settings, set }: Props) {
   const nn = useNames()
 
   const columns: Column[] = [
-    { key: 'maj', title: 'Maior', quality: 'maj' },
     { key: 'min', title: 'Menor', quality: 'min' },
+    { key: 'maj', title: 'Maior', quality: 'maj' },
     { key: 'min7', title: 'Menor com 7ª', quality: v2Min7, options: MINOR_SEVENTHS, onQuality: set('v2Min7') },
     { key: 'maj7', title: 'Maior com 7ª', quality: v2Maj7, options: MAJOR_SEVENTHS, onQuality: set('v2Maj7') },
   ]
