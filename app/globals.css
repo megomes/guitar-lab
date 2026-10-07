@@ -3228,27 +3228,31 @@ button.stage-box-on:hover {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 10px;
+  min-height: 0;
 }
 
 .v2-col {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
   min-width: 0;
-  padding: 12px;
+  min-height: 0;
+  padding: 10px 10px 8px;
 }
 
 .v2-head {
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  min-height: 94px;
+  gap: 5px;
+  /* Igual nas quatro colunas, com ou sem seletor: os diagramas alinham. */
+  min-height: 108px;
 }
 
 .v2-head h2 {
   font-family: var(--serif);
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 1.1;
   letter-spacing: -0.01em;
 }
 
@@ -3258,28 +3262,42 @@ button.stage-box-on:hover {
 }
 
 .v2-blurb {
-  font-size: 11.5px;
-  line-height: 1.35;
+  display: grid;
+  gap: 1px;
+  min-height: 3.9em;
+  font-size: 11px;
+  line-height: 1.3;
   color: var(--fg-3);
+}
+
+.v2-blurb b {
+  font-weight: 600;
+  color: var(--fg-2);
 }
 
 .v2-cells {
   display: flex;
+  flex: 1;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
+  min-height: 0;
 }
 
 .v2-cell {
   display: flex;
+  flex: 1;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 3px;
   min-width: 0;
+  min-height: 0;
 }
 
 .v2 .stage-box {
   width: 100%;
   max-width: 190px;
+  padding: 6px 6px 4px;
 }
 
 .v2 .stage-box svg {
@@ -3287,118 +3305,60 @@ button.stage-box-on:hover {
 }
 
 .v2 .stage-box-title {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .v2 .stage-box-title small {
-  font-size: 11px;
+  font-size: 10.5px;
 }
 
 .v2-degs {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 4px 8px;
+  gap: 0 8px;
   list-style: none;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .v2-degs small {
-  margin-right: 3px;
-  font-size: 9.5px;
+  margin-right: 2px;
+  font-size: 9px;
   font-weight: 400;
   color: var(--fg-4);
 }
 
 .v2-tab {
-  font-size: 11px;
+  font-size: 10.5px;
+  line-height: 1.2;
   color: var(--fg-3);
 }
 
-.v2-key {
-  padding: 12px 14px;
+/* Tablet e computador nada rola: a grade é a sobra de altura, e o diagrama
+   encolhe até caber os dois (6ª e 5ª corda) com o cabeçalho e os textos. */
+@media (min-width: 700px) and (min-height: 560px) {
+  .v2-grid {
+    flex: 1 1 0;
+    container: v2grid / size;
+  }
+
+  .v2 .stage-box svg {
+    max-height: max(60px, min(210px, calc((100cqh - 305px) / 2)));
+  }
 }
 
-.v2-key h2 {
-  margin-bottom: 6px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--fg-3);
-}
-
-.v2-key ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 4px 12px;
-  list-style: none;
-}
-
-.v2-key-row {
-  display: grid;
-  grid-template-columns: 62px 58px 1fr auto;
-  grid-template-areas: 'sym pop name formula' 'blurb blurb blurb blurb';
-  align-items: baseline;
-  gap: 0 8px;
-  width: 100%;
-  padding: 6px 8px;
-  border: 1px solid transparent;
-  border-radius: var(--r-md);
-  text-align: left;
-  color: var(--fg-2);
-}
-
-.v2-key-row:hover {
-  border-color: var(--line-2);
-}
-
-.v2-key-on,
-.v2-key-on:hover {
-  border-color: var(--accent-line);
-  background: var(--accent-soft);
-}
-
-.v2-key-row b {
-  grid-area: sym;
-  font-family: var(--serif);
-  font-size: 18px;
-  font-weight: 400;
-  color: var(--fg);
-}
-
-.v2-key-pop {
-  grid-area: pop;
-  font-size: 12px;
-  color: var(--fg-3);
-}
-
-.v2-key-name {
-  grid-area: name;
-  font-size: 13px;
-  font-weight: 600;
-}
-
-.v2-key-formula {
-  grid-area: formula;
-  font-family: var(--mono);
-  font-size: 11.5px;
-  color: var(--fg-3);
-}
-
-.v2-key-blurb {
-  grid-area: blurb;
-  font-size: 11.5px;
-  color: var(--fg-4);
-}
-
-@media (max-width: 899px) {
+@media (max-width: 699px), (max-height: 559px) {
   .v2-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .v2-head {
+    min-height: 0;
+  }
+
+  .v2-blurb {
     min-height: 0;
   }
 }

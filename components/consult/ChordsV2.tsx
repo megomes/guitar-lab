@@ -49,7 +49,6 @@ export function ChordsV2({ settings, set }: Props) {
     { key: 'min7', title: 'Menor com 7ª', quality: v2Min7, options: MINOR_SEVENTHS, onQuality: set('v2Min7') },
   ]
 
-  const pick = (q: QualityId) => (MAJOR_SEVENTHS.includes(q) ? set('v2Maj7')(q) : set('v2Min7')(q))
   const label = (d: Dot) => (labelMode === 'note' ? nn(d.pc) : d.degree)
 
   return (
@@ -82,12 +81,15 @@ export function ChordsV2({ settings, set }: Props) {
                 <h2>{col.title}</h2>
                 {col.options && col.onQuality && (
                   <Segmented<QualityId>
-                    options={col.options.map((q) => ({ value: q, label: `${JAZZ[q]?.jazz} ${JAZZ[q]?.short}` }))}
+                    options={col.options.map((q) => ({ value: q, label: JAZZ[q]?.jazz ?? '' }))}
                     value={col.quality}
                     onChange={col.onQuality}
                   />
                 )}
-                <p className="v2-blurb">{info?.blurb}</p>
+                <p className="v2-blurb">
+                  <b>{[info?.jazz && `${info.jazz} ${info.name}`, QUALITIES[col.quality].degrees.join(' ')].filter(Boolean).join(' · ') || info?.name}</b>
+                  {info?.blurb}
+                </p>
               </header>
               <div className="v2-cells">
                 {V2_SHAPES.map((shape) => {
@@ -128,26 +130,6 @@ export function ChordsV2({ settings, set }: Props) {
         })}
       </div>
 
-      <section className="v2-key card" aria-label="qual símbolo é qual">
-        <h2>Qual símbolo é qual</h2>
-        <ul>
-          {([...MAJOR_SEVENTHS, ...MINOR_SEVENTHS] as QualityId[]).map((q) => {
-            const info = JAZZ[q]
-            const on = q === v2Maj7 || q === v2Min7
-            return (
-              <li key={q}>
-                <button type="button" className={`v2-key-row${on ? ' v2-key-on' : ''}`} aria-pressed={on} onClick={() => pick(q)}>
-                  <b>{jazzSymbol(nn(rootPc), q)}</b>
-                  <span className="v2-key-pop">{popSymbol(nn(rootPc), q)}</span>
-                  <span className="v2-key-name">{info?.name}</span>
-                  <span className="v2-key-formula">{QUALITIES[q].degrees.join(' ')}</span>
-                  <span className="v2-key-blurb">{info?.blurb}</span>
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      </section>
     </main>
   )
 }
