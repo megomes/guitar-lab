@@ -40,8 +40,8 @@ export const JAZZ: Partial<Record<QualityId, JazzSymbol>> = {
   maj7: { jazz: 'Δ7', pop: 'Maj7', name: 'maior com 7ª maior', short: 'maior', say: 'maior com 7ª maior', blurb: 'tríade maior + sétima maior (7)' },
   dom7: { jazz: '7', pop: '7', name: 'dominante', short: 'dominante', say: 'maior com 7ª', blurb: 'tríade maior + sétima menor (♭7): pede resolver' },
   min7: { jazz: '−7', pop: 'm7', name: 'menor com 7ª menor', short: 'menor', say: 'menor com 7ª', blurb: 'tríade menor + sétima menor (♭7)' },
-  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'menor com 7ª e 5ª bemol', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
-  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto com 7ª diminuta', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
+  m7b5: { jazz: 'ø7', pop: 'm7♭5', name: 'meio-diminuto', short: 'meio-dim.', say: 'meio-diminuto', blurb: 'menor com ♭5 + sétima menor (♭7): o ii do ii–V menor' },
+  dim7: { jazz: '°7', pop: 'dim7', name: 'diminuto', short: 'diminuto', say: 'diminuto', blurb: 'tudo em terças menores: ♭3, ♭5 e sétima diminuta (♭♭7)' },
 }
 
 /** A cifra do jazz: "C", "C−", "CΔ7", "C−7", "C7", "Cø7", "C°7". */
