@@ -128,6 +128,10 @@ It is a PWA: `app/manifest.ts` is the manifest, icons are generated from `icons/
 | Icons     | Lucide                                           |
 | Storage   | `localStorage`, no backend                       |
 
+## License
+
+[MIT](LICENSE)
+
 <br>
 
 <div align="center">
