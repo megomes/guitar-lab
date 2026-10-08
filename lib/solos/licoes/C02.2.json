@@ -1,0 +1,1927 @@
+{
+ "titulo": "Escala maior e campo harmônico",
+ "gancho": "Sete notas, uma fórmula e um padrão de acordes que se repete em todos os tons. Com isso você já consegue ler a harmonia da maioria das músicas que conhece.",
+ "porque_importa": "Quase todo o pop e o rock usa só os acordes que saem de uma escala maior. Quando você sabe de onde vêm esses acordes e por que cada um é maior, menor ou diminuto, uma progressão vira uma tonalidade com graus numerados, e você sabe que notas usar no solo. Arpejos, modos e trocas de tom partem dessa base.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Sete degraus, dois deles curtos",
+   "texto": "A escala maior tem sete notas diferentes. A oitava volta a ser o grau 1. Os intervalos entre as notas seguem sempre a mesma ordem: tom, tom, semitom, tom, tom, tom, semitom. Em Dó maior isso dá C D E F G A B, sem nenhum acidente, porque os semitons naturais (E-F e B-C) caem nos lugares certos. Se você começa de qualquer outra nota, precisa de sustenidos ou bemóis para manter a fórmula. É isso que define uma tonalidade: sete das doze notas, escolhidas por essa fórmula a partir da tônica. Os nomes dos intervalos estão em “Notas, intervalos e graus”.",
+   "destaque": "T-T-S-T-T-T-S: a mesma fórmula em qualquer tom.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Dó maior numa corda só (corda Lá). Ouça e veja os dois degraus curtos, de 1 casa, entre E-F e B-C. Os outros pulos são de 2 casas.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Uma escala, sete acordes",
+   "texto": "Para montar o acorde de cada grau, tome a nota como raiz, pule a próxima nota da escala e pegue a seguinte. Faça isso duas vezes. Isso é empilhar terças: I = 1-3-5, ii = 2-4-6, iii = 3-5-7, IV = 4-6-1, V = 5-7-2, vi = 6-1-3, vii = 7-2-4. Em Dó: C-E-G, D-F-A, E-G-B, F-A-C, G-B-D, A-C-E, B-D-F. Esses sete acordes formam o campo harmônico. A escala fornece as notas, e o campo é o conjunto de acordes feitos com elas.",
+   "destaque": "Pegue uma, pule uma: o campo harmônico sai da própria escala.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Harmonizar por terças: sobre cada nota de Dó maior, pegue uma nota, pule a próxima e pegue a seguinte (1-3-5, 2-4-6, 3-5-7...). Os números são o grau na ESCALA e o anel marca a raiz de cada tríade.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A escala decide se o acorde é maior ou menor",
+   "texto": "Ninguém escolhe a qualidade de cada acorde: ela é consequência de usar só notas da escala. Sobre Dó, a escala de Dó maior só oferece C-E-G, então o acorde é maior. Um Cm precisaria de E♭, que não está na escala. Sobre Ré, as notas disponíveis são D-F-A, e o acorde sai menor. Sobre Si, B-D-F tem duas terças menores seguidas e forma um diminuto. O resultado é o mesmo padrão em qualquer tom maior: maior, menor, menor, maior, maior, menor, diminuto. Em Sol: G Am Bm C D Em F♯°.",
+   "destaque": "I, IV e V maiores. ii, iii e vi menores. vii diminuto.",
+   "visual": {
+    "id": "V3",
+    "tipo": "acordes",
+    "legenda": "Tríades do campo de Dó maior, em ordem: I ii iii IV V vi vii°. As qualidades são maior, menor, menor, maior, maior, menor e diminuto.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "Dm",
+      "digitacao": "xx0231"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "F",
+      "digitacao": "133211"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "Bdim",
+      "digitacao": "x2343x"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Mais uma terça: as tétrades",
+   "texto": "Se você empilha mais uma terça (a 7ª nota a partir da raiz), cada tríade vira uma tétrade: Imaj7, iim7, iiim7, IVmaj7, V7, vim7 e viim7♭5. São sete graus, mas só quatro tipos de acorde. Atenção ao V: em Dó ele é G7 = G B D F, um dominante com sétima menor, e não Gmaj7. O vii como tríade é diminuto (B-D-F). Com a sétima A, vira meio-diminuto (Bm7♭5), que é diferente do B°7, um acorde fora do tom. A montagem de cada tipo está em “Formação de acordes: tríades, tétrades e extensões”.",
+   "destaque": "maj7, m7, m7, maj7, 7, m7, m7♭5: decore o padrão uma vez e use em todos os tons.",
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Tétrades do campo de Dó maior, em ordem: Imaj7 iim7 iiim7 IVmaj7 V7 vim7 viim7♭5. As três primeiras têm raiz na 5ª corda e as outras na 6ª, todas entre as casas 1 e 9.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x3545x"
+     },
+     {
+      "nome": "Dm7",
+      "digitacao": "x5756x"
+     },
+     {
+      "nome": "Em7",
+      "digitacao": "x7978x"
+     },
+     {
+      "nome": "Fmaj7",
+      "digitacao": "1x221x"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "3x343x"
+     },
+     {
+      "nome": "Am7",
+      "digitacao": "5x555x"
+     },
+     {
+      "nome": "Bm7♭5",
+      "digitacao": "7x776x"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Números em vez de nomes",
+   "texto": "Chame os acordes pelo grau. Em numerais romanos, maiúscula é acorde maior e minúscula é menor (I, ii, iii, IV, V, vi, vii°). No sistema Nashville, os mesmos graus aparecem em algarismos arábicos (1, 2m, 3m, 4, 5, 6m). Pensando assim, C-G-Am-F e G-D-Em-C são a mesma música: I-V-vi-IV. Para analisar uma progressão, procure o tom em cujo campo cabem todos os acordes. Se todos cabem, uma escala serve de mapa para a progressão inteira. Se aparece um acorde de fora, como um A7 em Dó, ele traz uma nota de fora (C♯) e pede outra abordagem nesse trecho.",
+   "destaque": "Pense “I-V-vi-IV” em vez de “C-G-Am-F” e você toca a música em qualquer tom.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 34,
+   "porque": "Mauricio Alabama mostra por que cada acorde tem a qualidade que tem: só valem notas da escala.",
+   "fonte": {
+    "id": "iUZwNSDpV_Q#I08",
+    "tipo": "video",
+    "autor": "Mauricio Alabama",
+    "titulo": "Como solar em QUALQUER música",
+    "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=264s",
+    "video": "iUZwNSDpV_Q",
+    "inicio": 264,
+    "momento": "04:26",
+    "ideia": "Qualidade dos acordes vem das notas do campo"
+   }
+  },
+  {
+   "ref": 37,
+   "porque": "Daniel Seriff toca as tríades de Dó maior grau por grau e diz a qualidade de cada uma no braço.",
+   "fonte": {
+    "id": "ui6qUcvaKU0#I16",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+    "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=345s",
+    "video": "ui6qUcvaKU0",
+    "inicio": 345,
+    "momento": "05:47",
+    "ideia": "Graus e tríades diatônicas de Dó maior"
+   }
+  },
+  {
+   "ref": 71,
+   "porque": "Jens Larsen toca os sete acordes de sétima de Dó maior em tempo, com shapes de raiz na 5ª corda.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I02",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=67s",
+    "video": "2OxHReoGIqs",
+    "inicio": 67,
+    "momento": "01:09",
+    "ideia": "Tocar o campo harmônico de Dó maior em tempo"
+   }
+  },
+  {
+   "ref": 77,
+   "porque": "fretjam calcula as notas de cada acorde de uma progressão 1-5-2-4 em Lá maior a partir dos graus da escala.",
+   "fonte": {
+    "id": "itLSHk5jnTI#I16",
+    "tipo": "video",
+    "autor": "fretjam",
+    "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+    "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=564s",
+    "video": "itLSHk5jnTI",
+    "inicio": 564,
+    "momento": "09:26",
+    "ideia": "Calcular os tons de acorde de 1-5-2-4 em Lá maior"
+   }
+  },
+  {
+   "ref": 18,
+   "porque": "Mauricio Alabama mostra como escrever o padrão tom-tom-semitom e montar a escala a partir de cada uma das 12 notas.",
+   "fonte": {
+    "id": "iUZwNSDpV_Q#I06",
+    "tipo": "video",
+    "autor": "Mauricio Alabama",
+    "titulo": "Como solar em QUALQUER música",
+    "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=163s",
+    "video": "iUZwNSDpV_Q",
+    "inicio": 163,
+    "momento": "02:45",
+    "ideia": "Escrever o padrão e praticar partindo de todas as notas"
+   }
+  },
+  {
+   "ref": 82,
+   "porque": "Jens Larsen mostra o E7 entrando em Dó maior como acorde de fora que puxa para o Am7.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I06",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=178s",
+    "video": "2OxHReoGIqs",
+    "inicio": 178,
+    "momento": "03:00",
+    "ideia": "E7 como dominante extra que puxa para Am7"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Sete letras, nenhuma repetida: escalas por escrito",
+   "objetivo": "Montar a escala maior de qualquer tônica sem consultar nada e conferir no braço.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "No alto do papel, escreva: T-T-S-T-T-T-S.",
+    "Escolha uma tônica, por exemplo Sol. Escreva as sete letras em ordem a partir dela: G A B C D E F.",
+    "Acrescente acidentes até cada intervalo bater com a fórmula. Em Sol, só o F muda e vira F♯: G A B C D E F♯.",
+    "Faça o mesmo com Ré (D E F♯ G A B C♯), Mi (E F♯ G♯ A B C♯ D♯) e Fá (F G A B♭ C D E).",
+    "Confira cada escala no braço: leve o desenho de V2 para a nova tônica na 6ª corda (Sol na casa 3, Lá na casa 5) e cante o nome de cada nota enquanto toca.",
+    "Acrescente duas tônicas novas por dia até completar as 12."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Escala de Dó maior com a tônica na 6ª corda, casa 8. O desenho é móvel: ponha o dedo da tônica em outra nota e você tem a escala maior desse tom.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Escreva pela armadura: primeiro as letras, depois os acidentes do tom (Si♭ maior: B♭ C D E♭ F G A).",
+    "Diga a escala em voz alta, sem papel, em até 10 segundos por tom."
+   ],
+   "cuidado": "Cada letra aparece uma vez só. Em Fá maior a nota é B♭, não A♯. Se você escreveu A e A♯, errou a letra.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I42",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Exercícios de nomenclatura e de escalas por escrito"
+    },
+    {
+     "id": "bFtTvqASQ9k#I13",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=301s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 301,
+     "momento": "05:03",
+     "ideia": "Montar a escala maior pela armadura"
+    },
+    {
+     "id": "iUZwNSDpV_Q#I06",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=163s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Escrever o padrão e praticar partindo de todas as notas"
+    },
+    {
+     "id": "iUZwNSDpV_Q#I05",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=132s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Transpor o padrão para Mi maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Empilhe terças e ouça a qualidade de cada acorde",
+   "objetivo": "Construir o campo harmônico tocando 1-3-5 sobre cada grau e reconhecer de ouvido qual acorde é maior, menor ou diminuto.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque V5 devagar (66 bpm), deixando a pausa depois de cada tríade.",
+    "A cada tríade, diga o grau da raiz e a qualidade: “um, maior”, “dois, menor”...",
+    "Confira no papel: C-E-G, D-F-A, E-G-B, F-A-C, G-B-D, A-C-E, B-D-F.",
+    "Toque só as tríades de ii, iii e vi. Depois só as de I, IV e V. Ouça a diferença entre os dois grupos.",
+    "Por fim, toque só o vii (B-D-F) e repare como ele soa instável, como se pedisse para resolver em C."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Harmonizar por terças: sobre cada nota de Dó maior, pegue uma nota, pule a próxima e pegue a seguinte (1-3-5, 2-4-6, 3-5-7...). Os números são o grau na ESCALA e o anel marca a raiz de cada tríade.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente a quarta nota de cada pilha (1-3-5-7) e ouça as tétrades: C-E-G-B, D-F-A-C...",
+    "Faça o mesmo em Sol maior, entre as casas 2 e 5."
+   ],
+   "cuidado": "Não pule duas notas da escala nem conte por casas. A terça é sempre a nota da escala que vem logo depois da próxima.",
+   "inspirado_em": [
+    {
+     "id": "z1YGMPsz-rU#I03",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=102s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 102,
+     "momento": "01:44",
+     "ideia": "Receita para montar acordes do campo harmônico"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I18",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas do acorde por saltos de terça na escala"
+    },
+    {
+     "id": "itLSHk5jnTI#I14",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+     "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=497s",
+     "video": "itLSHk5jnTI",
+     "inicio": 497,
+     "momento": "08:19",
+     "ideia": "Tríades pelos graus da escala maior"
+    },
+    {
+     "id": "yb9PBaQngn4#I13",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=413s",
+     "video": "yb9PBaQngn4",
+     "inicio": 413,
+     "momento": "06:55",
+     "ideia": "Cada nota da escala gera um acorde por terças"
+    },
+    {
+     "id": "TDhrEDRMxKw#I06",
+     "tipo": "video",
+     "autor": "Beyond The Guitar",
+     "titulo": "Fingerstyle Improvisation in 4 Simple Steps",
+     "url": "https://www.youtube.com/watch?v=TDhrEDRMxKw&t=189s",
+     "video": "TDhrEDRMxKw",
+     "inicio": 189,
+     "momento": "03:11",
+     "ideia": "Construir tríades contando a escala (1-3-5)"
+    },
+    {
+     "id": "z1YGMPsz-rU#I04",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=135s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 135,
+     "momento": "02:17",
+     "ideia": "Por que o sétimo grau é diminuto"
+    },
+    {
+     "id": "z1YGMPsz-rU#I05",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=135s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 135,
+     "momento": "02:17",
+     "ideia": "Tentar formar acorde menor sobre a tônica do campo"
+    }
+   ]
+  },
+  {
+   "titulo": "O campo em tempo: tríades e tétrades",
+   "objetivo": "Tocar o campo de Dó maior em sequência com metrônomo e saber o grau de cada acorde sem precisar pensar.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Ponha o metrônomo a 60 bpm. Toque as tríades de V3 em ordem, dois tempos por acorde, dizendo o grau (“I, ii, iii...”).",
+    "Quando sair limpo, passe para um tempo por acorde.",
+    "Troque para as tétrades de V4, de novo com dois tempos por acorde: Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7♭5 e de volta ao Cmaj7.",
+    "Repare no G7: é o único acorde do campo com som de dominante, que pede resolução.",
+    "Para fechar, toque G7 → Cmaj7 várias vezes e ouça o V resolvendo no I."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Tétrades do campo de Dó maior, em ordem: Imaj7 iim7 iiim7 IVmaj7 V7 vim7 viim7♭5. As três primeiras têm raiz na 5ª corda e as outras na 6ª, todas entre as casas 1 e 9.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x3545x"
+     },
+     {
+      "nome": "Dm7",
+      "digitacao": "x5756x"
+     },
+     {
+      "nome": "Em7",
+      "digitacao": "x7978x"
+     },
+     {
+      "nome": "Fmaj7",
+      "digitacao": "1x221x"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "3x343x"
+     },
+     {
+      "nome": "Am7",
+      "digitacao": "5x555x"
+     },
+     {
+      "nome": "Bm7♭5",
+      "digitacao": "7x776x"
+     }
+    ]
+   },
+   "variacoes": [
+    "Toque de trás para a frente, do vii ao I.",
+    "Toque em quartas: Bm7♭5, Em7, Am7, Dm7, G7, Cmaj7. Muitas progressões reais andam nessa ordem.",
+    "Comece pelo IV grau (Fmaj7) e percorra o campo inteiro a partir dele."
+   ],
+   "cuidado": "Não toque Gmaj7 no lugar de G7. No V grau, a sétima é F, não F♯.",
+   "inspirado_em": [
+    {
+     "id": "2OxHReoGIqs#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=67s",
+     "video": "2OxHReoGIqs",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Tocar o campo harmônico de Dó maior em tempo"
+    },
+    {
+     "id": "NGior_1Tsmo#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=270s",
+     "video": "NGior_1Tsmo",
+     "inicio": 270,
+     "momento": "04:32",
+     "ideia": "Tocar os acordes diatônicos de Sol maior"
+    },
+    {
+     "id": "EMQydbilqmo#I16",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=331s",
+     "video": "EMQydbilqmo",
+     "inicio": 331,
+     "momento": "05:33",
+     "ideia": "Aprender shell voicings como acordes diatônicos"
+    },
+    {
+     "id": "2OxHReoGIqs#I04",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=138s",
+     "video": "2OxHReoGIqs",
+     "inicio": 138,
+     "momento": "02:20",
+     "ideia": "Mapa do braço por acordes da tonalidade"
+    },
+    {
+     "id": "NGior_1Tsmo#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=136s",
+     "video": "NGior_1Tsmo",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Confundir o V7 com maj7"
+    }
+   ]
+  },
+  {
+   "titulo": "Transpor por números: o mesmo campo em Sol, Ré e Mi",
+   "objetivo": "Montar o campo de qualquer tom aplicando o padrão de qualidades à escala, sem decorar um campo por vez.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Desenhe uma tabela com 7 colunas (I a vii°) e três linhas: Sol, Ré e Mi.",
+    "Em cada linha, escreva a escala do tom e aplique o padrão M m m M M m °.",
+    "Confira: Sol = G Am Bm C D Em F♯°. Ré = D Em F♯m G A Bm C♯°. Mi = E F♯m G♯m A B C♯m D♯°.",
+    "Escreva a progressão em Nashville: 1 - 5 - 6m - 4.",
+    "Toque essa progressão nos três tons, quatro tempos por acorde, lendo só os números. Em Sol, use os acordes de V7."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "acordes",
+    "legenda": "Acordes da progressão I-V-vi-IV em Sol maior: G (I), D (V), Em (vi), C (IV).",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     }
+    ]
+   },
+   "variacoes": [
+    "Escreva também a linha das tétrades (Imaj7 ... viim7♭5) para Ré e Mi.",
+    "Peça para alguém sortear um tom e um número (por exemplo, “Lá, 4”). Responda o acorde (“D”) em até 3 segundos."
+   ],
+   "cuidado": "Não transponha acorde por acorde contando casas. Transponha a escala e deixe o padrão de qualidades fazer o resto.",
+   "inspirado_em": [
+    {
+     "id": "pt--campo_harmônico-b0b9ac#I10",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Campo harmônico – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Campo_harmônico",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transpor o campo harmônico para Mi maior"
+    },
+    {
+     "id": "NGior_1Tsmo#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=136s",
+     "video": "NGior_1Tsmo",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Memorizar o padrão de graus"
+    },
+    {
+     "id": "NGior_1Tsmo#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=474s",
+     "video": "NGior_1Tsmo",
+     "inicio": 474,
+     "momento": "07:56",
+     "ideia": "Sistema de números de graus (Nashville)"
+    },
+    {
+     "id": "bFtTvqASQ9k#I02",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=33s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 33,
+     "momento": "00:35",
+     "ideia": "Progressões em números romanos"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I01",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=69s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 69,
+     "momento": "01:11",
+     "ideia": "Pensar progressões em números"
+    }
+   ]
+  },
+  {
+   "titulo": "Detetive de tonalidade",
+   "objetivo": "Descobrir o tom de uma progressão, numerar os graus e perceber quando um acorde não pertence ao campo.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Analise estas progressões: (a) D – G – A – Bm; (b) E – B – C♯m – A; (c) F – B♭ – C – Dm; (d) Em – C – G – D; (e) C – E – Am – F.",
+    "Para cada uma, escolha uma tônica candidata, escreva a escala maior dela e confira se todos os acordes aparecem no campo com a qualidade certa.",
+    "Escreva os graus. Respostas: (a) Ré: I IV V vi. (b) Mi: I V vi IV. (c) Fá: I IV V vi. (d) Sol: vi IV I V.",
+    "Na (e), o E maior não cabe em Dó porque traz G♯. Escreva “III (fora do campo)” e circule esse acorde.",
+    "Toque cada progressão e, por cima dela, a escala do tom que você encontrou. No acorde circulado, ouça como o G natural da escala choca com o G♯ do acorde."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Pegue três músicas que você toca e reescreva a cifra delas em números.",
+    "Atalho para conferir o IV: cinco semitons acima da tônica (a partir de Lá, o IV é Ré)."
+   ],
+   "cuidado": "O primeiro acorde nem sempre é o I. Em (d), Em é o vi de Sol. Descubra a tônica testando o campo, não pela ordem dos acordes.",
+   "inspirado_em": [
+    {
+     "id": "z1YGMPsz-rU#I07",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=305s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 305,
+     "momento": "05:07",
+     "ideia": "Verificar se a progressão cabe em um campo harmônico"
+    },
+    {
+     "id": "-El2m16TS5o#I02",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "How Do The Pro's Build A Solo On Guitar",
+     "url": "https://www.youtube.com/watch?v=-El2m16TS5o&t=67s",
+     "video": "-El2m16TS5o",
+     "inicio": 67,
+     "momento": "1:09",
+     "ideia": "Descobrir a tonalidade pela escala maior"
+    },
+    {
+     "id": "LNe3bdHBdp4#I13",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=495s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 495,
+     "momento": "08:17",
+     "ideia": "Achar o IV a partir do I"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I06",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Progressão C – G – Am – F pertence a C maior"
+    },
+    {
+     "id": "bFtTvqASQ9k#I20",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=499s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Progressão IV-I-V-vi em Sol maior"
+    },
+    {
+     "id": "bFtTvqASQ9k#I07",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=166s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Acordes diatônicos"
+    }
+   ]
+  },
+  {
+   "titulo": "Graus viram notas: I-V-vi-IV em Sol",
+   "objetivo": "Calcular pelos graus as notas de cada acorde dentro da escala e tocá-las no lugar certo.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Escreva a escala de Sol: G A B C D E F♯.",
+    "Calcule as notas de cada acorde: I = 1-3-5 (G B D), V = 5-7-2 (D F♯ A), vi = 6-1-3 (E G B), IV = 4-6-1 (C E G).",
+    "Toque V6 sobre a base de V7 (ou grave a base num looper). Toque as três notas de cada acorde e deixe o quarto tempo em silêncio.",
+    "Repare na nota com anel em cada compasso: é a terça (B, F♯, G, E), a nota que define se o acorde é maior ou menor.",
+    "Agora monte a sua versão: escolha outras três notas de cada acorde na mesma região do braço."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "I-V-vi-IV em Sol maior. As notas de cada acorde saem da escala de Sol pela conta dos graus: I = 1-3-5, V = 5-7-2, vi = 6-1-3, IV = 4-6-1. Aqui os números são o grau em relação ao ACORDE, e o anel marca a terça, que define se o acorde é maior ou menor.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a conta em Lá maior com I-V-ii-IV: A C♯ E / E G♯ B / B D F♯ / D F♯ A.",
+    "Monte a tabela em relação à tônica: I = 1 3 5, IV = 1 4 6, V = 2 5 7, vi = 1 3 6. Depois faça o ii e o iii."
+   ],
+   "cuidado": "Os graus da conta (5-7-2) são graus da ESCALA. Em relação ao acorde D, essas mesmas notas são 1-3-5. Não misture as duas referências.",
+   "inspirado_em": [
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I19",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Identificar as notas do acorde em progressões na escala maior"
+    },
+    {
+     "id": "itLSHk5jnTI#I16",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+     "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=564s",
+     "video": "itLSHk5jnTI",
+     "inicio": 564,
+     "momento": "09:26",
+     "ideia": "Calcular os tons de acorde de 1-5-2-4 em Lá maior"
+    },
+    {
+     "id": "t8SmU7wIxnc#I10",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=385s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 385,
+     "momento": "06:27",
+     "ideia": "Mapa de notas-alvo por grau"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I18",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas do acorde por saltos de terça na escala"
+    }
+   ]
+  },
+  {
+   "titulo": "O intruso: A7 no lugar de Am",
+   "objetivo": "Ouvir e localizar a nota de fora de uma dominante secundária e entender por que ela não muda a tonalidade.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque em loop C – Am – Dm – G7 (I-vi-ii-V em Dó), quatro tempos por acorde, com os acordes de V8.",
+    "Troque Am por A7: C – A7 – Dm – G7. Compare as notas dos dois: A-C-E e A-C♯-E-G.",
+    "A nota de fora é o C♯. Ele fica um semitom abaixo de D, e o A7 é o V de Dm (V7/ii).",
+    "Toque a escala de Dó por cima do loop. No compasso do A7, troque C por C♯ e ouça a escala voltar a encaixar.",
+    "Repita com E7 → Am: a nota de fora é o G♯, e o E7 é o V de Am."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "acordes",
+    "legenda": "O intruso. Em Dó maior, o vi é Am (A-C-E). O A7 (A-C♯-E-G) traz C♯, uma nota de fora da escala, e puxa o ouvido para o Dm. Ordem: C (I), Am (vi), A7 (V7/ii), Dm (ii), G7 (V7).",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "Dm",
+      "digitacao": "xx0231"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "320001"
+     }
+    ]
+   },
+   "variacoes": [
+    "Em Sol, toque G – F♯° – Em e depois G – D/F♯ – Em. O vii° e o V com a terça no baixo cumprem papéis parecidos.",
+    "Procure um E7 numa música que você conhece (Fly Me to the Moon tem um) e marque-o na cifra como V7/vi."
+   ],
+   "cuidado": "Não conclua que a música mudou de tom. A dominante secundária só toma emprestada uma nota por um instante e depois volta ao campo.",
+   "inspirado_em": [
+    {
+     "id": "iUZwNSDpV_Q#I18",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=624s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 624,
+     "momento": "10:26",
+     "ideia": "Acorde fora do campo harmônico"
+    },
+    {
+     "id": "2OxHReoGIqs#I06",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=178s",
+     "video": "2OxHReoGIqs",
+     "inicio": 178,
+     "momento": "03:00",
+     "ideia": "E7 como dominante extra que puxa para Am7"
+    },
+    {
+     "id": "2OxHReoGIqs#I15",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=391s",
+     "video": "2OxHReoGIqs",
+     "inicio": 391,
+     "momento": "06:33",
+     "ideia": "Dominante secundária"
+    },
+    {
+     "id": "NGior_1Tsmo#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=507s",
+     "video": "NGior_1Tsmo",
+     "inicio": 507,
+     "momento": "08:29",
+     "ideia": "Acorde vii diminuto como passing chord"
+    },
+    {
+     "id": "NGior_1Tsmo#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=582s",
+     "video": "NGior_1Tsmo",
+     "inicio": 582,
+     "momento": "09:44",
+     "ideia": "Acorde 5/7 (D/F#)"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Harmonizar o V como maj7. No campo maior ele é V7: em Dó, G7 = G B D F.",
+  "Chamar o vii de “diminuto com sétima”. A tríade é diminuta (B-D-F) e a tétrade é m7♭5 (B-D-F-A). O B°7 traz A♭ e não pertence a Dó maior.",
+  "Repetir letras ao escrever escalas, como escrever A♯ em Fá maior em vez de B♭.",
+  "Decorar o campo de cada tom separadamente em vez de decorar o padrão M m m M M m ° uma vez só.",
+  "Achar que o primeiro acorde da música é sempre o I. Teste o tom pelo campo inteiro.",
+  "Supor que todo acorde da cifra é diatônico. Um III maior ou um A7 em Dó trazem notas de fora."
+ ],
+ "resumo": [
+  "Escala maior: T-T-S-T-T-T-S. São sete notas, e a oitava volta ao 1.",
+  "Campo harmônico: sobre cada nota, empilhe terças da própria escala (pegue uma, pule uma).",
+  "Tríades: I, IV e V maiores; ii, iii e vi menores; vii diminuto.",
+  "Tétrades: Imaj7 iim7 iiim7 IVmaj7 V7 vim7 viim7♭5. O V é dominante.",
+  "Pense em graus (romanos ou Nashville). Se todos os acordes cabem num campo, a escala desse tom é o seu mapa."
+ ],
+ "proximos_passos": "Para levar o campo ao solo, siga para “Escala maior e diatônica no solo”. Para tocar cada grau como arpejo, vá para “Arpejos de sétima e diatônicos”. A relação entre tons maiores e menores e a transposição estão em “Tonalidade, relativas e transposição”. Depois, explore “Modos: construção, sonoridade e nota característica”. A dominante secundária volta com mais profundidade em “Harmonia de jazz para o solista”.",
+ "_meta": {
+  "subcategoria": "C02.2",
+  "modulo": {
+   "id": "C02",
+   "nome": "Teoria essencial para solar"
+  },
+  "nome": "Escala maior e campo harmônico",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:58:41",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 4,
+   "cache_write": 54807,
+   "cache_read": 9866,
+   "output": 31265,
+   "thinking": 9185,
+   "turns": 4,
+   "custo_nominal": 1.1098241999999998
+  }
+ }
+}

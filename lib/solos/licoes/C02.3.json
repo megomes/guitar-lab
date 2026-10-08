@@ -1,0 +1,1821 @@
+{
+ "titulo": "Formação de acordes: tríades, tétrades e extensões",
+ "gancho": "Um acorde é uma pilha de terças, e às vezes basta mover uma nota em uma casa para ele mudar de cara.",
+ "porque_importa": "Quem sola persegue as notas do acorde. Para isso, precisa saber quais são essas notas e o que cada uma faz. Entendendo a fórmula, você reconhece o acorde pelo som, lê qualquer cifra sem medo e acha as notas-alvo sem decorar mais um desenho.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Acorde é uma pilha de terças",
+   "texto": "Comece numa nota, pule a seguinte da escala e pegue a próxima. Repita. Três notas (1-3-5) formam a tríade. Mais uma terça traz a 7ª e forma a tétrade. Se continuar empilhando, chegam a 9ª, a 11ª e a 13ª. Quem decide o acorde são as notas DIFERENTES, e não o número de cordas: um Sol aberto com seis cordas soando ainda tem só G, B e D. É uma tríade.",
+   "destaque": "1-3-5, depois 7, depois 9-11-13: sempre de terça em terça.",
+   "visual": null
+  },
+  {
+   "titulo": "Mude uma nota e o acorde muda de cara",
+   "texto": "Comece pela tríade maior (1-3-5). Abaixe a 3ª e ela fica menor (1-♭3-5). Abaixe também a 5ª e ela fica diminuta (1-♭3-♭5): tensa e instável, pedindo resolução. Suba a 5ª da maior e ela fica aumentada (1-3-♯5). Troque a 3ª pela 2ª ou pela 4ª e vira sus2 ou sus4: sem terça, o acorde não é maior nem menor e soa no ar, esperando pousar.",
+   "destaque": "A terça é a nota que mais diz quem o acorde é.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "A família da tríade de Dó nas cordas G-B-E: em cada forma, só uma nota muda",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "xxx553"
+     },
+     {
+      "nome": "Cm",
+      "digitacao": "xxx543"
+     },
+     {
+      "nome": "Cdim",
+      "digitacao": "xxx542"
+     },
+     {
+      "nome": "Caug",
+      "digitacao": "xxx554"
+     },
+     {
+      "nome": "Csus2",
+      "digitacao": "xxx533"
+     },
+     {
+      "nome": "Csus4",
+      "digitacao": "xxx563"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "A quarta nota: qual sétima?",
+   "texto": "maj7 = 1-3-5-7 (Cmaj7: C E G B). 7 (dominante) = 1-3-5-♭7 (C7: C E G B♭). m7 = 1-♭3-5-♭7. m7♭5 (ø) = 1-♭3-♭5-♭7. dim7 (°7) = 1-♭3-♭5-♭♭7, e essa ♭♭7 soa igual à 6ª (em Cdim7, o B♭♭ soa como A). A 3ª e a 7ª definem a qualidade, e a 5ª é quase enchimento. O dominante tem terça maior: não é acorde menor, mesmo quando você sola com a pentatônica menor no blues.",
+   "destaque": "C7 tem B♭. Só Cmaj7 (C7M, CΔ) tem B.",
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "A escada das tétrades de Dó: de um acorde para o seguinte, só uma nota desce uma casa",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x35353"
+     },
+     {
+      "nome": "Cm7",
+      "digitacao": "x35343"
+     },
+     {
+      "nome": "Cm7♭5",
+      "digitacao": "x3434x"
+     },
+     {
+      "nome": "Cdim7",
+      "digitacao": "x3424x"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Extensões: 2, 4 e 6 uma oitava acima",
+   "texto": "A 9ª é a 2ª, a 11ª é a 4ª e a 13ª é a 6ª, só que uma oitava acima. Elas dão cor sem mudar a função do acorde. Fique atento ao nome: add9 é a tríade + 9, sem 7ª (Cadd9 = C E G D). Já 9 é a tétrade com 7ª + 9 (G9 = G B D F A). Do mesmo jeito, o 6 não tem 7ª e o 13 tem. Atalho para os dominantes: suba a tônica um tom e ganhe a 9; suba a 5ª um tom e ganhe a 13.",
+   "destaque": "Sem 7ª é add9 ou 6. Com 7ª é 9 ou 13.",
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Tríade de Sol nas cordas agudas (casa 3) e as notas que se somam a ela: 6 (E), ♭7 (F) e 9 (A)",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [],
+    "acordes": [],
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "♭7",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "9",
+      "alvo": true
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Lendo a cifra",
+   "texto": "C = maior · Cm / C- = menor · C° / Cdim = diminuto · C+ / Caug = aumentado · Csus2 / Csus4 = sem terça · C6 = maior + 6 · C7 = dominante · Cmaj7 / C7M / CΔ = sétima maior · Cm7 = menor com sétima · Cm7♭5 / Cø = meio-diminuto · C°7 = diminuto com sétima · Cadd9, C9, C13 = extensões. Leia a cifra e já pense nos graus. As notas você calcula a partir deles.",
+   "destaque": "Primeiro pense nos graus, depois ache as notas e por último o desenho no braço.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 24,
+   "porque": "Daniel Seriff transforma Dó maior em Dó menor movendo uma única nota da corda Si e mostra que a forma continua a mesma.",
+   "fonte": {
+    "id": "ui6qUcvaKU0#I08",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+    "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=134s",
+    "video": "ui6qUcvaKU0",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Transformar maior em menor baixando a terça"
+   }
+  },
+  {
+   "ref": 42,
+   "porque": "Samjamguitar monta arpejos de maior com 6 e de meio-diminuto direto pela fórmula, sem decorar desenho novo.",
+   "fonte": {
+    "id": "fxpn2pf0zf8#I07",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+    "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=100s",
+    "video": "fxpn2pf0zf8",
+    "inicio": 100,
+    "momento": "01:42",
+    "ideia": "Arpejos de maior 6 e meio-diminuto"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Active Melody pega a tríade de Sol e, subindo uma casa a partir da 6ª, chega na ♭7 e forma o G7 no braço.",
+   "fonte": {
+    "id": "QXp8yDb3zyQ#I18",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+    "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=898s",
+    "video": "QXp8yDb3zyQ",
+    "inicio": 898,
+    "momento": "15:00",
+    "ideia": "Sétima dominante: subir uma casa da sexta"
+   }
+  },
+  {
+   "ref": 79,
+   "porque": "Seriff sobe a tônica de um dominante pequeno um tom e mostra, tocando, como o 7 vira 9.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I21",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=753s",
+    "video": "gueqUPZ88rs",
+    "inicio": 753,
+    "momento": "12:35",
+    "ideia": "Nona dominante: tônica sobe um tom"
+   }
+  },
+  {
+   "ref": 82,
+   "porque": "Seriff aplica a mesma ideia em A7, D7 e E7 e alterna o acorde com e sem a nona para você ouvir a cor.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I22",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=785s",
+    "video": "gueqUPZ88rs",
+    "inicio": 785,
+    "momento": "13:07",
+    "ideia": "Aplicar a nona em A7, D7 e E7"
+   }
+  },
+  {
+   "ref": 38,
+   "porque": "Rick Beato mostra como reconhecer de ouvido um sus4: a 4ª soa onde deveria estar a terça.",
+   "fonte": {
+    "id": "bFtTvqASQ9k#I22",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "My Method to Learning ANY Song By Ear",
+    "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=532s",
+    "video": "bFtTvqASQ9k",
+    "inicio": 532,
+    "momento": "08:54",
+    "ideia": "Sus4 pela quarta no lugar da terça"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Uma nota por vez: a família da tríade de Dó",
+   "objetivo": "Construir maior, menor, diminuto e aumentado mexendo em uma única nota e ouvir o caráter de cada um.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque o C nas cordas G-B-E (casas 5-5-3) e diga em voz alta: 1, 3, 5.",
+    "Siga o V3: arpeje e depois toque as três notas juntas, sempre deixando soar.",
+    "Para o Cm, desça só a nota da corda Si (casa 5 → 4). Para o Cdim, desça também a da corda Mi (casa 3 → 2). Para o Caug, volte ao C e suba a nota da corda Mi (casa 3 → 4).",
+    "Depois de cada acorde, dê uma palavra para a sensação dele (ex.: estável, triste, tenso, flutuante).",
+    "Mova a família duas casas acima, com a tônica Ré na corda Sol, casa 7. Antes de tocar, calcule as notas: D = D F♯ A, Dm = D F A, Ddim = D F A♭, Daug = D F♯ A♯. Depois confira no braço (xxx775, xxx765, xxx764, xxx776)."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Maior, menor, diminuto e aumentado: três notas arpejadas e depois juntas. A nota com anel é a que mudou",
+    "tonica": "C",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cdim",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "G♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "G♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Caug",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "♯5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "♯5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça o mesmo com a tônica Mi (corda Sol, casa 9), calculando as notas antes.",
+    "Toque em ordem aleatória e peça a alguém (ou a um app) para dizer qual qualidade ouviu."
+   ],
+   "cuidado": "Decorar as quatro formas como desenhos soltos. O objetivo é saber QUAL grau se moveu e para onde.",
+   "inspirado_em": [
+    {
+     "id": "rtKZBns_IMY#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad Practice Routine, It'll 10X Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=rtKZBns_IMY&t=105s",
+     "video": "rtKZBns_IMY",
+     "inicio": 105,
+     "momento": "1:47",
+     "ideia": "Transformar maior em menor abaixando a terça"
+    },
+    {
+     "id": "ui6qUcvaKU0#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=134s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Transformar maior em menor baixando a terça"
+    },
+    {
+     "id": "fxpn2pf0zf8#I06",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=67s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Criar arpejo menor abaixando a terça do maior"
+    },
+    {
+     "id": "rtKZBns_IMY#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad Practice Routine, It'll 10X Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=rtKZBns_IMY&t=105s",
+     "video": "rtKZBns_IMY",
+     "inicio": 105,
+     "momento": "1:47",
+     "ideia": "Tríade diminuta: ♭3 e ♭5"
+    },
+    {
+     "id": "lJRzTqOf1ro#I12",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=515s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 515,
+     "momento": "08:37",
+     "ideia": "Alterar acordes trocando uma nota"
+    },
+    {
+     "id": "-KZSGF0gY6E#I02",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=99s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Maioria dos acordes são variações de maior e menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Suspenso e pouso: sus4 e sus2 resolvendo",
+   "objetivo": "Ouvir que o sus troca a 3ª e por isso fica no ar até a terça voltar.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Toque o V4 devagar: Csus4 (corda Si casa 6 = F), depois C (corda Si casa 5 = E).",
+    "Repare: só a nota da corda Si se move. Do sus4 para o maior ela desce um semitom; do sus2 para o maior ela sobe dois.",
+    "Deixe o compasso do C soar inteiro, em silêncio: é o pouso.",
+    "Agora inverta: toque C → Csus4 e pare no sus. Sinta a frase ficar sem final.",
+    "Calcule e toque Dsus4 (D G A) e Dsus2 (D E A) no Ré aberto: xx0233 e xx0230."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "O sus fica no ar e o maior pousa. Deixe soar o silêncio depois da resolução",
+    "tonica": "C",
+    "bpm": 66,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "Csus4",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Csus2",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Alterne D → Dsus4 → D → Dsus2 → D em ritmo de colcheias, como nos riffs de violão.",
+    "Em A aberto: Asus2 (x02200) e Asus4 (x02230)."
+   ],
+   "cuidado": "Chamar Csus4 de 'C com 4ª' e achar que a terça continua lá. No sus, a terça SAI.",
+   "inspirado_em": [
+    {
+     "id": "bFtTvqASQ9k#I22",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=532s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 532,
+     "momento": "08:54",
+     "ideia": "Sus4 pela quarta no lugar da terça"
+    },
+    {
+     "id": "UbIv3AKmNl0#I11",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=393s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 393,
+     "momento": "06:35",
+     "ideia": "2ª e 4ª soam suspensas sem a 3ª"
+    }
+   ]
+  },
+  {
+   "titulo": "Fórmula no papel, acorde na mão",
+   "objetivo": "Ler uma cifra, escrever as notas pelos graus e só depois achar a forma.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Pegue papel e escreva as notas de: G, G7, Gmaj7, Gm7, Bm7♭5, Cadd9, C9. Confira: G = G B D; G7 = G B D F; Gmaj7 = G B D F♯; Gm7 = G B♭ D F; Bm7♭5 = B D F A; Cadd9 = C E G D; C9 = C E G B♭ D.",
+    "Ao lado de cada nota, escreva o grau (1, 3, ♭3, 5, ♭7...).",
+    "Toque o Sol aberto (320003) e confira corda por corda: quantas notas DIFERENTES ele tem? (Três: G, B e D.)",
+    "Escolha um acorde da lista e toque nota por nota, em qualquer lugar do braço, só pelas notas que você escreveu.",
+    "Para os acordes de 7ª, use as formas do V2 com a tônica na corda Lá: mova duas casas acima e terá Dmaj7, D7, Dm7, Dm7♭5 e Ddim7. Escreva as notas de cada um antes de tocar."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "A escada das tétrades de Dó: de um acorde para o seguinte, só uma nota desce uma casa",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x35353"
+     },
+     {
+      "nome": "Cm7",
+      "digitacao": "x35343"
+     },
+     {
+      "nome": "Cm7♭5",
+      "digitacao": "x3434x"
+     },
+     {
+      "nome": "Cdim7",
+      "digitacao": "x3424x"
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça o mesmo em Lá: Amaj7, A7, Am7, Am7♭5.",
+    "Cronometre: quantas cifras você 'traduz' em 2 minutos sem errar?"
+   ],
+   "cuidado": "Escrever F♯ em G7. Dominante tem ♭7: em G7 a sétima é F. O F♯ é do Gmaj7.",
+   "inspirado_em": [
+    {
+     "id": "QXp8yDb3zyQ#I03",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=165s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 165,
+     "momento": "02:47",
+     "ideia": "Achar que acorde de seis cordas tem mais notas"
+    },
+    {
+     "id": "EJW2rIhE_GA#I11",
+     "tipo": "video",
+     "autor": "TomoFujitaMusic",
+     "titulo": "7 Great Improvisation Tips That Do Not Make You As Just OKAY Guitarist anymore!",
+     "url": "https://www.youtube.com/watch?v=EJW2rIhE_GA&t=398s",
+     "video": "EJW2rIhE_GA",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Entender a teoria em vez de memorizar"
+    },
+    {
+     "id": "fxpn2pf0zf8#I04",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=34s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "A fórmula do acorde gera qualquer arpejo"
+    },
+    {
+     "id": "fxpn2pf0zf8#I08",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=100s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Conhecer intervalos substitui decorar formas"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I21",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Nomenclatura: C7 é dominante com ♭7"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I05",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Acordes de sétima e suas notas"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I06",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Não confundir C7 com Cmaj7"
+    },
+    {
+     "id": "bFtTvqASQ9k#I21",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=499s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Reconhecer add9 pela nota extra"
+    }
+   ]
+  },
+  {
+   "titulo": "A escada das sétimas: cinco acordes, uma casa por vez",
+   "objetivo": "Ver e ouvir que maj7, 7, m7, m7♭5 e dim7 se ligam descendo um grau de cada vez.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque Cmaj7 (x35453) e ache o B na corda Sol, casa 4: é a 7.",
+    "Desça essa nota para a casa 3 (B♭): agora é C7.",
+    "Desça a nota da corda Si da casa 5 para a 4 (E → E♭): Cm7.",
+    "Desça a 5ª da corda Ré da casa 5 para a 4 (G → G♭) e abafe a corda Mi aguda: Cm7♭5.",
+    "Desça a ♭7 da corda Sol da casa 3 para a 2 (B♭ → A): Cdim7. Repare que esse A é a 6ª de Dó, a tal ♭♭7.",
+    "Suba a escada de volta. A cada degrau, diga o grau que mudou."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "A escada das tétrades de Dó: de um acorde para o seguinte, só uma nota desce uma casa",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x35353"
+     },
+     {
+      "nome": "Cm7",
+      "digitacao": "x35343"
+     },
+     {
+      "nome": "Cm7♭5",
+      "digitacao": "x3434x"
+     },
+     {
+      "nome": "Cdim7",
+      "digitacao": "x3424x"
+     }
+    ]
+   },
+   "variacoes": [
+    "Toque cada acorde arpejado (uma corda por vez) antes do bloco.",
+    "Faça a escada com tônica em Ré (casa 5) e em Sol (casa 10)."
+   ],
+   "cuidado": "Confundir Cm7♭5 com Cdim7. A única diferença é a sétima: ♭7 (B♭) no meio-diminuto, ♭♭7 (A) no dim7.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I21",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Nomenclatura: C7 é dominante com ♭7"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I05",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Acordes de sétima e suas notas"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=171s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Notas do acorde Cm7"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I09",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "As sete tétrades diatônicas"
+    },
+    {
+     "id": "pt--campo_harmônico-b0b9ac#I05",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Campo harmônico – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Campo_harmônico",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Intervalos internos do acorde maior com sétima maior"
+    },
+    {
+     "id": "pt--campo_harmônico-b0b9ac#I06",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Campo harmônico – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Campo_harmônico",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Intervalos internos do acorde menor com sétima menor"
+    },
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I01",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "3ª e 7ª definem a qualidade do acorde"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I07",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Diminuto 7 e a sexta maior"
+    }
+   ]
+  },
+  {
+   "titulo": "C7 ou Cmaj7? O teste da sétima",
+   "objetivo": "Não confundir mais as duas sétimas, nem no nome nem no ouvido.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque o V7: o arpejo C-E-G é igual nos dois. Só a quarta nota muda (B ou B♭).",
+    "No compasso de silêncio, deixe a 7ª soar sozinha e cante a nota.",
+    "Descreva: a 7 (B) soa doce, sonhadora, um semitom abaixo da oitava; a ♭7 (B♭) soa blues, com vontade de seguir em frente.",
+    "Grave uma sequência aleatória de 8 arpejos misturando Cmaj7 e C7. Ouça no dia seguinte e anote qual é qual.",
+    "Confira o resultado e escreva as duas fórmulas no topo da página: 1-3-5-7 e 1-3-5-♭7."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Cmaj7 × C7: o arpejo é igual até a quarta nota. Ouça a sétima sozinha no silêncio",
+    "tonica": "C",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Inclua o Cm7 (troque o E por E♭: corda Ré casa 1) para ter três opções.",
+    "Repita em G: Gmaj7 (F♯) × G7 (F)."
+   ],
+   "cuidado": "Achar que o '7' da cifra quer dizer 'sétima maior'. O número sozinho é sempre dominante.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I21",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Nomenclatura: C7 é dominante com ♭7"
+    },
+    {
+     "id": "ExhI4nkjOAY#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=333s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 333,
+     "momento": "05:35",
+     "ideia": "Adicionar a ♭7 para formar G7"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I06",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Não confundir C7 com Cmaj7"
+    },
+    {
+     "id": "NGior_1Tsmo#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=136s",
+     "video": "NGior_1Tsmo",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Confundir o V7 com maj7"
+    },
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I01",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "3ª e 7ª definem a qualidade do acorde"
+    }
+   ]
+  },
+  {
+   "titulo": "Sol cresce: G → G6 → G7 → G9",
+   "objetivo": "Somar 6, ♭7 e 9 à tríade, ver onde elas moram e ouvir a diferença entre 6, 7 e 9.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Monte a tríade de Sol do V5 (cordas Ré-Sol-Si-Mi nas casas 5-4-3-3).",
+    "Toque o V8: depois do acorde, a nota nova soa sozinha. E (corda Si casa 5) = 6, F (corda Si casa 6) = ♭7.",
+    "No último compasso, a ♭7 vem primeiro e o A (corda Mi casa 5, duas casas acima da tônica G) vem por cima: isso é G9.",
+    "Toque A sobre a tríade SEM o F: isso é Gadd9, e não G9. Compare os dois.",
+    "Diga em voz alta o grau de cada nota nova enquanto toca."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "A tríade de Sol ganha uma nota por compasso: G, G6, G7 e G9",
+    "tonica": "G",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G9",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Tente tocar os acordes em bloco com o mindinho: G6 (casas 5-4-5-3 nas cordas Ré-Sol-Si-Mi) e G7 (casas 5-4-6-3).",
+    "Transporte para Lá: a mesma forma duas casas acima."
+   ],
+   "cuidado": "Chamar de G9 um acorde que não tem a ♭7. Sem sétima, o nome é add9.",
+   "inspirado_em": [
+    {
+     "id": "ExhI4nkjOAY#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=333s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 333,
+     "momento": "05:35",
+     "ideia": "Adicionar a ♭7 para formar G7"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I18",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=898s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 898,
+     "momento": "15:00",
+     "ideia": "Sétima dominante: subir uma casa da sexta"
+    },
+    {
+     "id": "TdzOXWlKtTQ#I14",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Arpeggio Deep Dive: How to use Arpeggios when improvising chord changes - Guitar Lesson EP512",
+     "url": "https://www.youtube.com/watch?v=TdzOXWlKtTQ&t=924s",
+     "video": "TdzOXWlKtTQ",
+     "inicio": 924,
+     "momento": "15:26",
+     "ideia": "♭7 para criar dominante"
+    },
+    {
+     "id": "ExhI4nkjOAY#I10",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=374s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 374,
+     "momento": "06:16",
+     "ideia": "Adicionar a 6ª para formar G6"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I17",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=860s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 860,
+     "momento": "14:22",
+     "ideia": "Sexta: adicionar a 6ª (E) à tríade de Sol"
+    },
+    {
+     "id": "bFtTvqASQ9k#I21",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=499s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Reconhecer add9 pela nota extra"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I19",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=927s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 927,
+     "momento": "15:29",
+     "ideia": "Nona: descer duas casas da sexta"
+    }
+   ]
+  },
+  {
+   "titulo": "Blues com cor: dominantes ganham 9 e 13",
+   "objetivo": "Colocar extensões em dominantes pequenos movendo um dedo um tom, sem formas grandes.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque A7 (xx5655). A tônica A está na corda Mi aguda, casa 5.",
+    "Suba essa nota um tom, para a casa 7 (B): A9. Volte ao A7.",
+    "Agora suba a 5ª (E, corda Si casa 5) para a casa 7 (F♯): A13.",
+    "Em D7 (xx7778), a tônica está na corda Sol, casa 7. Suba para a 9 (E): D9. A 5ª está na corda Ré, casa 7. Suba para a 9 (B): D13.",
+    "E7 (xx999a) é o D7 duas casas acima: E9 = xx9b9a e E13 = xxb99a.",
+    "Toque um blues em Lá (4 compassos A, 2 D, 2 A, E, D, A, E), alternando dentro de cada compasso o acorde '7' e uma extensão."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Dominantes nas quatro cordas agudas: subir um tom a tônica dá a 9; subir um tom a 5ª dá a 13",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "xx5655"
+     },
+     {
+      "nome": "A9",
+      "digitacao": "xx5657"
+     },
+     {
+      "nome": "A13",
+      "digitacao": "xx5675"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx7778"
+     },
+     {
+      "nome": "D9",
+      "digitacao": "xx7978"
+     },
+     {
+      "nome": "D13",
+      "digitacao": "xx9778"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "xx999a"
+     },
+     {
+      "nome": "E9",
+      "digitacao": "xx9b9a"
+     },
+     {
+      "nome": "E13",
+      "digitacao": "xxb99a"
+     }
+    ]
+   },
+   "variacoes": [
+    "Escolha uma regra: 9 só no I e 13 só no IV e no V.",
+    "Arpeje o A13 e cante o F♯: ele é a 6ª, uma oitava acima."
+   ],
+   "cuidado": "Subir só uma casa (de E para F) achando que fez a 13. A 13 está um TOM acima da 5ª: casa 7, e não 6.",
+   "inspirado_em": [
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I20",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Extensões sobre acordes de sétima"
+    },
+    {
+     "id": "lJRzTqOf1ro#I07",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=271s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Tétrades e notas de tensão"
+    },
+    {
+     "id": "gueqUPZ88rs#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=753s",
+     "video": "gueqUPZ88rs",
+     "inicio": 753,
+     "momento": "12:35",
+     "ideia": "Nona dominante: tônica sobe um tom"
+    },
+    {
+     "id": "gueqUPZ88rs#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=849s",
+     "video": "gueqUPZ88rs",
+     "inicio": 849,
+     "momento": "14:11",
+     "ideia": "Décima terceira: quinta sobe um tom"
+    },
+    {
+     "id": "gueqUPZ88rs#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=721s",
+     "video": "gueqUPZ88rs",
+     "inicio": 721,
+     "momento": "12:03",
+     "ideia": "Extensões para dar sabor sem formas grandes"
+    },
+    {
+     "id": "gueqUPZ88rs#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=785s",
+     "video": "gueqUPZ88rs",
+     "inicio": 785,
+     "momento": "13:07",
+     "ideia": "Aplicar a nona em A7, D7 e E7"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ler C7 como 'Dó com sétima maior'. C7 é dominante e tem B♭. B só aparece em Cmaj7/C7M.",
+  "Achar que um acorde com seis cordas soando tem mais notas. Conte as notas diferentes: o Sol aberto é uma tríade.",
+  "Chamar o vii da escala maior de Bm7♭5 quando ele é só tríade. Si-Ré-Fá é Bdim. Só vira m7♭5 quando o Lá entra.",
+  "Confundir m7♭5 (♭7) com dim7 (♭♭7, que soa como a 6ª).",
+  "Usar add9 e 9 como se fossem iguais. O 9 exige a ♭7.",
+  "Pensar que o dominante é menor porque o blues usa pentatônica menor. A terça do dominante é maior.",
+  "Achar que o sus ainda tem terça. No sus, a 2ª ou a 4ª entra NO LUGAR dela.",
+  "Decorar desenhos sem saber o grau de cada nota. Sem isso você não acha as notas-alvo no solo."
+ ],
+ "resumo": [
+  "Acorde = terças empilhadas: 1-3-5 (tríade), + 7 (tétrade), + 9/11/13 (extensões = 2/4/6 uma oitava acima).",
+  "Uma nota muda tudo: menor = ♭3, diminuto = ♭3 e ♭5, aumentado = ♯5, sus = sem 3ª (2 ou 4).",
+  "maj7 = 7 maior; 7 = dominante com ♭7; m7 = ♭3 e ♭7; m7♭5 = ♭3, ♭5 e ♭7; dim7 = ♭♭7 (soa como 6).",
+  "A 3ª e a 7ª dizem quem o acorde é. A 5ª é preenchimento.",
+  "add9 e 6 não têm 7ª; 9 e 13 têm. Num dominante, a tônica sobe um tom para virar 9 e a 5ª sobe um tom para virar 13."
+ ],
+ "proximos_passos": "Com as fórmulas na cabeça, toque-as como melodia em \"Arpejos: conceito e formas básicas\" e \"Arpejos de sétima e diatônicos\". Para espalhar as tríades pelo braço, siga para \"Tríades em grupos de cordas e inversões\". No solo, use isso em \"Notas do acorde, repouso e tensão-resolução\" e em \"Guide tones e condução de vozes\". Para as extensões como cor melódica, a lição é \"Superposição e estrutura superior\".",
+ "_meta": {
+  "subcategoria": "C02.3",
+  "modulo": {
+   "id": "C02",
+   "nome": "Teoria essencial para solar"
+  },
+  "nome": "Formação de acordes: tríades, tétrades e extensões",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T13:02:59",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 38945,
+   "cache_read": 26914,
+   "output": 31691,
+   "thinking": 8589,
+   "turns": 3,
+   "custo_nominal": 0.9647288
+  }
+ }
+}

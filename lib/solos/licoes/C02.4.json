@@ -1,0 +1,2088 @@
+{
+ "titulo": "Tonalidade, relativas e transposição",
+ "gancho": "A escala você já sabe. Falta descobrir onde fica a casa da música e aprender a levar o mesmo desenho para qualquer tom.",
+ "porque_importa": "Antes de tocar a primeira nota, o solista precisa saber em que tom a música está. Sem isso, até a escala certa soa errada. Na guitarra, depois que você acha o tom, o resto é geometria: o mesmo desenho, as mesmas frases e os mesmos graus, só que em outra casa.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Tonalidade: sete notas e uma casa",
+   "texto": "Uma tonalidade usa 7 das 12 notas, organizadas em torno de uma tônica. Quase todos os acordes da música saem dessas sete notas, e é por isso que tocar a escala do tom deixa o solo \"dentro\". Mas a tonalidade não é só um conjunto de notas. Ela tem um centro, o lugar onde a música descansa. Em Dó maior, o C é a casa e o G7 é a tensão que quer voltar para ela.",
+   "destaque": "Antes de decorar os acordes, descubra o tom.",
+   "visual": null
+  },
+  {
+   "titulo": "Ache a casa pelo ouvido, não pelo primeiro acorde",
+   "texto": "O tom costuma ser o acorde em que a música soa resolvida. Muitas vezes é ele que fecha a música, que aparece mais ou que dura mais tempo. Comece testando o primeiro acorde. Se ele não soar como casa, teste o último. Cuidado: muitas músicas começam no V, no IV ou no vi. A–G–D parece estar em Lá, mas está em Ré (V–IV–I). Também não dá para dar grau a um acorde isolado: Fá é IV em Dó, I em Fá e V em Si♭. Se a dúvida continuar, desloque o desenho da escala pelo braço até achar a única posição em que todas as notas combinam.",
+   "destaque": "O tom é onde a música repousa, não onde ela começa.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "A armadilha A–G–D: a música começa em Lá, mas a casa é Ré. A linha desce e só soa resolvida quando pousa no Ré, sobre o acorde de D.",
+    "tonica": "D",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Relativa: as mesmas notas com outro centro",
+   "texto": "Toda tonalidade maior tem uma relativa menor. Ela começa no 6º grau, 3 semitons abaixo da tônica: C↔Am, G↔Em, D↔Bm, F↔Dm. As notas e os desenhos são os mesmos. O que muda é onde você pousa. Sobre Am, a tríade de C (C-E-G) soa como ♭3, 5 e ♭7. Use a relativa para enxergar o tom, não para recalcular cada acorde. Os modos seguem a mesma lógica: G maior, A dórico, D mixolídio e E eólio têm a mesma armadura, cada um com um centro diferente.",
+   "destaque": "Mesmas notas, outro chão: o que muda é a nota em que você pousa.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Mesmas notas, outro centro. Sobre C, a frase pousa em Dó. Sobre Am, as mesmas notas descem um degrau a mais e pousam em Lá. Os compassos vazios são para ouvir o repouso.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Na guitarra, transpor é mover o desenho",
+   "texto": "No piano, cada tom tem uma digitação diferente. Na guitarra, o desenho é móvel. Leve a tônica para a nota do novo tom e tudo vem junto: escala, frases e graus. Meça a distância em casas. De Lá menor para Sol menor são 2 casas abaixo; de Lá menor para Si menor, 2 casas acima. Pense em graus e funções, porque o nome das notas é o que menos importa aqui. Quem transpõe nota por nota trava. Quem pensa \"♭3, 4, 5, 1\" só desliza a mão.",
+   "destaque": "Copie o desenho, cole na nova tônica.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Copiar e colar: o mesmo lick em Lá menor e depois 2 casas abaixo, em Sol menor. As notas mudam, mas os graus e a digitação continuam os mesmos.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Gm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gm",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Ciclo de quintas: vizinhos diferem em uma nota",
+   "texto": "No sentido horário, cada tom ganha um sustenido: C (0), G (1), D (2), A (3), E (4), B (5), F♯ (6). No sentido anti-horário, cada tom ganha um bemol: F (1), B♭ (2), E♭ (3), A♭ (4), D♭ (5). A ordem dos sustenidos é F♯ C♯ G♯ D♯ A♯ E♯ B♯. A dos bemóis é a inversa: B♭ E♭ A♭ D♭ G♭ C♭ F♭. Tonalidades vizinhas diferem em uma só nota: de C para G, o F vira F♯; de Am para Dm, o B vira B♭. Em qualquer tom, o V fica uma posição à direita no ciclo e o IV, uma à esquerda. O ciclo também serve de roteiro para praticar as 12 tonalidades.",
+   "destaque": "Andar um passo no ciclo é trocar uma nota.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Tom vizinho: de Dó maior para Sol maior muda uma única nota, o F vira F♯. Sobre C, o Fá desce e resolve no Mi (3ª de C). Sobre G, o Fá♯ sobe e resolve no Sol (tônica). O anel marca a nota de resolução.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 12,
+   "porque": "Rustys Guitar mostra por que o primeiro acorde nem sempre é a tônica e como confirmar o tom pela escala maior.",
+   "fonte": {
+    "id": "-El2m16TS5o#I01",
+    "tipo": "video",
+    "autor": "Rustys Guitar",
+    "titulo": "How Do The Pro's Build A Solo On Guitar",
+    "url": "https://www.youtube.com/watch?v=-El2m16TS5o&t=31s",
+    "video": "-El2m16TS5o",
+    "inicio": 31,
+    "momento": "0:33",
+    "ideia": "Tonalidade não é necessariamente o acorde inicial"
+   }
+  },
+  {
+   "ref": 22,
+   "porque": "Andrew Clarke desliza o shape maior pelo braço até achar a única posição em que tudo soa certo.",
+   "fonte": {
+    "id": "hafoCeXWxAE#I27",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+    "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1402s",
+    "video": "hafoCeXWxAE",
+    "inicio": 1402,
+    "momento": "23:24",
+    "ideia": "Encontrar a tonalidade de uma música"
+   }
+  },
+  {
+   "ref": 24,
+   "porque": "Jules Guitar toca as relativas lado a lado, e dá para ouvir que as notas são as mesmas e só o centro muda.",
+   "fonte": {
+    "id": "MfrAepqfv2g#I05",
+    "tipo": "video",
+    "autor": "Jules Guitar",
+    "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+    "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=235s",
+    "video": "MfrAepqfv2g",
+    "inicio": 235,
+    "momento": "03:57",
+    "ideia": "Tonalidades relativas usam as mesmas notas"
+   }
+  },
+  {
+   "ref": 54,
+   "porque": "Nelson Faria toca a mesma melodia em vários tons com a mesma digitação e mostra que só a casa muda.",
+   "fonte": {
+    "id": "v2rtFiZPAJ4#I12",
+    "tipo": "video",
+    "autor": "Cortes do Amplifica [OFICIAL]",
+    "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+    "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=377s",
+    "video": "v2rtFiZPAJ4",
+    "inicio": 377,
+    "momento": "06:19",
+    "ideia": "Tocar a mesma melodia em outros tons"
+   }
+  },
+  {
+   "ref": 85,
+   "porque": "Steve Stine troca F por F♯ e leva a ideia de Dó maior para Sol maior: o tom vizinho na prática.",
+   "fonte": {
+    "id": "14UZEproJ-A#I18",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
+    "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=998s",
+    "video": "14UZEproJ-A",
+    "inicio": 998,
+    "momento": "16:40",
+    "ideia": "Trocar F por F# para Sol maior"
+   }
+  },
+  {
+   "ref": 92,
+   "porque": "O Cifra Club alterna Am e F e depois percorre as tonalidades menores pelo ciclo de quartas, com a troca soando na guitarra.",
+   "fonte": {
+    "id": "tyQ1Qj2yBfI#I03",
+    "tipo": "video",
+    "autor": "Cifra Club",
+    "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+    "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=163s",
+    "video": "tyQ1Qj2yBfI",
+    "inicio": 163,
+    "momento": "02:45",
+    "ideia": "Alternar i menor e VI maior em Lá menor"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Onde é a casa? A armadilha A–G–D",
+   "objetivo": "Achar o tom pelo repouso, e não pelo primeiro acorde.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Grave ou programe um loop de A–G–D–D, 1 compasso por acorde, a 72 bpm.",
+    "Toque a linha de V7 sobre o loop. Repare que a frase só soa terminada quando chega ao Ré, no compasso de D.",
+    "Agora termine a frase no Lá do compasso 1 (corda 1, casa 5) e pare. Soa como casa ou como suspensão?",
+    "Diga em voz alta os graus no tom de Ré: A = V, G = IV, D = I.",
+    "Repita o teste com Am–Dm–Em–Am e com G–Em–C–D. Em cada um, escolha o acorde de repouso e confira se todos os acordes cabem no campo desse tom."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "A armadilha A–G–D: a música começa em Lá, mas a casa é Ré. A linha desce e só soa resolvida quando pousa no Ré, sobre o acorde de D.",
+    "tonica": "D",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque o loop começando pelo D (D–A–G–D) e perceba que a casa não mudou.",
+    "Pegue uma música que você conhece e anote o primeiro acorde, o último e o que soa como casa. Compare."
+   ],
+   "cuidado": "Decidir o tom pelo primeiro acorde. Confie no ouvido: o tom é onde a música descansa.",
+   "inspirado_em": [
+    {
+     "id": "MfrAepqfv2g#I02",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=65s",
+     "video": "MfrAepqfv2g",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Tonalidade pelo acorde de resolução"
+    },
+    {
+     "id": "HY5qWMbvsjY#I03",
+     "tipo": "video",
+     "autor": "Marin Music Center",
+     "titulo": "Guitar Soloing Guide: Tips and Techniques - Guitar Lessons with Stuart!",
+     "url": "https://www.youtube.com/watch?v=HY5qWMbvsjY&t=241s",
+     "video": "HY5qWMbvsjY",
+     "inicio": 241,
+     "momento": "04:03",
+     "ideia": "Tonalidade pelo primeiro e último acorde"
+    },
+    {
+     "id": "-El2m16TS5o#I01",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "How Do The Pro's Build A Solo On Guitar",
+     "url": "https://www.youtube.com/watch?v=-El2m16TS5o&t=31s",
+     "video": "-El2m16TS5o",
+     "inicio": 31,
+     "momento": "0:33",
+     "ideia": "Tonalidade não é necessariamente o acorde inicial"
+    },
+    {
+     "id": "bFtTvqASQ9k#I10",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=200s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Progressões não começam sempre no I"
+    },
+    {
+     "id": "bFtTvqASQ9k#I08",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=200s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Um mesmo acorde pode ter funções diferentes"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I05",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Identificar a tonalidade de uma base"
+    }
+   ]
+  },
+  {
+   "titulo": "Relativas: mesmas notas, outro chão",
+   "objetivo": "Ouvir que a maior e a relativa menor usam as mesmas notas e que só a nota de pouso muda.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Na corda 6, ache a tônica maior: Dó, na casa 8. Desça 3 casas (3 semitons) até a casa 5: é Lá, a relativa menor.",
+    "Sobre um loop de C, toque os compassos 1–2 de V1 e pouse no Dó.",
+    "Troque o loop para Am e toque os compassos 3–4. São as mesmas notas, com um degrau a mais, e o pouso é em Lá.",
+    "Improvise 1 minuto sobre cada loop usando só as notas da 5ª posição. Termine as frases em Dó sobre C e em Lá sobre Am.",
+    "Repita o cálculo dos 3 semitons com G→Em (corda 6, da casa 3 para a casa 0) e D→Bm (corda 5, da casa 5 para a casa 2)."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Mesmas notas, outro centro. Sobre C, a frase pousa em Dó. Sobre Am, as mesmas notas descem um degrau a mais e pousam em Lá. Os compassos vazios são para ouvir o repouso.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o caminho inverso: de uma tônica menor, suba 3 casas para achar a relativa maior (F♯m → A, C♯m → E).",
+    "Sobre uma base Am–C–G, use uma pentatônica só e escolha qual centro destacar."
+   ],
+   "cuidado": "Achar que a relativa é outra escala, com outro desenho. O desenho é o mesmo; muda a nota em que você pousa.",
+   "inspirado_em": [
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I13",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Relativa menor no 6º grau da maior"
+    },
+    {
+     "id": "MfrAepqfv2g#I05",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=235s",
+     "video": "MfrAepqfv2g",
+     "inicio": 235,
+     "momento": "03:57",
+     "ideia": "Tonalidades relativas usam as mesmas notas"
+    },
+    {
+     "id": "14UZEproJ-A#I07",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
+     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=428s",
+     "video": "14UZEproJ-A",
+     "inicio": 428,
+     "momento": "07:10",
+     "ideia": "Dó maior e Lá menor compartilham as notas"
+    },
+    {
+     "id": "Y8yEev1Ce88#I27",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=1438s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 1438,
+     "momento": "24:00",
+     "ideia": "Calcular a relativa por semitons"
+    },
+    {
+     "id": "cifranota--escala-pentatonica-396a3a#I14",
+     "tipo": "documento",
+     "autor": "cifranota.com",
+     "titulo": "Escala Pentatônica: O Que É, Como Usar e 5 Shapes Essenciais",
+     "url": "https://cifranota.com/blog/escala-pentatonica/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Regra das relativas: 3 semitons de distância"
+    },
+    {
+     "id": "z1YGMPsz-rU#I09",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=383s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 383,
+     "momento": "06:25",
+     "ideia": "Escala relativa cobre toda a progressão"
+    }
+   ]
+  },
+  {
+   "titulo": "Copiar e colar: um lick, quatro tons",
+   "objetivo": "Transpor uma frase deslocando o desenho inteiro pela distância em casas.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Toque o lick de V3 em Lá menor, dizendo os graus em voz alta: ♭3, 4, 5, ♭7, 5, 4, 1.",
+    "Ache a tônica de Sol menor em V2 (corda 6, casa 3). Ela fica 2 casas abaixo de Lá. Mova o lick inteiro 2 casas para baixo e toque o compasso 3.",
+    "Agora vá para Si menor (corda 6, casa 7, 2 casas acima de Lá): corda 3, casas 7 e 9; corda 2, casas 7 e 10; corda 4, casa 9.",
+    "Leve o lick para Dó♯ menor (casa 9) e Fá♯ menor (casa 2). Antes de tocar, conte quantas casas separam o tom novo do anterior.",
+    "Com uma base em cada tom, toque o lick e responda com uma frase sua no mesmo tom."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Copiar e colar: o mesmo lick em Lá menor e depois 2 casas abaixo, em Sol menor. As notas mudam, mas os graus e a digitação continuam os mesmos.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Gm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gm",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com uma melodia simples que você sabe de ouvido, como uma cantiga, em três tons.",
+    "Mova duas posições da pentatônica juntas, e não só o lick."
+   ],
+   "cuidado": "Mover só parte do desenho ou recalcular o nome de cada nota. Desloque tudo junto e pense em graus.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I12",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=493s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 493,
+     "momento": "08:15",
+     "ideia": "Deslocar o template para Sol menor"
+    },
+    {
+     "id": "dZUSUZjRISI#I24",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=533s",
+     "video": "dZUSUZjRISI",
+     "inicio": 533,
+     "momento": "08:55",
+     "ideia": "Transpor de A menor para B menor"
+    },
+    {
+     "id": "dZUSUZjRISI#I25",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=566s",
+     "video": "dZUSUZjRISI",
+     "inicio": 566,
+     "momento": "09:28",
+     "ideia": "Transpor de A menor para G menor"
+    },
+    {
+     "id": "mrKDTl6zDOM#I26",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=1259s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 1259,
+     "momento": "21:01",
+     "ideia": "Transpor o desenho copiando e colando"
+    },
+    {
+     "id": "v2rtFiZPAJ4#I12",
+     "tipo": "video",
+     "autor": "Cortes do Amplifica [OFICIAL]",
+     "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+     "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=377s",
+     "video": "v2rtFiZPAJ4",
+     "inicio": 377,
+     "momento": "06:19",
+     "ideia": "Tocar a mesma melodia em outros tons"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I08",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transpor as frases para outras posições e tons"
+    },
+    {
+     "id": "v2rtFiZPAJ4#I08",
+     "tipo": "video",
+     "autor": "Cortes do Amplifica [OFICIAL]",
+     "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+     "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=158s",
+     "video": "v2rtFiZPAJ4",
+     "inicio": 158,
+     "momento": "02:40",
+     "ideia": "Quarto nível: o nome das notas é o menos importante"
+    }
+   ]
+  },
+  {
+   "titulo": "Tom vizinho: troque uma nota",
+   "objetivo": "Usar o ciclo de quintas para mudar de tom alterando uma única nota, sem trocar de posição.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque V4 e ouça. Sobre C, o Fá (corda 2, casa 6) desce e resolve no Mi. Sobre G, o Fá♯ (casa 7) sobe e resolve no Sol.",
+    "Na 5ª posição, toque a escala de Dó maior inteira e marque todos os Fás.",
+    "Sobre um loop de G, toque a mesma posição trocando todos os Fás por Fá♯, 1 casa acima. O resto fica igual.",
+    "Dê mais um passo no ciclo: de G para D, o Dó vira Dó♯ (corda 3, da casa 5 para a 6; corda 1, da casa 8 para a 9). Improvise sobre um loop de D.",
+    "Diga a armadura de cada tom em que você tocou: C = nenhum acidente, G = F♯, D = F♯ e C♯."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Tom vizinho: de Dó maior para Sol maior muda uma única nota, o F vira F♯. Sobre C, o Fá desce e resolve no Mi (3ª de C). Sobre G, o Fá♯ sobe e resolve no Sol (tônica). O anel marca a nota de resolução.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "No sentido anti-horário, de C para F, o Si vira Si♭ (corda 1, da casa 7 para a 6; corda 3, da casa 4 para a 3).",
+    "Alterne 4 compassos de C e 4 de G e destaque a nota que muda logo na entrada do novo tom."
+   ],
+   "cuidado": "Esquecer a nota alterada em outra corda ou oitava. Marque todas antes de tocar.",
+   "inspirado_em": [
+    {
+     "id": "bFtTvqASQ9k#I11",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=232s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 232,
+     "momento": "03:54",
+     "ideia": "Círculo das quintas e armaduras"
+    },
+    {
+     "id": "bFtTvqASQ9k#I12",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=268s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 268,
+     "momento": "04:30",
+     "ideia": "Ordem dos sustenidos e bemóis"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I07",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=297s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 297,
+     "momento": "04:59",
+     "ideia": "Ao mudar de tonalidade no ciclo, muda apenas uma nota"
+    },
+    {
+     "id": "14UZEproJ-A#I18",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
+     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=998s",
+     "video": "14UZEproJ-A",
+     "inicio": 998,
+     "momento": "16:40",
+     "ideia": "Trocar F por F# para Sol maior"
+    },
+    {
+     "id": "aHzmIWB0P00#I12",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=695s",
+     "video": "aHzmIWB0P00",
+     "inicio": 695,
+     "momento": "11:37",
+     "ideia": "Ciclo das quintas para achar V e IV"
+    }
+   ]
+  },
+  {
+   "titulo": "i–VI pelo ciclo de quartas",
+   "objetivo": "Percorrer as tonalidades menores mexendo pouco a mão e fazendo o ouvido sentir cada troca.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Grave um loop de Am–F–Dm–B♭, 1 compasso por acorde, com as formas de V5.",
+    "Toque V6. O contorno é o mesmo em Am e em Dm; só o Si vira Si♭. No acorde maior, pouse na 3ª dele.",
+    "Improvise alguns ciclos na 5ª posição. Ao entrar no novo tom, destaque o acorde VI, que é o que firma a mudança.",
+    "Siga o ciclo de quartas: Gm–E♭ (o Mi vira Mi♭), depois Cm–A♭ (o Lá vira Lá♭). Antes de cada troca, diga qual nota muda.",
+    "Rotina de 10 minutos por dia: avance até completar Fm–D♭, B♭m–G♭, E♭m–B, G♯m–E, C♯m–A, F♯m–D, Bm–G e Em–C, e volte para Am."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "De Lá menor para Ré menor sem sair da 5ª posição. A frase mantém o contorno e só o Si vira Si♭. No VI maior, o pouso é na 3ª do acorde.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "B♭",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Ciclo de dominantes: E7, A7, D7, G7, C7, F7, B♭7, E♭7, A♭7, D♭7, F♯7, B7. Cada um é o V do seguinte. Pouse na tônica de cada acorde.",
+    "Faça o ciclo com 2 compassos por acorde e depois com 1."
+   ],
+   "cuidado": "Mudar de posição a cada tom. Fique na mesma região e deixe que só a nota que muda trabalhe.",
+   "inspirado_em": [
+    {
+     "id": "drX6XjaItA4#I14",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=470s",
+     "video": "drX6XjaItA4",
+     "inicio": 470,
+     "momento": "07:52",
+     "ideia": "Ciclo das quartas"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I02",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=129s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 129,
+     "momento": "02:11",
+     "ideia": "Dois acordes-base por tonalidade menor: i menor e VI maior"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I05",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=229s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "O segundo acorde (maior) dá a sonoridade da tonalidade"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I06",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=263s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 263,
+     "momento": "04:25",
+     "ideia": "O primeiro acorde de uma tonalidade também existe na anterior"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I03",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=163s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Alternar i menor e VI maior em Lá menor"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I04",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=195s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 195,
+     "momento": "03:17",
+     "ideia": "Percorrer as 12 tonalidades menores em ordem de quartas"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I01",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=97s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 97,
+     "momento": "01:39",
+     "ideia": "Treino diário de cerca de 10 minutos em todas as tonalidades"
+    },
+    {
+     "id": "ruwSeYsJtgI#I08",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=301s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 301,
+     "momento": "05:03",
+     "ideia": "Exercício do ciclo de quintas com acordes dominantes"
+    },
+    {
+     "id": "ruwSeYsJtgI#I09",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=334s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 334,
+     "momento": "05:36",
+     "ideia": "Ciclo de quintas como sucessão de V7 para V7"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma armadura, vários centros: a maior-pai",
+   "objetivo": "Achar a escala maior-pai de um modo e ouvir que a armadura é a mesma e só o centro muda.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Deixe a corda 4 solta (Ré) soando como pedal.",
+    "Toque as notas de Dó maior na 5ª posição, sem nenhum acidente, e pouse as frases em Ré. Isso é Ré dórico, porque Ré fica uma 2ª maior acima de Dó.",
+    "Troque o pedal para a corda 3 solta (Sol), use as mesmas notas e pouse em Sol. Isso é Sol mixolídio, porque a maior-pai fica uma 5ª justa abaixo (ou uma 4ª acima).",
+    "Agora calcule sem tocar: A dórico → G maior (1 sustenido); E mixolídio → A maior; F lídio → C maior (no lídio, a maior-pai fica uma 4ª justa abaixo).",
+    "Confira cada resposta tocando a escala maior-pai sobre o pedal do modo."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Use as notas de Sol maior com pedal em Mi (corda 6 solta) e depois em Lá (corda 5 solta), como na música irlandesa.",
+    "Grave um pedal de 2 minutos e alterne frases que pousam na tônica do modo e na tônica da maior-pai."
+   ],
+   "cuidado": "Achar que mudar de modo é mudar de desenho. A armadura e o desenho são os mesmos; quem manda é o centro.",
+   "inspirado_em": [
+    {
+     "id": "en--mode_-music-72a13e#I18",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National France BnF data",
+     "titulo": "Mode (music) - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mode_(music)",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Relações de tonalidade em música modal irlandesa"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I13",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Encontrar a escala maior-pai pelo intervalo da tônica"
+    },
+    {
+     "id": "EY6-VNz81HE#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=413s",
+     "video": "EY6-VNz81HE",
+     "inicio": 413,
+     "momento": "06:55",
+     "ideia": "Dórico de Lá com as notas de sol maior"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I14",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Achar a maior-pai de Ré dórico"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Presumir que o primeiro acorde é a tônica. Muitas músicas começam no V, no IV ou no vi.",
+  "Dar grau a um acorde isolado. Fá pode ser I, IV ou V, conforme o tom.",
+  "Calcular a relativa menor de cada acorde para escolher a pentatônica. Ache o tom uma vez e use as formas.",
+  "Transpor nota por nota, pensando nos nomes, em vez de mover o desenho e pensar em graus.",
+  "Ficar preso em Mi menor e Lá menor e se perder em Dó♯ menor ou Fá♯ menor.",
+  "Mudar de tom e esquecer a nota alterada em outra corda ou oitava."
+ ],
+ "resumo": [
+  "Tonalidade = 7 notas + um centro. Ache a casa pelo repouso, não pelo primeiro acorde.",
+  "Relativa menor: 6º grau, 3 casas abaixo da maior, mesmas notas. Só muda o pouso.",
+  "Transpor na guitarra = levar a tônica para a nova casa e mover o desenho inteiro.",
+  "Pense em graus e funções; os nomes das notas vêm depois.",
+  "No ciclo de quintas, tons vizinhos diferem em uma nota. Use o ciclo como roteiro para as 12 tonalidades."
+ ],
+ "proximos_passos": "Para ter um desenho pronto para transpor, vá para \"Pentatônica: construção, maior, menor e relativas\" e \"Os cinco shapes e como conectá-los\". Para decidir quando seguir o tom e quando seguir cada acorde, veja \"Centro tonal vs. acorde a acorde: escolher a abordagem\". Para aprofundar a ideia de mesma armadura com outro centro, siga para \"Modos: construção, sonoridade e nota característica\".",
+ "_meta": {
+  "subcategoria": "C02.4",
+  "modulo": {
+   "id": "C02",
+   "nome": "Teoria essencial para solar"
+  },
+  "nome": "Tonalidade, relativas e transposição",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T13:06:51",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 4,
+   "cache_write": 56646,
+   "cache_read": 9866,
+   "output": 28379,
+   "thinking": 8039,
+   "turns": 4,
+   "custo_nominal": 1.0675262
+  }
+ }
+}
