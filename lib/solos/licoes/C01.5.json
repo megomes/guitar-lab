@@ -1,0 +1,2820 @@
+{
+ "titulo": "Contexto: o que é solo e improvisação",
+ "gancho": "Toda vez que você sola, entra numa conversa que começou nos campos de algodão, passou pelas big bands e chegou ao topo das paradas pop.",
+ "porque_importa": "Saber o que é improvisar, e de onde vem a linguagem que você usa, muda a forma de estudar. Você para de ver o solo como uma corrida de notas e passa a vê-lo como composição em tempo real, com regras herdadas de cada estilo. Esse contexto também mostra por que a pentatônica, o blues e as linhas de notas únicas estão em todo lugar.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Compor no momento",
+   "texto": "Improvisar é inventar melodias e frases na hora, enquanto uma base toca uma progressão de acordes. É composição em tempo real: você ouve, tenta prever o que vem e escreve para isso, só que sem papel. A frase pode ter três notas ou pode ter escalas, arpejos, bends e slides. O que define o improviso é o processo, não a quantidade de notas. Ele tem duas metades que dependem uma da outra: a mental, que imagina a ideia, e a motora, que a toca por reflexo.",
+   "destaque": "Ouvir, escolher, organizar, expressar. Velocidade não está na lista.",
+   "visual": null
+  },
+  {
+   "titulo": "Composto, preparado, improvisado",
+   "texto": "Nem todo solo famoso foi improvisado. O solo composto é escrito e ensaiado nota por nota. O improvisado nasce na hora. O preparado mistura os dois: tem pontos fixos, como uma abertura marcante ou um final certeiro, e o miolo fica livre. A maioria dos guitarristas em palco toca solos preparados. Os três são legítimos, e treinar um ajuda nos outros.",
+   "destaque": "Solo composto, preparado ou improvisado: os três valem.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Solo composto de 4 compassos sobre Am, pentatônica na casa 5. No solo preparado, os compassos 1 e 4 ficam fixos e os compassos 2 e 3 são improvisados.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Idiomático ou livre: toda tradição improvisa",
+   "texto": "Quase todo improviso é idiomático, ou seja, segue as regras de um estilo: forma de 12 compassos no blues, pentatônica no rock, trocas de acorde no jazz. No outro extremo está a improvisação livre, como o free blowing do free jazz, que ignora as trocas. Outras tradições também improvisam com regras. Na música indiana, o músico cria dentro de um raga, com notas e movimentos próprios. No concerto clássico, a cadenza era o momento do solista improvisar sozinho. No barroco, o tecladista do baixo contínuo inventava a harmonia em cima de uma linha de baixo cifrada. A pentatônica atravessa culturas: aparece na música chinesa, no blues e no rock brasileiro.",
+   "destaque": "Improvisar não é ausência de regras. É escolher dentro de um idioma.",
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "As mesmas cinco notas (A C D E G) na posição da casa 5: pentatônica de Lá menor, relativa de Dó maior. São 5 notas, não '5 tons'.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Do blues de ouvido ao jazz modal",
+   "texto": "O blues nasceu no sul dos EUA, das canções de trabalho, dos spirituals e do country primitivo, e passou de boca em boca. W. C. Handy foi o primeiro a escrevê-lo em partitura e fixou a forma de 12 compassos. No dixieland e no swing, o solista variava a melodia do tema de ouvido. Os cantores criaram o scat, improviso com sílabas inventadas. Depois de Kind of Blue (Miles Davis, 1959), o jazz modal passou a deixar o solista sobre centros tonais parados por muito tempo. O free jazz soltou até as trocas de acorde. O jazz ainda é uma tradição oral viva: se aprende ouvindo e tocando.",
+   "destaque": "Primeiro se varia a melodia, depois se inventam melodias novas.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A mesma melodia variada no estilo dixieland: os pontos de chegada continuam lá (anéis), mas o ritmo muda e aparecem bordaduras e uma nota cromática de passagem (D♯).",
+    "tonica": "C",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 1,
+          "nota": "D♯",
+          "grau": "♯2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A guitarra pega o microfone",
+   "texto": "Nas big bands, quem solava eram o sax, o trompete e o clarinete. Charlie Christian trocou a batida de acordes por linhas de uma nota só, e isso virou a base do solo de guitarra moderno. Chuck Berry (Maybellene, 1955) criou os riffs que definiram o rock and roll. O Black Sabbath levou a linguagem do blues para o metal, e é por isso que a pentatônica domina lá também. O solo de Beat It mostrou que guitarra improvisada cabe num megahit pop. John Mayer mostra que essa linguagem continua viva.",
+   "destaque": "Da batida de acordes à linha de uma nota só: é aí que nasce o guitarrista solista.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "De acompanhante a solista: o compasso de acorde (batida 'quatro por tempo' de big band) vira uma linha de notas únicas sobre o mesmo acorde. Am7 → D7.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 20,
+   "porque": "Paul Davids mostra como Charlie Christian trocou a batida de acordes por linhas de uma nota só, tocando o exemplo na guitarra.",
+   "fonte": {
+    "id": "ZBQr7STNnCE#I02",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+    "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=99s",
+    "video": "ZBQr7STNnCE",
+    "inicio": 99,
+    "momento": "01:41",
+    "ideia": "Linhas de notas únicas"
+   }
+  },
+  {
+   "ref": 21,
+   "porque": "Os riffs de Chuck Berry tocados e explicados como o DNA do rock and roll.",
+   "fonte": {
+    "id": "ZBQr7STNnCE#I11",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+    "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=561s",
+    "video": "ZBQr7STNnCE",
+    "inicio": 561,
+    "momento": "09:23",
+    "ideia": "Riffs como base do rock and roll"
+   }
+  },
+  {
+   "ref": 24,
+   "porque": "O solo de Beat It em contexto: um improviso de guitarra no meio de um megahit pop.",
+   "fonte": {
+    "id": "ZBQr7STNnCE#I27",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+    "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=1263s",
+    "video": "ZBQr7STNnCE",
+    "inicio": 1263,
+    "momento": "21:05",
+    "ideia": "Improviso em música pop"
+   }
+  },
+  {
+   "ref": 10,
+   "porque": "Mauricio Alabama explica por que o mesmo raciocínio de escala e campo harmônico serve para quase todo estilo.",
+   "fonte": {
+    "id": "iUZwNSDpV_Q#I27",
+    "tipo": "video",
+    "autor": "Mauricio Alabama",
+    "titulo": "Como solar em QUALQUER música",
+    "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=1031s",
+    "video": "iUZwNSDpV_Q",
+    "inicio": 1031,
+    "momento": "17:13",
+    "ideia": "Mesmo raciocínio para a maioria dos estilos"
+   }
+  },
+  {
+   "ref": 23,
+   "porque": "Mirella Caramelo liga o blues ao heavy metal e mostra por que vale estudar a raiz antes do estilo.",
+   "fonte": {
+    "id": "WcHs5SaynAw#I03",
+    "tipo": "video",
+    "autor": "Kingdom Of Mist Podcast",
+    "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+    "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=134s",
+    "video": "WcHs5SaynAw",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Blues como base do metal"
+   }
+  },
+  {
+   "ref": 28,
+   "porque": "O fechamento do vídeo de Paul Davids, com John Mayer como prova de que o solo de guitarra continua vivo.",
+   "fonte": {
+    "id": "ZBQr7STNnCE#I33",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+    "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=1584s",
+    "video": "ZBQr7STNnCE",
+    "inicio": 1584,
+    "momento": "26:26",
+    "ideia": "O solo não está morto"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Linha do tempo de ouvido",
+   "objetivo": "Ouvir como o papel do solo mudou ao longo de um século, com perguntas fixas para cada faixa.",
+   "nivel": "iniciante",
+   "minutos": 25,
+   "passos": [
+    "Monte uma playlist com uma faixa por época: um blues antigo (por exemplo, W. C. Handy, 'St. Louis Blues'), Charlie Christian com Benny Goodman, Chuck Berry ('Maybellene'), Miles Davis ('So What', de Kind of Blue), Black Sabbath (primeiro disco), Michael Jackson ('Beat It') e um blues de John Mayer.",
+    "Em cada faixa, responda em uma linha: quem sola? O solo varia a melodia do tema ou inventa uma melodia nova?",
+    "Responda também: os acordes trocam rápido ou ficam parados? O solo parece composto, preparado ou improvisado?",
+    "Marque em qual faixa a guitarra deixa de acompanhar e passa a ser a voz principal.",
+    "Escolha a faixa que mais te chamou atenção e anote uma frase do solo que você gostaria de tocar um dia."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Ouça uma versão ao vivo da mesma música e compare: o solo mudou? Então era improvisado ou preparado.",
+    "Acrescente uma faixa de outra tradição (um raga indiano ou uma cadenza de concerto) e procure as regras que o músico segue."
+   ],
+   "cuidado": "Ouvir como música de fundo. Faça as perguntas antes de dar play e responda logo depois de cada faixa.",
+   "inspirado_em": [
+    {
+     "id": "en--twelve-bar_blues-36fb30#I02",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Origem do blues e o papel de W. C. Handy"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I03",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação modal sobre centros tonais fixos"
+    },
+    {
+     "id": "ZBQr7STNnCE#I01",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=131s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Guitarra como solista no jazz de big band"
+    },
+    {
+     "id": "ZBQr7STNnCE#I11",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=561s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 561,
+     "momento": "09:23",
+     "ideia": "Riffs como base do rock and roll"
+    },
+    {
+     "id": "WcHs5SaynAw#I03",
+     "tipo": "video",
+     "autor": "Kingdom Of Mist Podcast",
+     "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+     "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=134s",
+     "video": "WcHs5SaynAw",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Blues como base do metal"
+    },
+    {
+     "id": "ZBQr7STNnCE#I27",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=1263s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 1263,
+     "momento": "21:05",
+     "ideia": "Improviso em música pop"
+    },
+    {
+     "id": "ZBQr7STNnCE#I33",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=1584s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 1584,
+     "momento": "26:26",
+     "ideia": "O solo não está morto"
+    }
+   ]
+  },
+  {
+   "titulo": "Variar a melodia como em 1920",
+   "objetivo": "Viver o primeiro degrau histórico do improviso: manter o tema reconhecível e mudar ritmo e enfeites.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque V1 até sair de cor, cantando junto. Esse é o tema.",
+    "Toque V2 e compare: as notas com anel são as mesmas do tema e caem no mesmo lugar.",
+    "Crie a sua variação: mantenha as notas com anel e mude só o ritmo (adiante ou atrase uma nota, divida uma semínima em duas colcheias).",
+    "Depois acrescente uma nota vizinha antes de cada nota com anel (uma casa acima ou abaixo).",
+    "Toque tema → sua variação → tema, em sequência, sem parar o metrônomo."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Melodia original ('Brilha, brilha, estrelinha') em Dó, na região aberta. É o tema que o solista dos anos 1920 decorava antes de variar.",
+    "tonica": "C",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com 'Parabéns pra você' ou outra melodia que você saiba cantar.",
+    "Faça três variações seguidas, cada uma um pouco mais distante do tema."
+   ],
+   "cuidado": "Afastar-se tanto que o tema some. A regra do dixieland é: quem ouve ainda reconhece a música.",
+   "inspirado_em": [
+    {
+     "id": "en--jazz_improvisation-59a777#I11",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação por ouvido e variação da melodia no swing"
+    },
+    {
+     "id": "jazzadvice--p-1873-82f813#I14",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Transcribing Solos Is NOT What You Think It Is • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=1873",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Jazz como tradição oral"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I01",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação é composição no momento"
+    }
+   ]
+  },
+  {
+   "titulo": "Composto, preparado, improvisado",
+   "objetivo": "Sentir na mão a diferença entre os três tipos de solo usando a mesma base e o mesmo espaço.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Coloque uma base em Lá menor (um Am parado basta) a 75 bpm.",
+    "Rodada 1, composto: toque V3 exatamente como está, quatro vezes seguidas.",
+    "Rodada 2, preparado: mantenha os compassos 1 e 4 de V3 e improvise os compassos 2 e 3 com as notas da pentatônica (V4).",
+    "Rodada 3, improvisado: os quatro compassos são livres. Só vale começar e terminar na nota Lá.",
+    "Responda: em qual rodada você ficou mais seguro? Em qual soou mais vivo?"
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Solo composto de 4 compassos sobre Am, pentatônica na casa 5. No solo preparado, os compassos 1 e 4 ficam fixos e os compassos 2 e 3 são improvisados.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Inverta o preparado: improvise os compassos 1 e 4 e mantenha fixos os compassos 2 e 3.",
+    "Componha o seu próprio solo de 4 compassos e use-o como ponto de partida para as rodadas 2 e 3."
+   ],
+   "cuidado": "Na rodada preparada, entrar atrasado no compasso 4 fixo. Conte os compassos em voz alta se precisar.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I09",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Três tipos de solo"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I01",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar é aplicar o conhecimento de forma livre"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I03",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação é criar uma linha sobre uma base"
+    }
+   ]
+  },
+  {
+   "titulo": "Cinco notas, muitos mundos",
+   "objetivo": "Entender de onde vem a pentatônica e por que ela soa bem em tantas culturas.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o compasso 1 de V5 (escala de Dó maior) e segure o B contra o C de cima: ouça o atrito de meio tom.",
+    "Toque o compasso 2: a mesma escala sem F e B. Repare que não sobra nenhum semitom.",
+    "Toque a melodia dos compassos 3–4. Depois invente a sua, só com essas cinco notas e sem medo de errar.",
+    "Leve as mesmas notas para a casa 5 (V4) e toque pensando em Lá como casa. São as mesmas cinco notas com outro centro.",
+    "Toque devagar, sem bend, com notas soltas: soa oriental. Depois toque com bend e vibrato: soa blues. Mesmas notas, outro idioma."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Compasso 1: escala de Dó maior completa. Compasso 2: as mesmas notas sem F e B, que é a pentatônica de Dó. Compassos 3–4: uma melodia que só usa essas cinco notas e não tem nenhum choque de semitom.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque só nas teclas pretas de um piano ou teclado: elas formam uma pentatônica.",
+    "Procure uma melodia folclórica (chinesa, escocesa ou nordestina) e confira se ela cabe em cinco notas."
+   ],
+   "cuidado": "Chamar de 'escala de 5 tons'. São 5 notas, e os intervalos entre elas não são todos de um tom (E–G é uma terça menor).",
+   "inspirado_em": [
+    {
+     "id": "pt--escala_pentatônica-58d055#I02",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Escala pentatônica – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Escala_pentatônica",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Origem: a nota si foi retirada"
+    },
+    {
+     "id": "cifranota--escala-pentatonica-396a3a#I06",
+     "tipo": "documento",
+     "autor": "cifranota.com",
+     "titulo": "Escala Pentatônica: O Que É, Como Usar e 5 Shapes Essenciais",
+     "url": "https://cifranota.com/blog/escala-pentatonica/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica presente em muitas culturas musicais"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I03",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "A escala como referência para improvisar"
+    }
+   ]
+  },
+  {
+   "titulo": "De acompanhante a solista: o salto de Charlie Christian",
+   "objetivo": "Viver a passagem histórica da guitarra que bate acordes para a guitarra que canta em uma nota só.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Aprenda os acordes de V7 (Am7 e D7).",
+    "Toque V6 a 80 bpm: compasso de acorde, compasso de linha, compasso de acorde, compasso de linha.",
+    "Repare que a linha usa as notas do próprio acorde que você acabou de tocar, agora uma de cada vez.",
+    "Repita o ciclo e troque as linhas por linhas suas, ainda com uma nota por vez e no mesmo acorde.",
+    "Por fim, faça 8 compassos só de linhas, sem acordes. Você acabou de passar de acompanhante a solista."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "De acompanhante a solista: o compasso de acorde (batida 'quatro por tempo' de big band) vira uma linha de notas únicas sobre o mesmo acorde. Am7 → D7.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque as linhas com swing (colcheias desiguais) como numa big band.",
+    "Grave os compassos de acorde e sole por cima da gravação."
+   ],
+   "cuidado": "Deixar as notas da linha embolarem, como num acorde arpejado. Cada nota tem que soar sozinha e separada.",
+   "inspirado_em": [
+    {
+     "id": "ZBQr7STNnCE#I01",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=131s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Guitarra como solista no jazz de big band"
+    },
+    {
+     "id": "ZBQr7STNnCE#I02",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=99s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Linhas de notas únicas"
+    }
+   ]
+  },
+  {
+   "titulo": "Paisagem parada, paisagem em movimento",
+   "objetivo": "Sentir a diferença entre improvisar sobre um centro tonal estático, como no jazz modal, e sobre trocas de acorde.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Ouça 'So What' (Kind of Blue) e conte quantos compassos o primeiro acorde dura.",
+    "Rode 16 compassos de Am7 parado. Improvise com a pentatônica de Lá menor (V4) e preste atenção em como manter o interesse sem trocas para te guiar.",
+    "Rode a progressão Am – F – C – G (V8), um acorde por compasso, e improvise com as mesmas notas.",
+    "Anote o que mudou: na paisagem parada, quem cria o movimento é você. Na progressão, os acordes empurram a frase.",
+    "Toque uma terceira rodada alternando: 8 compassos parados e 8 em movimento."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "acordes",
+    "legenda": "Paisagem em movimento: Am – F – C – G, um acorde por compasso. Compare com um Am7 parado por 16 compassos.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "F",
+      "digitacao": "133211"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     }
+    ]
+   },
+   "variacoes": [
+    "No Am7 parado, troque a pentatônica por uma única ideia rítmica desenvolvida por 16 compassos.",
+    "Acelere a progressão para dois acordes por compasso e sinta como o pensamento fica mais apertado."
+   ],
+   "cuidado": "No vamp parado, ficar subindo e descendo a escala para preencher. O desafio do modal é criar movimento com ideias, não com volume de notas.",
+   "inspirado_em": [
+    {
+     "id": "en--jazz_improvisation-59a777#I03",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação modal sobre centros tonais fixos"
+    },
+    {
+     "id": "iUZwNSDpV_Q#I27",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=1031s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 1031,
+     "momento": "17:13",
+     "ideia": "Mesmo raciocínio para a maioria dos estilos"
+    }
+   ]
+  },
+  {
+   "titulo": "Do idioma ao livre e de volta",
+   "objetivo": "Atravessar o espectro inteiro, da improvisação idiomática ao free, e perceber o que as regras de um estilo te dão.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Rodada idiomática (2 min): sobre um blues em Lá, improvise respeitando o estilo, com a pentatônica, a forma de 12 compassos e terminando na tônica.",
+    "Rodada livre (2 min): desligue a base. Sem tonalidade e sem pulso fixo, explore sons: notas fora, ruídos, harmônicos, silêncios longos, cordas raspadas.",
+    "Durante a rodada livre, mantenha as quatro ações (ouvir, escolher, organizar, expressar): cada som responde ao anterior.",
+    "Rodada de volta (2 min): religue o blues. Traga para dentro do idioma uma única ideia que nasceu na rodada livre.",
+    "Escreva duas frases: o que as regras do blues te deram e o que a liberdade te tirou."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça a rodada livre em dupla, como uma conversa sem palavras.",
+    "Troque o blues por outro idioma: rock com o riff do Sabbath ou baião."
+   ],
+   "cuidado": "Confundir livre com aleatório. Até no free jazz cada som é uma escolha que reage ao anterior.",
+   "inspirado_em": [
+    {
+     "id": "en--jazz_improvisation-59a777#I04",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Free blowing"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I39",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improviso tem componente cerebral e motor"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I02",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar é ouvir, escolher, organizar e expressar"
+    },
+    {
+     "id": "WcHs5SaynAw#I03",
+     "tipo": "video",
+     "autor": "Kingdom Of Mist Podcast",
+     "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+     "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=134s",
+     "video": "WcHs5SaynAw",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Blues como base do metal"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Achar que improvisar é tocar rápido ou tocar muitas notas. É compor na hora, e às vezes com três notas.",
+  "Achar que improvisar é não ter regras. Quase todo improviso é idiomático e segue a linguagem de um estilo.",
+  "Pensar que todo solo famoso foi improvisado, ou que solo composto ou preparado vale menos.",
+  "Tratar a escala como se fosse a música. Ela é o mapa, mas a frase quem cria é você.",
+  "Chamar a pentatônica de 'escala de 5 tons'. São 5 notas com intervalos diferentes.",
+  "Pular a história. Saber de onde vem o blues explica por que a pentatônica está no rock, no metal e no pop."
+ ],
+ "resumo": [
+  "Improvisar é compor em tempo real: ouvir, escolher, organizar e expressar.",
+  "Os solos podem ser compostos, preparados ou improvisados, e os três são legítimos.",
+  "Quase todo improviso é idiomático (segue um estilo). O livre (free jazz) é o extremo. Raga, cadenza e baixo contínuo mostram que toda tradição improvisa.",
+  "A linha do jazz: blues de tradição oral, depois variação da melodia (dixieland e swing), scat, modal (Kind of Blue) e free.",
+  "Na guitarra: Charlie Christian (linhas de uma nota), Chuck Berry (riffs), Sabbath (blues no metal), Beat It (solo no pop), John Mayer (o solo continua vivo)."
+ ],
+ "proximos_passos": "Com o mapa em mãos, siga para \"Mentalidade do improvisador\" e \"Rotina, planejamento e prática deliberada\" para organizar o estudo. Para entrar no idioma mais comum da guitarra, vá para \"Pentatônica: construção, maior, menor e relativas\" e \"Forma e harmonia do blues\". A escuta da linha do tempo continua em \"Escuta ativa e referências\" e \"Transcrição de solos\". A diferença entre paisagem parada e paisagem em movimento é aprofundada em \"Modos na prática: tonal vs. modal e troca de modo\".",
+ "_meta": {
+  "subcategoria": "C01.5",
+  "modulo": {
+   "id": "C01",
+   "nome": "Mentalidade, método e recursos de estudo"
+  },
+  "nome": "Contexto: o que é solo e improvisação",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:47:39",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 8701,
+   "cache_read": 4933,
+   "output": 20253,
+   "thinking": 7172,
+   "turns": 2,
+   "custo_nominal": 0.48268459999999996
+  }
+ }
+}

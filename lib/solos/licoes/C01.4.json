@@ -1,0 +1,1900 @@
+{
+ "titulo": "Recursos: backing tracks, apps, livros e cursos",
+ "gancho": "Seu solo só aparece de verdade quando tem uma banda por baixo. Monte essa banda e deixe as ferramentas trabalharem para você.",
+ "porque_importa": "Sem harmonia por baixo você não ouve o que cada nota provoca nem percebe se a frase caiu no compasso certo. Uma boa base, um looper e um player que desacelera o áudio fazem o estudo no quarto soar como música. Escolhidas com critério, essas ferramentas aceleram tudo, mas não substituem ouvido nem conhecimento.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "A base é o seu contexto",
+   "texto": "Tocando sozinho, uma nota é só uma nota. Com a harmonia por baixo, você ouve se ela tensiona ou repousa, se a frase caiu no compasso certo e como ritmo, toque e timbre se encaixam no groove. Pode ser uma backing track, um play-along com músicos de verdade, um loop de bateria ou o seu próprio looper: qualquer um transforma exercício em música. Reserve uma parte fixa de toda sessão para tocar sobre uma base.",
+   "destaque": "Sem base você treina dedos. Com base você treina música.",
+   "visual": null
+  },
+  {
+   "titulo": "Escolher a base com critério",
+   "texto": "São quatro filtros. 1) Tom: a base precisa estar na tonalidade da sua escala. Para a pentatônica de Lá menor, use uma base em Am. 2) Andamento: bases lentas e com trocas espaçadas ajudam a pensar nas notas-alvo. Bases mais animadas, com cortes, ajudam a treinar frases rítmicas. 3) Duração: para treinar a construção de um solo, recorte cerca de 1 min 10 s. 4) Qualidade: a base é o pão do sanduíche. Uma base sem graça, com o mesmo acorde sempre igual, deixa o solo sem graça também. No YouTube, busque estilo + tom + 'backing track' (ex.: 'slow A minor blues backing track').",
+   "destaque": "Tom certo, andamento a serviço do objetivo, base com groove.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Duas bases de Am para gravar no looper. Compassos 1–2: base 'sem graça', o mesmo acorde em cada tempo. Compassos 3–4: base com groove, com cortes, pausas e um baixo andando. Repare quanto espaço a segunda deixa para o solo.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Seja seu próprio acompanhante",
+   "texto": "Com o pedal looper, você grava um acorde ou uma progressão e sola por cima, alternando levada e solo. Loops só de bateria (Jake Reed, Yurt Rock, AJ Hall) deixam a harmonia por sua conta. Apps como iReal Pro e ChordPulse tocam qualquer progressão em loop, com baixo, bateria e piano, no tom e no andamento que você escolher. Montar a base inteira (bateria, riff e baixo) ainda vira um estudo de composição.",
+   "destaque": "Looper, bateria e app: uma banda que nunca cansa.",
+   "visual": {
+    "id": "V3",
+    "tipo": "acordes",
+    "legenda": "G7 e C7 abertos: o par I7–IV7, a troca mais comum do blues, para gravar no looper (2 compassos de cada).",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "G7",
+      "digitacao": "320001"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x32310"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Desacelerar e repetir",
+   "texto": "Velocidade é a maior barreira para tirar um solo. Cada ferramenta tem seu ponto forte. YouTube: bom áudio, com 0.25, 0.5 e 0.75 predefinidos, e hoje também uma opção 'Personalizada' para ajuste fino. VLC: gratuito, com teclas - e + e degraus finos no menu Reprodução > Velocidade, mas distorce um pouco o áudio. Guitar Rig: knob de tempo contínuo de 100% a 50%, com bom áudio. Transcribe!: feito para isso, com loop por marcadores. Referência do JustinGuitar: 50–60% em geral, 30–40% em trechos muito difíceis, 70% nos fáceis. Marque in/out e deixe o trecho repetir sem tocar no mouse.",
+   "destaque": "Marque o trecho, desça o andamento e suba aos poucos.",
+   "visual": null
+  },
+  {
+   "titulo": "Livros, PDFs, cursos e discos",
+   "texto": "Um livro bem recomendado tem sequência pensada por quem conhece o assunto. Use o sumário dele como roteiro e busque vídeos na mesma ordem. PDFs, cheat sheets e tablaturas das aulas servem para consulta e para conferir o que você tirou de ouvido, sempre depois de tentar sozinho. Discos de referência (Kind of Blue, Texas Flood, Blue Train) são a fonte da linguagem. Uma ressalva: ferramenta acelera, mas quem tira o solo é o seu ouvido, a teoria e a intimidade com o braço.",
+   "destaque": "Ferramenta acelera o estudo, mas quem estuda é você.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 12,
+   "porque": "Rusty mostra por que uma backing track lenta, com trocas espaçadas, deixa você ouvir cada mudança de acorde.",
+   "fonte": {
+    "id": "kkr107pBAAs#I04",
+    "tipo": "video",
+    "autor": "Rustys Guitar",
+    "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+    "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=122s",
+    "video": "kkr107pBAAs",
+    "inicio": 122,
+    "momento": "02:04",
+    "ideia": "Ouvir as trocas de acorde em backing track lento"
+   }
+  },
+  {
+   "ref": 17,
+   "porque": "Uma comparação direta de como uma base sem graça derruba o solo, e por que vale escolher ou gravar uma base com groove.",
+   "fonte": {
+    "id": "-sKYzObpWpA#I18",
+    "tipo": "video",
+    "autor": "samuraiguitarist",
+    "titulo": "Guitar Solo Techniques",
+    "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=373s",
+    "video": "-sKYzObpWpA",
+    "inicio": 373,
+    "momento": "06:15",
+    "ideia": "Backing track fraca limita o solo"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "Samjamguitar grava a própria base no loop pedal e sola por cima, na prática.",
+   "fonte": {
+    "id": "b1mdrlngTnA#I05",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=99s",
+    "video": "b1mdrlngTnA",
+    "inicio": 99,
+    "momento": "01:41",
+    "ideia": "Criar a própria base com loop pedal"
+   }
+  },
+  {
+   "ref": 69,
+   "porque": "JustinGuitar explica as porcentagens de andamento (30 a 70%) e toca junto com a gravação desacelerada.",
+   "fonte": {
+    "id": "xNlyoGud2A0#I12",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+    "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=329s",
+    "video": "xNlyoGud2A0",
+    "inicio": 329,
+    "momento": "05:31",
+    "ideia": "Tocar junto com a gravação em andamento reduzido"
+   }
+  },
+  {
+   "ref": 75,
+   "porque": "Vinny compara YouTube, VLC e o knob de tempo do Guitar Rig, mostrando as vantagens e os limites de cada um.",
+   "fonte": {
+    "id": "Uin2lUS1ujs#I15",
+    "tipo": "video",
+    "autor": "Cifra Club",
+    "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+    "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=554s",
+    "video": "Uin2lUS1ujs",
+    "inicio": 554,
+    "momento": "09:16",
+    "ideia": "Guitar Rig: knob de tempo para redução progressiva"
+   }
+  },
+  {
+   "ref": 78,
+   "porque": "Rick Beato isola em loop só a troca de acorde problemática até ela sair limpa.",
+   "fonte": {
+    "id": "N1shDBha6Y0#I02",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+    "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=229s",
+    "video": "N1shDBha6Y0",
+    "inicio": 229,
+    "momento": "03:51",
+    "ideia": "Isolar trechos problemáticos com loop"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Monte seu kit de estudo",
+   "objetivo": "Sair da sessão com um kit pessoal pronto: bases catalogadas, uma ferramenta de desaceleração testada, um roteiro de estudo e discos de referência.",
+   "nivel": "iniciante",
+   "minutos": 20,
+   "passos": [
+    "Crie uma playlist ou pasta chamada 'Bases'.",
+    "Busque e salve 3 backing tracks: uma lenta em Lá menor, uma em Sol maior e um blues de 12 compassos. Use estilo + tom + 'backing track' na busca.",
+    "Ponha no título de cada faixa: tom, andamento aproximado e estilo (ex.: 'Am · lenta ~70 · blues menor').",
+    "Instale ou abra uma ferramenta de desaceleração (VLC, Transcribe! ou a velocidade personalizada do YouTube) e confirme que você sabe marcar um loop.",
+    "Escolha um livro bem recomendado de teoria ou harmonia e copie os 10 primeiros itens do sumário. Esse é o seu roteiro.",
+    "Anote 2 discos de referência do estilo que você quer tocar (ex.: Texas Flood para blues, Kind of Blue para jazz)."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Acrescente um loop só de bateria no estilo que você mais toca.",
+    "Inclua uma faixa com a mesma progressão nas 12 tonalidades para usar mais adiante."
+   ],
+   "cuidado": "Colecionar sem critério: 50 faixas salvas e nenhuma usada. Três bases bem escolhidas e etiquetadas valem mais.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I04",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escolher uma tonalidade e um backing track para praticar"
+    },
+    {
+     "id": "W9o9gR5f8-A#I03",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=367s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 367,
+     "momento": "06:09",
+     "ideia": "Usar backing tracks do YouTube"
+    },
+    {
+     "id": "RTGLGlM9OPg#I05",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Por que tocar guitarra bem NÃO TEM SEGREDO ALGUM",
+     "url": "https://www.youtube.com/watch?v=RTGLGlM9OPg&t=62s",
+     "video": "RTGLGlM9OPg",
+     "inicio": 62,
+     "momento": "01:04",
+     "ideia": "Livros organizados como guia de estudo"
+    },
+    {
+     "id": "RTGLGlM9OPg#I06",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Por que tocar guitarra bem NÃO TEM SEGREDO ALGUM",
+     "url": "https://www.youtube.com/watch?v=RTGLGlM9OPg&t=96s",
+     "video": "RTGLGlM9OPg",
+     "inicio": 96,
+     "momento": "01:38",
+     "ideia": "Seguir o sumário de um livro com vídeos"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I16",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Montar coleção de discos e ouvir ao vivo"
+    },
+    {
+     "id": "fJs5AALy4GY#I26",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1912s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1912,
+     "momento": "31:54",
+     "ideia": "Dois discos para começar no blues"
+    }
+   ]
+  },
+  {
+   "titulo": "Confira o tom antes de solar",
+   "objetivo": "Nunca mais começar um solo na tonalidade errada: confirmar o tom e a posição da tônica antes da primeira frase.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque uma backing track lenta que diga ser em Lá menor.",
+    "Nos primeiros compassos, só ouça. O clima é maior ou menor?",
+    "Toque e sustente o Lá da 6ª corda, casa 5. Ele soa como 'casa', sem incômodo?",
+    "Confira as outras duas tônicas do desenho (4ª corda, casa 7, e 1ª corda, casa 5).",
+    "Só então improvise com o desenho da casa 5, voltando a uma tônica sempre que se perder.",
+    "Repita com uma base que você não conhece, sem ler o título, e descubra o tom só pelo ouvido."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. Antes de solar sobre uma base em Am, toque as tônicas (com anel) e confira se elas soam como 'casa'.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo numa base em Sol maior, procurando a tônica G na 6ª corda, casa 3.",
+    "Use uma base em Mi menor e ache o Mi nas cordas 6, 4 e 1."
+   ],
+   "cuidado": "Confiar no título do vídeo sem conferir. Bases com o tom errado no título existem, e a tônica sustentada denuncia na hora.",
+   "inspirado_em": [
+    {
+     "id": "b1mdrlngTnA#I03",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=65s",
+     "video": "b1mdrlngTnA",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Usar backing track na tonalidade certa"
+    },
+    {
+     "id": "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I11",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "ESCALAS PENTATÔNICAS na Guitarra: Como Aprender, Aplicar e Criar Solos Melhores",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/25/escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-criar-solos-melhores/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar sobre backing track na mesma tonalidade"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I13",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=652s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 652,
+     "momento": "10:54",
+     "ideia": "Tocar sobre back track"
+    },
+    {
+     "id": "W9o9gR5f8-A#I03",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=367s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 367,
+     "momento": "06:09",
+     "ideia": "Usar backing tracks do YouTube"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas bases, um solo: a qualidade da base",
+   "objetivo": "Sentir na prática como uma base com groove abre espaço e ideias para o solo, e aprender a gravar uma boa base no looper.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Grave no looper (ou num app de gravação em loop) os compassos 1–2 do V2: Am em todos os tempos, sempre igual.",
+    "Improvise 1 minuto sobre essa base com a pentatônica de Lá menor.",
+    "Apague e grave os compassos 3–4 do V2: cortes nas cordas agudas, pausas e o baixo andando A–C–E.",
+    "Improvise mais 1 minuto sobre a nova base.",
+    "Anote numa frase qual base puxou ideias melhores e por quê."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Duas bases de Am para gravar no looper. Compassos 1–2: base 'sem graça', o mesmo acorde em cada tempo. Compassos 3–4: base com groove, com cortes, pausas e um baixo andando. Repare quanto espaço a segunda deixa para o solo.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o looper por um loop só de bateria: 4 compassos de levada em Am, 4 de solo, alternando sem parar.",
+    "Grave a base com um timbre limpo e sole com um timbre levemente saturado para separar os dois planos."
+   ],
+   "cuidado": "Gravar o loop fora do tempo. Se o fim não emendar no começo, a base 'manca'. Use o metrônomo do pedal ou conte em voz alta antes de pisar.",
+   "inspirado_em": [
+    {
+     "id": "-sKYzObpWpA#I18",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=373s",
+     "video": "-sKYzObpWpA",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Backing track fraca limita o solo"
+    },
+    {
+     "id": "N8N6MAxvJIk#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=852s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 852,
+     "momento": "14:14",
+     "ideia": "Repetição trabalha ritmo, toque, tom, tempo e groove"
+    },
+    {
+     "id": "UiCQL5cxnUA#I02",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=65s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Treinar sobre backing track de bateria"
+    },
+    {
+     "id": "gueqUPZ88rs#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=678s",
+     "video": "gueqUPZ88rs",
+     "inicio": 678,
+     "momento": "11:20",
+     "ideia": "Loops de bateria para estudo"
+    },
+    {
+     "id": "566LrQfcqgE#I23",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=635s",
+     "video": "566LrQfcqgE",
+     "inicio": 635,
+     "momento": "10:37",
+     "ideia": "Gravar a base e improvisar a melodia, ou o contrário"
+    }
+   ]
+  },
+  {
+   "titulo": "Looper I–IV: G7 e C7",
+   "objetivo": "Montar sozinho a troca mais frequente do blues e alternar entre ser a banda e ser o solista.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Ligue o metrônomo a 75 bpm e conte 4 tempos antes de gravar.",
+    "Grave no looper 2 compassos de G7 e 2 de C7 (formas do V3), com uma levada simples e regular.",
+    "Toque a frase-modelo do V4 sobre o loop, deixando o silêncio dos compassos 2 e 4 acontecer.",
+    "Improvise na região da casa 3: pentatônica de G sobre G7, pentatônica de C sobre C7.",
+    "Grave por cima uma segunda camada (só baixo nas cordas graves) e repita o solo.",
+    "Apague tudo e grave uma base nova, trocando quem lidera: 4 voltas de levada, 4 de solo."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Frase-modelo para o loop G7–C7, na região da casa 3: uma ideia curta em cada acorde, com um compasso de silêncio depois. Sobre C7, o B♭ é a ♭7 do acorde e a frase pousa na tônica C.",
+    "tonica": "G",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": []
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Sem looper: monte o mesmo loop G7–C7 no iReal Pro ou no ChordPulse.",
+    "Estenda o loop até o blues de 12 compassos completo em G."
+   ],
+   "cuidado": "Pisar no pedal atrasado ao fechar o loop. Treine o 'pisar no 1' algumas vezes antes de valer, senão o loop fica com meio tempo a mais.",
+   "inspirado_em": [
+    {
+     "id": "OkTBizvNWoI#I14",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=678s",
+     "video": "OkTBizvNWoI",
+     "inicio": 678,
+     "momento": "11:20",
+     "ideia": "Praticar com looper"
+    },
+    {
+     "id": "b1mdrlngTnA#I05",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=99s",
+     "video": "b1mdrlngTnA",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Criar a própria base com loop pedal"
+    },
+    {
+     "id": "b1mdrlngTnA#I32",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=996s",
+     "video": "b1mdrlngTnA",
+     "inicio": 996,
+     "momento": "16:38",
+     "ideia": "Treinar ritmo e solo com loop pedal"
+    },
+    {
+     "id": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I08",
+     "tipo": "documento",
+     "autor": "www.bluesguitarinstitute.com",
+     "titulo": "How to Actually Use Pentatonics to Play Great Blues Solos",
+     "url": "https://www.bluesguitarinstitute.com/actually-use-minor-pentatonic-scale-play-blues-solo",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Loop de dois acordes G7-C7"
+    }
+   ]
+  },
+  {
+   "titulo": "Laboratório de desaceleração",
+   "objetivo": "Dominar a ferramenta de slow-down e de loop, e saber qual usar em cada situação.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Escolha um trecho de 4 a 8 segundos de um solo que você goste.",
+    "Abra o trecho em duas ferramentas diferentes (ex.: YouTube personalizado e VLC, ou Transcribe!).",
+    "Marque o início (in) e o fim (out) do loop em cada uma.",
+    "Ouça o loop 10 vezes a 100% sem tocar, até conseguir imaginá-lo de olhos fechados.",
+    "Desça para 60% nas duas ferramentas e compare: qual soa mais limpo? Onde as notas ficam mais claras?",
+    "Escolha sua ferramenta e toque junto em degraus: 50%, 60%, 70%, 85%, 100%."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Para trechos muito rápidos, comece em 30–40%.",
+    "Use a mesma técnica para acompanhar uma videoaula a 75%, sem perder nenhuma nota do professor."
+   ],
+   "cuidado": "Pular de 50% direto para 100%. Sem os degraus intermediários, o trecho que estava limpo desmonta. Por isso vale escolher uma ferramenta com ajuste fino.",
+   "inspirado_em": [
+    {
+     "id": "Uin2lUS1ujs#I09",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=245s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 245,
+     "momento": "04:07",
+     "ideia": "Reduzir a velocidade de reprodução para ouvir com naturalidade"
+    },
+    {
+     "id": "xNlyoGud2A0#I12",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=329s",
+     "video": "xNlyoGud2A0",
+     "inicio": 329,
+     "momento": "05:31",
+     "ideia": "Tocar junto com a gravação em andamento reduzido"
+    },
+    {
+     "id": "Uin2lUS1ujs#I10",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=282s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 282,
+     "momento": "04:44",
+     "ideia": "YouTube: velocidades 0.25, 0.50 e 0.75"
+    },
+    {
+     "id": "Uin2lUS1ujs#I12",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=432s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "VLC: ajustar velocidade com + e -"
+    },
+    {
+     "id": "Uin2lUS1ujs#I13",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=481s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 481,
+     "momento": "08:03",
+     "ideia": "VLC: velocidades intermediárias pelo menu"
+    },
+    {
+     "id": "Uin2lUS1ujs#I15",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=554s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 554,
+     "momento": "09:16",
+     "ideia": "Guitar Rig: knob de tempo para redução progressiva"
+    },
+    {
+     "id": "Uin2lUS1ujs#I16",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=670s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 670,
+     "momento": "11:12",
+     "ideia": "Criar loop com marcadores in e out"
+    },
+    {
+     "id": "xNlyoGud2A0#I02",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=37s",
+     "video": "xNlyoGud2A0",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Escutar o solo em loop antes de transcrever"
+    }
+   ]
+  },
+  {
+   "titulo": "iReal Pro: progressão sob medida e a troca isolada",
+   "objetivo": "Usar um app de play-along para montar qualquer progressão e isolar em loop só a troca de acorde que trava você.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "No iReal Pro (ou no ChordPulse), crie uma progressão de 4 acordes: Am – Dm – G – C, 1 compasso cada.",
+    "Escolha um estilo (pop ou rock), ajuste para 70 bpm e deixe em loop.",
+    "Improvise 3 voltas e anote em qual troca você mais se atrapalha.",
+    "Crie um segundo chart só com os 2 compassos dessa troca (ex.: G – C) e deixe repetindo 5 minutos.",
+    "Volte à progressão completa e confira se a troca ficou mais fácil.",
+    "Suba o andamento 5 bpm de cada vez, só quando a troca sair limpa."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Use a transposição do app para levar a mesma progressão a Mi menor (Em – Am – D – G).",
+    "Mude o estilo (balada, bossa, funk) e observe como a mesma progressão pede outro fraseado."
+   ],
+   "cuidado": "Deixar o app no andamento padrão e no estilo pronto. Ajuste andamento e densidade ao seu objetivo, como você faria ao escolher uma backing track.",
+   "inspirado_em": [
+    {
+     "id": "N1shDBha6Y0#I01",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=57s",
+     "video": "N1shDBha6Y0",
+     "inicio": 57,
+     "momento": "00:59",
+     "ideia": "iReal Pro para praticar improvisação"
+    },
+    {
+     "id": "Xs2umOucpSM#I10",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=298s",
+     "video": "Xs2umOucpSM",
+     "inicio": 298,
+     "momento": "05:00",
+     "ideia": "ChordPulse para criar progressões"
+    },
+    {
+     "id": "blog--p-20309-5f6c7e#I13",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Use slow-mo e loop para estudar as transições"
+    },
+    {
+     "id": "N1shDBha6Y0#I02",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=229s",
+     "video": "N1shDBha6Y0",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "Isolar trechos problemáticos com loop"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Solar numa base sem conferir o tom e culpar a escala pelo som 'errado'.",
+  "Usar sempre a mesma base rápida e cheia de notas quando o objetivo é ouvir as trocas de acorde.",
+  "Aceitar qualquer backing track: uma base sem groove achata o solo.",
+  "Colecionar faixas, PDFs e cursos sem nunca terminar nenhum.",
+  "Subir o andamento de 50% direto para 100%, sem degraus intermediários.",
+  "Olhar o gabarito ou a tablatura antes de tentar tirar de ouvido.",
+  "Achar que play-along substitui escutar discos e transcrever a linguagem."
+ ],
+ "resumo": [
+  "Reserve parte de toda sessão para tocar sobre uma base: backing track, looper, bateria ou app.",
+  "Escolha a base pelo tom, pelo andamento e pela qualidade: lenta para ouvir as trocas, animada para treinar ritmo.",
+  "Looper e iReal Pro deixam você montar qualquer progressão e isolar a troca difícil.",
+  "Para tirar solos, desacelere (50–60%), marque um loop in/out e suba o andamento aos poucos.",
+  "Livros dão o roteiro, PDFs conferem, discos dão a linguagem. A ferramenta ajuda, mas não substitui o ouvido."
+ ],
+ "proximos_passos": "Com o kit montado, siga para \"Rotina, planejamento e prática deliberada\" e encaixe as bases na sua semana. Depois, use as ferramentas de desaceleração e loop em \"Transcrição de solos\" e monte sua coleção de referências em \"Escuta ativa e referências\". Para aproveitar o loop G7–C7, a continuação natural é \"Seguir as trocas: escala por acorde e chord chasing\".",
+ "_meta": {
+  "subcategoria": "C01.4",
+  "modulo": {
+   "id": "C01",
+   "nome": "Mentalidade, método e recursos de estudo"
+  },
+  "nome": "Recursos: backing tracks, apps, livros e cursos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:44:41",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 41575,
+   "cache_read": 31014,
+   "output": 23834,
+   "thinking": 4657,
+   "turns": 3,
+   "custo_nominal": 0.8335237999999999
+  }
+ }
+}

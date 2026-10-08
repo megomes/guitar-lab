@@ -1,0 +1,2206 @@
+{
+ "titulo": "Notas, intervalos e graus",
+ "gancho": "Sete letras, dois semitons e doze distâncias. Com isso você deixa de seguir desenhos e passa a saber o que cada nota vai causar antes de tocá-la.",
+ "porque_importa": "Quando você só decora shapes, sabe onde estão as notas certas, mas não sabe o que cada uma faz. Quem pensa em graus (1, 3, 5, ♭7) sabe se a nota vai pousar, suspender ou criar tensão, e leva a mesma ideia para qualquer tom sem travar. Quase tudo o que vem depois no improviso depende disso: notas-alvo, arpejos, modos e blues.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Sete letras, dois atalhos",
+   "texto": "A música usa só sete nomes: A B C D E F G (Lá, Si, Dó, Ré, Mi, Fá, Sol), e depois do G a sequência recomeça no A. Entre duas naturais vizinhas a distância é de um tom (duas casas), com duas exceções: E→F e B→C ficam a um semitom (uma casa). Nos outros intervalos de um tom sobra uma casa no meio, que é onde ficam os sustenidos e bemóis (entre C e D fica C♯/D♭). Para memorizar: depois de Mi e Si, as notas terminadas em 'i', a próxima nota está colada.",
+   "destaque": "Mi-Fá e Si-Dó: só aí não existe casa no meio.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "As notas naturais na corda Lá (5ª corda). Os anéis marcam onde a distância é de uma casa só: B→C e E→F. Os graus estão em relação a Lá, mas por enquanto olhe só os nomes e as distâncias.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Intervalo é distância, e a régua é a escala maior",
+   "texto": "Intervalo é o espaço entre duas notas. Para medir, a referência é a escala maior: tom, tom, semitom, tom, tom, tom, semitom. Em Dó os semitons caem justamente em E-F e B-C, por isso Dó maior não tem nenhuma alteração. Numere a escala de 1 a 7. Depois do 7 vem de novo o 1, uma oitava acima. Todo intervalo é um desses números ou um deles alterado: a ♭3 é a 3ª abaixada meio tom, a ♭5 é a 5ª abaixada, a ♭7 é a 7ª abaixada.",
+   "destaque": "Para achar um grau alterado, parta do grau da escala maior e mova meio tom.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Dó maior numa corda só: T-T-S-T-T-T-S. Os anéis marcam as chegadas por semitom (E→F e B→C).",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Doze distâncias, doze nomes",
+   "texto": "A partir da tônica, em semitons: 1 (0) · ♭2, 2ª menor (1) · 2, 2ª maior (2) · ♭3, 3ª menor (3) · 3, 3ª maior (4) · 4, 4ª justa (5) · ♭5/♯4, trítono (6) · 5, 5ª justa (7) · ♭6, 6ª menor (8) · 6, 6ª maior (9) · ♭7, 7ª menor (10) · 7, 7ª maior (11) · oitava (12). Uma oitava acima, o 2 vira 9, o 4 vira 11 e o 6 vira 13. Duas referências rápidas: a 7ª maior fica meio tom abaixo da tônica e a ♭7 fica um tom abaixo.",
+   "destaque": "3ª não quer dizer três casas. A 3ª maior tem 4 semitons e a 3ª menor tem 3.",
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Os 12 intervalos a partir de Dó (5ª corda, casa 3), todos ao alcance da mão entre as casas 1 e 6.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "D♭",
+      "grau": "♭2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 1,
+      "nota": "E♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "G♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "A♭",
+      "grau": "♭6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Cada intervalo tem um sabor",
+   "texto": "Tocado contra a tônica, cada intervalo tem um caráter. 1 e 5 soam estáveis, são pouso garantido. A 3ª maior soa resolvida e alegre. A ♭3 soa emotiva e melancólica. A 4ª soa suspensa e pede para cair na 3ª, que é o som do sus4. A 2ª e a 6ª soam abertas, sem conclusão. A 7ª maior é uma dissonância bonita, a cor do maj7. A ♭7 é o tempero do blues e do acorde dominante. Saber esses sabores é o que permite escolher uma nota com intenção.",
+   "destaque": "Antes de tocar, você já sabe se a nota vai pousar, suspender ou criar tensão.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "A 5ª é pouso firme. A 4ª fica suspensa (ouça o silêncio) até cair na 3ª.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Pense em graus. Os nomes vêm junto",
+   "texto": "O som de um grau em relação ao acorde é sempre o mesmo, mas o nome da nota muda com o tom. B é a 3ª de G e a tônica de Bm. Uma frase pensada como 1-2-3-5 continua igual em qualquer tonalidade: só a mão muda de lugar. É por isso que Nelson Faria trava menos que quem pensa 'Ré♭, Fá♭, Lá♭♭'. Jens Larsen faz uma ressalva: os nomes continuam importantes para ver as notas que se mantêm ou andam meio tom de um acorde para o outro. Use os dois, com o grau na frente.",
+   "destaque": "O grau diz o que a nota faz. O nome diz onde ela está.",
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "A mesma frase em graus (1-2-3-5 | 3-2-1) em Dó e em Ré. A digitação só anda duas casas e os graus não mudam.",
+    "tonica": "C",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 3,
+   "porque": "Daniel Seriff mostra no braço onde ficam os dois semitons naturais (B-C e E-F) e como isso organiza todas as notas.",
+   "fonte": {
+    "id": "2vpD-LXRenI#I03",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+    "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=65s",
+    "video": "2vpD-LXRenI",
+    "inicio": 65,
+    "momento": "1:07",
+    "ideia": "Meio tom entre B-C e E-F"
+   }
+  },
+  {
+   "ref": 29,
+   "porque": "Active Melody toca a 3ª maior e depois a 3ª menor contra a mesma tônica, e você ouve uma única casa trocar o clima de alegre para melancólico.",
+   "fonte": {
+    "id": "UbIv3AKmNl0#I12",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+    "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=478s",
+    "video": "UbIv3AKmNl0",
+    "inicio": 478,
+    "momento": "08:00",
+    "ideia": "3ª maior dá estabilidade"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "Active Melody compara a 7ª maior, colorida e tensa, com a ♭7 de blues e mostra como usar cada uma numa melodia.",
+   "fonte": {
+    "id": "UbIv3AKmNl0#I21",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+    "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=722s",
+    "video": "UbIv3AKmNl0",
+    "inicio": 722,
+    "momento": "12:04",
+    "ideia": "7ª maior como dissonância colorida"
+   }
+  },
+  {
+   "ref": 69,
+   "porque": "Nicky V toca sequências que voltam sempre à tônica (1-5-1-4-1, 1-3-1-7-1) e comenta o som de cada combinação.",
+   "fonte": {
+    "id": "t8SmU7wIxnc#I26",
+    "tipo": "video",
+    "autor": "Nicky V",
+    "titulo": "The Secret To Melodic Soloing...The Session Method.",
+    "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1491s",
+    "video": "t8SmU7wIxnc",
+    "inicio": 1491,
+    "momento": "24:53",
+    "ideia": "Sortear combinações de intervalos a partir de C"
+   }
+  },
+  {
+   "ref": 65,
+   "porque": "Jack Gardiner percorre a caixa pentatônica dizendo o intervalo de cada nota em relação à raiz, nas duas direções do braço.",
+   "fonte": {
+    "id": "tRi4vMs2z8M#I14",
+    "tipo": "video",
+    "autor": "Jack Gardiner",
+    "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+    "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=865s",
+    "video": "tRi4vMs2z8M",
+    "inicio": 865,
+    "momento": "14:27",
+    "ideia": "Mapear cada nota como intervalo da raiz"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Nelson Faria explica por que quem pensa em função não trava ao mudar de tom, e quem pensa em nome de nota trava.",
+   "fonte": {
+    "id": "v2rtFiZPAJ4#I09",
+    "tipo": "video",
+    "autor": "Cortes do Amplifica [OFICIAL]",
+    "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+    "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=209s",
+    "video": "v2rtFiZPAJ4",
+    "inicio": 209,
+    "momento": "03:31",
+    "ideia": "Pensar em função e não em nome de nota evita travar"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Alfabeto e os dois semitons",
+   "objetivo": "Saber de cor a sequência das notas naturais e onde ficam as duas distâncias de uma casa.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Sem a guitarra, diga o alfabeto musical em voz alta, de A até A, e depois de trás para frente (A G F E D C B A).",
+    "Repita começando em outras notas: de C até C, de E até E.",
+    "Na corda Lá, toque as naturais subindo: 0, 2, 3, 5, 7, 8, 10, 12.",
+    "A cada passo diga 'tom' ou 'semitom'. Os semitons aparecem só em B→C (2→3) e E→F (7→8).",
+    "Desça da casa 12 até a corda solta fazendo o mesmo."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "As notas naturais na corda Lá (5ª corda). Os anéis marcam onde a distância é de uma casa só: B→C e E→F. Os graus estão em relação a Lá, mas por enquanto olhe só os nomes e as distâncias.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça na corda Mi grave: E(0) F(1) G(3) A(5) B(7) C(8) D(10) E(12). O semitom agora aparece logo no começo.",
+    "De olhos fechados, diga o nome de cada nota um pouco antes de tocá-la."
+   ],
+   "cuidado": "Achar que existe uma nota entre E e F ou entre B e C. Não existe: E♯ é o próprio F, e B♯ é o próprio C.",
+   "inspirado_em": [
+    {
+     "id": "2vpD-LXRenI#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=65s",
+     "video": "2vpD-LXRenI",
+     "inicio": 65,
+     "momento": "1:07",
+     "ideia": "Notas naturais"
+    },
+    {
+     "id": "s6lqWYXvEds#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=53s",
+     "video": "s6lqWYXvEds",
+     "inicio": 53,
+     "momento": "00:55",
+     "ideia": "Comece só com as notas naturais"
+    },
+    {
+     "id": "2vpD-LXRenI#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=65s",
+     "video": "2vpD-LXRenI",
+     "inicio": 65,
+     "momento": "1:07",
+     "ideia": "Meio tom entre B-C e E-F"
+    },
+    {
+     "id": "s6lqWYXvEds#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=71s",
+     "video": "s6lqWYXvEds",
+     "inicio": 71,
+     "momento": "01:13",
+     "ideia": "Tons e semitons entre as notas naturais"
+    },
+    {
+     "id": "iUZwNSDpV_Q#I04",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=99s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Dica para lembrar onde estão os semitons"
+    }
+   ]
+  },
+  {
+   "titulo": "A régua T-T-S-T-T-T-S",
+   "objetivo": "Construir a escala maior pela fórmula e numerar seus graus, porque ela é a referência de todo intervalo.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque Dó maior na corda Lá, da casa 3 à 15, dizendo os números: 1, 2, 3, 4, 5, 6, 7, 1.",
+    "Confira a fórmula com os dedos: 2 casas, 2, 1, 2, 2, 2, 1.",
+    "Agora comece no G da corda Mi grave (casa 3) e aplique a mesma fórmula: 3, 5, 7, 8, 10, 12, 14, 15.",
+    "Descubra qual nota precisou de sustenido (o 7º grau, F♯, na casa 14) e diga por quê: de E para o 7º grau a fórmula pede um tom, e E→F é só meio tom.",
+    "Toque as duas escalas de novo falando só os números, sem os nomes."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Dó maior numa corda só: T-T-S-T-T-T-S. Os anéis marcam as chegadas por semitom (E→F e B→C).",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo a partir de D (corda Lá, casa 5) e descubra as duas notas com sustenido (F♯ e C♯).",
+    "Toque só os graus 1-3-5-1 de cada escala e repare que soam como o acorde."
+   ],
+   "cuidado": "Contar casas em vez de seguir a fórmula e acabar errando o lugar do semitom. Diga T ou S a cada passo até ficar automático.",
+   "inspirado_em": [
+    {
+     "id": "iUZwNSDpV_Q#I03",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=99s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Padrão tom-tom-semitom da escala maior"
+    },
+    {
+     "id": "2vpD-LXRenI#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=98s",
+     "video": "2vpD-LXRenI",
+     "inicio": 98,
+     "momento": "1:40",
+     "ideia": "Dó maior como escala sem alterações"
+    },
+    {
+     "id": "0MLUiyPWt8s#I04",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=201s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 201,
+     "momento": "03:23",
+     "ideia": "Escala maior de dó"
+    },
+    {
+     "id": "NGior_1Tsmo#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=68s",
+     "video": "NGior_1Tsmo",
+     "inicio": 68,
+     "momento": "01:10",
+     "ideia": "Sistema de números dos graus"
+    },
+    {
+     "id": "UbIv3AKmNl0#I05",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=229s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "Numerar os graus em vez de nomear as notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Volta à tônica: os 12 intervalos no ouvido",
+   "objetivo": "Ligar o nome, a distância e o som de cada intervalo, sempre ouvindo-o contra a tônica.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Use o C da corda Lá, casa 3, e todos os intervalos do mapa (casas 1 a 6).",
+    "Toque 1 → intervalo → 1 para cada um, em ordem: ♭2, 2, ♭3, 3, 4, ♭5, 5, ♭6, 6, ♭7, 7, 8. Diga o nome e o número de semitons.",
+    "Depois de cada intervalo, dê uma palavra para o som dele: 'estável', 'suspenso', 'triste', 'tenso'. Anote.",
+    "Quando der, toque a tônica e o intervalo juntos e deixe soar. Duas notas ao mesmo tempo mostram ainda mais o caráter do intervalo.",
+    "Monte sequências que voltam sempre à tônica, como 1-5-1-4-1 e 1-3-1-7-1, e invente outras três."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Os 12 intervalos a partir de Dó (5ª corda, casa 3), todos ao alcance da mão entre as casas 1 e 6.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "D♭",
+      "grau": "♭2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 1,
+      "nota": "E♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "G♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "A♭",
+      "grau": "♭6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Sorteie um grau (escreva papeizinhos de 1 a 7, com e sem ♭), ache a nota no mapa e toque 1-x-1.",
+    "Toque a mesma combinação começando no C da casa 5 da corda Sol e confirme que o som não muda."
+   ],
+   "cuidado": "Pular a volta à tônica. Sem a referência do 1, o ouvido compara cada nota com a anterior e o sabor do intervalo se perde.",
+   "inspirado_em": [
+    {
+     "id": "UbIv3AKmNl0#I01",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=104s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 104,
+     "momento": "01:46",
+     "ideia": "Intervalo é a distância entre duas notas"
+    },
+    {
+     "id": "UbIv3AKmNl0#I02",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=132s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Intervalos derivam da escala maior"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I03",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Nomes de intervalos e graus"
+    },
+    {
+     "id": "t8SmU7wIxnc#I27",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1526s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1526,
+     "momento": "25:28",
+     "ideia": "Sonoridade dos intervalos com a tônica"
+    },
+    {
+     "id": "lJRzTqOf1ro#I03",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=99s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Escrever e visualizar intervalos"
+    },
+    {
+     "id": "t8SmU7wIxnc#I26",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1491s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1491,
+     "momento": "24:53",
+     "ideia": "Sortear combinações de intervalos a partir de C"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma casa muda tudo: 3ª maior × 3ª menor",
+   "objetivo": "Sentir que a 3ª é a nota que decide se o som é maior ou menor.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Toque o exemplo: C → E → C+E juntos e depois C → E♭ → C+E♭ juntos, sempre com a pausa no fim.",
+    "Repita quatro vezes e descreva em voz alta a diferença de clima.",
+    "Toque só o par C+E e o par C+E♭, alternando. A mão se move uma casa e o caráter vira do avesso.",
+    "Leve a ideia para Lá: A (corda Lá, solta), C♯ (corda Ré, casa 11) e C (casa 10). Diga '3' e '♭3' ao tocar."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Uma casa muda tudo: Dó com a 3ª maior (E) e depois com a 3ª menor (E♭), primeiro separadas e depois juntas.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 1,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 1,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque a tríade inteira (1-3-5 e 1-♭3-5) subindo e descendo, mudando só a 3ª.",
+    "Peça para alguém tocar uma das duas sem avisar e adivinhe se é maior ou menor."
+   ],
+   "cuidado": "Achar que a 3ª é contada em casas. A 3ª maior tem 4 semitons e a 3ª menor tem 3. Conte a partir da tônica, sem pular nenhuma casa.",
+   "inspirado_em": [
+    {
+     "id": "7FilvCPSYXc#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=395s",
+     "video": "7FilvCPSYXc",
+     "inicio": 395,
+     "momento": "06:37",
+     "ideia": "Numerar a escala maior para encontrar a 3ª e a 5ª"
+    },
+    {
+     "id": "q_nUp3Lv5H4#I03",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO SOLAR GUITARRA DE FORMA SENSACIONAL",
+     "url": "https://www.youtube.com/watch?v=q_nUp3Lv5H4&t=136s",
+     "video": "q_nUp3Lv5H4",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Terça de Dó é Mi"
+    },
+    {
+     "id": "q_nUp3Lv5H4#I05",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO SOLAR GUITARRA DE FORMA SENSACIONAL",
+     "url": "https://www.youtube.com/watch?v=q_nUp3Lv5H4&t=136s",
+     "video": "q_nUp3Lv5H4",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Terça de Lá menor é Dó"
+    },
+    {
+     "id": "UbIv3AKmNl0#I12",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=478s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 478,
+     "momento": "08:00",
+     "ideia": "3ª maior dá estabilidade"
+    },
+    {
+     "id": "UbIv3AKmNl0#I14",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=514s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 514,
+     "momento": "08:36",
+     "ideia": "3ª menor pelo abaixamento da 3ª maior"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I14",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "A terça menor define o caráter menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Pouso, suspensão e cor: 5, 4 e 7",
+   "objetivo": "Ouvir as funções da 5ª, da 4ª e das duas sétimas e saber quando usar cada uma.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque o exemplo V5: C → G (5ª) e o power chord C+G. Repare como soa firme.",
+    "No segundo compasso, toque C → F (4ª) e deixe o silêncio do tempo 3 criar expectativa. Resolva no E (3ª) no tempo 4.",
+    "Agora o exemplo deste exercício: o arpejo C-E-G termina em B (7ª maior) no Cmaj7 e em B♭ (♭7) no C7.",
+    "Toque o par C+B e depois o par C+B♭. Um soa como uma tensão sofisticada, o outro como blues.",
+    "Diga em voz alta: '7 é meio tom abaixo da tônica, ♭7 é um tom abaixo'."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "7ª maior (B, meio tom abaixo da tônica) no Cmaj7 e ♭7 (B♭, um tom abaixo) no C7. O mesmo arpejo muda só na última nota.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine a frase do Cmaj7 subindo do B para o C e ouça a 7ª resolvendo na tônica.",
+    "Repita tudo a partir do G da corda Mi grave (casa 3) sem olhar o diagrama, só pela distância."
+   ],
+   "cuidado": "Achar que 'C7' tem B. 'Dó com sétima' é dominante e leva B♭. Só Cmaj7 (C7M) leva B.",
+   "inspirado_em": [
+    {
+     "id": "UbIv3AKmNl0#I17",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=629s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 629,
+     "momento": "10:31",
+     "ideia": "5ª justa"
+    },
+    {
+     "id": "UbIv3AKmNl0#I10",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=323s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 323,
+     "momento": "05:25",
+     "ideia": "4ª justa"
+    },
+    {
+     "id": "UbIv3AKmNl0#I21",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=722s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 722,
+     "momento": "12:04",
+     "ideia": "7ª maior como dissonância colorida"
+    },
+    {
+     "id": "UbIv3AKmNl0#I22",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=775s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 775,
+     "momento": "12:57",
+     "ideia": "7ª menor (♭7) como som de blues"
+    },
+    {
+     "id": "mrKDTl6zDOM#I12",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=519s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 519,
+     "momento": "08:41",
+     "ideia": "Sétima maior como nota tensa"
+    },
+    {
+     "id": "mrKDTl6zDOM#I11",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=483s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 483,
+     "momento": "08:05",
+     "ideia": "Sétima menor um tom abaixo da tônica"
+    },
+    {
+     "id": "mrKDTl6zDOM#I16",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=797s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 797,
+     "momento": "13:19",
+     "ideia": "Quinta sobre a tônica como reforço"
+    }
+   ]
+  },
+  {
+   "titulo": "Fale o grau, não a nota: pentatônica com metrônomo",
+   "objetivo": "Trocar a leitura do desenho pela leitura das funções, encontrando cada grau em tempo real.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Metrônomo a 60 bpm. Toque a pentatônica de Lá menor na casa 5, uma nota por batida.",
+    "Em vez do nome da nota, diga o grau: 'um, terça menor, quarta, quinta, sétima menor, um...'.",
+    "Desça dizendo os graus de trás para frente.",
+    "Agora use como referência a tônica da corda Ré (casa 7): toque cada nota que está ABAIXO dela e diga o intervalo. G é um tom abaixo (♭7), E é a 5ª da oitava de baixo.",
+    "Toque só os 1 e as ♭3 da caixa, depois só os 1 e as 5, sem tocar as outras notas."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5, lida em graus: 1, ♭3, 4, 5, ♭7. As tônicas têm anel.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Suba o metrônomo para 70 e depois 80, mantendo a fala em dia com a batida.",
+    "Faça em Mi menor (E G A B D) na casa 12 ou na região solta.",
+    "Para cada shape que você já conhece, marque no papel onde estão 1, ♭3, 5 e ♭7 (veja 'Os cinco shapes e como conectá-los')."
+   ],
+   "cuidado": "Falar no automático, como uma lista decorada, sem olhar a nota. Se o metrônomo ficar à frente da fala, baixe o andamento: o objetivo é saber, não correr.",
+   "inspirado_em": [
+    {
+     "id": "academiamusical--melhore-o-seu-improviso-na-guitarra-c-videoaula-073028#I01",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Melhore o Seu Improviso na Guitarra (C/ Vídeoaula) - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/melhore-o-seu-improviso-na-guitarra-c-videoaula/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Conhecer os graus, não só os formatos"
+    },
+    {
+     "id": "-htAGli1YeY#I06",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=132s",
+     "video": "-htAGli1YeY",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Graus da pentatônica de Lá menor"
+    },
+    {
+     "id": "tRi4vMs2z8M#I12",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=797s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 797,
+     "momento": "13:19",
+     "ideia": "Pentatônica menor por intervalos"
+    },
+    {
+     "id": "tRi4vMs2z8M#I14",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=865s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 865,
+     "momento": "14:27",
+     "ideia": "Mapear cada nota como intervalo da raiz"
+    },
+    {
+     "id": "lJRzTqOf1ro#I27",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=2037s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 2037,
+     "momento": "33:59",
+     "ideia": "Nomear intervalos em tempo real com metrônomo"
+    },
+    {
+     "id": "ZPELVwO27lc#I14",
+     "tipo": "video",
+     "autor": "swiftlessons",
+     "titulo": "The Mixolydian Blues Hybrid Scale - The Holy Grail of Major Soloing!",
+     "url": "https://www.youtube.com/watch?v=ZPELVwO27lc&t=562s",
+     "video": "ZPELVwO27lc",
+     "inicio": 562,
+     "momento": "9:24",
+     "ideia": "Nomear os graus da híbrida durante a execução"
+    }
+   ]
+  },
+  {
+   "titulo": "Graus que viajam: mesma frase, outro tom",
+   "objetivo": "Usar os graus para levar uma ideia a qualquer tonalidade, sem perder os nomes das notas de vista.",
+   "nivel": "avancado",
+   "minutos": 10,
+   "passos": [
+    "Toque a frase em Dó dizendo os graus: 1-2-3-5 | 3-2-1.",
+    "Mova tudo duas casas para cima e toque em Ré. Repare que a digitação e o som são os mesmos.",
+    "Agora diga os nomes também: C D E G E D C, e depois D E F♯ A F♯ E D. O grau mostra a função e o nome mostra onde a nota está.",
+    "Leve a frase para mais três tons (E, G e A) pensando só nos graus.",
+    "Toque C e depois D, um compasso de cada, ligando as frases. Note que a 3ª do C (E) vira a 2ª do D: a mesma nota muda de função."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "A mesma frase em graus (1-2-3-5 | 3-2-1) em Dó e em Ré. A digitação só anda duas casas e os graus não mudam.",
+    "tonica": "C",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o 3 por ♭3 e toque a versão menor nos mesmos tons.",
+    "Crie sua própria frase de quatro graus e transponha para cinco tons em sequência.",
+    "Num acorde de C seguido de F, escreva graus e nomes e marque as notas comuns (C é a 1 do C e a 5 do F)."
+   ],
+   "cuidado": "Pensar só em graus e esquecer os nomes, ou o contrário. Grau sem nome deixa de mostrar a nota que se mantém ou anda meio tom entre os acordes. Nome sem grau trava na hora de transpor.",
+   "inspirado_em": [
+    {
+     "id": "7FilvCPSYXc#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=295s",
+     "video": "7FilvCPSYXc",
+     "inicio": 295,
+     "momento": "04:57",
+     "ideia": "Pensar em graus em vez de nomes de notas"
+    },
+    {
+     "id": "XL9TYmwkHWs#I13",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=869s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 869,
+     "momento": "14:31",
+     "ideia": "Pensar na função da nota, não só no nome"
+    },
+    {
+     "id": "v2rtFiZPAJ4#I07",
+     "tipo": "video",
+     "autor": "Cortes do Amplifica [OFICIAL]",
+     "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+     "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=148s",
+     "video": "v2rtFiZPAJ4",
+     "inicio": 148,
+     "momento": "02:30",
+     "ideia": "Terceiro nível: analisar funções e intervalos"
+    },
+    {
+     "id": "v2rtFiZPAJ4#I09",
+     "tipo": "video",
+     "autor": "Cortes do Amplifica [OFICIAL]",
+     "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+     "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=209s",
+     "video": "v2rtFiZPAJ4",
+     "inicio": 209,
+     "momento": "03:31",
+     "ideia": "Pensar em função e não em nome de nota evita travar"
+    },
+    {
+     "id": "U3u3jiF7zVg#I13",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=498s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Pensar em intervalos para transpor"
+    },
+    {
+     "id": "mD_JBfqB8X0#I05",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+     "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=162s",
+     "video": "mD_JBfqB8X0",
+     "inicio": 162,
+     "momento": "02:44",
+     "ideia": "Pensar em intervalos, não em notas"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I03",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=134s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Pensar só em intervalos, sem as notas"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Achar que todas as naturais vizinhas estão a meio tom. É o contrário: só E-F e B-C ficam a meio tom, as outras ficam a um tom.",
+  "Contar o intervalo em casas ('3ª = 3 casas'). Use a escala maior como régua: a 3ª maior tem 4 semitons e a 3ª menor tem 3.",
+  "Achar que 'C7' tem B natural. 'Dó com sétima' é dominante e tem B♭. Só Cmaj7/C7M tem B.",
+  "Decorar o shape sem saber o grau de cada nota. A mão acerta o desenho, mas a frase não sabe onde pousar.",
+  "Pensar só em intervalos e abandonar os nomes. Fica difícil ver as notas comuns e o meio tom entre acordes.",
+  "Esquecer que inverter um intervalo muda o som: a 3ª maior invertida vira 6ª menor e a 4ª justa invertida vira 5ª justa."
+ ],
+ "resumo": [
+  "Sete notas naturais. Entre elas há um tom, exceto em E-F e B-C, onde há meio tom.",
+  "Escala maior = T-T-S-T-T-T-S. Ela é a régua de todo intervalo, e os graus alterados (♭3, ♭5, ♭7) saem dela.",
+  "3ª define maior ou menor. 5ª é pouso. 4ª suspende. 7ª maior é cor tensa. ♭7 é blues.",
+  "Referências rápidas: 7 = meio tom abaixo da tônica, ♭7 = um tom abaixo, 2 = um tom acima.",
+  "Pense em grau para saber a função e transpor. Saiba o nome para conduzir as vozes."
+ ],
+ "proximos_passos": "Siga para \"Notas no braço e oitavas\" para achar qualquer nota rapidamente. Depois veja \"Escala maior e campo harmônico\" e \"Formação de acordes: tríades, tétrades e extensões\", que usam estes graus para montar acordes. No improviso, aplique os sabores dos intervalos em \"Notas do acorde, repouso e tensão-resolução\" e treine o reconhecimento de ouvido em \"Treino auditivo e escuta reativa\".",
+ "_meta": {
+  "subcategoria": "C02.1",
+  "modulo": {
+   "id": "C02",
+   "nome": "Teoria essencial para solar"
+  },
+  "nome": "Notas, intervalos e graus",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:50:12",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 18341,
+   "cache_read": 4933,
+   "output": 17214,
+   "thinking": 6040,
+   "turns": 2,
+   "custo_nominal": 0.5068236
+  }
+ }
+}
