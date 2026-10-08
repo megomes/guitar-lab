@@ -1,0 +1,3099 @@
+{
+ "titulo": "Arpejos de sétima e diatônicos",
+ "gancho": "Quatro notas por acorde, e o seu solo passa a dizer qual acorde está tocando.",
+ "porque_importa": "A pentatônica atravessa a música inteira. O arpejo de sétima diz qual acorde está soando agora. Com maj7, 7, m7 e m7♭5 prontos nos dedos, você tem material para todos os acordes de uma música tonal, e é sobre eles que entram depois os cromatismos, as tensões e o vocabulário de jazz.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Quatro qualidades, uma nota de diferença",
+   "texto": "Um arpejo de sétima tem quatro notas: 1, 3, 5 e 7. Com tônica C, o maj7 é C E G B. Abaixe a 7ª e vira C7 (B♭). Abaixe também a 3ª e vira Cm7 (E♭). Abaixe também a 5ª e vira Cm7♭5 (G♭). Toque devagar e ouça: o desenho na mão quase não muda, mas o som muda completamente.",
+   "destaque": "maj7 → 7 → m7 → m7♭5: a cada passo, uma nota desce meio tom.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Mesma tônica, quatro qualidades. Entre um compasso e o seguinte muda só uma nota: 7→♭7, depois 3→♭3, depois 5→♭5.",
+    "tonica": "C",
+    "bpm": 66,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 6,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7♭5",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 6,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "G♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "O acorde já está na sua mão",
+   "texto": "Cada arpejo é a forma do acorde tocada nota por nota. Se você sabe montar Cmaj7, C7, Cm7 e Cm7♭5 com a tônica na corda Lá, já sabe onde ficam as notas. Basta tocá-las uma de cada vez, no tempo e falando o grau.",
+   "destaque": "",
+   "visual": {
+    "id": "V3",
+    "tipo": "acordes",
+    "legenda": "As quatro tétrades com tônica C na corda Lá. O arpejo é cada uma delas tocada nota a nota.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x35353"
+     },
+     {
+      "nome": "Cm7",
+      "digitacao": "x35343"
+     },
+     {
+      "nome": "Cm7♭5",
+      "digitacao": "x3434x"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "O campo harmônico em arpejos",
+   "texto": "Empilhe terças sobre cada grau da escala maior e você tem um arpejo de sétima por grau. Em Dó: Cmaj7, Dm7, Em7, Fmaj7, G7, Am7 e Bm7♭5. Em Sol: Gmaj7, Am7, Bm7, Cmaj7, D7, Em7 e F♯m7♭5. Numa posição só, a escala que você já conhece guarda os sete arpejos. Jens Larsen chama isso de o exercício de escala mais útil do jazz.",
+   "destaque": "A escala é o depósito. Os arpejos diatônicos são o que está guardado nas prateleiras.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Os sete arpejos de Dó maior sem sair da posição (casas 4 a 8), um por compasso, terminando de volta em Cmaj7. Os graus de cada nota são do arpejo que está soando.",
+    "tonica": "C",
+    "bpm": 60,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Fmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Bm7♭5",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Mapear graus, não decorar caixas",
+   "texto": "Tom Quayle propõe saber onde estão a 3ª, a 5ª e a 7ª dentro de uma oitava, subindo e descendo, a partir de qualquer tônica e com a tônica em qualquer dedo. Assim você não fica preso a desenhos grandes e monta qualquer arpejo onde a mão estiver. As posições completas vêm depois, como continuação da oitava que você já domina.",
+   "destaque": "Primeiro uma oitava em qualquer lugar. Depois a posição inteira.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Tudo em uma oitava a partir do C (corda Lá, casa 3). Escolha a terça, a quinta e a sétima e você monta qualquer tétrade sem decorar um desenho novo.",
+    "tonica": "C",
+    "bpm": 0,
+    "acordes": [],
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 6,
+      "nota": "E♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "G♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Use no tempo, na mesma região",
+   "texto": "O arpejo só vira solo quando acompanha as trocas sem parar o ritmo. Escolha uma região do braço e toque o arpejo de cada acorde ali mesmo, sem saltar para o outro lado do braço. Num ii-V-I, a 3ª de G7 (B) fica a meio tom da tônica de Cmaj7. No blues, os três dominantes cabem entre as casas 4 e 7.",
+   "destaque": "Trocou o acorde, trocou o arpejo, sem perder o pulso.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "ii-V-I em Dó, um arpejo de uma oitava por acorde, tudo entre as casas 4 e 10. O B de G7 sobe meio tom e cai no C de Cmaj7.",
+    "tonica": "C",
+    "bpm": 70,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ]
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 17,
+   "porque": "Jens Larsen toca Dm7, G7 e Cmaj7 em uma oitava na mesma região e mostra como encadear um no outro.",
+   "fonte": {
+    "id": "5hmSQuMIf-w#I03",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "II V I  - You Need To Practice This For Solos",
+    "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=67s",
+    "video": "5hmSQuMIf-w",
+    "inicio": 67,
+    "momento": "01:09",
+    "ideia": "Arpejos de uma oitava sobre a progressão"
+   }
+  },
+  {
+   "ref": 12,
+   "porque": "A construção em camadas, da escala às terças, às tríades e aos acordes de sétima, tocada numa posição.",
+   "fonte": {
+    "id": "yw6K7j6GbDc#I04",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+    "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=98s",
+    "video": "yw6K7j6GbDc",
+    "inicio": 98,
+    "momento": "01:40",
+    "ideia": "Sequência de construção: escala, terças, tríades e sétimas"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "Os sete arpejos diatônicos de Dó numa posição fixa, cada um começando pela nota mais próxima.",
+   "fonte": {
+    "id": "566LrQfcqgE#I15",
+    "tipo": "video",
+    "autor": "samuraiguitarist",
+    "titulo": "A LIFE-CHANGING Practice Routine",
+    "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=426s",
+    "video": "566LrQfcqgE",
+    "inicio": 426,
+    "momento": "07:08",
+    "ideia": "Tocar os arpejos de sétima de todos os acordes diatônicos de Dó maior"
+   }
+  },
+  {
+   "ref": 41,
+   "porque": "Tom Quayle mapeia ♭3 e 3 a partir do indicador sobre o ii-V-I e explica por que evitar formas grandes.",
+   "fonte": {
+    "id": "fhzrQgPROxg#I05",
+    "tipo": "video",
+    "autor": "Tom Quayle",
+    "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+    "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=396s",
+    "video": "fhzrQgPROxg",
+    "inicio": 396,
+    "momento": "06:38",
+    "ideia": "Mapear ♭3 e 3 a partir do dedo indicador"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "O blues de 12 compassos percorrido só com A7, D7 e E7 em arpejo.",
+   "fonte": {
+    "id": "DKe5jX-5pII#I11",
+    "tipo": "video",
+    "autor": "fretjam",
+    "titulo": "Tone Targeting In 1 4 5 Blues",
+    "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=340s",
+    "video": "DKe5jX-5pII",
+    "inicio": 340,
+    "momento": "05:42",
+    "ideia": "Progressão inteira só com arpejos"
+   }
+  },
+  {
+   "ref": 51,
+   "porque": "Rick Beato mostra os quatro arpejos dominantes espaçados (spread) em inversões, subindo e descendo.",
+   "fonte": {
+    "id": "1ksOozBYk8g#I03",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "How To SOLO Over 7th Chords!",
+    "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=51s",
+    "video": "1ksOozBYk8g",
+    "inicio": 51,
+    "momento": "00:53",
+    "ideia": "Praticar os quatro spread dominant arpeggios"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "ii-V-I em uma oitava, sem soltar o pulso",
+   "objetivo": "Trocar de arpejo junto com o acorde, mantendo o ritmo e ficando na mesma região do braço.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque cada arpejo da V1 isolado, subindo e descendo, falando o grau em voz alta (1, ♭3, 5, ♭7…).",
+    "Ligue os três compassos a 60 bpm em colcheias e repita em loop.",
+    "Coloque uma backing track de ii-V-I em Dó com um compasso por acorde.",
+    "Na troca G7 → Cmaj7, observe o B indo para o C: meio tom que resolve.",
+    "Quando estiver fluindo, improvise usando só essas notas, com o ritmo livre."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "ii-V-I em Dó, um arpejo de uma oitava por acorde, tudo entre as casas 4 e 10. O B de G7 sobe meio tom e cai no C de Cmaj7.",
+    "tonica": "C",
+    "bpm": 70,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ]
+   },
+   "variacoes": [
+    "Comece cada compasso descendo, do 8 até o 1.",
+    "Faça em Sol: Am7 – D7 – Gmaj7, também perto da casa 5.",
+    "Use dois compassos por acorde e toque a posição inteira, subindo para a próxima oitava."
+   ],
+   "cuidado": "Parar entre um arpejo e outro para pensar. Se isso acontecer, diminua o bpm. Não pule a troca.",
+   "inspirado_em": [
+    {
+     "id": "blog--p-20309-5f6c7e#I10",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Superposição de arpejos sobre ii-V-I"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I01",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=65s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Arpejo de cada acorde em uma oitava"
+    },
+    {
+     "id": "5hmSQuMIf-w#I03",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=67s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Arpejos de uma oitava sobre a progressão"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=33s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 33,
+     "momento": "00:35",
+     "ideia": "Manter a mesma região do braço"
+    }
+   ]
+  },
+  {
+   "titulo": "Mapa de graus a partir de cada dedo",
+   "objetivo": "Encontrar 3, 5 e 7 dentro da oitava a partir de qualquer dedo, sem depender de uma forma decorada.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Com o indicador no C (corda Lá, casa 3), ache a 3 e a ♭3, depois a 5 e a ♭5, depois a 7 e a ♭7, usando o mapa da V2.",
+    "Monte Cmaj7, C7, Cm7 e Cm7♭5 só escolhendo uma nota de cada par.",
+    "Agora ponha o dedo médio no C (casa 3) e reorganize a mão. Depois faça o mesmo com o anelar e com o mínimo.",
+    "Repita descendo: a partir do C mais agudo, ache as mesmas notas abaixo dele.",
+    "Se uma nota ficar fora do alcance numa direção, use a da outra direção."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Tudo em uma oitava a partir do C (corda Lá, casa 3). Escolha a terça, a quinta e a sétima e você monta qualquer tétrade sem decorar um desenho novo.",
+    "tonica": "C",
+    "bpm": 0,
+    "acordes": [],
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 6,
+      "nota": "E♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "G♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ]
+   },
+   "variacoes": [
+    "Troque a tônica para D e G e faça Dm7 e G7.",
+    "Faça em todas as ocorrências do C no braço: corda Mi grave casa 8, corda Ré casa 10 e corda Sol casa 5.",
+    "Peça para alguém dizer uma qualidade e um dedo em voz alta, e responda tocando na hora."
+   ],
+   "cuidado": "Achar a nota pela forma e não pelo grau. Diga o grau antes de tocar a nota.",
+   "inspirado_em": [
+    {
+     "id": "fhzrQgPROxg#I02",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=164s",
+     "video": "fhzrQgPROxg",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "Mapear intervalos dentro de uma oitava"
+    },
+    {
+     "id": "fhzrQgPROxg#I04",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=265s",
+     "video": "fhzrQgPROxg",
+     "inicio": 265,
+     "momento": "04:27",
+     "ideia": "Posicionar a tônica em cada dedo da mão esquerda"
+    },
+    {
+     "id": "fhzrQgPROxg#I05",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=396s",
+     "video": "fhzrQgPROxg",
+     "inicio": 396,
+     "momento": "06:38",
+     "ideia": "Mapear ♭3 e 3 a partir do dedo indicador"
+    },
+    {
+     "id": "fhzrQgPROxg#I09",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=822s",
+     "video": "fhzrQgPROxg",
+     "inicio": 822,
+     "momento": "13:44",
+     "ideia": "Repetir mapeamento de 3ª descendente"
+    },
+    {
+     "id": "fhzrQgPROxg#I10",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1031s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1031,
+     "momento": "17:13",
+     "ideia": "Mapear a 5ª a partir de cada dedo"
+    },
+    {
+     "id": "fhzrQgPROxg#I11",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1110s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1110,
+     "momento": "18:32",
+     "ideia": "Mapear ♭7 e 7 a partir de cada dedo"
+    },
+    {
+     "id": "fhzrQgPROxg#I12",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1197s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1197,
+     "momento": "19:59",
+     "ideia": "Montar arpejos de quatro notas a partir de cada dedo"
+    }
+   ]
+  },
+  {
+   "titulo": "Campo de Dó numa posição só",
+   "objetivo": "Tocar os sete arpejos diatônicos sem sair da posição e ouvir a qualidade de cada um.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque a escala de Dó maior entre as casas 4 e 8.",
+    "Toque a V5 a 60 bpm: um arpejo a cada dois tempos, sempre do 1 ao 7.",
+    "Diga a qualidade de cada um (maj7, m7, m7, maj7, 7, m7, m7♭5) antes de tocar.",
+    "Repita começando cada arpejo pela nota disponível mais grave da posição, não necessariamente pela tônica.",
+    "Por último, desça os sete arpejos do 7 para o 1."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Os sete arpejos de Dó maior sem sair da posição (casas 4 a 8), um por compasso, terminando de volta em Cmaj7. Os graus de cada nota são do arpejo que está soando.",
+    "tonica": "C",
+    "bpm": 60,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Fmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Bm7♭5",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça a mesma coisa uma posição acima, entre as casas 7 e 10.",
+    "Faça numa só corda (a corda Sol, por exemplo) e veja o braço inteiro.",
+    "Faça em Sol maior, terminando no F♯m7♭5."
+   ],
+   "cuidado": "Escorregar para fora da posição para alcançar uma nota confortável. Use a nota da posição, mesmo que em outra oitava.",
+   "inspirado_em": [
+    {
+     "id": "yw6K7j6GbDc#I03",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=62s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 62,
+     "momento": "01:04",
+     "ideia": "Arpejos diatônicos de sétima"
+    },
+    {
+     "id": "EMQydbilqmo#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=131s",
+     "video": "EMQydbilqmo",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Progressão de exercícios para os arpejos diatônicos"
+    },
+    {
+     "id": "yw6K7j6GbDc#I04",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=98s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Sequência de construção: escala, terças, tríades e sétimas"
+    },
+    {
+     "id": "566LrQfcqgE#I15",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=426s",
+     "video": "566LrQfcqgE",
+     "inicio": 426,
+     "momento": "07:08",
+     "ideia": "Tocar os arpejos de sétima de todos os acordes diatônicos de Dó maior"
+    },
+    {
+     "id": "566LrQfcqgE#I16",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=459s",
+     "video": "566LrQfcqgE",
+     "inicio": 459,
+     "momento": "07:41",
+     "ideia": "Arpejos diatônicos em uma única corda"
+    }
+   ]
+  },
+  {
+   "titulo": "Blues em Lá só com dominantes",
+   "objetivo": "Atravessar a forma do blues ouvindo cada acorde e sabendo onde está a cada troca.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque A7, D7 e E7 da V7 isolados. Repare que todos ficam entre as casas 4 e 7.",
+    "Ponha uma backing track de blues em Lá a 72 bpm.",
+    "Toque o arpejo do acorde da vez em cada compasso dos 12, deixando a pausa no fim de cada um.",
+    "Fale o nome do próximo acorde durante a pausa.",
+    "Na segunda volta, toque sem olhar a cifra."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Blues em Lá só com arpejos dominantes, entre as casas 4 e 7: A7, D7, E7 e A7 descendo para fechar.",
+    "tonica": "A",
+    "bpm": 72,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça um blues em Dó com C7, F7 e G7.",
+    "Em vez de começar pela tônica, comece cada compasso pela 3ª do acorde.",
+    "Desça em vez de subir nos compassos ímpares."
+   ],
+   "cuidado": "Ficar em A7 no compasso 2 ou no 10 por hábito. Conte a forma e chegue no D7 e no E7 a tempo.",
+   "inspirado_em": [
+    {
+     "id": "DKe5jX-5pII#I07",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "Tone Targeting In 1 4 5 Blues",
+     "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=202s",
+     "video": "DKe5jX-5pII",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Arpejo de D7 a partir da tônica"
+    },
+    {
+     "id": "SggDUBO6z7Q#I06",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=243s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 243,
+     "momento": "04:05",
+     "ideia": "Arpejo de Ré7 na quinta casa da corda lá"
+    },
+    {
+     "id": "DKe5jX-5pII#I11",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "Tone Targeting In 1 4 5 Blues",
+     "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=340s",
+     "video": "DKe5jX-5pII",
+     "inicio": 340,
+     "momento": "05:42",
+     "ideia": "Progressão inteira só com arpejos"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I06",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=100s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Arpejos em tempo sobre a forma"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I01",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=33s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 33,
+     "momento": "00:35",
+     "ideia": "Arpejos do primeiro trecho do blues"
+    }
+   ]
+  },
+  {
+   "titulo": "Embaralhar a ordem: começar pela 3ª",
+   "objetivo": "Sair da escadinha 1-3-5-7 e ganhar liberdade em volta da tônica.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a V8: cada acorde começa pela 3ª e segue 5, 7, 1.",
+    "Repita começando pela 5ª: 5-7-1-3.",
+    "Agora use a ordem 1-♭7-5-♭3 descendo em Dm7 e G7 (no Cmaj7, 1-7-5-3).",
+    "Sobre a backing track, sorteie uma ordem por volta e não troque até o fim da volta.",
+    "Termine sempre num grau diferente do 1 e ouça como a frase fica suspensa."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "O mesmo ii-V-I, agora começando pela terça de cada acorde. A frase soa mais melódica e menos como exercício.",
+    "tonica": "C",
+    "bpm": 70,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ]
+   },
+   "variacoes": [
+    "Toque a ordem ♭3-5-1-♭7 com um salto no meio.",
+    "Alterne a direção a cada acorde: sobe, desce, sobe.",
+    "Faça com a tônica no dedo mínimo."
+   ],
+   "cuidado": "Voltar à tônica no tempo 1 sem perceber. Confira em que grau você começa cada compasso.",
+   "inspirado_em": [
+    {
+     "id": "fhzrQgPROxg#I14",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1417s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1417,
+     "momento": "23:39",
+     "ideia": "Variar a ordem dos intervalos do arpejo"
+    },
+    {
+     "id": "fhzrQgPROxg#I18",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1717s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1717,
+     "momento": "28:39",
+     "ideia": "Randomizar a ordem dos intervalos"
+    },
+    {
+     "id": "fhzrQgPROxg#I16",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1517s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1517,
+     "momento": "25:19",
+     "ideia": "Arpejos começando pela 3ª"
+    },
+    {
+     "id": "fhzrQgPROxg#I17",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1652s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1652,
+     "momento": "27:34",
+     "ideia": "Inversões aleatórias pelo app"
+    }
+   ]
+  },
+  {
+   "titulo": "Arpejos dominantes espaçados",
+   "objetivo": "Abrir o som do dominante com saltos de corda e inversões, tirando o arpejo da escadinha.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque o primeiro fragmento da V6: A (1), G (♭7), C♯ (3), pulando a corda Lá.",
+    "Siga para as inversões que começam pela 3ª, pela 5ª e pela ♭7, uma por compasso.",
+    "Abafe a corda pulada com a lateral do dedo da mão esquerda.",
+    "Use palhetada híbrida (palheta e dedos) ou palheta com a mão relaxada nos saltos.",
+    "Na descida, experimente o C (♭3) indo para o C♯ (3) como nota vizinha."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Arpejos dominantes espaçados de A7: quatro fragmentos de três notas, cada um com uma corda pulada. Sobe, volta e respira.",
+    "tonica": "A",
+    "bpm": 66,
+    "acordes": [],
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Mova os quatro fragmentos para D7 (casa 10) e E7 (casa 12) e faça o blues em Lá.",
+    "Faça em E7, como Rick Beato, a partir da casa 12.",
+    "Escolha dois fragmentos e crie uma frase de dois compassos com pausa."
+   ],
+   "cuidado": "Deixar a corda pulada soar. A sonoridade espaçada só aparece se as cordas do meio ficarem mudas.",
+   "inspirado_em": [
+    {
+     "id": "1ksOozBYk8g#I03",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=51s",
+     "video": "1ksOozBYk8g",
+     "inicio": 51,
+     "momento": "00:53",
+     "ideia": "Praticar os quatro spread dominant arpeggios"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I21",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Oitavar tétrades e saltos de corda"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Chamar C7 de Cmaj7: no C7 a sétima é B♭; só no maj7 ela é B.",
+  "Tocar todos os arpejos a partir da tônica e sempre subindo. Isso soa como exercício, não como frase.",
+  "Pular de posição a cada acorde em vez de achar o próximo arpejo na mesma região.",
+  "Decorar formas grandes sem saber onde estão a 3ª e a 7ª: na hora de improvisar, a forma não diz o que está soando.",
+  "Treinar os arpejos sem metrônomo ou backing track e travar quando o acorde troca de verdade.",
+  "Esquecer que o vii (Bm7♭5) também tem ♭5: tocar F♯ em vez de F em Dó maior."
+ ],
+ "resumo": [
+  "Tétrade = 1, 3, 5 e 7. maj7, 7, m7 e m7♭5 diferem uma da outra por uma nota.",
+  "O campo harmônico cabe numa posição: os sete arpejos diatônicos já estão dentro da escala.",
+  "Mapeie 3, 5 e 7 dentro da oitava a partir de cada dedo. A posição inteira vem depois.",
+  "No ii-V-I e no blues, toque o arpejo da vez, no tempo e na mesma região do braço.",
+  "Embaralhe a ordem, pule cordas e comece pela 3ª para o arpejo virar música."
+ ],
+ "proximos_passos": "Leve esses arpejos para a frase em \"Arpejo como melodia: combinar com escala e pentatônica\". Para ligar um acorde ao seguinte, siga com \"Guide tones e condução de vozes\" e \"Aproximação cromática, enclosures e notas de passagem\". Para tocar arpejos diferentes sobre o mesmo acorde (Em7 sobre Cmaj7, por exemplo), vá para \"Superposição e estrutura superior\". Depois, use tudo em \"Harmonia de jazz para o solista\".",
+ "_meta": {
+  "subcategoria": "C10.3",
+  "modulo": {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo"
+  },
+  "nome": "Arpejos de sétima e diatônicos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T19:28:51",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 6,
+   "cache_write": 54469,
+   "cache_read": 42521,
+   "output": 34989,
+   "thinking": 6578,
+   "turns": 5,
+   "custo_nominal": 1.1711822
+  }
+ }
+}

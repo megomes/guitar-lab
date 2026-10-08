@@ -1,0 +1,2518 @@
+{
+ "titulo": "Tríades em grupos de cordas e inversões",
+ "gancho": "São três notas e três formas. Com elas, você acha qualquer acorde em qualquer região do braço.",
+ "porque_importa": "A tríade é o esqueleto do acorde, com só as notas que importam. Com as inversões, esse esqueleto aparece em todo o braço: você deixa de ir atrás da escala e passa a pousar direto no acorde, onde a mão já está. Muitos pulam esse estudo porque parece básico. Os profissionais o repetem até virar reflexo.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Mesmas notas, outra nota no baixo",
+   "texto": "Dó maior é C-E-G, e não há como fugir disso. O que muda é a ordem. Na posição fundamental (1-3-5), a tônica fica embaixo. Na 1ª inversão (3-5-1), a 3ª vai para o baixo. Na 2ª inversão (5-1-3), quem fica embaixo é a 5ª. Nas cordas G-B-E, essas três formas sobem pelo braço, uma emendada na outra, e depois se repetem 12 casas acima.",
+   "destaque": "Uma tríade, três endereços, e a nota grave diz em qual deles você está.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Dó maior nas cordas G-B-E: fundamental (casa 5), 1ª inversão (casa 8) e 2ª inversão (casa 12). São as mesmas notas C-E-G em três ordens.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Quatro grupos de cordas e a regra da corda B",
+   "texto": "Uma tríade fechada ocupa três cordas vizinhas: E-A-D, A-D-G, D-G-B ou G-B-E. A forma é a mesma em todos os grupos, com uma única exceção: entre G e B o intervalo é de 3ª maior, e não de 4ª. Por isso, toda nota que cai na corda B sobe uma casa. Para solar, o grupo G-B-E é o mais útil. Os grupos graves servem para entender a lógica.",
+   "destaque": "Copie a forma e suba uma casa na corda B. Essa é a única regra.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "C maior em posição fundamental nos quatro grupos de cordas. As notas com anel caíram na corda B e por isso subiram uma casa.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 0,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Não decore 36 formas: altere 3ª e 5ª",
+   "texto": "Você só precisa saber de cor as formas maiores. Para ter a menor, baixe a 3ª uma casa. Para ter a diminuta, baixe também a 5ª. Com três inversões e três qualidades, são nove formas, todas tiradas de três desenhos que você já sabe.",
+   "destaque": "",
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Nove formas de Dó nas cordas G-B-E: três inversões em três qualidades (as três primeiras em posição fundamental). Para ir de maior a menor, baixe a 3ª uma casa. Para chegar à diminuta, baixe também a 5ª.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "xxx553"
+     },
+     {
+      "nome": "Cm",
+      "digitacao": "xxx543"
+     },
+     {
+      "nome": "Cdim",
+      "digitacao": "xxx542"
+     },
+     {
+      "nome": "C/E (1ª inv.)",
+      "digitacao": "xxx988"
+     },
+     {
+      "nome": "Cm/E♭ (1ª inv.)",
+      "digitacao": "xxx888"
+     },
+     {
+      "nome": "Cdim/E♭ (1ª inv.)",
+      "digitacao": "xxx878"
+     },
+     {
+      "nome": "C/G (2ª inv.)",
+      "digitacao": "xxxcdc"
+     },
+     {
+      "nome": "Cm/G (2ª inv.)",
+      "digitacao": "xxxcdb"
+     },
+     {
+      "nome": "Cdim/G♭ (2ª inv.)",
+      "digitacao": "xxxbdb"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A inversão mais próxima",
+   "texto": "Quando o acorde muda, não pule para a forma que você conhece melhor. Procure a inversão do novo acorde que está a uma ou duas casas da sua mão. Assim as notas se movem pouco, uma ou duas por vez, e a frase passa a soar como uma linha melódica, não como um mapa de shapes.",
+   "destaque": "Quanto menos a mão anda, mais as notas cantam.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Am–F–C–G sem sair da casa 5. Cada acorde está na inversão mais próxima do anterior, e o anel marca as notas que se moveram.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Vocabulário: diagonal, nota dobrada e shell",
+   "texto": "A tríade também cabe em duas cordas, num desenho diagonal. Esse desenho se repete nos pares 1-2, 3-4 e 5-6, cobrindo três oitavas. Três notas não fecham um grupo de quatro tempos, então repita uma delas: o padrão 3-5-3-1 encaixa no 4/4 e já soa como frase. Se tirar a nota do meio da forma fechada, você fica com um shell, mais aberto e leve. E não é obrigatório tocar as três cordas: duas notas da tríade já trazem o som do acorde.",
+   "destaque": "",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Tríade diagonal de Lá em duas cordas, no padrão 3-5-3-1 (a 3ª é dobrada), descendo por três oitavas. Primeiro em A maior, depois em A menor.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 30,
+   "porque": "Daniel Seriff mostra C 5-5-3, 9-8-8 e 12-13-12 nas cordas agudas e transforma cada forma em menor e diminuta na hora.",
+   "fonte": {
+    "id": "ui6qUcvaKU0#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+    "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=100s",
+    "video": "ui6qUcvaKU0",
+    "inicio": 100,
+    "momento": "01:42",
+    "ideia": "Dó maior na posição fundamental (5-5-3)"
+   }
+  },
+  {
+   "ref": 42,
+   "porque": "Seriff toca o erro de copiar a forma sem compensar a corda B, depois a correção, e você ouve a diferença.",
+   "fonte": {
+    "id": "FZB0Ia7ftRo#I11",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+    "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=202s",
+    "video": "FZB0Ia7ftRo",
+    "inicio": 202,
+    "momento": "03:24",
+    "ideia": "Copiar a forma sem compensar a corda B"
+   }
+  },
+  {
+   "ref": 76,
+   "porque": "Active Melody toca G-C-D só com tríades superiores e depois inferiores, sem sair da mesma região do braço.",
+   "fonte": {
+    "id": "QXp8yDb3zyQ#I12",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+    "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=626s",
+    "video": "QXp8yDb3zyQ",
+    "inicio": 626,
+    "momento": "10:28",
+    "ideia": "Cadência G-C-D nas cordas agudas"
+   }
+  },
+  {
+   "ref": 110,
+   "porque": "Seriff toca G-D-Am-G-D-C escolhendo sempre a forma mais próxima nas três cordas agudas.",
+   "fonte": {
+    "id": "MvUgoNBTNjA#I20",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+    "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=744s",
+    "video": "MvUgoNBTNjA",
+    "inicio": 744,
+    "momento": "12:26",
+    "ideia": "Tocar G-D-Am-G-D-C com as formas mais próximas"
+   }
+  },
+  {
+   "ref": 114,
+   "porque": "Seriff explica por que três notas não encaixam no 4/4 e toca as opções de nota dobrada, até chegar ao padrão 3-5-3-1.",
+   "fonte": {
+    "id": "EY6-VNz81HE#I10",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+    "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=240s",
+    "video": "EY6-VNz81HE",
+    "inicio": 240,
+    "momento": "04:02",
+    "ideia": "Tríade no compasso 4/4"
+   }
+  },
+  {
+   "ref": 122,
+   "porque": "Ross Campbell aplica shells de E maior numa frase real, com notas de passagem entre as formas.",
+   "fonte": {
+    "id": "qIewGDRWBu8#I14",
+    "tipo": "video",
+    "autor": "Ross Campbell",
+    "titulo": "How To ACTUALLY Improvise Melodic Guitar Solos (Complete Masterclass)",
+    "url": "https://www.youtube.com/watch?v=qIewGDRWBu8&t=1222s",
+    "video": "qIewGDRWBu8",
+    "inicio": 1222,
+    "momento": "20:24",
+    "ideia": "Shell sobre E maior (compassos 15-16)"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Três endereços para o mesmo Dó",
+   "objetivo": "Ligar as três inversões de C nas cordas G-B-E numa só viagem e reconhecer cada uma pela nota grave.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque cada forma em bloco: 5-5-3, 9-8-8 e 12-13-12. Antes de tocar, diga em voz alta qual nota está no baixo (C, E ou G).",
+    "Toque a tab arpejando, subindo até a casa 12 e descendo de volta.",
+    "Respeite as pausas: deixe a última nota de cada forma soar enquanto a mão muda de lugar.",
+    "Depois toque só as notas graves (casas 5, 9 e 12 da corda G) e cante C, E e G."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Dó pelas três inversões: sobe da casa 5 à 12 e volta. O anel marca a nota grave, que diz qual inversão você está tocando.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece pela 2ª inversão uma oitava abaixo (casa 0-1-0) e suba até a casa 12.",
+    "Arpeje de cima para baixo em todas as formas.",
+    "Transponha para G: as formas começam na casa 0 (0-0-3), em 4-3-3 e em 7-8-7."
+   ],
+   "cuidado": "Na 2ª inversão, a corda B fica uma casa acima das outras (12-13-12). Se você tocar 12-12-12, o acorde vira Em.",
+   "inspirado_em": [
+    {
+     "id": "ui6qUcvaKU0#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=100s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Dó maior na posição fundamental (5-5-3)"
+    },
+    {
+     "id": "ui6qUcvaKU0#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=168s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 168,
+     "momento": "02:50",
+     "ideia": "Dó maior na primeira inversão (9-8-8)"
+    },
+    {
+     "id": "ui6qUcvaKU0#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=100s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Três inversões de tríade"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=69s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 69,
+     "momento": "01:11",
+     "ideia": "Posição fundamental: tônica no baixo"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=335s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 335,
+     "momento": "05:37",
+     "ideia": "Primeira inversão: terça no baixo"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=473s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 473,
+     "momento": "07:55",
+     "ideia": "Segunda inversão: quinta no baixo"
+    }
+   ]
+  },
+  {
+   "titulo": "Regra da corda B: Dó em quatro grupos",
+   "objetivo": "Copiar a posição fundamental pelos quatro grupos de cordas e sentir na mão a compensação da corda B.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Cordas E-A-D: 8-7-5 (C-E-G). Toque em bloco e arpejado.",
+    "Cordas A-D-G: 3-2-0, a mesma forma uma corda acima.",
+    "Cordas D-G-B: tente primeiro 10-9-7 e ouça que soa errado. Depois suba a nota da corda B para 8 (10-9-8).",
+    "Cordas G-B-E: 5-5-3. Agora a corda B está no meio da forma e também subiu uma casa.",
+    "Antes de tocar, escreva 1, 3 e 5 num diagrama em branco para cada grupo."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "C maior em posição fundamental nos quatro grupos de cordas. As notas com anel caíram na corda B e por isso subiram uma casa.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 0,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o mesmo com a 1ª inversão: 12-10-10 (E-A-D), 7-5-5 (A-D-G), 2-0-1 (D-G-B) e 9-8-8 (G-B-E).",
+    "Repita com C menor, baixando a 3ª uma casa em cada grupo."
+   ],
+   "cuidado": "Copiar a forma inteira sem ajuste. A compensação vale só para a nota que cai na corda B. A nota da corda E aguda não sobe outra vez.",
+   "inspirado_em": [
+    {
+     "id": "FZB0Ia7ftRo#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=2s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 2,
+     "momento": "00:04",
+     "ideia": "Três formas cobrem todas as tríades maiores"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=36s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 36,
+     "momento": "00:38",
+     "ideia": "Regra da corda B"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=202s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Copiar a forma sem compensar a corda B"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=101s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 101,
+     "momento": "01:43",
+     "ideia": "C maior nas cordas 6-5-4"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=167s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "C maior nas cordas 4-3-2 com compensação na corda B"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=234s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "C maior nas cordas G-B-e com compensação"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=268s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 268,
+     "momento": "04:30",
+     "ideia": "Escrever as notas nos diagramas em branco antes de tocar"
+    }
+   ]
+  },
+  {
+   "titulo": "Nove formas a partir de três",
+   "objetivo": "Tocar maior, menor e diminuta em cada inversão mexendo só na 3ª e na 5ª.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Fundamental: C 5-5-3, depois Cm 5-4-3 (a 3ª desce) e Cdim 5-4-2 (a 5ª também desce).",
+    "1ª inversão: C 9-8-8, depois Cm 8-8-8 e Cdim 8-7-8.",
+    "2ª inversão: C 12-13-12, depois Cm 12-13-11 e Cdim 11-13-11.",
+    "Antes de cada troca, aponte qual dedo segura a 3ª e qual segura a 5ª.",
+    "Com metrônomo a 60, toque um acorde por tempo: maior, menor, diminuta e pausa."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Nove formas de Dó nas cordas G-B-E: três inversões em três qualidades (as três primeiras em posição fundamental). Para ir de maior a menor, baixe a 3ª uma casa. Para chegar à diminuta, baixe também a 5ª.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "xxx553"
+     },
+     {
+      "nome": "Cm",
+      "digitacao": "xxx543"
+     },
+     {
+      "nome": "Cdim",
+      "digitacao": "xxx542"
+     },
+     {
+      "nome": "C/E (1ª inv.)",
+      "digitacao": "xxx988"
+     },
+     {
+      "nome": "Cm/E♭ (1ª inv.)",
+      "digitacao": "xxx888"
+     },
+     {
+      "nome": "Cdim/E♭ (1ª inv.)",
+      "digitacao": "xxx878"
+     },
+     {
+      "nome": "C/G (2ª inv.)",
+      "digitacao": "xxxcdc"
+     },
+     {
+      "nome": "Cm/G (2ª inv.)",
+      "digitacao": "xxxcdb"
+     },
+     {
+      "nome": "Cdim/G♭ (2ª inv.)",
+      "digitacao": "xxxbdb"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Arpeje cada forma em vez de tocar em bloco.",
+    "Faça em Lá: fundamental na casa 2 da corda G (2-2-0).",
+    "Mantenha a qualidade e troque a inversão: Cm nas três inversões em sequência."
+   ],
+   "cuidado": "Baixar a nota errada. A 3ª muda de corda conforme a inversão: está na corda B na fundamental, na G na 1ª inversão e na E na 2ª.",
+   "inspirado_em": [
+    {
+     "id": "rtKZBns_IMY#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad Practice Routine, It'll 10X Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=rtKZBns_IMY&t=105s",
+     "video": "rtKZBns_IMY",
+     "inicio": 105,
+     "momento": "1:47",
+     "ideia": "Tocar as três qualidades de tríade em posição fundamental"
+    },
+    {
+     "id": "ui6qUcvaKU0#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=134s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Transformar maior em menor baixando a terça"
+    },
+    {
+     "id": "ui6qUcvaKU0#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=134s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Transformar menor em diminuta baixando a quinta"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I27",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=604s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 604,
+     "momento": "10:06",
+     "ideia": "Obter tríades menores abaixando a terça uma casa"
+    },
+    {
+     "id": "ui6qUcvaKU0#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=201s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 201,
+     "momento": "03:23",
+     "ideia": "Variações menor e diminuta na primeira inversão"
+    },
+    {
+     "id": "ui6qUcvaKU0#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=236s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 236,
+     "momento": "03:58",
+     "ideia": "Dó menor na segunda inversão (12-13-11)"
+    },
+    {
+     "id": "ui6qUcvaKU0#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=236s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 236,
+     "momento": "03:58",
+     "ideia": "Dó diminuto na segunda inversão (11-13-11)"
+    },
+    {
+     "id": "ui6qUcvaKU0#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=271s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Transições entre formas da mesma qualidade"
+    }
+   ]
+  },
+  {
+   "titulo": "Campo de Sol numa inversão só",
+   "objetivo": "Subir o braço tocando as sete tríades de G maior sem trocar de desenho de inversão.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ponha uma base parada em G (drone ou loop).",
+    "Em 1ª inversão nas cordas G-B-E, toque G 4-3-3, Am 5-5-5, Bm 7-7-7, C 9-8-8, D 11-10-10, Em 12-12-12, F#dim 14-13-14 e G 16-15-15.",
+    "Toque cada tríade arpejada, em colcheias, e deixe uma pausa antes da seguinte.",
+    "Volte descendo e repare quais formas são maiores, menores ou diminuta."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Campo harmônico de Sol em 1ª inversão nas cordas G-B-E: a mesma ordem 3-5-1 subindo o braço até o G uma oitava acima.",
+    "tonica": "G",
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "xxx433"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "xxx555"
+     },
+     {
+      "nome": "Bm",
+      "digitacao": "xxx777"
+     },
+     {
+      "nome": "C",
+      "digitacao": "xxx988"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xxxbaa"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "xxxccc"
+     },
+     {
+      "nome": "F#dim",
+      "digitacao": "xxxede"
+     },
+     {
+      "nome": "G",
+      "digitacao": "xxxgff"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Repita em posição fundamental (G 12-12-10, descendo 12 casas quando o braço acabar).",
+    "Repita em 2ª inversão (G 7-8-7, Am 9-10-8...).",
+    "Fique numa região e alterne a direção: G sobe, Am desce, Bm sobe, C desce."
+   ],
+   "cuidado": "A diminuta (F#dim) quebra o desenho: a corda B fica uma casa abaixo das outras. Confira as notas A-C-F#.",
+   "inspirado_em": [
+    {
+     "id": "MvUgoNBTNjA#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=139s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 139,
+     "momento": "2:21",
+     "ideia": "Tríades de Sol maior em primeira inversão no braço"
+    },
+    {
+     "id": "MvUgoNBTNjA#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=170s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 170,
+     "momento": "2:52",
+     "ideia": "Tocar a sequência de tríades de Sol maior sobre uma base"
+    },
+    {
+     "id": "ui6qUcvaKU0#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=378s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Escala de Dó maior em tríades na posição fundamental"
+    },
+    {
+     "id": "ui6qUcvaKU0#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=414s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 414,
+     "momento": "06:56",
+     "ideia": "Escala em tríades na primeira inversão"
+    },
+    {
+     "id": "ui6qUcvaKU0#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=448s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 448,
+     "momento": "07:30",
+     "ideia": "Escala em tríades na segunda inversão"
+    },
+    {
+     "id": "XL9TYmwkHWs#I19",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1202s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1202,
+     "momento": "20:04",
+     "ideia": "Arpejos ascendentes e descendentes pelo campo harmônico"
+    }
+   ]
+  },
+  {
+   "titulo": "Inversão mais próxima: Am–F–C–G na casa 5",
+   "objetivo": "Atravessar uma progressão sem sair da região, mexendo só as notas que precisam mudar.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque em bloco Am 5-5-5, F 5-6-5, C 5-5-3 e G 4-3-3. Ouça como cada acorde está a uma ou duas casas do anterior.",
+    "Toque a tab. Os arpejos alternam a direção (Am sobe, F desce...) e cada compasso tem uma pausa no tempo 4.",
+    "Repare nas notas com anel: são as únicas que se movem. As outras são notas comuns aos dois acordes.",
+    "Faça o loop com uma base e não olhe para o braço na troca."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Am–F–C–G sem sair da casa 5. Cada acorde está na inversão mais próxima do anterior, e o anel marca as notas que se moveram.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece com Am na 2ª inversão (E-A-C: 9-10-8) e ache o F, o C e o G mais próximos.",
+    "Faça o mesmo nas cordas D-G-B, lembrando da corda B.",
+    "Use a progressão G–D–Am–C, partindo de G 4-3-3."
+   ],
+   "cuidado": "Pular para a forma favorita na troca, como C 9-8-8. O objetivo é decidir pela distância, não pelo hábito.",
+   "inspirado_em": [
+    {
+     "id": "MvUgoNBTNjA#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=710s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 710,
+     "momento": "11:52",
+     "ideia": "Condução de vozes: a tríade mais próxima do acorde anterior"
+    },
+    {
+     "id": "ui6qUcvaKU0#I26",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=655s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 655,
+     "momento": "10:57",
+     "ideia": "Achar o G mais próximo de Dó maior"
+    },
+    {
+     "id": "ui6qUcvaKU0#I28",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=688s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 688,
+     "momento": "11:30",
+     "ideia": "Mover uma nota de Lá menor para chegar em Fá maior"
+    },
+    {
+     "id": "MvUgoNBTNjA#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=744s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 744,
+     "momento": "12:26",
+     "ideia": "Tocar G-D-Am-G-D-C com as formas mais próximas"
+    },
+    {
+     "id": "MvUgoNBTNjA#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=677s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 677,
+     "momento": "11:19",
+     "ideia": "Revisar as inversões de maior, menor e diminuta nas três cordas agudas"
+    },
+    {
+     "id": "MvUgoNBTNjA#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=876s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 876,
+     "momento": "14:38",
+     "ideia": "Aplicar todas as inversões à progressão pelo braço"
+    },
+    {
+     "id": "XL9TYmwkHWs#I23",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1480s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1480,
+     "momento": "24:42",
+     "ideia": "Estudar a progressão visualizando acordes em posições próximas"
+    }
+   ]
+  },
+  {
+   "titulo": "Tríade diagonal com 3ª dobrada",
+   "objetivo": "Usar a tríade em duas cordas e o padrão 3-5-3-1 para criar frases que encaixam no 4/4, por três oitavas.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Monte A maior nas cordas 2-1: A na casa 10 da corda B, C# na 9 e E na 12 da corda E. Use médio, indicador e mínimo.",
+    "Toque 3-5-3-1 (C#-E-C#-A). Faça o retorno da 5ª para a 3ª com pull-off.",
+    "Copie o desenho para as cordas 4-3 (A7, C#6, E9) e 5-6 (A5, C#4, E7). Siga a tab descendo.",
+    "Troque para A menor baixando a 3ª uma casa e repita os três pares.",
+    "Com base em Lá, toque o padrão e deixe a nota final soar até o fim do compasso."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Tríade diagonal de Lá em duas cordas, no padrão 3-5-3-1 (a 3ª é dobrada), descendo por três oitavas. Primeiro em A maior, depois em A menor.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Teste outras dobras: 1-1-3-5, 1-3-5-5 e 5-3-1-3.",
+    "Faça com a diminuta (A-C-E♭) e compare as três cores.",
+    "Sobre Lá dórico, aplique 3-5-3-1 às tríades de G maior (G, Am, Bm, C, D, Em)."
+   ],
+   "cuidado": "Na corda B não há compensação aqui: o desenho diagonal funciona nos pares 1-2, 3-4 e 5-6 porque eles não cruzam o par G-B.",
+   "inspirado_em": [
+    {
+     "id": "EY6-VNz81HE#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=34s",
+     "video": "EY6-VNz81HE",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "A maior nas cordas 1 e 2"
+    },
+    {
+     "id": "EY6-VNz81HE#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=34s",
+     "video": "EY6-VNz81HE",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "A menor nas cordas 1 e 2"
+    },
+    {
+     "id": "EY6-VNz81HE#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=34s",
+     "video": "EY6-VNz81HE",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "Digitação da tríade menor"
+    },
+    {
+     "id": "EY6-VNz81HE#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=137s",
+     "video": "EY6-VNz81HE",
+     "inicio": 137,
+     "momento": "02:19",
+     "ideia": "Deslocar o arpejo maior pelos três pares de cordas"
+    },
+    {
+     "id": "EY6-VNz81HE#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=172s",
+     "video": "EY6-VNz81HE",
+     "inicio": 172,
+     "momento": "02:54",
+     "ideia": "Deslocar menor e diminuta pelos três pares de cordas"
+    },
+    {
+     "id": "EY6-VNz81HE#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=240s",
+     "video": "EY6-VNz81HE",
+     "inicio": 240,
+     "momento": "04:02",
+     "ideia": "Tríade no compasso 4/4"
+    },
+    {
+     "id": "EY6-VNz81HE#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=274s",
+     "video": "EY6-VNz81HE",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Dobrar a fundamental"
+    },
+    {
+     "id": "EY6-VNz81HE#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=274s",
+     "video": "EY6-VNz81HE",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Dobrar a terça ou a quinta"
+    },
+    {
+     "id": "EY6-VNz81HE#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=307s",
+     "video": "EY6-VNz81HE",
+     "inicio": 307,
+     "momento": "05:09",
+     "ideia": "Repetir a nota sem ser em sequência"
+    },
+    {
+     "id": "EY6-VNz81HE#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=481s",
+     "video": "EY6-VNz81HE",
+     "inicio": 481,
+     "momento": "08:03",
+     "ideia": "Padrão 3-5-3-1 sobre as tríades do dórico"
+    }
+   ]
+  },
+  {
+   "titulo": "Improviso só com tríades: inversões, pares e shells",
+   "objetivo": "Transformar as formas em música sobre uma progressão, sem cair no arpejo literal.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Ponha uma base de Am–F–C–G, um compasso por acorde, e fique na região da casa 3 à 9.",
+    "Rodada 1: em cada acorde, toque só duas notas da tríade nas cordas 1-2 ou 2-3, com ritmo e pausas.",
+    "Rodada 2: use shells, as notas externas sem a do meio (Am: G5 + E5; C: G5 + E3), em bloco ou palheta e dedo.",
+    "Rodada 3: misture inversões e faça ziguezague dentro da tríade, por exemplo 3-1-5-3, com uma nota dobrada.",
+    "Grave dois minutos e anote se você está mudando de inversão ou se ficou preso a uma forma."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Chegue à nota grave de cada shell com slide a partir de uma casa abaixo.",
+    "Toque a mesma progressão só nas cordas D-G-B.",
+    "Num blues em G, troque a tríade por versões com 6, 7 ou 9 sem mudar de região."
+   ],
+   "cuidado": "Tocar as três notas de cada tríade em fila, sempre na mesma ordem. Assim soa exercício, não solo. Use menos notas, mais ritmo e mais silêncio.",
+   "inspirado_em": [
+    {
+     "id": "qIewGDRWBu8#I07",
+     "tipo": "video",
+     "autor": "Ross Campbell",
+     "titulo": "How To ACTUALLY Improvise Melodic Guitar Solos (Complete Masterclass)",
+     "url": "https://www.youtube.com/watch?v=qIewGDRWBu8&t=652s",
+     "video": "qIewGDRWBu8",
+     "inicio": 652,
+     "momento": "10:54",
+     "ideia": "Shell: tríade sem a nota do meio"
+    },
+    {
+     "id": "qIewGDRWBu8#I08",
+     "tipo": "video",
+     "autor": "Ross Campbell",
+     "titulo": "How To ACTUALLY Improvise Melodic Guitar Solos (Complete Masterclass)",
+     "url": "https://www.youtube.com/watch?v=qIewGDRWBu8&t=695s",
+     "video": "qIewGDRWBu8",
+     "inicio": 695,
+     "momento": "11:37",
+     "ideia": "Montar shells a partir de tríades conhecidas"
+    },
+    {
+     "id": "7Pdss_Gswtc#I24",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1171s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1171,
+     "momento": "19:33",
+     "ideia": "Chicken picking em tríades"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I24",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=1168s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 1168,
+     "momento": "19:30",
+     "ideia": "Tocar só duas cordas da tríade"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=626s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 626,
+     "momento": "10:28",
+     "ideia": "Tríades para sons interessantes"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I13",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=613s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 613,
+     "momento": "10:15",
+     "ideia": "Tríades espalhadas soam óbvias"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I23",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=772s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 772,
+     "momento": "12:54",
+     "ideia": "Mudar inversões e zigzag na mesma frase"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I23",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=1084s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 1084,
+     "momento": "18:06",
+     "ideia": "Improvisar com formas de acorde, sem escalas"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Esquecer de subir uma casa na corda B quando copia uma forma de um grupo de cordas para outro.",
+  "Decorar cada forma separadamente em vez de derivar menor e diminuta da maior.",
+  "Confundir a inversão porque olha para a nota aguda. Quem define a inversão é a nota grave.",
+  "Saltar pelo braço com a mesma forma em cada troca de acorde, em vez de usar a inversão mais próxima.",
+  "Ficar só nas cordas graves, ou só numa inversão, e não montar o mapa completo.",
+  "Tocar a tríade inteira e em fila o tempo todo, o que soa óbvio no solo."
+ ],
+ "resumo": [
+  "Inversões: 1-3-5 (fundamental), 3-5-1 (1ª) e 5-1-3 (2ª). A nota grave diz qual é qual.",
+  "Toda forma pode ir para qualquer grupo de três cordas, mas a nota da corda B sobe uma casa.",
+  "Para a menor, baixe a 3ª. Para a diminuta, baixe também a 5ª. Três formas maiores geram nove.",
+  "Na troca de acorde, escolha a inversão mais próxima: poucas notas se movem e a linha canta.",
+  "Diagonal em duas cordas, nota dobrada (3-5-3-1) e shells transformam as formas em frases."
+ ],
+ "proximos_passos": "Com as inversões na mão, siga para \"Arpejos de sétima e diatônicos\", que acrescenta a quarta nota às mesmas formas. Depois vá para \"Arpejo como melodia: combinar com escala e pentatônica\", que costura as tríades nas frases. Para ir mais fundo no movimento entre os acordes, veja \"Guide tones e condução de vozes\". Para usar tríades sobre outros acordes, estude \"Superposição e estrutura superior\". Para levar as formas ao acompanhamento, veja \"Tríades e voicings no acompanhamento\".",
+ "_meta": {
+  "subcategoria": "C10.2",
+  "modulo": {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo"
+  },
+  "nome": "Tríades em grupos de cordas e inversões",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T19:24:15",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 6,
+   "cache_write": 61446,
+   "cache_read": 53410,
+   "output": 31749,
+   "thinking": 7018,
+   "turns": 5,
+   "custo_nominal": 1.170422
+  }
+ }
+}

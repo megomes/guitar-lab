@@ -1,0 +1,2250 @@
+{
+ "titulo": "Arpejo como melodia: combinar com escala e pentatônica",
+ "gancho": "O arpejo diz qual é o acorde, e a pentatônica faz a frase cantar. Junte os dois e o seu solo passa a soar como música.",
+ "porque_importa": "Quem sobe e desce o arpejo inteiro acerta as notas, mas soa como quem faz exercício. Quem fica só na pentatônica soa fluente, mas nem sempre mostra a harmonia. Misturar os dois junta as duas qualidades: notas fortes do acorde nos pontos certos e notas de escala ligando tudo.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "Esqueleto e carne",
+   "texto": "Nas notas do arpejo a frase se apoia: elas aparecem nos tempos fortes e nos pousos. As notas de escala ou de pentatônica ligam uma nota de apoio à outra. Sem esqueleto, a frase fica sem forma. Sem carne, fica dura e cheia de saltos.",
+   "destaque": "O arpejo dá a forma, a escala dá o movimento.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Esqueleto e carne em Am–E7. Nos tempos 1, 2, 3 e 4 caem notas do acorde (com anel). Nos contratempos entram notas da escala de Lá menor. O G# do E7 sobe meio tom e resolve no A.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O arpejo já está dentro da caixa",
+   "texto": "Na pentatônica de Lá menor, A, C e E são a tríade de Am, e com o G você tem Am7 inteiro. Você não precisa de um desenho novo, só precisa saber quais notas da caixa são do acorde. Quando o acorde muda, outras notas da mesma região passam a ser as notas de pouso.",
+   "destaque": "Mesma região, outros pousos.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. As notas com anel são a tríade de Am (A, C, E) e já estão dentro da caixa. As outras (D, G) servem de passagem.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Subir e descer em fila soa como exercício",
+   "texto": "Tocar o arpejo inteiro, em colcheias retas e sempre a partir da tônica, cumpre a tarefa, mas ninguém canta isso. Use pedaços de 2 ou 3 notas. Comece pela 3ª, pela 5ª ou pela 7ª, pule notas, mude a direção e deixe espaço.",
+   "destaque": "Metade do arpejo já diz o acorde.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "As mesmas três notas de Am tocadas de dois jeitos. No compasso 1 o arpejo sobe e desce em fila e soa como exercício. No compasso 3 a frase começa na 5ª, passa por uma nota da pentatônica (D) e pousa na tônica, com silêncio em volta.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O que a pentatônica não tem",
+   "texto": "Sobre E7 em Lá menor, a nota que define o acorde é o G#, e ela não existe na pentatônica de Am. Sobre Dm, o F também fica de fora. O arpejo traz para o solo justamente essas notas, que mostram a troca de acorde.",
+   "destaque": "O arpejo traz as notas que a caixa não tem.",
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Arpejo de E7 na mesma região da casa 5. O G# (3ª de E7, com anel) fica fora da pentatônica de Lá menor e só aparece quando você pensa no arpejo.",
+    "tonica": "E",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 4,
+      "nota": "G♯",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "G♯",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 4,
+      "nota": "G♯",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Arpejo em qualquer ponto da frase",
+   "texto": "O arpejo pode abrir a frase e anunciar o acorde, como em V3. Também pode aparecer no meio, com saltos que quebram uma sequência de notas vizinhas, ou no fim, com um pouso firme. A escala pode até servir de rampa para chegar ao arpejo. Varie onde ele entra.",
+   "destaque": "",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Abrir com o arpejo e seguir na pentatônica. O arpejo de Am apresenta o acorde no compasso 1. A pentatônica desce no compasso 2 e volta à tônica. O compasso 3 fica vazio para a frase respirar.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 52,
+   "porque": "Rick Beato toca um fragmento curto de arpejo com bend na 3ª e cai direto na posição de blues: o arpejo abre a frase e a escala a desenvolve.",
+   "fonte": {
+    "id": "1ksOozBYk8g#I05",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "How To SOLO Over 7th Chords!",
+    "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=132s",
+    "video": "1ksOozBYk8g",
+    "inicio": 132,
+    "momento": "02:14",
+    "ideia": "Arpejo curto + bend para a posição de escala"
+   }
+  },
+  {
+   "ref": 73,
+   "porque": "Corey Congilio sobe o arpejo de D7 e desce pela pentatônica menor, e o vai e vem soa como pergunta e resposta.",
+   "fonte": {
+    "id": "SggDUBO6z7Q#I04",
+    "tipo": "video",
+    "autor": "Corey Congilio",
+    "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+    "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=134s",
+    "video": "SggDUBO6z7Q",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Alternar arpejo para cima e escala para baixo"
+   }
+  },
+  {
+   "ref": 78,
+   "porque": "Jens Larsen põe notas do acorde nos tempos fortes e preenche o espaço com notas de escala, mostrando o esqueleto e a carne na prática.",
+   "fonte": {
+    "id": "h4zQjSecjvI#I06",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+    "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=139s",
+    "video": "h4zQjSecjvI",
+    "inicio": 139,
+    "momento": "02:21",
+    "ideia": "Preencher o arpejo com notas de escala"
+   }
+  },
+  {
+   "ref": 56,
+   "porque": "Ozeias Rodrigues mostra por que é melhor largar o arpejo inteiro e usar pedaços dele para criar melodia.",
+   "fonte": {
+    "id": "Y4BPUd_Zxds#I12",
+    "tipo": "video",
+    "autor": "Ozeias Rodrigues",
+    "titulo": "Transforme arpejos em melodias.",
+    "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=536s",
+    "video": "Y4BPUd_Zxds",
+    "inicio": 536,
+    "momento": "08:58",
+    "ideia": "Abandonar a ideia de tocar o arpejo inteiro"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "StichMethod explica por que o G# do E7 fica fora da pentatônica de Lá menor e como o arpejo resolve isso.",
+   "fonte": {
+    "id": "o1qXU6Nm_d4#I13",
+    "tipo": "video",
+    "autor": "StichMethod Guitar",
+    "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+    "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=439s",
+    "video": "o1qXU6Nm_d4",
+    "inicio": 439,
+    "momento": "07:21",
+    "ideia": "G# (3ª maior de E7) fora da pentatônica"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Tríade primeiro, caixa depois",
+   "objetivo": "Ouvir as notas de Am como pouso e as outras notas da caixa como passagem.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Coloque um backing track ou um loop de Am lento (60–70 bpm).",
+    "Durante 1 minuto, improvise só com A, C e E na caixa da casa 5 (as notas com anel em V1).",
+    "Acrescente o D, sempre chegando nele e saindo dele para uma nota da tríade.",
+    "Acrescente o G do mesmo jeito. Agora você tem a pentatônica inteira.",
+    "Regra do exercício: toda frase termina numa nota com anel, seguida de silêncio."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. As notas com anel são a tríade de Am (A, C, E) e já estão dentro da caixa. As outras (D, G) servem de passagem.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Chegue às notas novas com slide de uma casa.",
+    "Faça o mesmo na caixa da casa 8 (shape 2)."
+   ],
+   "cuidado": "Depois que a caixa inteira volta, é fácil esquecer a tríade e só correr pelas notas. Confira se cada frase termina numa nota com anel.",
+   "inspirado_em": [
+    {
+     "id": "14UZEproJ-A#I22",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
+     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=1138s",
+     "video": "14UZEproJ-A",
+     "inicio": 1138,
+     "momento": "19:00",
+     "ideia": "Construir a escala aos poucos"
+    },
+    {
+     "id": "kkr107pBAAs#I05",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+     "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=139s",
+     "video": "kkr107pBAAs",
+     "inicio": 139,
+     "momento": "02:21",
+     "ideia": "Tríades dentro da pentatônica de Lá menor"
+    },
+    {
+     "id": "kkr107pBAAs#I10",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+     "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=432s",
+     "video": "kkr107pBAAs",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "Tocar as tríades nota por nota"
+    },
+    {
+     "id": "tRi4vMs2z8M#I26",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1589s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1589,
+     "momento": "26:31",
+     "ideia": "Encontrar tríades dentro da caixa da pentatônica"
+    }
+   ]
+  },
+  {
+   "titulo": "Abrir com o arpejo, desenvolver na pentatônica",
+   "objetivo": "Anunciar o acorde com um arpejo curto e emendar na pentatônica sem a frase se partir em dois blocos.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque V3 devagar até ficar limpo.",
+    "Repare na emenda: o arpejo termina no A agudo e a pentatônica sai do mesmo lugar.",
+    "Deixe o compasso vazio de verdade, sem tocar nada.",
+    "Crie três versões suas: arpejo de 3 ou 4 notas subindo e descida livre pela pentatônica até uma nota de Am.",
+    "Toque as três versões em sequência sobre o loop."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Abrir com o arpejo e seguir na pentatônica. O arpejo de Am apresenta o acorde no compasso 1. A pentatônica desce no compasso 2 e volta à tônica. O compasso 3 fica vazio para a frase respirar.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça bend de um tom no D (corda 3, casa 7) até o E antes de descer.",
+    "Comece o arpejo pela 5ª (E) em vez da tônica."
+   ],
+   "cuidado": "Não pare entre o arpejo e a escala. A emenda tem que soar como uma frase só, sem dois blocos separados.",
+   "inspirado_em": [
+    {
+     "id": "EwRkYkN7igw#I02",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Isso vai mudar seu improviso - Guitarra",
+     "url": "https://www.youtube.com/watch?v=EwRkYkN7igw&t=59s",
+     "video": "EwRkYkN7igw",
+     "inicio": 59,
+     "momento": "01:01",
+     "ideia": "Não ir direto ao lick de pentatônica"
+    },
+    {
+     "id": "EwRkYkN7igw#I03",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Isso vai mudar seu improviso - Guitarra",
+     "url": "https://www.youtube.com/watch?v=EwRkYkN7igw&t=59s",
+     "video": "EwRkYkN7igw",
+     "inicio": 59,
+     "momento": "01:01",
+     "ideia": "Usar o arpejo do acorde menor para definir o tom"
+    },
+    {
+     "id": "EwRkYkN7igw#I06",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Isso vai mudar seu improviso - Guitarra",
+     "url": "https://www.youtube.com/watch?v=EwRkYkN7igw&t=137s",
+     "video": "EwRkYkN7igw",
+     "inicio": 137,
+     "momento": "02:19",
+     "ideia": "Fazer a junção arpejo + pentatônica já no início da frase"
+    },
+    {
+     "id": "1ksOozBYk8g#I06",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=167s",
+     "video": "1ksOozBYk8g",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "Anunciar o acorde com arpejo antes de solar com escala"
+    },
+    {
+     "id": "1ksOozBYk8g#I05",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=132s",
+     "video": "1ksOozBYk8g",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Arpejo curto + bend para a posição de escala"
+    }
+   ]
+  },
+  {
+   "titulo": "Sobe no arpejo, desce na pentatônica",
+   "objetivo": "Usar a alternância entre arpejo (saltos) e pentatônica (notas vizinhas) como pergunta e resposta.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Num loop de A7 (shuffle ou reto, 70 bpm), toque V4.",
+    "Ouça a diferença: o C# do arpejo soa doce, e o C da descida soa blues.",
+    "Agora inverta: suba pela pentatônica e desça pelo arpejo de A7.",
+    "Use só a metade de cima do arpejo (E, G, A) e desça pela pentatônica.",
+    "Encaixe um lick de blues seu entre a subida e a descida."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "O vai e vem sobre A7. O arpejo de A7 sobe e traz o C#, a 3ª maior. A pentatônica de Lá menor desce com o C, a ♭3 que dá o tempero de blues. No fim, a frase pousa na tônica.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve a ideia para D7 (casa 10) e E7 e toque um blues inteiro em Lá.",
+    "Termine a descida no C# em vez do A."
+   ],
+   "cuidado": "Sem pausa, o vai e vem vira um exercício de escala em loop. Respire antes de cada nova subida.",
+   "inspirado_em": [
+    {
+     "id": "SggDUBO6z7Q#I04",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=134s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Alternar arpejo para cima e escala para baixo"
+    },
+    {
+     "id": "SggDUBO6z7Q#I05",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=169s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 169,
+     "momento": "02:51",
+     "ideia": "Aplicar o padrão em vários estilos"
+    },
+    {
+     "id": "SggDUBO6z7Q#I03",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=100s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Combinar arpejo com a pentatônica correspondente"
+    },
+    {
+     "id": "SggDUBO6z7Q#I10",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=347s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 347,
+     "momento": "05:49",
+     "ideia": "Usar a oitava superior do arpejo e descer pela pentatônica"
+    },
+    {
+     "id": "SggDUBO6z7Q#I17",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=552s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 552,
+     "momento": "09:14",
+     "ideia": "Padrão call and response com arpejo e escala"
+    },
+    {
+     "id": "SggDUBO6z7Q#I02",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=67s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Arpejo tocado sobre o acorde tem som bluesy próprio"
+    }
+   ]
+  },
+  {
+   "titulo": "Meio arpejo basta: fragmentos em Am–Dm",
+   "objetivo": "Sugerir cada acorde com 2 ou 3 notas, começando fora da tônica, e voltar à pentatônica.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque V5 sobre um loop de Am | Dm | Am | Am.",
+    "Repare que nenhum fragmento começa na tônica: em Am a frase sai da ♭3, e em Dm sai do F.",
+    "Crie fragmentos novos de 3 notas para cada acorde: um que começa na 5ª e outro que pula uma nota.",
+    "Mude só o ritmo: o mesmo fragmento em colcheias, em semínimas e com a última nota longa.",
+    "Feche sempre com uma resposta curta na pentatônica e um compasso de silêncio."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Um pedaço de arpejo para cada acorde. Em Am, a frase começa na ♭3. Em Dm, entra o F (♭3 de Dm), que não existe na pentatônica. Depois a pentatônica responde e a frase volta para casa.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Na pentatônica, pare no G (corda 4, casa 5), deslize um tom até o A e toque o fragmento de Dm a partir dali.",
+    "Toque o fragmento de Dm descendo: A, F, D."
+   ],
+   "cuidado": "Não complete o arpejo só por costume. Três notas bastam, e o F já mostra que o acorde mudou.",
+   "inspirado_em": [
+    {
+     "id": "fxpn2pf0zf8#I11",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=171s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Tocar só algumas notas do arpejo"
+    },
+    {
+     "id": "yOAu9Asr9A4#I03",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como improvisar na guitarra?",
+     "url": "https://www.youtube.com/watch?v=yOAu9Asr9A4&t=75s",
+     "video": "yOAu9Asr9A4",
+     "inicio": 75,
+     "momento": "01:17",
+     "ideia": "Usar só metade do arpejo"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I12",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=536s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 536,
+     "momento": "08:58",
+     "ideia": "Abandonar a ideia de tocar o arpejo inteiro"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I02",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=0s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Estudar arpejos muito longos"
+    },
+    {
+     "id": "yOAu9Asr9A4#I02",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como improvisar na guitarra?",
+     "url": "https://www.youtube.com/watch?v=yOAu9Asr9A4&t=75s",
+     "video": "yOAu9Asr9A4",
+     "inicio": 75,
+     "momento": "01:17",
+     "ideia": "Subir um tom a partir de uma nota da penta e tocar arpejo"
+    },
+    {
+     "id": "yOAu9Asr9A4#I05",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como improvisar na guitarra?",
+     "url": "https://www.youtube.com/watch?v=yOAu9Asr9A4&t=143s",
+     "video": "yOAu9Asr9A4",
+     "inicio": 143,
+     "momento": "02:25",
+     "ideia": "Sequência: penta, deslize de um tom, arpejo parcial, volta à penta"
+    },
+    {
+     "id": "EwRkYkN7igw#I08",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Isso vai mudar seu improviso - Guitarra",
+     "url": "https://www.youtube.com/watch?v=EwRkYkN7igw&t=225s",
+     "video": "EwRkYkN7igw",
+     "inicio": 225,
+     "momento": "03:47",
+     "ideia": "Variar as notas do arpejo para criar frases"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I16",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variações de arpejo"
+    },
+    {
+     "id": "fhzrQgPROxg#I15",
+     "tipo": "video",
+     "autor": "Tom Quayle",
+     "titulo": "HOW TO PRACTICE - PART 1 | Mastering Chord Tones for Changes Playing | TOM QUAYLE LESSON",
+     "url": "https://www.youtube.com/watch?v=fhzrQgPROxg&t=1481s",
+     "video": "fhzrQgPROxg",
+     "inicio": 1481,
+     "momento": "24:43",
+     "ideia": "Root note bias: não começar sempre pela tônica"
+    },
+    {
+     "id": "fxpn2pf0zf8#I23",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=374s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 374,
+     "momento": "06:16",
+     "ideia": "Começar o solo em qualquer ponto do arpejo"
+    }
+   ]
+  },
+  {
+   "titulo": "Esqueleto e carne em Am–E7",
+   "objetivo": "Pôr notas do acorde nos tempos fortes e notas de escala nos contratempos, inclusive o G# que a pentatônica não tem.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque primeiro só as notas com anel de V7, uma por tempo: esse é o esqueleto.",
+    "Toque V7 inteiro e ouça as notas de escala ligando os pontos de apoio.",
+    "Ouça o G# do E7 subindo meio tom até o A no Am.",
+    "Escreva um esqueleto seu (4 notas do acorde por compasso) e preencha os contratempos com notas da escala de Lá menor.",
+    "Toque sobre um loop de Am | E7 até a chegada no G# sair sem pensar."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Esqueleto e carne em Am–E7. Nos tempos 1, 2, 3 e 4 caem notas do acorde (com anel). Nos contratempos entram notas da escala de Lá menor. O G# do E7 sobe meio tom e resolve no A.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a mesma linha uma oitava abaixo, nas cordas 4, 5 e 6.",
+    "Use Am | Dm | E7 | Am e aplique a regra ao Dm também."
+   ],
+   "cuidado": "Notas de passagem caindo no tempo forte borram o desenho do acorde. Confira a contagem antes de soltar o ritmo.",
+   "inspirado_em": [
+    {
+     "id": "h4zQjSecjvI#I06",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=139s",
+     "video": "h4zQjSecjvI",
+     "inicio": 139,
+     "momento": "02:21",
+     "ideia": "Preencher o arpejo com notas de escala"
+    },
+    {
+     "id": "iWm_dxEszu0#I20",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "\"Learn The Modes!\" is Horrible Advice - This is A Better Skill",
+     "url": "https://www.youtube.com/watch?v=iWm_dxEszu0&t=400s",
+     "video": "iWm_dxEszu0",
+     "inicio": 400,
+     "momento": "06:42",
+     "ideia": "Melodia sobre Cmaj7 com o arpejo como esqueleto"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I12",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=473s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 473,
+     "momento": "07:55",
+     "ideia": "Da linha simples à linha densa"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I05",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=234s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "Intercalar notas de escala no arpejo (Barry Harris)"
+    },
+    {
+     "id": "o1qXU6Nm_d4#I13",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=439s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 439,
+     "momento": "07:21",
+     "ideia": "G# (3ª maior de E7) fora da pentatônica"
+    },
+    {
+     "id": "yw6K7j6GbDc#I17",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=399s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 399,
+     "momento": "06:41",
+     "ideia": "Compor linhas para ouvir o encaixe do arpejo"
+    }
+   ]
+  },
+  {
+   "titulo": "Solo com arpejo no começo, no meio e no fim",
+   "objetivo": "Usar o arpejo como estrutura flexível do solo, e não como fórmula de abertura.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Use um loop de 8 compassos: Am | Am | Dm | Dm | Am | Am | E7 | Am.",
+    "1ª volta: toda frase começa com um fragmento de arpejo e segue na pentatônica.",
+    "2ª volta: toda frase começa na pentatônica e termina num fragmento de arpejo com pouso.",
+    "3ª volta: o fragmento de arpejo entra no meio da frase, como um salto entre notas vizinhas.",
+    "4ª volta: improvise livre e grave. Depois marque onde os arpejos apareceram."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Use a escala como rampa: suba a escala de Lá menor e salte para o arpejo de E7 no compasso 7.",
+    "Faça tudo numa só região (casa 5), sem trocar de posição."
+   ],
+   "cuidado": "Na volta livre, a mão costuma voltar só para a pentatônica. Se a gravação não tem nenhum G# no E7, repita a 3ª volta.",
+   "inspirado_em": [
+    {
+     "id": "itLSHk5jnTI#I12",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+     "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=391s",
+     "video": "itLSHk5jnTI",
+     "inicio": 391,
+     "momento": "06:33",
+     "ideia": "Praticar arpejos em diferentes posições da frase"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I21",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Adicionar notas do acorde em qualquer lugar"
+    },
+    {
+     "id": "1ksOozBYk8g#I13",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=486s",
+     "video": "1ksOozBYk8g",
+     "inicio": 486,
+     "momento": "08:08",
+     "ideia": "Lançar-se do mixolídio para o arpejo"
+    },
+    {
+     "id": "5hmSQuMIf-w#I04",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=99s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Manter os arpejos na mesma posição"
+    },
+    {
+     "id": "5hmSQuMIf-w#I06",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=164s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "Arpejos dentro de uma posição de escala"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I14",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=812s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 812,
+     "momento": "13:34",
+     "ideia": "Blue Bossa em uma única região"
+    },
+    {
+     "id": "jeJEMmEIVqk#I18",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=579s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 579,
+     "momento": "09:41",
+     "ideia": "Mesclar arpejos com escalas"
+    },
+    {
+     "id": "QS6dpweE_Q4#I07",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+     "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4&t=290s",
+     "video": "QS6dpweE_Q4",
+     "inicio": 290,
+     "momento": "04:52",
+     "ideia": "Arpejos sozinhos não bastam: conecte com a escala"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar o arpejo inteiro, do grave ao agudo e de volta, em colcheias retas e sem pausa.",
+  "Começar todo arpejo pela tônica e criar dependência dela.",
+  "Separar a frase em dois blocos (arpejo, parada, escala) em vez de emendar.",
+  "Deixar notas de passagem nos tempos fortes e perder o desenho do acorde.",
+  "Ficar só na pentatônica quando o acorde pede uma nota que ela não tem (G# no E7, F no Dm).",
+  "Usar arpejo só para abrir a frase, nunca no meio ou no fim."
+ ],
+ "resumo": [
+  "As notas do arpejo dão a forma da frase. As notas de escala ou pentatônica fazem a ligação entre elas.",
+  "O arpejo já mora dentro da caixa. Quando o acorde muda, mudam os pousos, não a região.",
+  "Use pedaços de 2 ou 3 notas, comece fora da tônica, pule notas e deixe silêncio.",
+  "O arpejo traz notas que a pentatônica não tem e que mostram a troca de acorde.",
+  "Alterne arpejo e escala no começo, no meio e no fim da frase."
+ ],
+ "proximos_passos": "Para escolher melhor onde cada frase pousa, siga para \"Guide tones e condução de vozes\" e \"Pensar à frente: linhas que levam ao próximo acorde\". Para colorir os arpejos com notas de fora, veja \"Aproximação cromática, enclosures e notas de passagem\". Para tocar arpejos de outros graus sobre o acorde, vá para \"Superposição e estrutura superior\".",
+ "_meta": {
+  "subcategoria": "C10.4",
+  "modulo": {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo"
+  },
+  "nome": "Arpejo como melodia: combinar com escala e pentatônica",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T19:31:21",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 34144,
+   "cache_read": 4913,
+   "output": 16552,
+   "thinking": 7104,
+   "turns": 2,
+   "custo_nominal": 0.6323206
+  }
+ }
+}
