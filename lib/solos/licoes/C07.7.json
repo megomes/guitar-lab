@@ -1,0 +1,1641 @@
+{
+ "titulo": "Tocar com a banda e para a música",
+ "gancho": "O público não ouve o seu solo. Ouve a banda inteira, e o seu solo precisa caber nela.",
+ "porque_importa": "Um solo cheio de notas certas soa errado quando atropela o cantor, embola com o teclado ou ignora a bateria. Quem toca para a música escuta antes de entrar, procura os espaços livres e reage ao que a banda faz. Por isso esse guitarrista é chamado de novo para tocar.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "O som é a soma",
+   "texto": "Quem ouve não separa a sua guitarra do resto: escuta baixo, bateria, teclado, base e voz como uma coisa só. A base já faz boa parte do trabalho. O solista reforça o groove e a harmonia que estão soando e não cria um mundo paralelo por cima deles.",
+   "destaque": "Toque dentro da banda, não por cima dela.",
+   "visual": null
+  },
+  {
+   "titulo": "Ouça antes de entrar",
+   "texto": "Antes da primeira nota, escute a faixa. Repare onde os acordes mudam, como o bumbo e a caixa marcam o tempo, se o chimbal divide o tempo em 2 ou em 3 e se o baixo acompanha o bumbo ou sai dele. Escute também a emoção da faixa: um lick de shuffle não serve num hard rock. Quando entrar, deixe passar uns tempos primeiro. Assim a entrada fica mais especial.",
+   "destaque": "Toque com a faixa que você tem, não com a que gostaria de ter.",
+   "visual": null
+  },
+  {
+   "titulo": "Um foco por vez e os espaços livres",
+   "texto": "Em cada momento, só um instrumento fica em destaque. Enquanto a voz canta, você sai do caminho e toca nas brechas que ela deixa. Também não ponha uma parte rápida em cima de outra rápida: se o teclado toca semicolcheias, use colcheias. Para aparecer numa banda cheia, toque no meio do braço, nas cordas Ré e Sol, e use as cordas graves com cuidado.",
+   "destaque": "Densidade contrária e registro livre: assim a guitarra corta a mistura sem embolar.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Meio do braço, cordas Ré e Sol: a região que corta uma banda cheia sem brigar com o baixo nem com o agudo do teclado (Lá menor)",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A bateria é o seu GPS",
+   "texto": "Enquanto toca, repare se a bateria está crescendo ou acalmando e acompanhe essa energia. Termine as corridas no acento do prato, copie um ritmo da caixa e use as viradas para saber onde você está: a bateria costuma avisar quando uma seção nova vai começar. Se o solo for de 16 compassos, combine com o baterista uma virada no compasso 16.",
+   "destaque": "Improvisar é um diálogo, não um monólogo.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "A bateria manda: a corrida termina junto com o prato no 1, vem um compasso de silêncio e depois a guitarra copia a caixa nos tempos 2 e 4 (Lá menor)",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A voz como matéria-prima e o fim no lugar certo",
+   "texto": "Se a música tem um refrão forte, use a melodia dele: toque-a no começo do solo e volte a ela depois, uma 5ª acima ou de trás para frente. É o que fazem os solos de Smells Like Teen Spirit e de Don't Stop Believin'. Mas se o refrão acabou de ser repetido várias vezes, deixe a melodia de lado. E prepare o fim antes de ele chegar: a última nota não pode chocar com o que o cantor vai cantar em seguida.",
+   "destaque": "Ninguém conhece a música melhor do que a melodia vocal.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Um \"refrão\" inventado vira solo: tema original, depois uma 5ª acima e por fim a direção invertida (Am – G – Em – Am)",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 14,
+   "porque": "Daniel Seriff toca o backing track sem guitarra e mostra, peça por peça, como ouvir bumbo, caixa e o chimbal em três antes de solar.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=204s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 204,
+    "momento": "03:26",
+    "ideia": "Ouvir a bateria antes de tocar"
+   }
+  },
+  {
+   "ref": 15,
+   "porque": "Como o baixo liga a bateria à guitarra e o que essa ligação revela sobre o groove e sobre o espaço que sobra para o solo.",
+   "fonte": {
+    "id": "On_Ho3azaLk#I09",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=274s",
+    "video": "On_Ho3azaLk",
+    "inicio": 274,
+    "momento": "04:36",
+    "ideia": "Analisar a interação entre baixo e bateria"
+   }
+  },
+  {
+   "ref": 23,
+   "porque": "Justin explica por que o solista sai do caminho quando a voz está em foco e não toca por cima do cantor.",
+   "fonte": {
+    "id": "-VjHVHzWL0o#I18",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+    "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1414s",
+    "video": "-VjHVHzWL0o",
+    "inicio": 1414,
+    "momento": "23:36",
+    "ideia": "Não tocar por cima do cantor"
+   }
+  },
+  {
+   "ref": 26,
+   "porque": "A demonstração de que as frases no meio do braço, nas cordas Ré e Sol, cortam a banda melhor do que as frases nas cordas graves.",
+   "fonte": {
+    "id": "3dW_GQsC5Ak#I03",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+    "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=98s",
+    "video": "3dW_GQsC5Ak",
+    "inicio": 98,
+    "momento": "01:40",
+    "ideia": "Tocar no meio do braço"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "Bradley Hall usa Smells Like Teen Spirit para mostrar como tecer a melodia do refrão no solo e depois variá-la.",
+   "fonte": {
+    "id": "lEZzseFo6OQ#I04",
+    "tipo": "video",
+    "autor": "Bradley Hall",
+    "titulo": "How To Build A Guitar Solo",
+    "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=149s",
+    "video": "lEZzseFo6OQ",
+    "inicio": 149,
+    "momento": "02:31",
+    "ideia": "Tecer a melodia do refrão no solo e variá-la"
+   }
+  },
+  {
+   "ref": 40,
+   "porque": "Por que pensar no final antes de ele chegar: a banda já está fechando a seção antes de o solo acabar.",
+   "fonte": {
+    "id": "3dW_GQsC5Ak#I25",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+    "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=897s",
+    "video": "3dW_GQsC5Ak",
+    "inicio": 897,
+    "momento": "14:59",
+    "ideia": "Pensar no final antes que ele chegue"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Três escutas antes da primeira nota",
+   "objetivo": "Montar um mapa da faixa antes de tocar: o groove, quem faz o quê e onde há espaço para o solo.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Escolha uma backing track com bateria e baixo de verdade e deixe a guitarra no colo, sem tocar.",
+    "1ª escuta, a bateria: conte 1-2-3-4 em voz alta, aponte quando cai o bumbo e quando cai a caixa, e diga se o chimbal divide o tempo em 2 (rock reto) ou em 3 (shuffle ou blues 12/8).",
+    "2ª escuta, o baixo: siga só ele e responda se ele coincide com o bumbo ou se faz linhas próprias.",
+    "3ª escuta, o mapa: anote os acordes de cada compasso e o lugar onde a forma recomeça. Escreva também uma palavra para a emoção da faixa (ex.: tensa, alegre, arrastada).",
+    "Só então entre, mas deixe passar 2 compassos inteiros antes da primeira nota."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça as três escutas com uma faixa de outro estilo (funk, balada, metal) e compare os mapas.",
+    "Cante uma ideia de solo durante a 3ª escuta, antes de pegar a guitarra."
+   ],
+   "cuidado": "Pular direto para a guitarra na segunda volta da faixa. Se você não sabe dizer onde cai a caixa, ainda não terminou de ouvir.",
+   "inspirado_em": [
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I06",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ouvir a backing track antes de tocar"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I20",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=665s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 665,
+     "momento": "11:07",
+     "ideia": "Ouvir bateria e base antes de tocar"
+    },
+    {
+     "id": "On_Ho3azaLk#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=241s",
+     "video": "On_Ho3azaLk",
+     "inicio": 241,
+     "momento": "04:03",
+     "ideia": "Ouvir a bateria antes de tocar"
+    },
+    {
+     "id": "Ork2Vc2bva8#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=204s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Ouvir a bateria antes de tocar"
+    },
+    {
+     "id": "On_Ho3azaLk#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=274s",
+     "video": "On_Ho3azaLk",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Analisar a interação entre baixo e bateria"
+    },
+    {
+     "id": "Ork2Vc2bva8#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=239s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 239,
+     "momento": "04:01",
+     "ideia": "Observar como o baixo liga bateria e guitarra"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=66s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 66,
+     "momento": "01:08",
+     "ideia": "Deixar espaço antes de entrar"
+    },
+    {
+     "id": "7P1e_7rqemY#I07",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+     "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=358s",
+     "video": "7P1e_7rqemY",
+     "inicio": 358,
+     "momento": "06:00",
+     "ideia": "Usar a emoção da base para guiar o solo"
+    }
+   ]
+  },
+  {
+   "titulo": "Só nas brechas do cantor",
+   "objetivo": "Treinar o papel de coadjuvante: ficar calado enquanto a voz canta e responder nos espaços que ela deixa.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Grave um loop de Am – G – F – Am (V5), com 1 compasso para cada acorde, a 72 bpm.",
+    "Cante ou cantarole uma melodia simples nos tempos 1, 2 e 3 de cada compasso. Ela é a sua \"voz principal\".",
+    "Toque o V2: a guitarra entra só no tempo 4, com duas notas que pousam numa nota do acorde (Lá, Sol, Lá e Lá).",
+    "Depois crie as suas próprias respostas, mas sempre dentro da brecha (tempos 3 e 4) e nunca por cima da voz.",
+    "Grave e ouça: a voz ficou clara o tempo todo?"
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Só nas brechas: os tempos 1 a 3 pertencem à voz e a guitarra responde no fim de cada compasso (Am – G – F – Am)",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use uma música de verdade com vocal e preencha apenas os espaços entre os versos.",
+    "Deixe o cantor cantar mais (tempos 1 a 3,5) e responda com uma nota só."
+   ],
+   "cuidado": "Estender a resposta até o começo da próxima frase da voz. A brecha termina antes do 1.",
+   "inspirado_em": [
+    {
+     "id": "-VjHVHzWL0o#I18",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1414s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 1414,
+     "momento": "23:36",
+     "ideia": "Não tocar por cima do cantor"
+    },
+    {
+     "id": "bennysutton--how-to-make-your-lead-guitar-solo-pop-c55212#I04",
+     "tipo": "documento",
+     "autor": "bennysutton.com",
+     "titulo": "Don't miss out on these 3 simple strategies for making your Lead Guitar Solos really Pop",
+     "url": "https://bennysutton.com/guitar/How-To-Make-Your-Lead-Guitar-Solo-Pop",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Apenas um instrumento focal por vez"
+    },
+    {
+     "id": "bennysutton--how-to-make-your-lead-guitar-solo-pop-c55212#I05",
+     "tipo": "documento",
+     "autor": "bennysutton.com",
+     "titulo": "Don't miss out on these 3 simple strategies for making your Lead Guitar Solos really Pop",
+     "url": "https://bennysutton.com/guitar/How-To-Make-Your-Lead-Guitar-Solo-Pop",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Desenvolva o ouvido para não colidir com a banda e responda a ela"
+    },
+    {
+     "id": "mw6d34vqDMs#I08",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO CRIAR FRASES NA GUITARRA",
+     "url": "https://www.youtube.com/watch?v=mw6d34vqDMs&t=309s",
+     "video": "mw6d34vqDMs",
+     "inicio": 309,
+     "momento": "05:11",
+     "ideia": "Aplicar frases nos espaços da música"
+    }
+   ]
+  },
+  {
+   "titulo": "Densidade contrária no meio do braço",
+   "objetivo": "Escolher o registro e a subdivisão que deixam a guitarra clara numa banda cheia.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Escolha uma faixa com teclado ou guitarra base movimentada e descubra qual é a subdivisão mais densa dela (colcheias? semicolcheias?).",
+    "Improvise em Lá menor usando só as cordas Ré e Sol, da casa 5 à 10 (V1).",
+    "Se a base é densa, use notas mais longas (semínimas e colcheias). Se a base é esparsa, você pode acelerar um pouco.",
+    "Agora toque a mesma ideia nas cordas Mi grave e Lá, depois volte para Ré e Sol, e compare qual delas aparece na mistura."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Meio do braço, cordas Ré e Sol: a região que corta uma banda cheia sem brigar com o baixo nem com o agudo do teclado (Lá menor)",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o oposto de propósito (semicolcheias sobre uma base agitada) para ouvir como a mistura embola.",
+    "Experimente o mesmo exercício numa balada só de piano e repare como o espaço livre muda."
+   ],
+   "cuidado": "Achar que volume resolve. Se você está no mesmo registro e na mesma subdivisão do teclado, aumentar o volume só piora a mistura.",
+   "inspirado_em": [
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I11",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Não coloque um instrumento rápido sobre outro ocupado"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=98s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Tocar no meio do braço"
+    },
+    {
+     "id": "gueqUPZ88rs#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=239s",
+     "video": "gueqUPZ88rs",
+     "inicio": 239,
+     "momento": "4:01",
+     "ideia": "O som é o conjunto da banda"
+    }
+   ]
+  },
+  {
+   "titulo": "A bateria manda",
+   "objetivo": "Fazer as frases reagirem à bateria: terminar nos acentos, respeitar o silêncio e copiar ritmos dela.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque o V4 a 80 bpm sobre uma bateria de rock em Lá menor. A corrida termina no 1 do compasso 2, junto com o prato.",
+    "No compasso 3, não toque nada: ouça a bateria.",
+    "No compasso 4, toque o Lá só nos tempos 2 e 4, junto com a caixa.",
+    "Agora improvise livremente durante 2 minutos com uma regra: toda vez que entrar uma virada ou um prato, a sua frase termina ali.",
+    "Em seguida, troque para uma faixa que cresce e diminui e acompanhe a energia dela: quando a bateria acalma, você toca menos notas e mais baixo."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "A bateria manda: a corrida termina junto com o prato no 1, vem um compasso de silêncio e depois a guitarra copia a caixa nos tempos 2 e 4 (Lá menor)",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Copie o ritmo do bumbo em vez do ritmo da caixa.",
+    "Toque com um amigo baterista e troquem: ele acentua e você responde, depois você acentua e ele responde."
+   ],
+   "cuidado": "Ficar de olho no próprio braço e não ouvir a virada. Mantenha a frase curta o bastante para conseguir escutar.",
+   "inspirado_em": [
+    {
+     "id": "lV4Z1H-Uhbc#I03",
+     "tipo": "video",
+     "autor": "Jamie Robinson",
+     "titulo": "The Most IMPORTANT Thing When IMPROVISING! #guitarlesson",
+     "url": "https://www.youtube.com/watch?v=lV4Z1H-Uhbc&t=20s",
+     "video": "lV4Z1H-Uhbc",
+     "inicio": 20,
+     "momento": "00:22",
+     "ideia": "Reaja à intensidade e dinâmica da bateria"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I31",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar a bateria como guia"
+    },
+    {
+     "id": "lV4Z1H-Uhbc#I02",
+     "tipo": "video",
+     "autor": "Jamie Robinson",
+     "titulo": "The Most IMPORTANT Thing When IMPROVISING! #guitarlesson",
+     "url": "https://www.youtube.com/watch?v=lV4Z1H-Uhbc&t=8s",
+     "video": "lV4Z1H-Uhbc",
+     "inicio": 8,
+     "momento": "00:10",
+     "ideia": "Prender-se a escala, lick ou ao que praticou"
+    },
+    {
+     "id": "lV4Z1H-Uhbc#I04",
+     "tipo": "video",
+     "autor": "Jamie Robinson",
+     "titulo": "The Most IMPORTANT Thing When IMPROVISING! #guitarlesson",
+     "url": "https://www.youtube.com/watch?v=lV4Z1H-Uhbc&t=30s",
+     "video": "lV4Z1H-Uhbc",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Improvisar é diálogo, não monólogo"
+    }
+   ]
+  },
+  {
+   "titulo": "A melodia vocal como semente",
+   "objetivo": "Construir o início do solo a partir da melodia do refrão e depois variá-la.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque o V3 a 76 bpm. O compasso 1 é o \"refrão\" (Dó, Ré e Mi) e o compasso 2 termina na tônica do G.",
+    "No compasso 3, a mesma ideia aparece uma 5ª acima (Sol, Lá e Si) e pousa na tônica do Em.",
+    "No compasso 4, a direção se inverte: a melodia desce (Mi, Ré, Dó) e pousa no Lá.",
+    "Agora pegue uma música que você conhece, ache 3 ou 4 notas do refrão dentro da sua pentatônica e abra o solo com elas.",
+    "Mais adiante no solo, volte a esse trecho com uma única mudança: transponha, inverta ou mude o ritmo."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Um \"refrão\" inventado vira solo: tema original, depois uma 5ª acima e por fim a direção invertida (Am – G – Em – Am)",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use a melodia de um verso em vez da melodia do refrão.",
+    "Escolha uma música em que o refrão é repetido duas vezes logo antes do solo e crie um solo SEM a melodia vocal. Compare o resultado."
+   ],
+   "cuidado": "Usar uma melodia que o ouvinte acabou de ouvir várias vezes seguidas. Nesse caso, o solo cansa em vez de reforçar.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I10",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Procurar notas que combinam com a melodia"
+    },
+    {
+     "id": "lEZzseFo6OQ#I03",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=117s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 117,
+     "momento": "01:59",
+     "ideia": "Partir da melodia vocal quando faltar inspiração"
+    },
+    {
+     "id": "Anop2dCuR2g#I16",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=661s",
+     "video": "Anop2dCuR2g",
+     "inicio": 661,
+     "momento": "11:03",
+     "ideia": "Tocar a melodia do vocal no solo"
+    },
+    {
+     "id": "Anop2dCuR2g#I18",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=745s",
+     "video": "Anop2dCuR2g",
+     "inicio": 745,
+     "momento": "12:27",
+     "ideia": "Solo que respeita a melodia da música"
+    },
+    {
+     "id": "lEZzseFo6OQ#I04",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=149s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 149,
+     "momento": "02:31",
+     "ideia": "Tecer a melodia do refrão no solo e variá-la"
+    },
+    {
+     "id": "lEZzseFo6OQ#I05",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=184s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 184,
+     "momento": "03:06",
+     "ideia": "Evitar a melodia vocal se já foi repetida demais"
+    }
+   ]
+  },
+  {
+   "titulo": "Forma contada, sinal e final limpo",
+   "objetivo": "Saber onde você está na música, ouvir o aviso de troca de seção e terminar sem invadir o cantor.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Grave ou programe um solo de 16 compassos (Am – G – F – Am repetido 4 vezes) com uma virada de bateria no compasso 16, seguido de 4 compassos de \"estrofe\" bem suave.",
+    "Improvise contando os compassos baixinho (1 a 16) sem se perder.",
+    "A partir do compasso 13, pare de abrir ideias novas e comece a fechar.",
+    "Termine com o V6: a frase pousa curta no Lá e o último compasso fica vazio para a voz voltar.",
+    "Repita o exercício terminando com um bend longo e cheio de ganho, depois compare com o fim limpo diante da estrofe suave."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Fechar antes da voz: a última frase pousa curta no Lá e o último compasso fica livre para o cantor voltar (F – G – Am – Am)",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Num ensaio, combine com o baterista uma virada no último compasso de cada seção e use-a como sinal.",
+    "Faça um solo de 8 compassos e prepare o fechamento desde o compasso 5."
+   ],
+   "cuidado": "Sustentar a última nota por cima da primeira sílaba do cantor ou chocando com ela. Corte a nota antes que a voz entre.",
+   "inspirado_em": [
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I08",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Peça ao baterista para sinalizar transições"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I25",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=897s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 897,
+     "momento": "14:59",
+     "ideia": "Pensar no final antes que ele chegue"
+    },
+    {
+     "id": "lEZzseFo6OQ#I13",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=405s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 405,
+     "momento": "06:47",
+     "ideia": "Cuidar da última nota em relação aos vocais e ao que vem depois"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I11",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escolher o tipo de solo pela situação"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ligar a faixa e sair tocando sem ter ouvido os acordes, o groove e o papel de cada instrumento.",
+  "Tocar por cima da voz ou de outro instrumento que está em foco.",
+  "Colocar notas rápidas em cima de uma base que já está agitada, o que embola a mistura.",
+  "Encaixar um lick pronto que não combina com o estilo ou com a emoção da faixa.",
+  "Fazer um monólogo: pensar só na escala e no lick que praticou, sem ouvir a bateria e a base.",
+  "Usar uma melodia vocal que acabou de ser repetida várias vezes.",
+  "Se perder na forma e ser pego de surpresa pelo fim, ou deixar a última nota chocar com o cantor."
+ ],
+ "resumo": [
+  "Ouça a faixa antes: a bateria, o baixo, os acordes e a emoção. Depois deixe uns tempos passarem antes de entrar.",
+  "Só um instrumento fica em foco por vez. Quando a voz canta, você responde nas brechas.",
+  "Use densidade contrária e o meio do braço (cordas Ré e Sol) para aparecer na banda.",
+  "A bateria guia: termine as frases nos acentos, copie os ritmos dela e use as viradas como mapa da forma.",
+  "A melodia vocal é uma ótima semente, a não ser que já esteja desgastada. Prepare o fim e não choque com o cantor."
+ ],
+ "proximos_passos": "Para ouvir melhor o que a banda toca em tempo real, siga para \"Treino auditivo e escuta reativa\". Para transformar as respostas nas brechas em diálogo, veja \"Pergunta e resposta (call and response)\". Para organizar começo, clímax e final dentro da forma, estude \"Estrutura, narrativa e final do solo\". Para praticar tudo isso com bases variadas, use \"Recursos: backing tracks, apps, livros e cursos\".",
+ "_meta": {
+  "subcategoria": "C07.7",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Tocar com a banda e para a música",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:46:13",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 16257,
+   "cache_read": 4913,
+   "output": 11399,
+   "thinking": 3118,
+   "turns": 2,
+   "custo_nominal": 0.37202159999999995
+  }
+ }
+}

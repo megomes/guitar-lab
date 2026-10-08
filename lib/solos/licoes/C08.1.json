@@ -1,0 +1,1949 @@
+{
+ "titulo": "Treino auditivo e escuta reativa",
+ "gancho": "O braço mostra onde estão as notas. Só o ouvido diz qual delas a música está pedindo.",
+ "porque_importa": "Saber a escala e o tom não basta se você não percebe qual acorde está soando nem para onde a nota quer ir. Ouvido treinado é o que faz você pousar no lugar certo, tirar músicas sem tablatura e reagir à banda em tempo real. A boa notícia é que dá para treinar, e se começa por coisas bem simples.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "O ouvido vem antes do desenho",
+   "texto": "A guitarra é visual: dá para escolher uma nota porque ela está na caixa, sem ter ideia de como vai soar. Isso funciona no papel, mas não cria ouvido. Quem improvisa bem imagina o som primeiro e usa o braço só para executar. O treino auditivo é o que encurta a distância entre o que você ouve por dentro e o que os dedos tocam.",
+   "destaque": "Primeiro você ouve, depois a forma executa.",
+   "visual": null
+  },
+  {
+   "titulo": "Relative pitch: a distância entre duas notas",
+   "texto": "Você não precisa de ouvido absoluto. Precisa reconhecer a relação entre duas notas, ou seja, o intervalo. Para o solo, o mais importante é o intervalo melódico, com uma nota depois da outra. Existem duas muletas que se completam. A primeira são canções-âncora: Parabéns pra Você = 2ª maior, Greensleeves = 3ª menor, When the Saints = 3ª maior, Marcha Nupcial = 4ª justa, tema do Superman = 5ª justa. A segunda é contar mentalmente os graus da escala a partir da tônica (1, 2, 3...) até chegar à nota. A 4ª e a 6ª são as mais traiçoeiras, porque não soam resolvidas.",
+   "destaque": "Canção-âncora para lembrar, contagem de graus para confirmar.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Sobre o drone de Lá (corda A solta), caminhos de intervalo: 2→3, 4→3 e 5→♭3. O último compasso fica vazio para você cantar o caminho de volta.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Ouvir dentro do acorde",
+   "texto": "Um acorde não é um bloco: são três notas empilhadas. A fundamental sustenta o grave, e a quinta, quando está no topo, é a mais fácil de destacar. A terça fica escondida no meio e é a mais difícil. Por isso, tire o Sol e deixe só Dó e Mi: com a terça no topo, ela aparece. Quem consegue cantarolar qualquer nota da tríade depois passa a isolar notas até em frases rápidas.",
+   "destaque": "A terça se esconde no meio. Ponha-a no topo para ouvi-la.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Dó maior aberto: onde moram a fundamental (C), a terça (E) e a quinta (G)",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 0,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 1,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Escuta reativa: tocar, ouvir, corrigir",
+   "texto": "Em vez de calcular as notas de cada acorde a cada troca, toque uma nota e escute. Se ela assenta, é sua casa. Se pede para ir a algum lugar, mova-a. Oscilar entre duas ou três candidatas revela para onde a frase quer pousar. Faça isso devagar: o objetivo não é tocar muito, é ouvir o efeito de cada nota sobre o acorde.",
+   "destaque": "Não adivinhe. Escute se a nota fica ou se quer ir embora.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Escuta reativa na corda Sol: as mesmas três notas (A, B, C) sobre G, Em, C e D. Em cada acorde, só uma delas é do acorde (anel). Oscile e sinta qual quer ficar.",
+    "tonica": "G",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Da nota à progressão",
+   "texto": "O mesmo ouvido de intervalos serve para a harmonia. Siga o baixo: cada troca de acorde é um intervalo entre raízes (desce 3ª menor, sobe 4ª...). Depois decida se cada acorde é maior ou menor e ache o acorde que soa como chegada. Com isso você tem a progressão e o tom sem abrir a cifra.",
+   "destaque": "O baixo canta os intervalos da harmonia.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "O baixo de I–vi–IV–V em Sol: G↓E (3ª menor), E↓C (3ª maior), C↑D (2ª maior), D↑G (4ª justa). Cante cada raiz na pausa.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 42,
+   "porque": "O drill completo da tríade de Dó: cantarolar a fundamental como drone, achar a quinta no topo e isolar a terça tocando só Dó e Mi.",
+   "fonte": {
+    "id": "EB5E6RBnCKw#I05",
+    "tipo": "video",
+    "autor": "The-Art-of-Guitar",
+    "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+    "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=162s",
+    "video": "EB5E6RBnCKw",
+    "inicio": 162,
+    "momento": "02:44",
+    "ideia": "Ouvir a fundamental dentro do acorde"
+   }
+  },
+  {
+   "ref": 58,
+   "porque": "Justin toca Em sem mostrar o acorde e compara a corda Si solta, a casa 1 e a casa 3: você ouve a nota estável, a que puxa e a que pede resolução.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I10",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=474s",
+    "video": "OkTBizvNWoI",
+    "inicio": 474,
+    "momento": "07:56",
+    "ideia": "Identificar a nota do Em sem ver o acorde"
+   }
+  },
+  {
+   "ref": 32,
+   "porque": "Sobre um pedal de Si, cada intervalo é tocado, ouvido e devolvido à tônica, um modelo para criar seu próprio drone.",
+   "fonte": {
+    "id": "UbIv3AKmNl0#I23",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+    "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=822s",
+    "video": "UbIv3AKmNl0",
+    "inicio": 822,
+    "momento": "13:44",
+    "ideia": "Improvisar sobre pedal de Si com backing track"
+   }
+  },
+  {
+   "ref": 17,
+   "porque": "As canções de referência para cada intervalo, cantadas e tocadas lado a lado com o intervalo na guitarra.",
+   "fonte": {
+    "id": "UbIv3AKmNl0#I08",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+    "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=297s",
+    "video": "UbIv3AKmNl0",
+    "inicio": 297,
+    "momento": "04:59",
+    "ideia": "Associar intervalos a melodias conhecidas"
+   }
+  },
+  {
+   "ref": 85,
+   "porque": "Rick Beato mostra como ouvir primeiro o movimento das raízes no baixo para tirar qualquer progressão.",
+   "fonte": {
+    "id": "bFtTvqASQ9k#I04",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "My Method to Learning ANY Song By Ear",
+    "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=99s",
+    "video": "bFtTvqASQ9k",
+    "inicio": 99,
+    "momento": "01:41",
+    "ideia": "Ouvir primeiro o movimento da raiz"
+   }
+  },
+  {
+   "ref": 61,
+   "porque": "A técnica de oscilar entre duas notas até o ouvido revelar onde a frase quer pousar.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I11",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=509s",
+    "video": "OkTBizvNWoI",
+    "inicio": 509,
+    "momento": "08:31",
+    "ideia": "Oscilar entre notas para achar onde pousar"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Fundamental, quinta e terça: cantarolar dentro do Dó",
+   "objetivo": "Conseguir ouvir e cantar cada nota da tríade com o acorde soando inteiro.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque o Dó da corda Lá (casa 3) várias vezes e cantarole na mesma altura, sem vibrato, até a voz \"travar\" na nota.",
+    "Toque o acorde de C aberto e continue cantarolando o Dó. Se ele sumir, ataque a corda Lá um pouco mais forte.",
+    "Toque o acorde, procure a nota mais aguda da tríade (G, corda Sol solta) e cantarole. Confira tocando o Sol isolado.",
+    "Para a terça: toque só Dó + Mi (cordas Lá e Ré). Com o Mi no topo, cantarole-o e confira na casa 2 da corda Ré.",
+    "Toque o acorde inteiro de novo e tente manter o Mi na cabeça no meio das outras notas.",
+    "Siga a tab: no compasso vazio, só cante."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Achar as notas dentro do acorde: tríade, nota isolada e silêncio para cantarolar. No último compasso, só C + E, com a terça no topo.",
+    "tonica": "C",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com Am (x02210): a terça agora é Dó, uma ♭3. Compare a cor com o Mi do C.",
+    "Use outras formas de C mais acima no braço: as notas mudam de lugar, mas o som da terça tem que ser o mesmo."
+   ],
+   "cuidado": "Cantar a nota mais aguda achando que é a terça. No C aberto, o Mi da corda Mi aguda engana. Por isso o passo com apenas Dó + Mi.",
+   "inspirado_em": [
+    {
+     "id": "EB5E6RBnCKw#I05",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=162s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 162,
+     "momento": "02:44",
+     "ideia": "Ouvir a fundamental dentro do acorde"
+    },
+    {
+     "id": "EB5E6RBnCKw#I06",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=226s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 226,
+     "momento": "03:48",
+     "ideia": "Identificar a quinta (Sol) pelo ouvido"
+    },
+    {
+     "id": "EB5E6RBnCKw#I08",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=330s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 330,
+     "momento": "05:32",
+     "ideia": "A terça é a nota mais difícil de isolar"
+    },
+    {
+     "id": "EB5E6RBnCKw#I09",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=397s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 397,
+     "momento": "06:39",
+     "ideia": "Isolar a terça (Mi) com a fundamental"
+    },
+    {
+     "id": "EB5E6RBnCKw#I12",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=433s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 433,
+     "momento": "07:15",
+     "ideia": "Tocar só Dó e Mi se o Sol atrapalhar"
+    },
+    {
+     "id": "EB5E6RBnCKw#I03",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=97s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 97,
+     "momento": "01:39",
+     "ideia": "Cantarolar a fundamental como drone"
+    },
+    {
+     "id": "EB5E6RBnCKw#I07",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=263s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 263,
+     "momento": "04:25",
+     "ideia": "Alternar Dó e Sol com cantarolar"
+    }
+   ]
+  },
+  {
+   "titulo": "Sorteio cego na tríade",
+   "objetivo": "Reconhecer qual nota da tríade foi escolhida, sem saber de antemão.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Escreva 1, 3 e 5 em três papeizinhos (ou use um app de dado).",
+    "Toque o acorde de C, sorteie um grau e cantarole aquela nota apenas imaginando o acorde.",
+    "Só depois toque a nota isolada para conferir. Anote acerto ou erro.",
+    "Faça 10 rodadas. Quando acertar 8 de 10, passe para Am e depois para G e Em.",
+    "Rodada final: um amigo toca a nota escondida e você diz se foi 1, 3 ou 5."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Os acordes dos exercícios: G, Em, C e D (campo de Sol maior) e Am para a tríade menor",
+    "tonica": "G",
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Misture acordes maiores e menores no sorteio: além do grau, diga se a terça era maior ou menor.",
+    "Inclua a ♭7 com G7 e Em7 quando as tríades estiverem fáceis."
+   ],
+   "cuidado": "Tocar a nota antes de cantar. A ordem é cantar primeiro e conferir depois, senão você só imita.",
+   "inspirado_em": [
+    {
+     "id": "EB5E6RBnCKw#I13",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=469s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 469,
+     "momento": "07:51",
+     "ideia": "Teste aleatório de intervalos da tríade"
+    },
+    {
+     "id": "EB5E6RBnCKw#I14",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=503s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 503,
+     "momento": "08:25",
+     "ideia": "Expandir o treino para tríades menores e progressões"
+    },
+    {
+     "id": "EB5E6RBnCKw#I15",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "Unlock Your Ear (The Most Effective Ear-Training Drill I Know)",
+     "url": "https://www.youtube.com/watch?v=EB5E6RBnCKw&t=536s",
+     "video": "EB5E6RBnCKw",
+     "inicio": 536,
+     "momento": "08:58",
+     "ideia": "Treino auditivo leva a tocar frases rápidas de ouvido"
+    }
+   ]
+  },
+  {
+   "titulo": "Drone de Lá: caminhos entre intervalos",
+   "objetivo": "Ouvir intervalos melódicos encadeados, como no solo, e não só ida e volta à tônica.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Deixe a corda Lá soar (ou use um drone de A em app ou backing track).",
+    "Na corda Sol, toque A (casa 2), B (casa 4) e C♯ (casa 6). Nomeie em voz alta: 1, 2, 3. Lembre a âncora: Parabéns pra Você = 2ª, When the Saints = 3ª.",
+    "Toque A → D (casa 7) → C♯ e sinta a 4ª pedindo para cair na 3ª.",
+    "Toque A → E (casa 9) → C (casa 5): a 5ª e depois a ♭3, que muda o clima para menor.",
+    "No compasso vazio, cante o caminho antes de tocá-lo de novo.",
+    "Invente combinações suas (ex.: 5→4→3, 2→♭3) e diga os graus antes de tocar."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Sobre o drone de Lá (corda A solta), caminhos de intervalo: 2→3, 4→3 e 5→♭3. O último compasso fica vazio para você cantar o caminho de volta.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o drone para E (corda Mi grave solta) e refaça os mesmos caminhos de ouvido, sem calcular casas.",
+    "Dê atenção extra a 1→4 e 1→6 (F♯, casa 11 da corda Sol), os intervalos mais difíceis."
+   ],
+   "cuidado": "Seguir só os números das casas. Se você não sabe cantar o caminho antes de tocar, ainda está olhando, não ouvindo.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I28",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Identificar intervalos por canções de referência"
+    },
+    {
+     "id": "UbIv3AKmNl0#I08",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=297s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 297,
+     "momento": "04:59",
+     "ideia": "Associar intervalos a melodias conhecidas"
+    },
+    {
+     "id": "UbIv3AKmNl0#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=323s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 323,
+     "momento": "05:25",
+     "ideia": "Contar degraus da escala mentalmente"
+    },
+    {
+     "id": "UbIv3AKmNl0#I19",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=675s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 675,
+     "momento": "11:17",
+     "ideia": "6ª e 4ª são as mais difíceis de identificar"
+    },
+    {
+     "id": "UbIv3AKmNl0#I23",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=822s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 822,
+     "momento": "13:44",
+     "ideia": "Improvisar sobre pedal de Si com backing track"
+    },
+    {
+     "id": "t8SmU7wIxnc#I26",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1491s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1491,
+     "momento": "24:53",
+     "ideia": "Sortear combinações de intervalos a partir de C"
+    },
+    {
+     "id": "UbIv3AKmNl0#I31",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=1138s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 1138,
+     "momento": "19:00",
+     "ideia": "Combinar intervalos em tempo real"
+    }
+   ]
+  },
+  {
+   "titulo": "Três notas, acorde surpresa",
+   "objetivo": "Escuta reativa pura: achar a nota do acorde sem saber qual acorde está soando.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Grave um loop (ou peça a um amigo) com G, Em, C e D em ordem aleatória, 2 compassos cada. Não olhe a mão de quem toca.",
+    "Use só três notas na corda Sol: A (casa 2), B (casa 4) e C (casa 5).",
+    "Em cada acorde, oscile entre as três, devagar, deixando cada uma soar.",
+    "Pouse na que \"quer ficar\". Em cada acorde, só uma das três é nota dele.",
+    "De olhos fechados, diga qual era o acorde só pela nota que assentou. Depois confira e discuta com o parceiro por que funcionou.",
+    "Troquem de papel."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Escuta reativa na corda Sol: as mesmas três notas (A, B, C) sobre G, Em, C e D. Em cada acorde, só uma delas é do acorde (anel). Oscile e sinta qual quer ficar.",
+    "tonica": "G",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o trio para a corda Si: C, D, E (casas 1, 3, 5).",
+    "Passe para a escala de Sol maior inteira sobre Bm, sem pensar em teoria, deixando o ouvido escolher."
+   ],
+   "cuidado": "Confundir nota tensa com nota menos estável: sobre Em, o C (♭6) quer resolver, mas o A (4) só suspende. Refaça prestando atenção ao grau de estabilidade e não chute a resposta pela cara do parceiro.",
+   "inspirado_em": [
+    {
+     "id": "OkTBizvNWoI#I01",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=0s",
+     "video": "OkTBizvNWoI",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Escuta reativa"
+    },
+    {
+     "id": "-VjHVHzWL0o#I08",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=494s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 494,
+     "momento": "08:16",
+     "ideia": "Três notas sobre um acorde de Sol"
+    },
+    {
+     "id": "-VjHVHzWL0o#I09",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=638s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 638,
+     "momento": "10:40",
+     "ideia": "Três notas sobre um acorde de Mi menor"
+    },
+    {
+     "id": "-VjHVHzWL0o#I11",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=907s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 907,
+     "momento": "15:09",
+     "ideia": "Notas nas cordas finas sobre Mi menor e Ré maior"
+    },
+    {
+     "id": "OkTBizvNWoI#I10",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=474s",
+     "video": "OkTBizvNWoI",
+     "inicio": 474,
+     "momento": "07:56",
+     "ideia": "Identificar a nota do Em sem ver o acorde"
+    },
+    {
+     "id": "-VjHVHzWL0o#I14",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1121s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 1121,
+     "momento": "18:43",
+     "ideia": "Expandir para a escala inteira com Si menor"
+    },
+    {
+     "id": "OkTBizvNWoI#I11",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=509s",
+     "video": "OkTBizvNWoI",
+     "inicio": 509,
+     "momento": "08:31",
+     "ideia": "Oscilar entre notas para achar onde pousar"
+    },
+    {
+     "id": "OkTBizvNWoI#I24",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=1249s",
+     "video": "OkTBizvNWoI",
+     "inicio": 1249,
+     "momento": "20:51",
+     "ideia": "Exercício em dupla"
+    },
+    {
+     "id": "-VjHVHzWL0o#I12",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=878s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 878,
+     "momento": "14:40",
+     "ideia": "Trabalhar em dupla"
+    },
+    {
+     "id": "-VjHVHzWL0o#I10",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=766s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 766,
+     "momento": "12:48",
+     "ideia": "Tentar adivinhar a nota certa"
+    },
+    {
+     "id": "OkTBizvNWoI#I25",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=1326s",
+     "video": "OkTBizvNWoI",
+     "inicio": 1326,
+     "momento": "22:08",
+     "ideia": "Confundir nota errada com nota menos boa"
+    }
+   ]
+  },
+  {
+   "titulo": "Siga o baixo: I–vi–IV–V em Sol",
+   "objetivo": "Traduzir o movimento das raízes em intervalos e graus.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque as raízes da tab (G, E, C, D) e cante cada uma na pausa do compasso.",
+    "Nomeie cada movimento: G desce 3ª menor até E, E desce 3ª maior até C, C sobe 2ª maior até D, D sobe 4ª até G.",
+    "Agora toque os acordes completos e continue cantando só as raízes por cima.",
+    "Coloque um play-along qualquer, ouça só o canal esquerdo (ou corte os agudos no equalizador) e descreva os movimentos do baixo em intervalos.",
+    "Comece a faixa no meio e ache a raiz do acorde em até dois compassos."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "O baixo de I–vi–IV–V em Sol: G↓E (3ª menor), E↓C (3ª maior), C↑D (2ª maior), D↑G (4ª justa). Cante cada raiz na pausa.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mesma progressão em Dó (C–Am–F–G): os intervalos do baixo são idênticos.",
+    "Teste vi–IV–I–V (Em–C–G–D) e descreva o novo trajeto."
+   ],
+   "cuidado": "Seguir a nota mais aguda do acorde em vez do baixo. Mantenha a atenção no grave.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I26",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar raízes e escalas com o play-along"
+    },
+    {
+     "id": "NGior_1Tsmo#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "This Simple System Explains Every Song You Know",
+     "url": "https://www.youtube.com/watch?v=NGior_1Tsmo&t=237s",
+     "video": "NGior_1Tsmo",
+     "inicio": 237,
+     "momento": "03:59",
+     "ideia": "Cantar as raízes da escala"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I27",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ouvir só o canal esquerdo do play-along"
+    },
+    {
+     "id": "bFtTvqASQ9k#I14",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=365s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 365,
+     "momento": "06:07",
+     "ideia": "Intervalos para seguir o baixo"
+    },
+    {
+     "id": "bFtTvqASQ9k#I04",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=99s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Ouvir primeiro o movimento da raiz"
+    }
+   ]
+  },
+  {
+   "titulo": "Progressão de ouvido em quatro perguntas",
+   "objetivo": "Tirar acordes e tonalidade de uma música real sem cifra.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Escolha uma música pop com 3 ou 4 acordes que se repetem.",
+    "Pergunta 1: qual é a nota do baixo em cada acorde? Ache no braço, como no exercício anterior.",
+    "Pergunta 2: cada acorde é maior ou menor? Toque a raiz e cante a terça. Se a ♭3 casar, é menor.",
+    "Pergunta 3: qual acorde soa como chegada? Pare a música em cada acorde e sinta qual não pede continuação.",
+    "Pergunta 4: qual escala contém todas essas notas? Esse é o tom.",
+    "Só então confira na cifra e anote o que errou."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça o mesmo com uma base de jam em Bm (Bm–Em7–F♯7) sem reverb, notando a cor dominante do F♯7.",
+    "Escolha uma frase curta da melodia vocal e toque-a de ouvido no tom que você descobriu."
+   ],
+   "cuidado": "Pular direto para a cifra no primeiro tropeço. Responda às quatro perguntas, mesmo errando, antes de conferir.",
+   "inspirado_em": [
+    {
+     "id": "h4zQjSecjvI#I01",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=35s",
+     "video": "h4zQjSecjvI",
+     "inicio": 35,
+     "momento": "00:37",
+     "ideia": "Tocar a progressão antes de solar"
+    },
+    {
+     "id": "EJW2rIhE_GA#I06",
+     "tipo": "video",
+     "autor": "TomoFujitaMusic",
+     "titulo": "7 Great Improvisation Tips That Do Not Make You As Just OKAY Guitarist anymore!",
+     "url": "https://www.youtube.com/watch?v=EJW2rIhE_GA&t=323s",
+     "video": "EJW2rIhE_GA",
+     "inicio": 323,
+     "momento": "05:25",
+     "ideia": "Tocar sobre a progressão sem reverb"
+    },
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I15",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treinar o ouvido para progressões de 3 e 4 acordes"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I32",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treinar o ouvido para progressões"
+    },
+    {
+     "id": "Uin2lUS1ujs#I18",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=763s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 763,
+     "momento": "12:45",
+     "ideia": "Identificar a tonalidade pela escuta"
+    },
+    {
+     "id": "bFtTvqASQ9k#I19",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "My Method to Learning ANY Song By Ear",
+     "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k&t=466s",
+     "video": "bFtTvqASQ9k",
+     "inicio": 466,
+     "momento": "07:48",
+     "ideia": "Reconhecer a escala de uma música simples"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I05",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Identificar a tonalidade de uma base"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I05",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar de ouvido todo dia"
+    },
+    {
+     "id": "GC-HIgdwVSM#I05",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=434s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 434,
+     "momento": "07:16",
+     "ideia": "Treino auditivo: tirar melodias de ouvido"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I16",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tirar músicas de ouvido"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Escolher notas só pelo desenho da caixa, sem saber como elas vão soar.",
+  "Tentar adivinhar a resposta (pela cara do professor ou pela posição da mão) em vez de ouvir se a nota assenta.",
+  "Tocar a nota de conferência antes de cantar, o que transforma o treino em imitação.",
+  "Começar difícil demais: misturar todos os intervalos e acordes logo no primeiro dia.",
+  "Saber o tom e a escala, mas não perceber quando o acorde troca.",
+  "Treinar rápido: na escuta reativa, velocidade esconde o efeito de cada nota sobre o acorde."
+ ],
+ "resumo": [
+  "Relative pitch: reconheça a distância entre notas usando canções-âncora e contagem de graus.",
+  "Dentro da tríade, a fundamental e a quinta aparecem fácil. Para ouvir a terça, deixe-a no topo.",
+  "Escuta reativa: toque, escute se a nota fica ou quer ir, corrija. Devagar e de olhos fechados.",
+  "O baixo revela a progressão: cada troca de acorde é um intervalo entre raízes.",
+  "Cante antes de tocar e confira depois. Pouco por dia, todo dia."
+ ],
+ "proximos_passos": "Com o ouvido mais afiado, siga para \"Cantar e tocar o que se ouve\" para ligar a voz interna aos dedos, e depois para \"Transcrição de solos\" e \"Escuta ativa e referências\". Para aplicar a escuta reativa nas trocas, veja \"Notas do acorde: onde a frase pousa\" e \"Seguir as trocas: escala por acorde e chord chasing\". Se precisar revisar os nomes dos intervalos, volte a \"Notas, intervalos e graus\".",
+ "_meta": {
+  "subcategoria": "C08.1",
+  "modulo": {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição"
+  },
+  "nome": "Treino auditivo e escuta reativa",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:47:57",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 30557,
+   "cache_read": 4913,
+   "output": 11212,
+   "thinking": 2635,
+   "turns": 2,
+   "custo_nominal": 0.4936836
+  }
+ }
+}

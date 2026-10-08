@@ -1,0 +1,1230 @@
+{
+ "titulo": "Cantar e tocar o que se ouve",
+ "gancho": "Se você consegue cantar a frase, seus dedos só precisam achar o endereço. Se não consegue, o dedo está decidindo por você.",
+ "porque_importa": "A guitarra é visual: dá para tocar uma nota só porque o desenho diz que ela \"pode\", sem saber como ela vai soar. A audiação inverte essa ordem. Primeiro você ouve a ideia por dentro, depois leva ao braço. É o que separa um solo que fala de um solo que só percorre a escala.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Audiação: pensar em som",
+   "texto": "Audiação é ouvir música por dentro, sem som nenhum soando. Edwin Gordon comparava isso ao pensamento na fala: você não monta a frase letra por letra, ela já vem pronta. No solo é igual. A ideia e o dedo andam juntos, sem uma etapa de tradução no meio.",
+   "destaque": "Você não fala soletrando. Também não deveria solar assim.",
+   "visual": null
+  },
+  {
+   "titulo": "Ouvir antes, não depois",
+   "texto": "O costume é o contrário: o dedo toca e o ouvido só confere. O professor de Nelson Faria perguntava a ele: \"Você ouviu essa nota antes ou só reconheceu depois?\". Antes de cada frase, ouça ao menos o ritmo dela na cabeça. Com o tempo, ouça também as alturas.",
+   "destaque": "Reconhecer depois não é o mesmo que ouvir antes.",
+   "visual": null
+  },
+  {
+   "titulo": "Três degraus: saber, achar, valer",
+   "texto": "Primeiro, saber o som: se você não consegue cantar uma escala ou uma frase, ainda não a conhece. Segundo, achar esse som no braço. Barney Kessel acrescenta um terceiro: o que você ouve precisa ter valor musical. A voz ajuda nos três, porque melodia que não dá para cantar raramente vale a pena.",
+   "destaque": "Cante, ache e só fique com o que soa bem.",
+   "visual": null
+  },
+  {
+   "titulo": "A voz como filtro",
+   "texto": "Cantar junto com o que você toca deixa tudo mais lento, obriga você a respirar e traz pausas para dentro da frase. O resultado são linhas mais simples, mais fáceis de lembrar e com direção clara. Afinação perfeita não importa. O que importa é o contorno: se sobe, se desce, onde pousa. Se um trecho não dá para cantar, provavelmente saiu do dedo e não do ouvido.",
+   "destaque": "Pode cantar desafinado. A forma da melodia é o que conta.",
+   "visual": null
+  },
+  {
+   "titulo": "Achar no braço: a tônica é a bússola",
+   "texto": "Para levar ao braço o que você cantou, use a tônica como referência. Cante a tônica, ache uma tônica no braço e meça a primeira nota a partir dela: é igual, mais aguda ou mais grave? Perto ou longe? Trabalhe com três ou quatro notas por vez. O shape serve de andaime, mas é o ouvido que escolhe as notas.",
+   "destaque": "Uma nota por vez, sempre medindo a partir da tônica.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. Para achar o que você cantou, parta sempre das tônicas (com anel): cante o Lá, ache-o e meça a próxima nota a partir dele.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 54,
+   "porque": "Barney Kessel toca um acorde, imagina uma melodia, canta e depois a encontra na guitarra: o método inteiro demonstrado ao vivo.",
+   "fonte": {
+    "id": "IB1UZhiZMYw#I03",
+    "tipo": "video",
+    "autor": "Rumark Video",
+    "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+    "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=174s",
+    "video": "IB1UZhiZMYw",
+    "inicio": 174,
+    "momento": "02:56",
+    "ideia": "Acorde, melodia imaginada, externalização e busca no braço"
+   }
+  },
+  {
+   "ref": 5,
+   "porque": "Nelson Faria conta a pergunta que mudou o jeito dele de tocar: você ouviu a nota antes ou só a reconheceu depois?",
+   "fonte": {
+    "id": "v2rtFiZPAJ4#I01",
+    "tipo": "video",
+    "autor": "Cortes do Amplifica [OFICIAL]",
+    "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+    "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=0s",
+    "video": "v2rtFiZPAJ4",
+    "inicio": 0,
+    "momento": "00:00",
+    "ideia": "Ouça a nota antes de tocá-la"
+   }
+  },
+  {
+   "ref": 16,
+   "porque": "Nelson Faria explica os níveis de consciência: saber o som cantando antes de procurar a nota no braço.",
+   "fonte": {
+    "id": "v2rtFiZPAJ4#I05",
+    "tipo": "video",
+    "autor": "Cortes do Amplifica [OFICIAL]",
+    "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+    "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4&t=102s",
+    "video": "v2rtFiZPAJ4",
+    "inicio": 102,
+    "momento": "01:44",
+    "ideia": "Primeiro nível: saber o som certo"
+   }
+  },
+  {
+   "ref": 35,
+   "porque": "Nicky V canta cada nota enquanto toca sobre uma progressão e mostra como a voz deixa a linha mais melódica.",
+   "fonte": {
+    "id": "t8SmU7wIxnc#I17",
+    "tipo": "video",
+    "autor": "Nicky V",
+    "titulo": "The Secret To Melodic Soloing...The Session Method.",
+    "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=983s",
+    "video": "t8SmU7wIxnc",
+    "inicio": 983,
+    "momento": "16:25",
+    "ideia": "Cantar cada nota que tocar"
+   }
+  },
+  {
+   "ref": 37,
+   "porque": "Jared demonstra que cantar junto, mesmo desafinado, cria espaço, simplifica a frase e ajuda a lembrar dela.",
+   "fonte": {
+    "id": "Ib5qv48K7ww#I13",
+    "tipo": "video",
+    "autor": "Sound Guitar Lessons With Jared",
+    "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+    "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=602s",
+    "video": "Ib5qv48K7ww",
+    "inicio": 602,
+    "momento": "10:04",
+    "ideia": "Cantar junto para melhorar o phrasing"
+   }
+  },
+  {
+   "ref": 12,
+   "porque": "John Nathan Cordy mostra a ideia de pensar a linha como um cantor ou um saxofonista, e não como uma posição de escala.",
+   "fonte": {
+    "id": "Rm8Y-Q6wbR4#I08",
+    "tipo": "video",
+    "autor": "John Nathan Cordy",
+    "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+    "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=380s",
+    "video": "Rm8Y-Q6wbR4",
+    "inicio": 380,
+    "momento": "06:22",
+    "ideia": "Pensar vocalmente, como um sax"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Cante, depois toque: frase de cinco notas",
+   "objetivo": "Fixar a ordem correta: o som vai primeiro para a voz e só depois para os dedos.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Ouça a frase do V2 no app duas vezes, sem tocar.",
+    "Nos compassos vazios, cante a frase com o ritmo exato (pode usar \"da-da-da-da-daaa\").",
+    "Agora sem ouvir de novo: cante mais uma vez e depois toque na corda Si e na corda Sol, casa 5.",
+    "Invente sua própria frase de quatro ou cinco notas, só com a voz. Cante três vezes igual.",
+    "Ache essa frase no braço usando a pentatônica do V1 como mapa, partindo da tônica Lá."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Frase de cinco notas em Lá menor, seguida de dois compassos vazios. Ouça no app, cante a frase nos compassos 3 e 4 e só depois toque.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Cante só na cabeça, sem voz, e toque.",
+    "Faça a mesma frase uma oitava acima, a partir do Lá da corda 1, casa 5."
+   ],
+   "cuidado": "Tocar para descobrir como a frase soa. A ordem é cantar, depois tocar. Se errar, volte a cantar e não fique caçando nota com o dedo.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I03",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar e depois tocar o mesmo trecho"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I17",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar a frase antes de tocar"
+    },
+    {
+     "id": "7SNcy_GprQU#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=905s",
+     "video": "7SNcy_GprQU",
+     "inicio": 905,
+     "momento": "15:07",
+     "ideia": "Cantar ou cantarolar antes de tocar"
+    },
+    {
+     "id": "bennysutton--how-to-make-your-lead-guitar-solo-pop-c55212#I09",
+     "tipo": "documento",
+     "autor": "bennysutton.com",
+     "titulo": "Don't miss out on these 3 simple strategies for making your Lead Guitar Solos really Pop",
+     "url": "https://bennysutton.com/guitar/How-To-Make-Your-Lead-Guitar-Solo-Pop",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cante a frase mentalmente antes de tocá-la"
+    },
+    {
+     "id": "blog--guitar-improvisation-tips-unlock-your-potential-b9ace3#I12",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Improvisation Tips: Unlock Your Potential",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-improvisation-tips-unlock-your-potential/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treinar coordenação ouvido-mão"
+    }
+   ]
+  },
+  {
+   "titulo": "Ponte cantada entre duas notas",
+   "objetivo": "Imaginar um caminho melódico com começo e fim definidos e achá-lo numa corda só.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a corda Mi aguda solta e depois a casa 7 (Si). Deixe as duas soarem.",
+    "Sem tocar, cante ou assobie uma melodia curta que saia do Mi e chegue ao Si.",
+    "Ache essa melodia só na corda 1, nota por nota, conferindo com a voz.",
+    "Compare com o caminho do V3. O seu pode ser bem diferente, e tudo bem.",
+    "Repita com outro caminho: um que passe acima do Si e desça até ele."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Um caminho possível entre a corda Mi solta e a casa 7 (Si), tudo na corda 1. Primeiro cante o seu caminho e depois compare.",
+    "tonica": "E",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Ligue a corda Si solta à casa 8 da mesma corda (Sol).",
+    "Cante o caminho com um ritmo marcado e toque com esse mesmo ritmo."
+   ],
+   "cuidado": "Subir a escala nota por nota sem ter imaginado nada. Primeiro a voz desenha o caminho, depois a mão vai atrás.",
+   "inspirado_em": [
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I14",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Conectar duas notas com uma melodia"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I10",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com quatro notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Cantar junto, nota por nota",
+   "objetivo": "Usar a voz como filtro: frases mais curtas, com respiração e cantáveis.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Coloque uma backing track em Lá menor, devagar.",
+    "Improvise na pentatônica do V1 cantando cada nota no mesmo instante em que a toca.",
+    "Quando o fôlego acabar, pare de tocar também. Respire e só então volte.",
+    "Grave três minutos e marque os trechos em que a voz não conseguiu acompanhar.",
+    "Reescreva esses trechos até ficarem cantáveis."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. Para achar o que você cantou, parta sempre das tônicas (com anel): cante o Lá, ache-o e meça a próxima nota a partir dele.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Apenas vocalize (\"ba-da-ba\") em vez de cantar as alturas exatas.",
+    "Deixe a voz ir meio tempo à frente do dedo."
+   ],
+   "cuidado": "Parar de cantar quando aparece um trecho rápido. É justamente ali que você descobre o que é dedo e o que é música.",
+   "inspirado_em": [
+    {
+     "id": "t8SmU7wIxnc#I17",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=983s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 983,
+     "momento": "16:25",
+     "ideia": "Cantar cada nota que tocar"
+    },
+    {
+     "id": "Ib5qv48K7ww#I13",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=602s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 602,
+     "momento": "10:04",
+     "ideia": "Cantar junto para melhorar o phrasing"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I24",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=1023s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 1023,
+     "momento": "17:05",
+     "ideia": "Cantar a linha enquanto toca"
+    },
+    {
+     "id": "7P1e_7rqemY#I03",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+     "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=183s",
+     "video": "7P1e_7rqemY",
+     "inicio": 183,
+     "momento": "03:05",
+     "ideia": "Cantar as frases do solo"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I06",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar junto com as notas tocadas"
+    }
+   ]
+  },
+  {
+   "titulo": "Voz primeiro: improvise cantando e transcreva você mesmo",
+   "objetivo": "Gerar melodias próprias sem a influência do shape e depois achá-las no braço.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Coloque uma base em loop (blues em Lá ou Am–Dm–E7) e grave a sua voz no celular.",
+    "Comece falando uma frase com sentido sobre a base e depois cante essa frase. Faça de seis a oito voltas da base.",
+    "Escolha a frase cantada de que mais gostou.",
+    "Ache no braço três ou quatro notas por vez, sempre partindo da tônica Lá.",
+    "Toque com a mesma inflexão da voz: onde ela escorregou, use slide; onde ela tremeu, use vibrato."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. Para achar o que você cantou, parta sempre das tônicas (com anel): cante o Lá, ache-o e meça a próxima nota a partir dele.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Use um loop de Dm7–G7–Cmaj7, com quatro tempos em cada acorde.",
+    "Varie a frase cantada: cante mais rápido, mais lento, com um salto grande ou com uma sílaba esticada, e transcreva cada versão."
+   ],
+   "cuidado": "Querer cantar afinado e bonito. A gravação é só um rascunho: o que vale é o contorno e o ritmo.",
+   "inspirado_em": [
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I15",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar cantando e depois tocar"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I34",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar um blues e tocar o que cantou"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I05",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar uma frase sobre backing track"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I01",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantar sobre ii-V-I e depois achar no violão"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I17",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transcrever as próprias ideias"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I06",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variações da frase cantada"
+    }
+   ]
+  },
+  {
+   "titulo": "Método Kessel: acorde, melodia, voz e braço",
+   "objetivo": "Ouvir uma melodia que nasce do som de um acorde e encontrá-la em primeira posição.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque Am (V4) e deixe soar. Não pense no nome nem nas notas: só escute.",
+    "Espere surgir na cabeça uma melodia de 6 a 9 notas.",
+    "Cante, cantarole ou assobie essa melodia em voz alta, duas vezes.",
+    "Encontre-a perto da pestana, nas casas 0 a 3. O V5 mostra um exemplo do resultado.",
+    "Faça o mesmo com Dm e E7, uma melodia por acorde, e depois encadeie as três."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Exemplo do resultado: uma melodia de 7 notas imaginada sobre Am e uma resposta curta sobre E7 que volta ao Lá, tudo perto da pestana. A sua deve ser outra, vinda do seu ouvido.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mentalize o arpejo do acorde sem tocar e cante sobre ele antes de pegar a guitarra.",
+    "Toque a mesma melodia na região da casa 5 e depois em Mi menor."
+   ],
+   "cuidado": "Pular a etapa da voz e ir direto procurar no braço. Cantar em voz alta é o que garante que a melodia é sua.",
+   "inspirado_em": [
+    {
+     "id": "IB1UZhiZMYw#I03",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=174s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 174,
+     "momento": "02:56",
+     "ideia": "Acorde, melodia imaginada, externalização e busca no braço"
+    },
+    {
+     "id": "IB1UZhiZMYw#I07",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=242s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 242,
+     "momento": "04:04",
+     "ideia": "Externalize a ideia cantando, cantarolando ou assobiando"
+    },
+    {
+     "id": "IB1UZhiZMYw#I12",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=475s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 475,
+     "momento": "07:57",
+     "ideia": "Prática com três acordes"
+    },
+    {
+     "id": "IB1UZhiZMYw#I04",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=174s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 174,
+     "momento": "02:56",
+     "ideia": "Sinta o acorde sem analisar"
+    },
+    {
+     "id": "IB1UZhiZMYw#I05",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=208s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 208,
+     "momento": "03:30",
+     "ideia": "Tamanho ideal da frase: 6 a 9 notas"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I45",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar acorde ou arpejo na cabeça enquanto canta"
+    }
+   ]
+  },
+  {
+   "titulo": "Revezamento: 4 tocados, 4 cantados, 4 tocados",
+   "objetivo": "Reduzir a distância entre imaginar e tocar em tempo real, sem parar a música.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Coloque um blues em Lá ou uma base em Lá menor.",
+    "Improvise quatro compassos na guitarra.",
+    "Nos quatro seguintes, cante uma resposta com a guitarra parada.",
+    "Nos próximos quatro, toque exatamente o que cantou.",
+    "Faça a base dar a volta várias vezes e reduza o bloco para dois compassos cada."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Cante na cabeça, sem voz, durante os compassos de canto.",
+    "Antes de cada frase tocada, ouça mentalmente pelo menos o ritmo."
+   ],
+   "cuidado": "Tocar algo diferente do que cantou porque o dedo achou um caminho mais fácil. Seja fiel à voz, mesmo que fique mais simples.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I46",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alternar quatro compassos tocados e cantados"
+    },
+    {
+     "id": "lEZzseFo6OQ#I06",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=217s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 217,
+     "momento": "03:39",
+     "ideia": "Imaginar o solo antes de tocar"
+    },
+    {
+     "id": "x8V99YYMRTc#I04",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=136s",
+     "video": "x8V99YYMRTc",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Passo 2: imaginar a melodia com a base em loop"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Deixar de cantar por vergonha ou por achar que canta mal. A afinação não importa, o contorno da melodia sim.",
+  "Tocar primeiro e cantar depois para conferir. Isso é reconhecer, não ouvir antes.",
+  "Procurar a nota cantada no braço sem referência. Parta sempre da tônica.",
+  "Tentar transcrever a frase cantada inteira de uma vez, em vez de três ou quatro notas por vez.",
+  "Cantar só as notas e esquecer o ritmo, a respiração e a inflexão da voz.",
+  "Achar que tudo o que veio da cabeça é bom. Ouça de novo e fique só com o que tem valor musical."
+ ],
+ "resumo": [
+  "Audiação é ouvir por dentro: primeiro a ideia, depois o dedo.",
+  "Se você não consegue cantar a frase, ainda não a internalizou.",
+  "Cantar junto traz respiração, espaço e frases mais simples. Pode ser desafinado.",
+  "Para achar o que cantou, use a tônica como bússola e trabalhe três ou quatro notas por vez.",
+  "Kessel: acorde, melodia imaginada, voz e só então o braço. E fique com o que vale a pena."
+ ],
+ "proximos_passos": "Leve o ouvido para fora da sua cabeça em \"Transcrição de solos\" e \"Licks e vocabulário: aprender e tornar seus\". Se cantar intervalos ainda for difícil, reforce a base em \"Treino auditivo e escuta reativa\". Para dar forma ao que você canta, siga para \"Espaço, silêncio e respiração\" e \"Pergunta e resposta (call and response)\".",
+ "_meta": {
+  "subcategoria": "C08.2",
+  "modulo": {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição"
+  },
+  "nome": "Cantar e tocar o que se ouve",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:49:26",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 24055,
+   "cache_read": 4913,
+   "output": 9292,
+   "thinking": 2409,
+   "turns": 2,
+   "custo_nominal": 0.3982776
+  }
+ }
+}
