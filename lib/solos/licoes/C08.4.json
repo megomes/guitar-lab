@@ -1,0 +1,1974 @@
+{
+ "titulo": "Licks e vocabulário: aprender e tornar seus",
+ "gancho": "Todo grande solista começou falando com as palavras dos outros. O que muda é o que ele faz com elas depois.",
+ "porque_importa": "Quase todo improviso que soa espontâneo é feito de frases que o músico já sabia e combinou na hora. Só que um lick decorado e nunca usado some da memória, e um lick usado sempre igual deixa o solo robótico. Esta lição mostra o caminho entre copiar uma frase e ter ela como sua: fixar, levar para outros contextos, variar e misturar com ideias suas.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "Improvisar é falar com palavras que você já tem",
+   "texto": "Ninguém inventa um idioma na hora de conversar: a gente combina palavras já conhecidas. No solo é igual. Licks, riffs, trechos de solos e até linhas de baixo são o seu dicionário. Frases curtas de 3 ou 4 notas, tiradas de quem você admira, rendem mais que solos inteiros decorados.",
+   "destaque": "O que soa espontâneo é vocabulário bem combinado.",
+   "visual": null
+  },
+  {
+   "titulo": "Aprender não é o mesmo que possuir",
+   "texto": "Uma frase só vira sua quando você consegue usá-la sem pensar e fora do lugar de onde ela veio. Para isso, toque-a em loop até sair natural, use-a no mesmo dia sobre uma base e leve-a para outros acordes. Se a frase só existe num ponto do braço e numa música, ela ainda não é vocabulário.",
+   "destaque": "Frase que não é usada se perde.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Lick-base em Lá menor (shape 1, casa 5). Ele desce do 5 até a ♭3 e pousa na tônica. O compasso 3 fica vazio: é a sua vez de responder.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O lick viaja inteiro",
+   "texto": "Na guitarra, o desenho de uma frase é portátil. Leve o mesmo desenho 5 casas acima e o lick de Lá menor passa a funcionar sobre Ré menor. Leve 5 casas abaixo e ele funciona sobre Mi menor. Com isso, uma única frase cobre os três acordes do blues menor.",
+   "destaque": "Mesmo desenho, outro acorde: a frase passa a servir a música toda.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O mesmo lick, com o mesmo desenho, sobre o IV (Dm, 5 casas acima, casa 10) e sobre o V (Em, 5 casas abaixo, posição aberta)",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 12,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Uma linha vira um livro",
+   "texto": "Com a frase dominada, comece a mexer nela. Mude o ritmo, inverta a direção, corte notas, termine em outro grau ou troque uma nota por uma tensão. Cada mudança gera uma frase nova que ainda carrega o DNA da original. É assim que o copiado vira assinatura.",
+   "destaque": "Trate o lick como andaime, não como prédio.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Duas variações do lick-base. A: mesmas notas subindo, com final na ♭3 aguda. B: a frase encurtada que termina na quinta e fica 'pedindo' continuação.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Misturar, citar, alternar",
+   "texto": "Os mestres do jazz faziam isso abertamente. Ella Fitzgerald alternava quatro compassos de um solo famoso com quatro ideias dela. Parker citava Armstrong. Você pode intercalar frases emprestadas com as suas e guardar um banco de frases organizado por função, como abertura, resposta e final.",
+   "destaque": "Citar é homenagem; misturar é o primeiro passo da voz própria.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 42,
+   "porque": "Dustin Hofsess pega uma frase curta da pentatônica de Lá menor, aplica em pares de cordas, toca sobre backing track e a estende numa linha mais longa.",
+   "fonte": {
+    "id": "UG_P4KNw0XM#I13",
+    "tipo": "video",
+    "autor": "Dustin Hofsess",
+    "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+    "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=283s",
+    "video": "UG_P4KNw0XM",
+    "inicio": 283,
+    "momento": "04:45",
+    "ideia": "Praticar cada frase em contexto com backing track e estendê-la"
+   }
+  },
+  {
+   "ref": 85,
+   "porque": "Pow Music aprende um trecho no estilo BB King nota a nota e depois mostra como personalizá-lo sem perder o contorno.",
+   "fonte": {
+    "id": "bhYXolbCrr0#I22",
+    "tipo": "video",
+    "autor": "Pow Music",
+    "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+    "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1747s",
+    "video": "bhYXolbCrr0",
+    "inicio": 1747,
+    "momento": "29:09",
+    "ideia": "Aprender o solo nota a nota e depois personalizar"
+   }
+  },
+  {
+   "ref": 113,
+   "porque": "Kirk Fletcher toca a mesma frase de quatro notas em estilos diferentes e mostra que a inflexão é o que muda a cara do lick.",
+   "fonte": {
+    "id": "fJs5AALy4GY#I20",
+    "tipo": "video",
+    "autor": "Brett Papa",
+    "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+    "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1573s",
+    "video": "fJs5AALy4GY",
+    "inicio": 1573,
+    "momento": "26:15",
+    "ideia": "Adaptar a frase de quatro notas a outro estilo"
+   }
+  },
+  {
+   "ref": 66,
+   "porque": "Jack Gardiner mostra como tirar um lick transcrito do contexto original e trabalhá-lo em outros acordes, andamentos e oitavas.",
+   "fonte": {
+    "id": "tRi4vMs2z8M#I21",
+    "tipo": "video",
+    "autor": "Jack Gardiner",
+    "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+    "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1248s",
+    "video": "tRi4vMs2z8M",
+    "inicio": 1248,
+    "momento": "20:50",
+    "ideia": "Transcrever e trabalhar um lick"
+   }
+  },
+  {
+   "ref": 10,
+   "porque": "Cadu mostra como uma música aprendida vira ferramenta para improvisar em várias outras.",
+   "fonte": {
+    "id": "0d_q-W9D6SY#I07",
+    "tipo": "video",
+    "autor": "Canal do Cadu",
+    "titulo": "Meu TRUQUE para aprender a IMPROVISAR! (Sem escalas)",
+    "url": "https://www.youtube.com/watch?v=0d_q-W9D6SY&t=375s",
+    "video": "0d_q-W9D6SY",
+    "inicio": 375,
+    "momento": "06:17",
+    "ideia": "Aprenda uma música, aplique em várias"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Fixar o lick: loop, depois resposta",
+   "objetivo": "Fazer o lick-base sair sem esforço e começar a dialogar com ele no mesmo dia.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o lick do V1 devagar, 5 vezes, falando os graus: 5, ♭7, 1, ♭7, 5, 4, ♭3, 1.",
+    "Ligue o loop no app e toque junto até não precisar olhar a tab.",
+    "No compasso vazio, responda com uma frase curta sua, de 2 a 4 notas, terminando em Lá.",
+    "Ponha uma base de Lá menor e espalhe o lick pelo seu improviso pelo menos 4 vezes em 3 minutos."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Lick-base em Lá menor (shape 1, casa 5). Ele desce do 5 até a ♭3 e pousa na tônica. O compasso 3 fica vazio: é a sua vez de responder.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Responda sempre com o lick de novo, só que com uma nota a menos.",
+    "Toque o lick uma vez a cada 4 compassos e improvise livremente entre uma vez e outra."
+   ],
+   "cuidado": "Não estude o lick só isolado: se ele não aparece sobre uma base no mesmo dia, você não vai lembrar dele no improviso.",
+   "inspirado_em": [
+    {
+     "id": "zSTAvmXG5m8#I28",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=872s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 872,
+     "momento": "14:34",
+     "ideia": "Tocar o lick em loop na tonalidade de A"
+    },
+    {
+     "id": "dZUSUZjRISI#I09",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=181s",
+     "video": "dZUSUZjRISI",
+     "inicio": 181,
+     "momento": "03:03",
+     "ideia": "Tocar junto com a notação e a tablatura"
+    },
+    {
+     "id": "musicradar--bend-in-tune-on-guitar-bd9353#I02",
+     "tipo": "documento",
+     "autor": "Total Guitar",
+     "titulo": "How to bend in tune on your guitar like a pro every time",
+     "url": "https://musicradar.com/how-to/bend-in-tune-on-guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ouvir e repetir com backing track"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I19",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar a frase nova no mesmo dia"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I38",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar licks dentro de músicas e backing tracks"
+    },
+    {
+     "id": "UG_P4KNw0XM#I13",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=283s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 283,
+     "momento": "04:45",
+     "ideia": "Praticar cada frase em contexto com backing track e estendê-la"
+    }
+   ]
+  },
+  {
+   "titulo": "O lick visita o IV e o V",
+   "objetivo": "Usar a mesma frase sobre os três acordes de um blues menor em Lá, só movendo o desenho.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Toque o lick no Am (casa 5), como no V1.",
+    "Leve o mesmo desenho 5 casas acima (casa 10) para tocar sobre Dm, como no V2.",
+    "Leve o desenho 5 casas abaixo (posição aberta) para tocar sobre Em.",
+    "Numa base de blues menor de 12 compassos em Lá, toque o lick na posição certa de cada acorde: Am, Dm e Em.",
+    "Confira se cada versão termina na tônica do acorde do momento (A, D ou E)."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O mesmo lick, com o mesmo desenho, sobre o IV (Dm, 5 casas acima, casa 10) e sobre o V (Em, 5 casas abaixo, posição aberta)",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 12,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Sobre o Dm, em vez de mudar de casa, ache dentro da casa 5 uma frase parecida que pouse em D (corda 3, casa 7).",
+    "Grave a base com um looper e troque de acorde a cada 2 compassos para treinar a mudança mais rápida."
+   ],
+   "cuidado": "Não mova o desenho e esqueça o alvo: o final da frase precisa cair na tônica do NOVO acorde, não no Lá.",
+   "inspirado_em": [
+    {
+     "id": "WNtvx2q2CrI#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=329s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 329,
+     "momento": "05:31",
+     "ideia": "Praticar os licks com o backing track E7"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I13",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aplicar os licks sobre blues de 12 compassos em Lá menor"
+    },
+    {
+     "id": "hafoCeXWxAE#I31",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1589s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1589,
+     "momento": "26:31",
+     "ideia": "Frases de uma tonalidade podem ser transpostas"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma linha, seis frases: o caderno de variações",
+   "objetivo": "Tirar pelo menos seis frases novas de um único lick e registrar todas.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque o lick original (V1).",
+    "Variação 1: as mesmas notas de baixo para cima, terminando na ♭3 aguda (V3, compasso 1).",
+    "Variação 2: encurte e termine na quinta para deixar a frase em suspenso (V3, compasso 3).",
+    "Variação 3: troque as colcheias por notas mais longas e acrescente um bend na ♭7 (G) até o Lá.",
+    "Variação 4: repita só as três primeiras notas duas vezes antes de concluir.",
+    "Variação 5: junte a frase com outro lick que você já sabe e termine na nota final do outro.",
+    "Grave ou anote cada versão no seu banco de frases com um nome."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Duas variações do lick-base. A: mesmas notas subindo, com final na ♭3 aguda. B: a frase encurtada que termina na quinta e fica 'pedindo' continuação.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça as mesmas seis operações com um lick tirado de um guitarrista que você admira.",
+    "Toque original, variação, original, variação sobre a base e ouça qual pergunta e qual resposta funcionam melhor."
+   ],
+   "cuidado": "Não mude tudo de uma vez: a frase nova tem que lembrar a original, senão você perdeu o vocabulário em vez de expandir.",
+   "inspirado_em": [
+    {
+     "id": "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I22",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "ESCALAS PENTATÔNICAS na Guitarra: Como Aprender, Aplicar e Criar Solos Melhores",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/25/escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-criar-solos-melhores/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variar ritmo, articulação e duração"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I18",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Manipular pequenas frases para criar vocabulário"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I21",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar variações de licks e melodias"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I02",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transcrever é ponto de partida, não de chegada"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I10",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Uma só linha vira um livro de material próprio"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I09",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variação melódica: direção, arpejos e sequência"
+    }
+   ]
+  },
+  {
+   "titulo": "Mesmas notas, outro sotaque",
+   "objetivo": "Perceber que a inflexão transforma o lick tanto quanto as notas.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o lick-base reto, sem bends e sem vibrato, sobre a base em Lá menor.",
+    "Agora toque 'como BB King': chegue no A com um bend vindo do G, use vibrato rápido no pouso e deixe espaço depois.",
+    "Toque 'como um roqueiro': ataque forte, slide até a primeira nota e notas mais curtas.",
+    "Toque 'como Gilmour': devagar, com bends lentos e notas longas.",
+    "Grave as quatro versões e compare: as notas são as mesmas, mas a frase mudou?"
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Lick-base em Lá menor (shape 1, casa 5). Ele desce do 5 até a ♭3 e pousa na tônica. O compasso 3 fica vazio: é a sua vez de responder.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Escolha um guitarrista de quem você já tirou algo e imite só a mão esquerda dele (bends e vibrato).",
+    "Faça o contrário: mantenha o ritmo e a inflexão de uma frase dele e troque as notas por outras da pentatônica."
+   ],
+   "cuidado": "Não troque nenhuma nota nesta etapa: o exercício só funciona se a única diferença for o jeito de tocar.",
+   "inspirado_em": [
+    {
+     "id": "fJs5AALy4GY#I20",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1573s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1573,
+     "momento": "26:15",
+     "ideia": "Adaptar a frase de quatro notas a outro estilo"
+    },
+    {
+     "id": "6aJqjgu5LwM#I03",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=312s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 312,
+     "momento": "05:14",
+     "ideia": "Trocar as notas mantendo o fraseado"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I08",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Preservar o contorno das frases ao adaptar um solo"
+    }
+   ]
+  },
+  {
+   "titulo": "Troque uma nota só: a ♭9 no V7",
+   "objetivo": "Fazer uma variação harmônica controlada e ouvir como uma única nota muda a cor da frase.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque o compasso 1 do V4 sobre E7 e resolva em Am. Ali a frase usa a 9 (F♯).",
+    "Repita trocando só o F♯ pelo F (♭9), na corda 2, casa 6.",
+    "Alterne as duas versões sobre uma base E7 → Am e ouça qual gera mais vontade de resolver.",
+    "Descubra outra nota trocável na frase, por exemplo a 5 (B) por ♭13 (C), e teste.",
+    "Anote no banco de frases as duas versões como 'V7 doce' e 'V7 tenso'."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Variação harmônica no V7 de Lá menor: a frase original usa a 9 (F♯). Na repetição, só ela vira ♭9 (F), e o resto não muda. Repare como a tensão escorrega para o E, e a terça G♯ (anel) resolve no A do Am.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve a versão com ♭9 para B7 → Em, movendo o desenho 7 casas acima.",
+    "Combine com o lick-base: use o lick no Am e a frase do V4 no E7, formando uma cadência completa."
+   ],
+   "cuidado": "A ♭9 é tensão de passagem: não pare em cima do F. Ele precisa andar para o E ou resolver no acorde seguinte.",
+   "inspirado_em": [
+    {
+     "id": "jazzadvice--p-293-c8bd85#I07",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variação harmônica da frase"
+    },
+    {
+     "id": "jazzadvice--p-1873-82f813#I11",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Transcribing Solos Is NOT What You Think It Is • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=1873",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variar uma frase trocando uma nota"
+    },
+    {
+     "id": "jazzadvice--p-1873-82f813#I10",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Transcribing Solos Is NOT What You Think It Is • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=1873",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Método em cinco passos para internalizar uma frase"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I06",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Extrair a técnica, não apenas o lick"
+    }
+   ]
+  },
+  {
+   "titulo": "Quatro emprestados, quatro seus",
+   "objetivo": "Misturar frases copiadas com ideias próprias, num solo que costura as duas.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Escolha três frases do seu banco: o lick-base, uma variação sua e uma frase tirada de um solista que você admira.",
+    "Numa base de blues menor em Lá, toque frases emprestadas nos compassos 1–4, improvise só com ideias suas nos 5–8, volte às emprestadas nos 9–12.",
+    "No segundo chorus, inverta a ordem: suas ideias primeiro, as emprestadas depois.",
+    "No terceiro chorus, cite uma melodia conhecida (cantiga, tema de filme) em algum ponto e desenvolva a citação por dois compassos.",
+    "Ouça a gravação: dá para perceber onde termina o emprestado e começa o seu? Quanto menos der para notar, melhor."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Os acordes da base: blues menor em Lá (i–iv–v) e o E7, que é o V com sétima",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "Dm",
+      "digitacao": "xx0231"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça com um solo inteiro que você transcreveu: alterne 4 compassos originais e 4 seus sobre a mesma harmonia.",
+    "Termine cada chorus com uma frase de final diferente do banco."
+   ],
+   "cuidado": "Não deixe as frases soltas: a ideia sua deve continuar algo da frase emprestada (ritmo, nota final ou registro) para soar como uma conversa só.",
+   "inspirado_em": [
+    {
+     "id": "566LrQfcqgE#I25",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=668s",
+     "video": "566LrQfcqgE",
+     "inicio": 668,
+     "momento": "11:10",
+     "ideia": "Criar solo próprio a partir do solo transcrito"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I04",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar um improviso próprio após praticar a transcrição"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I17",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Recriar frases de outro solo com as próprias ideias"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I15",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alternar frases do solo original com frases próprias"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I16",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Citar melodias conhecidas dentro do solo"
+    },
+    {
+     "id": "VNSfej3sPII#I21",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=886s",
+     "video": "VNSfej3sPII",
+     "inicio": 886,
+     "momento": "14:48",
+     "ideia": "Testar melodias lembradas sobre a progressão"
+    },
+    {
+     "id": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I09",
+     "tipo": "documento",
+     "autor": "MusicRadar",
+     "titulo": "How to start soloing over a 12-bar blues",
+     "url": "https://www.musicradar.com/how-to/12-bar-blues-guitar-solo-lesson",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Montar um repertório próprio de licks de turnaround"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Colecionar dezenas de licks e não usar nenhum sobre uma base no mesmo dia.",
+  "Tocar o lick sempre igual, no mesmo lugar e no mesmo tempo, até o solo soar como colagem.",
+  "Encaixar a frase à força num acorde onde a nota final não pousa.",
+  "Variar tanto que a frase original desaparece e o vocabulário não se fixa.",
+  "Decorar solos inteiros de uma vez em vez de colher frases curtas de 3 a 4 notas.",
+  "Não registrar nada: o lick bom de ontem some na semana seguinte."
+ ],
+ "resumo": [
+  "Improvisar é combinar vocabulário: colha frases curtas de quem você admira.",
+  "Fixe em loop e use no mesmo dia sobre uma base, senão a frase se perde.",
+  "Mova o desenho para fazer o lick servir ao IV, ao V e a outros tons.",
+  "Varie ritmo, direção, tamanho, nota final e uma tensão por vez: uma linha vira um livro.",
+  "Mantenha um banco de frases por função e misture o emprestado com o seu."
+ ],
+ "proximos_passos": "Para colher frases direto dos discos, siga para \"Transcrição de solos\". Para mexer no lick com mais recursos, aprofunde em \"Variação rítmica e ganchos rítmicos\", \"Deslocamento, síncope e ponto de entrada\" e \"Motivo, repetição e desenvolvimento motívico\". Para levar a frase a todo o braço, veja \"Os cinco shapes e como conectá-los\". Se quiser vocabulário de jazz, vá para \"Vocabulário de jazz: bebop, dominantes e tensões\".",
+ "_meta": {
+  "subcategoria": "C08.4",
+  "modulo": {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição"
+  },
+  "nome": "Licks e vocabulário: aprender e tornar seus",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:08:07",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 32754,
+   "cache_read": 8780,
+   "output": 14648,
+   "thinking": 4427,
+   "turns": 4,
+   "custo_nominal": 0.5828900000000001
+  }
+ }
+}

@@ -1,0 +1,1527 @@
+{
+ "titulo": "Transcrição de solos: tirar de ouvido, nota por nota",
+ "gancho": "Todo solista que você admira aprendeu a falar imitando outros, de ouvido. Agora é sua vez de copiar e depois falar com sua própria voz.",
+ "porque_importa": "Teoria e técnica dizem quais notas você pode tocar. A transcrição mostra como os mestres usam essas notas: o ritmo, o pouso, a articulação, aquilo que faz uma frase soar como música. Por isso ela é o elo que falta para quem conhece escalas e mesmo assim não consegue criar melodias.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "Transcrever é ouvir, não escrever",
+   "texto": "Transcrever é tirar de ouvido um solo, uma melodia ou uma frase só. O que treina você é descobrir o som com o ouvido: o intervalo, o pouso, a articulação. Pegar uma tablatura pronta dá uma compreensão superficial da frase. Pode escrever, porque anotar ajuda a memória, mas a pergunta que importa é outra: você consegue tocar e cantar a frase sem o papel?",
+   "destaque": "Se você não consegue cantar a frase, ainda não a transcreveu.",
+   "visual": null
+  },
+  {
+   "titulo": "Escolha bem: curto, amado e com um objetivo",
+   "texto": "Escolha um trecho que te empolgue e que você consiga cantar, com poucas notas e andamento moderado. Três ou quatro notas bem tiradas já rendem vocabulário. Antes de dar play, defina o que você quer levar dali: um jeito de pousar na terça, um bend expressivo, uma frase para a troca do IV no blues. Guarde uma lista de solos candidatos para nunca começar do zero.",
+   "destaque": "Um trecho de 6 segundos que você ama vale mais que um solo inteiro que você só respeita.",
+   "visual": null
+  },
+  {
+   "titulo": "O método: loop, uma nota, pausa, anota",
+   "texto": "1) Ponha a primeira frase em loop e ouça de 10 a 20 vezes sem tocar, até conseguir cantá-la. 2) Toque até a nota seguinte e pause, para que a última nota ouvida fique no ouvido. 3) Ache essa nota no braço e anote na hora. 4) Volte e ouça uma nota a mais. Quando ficar fácil, avance de três em três notas. Trabalhe em blocos de 10 a 15 minutos, porque o ouvido cansa, e revise no dia seguinte.",
+   "destaque": "Uma nota por vez agora, frases inteiras depois.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-treino em Lá menor. Toque o áudio sem olhar a tab e tire as notas de ouvido.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Conferir: toque junto com o disco",
+   "texto": "Muitos erros só aparecem quando você toca junto com a gravação: uma nota esquecida, um ritmo adiantado, a corda errada. Desacelere para 50–60% e suba aos poucos até 100%. Confira também o endereço: a mesma nota existe em várias cordas, e o timbre e o fluxo da frase mostram qual o guitarrista usou. Errar muito nas primeiras transcrições é normal. Conte o sucesso pelo tempo que você passou ouvindo.",
+   "destaque": "Só está pronto quando soa igual à gravação, no andamento original.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Mesmo som, endereços diferentes: o Lá (A) e o Mi (E) da frase em três cordas. Na transcrição você também precisa decidir a corda.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Depois das notas: analisar, transpor, recriar",
+   "texto": "Tirar as notas é só a metade do caminho. Relacione cada nota ao acorde de baixo: onde a frase começa e termina, quais notas são do acorde, quais são de passagem, onde estão as pausas. Leve as melhores frases a outros tons para virarem vocabulário seu. Por fim, escolha entre dois caminhos: tocar a versão literal, como se fazia na era do swing, ou recriar o solo, mudando frases no estilo do artista. Fazer as duas coisas, nessa ordem, é o ideal.",
+   "destaque": "Copie fielmente, entenda o porquê, depois mude.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Frase de blues para analisar: em cada acorde, a ♭3 desliza para a 3ª maior (C→C♯ no A7, F→F♯ no D7).",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 35,
+   "porque": "JustinGuitar demonstra o ciclo ouvir, pausar, achar a nota e anotar, uma nota por vez.",
+   "fonte": {
+    "id": "xNlyoGud2A0#I05",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+    "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=134s",
+    "video": "xNlyoGud2A0",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Transcrever uma nota por vez com pausa"
+   }
+  },
+  {
+   "ref": 42,
+   "porque": "Mostra como tocar a transcrição junto com a gravação desacelerada e subir o andamento aos poucos.",
+   "fonte": {
+    "id": "xNlyoGud2A0#I12",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+    "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=329s",
+    "video": "xNlyoGud2A0",
+    "inicio": 329,
+    "momento": "05:31",
+    "ideia": "Tocar junto com a gravação em andamento reduzido"
+   }
+  },
+  {
+   "ref": 34,
+   "porque": "No Cifra Club, Vinny tira a primeira frase de um solo em andamento reduzido, ao vivo.",
+   "fonte": {
+    "id": "Uin2lUS1ujs#I17",
+    "tipo": "video",
+    "autor": "Cifra Club",
+    "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+    "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=707s",
+    "video": "Uin2lUS1ujs",
+    "inicio": 707,
+    "momento": "11:49",
+    "ideia": "Estudar a primeira frase em andamento reduzido"
+   }
+  },
+  {
+   "ref": 40,
+   "porque": "Ao tocar junto com o disco, o instrutor descobre que tinha esquecido uma nota: a conferência na prática.",
+   "fonte": {
+    "id": "Uin2lUS1ujs#I22",
+    "tipo": "video",
+    "autor": "Cifra Club",
+    "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+    "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=892s",
+    "video": "Uin2lUS1ujs",
+    "inicio": 892,
+    "momento": "14:54",
+    "ideia": "Tocar junto com a gravação para conferir"
+   }
+  },
+  {
+   "ref": 70,
+   "porque": "Análise do solo de Crossroads, com a terça maior de cada acorde destacada no blues.",
+   "fonte": {
+    "id": "Fi1BWmg3JUk#I06",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Mixing Major & Minor Pentatonics In Blues - How, Why and What To Practice! Guitar Lesson Tutorial",
+    "url": "https://www.youtube.com/watch?v=Fi1BWmg3JUk&t=128s",
+    "video": "Fi1BWmg3JUk",
+    "inicio": 128,
+    "momento": "02:10",
+    "ideia": "Transcrever o solo de Crossroads"
+   }
+  },
+  {
+   "ref": 78,
+   "porque": "Aprender um solo de BB King nota por nota e depois personalizá-lo com frases próprias.",
+   "fonte": {
+    "id": "bhYXolbCrr0#I22",
+    "tipo": "video",
+    "autor": "Pow Music",
+    "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+    "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1747s",
+    "video": "bhYXolbCrr0",
+    "inicio": 1747,
+    "momento": "29:09",
+    "ideia": "Aprender o solo nota a nota e depois personalizar"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Ouvir antes de tocar: 15 escutas e cantar",
+   "objetivo": "Gravar a frase no ouvido antes de procurá-la no braço.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Cubra a tablatura V1 e deixe só o play visível (ou use os primeiros segundos de um solo que você ama).",
+    "Ouça em loop 15 vezes sem tocar a guitarra.",
+    "A partir da 8ª escuta, cante junto em voz baixa, oitavando se precisar.",
+    "Feche os olhos e cante a frase inteira sem o áudio.",
+    "Só agora pegue a guitarra e ache a primeira nota."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-treino em Lá menor. Toque o áudio sem olhar a tab e tire as notas de ouvido.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Desacelere para 60% nas primeiras escutas e volte a 100% no fim.",
+    "Repita com uma melodia cantada: a frase de um cantor da sua playlist."
+   ],
+   "cuidado": "Pegar a guitarra na 2ª escuta e sair procurando nota no escuro. Primeiro a frase precisa existir na sua cabeça.",
+   "inspirado_em": [
+    {
+     "id": "xNlyoGud2A0#I02",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=37s",
+     "video": "xNlyoGud2A0",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Escutar o solo em loop antes de transcrever"
+    },
+    {
+     "id": "Uin2lUS1ujs#I17",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=707s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 707,
+     "momento": "11:49",
+     "ideia": "Estudar a primeira frase em andamento reduzido"
+    },
+    {
+     "id": "jazzadvice--the-3-secrets-to-transcribing-jazz-solos-82efb0#I07",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "The 3 Secrets to Transcribing Jazz Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/lessons/the-3-secrets-to-transcribing-jazz-solos/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escolha um solo que você consiga cantar"
+    },
+    {
+     "id": "xNlyoGud2A0#I03",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=37s",
+     "video": "xNlyoGud2A0",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Cantar o solo como meta de escuta"
+    },
+    {
+     "id": "pzqGdf_3Aug#I08",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Dicas de improvisação - Free Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=pzqGdf_3Aug&t=253s",
+     "video": "pzqGdf_3Aug",
+     "inicio": 253,
+     "momento": "04:15",
+     "ideia": "Transcrever cantores"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma nota por vez, com pausa",
+   "objetivo": "Treinar o ciclo de transcrição de JustinGuitar sem pular etapas.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Toque o áudio e pause logo depois da 1ª nota.",
+    "Cante a nota e procure-a nas cordas 1, 2 e 3, entre as casas 5 e 8.",
+    "Anote na hora (corda e casa) num papel ou caderno de tab.",
+    "Volte ao início e pause uma nota adiante. Ache e anote.",
+    "Repita até o fim, depois descubra a tab V1 e compare."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-treino em Lá menor. Toque o áudio sem olhar a tab e tire as notas de ouvido.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Quando acertar tudo, refaça em blocos de 3 notas.",
+    "Aplique o mesmo ciclo nos primeiros 6 segundos de um solo real."
+   ],
+   "cuidado": "Tentar tirar três ou quatro notas de uma vez cedo demais: você adivinha e erra o meio da frase.",
+   "inspirado_em": [
+    {
+     "id": "xNlyoGud2A0#I05",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=134s",
+     "video": "xNlyoGud2A0",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Transcrever uma nota por vez com pausa"
+    },
+    {
+     "id": "xNlyoGud2A0#I06",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=200s",
+     "video": "xNlyoGud2A0",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Transcrever duas ou três notas de uma vez"
+    },
+    {
+     "id": "xNlyoGud2A0#I07",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=166s",
+     "video": "xNlyoGud2A0",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Licks inteiros vêm só depois"
+    },
+    {
+     "id": "xNlyoGud2A0#I08",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=233s",
+     "video": "xNlyoGud2A0",
+     "inicio": 233,
+     "momento": "03:55",
+     "ideia": "Anotar cada nota imediatamente"
+    },
+    {
+     "id": "Uin2lUS1ujs#I23",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=844s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 844,
+     "momento": "14:06",
+     "ideia": "Anotar a transcrição enquanto se tira o solo"
+    }
+   ]
+  },
+  {
+   "titulo": "Conferir com o disco: andamento e endereço",
+   "objetivo": "Achar erros escondidos e decidir em que corda cada nota foi tocada.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a sua transcrição junto com a gravação a 60%.",
+    "Marque no papel cada ponto em que você e o disco não batem e corrija.",
+    "Toque a frase em outro endereço: o Lá final na corda 2, casa 10 (V2). Compare o timbre com o original.",
+    "Escolha o dedilhado que soa mais parecido e flui melhor.",
+    "Suba para 70%, 85% e 100%, só passando adiante quando estiver limpo."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Mesmo som, endereços diferentes: o Lá (A) e o Mi (E) da frase em três cordas. Na transcrição você também precisa decidir a corda.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça um bloco de 15 minutos e reconfira no dia seguinte, com o ouvido descansado.",
+    "Só depois disso, compare com uma tab publicada e reouça para decidir quem está certo."
+   ],
+   "cuidado": "Achar que está certo porque soa parecido tocando sozinho. Só tocando junto com o disco você vê o que esqueceu.",
+   "inspirado_em": [
+    {
+     "id": "Uin2lUS1ujs#I22",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=892s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 892,
+     "momento": "14:54",
+     "ideia": "Tocar junto com a gravação para conferir"
+    },
+    {
+     "id": "Uin2lUS1ujs#I24",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+     "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs&t=946s",
+     "video": "Uin2lUS1ujs",
+     "inicio": 946,
+     "momento": "15:48",
+     "ideia": "Esquecer notas ao tocar de memória"
+    },
+    {
+     "id": "xNlyoGud2A0#I12",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=329s",
+     "video": "xNlyoGud2A0",
+     "inicio": 329,
+     "momento": "05:31",
+     "ideia": "Tocar junto com a gravação em andamento reduzido"
+    },
+    {
+     "id": "xNlyoGud2A0#I13",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=363s",
+     "video": "xNlyoGud2A0",
+     "inicio": 363,
+     "momento": "06:05",
+     "ideia": "Verificar posição e corda ao tocar junto"
+    },
+    {
+     "id": "xNlyoGud2A0#I18",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=527s",
+     "video": "xNlyoGud2A0",
+     "inicio": 527,
+     "momento": "08:49",
+     "ideia": "Ouvido aprende cordas e dedilhados com experiência"
+    },
+    {
+     "id": "xNlyoGud2A0#I11",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=297s",
+     "video": "xNlyoGud2A0",
+     "inicio": 297,
+     "momento": "04:59",
+     "ideia": "Revisar a transcrição no dia seguinte"
+    },
+    {
+     "id": "xNlyoGud2A0#I14",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=396s",
+     "video": "xNlyoGud2A0",
+     "inicio": 396,
+     "momento": "06:38",
+     "ideia": "Conferir com transcrições de terceiros sem depender delas"
+    }
+   ]
+  },
+  {
+   "titulo": "Roteiro de análise: por que a frase funciona?",
+   "objetivo": "Relacionar cada nota transcrita ao acorde e extrair o vocabulário.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque V3 e anote primeiro os acordes da base: A7 e D7.",
+    "Em cada nota, escreva o grau em relação ao acorde do compasso.",
+    "Responda: com que grau a frase começa e termina? Em que tempo ela entra?",
+    "Ache o movimento comum aos dois compassos (♭3 → 3 de cada acorde).",
+    "Aplique o mesmo roteiro a 2 frases de um solo que você já tirou."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Frase de blues para analisar: em cada acorde, a ♭3 desliza para a 3ª maior (C→C♯ no A7, F→F♯ no D7).",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente à análise: notas cromáticas, sequências, pausas e notas de passagem.",
+    "Transcreva também a harmonia de uma música inteira antes do solo."
+   ],
+   "cuidado": "Analisar só as notas e esquecer o ritmo e o ponto de entrada no compasso, que são metade do estilo.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I14",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transcrever solos com roteiro de análise"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I05",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Analise harmônica, melódica e ritmicamente a frase"
+    },
+    {
+     "id": "xNlyoGud2A0#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+     "url": "https://www.youtube.com/watch?v=xNlyoGud2A0&t=560s",
+     "video": "xNlyoGud2A0",
+     "inicio": 560,
+     "momento": "09:22",
+     "ideia": "Transcrever os acordes junto com o solo e analisar"
+    },
+    {
+     "id": "Fi1BWmg3JUk#I06",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Mixing Major & Minor Pentatonics In Blues - How, Why and What To Practice! Guitar Lesson Tutorial",
+     "url": "https://www.youtube.com/watch?v=Fi1BWmg3JUk&t=128s",
+     "video": "Fi1BWmg3JUk",
+     "inicio": 128,
+     "momento": "02:10",
+     "ideia": "Transcrever o solo de Crossroads"
+    },
+    {
+     "id": "566LrQfcqgE#I21",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=579s",
+     "video": "566LrQfcqgE",
+     "inicio": 579,
+     "momento": "09:41",
+     "ideia": "Lifting: transcrever solos de mestres"
+    }
+   ]
+  },
+  {
+   "titulo": "Pós-transcrição: a frase viaja de tom",
+   "objetivo": "Transformar a frase tirada em vocabulário utilizável em qualquer tom.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Escreva a frase V1 em graus: ♭3-1-♭7-5 | 4-♭3-1.",
+    "Toque-a em Mi menor na região aberta (V4), cantando os graus.",
+    "Leve-a para Ré menor e Sol menor, achando a tônica primeiro.",
+    "Use a frase 3 vezes num improviso sobre Am, em lugares diferentes."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "A frase V1 transposta para Mi menor, na região das cordas soltas. Os graus não mudam, só o endereço.",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Meta de longo prazo: as 12 tonalidades, um tom por dia.",
+    "Circule no seu solo transcrito só as frases com forte cara harmônica e transponha essas."
+   ],
+   "cuidado": "Transpor de cabeça pelas casas sem ouvir. Cante cada versão antes de tocar.",
+   "inspirado_em": [
+    {
+     "id": "jazzadvice--the-3-secrets-to-transcribing-jazz-solos-82efb0#I10",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "The 3 Secrets to Transcribing Jazz Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/lessons/the-3-secrets-to-transcribing-jazz-solos/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Parar depois de descobrir as notas"
+    },
+    {
+     "id": "jazzadvice--the-3-secrets-to-transcribing-jazz-solos-82efb0#I11",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "The 3 Secrets to Transcribing Jazz Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/lessons/the-3-secrets-to-transcribing-jazz-solos/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pós-transcrição: 12 tonalidades, harmonia e análise"
+    },
+    {
+     "id": "phildegreg--transcription-dfa342#I06",
+     "tipo": "documento",
+     "autor": "phildegreg.com",
+     "titulo": "Transcription - Phil DeGreg",
+     "url": "https://phildegreg.com/teaching/free-practice-materials/transcription/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Método de Phil: transcrever, tempo, circular e transpor"
+    },
+    {
+     "id": "phildegreg--transcription-dfa342#I07",
+     "tipo": "documento",
+     "autor": "phildegreg.com",
+     "titulo": "Transcription - Phil DeGreg",
+     "url": "https://phildegreg.com/teaching/free-practice-materials/transcription/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Extraia frases com forte implicação harmônica"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I16",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ajustar a técnica à linguagem transcrita"
+    }
+   ]
+  },
+  {
+   "titulo": "Literal, depois recriação",
+   "objetivo": "Respeitar o original e depois usá-lo como ponto de partida para a sua voz.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Toque V1 (ou o seu trecho transcrito) junto com a gravação 5 vezes, igual ao original, com o mesmo ritmo e a mesma articulação.",
+    "Toque V5: mesmo contorno, com o início deslocado, uma nota a mais e outro final.",
+    "Crie a sua própria variação mudando só uma coisa por vez.",
+    "Improvise 1 minuto sobre a mesma base no estilo do artista, sem repetir o solo literal."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Recriação de V1: mesmo contorno, com o início deslocado, uma nota a mais e um final diferente (pousa na tônica grave depois de passar pela ♭7).",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Alterne em loop: 4 compassos literais, 4 compassos recriados.",
+    "Faça o mesmo com um solo de blues de BB King ou de Clapton."
+   ],
+   "cuidado": "Recriar antes de dominar a versão literal: aí você perde justamente a linguagem que veio buscar.",
+   "inspirado_em": [
+    {
+     "id": "blog--tgcleary-99b135#I05",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Execução literal de solos gravados"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I06",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Execução literal pode soar mecânica"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I21",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Recriar solos também é possível em níveis intermediários"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I04",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar um improviso próprio após praticar a transcrição"
+    },
+    {
+     "id": "bhYXolbCrr0#I22",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1747s",
+     "video": "bhYXolbCrr0",
+     "inicio": 1747,
+     "momento": "29:09",
+     "ideia": "Aprender o solo nota a nota e depois personalizar"
+    },
+    {
+     "id": "blog--tgcleary-99b135#I24",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Respeitar o solo sem repeti-lo exatamente"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ir direto para uma tablatura pronta e chamar isso de transcrever.",
+  "Escolher um solo rápido, longo ou difícil demais e desistir na primeira sessão.",
+  "Tirar várias notas de uma vez e adivinhar o meio da frase.",
+  "Confiar na memória em vez de anotar: o começo do trecho se apaga.",
+  "Nunca tocar junto com a gravação e deixar notas e ritmos errados passarem.",
+  "Parar nas notas, sem analisar, transpor nem usar a frase no improviso.",
+  "Desanimar com os erros das primeiras transcrições. Eles fazem parte do processo."
+ ],
+ "resumo": [
+  "Transcrever é treinar o ouvido. O papel só ajuda a memória.",
+  "Escolha um trecho curto, que você ama e consegue cantar, com um objetivo claro.",
+  "Ouça em loop, cante, tire uma nota por vez e anote na hora.",
+  "Confira tocando junto com o disco: devagar primeiro, depois no andamento original, na corda certa.",
+  "Depois analise, transponha e recrie. É aí que a frase vira sua."
+ ],
+ "proximos_passos": "Leve as frases que você tirou para a lição \"Licks e vocabulário: aprender e tornar seus\". Para afiar o ouvido que a transcrição exige, siga com \"Treino auditivo e escuta reativa\" e \"Cantar e tocar o que se ouve\". Para escolher bem o que transcrever, veja \"Escuta ativa e referências\".",
+ "_meta": {
+  "subcategoria": "C08.3",
+  "modulo": {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição"
+  },
+  "nome": "Transcrição de solos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:05:46",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 23203,
+   "cache_read": 4913,
+   "output": 9418,
+   "thinking": 2536,
+   "turns": 2,
+   "custo_nominal": 0.3932176
+  }
+ }
+}

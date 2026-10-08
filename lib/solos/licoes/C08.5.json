@@ -1,0 +1,1286 @@
+{
+ "titulo": "Escuta ativa e referências: ouvir como quem estuda",
+ "gancho": "Seus ídolos já resolveram metade dos seus problemas de fraseado. É só aprender a ouvir o que eles fazem.",
+ "porque_importa": "Tudo o que sai no seu improviso entrou antes pelo ouvido. Quem ouve pouco ou ouve distraído acaba tocando a escala em vez de música. Ouvir com método, separando ritmo, toque, respiração e harmonia, transforma suas referências em vocabulário e, com o tempo, em voz própria.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Ouvir não é escutar de fundo",
+   "texto": "Música tocando enquanto você lava a louça alimenta o gosto. A escuta ativa é outra coisa: é estudo. Você para, escolhe um trecho, faz uma pergunta e ouve atrás da resposta. Dez minutos assim rendem mais do que uma tarde de playlist distraída.",
+   "destaque": "Escuta ativa é ouvir com uma pergunta.",
+   "visual": null
+  },
+  {
+   "titulo": "Largo e fundo: as duas escutas",
+   "texto": "A escuta larga junta muitos gêneros, épocas e culturas. É assim que nascem as ideias: Kirk Fletcher formou seu estilo misturando gospel, James Brown e B.B. King. Na escuta funda, você escolhe de 1 a 3 solos, ou um disco inteiro como Texas Flood, e repete até decorar cada bend, vibrato e respiração. Para crescer, você precisa das duas.",
+   "destaque": "Largo para ter ideias, fundo para absorver.",
+   "visual": null
+  },
+  {
+   "titulo": "Desmonte a frase em elementos",
+   "texto": "As notas são só uma camada. Na abertura de Another Brick in the Wall, Gilmour usa um rake na primeira nota e bends no meio e no fim da frase. Clapton, em While My Guitar Gently Weeps, emociona com fraseado, e não com velocidade. Ouça separando as camadas: ritmo e pausas, ataque, bend, vibrato, volume e em qual acorde cada nota cai.",
+   "destaque": "Pergunte como foi tocado, e não só quais notas.",
+   "visual": null
+  },
+  {
+   "titulo": "Roube dos sopros e da voz",
+   "texto": "Cantores e saxofonistas precisam respirar, e por isso a frase deles tem começo, meio e fim. Ouça Cannonball Adderley, Charlie Parker, Bird with Strings ou um bom cantor e repare no tamanho das frases e no vibrato. Uma ideia de outro instrumento soa nova quando chega à guitarra.",
+   "destaque": "A respiração do cantor dá forma à frase.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase do tamanho de uma respiração em Lá menor: fala, respira (compasso vazio), responde e respira de novo. Use-a como base para aplicar o que você ouviu nas suas referências.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Imitar até virar influência",
+   "texto": "No blues e no jazz, a tradição sempre passou pela imitação. O objetivo não é virar uma fotocópia, e sim pegar gestos: o bend de Albert King, o legato sem bend de Wes Montgomery, os motivos de Pat Metheny. Sua voz nasce da soma desses gestos.",
+   "destaque": "Copie gestos, devolva a sua voz.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 10,
+   "porque": "Daniel Seriff explica por que aprofundar poucas músicas faz o guitarrista evoluir mais rápido do que ouvir de tudo um pouco.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=598s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 598,
+    "momento": "10:00",
+    "ideia": "Aprofundar poucas músicas em vez de muitas"
+   }
+  },
+  {
+   "ref": 11,
+   "porque": "O mesmo professor mostra como ouvir muitas vezes o solo de Miles Davis em Freddie Freeloader mudou seu blues: fraseado, ritmo e pacing.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I14",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=666s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 666,
+    "momento": "11:08",
+    "ideia": "Escuta repetida de um solo (Miles Davis)"
+   }
+  },
+  {
+   "ref": 15,
+   "porque": "Justin observa Clapton ao vivo para absorver o movimento do vibrato com os olhos e com os ouvidos.",
+   "fonte": {
+    "id": "i9yDenSMpJk#I14",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+    "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=969s",
+    "video": "i9yDenSMpJk",
+    "inicio": 969,
+    "momento": "16:11",
+    "ideia": "Assistir Clapton para absorver o movimento"
+   }
+  },
+  {
+   "ref": 27,
+   "porque": "That Pedal Show desmonta uma frase de Gilmour em rake, bend e bend final, mostrando a análise por elementos.",
+   "fonte": {
+    "id": "6aJqjgu5LwM#I05",
+    "tipo": "video",
+    "autor": "That Pedal Show",
+    "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+    "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=428s",
+    "video": "6aJqjgu5LwM",
+    "inicio": 428,
+    "momento": "07:10",
+    "ideia": "Três pontos de toque de uma frase"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "Tom Hess compara os primeiros segundos de Eruption com uma versão mecânica e mostra o quanto o rubato pesa.",
+   "fonte": {
+    "id": "0Dz1QC7xk5U#I18",
+    "tipo": "video",
+    "autor": "TomHessMusicCorp",
+    "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+    "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=694s",
+    "video": "0Dz1QC7xk5U",
+    "inicio": 694,
+    "momento": "11:36",
+    "ideia": "Analisar o rubato em Eruption"
+   }
+  },
+  {
+   "ref": 22,
+   "porque": "Paul Davids indica Albert King e Muddy Waters e toca exemplos de como eles contam histórias com poucas notas.",
+   "fonte": {
+    "id": "6n2308MSpjk#I21",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=671s",
+    "video": "6n2308MSpjk",
+    "inicio": 671,
+    "momento": "11:13",
+    "ideia": "Ouvir Albert King e Muddy Waters"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Diário de escuta larga",
+   "objetivo": "Ampliar as referências com um gênero novo por semana e anotar ideias que dá para levar à guitarra.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Escolha um gênero que você nunca ouve (gospel, choro, soul, bebop, country, música árabe) e uma gravação antiga, de antes de 1970.",
+    "Ouça 15 minutos sem fazer outra coisa.",
+    "Anote 3 ideias: um ritmo, um gesto (um deslize, um grito, uma pausa) e um timbre.",
+    "Escolha uma das 3 ideias e tente imitá-la na guitarra numa nota só, sem se preocupar com a escala.",
+    "Repita o processo com outro gênero na semana seguinte."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Monte uma playlist de blues guitar e anote em que compasso dos 12 cada frase de que você gostou começa.",
+    "Faça a semana de um instrumento: só piano, só trompete, só violino."
+   ],
+   "cuidado": "Deixar a música tocando de fundo e achar que isso é estudo. Sem anotar, nada fica.",
+   "inspirado_em": [
+    {
+     "id": "VNSfej3sPII#I20",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=819s",
+     "video": "VNSfej3sPII",
+     "inicio": 819,
+     "momento": "13:41",
+     "ideia": "Ouvir música variada e com frequência"
+    },
+    {
+     "id": "blog--guitar-improvisation-tips-unlock-your-potential-b9ace3#I22",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Improvisation Tips: Unlock Your Potential",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-improvisation-tips-unlock-your-potential/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ouvir música de vários gêneros e culturas"
+    },
+    {
+     "id": "fJs5AALy4GY#I05",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=578s",
+     "video": "fJs5AALy4GY",
+     "inicio": 578,
+     "momento": "09:40",
+     "ideia": "Construir estilo próprio a partir de vários heróis"
+    },
+    {
+     "id": "3kSPGjxI-ns#I32",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=1940s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 1940,
+     "momento": "32:22",
+     "ideia": "Ouvir blues e montar uma playlist de blues guitar"
+    },
+    {
+     "id": "fJs5AALy4GY#I27",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1912s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1912,
+     "momento": "31:54",
+     "ideia": "Estudar padrões de blues, frase e timing"
+    }
+   ]
+  },
+  {
+   "titulo": "Raio-X de uma frase",
+   "objetivo": "Analisar uma frase curta de um ídolo camada por camada, e não só pelas notas.",
+   "nivel": "iniciante",
+   "minutos": 20,
+   "passos": [
+    "Escolha uma frase de 5 a 10 segundos de um guitarrista que você ama (por exemplo, a abertura de Another Brick in the Wall).",
+    "Escuta 1, ritmo: bata palmas no ritmo da frase. Em que tempo ela começa e onde estão as pausas?",
+    "Escuta 2, ataque: quais notas são fortes, quais são suaves e se tem rake ou palhetada seca.",
+    "Escuta 3, ornamentos: marque cada bend, slide e vibrato.",
+    "Escuta 4, harmonia: em qual acorde está a última nota?",
+    "Toque a frase V1 aplicando um elemento de cada vez: primeiro o ritmo da referência, depois o ataque, depois os ornamentos."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase do tamanho de uma respiração em Lá menor: fala, respira (compasso vazio), responde e respira de novo. Use-a como base para aplicar o que você ouviu nas suas referências.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a ficha de um solo de Clapton e de um de Jeff Beck e compare as duas.",
+    "Use uma frase de cantor em vez de uma de guitarra."
+   ],
+   "cuidado": "Tentar perceber tudo na mesma escuta. Faça uma pergunta por vez.",
+   "inspirado_em": [
+    {
+     "id": "ECtdGsEEecI#I10",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=305s",
+     "video": "ECtdGsEEecI",
+     "inicio": 305,
+     "momento": "05:07",
+     "ideia": "Escutar o ritmo de bons músicos"
+    },
+    {
+     "id": "6aJqjgu5LwM#I05",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=428s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 428,
+     "momento": "07:10",
+     "ideia": "Três pontos de toque de uma frase"
+    },
+    {
+     "id": "Anop2dCuR2g#I02",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=77s",
+     "video": "Anop2dCuR2g",
+     "inicio": 77,
+     "momento": "01:19",
+     "ideia": "Bends e fraseado no solo de Clapton"
+    },
+    {
+     "id": "Anop2dCuR2g#I14",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=587s",
+     "video": "Anop2dCuR2g",
+     "inicio": 587,
+     "momento": "09:49",
+     "ideia": "Volume swells, bends e vibratos de Jeff Beck"
+    }
+   ]
+  },
+  {
+   "titulo": "Roube um gesto, não um lick",
+   "objetivo": "Identificar a assinatura de um ídolo, observando e ouvindo, e aplicá-la às suas próprias notas.",
+   "nivel": "intermediario",
+   "minutos": 20,
+   "passos": [
+    "Assista a um vídeo ao vivo do seu ídolo (Clapton, B.B. King, Albert King) olhando só a mão esquerda.",
+    "Descreva a assinatura em uma frase. Exemplos: 'vibrato largo e lento no fim da frase' ou 'bend de tom e meio na primeira nota'.",
+    "Ouça 5 vezes só esse gesto, sem prestar atenção nas notas.",
+    "Toque V1 com as suas notas, mas usando esse gesto em todo pouso (notas com anel).",
+    "Grave 20 segundos e compare com a referência: o gesto está parecido?"
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase do tamanho de uma respiração em Lá menor: fala, respira (compasso vazio), responde e respira de novo. Use-a como base para aplicar o que você ouviu nas suas referências.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Para o vibrato clássico, ouça um violonista clássico tocando uma melodia lenta.",
+    "Junte dois gestos de dois ídolos diferentes na mesma frase."
+   ],
+   "cuidado": "Copiar a frase inteira do ídolo. O exercício é transplantar um gesto só para uma frase sua.",
+   "inspirado_em": [
+    {
+     "id": "oQpLyyRCc6A#I12",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=248s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 248,
+     "momento": "04:10",
+     "ideia": "Estude vibrato observando guitarristas ao vivo"
+    },
+    {
+     "id": "i9yDenSMpJk#I14",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=969s",
+     "video": "i9yDenSMpJk",
+     "inicio": 969,
+     "momento": "16:11",
+     "ideia": "Assistir Clapton para absorver o movimento"
+    },
+    {
+     "id": "i9yDenSMpJk#I25",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1569s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1569,
+     "momento": "26:11",
+     "ideia": "Imitar o vibrato de um guitarrista admirado"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I11",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Copiar um guitarrista admirado"
+    },
+    {
+     "id": "i9yDenSMpJk#I07",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=375s",
+     "video": "i9yDenSMpJk",
+     "inicio": 375,
+     "momento": "06:17",
+     "ideia": "Ouvir linhas de violão clássico"
+    },
+    {
+     "id": "UiCQL5cxnUA#I11",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=431s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 431,
+     "momento": "07:13",
+     "ideia": "Estudar The Thrill Is Gone de B.B. King"
+    },
+    {
+     "id": "zSTAvmXG5m8#I35",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=1170s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 1170,
+     "momento": "19:32",
+     "ideia": "Escuta de Albert King para estudar cadência"
+    }
+   ]
+  },
+  {
+   "titulo": "Cronômetro do cantor",
+   "objetivo": "Medir o tamanho das frases de um sopro ou de um cantor e improvisar dentro dessa medida.",
+   "nivel": "intermediario",
+   "minutos": 30,
+   "passos": [
+    "Ouça um saxofonista (Cannonball Adderley, Charlie Parker em Bird with Strings) ou um cantor numa balada por cerca de 20 minutos.",
+    "Com um cronômetro, meça 10 frases, do primeiro som até a respiração. Anote a duração média e quanto dura o silêncio entre elas.",
+    "Escolha a frase que mais te marcou e cante o contorno dela: se sobe ou desce, e onde ela fica parada.",
+    "Na pentatônica de V2, improvise frases com essa mesma duração e com os mesmos silêncios, imitando o contorno.",
+    "No fim, toque V1 com a duração e o vibrato do saxofonista."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5: é onde você vai testar as frases de sax e de cantor que ouvir. Os anéis marcam as tônicas.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Compare um cantor de soul com um saxofonista de bebop: quem faz frases mais longas?",
+    "Repita com um violinista ou um trompetista."
+   ],
+   "cuidado": "Encher as pausas por ansiedade. Se o cantor respira 2 segundos, você também respira.",
+   "inspirado_em": [
+    {
+     "id": "blog--guitar-phrasing-97a22b#I13",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar saxofonistas de jazz"
+    },
+    {
+     "id": "7P1e_7rqemY#I04",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+     "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=183s",
+     "video": "7P1e_7rqemY",
+     "inicio": 183,
+     "momento": "03:05",
+     "ideia": "Estudar cantores e instrumentistas de sopro"
+    },
+    {
+     "id": "6aJqjgu5LwM#I13",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=735s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 735,
+     "momento": "12:17",
+     "ideia": "Estudar fraseado com cantores e vibrato"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I19",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar uma balada com cordas"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I28",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar outros instrumentos"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I19",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar solos de outros instrumentos"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I22",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 4: estudar fraseado de saxofonistas"
+    }
+   ]
+  },
+  {
+   "titulo": "A melodia conversa com o acorde",
+   "objetivo": "Ouvir e tocar uma frase que muda de nota-alvo quando a harmonia muda, como no solo de Stairway to Heaven.",
+   "nivel": "intermediario",
+   "minutos": 20,
+   "passos": [
+    "Grave ou faça um loop de Am e F, dois compassos de cada (V4).",
+    "Toque V3 sozinho primeiro e cante a nota final de cada compasso.",
+    "Toque V3 por cima da base. Repare como o Fá pousado sobre o acorde de F soa como chegada.",
+    "Agora troque o Fá pelo Sol (corda 2, casa 8) no compasso do F e compare. A frase perde o abraço do acorde.",
+    "Ouça um solo de referência (o de Stairway to Heaven ou o tema de Because We've Ended as Lovers) e marque em quais acordes caem as notas mais longas."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "A melodia conversa com o acorde: no Fá, a frase sai da pentatônica e pousa na nota Fá (o Sol do F vira a 7ª maior, Mi), na mesma ideia do solo de Stairway to Heaven. Depois volta ao Lá menor e pousa na ♭3.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Ouça um solo de country ou de bebop e tente cantar a troca de acordes só pela linha do solo.",
+    "Crie sua própria frase que pouse na nota Lá sobre o Am e na nota Fá sobre o F."
+   ],
+   "cuidado": "Analisar a melodia sem a base. Para ouvir a conversa, a harmonia precisa estar soando.",
+   "inspirado_em": [
+    {
+     "id": "Anop2dCuR2g#I15",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=587s",
+     "video": "Anop2dCuR2g",
+     "inicio": 587,
+     "momento": "09:49",
+     "ideia": "Estudar o tema melódico da introdução"
+    },
+    {
+     "id": "W96yUcOEub0#I25",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+     "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=1257s",
+     "video": "W96yUcOEub0",
+     "inicio": 1257,
+     "momento": "20:59",
+     "ideia": "Referência de Stairway to Heaven"
+    },
+    {
+     "id": "HY5qWMbvsjY#I18",
+     "tipo": "video",
+     "autor": "Marin Music Center",
+     "titulo": "Guitar Soloing Guide: Tips and Techniques - Guitar Lessons with Stuart!",
+     "url": "https://www.youtube.com/watch?v=HY5qWMbvsjY&t=1033s",
+     "video": "HY5qWMbvsjY",
+     "inicio": 1033,
+     "momento": "17:15",
+     "ideia": "Solo de Stairway to Heaven como estudo"
+    },
+    {
+     "id": "EMQydbilqmo#I28",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=572s",
+     "video": "EMQydbilqmo",
+     "inicio": 572,
+     "momento": "09:34",
+     "ideia": "Ouvir muitos solos"
+    },
+    {
+     "id": "iWm_dxEszu0#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "\"Learn The Modes!\" is Horrible Advice - This is A Better Skill",
+     "url": "https://www.youtube.com/watch?v=iWm_dxEszu0&t=197s",
+     "video": "iWm_dxEszu0",
+     "inicio": 197,
+     "momento": "03:19",
+     "ideia": "Ouvir bebop para perceber as trocas de acordes"
+    },
+    {
+     "id": "iWm_dxEszu0#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "\"Learn The Modes!\" is Horrible Advice - This is A Better Skill",
+     "url": "https://www.youtube.com/watch?v=iWm_dxEszu0&t=197s",
+     "video": "iWm_dxEszu0",
+     "inicio": 197,
+     "momento": "03:19",
+     "ideia": "Solos de country que tocam sobre as trocas de acordes"
+    }
+   ]
+  },
+  {
+   "titulo": "O disco do mês: escuta funda",
+   "objetivo": "Absorver o fraseado, o ritmo e o pacing de uma referência ouvindo a mesma obra muitas vezes ao longo de 4 semanas.",
+   "nivel": "avancado",
+   "minutos": 30,
+   "passos": [
+    "Escolha um disco ou de 1 a 3 solos que você ama de verdade (Texas Flood, Freddie Freeloader, Smokin' at the Half Note).",
+    "Semana 1: ouça todo dia, só ouvindo. Cante junto as frases que grudarem.",
+    "Semana 2: escolha um solo e preste atenção no pacing. Onde ele começa calmo, onde acelera, onde está o pico?",
+    "Semana 3: toque junto com a gravação usando só as suas notas, imitando a densidade e os silêncios do solista.",
+    "Semana 4: improvise sobre uma base parecida sem a gravação e anote o que da referência apareceu sem você pensar."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Compare os dois solos de John Mayer na versão ao vivo de Slow Dancing in a Burning Room: o que muda sobre a mesma progressão?",
+    "Ouça a primeira metade de Eruption e imagine os mesmos licks em tempo mecânico. O que o rubato acrescenta?"
+   ],
+   "cuidado": "Trocar de disco na segunda semana porque enjoou. A profundidade aparece depois do tédio.",
+   "inspirado_em": [
+    {
+     "id": "fJs5AALy4GY#I07",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=853s",
+     "video": "fJs5AALy4GY",
+     "inicio": 853,
+     "momento": "14:15",
+     "ideia": "Aprender feeling copiando um disco inteiro"
+    },
+    {
+     "id": "BQTrA3hpqkM#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=598s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 598,
+     "momento": "10:00",
+     "ideia": "Aprofundar poucas músicas em vez de muitas"
+    },
+    {
+     "id": "BQTrA3hpqkM#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=666s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 666,
+     "momento": "11:08",
+     "ideia": "Escuta repetida de um solo (Miles Davis)"
+    },
+    {
+     "id": "phildegreg--transcription-dfa342#I05",
+     "tipo": "documento",
+     "autor": "phildegreg.com",
+     "titulo": "Transcription - Phil DeGreg",
+     "url": "https://phildegreg.com/teaching/free-practice-materials/transcription/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escolha um solo de que você realmente gosta"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I12",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Assistir ao improviso ao vivo de Mayer"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I18",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=694s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 694,
+     "momento": "11:36",
+     "ideia": "Analisar o rubato em Eruption"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ouvir sempre os mesmos 3 guitarristas do mesmo estilo e esperar ideias novas.",
+  "Ouvir só as notas e ignorar ritmo, ataque, vibrato e silêncio.",
+  "Pular de música em música sem nunca aprofundar nenhuma.",
+  "Copiar o ídolo nota por nota e chamar isso de estilo, em vez de transformar gestos em influência.",
+  "Ouvir só guitarristas e deixar de lado cantores e sopros, que são os mais melódicos.",
+  "Analisar a melodia sem ouvir os acordes por baixo."
+ ],
+ "resumo": [
+  "Escuta ativa é ouvir com uma pergunta e anotar a resposta.",
+  "Escuta larga traz ideias; escuta funda (1 a 3 solos ou um disco) traz absorção.",
+  "Desmonte a frase em camadas: ritmo, ataque, ornamentos, harmonia.",
+  "Cantores e sopros ensinam a respirar: copie a duração e o contorno das frases.",
+  "Roube gestos, não licks: a soma das influências vira a sua voz."
+ ],
+ "proximos_passos": "Quando uma frase te pegar na escuta, leve-a para Cantar e tocar o que se ouve e depois para Transcrição de solos. Se quiser guardá-la como vocabulário, siga para Licks e vocabulário: aprender e tornar seus. Para afiar o ouvido que sustenta tudo isso, use Treino auditivo e escuta reativa. Para aproveitar o que os sopros ensinam sobre pausas, revise Espaço, silêncio e respiração.",
+ "_meta": {
+  "subcategoria": "C08.5",
+  "modulo": {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição"
+  },
+  "nome": "Escuta ativa e referências",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:09:34",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 20729,
+   "cache_read": 4913,
+   "output": 9026,
+   "thinking": 2179,
+   "turns": 2,
+   "custo_nominal": 0.3634966
+  }
+ }
+}
