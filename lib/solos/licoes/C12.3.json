@@ -1,0 +1,1500 @@
+{
+ "titulo": "Harmonia de jazz para o solista: ler a música em blocos",
+ "gancho": "Um standard não tem 32 acordes soltos. Tem meia dúzia de frases, e você já conhece quase todas.",
+ "porque_importa": "No jazz a harmonia muda depressa e muda de tonalidade no meio da música. Quem lê acorde por acorde fica sempre um passo atrás da banda. Quem enxerga os blocos (ii-V-I, turnaround, dominante secundária) sabe para onde a música vai e consegue tocar em direção a ela.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "O jazz é tonal e funcional",
+   "texto": "Num blues ou num rock a progressão costuma ficar numa tonalidade só. Num standard de jazz há uma ou duas trocas por compasso, acordes alterados e mudanças de tonalidade no meio do tema. Trocar de escala a cada acorde não dá conta disso. O caminho é entender o que cada acorde faz: preparar, tensionar ou resolver.",
+   "destaque": "Siga o movimento da harmonia, não a etiqueta de cada acorde.",
+   "visual": null
+  },
+  {
+   "titulo": "ii-V-I: a palavra mais comum da língua",
+   "texto": "Em Dó maior o bloco é Dm7 → G7 → Cmaj7, com as raízes subindo uma 4ª justa a cada passo. Na versão menor o ii vira meio-diminuto e o V continua dominante: Dm7♭5 → G7 → Cm7 (ou Cm6). O tipo do ii já avisa se o destino é maior ou menor. Toque os três acordes como uma frase só, não como três paradas.",
+   "destaque": "ii m7 aponta para um I maior. ii m7♭5 aponta para um i menor.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "ii-V-I em Dó maior: Dm7 → G7 → Cmaj7. As raízes sobem uma 4ª justa a cada passo (D→G→C).",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "Dm7",
+      "digitacao": "x57565"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "353433"
+     },
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Dominante secundária: pergunte para onde ela vai",
+   "texto": "Todo acorde do campo pode ser preparado pelo seu próprio V7. Em Dó: A7→Dm7, B7→Em7, C7→Fmaj7, D7→G7, E7→Am7. São acordes de fora que soam naturais, porque criam movimento sem mudar a tonalidade. Ao ver um dominante estranho na cifra, procure o acorde uma 4ª acima: quase sempre é o próximo. Coloque o ii antes dele e você tem um ii-V secundário. Se o alvo é maior, o ii é m7. Se é menor, o ii é m7♭5.",
+   "destaque": "Um dominante fora do tom é uma seta: leia o destino.",
+   "visual": {
+    "id": "V7",
+    "tipo": "acordes",
+    "legenda": "As dominantes secundárias de Dó maior e seus alvos: A7→Dm7, B7→Em7, C7→Fmaj7, D7→G7, E7→Am7. Cada uma resolve uma 4ª acima.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "B7",
+      "digitacao": "x21202"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x32310"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Turnaround e rhythm changes",
+   "texto": "O turnaround I-VI7-ii-V (Cmaj7-A7-Dm7-G7) fecha uma seção e devolve a música ao início. Pense nele como um único movimento de quatro acordes. O rhythm changes é uma forma AABA de 32 compassos, quase sempre em B♭, em que a seção A gira em torno desse mesmo turnaround: B♭-G7-Cm7-F7. Outro bloco frequente é o IV - iv menor - I (Fmaj7-Fm6-Cmaj7).",
+   "destaque": "Quatro acordes, um gesto.",
+   "visual": {
+    "id": "V3",
+    "tipo": "acordes",
+    "legenda": "Turnaround I-VI7-ii-V em Dó: Cmaj7 → A7 → Dm7 → G7. O A7 é dominante secundária e leva ao Dm7.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x35453"
+     },
+     {
+      "nome": "A7",
+      "digitacao": "575655"
+     },
+     {
+      "nome": "Dm7",
+      "digitacao": "x57565"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "353433"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Chunking: ler palavras, não soletrar",
+   "texto": "Ao abrir um standard, procure primeiro os ii-V. Autumn Leaves tem um ii-V-I em B♭ maior e um ii-V-i em Sol menor. Solar tem ii-V-I em Fá, em Mi♭ e em Ré♭, e termina num ii-V menor para Dó menor. Blue Bossa é feita de i-iv, ii-V-i menor e um ii-V-I em Ré♭. Não decore uma lista de blocos: reconheça-os nas músicas que você toca, e eles se fixam com som.",
+   "destaque": "Doze acordes viram quatro blocos, e a música cabe na cabeça.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 7,
+   "porque": "Jens Larsen explica por que os profissionais leem a cifra em blocos de progressão, e não acorde por acorde.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I07",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=218s",
+    "video": "2OxHReoGIqs",
+    "inicio": 218,
+    "momento": "03:40",
+    "ideia": "Pensar em blocos de progressão, não em acordes isolados"
+   }
+  },
+  {
+   "ref": 21,
+   "porque": "O turnaround I-VI7-ii-V tocado e explicado como um único movimento.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I11",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=311s",
+    "video": "2OxHReoGIqs",
+    "inicio": 311,
+    "momento": "05:13",
+    "ideia": "Turnaround I-VI7-ii-V"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "Os dois ii-V secundários de Fly Me to the Moon lado a lado: o ii muda de tipo conforme o alvo.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I18",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=488s",
+    "video": "2OxHReoGIqs",
+    "inicio": 488,
+    "momento": "08:10",
+    "ideia": "ii-V secundários em Fly Me to the Moon"
+   }
+  },
+  {
+   "ref": 23,
+   "porque": "O exercício em rubato sobre Cmaj7, A7 e Dm7, adaptando a mesma frase de ouvido.",
+   "fonte": {
+    "id": "yw6K7j6GbDc#I19",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+    "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=464s",
+    "video": "yw6K7j6GbDc",
+    "inicio": 464,
+    "momento": "07:46",
+    "ideia": "Rubato sobre o turnaround: frase em Cmaj7, A7 e Dm7"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "Ozeias Rodrigues toca a mesma frase de dominante preparando cada acorde do campo de Dó num loop.",
+   "fonte": {
+    "id": "PLRMB8b_3pk#I11",
+    "tipo": "video",
+    "autor": "Ozeias Rodrigues",
+    "titulo": "Esse truque me fez improvisar por acordes.",
+    "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=442s",
+    "video": "PLRMB8b_3pk",
+    "inicio": 442,
+    "momento": "07:24",
+    "ideia": "Tocar frase de dominante sobre loop de Dó maior"
+   }
+  },
+  {
+   "ref": 49,
+   "porque": "Solar dissecado em blocos de ii-V-I que descem de tonalidade.",
+   "fonte": {
+    "id": "2OxHReoGIqs#I09",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=275s",
+    "video": "2OxHReoGIqs",
+    "inicio": 275,
+    "momento": "04:37",
+    "ideia": "Reconhecer ii-V-I em Solar"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Detetive de blocos: três standards no papel",
+   "objetivo": "Transformar cifras longas em poucos blocos conhecidos antes de tocar uma nota.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Escreva a 1ª parte de Autumn Leaves: Cm7 | F7 | B♭maj7 | E♭maj7 | Am7♭5 | D7 | Gm7 | Gm7.",
+    "Circule os ii-V: Cm7-F7-B♭maj7 (ii-V-I em B♭ maior) e Am7♭5-D7-Gm7 (ii-V-i em Sol menor). Repare que o tipo do ii já anunciava o tipo do destino.",
+    "Faça o mesmo com Solar: Cm | Cm | Gm7 | C7 | Fmaj7 | Fmaj7 | Fm7 | B♭7 | E♭maj7 | E♭m7 A♭7 | D♭maj7 | Dm7♭5 G7. Ache os três ii-V-I maiores (Fá, Mi♭, Ré♭) e o ii-V menor que volta a Cm.",
+    "Repita com Blue Bossa: Cm7 | Cm7 | Fm7 | Fm7 | Dm7♭5 | G7 | Cm7 | Cm7 | E♭m7 | A♭7 | D♭maj7 | D♭maj7 | Dm7♭5 | G7 | Cm7 | Dm7♭5 G7.",
+    "Diga cada música em voz alta só pelos nomes dos blocos, por exemplo: 'ii-V-I em B♭, IV, ii-V menor em Sol'."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Toque só a fundamental de cada acorde junto com uma gravação do tema, falando o nome do bloco na troca.",
+    "Pegue um standard novo (All of Me, Satin Doll) e faça a análise sozinho em menos de 5 minutos."
+   ],
+   "cuidado": "Querer dar uma escala para cada acorde antes de achar os blocos. Primeiro agrupe, depois pense nas notas.",
+   "inspirado_em": [
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I29",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Autumn Leaves tem ii-V-I em duas tonalidades"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I27",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Checkpoint com Autumn Leaves"
+    },
+    {
+     "id": "2OxHReoGIqs#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=218s",
+     "video": "2OxHReoGIqs",
+     "inicio": 218,
+     "momento": "03:40",
+     "ideia": "Pensar em blocos de progressão, não em acordes isolados"
+    },
+    {
+     "id": "EMQydbilqmo#I22",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=464s",
+     "video": "EMQydbilqmo",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Agrupar acordes para memorizar a música"
+    },
+    {
+     "id": "2OxHReoGIqs#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=275s",
+     "video": "2OxHReoGIqs",
+     "inicio": 275,
+     "momento": "04:37",
+     "ideia": "Reconhecer ii-V-I em Solar"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I05",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=68s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 68,
+     "momento": "01:10",
+     "ideia": "Progressão inicial de Blue Bossa"
+    },
+    {
+     "id": "EMQydbilqmo#I20",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=398s",
+     "video": "EMQydbilqmo",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Achar ii-V nas músicas"
+    }
+   ]
+  },
+  {
+   "titulo": "ii-V-I maior como um gesto só",
+   "objetivo": "Sentir os três acordes como uma frase contínua que resolve, e não como três caixas.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque os acordes de V1 em loop, 4 tempos cada, até as trocas saírem sem olhar.",
+    "Toque a linha de V4 a 70 bpm. Repare nas duas resoluções: C→B na entrada do G7 e F→E na entrada do Cmaj7.",
+    "Respeite o compasso vazio no final: o pouso no E precisa soar.",
+    "Crie uma linha sua de 4 notas por acorde que comece em qualquer nota do Dm7 e chegue ao B no tempo 1 do G7 e ao E no tempo 1 do Cmaj7."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "ii-V-I maior como um gesto só: o C (♭7 do Dm7) cai meio tom e vira o B (3ª do G7), e o F (♭7 do G7) cai e vira o E (3ª do Cmaj7). Depois vem um compasso de silêncio.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mova tudo duas casas para baixo e toque em B♭ maior (Cm7-F7-B♭maj7), o primeiro bloco de Autumn Leaves.",
+    "Toque a linha em colcheias com swing, dobrando as notas do arpejo."
+   ],
+   "cuidado": "Parar entre os acordes para pensar. O bloco só funciona quando a última nota de um compasso já empurra para o próximo.",
+   "inspirado_em": [
+    {
+     "id": "2OxHReoGIqs#I14",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=358s",
+     "video": "2OxHReoGIqs",
+     "inicio": 358,
+     "momento": "06:00",
+     "ideia": "Tocar o chunk como um movimento"
+    },
+    {
+     "id": "2OxHReoGIqs#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=247s",
+     "video": "2OxHReoGIqs",
+     "inicio": 247,
+     "momento": "04:09",
+     "ideia": "ii-V-I como a progressão mais importante do jazz"
+    },
+    {
+     "id": "5hmSQuMIf-w#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=30s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Função do ii-V-I"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I40",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ii-V-I com quarta justa entre raízes"
+    }
+   ]
+  },
+  {
+   "titulo": "Mesmo lugar, outro destino: ii-V-i menor",
+   "objetivo": "Ouvir e tocar as diferenças entre o ii-V maior e o menor na mesma região do braço.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque V1 e depois V2 em sequência e ouça a mudança: Dm7 vira Dm7♭5 (o A vira A♭) e Cmaj7 vira Cm7.",
+    "Toque a linha de V5. Compare com V4: mesmas cordas, mas agora o A♭ aparece tanto como ♭5 do Dm7♭5 quanto como ♭9 do G7.",
+    "Alterne 4 compassos de V4 com 4 compassos de V5 sem parar.",
+    "Improvise 2 rodadas no ii-V-i menor usando só as notas de Dm7♭5, G7 com ♭9 e Cm7, sempre pousando no E♭ (♭3) do Cm7."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "A mesma região em Dó menor: Dm7♭5 desce pelo arpejo, o G7 ganha a ♭9 (A♭) e o F cai no E♭, a 3ª menor do Cm7.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7♭5",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Transponha o bloco para Sol menor (Am7♭5-D7-Gm7) subindo 7 casas ou descendo 5: é o segundo bloco de Autumn Leaves.",
+    "Termine em Cm6 em vez de Cm7 e pouse no A (6ª)."
+   ],
+   "cuidado": "Tocar o A natural no ii-V menor por hábito do maior. No Dm7♭5 e no G7 que vai para menor, quem soa é o A♭.",
+   "inspirado_em": [
+    {
+     "id": "2OxHReoGIqs#I12",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=328s",
+     "video": "2OxHReoGIqs",
+     "inicio": 328,
+     "momento": "05:30",
+     "ideia": "ii-V menor em Dó menor"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I29",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Autumn Leaves tem ii-V-I em duas tonalidades"
+    }
+   ]
+  },
+  {
+   "titulo": "Turnaround: rubato, três notas e depois a linha",
+   "objetivo": "Tocar I-VI7-ii-V como um único movimento, marcando a dominante secundária.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Fora do tempo, toque uma frase curta sobre Cmaj7 com os acordes de V3 soando (gravados ou no looper). Adapte a mesma frase para A7 mudando o que for preciso (C vira C♯) e depois para Dm7. Deixe o ouvido decidir.",
+    "No tempo, a 72 bpm, escolha só três notas por acorde e improvise 8 rodadas variando apenas o ritmo.",
+    "Toque a linha de V6. O C♯ (3ª do A7) é a nota que avisa que a harmonia saiu do tom.",
+    "Volte ao improviso livre e pouse na 3ª de cada acorde em pelo menos uma de cada duas rodadas."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Turnaround I-VI7-ii-V numa linha só. Cada acorde é marcado pela 3ª ou pela nota que resolve: o C♯ do A7 puxa para o Ré, o B♭ (♭9) cai no A e o C cai no B do G7.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o turnaround por Cmaj7-E7-Am7-D7-Dm7-G7 e ache a nota que marca cada dominante (G♯ no E7, F♯ no D7).",
+    "Toque o turnaround com dois tempos por acorde, como no fim de muitos standards."
+   ],
+   "cuidado": "Tocar escala de Dó maior por cima do A7. O C natural colide com o C♯ do acorde e apaga a dominante secundária.",
+   "inspirado_em": [
+    {
+     "id": "h4zQjSecjvI#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=35s",
+     "video": "h4zQjSecjvI",
+     "inicio": 35,
+     "momento": "00:37",
+     "ideia": "Turnaround em C maior"
+    },
+    {
+     "id": "2OxHReoGIqs#I11",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=311s",
+     "video": "2OxHReoGIqs",
+     "inicio": 311,
+     "momento": "05:13",
+     "ideia": "Turnaround I-VI7-ii-V"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I08",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Progressão de exemplo"
+    },
+    {
+     "id": "yw6K7j6GbDc#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=464s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Rubato sobre o turnaround: frase em Cmaj7, A7 e Dm7"
+    },
+    {
+     "id": "yw6K7j6GbDc#I22",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=531s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 531,
+     "momento": "08:53",
+     "ideia": "Limitação com três notas por acorde, tocado no tempo"
+    }
+   ]
+  },
+  {
+   "titulo": "Para onde vai esse dominante?",
+   "objetivo": "Reconhecer as dominantes secundárias pelo destino e tocar os ii-V secundários.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque cada par de V7 e resolva: A7→Dm7, B7→Em7, C7→Fmaj7, D7→G7, E7→Am7. Diga o destino antes de trocar de acorde.",
+    "Para cada uma, cante ou toque a 3ª do dominante subindo meio tom até a fundamental do alvo: C♯→D, D♯→E, E→F, F♯→G, G♯→A.",
+    "Monte os dois ii-V secundários de Fly Me to the Moon: Bm7♭5-E7-Am7 (alvo menor, ii meio-diminuto) e Gm7-C7-Fmaj7 (alvo maior, ii m7).",
+    "Toque um loop de dois compassos por acorde no campo de Dó (Am7-Dm7-G7-Cmaj7-Fmaj7). No 2º compasso de cada um, toque uma frase de 4 notas no arpejo do dominante do próximo acorde (E7 antes de Am7, A7 antes de Dm7 etc.)."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "acordes",
+    "legenda": "As dominantes secundárias de Dó maior e seus alvos: A7→Dm7, B7→Em7, C7→Fmaj7, D7→G7, E7→Am7. Cada uma resolve uma 4ª acima.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "B7",
+      "digitacao": "x21202"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x32310"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Aplique a ideia em All of Me: E7 prepara Am7 e A7 prepara Dm7.",
+    "Feche o ciclo: Am7-Dm7-G7-Cmaj7-Fmaj7-Bm7♭5-E7-Am7 em shapes próximos, raízes descendo em quintas."
+   ],
+   "cuidado": "Achar que a dominante secundária mudou a tonalidade. Ela só aponta um acorde do campo, e logo em seguida você volta às notas de Dó.",
+   "inspirado_em": [
+    {
+     "id": "2OxHReoGIqs#I15",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=391s",
+     "video": "2OxHReoGIqs",
+     "inicio": 391,
+     "momento": "06:33",
+     "ideia": "Dominante secundária"
+    },
+    {
+     "id": "PLRMB8b_3pk#I03",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=163s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Dominante secundário de Dm7 é A7"
+    },
+    {
+     "id": "PLRMB8b_3pk#I04",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=197s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 197,
+     "momento": "03:19",
+     "ideia": "Cadeia de dominantes secundários no campo de Dó"
+    },
+    {
+     "id": "2OxHReoGIqs#I06",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=178s",
+     "video": "2OxHReoGIqs",
+     "inicio": 178,
+     "momento": "03:00",
+     "ideia": "E7 como dominante extra que puxa para Am7"
+    },
+    {
+     "id": "2OxHReoGIqs#I16",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=429s",
+     "video": "2OxHReoGIqs",
+     "inicio": 429,
+     "momento": "07:11",
+     "ideia": "Identificar dominante secundária na partitura"
+    },
+    {
+     "id": "2OxHReoGIqs#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=505s",
+     "video": "2OxHReoGIqs",
+     "inicio": 505,
+     "momento": "08:27",
+     "ideia": "Antecipar para onde vai o acorde fora de tom"
+    },
+    {
+     "id": "2OxHReoGIqs#I17",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=468s",
+     "video": "2OxHReoGIqs",
+     "inicio": 468,
+     "momento": "07:50",
+     "ideia": "ii-V antes da dominante secundária"
+    },
+    {
+     "id": "2OxHReoGIqs#I18",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=488s",
+     "video": "2OxHReoGIqs",
+     "inicio": 488,
+     "momento": "08:10",
+     "ideia": "ii-V secundários em Fly Me to the Moon"
+    },
+    {
+     "id": "2OxHReoGIqs#I05",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=171s",
+     "video": "2OxHReoGIqs",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Sequência Am7-Dm7-G7-Cmaj7-Fmaj7-Bm7♭5-E7-Am7"
+    },
+    {
+     "id": "PLRMB8b_3pk#I18",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=796s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 796,
+     "momento": "13:18",
+     "ideia": "Uma frase serve para todo o campo harmônico"
+    },
+    {
+     "id": "PLRMB8b_3pk#I11",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=442s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 442,
+     "momento": "07:24",
+     "ideia": "Tocar frase de dominante sobre loop de Dó maior"
+    },
+    {
+     "id": "PLRMB8b_3pk#I24",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=1203s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 1203,
+     "momento": "20:05",
+     "ideia": "Aplicar a frase de dominante ao tema All of Me"
+    }
+   ]
+  },
+  {
+   "titulo": "Rhythm changes e o turnaround nas 12 tonalidades",
+   "objetivo": "Levar um bloco pronto para qualquer tom e usá-lo na seção A do rhythm changes.",
+   "nivel": "avancado",
+   "minutos": 20,
+   "passos": [
+    "Desça a linha de V6 duas casas: agora ela soa sobre B♭maj7-G7-Cm7-F7, os dois primeiros compassos do A do rhythm changes.",
+    "Toque essa linha em loop sobre os 8 compassos da seção A, variando só a última nota da rodada.",
+    "Leve a linha original pelo ciclo de quartas: Dó, Fá, Si♭, Mi♭, Lá♭, Ré♭, Fá♯, Si, Mi, Lá, Ré, Sol. Primeiro ache a 3ª do VI7 em cada tom, depois toque a linha inteira.",
+    "Quando ela estiver firme nos 12 tons, crie uma segunda linha para o mesmo turnaround e recomece. A meta é chegar a dez."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Turnaround I-VI7-ii-V numa linha só. Cada acorde é marcado pela 3ª ou pela nota que resolve: o C♯ do A7 puxa para o Ré, o B♭ (♭9) cai no A e o C cai no B do G7.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Gire um ciclo só de dominantes (E7-A7-D7-G7-C7-F7...) com a frase do A7 transposta em cada acorde.",
+    "Estude ii-V que descem meio tom (Dm7-G7, D♭m7-G♭7, Cm7-F7...) com a mesma linha encurtada."
+   ],
+   "cuidado": "Tocar a seção A inteira só com a escala de B♭ maior. Soa aceitável, mas não marca o G7 nem o F7, e você fica sem ideias depois de dois compassos.",
+   "inspirado_em": [
+    {
+     "id": "ruwSeYsJtgI#I09",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=334s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 334,
+     "momento": "05:36",
+     "ideia": "Ciclo de quintas como sucessão de V7 para V7"
+    },
+    {
+     "id": "ruwSeYsJtgI#I08",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=301s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 301,
+     "momento": "05:03",
+     "ideia": "Exercício do ciclo de quintas com acordes dominantes"
+    },
+    {
+     "id": "7mpVem0mrQE#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+     "url": "https://www.youtube.com/watch?v=7mpVem0mrQE&t=177s",
+     "video": "7mpVem0mrQE",
+     "inicio": 177,
+     "momento": "02:59",
+     "ideia": "Rhythm changes é a forma AABA"
+    },
+    {
+     "id": "7mpVem0mrQE#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+     "url": "https://www.youtube.com/watch?v=7mpVem0mrQE&t=177s",
+     "video": "7mpVem0mrQE",
+     "inicio": 177,
+     "momento": "02:59",
+     "ideia": "Improvisar só com B♭ maior, E♭ e F7 sem marcar as mudanças"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I12",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Rhythm Changes exige linguagem específica"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I13",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar linhas de Rhythm Changes em 12 tonalidades"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I22",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar ii-V cromáticos em todas as tonalidades"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ler a cifra acorde por acorde e trocar de escala a cada um, sem ver o bloco que eles formam.",
+  "Usar a escala da tonalidade sobre uma dominante secundária: o C natural sobre A7 apaga o C♯ que define o acorde.",
+  "Não distinguir ii m7 de ii m7♭5 e tocar o ii-V menor com as notas do maior.",
+  "Decorar uma lista de progressões em vez de reconhecê-las nos standards que você toca.",
+  "Atacar Giant Steps ou ii-V cromáticos sem ter linguagem sólida sobre o ii-V-I simples."
+ ],
+ "resumo": [
+  "O jazz é tonal e funcional: siga para onde a harmonia vai, não o rótulo de cada acorde.",
+  "ii-V-I é o bloco principal: ii m7 leva a um I maior, ii m7♭5 leva a um i menor.",
+  "Dominante fora do tom = seta: o alvo está uma 4ª acima, e com o ii antes dela você tem um ii-V secundário.",
+  "O turnaround I-VI7-ii-V é um gesto só e é a base da seção A do rhythm changes.",
+  "Leia standards como Autumn Leaves, Solar e Blue Bossa em blocos e leve cada linha para as 12 tonalidades."
+ ],
+ "proximos_passos": "Para encaixar as notas dentro de cada bloco, siga para \"Guide tones e condução de vozes\" e \"Pensar à frente: linhas que levam ao próximo acorde\". Para dar sotaque jazzístico às linhas sobre o V7, vá a \"Vocabulário de jazz: bebop, dominantes e tensões\" e \"Aproximação cromática, enclosures e notas de passagem\".",
+ "_meta": {
+  "subcategoria": "C12.3",
+  "modulo": {
+   "id": "C12",
+   "nome": "Linguagens de blues e jazz"
+  },
+  "nome": "Harmonia de jazz para o solista",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:39:23",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 44487,
+   "cache_read": 38044,
+   "output": 24928,
+   "thinking": 5618,
+   "turns": 3,
+   "custo_nominal": 0.8844118
+  }
+ }
+}

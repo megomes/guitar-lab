@@ -1,0 +1,1992 @@
+{
+ "titulo": "Vocabulário de jazz: bebop, dominantes e tensões",
+ "gancho": "Uma nota a mais na escala, uma ♭9 no lugar certo, e a sua linha começa a soar como Charlie Parker.",
+ "porque_importa": "O bebop é a gramática do jazz. Suas linhas deixam a harmonia audível mesmo sem acompanhamento, porque as notas do acorde caem nos tempos fortes e as tensões puxam a resolução. Com meia dúzia de ferramentas (escala bebop, método Barry Harris, 3 to ♭9 e a volta do blues de bebop), você para de soar como alguém tocando escalas e passa a soar como quem fala a língua.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "O impulso bebop: a linha sabe aonde vai",
+   "texto": "Uma linha de bebop não passeia. Ela corre em colcheias até uma nota forte do acorde e chega lá no tempo forte. É por isso que dá para ouvir as trocas de acorde só pela melodia, sem ninguém acompanhando, como numa linha de Bach. As tercinas também fazem parte do idioma: um arpejo em tercina no meio das colcheias, colocado de propósito, é puro Charlie Parker.",
+   "destaque": "Notas do acorde nos tempos, o resto no meio delas.",
+   "visual": null
+  },
+  {
+   "titulo": "A escala bebop: oito notas que se encaixam no compasso",
+   "texto": "Em G7, o mixolídio tem 7 notas: G A B C D E F. Junte o F♯ como nota de passagem e você fica com 8. Em colcheias, G, B, D e F passam a cair sozinhos nos tempos, e o F♯ fica sempre no contratempo. Para não desalinhar, suba começando em 1, 3, 5 ou ♭7, e desça começando em 1, ♭7, 5 ou 3. Começou em 2, 4 ou 6? Acrescente uma nota de passagem para colocar a escala de volta no trilho. A mesma lógica gera a bebop maior (C D E F G G♯ A B) e a meio-diminuta (1-2-♭3-3-4-♭5-♭6-♭7).",
+   "destaque": "A passagem fica no contratempo, nunca no tempo forte.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Escala bebop dominante de Sol (G7) subindo e descendo, com resolução em Dó. O F♯ é a nota de passagem e cai sempre no contratempo. Assim, G, B, D e F ficam nos tempos.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Barry Harris: arpejo como esqueleto, escala como recheio",
+   "texto": "Toque o arpejo do acorde com cada nota num tempo e encaixe, entre duas notas do arpejo, a nota da escala que fica no meio. Em Dm7 isso dá D (E) F (G) A (B) C. A linha soa fluida e continua mostrando o acorde. Harris também simplifica o ii-V: muitas vezes ignora o ii e pensa só no V.",
+   "destaque": "Se o arpejo está nos tempos, a escala pode cantar à vontade.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Método Barry Harris num ii-V-I em Dó: notas do arpejo nos tempos e notas da escala no meio delas. O C do Dm7 desce para o B do G7, e o F do G7 desce para o E do Cmaj7.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O dominante alterado e o 3 to ♭9",
+   "texto": "No bebop, as tensões do dominante costumam vir alteradas: ♭9 ou ♯9, ♯11 e ♭13. Em G7, isso dá A♭, A♯, C♯ e E♭. A ferramenta mais usada é o 3 to ♭9: saia da 3ª (B) e chegue à ♭9 (A♭), por salto ou pelo arpejo diminuto B-D-F-A♭. Depois, o A♭ desce para G e a frase resolve no Dó. Pensar em D♭7 (substituição por trítono) é outra porta de entrada para o mesmo som. Ela está detalhada em Superposição e estrutura superior.",
+   "destaque": "3ª, sobe o diminuto, ♭9, resolve.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "3 to ♭9 em G7 → C: o arpejo diminuto B-D-F-A♭ parte da 3ª e chega à ♭9 (tensão, não nota do acorde). O A♭ desce para G, e o F resolve no E do Dó. A linha entra no tempo 2, depois de uma pausa.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A tradição: blues de bebop, recriação e trocas de quatro",
+   "texto": "Now's the Time, Billie's Bounce e Tenor Madness usam o blues de bebop: IV7, ♯IV°, e uma volta com A7♭9 – Dm7 – G7 (em Dó). O clichê dos solistas é arpejar o A7♭9 de C♯ até B♭. A tradição também ensina a intensificar: Ella Fitzgerald recriou o solo de Illinois Jacquet em Flying Home com mais colcheias, mais cromatismo, mais 9ª e mais 13ª. No palco, os solistas trocam quatro compassos com a bateria, e cada trecho responde ao anterior.",
+   "destaque": "Aprenda a palavra, depois aprenda a conversar com ela.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Volta do blues de bebop em Dó: A7 – Dm7 – G7 – C7, com a ♭9 colorindo os dominantes. Arpejo de C♯ a B♭ (♭9) no A7, pouso no F do Dm7 e 3 to ♭9 no G7.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 10,
+   "porque": "Jens Larsen toca o exercício de Barry Harris: notas da escala encaixadas entre as notas do arpejo, virando linha de verdade.",
+   "fonte": {
+    "id": "9oAxHq-ZLwI#I05",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+    "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=234s",
+    "video": "9oAxHq-ZLwI",
+    "inicio": 234,
+    "momento": "03:56",
+    "ideia": "Intercalar notas de escala no arpejo (Barry Harris)"
+   }
+  },
+  {
+   "ref": 1,
+   "porque": "Mostra como uma linha de bebop ganha impulso ao mirar notas-alvo nos tempos fortes.",
+   "fonte": {
+    "id": "7mpVem0mrQE#I14",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+    "url": "https://www.youtube.com/watch?v=7mpVem0mrQE&t=243s",
+    "video": "7mpVem0mrQE",
+    "inicio": 243,
+    "momento": "04:05",
+    "ideia": "Bebop drive nas linhas de notas-alvo"
+   }
+  },
+  {
+   "ref": 8,
+   "porque": "Explica de onde vem o método de Barry Harris e aplica no ii-V-I tocado.",
+   "fonte": {
+    "id": "5hmSQuMIf-w#I09",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "II V I  - You Need To Practice This For Solos",
+    "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=266s",
+    "video": "5hmSQuMIf-w",
+    "inicio": 266,
+    "momento": "04:28",
+    "ideia": "Origem do método: Barry Harris"
+   }
+  },
+  {
+   "ref": 4,
+   "porque": "Arpejos em tercina dentro das colcheias, como parte assumida da linguagem do jazz.",
+   "fonte": {
+    "id": "Md9ZC0qFK3s#I12",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+    "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=250s",
+    "video": "Md9ZC0qFK3s",
+    "inicio": 250,
+    "momento": "04:12",
+    "ideia": "Tercinas fazem parte da linguagem do jazz"
+   }
+  },
+  {
+   "ref": 14,
+   "porque": "G7 alterado pensado como D♭7, com o som comparado ao dominante comum.",
+   "fonte": {
+    "id": "Md9ZC0qFK3s#I20",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+    "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=494s",
+    "video": "Md9ZC0qFK3s",
+    "inicio": 494,
+    "momento": "08:16",
+    "ideia": "Substituição por trítono: G7 alterado vira Db7"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Escala bebop de G7 que cai no tempo",
+   "objetivo": "Sentir o F♯ de passagem empurrando as notas do acorde para os tempos fortes.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque o arpejo de G7 (G B D F) na posição da V1, uma nota por tempo, contando em voz alta.",
+    "Agora toque a V1 em colcheias a 70 bpm: suba de G até F♯ e desça de G até A.",
+    "Pare em cada tempo e confira: a nota é G, B, D ou F? Se for, o alinhamento está certo.",
+    "Resolva no G do compasso 3 e segure, ouvindo o Dó.",
+    "Repita com swing leve: colcheias longa-curta, com acento no contratempo."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Escala bebop dominante de Sol (G7) subindo e descendo, com resolução em Dó. O F♯ é a nota de passagem e cai sempre no contratempo. Assim, G, B, D e F ficam nos tempos.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a mesma conta na bebop maior de Dó (C D E F G G♯ A B), com o G♯ no contratempo.",
+    "Toque uma oitava acima, na região da casa 8."
+   ],
+   "cuidado": "Deixar o F♯ cair num tempo forte. Ele soa como nota errada em vez de passagem.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I37",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala bebop dominante: B natural no tempo fraco"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I39",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala bebop maior e meio-diminuta"
+    }
+   ]
+  },
+  {
+   "titulo": "Portas de entrada: começar certo e consertar o errado",
+   "objetivo": "Saber em qual nota começar uma linha bebop e corrigir o alinhamento quando começar numa tensão.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Sobre G7, suba a escala bebop em colcheias a partir de B, depois de D, depois de F. Sempre no tempo 1.",
+    "Desça a partir de G, F, D e B, mantendo o F♯ no contratempo.",
+    "Agora comece de propósito em A (2ª) no tempo 1 e desça: perceba que as notas do acorde vão para o contratempo.",
+    "Conserte: depois do A, ponha o A♭ cromático (A, A♭, G, F♯, F...). G e F voltam para os tempos.",
+    "Faça o mesmo começando em E (6ª): E, E♭, D, C, B..."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Comece no contratempo do tempo 4 (anacruse) e confira se a nota do acorde cai no 1 seguinte.",
+    "Repita em C7 com a escala bebop de Dó (B natural de passagem)."
+   ],
+   "cuidado": "Achar que basta tocar as notas da escala. Se a linha começa em 2, 4 ou 6 e você não insere a passagem, o compasso fica todo desalinhado.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I38",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas iniciais das linhas bebop"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I37",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala bebop dominante: B natural no tempo fraco"
+    }
+   ]
+  },
+  {
+   "titulo": "Barry Harris no ii-V-I de Dó",
+   "objetivo": "Construir uma linha que soa a harmonia, com o arpejo nos tempos e notas da escala no meio.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque os acordes da V4 (Dm7, G7, Cmaj7) para ter o som da progressão no ouvido.",
+    "Toque só os arpejos descendo, uma nota por tempo: C A F D | B D F | E.",
+    "Agora encaixe as notas da escala no meio, como na V2: C (B) A (G) F (E) D (C) | B (C) D (E) F (G) F | E.",
+    "Ouça as duas pontes: C → B (Dm7 → G7) e F → E (G7 → Cmaj7).",
+    "Grave a progressão em loop e toque a linha por cima até ela sair sem pensar."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Método Barry Harris num ii-V-I em Dó: notas do arpejo nos tempos e notas da escala no meio delas. O C do Dm7 desce para o B do G7, e o F do G7 desce para o E do Cmaj7.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo subindo: D (E) F (G) A (B) C, depois o arpejo de G7 a partir da 3ª.",
+    "Ignore o Dm7 como Barry Harris faria e toque a escala bebop de G7 nos dois compassos.",
+    "Troque uma colcheia de cada compasso por uma tercina de arpejo."
+   ],
+   "cuidado": "Encaixar duas notas de escala seguidas e empurrar o arpejo para o contratempo. A regra é uma nota de arpejo, uma de escala.",
+   "inspirado_em": [
+    {
+     "id": "9oAxHq-ZLwI#I05",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=234s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "Intercalar notas de escala no arpejo (Barry Harris)"
+    },
+    {
+     "id": "5hmSQuMIf-w#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=266s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 266,
+     "momento": "04:28",
+     "ideia": "Origem do método: Barry Harris"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I13",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escalas ligadas a cada acorde, como Charlie Parker"
+    }
+   ]
+  },
+  {
+   "titulo": "3 to ♭9: a frase que todo dominante pede",
+   "objetivo": "Dominar o gesto 3ª → ♭9 → resolução sobre G7 → C.",
+   "nivel": "avancado",
+   "minutos": 10,
+   "passos": [
+    "Toque G7 normal (G B D F) e depois B, C♯, E♭, F, A♭ sobre o mesmo acorde. Compare: o segundo é o som de bebop.",
+    "Toque a V3: pausa no tempo 1, depois B D F A♭ subindo, com A♭ → G → F.",
+    "Resolva no E (3ª do Dó) e segure a nota com vibrato.",
+    "Versão por salto: toque B e pule direto para A♭ (sexta menor), depois G, depois E.",
+    "Alterne as duas versões quatro vezes, uma diferente a cada volta."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "3 to ♭9 em G7 → C: o arpejo diminuto B-D-F-A♭ parte da 3ª e chega à ♭9 (tensão, não nota do acorde). O A♭ desce para G, e o F resolve no E do Dó. A linha entra no tempo 2, depois de uma pausa.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Transponha para D7 → G: F♯ A C E♭ → D → G.",
+    "Comece o arpejo na contrabatida do tempo 4 do compasso anterior."
+   ],
+   "cuidado": "Usar F♯ no arpejo diminuto. A 7ª do G7 é F (♭7). Com F♯, o diminuto se desfaz e a resolução perde a força.",
+   "inspirado_em": [
+    {
+     "id": "en--jazz_improvisation-59a777#I23",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Técnica 3 to ♭9 sobre dominante"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I10",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dominante alterado sobre G"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I21",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alterações típicas das cores no bebop"
+    }
+   ]
+  },
+  {
+   "titulo": "A volta do blues de bebop",
+   "objetivo": "Tocar o clichê do A7♭9 e ligar a volta A7♭9 – Dm7 – G7 – C7 com uma linha só.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque a volta com os acordes da V4, quatro tempos por acorde.",
+    "Toque só o arpejo C♯ E G B♭ sobre o A7♭9 e deixe o B♭ descer para A.",
+    "Toque a V5 inteira: arpejo no A7, pouso no F do Dm7, 3 to ♭9 no G7, pouso no E do C7.",
+    "Respeite as pausas: o Dm7 tem dois tempos e meio de silêncio antes da ponte para o G7.",
+    "Encaixe a frase nos compassos 8 a 11 de um blues de bebop em Dó (como Now's the Time ou Billie's Bounce, transpostos)."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Volta do blues de bebop em Dó: A7 – Dm7 – G7 – C7, com a ♭9 colorindo os dominantes. Arpejo de C♯ a B♭ (♭9) no A7, pouso no F do Dm7 e 3 to ♭9 no G7.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "No Dm7, troque o silêncio por Barry Harris: F (E) D (C) A (G)...",
+    "Resolva o B♭ direto no A, que é a 5ª do Dm7, atravessando a barra."
+   ],
+   "cuidado": "Tocar C natural sobre o A7♭9 por hábito de Dó maior. Ali a 3ª é C♯.",
+   "inspirado_em": [
+    {
+     "id": "en--twelve-bar_blues-36fb30#I08",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Bebop blues: V/ii e ii7 nos compassos finais"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I23",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Técnica 3 to ♭9 sobre dominante"
+    }
+   ]
+  },
+  {
+   "titulo": "Recriar e trocar quatro",
+   "objetivo": "Usar o vocabulário da lição num contexto de tradição: intensificar uma melodia e conversar em trechos de 4 compassos.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Escolha uma frase simples sua ou transcrita, de 4 compassos, sobre um ii-V-I ou um blues em Dó.",
+    "Reescreva a frase em colcheias, com as notas do acorde nos tempos.",
+    "Acrescente uma 9ª ou 13ª em cada acorde e um 3 to ♭9 no dominante.",
+    "Ponha um backing track de 32 compassos e toque 4 compassos, depois fique 4 em silêncio (é a vez da 'bateria').",
+    "Em cada novo trecho de 4, comece com um fragmento do trecho anterior e desenvolva."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Troque quatro com um amigo ou com um looper: ele toca 4, você responde 4.",
+    "Encurte para trocas de dois compassos, para reagir mais rápido."
+   ],
+   "cuidado": "Entupir os 4 compassos de notas e esquecer a conversa. A troca funciona quando dá para ouvir a resposta.",
+   "inspirado_em": [
+    {
+     "id": "blog--tgcleary-99b135#I14",
+     "tipo": "documento",
+     "autor": "George Sapeta",
+     "titulo": "‘Oh, play that thing!’ – the use of transcribed solos in the jazz tradition",
+     "url": "https://blog.uvm.edu/tgcleary/?p=242",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar mais movimento de colcheias e notas de tensão ao recriar um solo bebop"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I20",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Trocas de quatro compassos no jazz"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I20",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cores 9, 11 e 13 antes da sétima"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar a escala bebop como 'mixolídio com uma nota a mais' sem cuidar do ritmo. A passagem só funciona no contratempo.",
+  "Começar linhas em 2, 4 ou 6 e não corrigir com uma passagem cromática.",
+  "Confundir a 7ª do dominante: em G7 a sétima é F. O F♯ é só passagem.",
+  "Usar a ♭9 como nota de pouso em vez de resolvê-la meio tom abaixo.",
+  "Soar como exercício: escala subindo e descendo sem nota-alvo, sem pausa e sem direção.",
+  "Ignorar as tercinas ou usá-las por acidente, fora do pulso."
+ ],
+ "resumo": [
+  "No bebop, as notas do acorde caem nos tempos fortes, e as passagens e tensões ficam no meio.",
+  "Escala bebop dominante = mixolídio + 7ª maior de passagem, sempre no contratempo.",
+  "Barry Harris: arpejo como esqueleto, notas da escala encaixadas entre as notas dele.",
+  "3 to ♭9: 3ª → arpejo diminuto → ♭9 → resolve meio tom abaixo e cai no I.",
+  "Blues de bebop: volta A7♭9 – Dm7 – G7 em Dó. Recrie solos com mais tensão e troque quatro conversando."
+ ],
+ "proximos_passos": "Para afiar o cerco às notas-alvo, volte a Aproximação cromática, enclosures e notas de passagem. Para outras cores do dominante (Fm7♭5, D♭7), siga para Superposição e estrutura superior. Para entender os blocos onde este vocabulário vive, consulte Harmonia de jazz para o solista. O swing das colcheias está em Feel: swing, groove e rubato, e o vocabulário que você pegar dos discos pode ser registrado em Transcrição de solos.",
+ "_meta": {
+  "subcategoria": "C12.4",
+  "modulo": {
+   "id": "C12",
+   "nome": "Linguagens de blues e jazz"
+  },
+  "nome": "Vocabulário de jazz: bebop, dominantes e tensões",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:42:17",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 22730,
+   "cache_read": 8780,
+   "output": 18761,
+   "thinking": 7642,
+   "turns": 4,
+   "custo_nominal": 0.5779430000000001
+  }
+ }
+}
