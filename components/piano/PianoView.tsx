@@ -5,15 +5,14 @@
 import { Play, Volume2 } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
-import { QUALITIES, type QualityId } from '@/lib/chords'
+import type { QualityId } from '@/lib/chords'
 import { SCALES } from '@/lib/fretboard'
 import {
   INVERSION_NAMES,
-  INVERSION_SHORT,
   NINTHS,
   NINTH_LABEL,
   SEVENTH_LABEL,
-  TRIADS,
+  pianoChord,
   pianoScale,
   pianoVoicing,
   seventhsFor,
@@ -38,7 +37,6 @@ import { Keyboard, type KeyMark } from './Keyboard'
 import { PianoChordStage, PianoScaleStage } from './PianoStage'
 import { useNoteInput } from './useNoteInput'
 
-const qualityLabel = (id: QualityId) => (QUALITIES[id].symbol === '' ? 'maior' : QUALITIES[id].symbol)
 const LEGEND = ROLES.map((role) => ({ kind: 'dot' as const, color: ROLE_COLOR[role], text: ROLE_NAME[role] }))
 
 interface Props {
@@ -82,6 +80,25 @@ export function PianoView({ view, settings, set, patch }: Props) {
     },
     [notes],
   )
+  /* Um acorde do campo harmônico: soa e aparece no teclado por um instante, na
+     mesma região da escala, e a tela não sai da escala. */
+  const [flash, setFlash] = useState<{ degree: number; notes: PianoNote[] } | null>(null)
+  const playField = useCallback((degree: number, root: number, q: QualityId) => {
+    const chord = pianoChord(root, q, 0).map((n) => ({ ...n, midi: n.midi + 12 }))
+    const midis = chord.map((n) => n.midi)
+    setFlash({ degree, notes: chord })
+    setPlaying(midis)
+    sound().play(midis, {
+      gap: 35,
+      hold: 1100,
+      onStep: (m) => {
+        if (m !== null) return
+        setFlash(null)
+        setPlaying([])
+      },
+    })
+  }, [])
+
   const playScale = useCallback(() => {
     const up = notes.map((n) => n.midi)
     sound().play([...up, ...up.slice(0, -1).reverse()], { gap: 260, onStep: (m) => setPlaying(m === null ? [] : [m]) })
@@ -92,6 +109,7 @@ export function PianoView({ view, settings, set, patch }: Props) {
     synth.current?.stop()
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setPlaying([])
+    setFlash(null)
   }, [notes])
 
   /* No acorde, cada nota pela letra do grau; na escala, a grafia do tom já resolve. */
@@ -99,9 +117,14 @@ export function PianoView({ view, settings, set, patch }: Props) {
 
   const marks = useMemo(() => {
     const m = new Map<number, KeyMark>()
+    if (flash) {
+      const root = flash.notes[0]
+      flash.notes.forEach((n) => m.set(n.midi, { color: degreeColor(n.degree), note: spellDegree(nn(root.pc), n.pc, n.degree), degree: n.degree }))
+      return m
+    }
     notes.forEach((n) => m.set(n.midi, { color: degreeColor(n.degree), note: spell(n), degree: n.degree }))
     return m
-  }, [notes, spell])
+  }, [notes, spell, flash, nn])
   const lit = useMemo(() => new Set([...input.pressed, ...playing]), [input.pressed, playing])
 
   const minor = isMinorish(view === 'chords' ? specIntervals(spec) : scale.intervals)
@@ -153,11 +176,7 @@ export function PianoView({ view, settings, set, patch }: Props) {
         <Tonics rootPc={rootPc} minor={minor} onRoot={set('rootPc')} />
         {view === 'chords' ? (
           <>
-            <CGroup label="Tríade">
-              {TRIADS.map((id) => (
-                <Chip key={id} label={qualityLabel(id)} fixed on={quality === id} onPress={() => onTriad(id)} />
-              ))}
-            </CGroup>
+            <span className="controls-break" aria-hidden />
             <CGroup label="Sétima" hint="ou a sexta">
               {seventhsFor(quality).map((v) => (
                 <Chip key={v} label={SEVENTH_LABEL(v)} fixed on={seventh === v} onPress={() => set('pSeventh')(v)} />
@@ -168,30 +187,14 @@ export function PianoView({ view, settings, set, patch }: Props) {
                 <Chip key={v} label={NINTH_LABEL(v)} fixed on={ninth === v} onPress={() => set('pNinth')(v)} />
               ))}
             </CGroup>
-            <CGroup label="Inversão" hint="a nota do baixo">
-              {INVERSION_SHORT.slice(0, size).map((label, i) => (
-                <Chip key={label} label={label} fixed on={inversion === i} onPress={() => set('pInversion')(i)} />
-              ))}
-            </CGroup>
           </>
-        ) : (
-          <label className="select">
-            Escala
-            <select value={pScaleId} onChange={(e) => set('pScaleId')(e.target.value)}>
-              {SCALES.map((s) => (
-                <option key={s.id} value={s.id}>
-                  {s.name}
-                </option>
-              ))}
-            </select>
-          </label>
-        )}
+        ) : null}
       </div>
 
       {view === 'chords' ? (
-        <PianoChordStage spec={spec} symbol={nn(rootPc) + specSuffix(spec)} inversion={inversion} onRoot={set('rootPc')} onInversion={set('pInversion')} />
+        <PianoChordStage spec={spec} symbol={nn(rootPc) + specSuffix(spec)} inversion={inversion} onRoot={set('rootPc')} onInversion={set('pInversion')} onTriad={onTriad} />
       ) : (
-        <PianoScaleStage rootPc={rootPc} scale={scale} onRoot={set('rootPc')} onChord={(root, q) => patch({ mode: 'pChords', rootPc: root, pQuality: q, pSeventh: 'none', pNinth: 'none', pInversion: 0 })} />
+        <PianoScaleStage rootPc={rootPc} scale={scale} playing={flash?.degree ?? null} onRoot={set('rootPc')} onScale={set('pScaleId')} onChord={playField} />
       )}
 
       <div className="screen-fill">

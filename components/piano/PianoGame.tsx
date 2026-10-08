@@ -7,7 +7,7 @@
  * tecla, e o acorde é julgado quando as notas fecham. A dica nunca aparece de
  * saída: só depois de alguns erros no mesmo acorde, ou no "Não sei".
  */
-import { Eye, Flame, Keyboard as KeyboardIcon, RotateCcw, SkipForward, SlidersHorizontal, Timer, Volume2 } from 'lucide-react'
+import { Eye, Flame, Keyboard as KeyboardIcon, RotateCcw, SkipForward, Timer, Volume2 } from 'lucide-react'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 
 import { QUALITIES, QUALITY_IDS, chordIntervals, type QualityId } from '@/lib/chords'
@@ -17,7 +17,7 @@ import {
   challengeNotes,
   groupOf,
   judge,
-  keyOptions,
+  KEY_OPTIONS,
   parseKey,
   pickChallenge,
   romanOf,
@@ -25,10 +25,9 @@ import {
 } from '@/lib/piano'
 import { PianoSynth } from '@/lib/piano-synth'
 import { degreeColor } from '@/lib/roles'
-import type { Settings } from '@/lib/settings'
-import { isMinorish, namesForTonic, spellDegree, tonicLabel, type Names } from '@/lib/spelling'
+import { DEFAULTS, type Settings } from '@/lib/settings'
+import { isMinorish, namesForTonic, sharpNames, spellDegree, type Names } from '@/lib/spelling'
 
-import { CGroup } from '../consult/Controls'
 import { Pip } from '../consult/Hero'
 import { Chip, Switch } from '../ui'
 import { Keyboard, type KeyMark, type KeyTone } from './Keyboard'
@@ -37,7 +36,6 @@ import { useNoteInput, type MidiStatus } from './useNoteInput'
 const CORRECT_DELAY = 650
 const WRONG_DELAY = 950
 
-const qualityLabel = (id: QualityId) => (QUALITIES[id].symbol === '' ? 'maior' : QUALITIES[id].symbol)
 const secs = (ms: number) => `${(ms / 1000).toFixed(2)} s`
 
 const MIDI_TEXT: Record<MidiStatus, string> = {
@@ -91,8 +89,6 @@ export function PianoGame({ settings, set }: Props) {
   const [verdict, setVerdict] = useState<Verdict>({ kind: 'idle' })
   const [tones, setTones] = useState<Map<number, KeyTone>>(new Map())
   const [session, setSession] = useState<Session>(EMPTY)
-  const [menu, setMenu] = useState(false)
-  const menuRef = useRef<HTMLDivElement>(null)
 
   const askedAt = useRef(0)
   const missCount = useRef(0)
@@ -205,16 +201,6 @@ export function PianoGame({ settings, set }: Props) {
     return () => window.removeEventListener('keydown', onKey)
   }, [next, skip, hear])
 
-  /* Fecha o menu de ajustes ao tocar fora. */
-  useEffect(() => {
-    if (!menu) return
-    const onDown = (e: PointerEvent) => {
-      if (!menuRef.current?.contains(e.target as Node)) setMenu(false)
-    }
-    window.addEventListener('pointerdown', onDown)
-    return () => window.removeEventListener('pointerdown', onDown)
-  }, [menu])
-
   /* O dedo na tela: liga ou desliga a tecla, com som. */
   const onTap = (m: number) => {
     if (locked.current) return
@@ -249,8 +235,7 @@ export function PianoGame({ settings, set }: Props) {
   const worst = Object.entries(session.misses)
     .sort((a, b) => b[1] - a[1])
     .slice(0, 4)
-  const options = useMemo(() => keyOptions(tonicLabel), [])
-  const keyLabel = options.find((o) => o.id === keyId)?.label ?? ''
+  const keyLabel = KEY_OPTIONS.find((o) => o.id === keyId)?.label ?? ''
 
   const roman = chord && romanOf(chord)
   const over = verdict.kind === 'correct' ? 'Boa!' : verdict.kind === 'wrong' ? 'De novo' : 'Toque este acorde'
@@ -260,46 +245,49 @@ export function PianoGame({ settings, set }: Props) {
 
   return (
     <main className="wrap screen quiz piano">
-      <div className="quiz-stage" aria-live="polite">
-        <span className="quiz-over">{over}</span>
-        {chord ? (
-          <>
-            <span key={`${chord.root}-${chord.quality}-${chord.inversion}-${session.right + session.wrong}`} className={`quiz-big${tone}`}>
-              {names(chord.root)}
-              {QUALITIES[chord.quality].symbol}
-              {chord.inversion > 0 && <span className="pg-slash">/{names(chord.bassPc)}</span>}
-            </span>
-            <span className="quiz-under">
-              {QUALITIES[chord.quality].name} · {INVERSION_NAMES[chord.inversion]}
-              {roman && key && ` · grau ${roman} de ${keyLabel}`}
-            </span>
-          </>
-        ) : (
-          <>
-            <span className="quiz-big quiz-big-plain">–</span>
-            <span className="quiz-under">escolha pelo menos um tipo de acorde nos ajustes</span>
-          </>
-        )}
-        <span className="quiz-msg-slot">
-          {verdict.kind === 'correct' && <span className="quiz-msg quiz-msg-good">certo · {secs(verdict.ms)}</span>}
-          {verdict.kind === 'wrong' && <span className="quiz-msg quiz-msg-bad">você tocou {verdict.played.map((m) => names(m % 12)).join(' ')}</span>}
-          {verdict.kind === 'idle' && revealed && chord && (
-            <span className="pips">
-              {ordered.map((n) => (
-                <span key={n.midi} className={held.has(n.pc) ? 'pg-held' : undefined}>
-                  <Pip top={n.degree} main={spellDegree(names(chord.root), n.pc, n.degree)} degree={n.degree} />
-                </span>
-              ))}
-            </span>
+      <div className="pg-mid">
+        <Filters settings={settings} set={set} onToggleQuality={setQualities} onToggleInversion={setInversions} />
+        <div className="quiz-stage" aria-live="polite">
+          <span className="quiz-over">{over}</span>
+          {chord ? (
+            <>
+              <span key={`${chord.root}-${chord.quality}-${chord.inversion}-${session.right + session.wrong}`} className={`quiz-big${tone}`}>
+                {names(chord.root)}
+                {QUALITIES[chord.quality].symbol}
+                {chord.inversion > 0 && <span className="pg-slash">/{names(chord.bassPc)}</span>}
+              </span>
+              <span className="quiz-under">
+                {QUALITIES[chord.quality].name} · {INVERSION_NAMES[chord.inversion]}
+                {roman && key && ` · grau ${roman} de ${keyLabel}`}
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="quiz-big quiz-big-plain">–</span>
+              <span className="quiz-under">escolha pelo menos um tipo de acorde nos ajustes</span>
+            </>
           )}
-          {verdict.kind === 'idle' && !revealed && revealAfter > 0 && (
-            <span className="pg-tries" aria-label={`${misses} de ${revealAfter} erros antes de mostrar`}>
-              {Array.from({ length: revealAfter }, (_, i) => (
-                <i key={i} className={i < misses ? 'pg-spent' : undefined} />
-              ))}
-            </span>
-          )}
-        </span>
+          <span className="quiz-msg-slot">
+            {verdict.kind === 'correct' && <span className="quiz-msg quiz-msg-good">certo · {secs(verdict.ms)}</span>}
+            {verdict.kind === 'wrong' && <span className="quiz-msg quiz-msg-bad">você tocou {verdict.played.map((m) => names(m % 12)).join(' ')}</span>}
+            {verdict.kind === 'idle' && revealed && chord && (
+              <span className="pips">
+                {ordered.map((n) => (
+                  <span key={n.midi} className={held.has(n.pc) ? 'pg-held' : undefined}>
+                    <Pip top={n.degree} main={spellDegree(names(chord.root), n.pc, n.degree)} degree={n.degree} />
+                  </span>
+                ))}
+              </span>
+            )}
+            {verdict.kind === 'idle' && !revealed && revealAfter > 0 && (
+              <span className="pg-tries" aria-label={`${misses} de ${revealAfter} erros antes de mostrar`}>
+                {Array.from({ length: revealAfter }, (_, i) => (
+                  <i key={i} className={i < misses ? 'pg-spent' : undefined} />
+                ))}
+              </span>
+            )}
+          </span>
+        </div>
       </div>
 
       <div className="quiz-bar">
@@ -332,68 +320,6 @@ export function PianoGame({ settings, set }: Props) {
         </div>
         <span className="spacer" />
         <div className="quiz-menu">
-          <div className="quiz-pop-anchor" ref={menuRef}>
-            <button type="button" className={`btn btn-ghost btn-sm${menu ? ' btn-on' : ''}`} aria-expanded={menu} onClick={() => setMenu((m) => !m)}>
-              <SlidersHorizontal size={13} strokeWidth={1.8} />
-              Ajustes
-              <small className="quiz-sum">
-                {qualities.length} tipo{qualities.length > 1 ? 's' : ''} · {keyId === 'free' ? 'cromático' : keyLabel}
-              </small>
-            </button>
-            {menu && (
-              <div className="quiz-pop card" role="dialog" aria-label="Ajustes do jogo">
-                <CGroup label="Tríades">
-                  {QUALITY_IDS.filter((q) => groupOf(q) === 'triads').map((q) => (
-                    <Chip key={q} label={qualityLabel(q)} fixed on={qualities.includes(q)} onPress={() => setQualities(q)} />
-                  ))}
-                </CGroup>
-                <CGroup label="Tétrades">
-                  {QUALITY_IDS.filter((q) => groupOf(q) === 'sevenths').map((q) => (
-                    <Chip key={q} label={qualityLabel(q)} fixed on={qualities.includes(q)} onPress={() => setQualities(q)} />
-                  ))}
-                </CGroup>
-                <CGroup label="Inversões">
-                  {INVERSION_SHORT.map((label, i) => (
-                    <Chip key={label} label={label} fixed on={inversions.includes(i)} onPress={() => setInversions(i)} />
-                  ))}
-                </CGroup>
-                <div className="cgroup">
-                  <span className="cgroup-label" title="num tom, só os acordes do campo harmônico">Tom</span>
-                  <label className="select">
-                    <span className="sr-only">tom</span>
-                    <select value={keyId} onChange={(e) => set('pgKey')(e.target.value)}>
-                      {options.map((o) => (
-                        <option key={o.id} value={o.id}>
-                          {o.label}
-                        </option>
-                      ))}
-                    </select>
-                  </label>
-                </div>
-                <div className="cgroup">
-                  <span className="cgroup-label">Mostrar</span>
-                  <label className="select">
-                    <span className="sr-only">mostrar o acorde</span>
-                    <select value={revealAfter} onChange={(e) => set('pgReveal')(Number(e.target.value))}>
-                      <option value={1}>depois de 1 erro</option>
-                      <option value={2}>depois de 2 erros</option>
-                      <option value={3}>depois de 3 erros</option>
-                      <option value={5}>depois de 5 erros</option>
-                      <option value={0}>só no botão</option>
-                    </select>
-                  </label>
-                </div>
-                <div className="quiz-pop-foot">
-                  <Switch label="baixo obrigatório" on={requireBass} onChange={() => set('pgBass')(!requireBass)} />
-                  <Switch label="som" on={soundOn} onChange={() => set('pgSound')(!soundOn)} />
-                  <button type="button" className="btn btn-ghost btn-sm" onClick={() => setSession(EMPTY)}>
-                    <RotateCcw size={13} strokeWidth={1.8} />
-                    zerar sessão
-                  </button>
-                </div>
-              </div>
-            )}
-          </div>
           <button type="button" className="btn btn-ghost btn-sm" onClick={hear} disabled={!chord} title="Ouvir o acorde (1)">
             <Volume2 size={13} strokeWidth={1.8} />
             Ouvir
@@ -429,10 +355,102 @@ export function PianoGame({ settings, set }: Props) {
             </button>
           </div>
           <div className="kb-wrap">
-            <Keyboard marks={marks} lit={lit} tones={tones} onDown={onTap} onUp={() => {}} />
+            <Keyboard marks={marks} lit={lit} tones={tones} onDown={onTap} onUp={() => {}} label={settings.pgLabels ? (m) => (key ? names(m) : sharpNames(m)) : undefined} />
           </div>
         </section>
       </div>
     </main>
+  )
+}
+
+/* ── Filtros (os do ChordLab) ─────────────────────────────────────────── */
+
+const GROUP_LABEL = { triads: 'Tríades e suspensos', sevenths: 'Tétrades e cores' } as const
+
+function Filters({
+  settings,
+  set,
+  onToggleQuality,
+  onToggleInversion,
+}: {
+  settings: Settings
+  set: Props['set']
+  onToggleQuality: (q: QualityId) => void
+  onToggleInversion: (i: number) => void
+}) {
+  const { pgQualities: qualities, pgInversions: inversions, pgKey, pgReveal, pgBass, pgLabels, pgSound } = settings
+  const reset = () => {
+    set('pgQualities')(DEFAULTS.pgQualities)
+    set('pgInversions')(DEFAULTS.pgInversions)
+    set('pgKey')(DEFAULTS.pgKey)
+    set('pgReveal')(DEFAULTS.pgReveal)
+    set('pgBass')(DEFAULTS.pgBass)
+    set('pgLabels')(DEFAULTS.pgLabels)
+  }
+  return (
+    <section className="pg-panel card" aria-label="filtros do jogo">
+      <div className="pg-panel-head">
+        <h2>Filtros</h2>
+        <button type="button" className="btn btn-ghost btn-sm" onClick={reset}>
+          <RotateCcw size={12} strokeWidth={1.8} />
+          Reset
+        </button>
+      </div>
+      {(['triads', 'sevenths'] as const).map((g) => (
+        <div className="pg-fgroup" key={g}>
+          <span className="pg-flabel">{GROUP_LABEL[g]}</span>
+          <div className="chips">
+            {QUALITY_IDS.filter((q) => groupOf(q) === g).map((q) => (
+              <Chip key={q} label={QUALITIES[q].symbol || 'maj'} fixed on={qualities.includes(q)} onPress={() => onToggleQuality(q)} />
+            ))}
+          </div>
+        </div>
+      ))}
+      <div className="pg-fgroup">
+        <span className="pg-flabel">Inversões</span>
+        <div className="chips">
+          {INVERSION_SHORT.map((label, i) => (
+            <Chip key={label} label={label} fixed on={inversions.includes(i)} onPress={() => onToggleInversion(i)} />
+          ))}
+        </div>
+      </div>
+      <div className="pg-selects">
+        <div className="pg-fgroup">
+          <span className="pg-flabel">Tonalidade</span>
+          <label className="select">
+            <span className="sr-only">tonalidade</span>
+            <select value={pgKey} onChange={(e) => set('pgKey')(e.target.value)}>
+              {KEY_OPTIONS.map((o) => (
+                <option key={o.id} value={o.id}>
+                  {o.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <div className="pg-fgroup">
+          <span className="pg-flabel">Revelar o acorde</span>
+          <label className="select">
+            <span className="sr-only">revelar o acorde</span>
+            <select value={pgReveal} onChange={(e) => set('pgReveal')(Number(e.target.value))}>
+              <option value={1}>depois de 1 erro</option>
+              <option value={2}>depois de 2 erros</option>
+              <option value={3}>depois de 3 erros</option>
+              <option value={5}>depois de 5 erros</option>
+              <option value={0}>nunca (só no botão)</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div className="pg-switches">
+        <span title="A inversão só conta com o baixo certo">
+          <Switch label="Baixo obrigatório" on={pgBass} onChange={() => set('pgBass')(!pgBass)} />
+        </span>
+        <span title="Rótulo em cada tecla">
+          <Switch label="Nome das notas" on={pgLabels} onChange={() => set('pgLabels')(!pgLabels)} />
+        </span>
+        <Switch label="Som" on={pgSound} onChange={() => set('pgSound')(!pgSound)} />
+      </div>
+    </section>
   )
 }

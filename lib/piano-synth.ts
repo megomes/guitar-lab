@@ -111,19 +111,21 @@ export class PianoSynth {
    * Notas em sequência (escala, arpejo) ou juntas (gap 0). `onStep` diz qual está
    * soando, para a tecla acender junto; recebe null no fim.
    */
-  play(notes: number[], { gap = 0, hold = 900, onStep }: { gap?: number; hold?: number; onStep?: (midi: number | null) => void } = {}) {
+  play(notes: number[], { gap = 0, hold, onStep }: { gap?: number; hold?: number; onStep?: (midi: number | null) => void } = {}) {
     this.stop()
     if (!this.ensure()) return
+    /* Sem `hold`, cada nota da sequência dura até perto da próxima. */
+    const len = hold ?? (gap ? Math.max(gap * 1.6, 200) : 900)
     notes.forEach((m, i) =>
       this.timers.push(
         setTimeout(() => {
           this.noteOn(m)
           onStep?.(m)
-          this.timers.push(setTimeout(() => this.noteOff(m), gap ? Math.max(gap * 1.6, 200) : hold))
+          this.timers.push(setTimeout(() => this.noteOff(m), len))
         }, i * gap),
       ),
     )
-    this.timers.push(setTimeout(() => onStep?.(null), notes.length * gap + (gap ? gap : hold)))
+    this.timers.push(setTimeout(() => onStep?.(null), hold !== undefined ? (notes.length - 1) * gap + hold : notes.length * gap + (gap || len)))
   }
 
   stop() {

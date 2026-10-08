@@ -11,7 +11,7 @@ import { memo } from 'react'
 import { QUALITIES, chordSymbol, type QualityId } from '@/lib/chords'
 import type { Scale } from '@/lib/fretboard'
 import { harmonicField } from '@/lib/harmony'
-import { INVERSION_NAMES, isBlack, pianoChord, pianoVoicing, specBass, specDegrees, specIntervals, specSize, type ChordSpec, type PianoNote } from '@/lib/piano'
+import { INVERSION_NAMES, PIANO_SCALES, TRIADS, isBlack, pianoChord, pianoVoicing, specBass, specDegrees, specIntervals, specSize, type ChordSpec, type PianoNote } from '@/lib/piano'
 import { degreeColor } from '@/lib/roles'
 
 import { Wheel } from '../consult/Stage'
@@ -60,6 +60,7 @@ export function PianoChordStage({
   inversion,
   onRoot,
   onInversion,
+  onTriad,
 }: {
   spec: ChordSpec
   /** A cifra sem a barra do baixo: o centro da roda. */
@@ -67,6 +68,7 @@ export function PianoChordStage({
   inversion: number
   onRoot: (pc: number) => void
   onInversion: (i: number) => void
+  onTriad: (q: QualityId) => void
 }) {
   const nn = useNames()
   const degrees = specDegrees(spec)
@@ -87,6 +89,13 @@ export function PianoChordStage({
               </button>
             ))}
           </div>
+          <div className="stage-field" role="radiogroup" aria-label="tríade">
+            {TRIADS.map((q) => (
+              <button key={q} type="button" role="radio" aria-checked={q === spec.triad} className={`stage-chord${q === spec.triad ? ' stage-chord-on' : ''}`} onClick={() => onTriad(q)} title={QUALITIES[q].name}>
+                {QUALITIES[q].symbol || 'maior'}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </section>
@@ -96,13 +105,18 @@ export function PianoChordStage({
 export function PianoScaleStage({
   rootPc,
   scale,
+  playing,
   onRoot,
+  onScale,
   onChord,
 }: {
   rootPc: number
   scale: Scale
+  /** O grau do campo que está soando agora. */
+  playing: number | null
   onRoot: (pc: number) => void
-  onChord: (root: number, quality: QualityId) => void
+  onScale: (id: string) => void
+  onChord: (degree: number, root: number, quality: QualityId) => void
 }) {
   const nn = useNames()
   const lit = new Map(scale.intervals.map((iv, i) => [mod12(rootPc + iv), scale.degrees[i]]))
@@ -115,8 +129,8 @@ export function PianoScaleStage({
           {field.length > 0 ? (
             <>
               <div className="stage-boxes piano-boxes piano-field">
-                {field.map((d) => (
-                  <button key={d.numeral} type="button" className="stage-box" onClick={() => onChord(d.root, d.quality)} title="ver o acorde">
+                {field.map((d, i) => (
+                  <button key={d.numeral} type="button" className={`stage-box${playing === i ? ' stage-box-on' : ''}`} onClick={() => onChord(i, d.root, d.quality)} title="ouvir o acorde">
                     <MiniKeys notes={pianoChord(d.root, d.quality, 0)} />
                     <span className="stage-box-title">
                       {chordSymbol(d.root, d.quality, nn)}
@@ -125,11 +139,18 @@ export function PianoScaleStage({
                   </button>
                 ))}
               </div>
-              <span className="stage-label piano-field-label">Campo harmônico · toque num acorde para abrir</span>
+              <span className="stage-label piano-field-label">Campo harmônico · toque num acorde para ouvir</span>
             </>
           ) : (
-            <p className="stage-empty">Com {scale.intervals.length} notas a escala não empilha terças: o campo harmônico aparece nas escalas de sete notas.</p>
+            <p className="stage-empty">Com {scale.intervals.length} notas a escala não empilha terças: o campo harmônico aparece na maior e na menor.</p>
           )}
+          <div className="stage-field" role="radiogroup" aria-label="escala">
+            {PIANO_SCALES.map((s) => (
+              <button key={s.id} type="button" role="radio" aria-checked={s.id === scale.id} className={`stage-chord${s.id === scale.id ? ' stage-chord-on' : ''}`} onClick={() => onScale(s.id)}>
+                {s.label}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </section>

@@ -80,6 +80,15 @@ export function pianoScale(root: number, scale: Scale): PianoNote[] {
 /** A nota do baixo de cada inversão. */
 export const bassOf = (root: number, quality: QualityId, inversion: number) => (root + chordIntervals(quality)[inversion % chordIntervals(quality).length]) % 12
 
+/** As escalas da consulta do piano: as do dia a dia. */
+export const PIANO_SCALES: { id: string; label: string }[] = [
+  { id: 'major', label: 'Maior' },
+  { id: 'minor', label: 'Menor' },
+  { id: 'pentaMajor', label: 'Penta maior' },
+  { id: 'pentaMinor', label: 'Penta menor' },
+  { id: 'blues', label: 'Blues' },
+]
+
 /* ── Tríade, sétima e nona ────────────────────────────────────────────── */
 
 /**
@@ -235,13 +244,25 @@ const MINOR_SEVENTHS: QualityId[] = ['min7', 'm7b5', 'maj7', 'min7', 'min7', 'ma
 const ROMAN_MAJOR = ['I', 'ii', 'iii', 'IV', 'V', 'vi', 'vii°']
 const ROMAN_MINOR = ['i', 'ii°', 'III', 'iv', 'v', 'VI', 'VII']
 
-/** Livre, ou um dos doze tons maiores e menores. O rótulo sai na grafia do app. */
-export function keyOptions(name: (pc: number, minor: boolean) => string): KeyOption[] {
-  const out: KeyOption[] = [{ id: 'free', label: 'Livre · cromático' }]
-  for (const minor of [false, true])
-    for (let pc = 0; pc < 12; pc++) out.push({ id: `${pc}-${minor ? 'min' : 'maj'}`, label: `${name(pc, minor)} ${minor ? 'menor' : 'maior'}`, tonic: pc, minor })
-  return out
-}
+/** As tonalidades do ChordLab: o cromático, nove maiores e seis menores. */
+export const KEY_OPTIONS: KeyOption[] = [
+  { id: 'free', label: 'Livre · cromático' },
+  { id: '0-maj', label: 'C maior', tonic: 0, minor: false },
+  { id: '7-maj', label: 'G maior', tonic: 7, minor: false },
+  { id: '2-maj', label: 'D maior', tonic: 2, minor: false },
+  { id: '9-maj', label: 'A maior', tonic: 9, minor: false },
+  { id: '4-maj', label: 'E maior', tonic: 4, minor: false },
+  { id: '5-maj', label: 'F maior', tonic: 5, minor: false },
+  { id: '10-maj', label: 'B♭ maior', tonic: 10, minor: false },
+  { id: '3-maj', label: 'E♭ maior', tonic: 3, minor: false },
+  { id: '8-maj', label: 'A♭ maior', tonic: 8, minor: false },
+  { id: '9-min', label: 'A menor', tonic: 9, minor: true },
+  { id: '4-min', label: 'E menor', tonic: 4, minor: true },
+  { id: '11-min', label: 'B menor', tonic: 11, minor: true },
+  { id: '2-min', label: 'D menor', tonic: 2, minor: true },
+  { id: '7-min', label: 'G menor', tonic: 7, minor: true },
+  { id: '0-min', label: 'C menor', tonic: 0, minor: true },
+]
 
 export function parseKey(id: string): { tonic: number; minor: boolean } | null {
   const m = /^(\d+)-(maj|min)$/.exec(id)

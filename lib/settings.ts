@@ -8,7 +8,7 @@ import { QUALITIES, type QualityId } from './chords'
 import { MAJOR_SEVENTHS, MINOR_SEVENTHS } from './jazz'
 import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, instrumentOf, type ModeId } from './modes'
-import { NINTHS, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
+import { KEY_OPTIONS, NINTHS, PIANO_SCALES, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
 import { DRILLS, PERMS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
@@ -110,6 +110,8 @@ export interface Settings {
   /** A inversão só vale com a nota certa no baixo. */
   pgBass: boolean
   pgSound: boolean
+  /** O nome da nota em cada tecla. */
+  pgLabels: boolean
 }
 
 export const DEFAULTS: Settings = {
@@ -169,6 +171,7 @@ export const DEFAULTS: Settings = {
   pgReveal: 3,
   pgBass: false,
   pgSound: true,
+  pgLabels: false,
 }
 
 export const STORAGE_KEY = 'guitarlab:settings'
@@ -251,15 +254,16 @@ export function loadSettings(): Settings {
     if (!seventhsFor(s.pQuality).includes(s.pSeventh)) s.pSeventh = 'none'
     if (!NINTHS.includes(s.pNinth)) s.pNinth = 'none'
     s.pInversion = int(s.pInversion, 0, 3, 0)
-    if (!SCALES.some((x) => x.id === s.pScaleId)) s.pScaleId = DEFAULTS.pScaleId
+    if (!PIANO_SCALES.some((x) => x.id === s.pScaleId)) s.pScaleId = DEFAULTS.pScaleId
     const qs = Array.isArray(s.pgQualities) ? [...new Set(s.pgQualities.filter((q) => q in QUALITIES))] : []
     s.pgQualities = qs.length ? qs : DEFAULTS.pgQualities
     s.pgInversions = list(s.pgInversions, 3) ?? DEFAULTS.pgInversions
     if (!s.pgInversions.length) s.pgInversions = DEFAULTS.pgInversions
-    if (typeof s.pgKey !== 'string' || !(s.pgKey === 'free' || /^([0-9]|1[01])-(maj|min)$/.test(s.pgKey))) s.pgKey = DEFAULTS.pgKey
+    if (!KEY_OPTIONS.some((k) => k.id === s.pgKey)) s.pgKey = DEFAULTS.pgKey
     if (![0, 1, 2, 3, 5].includes(s.pgReveal)) s.pgReveal = DEFAULTS.pgReveal
     s.pgBass = s.pgBass === true
     s.pgSound = s.pgSound !== false
+    s.pgLabels = s.pgLabels === true
     return s
   } catch {
     return DEFAULTS

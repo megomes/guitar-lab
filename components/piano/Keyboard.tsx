@@ -26,11 +26,13 @@ interface Props {
   tones?: Map<number, KeyTone>
   onDown?: (midi: number) => void
   onUp?: (midi: number) => void
+  /** O nome em cada tecla sem marca (o "Nome das notas" do jogo). */
+  label?: (midi: number) => string
   lo?: number
   hi?: number
 }
 
-function KeyboardView({ marks, lit, tones, onDown, onUp, lo = LOW_NOTE, hi = HIGH_NOTE }: Props) {
+function KeyboardView({ marks, lit, tones, onDown, onUp, label, lo = LOW_NOTE, hi = HIGH_NOTE }: Props) {
   const keys = useMemo(() => keyGeometry(lo, hi), [lo, hi])
   /* O dedo que arrasta de uma tecla para outra solta a primeira. */
   const down = useRef(new Map<number, number>())
@@ -84,7 +86,8 @@ function KeyboardView({ marks, lit, tones, onDown, onUp, lo = LOW_NOTE, hi = HIG
                     <i />
                   </span>
                 )}
-                {!black && k.midi % 12 === 0 && !mark && <span className="kb-oct">C{octaveOf(k.midi)}</span>}
+                {!mark && label && <span className="kb-oct kb-label">{k.midi % 12 === 0 ? `C${octaveOf(k.midi)}` : label(k.midi)}</span>}
+                {!mark && !label && !black && k.midi % 12 === 0 && <span className="kb-oct">C{octaveOf(k.midi)}</span>}
               </button>
             )
           }),
