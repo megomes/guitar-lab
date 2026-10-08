@@ -1,0 +1,400 @@
+{
+ "fonte_id": "-El2m16TS5o",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How Do The Pro's Build A Solo On Guitar",
+  "autor": "Rustys Guitar",
+  "url": "https://www.youtube.com/watch?v=-El2m16TS5o",
+  "idioma": "en",
+  "duracao": "11m 45s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/-El2m16TS5o--how-do-the-pros-build-a-solo-on-guitar.md"
+ },
+ "resumo": "Aula sobre como montar um solo em quatro passos: identificar acordes e tonalidade, escolher escalas compatíveis, usar as notas dos acordes como referência e criar frases melódicas. A progressão de exemplo é A–G–D, que soa como Lá mas está em Ré maior. O foco é a 3ª maior de cada acorde como nota-alvo, com demonstração de improviso. É voltada a guitarristas que já conhecem a pentatônica e querem improvisar com mais intenção melódica.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Estrutura clara em quatro passos, com exemplos concretos de notas, escalas e nota-alvo. Perde pontos porque boa parte dos exemplos sonoros não está transcrita e a demo depende do áudio."
+ },
+ "assuntos_principais": [
+  "identificar tonalidade pela progressão",
+  "campo harmônico e graus (I, IV, V)",
+  "escalas sobre acordes (maior, mixolídio, pentatônicas)",
+  "notas dos acordes",
+  "3ª maior como nota-alvo",
+  "frases melódicas e fraseado",
+  "improvisação em blues-rock"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução da aula",
+   "inicio": "0:00",
+   "fim": "0:28",
+   "resumo": "Apresentação do tema e dos quatro passos para montar um solo.",
+   "assuntos": [
+    "apresentação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Passo 1: identificar acordes e tonalidade",
+   "inicio": "0:28",
+   "fim": "1:52",
+   "resumo": "A progressão A–G–D é analisada pelo campo harmônico de Ré maior, com A como V, G como IV e D como I.",
+   "assuntos": [
+    "tonalidade",
+    "campo harmônico",
+    "graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Passo 2: escalas que servem sobre os acordes",
+   "inicio": "1:52",
+   "fim": "3:18",
+   "resumo": "Ré maior (mixolídio de Lá), Lá maior pentatônica e Lá menor pentatônica funcionam sobre a progressão.",
+   "assuntos": [
+    "escalas",
+    "mixolídio",
+    "pentatônica maior",
+    "pentatônica menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Passo 3: notas dos acordes",
+   "inicio": "3:18",
+   "fim": "5:21",
+   "resumo": "Listagem das notas de A, G e D e observação de que tocar só essas notas soa sem graça.",
+   "assuntos": [
+    "tríades",
+    "notas dos acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Passo 4: criar melodia e fraseado",
+   "inicio": "5:21",
+   "fim": "6:34",
+   "resumo": "Combinar as informações anteriores em frases, sem tocar todas as notas das escalas.",
+   "assuntos": [
+    "melodia",
+    "fraseado",
+    "seleção de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Mirando nas terças maiores dos acordes",
+   "inicio": "6:34",
+   "fim": "9:37",
+   "resumo": "Uso da 3ª maior de cada acorde como nota-alvo (C#, B, F#) e exercício de tocar a escala de Ré maior em uma corda.",
+   "assuntos": [
+    "3ª maior",
+    "notas-alvo",
+    "exercício em uma corda",
+    "linear no braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Demo de solo com os quatro passos e reflexão final",
+   "inicio": "9:37",
+   "fim": "11:11",
+   "resumo": "Solo demonstrativo aplicando o método, com a backing track indicada e comentário sobre planejar antes de tocar.",
+   "assuntos": [
+    "demonstração",
+    "backing track",
+    "planejamento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Despedida",
+   "inicio": "11:11",
+   "fim": "11:45",
+   "resumo": "Mensagem de encerramento e convite para a próxima aula.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tonalidade não é necessariamente o acorde inicial",
+   "descricao": "A progressão A–G–D soa como se estivesse em Lá, mas a tonalidade é Ré maior: Lá é o V, Sol é o IV e Ré é o I (progressão 5-4-1).",
+   "passos": [],
+   "timestamp": "0:33",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidade",
+    "campo harmônico",
+    "progressão 5-4-1"
+   ],
+   "id_global": "-El2m16TS5o#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Descobrir a tonalidade pela escala maior",
+   "descricao": "Para descobrir a tonalidade de uma progressão, teste a escala maior do candidato a tônica e veja em quais graus caem os acordes.",
+   "passos": [
+    "Escolha uma tônica candidata",
+    "Escreva a escala maior dela",
+    "Numere os graus",
+    "Verifique se os acordes caem em I, IV e V"
+   ],
+   "timestamp": "1:09",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidade",
+    "escala maior",
+    "graus"
+   ],
+   "id_global": "-El2m16TS5o#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Ré maior sobre Lá é mixolídio",
+   "descricao": "Tocar a escala de Ré maior sobre o acorde de Lá equivale a usar o modo mixolídio de Lá (1-2-3-4-5-6-♭7), que encaixa bem nesse contexto.",
+   "passos": [],
+   "timestamp": "1:41",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "modos",
+    "escala maior"
+   ],
+   "id_global": "-El2m16TS5o#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Lá maior pentatônica como opção",
+   "descricao": "A pentatônica maior de Lá (A B C# E F#) funciona bem sobre a progressão A–G–D.",
+   "passos": [],
+   "timestamp": "2:15",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "lá"
+   ],
+   "id_global": "-El2m16TS5o#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Lá menor pentatônica com outro caráter",
+   "descricao": "A pentatônica menor de Lá (A C D E G) também serve sobre a progressão, mas soa bem diferente da pentatônica maior.",
+   "passos": [],
+   "timestamp": "2:40",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "escolha de escala"
+   ],
+   "id_global": "-El2m16TS5o#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Notas das tríades da progressão",
+   "descricao": "Notas dos acordes: Lá maior = A C# E; Sol maior = G B D; Ré maior = D F# A.",
+   "passos": [],
+   "timestamp": "3:36",
+   "nivel": "iniciante",
+   "tags": [
+    "tríades",
+    "notas dos acordes",
+    "lá maior",
+    "sol maior",
+    "ré maior"
+   ],
+   "id_global": "-El2m16TS5o#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Tocar só as notas do acorde soa sem graça",
+   "descricao": "Usar apenas as notas do acorde, mesmo sendo seguro, soa entediante e pouco melódico; elas servem como referência, não como a única fonte de notas.",
+   "passos": [],
+   "timestamp": "4:20",
+   "nivel": "iniciante",
+   "tags": [
+    "notas do acorde",
+    "melodia"
+   ],
+   "id_global": "-El2m16TS5o#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Tocar todas as notas da escala",
+   "descricao": "Tocar todas as notas de uma escala sem seleção gera um solo sem direção melódica; o ideal é agrupar algumas notas em frases.",
+   "passos": [],
+   "timestamp": "5:31",
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "seleção de notas"
+   ],
+   "id_global": "-El2m16TS5o#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Montar frases a partir do conhecimento dos acordes",
+   "descricao": "Combine escala, notas do acorde e escolha de frases: identifique o acorde em que você está e agrupe notas em pequenos motivos melódicos.",
+   "passos": [],
+   "timestamp": "5:45",
+   "nivel": "intermediario",
+   "tags": [
+    "frases",
+    "melodia",
+    "planejamento"
+   ],
+   "id_global": "-El2m16TS5o#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Usar a 3ª maior de cada acorde como nota-alvo",
+   "descricao": "A 3ª maior dos acordes da progressão é um bom alvo melódico: C# sobre Lá, B sobre Sol e F# sobre Ré.",
+   "passos": [],
+   "timestamp": "6:19",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "3ª maior",
+    "terça maior"
+   ],
+   "id_global": "-El2m16TS5o#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Escala de Ré maior em uma corda",
+   "descricao": "Tocar a escala de Ré maior em uma só corda, subindo e descendo o braço, para criar movimento linear e conectar regiões do braço.",
+   "passos": [
+    "Escolha uma corda",
+    "Toque a escala de Ré maior em sequência, uma nota por vez",
+    "Desça pela corda até a tônica",
+    "Suba novamente pela mesma corda"
+   ],
+   "timestamp": "8:45",
+   "nivel": "intermediario",
+   "tags": [
+    "linear",
+    "uma corda",
+    "ré maior",
+    "braço"
+   ],
+   "id_global": "-El2m16TS5o#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Combinar lícks pentatônicos com notas-alvo",
+   "descricao": "Mantenha a liberdade dos lícks pentatônicos, mas busque ancorar frases nas notas-alvo do acorde em que você está.",
+   "passos": [],
+   "timestamp": "9:28",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "lick",
+    "notas-alvo"
+   ],
+   "id_global": "-El2m16TS5o#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "rotina_estudo",
+   "titulo": "Roteiro de quatro passos antes de solar",
+   "descricao": "Antes de improvisar sobre uma progressão, passe pelas quatro etapas: identificar acordes e tonalidade, escolher escalas, localizar notas dos acordes e planejar frases.",
+   "passos": [
+    "Identifique os acordes e a tonalidade",
+    "Escolha as escalas que servem sobre eles",
+    "Anote as notas de cada acorde e as 3ªs maiores",
+    "Planeje frases curtas que apontem para as notas-alvo"
+   ],
+   "timestamp": "9:37",
+   "nivel": "intermediario",
+   "tags": [
+    "rotina",
+    "planejamento",
+    "método"
+   ],
+   "id_global": "-El2m16TS5o#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Planejar as notas aumenta a confiança",
+   "descricao": "O instrutor afirma que, ao tocar só pentatônica e torcer para acertar notas, perdeu tempo de evolução; planejar as notas dá mais confiança e diversão.",
+   "passos": [],
+   "timestamp": "11:03",
+   "nivel": "iniciante",
+   "tags": [
+    "confiança",
+    "planejamento",
+    "mentalidade"
+   ],
+   "id_global": "-El2m16TS5o#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Backing track usada na demo",
+   "descricao": "O instrutor indica uma backing track no link https://youtu.be/TCR410XFl2Q para praticar improviso sobre a progressão do exemplo.",
+   "passos": [],
+   "timestamp": "9:37",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "prática"
+   ],
+   "id_global": "-El2m16TS5o#I15"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track: https://youtu.be/TCR410XFl2Q"
+ ],
+ "observacoes": "Legenda automática com muitos trechos 'foreign' sem sentido, provavelmente onde o instrutor toca sem falar; a demo e os exemplos sonoros dependem do áudio. A progressão é descrita como A–G–D na descrição e na fala (A é V, G é IV, D é I em Ré maior). A transcrição traz 'a she D back to a', interpretado como A–G–D. Não foi indicado se o acorde de Lá é maior ou com sétima; as notas citadas (C#, E) indicam Lá maior.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00205,
+  "via": "api"
+ }
+}

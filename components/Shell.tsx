@@ -2,7 +2,7 @@
 
 /* A casca: a barra de cima com as oito telas e a barra de baixo no celular, que
  * vira um trilho na lateral no celular, que fica sempre deitado. */
-import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, Guitar, LayoutGrid, Repeat, Video, Waypoints } from 'lucide-react'
+import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, GraduationCap, Guitar, LayoutGrid, Repeat, Video, Waypoints } from 'lucide-react'
 import { Fragment } from 'react'
 
 import { MODES, type ModeId } from '@/lib/modes'
@@ -18,6 +18,7 @@ export const MODE_ICON: Record<ModeId, React.ReactNode> = {
   meeting: <Video {...ICON} />,
   plan: <CalendarDays {...ICON} />,
   quiz: <Gamepad2 {...ICON} />,
+  solos: <GraduationCap {...ICON} />,
 }
 
 export function BrandMark({ size = 28 }: { size?: number }) {

@@ -1,0 +1,631 @@
+{
+ "fonte_id": "kkr107pBAAs",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+  "autor": "Rustys Guitar",
+  "url": "https://www.youtube.com/watch?v=kkr107pBAAs",
+  "idioma": "en",
+  "duracao": "16m 14s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/kkr107pBAAs--how-i-wish-guitar-soloing-was-explained-to-me-as-a-beginner.md"
+ },
+ "resumo": "Aula em inglês sobre como construir solos de blues menor lento a partir de frases curtas ligadas aos acordes, em vez de subir e descer a escala. O professor usa a pentatônica de Lá menor como base e mostra que as tríades de Am, Dm e Em estão dentro dela, com as raízes como notas de chegada. Também apresenta bends, slides, double stops e um motivo repetido. Destina-se a iniciantes e a quem já toca pentatônica mas sente falta de direção ao solar.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito claro e bem explicado (notas-alvo, tríades dentro da pentatônica, motivo) com exemplos de casas e cordas, em backing track lento apropriado para iniciantes. Perde pontos porque boa parte da demonstração depende de ver o braço, há repetição e alguns trechos da fala são confusos."
+ },
+ "assuntos_principais": [
+  "pentatônica menor de Lá",
+  "blues menor lento",
+  "progressão Am-Dm-Em",
+  "tríades dentro da pentatônica",
+  "notas-alvo e notas do acorde",
+  "raízes nas casas do braço",
+  "bends e slides",
+  "double stops",
+  "motivo melódico",
+  "frases de resolução"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação: contar uma história em cada acorde",
+   "inicio": "00:00",
+   "fim": "00:34",
+   "resumo": "O professor apresenta a proposta: conectar acordes e escala com frases curtas, e não tocar subindo e descendo a escala.",
+   "assuntos": [
+    "frases curtas",
+    "narrativa sobre os acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica menor como base e o problema de tocar sem direção",
+   "inicio": "00:34",
+   "fim": "01:42",
+   "resumo": "Apresenta a pentatônica de Lá menor, com a tônica na 5ª casa da corda E grave, como base do blues rock. Critica o hábito de ficar preso a subir e descer a escala sem resolução.",
+   "assuntos": [
+    "pentatônica menor de Lá",
+    "tônica na corda E",
+    "erro de tocar sem direção"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Backing track e progressão Am-Dm-Em",
+   "inicio": "01:42",
+   "fim": "02:21",
+   "resumo": "Apresenta o backing track lento de blues menor, com os acordes Am, Dm e Em, e sugere praticar nesse andamento para ouvir as notas-alvo.",
+   "assuntos": [
+    "backing track",
+    "progressão Am-Dm-Em",
+    "blues menor lento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Tríades dentro da pentatônica",
+   "inicio": "02:21",
+   "fim": "03:29",
+   "resumo": "Explica que as tríades de cada acorde estão dentro da pentatônica de Lá menor, de modo que os acordes ficam sob os dedos.",
+   "assuntos": [
+    "tríades",
+    "pentatônica",
+    "notas do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Raízes dos acordes nas casas do braço",
+   "inicio": "03:29",
+   "fim": "04:36",
+   "resumo": "Mostra onde estão as raízes de Am, Dm e Em no braço, para que o solista pouse nelas ao trocar de acorde.",
+   "assuntos": [
+    "raízes",
+    "casas do braço",
+    "pousar nas notas do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Frases de chegada, turnaround e bends curtos",
+   "inicio": "04:36",
+   "fim": "06:38",
+   "resumo": "Demonstra frases que chegam à tônica de cada acorde, com slides e bends leves, e um retorno final pela nota E.",
+   "assuntos": [
+    "frases de chegada",
+    "slides",
+    "bends",
+    "turnaround"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Motivação pessoal e tocar as tríades nota por nota",
+   "inicio": "06:38",
+   "fim": "08:22",
+   "resumo": "O professor conta que demorou anos para entender essa abordagem e fala de sua experiência como iniciante. Depois sugere tocar as tríades uma nota por vez.",
+   "assuntos": [
+    "história pessoal",
+    "tríades",
+    "prática lenta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Tríades dentro dos acordes de seis cordas",
+   "inicio": "08:22",
+   "fim": "09:39",
+   "resumo": "Explica que as pequenas formas de tríade estão dentro dos acordes completos que o aluno já conhece, e que pode praticá-las separadamente no início.",
+   "assuntos": [
+    "tríades dentro de acordes",
+    "visualização no braço",
+    "prática lenta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Notas-alvo (chord tones) e micro bends",
+   "inicio": "09:39",
+   "fim": "10:50",
+   "resumo": "Define chord tones como notas-alvo e mostra como micro bends e slides deixam a frase mais musical.",
+   "assuntos": [
+    "chord tones",
+    "notas-alvo",
+    "micro bends",
+    "slides"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Frase sobre Am: alternância na corda D e nota C na corda G",
+   "inicio": "10:50",
+   "fim": "12:33",
+   "resumo": "Demonstra uma frase sobre Am alternando a 7ª e a 5ª casa da corda D e chegando à nota C na corda G. Recomenda pensar na forma do acorde mais do que na escala.",
+   "assuntos": [
+    "frase sobre Am",
+    "casas 7 e 5 da corda D",
+    "nota C",
+    "forma do acorde versus escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Slide, double stop e bend sobre Dm e Em",
+   "inicio": "12:33",
+   "fim": "14:09",
+   "resumo": "Mostra um slide até a 9ª casa da corda G, um double stop com a corda B e um bend curto na 5ª casa da corda B, com retorno à raiz do Dm.",
+   "assuntos": [
+    "slide",
+    "double stop",
+    "bend",
+    "raiz do Dm"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Motivo repetido ao longo do solo",
+   "inicio": "14:09",
+   "fim": "14:48",
+   "resumo": "Mostra uma pequena ideia com palhetada para baixo e para cima, que volta à raiz de Dm e pode ser repetida como motivo no solo.",
+   "assuntos": [
+    "motivo",
+    "palhetada",
+    "repetição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Dicas finais para o blues lento",
+   "inicio": "14:48",
+   "fim": "15:56",
+   "resumo": "Recomenda usar uma escala central (pentatônica menor ou maior, conforme o backing track) com formas de acorde, bends e slides, e praticar em andamento lento para pensar nos acordes.",
+   "assuntos": [
+    "escala central",
+    "andamento lento",
+    "pentatônica maior ou menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Despedida",
+   "inicio": "15:56",
+   "fim": "16:14",
+   "resumo": "Despedida curta e convite para o próximo vídeo.",
+   "assuntos": [],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Contar uma história em cada acorde",
+   "descricao": "Em vez de tocar escalas para cima e para baixo, conecte o solo aos acordes usando frases curtas, pensando em cada acorde como uma pequena parte da história do solo.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "frases curtas",
+    "narrativa",
+    "notas-alvo"
+   ],
+   "id_global": "kkr107pBAAs#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de Lá como base do blues rock",
+   "descricao": "A pentatônica menor de Lá (A C D E G) tem a tônica na 5ª casa da corda E grave. Ela é a base para solar em blues rock menor.",
+   "passos": [],
+   "timestamp": "00:48",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "lá menor",
+    "blues rock"
+   ],
+   "id_global": "kkr107pBAAs#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Ficar preso a subir e descer a escala",
+   "descricao": "O erro comum é improvisar subindo e descendo a pentatônica sem direção, sem resolver as notas e sem pensar nas notas que se toca. A escala deve ser o ponto de partida, não o destino.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "pentatônica",
+    "direção melódica"
+   ],
+   "id_global": "kkr107pBAAs#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Ouvir as trocas de acorde em backing track lento",
+   "descricao": "Use o backing track lento de blues menor com a progressão Am-Dm-Em. As trocas são lentas, o que permite ouvir cada mudança de acorde e pensar nas notas que se encaixam nela.",
+   "passos": [],
+   "timestamp": "02:04",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "progressão",
+    "blues menor"
+   ],
+   "id_global": "kkr107pBAAs#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Tríades dentro da pentatônica de Lá menor",
+   "descricao": "As tríades de Am (A C E), Dm (D F A) e Em (E G B) estão dentro da pentatônica de Lá menor. Por isso as notas dos acordes já estão sob os dedos ao solar sobre a escala.",
+   "passos": [],
+   "timestamp": "02:21",
+   "nivel": "iniciante",
+   "tags": [
+    "tríades",
+    "pentatônica",
+    "notas do acorde"
+   ],
+   "id_global": "kkr107pBAAs#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Localizar as raízes de Am, Dm e Em no braço",
+   "descricao": "Localize a raiz de cada acorde no braço: A (Lá) na 7ª casa da corda D para Am, D (Ré) na 7ª casa da corda G para Dm, e E (Mi) na 9ª casa da corda G ou na 5ª casa da corda B para Em.",
+   "passos": [
+    "Toque a 7ª casa da corda D e identifique o Lá (raiz de Am)",
+    "Toque a 7ª casa da corda G e identifique o Ré (raiz de Dm)",
+    "Toque a 9ª casa da corda G ou a 5ª casa da corda B e identifique o Mi (raiz de Em)",
+    "Alterne entre as três raízes no ritmo do backing track lento"
+   ],
+   "timestamp": "03:29",
+   "nivel": "iniciante",
+   "tags": [
+    "raízes",
+    "casas do braço",
+    "notas-alvo"
+   ],
+   "id_global": "kkr107pBAAs#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Chegar na nota-alvo ao trocar de acorde",
+   "descricao": "Ao trocar de acorde, a frase deve pousar na nota do novo acorde (a raiz, por exemplo) para que o solo tenha direção e resolução.",
+   "passos": [],
+   "timestamp": "04:36",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "resolução",
+    "troca de acorde"
+   ],
+   "id_global": "kkr107pBAAs#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Slides e bends curtos para fugir do som mecânico",
+   "descricao": "Pequenos slides e bends deixam a frase menos mecânica e a aproximam da nota de destino. São usados como movimento leve em direção à tônica.",
+   "passos": [],
+   "timestamp": "05:20",
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "bend",
+    "musicalidade"
+   ],
+   "id_global": "kkr107pBAAs#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Turnaround que termina na nota E",
+   "descricao": "Sequência E, Em, Dm e retorno a Am, com a nota E (5ª de Am) como final do turnaround. As notas se encaminham para a tônica do acorde seguinte.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "intermediario",
+   "tags": [
+    "turnaround",
+    "resolução",
+    "Em",
+    "Dm",
+    "Am"
+   ],
+   "id_global": "kkr107pBAAs#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Tocar as tríades nota por nota",
+   "descricao": "Para aprender a acertar as notas dos acordes, toque as tríades de Am, Dm e Em uma nota por vez, antes de tentar frases mais rápidas.",
+   "passos": [
+    "Escolha uma tríade (Am, Dm ou Em)",
+    "Toque suas três notas uma por vez no braço, na ordem raiz-3ª-5ª",
+    "Repita no backing track lento",
+    "Só depois use as mesmas notas em frases"
+   ],
+   "timestamp": "07:14",
+   "nivel": "iniciante",
+   "tags": [
+    "tríades",
+    "prática lenta",
+    "arpejo"
+   ],
+   "id_global": "kkr107pBAAs#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Tríades escondidas nos acordes de seis cordas",
+   "descricao": "As pequenas formas de tríade estão dentro dos acordes completos de seis cordas que o aluno já conhece. Visualizar essas formas no braço ajuda a sentir o acorde por trás da escala.",
+   "passos": [],
+   "timestamp": "08:22",
+   "nivel": "iniciante",
+   "tags": [
+    "tríades",
+    "shape",
+    "visualização"
+   ],
+   "id_global": "kkr107pBAAs#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Chord tones como notas-alvo",
+   "descricao": "Chord tones são as notas do acorde (raiz, 3ª e 5ª numa tríade). Elas são as notas-alvo a que o solo deve chegar sobre cada acorde.",
+   "passos": [],
+   "timestamp": "09:39",
+   "nivel": "iniciante",
+   "tags": [
+    "chord tones",
+    "notas-alvo",
+    "tríades"
+   ],
+   "id_global": "kkr107pBAAs#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Qualquer nota do acorde pode ser alvo, com a raiz como casa",
+   "descricao": "Não é preciso acertar sempre a raiz: qualquer chord tone pode ser alvo. Mas a raiz funciona como casa, o ponto para onde a frase volta.",
+   "passos": [],
+   "timestamp": "09:39",
+   "nivel": "iniciante",
+   "tags": [
+    "raiz",
+    "notas-alvo",
+    "resolução"
+   ],
+   "id_global": "kkr107pBAAs#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Micro bends e slides para dar musicalidade",
+   "descricao": "Micro bends e slides curtos nas notas-alvo tornam o solo mais musical e ajudam a fugir do som mecânico. A técnica é apresentada sobre o acorde de Am.",
+   "passos": [],
+   "timestamp": "10:06",
+   "nivel": "intermediario",
+   "tags": [
+    "micro bend",
+    "slide",
+    "musicalidade"
+   ],
+   "id_global": "kkr107pBAAs#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S10",
+   "tipo": "frase_lick",
+   "titulo": "Frase sobre Am: corda D 7ª e 5ª casas e nota C na corda G",
+   "descricao": "Sobre Am, alterne as notas da 7ª casa (Lá) e da 5ª casa (Sol) da corda D, que volta à raiz Lá, e depois toque a 5ª casa da corda G (Dó, 3ª de Am).",
+   "passos": [],
+   "timestamp": "10:50",
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "am",
+    "corda D",
+    "nota C"
+   ],
+   "id_global": "kkr107pBAAs#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Pensar na forma do acorde mais do que na escala",
+   "descricao": "Ao frasear sobre Am, o professor pensa mais na forma do acorde do que na pentatônica, mesmo tocando passagens rápidas com a escala em mente.",
+   "passos": [],
+   "timestamp": "11:27",
+   "nivel": "intermediario",
+   "tags": [
+    "forma do acorde",
+    "pentatônica",
+    "frase"
+   ],
+   "id_global": "kkr107pBAAs#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S11",
+   "tipo": "frase_lick",
+   "titulo": "Slide para a 9ª casa da corda G e double stop com a corda B",
+   "descricao": "Deslize com o dedo 3 da 9ª casa da corda G (Mi) até a 8ª casa da corda B (Sol). Também é possível tocar as duas notas juntas como double stop.",
+   "passos": [
+    "Toque a 9ª casa da corda G (Mi) com o dedo 3",
+    "Deslize e toque a 8ª casa da corda B (Sol)",
+    "Repita tocando as duas notas juntas como double stop"
+   ],
+   "timestamp": "12:33",
+   "nivel": "intermediario",
+   "tags": [
+    "slide",
+    "double stop",
+    "dedo 3",
+    "em"
+   ],
+   "id_global": "kkr107pBAAs#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "frase_lick",
+   "titulo": "Bend curto na 5ª casa da corda B e retorno à raiz do Dm",
+   "descricao": "Faça um bend curto na 5ª casa da corda B (Mi), solte e chegue à raiz Ré do Dm (7ª casa da corda G). A fala sobre a extensão exata do bend está confusa na transcrição.",
+   "passos": [
+    "Faça bend na 5ª casa da corda B (Mi)",
+    "Solte o bend",
+    "Chegue à raiz Ré do Dm na 7ª casa da corda G"
+   ],
+   "timestamp": "13:07",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "dm",
+    "raiz"
+   ],
+   "id_global": "kkr107pBAAs#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S11",
+   "tipo": "frase_lick",
+   "titulo": "Motivo com palhetada para baixo e para cima",
+   "descricao": "Comece com Ré na 7ª casa da corda G, com palhetada para baixo. Na palhetada para cima, toque a 5ª casa das cordas B e G com um bend leve, e volte para Lá na 7ª casa da corda D.",
+   "passos": [
+    "Toque Ré na 7ª casa da corda G com palhetada para baixo",
+    "Na palhetada para cima, toque a 5ª casa das cordas B e G com bend leve",
+    "Volte para Lá na 7ª casa da corda D"
+   ],
+   "timestamp": "13:40",
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "palhetada",
+    "bend",
+    "lá"
+   ],
+   "id_global": "kkr107pBAAs#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Motivo repetido ao longo do solo",
+   "descricao": "Uma pequena ideia que volta à raiz do acorde pode funcionar como motivo, repetido ao longo do solo. Ele pode ser usado sobre Dm ou Em.",
+   "passos": [],
+   "timestamp": "14:09",
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "repetição",
+    "estrutura de solo"
+   ],
+   "id_global": "kkr107pBAAs#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "dica",
+   "titulo": "Escolher a escala central conforme o backing track",
+   "descricao": "Use a pentatônica menor ou maior, conforme o backing track, como escala central. Sobre ela, adicione as formas de acorde, pequenos bends e slides.",
+   "passos": [],
+   "timestamp": "15:23",
+   "nivel": "intermediario",
+   "tags": [
+    "escala central",
+    "pentatônica maior",
+    "pentatônica menor",
+    "backing track"
+   ],
+   "id_global": "kkr107pBAAs#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S13",
+   "tipo": "rotina_estudo",
+   "titulo": "Estudar em andamento lento com backing track",
+   "descricao": "Pratique em andamento lento para ter tempo de pensar nos acordes e nas notas-alvo. A proposta é construir uma base sólida antes de acelerar.",
+   "passos": [
+    "Escolha um backing track de blues menor lento",
+    "Identifique os acordes e suas raízes",
+    "Improvise usando apenas as notas-alvo de cada acorde",
+    "Só acelere quando as trocas de acorde estiverem claras"
+   ],
+   "timestamp": "14:48",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "andamento lento",
+    "backing track"
+   ],
+   "id_global": "kkr107pBAAs#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S13",
+   "tipo": "erro_comum",
+   "titulo": "Tocar bem por acaso sem entender o porquê",
+   "descricao": "Às vezes a improvisação soa bem por acaso, mas sem entender os acordes o solista não consegue repetir o resultado nem achar o caminho de volta quando se perde.",
+   "passos": [],
+   "timestamp": "15:23",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "entendimento",
+    "improvisação"
+   ],
+   "id_global": "kkr107pBAAs#I23"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track de blues menor lento (youtu.be/BRdIfH5A3yo)"
+ ],
+ "observacoes": "Legenda automática com erros e trechos confusos: 'beginnerfriendly', 'one one step a half step bend' (extensão do bend ambígua), 'bass note' por 'base note' e 'triad' escrito de forma truncada. Vários trechos (ex.: 'D minor coming up. E', 'turnaround é E') não têm fala explicativa e dependem de ver a demonstração e o braço. Os timestamps do transcript não coincidem exatamente com os capítulos da descrição, por isso os segmentos usam os capítulos como referência. A aula é muito visual, e a tablatura ou o vídeo são necessários para acompanhar as posições.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00324,
+  "via": "api"
+ }
+}

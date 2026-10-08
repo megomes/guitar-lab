@@ -1,0 +1,683 @@
+{
+ "subcategoria": "C11.3",
+ "visao_geral": "O modo é definido pelo centro (acorde ou nota de repouso da base), não pelo desenho no braço. As mesmas notas soam como modos diferentes conforme a base. Na improvisação tonal, uma única escala cobre a progressão; na modal, cada acorde recebe seu modo, o que é útil em vamps e em acordes de fora do tom. A prática passa por ouvir modos sobre vamps, alternar modos paralelos (dórico/eólio, dórico/frígio, jônio/lídio/mixolídio) conferindo choques com as notas do acorde, e usar o modo como tempero, não como fim.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "mentalidade",
+   "titulo": "Escolha o modo pelo clima, não por sofisticação",
+   "descricao": "Ouça a diferença entre os modos e escolha pela emoção desejada: maior tende ao alegre e menor ao triste, mas sem regra rígida. Um modo é uma alternativa à tonalidade maior ou menor, não uma versão 'melhor'. Use-o quando o clima pedido não couber no maior ou no menor comum.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "FFGKJoljMS4#I08",
+    "orphiq--music-modes-explained-9a1b6e#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Improvisação tonal vs. modal",
+   "descricao": "Na tonal, a progressão inteira está num tom e uma única escala cobre todos os acordes. Na modal, cada acorde é pensado isoladamente e recebe o modo que o resolve, o que equivale a tocar a escala-mãe de cada acorde e sair do centro tonal de forma consciente. O modal é mais usado quando a harmonia tem acordes de origens diferentes.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "z1YGMPsz-rU#I10",
+    "z1YGMPsz-rU#I14",
+    "z1YGMPsz-rU#I23",
+    "z1YGMPsz-rU#I24",
+    "yDiWrTsQ1tc#I21",
+    "z1YGMPsz-rU#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Mesmas notas, centro diferente: o centro define o modo",
+   "descricao": "Mi maior e Si mixolídio têm as mesmas notas, e Sol maior e Ré mixolídio compartilham o mesmo campo harmônico. Quem muda a cor é o centro, isto é, o acorde de baixo ou a nota de repouso. Os sete modos de Dó são centros independentes da mesma coleção, e Dó não precisa ser o centro. Nomeie pelo centro, não pelo campo harmônico.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I10",
+    "Ivr_-S7ku8E#I12",
+    "Ivr_-S7ku8E#I14",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "mentalidade",
+   "titulo": "A base define o modo, não o desenho no braço",
+   "descricao": "Para saber o modo, pergunte qual acorde ou nota de repouso está embaixo, e não em que região do braço a escala está. Não é preciso um padrão específico para soar modal: toque a escala livremente, mas referencie a tônica do modo e as notas de repouso que encaixam na harmonia.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Ivr_-S7ku8E#I11",
+    "Ivr_-S7ku8E#I16",
+    "Ivr_-S7ku8E#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Mesma escala de Dó maior sobre bases em Dó, Ré e Mi",
+   "descricao": "Toque Dó maior sobre um pad ou backing track em Dó (soa jônio), depois sobre Ré menor (soa dórico) e sobre Mi (soa frígio). As notas não mudam; muda o acorde de fundo e a nota de repouso.",
+   "passos": [
+    "Base em Dó: toque Dó maior repousando em Dó (jônio).",
+    "Troque a base para Ré menor e repouse em Ré (dórico).",
+    "Troque para Mi e repouse em Mi (frígio).",
+    "Compare as cores e identifique a nota de repouso de cada uma."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Ivr_-S7ku8E#I08",
+    "Ivr_-S7ku8E#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Identificar o modo pelo grau de repouso",
+   "descricao": "Ouça onde a música assenta. Ré–Lá(m)–Dó–Sol usa as notas de Sol maior, mas repousa em Ré, então é Ré mixolídio. Use a escala que contém as notas de repouso da base.",
+   "passos": [
+    "Ouça a progressão e ache o acorde onde a música 'para'.",
+    "Tome esse acorde como I.",
+    "Veja quais notas do campo aparecem.",
+    "Nomeie o modo pela tônica, não pela escala de origem."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Ivr_-S7ku8E#I15",
+    "Ivr_-S7ku8E#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Pensar o modo pela escala-mãe",
+   "descricao": "Para tocar um modo, use as notas da escala maior de origem com o centro no acorde da base. Exemplos: Si♭ maior sobre Dó menor gera Dó dórico; Sol maior com centro em Lá (base Am7, progressão Am–Bm–C–Bm) gera Lá dórico; Ré maior sobre Lá gera Lá mixolídio (1-2-3-4-5-6-♭7).",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "N1shDBha6Y0#I06",
+    "EY6-VNz81HE#I16",
+    "-El2m16TS5o#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "recurso",
+   "titulo": "Formas de mixolídio para começar",
+   "descricao": "Há duas formas de referência. Ré mixolídio em três notas por corda, a partir do Ré na casa 10 da 6ª corda. Lá mixolídio na região da casa 5: E grave 5-7, A 4-5-7, D 4-5-7, G 4-6-7, B 5-7-8, E aguda 5-7.",
+   "passos": [
+    "Ré mixolídio: comece na casa 10 da corda Mi grave, 3 notas por corda.",
+    "Lá mixolídio: 5-7 | 4-5-7 | 4-5-7 | 4-6-7 | 5-7-8 | 5-7, da 6ª para a 1ª corda."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "vPIebPDBizs#I02",
+    "ZPELVwO27lc#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Estudar um modo sobre jam track",
+   "descricao": "Fique só num modo (ex.: mixolídio) por um período, tocando sobre backing tracks variados. Comece subindo e descendo Ré mixolídio sobre um jam track no mesmo modo, em tercinas e depois em semicolcheias. Em seguida, pare e sustente Ré, F# e Lá para que o acorde de Ré soe como centro.",
+   "passos": [
+    "Escolha um modo e trabalhe só ele por um período.",
+    "Suba e desça a forma no ritmo do jam track.",
+    "Passe de tercinas para semicolcheias sem perder precisão.",
+    "Pare e sustente as notas do acorde I (Ré, F#, Lá).",
+    "Repita em músicas e contextos diferentes."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "4iqtipKAu8M#I13",
+    "vPIebPDBizs#I03",
+    "vPIebPDBizs#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Pentatônica menor como coringa nos modos menores",
+   "descricao": "Sobre eólio, dórico ou frígio, a pentatônica menor (1-♭3-4-5-♭7) é uma escolha segura, porque evita justamente o 2º e o 6º graus, que diferenciam esses modos.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "dica",
+   "titulo": "Modo conforme o tipo de acorde",
+   "descricao": "Não existe uma escala melhor para tudo: escolha pelo tipo de acorde e mire as notas-alvo. Use dórico sobre m7 (sobretudo no ii do ii-V-I, e sobre menor com 6ª maior), mixolídio sobre dominante (G7 = G B D F leva G mixolídio; C7 leva C mixolídio) e lídio sobre maj7. Pela tríade da tônica: jônio, lídio e mixolídio são maiores; dórico, frígio e eólio são menores; lócrio é diminuto.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "orphiq--music-modes-explained-9a1b6e#I22",
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I25",
+    "iUZwNSDpV_Q#I25",
+    "z1YGMPsz-rU#I21",
+    "z1YGMPsz-rU#I22",
+    "en--mode_-music-72a13e#I14",
+    "en--jazz_improvisation-59a777#I14",
+    "en--jazz_improvisation-59a777#I15",
+    "en--jazz_improvisation-59a777#I16",
+    "en--jazz_improvisation-59a777#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Uma escala sobre I–IV–V via modos",
+   "descricao": "Mantendo a escala maior do I, ela vira mixolídio sobre o V e lídio sobre o IV. Em Mi: Mi maior sobre A gera Lá lídio e sobre B gera Si mixolídio. O V é acorde de tensão, e o mixolídio é a escala que funciona sobre ele, não a escala maior da fundamental do V. A regra vale para blues, rock e country.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I07",
+    "aHzmIWB0P00#I11",
+    "aHzmIWB0P00#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "dica",
+   "titulo": "Acorde maior ou sus: jônio, lídio ou mixolídio pelo som desejado",
+   "descricao": "Um acorde de Lá maior aceita Lá jônio, Lá lídio e Lá mixolídio, todos com Lá como tônica. Sobre Asus2 (A B E), tocar as notas de Mi maior gera Lá lídio (#4 = D#). A escolha depende da cor buscada, não só da fundamental.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "juQVAFsdFMQ#I02",
+    "z1YGMPsz-rU#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "conceito",
+   "titulo": "Mixolídio na prática: I com ♭7 e acorde ♭VII",
+   "descricao": "Sobre o I, a ♭7 dá som de dominante na tônica, uma tensão que não resolve por completo, com clima de rock e blues. Apoie a melodia na 3ª maior e na ♭7. O acorde ♭VII denuncia o mixolídio, como Ré–Dó–Sol–Ré em Ré mixolídio ou D na tonalidade de E. Ariel Posen, porém, prefere pensar a tonalidade como maior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "orphiq--music-modes-explained-9a1b6e#I07",
+    "rh6HEF5Dy2I#I15",
+    "vPIebPDBizs#I10",
+    "orphiq--music-modes-explained-9a1b6e#I08",
+    "orphiq--music-modes-explained-9a1b6e#I17"
+   ],
+   "divergencias": "Ariel Posen prefere pensar em tonalidade maior com acorde emprestado; outras fontes nomeiam diretamente como mixolídio.",
+   "correcoes": "D não é o V de E, e sim o ♭VII, e é isso que sugere Mi mixolídio."
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "IV maior em tonalidade menor: assinatura dórica",
+   "descricao": "No dórico, a 6ª maior entra na tríade do IV, que fica maior em vez de menor. Em Ré dórico, por exemplo, o IV é G (G B D), e não Gm. Essa troca de iv para IV é típica de R&B e neo-soul.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "orphiq--music-modes-explained-9a1b6e#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Alternar dórico e eólio no mesmo vamp",
+   "descricao": "Antes de trocar de modo, confira se as notas do acorde colidem com ele. Am7 (A C E G) e E7#9 não contêm F nem F#, então Lá dórico (F#, 6ª maior, mais 'positivo') e Lá eólio (F) podem se alternar à vontade. Eleanor Rigby (Beatles) faz o mesmo, misturando 6ª maior e ♭6, com a ♭6 resolvendo na 5ª.",
+   "passos": [
+    "Ponha um vamp Am7–E7#9.",
+    "Toque frases em Lá eólio (F natural).",
+    "Repita ideias em Lá dórico (F#).",
+    "Alterne livremente, ouvindo a mudança de cor."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I06",
+    "qLEyhW3f08k#I04",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I03",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Vamp Bm7–C: frígio de base, dórico só no Bm7",
+   "descricao": "Bm7 (B D F# A) e C (C E G) cabem em Si frígio (B C D E F# G A), que serve de base para todo o vamp. Si dórico (B C# D E F# G# A) dá cor nova sobre Bm7, mas o C# choca com C. Aqui a escolha depende do acorde do momento, e a alternância soa como inspirar e expirar.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I08",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I10",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I11",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I09",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Troca contínua Si dórico ↔ Si frígio",
+   "descricao": "Em colcheias contínuas e andamento lento, toque Si dórico sobre Bm7 e mude para Si frígio exatamente na entrada do C, sem quebrar o fluxo.",
+   "passos": [
+    "Escolha um andamento lento.",
+    "Suba e desça Si dórico em colcheias sobre Bm7.",
+    "Na troca para C, passe a Si frígio sem parar.",
+    "Repita até trocar sem hesitar."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Falar o nome da escala na troca",
+   "descricao": "Ao treinar solos com várias escalas, diga em voz alta o nome da escala a cada troca de acorde para internalizar a mudança.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "Vamp D6–C6: mixolídio de base, jônio e lídio só no D6",
+   "descricao": "Ré mixolídio (D E F# G A B C) cobre D6 e C6 e tem brilho maior com ♭7 bluesy. Sobre D6 (D F# A B), Ré jônio traz a 7ª maior C#, bonita, e Ré lídio traz também a #4 (G#), mais estranha e aberta. Quando entra C6 (C E G A), volte ao mixolídio, porque C# e G# colidem com C e G.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I15",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I17",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I18",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Mudar de modo trocando uma nota",
+   "descricao": "Entre modos vizinhos da mesma tônica (ex.: jônio e mixolídio) só uma nota muda, então basta mover um dedo uma casa e manter o resto da posição. Da mesma forma, para levar uma frase de maior para menor, repita-a trocando a 3ª maior pela menor, o que exige saber onde está a 3ª.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I22",
+    "XL9TYmwkHWs#I25"
+   ],
+   "divergencias": "",
+   "correcoes": "A diferença de uma nota vale para modos vizinhos em brilho, como jônio/mixolídio, dórico/eólio e eólio/frígio, e não para quaisquer dois modos."
+  },
+  {
+   "id": "K22",
+   "tipo": "erro_comum",
+   "titulo": "Modo emprestado sem critério e em excesso",
+   "descricao": "Usar o modo 'errado' sem intenção ou no momento errado gera notas feias. O modo é tempero: mantenha ideias diatônicas e use a cor nova pontualmente, de preferência com colegas que sabem ouvir. As sugestões são ponto de partida para o seu próprio estilo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I02",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I21",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "dica",
+   "titulo": "Notas a privilegiar para evocar o modo",
+   "descricao": "Destaque a fundamental, a 3ª, a 5ª (opcional) e a nota característica do modo, mais um intervalo complementar da estrutura superior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I44"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "Acordes primários e secundários do modo",
+   "descricao": "Cada modo tem seu campo harmônico, com tríades e tétrades empilhadas em terças sobre cada nota. Os primários são o I e os acordes que contêm a nota característica; eles afirmam a sonoridade modal. Os demais são secundários.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I12",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "exercicio",
+   "titulo": "Pares de tríades para evocar cada modo",
+   "descricao": "Sobre o acorde de tônica, alterne tríades que contêm a nota característica. Lídio sobre C: D, F#dim ou Bm. Jônio sobre C: Dm ou F, ou Csus2 com Fsus2. Mixolídio sobre C: Gm, B♭ ou Edim. Dórico sobre Cm: Dm, F ou B♭.",
+   "passos": [
+    "Toque a tríade da tônica (C ou Cm).",
+    "Alterne com uma tríade do par do modo escolhido.",
+    "Ouça a nota característica (F#, B♭ ou A) aparecer.",
+    "Repita com cada um dos quatro modos."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I33",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I35",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I37",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I40"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte escreve 'sus9'; o par jônio é Csus2 (C D G) com Fsus2 (F G C)."
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "Tríades do campo de Sol maior sobre Lá dórico",
+   "descricao": "Sobre Am7 (Lá dórico), toque em sequência as tríades de Sol maior num mesmo grupo de cordas: G, Am, Bm, C, D, Em e F#dim. Todas funcionam nesse contexto.",
+   "passos": [
+    "Escolha um grupo de cordas.",
+    "Toque G, Am, Bm, C, D, Em e F#dim em formato diagonal.",
+    "Se ficar agudo demais, baixe o grau VI uma oitava.",
+    "Improvise usando essas tríades sobre o vamp."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "EY6-VNz81HE#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Construir o modo a partir da pentatônica",
+   "descricao": "Parta da pentatônica do acorde (ex.: m7) e acrescente uma nota por vez até a hexatônica e o modo completo (dórico), improvisando em cada etapa. Assim você evita soar como 'máquina de escalas' em três notas por corda.",
+   "passos": [
+    "Comece com a pentatônica menor do acorde.",
+    "Acrescente uma nota (hexatônica) e improvise.",
+    "Complete o modo (ex.: dórico) e improvise.",
+    "Teste em vamp de 4 compassos e depois com o acorde mudando."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "tRi4vMs2z8M#I32",
+    "iWm_dxEszu0#I05"
+   ],
+   "divergencias": "Gardiner apresenta o método como caminho principal; Jens Larsen diz que funciona em vamps de um acorde, mas se perde em harmonia em movimento.",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "exercicio",
+   "titulo": "Jônio e mixolídio oitavados em início, meio e final",
+   "descricao": "Aplique ao jônio o método usado na pentatônica: divida em início, meio (cordas 4 e 3) e final (cordas 2 e 1), oitavando os trechos (casas citadas: 15, 17 e 18). Repita com o mixolídio. Como o jônio parte da ♭3 da pentatônica menor relativa e o mixolídio parte da ♭7, os dois se encaixam sobre a mesma pentatônica.",
+   "passos": [
+    "Toque o início do jônio oitavado (casas 15, 17, 18).",
+    "Passe ao meio, nas cordas 4 e 3.",
+    "Finalize nas cordas 2 e 1.",
+    "Repita com o mixolídio sobre o playback."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gubqumrozXc#I12",
+    "gubqumrozXc#I13",
+    "gubqumrozXc#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "conceito",
+   "titulo": "Mesmo shape, foco no acorde",
+   "descricao": "Com modos, não é preciso mudar de shape: fique no mesmo formato e mude o foco a cada acorde. Isso exige saber de cor as notas do shape, e a fonte chama esse controle de 'santo graal' do improviso.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "exercicio",
+   "titulo": "Pousar nas tríades dentro de Dó maior",
+   "descricao": "Sobre Dó–Fá–Am–Sol, toque Dó maior num único shape e repouse nas notas da tríade de cada acorde.",
+   "passos": [
+    "Fixe um shape de Dó maior.",
+    "Sobre C, pouse em C, E ou G.",
+    "Sobre F, pouse em F, A ou C.",
+    "Sobre Am, pouse em A, C ou E.",
+    "Sobre G, pouse em G, B ou D."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "exercicio",
+   "titulo": "Nomes de modos como posições num contexto tonal",
+   "descricao": "Em Em/Sol maior, as posições F# lócrio, G jônio, A dórico, B frígio, C lídio e D mixolídio são a mesma escala em regiões diferentes. A música continua em Em; os nomes servem só para localizar. No bloco 2 (Em no shape de A), use B frígio e, conforme a articulação, A dórico. No bloco 3 (Em no shape de E), use C lídio e D mixolídio, intercalando com os arpejos de Em, Bm, C, G e D.",
+   "passos": [
+    "Fixe a região do bloco.",
+    "Localize as posições indicadas (B frígio/A dórico; C lídio/D mixolídio).",
+    "Toque a progressão de arpejos.",
+    "Alterne arpejo e melodia na escala de Em."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "QS6dpweE_Q4#I10",
+    "QS6dpweE_Q4#I11",
+    "QS6dpweE_Q4#I12"
+   ],
+   "divergencias": "",
+   "correcoes": "Em Sol maior/Em a posição mixolídia é D mixolídio, e não 'G mixolídio' como aparece na fonte."
+  },
+  {
+   "id": "K32",
+   "tipo": "conceito",
+   "titulo": "Quando pensar modal e quando pensar escala por acorde",
+   "descricao": "Num vamp de um acorde, pense num único modo. Em trocas rápidas ou com acorde não diatônico, use uma escala por acorde, tratando cada acorde como uma ilha. Querer acertar o modo de cada acorde fora do tom pode complicar sem necessidade: em C–B♭–F–Am–D–G, por exemplo, B♭ sugere mixolídio e D sugere dórico.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tRi4vMs2z8M#I31",
+    "MfrAepqfv2g#I18"
+   ],
+   "divergencias": "Gardiner defende escala por acorde em acordes não diatônicos; Jules Guitar alerta que modo para cada acorde complica sem necessidade.",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "erro_comum",
+   "titulo": "Tratar progressão comum e aleatória do mesmo jeito",
+   "descricao": "Estudar modos só como sete notas leva a tratar um dórico–mixolídio–jônio de ii-V-I igual a uma sequência aleatória, mas o ouvido percebe a diferença. A habilidade real é criar linhas que soem como cada acorde com uma escala que contenha suas notas; quem domina isso já domina o que os modos ensinam.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "iWm_dxEszu0#I13",
+    "iWm_dxEszu0#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K34",
+   "tipo": "conceito",
+   "titulo": "Implicar outro modo sobre a mesma progressão",
+   "descricao": "Sobre Em7–F#m7–G, usar Mi dórico (E F# G A B C# D) em vez de eólio muda a cor por causa da 6ª maior C#. Sobre G, o C# é a #11, com som de Sol lídio.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tRi4vMs2z8M#I36"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K35",
+   "tipo": "recurso",
+   "titulo": "Jazz modal: Kind of Blue, So What e Impressions",
+   "descricao": "Depois de Kind of Blue (Miles Davis), o jazz passou a improvisar sobre centros estáticos em vez de trocas rápidas. So What e Impressions (Coltrane) usam forma AABA de 32 compassos: 16 de Ré dórico, 8 de Mi♭ dórico e 8 de Ré dórico.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "qLEyhW3f08k#I07",
+    "en--jazz_improvisation-59a777#I03"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte cita 8+8+8 compassos; a forma AABA completa tem 8+8 (Ré dórico), 8 (Mi♭ dórico) e 8 (Ré dórico)."
+  },
+  {
+   "id": "K36",
+   "tipo": "exercicio",
+   "titulo": "Alternar Dó dórico e Mi♭ dórico a cada dois compassos",
+   "descricao": "Em loop, improvise 2 compassos em Dó dórico (notas de Si♭ maior) e 2 em Mi♭ dórico (notas de Ré♭ maior). Faça a troca na mesma região do braço para não perder a linha.",
+   "passos": [
+    "Ponha a progressão em loop.",
+    "Improvise 2 compassos em Dó dórico.",
+    "Mude para Mi♭ dórico nos 2 seguintes, na mesma região.",
+    "Repita mantendo o fraseado contínuo."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "N1shDBha6Y0#I22",
+    "N1shDBha6Y0#I19",
+    "N1shDBha6Y0#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K37",
+   "tipo": "dica",
+   "titulo": "Trocar de escala na resolução",
+   "descricao": "Ao sair do dominante e chegar ao acorde menor-alvo, troque a escala maior pela menor correspondente para reforçar a resolução, a 'cereja do bolo'.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "iUZwNSDpV_Q#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K38",
+   "tipo": "dica",
+   "titulo": "Lócrio sobre meio-diminuto",
+   "descricao": "O lócrio (1-♭2-♭3-4-♭5-♭6-♭7) é mais usado inteiro sobre acordes m7♭5, mas também pode soar sobre a tríade diminuta. A explicação na fonte é confusa.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "juQVAFsdFMQ#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K39",
+   "tipo": "conceito",
+   "titulo": "Escala como notas do acorde ou como preenchimento",
+   "descricao": "No sistema acorde-escala, a escala pode ser vista de dois modos. Em C7#11 com lídio dominante, toda nota da escala pode ser tratada como nota do acorde. Em A7 com mixolídio, a escala preenche os graus entre as notas do acorde.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--chord-scale_system-ebd9f4#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K40",
+   "tipo": "conceito",
+   "titulo": "Acorde maior: lídio ou jônio? Uma divergência entre escolas",
+   "descricao": "George Russell, no Lydian Chromatic Concept, associava o acorde maior (ex.: C) ao lídio, cuja #4 (F#) não colide com a 3ª. Mehegan, David Baker e Mark Levine ensinam o jônio (escala maior) como par padrão de C maior. No jônio, a 4ª (F) fica meio tom acima da 3ª (E) e tende a ser tratada como nota de passagem, não de repouso. As duas escolhas são válidas; a diferença está na cor, já que o lídio soa mais aberto e o jônio, mais resolvido.",
+   "passos": [
+    "Grave um vamp de Cmaj7.",
+    "Improvise em Dó jônio, passando pelo F sem repousar nele.",
+    "Troque para Dó lídio, trocando F por F#, e repouse no F#.",
+    "Compare as duas cores e escolha conforme o clima da música."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "en--chord-scale_system-ebd9f4#I07"
+   ],
+   "divergencias": "Russell prefere o lídio sobre o acorde maior, enquanto Mehegan, Baker e Levine preferem o jônio.",
+   "correcoes": "",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "Secundárias #76, #77, #84, #87, #101 e #103 foram omitidas por pertencerem a restrições, cromatismo, superposição ou escalas híbridas. Várias ideias do Rob Compa foram agrupadas por vamp (Am7–E7#9, Bm7–C, D6–C6).",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 75,
+  "ideias_secundarias": 28,
+  "itens": 40,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.2229,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 23906,
+   "output_tokens": 17506
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 4,
+    "novos_itens": 1
+   }
+  ]
+ }
+}

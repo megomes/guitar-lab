@@ -1,0 +1,572 @@
+{
+ "fonte_id": "DVaZyOlGr70",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Como improvisar FÁCIL em qualquer tom e em qualquer música",
+  "autor": "Gu Pedrico",
+  "url": "https://www.youtube.com/watch?v=DVaZyOlGr70",
+  "idioma": "pt",
+  "duracao": "15m 4s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/DVaZyOlGr70--como-improvisar-fácil-em-qualquer-tom-e-em-qualquer-música.md"
+ },
+ "resumo": "Vídeo introdutório que ensina a improvisar em qualquer tom usando a escala maior e a pentatônica menor de Dó como base, com o desenho da pentatônica no braço e a ideia de relatividade (Dó maior e Lá menor compartilham as mesmas notas). O professor mostra como deslocar o mesmo desenho para outros tons (Mi, Sol, Ré, Dó# menor) e como identificar o tom de ouvido testando notas. Destina-se a iniciantes, mas o conteúdo é superficial e mistura muita promoção de curso; a parte técnica é pouco detalhada e depende de ver o braço.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Tem a ideia central útil (usar o mesmo desenho da pentatônica deslocado e relatividade maior/menor), mas a explicação é vaga, sem tablatura nem notas precisas na maioria dos trechos, com muitas divagações e chamadas para compra de curso."
+ },
+ "assuntos_principais": [
+  "improvisação",
+  "escala maior",
+  "pentatônica menor",
+  "escala diatônica",
+  "relatividade maior/menor",
+  "deslocamento de desenhos pelo braço",
+  "identificação de tom de ouvido",
+  "percepção musical"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e apresentação do tema",
+   "inicio": "00:00",
+   "fim": "01:07",
+   "resumo": "Apresentação do objetivo: improvisar em qualquer tom, mesmo sem dominar escalas, com pedidos de like, comentário e compartilhamento.",
+   "assuntos": [
+    "objetivo do vídeo",
+    "improvisação para iniciantes"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Tom, escala e campo harmônico",
+   "inicio": "01:07",
+   "fim": "02:18",
+   "resumo": "Define tom como família de notas (escala) e família de acordes (campo harmônico); diferença entre nota e acorde.",
+   "assuntos": [
+    "tom",
+    "escala",
+    "campo harmônico",
+    "nota x acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica e escala maior de Dó no braço",
+   "inicio": "02:18",
+   "fim": "04:01",
+   "resumo": "Mostra as escalas de Dó maior e Dó pentatônica no braço, o desenho da pentatônica com dedos nas casas 5, 6, 7 e 8, e a sequência de intervalos (tom e meio-tom). Sugere combinar as duas escalas.",
+   "assuntos": [
+    "escala de Dó maior",
+    "pentatônica de Dó",
+    "digitação por dedos",
+    "intervalos de tom e semitom",
+    "combinação de escalas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Uso das escalas para criar melodias",
+   "inicio": "04:01",
+   "fim": "05:07",
+   "resumo": "Diz que tocar só subindo e descendo a escala não basta e cita técnicas de expressão como variação de dinâmica, slides, vibratos, bends e agilidade; divulga treinamento pago.",
+   "assuntos": [
+    "expressividade",
+    "slide",
+    "vibrato",
+    "bend",
+    "dinâmica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Escala diatônica sobre o desenho da pentatônica",
+   "inicio": "05:07",
+   "fim": "06:22",
+   "resumo": "Mostra como misturar a escala diatônica com a pentatônica no mesmo desenho e a sugestão de brincar aleatoriamente com o desenho para ganhar familiaridade.",
+   "assuntos": [
+    "diatônica",
+    "mistura de escalas",
+    "exploração livre do desenho"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Relatividade maior e menor",
+   "inicio": "06:22",
+   "fim": "07:34",
+   "resumo": "Explica que Dó maior e Lá menor compartilham as mesmas notas, portanto são relativos, e que o mesmo desenho serve para os dois.",
+   "assuntos": [
+    "relatividade maior/menor",
+    "Lá menor relativa de Dó maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Transposição do desenho para outros tons",
+   "inicio": "07:34",
+   "fim": "10:02",
+   "resumo": "Aplica o desenho para Mi maior (com relativa Dó# menor), Sol maior e Ré maior, usando o dedo mindinho como referência para as relativas.",
+   "assuntos": [
+    "transposição de desenhos",
+    "Mi maior",
+    "Sol maior",
+    "Ré maior",
+    "relativas menores"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Dó sustenido menor e relativas",
+   "inicio": "10:02",
+   "fim": "10:41",
+   "resumo": "Mostra o desenho de Dó# menor como o mesmo de Mi maior e reforça a relação entre tônicas relativas.",
+   "assuntos": [
+    "Dó# menor",
+    "relativa de Mi maior",
+    "mesmo desenho"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Identificação de tom por ouvido em músicas",
+   "inicio": "10:41",
+   "fim": "12:34",
+   "resumo": "Toca música aleatória de rádio ao vivo no YouTube e tenta identificar o tom; propõe a estratégia de testar notas até encaixar, usando percepção musical aprimorada.",
+   "assuntos": [
+    "identificação de tom de ouvido",
+    "percepção musical",
+    "teste de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Identificação de tom em outros exemplos e prática",
+   "inicio": "12:34",
+   "fim": "13:43",
+   "resumo": "Reforça que basta saber o tom para improvisar, recomenda praticar os desenhos na ponta dos dedos e exemplifica com Sol# menor, Sol# maior e Dó menor.",
+   "assuntos": [
+    "prática dos desenhos",
+    "Sol# menor",
+    "Sol# maior",
+    "Dó menor",
+    "relativas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Despedida e promoção de curso",
+   "inicio": "13:43",
+   "fim": "15:04",
+   "resumo": "Pede comentários, seguidores e divulga o curso pago com desconto temporário.",
+   "assuntos": [
+    "promoção",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tom como família de notas e acordes",
+   "descricao": "Um tom corresponde a uma família de notas (chamada escala) e a uma família de acordes (chamada campo harmônico). Acordes são tocados pelo violão/base e notas são as da melodia; uma nota isolada é uma nota e várias soando juntas formam um acorde.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "tom",
+    "escala",
+    "campo harmônico",
+    "acorde x nota"
+   ],
+   "id_global": "DVaZyOlGr70#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Improvisar em qualquer tom",
+   "descricao": "Para improvisar em qualquer tom é preciso saber qual é o tom da música e localizar no braço as notas dessa família de notas, usando-as para criar melodias.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "tom",
+    "improvisação",
+    "notas no braço"
+   ],
+   "id_global": "DVaZyOlGr70#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Improvisar combinando escala maior e pentatônica",
+   "descricao": "Um improviso pode usar tanto a escala maior de Dó quanto a pentatônica de Dó, alternando entre as duas e não ficando em uma só.",
+   "passos": [],
+   "timestamp": "02:52",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "pentatônica",
+    "combinação de escalas"
+   ],
+   "id_global": "DVaZyOlGr70#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Posicionar a pentatônica de Dó com os dedos",
+   "descricao": "Posicionar o desenho da pentatônica de Dó no braço com o indicador na casa 5, o dedo seguinte na casa 6 e o outro na casa 7, começando pela casa 8 (o professor indica que o desenho começa e se fixa nessas casas).",
+   "passos": [
+    "Posicione o indicador na casa 5 da corda indicada.",
+    "Posicione o dedo seguinte na casa 6 e o próximo na casa 7.",
+    "Comece a tocar pela casa 8 seguindo o desenho da pentatônica."
+   ],
+   "timestamp": "03:02",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "digitação",
+    "casa 5",
+    "posição"
+   ],
+   "id_global": "DVaZyOlGr70#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Padrão de intervalos da pentatônica",
+   "descricao": "A sequência de intervalos apresentada para a pentatônica de Dó é de tom, tom e meio tom, tom e meio tom (intervalo grande, pequeno, pequeno, grande, grande) ao longo do desenho.",
+   "passos": [],
+   "timestamp": "03:27",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "intervalos",
+    "tom e semitom"
+   ],
+   "id_global": "DVaZyOlGr70#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Notas da pentatônica de Dó",
+   "descricao": "As notas da pentatônica de Dó maior citadas são Dó, Ré, Mi, Sol e Lá, que são os graus 1, 2, 3, 5 e 6 da escala maior de Dó.",
+   "passos": [],
+   "timestamp": "04:01",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "notas-alvo",
+    "Dó"
+   ],
+   "id_global": "DVaZyOlGr70#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Não ficar só subindo e descendo a escala",
+   "descricao": "Tocar apenas a escala de forma linear sobe e desce não cria melodia; é preciso usar recursos de expressão.",
+   "passos": [],
+   "timestamp": "04:01",
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "expressão",
+    "escala"
+   ],
+   "id_global": "DVaZyOlGr70#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Técnicas de expressão para melodias",
+   "descricao": "Recursos citados para dar expressão ao improviso: variação de dinâmica, slides, vibratos, bends e técnicas de agilidade como o hammer-on e pull-off (citado como 'Band ligado').",
+   "passos": [],
+   "timestamp": "04:35",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "slide",
+    "vibrato",
+    "dinâmica",
+    "hammer-on",
+    "pull-off"
+   ],
+   "id_global": "DVaZyOlGr70#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Escala diatônica no mesmo desenho da pentatônica",
+   "descricao": "Na mesma região do braço em que está o desenho da pentatônica, também aparecem as notas da escala diatônica (maior), permitindo misturar as duas escalas no mesmo lugar.",
+   "passos": [],
+   "timestamp": "05:07",
+   "nivel": "iniciante",
+   "tags": [
+    "diatônica",
+    "pentatônica",
+    "mistura de escalas"
+   ],
+   "id_global": "DVaZyOlGr70#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Explorar o desenho de forma aleatória",
+   "descricao": "Tocar livremente pelo desenho da pentatônica, em ordem aleatória, para criar familiaridade com ele, depois combinar com o segundo desenho (diatônica) tocando os dois juntos.",
+   "passos": [
+    "Toque livremente notas do desenho da pentatônica em ordem aleatória.",
+    "Repita até sentir familiaridade com o desenho.",
+    "Passe ao outro desenho e alterne com a pentatônica."
+   ],
+   "timestamp": "05:43",
+   "nivel": "iniciante",
+   "tags": [
+    "exploração",
+    "familiaridade com o braço",
+    "diatônica"
+   ],
+   "id_global": "DVaZyOlGr70#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Relatividade entre Dó maior e Lá menor",
+   "descricao": "Dó maior e Lá menor têm as mesmas notas, portanto são tons relativos: o mesmo desenho e as mesmas notas servem para os dois, sem mudar a forma de improvisar.",
+   "passos": [],
+   "timestamp": "07:00",
+   "nivel": "iniciante",
+   "tags": [
+    "relatividade",
+    "Lá menor",
+    "Dó maior"
+   ],
+   "id_global": "DVaZyOlGr70#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Localizar a relativa menor no braço",
+   "descricao": "No desenho de Dó maior iniciado na corda grave, a relativa menor (Lá) aparece na casa do dedo 1; o professor sugere que o desenho começa na nota Lá.",
+   "passos": [],
+   "timestamp": "08:14",
+   "nivel": "iniciante",
+   "tags": [
+    "relativa menor",
+    "Lá",
+    "desenho"
+   ],
+   "id_global": "DVaZyOlGr70#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Mindinho como referência da relativa maior",
+   "descricao": "No desenho apresentado, o dedo mindinho marca a relativa maior (no caso de Lá menor, a relativa maior é Dó), servindo de referência ao transpor para outros tons.",
+   "passos": [],
+   "timestamp": "08:14",
+   "nivel": "iniciante",
+   "tags": [
+    "mindinho",
+    "relativa maior",
+    "referência no braço"
+   ],
+   "id_global": "DVaZyOlGr70#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Transpor o desenho para Mi maior",
+   "descricao": "Para improvisar em Mi maior, usar o mesmo desenho da pentatônica deslocado para a posição de Mi, com o mindinho na nota relativa maior; o desenho é o mesmo misturando com a diatônica.",
+   "passos": [
+    "Localize a tônica Mi no braço.",
+    "Posicione o desenho usado em Dó com a tônica em Mi.",
+    "Use o mindinho na referência da relativa maior.",
+    "Alterne com a escala diatônica."
+   ],
+   "timestamp": "08:49",
+   "nivel": "iniciante",
+   "tags": [
+    "Mi maior",
+    "transposição",
+    "pentatônica"
+   ],
+   "id_global": "DVaZyOlGr70#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Transpor o desenho para Sol maior e Ré maior",
+   "descricao": "Aplicar o mesmo desenho para Sol maior, mostrando o desenho completo do Sol, e depois para Ré maior usando a referência do dedo mindinho.",
+   "passos": [
+    "Localize a tônica Sol no braço e posicione o desenho.",
+    "Repita o processo para Ré, usando o mindinho como referência."
+   ],
+   "timestamp": "09:26",
+   "nivel": "iniciante",
+   "tags": [
+    "Sol maior",
+    "Ré maior",
+    "transposição"
+   ],
+   "id_global": "DVaZyOlGr70#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Dó# menor relativo de Mi maior",
+   "descricao": "Dó sustenido menor é a relativa menor de Mi maior e usa o mesmo desenho; a relação de relatividade permite reaproveitar a forma.",
+   "passos": [],
+   "timestamp": "10:02",
+   "nivel": "intermediario",
+   "tags": [
+    "Dó# menor",
+    "Mi maior",
+    "relatividade"
+   ],
+   "id_global": "DVaZyOlGr70#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Identificar o tom de ouvido por tentativa",
+   "descricao": "Para descobrir o tom de uma música de ouvido, toque uma nota aleatória sobre a música; se ela encaixar, escala e tom ficam identificados; se não encaixar, vá para a nota vizinha até encontrar o ajuste.",
+   "passos": [
+    "Ouça a música e escolha uma nota para tocar.",
+    "Verifique se a nota combina com a música.",
+    "Se não combinar, toque a nota vizinha (acima ou abaixo).",
+    "Repita até encaixar e defina a escala a partir dessa nota."
+   ],
+   "timestamp": "12:01",
+   "nivel": "intermediario",
+   "tags": [
+    "ouvido",
+    "tom",
+    "percepção musical"
+   ],
+   "id_global": "DVaZyOlGr70#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Percepção musical aprimorada",
+   "descricao": "O professor atribui a rapidez em identificar o tom à percepção musical aprimorada, desenvolvida com a prática de ouvido.",
+   "passos": [],
+   "timestamp": "12:01",
+   "nivel": "iniciante",
+   "tags": [
+    "percepção musical",
+    "ouvido"
+   ],
+   "id_global": "DVaZyOlGr70#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar os desenhos até na ponta dos dedos",
+   "descricao": "Memorizar os desenhos da pentatônica e da escala para tocá-los sem pensar, conhecendo cada desenho na ponta dos dedos, em qualquer tom.",
+   "passos": [
+    "Escolha um desenho.",
+    "Toque-o repetidamente em todos os tons trabalhados.",
+    "Improvise com ele sobre uma música até automatizar."
+   ],
+   "timestamp": "12:34",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "memorização",
+    "desenhos"
+   ],
+   "id_global": "DVaZyOlGr70#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Transpor o desenho para Sol# maior e menor",
+   "descricao": "Com o tom identificado como Sol# menor, usar o desenho de Sol# (o professor cita 'sol sustenido') e, para Sol# maior, usar o mindinho na relativa menor do tom.",
+   "passos": [
+    "Identifique se a música é Sol# menor ou Sol# maior.",
+    "Posicione o desenho com a tônica correspondente.",
+    "Use o mindinho para a relativa."
+   ],
+   "timestamp": "13:09",
+   "nivel": "intermediario",
+   "tags": [
+    "Sol# menor",
+    "Sol# maior",
+    "transposição"
+   ],
+   "id_global": "DVaZyOlGr70#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Transpor o desenho para Dó menor",
+   "descricao": "Para improvisar em Dó menor, usar o desenho adequado com a tônica em Dó, lembrando que a relativa maior de Dó menor é Mi bemol maior.",
+   "passos": [
+    "Identifique o tom Dó menor.",
+    "Posicione o desenho com tônica em Dó.",
+    "Use a relativa maior como referência."
+   ],
+   "timestamp": "13:43",
+   "nivel": "intermediario",
+   "tags": [
+    "Dó menor",
+    "relatividade"
+   ],
+   "id_global": "DVaZyOlGr70#I21"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso/treinamento pago do canal (link na descrição, com desconto temporário)",
+  "Canal no Telegram do Gu Pedrico",
+  "Instagram do Gu Pedrico",
+  "Curso 'Aprenda a tocar de ouvido' (link na descrição)",
+  "Rádio ao vivo no YouTube usada como exemplo de músicas aleatórias"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'Tom' e 'Escada' (escala), 'atômica' (pentatônica), 'pentatônica' escrita como 'Penha' e 'Penta', 'Band ligado' provavelmente 'bend'/'hammer-on', 'mindinho' por 'mindinho' ok, 'Gustavo' referindo-se a Gustavo sem sentido claro, 'mendigo' provavelmente 'mindinho', 'lindinho' por 'mindinho', 'sofrido maior' provavelmente 'Sol# maior', 'Tô não' por 'Não' ou 'Tom'. Muitas explicações dependem de ver o braço (dedos, casas, desenhos) e não estão descritas verbalmente, portanto ideias de digitação e casas são parcialmente inferidas. Ideias de transposição de Sol# e Dó menor citam tonalidades que o professor menciona sem explicitar as notas com clareza; trechos em 'sol sustenido' e 'sofrido' foram interpretados como Sol#. Não há tablatura, lista de notas completa nem backing track; o conteúdo principal é a relatividade e o deslocamento do desenho, com muita promoção de curso.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00206,
+  "via": "api"
+ }
+}

@@ -4,6 +4,7 @@ import { Geist_Mono, Inter, Instrument_Serif } from 'next/font/google'
 import { ServiceWorker } from '@/components/ServiceWorker'
 
 import './globals.css'
+import './solos.css'
 
 const inter = Inter({
   variable: '--font-inter',

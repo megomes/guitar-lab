@@ -1,0 +1,608 @@
+{
+ "fonte_id": "bFtTvqASQ9k",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "My Method to Learning ANY Song By Ear",
+  "autor": "Rick Beato",
+  "url": "https://www.youtube.com/watch?v=bFtTvqASQ9k",
+  "idioma": "en",
+  "duracao": "10m 14s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/bFtTvqASQ9k--my-method-to-learning-any-song-by-ear.md"
+ },
+ "resumo": "Rick Beato ensina um método para tirar qualquer música de ouvido, baseado em relative pitch (relacionar uma nota a outra por intervalos). O vídeo explica números romanos e qualidades de acordes em tons maiores, movimento do baixo, acordes diatônicos, círculo das quintas e armaduras de clave, e termina com a rotina diária de treino de intervalos que ele usa com seu programa Beato Ear Training. O conteúdo é voltado a guitarristas e músicos que já conhecem teoria básica e querem desenvolver o ouvido. Para solo e improvisação, o valor está em treinar intervalos e identificar a harmonia ouvindo, mais do que em lições diretas de solo.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Explica bem o método e traz exemplos concretos (progressões, intervalos, armaduras), mas é um vídeo mais conceitual, com bastante promoção, e a parte de treino de intervalos depende de ouvir sem gabarito escrito."
+ },
+ "assuntos_principais": [
+  "relative pitch",
+  "treino de ouvido",
+  "intervalos",
+  "graus romanos e numeração de Nashville",
+  "qualidade de acordes",
+  "movimento do baixo (raiz)",
+  "acordes diatônicos",
+  "círculo das quintas",
+  "armadura de clave",
+  "ordem dos sustenidos e bemóis",
+  "progressões de pop",
+  "add9 e sus4"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação e relative pitch",
+   "inicio": "00:00",
+   "fim": "00:35",
+   "resumo": "Rick apresenta o tema de tirar progressões de ouvido e define relative pitch como relacionar uma nota a outra, dando o exemplo de ouvir E sobre C como terça maior.",
+   "assuntos": [
+    "relative pitch",
+    "intervalos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Números romanos e acordes de um tom maior",
+   "inicio": "00:35",
+   "fim": "01:08",
+   "resumo": "Explica que progressões são descritas por graus (I, IV, V...) e lista os acordes de Dó maior com suas qualidades.",
+   "assuntos": [
+    "graus romanos",
+    "numeração de Nashville",
+    "campo harmônico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Qualidades dos acordes no tom maior",
+   "inicio": "01:08",
+   "fim": "01:41",
+   "resumo": "Mostra quais graus são maiores, menores ou diminutos num tom maior: I, IV e V são maiores; ii, iii e vi são menores; vii é diminuto.",
+   "assuntos": [
+    "qualidade de acordes",
+    "tonalidade maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "O que ouvir: raiz e qualidade",
+   "inicio": "01:41",
+   "fim": "02:48",
+   "resumo": "Rick diz que escuta primeiro o movimento da raiz, geralmente no baixo, e depois a qualidade do acorde. Comenta que o pop usa sobretudo acordes maiores e menores, com sus e add comuns e poucos dominantes.",
+   "assuntos": [
+    "movimento do baixo",
+    "raiz",
+    "qualidade de acordes",
+    "sus2 e sus4",
+    "acordes no pop"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Acordes diatônicos e ambiguidade",
+   "inicio": "02:48",
+   "fim": "03:54",
+   "resumo": "Define acordes diatônicos e cita a análise de músicas do Spotify. Mostra que um mesmo acorde (F maior) pode ser IV, I ou V dependendo da tonalidade, e que progressões podem começar em qualquer grau.",
+   "assuntos": [
+    "acordes diatônicos",
+    "ambiguidade harmônica",
+    "tonalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Círculo das quintas e armaduras",
+   "inicio": "03:54",
+   "fim": "05:36",
+   "resumo": "Apresenta o círculo das quintas, com sustenidos no sentido horário e bemóis no anti-horário, e a ordem dos sustenidos e bemóis. Mostra como montar a escala de Si♭ maior a partir da armadura.",
+   "assuntos": [
+    "círculo das quintas",
+    "armadura de clave",
+    "ordem dos sustenidos e bemóis",
+    "escala maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Propaganda do livro e retorno ao treino",
+   "inicio": "05:36",
+   "fim": "06:07",
+   "resumo": "Rick indica o livro Beato para ver mais teoria e volta para o treino de ouvido.",
+   "assuntos": [
+    "livro Beato"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S8",
+   "titulo": "Intervalos como base do movimento de baixo",
+   "inicio": "06:07",
+   "fim": "06:40",
+   "resumo": "Afirma que dominar intervalos é a habilidade-chave para seguir o baixo e depois identificar o tipo do acorde.",
+   "assuntos": [
+    "intervalos",
+    "movimento do baixo",
+    "qualidade de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Rotina diária de relative pitch",
+   "inicio": "06:40",
+   "fim": "07:48",
+   "resumo": "Mostra sua rotina matinal de treino de intervalos com uma nota de referência, usando o programa Beato Ear Training.",
+   "assuntos": [
+    "rotina de treino",
+    "intervalos cromáticos",
+    "nota de referência"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Intervalos aprendidos por repetição",
+   "inicio": "07:48",
+   "fim": "08:21",
+   "resumo": "Diz que, com repetição, os intervalos ficam quase automáticos, e que o mesmo vale para reconhecer tudo dentro de uma tonalidade em músicas simples.",
+   "assuntos": [
+    "repetição",
+    "intervalos",
+    "tonalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Progressões de pop e add9",
+   "inicio": "08:21",
+   "fim": "08:54",
+   "resumo": "Comenta progressões comuns no pop com IV, I, V e vi (em Sol: C, G, D, Em) e mostra como reconhecer um add9 pela nota extra.",
+   "assuntos": [
+    "progressões de pop",
+    "add9",
+    "graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Sus4 e desenvolvimento do ouvido",
+   "inicio": "08:54",
+   "fim": "09:27",
+   "resumo": "Mostra que a nota extra revela o sus4 (Ré sus4 tem Sol no lugar da terça) e diz que a percepção dessas sutilezas vem com a prática.",
+   "assuntos": [
+    "sus4",
+    "percepção de acordes",
+    "prática"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Despedida e divulgação",
+   "inicio": "09:27",
+   "fim": "10:14",
+   "resumo": "Pedido de inscrição, links do livro, do programa de ouvido e do Beato Club, e despedida.",
+   "assuntos": [
+    "inscrição",
+    "divulgação"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Relative pitch",
+   "descricao": "Relative pitch é reconhecer a relação entre duas notas. Se você ouve C e identifica E, reconhece a terça maior pelo intervalo entre elas, sem precisar de ouvido absoluto.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "relative pitch",
+    "intervalos",
+    "ouvido"
+   ],
+   "id_global": "bFtTvqASQ9k#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Progressões em números romanos",
+   "descricao": "Progressões são descritas por graus: em Dó maior, Dó é I, Ré menor é ii, Mi menor é iii, Fá é IV, Sol é V, Lá menor é vi e Si diminuto é vii. A numeração de Nashville usa os mesmos números.",
+   "passos": [],
+   "timestamp": "00:35",
+   "nivel": "iniciante",
+   "tags": [
+    "graus romanos",
+    "numeração de Nashville",
+    "campo harmônico"
+   ],
+   "id_global": "bFtTvqASQ9k#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Qualidades dos graus no tom maior",
+   "descricao": "Em tom maior, os graus I, IV e V são sempre maiores, os graus ii, iii e vi são menores e o vii é diminuto.",
+   "passos": [],
+   "timestamp": "01:08",
+   "nivel": "iniciante",
+   "tags": [
+    "qualidade de acordes",
+    "tonalidade maior",
+    "campo harmônico"
+   ],
+   "id_global": "bFtTvqASQ9k#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Ouvir primeiro o movimento da raiz",
+   "descricao": "Ao transcrever uma música, ouça primeiro o movimento da raiz dos acordes, que em pop costuma estar no baixo. Exemplo de sequência ouvida: I, vi, IV, V, I.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "movimento do baixo",
+    "raiz",
+    "transcrição"
+   ],
+   "id_global": "bFtTvqASQ9k#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Identificar a qualidade depois da raiz",
+   "descricao": "Depois de achar a raiz, determine a qualidade do acorde (maior, menor, diminuto ou aumentado) para completar a identificação.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "qualidade de acordes",
+    "transcrição"
+   ],
+   "id_global": "bFtTvqASQ9k#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Harmonia típica do pop",
+   "descricao": "No pop atual predominam acordes maiores e menores. Sus2 e sus4 são comuns, acordes de m11 aparecem, e acordes dominantes de sétima são raros, o que limita a informação harmônica.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "intermediario",
+   "tags": [
+    "pop",
+    "sus2",
+    "sus4",
+    "acordes dominantes"
+   ],
+   "id_global": "bFtTvqASQ9k#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Acordes diatônicos",
+   "descricao": "Acordes diatônicos são aqueles que pertencem a uma mesma tonalidade. Em Dó maior, as progressões de Rick (C, G, Am, F, por exemplo) usam só acordes diatônicos. Ele diz que, em um top 10 do Spotify, só uma música tinha um acorde não diatônico, uma tercia maior no grau iii.",
+   "passos": [],
+   "timestamp": "02:48",
+   "nivel": "intermediario",
+   "tags": [
+    "diatônico",
+    "não diatônico",
+    "tonalidade"
+   ],
+   "id_global": "bFtTvqASQ9k#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Um mesmo acorde pode ter funções diferentes",
+   "descricao": "Um Fá maior pode ser IV em Dó maior, I em Fá maior ou V em Si♭ maior. Para saber o grau, é preciso conhecer a tonalidade.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "intermediario",
+   "tags": [
+    "função harmônica",
+    "tonalidade",
+    "ambiguidade"
+   ],
+   "id_global": "bFtTvqASQ9k#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Identificar acorde isolado sem a tonalidade",
+   "descricao": "Tentar nomear o grau de um acorde isolado sem o contexto tonal leva a erro, porque o mesmo acorde pode ser I, IV ou V em tonalidades diferentes.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "contexto tonal"
+   ],
+   "id_global": "bFtTvqASQ9k#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Progressões não começam sempre no I",
+   "descricao": "Muitas músicas começam no vi, no ii, no IV ou no V, e não necessariamente no I. Por isso, não presuma a tônica pelo primeiro acorde.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "iniciante",
+   "tags": [
+    "tônica",
+    "progressão",
+    "ouvido"
+   ],
+   "id_global": "bFtTvqASQ9k#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Círculo das quintas e armaduras",
+   "descricao": "No sentido horário, o círculo das quintas adiciona sustenidos: Dó 0, Sol 1, Ré 2, Lá 3, Mi 4, Si 5, Fá♯ ou Sol♭ 6. No sentido anti-horário, adiciona bemóis: Fá 1, Si♭ 2, Mi♭ 3, Lá♭ 4, Ré♭ 5.",
+   "passos": [],
+   "timestamp": "03:54",
+   "nivel": "intermediario",
+   "tags": [
+    "círculo das quintas",
+    "armadura de clave",
+    "bemol",
+    "sustenido"
+   ],
+   "id_global": "bFtTvqASQ9k#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Ordem dos sustenidos e bemóis",
+   "descricao": "Os sustenidos sempre aparecem nesta ordem: Fá♯, Dó♯, Sol♯, Ré♯, Lá♯, Mi♯, Si♯. Os bemóis seguem a ordem inversa: Si♭, Mi♭, Lá♭, Ré♭, Sol♭, Dó♭, Fá. Conhecer a ordem permite deduzir a armadura de qualquer tom.",
+   "passos": [],
+   "timestamp": "04:30",
+   "nivel": "intermediario",
+   "tags": [
+    "armadura de clave",
+    "sustenido",
+    "bemol"
+   ],
+   "id_global": "bFtTvqASQ9k#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Montar a escala maior pela armadura",
+   "descricao": "Para montar uma escala maior, comece na tônica e siga a sequência de letras, aplicando os bemóis ou sustenidos da armadura. Exemplo: Si♭ maior fica Si♭, Dó, Ré, Mi♭, Fá, Sol, Lá.",
+   "passos": [
+    "Escolha a tônica, por exemplo Si♭.",
+    "Escreva a sequência de letras a partir dela: Si♭, Dó, Ré, Mi, Fá, Sol, Lá.",
+    "Aplique na sequência os bemóis da armadura do tom (Si e Mi).",
+    "Confirme que a escala resultante tem a estrutura de tom maior."
+   ],
+   "timestamp": "05:03",
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "armadura de clave",
+    "si bemol maior"
+   ],
+   "id_global": "bFtTvqASQ9k#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Intervalos para seguir o baixo",
+   "descricao": "Dominar intervalos permite acompanhar o movimento do baixo. Subida de terça maior, descida de terça menor, subida de quinta justa e descida de quarta justa são exemplos de movimentos a reconhecer.",
+   "passos": [],
+   "timestamp": "06:07",
+   "nivel": "iniciante",
+   "tags": [
+    "intervalos",
+    "movimento do baixo",
+    "terça maior",
+    "quinta justa"
+   ],
+   "id_global": "bFtTvqASQ9k#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Completar o acorde com a qualidade",
+   "descricao": "Depois de identificar o movimento do baixo pelo intervalo, acrescente a qualidade do acorde: maior, menor, sétima maior, sétima dominante e assim por diante.",
+   "passos": [],
+   "timestamp": "06:07",
+   "nivel": "intermediario",
+   "tags": [
+    "qualidade de acordes",
+    "transcrição",
+    "intervalos"
+   ],
+   "id_global": "bFtTvqASQ9k#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "rotina_estudo",
+   "titulo": "Treino diário de relative pitch antes de tocar",
+   "descricao": "Rick faz treino de intervalos toda manhã, antes de tocar guitarra, usando o programa Beato Ear Training. A rotina começa com uma nota de referência e intervalos aleatórios.",
+   "passos": [
+    "Ao acordar, antes de pegar o instrumento, abra o treino de ouvido.",
+    "Toque a nota de referência (ele usa Dó).",
+    "Ouça o intervalo aleatório que vem em seguida e identifique-o.",
+    "Repita com novos intervalos até completar a sessão."
+   ],
+   "timestamp": "06:40",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina de estudo",
+    "relative pitch",
+    "treino diário"
+   ],
+   "id_global": "bFtTvqASQ9k#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Drill de intervalos cromáticos",
+   "descricao": "Use uma nota de referência (Dó) e intervalos aleatórios de todos os tipos, incluindo cromáticos. Rick faz a sequência com notas como Ré, Si♭, Sol e Lá♭, e repete o drill até reconhecer os intervalos sem esforço.",
+   "passos": [
+    "Defina uma nota de referência, como Dó.",
+    "Ouça um intervalo aleatório a partir dela.",
+    "Nomeie o intervalo antes de ver a resposta.",
+    "Aumente a variedade de intervalos e repita até o reconhecimento ser rápido."
+   ],
+   "timestamp": "07:13",
+   "nivel": "intermediario",
+   "tags": [
+    "intervalos cromáticos",
+    "drill",
+    "nota de referência"
+   ],
+   "id_global": "bFtTvqASQ9k#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Intervalos viram automáticos pela repetição",
+   "descricao": "Rick diz que faz esse treino desde a faculdade, por volta de 1980, e que pela repetição os intervalos ficam tão fáceis que parecem ouvido absoluto.",
+   "passos": [],
+   "timestamp": "07:48",
+   "nivel": "iniciante",
+   "tags": [
+    "repetição",
+    "ouvido",
+    "prática"
+   ],
+   "id_global": "bFtTvqASQ9k#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Reconhecer a escala de uma música simples",
+   "descricao": "Em músicas simples, tente identificar todas as notas dentro de uma mesma escala. Isso torna a identificação de intervalos e acordes mais fácil do que analisar cada nota isolada.",
+   "passos": [],
+   "timestamp": "07:48",
+   "nivel": "intermediario",
+   "tags": [
+    "escala",
+    "tonalidade",
+    "músicas simples"
+   ],
+   "id_global": "bFtTvqASQ9k#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Progressão IV-I-V-vi em Sol maior",
+   "descricao": "Em Sol maior, a progressão mais comum citada é IV-I-V-vi, ou seja, Dó maior, Sol maior, Ré maior e Mi menor, muito usada no pop.",
+   "passos": [],
+   "timestamp": "08:21",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "pop",
+    "sol maior",
+    "graus"
+   ],
+   "id_global": "bFtTvqASQ9k#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Reconhecer add9 pela nota extra",
+   "descricao": "Um acorde de Dó add9 é Dó maior com a nona (Ré) somada. Quando você ouve um Ré acima da tríade de Dó, pode reconhecer o add9.",
+   "passos": [],
+   "timestamp": "08:21",
+   "nivel": "intermediario",
+   "tags": [
+    "add9",
+    "nota extra",
+    "percepção de acordes"
+   ],
+   "id_global": "bFtTvqASQ9k#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Sus4 pela quarta no lugar da terça",
+   "descricao": "Um Ré sus4 tem Sol (quarta justa) no lugar do Fá♯ da terça. Ouvir o Sol sobre o Ré indica o sus4, e não o Ré maior.",
+   "passos": [],
+   "timestamp": "08:54",
+   "nivel": "intermediario",
+   "tags": [
+    "sus4",
+    "terça",
+    "percepção de acordes"
+   ],
+   "id_global": "bFtTvqASQ9k#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Ouvido se desenvolve com prática",
+   "descricao": "Rick afirma que as sutilezas de acordes (sus, add9, menor sétima) são reconhecidas cada vez mais rápido com o desenvolvimento do ouvido, e que isso se conquista só com prática.",
+   "passos": [],
+   "timestamp": "08:54",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "ouvido",
+    "motivação"
+   ],
+   "id_global": "bFtTvqASQ9k#I23"
+  }
+ ],
+ "artistas_citados": [
+  "The Beatles"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Beato Ear Training (beatoeartraining.com)",
+  "The Beato Book (livro de teoria do autor)",
+  "The Beato Club (assinatura de membros)",
+  "Vídeo de demonstração do treino de intervalos no Instagram do autor"
+ ],
+ "observacoes": "Legendas automáticas com erros: o nome do autor aparece como 'biato' e 'beato', 'base' por bass, 'beatto' por Beato, 'b auto book' por Beato Book, 'rickbeater.com' e 'rickbiota1' por rickbeato, e 'beyond yourtraining.com' por beatoeartraining.com. O trecho de treino de intervalos (07:13 a 07:48) traz uma sequência de notas sem gabarito; as notas foram corrigidas só no texto da ideia I17, e a sequência original não pode ser verificada. Os exemplos são tocados em teclado, não em guitarra, e o vídeo não traz tablatura nem exemplos de solo ou improvisação. O conteúdo é sobre transcrição e ouvido harmônico, sendo útil para improvisação por identificar a harmonia de base, mas não ensina solo diretamente.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00362,
+  "via": "api"
+ }
+}

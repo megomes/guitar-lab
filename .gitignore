@@ -42,3 +42,7 @@ next-env.d.ts
 
 # local
 /.claude
+
+# solos: o JSON bruto do Apify fica local (os transcripts em Markdown são versionados)
+/solos/raw/apify/
+__pycache__/

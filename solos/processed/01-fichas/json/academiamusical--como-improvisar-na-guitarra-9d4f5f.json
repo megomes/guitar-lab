@@ -1,0 +1,464 @@
+{
+ "fonte_id": "academiamusical--como-improvisar-na-guitarra-9d4f5f",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Como improvisar na guitarra - Academiamusical | Escola Online",
+  "autor": "Ricardo Frade",
+  "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/como-improvisar-na-guitarra/",
+  "site": "www.academiamusical.com.pt",
+  "idioma": "pt",
+  "tema_coleta": "fundamentos",
+  "arquivo_raw": "solos/raw/documentos/academiamusical--como-improvisar-na-guitarra-9d4f5f.md"
+ },
+ "resumo": "Artigo curto de blog que apresenta quatro formas de improvisar na guitarra: pentatônica sobre tom, pentatônica por acorde, escala maior e modos gregos. Para cada uma, indica a lógica geral e alguns cuidados, mas quase não traz exercícios detalhados, tablaturas ou exemplos sonoros. Serve de panorama inicial para quem já conhece as escalas básicas e quer entender a progressão do improviso.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Organiza bem a progressão do improviso (tom, acorde, escala maior, modos) e traz a ideia central de mirar as notas do acorde. Porém é superficial: depende de diagramas de shapes que não estão no texto, tem poucos exercícios práticos e um erro teórico na parte dos modos gregos."
+ },
+ "assuntos_principais": [
+  "improvisação",
+  "escala pentatônica menor",
+  "pentatônica maior como relativa",
+  "blue note e escala de blues",
+  "improvisação por acorde com pentatônicas",
+  "escala maior",
+  "modos gregos e notas-alvo",
+  "tríades das notas de repouso",
+  "progressão I-IV-vi-V em Dó maior"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e panorama",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta as quatro formas de improvisar abordadas no artigo e inclui uma chamada para o pack de cursos do autor.",
+   "assuntos": [
+    "panorama do improviso",
+    "pack de cursos (propaganda)"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Improvisar com a escala pentatônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica como improvisar sobre uma backing track em Lá menor com a pentatônica, como obter a pentatônica maior pela relativa, o uso da blue note e a importância de dominar uma única escala antes de avançar.",
+   "assuntos": [
+    "pentatônica menor",
+    "backing track",
+    "pentatônica maior",
+    "relativa menor",
+    "blue note",
+    "escala de blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Improvisar por acorde com pentatônicas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Propõe trocar a pentatônica do tom pela pentatônica de cada acorde da progressão, usando Dó - Fá - Lá menor - Sol como exemplo, e sugere começar com progressões de dois acordes.",
+   "assuntos": [
+    "improvisação por acorde",
+    "pentatônica de cada acorde",
+    "progressão C-F-Am-G",
+    "progressões de dois acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Improvisar com a escala maior",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta a escala maior como alternativa mais completa à pentatônica, alerta para as notas dissonantes e sugere usar um shape da escala no tom da música (exemplo em Sol maior).",
+   "assuntos": [
+    "escala maior",
+    "shapes",
+    "notas dissonantes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Improvisar com modos gregos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve os modos gregos como o improviso mais avançado, em que se toca dentro do mesmo shape e se busca repousar nas notas da tríade de cada acorde. Mostra as tríades de cada acorde da progressão, dá a orientação de treino e remete a tutoriais externos.",
+   "assuntos": [
+    "modos gregos",
+    "notas de repouso",
+    "tríades",
+    "campo harmônico",
+    "treino diário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Comentários de leitores",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Comentários de leitores elogiando o artigo e resposta do autor.",
+   "assuntos": [
+    "comentários dos leitores"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de Lá como base segura",
+   "descricao": "A pentatônica menor de Lá (A C D E G), usada sobre uma backing track em Lá menor, é uma boa escala para improvisar porque não contém algumas das notas mais dissonantes do campo harmônico.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "lá menor",
+    "notas dissonantes"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre backing track em Lá menor com a pentatônica",
+   "descricao": "Tocar as notas da pentatônica de Lá menor sobre uma backing track em Lá menor, variando ritmos e deixando o ouvido decidir o que soa bem. O formato começa na quinta casa da sexta corda.",
+   "passos": [
+    "Escolher uma backing track em Lá menor",
+    "Tocar o formato de pentatônica de Lá menor começando na 5ª casa da corda E grave (A)",
+    "Brincar com diferentes variações rítmicas sobre a backing track",
+    "Ouvir o resultado e repetir ajustando as notas e o ritmo"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "backing track",
+    "lá menor",
+    "variação rítmica"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escolha entre pentatônica maior e menor em tom maior",
+   "descricao": "Em uma música em tom maior pode-se usar a pentatônica maior ou a menor do mesmo tom. A pentatônica menor, por causa do choque com a terça maior, produz um som mais blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "pentatônica menor",
+    "blues",
+    "tom maior"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Achar a pentatônica maior pela relativa",
+   "descricao": "Para obter a pentatônica maior de um tom, monte a pentatônica menor do tom e desça o formato um tom e meio. Exemplo: de Lá menor desce-se para a pentatônica maior de Lá, que é a mesma nota da pentatônica de Fá sustenido menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "relativa menor",
+    "fá sustenido menor"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Blue note para dar caráter blues",
+   "descricao": "A blue note é uma nota extra que, somada à pentatônica, forma a escala de blues e dá um som blues ao improviso. Ao incluí-la, a escala deixa de ser pentatônica e passa a ter uma nota a mais.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blue note",
+    "escala de blues",
+    "blues"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Dominar a pentatônica antes de avançar",
+   "descricao": "Improvisar com a pentatônica por vários meses antes de passar para formas mais difíceis, sem pular etapas. Só avançar quando já for possível tocar algo interessante apenas com essa escala.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "progressão de estudo",
+    "pentatônica"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Confiar no ouvido",
+   "descricao": "Durante o improviso, o ouvido deve ser o juiz: testar notas e ritmos e manter o que soa bem, em vez de seguir apenas a teoria.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "improviso"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pensar em acordes e não só no tom",
+   "descricao": "Na improvisação por acorde, cada acorde da progressão recebe a sua própria pentatônica, em vez de usar a pentatônica de um único tom para toda a música.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação por acorde",
+    "pentatônica",
+    "progressão"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Exemplo com progressão C - F - Am - G",
+   "descricao": "Na progressão Dó maior - Fá maior - Lá menor - Sol maior, toca-se a pentatônica maior de Dó no acorde de Dó, a pentatônica maior de Fá no acorde de Fá, a pentatônica menor de Lá no acorde de Lá menor e a pentatônica maior de Sol no acorde de Sol.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "progressão C-F-Am-G",
+    "pentatônica maior",
+    "pentatônica menor",
+    "lá menor"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Treinar com progressões de dois acordes e aumentar",
+   "descricao": "Começar a improvisar por acorde com progressões simples de dois acordes, mudando a pentatônica a cada troca, e depois aumentar o número de acordes gradualmente.",
+   "passos": [
+    "Escolher uma progressão de dois acordes",
+    "Improvisar com a pentatônica do primeiro acorde e depois mudar para a do segundo na troca",
+    "Repetir até a troca soar natural",
+    "Aumentar para três e depois quatro acordes"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "progressão",
+    "improvisação por acorde",
+    "pentatônica"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "rotina_estudo",
+   "titulo": "Pré-requisitos para improvisar por acorde",
+   "descricao": "Só começar a improvisar por acorde com pentatônicas depois de já ter improvisado bastante com a pentatônica do tom e de dominar os cinco shapes da pentatônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "shapes",
+    "pentatônica",
+    "pré-requisito"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Soar integrado à música",
+   "descricao": "Ao improvisar por acorde, o solista toca junto com a harmonia da música, o que evita soar fora da banda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "banda",
+    "integração"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Escala maior: mais recursos e mais notas dissonantes",
+   "descricao": "A escala maior é mais completa do que a pentatônica e oferece mais possibilidades para um improviso refinado, mas também tem notas dissonantes e por isso é mais fácil tirar um som ruim.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "dissonância"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre Sol maior com um shape da escala maior",
+   "descricao": "Tocar a escala de Sol maior dentro de um shape da escala maior no tom da música e prestar atenção a quais notas soam mais dissonantes que as outras.",
+   "passos": [
+    "Escolher um shape da escala maior",
+    "Tocar as notas de Sol maior dentro desse shape sobre a backing track em Sol maior",
+    "Improvisar livremente e notar quais notas soam mais tensas",
+    "Evitar terminar frases nas notas mais dissonantes"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "sol maior",
+    "shape",
+    "dissonância"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Modos gregos: improvisar no mesmo shape pensando no acorde",
+   "descricao": "Com modos gregos não é preciso mudar de shape: permanece-se no mesmo formato da escala e muda-se o foco a cada acorde, o que exige conhecer de cor as notas do shape em uso. O artigo chama essa forma de santo graal do improviso.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "modos gregos",
+    "shape",
+    "campo harmônico"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notas de repouso são as notas da tríade do acorde",
+   "descricao": "As melhores notas para repousar sobre cada acorde são as que formam a sua tríade: Dó maior = Dó, Mi, Sol; Fá maior = Fá, Lá, Dó; Lá menor = Lá, Dó, Mi; Sol maior = Sol, Si, Ré.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "notas-alvo",
+    "tríade",
+    "guide tones",
+    "modos gregos"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Mirar as notas do acorde dentro da escala de Dó maior",
+   "descricao": "Sobre a progressão Dó maior - Fá maior - Lá menor - Sol maior, tocar a escala de Dó maior no mesmo shape e buscar, em cada acorde, as notas da sua tríade como pontos de repouso.",
+   "passos": [
+    "Tocar a escala de Dó maior em um shape",
+    "Sobre Dó maior, pousar em Dó, Mi ou Sol",
+    "Sobre Fá maior, pousar em Fá, Lá ou Dó",
+    "Sobre Lá menor, pousar em Lá, Dó ou Mi",
+    "Sobre Sol maior, pousar em Sol, Si ou Ré"
+   ],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "notas-alvo",
+    "dó maior",
+    "modos gregos",
+    "tríade"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Confundir a qualidade do acorde ao escolher notas-alvo",
+   "descricao": "Ao escolher as notas de repouso, é preciso respeitar se o acorde é maior ou menor. Para Lá maior, as notas são Lá, Dó sustenido e Mi; a lista Lá, Dó e Mi corresponde a Lá menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "qualidade do acorde",
+    "lá maior",
+    "lá menor",
+    "notas-alvo"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar improvisação todos os dias",
+   "descricao": "O improviso com modos gregos exige treino intenso e diário. Se soar estranho no início e não conseguir tocar nada musical, é normal: continuar improvisando e fazendo experimentos todo dia.",
+   "passos": [
+    "Improvisar todos os dias",
+    "Fazer experimentos com as progressões e as notas-alvo",
+    "Não desistir se o resultado ainda não soar musical"
+   ],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "rotina",
+    "treino diário",
+    "persistência"
+   ],
+   "id_global": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I19"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track em Lá menor e em outros tons (mencionada como ferramenta de estudo)",
+  "Pack especial de guitarra: Curso iniciante + curso intermédio (produto do autor)",
+  "Tutoriais sobre escalas pentatônicas (link interno)",
+  "Série de tutoriais sobre modos gregos (link interno)"
+ ],
+ "observacoes": "O texto depende de diagramas de shapes (pentatônica, escala maior, pentatônica por acorde) e de uma nota destacada em vermelho que não aparecem no conteúdo transcrito, então os shapes não podem ser reconstruídos só pela fonte. Erro teórico: na seção dos modos gregos, a fonte cita Lá maior com as notas Lá, Dó e Mi, que são as de Lá menor (Lá maior tem Lá, Dó sustenido e Mi). Inconsistência: no exemplo de Sol maior, a nota em vermelho aparece na quinta casa da sexta corda, que é Lá e não Sol; pode ser outra corda ou um erro, e não dá para confirmar sem a imagem. Erro de digitação: 'campo harmónica«o'. A fonte não identifica a blue note pelo nome da nota (na escala de Lá menor seria o Mi bemol, ♭5). O texto usa a expressão 'Fá# menor' sem explicar que a pentatônica maior de Lá coincide com a de Fá sustenido menor, o que foi incluído na descrição por cálculo teórico. Não há exercícios com tablatura, BPM ou áudio.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00264,
+  "via": "api"
+ }
+}

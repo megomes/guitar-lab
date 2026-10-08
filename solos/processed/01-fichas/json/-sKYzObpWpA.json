@@ -1,0 +1,598 @@
+{
+ "fonte_id": "-sKYzObpWpA",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Guitar Solo Techniques",
+  "autor": "samuraiguitarist",
+  "url": "https://www.youtube.com/watch?v=-sKYzObpWpA",
+  "idioma": "en",
+  "duracao": "8m 54s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/-sKYzObpWpA--guitar-solo-techniques.md"
+ },
+ "resumo": "Vídeo do Samurai Guitarist que mostra, com um solo gravado de propósito 'ruim', como transformar um solo de notas contínuas em algo musical. As principais ferramentas são pausas para criar frasagem, um motivo recorrente, variação de registro, de comprimento e de finais de frase, expressão no toque, cordas soltas como drone, intervalos de segunda, e a qualidade do backing track e da mixagem. O conteúdo é voltado a guitarristas com alguma prática de improvisação que já conseguem tocar escalas, mas ainda soam mecânicos. Vale mais como lista de princípios audíveis do que como guia de exercícios passo a passo.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos claros e exemplos audíveis com analogias fáceis de lembrar (frases como pontuação, pão do sanduíche). Falta notação ou tablatura, e a maior parte das demonstrações só pode ser avaliada de ouvido. Também não há exercícios estruturados nem passo a passo prático."
+ },
+ "assuntos_principais": [
+  "frasagem e respiração no solo",
+  "pontuação musical",
+  "motivo recorrente",
+  "direção e registro agudo",
+  "nota de resolução (tônica)",
+  "variação de comprimento de frases",
+  "toque e articulação (alternate pick, slides)",
+  "cordas soltas como drone",
+  "intervalos de segunda em dupla de notas",
+  "backing track e arranjo da base",
+  "mixagem (EQ, compressão, reverb, stereo delay)"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação do solo 'ruim'",
+   "inicio": "00:00",
+   "fim": "00:38",
+   "resumo": "O professor anuncia que vai tocar um solo de que não gosta e promete mostrar como melhorá-lo.",
+   "assuntos": [
+    "apresentação do vídeo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Diagnóstico: sem pausas e sem história",
+   "inicio": "00:38",
+   "fim": "01:43",
+   "resumo": "O solo é uma sequência de notas sem pontuação, como uma frase sem fim. Ele propõe deixar espaços para criar frasagem e pensar o solo como narrativa com temas.",
+   "assuntos": [
+    "frasagem",
+    "pausas",
+    "narrativa musical",
+    "erro de solo contínuo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Motivo recorrente",
+   "inicio": "01:43",
+   "fim": "02:15",
+   "resumo": "Usar a primeira ideia do solo como motivo que volta em lugares diferentes para dar coesão.",
+   "assuntos": [
+    "motivo",
+    "coesão do solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Propaganda dos cursos",
+   "inicio": "02:15",
+   "fim": "02:49",
+   "resumo": "Divulgação dos cursos do autor, com desconto de feriado.",
+   "assuntos": [
+    "cursos pagos",
+    "promoção"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S5",
+   "titulo": "Direção com notas agudas e pickup brilhante",
+   "inicio": "02:49",
+   "fim": "03:22",
+   "resumo": "Na segunda metade, o solo sobe para notas mais agudas do que as já usadas e troca para uma captação mais brilhante para criar sensação de progresso.",
+   "assuntos": [
+    "registro agudo",
+    "direção melódica",
+    "timbre e captação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "A tônica como ponto de repouso",
+   "inicio": "03:22",
+   "fim": "03:54",
+   "resumo": "Terminar todas as frases na tônica (Lá, no caso) deixa o solo pesado. A tônica é a nota de maior resolução e a mais fácil de gravitar.",
+   "assuntos": [
+    "tônica",
+    "nota de resolução",
+    "notas de chegada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Finais de frase variados",
+   "inicio": "03:54",
+   "fim": "04:26",
+   "resumo": "Encerrar frases em outras notas que não a tônica reduz o peso sonoro.",
+   "assuntos": [
+    "notas de chegada",
+    "finais de frase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Frases de comprimentos variados",
+   "inicio": "04:26",
+   "fim": "05:02",
+   "resumo": "Frases de um compasso cada geram monotonia. Variar o comprimento, começando algumas antes e estendendo outras, cria fluxo, como na literatura.",
+   "assuntos": [
+    "comprimento de frases",
+    "fluxo",
+    "compasso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Toque, palhetada e slides",
+   "inicio": "05:02",
+   "fim": "05:39",
+   "resumo": "A mesma ideia pode soar de formas diferentes conforme o toque. Palhetada alternada é a base, e slides mudam o caráter do lick.",
+   "assuntos": [
+    "toque",
+    "palhetada alternada",
+    "slides",
+    "articulação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Cordas soltas como drone e duas notas juntas",
+   "inicio": "05:39",
+   "fim": "06:15",
+   "resumo": "Deixar as cordas E e B soarem soltas cria um drone que preenche o som. Tocar duas notas juntas, ou com pequeno atraso, e usar segundas maiores e menores dá caráter.",
+   "assuntos": [
+    "cordas soltas",
+    "drone",
+    "intervalos de segunda",
+    "duas notas simultâneas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Backing track como base do solo",
+   "inicio": "06:15",
+   "fim": "06:50",
+   "resumo": "Uma base sem graça, com os mesmos acordes repetidos, prejudica o solo. Ele compara a base ao pão de um sanduíche.",
+   "assuntos": [
+    "backing track",
+    "base harmônica",
+    "metáfora do sanduíche"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Arranjo da cozinha rítmica",
+   "inicio": "06:50",
+   "fim": "07:22",
+   "resumo": "Tornar a seção rítmica mais interessante para valorizar o solo, com o autor mostrando como faz isso.",
+   "assuntos": [
+    "arranjo",
+    "seção rítmica",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Mixagem do solo",
+   "inicio": "07:22",
+   "fim": "08:03",
+   "resumo": "Ajustes simples: EQ, um pouco de compressão, reverb e stereo delay com tempos diferentes em cada ouvido para dar espaço.",
+   "assuntos": [
+    "EQ",
+    "compressão",
+    "reverb",
+    "stereo delay",
+    "mixagem"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Resumo e promoção final",
+   "inicio": "08:03",
+   "fim": "08:35",
+   "resumo": "Recapitulação rápida e nova oferta de desconto nos cursos.",
+   "assuntos": [
+    "resumo",
+    "promoção"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S15",
+   "titulo": "Despedida",
+   "inicio": "08:35",
+   "fim": "08:54",
+   "resumo": "Pedido de inscrição, divulgação do merch e despedida.",
+   "assuntos": [
+    "inscrição no canal",
+    "merch",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Solo sem pausas vira frase sem pontuação",
+   "descricao": "Tocar notas em sequência contínua, sem espaços, faz o solo soar como uma frase sem pontuação. Não há respiração nem articulação entre as ideias.",
+   "passos": [],
+   "timestamp": "00:38",
+   "nivel": "iniciante",
+   "tags": [
+    "frasagem",
+    "pausas",
+    "erro de solo contínuo"
+   ],
+   "id_global": "-sKYzObpWpA#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pausas criam frasagem",
+   "descricao": "Deixar espaços entre as ideias cria a sensação de frases musicais, parecidas com pontuação na linguagem.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "frasagem",
+    "pausas",
+    "pontuação musical"
+   ],
+   "id_global": "-sKYzObpWpA#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Solo como narrativa com temas e motivos",
+   "descricao": "Um bom solo conta uma história, com temas e motivos conectando as ideias. Ideias soltas, sem relação, cansam o ouvinte.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "narrativa",
+    "motivo",
+    "coesão"
+   ],
+   "id_global": "-sKYzObpWpA#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Usar a primeira frase como motivo recorrente",
+   "descricao": "Pegue a primeira frase tocada no solo e repita-a em momentos diferentes do solo para criar coesão.",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "coesão",
+    "repetição"
+   ],
+   "id_global": "-sKYzObpWpA#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Subir para notas mais agudas cria sensação de progresso",
+   "descricao": "Na segunda metade do solo, usar notas mais agudas do que as anteriores faz o solo parecer avançar, em vez de ficar parado.",
+   "passos": [],
+   "timestamp": "02:49",
+   "nivel": "intermediario",
+   "tags": [
+    "registro",
+    "direção melódica",
+    "progressão"
+   ],
+   "id_global": "-sKYzObpWpA#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Trocar para captação mais brilhante para mudar a direção",
+   "descricao": "Mudar o timbre para uma captação mais brilhante na segunda metade ajuda a dar sensação de direção ao solo.",
+   "passos": [],
+   "timestamp": "02:49",
+   "nivel": "iniciante",
+   "tags": [
+    "timbre",
+    "captação",
+    "direção"
+   ],
+   "id_global": "-sKYzObpWpA#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Terminar sempre na tônica pesa o solo",
+   "descricao": "Se todas as frases terminam na tônica (Lá, no exemplo), o solo fica carregado e preso ao centro. A tônica é a nota de maior resolução e a mais fácil de alcançar.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "intermediario",
+   "tags": [
+    "tônica",
+    "notas-alvo",
+    "resolução"
+   ],
+   "id_global": "-sKYzObpWpA#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Finalizar frases em notas diferentes da tônica",
+   "descricao": "Experimente encerrar algumas frases em notas que não sejam a tônica, para evitar a sensação de peso e ganhar variedade.",
+   "passos": [],
+   "timestamp": "03:54",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "finais de frase",
+    "tônica"
+   ],
+   "id_global": "-sKYzObpWpA#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S8",
+   "tipo": "erro_comum",
+   "titulo": "Frases de mesmo comprimento soam mecânicas",
+   "descricao": "Quando todas as frases duram exatamente um compasso, o solo fica repetitivo e sem fluxo.",
+   "passos": [],
+   "timestamp": "03:54",
+   "nivel": "intermediario",
+   "tags": [
+    "comprimento de frases",
+    "compasso",
+    "monotonia"
+   ],
+   "id_global": "-sKYzObpWpA#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Variar o comprimento das frases",
+   "descricao": "Trabalhe frases de comprimentos diferentes, algumas começando antes do tempo esperado e outras mais longas, para criar fluxo como em uma frase literária com sentenças de tamanhos variados.",
+   "passos": [
+    "Toque um lick de um compasso e pare",
+    "Toque outro lick que comece antes do tempo forte da frase seguinte",
+    "Estenda uma frase para dois compassos",
+    "Alterne frases curtas e longas sem padrão fixo"
+   ],
+   "timestamp": "04:26",
+   "nivel": "intermediario",
+   "tags": [
+    "comprimento de frases",
+    "fluxo",
+    "frasagem"
+   ],
+   "id_global": "-sKYzObpWpA#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "O toque muda o caráter da mesma ideia",
+   "descricao": "Três guitarristas tocando a mesma ideia musical farão soar de formas diferentes. Pensar em como tocar cada nota é tão importante quanto pensar em quais notas tocar.",
+   "passos": [],
+   "timestamp": "05:02",
+   "nivel": "intermediario",
+   "tags": [
+    "toque",
+    "articulação",
+    "expressão"
+   ],
+   "id_global": "-sKYzObpWpA#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Usar palhetada alternada como base do toque",
+   "descricao": "Tocar o lick com palhetada alternada é o ponto de partida. Adicionar slides depois muda o caráter do lick.",
+   "passos": [],
+   "timestamp": "05:02",
+   "nivel": "iniciante",
+   "tags": [
+    "palhetada alternada",
+    "articulação"
+   ],
+   "id_global": "-sKYzObpWpA#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Slides para mudar o caráter do lick",
+   "descricao": "Adicionar slides em um lick já existente muda sua sonoridade e dá uma nova característica à frase.",
+   "passos": [],
+   "timestamp": "05:02",
+   "nivel": "intermediario",
+   "tags": [
+    "slides",
+    "articulação",
+    "expressão"
+   ],
+   "id_global": "-sKYzObpWpA#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Cordas soltas como drone",
+   "descricao": "Deixar cordas soltas soarem, como a corda E grave e a corda B, cria um tom contínuo que preenche o som do solo.",
+   "passos": [],
+   "timestamp": "05:39",
+   "nivel": "intermediario",
+   "tags": [
+    "cordas soltas",
+    "drone",
+    "cordas soltas E e B"
+   ],
+   "id_global": "-sKYzObpWpA#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Lick com cordas E e B soando soltas",
+   "descricao": "Pegue um lick do solo e toque-o deixando as cordas E e B soarem livremente como drone, comparando com a versão sem o drone.",
+   "passos": [
+    "Escolha o lick da segunda frase do solo",
+    "Toque o lick normalmente e ouça o resultado",
+    "Toque de novo deixando as cordas E e B soarem sem abafar",
+    "Compare as duas versões e escolha a que soa melhor"
+   ],
+   "timestamp": "05:39",
+   "nivel": "iniciante",
+   "tags": [
+    "drone",
+    "cordas soltas",
+    "lick"
+   ],
+   "id_global": "-sKYzObpWpA#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Tocar duas notas juntas ou com pequeno atraso",
+   "descricao": "Tocar duas notas simultâneas, ou separadas por um instante, faz as duas se fundirem e cria uma sonoridade agradável.",
+   "passos": [],
+   "timestamp": "05:39",
+   "nivel": "intermediario",
+   "tags": [
+    "duas notas simultâneas",
+    "dyads",
+    "intervalos"
+   ],
+   "id_global": "-sKYzObpWpA#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Segundas maiores e menores para dar caráter",
+   "descricao": "Intervalos de segunda maior e segunda menor, usados como dupla de notas dentro de um lick, acrescentam bastante caráter à frase.",
+   "passos": [],
+   "timestamp": "06:15",
+   "nivel": "intermediario",
+   "tags": [
+    "segunda maior",
+    "segunda menor",
+    "intervalos",
+    "dyads"
+   ],
+   "id_global": "-sKYzObpWpA#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Backing track fraca limita o solo",
+   "descricao": "O backing track é a base do solo, como o pão de um sanduíche. Uma base sem graça, com os mesmos acordes tocados sempre do mesmo jeito, prejudica o resultado final.",
+   "passos": [],
+   "timestamp": "06:15",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "base harmônica",
+    "produção"
+   ],
+   "id_global": "-sKYzObpWpA#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Arranjar a seção rítmica do backing track",
+   "descricao": "Deixar a seção rítmica mais interessante, em vez de repetir os mesmos acordes do mesmo jeito, torna o backing track mais inspirador e valoriza o solo.",
+   "passos": [],
+   "timestamp": "06:50",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "arranjo",
+    "seção rítmica"
+   ],
+   "id_global": "-sKYzObpWpA#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S13",
+   "tipo": "recurso",
+   "titulo": "Ajustes básicos de mixagem: EQ, compressão e reverb",
+   "descricao": "Na mixagem, o autor usa poucos recursos: um pouco de EQ, um pouco de compressão e reverb, mantendo o som simples.",
+   "passos": [],
+   "timestamp": "07:22",
+   "nivel": "iniciante",
+   "tags": [
+    "mixagem",
+    "EQ",
+    "compressão",
+    "reverb"
+   ],
+   "id_global": "-sKYzObpWpA#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "dica",
+   "titulo": "Stereo delay com tempos diferentes em cada ouvido",
+   "descricao": "Usar stereo delay com tempos diferentes em cada canal cria uma sensação de espaço estéreo no solo.",
+   "passos": [],
+   "timestamp": "07:22",
+   "nivel": "avancado",
+   "tags": [
+    "stereo delay",
+    "espaço estéreo",
+    "delay"
+   ],
+   "id_global": "-sKYzObpWpA#I21"
+  }
+ ],
+ "artistas_citados": [
+  "Stevie T"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Samurai Guitar Reference E-Book (gratuito)",
+  "Curso The Rudiments (teoria musical para guitarristas)",
+  "Curso Craft of Soloing (narrativa e frases)",
+  "Curso de estilo de solo (elementos estilísticos)",
+  "Samurai Guitar Theory Dojo (assinatura com acesso a todos os cursos)",
+  "Vídeo de Stevie T sobre guitar fails"
+ ],
+ "observacoes": "Legenda automática com erros: 'foreign' aparece como ruído recorrente sem significado claro e foi ignorado; 'Samurai guitar3.com' deve ser samuraiguitartheory.com; 'sewing bundle' é provavelmente soloing bundle; 'Sammy G merch' é Samurai Guitarist; 'My Brightest sounding pickup' é brightest-sounding pickup; 'promo code holiday 22' é holiday22; 'hands on the same note' provavelmente é 'phrase on the same note' (frases terminando na mesma nota). A tonalidade é indicada como tônica Lá, mas o modo (maior ou menor) não é dito. O vídeo não traz tablatura nem notação, então os exemplos só podem ser conferidos de ouvido. Parte do conteúdo é promocional e repetida nas propagandas.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00295,
+  "via": "api"
+ }
+}

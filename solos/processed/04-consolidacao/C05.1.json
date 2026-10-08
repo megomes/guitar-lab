@@ -1,0 +1,861 @@
+{
+ "subcategoria": "C05.1",
+ "visao_geral": "O bend eleva a altura de uma nota aumentando a tensão da corda e deve sempre partir de uma nota e chegar a outra definida (meio tom, um tom, um tom e meio) ou, no caso do microbend, a um ponto intencional entre as casas. As fontes concordam que a afinação é a prioridade e se treina pelo ouvido: toca-se a nota-alvo na casa, volta-se e faz-se o bend até igualar. A mecânica vem da rotação do antebraço e do punho, com pivô na base do indicador e no polegar, e com dedos de apoio atrás do dedo que faz o bend. Depois entram release, pre-bend, abafamento, corte no topo, microbends de blues, escolha das notas que bendam bem na caixa e variações avançadas (tom e meio, duplo bend, pedal steel, cascatas).",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O que é o bend",
+   "descricao": "O bend eleva a altura da nota mantendo a corda presa na mesma casa: ao empurrá-la ou puxá-la, a tensão aumenta e a nota sobe, pelo mesmo princípio de afinar a guitarra. Por isso o bend só sobe a altura, ao contrário da alavanca, e é a única forma, além da alavanca, de sair das alturas fixas dos trastes. O tamanho do intervalo depende de quanto a corda é deslocada, e o bend também alcança alturas microtonais entre as casas. É um recurso central no blues, no rock e no jazz.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "I5PF2nD9qjM#I01",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I01",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I06",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I07",
+    "en--bend_-music-f7581f#I10",
+    "en--bend_-music-f7581f#I12",
+    "fgDY8k0Gjzc#I03",
+    "I5PF2nD9qjM#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Todo bend vai de uma nota a outra (nada de bends sem destino)",
+   "descricao": "O bend sai de uma nota de origem e chega a uma nota-alvo conhecida, em geral a próxima nota da escala (bend melódico, normalmente um tom acima na pentatônica). Exemplos: na casa 8 da corda B (G), o bend leva à altura da casa 10 (A); na pentatônica maior de B, a 2ª nota (C#) sobe meio tom ou um tom até outra nota da escala. Fazer o bend sem saber onde ele deve parar, como alertam as fontes sobre BB King, gera afinação imprecisa e frases sem direção.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I04",
+    "I5PF2nD9qjM#I05",
+    "3dW_GQsC5Ak#I08",
+    "3dW_GQsC5Ak#I29",
+    "hafoCeXWxAE#I18",
+    "tELIgr96WcM#I11",
+    "bhYXolbCrr0#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Tamanhos do bend: meio tom, tom e tom e meio",
+   "descricao": "O half bend sobe 1 casa (meio tom), o bend completo sobe 2 casas (um tom) e há ainda o de tom e meio (3 casas). Na corda B a partir da casa 12 (B): 12b13 vai a C, 12b14 a C# e 12b15 a D. O tamanho muda o caráter: a partir da 2ª, o bend completo chega à 3ª maior e o meio bend à ♭3, que soa mais triste. No slow blues de Peter Green os bends variam entre os três tamanhos conforme os acordes.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "zSTAvmXG5m8#I09",
+    "zSTAvmXG5m8#I18",
+    "I5PF2nD9qjM#I08",
+    "7FilvCPSYXc#I18",
+    "Anop2dCuR2g#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "mentalidade",
+   "titulo": "A afinação do bend é prioridade",
+   "descricao": "Bend desafinado estraga o solo, inclusive o de quem toca rápido, e é o que mais separa profissionais de amadores. Um dos professores trata a afinação do bend como a principal prioridade com alunos de rock, logo depois de um bom ritmo. O erro típico é fazer o bend de qualquer jeito, sem atenção à altura de destino. Afinar bends e controlar o vibrato fazem parte das habilidades básicas da guitarra.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fundamental-changes--p-3331-491a30#I01",
+    "5sknWaNKxMA#I04",
+    "fgDY8k0Gjzc#I02",
+    "3dW_GQsC5Ak#I21",
+    "I5PF2nD9qjM#I14",
+    "RTGLGlM9OPg#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Mecânica: girar o antebraço e o punho, não flexionar os dedos",
+   "descricao": "A força do bend vem da rotação do antebraço e do punho. Os dedos servem só de conexão com a corda, porque os músculos dos dedos são fracos. Um movimento puramente vertical ou só com os dedos, com o antebraço parado, é difícil e incorreto. A execução depende mais da posição da mão do que da força, embora bends de dois tons exijam bastante força.",
+   "passos": [
+    "Apoie os outros dedos atrás, na mesma corda.",
+    "Gire o punho ou o antebraço para empurrar a corda.",
+    "Não force só com o dedo.",
+    "Ajuste até atingir a altura desejada."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "5sknWaNKxMA#I06",
+    "fgDY8k0Gjzc#I06",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I04",
+    "I5PF2nD9qjM#I03",
+    "fgDY8k0Gjzc#I11",
+    "Z7JY7B9YUw8#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Pivô e âncora: base do indicador e polegar",
+   "descricao": "O eixo do bend fica na borda do indicador, onde ele encontra a mão, encostada no braço. O polegar apoiado atrás ou sobre o braço (pegada em 'garra') funciona como âncora. Empurrar a mão para cima contra a região do dedo mínimo dá a sensação da resistência da corda. Há escolas diferentes de pegada, e cada um deve testar a que lhe dá mais apoio.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I07",
+    "S9GgTvj9FXs#I09",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I03",
+    "S9GgTvj9FXs#I14",
+    "S9GgTvj9FXs#I10",
+    "fgDY8k0Gjzc#I09"
+   ],
+   "divergencias": "Music is Win pede pegada firme no braço; JustinGuitar, no exercício de mecânica, pede o polegar apenas apoiado, sem apertar.",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Dedos de apoio: bend com dois ou três dedos juntos",
+   "descricao": "Ao fazer o bend com o dedo 3, mantenha os dedos 2 e, se possível, o 1 na mesma corda, atrás dele, formando um 'super dedo' que dá força e controle. Exemplo: bend na casa 7 da corda G com o 3, o 2 na casa 6 e o 1 na casa 5. No bend os dedos podem se angular e apertar o braço, ao contrário dos exercícios de aranha. Forçar sozinho um bend de um tom e meio com o dedo 1 causa dor e risco de lesão: use dois dedos nos bends pesados.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "musicradar--bend-in-tune-on-guitar-bd9353#I05",
+    "fundamental-changes--p-3331-491a30#I03",
+    "hafoCeXWxAE#I19",
+    "fgDY8k0Gjzc#I05",
+    "S9GgTvj9FXs#I12",
+    "S9GgTvj9FXs#I13",
+    "tELIgr96WcM#I14",
+    "tELIgr96WcM#I13",
+    "musicradar--bend-in-tune-on-guitar-bd9353#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "dica",
+   "titulo": "Qual dedo usar: comece pelo 3 e depois treine todos",
+   "descricao": "Qualquer dedo pode fazer bend, em qualquer corda. Comece pelo dedo 3, que tem o 1 e o 2 como apoio e é considerado por alguns o mais forte e preciso. Depois desenvolva os dedos 2, 3 e 4 para bends de até um tom e meio. Na caixa do BB King os bends são feitos com o indicador; na caixa de Albert King ou House of Blues, com o 3, o que é mais fácil.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "I5PF2nD9qjM#I13",
+    "I5PF2nD9qjM#I02",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I05",
+    "fundamental-changes--p-3331-491a30#I02",
+    "S9GgTvj9FXs#I11",
+    "I5PF2nD9qjM#I11",
+    "bhYXolbCrr0#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "dica",
+   "titulo": "Contato do dedo: a corda no meio da polpa, sem esmagar a madeira",
+   "descricao": "Durante o bend a corda deve ficar no meio da polpa dos dedos 3 e 2; se o dedo escorrega por cima ou por baixo, o resultado muda, e a ação do instrumento interfere nisso. Pressionar os dedos contra a madeira do braço causa dor e descamação: o dedo empurra a corda, não a madeira.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I23",
+    "fgDY8k0Gjzc#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Treinar a mecânica antes da afinação (corda B, casa 8)",
+   "descricao": "Primeiro sinta o movimento sem tocar a corda: antebraço e mão alinhados, a mão dobra e a região do dedo mínimo encosta no braço. Depois coloque o 3 na casa 8 da corda B (G), o 2 na 7 e o 1 na 6, e faça bends pequenos sem se preocupar com a afinação. O movimento é exagerado no começo e diminui com a prática.",
+   "passos": [
+    "Apoie a base do indicador no braço e dobre a mão sem tocar a corda.",
+    "Coloque o 3 na casa 8 da corda B, o 2 na 7 e o 1 na 6.",
+    "Empurre a mão para cima e gire o punho.",
+    "Toque a corda levemente e faça um bend pequeno.",
+    "Repita por alguns minutos, sem checar a afinação."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I08",
+    "fgDY8k0Gjzc#I10",
+    "fgDY8k0Gjzc#I12",
+    "I5PF2nD9qjM#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "dica",
+   "titulo": "Abafar as cordas que não estão soando",
+   "descricao": "Ao bendar, as cordas vizinhas podem ressoar porque o dedo as ativa; no bend na corda B, isso acontece sobretudo com a G. Na corda B, o polegar segura as cordas graves por cima do braço, a palheta ajuda e um dedo livre segura a E aguda. Na corda G, dois dedos abafam as cordas agudas e o polegar segura as graves. Outro truque: deixar o indicador encostado de leve na G, sem pressionar, para abafá-la quando a B for solta.",
+   "passos": [
+    "Bend na B: o polegar abafa as graves e um dedo livre abafa a E aguda.",
+    "Bend na G: dois dedos abafam B e E, e o polegar abafa as graves.",
+    "Deixe o indicador encostado na corda de baixo para abafá-la no release."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "5sknWaNKxMA#I08",
+    "5sknWaNKxMA#I09",
+    "fgDY8k0Gjzc#I21",
+    "fgDY8k0Gjzc#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Calibre das cordas e bend no violão",
+   "descricao": "Cordas mais leves facilitam o bend. Em caso de dificuldade, use calibre 9; o professor usa 10, e Stevie Ray Vaughan usava 12 ou 13, o que torna o bend bem mais difícil. No violão acústico o bend é possível com cordas 9 ou 8, mas o ideal é aprender na guitarra elétrica.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I26",
+    "fgDY8k0Gjzc#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "rotina_estudo",
+   "titulo": "Dose diária no início: cerca de 5 minutos",
+   "descricao": "No começo, pratique bend por uns cinco minutos por dia para não machucar os dedos. O excesso causa dor e descamação enquanto os calos ainda estão se formando.",
+   "passos": [
+    "Reserve cerca de 5 minutos por dia para bend.",
+    "Pare se os dedos doerem.",
+    "Aumente o tempo aos poucos, conforme os calos se formarem."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "mentalidade",
+   "titulo": "Dificuldade inicial é normal: persistência",
+   "descricao": "O bend costuma parecer difícil no começo, e a sensação de acerto chega com prática constante. Bends afinados combinam força, controle, feeling e repetição, e os exercícios básicos são só o começo do estudo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fgDY8k0Gjzc#I01",
+    "I5PF2nD9qjM#I15",
+    "I5PF2nD9qjM#I21",
+    "musicradar--bend-in-tune-on-guitar-bd9353#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Tocar a nota-alvo na casa e bendar até igualar",
+   "descricao": "Este é o exercício central de afinação: toque a nota-alvo fretada, volte para a nota de origem e faça o bend até soar idêntico. Posições sugeridas, todas de um tom: corda B da casa 8 (G) para a 10 (A); corda G da 7 (D) para a 9 (E); E aguda da 8 (C) para a 10 (D); e da casa 10 para a 12 ou da 12 para a 14 em todas as cordas. Repita até acertar sempre, sem precisar conferir a cada vez.",
+   "passos": [
+    "Toque a nota-alvo (ex.: casa 10 da corda B) e memorize o som.",
+    "Volte para a nota de origem (casa 8).",
+    "Faça o bend com o 3, apoiado pelo 2, até a altura do alvo.",
+    "Compare e corrija se ficou curto ou passou.",
+    "Repita em outras cordas até afinar em todas as tentativas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musicradar--bend-in-tune-on-guitar-bd9353#I01",
+    "5sknWaNKxMA#I03",
+    "fgDY8k0Gjzc#I13",
+    "fgDY8k0Gjzc#I16",
+    "fgDY8k0Gjzc#I18",
+    "I5PF2nD9qjM#I16",
+    "I5PF2nD9qjM#I17",
+    "fgDY8k0Gjzc#I30",
+    "bhYXolbCrr0#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "mentalidade",
+   "titulo": "Afinar pelo ouvido, não pelo afinador nem pelo olhar",
+   "descricao": "Antes de buscar velocidade, desenvolva a percepção para saber quando o bend está afinado. Ouça se ficou baixo, alto ou certo e ajuste na tentativa seguinte. Não use afinador, porque no palco não há como conferir, e olhar o braço não ajuda a medir o bend. Um teste útil é comparar um bend desafinado de propósito com um afinado: se você percebe a diferença, o ouvido já está pronto para o treino.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "S9GgTvj9FXs#I01",
+    "fgDY8k0Gjzc#I15",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I10",
+    "tELIgr96WcM#I05",
+    "fgDY8k0Gjzc#I14",
+    "S9GgTvj9FXs#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "dica",
+   "titulo": "Começar lento, acelerar e confiar na memória muscular",
+   "descricao": "Faça o bend bem devagar até o alvo, para ter tempo de ouvir a afinação e ganhar força. Depois acelere até acertar a altura com um bend rápido e imediato. Com dias e semanas de repetição, os dedos memorizam a distância e a sensação física de cada bend, o que permite acertar sem olhar. Pratique devagar e de forma contínua, porque repetir bends desafinados fixa o erro.",
+   "passos": [
+    "Faça o bend lentamente até o alvo, ouvindo a afinação.",
+    "Aumente a velocidade aos poucos.",
+    "Verifique se a altura continua exata com o bend rápido."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fundamental-changes--p-3331-491a30#I05",
+    "S9GgTvj9FXs#I08",
+    "S9GgTvj9FXs#I07",
+    "tELIgr96WcM#I16",
+    "F09p1VI9ins#I07",
+    "fgDY8k0Gjzc#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "rotina_estudo",
+   "titulo": "Rotina pelo braço inteiro: referência, descer e bendar",
+   "descricao": "Esta é a variação 'Satriani': toque uma nota de referência, desça meio tom ou um tom (uma ou duas casas) e faça o bend de volta até a referência, sem vibrato. Percorra todas as casas e cordas, repetindo cada linha 4 vezes e trocando o dedo a cada vez. Depois alterne em sequência os diferentes bends já estudados.",
+   "passos": [
+    "Toque uma nota de referência.",
+    "Desça 1 ou 2 casas.",
+    "Faça o bend até a referência, sem vibrato.",
+    "Repita 4 vezes, cada vez com um dedo diferente.",
+    "Mude de casa e de corda e depois alterne os tipos de bend."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fundamental-changes--p-3331-491a30#I04",
+    "S9GgTvj9FXs#I03",
+    "S9GgTvj9FXs#I05",
+    "I5PF2nD9qjM#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Bend de meio tom e o risco de overbend",
+   "descricao": "O bend de meio tom costuma ser mais difícil que o de um tom, porque o movimento é mínimo e há tendência a passar do ponto. Treine devagar e alterne com o bend de um tom. Exemplo: half bend na casa 12 da corda B (B→C), release, casa 10 da B (A) e final na casa 11 da G (F#).",
+   "passos": [
+    "Monte os dedos na corda antes do bend.",
+    "Faça um bend de um tom e depois um de só uma casa.",
+    "Alterne os dois devagar, ouvindo a diferença.",
+    "Aplique: half bend na B12 (B→C), release, B10 e G11."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "S9GgTvj9FXs#I06",
+    "fgDY8k0Gjzc#I17",
+    "I5PF2nD9qjM#I18",
+    "I5PF2nD9qjM#I19",
+    "zSTAvmXG5m8#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Direção do bend: empurrar para cima ou puxar para baixo",
+   "descricao": "Na corda G, faça bends de um tom com o dedo 3 nas duas direções, puxando para o chão e empurrando para o teto, sempre igualando a nota-alvo tocada antes. Nas cordas graves e nas primeiras casas, levantar a corda exige força demais ou é impossível; nesses casos, puxe a corda para baixo.",
+   "passos": [
+    "Toque a nota-alvo.",
+    "Faça o bend de um tom na G com o 3 puxando para baixo e compare.",
+    "Repita empurrando para cima e compare.",
+    "Nas cordas graves, prefira puxar para baixo."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I08",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I09",
+    "I5PF2nD9qjM#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Bend limpo primeiro, vibrato depois",
+   "descricao": "Comece com bends 'nus', sem vibrato, para treinar só a altura. Aprenda bend e vibrato separadamente antes de combiná-los, o que já é conteúdo intermediário. Nunca inicie o vibrato antes de chegar à altura exata do alvo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "musicradar--bend-in-tune-on-guitar-bd9353#I03",
+    "i9yDenSMpJk#I22",
+    "S9GgTvj9FXs#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Bending vibrato: vibrato sobre a nota bendada",
+   "descricao": "No bending vibrato, a nota é bendada até o alvo e o vibrato oscila em torno dessa altura, como microbends para cima e para baixo, sempre voltando a ela. É notoriamente difícil e exige mais controle da mão que pisa. Pratique o mesmo lick sem e com vibrato sobre uma backing track.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "i9yDenSMpJk#I21",
+    "musicradar--bend-in-tune-on-guitar-bd9353#I04",
+    "S9GgTvj9FXs#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "Release: subir, sustentar e soltar",
+   "descricao": "Release é deixar a corda tensionada voltar à posição natural depois do bend; o movimento só termina quando a nota volta à altura da casa. Na tablatura é indicado por 'R' e vale também para bends de meio tom. Controle três durações: a subida, o tempo no topo e a descida. Subir rápido ou pausar na nota inicial antes de subir são escolhas expressivas, a decidir ouvindo a música.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "F09p1VI9ins#I01",
+    "F09p1VI9ins#I02",
+    "F09p1VI9ins#I03",
+    "I5PF2nD9qjM#I09",
+    "I5PF2nD9qjM#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "dica",
+   "titulo": "Soltar sem ruído: bend, abafar, release",
+   "descricao": "O erro mais comum é deixar audível a corda descendo ao soltar o bend, o que gera sons indesejados. Para evitar, siga a sequência bend, mute, release: a mão da palheta, a lateral da palma ou um dedo livre abafa a corda ainda bendada e só então a corda é solta. Se o release for audível, alivie a pressão com cuidado e já prepare o próximo dedo.",
+   "passos": [
+    "Faça o bend e segure a nota.",
+    "Abafe a corda com a mão da palheta ou um dedo livre.",
+    "Solte o bend mantendo o abafamento.",
+    "Repita até virar automático."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "zSTAvmXG5m8#I25",
+    "fgDY8k0Gjzc#I19",
+    "fgDY8k0Gjzc#I20",
+    "tELIgr96WcM#I08"
+   ],
+   "divergencias": "JustinGuitar diz que na maioria das vezes o bend deve só subir, com a descida abafada; o Cifra Club e os licks de Clapton tratam o release audível como técnica expressiva.",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "dica",
+   "titulo": "Cortar a nota no topo do bend",
+   "descricao": "Cada bend conta uma pequena história: a nota começa na altura temperada, é levada ao ponto desejado (alvo ou ponto bluesy) e a frase termina ali. Corte o som com a corda ainda bendada, antes de soltá-la. Se a nota voltar à altura original, perde-se boa parte do impacto e o fim seco da frase.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "zSTAvmXG5m8#I20",
+    "tELIgr96WcM#I07",
+    "tELIgr96WcM#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "conceito",
+   "titulo": "Pre-bend: bendar antes de palhetar",
+   "descricao": "No pre-bend a corda é levantada até a altura-alvo antes de ser tocada; ouve-se só a nota já bendada e, em seguida, o release. A diferença para o release comum: neste se toca, sobe e desce; no pre-bend só se ouve a descida. Na tablatura, deduza a casa do bend pela nota para a qual a corda volta depois do release. O pre-bend é uma forma expressiva de começar ou terminar um lick sem reestruturar a frase.",
+   "passos": [
+    "Identifique na tablatura o som inicial e a nota de retorno.",
+    "Deduza em qual casa fazer o bend.",
+    "Levante a corda sem palhetar.",
+    "Palhete e faça o release."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fundamental-changes--p-3331-491a30#I06",
+    "F09p1VI9ins#I04",
+    "F09p1VI9ins#I05",
+    "F09p1VI9ins#I06",
+    "tELIgr96WcM#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Treinar pre-bend com referência e acorde de fundo",
+   "descricao": "Adapte os exercícios de bend com referência para pre-bend: estime de memória a altura, ataque a nota já bendada e confira. Tocar sobre um backing com acordes, como Em na demonstração de Guthrie Govan, dá feedback imediato: o pre-bend certo encaixa e o errado denuncia o desvio.",
+   "passos": [
+    "Escolha a nota-alvo na caixa da pentatônica.",
+    "Bende a corda sem tocar, estimando a altura.",
+    "Ataque a nota já bendada.",
+    "Confira contra a nota de referência ou o acorde de Em."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fundamental-changes--p-3331-491a30#I07",
+    "tELIgr96WcM#I17",
+    "tELIgr96WcM#I18",
+    "tELIgr96WcM#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "rotina_estudo",
+   "titulo": "Aplicar bend, pre-bend e release em músicas",
+   "descricao": "Depois dos exercícios, aplique a técnica em músicas fáceis com solos curtos e repita bastante. Exemplos citados: 'Mama, I'm Coming Home' (Ozzy), com pre-bend na corda G; 'Something' (Beatles), com pre-bend de meio tom; 'Wonderful Tonight' (Clapton), com bends de um tom e release; e o início do primeiro solo de uma música do Guns N' Roses, com bend, release e pull-off terminando na casa 12.",
+   "passos": [
+    "Mama, I'm Coming Home: pre-bend na G e release.",
+    "Something: pre-bend de meio tom.",
+    "Wonderful Tonight: bends de um tom com release.",
+    "Guns N' Roses: bend, release e pull-off até a casa 12."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "F09p1VI9ins#I09",
+    "F09p1VI9ins#I10",
+    "F09p1VI9ins#I11",
+    "F09p1VI9ins#I12",
+    "F09p1VI9ins#I13",
+    "I5PF2nD9qjM#I22",
+    "F09p1VI9ins#I08",
+    "tELIgr96WcM#I20"
+   ],
+   "divergencias": "",
+   "correcoes": "A legenda automática escreveu 'Gun Roses'; o correto é Guns N' Roses (a música não foi identificada na transcrição)."
+  },
+  {
+   "id": "K29",
+   "tipo": "rotina_estudo",
+   "titulo": "Levar os licks de bend para backing e outras tonalidades",
+   "descricao": "Pratique as frases de bend sobre um backing simples, no formato ouvir e repetir: primeiro fretando a nota-alvo, depois com bend e por fim tocando junto. Transponha os mesmos licks para outras tonalidades e posições do braço, porque cada linha serve a qualquer tom e estilo.",
+   "passos": [
+    "Treine a frase fretando a nota-alvo.",
+    "Ouça a frase no áudio e repita no espaço deixado.",
+    "Toque junto com o backing.",
+    "Transponha para outras tonalidades e regiões."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musicradar--bend-in-tune-on-guitar-bd9353#I02",
+    "musicradar--bend-in-tune-on-guitar-bd9353#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "dica",
+   "titulo": "Quais notas bendam bem em cada forma",
+   "descricao": "Comece pelas notas que bendam bem em cada padrão. Na pentatônica de Am na casa 5, as casas 7 e 8 soam melhor que as da casa 5. Na diagonal de três notas por corda, a nota do meio do trio é a mais fácil de bendar, e nas cordas D e G qualquer nota do grupo central funciona. Regra prática: se a nota vizinha da forma está a meio tom, faça bend de meio tom; se está a um tom, de um tom. Exemplos da região E: na pentatônica maior, bend completo na corda 1, casa 5 (A→B) e meio bend na corda 2, casa 5 (E→F, som blues); na menor, corda 1 casa 6, corda 2 casa 6 e corda 3 casa 5. Na região C (G maior): bends completos nas cordas 2 e 1, casa 10; na menor, corda 2 casa 11 e corda 3 casa 10.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fgDY8k0Gjzc#I29",
+    "HY5qWMbvsjY#I13",
+    "On_Ho3azaLk#I26",
+    "Qk8rk-uaBzU#I22",
+    "Ork2Vc2bva8#I17",
+    "gubqumrozXc#I08",
+    "vPIebPDBizs#I08",
+    "0Dh8aGffCaI#I07",
+    "FhfmneCt7jo#I10",
+    "FhfmneCt7jo#I11",
+    "FhfmneCt7jo#I12",
+    "FhfmneCt7jo#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "exercicio",
+   "titulo": "Percorrer todos os bends melódicos de cada caixa",
+   "descricao": "Na caixa de Em há cerca de 12 bends melódicos possíveis: partindo da nota mais grave, bende cada nota até a altura da próxima nota da pentatônica e continue por toda a escala. Repita nas cinco caixas, porque cada uma oferece um contexto diferente para os mesmos bends. Mantenha-se dentro da escala.",
+   "passos": [
+    "Escolha uma caixa da pentatônica de Em.",
+    "Parta da nota mais grave.",
+    "Ache a próxima nota da escala.",
+    "Bende até a altura dela.",
+    "Siga por toda a caixa e repita nas cinco caixas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "tELIgr96WcM#I12",
+    "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I14",
+    "tELIgr96WcM#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "dica",
+   "titulo": "Bends típicos por grau: 4→5, ♭7→1, ♭5→5 e bends que caem em notas do acorde",
+   "descricao": "Bends clássicos: 4ª→5ª (um tom; quebra a monotonia da frase e, sobre o dominante, sugere sus4); ♭7→tônica (ex.: bend até A sobre o acorde de A); ♭5 (blue note)→5ª; F#→G# na tonalidade de B. Na pentatônica de Em, o bend completo na 2ª nota da corda G chega a B, nota comum a Em e a G maior. Bends de um tom na pentatônica menor costumam terminar em notas do acorde, virando nota-alvo. Rick Beato propõe, em cada posição, bendar até notas do acorde: à 5ª, da 4ª à ♭7, de volta à raiz, e à 3ª maior.",
+   "passos": [
+    "4ª→5ª: bend de um tom.",
+    "♭7→tônica sobre o acorde I.",
+    "♭5→5ª: bend de meio tom.",
+    "Em cada posição, bende até uma nota do acorde."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "rODBvbol8dk#I03",
+    "EwRkYkN7igw#I05",
+    "4-XWDbMtR-U#I07",
+    "mD_JBfqB8X0#I25",
+    "MfrAepqfv2g#I11",
+    "3dW_GQsC5Ak#I23",
+    "5e0SpzCw3IA#I09",
+    "1ksOozBYk8g#I07",
+    "Ak_iM6H9rxE#I23",
+    "9xHvDRP5Yds#I08",
+    "1ksOozBYk8g#I08",
+    "5e0SpzCw3IA#I10",
+    "bhYXolbCrr0#I01"
+   ],
+   "divergencias": "StichMethod recomenda tocar as notas do acorde limpas e reservar o bend para as notas de fora; Brian Kelly, Brett Papa e Beato usam o bend justamente para chegar às notas do acorde.",
+   "correcoes": "O bend da blue note (♭5) até a 5ª justa é de meio tom, e não 'uma nota acima' da escala; no final sobre Cm7, o Sol♭ é a ♭5 de C."
+  },
+  {
+   "id": "K33",
+   "tipo": "conceito",
+   "titulo": "Microbend e blues curl: subir menos que meio tom",
+   "descricao": "O microbend, também chamado blues curl ou quarter-tone bend, leva a nota um pouco acima da afinação temperada sem chegar à casa seguinte. Não busca outra nota: dá estilo e um som vocal e bluesy, uma 'nota entre a tecla branca e a preta' que não existe no piano. Exemplos: puxar de leve a casa 3 da corda G ou a casa 11 da corda B e voltar à 8 com o indicador. Pode ser feito empurrando ou puxando com o indicador, e um bend quase imperceptível já dá expressão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tELIgr96WcM#I01",
+    "gNKJXn8g734#I08",
+    "gNKJXn8g734#I22",
+    "ea2g6P0pCKg#I19",
+    "kkr107pBAAs#I14",
+    "dZUSUZjRISI#I18",
+    "0MLUiyPWt8s#I14",
+    "premierguitar--blues_basics_saying_more_with_less-adf9db#I09",
+    "tELIgr96WcM#I04"
+   ],
+   "divergencias": "",
+   "correcoes": "No mini bend da 2ª (D) em direção à 3ª (E) em C, o ponto intermediário fica perto de E♭ (♭3), por isso o professor o chama de 'blue note'; a blue note formal da escala de blues é a ♭5."
+  },
+  {
+   "id": "K34",
+   "tipo": "exercicio",
+   "titulo": "Microbend na ♭3 e na ♭7 (entre a terça menor e a maior)",
+   "descricao": "Em Lá menor, os melhores alvos do microbend são a 3ª menor (C) e a ♭7 (G). Sobre um acorde maior, como o de G, BB King faz microbend na ♭3 (B♭), parando entre B♭ e B (3ª maior) sem chegar a ela. Desi Serna toca A e depois C com microbend. Exercício: toque o mesmo lick reto e depois com esses ajustes, e compare.",
+   "passos": [
+    "Escolha um lick de blues conhecido (ex.: em Am).",
+    "Toque-o com as notas retas.",
+    "Repita subindo levemente a ♭3 (C) e a ♭7 (G).",
+    "Sobre o acorde maior, pare a ♭3 entre a terça menor e a maior.",
+    "Compare as duas versões."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "tELIgr96WcM#I02",
+    "tELIgr96WcM#I03",
+    "tELIgr96WcM#I09",
+    "dZUSUZjRISI#I17",
+    "bhYXolbCrr0#I08",
+    "bhYXolbCrr0#I02",
+    "btoooVk54LY#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K35",
+   "tipo": "exercicio",
+   "titulo": "Meio tom vindo da casa de baixo e 'scoop'",
+   "descricao": "Pegue qualquer nota da escala, toque uma casa abaixo e bende meio tom até ela; funciona em qualquer lugar, tem sonoridade de Jeff Beck e soa bem mesmo sem chegar exato. Variação 'scoop': toque a nota da escala, suba meio tom e volte à nota.",
+   "passos": [
+    "Escolha uma nota da escala.",
+    "Toque uma casa abaixo e bende meio tom até ela.",
+    "Variação: toque a nota, suba meio tom e volte.",
+    "Varie a velocidade."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Qk8rk-uaBzU#I23",
+    "On_Ho3azaLk#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K36",
+   "tipo": "exercicio",
+   "titulo": "Frases com bend, release e pull-off, hammer-on ou slide",
+   "descricao": "Combine o bend com ligados para resolver na tônica, por exemplo bend de um tom, release e pull-off caindo na tônica (A ou C) no tempo 1. Outros exemplos: pre-bend na casa 13 da E aguda (F) e pull-off para a 10 (D); pre-bend na casa 13 da B (C→D), vibrato, release para a 10 (A) e hammer-on na 12 (B). Para mais tempero, insira um slide curto durante o release.",
+   "passos": [
+    "Bend de um tom numa nota da pentatônica.",
+    "Release até a nota original.",
+    "Pull-off resolvendo na tônica no tempo 1.",
+    "Variação: pre-bend na B13 até D, vibrato, release para a B10 e hammer-on na B12.",
+    "Variação: slide curto durante o release."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "dZUSUZjRISI#I21",
+    "dZUSUZjRISI#I06",
+    "gNKJXn8g734#I14",
+    "zSTAvmXG5m8#I32",
+    "gNKJXn8g734#I24",
+    "2MVpk-pdw3g#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K37",
+   "tipo": "dica",
+   "titulo": "Bends 'sujos' e trajetórias livres",
+   "descricao": "Bendar para alturas entre notas ou um pouco além do alvo dá sabor; exemplos citados: casa 15 da B e casa 14 da G com bend leve. Na casa 14 da G, faça bend de um tom, suba mais um semitom, volte o semitom e solte. Pense em sons, não em teoria, e memorize os que soam bem.",
+   "passos": [
+    "Bend de um tom na casa 14 da G.",
+    "Suba mais um semitom.",
+    "Volte o semitom.",
+    "Solte."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fwyn5tQdF4k#I08",
+    "fwyn5tQdF4k#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K38",
+   "tipo": "exercicio",
+   "titulo": "Bend de um tom e meio e os limites físicos",
+   "descricao": "Exemplo: da casa 10 à altura da casa 13 (D→F na E aguda), um tom e meio, repalhetando a nota na volta. Algumas posições da caixa geram bends pesados demais, que podem nem ser viáveis; vale explorá-los para conhecer o limite, sempre usando dois ou três dedos.",
+   "passos": [
+    "Toque a casa 10 (D na E aguda).",
+    "Bende com dedos de apoio até a altura da casa 13 (F).",
+    "Repalhete a nota na volta."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "gNKJXn8g734#I21",
+    "tELIgr96WcM#I15"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte cita 'nota D na 10ª casa da corda D', mas a casa 10 da corda D é C; D na casa 10 e F na 13 correspondem à corda E aguda."
+  },
+  {
+   "id": "K39",
+   "tipo": "exercicio",
+   "titulo": "Bend em double stops e pedal-steel bend",
+   "descricao": "Pares de cordas podem ser bendados, inclusive com duplo bend, no estilo Chuck Berry. O pedal-steel bend, típico do country (ex.: início de um solo de Daniel Donato), imita a pedal steel guitar. Na tonalidade de Sol: o dedo mínimo faz pestana nas duas cordas agudas enquanto o anelar e/ou o médio bendam a corda G, tocando com hybrid picking.",
+   "passos": [
+    "Pestana com o mínimo nas cordas B e E.",
+    "Bende a corda G com o anelar, o médio ou os dois juntos.",
+    "Toque as três cordas com hybrid picking."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ea2g6P0pCKg#I14",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I19",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K40",
+   "tipo": "conceito",
+   "titulo": "Bend como assinatura expressiva",
+   "descricao": "Bend e vibrato são as ferramentas centrais de expressão em frases pentatônicas simples e servem para abordar notas-alvo e suavizar linhas. São marcas de estilo: BB King, David Gilmour (bends, vibrato e tom), Jeff Beck (bends e volume swells sutis em 'Because We've Ended as Lovers') e Kirk Fletcher, que comenta o uso de bends com feeling dentro das frases. Ouça com atenção aos detalhes de afinação e timbre de cada nota.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "2MVpk-pdw3g#I03",
+    "GC-HIgdwVSM#I13",
+    "pickupmusic--soloing-with-caged-90d614#I25",
+    "ZBQr7STNnCE#I14",
+    "Anop2dCuR2g#I09",
+    "Anop2dCuR2g#I14",
+    "fJs5AALy4GY#I08",
+    "-htAGli1YeY#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K41",
+   "tipo": "exercicio",
+   "titulo": "Bends avançados: cascata, bend com tapping e bend reinterpretado",
+   "descricao": "Ideias avançadas citadas: a cascata de bends encadeados no estilo Hendrix (apresentada por Jamey Arent) e a combinação de bend com tapping no lick de John Mayer em 'I Guess I Just Feel Like'. Outra é trocar o bend icônico de Gilmour (chamado no vídeo de bend de terça maior) por uma corrida ascendente na pentatônica de Ré menor até a mesma nota-alvo, preservando a tensão e a resolução.",
+   "passos": [
+    "Ouça o bend original e o intervalo que ele cria.",
+    "Substitua-o por notas da pentatônica de Dm subindo até o alvo.",
+    "Mantenha volume e dinâmica parecidos.",
+    "Compare a tensão e a resolução com a frase original."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I23",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I22",
+    "6aJqjgu5LwM#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "pickupmusic--soloing-with-caged-90d614#I27",
+   "sugestao": "C03.2",
+   "motivo": "O foco é conectar as formas CAGED Am e Gm em Ré menor; o bend é só um meio de ligação."
+  },
+  {
+   "id": "qIewGDRWBu8#I12",
+   "sugestao": "C09.5",
+   "motivo": "Exercício de nota de órbita em torno da tríade (aproximação de nota-alvo); o bend de semitom é acessório."
+  }
+ ],
+ "observacoes": "Divergências principais: tocar as notas do acorde limpas ou bendar até elas (#64 vs #75/#200), release audível ou abafado (#111 vs #81/#90) e pegada firme ou polegar solto (#41 vs #100). Foi corrigida a corda do bend de tom e meio (#154). As secundárias #209, #210, #208, #216, #233, #237, #213, #219, #220 e #234 foram incorporadas onde enriqueciam os itens.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 201,
+  "ideias_secundarias": 44,
+  "itens": 41,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.2982,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 49600,
+   "output_tokens": 19897
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 2,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

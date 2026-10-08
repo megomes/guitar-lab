@@ -1,0 +1,236 @@
+{
+ "fonte_id": "guitarlessons--how-to-play-a-guitar-solo-a62e48",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "How To Play A Guitar Solo - Lead Guitar Lessons",
+  "autor": "",
+  "url": "https://guitarlessons.com/guitar-lessons/lead-guitar-quick-start-series/how-to-play-a-guitar-solo/",
+  "site": "guitarlessons.com",
+  "idioma": "en",
+  "tema_coleta": "fundamentos",
+  "arquivo_raw": "solos/raw/documentos/guitarlessons--how-to-play-a-guitar-solo-a62e48.md"
+ },
+ "resumo": "Lição 9/12 da série Lead Guitar Quick-Start: dicas gerais para construir um solo que soe musical e não apenas como escalas subindo e descendo. Aborda fraseado como conversa, tema repetido, uso de espaço/pausas, dinâmica crescente e adaptação das notas às mudanças de acorde (G maior e Em). Voltado a iniciantes que aprenderão o primeiro solo na lição seguinte.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitos claros e bem escolhidos para iniciantes, mas só teóricos: sem exemplos de notas, licks ou exercícios concretos (dependem da lição seguinte)."
+ },
+ "assuntos_principais": [
+  "fraseado",
+  "tema repetido",
+  "espaço entre notas",
+  "dinâmica",
+  "mudanças de acorde",
+  "pentatônica maior e menor"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução da lição e contexto da série",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta a lição 9 e os tópicos: fraseado, tema repetido, espaço, dinâmica e mudanças de acorde. Recomenda fazer a série desde a primeira lição.",
+   "assuntos": [
+    "introdução",
+    "série Lead Guitar Quick-Start"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Fraseado como conversa",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Estruturar o solo como uma conversa, com pausas e inflexões, em vez de correr sem parar por uma escala.",
+   "assuntos": [
+    "fraseado",
+    "pausas",
+    "inflexão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Tema repetido e uso de espaço",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Um tema recorrente une o solo, cria pausas naturais e ajuda o fraseado; deixar espaço mantém o público engajado.",
+   "assuntos": [
+    "tema repetido",
+    "espaço",
+    "silêncio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Dinâmica do solo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Construir o solo começando suave e crescendo até um lick mais rápido ou volume maior, como num filme de ação com momentos de calma.",
+   "assuntos": [
+    "dinâmica",
+    "crescendo",
+    "construção do solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Tocar sobre mudanças de acorde",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Mudar as notas conforme o acorde: sobre G maior usar G maior e G pentatônica maior; sobre Em usar E pentatônica menor. Encerra com chamada para a próxima lição.",
+   "assuntos": [
+    "mudanças de acorde",
+    "pentatônica maior",
+    "pentatônica menor",
+    "G maior",
+    "Em"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Solo como conversa",
+   "descricao": "Estruture o solo como uma conversa: ninguém fala sem pausa e em tom monótono, e tocar uma escala de cima a baixo soa assim. Use pausas, inflexões e momentos de espera para tornar o solo mais interessante.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "pausas",
+    "musicalidade"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Correr escala acima e abaixo",
+   "descricao": "Tocar o solo como uma sequência contínua subindo e descendo a escala soa monótono e pouco musical, como frases coladas sem pausa. Deve-se variar com pausas e inflexões.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "escalas",
+    "fraseado"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Use um tema repetido",
+   "descricao": "Ter um tema recorrente no solo une as partes e dá sensação de coesão. Nem todo solo precisa ter, mas é útil. Repetir o tema também ajuda o fraseado, pois cria pausas naturais entre as repetições.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "tema",
+    "motivo",
+    "coesão",
+    "fraseado"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Deixe espaço entre as notas",
+   "descricao": "Guitarristas, acostumados a praticar escalas, tendem a tocar rápido e sem pausas. Deixar espaço no solo mantém o público atento. Padrão sugerido: tocar o tema, deixar um espaço, tocar o tema de novo.",
+   "passos": [
+    "Toque o tema",
+    "Deixe um espaço (silêncio)",
+    "Toque o tema novamente"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "espaço",
+    "silêncio",
+    "tema",
+    "fraseado"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Construa o solo dinamicamente",
+   "descricao": "Comece o solo baixo, vá crescendo e termine com um lick mais rápido ou volume maior. Útil especialmente em músicas emotivas ou para finalizar com crescendo. Como num filme de ação, os momentos calmos fazem a ação se destacar. Não é para todo solo.",
+   "passos": [
+    "Comece tocando suave",
+    "Aumente gradualmente intensidade",
+    "Termine com lick mais rápido ou volume maior"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "dinâmica",
+    "crescendo",
+    "construção"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Adapte as notas aos acordes",
+   "descricao": "Em vez de tocar uma única escala, mude as notas conforme os acordes da música. Exemplo da próxima lição: backing track com G maior e Em; sobre G use G maior e G pentatônica maior, e sobre Em troque para E pentatônica menor.",
+   "passos": [
+    "Identifique os acordes (G e Em)",
+    "Sobre G, use G maior / G pentatônica maior",
+    "Sobre Em, mude para E pentatônica menor"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "mudanças de acorde",
+    "pentatônica",
+    "G maior",
+    "Em"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Pense nas notas, não só em praticar escalas",
+   "descricao": "Usar essas dicas (fraseado, tema, espaço, dinâmica, acordes) faz o solo soar musical e não como prática de escalas. Não precisa aplicar todas em todo solo; são ferramentas a escolher.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "musicalidade",
+    "mentalidade"
+   ],
+   "id_global": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I07"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Lead Guitar Quick-Start Series (guitarlessons.com)",
+  "Próxima lição: Playing Your First Solo (jam track em G e Em)"
+ ],
+ "observacoes": "Documento em texto, sem timestamps (inicio/fim/timestamp = null). Conteúdo conceitual, sem tablatura ou licks específicos; o solo de exemplo está na lição seguinte. Autor/canal não informado.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:39",
+  "tentativas": 1,
+  "custo_usd": 0.0961
+ }
+}

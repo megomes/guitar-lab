@@ -1,0 +1,240 @@
+{
+ "fonte_id": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Beyond the Box: Five Phrases to Get You Out of the Pentatonic Rut",
+  "autor": "Guitar Player Staff",
+  "url": "https://www.guitarplayer.com/lessons/beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-rut",
+  "site": "www.guitarplayer.com",
+  "idioma": "en",
+  "tema_coleta": "pentatonica",
+  "arquivo_raw": "solos/raw/documentos/guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71.md"
+ },
+ "resumo": "Artigo curto da Guitar Player com cinco frases (Figuras 1 a 5) em Lá (blues) para sair da \"caixa\" da pentatônica. Cada frase explora um recurso: mistura de terça maior e menor, sexta no lugar da sétima menor (estilo B.B. King), tercinas com b9, cromatismo com bends incomuns, \"seguir as mudanças\" na cadência dos compassos 9-10 do blues de 12 compassos e cromatismo com resolução da terça na tônica. O texto apenas descreve as figuras; as frases em si dependem de tablatura não incluída. Útil como mapa de conceitos para guitarristas intermediários de blues.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Boas ideias conceituais bem identificadas, mas o texto é só uma legenda das figuras; sem tablatura, posições, andamento ou passo a passo, pouco é aplicável diretamente."
+ },
+ "assuntos_principais": [
+  "pentatônica",
+  "blues em Lá",
+  "terça maior e menor",
+  "cromatismo",
+  "bends",
+  "following the changes",
+  "double-stops",
+  "b9"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: preso na caixa da pentatônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o problema de repetir as mesmas notas na caixa pentatônica e o objetivo de ampliar ou romper seus limites com cinco frases.",
+   "assuntos": [
+    "pentatônica",
+    "box"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Figuras 1 e 2: terça maior/menor, sexta e b9",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Fig. 1 combina C e C# sobre Lá e usa F# (6ª) em vez de G, à moda de B.B. King. Fig. 2 usa tercinas misturando pentatônicas menor e maior com b9 (Bb).",
+   "assuntos": [
+    "B.B. King",
+    "tercinas",
+    "b9",
+    "pentatônica maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Figuras 3 e 4: cromatismo, bends e seguir as mudanças",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Fig. 3 une cromatismo estilo sopro (jazz) e bends com digitações incomuns no blues. Fig. 4 acompanha a cadência dos compassos 9-10 com motivo de notas simples e double-stops.",
+   "assuntos": [
+    "cromatismo",
+    "bends",
+    "double-stops",
+    "blues de 12 compassos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Figura 5: cromatismo e resolução da terça na tônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Frase com oito alturas diferentes, cromática, que termina resolvendo a terça (C#) na raiz (A).",
+   "assuntos": [
+    "cromatismo",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Rodapé e newsletter",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Divulgação da newsletter e apresentação da revista Guitar Player.",
+   "assuntos": [],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Ficar preso na caixa da pentatônica",
+   "descricao": "É fácil tocar sempre as mesmas cinco notas dentro do shape (caixa) da pentatônica. O artigo propõe empurrar ou romper os limites da caixa com recursos melódicos extras.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "box",
+    "rotina"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Misturar terça menor e maior no mesmo lick",
+   "descricao": "Em Lá, combinar C (3ª menor) e C# (3ª maior) numa mesma frase gera o som 'sedoso' característico do blues, mesclando pentatônica menor e maior.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "terça maior",
+    "terça menor",
+    "blues",
+    "pentatônica maior"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Usar a 6ª (F#) em vez da b7 (G) — marca de B.B. King",
+   "descricao": "Na frase em Lá, empregar F# (6ª) no lugar de G (b7) é um traço típico de B.B. King e tira o lick do som padrão da caixa menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "B.B. King",
+    "sexta",
+    "blues"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "frase_lick",
+   "titulo": "Frase em tercinas com notas das pentatônicas menor e maior e b9",
+   "descricao": "Linha baseada em tercinas que incorpora notas da pentatônica menor e maior mais uma b9 (Bb sobre Lá), nota pouco comum em improvisos de blues, usada como cor de passagem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tercinas",
+    "b9",
+    "blues",
+    "pentatônica"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Cromatismo estilo instrumento de sopro",
+   "descricao": "As notas de anacruse (pickup) formam uma figura cromática típica do jazz, 'de sopro', que pode abrir uma frase de blues e fugir da caixa.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "jazz",
+    "pickup"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Bends com digitações incomuns no blues",
+   "descricao": "A Figura 3 usa string bends com dedilhados pouco habituais no blues, combinados ao cromatismo, para soar diferente do bend padrão da caixa.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "bend",
+    "digitação",
+    "cromatismo"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Following the changes na cadência dos compassos 9 e 10",
+   "descricao": "A frase acompanha o movimento de acordes da cadência dos compassos 9 e 10 do blues de 12 compassos, criando motivo melódico marcante com notas simples e double-stops que muda conforme o acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "following the changes",
+    "double-stops",
+    "blues de 12 compassos",
+    "motivo"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "frase_lick",
+   "titulo": "Lick cromático de oito alturas resolvendo 3ª na tônica",
+   "descricao": "Frase com oito notas diferentes, bastante cromática, que termina na resolução clássica da terça (C#) para a raiz (A), dando sensação de chegada.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "resolução",
+    "terça",
+    "tônica"
+   ],
+   "id_global": "guitarplayer--beyond-the-box-five-phrases-to-get-you-out-of-the-pentatonic-d9ec71#I08"
+  }
+ ],
+ "artistas_citados": [
+  "B.B. King"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Guitar Player (revista e site)"
+ ],
+ "observacoes": "O texto contém apenas legendas das Figuras 1-5; a tablatura/notação e o áudio não foram fornecidos, então posições, ritmos e digitações exatos não estão disponíveis. Segmentos sem timestamp (documento). Tom de Lá inferido do texto (A, C, C#, F#, G, Bb).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:23",
+  "tentativas": 1,
+  "custo_usd": 0.2153
+ }
+}

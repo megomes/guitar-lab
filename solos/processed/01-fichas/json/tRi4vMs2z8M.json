@@ -1,0 +1,1046 @@
+{
+ "fonte_id": "tRi4vMs2z8M",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+  "autor": "Jack Gardiner",
+  "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M",
+  "idioma": "en",
+  "duracao": "46m 34s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/tRi4vMs2z8M--improvisation-a-complete-overview-for-guitar-masterclass.md"
+ },
+ "resumo": "Aula-panorama de improvisação para guitarra, em inglês, do canal Jack Gardiner. O professor propõe um 'roteiro' que começa pelo ritmo e pelo time feel, passa por visualização do braço com a pentatônica (menor e maior), escolha de escalas a partir da harmonia, limitação, transcrição, execução e tríades e arpejos de sétima, até escalas, modos e notas 'outside'. Destina-se a guitarristas de todos os níveis, com ênfase em iniciantes e intermediários, e serve como mapa de estudo mais do que como lição passo a passo. Boa parte do conteúdo mais avançado é apenas citada e remetida a cursos pagos.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Organiza bem o caminho de estudo e traz muitos conceitos concretos (intervalos da pentatônica, notas de acorde, limitação, escala por acorde, notas a evitar), com exemplos sonoros de backing track. Perde pontos porque muitos exemplos dependem de ver o braço e a tela, a parte final é mais motivacional e há muita propaganda e remissão a cursos pagos."
+ },
+ "assuntos_principais": [
+  "ritmo e time feel na improvisação",
+  "visualização do braço (CAGED, três notas por corda, intervalar)",
+  "pentatônica menor e maior por intervalos",
+  "escolha de escala pela harmonia",
+  "limitação de posições",
+  "transcrição e licks",
+  "execução: dinâmica, bends, vibrato, ataque",
+  "tríades e notas de acorde",
+  "arpejos de sétima e cores",
+  "chord-scale e modos (dórico, eólio)",
+  "notas outside e cromatismo"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura com improviso de exemplo",
+   "inicio": "00:00",
+   "fim": "01:49",
+   "resumo": "Trecho de abertura com um improviso do próprio autor, sem explicação didática, e cumprimento inicial.",
+   "assuntos": [
+    "abertura"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Apresentação do roteiro e patrocínio",
+   "inicio": "01:49",
+   "fim": "03:25",
+   "resumo": "Anúncio de cursos com desconto, backing track gratuita e apresentação do roteiro de improvisação, que vale para qualquer nível.",
+   "assuntos": [
+    "propaganda",
+    "roteiro de improvisação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Importância do ritmo e do time feel",
+   "inicio": "03:25",
+   "fim": "05:34",
+   "resumo": "O autor afirma que ritmo vem antes de escalas e de melodia. Propõe cantar ou bater palmas ritmos sobre uma backing track e depois aplicá-los a uma única nota.",
+   "assuntos": [
+    "ritmo",
+    "time feel",
+    "subdivisões",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Improvisar ritmicamente com a pentatônica",
+   "inicio": "05:34",
+   "fim": "06:45",
+   "resumo": "Aplica as ideias rítmicas às notas de uma pentatônica, mostrando que uma escala simples pode soar muito musical quando o ritmo está bem controlado.",
+   "assuntos": [
+    "pentatônica",
+    "ritmo",
+    "subdivisões"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Visualização do braço",
+   "inicio": "06:45",
+   "fim": "11:48",
+   "resumo": "Defende que a visualização é o ponto central: o braço é visto em pedaços, não inteiro. Compara os métodos CAGED, três notas por corda e intervalar, e propõe localizar as raízes da pentatônica nas cinco caixas e em todo o braço.",
+   "assuntos": [
+    "visualização",
+    "caixas da pentatônica",
+    "CAGED",
+    "três notas por corda",
+    "intervalar",
+    "notas no braço",
+    "ciclo de quartas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Pentatônica menor por intervalos ('Boomer scales')",
+   "inicio": "11:48",
+   "fim": "16:15",
+   "resumo": "Desmistifica a pentatônica como escala 'de boomer'. Explica a pentatônica menor pelos intervalos (1 ♭3 4 5 ♭7) e propõe mapear as notas a partir da raiz, com treino auditivo.",
+   "assuntos": [
+    "pentatônica menor",
+    "intervalos",
+    "tríade menor",
+    "treino auditivo",
+    "mapeamento de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Pentatônica maior como relativa",
+   "inicio": "16:15",
+   "fim": "17:22",
+   "resumo": "Mostra que a pentatônica menor de E e a maior de G têm as mesmas notas e que, com G como nova raiz, os intervalos são 1 2 3 5 6.",
+   "assuntos": [
+    "pentatônica maior",
+    "relativa menor-maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Como escolher a escala sobre os acordes",
+   "inicio": "17:22",
+   "fim": "19:00",
+   "resumo": "Analisa a progressão de uma backing track (Em7, D/F#, G) e conclui que ela vem da tonalidade de G maior ou de Em, sugerindo tocar em uma pequena área do braço.",
+   "assuntos": [
+    "harmonia funcional",
+    "campo harmônico",
+    "escolha de escala",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Exercícios de limitação",
+   "inicio": "19:00",
+   "fim": "20:52",
+   "resumo": "Propõe improvisar dentro de cada uma das cinco posições da pentatônica, usando a limitação como ferramenta de criatividade, e demonstra sobre a backing track.",
+   "assuntos": [
+    "limitação",
+    "posições da pentatônica",
+    "criatividade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Transcrição e licks",
+   "inicio": "20:52",
+   "fim": "22:44",
+   "resumo": "Defende transcrever e assimilar licks de outros guitarristas como linguagem, antes de adaptá-los. Sugere trabalhar uma ideia curta em várias tonalidades e posições.",
+   "assuntos": [
+    "transcrição",
+    "licks",
+    "linguagem musical",
+    "adaptação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Execução e expressão",
+   "inicio": "22:44",
+   "fim": "25:55",
+   "resumo": "Mostra como dinâmica, bends, slides, vibrato e ataque de palheta mudam uma mesma frase pentatônica, e fala de voz própria e da necessidade de estudo de longo prazo, sem atalhos.",
+   "assuntos": [
+    "dinâmica",
+    "bend",
+    "vibrato",
+    "slide",
+    "ataque de palheta",
+    "voz própria"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Tríades e notas de acorde",
+   "inicio": "25:55",
+   "fim": "29:19",
+   "resumo": "Explica que tríades são mais importantes que escalas nesse estágio, porque contêm as notas do acorde. Mostra como achar as tríades de Em e G dentro da caixa da pentatônica e improvisar só com elas.",
+   "assuntos": [
+    "tríades",
+    "notas de acorde",
+    "visualização de tríades"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Tríades da escala harmonizada",
+   "inicio": "29:19",
+   "fim": "31:18",
+   "resumo": "Harmoniza a escala de G maior em tríades e mostra como cada tríade dá uma cor diferente, por exemplo a tríade de D sobre G e sobre Em. Cita 'triad pairs' como conceito a ser aprofundado em outro material.",
+   "assuntos": [
+    "escala harmonizada",
+    "tríades",
+    "extensões",
+    "cores",
+    "triad pairs"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Arpejos de sétima",
+   "inicio": "31:18",
+   "fim": "34:24",
+   "resumo": "Empilha terças sobre a escala de G maior para obter acordes de sétima e mostra como sobrepor arpejos de sétima para obter extensões, como um Em11 implícito.",
+   "assuntos": [
+    "arpejos de sétima",
+    "campo harmônico",
+    "superposição",
+    "extensões"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Escalas e chord-scale",
+   "inicio": "34:24",
+   "fim": "38:53",
+   "resumo": "Explica quando pensar em um modo fixo (vamp de um acorde) e quando pensar em escala por acorde (trocas rápidas), com a construção de escalas a partir da pentatônica. Mostra as notas a evitar na G maior sobre Em, como o C (♭6 em Em).",
+   "assuntos": [
+    "chord-scale",
+    "modal",
+    "vamp",
+    "pentatonic plus",
+    "notas a evitar",
+    "notas-alvo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Escala menor natural em uma região do braço",
+   "inicio": "38:53",
+   "fim": "39:59",
+   "resumo": "Exemplo de limitação com a escala menor natural em uma área do braço, evitando o ♭6 e buscando a nona (F#) como nota de destaque.",
+   "assuntos": [
+    "escala menor natural",
+    "limitação",
+    "nona"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S17",
+   "titulo": "Implicar outros modos (dórico)",
+   "inicio": "39:59",
+   "fim": "41:38",
+   "resumo": "Usa o dórico de E (com C# como 6ª maior) sobre a mesma progressão para criar outra cor, que soa como G lídio sobre o acorde de G.",
+   "assuntos": [
+    "dórico",
+    "implicar modos",
+    "cores modais"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S18",
+   "titulo": "Próximos passos e notas outside",
+   "inicio": "41:38",
+   "fim": "45:31",
+   "resumo": "Lista caminhos avançados (cromatismo, menor melódica, dominante secundária, diminutos), reforça que o aprendizado é longo e fala de técnica como ferramenta. Fecha com um exemplo de sons outside que mistura arpejos, tríades e cromatismo.",
+   "assuntos": [
+    "cromatismo",
+    "menor melódica",
+    "dominante secundária",
+    "diminuto",
+    "outside",
+    "técnica",
+    "jornada de longo prazo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S19",
+   "titulo": "Encerramento e propaganda final",
+   "inicio": "45:31",
+   "fim": "46:34",
+   "resumo": "Despedida, reforço de promoção de cursos com desconto e convite para acessar a backing track gratuita.",
+   "assuntos": [
+    "despedida",
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Ritmo antes de notas",
+   "descricao": "Para o autor, ritmo e subdivisões valem mais do que o valor melódico. Sem time feel sólido, a frase soa amadora, por mais escalas ou substituições que o músico conheça.",
+   "passos": [],
+   "timestamp": "03:20",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "time-feel"
+   ],
+   "id_global": "tRi4vMs2z8M#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Cantar ou bater ritmos sobre a backing track",
+   "descricao": "Trabalhar o ritmo sem pensar em notas, apenas com voz ou palmas sobre um pulso constante.",
+   "passos": [
+    "Tocar uma backing track e sentir o pulso",
+    "Cantar ou bater palmas em subdivisões (por exemplo, semicolcheias) sobre o pulso",
+    "Variar a posição e a densidade dos ritmos, mantendo o pulso estável"
+   ],
+   "timestamp": "03:53",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "subdivisão",
+    "backing track"
+   ],
+   "id_global": "tRi4vMs2z8M#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Aplicar ritmos a uma única nota",
+   "descricao": "Levar os ritmos cantados para o braço usando apenas uma nota, por exemplo a B na casa 12 da corda B. Serve para treinar o controle rítmico antes de adicionar notas.",
+   "passos": [
+    "Escolher uma nota, por exemplo a B na casa 12 da corda B",
+    "Tocar os ritmos cantados nessa nota, sobre a backing track",
+    "Mantendo o controle rítmico, passar a usar mais notas"
+   ],
+   "timestamp": "05:08",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "uma-nota",
+    "time-feel"
+   ],
+   "id_global": "tRi4vMs2z8M#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Ritmo aplicado à pentatônica",
+   "descricao": "Com o time feel firme e controle das subdivisões, improvisar ritmicamente com as notas da pentatônica já soa musical, mesmo sendo uma escala simples.",
+   "passos": [],
+   "timestamp": "05:54",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "ritmo",
+    "subdivisões"
+   ],
+   "id_global": "tRi4vMs2z8M#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Ver o braço em pedaços",
+   "descricao": "Não se enxerga o braço inteiro de uma vez. A visualização funciona por blocos pequenos de informação e pela relação entre as notas dentro de cada bloco, passando de um bloco para outro depois de internalizado.",
+   "passos": [],
+   "timestamp": "07:34",
+   "nivel": "iniciante",
+   "tags": [
+    "visualização",
+    "braço",
+    "blocos"
+   ],
+   "id_global": "tRi4vMs2z8M#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Três métodos de visualização",
+   "descricao": "Existem três abordagens: CAGED, três notas por corda e intervalar. O autor considera a intervalar a melhor, porque dá sentido musical às notas, ao contrário de só decorar caixas.",
+   "passos": [],
+   "timestamp": "08:08",
+   "nivel": "iniciante",
+   "tags": [
+    "caged",
+    "três-notas-por-corda",
+    "intervalar",
+    "visualização"
+   ],
+   "id_global": "tRi4vMs2z8M#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Preso em shapes sem música",
+   "descricao": "Subir e descer escalas por caixas sem pensar nas notas e nos intervalos produz um som sem musicalidade e cria sensação de estar preso em formas.",
+   "passos": [],
+   "timestamp": "08:40",
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "caixas",
+    "musicalidade"
+   ],
+   "id_global": "tRi4vMs2z8M#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Achar a raiz em todas as caixas da pentatônica menor",
+   "descricao": "Sobre a pentatônica de Em (raiz E), localizar cada nota E em cada uma das cinco caixas. As caixas 1 e 5 têm três notas E, e as caixas 2, 3 e 4 têm duas cada. Serve para aprender os nomes das notas no braço.",
+   "passos": [
+    "Tocar a pentatônica menor de E na caixa 1 e marcar as três notas E",
+    "Repetir para as caixas 2, 3 e 4, marcando as duas notas E de cada uma",
+    "Fazer o mesmo na caixa 5, com três notas E",
+    "Repetir com outras tonalidades"
+   ],
+   "timestamp": "09:14",
+   "nivel": "iniciante",
+   "tags": [
+    "notas",
+    "raiz",
+    "pentatônica",
+    "caixas"
+   ],
+   "id_global": "tRi4vMs2z8M#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Percorrer todas as tonalidades pelo ciclo de quartas",
+   "descricao": "Repetir o exercício de localizar a raiz nas caixas em todas as tonalidades, avançando pelo ciclo de quartas, para fixar a posição das notas no braço.",
+   "passos": [
+    "Começar pela tonalidade de E menor",
+    "Avançar pelo ciclo de quartas para a próxima tonalidade",
+    "Localizar a raiz em cada caixa da pentatônica correspondente",
+    "Repetir até todas as tonalidades estarem mapeadas"
+   ],
+   "timestamp": "10:25",
+   "nivel": "iniciante",
+   "tags": [
+    "ciclo-de-quartas",
+    "notas",
+    "tonalidades"
+   ],
+   "id_global": "tRi4vMs2z8M#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Localizar raízes nas cordas agudas",
+   "descricao": "Guitarristas costumam decorar as notas das cordas E e A por causa dos acordes de power chord e de voicings. O autor sugere aprender também as raízes nas cordas D, G, B e E agudas.",
+   "passos": [],
+   "timestamp": "11:00",
+   "nivel": "iniciante",
+   "tags": [
+    "notas",
+    "cordas",
+    "raiz"
+   ],
+   "id_global": "tRi4vMs2z8M#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Mesma caixa com dedos diferentes",
+   "descricao": "Para não ficar preso a uma forma, tocar a mesma caixa começando com outro dedo (por exemplo, o indicador ou o médio), o que obriga a mudar a posição de partida e cria novos caminhos.",
+   "passos": [
+    "Tocar a caixa 1 começando com o dedo indicador",
+    "Repetir começando com o dedo médio",
+    "Repetir começando com o dedo anelar",
+    "Improvisar sobre a backing track com cada variação"
+   ],
+   "timestamp": "11:00",
+   "nivel": "intermediario",
+   "tags": [
+    "dedilhado",
+    "caixas",
+    "limitação"
+   ],
+   "id_global": "tRi4vMs2z8M#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor por intervalos",
+   "descricao": "Na pentatônica de E menor (E G A B D), os intervalos a partir da tônica E são 1, ♭3, 4, 5 e ♭7. A escala tem cinco notas, e cada uma pode ser pensada pelo seu papel em relação à raiz.",
+   "passos": [],
+   "timestamp": "13:19",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "intervalos",
+    "notas-de-acorde"
+   ],
+   "id_global": "tRi4vMs2z8M#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Fazer muito com pouco",
+   "descricao": "Quem não consegue improvisar com as cinco notas da pentatônica dificilmente vai improvisar bem com sete notas. Dominar a pentatônica antes de avançar é a base.",
+   "passos": [],
+   "timestamp": "13:53",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "pentatônica",
+    "progressão"
+   ],
+   "id_global": "tRi4vMs2z8M#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Mapear cada nota como intervalo da raiz",
+   "descricao": "Sobre a pentatônica, identificar cada nota pelo intervalo que forma com a raiz. Depois, repetir invertendo a referência, considerando a raiz logo abaixo da nota, para ver as duas direções no braço.",
+   "passos": [
+    "Escolher a raiz na caixa de pentatônica menor (por exemplo, E)",
+    "Identificar na caixa as notas 3ª, 4ª, 5ª, ♭7 e a oitava a partir da raiz",
+    "Refazer o mapeamento considerando a raiz uma posição abaixo",
+    "Ver como cada intervalo aparece nas duas direções"
+   ],
+   "timestamp": "14:27",
+   "nivel": "intermediario",
+   "tags": [
+    "intervalos",
+    "mapeamento",
+    "raiz"
+   ],
+   "id_global": "tRi4vMs2z8M#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Treino auditivo de intervalos com Toned Ear",
+   "descricao": "O autor recomenda o site gratuito Toned Ear para treinar intervalos todos os dias, como um exercício de musculação para o ouvido.",
+   "passos": [],
+   "timestamp": "15:02",
+   "nivel": "iniciante",
+   "tags": [
+    "treino-auditivo",
+    "intervalos",
+    "ouvido"
+   ],
+   "id_global": "tRi4vMs2z8M#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior como relativa da menor",
+   "descricao": "As pentatônicas de E menor e de G maior têm as mesmas notas. Pensando G como nova raiz, a pentatônica maior tem intervalos 1 2 3 5 6 (G A B D E), e as mesmas notas passam a ter outra função.",
+   "passos": [],
+   "timestamp": "16:09",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica-maior",
+    "relativa",
+    "intervalos"
+   ],
+   "id_global": "tRi4vMs2z8M#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Escolher a escala pela harmonia da faixa",
+   "descricao": "Analisar os acordes da backing track (Em7, depois D/F#, depois G) para descobrir a tonalidade. Como todos os acordes pertencem ao campo harmônico de G maior ou de Em, a pentatônica de Em ou de G funciona.",
+   "passos": [],
+   "timestamp": "17:17",
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "campo-harmônico",
+    "escolha-de-escala"
+   ],
+   "id_global": "tRi4vMs2z8M#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Começar em uma área pequena do braço",
+   "descricao": "Em vez de espalhar a escala pelo braço todo, começar em uma pequena região e só depois expandir. Nesse caso a limitação é aliada do aprendizado.",
+   "passos": [],
+   "timestamp": "18:24",
+   "nivel": "iniciante",
+   "tags": [
+    "limitação",
+    "braço",
+    "aprendizado"
+   ],
+   "id_global": "tRi4vMs2z8M#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Improvisar dentro de cada posição",
+   "descricao": "Sobre a backing track em Em e G, tocar música usando apenas uma das cinco posições da pentatônica de cada vez. A limitação força a explorar frases, ritmo e intervalos dentro da área escolhida.",
+   "passos": [
+    "Iniciar a backing track em Em e G",
+    "Escolher uma das cinco posições da pentatônica",
+    "Improvisar só dentro dessa posição, pensando em ritmo e intervalos",
+    "Passar para a próxima posição e repetir"
+   ],
+   "timestamp": "19:00",
+   "nivel": "intermediario",
+   "tags": [
+    "limitação",
+    "posições",
+    "improvisação"
+   ],
+   "id_global": "tRi4vMs2z8M#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Improvisar ritmicamente quando faltam ideias",
+   "descricao": "Quando não há ideias melódicas, improvisar pensando só no ritmo dentro da escala. Depois, pensar nas notas de acorde que vão surgindo, conforme os acordes mudam.",
+   "passos": [],
+   "timestamp": "19:42",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "limitação",
+    "notas-de-acorde"
+   ],
+   "id_global": "tRi4vMs2z8M#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "rotina_estudo",
+   "titulo": "Transcrever e trabalhar um lick",
+   "descricao": "Transcrever licks de outros guitarristas e assimilá-los como linguagem. Trabalhar um lick curto por um dia, aplicando-o a diferentes acordes, tonalidades e posições do braço, antes de adaptá-lo ao próprio estilo.",
+   "passos": [
+    "Escolher um lick curto de um guitarrista que você admira",
+    "Transcrevê-lo ou tirá-lo de ouvido",
+    "Tocar o lick sobre diferentes acordes e tonalidades ao longo do dia",
+    "Repetir o lick em outras posições do braço",
+    "Só depois adaptá-lo ao próprio vocabulário"
+   ],
+   "timestamp": "20:50",
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição",
+    "licks",
+    "linguagem"
+   ],
+   "id_global": "tRi4vMs2z8M#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Execução como diferencial",
+   "descricao": "Dinâmica, vibrato, bends, ataque de palheta e volume são o que separa um intermediário de alguém que soa profissional, mesmo que a frase tenha poucas notas.",
+   "passos": [],
+   "timestamp": "22:32",
+   "nivel": "intermediario",
+   "tags": [
+    "execução",
+    "dinâmica",
+    "vibrato",
+    "bend",
+    "ataque"
+   ],
+   "id_global": "tRi4vMs2z8M#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Variar uma frase pentatônica pela execução",
+   "descricao": "Tocar uma frase pentatônica simples e alterar apenas a execução: dinâmica, ritmo, bends, slides, vibrato e ataque. A mesma frase passa a soar diferente, o que mostra o peso da expressão.",
+   "passos": [
+    "Tocar uma frase pentatônica curta sem expressão",
+    "Mudar a dinâmica (mais suave ou mais forte em certas notas)",
+    "Adicionar bends e slides",
+    "Acrescentar vibrato e variar o ataque da palheta",
+    "Comparar as versões e escolher a mais expressiva"
+   ],
+   "timestamp": "24:13",
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "dinâmica",
+    "bend",
+    "slide",
+    "vibrato"
+   ],
+   "id_global": "tRi4vMs2z8M#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Voz própria e sem atalhos",
+   "descricao": "O som pessoal se constrói com detalhes de execução e com anos de trabalho. Não existe atalho nem edição que substitua isso.",
+   "passos": [],
+   "timestamp": "25:23",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "voz-própria",
+    "longo-prazo"
+   ],
+   "id_global": "tRi4vMs2z8M#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Tríades contêm as notas do acorde",
+   "descricao": "Como as tríades têm as notas que definem o acorde, elas são, nessa etapa, mais importantes do que escalas completas. Tocar uma nota de tríade sobre o acorde correspondente tende a soar bem.",
+   "passos": [],
+   "timestamp": "25:56",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "notas-de-acorde"
+   ],
+   "id_global": "tRi4vMs2z8M#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S12",
+   "tipo": "exercicio",
+   "titulo": "Encontrar tríades dentro da caixa da pentatônica",
+   "descricao": "Sobre a caixa da pentatônica, localizar as tríades de Em e de G, que já estão dentro dela, e improvisar com fragmentos de quatro notas dessas tríades sobre os acordes correspondentes.",
+   "passos": [
+    "Na caixa 1 de Em, localizar a tríade de Em (E G B)",
+    "Localizar a tríade de G maior (G B D) na mesma região",
+    "Improvisar sobre Em usando só notas da tríade de Em",
+    "Improvisar sobre G usando só notas da tríade de G",
+    "Depois, expandir o exercício para as outras posições"
+   ],
+   "timestamp": "26:31",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "caixa",
+    "notas-de-acorde"
+   ],
+   "id_global": "tRi4vMs2z8M#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Tríades da escala harmonizada geram cores diferentes",
+   "descricao": "Harmonizando a escala de G maior em tríades (G, Am, Bm, C, D, Em, F#dim), cada tríade dá uma cor diferente. Por exemplo, a tríade de D sobre G gera 5ª, 7ª maior e 9ª; a mesma tríade sobre Em gera ♭7, 9 e 11.",
+   "passos": [],
+   "timestamp": "29:54",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "escala-harmonizada",
+    "extensões",
+    "cores"
+   ],
+   "id_global": "tRi4vMs2z8M#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S14",
+   "tipo": "conceito",
+   "titulo": "Arpejos de sétima como fonte de cores",
+   "descricao": "Empilhando terças sobre a escala de G maior, obtêm-se acordes de sétima (Gmaj7, Am7, Bm7, Cmaj7, D7, Em7, F#m7♭5). Cada um sugere cores diferentes sobre o acorde de base.",
+   "passos": [],
+   "timestamp": "31:18",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-de-sétima",
+    "campo-harmônico",
+    "cores"
+   ],
+   "id_global": "tRi4vMs2z8M#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S14",
+   "tipo": "exercicio",
+   "titulo": "Superpor arpejo de Bm7 sobre Em",
+   "descricao": "Tocar o arpejo de Bm7 (B D F# A) sobre o acorde de Em. Pela relação com a raiz E, as notas são 5ª, ♭7, 9 e 11, soando como um Em11 implícito sem precisar aprender esse acorde.",
+   "passos": [
+    "Com a raiz E como referência, identificar B, D, F# e A como 5ª, ♭7, 9 e 11",
+    "Tocar o arpejo de Bm7 sobre o acorde de Em",
+    "Usar fragmentos desse arpejo dentro de frases"
+   ],
+   "timestamp": "33:11",
+   "nivel": "avancado",
+   "tags": [
+    "superposição",
+    "arpejo-de-sétima",
+    "extensões",
+    "em11"
+   ],
+   "id_global": "tRi4vMs2z8M#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Acorde primeiro, escala depois",
+   "descricao": "Em trocas de acordes frequentes, o foco deve estar nas notas de acorde, e a escala entra como 'enchimento' entre elas. Em um vamp de um só acorde, a escala ganha destaque.",
+   "passos": [],
+   "timestamp": "34:53",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-de-acorde",
+    "chord-scale",
+    "vamp"
+   ],
+   "id_global": "tRi4vMs2z8M#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "Modal em vamp e escala por acorde em trocas",
+   "descricao": "Em um vamp de um acorde, pensar em um modo único. Em trocas rápidas (como quando há um acorde não diatônico), pensar em uma escala para cada acorde, tratando cada acorde como uma ilha.",
+   "passos": [],
+   "timestamp": "34:53",
+   "nivel": "intermediario",
+   "tags": [
+    "modal",
+    "vamp",
+    "chord-scale"
+   ],
+   "id_global": "tRi4vMs2z8M#I31"
+  },
+  {
+   "id": "I32",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "Construir escalas a partir da pentatônica",
+   "descricao": "Para um acorde de m7, pensar primeiro no dórico e construí-lo a partir da pentatônica: acrescentar vocabulário até chegar a hexatônicas e escalas completas. Esse caminho evita soar como uma máquina de escalas de três notas por corda.",
+   "passos": [
+    "Começar com a pentatônica do acorde",
+    "Acrescentar uma nota por vez, formando uma hexatônica",
+    "Chegar à escala completa (por exemplo, dórica)",
+    "Improvisar em cada etapa antes de avançar"
+   ],
+   "timestamp": "35:27",
+   "nivel": "intermediario",
+   "tags": [
+    "chord-scale",
+    "dórico",
+    "pentatonic-plus",
+    "hexatônica"
+   ],
+   "id_global": "tRi4vMs2z8M#I32"
+  },
+  {
+   "id": "I33",
+   "segmento": "S15",
+   "tipo": "erro_comum",
+   "titulo": "Notas a evitar na escala de G maior sobre Em",
+   "descricao": "Na escala de G maior sobre Em, a nota C é ♭6 em relação à tônica E, e sobre G maior é a 4ª (11ª). Por isso soa mal como nota forte; funciona apenas como nota de passagem.",
+   "passos": [],
+   "timestamp": "36:35",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-a-evitar",
+    "♭6",
+    "passagem"
+   ],
+   "id_global": "tRi4vMs2z8M#I33"
+  },
+  {
+   "id": "I34",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "F# como nota-alvo",
+   "descricao": "A nota F# é a 9ª de Em e a 7ª maior de G. Usá-la como nota de destaque sobre esses acordes acrescenta sofisticação à linha.",
+   "passos": [],
+   "timestamp": "38:17",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "F#",
+    "nona",
+    "sétima-maior"
+   ],
+   "id_global": "tRi4vMs2z8M#I34"
+  },
+  {
+   "id": "I35",
+   "segmento": "S16",
+   "tipo": "exercicio",
+   "titulo": "Limitar a escala menor natural a uma região",
+   "descricao": "Tocar a escala menor natural de E em uma região do braço, evitando o ♭6 (C) na maior parte do tempo e buscando pousar na 9ª (F#). A limitação gera ideias musicais mesmo com poucas notas.",
+   "passos": [
+    "Escolher uma região pequena do braço com a escala menor natural de E",
+    "Evitar o C (♭6) na maior parte da frase",
+    "Buscar pousar na nona (F#)",
+    "Improvisar sobre a backing track dentro dessa região"
+   ],
+   "timestamp": "38:50",
+   "nivel": "intermediario",
+   "tags": [
+    "limitação",
+    "eólio",
+    "nona"
+   ],
+   "id_global": "tRi4vMs2z8M#I35"
+  },
+  {
+   "id": "I36",
+   "segmento": "S17",
+   "tipo": "conceito",
+   "titulo": "Implicar o dórico sobre a mesma progressão",
+   "descricao": "Usar o dórico de E (E F# G A B C# D) sobre Em7, F#m7 e G cria uma cor diferente, por causa da 6ª maior (C#). Sobre G, C# é a #11 e a sonoridade lembra G lídio.",
+   "passos": [],
+   "timestamp": "41:02",
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "implicar-escala",
+    "modos",
+    "6ª-maior"
+   ],
+   "id_global": "tRi4vMs2z8M#I36"
+  },
+  {
+   "id": "I37",
+   "segmento": "S18",
+   "tipo": "dica",
+   "titulo": "Caminhos avançados após a base",
+   "descricao": "Após dominar a base, o autor sugere explorar cromatismo, menor melódica, dominante secundária (por exemplo, B7 sobre Em) e diminutos para obter sons outside.",
+   "passos": [],
+   "timestamp": "42:11",
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "menor-melódica",
+    "dominante-secundária",
+    "diminuto"
+   ],
+   "id_global": "tRi4vMs2z8M#I37"
+  },
+  {
+   "id": "I38",
+   "segmento": "S18",
+   "tipo": "mentalidade",
+   "titulo": "Jornada de anos, sem conclusão",
+   "descricao": "Pode levar cinco anos ou mais para sentir-se confortável com uma sonoridade de escala em todo o braço e em todas as tonalidades. Improvisar não termina; é uma jornada de longo prazo.",
+   "passos": [],
+   "timestamp": "42:43",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "longo-prazo"
+   ],
+   "id_global": "tRi4vMs2z8M#I38"
+  },
+  {
+   "id": "I39",
+   "segmento": "S18",
+   "tipo": "mentalidade",
+   "titulo": "Técnica como ferramenta",
+   "descricao": "Técnica é um conjunto de ferramentas. Mais facilidade de execução permite tocar linhas mais complexas e executá-las melhor. Não é necessário ignorá-la.",
+   "passos": [],
+   "timestamp": "42:43",
+   "nivel": "intermediario",
+   "tags": [
+    "técnica",
+    "mentalidade",
+    "facilidade"
+   ],
+   "id_global": "tRi4vMs2z8M#I39"
+  },
+  {
+   "id": "I40",
+   "segmento": "S18",
+   "tipo": "dica",
+   "titulo": "Fundir arpejos, tríades e cromatismo para obter sons outside",
+   "descricao": "Combinar arpejos, tríades, cromatismo e escalas em uma só linha gera sons outside que ainda se conectam à harmonia. O exemplo final ilustra a ideia, mas sem explicar cada nota.",
+   "passos": [],
+   "timestamp": "44:41",
+   "nivel": "avancado",
+   "tags": [
+    "outside",
+    "cromatismo",
+    "arpejo",
+    "tríade"
+   ],
+   "id_global": "tRi4vMs2z8M#I40"
+  }
+ ],
+ "artistas_citados": [
+  "Andy Timmons",
+  "Matteo Mancuso",
+  "Frank Gambale",
+  "Allan Holdsworth"
+ ],
+ "musicas_citadas": [
+  "Electric Gypsy"
+ ],
+ "recursos_citados": [
+  "Backing track gratuita no site do autor (jackgardiner.com)",
+  "Improv Roadmap Part One (curso)",
+  "Improv Roadmap Part Two (curso)",
+  "Fretboard Visualization (curso)",
+  "Reharmonization Complete Guide (curso)",
+  "Toned Ear (site/app gratuito de treino auditivo)",
+  "Lessons & Courses Bundle (18 horas de aulas)",
+  "Modern Fusion Improv Vol III: Technique and Phrasing (masterclass da JTC)",
+  "25 Killer Lydian Rock Fusion Licks (pacote de licks)",
+  "Pacote de licks eólios e dóricos citado no vídeo",
+  "Vídeo gratuito do próprio canal sobre visualização de tríades"
+ ],
+ "observacoes": "Legenda automática com muitos erros: 'dionic' = diatônica, 'pensonic'/'penta' = pentatônica, 'aolian' = eólio, 'Andy Tim song' = Andy Timmons, 'Mato manuso' = Matteo Mancuso, 'Frank garley' = Frank Gambale, 'Alan Holdsworth' = Allan Holdsworth, 'toned ear' = Toned Ear, 'fro visualization' = fretboard visualization, 'improv road map' = Improv Roadmap. Em 'F diminished' a tríade correta é F# diminuta, e em 'F minor 7 flat 5' o correto é F#m7♭5; ambos foram corrigidos. Trechos sem fala (00:00-01:39, 44:41-45:34 e trechos de exemplos tocados) não têm conteúdo transcrito. Muitos exemplos dependem de ver o braço, as caixas numeradas e a tela, como as contagens de raízes e as posições. O conceito 'triad pairs' é citado como central, mas não é explicado no vídeo; a frase sobre sétimas em G (9ª e 7ª maior) está confusa na transcrição. O bloco de 'Boomer scales' e a menção à 'técnica' e a 'lick packages' estão em trechos curtos, com cronologia imprecisa nas marcas do vídeo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00631,
+  "via": "api"
+ }
+}

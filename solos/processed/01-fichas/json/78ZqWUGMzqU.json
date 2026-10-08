@@ -1,0 +1,328 @@
+{
+ "fonte_id": "78ZqWUGMzqU",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How to Improvise Solos on Guitar THE HARD WAY",
+  "autor": "Brandon D'Eon",
+  "url": "https://www.youtube.com/watch?v=78ZqWUGMzqU",
+  "idioma": "en",
+  "duracao": "7m 15s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/78ZqWUGMzqU--how-to-improvise-solos-on-guitar-the-hard-way.md"
+ },
+ "resumo": "Brandon D'Eon defende que, para improvisar melhor, o atalho da pentatônica menor não basta. É preciso aprender os modos da escala maior (sete modos, cinco shapes) tão bem quanto se conhece a pentatônica. Ele mostra os modos em Sol maior e explica que todos usam as mesmas notas, mudando só a nota de partida. Para memorizar, propõe tocar cada shape cerca de mil vezes, de formas variadas e em todos os tons. Sugere também restrições (poucas cordas, um modo só) sobre backing tracks. É voltado a guitarristas intermediários presos nos mesmos licks de pentatônica. O final é propaganda do programa 52 Week Guitar Player.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A mensagem sobre o que estudar é clara e motivadora: modos, 5 shapes, mil repetições, todos os tons e restrições. Falta detalhe concreto, porque os shapes aparecem só no instrumento, sem digitação falada. Boa parte do vídeo é discurso motivacional e propaganda."
+ },
+ "assuntos_principais": [
+  "modos da escala maior",
+  "shapes de escala",
+  "memorização do braço",
+  "pentatônica menor",
+  "restrições na prática",
+  "backing track",
+  "mentalidade de estudo"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Mentalidade: contra os atalhos rápidos",
+   "inicio": "00:00",
+   "fim": "01:27",
+   "resumo": "Critica vídeos de solução rápida e defende estudar improvisação com profundidade, já que se toca guitarra a vida toda.",
+   "assuntos": [
+    "mentalidade",
+    "atalhos",
+    "progresso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Novo objetivo e quais escalas aprender",
+   "inicio": "01:27",
+   "fim": "02:34",
+   "resumo": "O objetivo é conhecer outras escalas tão bem quanto a pentatônica menor. A resposta é aprender os modos da escala maior: sete modos, cinco shapes.",
+   "assuntos": [
+    "objetivo",
+    "modos",
+    "pentatônica menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Modos da escala maior em Sol",
+   "inicio": "02:34",
+   "fim": "03:36",
+   "resumo": "Demonstra os sete modos em Sol maior. Todos têm as mesmas notas e só muda a nota inicial (ex.: A dórico tem as notas de B frígio).",
+   "assuntos": [
+    "modos",
+    "Sol maior",
+    "modos relativos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Como memorizar os shapes",
+   "inicio": "03:36",
+   "fim": "05:23",
+   "resumo": "Tocar cada shape mil vezes, de formas variadas (improvisando, em intervalos diferentes), para enxergá-lo tão bem quanto a pentatônica.",
+   "assuntos": [
+    "memorização",
+    "repetição",
+    "intervalos",
+    "variações de prática"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Restrições na prática",
+   "inicio": "05:23",
+   "fim": "06:03",
+   "resumo": "Impor limites ao improvisar sobre backing track, como usar só três cordas e um único modo.",
+   "assuntos": [
+    "restrições",
+    "backing track",
+    "modos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Esforço, todos os tons e conclusão",
+   "inicio": "06:03",
+   "fim": "06:38",
+   "resumo": "Mil repetições não é tanto; é preciso praticar em todos os tons. Solos sem inspiração vêm de não fazer esse trabalho.",
+   "assuntos": [
+    "esforço",
+    "todos os tons",
+    "mentalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Propaganda do 52 Week Guitar Player",
+   "inicio": "06:38",
+   "fim": "07:15",
+   "resumo": "Divulgação do programa do autor e da lista de espera.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Evite atalhos de seis notas",
+   "descricao": "Vídeos de solução rápida com um padrão simples de pentatônica dão vitórias imediatas. Segundo o autor, eles são a razão de o guitarrista ficar estagnado e repetir as mesmas frases nos solos. Para evoluir é preciso ir além e estudar com profundidade.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "atalhos",
+    "estagnação"
+   ],
+   "id_global": "78ZqWUGMzqU#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Guitarra é para a vida toda",
+   "descricao": "Como se toca guitarra pela vida inteira, vale investir tempo em aprender a improvisar direito. Isso é melhor do que depender de vídeos que prometem mudar seu jogo com seis notas.",
+   "passos": [],
+   "timestamp": "00:31",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "longo prazo",
+    "estudo"
+   ],
+   "id_global": "78ZqWUGMzqU#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Domine outros shapes como domina a pentatônica menor",
+   "descricao": "Muita gente visualiza a pentatônica menor no braço sem pensar. Para solar melhor, o autor diz que é preciso conhecer outras escalas com a mesma fluência. O objetivo é aprender outros shapes de escala tão bem quanto a pentatônica menor.",
+   "passos": [],
+   "timestamp": "01:27",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "shapes",
+    "objetivo",
+    "visualização"
+   ],
+   "id_global": "78ZqWUGMzqU#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Aprenda os modos da escala maior: 7 modos, 5 shapes",
+   "descricao": "A escala a aprender é a dos modos da escala maior. São sete modos, mas só cinco shapes no braço. Dominando esses cinco shapes, dá para improvisar em qualquer região do braço.",
+   "passos": [],
+   "timestamp": "02:06",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "escala maior",
+    "shapes",
+    "braço"
+   ],
+   "id_global": "78ZqWUGMzqU#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Os modos de Sol maior usam as mesmas notas",
+   "descricao": "O autor demonstra os sete modos no tom de Sol, que fica bem distribuído no braço e é um tom popular. Todas as notas tocadas pertencem a Sol maior. Os modos não são escalas diferentes, e sim a mesma coleção de notas com ponto de partida distinto.",
+   "passos": [],
+   "timestamp": "02:34",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "Sol maior",
+    "escala maior"
+   ],
+   "id_global": "78ZqWUGMzqU#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Modos relativos compartilham o mesmo shape",
+   "descricao": "A dórico tem as mesmas notas que B frígio (ambos de Sol maior). A única diferença é a nota em que se começa, e o desenho no braço é idêntico. Por isso são sete modos, mas só cinco shapes.",
+   "passos": [],
+   "timestamp": "03:00",
+   "nivel": "intermediario",
+   "tags": [
+    "modos relativos",
+    "dórico",
+    "frígio",
+    "shapes"
+   ],
+   "id_global": "78ZqWUGMzqU#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "rotina_estudo",
+   "titulo": "Toque cada shape mil vezes",
+   "descricao": "Para memorizar os shapes tão bem quanto a pentatônica menor, o autor manda tocar cada shape cerca de mil vezes. Nesse período, pratique de várias maneiras: improvisando com o shape, tocando em intervalos diferentes e assim por diante.",
+   "passos": [
+    "Escolha um dos cinco shapes da escala maior.",
+    "Toque o shape até somar cerca de 1000 repetições.",
+    "Varie a forma: improvise com ele e toque em intervalos incomuns.",
+    "Repita com os outros shapes."
+   ],
+   "timestamp": "03:36",
+   "nivel": "intermediario",
+   "tags": [
+    "memorização",
+    "repetição",
+    "shapes",
+    "intervalos"
+   ],
+   "id_global": "78ZqWUGMzqU#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Improvise com restrições (cordas e modo)",
+   "descricao": "Uma prática útil é impor limites. Por exemplo, improvisar sobre um backing track usando apenas as cordas Ré, Sol e Si e ficando em um único modo (o autor cita o frígio). Isso força a explorar o shape em vez de recorrer a licks de sempre.",
+   "passos": [
+    "Ponha um backing track.",
+    "Limite-se às cordas D, G e B.",
+    "Escolha um modo, por exemplo frígio, e fique nele.",
+    "Improvise apenas com essas restrições."
+   ],
+   "timestamp": "05:23",
+   "nivel": "intermediario",
+   "tags": [
+    "restrições",
+    "backing track",
+    "cordas",
+    "frígio",
+    "improvisação"
+   ],
+   "id_global": "78ZqWUGMzqU#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Pratique em todos os tons",
+   "descricao": "Para improvisar em qualquer tom, os shapes precisam ser praticados em todos os tons. Não basta Sol maior, que serve só de exemplo.",
+   "passos": [],
+   "timestamp": "06:20",
+   "nivel": "intermediario",
+   "tags": [
+    "todos os tons",
+    "transposição",
+    "shapes"
+   ],
+   "id_global": "78ZqWUGMzqU#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Esforço é o que torna os solos inspirados",
+   "descricao": "Mil repetições por shape não é tanto assim. O autor diz que solos sem inspiração vêm de não ter feito esse trabalho. Em vez de se intimidar com tarefas que exigem esforço, é preciso ir lá e fazê-las.",
+   "passos": [],
+   "timestamp": "06:05",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "disciplina",
+    "esforço"
+   ],
+   "id_global": "78ZqWUGMzqU#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Curso 52 Week Guitar Player e backing tracks",
+   "descricao": "O autor divulga o 52 Week Guitar Player, programa criado em 2019 para guitarristas intermediários. Oferece um backing track profissional por semana, feedback em vídeo e um currículo ordenado. Há 100 vagas por abertura. A descrição também oferece um pacote de backing tracks por US$ 1.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "intermediario",
+   "tags": [
+    "curso",
+    "backing track",
+    "feedback"
+   ],
+   "id_global": "78ZqWUGMzqU#I11"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "52 Week Guitar Player (curso de Brandon D'Eon)",
+  "Track pack de backing tracks de Brandon D'Eon (US$ 1)"
+ ],
+ "observacoes": "A transcrição tem lacunas: quase nada entre 02:50 e 03:30 e entre 04:18 e 05:23, que provavelmente são demonstrações tocadas dos modos e dos shapes. Não há tablatura nem digitação falada, então os shapes só se veem no vídeo. A legenda traz \"B Fran\" e \"Fran mode\", que interpretei como B frígio e frígio (A dórico = B frígio em Sol maior); a identificação do modo da restrição é uma inferência. O trecho final é propaganda, e a linguagem é bastante agressiva.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:32",
+  "tentativas": 1,
+  "custo_usd": 0.2472
+ }
+}

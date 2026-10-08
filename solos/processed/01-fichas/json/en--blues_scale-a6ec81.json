@@ -1,0 +1,329 @@
+{
+ "fonte_id": "en--blues_scale-a6ec81",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Blues scale - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Blues_scale",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--blues_scale-a6ec81.md"
+ },
+ "resumo": "Artigo enciclopédico da Wikipedia sobre a escala blues. Define as variantes hexatônica (pentatônica menor + ♭5), heptatônica e nonatônica, comenta a origem pedagógica da escala (Aebersold, David Baker) e seu uso em blues e jazz. Serve como referência teórica para guitarristas que querem entender a base da escala blues. Não traz exercícios, digitações ou licks.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Boa referência conceitual e de definições, mas sem exercícios, digitações ou exemplos práticos de improvisação. O texto é enciclopédico e tem partes truncadas."
+ },
+ "assuntos_principais": [
+  "escala blues",
+  "blue notes",
+  "pentatônica menor",
+  "teoria da escala",
+  "improvisação em blues e jazz"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e definição",
+   "inicio": null,
+   "fim": null,
+   "resumo": "O termo escala blues designa várias escalas. Costuma ser formada acrescentando uma blue note fora da tonalidade a uma escala existente: a ♭5 à pentatônica menor, ou a 3ª menor à pentatônica maior. A versão heptatônica pode ser vista como uma escala maior com intervalos alterados.",
+   "assuntos": [
+    "definição",
+    "blue note"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Escala hexatônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Pentatônica menor mais a ♭5 (ou #4). Trata da origem pedagógica com Aebersold e David Baker, das blue notes microtonais e do uso de uma única escala sobre todo o blues de 12 compassos. Apresenta também as versões maior e menor segundo Greenblatt e o solfejo.",
+   "assuntos": [
+    "hexatônica",
+    "♭5",
+    "blues maior",
+    "blues menor",
+    "solfejo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Escalas heptatônica e nonatônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "A heptatônica é uma escala maior com 3ª, 5ª e 7ª abaixadas (dórico ♭5). A nonatônica alterna 3ª e 7ª normais e abaixadas. Cita o uso de quarter tones, que o guitarrista obtém com bends.",
+   "assuntos": [
+    "heptatônica",
+    "nonatônica",
+    "quarter tones",
+    "bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Uso em música e jazz",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista músicas em tom blues. Explica o uso da escala sobre um blues de 12 compassos a partir da fundamental do primeiro acorde dominante, e também sobre acordes menores. Descreve o som como funky, earthy e bluesy.",
+   "assuntos": [
+    "uso",
+    "12 compassos",
+    "jazz"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Referências e links",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Bibliografia, leituras adicionais e links externos.",
+   "assuntos": [
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Escala blues = escala existente + blue note",
+   "descricao": "A escala blues costuma ser formada acrescentando uma nota fora da tonalidade (blue note) a uma escala existente. A adição mais comum é a ♭5 à pentatônica menor. Também se pode acrescentar a 3ª menor a uma pentatônica maior.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "escala blues",
+    "blue note",
+    "pentatônica"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escala blues hexatônica menor",
+   "descricao": "A escala blues de seis notas é a pentatônica menor mais a ♭5, que também pode ser escrita como #4. Pela fórmula de Greenblatt, a menor é 1, ♭3, 4, ♭5, 5, ♭7. Em Lá menor seria A C D Eb E G.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "hexatônica",
+    "♭5",
+    "pentatônica menor",
+    "fórmula"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escala blues maior hexatônica",
+   "descricao": "Greenblatt define também uma escala blues maior com a fórmula 1, 2, ♭3, 3, 5, 6. É a pentatônica maior com a ♭3 adicionada como nota de passagem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues maior",
+    "pentatônica maior",
+    "♭3"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Uma única escala blues sobre todo o blues de 12 compassos",
+   "descricao": "No uso mais básico, uma só versão da escala blues serve para todos os acordes de um blues de 12 compassos. Na teoria do jazz contemporâneo, a escolha costuma se basear na tonalidade e não em cada acorde. Por exemplo, a escala blues de C serve para um blues em C.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blues de 12 compassos",
+    "escala única",
+    "tonalidade"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Blue notes são inflexões, não só notas fixas",
+   "descricao": "Blue notes são tocadas ou cantadas de forma microtonal, um pouco acima ou abaixo da altura padrão. Por isso alguns autores acham que a escala blues não se encaixa na definição tradicional de escala. A inflexão (bend, slide) faz parte do som, e não apenas a nota escrita.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blue note",
+    "microtonal",
+    "inflexão",
+    "expressão"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Origem pedagógica da escala blues",
+   "descricao": "A primeira publicação conhecida da escala hexatônica é o How to Play Jazz and Improvise, Vol. 1, de Jamey Aebersold (revisão de 1970). Segundo Jerry Coker, David Baker pode ter sido o primeiro educador a ensiná-la como escala para iniciantes evocarem o som do blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "história",
+    "Aebersold",
+    "David Baker"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escala blues heptatônica",
+   "descricao": "Uma concepção de sete notas é a escala maior com 3ª, 5ª e 7ª abaixadas. Equivale ao dórico ♭5, segundo modo da escala maior harmônica. Vem da combinação de escalas africanas com escalas diatônicas ocidentais.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "heptatônica",
+    "dórico ♭5",
+    "modos"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escala nonatônica: alternar 3ª e 7ª normais e abaixadas",
+   "descricao": "Benward e Saker definem uma escala de nove notas, uma variação cromática da maior. Ela tem 3ª e 7ª abaixadas (empréstimo do dórico) que alternam com as normais para criar a inflexão blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "nonatônica",
+    "3ª",
+    "7ª",
+    "dórico"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Quarter tones por bend na 3ª e na 7ª",
+   "descricao": "De modo informal, pode-se tocar a escala blues menor com quarter tones (quartos de tom) na 3ª e na 7ª. Em Lá, seria uma 3ª (C) e uma 7ª (G) um pouco elevadas. O D# também pode entrar como nota adicional. O guitarrista sobe uma nota um quarto de tom com um bend.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "quarter tone",
+    "bend",
+    "3ª",
+    "7ª",
+    "microtonal"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Escala blues sobre blues de 12 compassos e sobre acordes menores",
+   "descricao": "A escala blues pode ser tocada durante todo o blues de 12 compassos, construída a partir da fundamental do primeiro acorde dominante. Por exemplo, a escala blues de C sobre um blues em C. Também funciona para improvisar sobre acordes menores.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "blues de 12 compassos",
+    "acorde menor",
+    "jazz"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Caráter sonoro da escala blues",
+   "descricao": "Aebersold descreve o som da escala blues como funky, down-home, earthy ou bluesy. Muitas músicas de rock e blues usam o tom blues, como Jumpin' Jack Flash, Purple Haze, Higher Ground e After Midnight.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "timbre",
+    "caráter",
+    "repertório"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Leituras e links sugeridos",
+   "descricao": "O artigo lista: Jamey Aebersold, How to Play Jazz and Improvise Vol. 1; Jim Ferguson, All Blues Scale for Jazz Guitar; Dan Greenblatt, The Blues Scales; Michael Hewitt, Musical Scales of the World. Links externos: diagramas da escala blues em todas as posições da guitarra e o site Slowhand Blues Guitar.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "livros",
+    "diagramas",
+    "recursos"
+   ],
+   "id_global": "en--blues_scale-a6ec81#I12"
+  }
+ ],
+ "artistas_citados": [
+  "Jamey Aebersold",
+  "David Baker",
+  "Jerry Coker",
+  "Dan Greenblatt",
+  "Jim Ferguson",
+  "Radiohead"
+ ],
+ "musicas_citadas": [
+  "Rock Me",
+  "Jumpin' Jack Flash",
+  "Higher Ground",
+  "Purple Haze",
+  "I Can See for Miles",
+  "After Midnight",
+  "Just",
+  "She's a Woman",
+  "Long Cool Woman in a Black Dress",
+  "Pink Cadillac",
+  "Give Me One Reason"
+ ],
+ "recursos_citados": [
+  "How to Play Jazz and Improvise Vol. 1 (Jamey Aebersold)",
+  "All Blues Scale for Jazz Guitar (Jim Ferguson)",
+  "The Blues Scales – Eb Version (Dan Greenblatt)",
+  "Musical Scales of the World (Michael Hewitt)",
+  "Blues Scale diagrams for guitar mapped out in all positions",
+  "Slowhand Blues guitar"
+ ],
+ "observacoes": "Documento da Wikipedia em inglês, traduzido e resumido. Não há timestamps. O texto está truncado em alguns trechos (listas de músicas com reticências, notação de quarter tones perdida, como \"A–B–C–D–E–F–G\" sem os símbolos de meio-sustenido). Não traz diagramas nem tablaturas, que ficam em links externos. A fonte é teórica e tem pouco conteúdo prático para solar.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:15",
+  "tentativas": 1,
+  "custo_usd": 0.1222
+ }
+}

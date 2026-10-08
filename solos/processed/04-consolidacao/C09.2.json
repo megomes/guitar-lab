@@ -1,0 +1,509 @@
+{
+ "subcategoria": "C09.2",
+ "visao_geral": "A 3ª e a 7ª (guide tones) definem a qualidade do acorde e são as notas que mais mudam entre acordes. Por isso funcionam como mapa de alvos no solo. A condução de vozes melódica liga um acorde ao seguinte pela menor distância (semitom ou tom) ou por notas comuns, de modo que a improvisação vire uma linha contínua, e não uma sequência de caixas isoladas. A progressão de estudo vai da teoria (quais notas, A7/D7, ii-V-I) aos shapes no braço, aos exercícios de uma nota por acorde e de arpejos conectados, e chega a aplicações avançadas como o never-ending arpeggio e a ambiguidade do trítono.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Guide tones: a 3ª e a 7ª definem o acorde",
+   "descricao": "A 3ª diz se o acorde é maior (3) ou menor (♭3), e a 7ª diz se é maj7 (7) ou dominante/m7 (♭7). A fundamental situa o acorde e a 5ª é quase preenchimento. Tocar a 3ª de C7 (E) bem quando o acorde entra faz o ouvido reconhecer a harmonia na linha. Ao conectar acordes, são a 3ª e a 7ª que revelam o caráter da troca.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "blog--p-20309-5f6c7e#I08",
+    "fundamental-changes--targeting-chord-tones-b70c9e#I02",
+    "web--fqbk-handbook-pdf-582590#I19",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I19",
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Notas e guide tones de A7 e D7",
+   "descricao": "A7 = A (1), C# (3), E (5), G (♭7), com guide tones C# e G. D7 = D (1), F# (3), A (5), C (♭7), com guide tones F# e C. A 3ª (F#) é a nota que mais define o D7.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fundamental-changes--targeting-chord-tones-b70c9e#I05",
+    "fundamental-changes--targeting-chord-tones-b70c9e#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "dica",
+   "titulo": "A 3ª do próximo acorde como nota-alvo padrão",
+   "descricao": "A forma mais fácil e segura de escolher um alvo é a 3ª do acorde seguinte, porque ela sempre funciona e deixa a troca clara. Exemplos: a 3ª de B♭7 é D, e ao resolver uma frase de dominante dá para cair na 3ª do acorde-alvo. Também serve como ponto de partida melódico: em E, F#m e D, as 3ªs são G#, A e F#.",
+   "passos": [
+    "Identifique a 3ª de cada acorde da progressão.",
+    "Termine a frase do acorde atual na 3ª do próximo.",
+    "Comece a frase nova sobre essa 3ª."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "h4zQjSecjvI#I10",
+    "PLRMB8b_3pk#I15",
+    "EMQydbilqmo#I30",
+    "rh6HEF5Dy2I#I04"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #90, a linha formada pelas 3ªs de E, F#m e D é G#-A-F#, e não 'F#-C#-A' como estava no texto."
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Para começar, acentuar só a fundamental",
+   "descricao": "Sobre D7 seria possível acentuar a 3ª ou a 7ª. Para quem está começando a improvisar, porém, a recomendação é marcar apenas a fundamental de cada acorde e deixar os guide tones para uma etapa seguinte.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ea2g6P0pCKg#I16"
+   ],
+   "divergencias": "Active Melody recomenda começar pela fundamental; Jens Larsen diz que a 3ª é o alvo mais fácil desde o início.",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "3ª do dominante = sensível da tonalidade",
+   "descricao": "A 3ª do V7 é a sensível e puxa a resolução. Sobre G7, o B natural (corda Ré, casa 9) leva a Cm7. Em Lá menor, o G# (3ª de E) não existe na pentatônica de Am: é a 7ª maior da menor harmônica e caracteriza o E maior. Resolver G# em A é a resolução mais forte da progressão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Ak_iM6H9rxE#I19",
+    "W96yUcOEub0#I26",
+    "W96yUcOEub0#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "erro_comum",
+   "titulo": "Contar com a 7ª sozinha para marcar a troca",
+   "descricao": "Delinear acordes com 3ª e 7ª é ótimo para comping. Na melodia, porém, a 7ª isolada muitas vezes não marca a mudança, porque quase não se move de um acorde para o seguinte. Prefira a 3ª ou a nota que efetivamente muda.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "G5q1lfMQ5A4#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Guide tones como shapes de duas notas no braço",
+   "descricao": "Visualize a 3ª e a ♭7 de cada acorde como um shape de duas notas, sem perder de vista onde está a fundamental. A aplicação é o I-IV-V em Lá (A7, D7, E7).",
+   "passos": [
+    "Localize 3ª e ♭7 de A7, D7 e E7 em shapes de duas notas.",
+    "Toque cada shape sobre baixo ou backing track.",
+    "Mude de shape acompanhando o I-IV-V em Lá."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Mirar as notas que mudam na troca",
+   "descricao": "Em vez de ficar só na pentatônica, observe quais notas mudam de um acorde para o outro e mire nelas. Se uma delas cair no tempo 1 do compasso novo, a troca fica audível. Às vezes basta trocar uma única nota: por exemplo, manter a pentatônica de Ré e trocar B por B♭.",
+   "passos": [
+    "Compare as notas do acorde atual e do próximo.",
+    "Marque as que mudam.",
+    "Coloque uma delas no tempo 1 do novo compasso."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fundamental-changes--targeting-chord-tones-b70c9e#I03",
+    "9oAxHq-ZLwI#I10",
+    "NbNH_C3QAS0#I30"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Guide tones descendo por semitom de A7 para D7",
+   "descricao": "Na 3ª corda, o C# (casa 6, 3ª de A7) desce para o C (casa 5, ♭7 de D7). Na 2ª corda, o G (casa 8, ♭7 de A7) desce para o F# (casa 7, 3ª de D7). Uma oitava abaixo, o G na 4ª corda, casa 5, desce para o F#, casa 4. É o padrão em que a 7ª de um acorde vira a 3ª do seguinte.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fundamental-changes--targeting-chord-tones-b70c9e#I07",
+    "fundamental-changes--targeting-chord-tones-b70c9e#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Tocar a harmonia só com 3ªs e 7ªs",
+   "descricao": "Standards e blues inteiros soam bem tocados apenas com a 3ª e a 7ª de cada acorde, o que prova o peso harmônico dessas notas. No blues, ouça o movimento de meio tom da 7ª de um acorde para a 3ª do seguinte. Uma opção extra é tocar a mesma linha no piano uma oitava abaixo.",
+   "passos": [
+    "Escolha um blues ou standard.",
+    "Toque só 3ª e 7ª de cada acorde.",
+    "Ouça e destaque os movimentos de meio tom (7ª→3ª)."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I02",
+    "web--fqbk-handbook-pdf-582590#I35"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Linhas de condução no ii-V-I em C (e no backdoor)",
+   "descricao": "Em Dm7-G7-Cmaj7, o F (3ª de Dm7) fica como ♭7 de G7 e cai para E (3ª de Cmaj7). O C (♭7 de Dm7) cai para B (3ª de G7) e fica como 7ª de Cmaj7. O A vai a G e o D fica como 5ª de G7 até cair em C. No backdoor Dm7-B♭7-Cmaj7, o A (5ª de Dm7) desce para A♭ (♭7 de B♭7) e resolve em G (5ª de Cmaj7).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I11",
+    "9oAxHq-ZLwI#I09",
+    "9oAxHq-ZLwI#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "rotina_estudo",
+   "titulo": "Checkpoint: Autumn Leaves só com guide tones",
+   "descricao": "Toque Autumn Leaves devagar, usando só a 3ª e a 7ª de cada acorde ao longo de toda a forma e sem parar. Avance apenas quando conseguir ouvir mentalmente o F cair para E e o C cair para B antes de tocar, e quando suas frases caírem em nota do acorde no tempo 1 de cada compasso.",
+   "passos": [
+    "Toque Autumn Leaves devagar só com 3ªs e 7ªs.",
+    "Percorra a forma inteira sem parar.",
+    "Cheque se ouve as resoluções antes de tocá-las.",
+    "Cheque se a frase cai em nota do acorde no tempo 1."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I20",
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Notas comuns e nota pivô",
+   "descricao": "Notas compartilhadas entre acordes servem de ponte e sustentam um motivo durante as trocas. Exemplos: Am e F dividem A e C; D7 e A7 dividem A; Dm7/G7 dividem D e F; G7/Cmaj7 dividem G e B; Cmaj7/A7 dividem E e G; o A é 5ª de D e 3ª de F. Mantenha uma nota como pivô (no topo, no meio ou na base) e escolha a que soar mais natural.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I29",
+    "blog--guitar-phrasing-97a22b#I17",
+    "DKe5jX-5pII#I08",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I18",
+    "pickupmusic--soloing-with-caged-90d614#I06",
+    "rh6HEF5Dy2I#I10",
+    "rh6HEF5Dy2I#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "rotina_estudo",
+   "titulo": "Motivo construído com notas comuns",
+   "descricao": "Escolha uma música com várias trocas (standard, peça modal ou progressão própria). Liste os tons de cada acorde, ache as notas compartilhadas ou próximas e construa um motivo com elas. A análise pode ser feita longe da guitarra.",
+   "passos": [
+    "Escreva os acordes e seus tons (1, 3, 5, 7).",
+    "Marque notas comuns ou próximas entre as trocas.",
+    "Crie um motivo com essas notas.",
+    "Leve à guitarra e localize no braço."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--guitar-phrasing-97a22b#I24",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Voice leading melódico: menor distância",
+   "descricao": "Ao trocar de acorde, vá de uma nota do acorde atual para a nota mais próxima do próximo, normalmente a meio tom ou a um tom, ou mantenha uma nota comum. Isso suaviza a transição e evita soar preso em caixas. Solistas de swing e bebop sugerem a harmonia assim, inclusive antecipando ou atrasando a resolução.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--p-20309-5f6c7e#I09",
+    "pickupmusic--soloing-with-caged-90d614#I07",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I17",
+    "en--chord-scale_system-ebd9f4#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Começar cada acorde na nota mais próxima",
+   "descricao": "Comece a frase do novo acorde na nota dele mais próxima da última que você tocou, de preferência na mesma corda, deslizando uma casa. Exemplo: de E para A sobe-se uma casa; de A para B desce-se uma casa para tocar a 3ª de B.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I13",
+    "TdzOXWlKtTQ#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Tons de acorde avançam para o grau vizinho",
+   "descricao": "Na troca para o acorde diatônico seguinte, cada nota da tríade anterior avança para o próximo grau da escala. Memorizar esse padrão mostra onde estão os tons de acorde em qualquer progressão maior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "itLSHk5jnTI#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Uma nota por acorde em A-E-Bm-D",
+   "descricao": "Percorra A, E, Bm e D tocando um único tom por acorde, por exemplo as 3ªs: C#, G#, D, F#. A terça é só um exemplo: o objetivo é achar um fluxo suave entre tons de acorde, não seguir uma nota fixa.",
+   "passos": [
+    "Localize os quatro acordes em pestana.",
+    "Toque C#, G#, D e F# em sequência.",
+    "Busque movimento suave, sem saltos bruscos.",
+    "Repita com outros tons de acorde e compare."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "itLSHk5jnTI#I05",
+    "itLSHk5jnTI#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Conectar poucas notas de arpejos consecutivos",
+   "descricao": "Em vez do arpejo completo, escolha 2 ou 3 notas de cada acorde e ligue a última à nota próxima do acorde seguinte; repetir a mesma nota também vale. Exemplo: em Dó menor, use C e G e siga para o próximo acorde; a 3ª de G (B) conecta com a 3ª de Cm (E♭). Toque devagar para sentir a harmonia.",
+   "passos": [
+    "Escolha 2 ou 3 notas do arpejo atual.",
+    "Ligue a última a uma nota próxima do próximo arpejo.",
+    "Repita pela progressão.",
+    "Toque lentamente, ouvindo cada conexão."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Y4BPUd_Zxds#I09",
+    "Y4BPUd_Zxds#I10",
+    "Y4BPUd_Zxds#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Arpejos de Dm7, G7 e Cmaj7 na mesma faixa",
+   "descricao": "Transponha os três arpejos para a mesma oitava, de modo que as conexões fiquem curtas e sem saltos. Reconheça a mesma nota em lugares diferentes, como o F de Dm7 e o F de G7, e pense em nomes de notas, não só em intervalos.",
+   "passos": [
+    "Toque Dm7 numa oitava.",
+    "Toque G7 e Cmaj7 na mesma faixa.",
+    "Encadeie os três.",
+    "Marque notas comuns e as que mudam."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "9oAxHq-ZLwI#I07",
+    "9oAxHq-ZLwI#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Escalas e arpejos com destino nos guide tones",
+   "descricao": "Mesmo tocando escala ou arpejo, a frase deve chegar a um guide tone. Exemplo: sobre A7, use a pentatônica de Lá menor (A C D E G) e chegue aos guide tones de D7. Num blues em F, use o arpejo de F7 (F A C E♭) e resolva em D, a 3ª de B♭7.",
+   "passos": [
+    "Improvise com escala ou arpejo do acorde atual.",
+    "Termine num guide tone do próximo.",
+    "Confira se a troca é audível sem o playback."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I11",
+    "EMQydbilqmo#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "mentalidade",
+   "titulo": "Pensar numa linha só, que atravessa os acordes",
+   "descricao": "Duas notas a um trítono parecem restritivas. Quando você entende como os guide tones se ligam entre acordes, eles viram um mapa de onde chegar. A escolha de escala (mixolídio, super lócrio) pode variar; o que organiza a frase é conectar os guide tones. Sobre Dm7-G7-C, busque um único movimento melódico, e não três ideias soltas; repetir um motivo ajuda na coesão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I09",
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I13",
+    "jVTRXGg0Sdg#I34",
+    "NbNH_C3QAS0#I29"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "dica",
+   "titulo": "Usar a forma do acorde seguinte mais próxima no braço",
+   "descricao": "Na troca, procure o arpejo ou forma do próximo acorde na região onde você já está, mesmo para acordes de fora da tonalidade (ex.: E7 sobre C maior). Entre as formas possíveis, prefira a que se sobrepõe à anterior e comece num registro confortável. Para gerar energia, termine mais agudo do que começou.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "TdzOXWlKtTQ#I04",
+    "pickupmusic--soloing-with-caged-90d614#I03",
+    "XL9TYmwkHWs#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Conectar formas CAGED numa troca de tonalidade",
+   "descricao": "Numa progressão que muda de tonalidade (ex.: Ré maior→Fá maior), escolha uma forma CAGED para cada tom. Crie uma frase em cada uma e ligue as duas pelas notas comuns, como o A na forma C de Ré e na forma D de Fá.",
+   "passos": [
+    "Escolha a progressão e uma forma por tonalidade.",
+    "Ache as notas comuns entre as formas.",
+    "Crie uma frase para cada forma.",
+    "Conecte as frases pelas notas comuns."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "pickupmusic--soloing-with-caged-90d614#I34",
+    "pickupmusic--soloing-with-caged-90d614#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "exercicio",
+   "titulo": "Never-ending arpeggio",
+   "descricao": "Toque os arpejos em colcheias contínuas pela forma e, a cada troca de acorde, passe para a nota mais próxima do arpejo seguinte, sem interromper o fluxo. Isso desenvolve flexibilidade para conduzir vozes em tempo real.",
+   "passos": [
+    "Toque o arpejo atual em colcheias, na posição completa.",
+    "Na troca, vá à nota mais próxima do próximo arpejo.",
+    "Siga a forma toda sem parar."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "jVTRXGg0Sdg#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "dica",
+   "titulo": "Shell de passagem entre dois shells",
+   "descricao": "Entre dois shells de Lá maior, insira um par de notas da escala de Lá maior que não formam tríade. Essa voz intermediária deixa a conexão mais suave e fluida.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "qIewGDRWBu8#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "conceito",
+   "titulo": "O trítono de guide tones serve a vários acordes",
+   "descricao": "Um par 3ª/♭7 é ambíguo: G e C# (=D♭) são guide tones de A7 e de E♭7, aparecem em B♭m6 e cabem em A7♭5#9 ou E♭13♭9. Essa flexibilidade torna o par útil em substituições e acordes alterados.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "ui6qUcvaKU0#I26",
+   "sugestao": "C10.2",
+   "motivo": "Trata de escolher a inversão de tríade mais próxima (G a partir de C)."
+  },
+  {
+   "id": "ui6qUcvaKU0#I28",
+   "sugestao": "C10.2",
+   "motivo": "Troca de forma de tríade Am→F movendo uma nota; é sobre shapes de tríade."
+  },
+  {
+   "id": "SggDUBO6z7Q#I16",
+   "sugestao": "C09.6",
+   "motivo": "Antecipar o G7 (3ª e 5ª) sobre C7 é pensar à frente no próximo acorde."
+  },
+  {
+   "id": "EMQydbilqmo#I26",
+   "sugestao": "C09.6",
+   "motivo": "Usar as notas do acorde atual para construir a passagem ao próximo é linha que leva ao acorde seguinte."
+  },
+  {
+   "id": "6I9x7a1MCI4#I08",
+   "sugestao": "C04.5",
+   "motivo": "Resoluções ♭3→3/2 no contexto de misturar pentatônica maior e menor."
+  },
+  {
+   "id": "6I9x7a1MCI4#I09",
+   "sugestao": "C04.5",
+   "motivo": "Resoluções sobre o IV ao misturar pentatônicas."
+  },
+  {
+   "id": "6I9x7a1MCI4#I10",
+   "sugestao": "C04.5",
+   "motivo": "Resoluções sobre o V ao misturar pentatônicas."
+  },
+  {
+   "id": "6I9x7a1MCI4#I11",
+   "sugestao": "C04.5",
+   "motivo": "Nota de transição do bloco de interchange entre pentatônicas."
+  }
+ ],
+ "observacoes": "Secundárias #65, #66, #67, #68, #69, #70, #71, #74, #75, #76, #78, #79, #80, #82, #84 e #89 não foram incorporadas: pertencem a comping, tríades, cromatismo ou CAGED, ou são redundantes. #71 (começar cada troca na 3ª ou 7ª) poderia virar exercício próprio se desejado. Todas as notas e casas foram conferidas: A7 = A C# E G; D7 = D F# A C; B♭7 = B♭ D F A♭; F7 = F A C E♭; corda Ré casa 9 = B.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 63,
+  "ideias_secundarias": 27,
+  "itens": 27,
+  "fora_do_lugar": 8,
+  "custo_usd": 0.1677,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21617,
+   "output_tokens": 12449
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

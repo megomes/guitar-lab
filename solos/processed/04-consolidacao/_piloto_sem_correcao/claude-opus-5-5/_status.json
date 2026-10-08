@@ -1,0 +1,21 @@
+{
+ "C01.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 35,
+  "ideias_secundarias": 14,
+  "itens": 14,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.2518,
+  "segundos": 82,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 2575,
+   "cache_read_input_tokens": 278778,
+   "output_tokens": 8772
+  },
+  "gerado_em": "2026-10-08T00:21:13"
+ }
+}

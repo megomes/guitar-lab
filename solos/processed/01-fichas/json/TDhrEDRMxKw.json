@@ -1,0 +1,315 @@
+{
+ "fonte_id": "TDhrEDRMxKw",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Fingerstyle Improvisation in 4 Simple Steps",
+  "autor": "Beyond The Guitar",
+  "url": "https://www.youtube.com/watch?v=TDhrEDRMxKw",
+  "idioma": "en",
+  "duracao": "7m 24s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/TDhrEDRMxKw--fingerstyle-improvisation-in-4-simple-steps.md"
+ },
+ "resumo": "Vídeo curto de Beyond The Guitar que ensina a improvisar em fingerstyle em 4 passos usando a escala de Mi menor: (1) criar melodias com as notas da escala, (2) adicionar uma nota de baixo (Mi solto), (3) criar uma linha de baixo com notas da escala (Mi–Dó–Ré–Mi), (4) construir acordes sobre cada nota do baixo empilhando raiz, terça e quinta pela escala (Em, C, D). Voltado a iniciantes e intermediários que querem sair da dependência de tablaturas e partituras. O final divulga um curso de improvisação fingerstyle.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Método sequencial, simples e concreto (notas, casas, acordes formados), fácil de aplicar. Falta exemplificação escrita de frases; a demonstração é só auditiva/visual."
+ },
+ "assuntos_principais": [
+  "fingerstyle",
+  "improvisação",
+  "escala de Mi menor",
+  "linha de baixo",
+  "construção de acordes",
+  "tríades",
+  "arpejos"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Passos 1 e 2: melodia e nota de baixo",
+   "inicio": "00:00",
+   "fim": "01:26",
+   "resumo": "Escolher a escala de Mi menor, improvisar melodias com suas notas e adicionar um Mi grave solto como baixo.",
+   "assuntos": [
+    "escala",
+    "melodia",
+    "baixo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Passo 3: linha de baixo",
+   "inicio": "01:26",
+   "fim": "03:11",
+   "resumo": "Criar uma progressão de baixo com notas da escala (Mi, Dó, Ré, Mi), aproveitando cordas soltas e as duas posições do Dó.",
+   "assuntos": [
+    "linha de baixo",
+    "cordas soltas",
+    "mesma nota em duas posições"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Passo 4: acordes sobre cada baixo",
+   "inicio": "03:11",
+   "fim": "05:44",
+   "resumo": "Montar tríades contando na escala (raiz, terça, quinta) para Em, C e D; explorar voicings e tocar em bloco ou arpejo.",
+   "assuntos": [
+    "tríades",
+    "harmonização da escala",
+    "voicings",
+    "arpejos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exemplo final e divulgação do curso",
+   "inicio": "05:44",
+   "fim": "07:24",
+   "resumo": "Demonstração juntando melodia, baixo e acordes; convite para comentar e divulgação do curso de improvisação fingerstyle.",
+   "assuntos": [
+    "exemplo",
+    "divulgação"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Improvisar melodias com as notas de Mi menor",
+   "descricao": "Escolha uma escala e brinque com combinações das suas notas para criar melodias. Exemplo: Mi menor natural (E F# G A B C D E). Não há regra de ordem: explore combinações livremente.",
+   "passos": [
+    "Escolha a escala (Mi menor: E F# G A B C D)",
+    "Toque combinações diferentes dessas notas",
+    "Crie melodias a partir do que soar bem"
+   ],
+   "timestamp": "00:05",
+   "nivel": "iniciante",
+   "tags": [
+    "escala",
+    "Mi menor",
+    "melodia",
+    "fingerstyle"
+   ],
+   "id_global": "TDhrEDRMxKw#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Adicionar um baixo único (Mi solto) sob a melodia",
+   "descricao": "Acrescente a nota Mi grave solta (corda 6) como acompanhamento, tocando-a sempre que parecer natural durante a melodia. Cria textura de duas vozes sem complicação.",
+   "passos": [],
+   "timestamp": "00:47",
+   "nivel": "iniciante",
+   "tags": [
+    "baixo",
+    "corda solta",
+    "textura"
+   ],
+   "id_global": "TDhrEDRMxKw#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Criar uma linha de baixo com notas da escala",
+   "descricao": "Assim como na melodia, qualquer uma das sete notas da escala pode ser baixo. Exemplo do vídeo: Mi, Dó, Ré, volta ao Mi, tocados sob a melodia improvisada.",
+   "passos": [
+    "Escolha 3–4 notas da escala para o baixo (ex.: E C D E)",
+    "Toque-as no registro grave sob a melodia",
+    "Improvise a melodia por cima, alternando com a linha de baixo"
+   ],
+   "timestamp": "01:26",
+   "nivel": "iniciante",
+   "tags": [
+    "linha de baixo",
+    "progressão",
+    "Mi menor"
+   ],
+   "id_global": "TDhrEDRMxKw#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Escolher baixos em cordas soltas para liberar os dedos",
+   "descricao": "Mi e Ré podem ser tocados em cordas soltas, deixando os dedos da mão esquerda livres para as notas da melodia nas cordas agudas.",
+   "passos": [],
+   "timestamp": "02:00",
+   "nivel": "iniciante",
+   "tags": [
+    "cordas soltas",
+    "economia de movimento",
+    "baixo"
+   ],
+   "id_global": "TDhrEDRMxKw#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "A mesma nota em duas posições (Dó grave)",
+   "descricao": "O Dó do baixo pode ser tocado na casa 3 da corda 5 (Lá) ou na casa 8 da corda 6 (Mi grave). Quando a melodia estiver em região mais aguda do braço, use o Dó da casa 8 que fica ao alcance.",
+   "passos": [],
+   "timestamp": "02:10",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "posições",
+    "Dó",
+    "oitava"
+   ],
+   "id_global": "TDhrEDRMxKw#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Construir tríades contando a escala (1-3-5)",
+   "descricao": "Para cada baixo, trate-o como raiz e conte na escala: raiz, 2ª, 3ª, 4ª, 5ª. Pegue raiz, terça e quinta. Em Mi: E, G, B = Em.",
+   "passos": [
+    "Marque a nota do baixo como raiz",
+    "Conte na escala até a terça (3ª nota)",
+    "Continue até a quinta (5ª nota)",
+    "Junte as três notas como acorde"
+   ],
+   "timestamp": "03:11",
+   "nivel": "iniciante",
+   "tags": [
+    "tríades",
+    "harmonia",
+    "teoria",
+    "Mi menor"
+   ],
+   "id_global": "TDhrEDRMxKw#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Explorar voicings da tríade pelo braço",
+   "descricao": "Combine as notas do acorde (ex.: E, G, B) em qualquer ordem e em várias regiões do braço para achar voicings que acompanhem a melodia onde ela estiver.",
+   "passos": [
+    "Pegue as 3 notas do acorde",
+    "Procure combinações em diferentes cordas e regiões",
+    "Memorize voicings próximos da região da melodia"
+   ],
+   "timestamp": "03:47",
+   "nivel": "intermediario",
+   "tags": [
+    "voicings",
+    "braço",
+    "Em"
+   ],
+   "id_global": "TDhrEDRMxKw#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Acordes dos três baixos: Em, C e D",
+   "descricao": "Baixo Dó: C, D, E, F#, G → notas C, E, G (Dó maior). Baixo Ré: D, E, F#, G, A → notas D, F#, A (Ré maior). Baixo Mi: E, G, B (Mi menor). Tudo sai da escala de Mi menor.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "iniciante",
+   "tags": [
+    "Em",
+    "C",
+    "D",
+    "harmonização"
+   ],
+   "id_global": "TDhrEDRMxKw#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Tocar acordes em bloco ou como arpejo",
+   "descricao": "Na improvisação, os acordes podem ser tocados com todas as notas juntas (bloco) ou separadas em alguma sequência (arpejo), variando a textura.",
+   "passos": [],
+   "timestamp": "05:04",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "bloco",
+    "textura"
+   ],
+   "id_global": "TDhrEDRMxKw#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Familiaridade com o braço acelera a improvisação",
+   "descricao": "Quanto mais à vontade com o braço, mais rápido você acha as notas e acordes na hora. A prática de localizar notas é o que torna a improvisação fluida.",
+   "passos": [],
+   "timestamp": "05:30",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "fluência",
+    "prática"
+   ],
+   "id_global": "TDhrEDRMxKw#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "rotina_estudo",
+   "titulo": "Os 4 passos combinados: melodia + baixo + acordes",
+   "descricao": "Sequência para improvisar fingerstyle: escolher escala, melodia, adicionar um baixo, depois uma linha de baixo e por fim acordes sobre cada baixo.",
+   "passos": [
+    "Escolha uma escala (Mi menor)",
+    "Improvise melodias",
+    "Adicione uma nota de baixo",
+    "Crie uma linha de baixo com notas da escala",
+    "Construa acordes sobre cada baixo e alterne bloco/arpejo"
+   ],
+   "timestamp": "05:44",
+   "nivel": "iniciante",
+   "tags": [
+    "método",
+    "fingerstyle",
+    "improvisação"
+   ],
+   "id_global": "TDhrEDRMxKw#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Curso Fingerstyle Improv Academy / Boot Camp",
+   "descricao": "Curso pago do canal para aprender a criar improvisações fingerstyle sem depender de tablaturas e partituras, para qualquer nível.",
+   "passos": [],
+   "timestamp": "06:39",
+   "nivel": "iniciante",
+   "tags": [
+    "curso",
+    "Beyond The Guitar"
+   ],
+   "id_global": "TDhrEDRMxKw#I12"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Fingerstyle Improv Academy / Boot Camp (beyondtheguitar.com/improv)"
+ ],
+ "observacoes": "Transcrição boa, mas há trechos sem fala (demonstrações musicais em 00:47–01:26, 02:34–03:11 e 05:44–06:39) que dependem de ver o vídeo. Notas em inglês (E, F#, G, A, B, C, D) convertidas para o contexto do vídeo. Um exemplo com 'a g a b e' em voicings é ambíguo na transcrição.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:11:42",
+  "tentativas": 1,
+  "custo_usd": 0.1093
+ }
+}

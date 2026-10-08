@@ -1,0 +1,290 @@
+{
+ "fonte_id": "en--chord-scale_system-ebd9f4",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Chord-scale system - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Chord-scale_system",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--chord-scale_system-ebd9f4.md"
+ },
+ "resumo": "Artigo da Wikipedia que explica o sistema chord-scale (acorde-escala): método de associar a cada acorde de uma progressão uma escala adequada para improvisar. Compara-o com a abordagem de notas do acorde/arpejos e com o uso de uma única escala (ex.: blues) sobre toda a progressão. Apresenta origem histórica, escalas usadas, vantagens (menos \"clams\", mais técnica) e limitações (falta de direcionalidade, de notas de passagem e de blue notes). É teórico, útil para guitarristas intermediários que querem entender a lógica por trás do ensino de improvisação jazzística.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Boa visão conceitual, histórica e crítica do sistema, mas é uma enciclopédia: sem exercícios, licks ou passos práticos para guitarra."
+ },
+ "assuntos_principais": [
+  "chord-scale system",
+  "modos da escala diatônica",
+  "modos da melódica menor",
+  "abordagem de arpejos/chord tones",
+  "escala única sobre progressão",
+  "improvisação no jazz",
+  "limitações e críticas do método"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e comparação com outros métodos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define o sistema, contrasta com chord tones/arpejos e com uma escala única (blues em A sobre A7 E7 D7 vs. mixolídio em A, E e D). Explica a diferença de tratamento da dissonância e a possibilidade de misturar abordagens.",
+   "assuntos": [
+    "chord-scale",
+    "arpejos",
+    "blues",
+    "mixolídio",
+    "dissonância"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Escalas usadas e história",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista as escalas comuns (modos diatônicos, melódica menor, diminutas, tons inteiros, pentatônicas, bebop), a evolução do número de escalas e a origem em George Russell, Aebersold, Bergonzi e Kind of Blue.",
+   "assuntos": [
+    "modos",
+    "melódica menor",
+    "lídio dominante",
+    "Aebersold",
+    "George Russell"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Vantagens e desvantagens",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Benefícios (familiaridade com progressões, técnica, menos notas erradas) e limites (abordagem vertical e estática, falta de condução de vozes, ritmo, blue notes e notas de passagem; geração de músicos 'pattern').",
+   "assuntos": [
+    "clams",
+    "chops",
+    "condução de vozes",
+    "Charlie Parker",
+    "Giant Steps"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é o sistema chord-scale",
+   "descricao": "Método que associa a cada acorde de uma lista possível uma escala adequada para improvisar. Em vez de uma escala única para toda a progressão, troca-se de escala a cada acorde. Difundido desde os anos 1970.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "chord-scale",
+    "escalas",
+    "acordes"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Escala única vs. uma escala por acorde",
+   "descricao": "Na abordagem do blues usa-se a mesma escala (ex.: blues em A) sobre todos os acordes de A7 E7 D7. No chord-scale usa-se mixolídio em A sobre A7, mixolídio em E sobre E7 e mixolídio em D sobre D7.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "mixolídio",
+    "progressão"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Dissonância: evitar nota vs. resolver nota",
+   "descricao": "Na harmonia clássica, notas fora do acorde são dissonâncias a resolver. Na harmonia não clássica/jazz, a escala indica apenas qual nota evitar, e as demais são aceitáveis.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "dissonância",
+    "avoid notes",
+    "jazz"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Misturar abordagens",
+   "descricao": "Pode-se combinar métodos: usar a abordagem do blues (escala única) em um trecho da progressão e chord-scale no restante.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "improvisação",
+    "abordagem"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Escala como notas do acorde vs. preenchimento",
+   "descricao": "Em C7#11 com lídio dominante, cada nota da escala pode ser vista como nota do acorde. Em A7 com mixolídio, a escala é pensada como preenchimento dos graus que faltam entre as notas do acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "lídio dominante",
+    "mixolídio",
+    "extensões"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escalas do repertório chord-scale",
+   "descricao": "Os sete modos da escala diatônica, os sete modos da melódica menor, escalas diminutas, de tons inteiros, pentatônicas e bebop. Alunos hoje aprendem até 21 escalas, contra cerca de quatro nos anos 1940 (maior, menor, mixolídio, blues) mais diminuta e tons inteiros trazidas pelo bebop.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "melódica menor",
+    "diminuta",
+    "tons inteiros",
+    "bebop"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Divergência: acorde maior com lídio ou jônio",
+   "descricao": "George Russell associava o acorde C maior ao lídio. Mehegan, David Baker e Mark Levine ensinam a escala maior (jônio) como melhor par para C maior.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "lídio",
+    "jônio",
+    "Russell"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "recurso",
+   "titulo": "Materiais de referência do método",
+   "descricao": "Lydian Chromatic Concept (George Russell, 1953), série Inside Improvisation (Jerry Bergonzi) e a série Play-A-Long de Jamey Aebersold, que ensina aplicando teoria sobre backing tracks. Kind of Blue (Miles Davis) é citado como exemplo prático.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "Aebersold",
+    "backing track",
+    "livros",
+    "modal"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Vantagens do sistema",
+   "descricao": "Dá familiaridade com progressões típicas, técnica pela prática de escalas e arpejos, reduz 'clams' (notas percebidas como erro) ao fornecer opções por acorde e desenvolve 'chops'.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "clams",
+    "técnica",
+    "escalas"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Soar estático e 'de padrões'",
+   "descricao": "A abordagem vertical é estática e não gera direção musical pelo movimento dos acordes. Também ignora ritmo, formato e tamanho de frase, dinâmica, timbre, notas de passagem, apojaturas e blue notes, o que explica por que o solista não soa como Parker, Stitt ou Griffin e pode virar um músico 'de padrões'.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "direcionalidade",
+    "blue notes",
+    "frases",
+    "Charlie Parker"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Complementar com chord tones e condução de vozes",
+   "descricao": "Conhecer a abordagem de notas do acorde continua importante. Solistas de swing e bop sugerem o movimento dos acordes com linhas que conduzem suavemente de um acorde ao outro (voice leading) ou antecipando/atrasando a resolução harmônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "voice leading",
+    "chord tones",
+    "antecipação",
+    "bebop"
+   ],
+   "id_global": "en--chord-scale_system-ebd9f4#I11"
+  }
+ ],
+ "artistas_citados": [
+  "George Russell",
+  "Miles Davis",
+  "John Coltrane",
+  "Charlie Parker",
+  "Sonny Stitt",
+  "Johnny Griffin",
+  "Jamey Aebersold",
+  "Jerry Bergonzi",
+  "John Mehegan",
+  "David Baker",
+  "Mark Levine"
+ ],
+ "musicas_citadas": [
+  "Kind of Blue",
+  "Giant Steps"
+ ],
+ "recursos_citados": [
+  "Lydian Chromatic Concept of Tonal Organization (George Russell)",
+  "Inside Improvisation (Jerry Bergonzi)",
+  "Play-A-Long (Jamey Aebersold)",
+  "The Complete Thesaurus of Musical Scales (Masaya Yamaguchi)",
+  "Getting Into Guitar Improvising (Scott Reed)",
+  "Jazz Theory Handbook (Peter Spitzer)"
+ ],
+ "observacoes": "Documento enciclopédico sem exemplos musicais em notação: a menção a 'exemplo abaixo' com C7#11 e lídio dominante refere-se a imagens não incluídas. Seção 'See also' vazia e referência 11 incompleta. Não há conteúdo específico de guitarra, exercícios ou timestamps.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:27",
+  "tentativas": 1,
+  "custo_usd": 0.062
+ }
+}

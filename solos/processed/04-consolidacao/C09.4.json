@@ -1,0 +1,457 @@
+{
+ "subcategoria": "C09.4",
+ "visao_geral": "Há duas grandes abordagens para solar sobre progressões: ficar no centro tonal, com uma escala para tudo (horizontal), ou seguir cada acorde com sua escala ou arpejo (vertical/chord-scale). Qual usar depende de a progressão caber num só campo harmônico, da velocidade das trocas e do estilo. Quase todos os professores concordam que tocar só a escala, ignorando os acordes, soa sem rumo. O ideal é a visão dupla: enxergar ao mesmo tempo a tonalidade e o acorde do momento e misturar as abordagens conforme a música.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "A fórmula básica: escala e notas do acorde sobre a harmonia",
+   "descricao": "Solar é tocar escalas e/ou notas do acorde ao mesmo tempo que os acordes soam, somando o elemento humano: ritmo, dinâmica e escolhas. O método mais ensinado é aprender uma escala (ex.: Dó maior, 7 notas) e circular por ela sobre a música; é o ponto de partida, não o destino.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "o1qXU6Nm_d4#I02",
+    "0d_q-W9D6SY#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Duas abordagens: ficar na tonalidade ou seguir cada acorde",
+   "descricao": "Ao mudar de acorde, há duas opções: trocar de escala, posição ou arpejo a cada acorde (chord chasing) ou manter a escala do centro tonal e só ajustar a nota-alvo ao acorde do momento. Exemplo no blues A7-D7-E7: pentatônica menor ou blues de Lá sobre tudo, ou mixolídio de A sobre A7, de D sobre D7 e de E sobre E7. Numa progressão A-D-G vale o mesmo: mudar de posição a cada acorde ou ficar numa só.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "_kK1_apm-qs#I07",
+    "lJRzTqOf1ro#I24",
+    "KorP9lq1voU#I24",
+    "en--chord-scale_system-ebd9f4#I02",
+    "SYE8tDSLU0k#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Progressão tonal x progressão sortida",
+   "descricao": "Numa progressão tonal, todos os acordes pertencem a um mesmo campo harmônico. Numa progressão sortida, os acordes vêm de centros diferentes. Esse diagnóstico decide se uma escala serve para tudo ou se é preciso pensar acorde a acorde.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "z1YGMPsz-rU#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "exercicio",
+   "titulo": "Verificar se a progressão cabe num campo harmônico",
+   "descricao": "Faça este diagnóstico antes de escolher a escala. Exemplo: C-F-Am-G cabe em Dó maior (I-IV-vi-V), então a escala de Dó serve para todos os acordes.",
+   "passos": [
+    "Escreva os acordes da progressão na ordem.",
+    "Procure um campo maior que contenha todos (I ii iii IV V vi vii).",
+    "Se todos couberem, use a escala desse tom.",
+    "Se não couberem, trate os acordes de fora com outra escala ou abordagem."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "z1YGMPsz-rU#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Centro tonal: uma escala para toda a progressão diatônica",
+   "descricao": "Se os acordes pertencem ao tom, não é preciso uma escala por acorde: a escala do tom (ex.: Dó maior sobre C-F-Am-G, Sol maior sobre o campo de Sol) funciona sobre todos, sem pensar em modos. A escala-mãe dá unidade à melodia, e até os arpejos do campo podem ser testados sobre outros acordes do tom. Sobre G-Em-C-D, até as notas G, B, D soam bem o tempo todo; o próximo passo é buscar as notas seguras de cada acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yDiWrTsQ1tc#I14",
+    "hafoCeXWxAE#I07",
+    "W96yUcOEub0#I20",
+    "mw6d34vqDMs#I06",
+    "Rm8Y-Q6wbR4#I05",
+    "FhfmneCt7jo#I29",
+    "xKbtQM-qzSM#I08",
+    "jeJEMmEIVqk#I12"
+   ],
+   "divergencias": "Andrew Clarke trata 'uma escala por acorde' como equívoco, enquanto Signals e Criasom veem a escala única apenas como ponto de partida e preferem acompanhar a harmonia.",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre C-F-Am-G só com a escala de Dó maior",
+   "descricao": "Use este exercício de centro tonal para ouvir como a mesma escala muda de cor a cada troca de acorde.",
+   "passos": [
+    "Coloque C-F-Am-G em loop (backing track ou outro instrumento).",
+    "Improvise usando só a escala de Dó maior (C D E F G A B).",
+    "Repare quais notas soam estáveis em cada acorde e quais pedem resolução."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "yDiWrTsQ1tc#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Pentatônica como escala 'curinga', inclusive com acordes de fora",
+   "descricao": "Por ter menos notas e ser ambígua, várias pentatônicas soam bem sobre um mesmo acorde. Jules Guitar estima que ela cobre cerca de 95% das progressões de rock, pop e blues. A pentatônica de Dó maior (C D E G A) não tem F nem B, então serve sobre C-B♭-F-Am-D-G sem decidir se essas notas são naturais, bemóis ou sustenidas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "MfrAepqfv2g#I20",
+    "MfrAepqfv2g#I19",
+    "pt--escala_pentatônica-58d055#I09",
+    "3dW_GQsC5Ak#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Pentatônica é segura, mas não garante notas do acorde",
+   "descricao": "Todas as notas da pentatônica soam aceitáveis, mas nem sempre são chord tones do acorde do momento: às vezes são extensões agradáveis ou notas de passagem. O controle é menor do que quando se mira diretamente nas notas do acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "5e0SpzCw3IA#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "erro_comum",
+   "titulo": "Tocar só a escala da tonalidade ignorando os acordes",
+   "descricao": "Achar a tonalidade e sair tocando funciona, mas notas aleatórias da escala soam sem sentido e desperdiçam o efeito harmônico das progressões. Muitos seguem os acordes quando fazem base, mas no solo só olham o shape. Saber escalas, arpejos e modos também não basta: é preciso mostrar a harmonia na linha ('fazer as mudanças'), relacionando as notas aos acordes que definem o que soa como resolução.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "lEZzseFo6OQ#I01",
+    "-KZSGF0gY6E#I03",
+    "9xHvDRP5Yds#I02",
+    "930K2lldQD8#I16",
+    "mtRKsf1Y5cw#I17",
+    "wXZGcgYysNs#I09",
+    "5e0SpzCw3IA#I01",
+    "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "mentalidade",
+   "titulo": "Partir dos acordes, não da caixa de escala",
+   "descricao": "Antes de perguntar 'qual escala uso?', conheça a base e a estrutura dos acordes, porque a escala adequada muda com a harmonia. No blues em C, o solo parte de C, F e G, que definem as notas certas em todo o braço. Pensar na forma do acorde e nos arpejos, mesmo tocando rápido com a escala em mente, melhora o ouvido e o vocabulário.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EJW2rIhE_GA#I01",
+    "x8V99YYMRTc#I02",
+    "7Pdss_Gswtc#I01",
+    "kkr107pBAAs#I16",
+    "-KZSGF0gY6E#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Solo horizontal (linear)",
+   "descricao": "O foco está na tonalidade: escolhe-se uma escala que funcione sobre um grupo de acordes e procuram-se fios melódicos que os unam. Vantagem: melodias mais cantáveis e líricas. Desvantagem: pode perder as notas de 'sabor' de cada acorde.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--p-20309-5f6c7e#I05",
+    "z1YGMPsz-rU#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Solo vertical (tocar as mudanças)",
+   "descricao": "Cada acorde é tratado como uma ilha: quando o acorde muda, mudam a escala ou o arpejo. Vantagem: soa sempre de acordo com a harmonia. Desvantagem: pode soar 'pulado' e desconectado sem transições suaves.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--p-20309-5f6c7e#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Sistema chord-scale",
+   "descricao": "Método difundido desde os anos 1970 que associa a cada acorde uma escala de referência (ex.: Cmaj7 → Dó jônio ou Dó lídio) e troca de escala a cada acorde. Recursos como o Scale Syllabus agrupam as escalas por família de acorde (maior, dominante, menor, meio-diminuto, diminuto, suspenso), da mais consonante à mais dissonante; comece pelas primeiras. Vantagens: familiaridade com progressões típicas, técnica, menos notas percebidas como erro ('clams') e mais 'chops'.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "en--chord-scale_system-ebd9f4#I01",
+    "blog--p-20309-5f6c7e#I01",
+    "en--chord-scale_system-ebd9f4#I09",
+    "web--fqbk-handbook-pdf-582590#I20",
+    "en--chord-scale_system-ebd9f4#I10"
+   ],
+   "divergencias": "Críticos do sistema (Wikipedia) o acusam de soar estático e 'de padrões', ignorando ritmo, frase, dinâmica e blue notes.",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Trocar para a escala maior da tônica de cada acorde",
+   "descricao": "Tocar a escala maior da tônica de cada acorde (E maior sobre E, B maior sobre B) não funciona. Sobre B7 (B D# F# A), a escala de B maior tem A#, que bate com o A do acorde. Segundo a fonte, mesmo sobre a tríade de B a sétima maior A# soa errada nesse contexto, então o problema não depende só da sétima do acorde.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I05",
+    "aHzmIWB0P00#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Escala compatível = contém as notas do acorde sem colidir",
+   "descricao": "Uma escala serve sobre um acorde se contém as notas dele sem colisões. Sobre Dm7 (D F A C), Ré eólio, dórico e frígio servem, porque todos têm 1, ♭3, 5 e ♭7. Am7 (A C E G) não tem a 6ª (F ou F#), que é o que diferencia Lá dórico de Lá eólio, então os dois servem. Saber criar com isso é a habilidade real que o estudo de modos deveria dar.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I05",
+    "tqnvvqZu2_c#I08",
+    "iWm_dxEszu0#I14",
+    "iWm_dxEszu0#I19"
+   ],
+   "divergencias": "",
+   "correcoes": "No exemplo de Rob Compa, o argumento vale para Am7; o E7#9 tem G#, que não pertence nem a Lá dórico nem a Lá eólio, e o essencial é só a ausência de F/F#."
+  },
+  {
+   "id": "K16",
+   "tipo": "exercicio",
+   "titulo": "Qualquer acorde, qualquer escala que contenha suas notas",
+   "descricao": "O objetivo é criar uma linha significativa que soe como o acorde, usando qualquer escala que contenha suas notas. Quem consegue isso já sabe tocar os modos na prática.",
+   "passos": [
+    "Escolha um acorde (ex.: Dm7).",
+    "Escolha uma escala que contenha todas as notas dele (ex.: Ré dórico).",
+    "Improvise uma linha que termine soando como o acorde, de preferência numa nota do acorde.",
+    "Repita com outra escala compatível e compare."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "iWm_dxEszu0#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Ficar numa posição só sobre A-D-G e testar outros centros",
+   "descricao": "Compare seguir cada acorde com manter uma única posição. Para decidir onde ficar, escolha o acorde principal, aquele que abre e fecha a música ou dura mais.",
+   "passos": [
+    "Toque ou coloque em loop a progressão A-D-G.",
+    "Improvise na posição de A da 5ª casa durante toda a progressão.",
+    "Repita usando a posição de D e depois a de G como centro.",
+    "Compare com a versão em que você muda de posição a cada acorde."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "KorP9lq1voU#I27",
+    "KorP9lq1voU#I28",
+    "KorP9lq1voU#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Quando priorizar o acorde a acorde",
+   "descricao": "Siga cada acorde quando as trocas são frequentes: nesse caso as notas do acorde são o foco e a escala vira 'enchimento'. Num vamp de um acorde só, a escala ganha destaque. O chord chasing também resolve casos com acordes fora do tom, dúvida sobre qual escala usar ou improviso de emergência. No bebop, com trocas a cada 1 ou 2 tempos em andamento rápido, tocar só de ouvido não basta e é preciso planejar as notas pelos acordes.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Xs2umOucpSM#I17",
+    "tRi4vMs2z8M#I30",
+    "en--jazz_improvisation-59a777#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "mentalidade",
+   "titulo": "Visão dupla: tonalidade e acorde ao mesmo tempo",
+   "descricao": "Enxergue duas camadas ao mesmo tempo: a escala ou tonalidade num nível e as notas do acorde atual no outro; ver só a escala é ver metade do quadro. Exemplo: 'estou em Dó maior, mas agora soa G; G, B e D são minhas chegadas'. Também dá para tocar Lá maior ou Fá# menor sobre D desde que se pense cada nota em relação a Ré. Cada acorde é uma passagem: a frase não precisa ficar presa a ele, mas você precisa saber o que fazer nele.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "t8SmU7wIxnc#I05",
+    "o1qXU6Nm_d4#I16",
+    "o1qXU6Nm_d4#I18",
+    "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I12",
+    "NbNH_C3QAS0#I11",
+    "W96yUcOEub0#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "dica",
+   "titulo": "Pensar as notas-alvo pelos graus da escala-mãe",
+   "descricao": "Uma nota pode ser pensada pelo grau na escala maior do tom (1, 2, 3...) ou pela função no acorde do momento (3ª, 5ª...); muitos solistas melódicos usam o primeiro. As notas do acorde encontradas pelos graus são as mesmas das formas de pestana ou arpejos, mas a referência fica na escala, sem sobrepor uma escala a outra forma. Funciona melhor para quem já domina a escala maior.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "t8SmU7wIxnc#I01",
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I20",
+    "itLSHk5jnTI#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "rotina_estudo",
+   "titulo": "Localizar as notas de cada acorde dentro da escala com backing tracks",
+   "descricao": "Pratique com progressões diatônicas para treinar a localização das notas de cada acorde dentro da escala do tom.",
+   "passos": [
+    "Toque sobre Amaj-Emaj-Bm-Dmaj usando a escala de Lá maior.",
+    "Repita sobre Abmaj-Cm-Fm-B♭m com a escala de Lá♭ maior.",
+    "Em cada acorde, mire suas notas dentro da escala.",
+    "Escolha uma abordagem e repita até ficar natural."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "mentalidade",
+   "titulo": "Pensar a progressão em blocos, não acorde isolado",
+   "descricao": "Trocar de escala a cada acorde isolado gera frases soltas e sobrecarrega a atenção, por exemplo ao escolher a escala do meio-diminuto ou um enclosure, e tira o movimento das linhas. Perceba que os acordes formam pequenas progressões e construa uma ideia coerente que atravesse o bloco inteiro.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--guitar-phrasing-97a22b#I18",
+    "7mpVem0mrQE#I15",
+    "G5q1lfMQ5A4#I17",
+    "7mpVem0mrQE#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "mentalidade",
+   "titulo": "Uma boa melodia funciona sobre vários acordes",
+   "descricao": "Não é preciso ajustar cada nota a cada acorde: uma boa melodia soa sobre acordes diferentes, e essa é a base da rearmonização. Se uma ideia soa bem sobre um acorde, teste-a sobre os outros da progressão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Rm8Y-Q6wbR4#I07",
+    "Rm8Y-Q6wbR4#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "mentalidade",
+   "titulo": "Não há uma única forma certa: misture abordagens",
+   "descricao": "O solo ideal costuma mesclar centro tonal, pentatônicas, formas de acorde, arpejos e modos conforme o momento, sem limitar as opções. Pode-se usar escala única num trecho e chord-scale no restante. Quem ainda não cria tudo de ouvido pode combinar melodia mental com uma escala, seja uma para todos os acordes, seja uma a cada dois acordes.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "yDiWrTsQ1tc#I27",
+    "itLSHk5jnTI#I01",
+    "en--chord-scale_system-ebd9f4#I04",
+    "x8V99YYMRTc#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "dica",
+   "titulo": "Linhas horizontais com destaques verticais",
+   "descricao": "Use a escala ou pentatônica do tom como base segura (ex.: menor ou pentatônica de Cm) e destaque as trocas com arpejos, tríades ou tétrades do acorde, como fazem Larry Carlton e Pat Metheny. No blues, alterne movimentos lineares com melodia vertical nas notas de cada acorde. Ross Campbell, por exemplo, mistura tríades com a pentatônica maior de Lá. A escala rápida continua valendo, desde que você saiba quando cai em chord tone e quando é passagem.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "blog--p-20309-5f6c7e#I06",
+    "6I9x7a1MCI4#I13",
+    "I2jAT4btppU#I02",
+    "5e0SpzCw3IA#I20",
+    "qIewGDRWBu8#I05",
+    "W96yUcOEub0#I29"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "conceito",
+   "titulo": "Melodia e harmonia como um único pensamento",
+   "descricao": "Para Nelson Faria, toda mudança melódica está ligada a uma mudança harmônica, e as duas surgem juntas na mente: ele já ouve internamente o som de ambas ao improvisar. É o estágio em que a visão dupla deixa de ser cálculo e vira escuta.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "v2rtFiZPAJ4#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "tqnvvqZu2_c#I06",
+   "sugestao": "C10.5",
+   "motivo": "Trata de superpor arpejos diferentes sobre um mesmo acorde (estrutura superior), não da escolha entre centro tonal e acorde a acorde."
+  }
+ ],
+ "observacoes": "As secundárias #1, #81, #82 e #97 foram incorporadas aos itens; as demais secundárias pertencem a outras subcategorias (C09.1, C10, C11.3) e foram omitidas. Itens de exercício (K04, K06, K16, K17) foram mantidos separados dos conceitos que treinam.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 79,
+  "ideias_secundarias": 19,
+  "itens": 26,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1573,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 22223,
+   "output_tokens": 11289
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 3,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

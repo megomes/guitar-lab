@@ -1,0 +1,802 @@
+{
+ "fonte_id": "XL9TYmwkHWs",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+  "autor": "Paul Davids",
+  "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs",
+  "idioma": "en",
+  "duracao": "36m 13s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/XL9TYmwkHWs--5-levels-of-improvisation-ft-matteo-mancuso.md"
+ },
+ "resumo": "Vídeo do canal Paul Davids com o guitarrista Matteo Mancuso, que apresenta cinco estágios de evolução na improvisação sobre uma backing track em C maior: pentatônica, escala maior, arpejos, acordes externos e cromatismo. O conteúdo é voltado a guitarristas que já tocam pentatônica e querem sair do padrão de caixas para frases mais musicais. Há muitas dicas práticas sobre caixas, intervalos e vocabulário, mas várias explicações são breves e algumas dependem de ver o braço ou a tablatura.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Estrutura clara em cinco estágios, com exemplos concretos (regra das três oitavas, caixas da pentatônica, arpejos ascendentes e descendentes, notas de passagem). Perde pontos porque muitas explicações são vagas ('mais agressivo', 'mais jazzy') e não mostram as notas exatas, e os jams ocupam muito tempo sem comentário didático."
+ },
+ "assuntos_principais": [
+  "pentatônica menor",
+  "regra das três oitavas",
+  "caixas da pentatônica",
+  "escala maior",
+  "terças e sextas",
+  "arpejos da escala",
+  "acordes externos",
+  "melódica menor",
+  "cromatismo",
+  "notas de passagem",
+  "vocabulário de intervalos",
+  "rotina de prática"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e apresentação do convidado",
+   "inicio": "00:00",
+   "fim": "00:57",
+   "resumo": "Apresentação de Matteo Mancuso e do pedido de ajuda para a comunidade de improvisação.",
+   "assuntos": [
+    "apresentação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Plano do vídeo e apresentação da backing track",
+   "inicio": "00:57",
+   "fim": "02:32",
+   "resumo": "Explicação de que o vídeo vai do básico ao avançado e apresentação da faixa em C maior, disponível no Patreon.",
+   "assuntos": [
+    "backing track",
+    "plano do vídeo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Fundamentos da improvisação e pentatônica como base",
+   "inicio": "02:32",
+   "fim": "03:20",
+   "resumo": "Não é preciso dominar todas as escalas antes de improvisar; a pentatônica menor serve como zona segura.",
+   "assuntos": [
+    "fundamentos",
+    "pentatônica menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Estágio 1: variação da mesma frase na pentatônica",
+   "inicio": "03:20",
+   "fim": "06:15",
+   "resumo": "Tocar a mesma frase de formas diferentes usando bend, slide e microbend, e demonstração de jam só com pentatônica.",
+   "assuntos": [
+    "pentatônica",
+    "bend",
+    "slide",
+    "variação de frase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Regra das três oitavas",
+   "inicio": "06:15",
+   "fim": "08:39",
+   "resumo": "Repetir a mesma forma em três âncoras de C pelo braço para mover-se na diagonal e expandir o vocabulário.",
+   "assuntos": [
+    "pentatônica",
+    "oitavas",
+    "âncoras no braço",
+    "movimento diagonal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "As cinco caixas da pentatônica e mistura de 3 e 2 notas por corda",
+   "inicio": "08:39",
+   "fim": "11:00",
+   "resumo": "Cada caixa da pentatônica tem timbre e possibilidades de bend diferentes; mistura de 3 e 2 notas por corda para variar o ritmo.",
+   "assuntos": [
+    "cinco caixas",
+    "bend",
+    "3 e 2 notas por corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Estágio 2: escala maior e posições",
+   "inicio": "11:00",
+   "fim": "13:37",
+   "resumo": "Adicionar as notas da escala maior à pentatônica, usar posições mistas e jam com escala maior.",
+   "assuntos": [
+    "escala maior",
+    "posições mistas",
+    "notas de pouso",
+    "notas-alvo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Benefícios da escala maior e nomes das notas versus funções",
+   "inicio": "13:37",
+   "fim": "15:46",
+   "resumo": "O vocabulário de intervalos é mais importante que as formas; pensar na função da nota em relação à tonalidade.",
+   "assuntos": [
+    "intervalos",
+    "funções das notas",
+    "vocabulário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Terças, sextas e vocabulário da escala maior",
+   "inicio": "15:46",
+   "fim": "18:57",
+   "resumo": "Terças e sextas como intervalos melódicos centrais, com string skipping e frases baseadas em intervalos.",
+   "assuntos": [
+    "terças",
+    "sextas",
+    "string skipping",
+    "intervalos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Estágio 3: arpejos da escala e exercício",
+   "inicio": "18:57",
+   "fim": "22:50",
+   "resumo": "Tríades abertas, harmonização da escala maior, exercício de arpejos ascendentes e descendentes e variação pulando notas.",
+   "assuntos": [
+    "arpejos",
+    "tríades abertas",
+    "harmonização",
+    "exercício de arpejos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Estágio 4: acordes externos e estudo de progressão",
+   "inicio": "22:50",
+   "fim": "27:36",
+   "resumo": "Como lidar com o E7 que traz a G# fora da escala de C: visualizar os acordes em posições próximas e conectá-los.",
+   "assuntos": [
+    "acordes externos",
+    "progressão",
+    "visualização de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Melódica menor",
+   "inicio": "27:36",
+   "fim": "29:28",
+   "resumo": "A melódica menor é a escala maior com a terça menor; trocar uma nota da frase para mudar o colorido.",
+   "assuntos": [
+    "melódica menor",
+    "funções das notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Estágio 5: cromatismo e notas erradas",
+   "inicio": "29:28",
+   "fim": "32:08",
+   "resumo": "Escala maior com sexta menor, e a ideia de que o contexto e o tempo em que a nota cai definem se ela soa errada.",
+   "assuntos": [
+    "cromatismo",
+    "nota errada",
+    "tempo forte e fraco",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Regras para incorporar cromatismo",
+   "inicio": "32:08",
+   "fim": "33:35",
+   "resumo": "Notas cromáticas devem ser de passagem entre notas da escala e o pouso deve ser em nota da escala; escutar muito ajuda.",
+   "assuntos": [
+    "cromatismo",
+    "notas de passagem",
+    "escuta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Jam final com cromatismo",
+   "inicio": "33:35",
+   "fim": "35:36",
+   "resumo": "Jam livre com todos os conceitos e reações de Paul e Matteo.",
+   "assuntos": [
+    "jam"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S16",
+   "titulo": "Rotina de prática e despedida",
+   "inicio": "35:36",
+   "fim": "36:13",
+   "resumo": "Matteo diz que pratica cerca de 4 horas por dia, mais de 12 horas na adolescência, e o vídeo se despede.",
+   "assuntos": [
+    "rotina de prática",
+    "despedida"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Não esperar dominar tudo para improvisar",
+   "descricao": "Não é preciso conhecer todas as escalas e todos os arpejos antes de começar a improvisar. Matteo afirma que a forma mais rápida de evoluir é deixar ir e improvisar.",
+   "passos": [],
+   "timestamp": "02:32",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "improvisação"
+   ],
+   "id_global": "XL9TYmwkHWs#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor como zona segura",
+   "descricao": "A pentatônica menor funciona como o esqueleto do fraseado e a zona segura para começar a improvisar. Em C maior, a pentatônica de C maior tem as mesmas notas da pentatônica de Lá menor (A C D E G).",
+   "passos": [],
+   "timestamp": "03:20",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "pentatônica menor",
+    "zona segura"
+   ],
+   "id_global": "XL9TYmwkHWs#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Variar a mesma frase com bend, slide e microbend",
+   "descricao": "Tocar a mesma frase da pentatônica e variar a execução com bend, slide e microbend, além de começar em notas diferentes. Assim uma única frase rende vários discursos diferentes.",
+   "passos": [
+    "Escolher uma frase curta da pentatônica de uma caixa",
+    "Tocar a frase original sem efeitos",
+    "Repetir aplicando um bend na nota mais importante",
+    "Repetir trocando por um slide e depois por um microbend",
+    "Repetir começando a frase em outra nota da mesma caixa"
+   ],
+   "timestamp": "04:15",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "bend",
+    "slide",
+    "microbend",
+    "variação de frase"
+   ],
+   "id_global": "XL9TYmwkHWs#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Regra das três oitavas",
+   "descricao": "Repetir a mesma forma de pentatônica em três pontos do braço, cada um com a nota C como âncora (C nas três oitavas). Isso permite mover-se na diagonal em vez de só subir e descer verticalmente.",
+   "passos": [],
+   "timestamp": "06:15",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "oitavas",
+    "âncoras",
+    "movimento diagonal"
+   ],
+   "id_global": "XL9TYmwkHWs#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Aplicar a regra das oitavas a qualquer escala e frase",
+   "descricao": "A regra das três oitavas vale para qualquer escala. Ao aprender uma ideia em duas cordas, repeti-la uma oitava acima ou abaixo expande o que você já sabe.",
+   "passos": [],
+   "timestamp": "07:18",
+   "nivel": "intermediario",
+   "tags": [
+    "oitavas",
+    "expansão de vocabulário"
+   ],
+   "id_global": "XL9TYmwkHWs#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Frases coerentes como sentenças",
+   "descricao": "Em vez de tocar a escala para cima e para baixo, construir frases com começo, meio e fim, como sentenças, para que o solo soe como música. A repetição de frases em oitavas diferentes ajuda a criar dinâmica.",
+   "passos": [],
+   "timestamp": "07:52",
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "dinâmica",
+    "frases"
+   ],
+   "id_global": "XL9TYmwkHWs#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Cada caixa da pentatônica tem timbre próprio",
+   "descricao": "As cinco caixas da pentatônica têm sonoridades diferentes, porque os bends ficam em lugares distintos. Uma caixa soa mais agressiva, lembrando Albert King, e outra mais suave; vale explorar as cinco.",
+   "passos": [],
+   "timestamp": "08:39",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "cinco caixas",
+    "bend",
+    "Albert King"
+   ],
+   "id_global": "XL9TYmwkHWs#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Misturar 3 e 2 notas por corda",
+   "descricao": "Para variar o ritmo e fugir do padrão de sempre 2 notas por corda, combinar caixas com 3 notas em uma corda e 2 em outra, em sequência repetida.",
+   "passos": [],
+   "timestamp": "10:06",
+   "nivel": "iniciante",
+   "tags": [
+    "digitação",
+    "3nps",
+    "2nps",
+    "ritmo"
+   ],
+   "id_global": "XL9TYmwkHWs#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Escala maior como segunda camada",
+   "descricao": "Depois da pentatônica, a segunda etapa é adicionar as duas notas que faltam para formar a escala maior (em C maior, F e B). O backing track em C maior gira em torno dessa escala.",
+   "passos": [],
+   "timestamp": "11:00",
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "pentatônica",
+    "C maior"
+   ],
+   "id_global": "XL9TYmwkHWs#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Usar notas fora da pentatônica como notas de pouso e alvo",
+   "descricao": "As notas que a pentatônica não tem podem ser usadas como notas de pouso ou notas-alvo, o que dá material novo para o solo.",
+   "passos": [],
+   "timestamp": "11:18",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "notas de pouso",
+    "pentatônica"
+   ],
+   "id_global": "XL9TYmwkHWs#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Posições mistas da escala maior",
+   "descricao": "Na escala maior, Matteo prefere posições mistas, com 3 notas em uma corda e 2 em outra (por exemplo na corda de Si), a usar só 3 notas por corda, que soa previsível para ele.",
+   "passos": [],
+   "timestamp": "11:51",
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "3nps",
+    "posições",
+    "ritmo"
+   ],
+   "id_global": "XL9TYmwkHWs#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Vocabulário de intervalos vale mais que formas",
+   "descricao": "Aprender intervalos e saltos entre notas é tão ou mais importante que decorar formas de escala. Isso gera um vocabulário menos previsível, com saltos grandes entre notas.",
+   "passos": [],
+   "timestamp": "13:37",
+   "nivel": "intermediario",
+   "tags": [
+    "intervalos",
+    "vocabulário",
+    "saltos"
+   ],
+   "id_global": "XL9TYmwkHWs#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pensar na função da nota, não só no nome",
+   "descricao": "Durante a improvisação o importante é a relação da nota com a tonalidade, não o nome dela. Exemplo: Fá sustenido em C maior é a quarta aumentada (#4), e saber isso indica a função dela na harmonia.",
+   "passos": [],
+   "timestamp": "14:31",
+   "nivel": "intermediario",
+   "tags": [
+    "funções",
+    "relação com a tonalidade",
+    "#4"
+   ],
+   "id_global": "XL9TYmwkHWs#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Terças e sextas como intervalos melódicos centrais",
+   "descricao": "Para Matteo, as terças e sextas são os intervalos mais importantes melodicamente. Começar estudando terças separadas e depois em pequenos acordes ajuda a usá-las no solo.",
+   "passos": [],
+   "timestamp": "15:46",
+   "nivel": "intermediario",
+   "tags": [
+    "terças",
+    "sextas",
+    "intervalos"
+   ],
+   "id_global": "XL9TYmwkHWs#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Tocar terças e sextas sobre a tonalidade",
+   "descricao": "Estudar terças e sextas maiores e menores na tonalidade e entender a relação de cada intervalo com a tonalidade ajuda na visualização do braço.",
+   "passos": [
+    "Escolher a tonalidade (C maior)",
+    "Tocar a terça e a sexta de cada grau da escala",
+    "Tocar as mesmas notas em pares com movimento melódico",
+    "Repetir com terças e sextas menores"
+   ],
+   "timestamp": "16:11",
+   "nivel": "intermediario",
+   "tags": [
+    "terças",
+    "sextas",
+    "tonalidade",
+    "exercício"
+   ],
+   "id_global": "XL9TYmwkHWs#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Terças pulando cordas (string skipping)",
+   "descricao": "Tocar terças e sextas pulando cordas (string skipping) é uma ferramenta para deixar a improvisação mais sofisticada. As terças em cordas vizinhas são mais difíceis, porque caem na mesma casa.",
+   "passos": [],
+   "timestamp": "16:44",
+   "nivel": "avancado",
+   "tags": [
+    "string skipping",
+    "terças",
+    "sextas",
+    "técnica"
+   ],
+   "id_global": "XL9TYmwkHWs#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S10",
+   "tipo": "recurso",
+   "titulo": "Tríade aberta com a terça uma oitava acima",
+   "descricao": "Tocar uma tríade e levar a terça maior uma oitava acima cria um voicing aberto com sonoridade de Eric Johnson, especialmente com delay e overdrive suave.",
+   "passos": [],
+   "timestamp": "17:50",
+   "nivel": "intermediario",
+   "tags": [
+    "tríade aberta",
+    "voicing",
+    "Eric Johnson",
+    "terça maior"
+   ],
+   "id_global": "XL9TYmwkHWs#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Arpejos disponíveis dentro da escala maior",
+   "descricao": "Harmonizando a escala maior de C, cada acorde formado por suas notas (por exemplo Fá maior 7M, Fmaj7) pode ser usado como arpejo, porque todas as notas pertencem a C maior.",
+   "passos": [],
+   "timestamp": "18:57",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "harmonização",
+    "Fmaj7",
+    "C maior"
+   ],
+   "id_global": "XL9TYmwkHWs#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Arpejos ascendentes e descendentes pelo campo harmônico",
+   "descricao": "Exercício para visualizar todos os arpejos da tonalidade em um só lugar: subir o arpejo de C, descer a partir de Ré menor, subir a partir de Mi menor e descer a partir de Fá, repetindo o ciclo.",
+   "passos": [
+    "Tocar o arpejo de C maior subindo",
+    "Descer o arpejo de Ré menor",
+    "Subir o arpejo de Mi menor",
+    "Descer o arpejo de Fá maior",
+    "Repetir o ciclo em outra posição do braço"
+   ],
+   "timestamp": "20:04",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "exercício",
+    "campo harmônico",
+    "visualização"
+   ],
+   "id_global": "XL9TYmwkHWs#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Pular notas nos arpejos para ficar menos previsível",
+   "descricao": "Em vez de sempre subir e descer o arpejo por completo, pular notas deixa a linha menos previsível e mais musical.",
+   "passos": [],
+   "timestamp": "22:23",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "previsibilidade",
+    "fraseado"
+   ],
+   "id_global": "XL9TYmwkHWs#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Acorde externo: visualizar no lugar mais próximo",
+   "descricao": "Ao aparecer um acorde com nota fora da tonalidade, como o E7 sobre C maior que traz Sol sustenido, visualizar esse acorde na posição mais próxima da região em que você está tocando, para não quebrar a frase.",
+   "passos": [],
+   "timestamp": "22:50",
+   "nivel": "avancado",
+   "tags": [
+    "acordes externos",
+    "E7",
+    "Sol sustenido",
+    "voice leading"
+   ],
+   "id_global": "XL9TYmwkHWs#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Você dita a frase, o acorde não dita você",
+   "descricao": "O acorde de fundo não deve quebrar a frase: quem conduz é o solista. Evitar tocar algo sem relação com a frase só porque o acorde mudou.",
+   "passos": [],
+   "timestamp": "24:08",
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "frase",
+    "acordes"
+   ],
+   "id_global": "XL9TYmwkHWs#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Estudar a progressão visualizando acordes em posições próximas",
+   "descricao": "Para estudar uma progressão, visualizar cada acorde na posição mais próxima do anterior, para não pular pelo braço. Quando a região estiver dominada, mover-se para outra posição.",
+   "passos": [
+    "Escolher a progressão (C maior e E7 neste caso)",
+    "Visualizar o acorde inicial numa posição",
+    "Encontrar o acorde seguinte na posição mais próxima",
+    "Tocar a progressão com movimento mínimo pelo braço",
+    "Repetir mudando de região até dominar o braço"
+   ],
+   "timestamp": "24:42",
+   "nivel": "avancado",
+   "tags": [
+    "progressão",
+    "acordes externos",
+    "visualização",
+    "braço"
+   ],
+   "id_global": "XL9TYmwkHWs#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Melódica menor como escala maior com terça menor",
+   "descricao": "A melódica menor é a escala maior com a terça menor (em Fá menor melódica, o Lá bemol no lugar do Lá natural). Ela muda só uma nota em relação à escala maior, o que dá cor sem grande mudança.",
+   "passos": [],
+   "timestamp": "27:37",
+   "nivel": "avancado",
+   "tags": [
+    "melódica menor",
+    "terça menor",
+    "cor"
+   ],
+   "id_global": "XL9TYmwkHWs#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Adaptar a frase da escala maior trocando uma nota",
+   "descricao": "Para mudar de maior para menor sem tocar algo totalmente novo, repetir a frase tocada na escala maior e trocar apenas a terça maior pela menor. Para isso é preciso saber qual nota é a terça maior.",
+   "passos": [],
+   "timestamp": "28:11",
+   "nivel": "intermediario",
+   "tags": [
+    "adaptação de frase",
+    "terça",
+    "funções"
+   ],
+   "id_global": "XL9TYmwkHWs#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Escala maior com sexta menor como fonte de cromatismo",
+   "descricao": "A escala citada na fala é a escala maior com a sexta menor (sexta abaixada), usada sobre o backing track para criar cor cromática. O nome dado na legenda está errado, veja observações.",
+   "passos": [],
+   "timestamp": "29:55",
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "sexta menor",
+    "escala maior"
+   ],
+   "id_global": "XL9TYmwkHWs#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Nota 'errada' depende do tempo em que cai",
+   "descricao": "Para Matteo, o cromatismo depende mais do ritmo do que da nota. Uma nota cromática cai mal em tempo forte e soa intencional quando é nota de passagem em tempo fraco.",
+   "passos": [],
+   "timestamp": "30:33",
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "tempo forte",
+    "nota de passagem",
+    "ritmo"
+   ],
+   "id_global": "XL9TYmwkHWs#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Contexto e resolução fazem a nota certa",
+   "descricao": "Não existe nota errada em si, só fora de contexto. Uma nota dissonante soa intencional se for resolvida logo em seguida na nota da escala.",
+   "passos": [],
+   "timestamp": "31:42",
+   "nivel": "avancado",
+   "tags": [
+    "resolução",
+    "contexto",
+    "cromatismo",
+    "tensão"
+   ],
+   "id_global": "XL9TYmwkHWs#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S14",
+   "tipo": "dica",
+   "titulo": "Pousar em notas da escala e usar cromatismo como passagem",
+   "descricao": "Regra prática: sempre pousar em uma nota da escala, e todas as notas cromáticas entre elas devem ser de passagem. Assim o cromatismo soa como ornamento e não como erro.",
+   "passos": [],
+   "timestamp": "33:01",
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "notas de passagem",
+    "regra"
+   ],
+   "id_global": "XL9TYmwkHWs#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S14",
+   "tipo": "exercicio",
+   "titulo": "Copiar vocabulário de quem usa cromatismo",
+   "descricao": "Escutar e copiar frases de guitarristas que usam cromatismo, para absorver o vocabulário e identificar as regras por trás dele, antes de criar as próprias.",
+   "passos": [
+    "Escolher um solo de referência com cromatismo",
+    "Transcrever ou copiar uma frase curta por vez",
+    "Identificar em que tempo cai a nota cromática",
+    "Identificar em qual nota da escala a frase pousa",
+    "Criar uma variação própria com a mesma regra"
+   ],
+   "timestamp": "33:01",
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "escuta",
+    "transcrição",
+    "vocabulário"
+   ],
+   "id_global": "XL9TYmwkHWs#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S16",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar cerca de 4 horas por dia",
+   "descricao": "Matteo diz que hoje pratica pelo menos 4 horas por dia, às vezes mais, e que na adolescência chegava a 12 horas diárias. A mensagem central do vídeo é praticar muito.",
+   "passos": [],
+   "timestamp": "35:38",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "prática diária",
+    "disciplina"
+   ],
+   "id_global": "XL9TYmwkHWs#I31"
+  }
+ ],
+ "artistas_citados": [
+  "Matteo Mancuso",
+  "Paul Davids",
+  "Albert King",
+  "Eric Johnson",
+  "Joe Bonamassa"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track em C maior disponível no Patreon do canal Paul Davids"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'mato manuso' é Matteo Mancuso; 'Joe Mayer' provavelmente é Joe Bonamassa (citado como exemplo de 'all the blues guys', usei o nome provável com cautela); 'bbop major' e 'bebop major' foram transcritos mas a descrição (maior com sexta menor) indica escala maior com sexta menor, e o nome original não ficou claro; 'back in track' é backing track; '3nps' significa 3 notas por corda; 'F Shar' é Fá sustenido. Muitos conceitos (caixas da pentatônica, posições da escala maior, progressões de acordes) dependem de ver o braço ou a tablatura, que não aparece na transcrição. Os jams (trechos de improvisação) são longos e pouco comentados, e a transcrição fica confusa em trechos com música de fundo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00399,
+  "via": "api"
+ }
+}

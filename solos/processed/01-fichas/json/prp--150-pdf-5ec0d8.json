@@ -1,0 +1,146 @@
+{
+ "fonte_id": "prp--150-pdf-5ec0d8",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "UMA PROPOSTA DE ENSINO DA IMPROVISAÇÃO NA GUITARRA",
+  "autor": "",
+  "url": "https://www.prp.unicamp.br/pibic/congressos/xvcongresso/cdrom/pdfN/150.pdf",
+  "site": "www.prp.unicamp.br",
+  "idioma": "pt",
+  "tema_coleta": "academico",
+  "arquivo_raw": "solos/raw/documentos/prp--150-pdf-5ec0d8.md"
+ },
+ "resumo": "A fonte é apenas o resumo (abstract) de um trabalho de iniciação científica da UNICAMP que propõe um caminho de estudo da improvisação na guitarra em música popular, organizado em ordem cronológica, do mais fácil ao mais complicado. O estudo se baseia nas escalas pentatônicas, por serem material simples e muito usado em blues, country, rock, jazz e música brasileira. Houve revisão bibliográfica e transcrições de artistas como BB King, Stevie Ray Vaughan e Jimmy Page. O texto não traz exercícios, posições ou passos concretos, só a metodologia geral. Serve como indicação de abordagem para guitarristas iniciantes e intermediários.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 1,
+  "justificativa": "É só o resumo de um trabalho acadêmico. Apresenta objetivo e método, sem exercícios, licks, posições ou passos práticos. Serve apenas como indicação de abordagem e de referências."
+ },
+ "assuntos_principais": [
+  "pentatônicas",
+  "ensino de improvisação",
+  "progressão de estudo",
+  "transcrição",
+  "blues",
+  "rock"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Resumo da proposta de ensino de improvisação com pentatônicas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o objetivo (um caminho de estudo da improvisação do mais fácil ao mais complicado), a escolha das pentatônicas como base, o método (pesquisa bibliográfica e transcrições de BB King, Stevie Ray Vaughan e Jimmy Page) e o resultado (um caminho para assimilar novos materiais musicais).",
+   "assuntos": [
+    "pentatônicas",
+    "metodologia de ensino",
+    "transcrições",
+    "estilos"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "rotina_estudo",
+   "titulo": "Estudar improvisação em ordem progressiva, do mais fácil ao mais complicado",
+   "descricao": "A proposta defende organizar o aprendizado da improvisação na guitarra em ordem cronológica. Começa-se pelos processos mais simples e avança-se aos mais complexos, em vez de estudar material avulso sem sequência. O texto não detalha as etapas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "método",
+    "improvisação"
+   ],
+   "id_global": "prp--150-pdf-5ec0d8#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas como ponto de partida por serem material simples e universal",
+   "descricao": "As escalas pentatônicas são escolhidas como base do estudo por serem um material musical simples e muito usado em blues, country, rock, jazz e música brasileira. Dominá-las dá um vocabulário aplicável a vários estilos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "blues",
+    "rock",
+    "country",
+    "jazz",
+    "música brasileira"
+   ],
+   "id_global": "prp--150-pdf-5ec0d8#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Estudar abordagens estilísticas diferentes sobre as mesmas escalas",
+   "descricao": "O trabalho reúne diversas abordagens estilísticas para o mesmo material, as pentatônicas. A ideia é que a mesma escala soa diferente conforme o estilo, então vale estudar como cada gênero a utiliza.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "estilo",
+    "pentatônica",
+    "fraseado"
+   ],
+   "id_global": "prp--150-pdf-5ec0d8#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Aprender por transcrição de artistas consagrados",
+   "descricao": "Para exemplificar cada etapa, a pesquisa usa transcrições de solos de BB King, Stevie Ray Vaughan, Jimmy Page e outros. Transcrever e analisar solos de referência é apresentado como forma de absorver o vocabulário de cada estilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "transcrição",
+    "BB King",
+    "Stevie Ray Vaughan",
+    "Jimmy Page"
+   ],
+   "id_global": "prp--150-pdf-5ec0d8#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "O estudo das pentatônicas é um modelo para assimilar novos materiais musicais",
+   "descricao": "O resultado do trabalho é, além do material sobre pentatônicas, um caminho replicável para assimilar outros materiais musicais na improvisação. O mesmo processo gradual pode ser aplicado depois a escalas e conceitos novos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "método",
+    "assimilação",
+    "vocabulário"
+   ],
+   "id_global": "prp--150-pdf-5ec0d8#I05"
+  }
+ ],
+ "artistas_citados": [
+  "BB King",
+  "Stevie Ray Vaughan",
+  "Jimmy Page"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Trabalho de iniciação científica (PIBIC/UNICAMP) de Emiliano Cardoso Sampaio, orientado por Marcos Siqueira Cavalcante e Antônio Rafael Carvalho dos Santos",
+  "Transcrições de solos de BB King, Stevie Ray Vaughan e Jimmy Page (mencionadas, não fornecidas no trecho)"
+ ],
+ "observacoes": "A fonte é só o resumo de uma página de um trabalho acadêmico (XV Congresso de IC da UNICAMP). O conteúdo prático (escalas, posições, exercícios, transcrições) não está no texto fornecido, então as ideias são genéricas e metodológicas. O campo de autor/canal veio vazio. O autor é Emiliano Cardoso Sampaio, extraído do próprio texto.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:14",
+  "tentativas": 1,
+  "custo_usd": 0.2019
+ }
+}

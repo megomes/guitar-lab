@@ -1,0 +1,622 @@
+{
+ "fonte_id": "H3DDn8CcSTA",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA",
+  "idioma": "en",
+  "duracao": "12m 53s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/H3DDn8CcSTA--learn-every-blues-song-ever-in-12-minutes.md"
+ },
+ "resumo": "Aula de Daniel Seriff que apresenta as duas formas de blues de 12 compassos mais comuns: o blues dominante (1-4-5 em A7, D7, E7) e o blues menor (Am7, Dm7, com a turnaround F9-E7#9). Ensina shapes de acordes portáteis (shell voicings) e o padrão em 'L' para tocar 1-4-5 em qualquer tonalidade. Indicado para iniciantes e intermediários que querem tocar com backing tracks e jams.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com casas, cordas e progressões explícitas e um padrão visual (L shape) fácil de memorizar. Porém é rápido em alguns trechos, depende muito de ver o braço e o PDF de diagramas, e tem pausas de patrocínio e digressões. Não há exercícios de improvisação propriamente ditos."
+ },
+ "assuntos_principais": [
+  "blues de 12 compassos",
+  "blues dominante 1-4-5",
+  "blues menor",
+  "shell voicings",
+  "padrão L shape (1-4-5)",
+  "turnaround",
+  "pentatônica menor sobre blues",
+  "acordes dominantes e maiores"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: os dois blues essenciais",
+   "inicio": "0:00",
+   "fim": "0:28",
+   "resumo": "Anúncio da aula: duas formas de blues de 12 compassos, tocadas na tonalidade de Lá.",
+   "assuntos": [
+    "blues de 12 compassos"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que é o blues de 12 compassos",
+   "inicio": "0:28",
+   "fim": "1:05",
+   "resumo": "Explica a forma de 12 compassos em 4/4 e cita músicas que usam a progressão.",
+   "assuntos": [
+    "blues de 12 compassos",
+    "compasso 4/4"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Blues dominante: 1-4-5 com A7, D7 e E7",
+   "inicio": "1:05",
+   "fim": "2:10",
+   "resumo": "Apresenta os acordes A7, D7 e E7 como I, IV e V, todos dominantes, e a ideia de trabalhar com números para transpor.",
+   "assuntos": [
+    "blues dominante 1-4-5",
+    "acordes dominantes",
+    "campo de graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Shapes de acordes fáceis",
+   "inicio": "2:10",
+   "fim": "3:50",
+   "resumo": "Mostra shell voicings para I, IV e V em volta da corda Mi grave e da corda Lá, como alternativa às pestanas.",
+   "assuntos": [
+    "shell voicings",
+    "pestana",
+    "shapes de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "O padrão em L para qualquer tonalidade",
+   "inicio": "3:50",
+   "fim": "5:30",
+   "resumo": "Mostra o 'L shape' formado pelas raízes de I, IV e V, que permite tocar 1-4-5 em qualquer casa.",
+   "assuntos": [
+    "padrão L",
+    "raízes 1-4-5",
+    "movimento de shape"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Tocando a forma completa de 12 compassos",
+   "inicio": "5:30",
+   "fim": "7:15",
+   "resumo": "Toca a forma completa com os shapes, depois a versão 'quick change' e a versão com shapes na corda Lá na casa 12.",
+   "assuntos": [
+    "forma de 12 compassos",
+    "quick change",
+    "shapes na casa 12"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Patrocínio do curso",
+   "inicio": "6:46",
+   "fim": "7:19",
+   "resumo": "Anúncio do curso Creative Solo System com desconto.",
+   "assuntos": [
+    "patrocínio"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S8",
+   "titulo": "Por que não é blues menor",
+   "inicio": "7:15",
+   "fim": "8:45",
+   "resumo": "Discute por que a pentatônica menor sobre acordes dominantes não define blues menor, já que acordes dominantes têm terça maior.",
+   "assuntos": [
+    "pentatônica menor",
+    "acordes dominantes",
+    "terça maior",
+    "nomenclatura"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Blues menor: acordes e shapes",
+   "inicio": "8:45",
+   "fim": "10:15",
+   "resumo": "Apresenta Am7 e Dm7 como I e IV do blues menor e mostra shapes para eles.",
+   "assuntos": [
+    "blues menor",
+    "acordes m7",
+    "shapes de acordes menores"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "A turnaround correta do blues menor",
+   "inicio": "10:15",
+   "fim": "11:40",
+   "resumo": "Mostra que a turnaround comum é ♭VI-V-I (F9-E7#9-Am), não a de 5-4-1, com exemplos de James Brown e Hendrix.",
+   "assuntos": [
+    "turnaround",
+    "F9 e E7#9",
+    "♭6-5-1",
+    "blues menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Conclusão e próximo passo",
+   "inicio": "11:40",
+   "fim": "12:53",
+   "resumo": "Resume os dois blues e convida a usar a pentatônica menor pelo braço todo em outro vídeo.",
+   "assuntos": [
+    "pentatônica menor pelo braço",
+    "conclusão"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Estrutura do blues de 12 compassos",
+   "descricao": "O blues de 12 compassos tem 12 compassos em 4/4 (contados 1 2 3 4) e segue uma progressão que se repete continuamente, presente em milhares de músicas.",
+   "passos": [],
+   "timestamp": "00:40",
+   "nivel": "iniciante",
+   "tags": [
+    "12 compassos",
+    "4/4",
+    "forma"
+   ],
+   "id_global": "H3DDn8CcSTA#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Blues dominante em A: A7, D7, E7",
+   "descricao": "Na tonalidade de Lá, o blues dominante usa A7 (I), D7 (IV) e E7 (V). Todos são acordes de sétima dominante (sétima menor, ♭7), inclusive o I e o IV.",
+   "passos": [],
+   "timestamp": "01:13",
+   "nivel": "iniciante",
+   "tags": [
+    "blues dominante",
+    "1-4-5",
+    "dominante",
+    "A7"
+   ],
+   "id_global": "H3DDn8CcSTA#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pensar em graus para transpor",
+   "descricao": "Usar os números de graus (1, 4, 5) em vez dos nomes de acordes facilita tocar o mesmo blues em qualquer tonalidade.",
+   "passos": [],
+   "timestamp": "01:30",
+   "nivel": "iniciante",
+   "tags": [
+    "graus",
+    "transposição",
+    "1-4-5"
+   ],
+   "id_global": "H3DDn8CcSTA#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Shell voicing como alternativa à pestana",
+   "descricao": "Em vez da pestana em formato de E (grande e cheia de notas, difícil para muitos), use shell voicings: shapes pequenos e portáteis que soam bem em contexto de banda.",
+   "passos": [],
+   "timestamp": "02:21",
+   "nivel": "iniciante",
+   "tags": [
+    "shell voicing",
+    "pestana",
+    "shapes"
+   ],
+   "id_global": "H3DDn8CcSTA#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Shell voicing de A7 com raiz na corda Mi grave",
+   "descricao": "Shape de A7 com a raiz na 5ª casa da corda Mi grave: tocar 5 X 5 6 (cordas Mi grave, Lá, Ré, Sol, Si, Mi agudo). Os diagramas estão no PDF do vídeo.",
+   "passos": [
+    "Posicionar o indicador na 5ª casa da corda Mi grave (A)",
+    "Tocar as cordas Lá, Ré, Sol e Si conforme o shape 5 X 5 6",
+    "Não tocar a corda Mi agudo como pede o shape (X na 4ª corda)"
+   ],
+   "timestamp": "02:53",
+   "nivel": "iniciante",
+   "tags": [
+    "A7",
+    "shell voicing",
+    "corda Mi grave"
+   ],
+   "id_global": "H3DDn8CcSTA#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Shell voicing de D7 com raiz na corda Lá",
+   "descricao": "Para o IV (D7) basta descer uma corda a partir do A7 na corda Mi grave, chegando à raiz D na corda Lá. O shape apresentado é X 5 4 5, em torno da 5ª casa.",
+   "passos": [
+    "Descer uma corda a partir do shape de A7, pousando a raiz D na corda Lá",
+    "Tocar X 5 4 5 (corda Lá, Ré, Sol, Si)"
+   ],
+   "timestamp": "03:05",
+   "nivel": "iniciante",
+   "tags": [
+    "D7",
+    "shell voicing",
+    "corda Lá",
+    "IV"
+   ],
+   "id_global": "H3DDn8CcSTA#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Shape de E7 movendo o D7 duas casas",
+   "descricao": "Para o V (E7), mover o shape de D7 dois trastes em direção ao corpo da guitarra, mantendo a mesma forma.",
+   "passos": [
+    "Pegar o shape de D7 (X 5 4 5)",
+    "Deslocar dois trastes para cima, em direção ao corpo"
+   ],
+   "timestamp": "03:25",
+   "nivel": "iniciante",
+   "tags": [
+    "E7",
+    "shell voicing",
+    "V",
+    "deslocamento"
+   ],
+   "id_global": "H3DDn8CcSTA#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Padrão em L: raízes 1-4-5",
+   "descricao": "As raízes de I (corda Mi grave), IV (corda Lá, uma corda abaixo) e V (duas casas acima do IV) formam um desenho em L. Esse desenho permite tocar 1-4-5 em praticamente qualquer casa, e funciona começando o I na corda Mi grave.",
+   "passos": [],
+   "timestamp": "03:25",
+   "nivel": "iniciante",
+   "tags": [
+    "padrão L",
+    "raízes",
+    "1-4-5",
+    "visualização"
+   ],
+   "id_global": "H3DDn8CcSTA#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Forma de 12 compassos em A (blues dominante)",
+   "descricao": "Sequência: compassos 1-2 A7; 3 D7; 4 A7; 5-6 D7 (a fonte fala em 'stay on D7'); 7 A7; 8 E7; 9 D7; 10-11 A7; 12 E7, voltando ao início. Em termos de graus: I I I I IV IV I I V IV I V.",
+   "passos": [
+    "Tocar quatro compassos de A7 (I)",
+    "Tocar dois compassos de D7 (IV)",
+    "Voltar a A7 por dois compassos",
+    "Tocar E7 (V) no compasso 8",
+    "Tocar D7 no compasso 9",
+    "Voltar a A7 nos compassos 10 e 11",
+    "Fechar com E7 no compasso 12 e recomeçar"
+   ],
+   "timestamp": "04:01",
+   "nivel": "iniciante",
+   "tags": [
+    "forma de 12 compassos",
+    "progressão",
+    "blues dominante"
+   ],
+   "id_global": "H3DDn8CcSTA#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Shapes na casa 12 para o mesmo blues",
+   "descricao": "Dá para tocar o blues dominante também em outra posição: A7 com shell voicing X 12 11 12 na casa 12 (corda Lá) e D7 com 10 X 10 11 logo abaixo; E7 na 12ª casa é o V.",
+   "passos": [
+    "Tocar X 12 11 12 para o A7",
+    "Tocar o shape de D7 com 10 X 10 11",
+    "Usar o shape de E7 na 12ª casa"
+   ],
+   "timestamp": "05:06",
+   "nivel": "intermediario",
+   "tags": [
+    "casa 12",
+    "shell voicing",
+    "posição alternativa"
+   ],
+   "id_global": "H3DDn8CcSTA#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Quick change em blues dominante",
+   "descricao": "Versão do blues dominante com troca rápida para D7 no segundo compasso: A7 (compassos 1-2 no I), D7 (compasso 2), volta ao A7, e mantém a estrutura de 12 compassos.",
+   "passos": [
+    "Tocar A7 no compasso 1",
+    "Trocar para D7 no compasso 2",
+    "Voltar a A7 no compasso 3"
+   ],
+   "timestamp": "05:38",
+   "nivel": "intermediario",
+   "tags": [
+    "quick change",
+    "blues dominante",
+    "troca de acorde"
+   ],
+   "id_global": "H3DDn8CcSTA#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Linhas de baixo em L para 1-4-5",
+   "descricao": "As notas graves de A, D e E formam outro desenho em L que pode ser seguido ao tocar 1-4-5 em qualquer tonalidade, e que também aparece em outros estilos além do blues.",
+   "passos": [],
+   "timestamp": "06:12",
+   "nivel": "intermediario",
+   "tags": [
+    "baixo",
+    "padrão L",
+    "1-4-5"
+   ],
+   "id_global": "H3DDn8CcSTA#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor sobre blues dominante",
+   "descricao": "A pentatônica menor de A é tocada sobre a progressão de acordes dominantes (A7-D7-E7), uma prática muito comum, mas o autor prefere chamar essa progressão de blues dominante, não de blues menor.",
+   "passos": [],
+   "timestamp": "07:15",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "blues dominante",
+    "nomenclatura"
+   ],
+   "id_global": "H3DDn8CcSTA#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Acordes dominantes têm terça maior",
+   "descricao": "Um acorde dominante (como A7) contém terça maior, por isso tecnicamente não é um acorde menor. Assim, o uso de pentatônica menor sobre acordes dominantes não define o blues como menor.",
+   "passos": [],
+   "timestamp": "07:40",
+   "nivel": "intermediario",
+   "tags": [
+    "terça maior",
+    "dominante",
+    "nomenclatura"
+   ],
+   "id_global": "H3DDn8CcSTA#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Blues menor em Am: Am7, Dm7 e E",
+   "descricao": "No blues menor de Lá, o I é Am7 e o IV é Dm7. O V aparece como E7 (Mi com sétima), não como Em7. A fonte destaca a sonoridade mista de acordes m7: triste, mas suave, funk e jazz.",
+   "passos": [],
+   "timestamp": "09:02",
+   "nivel": "intermediario",
+   "tags": [
+    "blues menor",
+    "m7",
+    "Am7",
+    "Dm7"
+   ],
+   "id_global": "H3DDn8CcSTA#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Shape de Am7 na corda Mi grave",
+   "descricao": "Am7 pode ser tocado com a raiz na 5ª casa da corda Mi grave, com shape 5 X 5 5 5 X (cordas Mi grave, Lá, Ré, Sol, Si, Mi agudo). Evite que as cordas Lá e Mi agudo soem, pois é uma forma móvel.",
+   "passos": [
+    "Pousar a raiz (A) na 5ª casa da corda Mi grave",
+    "Tocar 5 X 5 5 5 X (sem tocar Lá e Mi agudo)",
+    "Abafar as cordas excedentes para não soarem"
+   ],
+   "timestamp": "09:34",
+   "nivel": "intermediario",
+   "tags": [
+    "Am7",
+    "shape",
+    "corda Mi grave",
+    "abafamento"
+   ],
+   "id_global": "H3DDn8CcSTA#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Variar dedos em acordes m7",
+   "descricao": "Um mesmo shape pode ser tocado com diferentes combinações de dedos (às vezes com quatro dedos, às vezes dois), conforme a parte que está sendo tocada.",
+   "passos": [],
+   "timestamp": "09:34",
+   "nivel": "intermediario",
+   "tags": [
+    "digitação",
+    "m7",
+    "versatilidade"
+   ],
+   "id_global": "H3DDn8CcSTA#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Dm7 no shape CAGED",
+   "descricao": "O IV do blues menor (Dm7) pode ser tocado com um shape de Dm7 derivado do sistema CAGED, com a raiz na corda Lá (desce-se uma corda a partir do Am7).",
+   "passos": [
+    "A partir do Am7 na corda Mi grave, descer uma corda para a raiz D na corda Lá",
+    "Usar o shape de Dm7 do sistema CAGED (diagrama no PDF)"
+   ],
+   "timestamp": "10:08",
+   "nivel": "intermediario",
+   "tags": [
+    "Dm7",
+    "CAGED",
+    "shape"
+   ],
+   "id_global": "H3DDn8CcSTA#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "erro_comum",
+   "titulo": "Turnaround 5-4-1 não é a mais comum no blues menor",
+   "descricao": "Muitos guitarristas assumem que o blues menor usa turnaround 5-4-1 (Em7-Dm7-Am7), que aparece em Ain't No Sunshine mas é rara no formato clássico de blues. Esse é um erro comum em jam sessions.",
+   "passos": [],
+   "timestamp": "10:15",
+   "nivel": "intermediario",
+   "tags": [
+    "turnaround",
+    "erro comum",
+    "5-4-1"
+   ],
+   "id_global": "H3DDn8CcSTA#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Turnaround mais comum: ♭6-5-1",
+   "descricao": "A turnaround mais comum do blues menor é ♭VI-V-I: em Am, F7 (ou F9) leva ao E7 (ou E7♯9) que resolve em Am. A ♭6 é Fá.",
+   "passos": [],
+   "timestamp": "10:50",
+   "nivel": "avancado",
+   "tags": [
+    "turnaround",
+    "♭6-5-1",
+    "F7",
+    "E7#9"
+   ],
+   "id_global": "H3DDn8CcSTA#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "recurso",
+   "titulo": "Turnaround estilo James Brown e Hendrix",
+   "descricao": "Duas variações do ♭6-5-1: F9 para E7 (estilo James Brown) e E7♯9 (acorde de Hendrix) para voltar ao Am. Vale aprender as duas e usá-las na mesma música.",
+   "passos": [
+    "Tocar F9 no lugar do ♭VI",
+    "Resolver em E7 (ou E9)",
+    "Usar E7♯9 e voltar a Am"
+   ],
+   "timestamp": "11:13",
+   "nivel": "avancado",
+   "tags": [
+    "James Brown",
+    "Hendrix",
+    "F9",
+    "E7#9",
+    "turnaround"
+   ],
+   "id_global": "H3DDn8CcSTA#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Forma do blues menor no braço",
+   "descricao": "No blues menor, a raiz de Am fica na corda Mi grave (5ª casa). Desce-se uma corda para o Dm (IV) e sobe-se duas casas para o E (V). Para o ♭VI (F), sobe-se mais uma casa a partir do E.",
+   "passos": [
+    "Pousar o Am na 5ª casa da corda Mi grave",
+    "Descer uma corda para o Dm (IV)",
+    "Subir duas casas para o E (V)",
+    "Subir uma casa a partir do E para o F (♭VI)"
+   ],
+   "timestamp": "12:24",
+   "nivel": "intermediario",
+   "tags": [
+    "blues menor",
+    "forma no braço",
+    "turnaround"
+   ],
+   "id_global": "H3DDn8CcSTA#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Aprender as formas antes de improvisar",
+   "descricao": "A fonte sugere dominar as duas progressões mais comuns do blues antes de usar a pentatônica menor em todo o braço, em vez de ficar preso às caixas da pentatônica.",
+   "passos": [],
+   "timestamp": "12:40",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "caixas",
+    "estudo"
+   ],
+   "id_global": "H3DDn8CcSTA#I23"
+  }
+ ],
+ "artistas_citados": [
+  "Daniel Seriff",
+  "John Coltrane",
+  "Fleetwood Mac",
+  "Albert King",
+  "James Brown",
+  "Jimi Hendrix"
+ ],
+ "musicas_citadas": [
+  "Sweet Home Chicago",
+  "Mustang Sally",
+  "I'm a King Bee",
+  "The Thrill Is Gone",
+  "Mr. P.C.",
+  "Ain't No Sunshine"
+ ],
+ "recursos_citados": [
+  "Creative Solo System (curso pago, com 25% de desconto)",
+  "PDF gratuito com diagramas e backing tracks (danielseriff.com)",
+  "Sistema CAGED",
+  "Vídeo do canal sobre pentatônica pelo braço todo"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'Beckham'/'back in track' indicam backing tracks; 'target nous' não aparece. Em 'D7 stay on D7' o compasso 5-6 é lido como D7 sem sustentação clara. O transcript cita 'a flat six to the five back to one' e a fonte fala em ♭6 como F, consistente com Am. Em 'five X five five five X' o shape de Am7 foi interpretado conforme o contexto. Trechos de shapes (ex.: 'X five four and five', 'ten X ten eleven') dependem de ver o vídeo e do PDF. Os timestamps de segmentos e ideias são aproximados, pois o transcript traz marcadores apenas em alguns pontos. A progressão do quick change e a de 12 compassos foram reconstruídas com base na fala e podem conter imprecisões.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00219,
+  "via": "api"
+ }
+}

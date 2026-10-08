@@ -1,0 +1,676 @@
+{
+ "fonte_id": "7Pdss_Gswtc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+  "autor": "Soulful Guitar Lessons",
+  "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc",
+  "idioma": "en",
+  "duracao": "21m 30s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/7Pdss_Gswtc--everyones-blues-solos-are-bad-until-they-learn-this.md"
+ },
+ "resumo": "Aula sobre solo e improvisação no blues, com o professor Alec Lehrman, que propõe cinco níveis de domínio. O método começa pelos acordes (C, F e G) em vez da caixa pentatônica, passa por tríades, flerte com a terça, alternância entre maior e menor, ritmo com hammer-ons e pull-offs, rakes, acorde diminuto como cor harmônica, variação de dinâmica, troca de captadores e chicken picking. É voltada a guitarristas que já tocam a pentatônica mas soam mecânicos ou pouco musicais.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos claros e aplicáveis, com exemplos de frases e demonstrações, mas muitos trechos são rápidos e dependem de ver o braço. Pouca profundidade teórica e exercícios pouco detalhados."
+ },
+ "assuntos_principais": [
+  "blues em C",
+  "acordes I-IV-V como base do solo",
+  "tríades",
+  "flertar com a terça",
+  "maior e menor no blues",
+  "hammer-on e pull-off",
+  "rake",
+  "acorde diminuto como cor harmônica",
+  "dinâmica de palheta",
+  "troca de captadores",
+  "chicken picking"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação e visão geral dos cinco níveis",
+   "inicio": "00:00",
+   "fim": "01:07",
+   "resumo": "Apresentação do professor, do público-alvo e da estrutura da aula em cinco níveis. Anuncia que o nível 1 não começa na caixa pentatônica e que os backing tracks estão disponíveis.",
+   "assuntos": [
+    "apresentação",
+    "estrutura da aula",
+    "backing track"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Nível 1: começar pelos acordes e não pela pentatônica",
+   "inicio": "01:07",
+   "fim": "02:47",
+   "resumo": "Explica por que o aluno deve partir dos acordes de C, F e G e tocar as notas dos acordes em vez de apenas traçar a pentatônica.",
+   "assuntos": [
+    "blues em C",
+    "acordes C F G",
+    "erro comum da pentatônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Nível 1: tocar C, F e G nas posições",
+   "inicio": "02:47",
+   "fim": "04:28",
+   "resumo": "Mostra as três formas de cada acorde (C, F e G) pelo braço e a ideia de tocar C, F e G em cada posição. Compara a pentatônica a um contorno e as notas dos acordes a pintar dentro da linha.",
+   "assuntos": [
+    "formas de acorde",
+    "shapes de C F G",
+    "pentatônica como contorno",
+    "notas dos acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Nível 2: tocar tríades",
+   "inicio": "04:28",
+   "fim": "05:36",
+   "resumo": "Introduz o nível 2 como tocar menos: usar tríades (três notas) tiradas das formas de acorde, como as três cordas agudas.",
+   "assuntos": [
+    "tríades",
+    "voicings de três notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Nível 2: flertar com a terça",
+   "inicio": "05:36",
+   "fim": "08:36",
+   "resumo": "Explica a terça como a nota do meio da forma de acorde e ensina a aproximá-la por meio tom abaixo ou acima para obter som blues.",
+   "assuntos": [
+    "terça",
+    "aproximação cromática",
+    "meio tom",
+    "som blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Nível 2: alternar maior e menor",
+   "inicio": "08:36",
+   "fim": "10:54",
+   "resumo": "Ensina a subir na terça maior, descer para a terça menor e resolver na maior, quebrando a ideia de que o acorde é só maior ou só menor.",
+   "assuntos": [
+    "terça maior e menor",
+    "resolução",
+    "blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Nível 3: ritmo e mão esquerda",
+   "inicio": "10:54",
+   "fim": "13:07",
+   "resumo": "Apresenta o nível 3 com foco em ritmo e nuances, usando hammer-ons e pull-offs rápidos como notas de graça na mão esquerda.",
+   "assuntos": [
+    "ritmo",
+    "hammer-on",
+    "pull-off",
+    "grace note"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Nível 3: rake na mão direita",
+   "inicio": "13:07",
+   "fim": "14:16",
+   "resumo": "Mostra o rake com a palheta, um movimento rápido sobre as cordas com a palheta inclinada, junto a um exemplo de frase na mão esquerda.",
+   "assuntos": [
+    "rake",
+    "palheta",
+    "frase de hammer-on"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Nível 4: harmonia com acorde diminuto",
+   "inicio": "14:16",
+   "fim": "15:56",
+   "resumo": "Apresenta o nível 4 com um acorde diminuto de F♯ entre o IV e o I, comum em blues de estilo Ray Charles e John Mayer.",
+   "assuntos": [
+    "harmonia",
+    "acorde diminuto",
+    "F♯ diminuto",
+    "IV para I"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Nível 4: arpejo diminuto e cautela",
+   "inicio": "15:56",
+   "fim": "17:39",
+   "resumo": "Ensina a tocar o arpejo do acorde diminuto como cor sobre a harmonia e alerta para não exagerar na complexidade.",
+   "assuntos": [
+    "arpejo diminuto",
+    "cor harmônica",
+    "complexidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Nível 5: variação de volume da palheta",
+   "inicio": "17:39",
+   "fim": "18:22",
+   "resumo": "Introduz o nível 5 com a variação de volume da palheta, alternando frases fortes e suaves como uma conversa.",
+   "assuntos": [
+    "dinâmica",
+    "volume da palheta",
+    "frase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Nível 5: troca de captadores",
+   "inicio": "18:22",
+   "fim": "19:33",
+   "resumo": "Sugere trocar de captador entre frases para mudar o timbre e evitar que o solo fique monótono em blues longos.",
+   "assuntos": [
+    "captadores",
+    "timbre",
+    "monotonia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Nível 5: chicken picking",
+   "inicio": "19:33",
+   "fim": "20:41",
+   "resumo": "Ensina chicken picking: usar a palheta na nota grave e o dedo médio ou indicador na nota aguda da tríade, omitindo a nota do meio.",
+   "assuntos": [
+    "chicken picking",
+    "dedos",
+    "tríade",
+    "nota grave e aguda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Despedida e chamada para o curso",
+   "inicio": "20:41",
+   "fim": "21:30",
+   "resumo": "Resume os conceitos, incentiva o uso do backing track e promove o curso completo.",
+   "assuntos": [
+    "despedida",
+    "backing track",
+    "curso"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Começar pelos acordes",
+   "descricao": "No blues em C, o solo deve partir dos acordes C, F e G, e não de uma caixa pentatônica. Os acordes definem as notas certas em todo o braço.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "acordes",
+    "blues em c",
+    "notas-alvo"
+   ],
+   "id_global": "7Pdss_Gswtc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Começar pela caixa pentatônica",
+   "descricao": "Muitos guitarristas começam o blues pela caixa pentatônica e ficam presos nela. O erro é tratar a escala como ponto de partida em vez dos acordes.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "erro comum"
+   ],
+   "id_global": "7Pdss_Gswtc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Três formas de cada acorde",
+   "descricao": "Cada acorde (C, F e G) tem três formas no braço: C aberto e duas pestanas de C. F e G usam as mesmas três formas deslocadas de posição.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "iniciante",
+   "tags": [
+    "formas de acorde",
+    "shapes",
+    "braço"
+   ],
+   "id_global": "7Pdss_Gswtc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pentatônica como contorno e acorde como preenchimento",
+   "descricao": "A pentatônica traça o contorno dos acordes, enquanto tocar as notas dos acordes é como pintar dentro da linha. Notas dos acordes dão mais controle sobre a harmonia.",
+   "passos": [],
+   "timestamp": "03:23",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "notas do acorde",
+    "harmonia"
+   ],
+   "id_global": "7Pdss_Gswtc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Tocar C, F e G nas três posições",
+   "descricao": "Percorrer o braço tocando C, F e G nas três formas de cada acorde, para se familiarizar com as notas dos acordes em todo o braço.",
+   "passos": [
+    "Escolher uma forma de C e tocar o acorde",
+    "Tocar F na forma correspondente",
+    "Tocar G na forma correspondente",
+    "Passar para a próxima posição e repetir C, F e G",
+    "Repetir até a sequência soar fluida em todo o braço"
+   ],
+   "timestamp": "03:56",
+   "nivel": "iniciante",
+   "tags": [
+    "C F G",
+    "posições",
+    "exercício"
+   ],
+   "id_global": "7Pdss_Gswtc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Nível 2: tocar tríades",
+   "descricao": "Em vez de tocar o acorde completo, tocar só as três notas da tríade, usando três cordas (por exemplo, as três agudas). Isso deixa o solo mais limpo.",
+   "passos": [],
+   "timestamp": "04:28",
+   "nivel": "iniciante",
+   "tags": [
+    "tríade",
+    "menos notas",
+    "voicing"
+   ],
+   "id_global": "7Pdss_Gswtc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Flertar com a terça por meio tom",
+   "descricao": "Na tonalidade de C, a terça é E. Aproxime-a deslizando de meio tom abaixo (E♭) ou de meio tom acima (F) antes de resolver no E para obter som blues.",
+   "passos": [],
+   "timestamp": "05:36",
+   "nivel": "intermediario",
+   "tags": [
+    "terça",
+    "meio tom",
+    "blues",
+    "notas-alvo"
+   ],
+   "id_global": "7Pdss_Gswtc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Terça no dedo do meio",
+   "descricao": "Na forma de acorde, a terça costuma ser a nota do meio, onde fica o dedo do meio. Localizar essa nota facilita tocar a terça com precisão.",
+   "passos": [],
+   "timestamp": "06:11",
+   "nivel": "iniciante",
+   "tags": [
+    "terça",
+    "localização no braço"
+   ],
+   "id_global": "7Pdss_Gswtc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Maior para menor e resolver no maior",
+   "descricao": "Num acorde de C, suba na terça maior (E), desça para a terça menor (E♭) e resolva de volta na terça maior (E). Essa sequência maior-menor-maior dá identidade blues.",
+   "passos": [],
+   "timestamp": "09:10",
+   "nivel": "intermediario",
+   "tags": [
+    "maior e menor",
+    "terça",
+    "resolução",
+    "blues"
+   ],
+   "id_global": "7Pdss_Gswtc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Achar que o acorde é só maior ou só menor",
+   "descricao": "Muitos músicos acreditam que é preciso escolher entre a 'gaveta' maior ou menor. No blues, misturar as duas terças é natural e treina o ouvido.",
+   "passos": [],
+   "timestamp": "09:10",
+   "nivel": "intermediario",
+   "tags": [
+    "maior e menor",
+    "erro comum",
+    "ouvido"
+   ],
+   "id_global": "7Pdss_Gswtc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Maior-menor-maior sobre F",
+   "descricao": "Aplicar a sequência maior-menor-maior também sobre o acorde de F, usando a terça de F (A) e sua versão menor (A♭).",
+   "passos": [
+    "Tocar a terça maior de F (A)",
+    "Descer para a terça menor (A♭)",
+    "Resolver de volta na terça maior (A)",
+    "Repetir a sequência sobre o acorde de C"
+   ],
+   "timestamp": "10:19",
+   "nivel": "intermediario",
+   "tags": [
+    "maior e menor",
+    "F",
+    "exercício"
+   ],
+   "id_global": "7Pdss_Gswtc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Nuances em vez de muitas notas",
+   "descricao": "O blues se ouve pelas nuances rítmicas e não pela velocidade. A ideia é extrair o máximo de duas ou três notas.",
+   "passos": [],
+   "timestamp": "10:54",
+   "nivel": "intermediario",
+   "tags": [
+    "ritmo",
+    "nuances",
+    "blues"
+   ],
+   "id_global": "7Pdss_Gswtc#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "frase_lick",
+   "titulo": "Hammer-on como grace note",
+   "descricao": "Fazer um hammer-on seguido de uma nota rápida, como uma nota de graça quase imperceptível, antes de voltar à nota principal. Manter a nota sem o toque rápido soa amador.",
+   "passos": [],
+   "timestamp": "11:28",
+   "nivel": "intermediario",
+   "tags": [
+    "hammer-on",
+    "grace note",
+    "mão esquerda"
+   ],
+   "id_global": "7Pdss_Gswtc#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Hammer-on e pull-off por todo o braço",
+   "descricao": "Praticar hammer-ons e pull-offs rápidos em diferentes regiões do braço para desenvolver variações rítmicas com a mão esquerda.",
+   "passos": [
+    "Escolher uma nota de uma corda",
+    "Fazer um hammer-on rápido para uma nota próxima",
+    "Fazer o pull-off de volta",
+    "Repetir em outras cordas e regiões do braço",
+    "Aumentar o andamento gradualmente"
+   ],
+   "timestamp": "12:03",
+   "nivel": "intermediario",
+   "tags": [
+    "hammer-on",
+    "pull-off",
+    "exercício",
+    "ritmo"
+   ],
+   "id_global": "7Pdss_Gswtc#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "frase_lick",
+   "titulo": "Frase com hammer-on e rake",
+   "descricao": "Na corda B, tocar a casa 8, fazer um hammer-on para a casa 10 e, em seguida, na corda G, tocar as casas 10 e 8. Ao final, fazer um rake descendente com a palheta inclinada.",
+   "passos": [],
+   "timestamp": "13:44",
+   "nivel": "intermediario",
+   "tags": [
+    "rake",
+    "hammer-on",
+    "frase",
+    "corda B",
+    "corda G"
+   ],
+   "id_global": "7Pdss_Gswtc#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Rake descendente com palheta inclinada",
+   "descricao": "Ao fazer o rake, desce-se com a palheta inclinada, passando rapidamente pelas cordas. O efeito soa como um sweep e é associado a John Mayer.",
+   "passos": [],
+   "timestamp": "13:44",
+   "nivel": "intermediario",
+   "tags": [
+    "rake",
+    "palheta",
+    "John Mayer"
+   ],
+   "id_global": "7Pdss_Gswtc#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Acorde diminuto de F♯ entre IV e I",
+   "descricao": "Entre o acorde de F (IV) e o retorno ao C (I), pode-se inserir um F♯ diminuto (F♯, A, C). Esse movimento é comum em blues e dá sofisticação.",
+   "passos": [],
+   "timestamp": "14:51",
+   "nivel": "avancado",
+   "tags": [
+    "diminuto",
+    "F♯",
+    "IV para I",
+    "harmonia"
+   ],
+   "id_global": "7Pdss_Gswtc#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Movimento de cor no blues",
+   "descricao": "Na progressão C-F-C-F-F♯ dim-C, a passagem pelo diminuto pode aparecer em músicas de Ray Charles e em colaborações de B.B. King com Fleetwood Mac.",
+   "passos": [],
+   "timestamp": "15:24",
+   "nivel": "avancado",
+   "tags": [
+    "progressão",
+    "referência",
+    "harmonia"
+   ],
+   "id_global": "7Pdss_Gswtc#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Arpejo do acorde diminuto",
+   "descricao": "Em vez de tocar o acorde diminuto, tocar as notas do F♯ diminuto (F♯, A, C) como arpejo sobre o compasso, para criar uma linha que combine com a harmonia.",
+   "passos": [
+    "Tocar C e F como base",
+    "Chegar ao compasso do F♯ diminuto",
+    "Tocar as notas F♯, A e C em arpejo",
+    "Voltar ao C e repetir"
+   ],
+   "timestamp": "15:56",
+   "nivel": "avancado",
+   "tags": [
+    "arpejo",
+    "diminuto",
+    "exercício",
+    "F♯"
+   ],
+   "id_global": "7Pdss_Gswtc#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Não exagerar na harmonia",
+   "descricao": "No blues de estilo mais simples, adicionar pouca complexidade basta. Um toque de cor já deixa o solo mais profissional, enquanto excesso soa amador.",
+   "passos": [],
+   "timestamp": "17:03",
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "simplicidade",
+    "harmonia"
+   ],
+   "id_global": "7Pdss_Gswtc#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Variar o volume da palheta",
+   "descricao": "Alternar frases fortes e suaves com a palheta, como uma conversa ou respiração. O volume constante soa robótico.",
+   "passos": [],
+   "timestamp": "17:39",
+   "nivel": "avancado",
+   "tags": [
+    "dinâmica",
+    "volume",
+    "palheta"
+   ],
+   "id_global": "7Pdss_Gswtc#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Tocar sempre no mesmo volume",
+   "descricao": "Manter o mesmo volume de ataque durante todo o solo denuncia falta de domínio. A variação de dinâmica precisa ser consciente.",
+   "passos": [],
+   "timestamp": "18:22",
+   "nivel": "avancado",
+   "tags": [
+    "dinâmica",
+    "erro comum"
+   ],
+   "id_global": "7Pdss_Gswtc#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Trocar de captador entre frases",
+   "descricao": "Em blues longos, trocar de captador entre frases muda o timbre e desperta o ouvinte. Essa troca é um truque simples para evitar monotonia.",
+   "passos": [],
+   "timestamp": "18:57",
+   "nivel": "avancado",
+   "tags": [
+    "captadores",
+    "timbre",
+    "monotonia"
+   ],
+   "id_global": "7Pdss_Gswtc#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S13",
+   "tipo": "exercicio",
+   "titulo": "Chicken picking em tríades",
+   "descricao": "Tocar tríades ignorando a nota do meio: a palheta toca a nota grave e o dedo médio (ou indicador) toca a nota aguda. O resultado é um timbre diferente do de palheta.",
+   "passos": [
+    "Tocar a tríade de um acorde",
+    "Omitir a nota do meio",
+    "Tocar a nota grave com a palheta",
+    "Tocar a nota aguda com o dedo médio",
+    "Alternar entre palheta e dedo em frases curtas"
+   ],
+   "timestamp": "19:33",
+   "nivel": "avancado",
+   "tags": [
+    "chicken picking",
+    "dedos",
+    "tríade"
+   ],
+   "id_global": "7Pdss_Gswtc#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S13",
+   "tipo": "recurso",
+   "titulo": "Usar os dedos para ampliar o timbre",
+   "descricao": "Usar os dedos, e não só a palheta, amplia a variação sonora do solo. Esse recurso separa o solo amador do mais elaborado.",
+   "passos": [],
+   "timestamp": "20:06",
+   "nivel": "avancado",
+   "tags": [
+    "dedos",
+    "timbre",
+    "técnica"
+   ],
+   "id_global": "7Pdss_Gswtc#I25"
+  }
+ ],
+ "artistas_citados": [
+  "John Mayer",
+  "Ray Charles",
+  "B.B. King",
+  "Fleetwood Mac"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track gratuito (everyonesbluessolos1)",
+  "Blues Bootcamp gratuito",
+  "The Blues Guitar System (curso completo)",
+  "Coaching com o professor"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'Alec Lairman' (o nome correto na descrição é Alec Lehrman), 'back in track' e 'beckham' não aparecem, mas 'pickups' e 'pickup' referem-se a captadores. A aula depende de ver o braço para entender as formas de acorde e as casas citadas. As referências a 'F sharp diminished' foram mantidas como F♯ dim (F♯, A, C). O trecho 07:28-08:02 tem muitas repetições e ruídos. A parte do rake tem o movimento descrito como 'upward' mas a execução é descendente, segundo o contexto. Não há músicas citadas por título.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.0033,
+  "via": "api"
+ }
+}

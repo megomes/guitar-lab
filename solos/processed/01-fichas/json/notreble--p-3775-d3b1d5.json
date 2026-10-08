@@ -1,0 +1,256 @@
+{
+ "fonte_id": "notreble--p-3775-d3b1d5",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Ask Damian Erskine: Target Notes",
+  "autor": "Damian Erskine",
+  "url": "https://www.notreble.com/?p=3775",
+  "site": "www.notreble.com",
+  "idioma": "en",
+  "tema_coleta": "notas-alvo",
+  "arquivo_raw": "solos/raw/documentos/notreble--p-3775-d3b1d5.md"
+ },
+ "resumo": "Damian Erskine explica como internalizar \"notas-alvo\" (target notes) ao improvisar sobre mudanças de acorde. Propõe primeiro dominar as notas de cada acorde (e notas de tensão) restringindo o solo a poucas notas em um standard, e depois escolher com antecedência como e onde pousar em acordes específicos. Sugere ainda um exercício de pousar numa nota diferente (1, 3, 5, 7) a cada frase de 4 compassos. Útil para músicos de nível intermediário que querem solar com mais intenção harmônica; o texto é escrito para baixista, mas se aplica a qualquer instrumento.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Exercícios claros, progressivos e com exemplos concretos de restrição de notas e de pontos de pouso; falta material musical escrito e exemplos de standards específicos."
+ },
+ "assuntos_principais": [
+  "notas-alvo",
+  "tons de acorde",
+  "improvisação sobre changes",
+  "restrição de notas",
+  "extensões 9 11 13",
+  "fraseado"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Pré-requisito e exercícios de restrição de notas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que o conceito de alvo exige conhecimento imediato das notas dos acordes e propõe solar em um standard usando apenas certas notas de acorde e de tensão.",
+   "assuntos": [
+    "tons de acorde",
+    "extensões",
+    "restrição de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Escolher e trabalhar a nota de pouso",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Solar livremente, olhar adiante e decidir como pousar em um acorde, dando vida à nota com ritmo e bend.",
+   "assuntos": [
+    "notas-alvo",
+    "fraseado",
+    "bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exercício: nota diferente a cada 4 compassos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Pousar em raiz, 3ª, 5ª e 7ª no início de cada frase de 4 compassos, usando a restrição para pensar no que se toca.",
+   "assuntos": [
+    "notas-alvo",
+    "frases de 4 compassos",
+    "restrição"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Conhecer as notas dos acordes é pré-requisito",
+   "descricao": "Para usar notas-alvo é preciso saber de imediato quais notas formam cada acorde e quais notas de tensão (não-acorde) funcionam. Sem domínio de harmonia, acordes e escalas, o conceito não funciona; não há tempo para pensar muito durante a execução.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "tons de acorde",
+    "harmonia"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Solar em um standard com apenas 1 ou 2 notas por acorde",
+   "descricao": "Escolha um standard com boa movimentação harmônica e solar usando só algumas notas específicas de cada acorde, de forma musical (fraseando), não como mero exercício.",
+   "passos": [
+    "Escolha um standard com boa movimentação harmônica.",
+    "Toque um solo usando só a 3ª e a 7ª de cada acorde.",
+    "Repita usando só a 3ª e a 5ª.",
+    "Inclua notas de tensão: só a 7ª e a 9ª de cada acorde.",
+    "Depois use só 3ª, 7ª e 6ª (13ª) de cada acorde.",
+    "Frase de forma musical, como se estivesse tocando música de verdade."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "restrição",
+    "tons de acorde",
+    "standard",
+    "3ª e 7ª",
+    "extensões"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Um chorus só com notas do acorde, outro só com tensões",
+   "descricao": "Alterne chorus completos: um usando apenas notas do acorde (1, 3, 5, 7) e o seguinte usando apenas notas de tensão apropriadas (9, 11, 13). Combine variações em muitas músicas para ver rapidamente as notas disponíveis em cada acorde.",
+   "passos": [
+    "Primeiro chorus: apenas 1, 3, 5, 7 de cada acorde.",
+    "Segundo chorus: apenas notas fora do acorde (9, 11, 13 apropriadas).",
+    "Repita em muitas músicas diferentes."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "chord tones",
+    "tensões",
+    "chorus",
+    "restrição"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Prática repetida gera familiaridade com o som de cada nota",
+   "descricao": "Ao tocar muito cada grau (incluindo a 9ª) sobre os acordes, você aprende onde ele está e como soa, o que permite escolher alvos com confiança. Todas as notas estão disponíveis se você souber usá-las.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ouvido",
+    "internalização",
+    "tensões"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Olhar adiante e decidir como pousar no próximo acorde",
+   "descricao": "Solando livremente, a cada poucos compassos olhe o que vem e decida exatamente como vai pousar num acorde. Exemplo: poucos compassos antes da segunda seção A, decidir pousar na 9ª do primeiro compasso e explorá-la. Isso reorienta harmonicamente quando você se sente perdido.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "planejamento",
+    "changes",
+    "reorientação"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Dar vida à nota-alvo com ritmo e bend",
+   "descricao": "Ao chegar na nota-alvo, sustente-a e trabalhe-a com ritmo, bends e expressão. Isso dá um momento de respiro ao solo e tempo para ouvir para onde ir em seguida.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "respiro",
+    "fraseado",
+    "notas-alvo"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Usar nota-alvo quando estiver perdido",
+   "descricao": "Quando sentir que está titubeando no solo, escolha uma nota sólida em um tempo forte para enfatizar e se reorientar harmonicamente. A decisão é tomada no momento, não antes de tocar a música.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "tempo forte",
+    "reorientação"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Pousar numa nota de acorde diferente a cada frase de 4 compassos",
+   "descricao": "Solar livremente, mas com a regra de iniciar cada frase de 4 compassos pousando numa nota de acorde diferente, avançando pelos graus do acorde.",
+   "passos": [
+    "Comece o solo na raiz.",
+    "Solo livre durante os 4 compassos.",
+    "Na próxima frase de 4 compassos, pouse na 3ª.",
+    "Solo livre.",
+    "Na terceira frase, pouse na 5ª.",
+    "Solo livre.",
+    "Na quarta frase, pouse na 7ª.",
+    "Continue o ciclo, variando a nota e o intervalo de compassos."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "frases de 4 compassos",
+    "chord tones",
+    "exercício"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Restringir o solo para pensar no quê, onde e por quê",
+   "descricao": "A chave dos exercícios é impor uma limitação ao solo para forçar a pensar com atenção no que se toca, onde e por quê. Esse tipo de trabalho é muito útil.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "restrição",
+    "intenção",
+    "prática"
+   ],
+   "id_global": "notreble--p-3775-d3b1d5#I09"
+  }
+ ],
+ "artistas_citados": [
+  "Damian Erskine"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Right Hand Drive (livro, Damian Erskine)",
+  "The Improviser's Path (livro, Damian Erskine)",
+  "Post anterior de Ask Damian Erskine sobre notas-alvo"
+ ],
+ "observacoes": "Documento de texto em inglês, escrito por baixista, mas aplicável à guitarra. Sem tablatura nem exemplos musicais escritos; nenhum standard específico é citado. Não há timestamps (documento). A numeração de \"3ª, 7ª e 6ª\" foi mantida como o autor escreveu; \"6ª\" equivale à 13ª.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:19",
+  "tentativas": 1,
+  "custo_usd": 0.2237
+ }
+}

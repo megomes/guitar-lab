@@ -1,0 +1,421 @@
+{
+ "fonte_id": "WcHs5SaynAw",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+  "autor": "Kingdom Of Mist Podcast",
+  "url": "https://www.youtube.com/watch?v=WcHs5SaynAw",
+  "idioma": "pt",
+  "duracao": "7m 0s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/WcHs5SaynAw--mirella-caramelo-explica-o-jeito-certo-de-estudar-improvisação-na-guit.md"
+ },
+ "resumo": "Mirella Caramelo conversa informalmente sobre como estudar improvisação e solos, a partir do riff e solo de Cowboys From Hell (Pantera). Ela defende usar a pentatônica com criatividade e lógica rápida, não tocar tudo de uma vez, aprender modos gregos pelo som e não só pelo shape, e aplicar limitações de região do braço e de cordas para destravar a criatividade. É útil para guitarristas intermediários que querem ideias de estudo, mas o conteúdo é mais opinião e relato de experiência do que aula estruturada.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Traz várias ideias práticas e concretas (limitar a região do braço, usar uma corda só, tocar poucas notas com vibrato), mas é uma conversa de podcast, pouco estruturada, com muitas hesitações e pouca demonstração técnica com notas e casas."
+ },
+ "assuntos_principais": [
+  "improvisação",
+  "pentatônica",
+  "blue note",
+  "modos gregos",
+  "limitações de região do braço",
+  "estudo de solo",
+  "criatividade no solo",
+  "bend e vibrato"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e conversa sobre o som tocado",
+   "inicio": "00:00",
+   "fim": "01:10",
+   "resumo": "Início informal com o som tocando e comentários sobre Megadeth, Cowboys From Hell e a época de MTV.",
+   "assuntos": [
+    "contexto"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Teoria aprendida na prática e blue note",
+   "inicio": "01:10",
+   "fim": "01:43",
+   "resumo": "Mirella comenta que estudar teoria depois de já tocar ajuda a entender a técnica dos outros e a usar a blue note na composição.",
+   "assuntos": [
+    "blue note",
+    "teoria na composição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica, blues e Iron Maiden",
+   "inicio": "01:43",
+   "fim": "02:47",
+   "resumo": "Discussão sobre o blues como base do metal e a ideia de tocar pensando na lógica rápida da pentatônica e no leque de blues.",
+   "assuntos": [
+    "pentatônica",
+    "blues no metal",
+    "composição de solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Usar a pentatônica com criatividade",
+   "inicio": "02:47",
+   "fim": "03:19",
+   "resumo": "Crítica ao excesso de escalas e defesa de dominar poucos recursos e usá-los aos poucos, citando Slash.",
+   "assuntos": [
+    "pentatônica",
+    "criatividade",
+    "economia de recursos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Pressa em aprender todas as escalas",
+   "inicio": "03:19",
+   "fim": "03:51",
+   "resumo": "Conversa sobre a tendência de querer aprender todas as escalas e a importância de sentir o som de cada uma.",
+   "assuntos": [
+    "escalas",
+    "feeling",
+    "estudo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Modos gregos pelo som, não pelo shape",
+   "inicio": "03:51",
+   "fim": "04:23",
+   "resumo": "Crítica a decorar modos gregos como escalinhas; a sugestão é pensar na sonoridade, com a diferença de sétima menor e quarta aumentada.",
+   "assuntos": [
+    "modos gregos",
+    "sonoridade",
+    "shape"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Limitação de região do braço",
+   "inicio": "04:23",
+   "fim": "06:03",
+   "resumo": "Mirella relata a dica de professor de limitar o improviso a uma região do braço, como casas 12 a 15, e de trocar de região depois, para destravar a criatividade; também fala em usar poucas notas com vibrato e intenção.",
+   "assuntos": [
+    "limitação de região",
+    "shapes",
+    "criatividade",
+    "notas sustentadas",
+    "vibrato",
+    "leads"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Improviso em uma corda só",
+   "inicio": "06:03",
+   "fim": "06:36",
+   "resumo": "Citação de uma sugestão de professor (Loureiro) de achar as notas em uma corda só ou improvisar um solo inteiro em uma corda.",
+   "assuntos": [
+    "uma corda só",
+    "limitação",
+    "desafio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Despedida e elogios",
+   "inicio": "06:36",
+   "fim": "07:00",
+   "resumo": "Comentários finais elogiando Loureiro e encerrando a conversa.",
+   "assuntos": [
+    "encerramento"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Aprender teoria depois de tocar",
+   "descricao": "Estudar teoria depois de já tocar por conta própria ajuda a identificar o que outros guitarristas fazem (como a blue note) e a aplicar isso nas próprias composições.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "intermediario",
+   "tags": [
+    "teoria",
+    "composição",
+    "blue note"
+   ],
+   "id_global": "WcHs5SaynAw#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Blue note como nota expressiva",
+   "descricao": "A blue note é citada como uma nota que soa muito bonita e característica; no contexto do blues corresponde à ♭5 da escala de blues (1-♭3-4-♭5-5-♭7).",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "intermediario",
+   "tags": [
+    "blue note",
+    "blues",
+    "bend"
+   ],
+   "id_global": "WcHs5SaynAw#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Blues como base do metal",
+   "descricao": "O heavy metal inicial, com Black Sabbath, transformou a linguagem do blues em metal; ouvir essa origem ajuda a entender a pentatônica usada no estilo.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "metal",
+    "pentatônica"
+   ],
+   "id_global": "WcHs5SaynAw#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pensar na lógica rápida da pentatônica",
+   "descricao": "Ao compor um solo, tocar pensando em uma pentatônica mas com lógica rápida (linhas ágeis) tende a soar mais interessante, criando um leque de blues.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "composição de solo",
+    "blues"
+   ],
+   "id_global": "WcHs5SaynAw#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Criatividade acima de conhecer todas as escalas",
+   "descricao": "Saber usar bem o que se domina, com criatividade, vale mais do que conhecer todas as escalas e não aproveitá-las; ela cita o Slash, que usa basicamente a pentatônica.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "intermediario",
+   "tags": [
+    "criatividade",
+    "pentatônica",
+    "slash"
+   ],
+   "id_global": "WcHs5SaynAw#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Não usar todo o material de uma vez",
+   "descricao": "Ao improvisar, introduzir os recursos aos poucos, pois usar tudo de uma vez faz o público prever o que vem a seguir.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "frases",
+    "dosagem"
+   ],
+   "id_global": "WcHs5SaynAw#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Querer aprender todas as escalas de uma vez",
+   "descricao": "Há a pressa de aprender muitas escalas, mas isso leva a conhecê-las sem sentir o som de cada uma; o correto é ir por etapas, começando pela pentatônica e depois avançando.",
+   "passos": [],
+   "timestamp": "03:19",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas",
+    "estudo",
+    "feeling"
+   ],
+   "id_global": "WcHs5SaynAw#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Estudar escalas por etapas",
+   "descricao": "Sequência sugerida de estudo: primeiro dominar a pentatônica, depois os modos gregos, depois a blue note, em vez de acumular muitas escalas ao mesmo tempo.",
+   "passos": [
+    "Dominar a pentatônica menor",
+    "Estudar os modos gregos",
+    "Incorporar a blue note"
+   ],
+   "timestamp": "03:19",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas",
+    "progressão de estudo",
+    "pentatônica",
+    "modos gregos"
+   ],
+   "id_global": "WcHs5SaynAw#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Decorar modos gregos como escalinha",
+   "descricao": "Decorar modos gregos como sequência de notas, sem ouvir o som, não ensina o caráter do modo; o modo é reconhecido pelo som (por exemplo, a sétima menor e a quarta aumentada), não só pelo shape.",
+   "passos": [],
+   "timestamp": "03:51",
+   "nivel": "intermediario",
+   "tags": [
+    "modos gregos",
+    "sonoridade",
+    "shape"
+   ],
+   "id_global": "WcHs5SaynAw#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Modos gregos e sonoridade característica",
+   "descricao": "Cada modo grego tem uma sonoridade própria, dada por uma nota característica; a conversa cita a sétima menor e a quarta aumentada (lídio), que diferenciam os modos da escala diatônica comum.",
+   "passos": [],
+   "timestamp": "04:23",
+   "nivel": "intermediario",
+   "tags": [
+    "modos gregos",
+    "nota característica",
+    "lídio"
+   ],
+   "id_global": "WcHs5SaynAw#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Limitar o improviso a uma região do braço",
+   "descricao": "Escolher uma faixa de casas (por exemplo, da casa 12 até a 15) e improvisar só nela; ao dominar, mudar para outra região (como 17 a 19). Isso força a usar ideias pequenas e criativas.",
+   "passos": [
+    "Escolher uma região do braço, por exemplo casas 12 a 15",
+    "Improvisar somente nessa região, usando no máximo dois shapes",
+    "Quando a ideia fluir, mudar para outra região, como 17 a 19"
+   ],
+   "timestamp": "04:23",
+   "nivel": "intermediario",
+   "tags": [
+    "limitação",
+    "braço",
+    "shapes",
+    "criatividade"
+   ],
+   "id_global": "WcHs5SaynAw#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com poucas notas e vibrato",
+   "descricao": "Tocar devagar, com no máximo duas ou três notas, usando vibrato e intenção, para valorizar a nota sustentada que caracteriza o som de um guitarrista.",
+   "passos": [
+    "Escolher duas ou três notas",
+    "Tocar lentamente",
+    "Aplicar vibrato e deixar a nota soar"
+   ],
+   "timestamp": "05:29",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "notas sustentadas",
+    "leads",
+    "limitação"
+   ],
+   "id_global": "WcHs5SaynAw#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Limitar o material como desafio",
+   "descricao": "Limitar o improviso (região, shapes, notas) transforma a limitação em desafio e ajuda a destravar a criatividade quando parece que não há ideias.",
+   "passos": [],
+   "timestamp": "06:03",
+   "nivel": "intermediario",
+   "tags": [
+    "limitação",
+    "criatividade",
+    "desafio"
+   ],
+   "id_global": "WcHs5SaynAw#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Achar as notas em uma corda só",
+   "descricao": "Sugestão de Loureiro: encontrar as notas da escala em uma única corda, ou fazer um solo inteiro em uma só corda.",
+   "passos": [
+    "Escolher uma corda",
+    "Encontrar as notas da escala nessa corda",
+    "Improvisar um solo inteiro nessa corda"
+   ],
+   "timestamp": "06:03",
+   "nivel": "intermediario",
+   "tags": [
+    "uma corda",
+    "limitação",
+    "escalas"
+   ],
+   "id_global": "WcHs5SaynAw#I14"
+  }
+ ],
+ "artistas_citados": [
+  "Pantera",
+  "Megadeth",
+  "Slash",
+  "Iron Maiden",
+  "Black Sabbath",
+  "Mozart Melo",
+  "Diego Souza",
+  "Beto",
+  "Bibi King",
+  "Loureiro",
+  "Mirella Caramelo"
+ ],
+ "musicas_citadas": [
+  "Cowboys From Hell"
+ ],
+ "recursos_citados": [
+  "curso de modos gregos do Loureiro",
+  "entrevista do Diego Souza",
+  "show do Loureiro"
+ ],
+ "observacoes": "Transcrição automática com muitos erros: 'Cab Strong Hell' provavelmente é Cowboys From Hell; 'Megadef' é Megadeth; 'Bloom Note' é blue note; 'planeta tônica' é pentatônica; 'deatônica' é diatônica; 'Bibi King' provavelmente é B.B. King; 'Loreiro' e 'Loureiro' referem-se ao mesmo professor; 'paraa' e 'escas' são erros de transcrição. Os timestamps das ideias são aproximados, derivados dos marcadores do transcript. A referência a 'faz suar' e a 'pega, você começa fazendo uns leaks' é ambígua. Trechos como 'tocou no Megadef' e 'v shop' (provavelmente 'workshop') estão pouco claros. A fala sobre 'quarta aumentada' e 'sétima menor' como características dos modos gregos é vaga e não especifica o modo, então foi registrada como ilustração do lídio apenas pela quarta aumentada.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00154,
+  "via": "api"
+ }
+}

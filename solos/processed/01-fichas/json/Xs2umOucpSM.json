@@ -1,0 +1,603 @@
+{
+ "fonte_id": "Xs2umOucpSM",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+  "autor": "Steve Stine Guitar Lessons",
+  "url": "https://www.youtube.com/watch?v=Xs2umOucpSM",
+  "idioma": "en",
+  "duracao": "14m 9s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/Xs2umOucpSM--how-to-solo-over-any-chord-using-the-pentatonic-scale-steve-stine-guit.md"
+ },
+ "resumo": "Steve Stine ensina a usar a pentatônica menor e a maior para improvisar sobre progressões de acordes, em vez de ficar preso a uma única posição. A técnica central é o 'chord chasing': escolher uma pentatônica para cada acorde e mirar na sua tônica. Ele mostra como derivar a pentatônica maior a partir da menor (deslocando a forma três casas para trás) e como organizar as posições no braço. A aula é indicada para guitarristas que já conhecem as formas básicas e querem improvisar com mais direção sobre harmonia.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito claro e prático, com exemplos concretos (C, Am, F, G e casos com B♭ e E♭) e um método de transposição verificável. Perde pontos porque a explicação depende de ver o braço, não há diagramas nem tablatura na transcrição, e algumas frases são confusas ('pinky on the root' após deslocar a forma)."
+ },
+ "assuntos_principais": [
+  "pentatônica menor",
+  "pentatônica maior",
+  "relação relativa entre pentatônicas",
+  "chord chasing",
+  "alvo nas tônicas dos acordes",
+  "progressão de acordes e troca de escala",
+  "posições da pentatônica no braço",
+  "escala diatônica como soma das pentatônicas"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e pedido de inscrição",
+   "inicio": "00:00",
+   "fim": "00:34",
+   "resumo": "Saudação e pedido para compartilhar e se inscrever no canal. Anuncia o tema: usar a pentatônica sobre diversas progressões.",
+   "assuntos": [
+    "apresentação do tema"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Uma pentatônica diferente para cada acorde",
+   "inicio": "00:34",
+   "fim": "01:40",
+   "resumo": "Apresenta a progressão de quatro acordes (C, Am, F, G) e explica que a abordagem vale para qualquer acorde em qualquer tonalidade. Cada acorde recebe a pentatônica correspondente: menor para o acorde menor e maior para os maiores.",
+   "assuntos": [
+    "progressão C Am F G",
+    "escolha de escala por acorde",
+    "pentatônica menor e maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Forma da pentatônica menor de Lá",
+   "inicio": "01:40",
+   "fim": "02:45",
+   "resumo": "Mostra a forma da pentatônica menor com tônica Lá na corda Mi grave (casa 5) e sugere usar o Lá como alvo da frase.",
+   "assuntos": [
+    "pentatônica menor de Lá",
+    "tônica como alvo",
+    "forma na corda Mi grave"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Pentatônica maior a partir da menor",
+   "inicio": "02:45",
+   "fim": "03:53",
+   "resumo": "Ensina a derivar a pentatônica maior: a forma menor de Dó (casa 8) deslocada três casas para trás (casa 5) produz a pentatônica de Dó maior. Explica que é a mesma coleção de notas da pentatônica de Lá menor.",
+   "assuntos": [
+    "pentatônica maior",
+    "deslocamento de três casas",
+    "relativa menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Aplicando o método a outras tônicas",
+   "inicio": "03:53",
+   "fim": "05:00",
+   "resumo": "Repete o método para Fá maior (Fá na casa 13, recuar três casas) e Sol maior (Sol na casa 15, recuar para a casa 12). Ensina que basta localizar a tônica e aplicar o deslocamento, inclusive para acordes como Láb menor ou Mib maior.",
+   "assuntos": [
+    "Fá maior",
+    "Sol maior",
+    "localizar a tônica",
+    "generalização para qualquer acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Ferramenta de progressões e observação sobre licks",
+   "inicio": "05:00",
+   "fim": "06:08",
+   "resumo": "Apresenta o app ChordPulse para montar a progressão de exemplo. Diz que qualquer ferramenta serve e que o foco é onde tocar, não os licks.",
+   "assuntos": [
+    "ChordPulse",
+    "progressão de exemplo",
+    "foco na posição e não em licks"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Improvisando sobre a progressão acorde a acorde",
+   "inicio": "06:08",
+   "fim": "08:32",
+   "resumo": "Toca a progressão tentando mirar nas tônicas de cada acorde: Dó maior, depois Lá menor na mesma posição, Fá maior e Sol maior. Mostra que, sobre C e Am, não é preciso mudar de lugar no braço.",
+   "assuntos": [
+    "troca de pentatônica por acorde",
+    "mirar nas tônicas",
+    "C e Am na mesma posição",
+    "demonstração ao vivo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Exemplo com acorde inesperado (B♭ e E♭)",
+   "inicio": "08:32",
+   "fim": "09:37",
+   "resumo": "Simula um acorde fora da tonalidade (B♭ depois E♭): localiza a tônica do novo acorde no braço, desce até ela e segue para o E♭.",
+   "assuntos": [
+    "acorde fora da tonalidade",
+    "B♭ e E♭",
+    "localizar a tônica do novo acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "O que é chord chasing e quando usar",
+   "inicio": "09:37",
+   "fim": "10:43",
+   "resumo": "Define chord chasing como a técnica de perseguir os acordes com a pentatônica adequada. Indica que é útil quando a escala não está clara, quando há acordes fora da tonalidade ou em situações de improviso rápido.",
+   "assuntos": [
+    "chord chasing",
+    "quando usar a técnica",
+    "improviso rápido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Tocar tudo em uma só posição",
+   "inicio": "10:43",
+   "fim": "12:23",
+   "resumo": "Propõe reunir as pentatônicas de C, Am, F e G em uma única região do braço, identificando a posição do Dó maior, a do Lá menor (mesma região) e as posições de Fá e Sol que ele chama de quarta e terceira.",
+   "assuntos": [
+    "posição única",
+    "C e Am na mesma região",
+    "F e G em outras posições",
+    "nomenclatura de posições varia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Sobreposição das pentatônicas e escala diatônica",
+   "inicio": "12:23",
+   "fim": "13:35",
+   "resumo": "Demonstra as pentatônicas sobrepostas e explica que a pentatônica tem cinco notas que se repetem pelo braço. Ao visualizar tudo junto, o aluno passa a tocar naturalmente a escala diatônica de sete notas. Alerta que misturar tudo sem ênfase leva a tocar sem intenção.",
+   "assuntos": [
+    "sobreposição de posições",
+    "pentatônica repetida pelo braço",
+    "escala diatônica de sete notas",
+    "erro de tocar sem ênfase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Despedida",
+   "inicio": "13:35",
+   "fim": "14:09",
+   "resumo": "Agradecimento, pedido de inscrição e menção ao link para escolher um curso.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Uma pentatônica por acorde",
+   "descricao": "Em vez de ficar preso a uma única posição, é possível usar uma pentatônica diferente para cada acorde da progressão. Sobre acordes maiores usa-se a pentatônica maior da tônica do acorde; sobre acordes menores, a pentatônica menor da tônica.",
+   "passos": [],
+   "timestamp": "00:34",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "chord chasing",
+    "progressão"
+   ],
+   "id_global": "Xs2umOucpSM#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escalas para a progressão C – Am – F – G",
+   "descricao": "Na progressão C, Am, F, G: sobre C maior usa-se Dó maior pentatônica; sobre Am, Lá menor pentatônica; sobre F maior, Fá maior pentatônica; sobre G maior, Sol maior pentatônica.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "pentatônica maior",
+    "pentatônica menor",
+    "C Am F G"
+   ],
+   "id_global": "Xs2umOucpSM#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Forma da pentatônica menor de Lá",
+   "descricao": "Toque a pentatônica menor de Lá com a tônica Lá na corda Mi grave, casa 5. Use essa forma como base para improvisar sobre Am.",
+   "passos": [
+    "Posicione o indicador na casa 5 da corda Mi grave (Lá).",
+    "Toque a forma da pentatônica menor de Lá com as notas Lá, Dó, Ré, Mi e Sol.",
+    "Improvise mantendo a forma e voltando ao Lá com frequência."
+   ],
+   "timestamp": "01:40",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "lá menor",
+    "corda mi grave",
+    "forma"
+   ],
+   "id_global": "Xs2umOucpSM#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Usar a tônica como alvo de frase",
+   "descricao": "Ao improvisar com a pentatônica, localize onde estão as tônicas (no caso de Am, os Lás) e use-as para finalizar frases ou direcionar o solo.",
+   "passos": [],
+   "timestamp": "02:12",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "tônica",
+    "fraseado"
+   ],
+   "id_global": "Xs2umOucpSM#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior: deslocar a forma menor três casas para trás",
+   "descricao": "Para obter a pentatônica maior, pegue a forma da pentatônica menor e desloque-a três casas para trás. A forma de Dó menor (tônica na casa 8) recuada três casas fica na casa 5 e toca as notas de Dó maior pentatônica.",
+   "passos": [],
+   "timestamp": "02:45",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "deslocamento",
+    "relativa menor"
+   ],
+   "id_global": "Xs2umOucpSM#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Dó maior pentatônica e Lá menor pentatônica têm as mesmas notas",
+   "descricao": "Dó maior pentatônica (Dó, Ré, Mi, Sol, Lá) e Lá menor pentatônica (Lá, Dó, Ré, Mi, Sol) são a mesma coleção de notas. Por isso a forma de Lá menor serve para os dois acordes.",
+   "passos": [],
+   "timestamp": "03:21",
+   "nivel": "intermediario",
+   "tags": [
+    "relativa menor",
+    "dó maior",
+    "lá menor",
+    "mesmas notas"
+   ],
+   "id_global": "Xs2umOucpSM#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "rotina_estudo",
+   "titulo": "Método para achar qualquer pentatônica maior",
+   "descricao": "Para encontrar a pentatônica maior de qualquer tônica, localize a nota da tônica, toque a forma de pentatônica menor naquela casa e recue três casas.",
+   "passos": [
+    "Localize a nota tônica do acorde maior no braço (ex.: Fá na casa 13 da corda Mi grave).",
+    "Toque a forma de pentatônica menor com essa nota como tônica.",
+    "Recue três casas mantendo a mesma forma (casa 13 vai para casa 10).",
+    "Confirme que as notas tocadas são as da pentatônica maior da tônica."
+   ],
+   "timestamp": "03:21",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "método",
+    "transposição"
+   ],
+   "id_global": "Xs2umOucpSM#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Aplicar o método a Fá maior e Sol maior",
+   "descricao": "Exemplo de aplicação: Fá fica na casa 13 da corda Mi grave; recuando três casas (casa 10) obtém-se a pentatônica de Fá maior. Sol fica na casa 15; recuando três casas (casa 12) obtém-se a pentatônica de Sol maior.",
+   "passos": [
+    "Para Fá maior: encontre o Fá na casa 13 e toque a forma; depois recue três casas.",
+    "Para Sol maior: encontre o Sol na casa 15 e recue três casas até a casa 12.",
+    "Compare as formas e confirme as notas da escala de cada acorde."
+   ],
+   "timestamp": "04:27",
+   "nivel": "intermediario",
+   "tags": [
+    "fá maior",
+    "sol maior",
+    "pentatônica maior",
+    "exemplo"
+   ],
+   "id_global": "Xs2umOucpSM#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Basta saber onde está a tônica",
+   "descricao": "Para cobrir qualquer acorde, o essencial é saber localizar a tônica no braço. Com isso, a pentatônica menor ou maior correspondente fica disponível em poucos movimentos, mesmo para acordes como Lá bemol menor ou Mi bemol maior.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "intermediario",
+   "tags": [
+    "tônica",
+    "acordes bemol",
+    "generalização"
+   ],
+   "id_global": "Xs2umOucpSM#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "ChordPulse para criar progressões",
+   "descricao": "O app ChordPulse é usado pelo professor para montar e reproduzir progressões de acordes. Ele diz que qualquer outra ferramenta serve.",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "ferramenta",
+    "progressão"
+   ],
+   "id_global": "Xs2umOucpSM#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Foque em onde tocar, não no que tocar",
+   "descricao": "O vídeo não é sobre licks. A ideia é observar a posição e as notas-alvo de cada acorde, para que a técnica sirva a qualquer progressão.",
+   "passos": [],
+   "timestamp": "06:40",
+   "nivel": "iniciante",
+   "tags": [
+    "improviso",
+    "licks",
+    "foco"
+   ],
+   "id_global": "Xs2umOucpSM#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Improvisar acorde a acorde sobre C – Am – F – G",
+   "descricao": "Toque a progressão com backing track e troque de pentatônica a cada acorde, mirando nas tônicas: Dó maior pentatônica sobre C, Lá menor pentatônica sobre Am, Fá maior pentatônica sobre F e Sol maior pentatônica sobre G.",
+   "passos": [
+    "Monte ou carregue a progressão C – Am – F – G.",
+    "Sobre C, improvise com Dó maior pentatônica, buscando os Dós.",
+    "Ao chegar em Am, improvise com Lá menor pentatônica, buscando os Lás.",
+    "Repita para F (Fá) e G (Sol), trocando a forma a cada acorde."
+   ],
+   "timestamp": "06:40",
+   "nivel": "intermediario",
+   "tags": [
+    "chord chasing",
+    "backing track",
+    "notas-alvo",
+    "C Am F G"
+   ],
+   "id_global": "Xs2umOucpSM#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Dó maior e Lá menor na mesma posição",
+   "descricao": "Como C maior e A menor têm as mesmas notas, a pentatônica de Dó maior e a de Lá menor ficam na mesma região do braço. Ao mudar de C para Am não é preciso se deslocar; basta mudar o alvo de Dó para Lá.",
+   "passos": [],
+   "timestamp": "07:16",
+   "nivel": "intermediario",
+   "tags": [
+    "relativa menor",
+    "mesma posição",
+    "notas-alvo"
+   ],
+   "id_global": "Xs2umOucpSM#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Mudar o alvo, não a posição",
+   "descricao": "Ao trocar de acorde, mantenha a forma atual e mude a nota-alvo para a tônica do novo acorde. Isso dá sensação de direção sem precisar deslocar a mão.",
+   "passos": [],
+   "timestamp": "07:58",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "chord chasing",
+    "transição"
+   ],
+   "id_global": "Xs2umOucpSM#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Achar a tônica de um acorde inesperado",
+   "descricao": "Quando surge um acorde fora da tonalidade, como Si bemol após Dó maior, localize a tônica desse acorde no braço, mova a frase até ela e siga para o próximo acorde, como Mi bemol.",
+   "passos": [
+    "Identifique a tônica do novo acorde (ex.: Si bemol).",
+    "Localize essa nota no braço, em uma das formas já conhecidas.",
+    "Mova a frase até a nota-alvo e use a pentatônica do novo acorde.",
+    "Ao mudar para o acorde seguinte (ex.: Mi bemol), repita o processo."
+   ],
+   "timestamp": "08:32",
+   "nivel": "intermediario",
+   "tags": [
+    "acordes fora da tonalidade",
+    "si bemol",
+    "mi bemol",
+    "chord chasing"
+   ],
+   "id_global": "Xs2umOucpSM#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Chord chasing",
+   "descricao": "Chord chasing é perseguir os acordes da progressão com a pentatônica (menor ou maior) adequada à tônica de cada acorde. É uma técnica comum entre músicos de sessão, country e rock.",
+   "passos": [],
+   "timestamp": "09:37",
+   "nivel": "intermediario",
+   "tags": [
+    "chord chasing",
+    "pentatônica",
+    "técnica"
+   ],
+   "id_global": "Xs2umOucpSM#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Quando usar chord chasing",
+   "descricao": "A técnica é útil quando não está claro qual escala usar, quando há acordes fora da tonalidade ou quando é preciso improvisar rápido em uma situação inesperada.",
+   "passos": [],
+   "timestamp": "09:37",
+   "nivel": "iniciante",
+   "tags": [
+    "improviso rápido",
+    "acordes fora da tonalidade",
+    "quando usar"
+   ],
+   "id_global": "Xs2umOucpSM#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Tocar a progressão em uma única posição",
+   "descricao": "Para evitar se deslocar muito pelo braço, reúna as pentatônicas da progressão em uma região: a de Dó maior e a de Lá menor ficam no mesmo lugar, e as de Fá e Sol podem ser encontradas em posições próximas.",
+   "passos": [],
+   "timestamp": "10:43",
+   "nivel": "intermediario",
+   "tags": [
+    "posição única",
+    "economia de movimento",
+    "progressão"
+   ],
+   "id_global": "Xs2umOucpSM#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Posições para Fá maior e Sol maior",
+   "descricao": "O professor identifica a pentatônica de Fá maior como sua quarta posição e a de Sol maior como sua terceira posição. Ele reconhece que essa nomenclatura varia entre músicos.",
+   "passos": [],
+   "timestamp": "11:15",
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "fá maior",
+    "sol maior",
+    "nomenclatura"
+   ],
+   "id_global": "Xs2umOucpSM#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de cinco notas repetida pelo braço",
+   "descricao": "A pentatônica tem cinco notas que se repetem em diferentes regiões do braço. Por isso, pentatônicas de acordes diferentes se sobrepõem em alguns pontos.",
+   "passos": [],
+   "timestamp": "11:48",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "sobreposição",
+    "braço"
+   ],
+   "id_global": "Xs2umOucpSM#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Da pentatônica à escala diatônica de sete notas",
+   "descricao": "Ao visualizar as pentatônicas de vários acordes juntas, o guitarrista passa a tocar naturalmente a escala diatônica de sete notas, mesmo sem pensar nela conscientemente.",
+   "passos": [],
+   "timestamp": "13:01",
+   "nivel": "avancado",
+   "tags": [
+    "diatônica",
+    "sete notas",
+    "visualização"
+   ],
+   "id_global": "Xs2umOucpSM#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Estudar as pentatônicas separadas antes de juntá-las",
+   "descricao": "Antes de unir as posições, veja cada pentatônica separada para entender quais notas combinam com cada acorde. Depois de internalizar isso, pode juntá-las em uma única região do braço.",
+   "passos": [],
+   "timestamp": "13:01",
+   "nivel": "intermediario",
+   "tags": [
+    "estudo",
+    "sequência de aprendizado",
+    "notas do acorde"
+   ],
+   "id_global": "Xs2umOucpSM#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Juntar tudo sem ênfase e tocar sem intenção",
+   "descricao": "Quando as pentatônicas são misturadas sem ênfase nas tônicas, o improvisador tende a voltar a tocar apenas dentro de uma posição, sem destacar nenhuma nota importante.",
+   "passos": [],
+   "timestamp": "13:01",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "ênfase",
+    "notas-alvo"
+   ],
+   "id_global": "Xs2umOucpSM#I23"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "ChordPulse (http://www.chordpulse.com/) - app para criar progressões de acordes",
+  "Cursos GuitarZoom (membership) - link na descrição",
+  "Steve Stine Guitar Podcast - link na descrição"
+ ],
+ "observacoes": "Transcrição automática com erros: 'pentatonix' e 'penta' por pentatônica, 'cord' por chord, 'core chasing' por chord chasing, 'beckham' e 'back in track' não aparecem aqui, 'jamand2' por jam. Em 05:00 a expressão 'a flat minor' é ambígua: foi lida como Lá bemol menor (Ab menor), mas pode ser outro acorde. Em 02:45-03:21 a frase sobre 'pinky no root' após deslocar a forma não é precisa: a tônica do acorde maior fica no ponto de partida da forma, e o aluno deve conferir pelas notas. Os diagramas e as posições de braço não estão na transcrição; o conteúdo depende de ver o vídeo para localizar as formas. A nomenclatura de posições (quarta, terceira) é pessoal do professor. Os tempos dos segmentos são aproximados segundo os marcadores do transcript.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00382,
+  "via": "api"
+ }
+}

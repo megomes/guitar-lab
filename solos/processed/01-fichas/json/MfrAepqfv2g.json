@@ -1,0 +1,524 @@
+{
+ "fonte_id": "MfrAepqfv2g",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+  "autor": "Jules Guitar",
+  "url": "https://www.youtube.com/watch?v=MfrAepqfv2g",
+  "idioma": "en",
+  "duracao": "15m 49s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/MfrAepqfv2g--when-to-play-major-vs-minor-pentatonic-its-easier-than-you-think.md"
+ },
+ "resumo": "Aula prática de guitarra que ensina quando usar a pentatônica menor versus a maior sobre progressões de acordes, usando sempre a forma da pentatônica menor de primeira posição. O vídeo mostra como identificar a tonalidade pela resolução da progressão, como a forma serve a tonalidades relativas (menor e maior) e como lidar com blues e acordes fora da tonalidade. É voltado a guitarristas iniciantes ou intermediários que já tocam a pentatônica mas têm dúvida sobre qual escala usar.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo claro, com exemplos de progressões e localização concreta das tônicas no braço (casas e cordas). Perde um pouco por depender de diagramas e tablaturas mostrados na tela, que o transcript não reproduz, e por ter trechos de execução musical sem explicação verbal."
+ },
+ "assuntos_principais": [
+  "pentatônica menor",
+  "pentatônica maior",
+  "tonalidade relativa",
+  "resolução na tônica",
+  "escolha de escala sobre acordes",
+  "blues maior e menor",
+  "acordes fora da tonalidade"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e pergunta inicial",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Apresentação da dúvida sobre usar maior ou menor sobre um blues e menção a um comentário de Leah Anderton sobre a mesma dúvida.",
+   "assuntos": [
+    "introdução"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Forma base: pentatônica menor de primeira posição",
+   "inicio": "00:32",
+   "fim": "01:07",
+   "resumo": "Define que todo o vídeo usará a forma da pentatônica menor de primeira posição, por ser familiar e por ajudar em progressões mais difíceis.",
+   "assuntos": [
+    "pentatônica menor",
+    "forma de primeira posição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Progressão menor e tonalidade de Lá menor",
+   "inicio": "01:07",
+   "fim": "03:23",
+   "resumo": "Progressão Am, Dm, Em, Am. Explica que a tonalidade costuma ser o acorde onde a música repousa e mostra as três tônicas Lá na forma, com a orientação de resolver frases na tônica para o som menor.",
+   "assuntos": [
+    "tonalidade",
+    "resolução",
+    "tônica",
+    "pentatônica de Lá menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Tonalidades relativas e pentatônica maior",
+   "inicio": "03:23",
+   "fim": "06:58",
+   "resumo": "Explica que Lá menor e Dó maior são relativas e usam as mesmas notas. A primeira nota da forma indica a tônica menor e a nota três casas acima indica a tônica maior. Com progressão C F G C, resolver em Dó muda o clima de sombrio para brilhante.",
+   "assuntos": [
+    "relativa menor e maior",
+    "mesma forma para duas tonalidades",
+    "resolução na tônica maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Mistura de maior e menor com Sol maior",
+   "inicio": "06:58",
+   "fim": "09:16",
+   "resumo": "Progressão G, Em, Am, D. Ensina a encontrar a pentatônica maior de Sol na mesma forma, usando a 15ª casa da corda Mi grave, e mostra que equivale à pentatônica menor de Mi. Sugere resolver em Sol ou em Mi e usar um bend completo na corda Sol.",
+   "assuntos": [
+    "mistura maior e menor",
+    "pentatônica de Sol maior",
+    "relativa Mi menor",
+    "bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Progressão de Dó sustenido menor para Mi maior",
+   "inicio": "09:16",
+   "fim": "11:08",
+   "resumo": "Progressão C#m, G#m, A, E, que começa menor e termina maior. Mostra a pentatônica de Dó sustenido menor na 9ª casa da corda Mi grave e a de Mi maior a três casas acima, e sugere pousar em Dó sustenido para o clima menor e em Mi para o maior.",
+   "assuntos": [
+    "Dó sustenido menor",
+    "Mi maior",
+    "transição menor para maior",
+    "frases de resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Blues em Lá maior",
+   "inicio": "11:08",
+   "fim": "12:16",
+   "resumo": "Blues de 12 compassos em Lá maior (A, D, E). Mostra a pentatônica de Lá maior, que tem a mesma forma da de Fá sustenido menor, e uma nota extra de blue note. Resolve nas tônicas Lá.",
+   "assuntos": [
+    "blues",
+    "Lá maior",
+    "blue note",
+    "forma relativa Fá# menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Lá menor sobre acorde maior no blues",
+   "inicio": "12:16",
+   "fim": "13:57",
+   "resumo": "Mostra que usar a pentatônica menor de Lá sobre o acorde maior de Lá soa mais escuro e sujo, típico do blues. Também diz que blueseiros mais sofisticados misturam maior e menor e indica um vídeo complementar.",
+   "assuntos": [
+    "blues",
+    "pentatônica menor sobre acorde maior",
+    "blend de maior e menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Acordes fora da tonalidade com pentatônica de Dó maior",
+   "inicio": "13:57",
+   "fim": "15:05",
+   "resumo": "Progressão C, Bb, F, Am, D, G, com acordes fora de Dó maior. Explica que a pentatônica de Dó maior não tem Si nem Fá, então não é preciso decidir entre bemol, natural ou sustenido nem pensar em modos como mixolídio ou dórico.",
+   "assuntos": [
+    "acordes fora da tonalidade",
+    "pentatônica de Dó maior",
+    "modos mixolídio e dórico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Conclusão sobre cobertura de progressões",
+   "inicio": "15:05",
+   "fim": "15:45",
+   "resumo": "Afirma que a pentatônica serve para cerca de 95% das progressões de rock, pop e blues, mesmo com acordes fora da tonalidade, e encerra com um resumo prático.",
+   "assuntos": [
+    "cobertura da pentatônica",
+    "síntese"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Despedida",
+   "inicio": "15:45",
+   "fim": "15:49",
+   "resumo": "Agradecimento e convite para o próximo vídeo.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de primeira posição como base",
+   "descricao": "Todo o vídeo usa a forma da pentatônica menor de primeira posição (1-b3-4-5-b7). Ela é a base para tocar sobre tonalidades menores e maiores relativas, sem trocar de forma.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "forma",
+    "primeira posição"
+   ],
+   "id_global": "MfrAepqfv2g#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Tonalidade pelo acorde de resolução",
+   "descricao": "A tonalidade costuma ser o acorde em que a música soa resolvida, que geralmente é o mesmo do início. Em Am, Dm, Em, Am, a tonalidade é Lá menor, e a pentatônica de Lá menor serve.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidade",
+    "resolução",
+    "campo harmônico"
+   ],
+   "id_global": "MfrAepqfv2g#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Resolver frases na tônica para soar menor",
+   "descricao": "Terminar frases na tônica (Lá, sobre Lá menor) reforça a sensação de tonalidade menor e deixa o som mais escuro.",
+   "passos": [],
+   "timestamp": "02:17",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "tônica",
+    "resolução"
+   ],
+   "id_global": "MfrAepqfv2g#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Mapear as três tônicas Lá na forma",
+   "descricao": "Na forma de pentatônica de Lá menor em primeira posição há três Lás: 5ª casa da corda Mi grave, 7ª casa da corda Ré e 5ª casa da corda Mi aguda. Localize-as para usar como alvos de frase.",
+   "passos": [
+    "Toque a forma de pentatônica menor começando na 5ª casa da corda Mi grave.",
+    "Localize a 7ª casa da corda Ré e a 5ª casa da corda Mi aguda, que também são Lá.",
+    "Termine uma pequena frase em cada uma dessas Lás."
+   ],
+   "timestamp": "02:51",
+   "nivel": "iniciante",
+   "tags": [
+    "mapeamento",
+    "notas-alvo",
+    "braço"
+   ],
+   "id_global": "MfrAepqfv2g#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Tonalidades relativas usam as mesmas notas",
+   "descricao": "Lá menor e Dó maior são relativas: têm exatamente as mesmas notas, só começando em pontos diferentes. Por isso as mesmas formas de escala servem às duas tonalidades. O mesmo vale para outros pares, como Ré maior e Si menor.",
+   "passos": [],
+   "timestamp": "03:57",
+   "nivel": "iniciante",
+   "tags": [
+    "relativa menor",
+    "relativa maior",
+    "tonalidade"
+   ],
+   "id_global": "MfrAepqfv2g#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Regra das duas primeiras notas da forma",
+   "descricao": "Na forma da pentatônica menor, a primeira nota indica a tônica menor. A segunda nota, três casas acima, indica a tônica maior relativa. Como essas duas notas estão a três casas de distância, a forma mostra as duas tonalidades.",
+   "passos": [],
+   "timestamp": "04:31",
+   "nivel": "iniciante",
+   "tags": [
+    "forma",
+    "relativa maior",
+    "pentatônica menor",
+    "pentatônica maior"
+   ],
+   "id_global": "MfrAepqfv2g#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Resolver em Dó para soar maior",
+   "descricao": "Sobre a progressão C, F, G, C, usar a mesma forma e resolver nas tônicas Dó (8ª casa da corda Mi grave, 5ª casa da corda Sol, 8ª casa da corda Mi aguda) muda o som de sombrio para brilhante.",
+   "passos": [],
+   "timestamp": "05:51",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "dó maior",
+    "resolução",
+    "brilho"
+   ],
+   "id_global": "MfrAepqfv2g#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Sol maior na mesma forma",
+   "descricao": "Para tocar Sol maior com a forma de primeira posição, use a nota Sol da 15ª casa da corda Mi grave (ou a 3ª casa, uma oitava abaixo) como segunda nota da forma. Nessa posição a forma é a pentatônica maior de Sol.",
+   "passos": [],
+   "timestamp": "07:33",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "sol maior",
+    "forma"
+   ],
+   "id_global": "MfrAepqfv2g#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Sol maior é igual à de Mi menor",
+   "descricao": "A pentatônica maior de Sol tem as mesmas notas da pentatônica menor de Mi, porque Sol é a relativa maior de Mi menor.",
+   "passos": [],
+   "timestamp": "08:07",
+   "nivel": "intermediario",
+   "tags": [
+    "relativa menor",
+    "sol maior",
+    "mi menor"
+   ],
+   "id_global": "MfrAepqfv2g#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Alternar alvos Sol e Mi com acordes menores",
+   "descricao": "Em progressões que misturam maior e menor, resolva em Sol sobre o acorde de Sol e em Mi sobre os acordes menores (Em, Am) para escurecer a frase.",
+   "passos": [],
+   "timestamp": "08:07",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "mistura maior menor",
+    "resolução"
+   ],
+   "id_global": "MfrAepqfv2g#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Bend completo na segunda nota da corda Sol",
+   "descricao": "Um bend completo na segunda nota da corda Sol leva ao Si. O Si pertence a Sol maior e a Mi menor, por isso o bend combina com qualquer ponto da pentatônica nessas tonalidades.",
+   "passos": [
+    "Na corda Sol, toque a segunda nota da forma.",
+    "Faça um bend completo, que sobe um tom e chega ao Si.",
+    "Use o bend em qualquer ponto da frase, pois o Si combina com os dois acordes."
+   ],
+   "timestamp": "08:40",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "si",
+    "sol maior",
+    "mi menor"
+   ],
+   "id_global": "MfrAepqfv2g#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Dó sustenido menor e Mi maior são relativas",
+   "descricao": "A pentatônica de Dó sustenido menor fica na 9ª casa da corda Mi grave. Três casas acima, na 12ª casa, está Mi, que é a tônica de Mi maior. As duas tonalidades compartilham a mesma forma.",
+   "passos": [],
+   "timestamp": "09:50",
+   "nivel": "intermediario",
+   "tags": [
+    "dó sustenido menor",
+    "mi maior",
+    "relativas"
+   ],
+   "id_global": "MfrAepqfv2g#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Pousar em Dó sustenido para menor e em Mi para maior",
+   "descricao": "Numa progressão que vai de C#m e G#m para A e E, frases que pousam em Dó sustenido reforçam o clima menor no início e frases que pousam em Mi reforçam o maior no final.",
+   "passos": [],
+   "timestamp": "10:22",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "transição menor maior",
+    "frases"
+   ],
+   "id_global": "MfrAepqfv2g#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Blues em Lá maior com pentatônica de Lá maior",
+   "descricao": "Sobre o blues em Lá maior (A, D, E), use a pentatônica de Lá maior, que tem a mesma forma da pentatônica de Fá sustenido menor. A tônica Lá está na 5ª casa da corda Mi grave, que é a segunda nota da forma. Resolva nos Lás.",
+   "passos": [],
+   "timestamp": "11:08",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "lá maior",
+    "pentatônica maior",
+    "fá sustenido menor"
+   ],
+   "id_global": "MfrAepqfv2g#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Nota extra de blue note",
+   "descricao": "Ao tocar a pentatônica de Lá maior no blues, acrescente a nota extra de blue note, que dá sabor bluesy. O vídeo não diz o nome dessa nota, então confira na tablatura exibida.",
+   "passos": [],
+   "timestamp": "11:43",
+   "nivel": "intermediario",
+   "tags": [
+    "blue note",
+    "blues",
+    "sabor"
+   ],
+   "id_global": "MfrAepqfv2g#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Pentatônica menor de Lá sobre acorde maior de Lá",
+   "descricao": "Tocar a pentatônica menor de Lá sobre o acorde maior de Lá dá um som mais escuro, sujo e 'enfumaçado', típico do blues. A tensão entre a escala menor e o acorde maior é intencional.",
+   "passos": [],
+   "timestamp": "12:16",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "pentatônica menor",
+    "acorde maior",
+    "tensão"
+   ],
+   "id_global": "MfrAepqfv2g#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Escolher maior ou menor no blues",
+   "descricao": "No blues você pode escolher entre tocar a escala maior ou a menor sobre o mesmo acorde maior. A maior soa mais brilhante e country, a menor soa mais bluesy. Blueseiros avançados misturam as duas.",
+   "passos": [],
+   "timestamp": "13:23",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "escolha de escala",
+    "mistura maior menor"
+   ],
+   "id_global": "MfrAepqfv2g#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "erro_comum",
+   "titulo": "Entrar em modos para cada acorde fora da tonalidade",
+   "descricao": "Sobre C, Bb, F, Am, D, G, o acorde Bb sugere mixolídio por causa do Sib, e o D sugere dórico por causa do Fá sustenido. Tentar acertar cada modo complica a improvisação sem necessidade.",
+   "passos": [],
+   "timestamp": "14:31",
+   "nivel": "intermediario",
+   "tags": [
+    "acordes fora da tonalidade",
+    "mixolídio",
+    "dórico"
+   ],
+   "id_global": "MfrAepqfv2g#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Usar pentatônica de Dó maior sobre acordes fora da tonalidade",
+   "descricao": "A pentatônica de Dó maior não tem Si nem Fá, então não é preciso decidir se essas notas são bemol, natural ou sustenido. Use-a sobre a progressão C, Bb, F, Am, D, G.",
+   "passos": [],
+   "timestamp": "15:05",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "dó maior",
+    "acordes fora da tonalidade",
+    "simplificação"
+   ],
+   "id_global": "MfrAepqfv2g#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "A pentatônica cobre a maioria das progressões",
+   "descricao": "Segundo o vídeo, a pentatônica acompanha cerca de 95% das progressões de rock, pop e blues, mesmo com acordes fora da tonalidade. Por isso é uma base confiável para improvisar.",
+   "passos": [],
+   "timestamp": "15:05",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "progressões",
+    "confiança"
+   ],
+   "id_global": "MfrAepqfv2g#I20"
+  }
+ ],
+ "artistas_citados": [
+  "Leah Anderton"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Vídeo do canal Jules Guitar sobre mistura de maior e menor no blues (youtu.be/OWt96jktlww)",
+  "Gráfico de tonalidades mostrado no vídeo que indica quais acordes pertencem a cada tonalidade"
+ ],
+ "observacoes": "Legenda automática com erros: 'Leah andertons' é Leah Anderton; 'foreign' indica trechos só de música; 'Major vs minor' e outros trechos dependem de diagramas na tela. No trecho de 03:23 a legenda diz 'C minor chords', mas pelo contexto são acordes de Lá menor (Am). A legenda 'bend on the second note on the G string' refere-se à corda Sol. O trecho 'pentatonic will keep you going through 95 of progressions' foi lido como 95%. A nota da blue note no blues em Lá maior não foi nomeada no áudio e depende da tablatura. Várias referências como 'here' e 'this a of the fifth fret' exigem ver o vídeo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00328,
+  "via": "api"
+ }
+}

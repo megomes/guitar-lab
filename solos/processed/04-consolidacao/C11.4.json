@@ -1,0 +1,420 @@
+{
+ "subcategoria": "C11.4",
+ "visao_geral": "A subcategoria amplia o vocabulário além da escala maior e da pentatônica comum. Ela parte de variações de uma nota na pentatônica (menor com 6, mixolídia, com ♭6) e passa pela híbrida mixolídio-blues. Depois vêm a menor harmônica e seus modos (frígio dominante), a melódica menor, a maior com ♭6, o lídio dominante e as pentatônicas modais sobrepostas. A ideia que atravessa as fontes é tratar cada escala como um sabor aplicado a um acorde específico, não como uma lista enorme a decorar.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "erro_comum",
+   "titulo": "Não acumular escalas: poucas e bem usadas",
+   "descricao": "Estudar listas enormes de escalas é improdutivo; para o jazz, Jens Larsen considera suficientes a maior, a menor harmônica e a menor melódica. O sistema chord-scale chegou a ensinar até 21 escalas: modos da maior, modos da melódica menor, diminutas, tons inteiros, pentatônicas e bebop. Nos anos 1940 eram cerca de quatro (maior, menor, mixolídio, blues), mais a diminuta e a de tons inteiros trazidas pelo bebop. Domine a pentatônica primeiro e acrescente cor aos poucos, porque ficar só na pentatônica menor deixa o solo sem cor.",
+   "passos": [
+    "Consolidar a pentatônica menor como base",
+    "Escolher uma escala nova por vez (maior, menor harmônica, melódica menor)",
+    "Aplicar cada uma sobre um contexto harmônico concreto antes de passar à próxima"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "EMQydbilqmo#I02",
+    "en--chord-scale_system-ebd9f4#I06",
+    "7CeLTp_gK4I#I04",
+    "4-XWDbMtR-U#I14"
+   ],
+   "divergencias": "Jens Larsen reduz o repertório a três escalas, enquanto o ensino chord-scale descrito na Wikipedia chega a 21.",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas alternativas: trocar uma nota muda a cor",
+   "descricao": "Qualquer conjunto de cinco notas pode formar uma penta. Variantes menores em Dó: C E♭ F G B♭ (próxima da blues), C E♭ F A♭ B♭ (frígia), C D♭ F G B♭ (som japonês), C E♭ F G A (jazz) e C E♭ F A B♭ (alterada). Variantes maiores em Dó: C D E G A (maior), C D E G B♭ (mixolídia) e C D E F# A (jazz/lídia). A penta comum C D E G A também gera cinco modos ao tomar cada nota como tônica: maior (C), suspensa/egípcia (D), blues maior (G), menor (A) e blues menor (E).",
+   "passos": [
+    "Tocar a penta de referência em Dó",
+    "Trocar uma única nota por vez seguindo as listas",
+    "Comparar a cor de cada variante sobre um drone de Dó"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "pt--escala_pentatônica-58d055#I06",
+    "pt--escala_pentatônica-58d055#I07",
+    "en--pentatonic_scale-d2efb3#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor com 6 (menor 6 pentatônica)",
+   "descricao": "Na pentatônica menor, troca-se a ♭7 pela 6ª maior, que fica um tom abaixo dela; basta substituir uma nota, sem decorar outro desenho. Em B♭, a penta B♭ D♭ E♭ F A♭ ganha o G, formando B♭ D♭ E♭ F G, de som mais doce. Robben Ford a chama de menor 6 pentatônica, e Matt Schofield abre solos sobre B♭7 com essa sonoridade.",
+   "passos": [
+    "Tocar a pentatônica menor (ex.: B♭)",
+    "Localizar a ♭7 (A♭) em cada corda",
+    "Descer um tom até a 6ª (G) e tocar a escala com a troca"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I02",
+    "lJRzTqOf1ro#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Pentatônica mixolídia 1-3-4-5-♭7",
+   "descricao": "Reúne as notas mais importantes do mixolídio: tônica, 3ª, 4ª, 5ª e ♭7. Em Ré são D F# G A C. Por ter só cinco notas, é mais fácil de improvisar do que o modo completo. Tocá-la em grupos de três e de quatro notas ajuda a sair do padrão de escala.",
+   "passos": [
+    "Montar a forma de D F# G A C",
+    "Subir e descer em grupos de três notas",
+    "Repetir em grupos de quatro notas",
+    "Alternar os dois padrões sobre um jam track em Ré"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "vPIebPDBizs#I18",
+    "vPIebPDBizs#I19"
+   ],
+   "divergencias": "A Signals Music Studio define a penta mixolídia como 1-3-4-5-♭7, enquanto a Wikipedia (K02) cita 1-2-3-5-♭7 (C D E G B♭) como penta de cor mixolídia.",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Trazer a ♭7 para licks de pentatônica",
+   "descricao": "Em Lá, acrescente a ♭7 (G) aos licks de pentatônica e use um bend leve para gerar tensão, em vez de ficar só nas notas mais espaçadas da escala. Na corda B, o G está na casa 8; a casa 7 é F# (6ª), que com bend de meio tom chega ao G.",
+   "passos": [
+    "Tocar um lick de pentatônica em Lá na região da casa 5",
+    "Inserir o G (corda B, casa 8) ou bendar meio tom a partir da casa 7",
+    "Resolver na tônica ou na 5ª"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZPELVwO27lc#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte diz 'casa 7 da corda B = sol', mas a casa 7 da corda B é F#; o G fica na casa 8."
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Temperar o mixolídio com a escala blues maior",
+   "descricao": "Sobre Ré mixolídio, misturar a escala blues maior (1-2-♭3-3-5-6, em Ré: D E F F# A B) acrescenta um tempero que funciona bem. O F (♭3) passando para o F# (3) dá o sabor blues dentro do som maior/dominante.",
+   "passos": [
+    "Improvisar em Ré mixolídio",
+    "Inserir a blues maior de Ré",
+    "Usar o F como passagem cromática para o F#"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "NbNH_C3QAS0#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Escala híbrida mixolídio-blues",
+   "descricao": "É a união, na mesma posição, de todas as notas da blues menor e do mixolídio: 1, 2, ♭3, 3, 4, ♭5, 5, 6, ♭7. Com tantas notas, permite explorar ao mesmo tempo tensões de blues (♭3, ♭5) e de dominante (3, ♭7). É indicada para solar sobre acordes maiores e dominantes.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZPELVwO27lc#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "dica",
+   "titulo": "Entrar na híbrida a partir da pentatônica (rede de segurança)",
+   "descricao": "Use a pentatônica menor (ou a blues menor) como base e acrescente uma nota da híbrida por vez. Em Lá, um bom primeiro acréscimo é a 3ª maior (C#), na casa 6 da corda G. Alterne com calma entre a 3ª menor (C) e a 3ª maior.",
+   "passos": [
+    "Tocar a pentatônica de Lá menor",
+    "Adicionar o C# (corda G, casa 6)",
+    "Alternar gradualmente entre C e C#",
+    "Acrescentar as demais notas da híbrida, uma por vez"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZPELVwO27lc#I15",
+    "ZPELVwO27lc#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Posição da híbrida em Lá nomeando os graus",
+   "descricao": "Na região da casa 5, a posição fica assim: E grave 5-7-8 (A B C); corda A 4-5-6-7 (C# D D# E); corda D 4-5-7 (F# G A); corda G 4 a 8 cromático (B C C# D D#); corda B 5-7-8 (E F# G); E aguda 5-7-8 (A B C), mais a casa 9 (C#). Diga o grau de cada nota enquanto toca e, na segunda oitava, chame a 6 de 13. Toque devagar até conseguir visualizar o desenho sem a guitarra.",
+   "passos": [
+    "Tocar a posição devagar, corda a corda",
+    "Dizer os graus na 1ª oitava: 1, 2, ♭3, 3, 4, ♭5, 5, 6, ♭7, 1",
+    "Repetir na 2ª oitava chamando a 6 de 13",
+    "Acrescentar o C# na casa 9 da E aguda",
+    "Visualizar o desenho sem tocar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZPELVwO27lc#I10",
+    "ZPELVwO27lc#I14",
+    "ZPELVwO27lc#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "A descrição da corda G estava truncada ('4 a ♭5 mais 6 e 7'); o correto é cromático da casa 4 à 8 (B C C# D D#)."
+  },
+  {
+   "id": "K10",
+   "tipo": "conceito",
+   "titulo": "Caráter dramático e clássico da menor harmônica",
+   "descricao": "A menor harmônica (1-2-♭3-4-5-♭6-7) soa apaixonada e dramática; é ela que dá a sensação clássica ao riff e ao solo de Plug In Baby, do Muse. Tocada em semicolcheias retas, porém, perde esse caráter. O rubato é o que libera seu potencial.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "0Dz1QC7xk5U#I11",
+    "Anop2dCuR2g#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "exercicio",
+   "titulo": "Menor harmônica: do reto ao rubato",
+   "descricao": "Toque primeiro um lick de menor harmônica em semicolcheias rigidamente uniformes e note como soa seco. Depois aplique rubato: comece lento e com ataque forte, acelere com fluidez no meio e desacelere no fim com palm mute.",
+   "passos": [
+    "Tocar o lick em semicolcheias retas",
+    "Avaliar se soa dramático ou seco",
+    "Recomeçar lento, com ataque forte",
+    "Acelerar com fluidez no meio",
+    "Desacelerar no fim com palm mute"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "0Dz1QC7xk5U#I04",
+    "0Dz1QC7xk5U#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Menor harmônica do acorde de destino sobre o dominante",
+   "descricao": "Sobre um dominante que resolve num acorde menor, usa-se a menor harmônica do acorde de destino. Sobre F#7 → Bm, a B menor harmônica (B C# D E F# G A#) fornece, a partir de F#, os graus 1, ♭9, 3, 4, 5, ♭13 e ♭7 (frígio dominante, ou mixolídio ♭9 ♭13). Da mesma forma, sobre o dominante secundário A7 → Dm7, toca-se D menor harmônica, e não uma escala dominante comum.",
+   "passos": [
+    "Identificar o acorde de resolução (ex.: Bm)",
+    "Tocar a menor harmônica dele sobre o dominante (F#7)",
+    "Destacar ♭9 (G) e 3ª (A#)",
+    "Resolver nas notas do acorde menor"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "EJW2rIhE_GA#I20",
+    "h4zQjSecjvI#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Frígio dominante e modos da menor harmônica",
+   "descricao": "A menor harmônica gera sete modos. O quinto, frígio dominante (1-♭2-3-4-5-♭6-♭7), é muito usado no flamenco e na música árabe e serve para dominantes com ♭9. Em Mi: E F G# A B C D, base do som exótico de Storming the Castle (Nick Layton), tocado em grupos de 6 notas com tapping, hammer-ons e pull-offs.",
+   "passos": [
+    "Construir Mi frígio dominante: E F G# A B C D",
+    "Estudar devagar os grupos de 6 notas, aumentando a velocidade aos poucos",
+    "Abafar as cordas soltas para manter a frase limpa"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "en--mode_-music-72a13e#I16",
+    "en--mode_-music-72a13e#I19",
+    "tomhess--pt-269230#I10"
+   ],
+   "divergencias": "Um trecho do artigo diz que o flamenco usa o frígio com 3ª e 7ª elevadas (1-♭2-3-4-5-♭6-7), enquanto o frígio dominante eleva só a 3ª.",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "conceito",
+   "titulo": "Melódica menor: escala maior com ♭3",
+   "descricao": "A melódica menor é a escala maior com a 3ª abaixada. Fá melódica menor, por exemplo, é F G A♭ B♭ C D E: só o A♭ muda em relação a Fá maior, o que dá cor sem grande mudança. É o próximo passo sugerido depois da pentatônica e da escala maior, junto com cromatismo, dominantes secundários e diminutos.",
+   "passos": [
+    "Escolher uma tonalidade com backing track",
+    "Improvisar primeiro com a escala maior",
+    "Abaixar a 3ª e improvisar com a melódica menor",
+    "Comparar as duas sobre a mesma harmonia"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I22",
+    "XL9TYmwkHWs#I24",
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I21",
+    "tRi4vMs2z8M#I37"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Escala maior com ♭6 como fonte de cor cromática",
+   "descricao": "A escala maior com a 6ª abaixada (1-2-3-4-5-♭6-7, conhecida como harmônica maior) foi usada no vídeo sobre o backing track para criar cor cromática. O nome que aparece na legenda automática está errado.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "XL9TYmwkHWs#I26"
+   ],
+   "divergencias": "",
+   "correcoes": "Pela descrição, a escala é a maior com ♭6 (harmônica maior), e não o nome que aparece na legenda."
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Pentatônica maior com ♭6 (1-2-3-5-♭6)",
+   "descricao": "Trocando o B pelo B♭ na pentatônica de Ré, obtém-se D E F# A B♭ (1-2-3-5-♭6), que Paul Davids descreve como uma espécie de harmônica maior sem a 7ª. Ela soa bem até sobre o próprio acorde de Ré maior, sem precisar pensar no Gm (IV menor).",
+   "passos": [
+    "Tocar a pentatônica maior de Ré",
+    "Baixar o B para B♭",
+    "Improvisar sobre um acorde de Ré maior, resolvendo o B♭ em A"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "NbNH_C3QAS0#I31",
+    "NbNH_C3QAS0#I33"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Lídio dominante: dominante com ♯4",
+   "descricao": "Sobre C7, o lídio dominante é C D E F# G A B♭ (mixolídio com ♯4). A ♯4 (F#) é a nota de cor favorita desse som e antigamente era chamada de ♭5.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "dica",
+   "titulo": "Sabores de escala por acorde (abordagem de Matt Schofield)",
+   "descricao": "Schofield mistura pentatônica, mixolídio, blues e lídio dominante, mas toca sabores específicos sobre cada acorde em vez de pensar numa escala grande. Exemplo: sobre F7, a blues de F (F A♭ B♭ B C E♭) resolve num som de E♭ mixolídio (E♭ F G A♭ B♭ C D♭).",
+   "passos": [
+    "Escolher um acorde do blues (ex.: F7)",
+    "Escolher um sabor curto (ex.: blues de F)",
+    "Resolver o sabor no outro som (E♭ mixolídio)"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I08",
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "Nota: E♭ mixolídio contém as mesmas notas de F eólio (A♭ maior), ou seja, sobre F7 ele soa como uma cor menor/blues."
+  },
+  {
+   "id": "K19",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas modais",
+   "descricao": "Cada modo (dórico, frígio, lídio, mixolídio, lócrio) gera uma pentatônica modal de cinco notas que sempre contém a nota característica do modo. Assim, a cor modal fica com a facilidade de digitação da pentatônica.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I29"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Penta de Ré menor sobre Dó menor dórico",
+   "descricao": "Sobre Cm com intenção dórica, toque a pentatônica de Ré menor (D F G A C). Em relação a Dó, ela oferece 9 (D), 11 (F) e 13 (A), as três notas da estrutura superior, incluindo a 6ª maior característica do dórico.",
+   "passos": [
+    "Tocar um vamp de Cm (dórico)",
+    "Improvisar com a penta de Ré menor",
+    "Mirar o A (6ª maior) nos pontos fortes"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "exercicio",
+   "titulo": "Frase combinando três sobreposições pentatônicas",
+   "descricao": "Sobre Dó menor dórico, combine as três sobreposições pentatônicas numa única frase. Aproveite os saltos e os graus conjuntos típicos da pentatônica para passar de uma à outra.",
+   "passos": [
+    "Revisar cada sobreposição isoladamente sobre Cm",
+    "Encadear duas delas numa frase",
+    "Juntar as três numa linha contínua"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Cinco pentatônicas modais sobre um acorde lídio",
+   "descricao": "Sobre Dó maior com intenção lídia, use as pentatônicas modais de Dó lídio, Ré mixolídio, Fá♯ lócrio, Lá dórico e Si frígio, todos modos de Sol maior. Cada uma dá um sabor modal diferente sobre o mesmo acorde.",
+   "passos": [
+    "Tocar a penta modal de Dó lídio",
+    "Passar para a de Ré mixolídio",
+    "Seguir com Fá♯ lócrio, Lá dórico e Si frígio",
+    "Combinar notas das cinco numa frase"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I30"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "Escala diminuta: só dois modos",
+   "descricao": "Por alternar tons e semitons, a escala diminuta tem só dois modos distintos: um começa com tom e o outro com semitom. Os modos ímpares equivalem ao primeiro e os pares ao segundo, o que reduz as sonoridades a estudar.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--mode_-music-72a13e#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "Várias fontes eram de qualidade 3 e muitas não tinham autor identificado. O item K09 foi reconstruído a partir das casas, porque a descrição da corda G estava inconsistente. A ideia #18 (frígio com 3ª e 7ª elevadas) foi mantida como divergência em K13, pois a descrição corresponde mais à escala dupla harmônica do que ao frígio dominante. Ficaram de fora as secundárias #32 (mistura de pentatônicas, C04.5), #38 (bebop, C12.4), #57 (cromatismo, C11.5) e #34–#37, #39, #44, #45, #49, #53–#55, por pertencerem melhor a outras subcategorias.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 28,
+  "ideias_secundarias": 29,
+  "itens": 23,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1495,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15505,
+   "output_tokens": 11846
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

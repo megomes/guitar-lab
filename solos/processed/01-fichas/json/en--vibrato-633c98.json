@@ -1,0 +1,394 @@
+{
+ "fonte_id": "en--vibrato-633c98",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Vibrato - Wikipedia",
+  "autor": "Authority control databases International GND National United States France BnF data Latvia Israel Other Yale LUX",
+  "url": "https://en.wikipedia.org/wiki/Vibrato",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--vibrato-633c98.md"
+ },
+ "resumo": "Artigo da Wikipedia sobre vibrato, definido como variação regular e pulsante da altura, caracterizada pela extensão (quanto a nota varia) e pela taxa (a velocidade da variação). Cobre a história e a percepção do efeito, a distinção entre vibrato e trêmolo, o uso em diferentes gêneros (clássico, ópera, jazz, folk e pop) e as técnicas de produção em voz, teclados, cordas, sopros, metais e efeitos mecânicos ou eletrônicos. Serve como base conceitual para quem quer entender o vibrato, mas tem pouca aplicação prática direta para solo na guitarra.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitualmente claro e bem organizado, com definições úteis (extensão, taxa, vibrato x trêmolo). Porém é um texto histórico e descritivo, sem exercícios, e quase nada se aplica diretamente à guitarra solo, exceto as menções ao vibrato de dedo e à alavanca."
+ },
+ "assuntos_principais": [
+  "vibrato",
+  "trêmolo",
+  "extensão e taxa do vibrato",
+  "percepção do vibrato",
+  "vibrato na voz",
+  "vibrato em cordas",
+  "vibrato em sopros e metais",
+  "vibrato mecânico e eletrônico",
+  "história do vibrato",
+  "vibrato em jazz, pop, folk e música clássica"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e conceitos básicos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define vibrato como variação regular da altura, caracterizada pela extensão e pela taxa, e menciona sua origem vocal e a reprodução mecânica ou eletrônica.",
+   "assuntos": [
+    "definição de vibrato",
+    "extensão",
+    "taxa",
+    "vibrato vocal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Vibrato e trêmolo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Distingue vibrato (variação periódica da altura) de trêmolo (repetição rápida da mesma nota ou alternância entre duas notas, como o trêmolo picking na guitarra).",
+   "assuntos": [
+    "vibrato x trêmolo",
+    "trêmolo picking"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Percepção auditiva e extensão típica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica como o ouvinte percebe a altura média, e indica extensões típicas: menos de um semitom para cantores solistas, menos de 10 cents no coro e menos de meio semitom para sopros e cordas com arco.",
+   "assuntos": [
+    "percepção do vibrato",
+    "altura média",
+    "extensão em cents",
+    "extensão típica por instrumento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Uso em gêneros e história",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Relata a história do vibrato na música clássica, a polêmica sobre o vibrato contínuo, a ópera, o jazz (uso quase contínuo até os anos 1950) e o pop e folk, com ênfase em aspectos históricos e estilísticos.",
+   "assuntos": [
+    "história do vibrato",
+    "vibrato na ópera",
+    "vibrato no jazz",
+    "vibrato no folk",
+    "vibrato no pop",
+    "polêmica do vibrato contínuo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Técnicas de produção",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve como se produz o vibrato em cada família instrumental: voz, teclados, cordas (dedo, arco e alavanca), sopros e metais, além de efeitos mecânicos como o Leslie.",
+   "assuntos": [
+    "técnicas de vibrato",
+    "vibrato com dedo",
+    "vibrato de arco",
+    "vibrato de sopro",
+    "vibrato mecânico",
+    "Leslie"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Referências, notas e links externos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas, notas de rodapé e links externos, incluindo artigos sobre vibrato na guitarra elétrica.",
+   "assuntos": [
+    "referências",
+    "links externos"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Vibrato é variação regular da altura",
+   "descricao": "Vibrato é uma variação regular e pulsante da altura de uma nota, usada para dar expressão. Se caracteriza por dois fatores: a extensão (quanto a altura varia) e a taxa (a velocidade dessa variação).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "extensão",
+    "taxa"
+   ],
+   "id_global": "en--vibrato-633c98#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Diferença entre vibrato e trêmolo",
+   "descricao": "Vibrato é uma variação periódica da altura de uma nota. Trêmolo é a repetição rápida da mesma nota ou a alternância entre duas notas, como o trêmolo picking na guitarra. Na prática os termos são usados como sinônimos, mas na teoria são efeitos diferentes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "trêmolo",
+    "vibrato",
+    "trêmolo picking"
+   ],
+   "id_global": "en--vibrato-633c98#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Percepção do vibrato pelo ouvinte",
+   "descricao": "O ouvinte tende a perceber a altura média da nota e não as duas alturas extremas, por isso o vibrato soa como uma única nota com mais calor tonal.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "percepção",
+    "altura média"
+   ],
+   "id_global": "en--vibrato-633c98#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Extensão típica do vibrato",
+   "descricao": "Em cantores solistas a extensão costuma ser menor que um semitom (100 cents) para cada lado da nota. Em coros, é menor que um décimo de semitom (10 cents). Em sopros e cordas com arco, costuma ser menor que meio semitom para cada lado.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "extensão",
+    "cents",
+    "semitom"
+   ],
+   "id_global": "en--vibrato-633c98#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Vibrato contínuo no jazz",
+   "descricao": "A maioria dos jazzistas da primeira metade do século XX usava vibrato quase continuamente. A partir dos anos 1950, com o bebop, o uso contínuo perdeu força em favor de um uso mais seletivo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "jazz",
+    "bebop",
+    "vibrato seletivo"
+   ],
+   "id_global": "en--vibrato-633c98#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Tocar sem vibrato para dominar a técnica",
+   "descricao": "Segundo Leopold Auer, o violinista deve praticar tocando completamente sem vibrato e, ao perceber que está usando vibrato sem querer, parar de tocar por alguns minutos para ganhar controle total da técnica.",
+   "passos": [
+    "Tocar uma passagem completamente sem vibrato",
+    "Ao perceber que o vibrato entrou sem intenção, parar por alguns minutos",
+    "Retomar a passagem e repetir até ter controle total sobre a presença ou ausência do vibrato"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "controle do vibrato",
+    "autocontrole",
+    "Auer"
+   ],
+   "id_global": "en--vibrato-633c98#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Vibrato na ópera",
+   "descricao": "Na ópera o vibrato começa no início da nota e continua até o fim, com pequenas variações de largura. No pop, ao contrário, ele costuma começar na parte final da nota.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "ópera",
+    "pop",
+    "início do vibrato"
+   ],
+   "id_global": "en--vibrato-633c98#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Vibrato com o dedo na guitarra",
+   "descricao": "Na guitarra, o vibrato pode ser feito balançando o dedo que pressiona a corda sobre o braço, ou movendo o dedo para cima e para baixo na corda para um vibrato mais largo. Vibratos largos, de até um tom inteiro, são comuns em guitarristas elétricos e imitam a expressividade vocal.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "guitarra",
+    "vibrato com dedo",
+    "vibrato largo",
+    "expressividade"
+   ],
+   "id_global": "en--vibrato-633c98#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Vibrato com alavanca (tailpiece)",
+   "descricao": "Na guitarra, o vibrato também pode ser obtido com uma alavanca de vibrato (vibrato tailpiece), que ajusta a tensão das cordas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "alavanca",
+    "tailpiece",
+    "guitarra"
+   ],
+   "id_global": "en--vibrato-633c98#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Vibrato de arco nas cordas",
+   "descricao": "Alguns violinistas usam vibrato de arco, movendo a mão direita levemente para cima e para baixo para alterar o ângulo e a pressão do arco, o que oscila a altura e a intensidade da nota. A técnica também foi usada por músicos de cordas no Barroco.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "vibrato de arco",
+    "violino",
+    "barroco"
+   ],
+   "id_global": "en--vibrato-633c98#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Vibrato de sopro e de mandíbula",
+   "descricao": "Sopradores produzem vibrato modulando o fluxo de ar, pelo diafragma (stomach vibrato) ou pela garganta (throat vibrato). Saxofonistas e clarinetistas costumam fazer vibrato movendo levemente a mandíbula para cima e para baixo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "sopro",
+    "diafragma",
+    "mandíbula"
+   ],
+   "id_global": "en--vibrato-633c98#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Vibrato de metais",
+   "descricao": "Nos metais, o vibrato é feito alterando rapidamente a embocadura (lip vibrato), que é a técnica mais usada em metais graves. O vibrato de mão, que sacode o instrumento, é mais comum em metais agudos. No trombone, o vibrato de vara (slide vibrato) move a vara para frente e para trás.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "metais",
+    "lip vibrato",
+    "slide vibrato"
+   ],
+   "id_global": "en--vibrato-633c98#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Vibrato diafragmático nos metais",
+   "descricao": "O vibrato diafragmático é considerado imaturo nos metais, pois atrapalha o fluxo de ar dos pulmões ao instrumento e prejudica som e resistência.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "metais",
+    "diafragma",
+    "erro"
+   ],
+   "id_global": "en--vibrato-633c98#I13"
+  }
+ ],
+ "artistas_citados": [
+  "Coleman Hawkins",
+  "Leonard Bernstein",
+  "George Auld",
+  "Benny Goodman",
+  "Leopold Auer",
+  "Carl Seashore",
+  "William Vennard",
+  "Lodovico Zacconi",
+  "Leopold Mozart",
+  "Francesco Geminiani",
+  "Martin Agricola",
+  "Richard Wagner",
+  "Johannes Brahms",
+  "Roger Norrington",
+  "Fritz Kreisler",
+  "Richard Strauss",
+  "Camille Saint-Saëns",
+  "Mahler",
+  "Debussy",
+  "Wolfgang Amadeus Mozart",
+  "Tartini",
+  "Giovanni Battista Rubini",
+  "Gaetano Donizetti",
+  "Vincenzo Bellini",
+  "Enrico Caruso",
+  "Conchita Supervía",
+  "Leonidas Kavakos",
+  "Carl Flesch",
+  "Joseph Joachim",
+  "Diran Alexanian",
+  "Max Schoen",
+  "Sylvestro Ganassi dal Fontego",
+  "Benjamin Britten",
+  "Percy Grainger",
+  "Mel Torme",
+  "Peter-Michael Fischer"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Leslie speaker",
+  "Hammond organ",
+  "Wurlitzer organ",
+  "clavichord",
+  "theremin",
+  "Violin Playing as I Teach It (Leopold Auer, 1920)",
+  "Versuch einer gründlichen Violinschule (Leopold Mozart, 1756)",
+  "Musica instrumentalis deudsch (Martin Agricola, 1529)",
+  "The Record of Singing (Michael Scott)",
+  "Tenor: History of a Voice (John Potter)",
+  "Traité théorique et pratique du Violoncelle (Diran Alexanian, 1922)",
+  "Basics (Simon Fischer)",
+  "Violin Vibrato: Its Mastery and Artistic Uses (Eberhardt)",
+  "Punctuating your Lead Guitar with String Vibratos"
+ ],
+ "observacoes": "Documento da Wikipedia em inglês, extraído com ruído: a seção Terminology está vazia, as seções Sound examples e See also não têm conteúdo e há marcas de edição como [edit] e [citation needed]. Não há timestamps, então segmentos e ideias ficam sem início, fim e timestamp. O texto é majoritariamente histórico e voltado a canto, cordas e sopros; a aplicação à guitarra é mínima (vibrato com dedo, alavanca e trêmolo picking). A menção de Wiki a 'Punctuating your Lead Guitar with String Vibratos' é apenas um link externo, sem conteúdo no documento.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00204,
+  "via": "api"
+ }
+}

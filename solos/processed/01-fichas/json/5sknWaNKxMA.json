@@ -1,0 +1,331 @@
+{
+ "fonte_id": "5sknWaNKxMA",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+  "autor": "Kiko Loureiro",
+  "url": "https://www.youtube.com/watch?v=5sknWaNKxMA",
+  "idioma": "pt",
+  "duracao": "6m 52s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/5sknWaNKxMA--guitarra-para-iniciantes-bends-e-vibratos.md"
+ },
+ "resumo": "Kiko Loureiro explica para iniciantes como bends e vibratos definem a \"voz\" e o estilo do guitarrista. Aborda afinação certeira nos bends (meio tom, um tom, dois tons), o movimento de rotação da mão/antebraço, como abafar as cordas com polegar, palheta e dedos para manter a limpeza, harmônicos (naturais, batidos e com palheta/polegar) e recursos de alavanca. Fecha dizendo que tudo isso se consolida com anos de prática até ficar natural.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Dicas técnicas concretas e importantes sobre afinação, rotação e abafamento, mas depende de ver as demonstrações e não traz exercícios estruturados."
+ },
+ "assuntos_principais": [
+  "bend",
+  "vibrato",
+  "afinação",
+  "abafamento",
+  "técnica de mão esquerda",
+  "harmônicos",
+  "alavanca"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Bend e vibrato como identidade e afinação",
+   "inicio": "00:02",
+   "fim": "01:48",
+   "resumo": "O estilo do guitarrista depende do seu bend e vibrato. Estudar bends de meio tom e um tom com afinação certeira e variar nuances de vibrato.",
+   "assuntos": [
+    "bend",
+    "vibrato",
+    "afinação",
+    "estilo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Movimento de rotação e limpeza nos bends",
+   "inicio": "01:48",
+   "fim": "03:35",
+   "resumo": "Movimento de rotação em vez de vertical e como abafar as cordas com polegar, palheta e dedos para evitar ruídos.",
+   "assuntos": [
+    "rotação",
+    "abafamento",
+    "limpeza"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Harmônicos",
+   "inicio": "03:35",
+   "fim": "05:21",
+   "resumo": "Harmônicos naturais na casa 12, 5 e 7, harmônico batido com o dedo e harmônico artificial com palheta e polegar.",
+   "assuntos": [
+    "harmônicos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Alavanca e conclusão",
+   "inicio": "05:21",
+   "fim": "06:52",
+   "resumo": "Usos da alavanca (vibrato, simular bend, vibratos fortes) e lembrete de que a técnica se consolida com anos de prática.",
+   "assuntos": [
+    "alavanca",
+    "prática",
+    "mentalidade"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Bend e vibrato definem a voz do guitarrista",
+   "descricao": "O estilo e a voz do guitarrista se baseiam em como ele faz bend e vibrato. Vale estudar muito esses dois assuntos e descobrir a própria forma de executá-los.",
+   "passos": [],
+   "timestamp": "00:02",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "vibrato",
+    "estilo"
+   ],
+   "id_global": "5sknWaNKxMA#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Tocar uma melodia simples de várias formas",
+   "descricao": "Pegue uma melodia simples e toque-a de várias maneiras, variando bends e vibratos, para experimentar as nuances de expressão que a guitarra permite.",
+   "passos": [
+    "Escolha uma melodia simples",
+    "Toque com bends e vibratos diferentes (suaves, fortes)",
+    "Compare as nuances e escolha o que combina com seu estilo"
+   ],
+   "timestamp": "00:15",
+   "nivel": "iniciante",
+   "tags": [
+    "expressão",
+    "melodia",
+    "bend",
+    "vibrato"
+   ],
+   "id_global": "5sknWaNKxMA#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Estudar bends de meio tom e de um tom, checando a afinação",
+   "descricao": "Estude o bend de meio tom e de um tom. Em caso de dúvida na afinação, toque antes a nota-alvo (a nota real na altura desejada) e compare com o bend, até acertar a altura.",
+   "passos": [],
+   "timestamp": "00:38",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "afinação",
+    "nota-alvo"
+   ],
+   "id_global": "5sknWaNKxMA#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Bend desafinado destrói a carreira de quem toca rápido",
+   "descricao": "Muito guitarrista que toca rápido faz o bend desafinado. Ser certeiro na afinação do bend é essencial, pois bends fora do tom comprometem o solo inteiro, mesmo com técnica veloz.",
+   "passos": [],
+   "timestamp": "01:13",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "afinação",
+    "erro"
+   ],
+   "id_global": "5sknWaNKxMA#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Vários tipos de vibrato",
+   "descricao": "Há vibratos mais violentos e mais suaves. Experimente e domine diferentes intensidades para dar variedade de expressão.",
+   "passos": [],
+   "timestamp": "01:25",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "dinâmica"
+   ],
+   "id_global": "5sknWaNKxMA#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Movimento de rotação, não vertical",
+   "descricao": "Tanto no bend quanto no vibrato, o movimento da mão é de rotação (do antebraço/pulso). Um movimento totalmente vertical não dá força para puxar a corda nem apoio. Em bends de dois tons é preciso bastante força.",
+   "passos": [],
+   "timestamp": "01:48",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "vibrato",
+    "rotação",
+    "técnica"
+   ],
+   "id_global": "5sknWaNKxMA#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Esbarrar em outras cordas ao fazer bend e vibrato",
+   "descricao": "Ao fazer bend ou vibrato é muito fácil esbarrar nas outras cordas e gerar ruído. A limpeza é ainda mais importante do que ao tocar escalas.",
+   "passos": [],
+   "timestamp": "02:23",
+   "nivel": "iniciante",
+   "tags": [
+    "limpeza",
+    "abafamento",
+    "bend"
+   ],
+   "id_global": "5sknWaNKxMA#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Abafar as cordas com polegar, palheta e dedos",
+   "descricao": "Num bend na segunda corda, o polegar da mão esquerda segura as cordas graves (de cima, por trás do braço) e a palheta também ajuda a afastar um pouco a corda. O dedo mindinho/dedos livres seguram a primeira corda. Só a nota que soa fica livre.",
+   "passos": [
+    "Faça o bend na segunda corda",
+    "Polegar segura as cordas graves",
+    "Dedo livre (mindinho) segura a primeira corda"
+   ],
+   "timestamp": "02:23",
+   "nivel": "iniciante",
+   "tags": [
+    "abafamento",
+    "polegar",
+    "bend",
+    "limpeza"
+   ],
+   "id_global": "5sknWaNKxMA#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Bend na terceira corda: dois dedos abafam as cordas agudas",
+   "descricao": "Em bends na terceira corda, use dois dedos para segurar as cordas de baixo (agudas) e o polegar segura as outras cinco cordas. Assim dá para fazer bend e vibrato com a força que quiser sem notas indesejadas.",
+   "passos": [],
+   "timestamp": "02:58",
+   "nivel": "iniciante",
+   "tags": [
+    "abafamento",
+    "bend",
+    "vibrato",
+    "limpeza"
+   ],
+   "id_global": "5sknWaNKxMA#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Harmônico natural: oitava na casa 12, e casas 5 e 7",
+   "descricao": "Encostando levemente sobre o traste na metade da corda (casa 12) obtém-se o harmônico de oitava. Também há harmônicos na 5ª e 7ª casas. Qualquer coisa tocada com a mão esquerda pode ser reproduzida como harmônico 12 casas à frente.",
+   "passos": [],
+   "timestamp": "04:10",
+   "nivel": "iniciante",
+   "tags": [
+    "harmônicos",
+    "casa 12",
+    "oitava"
+   ],
+   "id_global": "5sknWaNKxMA#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Harmônico batido com o dedo",
+   "descricao": "Também se pode bater com o dedo da mão direita sobre a casa 12 para extrair o harmônico (tapped harmonic).",
+   "passos": [],
+   "timestamp": "04:30",
+   "nivel": "intermediario",
+   "tags": [
+    "harmônicos",
+    "tapping"
+   ],
+   "id_global": "5sknWaNKxMA#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Harmônico com palheta e polegar",
+   "descricao": "Terceira forma, muito usada: palhetar e logo em seguida encostar o polegar na corda, como se fosse um dedo tirando o harmônico (pinch harmonic).",
+   "passos": [
+    "Palhete a corda",
+    "Encoste o polegar logo em seguida na corda"
+   ],
+   "timestamp": "04:44",
+   "nivel": "intermediario",
+   "tags": [
+    "harmônicos",
+    "palheta",
+    "polegar"
+   ],
+   "id_global": "5sknWaNKxMA#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Alavanca: vibrato e simular bend",
+   "descricao": "Com guitarra de alavanca, use vibratos com a alavanca e substitua a ideia do bend: parta de uma nota mais grave e chegue à nota desejada. Vibratos mais fortes também são possíveis.",
+   "passos": [],
+   "timestamp": "05:21",
+   "nivel": "intermediario",
+   "tags": [
+    "alavanca",
+    "vibrato",
+    "bend"
+   ],
+   "id_global": "5sknWaNKxMA#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Técnica se adquire com anos de prática",
+   "descricao": "Abafar com indicador, polegar ou palma, dar o bend, segurar cordas, tocar na horizontal: tudo isso vem com muitos anos de prática. Não precisa se assustar, pois com horas de prática diárias os movimentos se tornam naturais e você só se preocupa com a música.",
+   "passos": [],
+   "timestamp": "06:01",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "mentalidade",
+    "paciência"
+   ],
+   "id_global": "5sknWaNKxMA#I14"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [],
+ "observacoes": "Transcrição automática com erros (\"Band\" = bend; \"corda C\" = corda 2; \"Trace\" = traste; \"pogar\" = polegar). Muito conteúdo depende de ver as demonstrações (posição dos dedos e do polegar). Alguns detalhes de mão (esquerda/direita) foram inferidos do contexto. Não há exemplos musicais específicos, notas ou BPMs.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:12:04",
+  "tentativas": 1,
+  "custo_usd": 0.2414
+ }
+}

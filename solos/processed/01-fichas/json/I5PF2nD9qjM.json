@@ -1,0 +1,602 @@
+{
+ "fonte_id": "I5PF2nD9qjM",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+  "autor": "Cifra Club",
+  "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM",
+  "idioma": "pt",
+  "duracao": "12m 32s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/I5PF2nD9qjM--técnicas-de-guitarra-bend-aula-iniciante.md"
+ },
+ "resumo": "Aula introdutória sobre a técnica de bend, com definição, posicionamento da mão de execução e leitura do símbolo 'b' na tablatura. O instrutor mostra bends de um tom e de meio tom na segunda corda e propõe cinco exercícios básicos para ganhar controle de altura e força. Destina-se a quem nunca fez bend e quer aprender a executá-lo e ler a notação antes de aplicá-lo em solos.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explica bem o conceito, a notação na tablatura e uma progressão de exercícios com casas concretas. Perde pontos porque os exercícios 2 e 4 são descritos de forma vaga e há erros de transcrição e de fala que deixam alguns trechos confusos."
+ },
+ "assuntos_principais": [
+  "bend",
+  "leitura de tablatura",
+  "posicionamento da mão esquerda",
+  "afinação do bend",
+  "bend de meio tom e de um tom",
+  "exercícios de bend",
+  "bend em cordas graves"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e apresentação da aula",
+   "inicio": "00:00",
+   "fim": "00:36",
+   "resumo": "O instrutor se apresenta, anuncia o tema bend e lista o que será abordado na aula.",
+   "assuntos": [
+    "apresentação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que é o bend",
+   "inicio": "00:36",
+   "fim": "01:10",
+   "resumo": "Define o bend como elevar a altura de uma nota com movimento da mão esquerda, mantendo a corda pressionada, e explica que a tensão da corda aumenta. Diz que pode ser feito com qualquer dedo.",
+   "assuntos": [
+    "definição de bend",
+    "tensão da corda",
+    "dedos da mão esquerda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Posição da mão e execução do bend com o dedo 3",
+   "inicio": "01:10",
+   "fim": "01:43",
+   "resumo": "Mostra como apoiar a mão no braço e girar o punho para executar o bend. Pede para posicionar o dedo 3 na casa 8 da segunda corda, com os dedos 1 e 2 atrás como apoio.",
+   "assuntos": [
+    "posição da mão",
+    "movimento do punho",
+    "dedo 3",
+    "dedos de apoio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Bend com altura definida e bend livre",
+   "inicio": "01:43",
+   "fim": "02:51",
+   "resumo": "Usa o exemplo da casa 8 (Sol) levada até a casa 10 (Lá) da segunda corda para mostrar o bend de altura definida. Explica que a distância depende de quanto a corda é levantada.",
+   "assuntos": [
+    "bend de altura definida",
+    "intervalo de um tom",
+    "altura proporcional ao levantamento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Leitura do bend na tablatura",
+   "inicio": "02:51",
+   "fim": "04:06",
+   "resumo": "Ensina a ler a notação 'b' na tablatura. O primeiro número é a casa tocada e o número após o 'b' é a casa cuja altura deve ser alcançada.",
+   "assuntos": [
+    "tablatura",
+    "notação do bend",
+    "casa de origem e casa de destino"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Intervalos do bend e ornamentação",
+   "inicio": "04:06",
+   "fim": "05:16",
+   "resumo": "Mostra bends da casa 12 para as casas 13, 14 e 15, que correspondem a meio tom, tom e tom e meio. Introduz a ornamentação, em que o bend pode ser rápido ou ter uma pausa no som inicial.",
+   "assuntos": [
+    "meio tom",
+    "tom",
+    "tom e meio",
+    "ornamentação do bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Duração do bend e atenção à música",
+   "inicio": "05:16",
+   "fim": "05:49",
+   "resumo": "Orienta a prestar atenção na duração do bend, na música e nas indicações do professor. Diz que o bend pode ser feito em qualquer corda.",
+   "assuntos": [
+    "duração do bend",
+    "escuta",
+    "contexto musical"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Bend para baixo, dedo 3 e afinação",
+   "inicio": "05:49",
+   "fim": "06:54",
+   "resumo": "Explica que em cordas graves e nas primeiras casas se deve puxar a corda para baixo. Recomenda começar com o dedo 3 e alerta para a afinação e para a dificuldade inicial.",
+   "assuntos": [
+    "bend para baixo",
+    "cordas graves",
+    "afinação",
+    "dificuldade inicial",
+    "dedo 3"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Exercício 1: bend de um tom na casa 10",
+   "inicio": "06:54",
+   "fim": "08:04",
+   "resumo": "Propõe o exercício 1, em que o aluno ouve o intervalo entre a casa 10 e a casa 12 e depois tenta acertar esse bend a partir da casa 10, repetindo nas outras cordas.",
+   "assuntos": [
+    "exercício 1",
+    "bend de um tom",
+    "ouvido",
+    "afinação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Exercício 2: bend de um tom na casa 12",
+   "inicio": "08:04",
+   "fim": "09:27",
+   "resumo": "Propõe o exercício 2, em que o aluno passa pelas casas 10 e 11 para posicionar a mão e faz o bend na casa 12 até a casa 14, de um tom. Depois o exercício se repete pelas cordas.",
+   "assuntos": [
+    "exercício 2",
+    "bend de um tom",
+    "posicionamento da mão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Exercício 3: bend de meio tom",
+   "inicio": "09:27",
+   "fim": "10:01",
+   "resumo": "Repete o exercício 1 com bend de meio tom, que leva à casa seguinte. Recomenda fazê-lo devagar para sentir a força necessária e o intervalo.",
+   "assuntos": [
+    "exercício 3",
+    "meio tom",
+    "controle de força"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Exercício 4: posicionar os dedos e fazer o bend",
+   "inicio": "10:01",
+   "fim": "11:13",
+   "resumo": "Apresenta o exercício 4, que consiste em posicionar os dedos e depois fazer o bend, retomando a lógica do exercício 3.",
+   "assuntos": [
+    "exercício 4",
+    "posicionamento dos dedos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Sequência de alternância e reforço",
+   "inicio": "11:13",
+   "fim": "11:47",
+   "resumo": "Apresenta uma sequência para alternar os bends estudados e reforça que o estudo está só começando e que há muito a aprender.",
+   "assuntos": [
+    "sequência de exercícios",
+    "progressão de estudo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Fechamento e indicação de músicas",
+   "inicio": "11:47",
+   "fim": "12:32",
+   "resumo": "Recomenda separar músicas fáceis com solos curtos que usem bend para praticar. A parte final tem fala confusa e despedida.",
+   "assuntos": [
+    "prática em música",
+    "repertório fácil"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Definição de bend",
+   "descricao": "Bend é a técnica de elevar a altura de uma nota por movimento da mão esquerda, mantendo a corda pressionada no mesmo traste. Ao fazer o bend, a corda fica mais tensa.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "tensão da corda"
+   ],
+   "id_global": "I5PF2nD9qjM#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Qualquer dedo pode fazer bend",
+   "descricao": "O bend pode ser feito com o dedo 1, 2, 3 ou 4. No início exige um pouco mais de força nos dedos, e o mais importante é a posição e o movimento da mão.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "dedos",
+    "força"
+   ],
+   "id_global": "I5PF2nD9qjM#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Apoio da mão e movimento de girar o punho",
+   "descricao": "Para executar o bend, apoie uma parte da mão na parte de baixo do braço da guitarra e faça o movimento de girar o punho. A execução depende mais da posição da mão do que da força.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "posição da mão",
+    "punho",
+    "técnica"
+   ],
+   "id_global": "I5PF2nD9qjM#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Primeiro bend com o dedo 3 na casa 8 da segunda corda",
+   "descricao": "Coloque a ponta do dedo 3 na casa 8 da segunda corda (nota Sol), com os dedos 1 e 2 posicionados atrás na mesma corda para apoiar o dedo 3. Toque a corda e gire o punho para subir a nota.",
+   "passos": [
+    "Coloque a ponta do dedo 3 na casa 8 da segunda corda (Sol).",
+    "Posicione os dedos 1 e 2 logo atrás, na mesma corda, como apoio.",
+    "Toque a corda e gire o punho para elevar a nota."
+   ],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "dedo 3",
+    "apoio",
+    "segunda corda"
+   ],
+   "id_global": "I5PF2nD9qjM#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Bend de altura definida",
+   "descricao": "No bend de altura definida, você sabe a nota de destino. Na segunda corda, o bend da casa 8 (Sol) até a casa 10 (Lá) gera um intervalo de um tom.",
+   "passos": [],
+   "timestamp": "02:17",
+   "nivel": "iniciante",
+   "tags": [
+    "altura definida",
+    "intervalo de um tom",
+    "segunda corda"
+   ],
+   "id_global": "I5PF2nD9qjM#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Intervalo proporcional ao levantamento da corda",
+   "descricao": "A distância entre a nota inicial e a final depende de quanto a corda é levantada. Levantar pouco produz um intervalo pequeno e levantar muito produz um intervalo grande.",
+   "passos": [],
+   "timestamp": "02:51",
+   "nivel": "iniciante",
+   "tags": [
+    "intervalo",
+    "altura"
+   ],
+   "id_global": "I5PF2nD9qjM#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notação 'b' na tablatura",
+   "descricao": "Na tablatura, a letra b indica bend. O número antes do b é a casa tocada, e o número depois do b é a casa cuja altura o bend deve alcançar. Exemplo: 8b10 significa tocar a casa 8 e levantar a corda até soar a casa 10.",
+   "passos": [],
+   "timestamp": "03:30",
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "notação",
+    "b"
+   ],
+   "id_global": "I5PF2nD9qjM#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Intervalos a partir da casa 12 da segunda corda",
+   "descricao": "A partir da casa 12 (Si) da segunda corda, 12b13 (Si para Dó) é um bend de meio tom, 12b14 (Si para Dó#) é um tom e 12b15 (Si para Ré) é um tom e meio.",
+   "passos": [],
+   "timestamp": "04:06",
+   "nivel": "iniciante",
+   "tags": [
+    "meio tom",
+    "tom",
+    "tom e meio",
+    "tablatura",
+    "segunda corda"
+   ],
+   "id_global": "I5PF2nD9qjM#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Ornamentação do bend",
+   "descricao": "O bend pode ser executado rapidamente ou com uma pausa para ouvir o som da nota inicial antes de levantar a corda. Essa diferença é um recurso expressivo.",
+   "passos": [],
+   "timestamp": "04:43",
+   "nivel": "iniciante",
+   "tags": [
+    "ornamentação",
+    "expressão",
+    "timing"
+   ],
+   "id_global": "I5PF2nD9qjM#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir a música para decidir a duração e o estilo",
+   "descricao": "A duração do bend e a forma como ele é feito devem ser escolhidos ouvindo a música e seguindo as indicações do professor, não de forma automática.",
+   "passos": [],
+   "timestamp": "05:16",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta",
+    "musicalidade"
+   ],
+   "id_global": "I5PF2nD9qjM#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Bend pode ser feito em qualquer corda",
+   "descricao": "Não há restrição de corda para o bend. Ele pode ser feito em todas as cordas do instrumento.",
+   "passos": [],
+   "timestamp": "05:16",
+   "nivel": "iniciante",
+   "tags": [
+    "cordas",
+    "bend"
+   ],
+   "id_global": "I5PF2nD9qjM#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Bend para baixo em cordas graves e casas baixas",
+   "descricao": "Em cordas graves e nas primeiras casas, a força necessária para levantar a corda é maior ou impossível. Nesses casos, puxe a corda para baixo em vez de levantá-la.",
+   "passos": [],
+   "timestamp": "05:49",
+   "nivel": "iniciante",
+   "tags": [
+    "bend para baixo",
+    "cordas graves",
+    "primeiras casas"
+   ],
+   "id_global": "I5PF2nD9qjM#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Começar com o dedo 3",
+   "descricao": "Comece aprendendo o bend com o dedo 3, porque os dedos 1 e 2 podem ficar apoiados atrás e facilitam o movimento. Depois, desenvolva a mesma habilidade com os outros dedos.",
+   "passos": [],
+   "timestamp": "06:22",
+   "nivel": "iniciante",
+   "tags": [
+    "dedo 3",
+    "progressão",
+    "dedos"
+   ],
+   "id_global": "I5PF2nD9qjM#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "erro_comum",
+   "titulo": "Fazer o bend sem controlar a afinação",
+   "descricao": "Um erro comum é fazer o bend de qualquer jeito, sem prestar atenção à afinação da nota de destino. O aluno deve atentar para a altura que quer alcançar.",
+   "passos": [],
+   "timestamp": "06:22",
+   "nivel": "iniciante",
+   "tags": [
+    "afinação",
+    "erro comum"
+   ],
+   "id_global": "I5PF2nD9qjM#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Dificuldade inicial que se resolve aos poucos",
+   "descricao": "É normal sentir dificuldade no início com o bend. Com a prática, o movimento se resolve aos poucos.",
+   "passos": [],
+   "timestamp": "06:22",
+   "nivel": "iniciante",
+   "tags": [
+    "paciência",
+    "prática"
+   ],
+   "id_global": "I5PF2nD9qjM#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Exercício 1: ouvir e reproduzir o intervalo de um tom",
+   "descricao": "Com a mão já posicionada, toque a casa 12 e a casa 10 duas vezes para ouvir o intervalo de um tom. Depois faça o bend na casa 10 tentando acertar a altura da casa 12. Repita passando pelas cordas.",
+   "passos": [
+    "Posicione a mão já pronta para o bend.",
+    "Toque a casa 12 e a casa 10, duas vezes, para ouvir o intervalo de um tom.",
+    "Faça o bend na casa 10 tentando alcançar a altura da casa 12.",
+    "Repita o mesmo esquema passando pelas outras cordas."
+   ],
+   "timestamp": "06:54",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "bend de um tom",
+    "ouvido"
+   ],
+   "id_global": "I5PF2nD9qjM#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Exercício 2: bend de um tom da casa 12 para a casa 14",
+   "descricao": "Passe pelas casas 10 e 11 para posicionar a mão, toque a casa 12 e faça o bend até a altura da casa 14, que é um tom acima. Depois percorra as cordas para sentir todas.",
+   "passos": [
+    "Toque as casas 10 e 11 para posicionar a mão.",
+    "Na casa 12, faça o bend até a altura da casa 14 (um tom).",
+    "Percorra as cordas repetindo o exercício."
+   ],
+   "timestamp": "08:04",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "bend de um tom",
+    "posicionamento"
+   ],
+   "id_global": "I5PF2nD9qjM#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Exercício 3: bend de meio tom lento",
+   "descricao": "Repita o exercício 1 com bend de meio tom, que leva à casa seguinte. Faça o movimento devagar, passando pelas notas, para entender a força da mão e o intervalo.",
+   "passos": [
+    "Repita o exercício 1 usando bend de meio tom.",
+    "Faça o bend até a casa seguinte.",
+    "Execute devagar, passando pelas notas, para perceber a força e o intervalo."
+   ],
+   "timestamp": "09:27",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "meio tom",
+    "controle de força"
+   ],
+   "id_global": "I5PF2nD9qjM#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S12",
+   "tipo": "exercicio",
+   "titulo": "Exercício 4: posicionar os dedos antes do bend",
+   "descricao": "Posicione os dedos na corda e depois faça o bend. A ideia é treinar a sequência de posicionamento seguido do movimento, conforme o exercício 3.",
+   "passos": [
+    "Posicione os dedos na corda.",
+    "Faça o bend a partir da posição montada."
+   ],
+   "timestamp": "10:01",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "posicionamento"
+   ],
+   "id_global": "I5PF2nD9qjM#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S13",
+   "tipo": "rotina_estudo",
+   "titulo": "Alternar os bends estudados em sequência",
+   "descricao": "Pratique uma sequência que alterne os bends já aprendidos para reforçar o controle de altura e de força.",
+   "passos": [
+    "Escolha os bends dos exercícios anteriores.",
+    "Alterne-os em sequência, prestando atenção na altura de destino de cada um."
+   ],
+   "timestamp": "11:13",
+   "nivel": "iniciante",
+   "tags": [
+    "sequência",
+    "alternância",
+    "rotina"
+   ],
+   "id_global": "I5PF2nD9qjM#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "O estudo do bend está só começando",
+   "descricao": "Os exercícios básicos são apenas o começo. Há muito a aprender sobre bend e é preciso praticar com constância.",
+   "passos": [],
+   "timestamp": "11:13",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "paciência"
+   ],
+   "id_global": "I5PF2nD9qjM#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S14",
+   "tipo": "dica",
+   "titulo": "Praticar bend em músicas fáceis com solos curtos",
+   "descricao": "Depois dos exercícios, procure músicas fáceis com solos pequenos que usem bend para aplicar a técnica em contexto musical.",
+   "passos": [],
+   "timestamp": "11:47",
+   "nivel": "iniciante",
+   "tags": [
+    "prática em música",
+    "repertório",
+    "solo"
+   ],
+   "id_global": "I5PF2nD9qjM#I22"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Guitarra Vintage V6 (Habro)",
+  "Amplificador Laney CUB 12",
+  "Palhetas Planet Waves",
+  "Correias Planet Waves",
+  "Cordas NIG",
+  "Aplicativo Cifra Club Social (Android e iOS)",
+  "Cifra, tablatura e capítulos do vídeo no site cifraclub.tv/v2217"
+ ],
+ "observacoes": "A legenda automática troca 'bend' por 'Band', 'Bent' e 'bentes', e 'Vinícius Dias' aparece como 'dias'. Foram corrigidos pelo contexto. No trecho de 01:43 a casa 8 aparece como 'o' e a nota Sol da segunda corda foi mantida, pois a casa 8 da corda Si é Sol. Em 02:17 o instrutor diz que a casa 10 é Lá, o que está correto. Em 04:06 o trecho 'Casa 13' foi lido como casa 13 da segunda corda (Dó). O trecho de 08:04 a 09:27 diz que a casa 14 soa Lá, o que está errado: a casa 14 da segunda corda é Dó sustenido. O exercício 2 foi registrado como casa 12 para casa 14. Os exercícios 2 e 4 dependem da tablatura exibida na tela, que não está no transcript. O exercício 4 não tem descrição detalhada no áudio. O final (11:13 a 12:32) tem fala confusa e cortada, com trechos ininteligíveis. A explicação da casa 0 da segunda corda como Sol também está errada: a corda solta é Si.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.0033,
+  "via": "api"
+ }
+}

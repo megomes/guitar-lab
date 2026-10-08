@@ -1,0 +1,410 @@
+{
+ "subcategoria": "C04.5",
+ "visao_geral": "A subcategoria ensina a usar a pentatônica menor e a maior do mesmo tom como uma só paleta. A ♭3 da menor contra a 3ª maior do acorde gera o atrito típico do blues, e a 3ª maior, a 2ª e a 6ª da maior trazem doçura. No braço, isso se faz de três formas: enriquecendo a caixa menor com a 3ª maior, usando a tônica como eixo entre os shapes e aplicando a regra das três casas. O estudo vai da comparação auditiva sobre um acorde à troca fluida entre padrões, em várias tonalidades.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Maior soa alegre, menor soa blues",
+   "descricao": "A mesma forma tocada como pentatônica maior soa alegre e relaxada. Tocada como menor, soa bluesy, séria e tensa. Sobre um acorde maior estático (ex.: Lá maior), essa diferença é o critério para escolher a escala pelo efeito desejado, e as duas podem ser misturadas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "00pQ4yFn0Bw#I02",
+    "3kSPGjxI-ns#I23",
+    "FhfmneCt7jo#I09",
+    "_kK1_apm-qs#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "O atrito da ♭3 sobre acorde maior é o som do blues",
+   "descricao": "A pentatônica menor de Lá sobre o acorde de Lá maior põe a ♭3 (C) contra a 3ª maior do acorde (C#). Em tese é 'errado', mas esse atrito intencional gera o som escuro e 'enfumaçado' do blues. O mesmo vale sobre o Mi maior (V de Lá menor): o Mi é nota segura e o Sol natural (♭3) dá sabor blues.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Fi1BWmg3JUk#I01",
+    "MfrAepqfv2g#I16",
+    "3kSPGjxI-ns#I22",
+    "W96yUcOEub0#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "exercicio",
+   "titulo": "Comparar maior e menor na mesma região sobre um acorde maior",
+   "descricao": "Com uma backing track de um único acorde maior (Lá maior), improvise primeiro com a pentatônica maior e depois com a menor, na mesma região. Compare as sensações de cada uma.",
+   "passos": [
+    "Coloque uma backing track estática de Lá maior.",
+    "Escolha a região central, começando na terça.",
+    "Improvise só com a pentatônica maior.",
+    "Troque para a pentatônica menor na mesma região.",
+    "Ao mudar de região, use a tônica como referência.",
+    "Compare e anote o efeito de cada uma."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "3kSPGjxI-ns#I24",
+    "3kSPGjxI-ns#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "erro_comum",
+   "titulo": "Ficar preso só na pentatônica menor (ou achar que precisa escolher)",
+   "descricao": "Usar só a pentatônica menor dá uma boa base, mas deixa o solo sem cor. Outro erro é achar que é preciso escolher a 'gaveta' maior ou a menor. No blues, misturar as duas terças é natural, amplia o vocabulário, torna as frases mais expressivas e treina o ouvido.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "7CeLTp_gK4I#I04",
+    "7Pdss_Gswtc#I10",
+    "6I9x7a1MCI4#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Notas resultantes: a escala híbrida 1-2-♭3-3-4-5-6-♭7",
+   "descricao": "Unir as duas pentatônicas do mesmo tom na mesma área gera 1, 2, ♭3, 3, 4, 5, 6, ♭7. Em C, a maior (C D E G A) acrescenta à menor (C E♭ F G B♭) a 2ª (D), a 3ª (E) e a 6ª (A); as duas compartilham só a tônica e a 5ª. Em G, a mistura junta G A B D E com G B♭ C D F e inclui a 6ª (E) e a ♭7 (F). Puxar para as notas da menor soa blues; para as da maior, alegre.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ExhI4nkjOAY#I14",
+    "7FilvCPSYXc#I20",
+    "6I9x7a1MCI4#I03",
+    "FhfmneCt7jo#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Subir e descer a escala híbrida em G",
+   "descricao": "Percorra em ordem a escala híbrida de G na área da forma E para internalizar as notas e a região do braço.",
+   "passos": [
+    "Comece na tônica G.",
+    "Suba: A, B♭, B, C, D, E, F, G.",
+    "Desça na ordem inversa, sem sair da área.",
+    "Repita variando o ritmo."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "7FilvCPSYXc#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Enriquecer a caixa menor com a 3ª maior",
+   "descricao": "Use a pentatônica menor de Lá na casa 5 (A C D E G) como estrutura e acrescente o C#, a 3ª maior do acorde de Lá. A caixa passa a conter a tríade de Lá maior (A C# E), e você soa maior sem trocar de caixa. Posições do C#: corda G casa 6, corda A casa 4 e corda E aguda casa 9. As notas acrescentadas soam bem porque já estão nos acordes, o que torna o discurso mais claro. Vale conhecer a 3ª maior em todo o braço.",
+   "passos": [
+    "Toque a caixa 1 de Lá menor na casa 5.",
+    "Acrescente o C# na corda G, casa 6.",
+    "Use o C# da corda E aguda, casa 9.",
+    "Use o C# da corda A, casa 4, como aproximação da tônica.",
+    "Pouse no C# sobre o acorde de Lá."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "4-XWDbMtR-U#I06",
+    "btoooVk54LY#I01",
+    "7CeLTp_gK4I#I03",
+    "7CeLTp_gK4I#I19",
+    "Fi1BWmg3JUk#I03",
+    "ZPELVwO27lc#I17",
+    "7CeLTp_gK4I#I05",
+    "_kK1_apm-qs#I15",
+    "btoooVk54LY#I03",
+    "4-XWDbMtR-U#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "O C# não está na casa 7 da corda B (ali soa F#); a 'quarta da corda A' citada numa fonte é a casa 4 dessa corda, onde soa o C# (3ª maior), e não o 4º grau."
+  },
+  {
+   "id": "K08",
+   "tipo": "recurso",
+   "titulo": "Formas combinadas no mesmo shape",
+   "descricao": "Uma opção é montar uma forma única que une maior e menor a partir da posição 1 da pentatônica menor (a 'Home Base' de Andrew Clarke). Ela pode ser atravessada por uma pentatônica diagonal e pode ser copiada ou simplificada. Para ampliar a região, estenda o padrão maior acrescentando a 3ª maior no topo, sem sair da área da menor.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "930K2lldQD8#I03",
+    "6I9x7a1MCI4#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Trocar de shape usando a tônica como eixo",
+   "descricao": "Na mesma região, a tônica é comum à pentatônica maior e à menor; por exemplo, o A é compartilhado pelo padrão 2 da menor e pela forma maior. Mantendo o dedo na tônica, você desliza de um shape para o outro e muda o clima de doce para bluesy. Sobre um acorde só, isso não depende da harmonia.",
+   "passos": [
+    "Toque a pentatônica maior de G na região da forma E.",
+    "Ao querer uma nota bluesy, passe para a menor usando G como eixo.",
+    "Volte para a maior.",
+    "Alterne em frases curtas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "zSTAvmXG5m8#I12",
+    "FhfmneCt7jo#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Terça maior e terça menor na mesma corda",
+   "descricao": "Alterne numa só corda a 3ª maior (C#) e a ♭3 (C) de Lá. Um caminho é o pull-off para soar a 3ª maior; outro é o bend de meio tom, que leva a ♭3 até a 3ª maior. Ex.: corda G, C na casa 5 e C# na casa 6.",
+   "passos": [
+    "Parta de um bend que chega à tônica Lá.",
+    "Faça pull-off até a 3ª maior (C#).",
+    "Volte à ♭3 (C).",
+    "Faça bend de meio tom da ♭3 até a 3ª maior.",
+    "Alterne as duas sonoridades."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "4-XWDbMtR-U#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "Um bend de meio tom sobe da ♭3 para a 3ª maior; ele não leva da 3ª maior à ♭3, como sugeria o resumo."
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Movimento maior–menor–maior na terça",
+   "descricao": "Sobre C, toque a 3ª maior (E), desça à ♭3 (E♭) e resolva de volta no E. Essa sequência dá identidade blues; sobre F, faça o mesmo com A–A♭–A. B.B. King faz algo parecido sobre G7: sobe de D a B (3ª maior), vai à 5ª, desce até a ♭3 e chega à 6ª (E).",
+   "passos": [
+    "Sobre C: E → E♭ → E.",
+    "Sobre F: A → A♭ → A.",
+    "Aplique sobre cada acorde do backing track."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "7Pdss_Gswtc#I09",
+    "7Pdss_Gswtc#I11",
+    "bhYXolbCrr0#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Onde a mistura funciona: dominante, blues e além",
+   "descricao": "Sobre um acorde dominante (ex.: E7), a 3ª maior e a ♭7 coexistem, e por isso as duas pentatônicas funcionam. Progressões bluesy como B → A também permitem misturar a menor e a maior de B, com som equilibrado. Fora do blues, a mistura aparece em country, rock e jazz e funciona melhor sobre o acorde I de progressões maiores.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "WNtvx2q2CrI#I01",
+    "3dW_GQsC5Ak#I15",
+    "6I9x7a1MCI4#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "dica",
+   "titulo": "Reaproveitar licks de pentatônica menor no contexto maior",
+   "descricao": "Os licks de pentatônica menor que você já automatizou podem entrar num solo sobre contexto maior, como contraste à pentatônica maior. Assim você aproveita vocabulário que já domina.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "xKbtQM-qzSM#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "mentalidade",
+   "titulo": "Entrar e sair constantemente entre maior e menor",
+   "descricao": "Muitos guitarristas de blues e rock têm como segredo alternar o tempo todo entre sonoridades maiores e menores. Kirk Fletcher cita essa combinação como um de seus segredos e lembra que mudar de posição, mesmo com o mesmo material, dá sensação de movimento. Matt Schofield começa em território menor/blues e depois oferece variações maiores.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fJs5AALy4GY#I24",
+    "4-XWDbMtR-U#I13",
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Regra das três casas",
+   "descricao": "O box da pentatônica maior e o da menor do mesmo tom ficam a três casas de distância, com o menor três casas acima, em direção ao corpo. Ex.: em E, o box 1 da maior começa na casa 9 (desenho de C# menor) e o da menor na casa 12. Deslocar um lick da maior três casas acima o transforma na versão menor, e as duas funcionam sobre E7. Daniel Seriff tem um vídeo dedicado a essa regra.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "WNtvx2q2CrI#I07",
+    "3dW_GQsC5Ak#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "exercicio",
+   "titulo": "Transpor um lick da maior para a menor três casas acima",
+   "descricao": "Crie um lick no box 1 da pentatônica maior sobre E7 e repita o mesmo desenho três casas acima, na menor. Fica uma pergunta e resposta natural (lick–lick–resposta). Uma blue note ♭3 da maior (G) vira, no deslocamento, a ♭5 da menor (B♭).",
+   "passos": [
+    "Crie um lick curto no box 1 maior sobre E7.",
+    "Memorize o desenho.",
+    "Toque o mesmo desenho três casas acima (menor).",
+    "Varie: lick, lick na maior e resposta na menor.",
+    "Alterne até soar conectado."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "WNtvx2q2CrI#I10",
+    "WNtvx2q2CrI#I09",
+    "WNtvx2q2CrI#I11",
+    "WNtvx2q2CrI#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Pontos de interchange",
+   "descricao": "São as notas em que uma escala passa suavemente para a outra. Usá-los favorece a condução de vozes, isto é, o movimento linear de uma nota para a seguinte, e evita saltos bruscos na troca.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "6I9x7a1MCI4#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Trocar de padrão em pontos aleatórios",
+   "descricao": "Com uma faixa de treino, toque o padrão menor de C e troque para o padrão maior sobreposto sempre que ouvir o sinal, em intervalos aleatórios. O objetivo é fazer a troca sem pensar.",
+   "passos": [
+    "Ligue a faixa de treino.",
+    "Toque a pentatônica menor de C.",
+    "Troque para a maior sobreposta ao ouvir o sinal.",
+    "Repita até a troca ficar automática."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "6I9x7a1MCI4#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "rotina_estudo",
+   "titulo": "Dominar a pentatônica mesclada em E, G, A e C",
+   "descricao": "Antes de frasear, domine a transição entre os padrões menor e maior em várias tonalidades, não só em C. Comece por E, G, A e C, as tonalidades mais comuns do blues, e consulte os pontos de interchange.",
+   "passos": [
+    "Escolha uma tonalidade (comece por E).",
+    "Toque o padrão menor e o maior sobreposto.",
+    "Faça as trocas pelos pontos de interchange.",
+    "Repita em G, A e C.",
+    "Avance só quando as trocas soarem naturais."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "6I9x7a1MCI4#I06",
+    "6I9x7a1MCI4#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "dica",
+   "titulo": "Sabor menor pontual guiado pelo ouvido",
+   "descricao": "Mesmo em Sol maior, Paul Davids tocou G e B♭ (som de Sol menor) sobre o último acorde do backing track para criar um sabor diferente. O critério é o ouvido, não a regra da escala.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "fwyn5tQdF4k#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "conceito",
+   "titulo": "Resoluções das notas de interchange em cada acorde (I, IV, V)",
+   "descricao": "As notas que separam a pentatônica maior da menor funcionam melhor quando resolvem por grau conjunto para uma nota estável do acorde do momento. Os intervalos são contados a partir da tônica do tom. Em Lá: sobre o I (A), a ♭3 (C) sobe para a 3ª (C#) ou desce para a 2ª (B). Sobre o IV (D), a 3ª maior do tom (C#) sobe para a 4ª (D, tônica do IV) ou desce para a ♭3 (C, a ♭7 de D7). Sobre o V (E), a ♭7 do tom (G) sobe para a 7ª maior (G#, 3ª de E) ou desce para a 6ª (F#). A tônica (A) também pode descer para a 7ª maior (G#), usada como nota de passagem no fim do bloco de interchange.",
+   "passos": [
+    "Use um blues em Lá e identifique o I (A), o IV (D) e o V (E).",
+    "No I, toque C e resolva em C# ou em B.",
+    "No IV, toque C# e resolva em D ou em C.",
+    "No V, toque G e resolva em G# ou em F#.",
+    "Use o G# como passagem descendo do A no fim da frase.",
+    "Repita em outras tonalidades, sempre pensando nos graus do tom."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "6I9x7a1MCI4#I08",
+    "6I9x7a1MCI4#I09",
+    "6I9x7a1MCI4#I10",
+    "6I9x7a1MCI4#I11"
+   ],
+   "divergencias": "",
+   "correcoes": "Os intervalos são relativos à tônica do tom, não ao acorde. Ex.: no V, G é a ♭7 do tom, mas a ♭3 de E, e resolve na 3ª do acorde (G#).",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "Fi1BWmg3JUk#I04",
+   "sugestao": "C12.2",
+   "motivo": "Trata de trocar para a pentatônica maior de D quando o blues vai ao IV, ou seja, escolher a escala conforme o acorde."
+  },
+  {
+   "id": "Fi1BWmg3JUk#I11",
+   "sugestao": "C12.2",
+   "motivo": "Trata de tornar audível a troca de escala acompanhando a mudança de acorde A→D."
+  }
+ ],
+ "observacoes": "O material sobre alternar maior e menor conforme o acorde do blues (#3, #4, #63, #68) pertence a C12.2. A secundária #65 (Sol maior sobre Lá menor) trata de relativas e tonalidade e não foi usada. As fontes #16 e #42 tinham descrições confusas de casas e técnica; foram interpretadas pela teoria e as correções estão registradas nos itens K07 e K10.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 43,
+  "ideias_secundarias": 27,
+  "itens": 21,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1299,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 17964,
+   "output_tokens": 9402
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 0,
+    "novos_itens": 1
+   }
+  ]
+ }
+}

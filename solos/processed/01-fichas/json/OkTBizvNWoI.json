@@ -1,0 +1,723 @@
+{
+ "fonte_id": "OkTBizvNWoI",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisation On Guitar Without Overthinking :)",
+  "autor": "JustinGuitar",
+  "url": "https://www.youtube.com/watch?v=OkTBizvNWoI",
+  "idioma": "en",
+  "duracao": "23m 41s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/OkTBizvNWoI--improvisation-on-guitar-without-overthinking.md"
+ },
+ "resumo": "Aula de improvisação para iniciantes sobre 'escuta reativa': em vez de calcular notas do acorde, o aluno usa o ouvido para perceber quais notas soam estáveis (notas do acorde) e quais soam tensas, ajustando a escolha em tempo real. O vídeo traz demonstrações com acordes de F, Em e G, e cinco exercícios de identificação de notas nas cordas solta, casa 1 e casa 3. Também discute notas de passagem, consonância e dissonância. É voltado a quem está começando a solar e não tem prática de ouvido para improvisar.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com exercícios claros de cordas e casas e instruções de método. Perde pontos porque muitas respostas são dadas só pelo áudio ('the note I'm hoping you thought'), sem nomear a nota, e alguns acordes não são identificados na fala."
+ },
+ "assuntos_principais": [
+  "escuta reativa",
+  "notas do acorde (chord tones)",
+  "identificação de notas por ouvido",
+  "consonância e dissonância",
+  "notas de passagem",
+  "tensão e resolução",
+  "improvisação sem excesso de teoria"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "O que é escuta reativa",
+   "inicio": "00:00",
+   "fim": "02:40",
+   "resumo": "Apresenta a escuta reativa: escolher notas pelo ouvido em relação ao acorde. Sobre C maior, as notas do acorde (C, E, G) soam mais estáveis que as outras notas da escala. Pensar demais na teoria atrapalha nos estágios iniciais.",
+   "assuntos": [
+    "escuta reativa",
+    "notas do acorde",
+    "escala de C maior",
+    "intelectualizar versus ouvir"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Como praticar",
+   "inicio": "02:40",
+   "fim": "03:15",
+   "resumo": "Explica que o método é demonstrado, depois praticado como exercício, com reaudição dos trechos quando a resposta não é clara.",
+   "assuntos": [
+    "método de prática",
+    "reaudição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exemplo 1: acorde de F",
+   "inicio": "03:15",
+   "fim": "07:36",
+   "resumo": "Demonstra sobre um acorde de F que a corda E aguda solta soa tensa (é a 7ª maior do Fmaj7). Depois, na corda B, o aluno compara a solta (B), a casa 1 (C) e a casa 3 (D) e identifica a casa 1 (C, 5ª do F) como nota do acorde.",
+   "assuntos": [
+    "acorde de F",
+    "Fmaj7",
+    "corda E aguda",
+    "corda B",
+    "notas do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exemplo 2: acorde de Em",
+   "inicio": "07:36",
+   "fim": "10:33",
+   "resumo": "Repete o exercício sem mostrar o acorde, com as opções corda B solta, casa 1 e casa 3. A corda B solta (5ª do Em) se encaixa; a casa 1 (C, ♭6 do Em) puxa para resolver; a casa 3 (D) pode ser parada, mas ainda puxa de volta.",
+   "assuntos": [
+    "acorde de Em",
+    "corda B solta",
+    "tensão",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Dicas e truques",
+   "inicio": "10:33",
+   "fim": "12:52",
+   "resumo": "A nota certa muda quando o acorde muda, por isso a escuta é contínua. Sugere usar looper, ouvir o conjunto e a backing track, e ser parte do grupo em vez de focar só na técnica.",
+   "assuntos": [
+    "troca de acordes",
+    "looper",
+    "escuta do conjunto",
+    "música em grupo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Exemplo 3: corda E aguda na escala de C",
+   "inicio": "12:52",
+   "fim": "14:43",
+   "resumo": "Com o acorde de G (inferido pelas menções a G7 e G6), compara na corda E aguda a solta, a casa 1 e a casa 3. A casa 3 (G, tônica) é a mais estável; a solta (E, 6ª do G6) é mais apimentada; a casa 1 (F, ♭7) é tensa e típica do blues.",
+   "assuntos": [
+    "corda E aguda",
+    "acorde de G",
+    "G7",
+    "G6",
+    "tônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Notas de passagem e a lógica dos passos",
+   "inicio": "14:43",
+   "fim": "16:24",
+   "resumo": "Mostra que, na escala de C, dar um passo acima ou abaixo de uma nota que não é do acorde normalmente cai numa nota do acorde. A nota B é a mais tensa, e dá para passar por notas erradas, desde que não se termine a frase nelas.",
+   "assuntos": [
+    "passos na escala",
+    "notas de passagem",
+    "nota B",
+    "tensão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Exemplo 4: nota F sobre C",
+   "inicio": "16:24",
+   "fim": "17:15",
+   "resumo": "A nota F sobre o acorde de C passa bem, mas parar nela soa azeda e pede resolução para E ou G.",
+   "assuntos": [
+    "acorde de C",
+    "nota F",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Exercícios 1 a 3",
+   "inicio": "17:15",
+   "fim": "20:08",
+   "resumo": "Três exercícios de identificação da nota do acorde entre corda solta, casa 1 e casa 3, nas cordas E aguda e B. O apresentador revela as respostas depois de cada um.",
+   "assuntos": [
+    "exercícios de identificação",
+    "corda E aguda",
+    "corda B",
+    "casas 1 e 3"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Exercício 4",
+   "inicio": "20:08",
+   "fim": "20:51",
+   "resumo": "Exercício final com a corda B: a resposta esperada é a corda solta.",
+   "assuntos": [
+    "corda B solta",
+    "exercício"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Exercício em dupla e gabarito",
+   "inicio": "20:51",
+   "fim": "22:08",
+   "resumo": "Propõe o exercício em dupla, em que um toca o acorde e o outro descobre a nota. Explica que o exercício serve para iniciantes e avançados e revela a resposta da última questão.",
+   "assuntos": [
+    "exercício em dupla",
+    "gabarito",
+    "corda B"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Consonância e dissonância",
+   "inicio": "22:08",
+   "fim": "22:43",
+   "resumo": "Define consonância (notas que se encaixam) e dissonância (notas tensas). Recomenda dominar a consonância antes de explorar a dissonância, que cria tensão e emoção.",
+   "assuntos": [
+    "consonância",
+    "dissonância",
+    "tensão e resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Como continuar praticando",
+   "inicio": "22:43",
+   "fim": "23:17",
+   "resumo": "Sugere praticar com outra pessoa via fórum da comunidade, Skype ou Zoom e comentar no canal sobre dificuldades.",
+   "assuntos": [
+    "prática em dupla",
+    "fórum da comunidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Despedida e inscrição",
+   "inicio": "23:17",
+   "fim": "23:41",
+   "resumo": "Pede inscrição e curtida no canal e encerra a aula.",
+   "assuntos": [
+    "inscrição no canal"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Escuta reativa",
+   "descricao": "Em vez de calcular quais notas combinam com o acorde, toque uma nota, ouça como ela soa sobre o acorde e troque por outra se não soar bem. Esse é o princípio da escuta reativa.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta reativa",
+    "ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Notas do acorde soam mais fortes",
+   "descricao": "Sobre um acorde de C, as notas C, E e G (1ª, 3ª e 5ª da escala) são as que soam mais estáveis. As demais notas da escala de C maior funcionam, mas com graus variados de tensão.",
+   "passos": [],
+   "timestamp": "00:35",
+   "nivel": "iniciante",
+   "tags": [
+    "notas do acorde",
+    "chord tones",
+    "escala de C maior"
+   ],
+   "id_global": "OkTBizvNWoI#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Intelectualizar cada nota",
+   "descricao": "Tentar lembrar as notas do acorde, calcular a escala e localizar cada nota no braço enquanto toca é lento e cansativo. O autor considera essa abordagem pouco eficiente para o início.",
+   "passos": [],
+   "timestamp": "01:14",
+   "nivel": "iniciante",
+   "tags": [
+    "teoria",
+    "pensar demais"
+   ],
+   "id_global": "OkTBizvNWoI#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Música é sentimento antes de teoria",
+   "descricao": "Nos estágios iniciais, a prioridade é ouvir o efeito da nota no contexto musical, e não analisá-la. A teoria pode entrar depois, em jazz ou em músicas mais complexas.",
+   "passos": [],
+   "timestamp": "01:50",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "ouvido",
+    "teoria"
+   ],
+   "id_global": "OkTBizvNWoI#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Ciclo de demonstração, prática e reaudição",
+   "descricao": "Pratique o exercício de escuta em três etapas: ouça a demonstração do que procurar, faça o exercício sozinho e, se a resposta não estiver clara, volte e reouça o trecho para tentar identificar o alvo.",
+   "passos": [
+    "Ouça a demonstração do exemplo com atenção ao alvo.",
+    "Faça o exercício sozinho, sem olhar para o braço.",
+    "Se errar, volte ao trecho e reouça até identificar a nota do acorde."
+   ],
+   "timestamp": "02:40",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "rotina",
+    "reaudição"
+   ],
+   "id_global": "OkTBizvNWoI#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Corda E aguda solta soa tensa sobre F",
+   "descricao": "Sobre um acorde de F, a corda E aguda solta soa tensa porque E é a 7ª maior do Fmaj7 e colide com a nota F do acorde. Ela não é a melhor nota para parar.",
+   "passos": [],
+   "timestamp": "04:52",
+   "nivel": "iniciante",
+   "tags": [
+    "fmaj7",
+    "corda E aguda",
+    "tensão"
+   ],
+   "id_global": "OkTBizvNWoI#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Achar a nota do acorde na corda B",
+   "descricao": "Sobre um acorde de F, compare as três opções da corda B: solta (B), casa 1 (C) e casa 3 (D). A casa 1 (C, 5ª do F) é a nota do acorde e assenta bem; a solta (B) é tensa e a casa 3 (D) soa interessante, mas não pertence ao acorde.",
+   "passos": [
+    "Toque o acorde de F.",
+    "Toque a corda B solta e ouça por alguns segundos.",
+    "Toque a casa 1 da corda B e ouça se ela assenta.",
+    "Toque a casa 3 da corda B e compare.",
+    "Escolha a nota que parece estável."
+   ],
+   "timestamp": "05:26",
+   "nivel": "iniciante",
+   "tags": [
+    "corda B",
+    "casas 1 e 3",
+    "acorde de F",
+    "notas do acorde"
+   ],
+   "id_global": "OkTBizvNWoI#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Testar cada nota só uma vez",
+   "descricao": "Tocar cada nota uma vez, rapidamente, não permite perceber se ela se estabiliza ou puxa para outro lugar. Cada nota deve ser repetida algumas vezes, sem pressa.",
+   "passos": [],
+   "timestamp": "06:43",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "paciência"
+   ],
+   "id_global": "OkTBizvNWoI#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Testar se a nota quer ficar",
+   "descricao": "Sustente a nota candidata e veja se ela quer permanecer ali, como nota final de frase, ou se quer se mover para outra nota. A nota do acorde pode ser repetida sem incômodo.",
+   "passos": [],
+   "timestamp": "07:18",
+   "nivel": "iniciante",
+   "tags": [
+    "nota final de frase",
+    "tensão"
+   ],
+   "id_global": "OkTBizvNWoI#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Identificar a nota do Em sem ver o acorde",
+   "descricao": "Sobre um Em, compare a corda B solta, a casa 1 (C) e a casa 3 (D). A corda B solta (5ª do Em) é a nota do acorde; a casa 1 (C, ♭6 do Em) não assenta e quer resolver; a casa 3 (D, ♭7 do Em) pode ser usada, mas ainda puxa de volta.",
+   "passos": [
+    "Toque o acorde de Em sem ver a tela ou o braço.",
+    "Toque a corda B solta, depois a casa 1 e a casa 3, cada uma por vários segundos.",
+    "Compare qual nota se estabiliza e qual exige resolução."
+   ],
+   "timestamp": "07:56",
+   "nivel": "iniciante",
+   "tags": [
+    "acorde de Em",
+    "corda B",
+    "notas do acorde",
+    "resolução"
+   ],
+   "id_global": "OkTBizvNWoI#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Oscilar entre notas para achar onde pousar",
+   "descricao": "Alterne entre as opções até perceber para onde a frase quer ir. A nota final deve ser a que o ouvido sente como estável.",
+   "passos": [
+    "Alterne entre as notas candidatas repetidamente.",
+    "Observe para qual nota a sequência parece querer pousar.",
+    "Termine a frase na nota que parece estável."
+   ],
+   "timestamp": "08:31",
+   "nivel": "iniciante",
+   "tags": [
+    "direção melódica",
+    "final de frase"
+   ],
+   "id_global": "OkTBizvNWoI#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "A nota certa muda com o acorde",
+   "descricao": "Quando os acordes mudam, a nota ideal também muda. Por isso, use o ouvido para escolher as notas durante as trocas de acordes, em vez de tentar calcular cada uma.",
+   "passos": [],
+   "timestamp": "10:33",
+   "nivel": "iniciante",
+   "tags": [
+    "troca de acordes",
+    "improvisação"
+   ],
+   "id_global": "OkTBizvNWoI#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir o que acontece ao redor",
+   "descricao": "Ouça o conjunto, outros músicos ou a backing track, e não só a própria técnica. Improvisar bem é encaixar o que se toca com o que os outros tocam.",
+   "passos": [],
+   "timestamp": "10:46",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta do conjunto",
+    "música em grupo"
+   ],
+   "id_global": "OkTBizvNWoI#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Praticar com looper",
+   "descricao": "Use um pedal looper para gravar o acorde e testar as notas por cima dele, sem precisar de outro músico.",
+   "passos": [
+    "Grave a base de acorde no looper.",
+    "Toque as notas candidatas por cima e ouça o efeito."
+   ],
+   "timestamp": "11:20",
+   "nivel": "iniciante",
+   "tags": [
+    "looper",
+    "prática solo"
+   ],
+   "id_global": "OkTBizvNWoI#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Corda E aguda sobre G: solta, casa 1 e casa 3",
+   "descricao": "Sobre um acorde de G, compare a corda E aguda solta (E, 6ª do G6), a casa 1 (F, ♭7 de G7, tensa e típica do blues) e a casa 3 (G, tônica, a mais estável).",
+   "passos": [
+    "Toque o acorde de G.",
+    "Toque a corda E solta, depois a casa 1 e a casa 3, repetindo cada uma.",
+    "Escolha a nota que se sente mais estável e a que soa mais tensa."
+   ],
+   "timestamp": "12:52",
+   "nivel": "iniciante",
+   "tags": [
+    "corda E aguda",
+    "acorde de G",
+    "tônica",
+    "blues"
+   ],
+   "id_global": "OkTBizvNWoI#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Passos na escala para chegar ao acorde",
+   "descricao": "Na escala de C, um passo acima ou abaixo de uma nota que não é do acorde costuma cair numa nota do acorde: D leva a C ou E; F leva a E ou G; A leva a G (estável) ou B (tensa). O B é o caso mais tenso.",
+   "passos": [],
+   "timestamp": "15:04",
+   "nivel": "intermediario",
+   "tags": [
+    "passos na escala",
+    "notas do acorde",
+    "escala de C maior"
+   ],
+   "id_global": "OkTBizvNWoI#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Reconhecer a nota B pela tensão",
+   "descricao": "A nota B, um semitom abaixo de C, é muito característica e tensa. Aprenda a reconhecê-la pelo ouvido para saber quando não parar nela.",
+   "passos": [],
+   "timestamp": "15:40",
+   "nivel": "iniciante",
+   "tags": [
+    "nota B",
+    "tensão",
+    "ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Notas de passagem",
+   "descricao": "Notas que não pertencem ao acorde podem ser usadas para passar, desde que a frase não termine nelas. O erro é parar numa nota de tensão, não tocá-la.",
+   "passos": [],
+   "timestamp": "16:17",
+   "nivel": "iniciante",
+   "tags": [
+    "notas de passagem",
+    "final de frase"
+   ],
+   "id_global": "OkTBizvNWoI#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Nota F sobre C: passar sim, parar não",
+   "descricao": "Sobre um acorde de C, a nota F soa bem quando passa, mas soa azeda se a frase termina nela, porque pede resolução para E ou G.",
+   "passos": [],
+   "timestamp": "16:24",
+   "nivel": "iniciante",
+   "tags": [
+    "acorde de C",
+    "nota F",
+    "resolução"
+   ],
+   "id_global": "OkTBizvNWoI#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Exercício 1: corda E aguda solta",
+   "descricao": "No primeiro exercício, sobre o acorde apresentado, a corda E aguda solta é a nota do acorde. Uma das outras opções (casa 1 ou casa 3) soa muito tensa e a outra soa mais ou menos.",
+   "passos": [
+    "Toque o acorde.",
+    "Compare a corda E aguda solta, a casa 1 e a casa 3.",
+    "Identifique a nota do acorde pelo ouvido."
+   ],
+   "timestamp": "17:15",
+   "nivel": "iniciante",
+   "tags": [
+    "corda E aguda",
+    "exercício de ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Exercício 2: corda B, casa 1",
+   "descricao": "No segundo exercício, com opções na corda B (solta, casa 1 e casa 3), a nota do acorde é a casa 1 (C).",
+   "passos": [
+    "Toque o acorde.",
+    "Compare a corda B solta, a casa 1 e a casa 3.",
+    "Identifique a nota do acorde pelo ouvido."
+   ],
+   "timestamp": "18:13",
+   "nivel": "iniciante",
+   "tags": [
+    "corda B",
+    "casa 1",
+    "exercício de ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Exercício 3: corda E aguda, casa 1",
+   "descricao": "No terceiro exercício, com opções na corda E aguda (solta, casa 1 e casa 3), a nota do acorde é a casa 1.",
+   "passos": [
+    "Toque o acorde.",
+    "Compare a corda E aguda solta, a casa 1 e a casa 3.",
+    "Identifique a nota do acorde pelo ouvido."
+   ],
+   "timestamp": "18:58",
+   "nivel": "iniciante",
+   "tags": [
+    "corda E aguda",
+    "casa 1",
+    "exercício de ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Exercício 4: corda B solta",
+   "descricao": "No quarto exercício, com opções na corda B (solta, casa 1 e casa 3), a nota do acorde é a corda B solta.",
+   "passos": [
+    "Toque o acorde.",
+    "Compare a corda B solta, a casa 1 e a casa 3.",
+    "Identifique a nota do acorde pelo ouvido."
+   ],
+   "timestamp": "20:08",
+   "nivel": "iniciante",
+   "tags": [
+    "corda B",
+    "corda solta",
+    "exercício de ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Exercício em dupla",
+   "descricao": "Um aluno toca o acorde e o outro tenta descobrir a nota do acorde entre as opções. Depois, os dois comparam as respostas e discutem por que a nota funciona. O exercício serve para iniciantes e avançados.",
+   "passos": [
+    "Um toca o acorde, sem revelar qual é.",
+    "O outro testa as opções e escolhe a nota do acorde.",
+    "Troque de papéis e discuta as respostas."
+   ],
+   "timestamp": "20:51",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício em dupla",
+    "ouvido"
+   ],
+   "id_global": "OkTBizvNWoI#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Confundir nota errada com nota menos boa",
+   "descricao": "Na última questão da corda B, a casa 1 é a nota errada. Se a casa 1 foi escolhida como nota do acorde, o exercício deve ser refeito com atenção à diferença de estabilidade.",
+   "passos": [],
+   "timestamp": "22:08",
+   "nivel": "iniciante",
+   "tags": [
+    "corda B",
+    "casa 1",
+    "revisão"
+   ],
+   "id_global": "OkTBizvNWoI#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Consonância e dissonância",
+   "descricao": "Consonância são as notas que encaixam no acorde. Dissonância são notas tensas, fora do acorde, que criam tensão para depois resolver. Antes de usar a dissonância, é preciso dominar a consonância.",
+   "passos": [],
+   "timestamp": "22:08",
+   "nivel": "iniciante",
+   "tags": [
+    "consonância",
+    "dissonância",
+    "tensão e resolução"
+   ],
+   "id_global": "OkTBizvNWoI#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Tensão e resolução criam emoção",
+   "descricao": "Usar notas tensas e depois resolvê-las é uma forma de criar relação emocional com a música. Essa etapa vem depois de dominar notas consonantes.",
+   "passos": [],
+   "timestamp": "22:43",
+   "nivel": "intermediario",
+   "tags": [
+    "tensão",
+    "emoção",
+    "resolução"
+   ],
+   "id_global": "OkTBizvNWoI#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S13",
+   "tipo": "recurso",
+   "titulo": "Praticar com outra pessoa online",
+   "descricao": "Procure alguém no fórum da comunidade JustinGuitar para fazer o exercício em dupla, por Skype, Zoom ou outra plataforma.",
+   "passos": [],
+   "timestamp": "23:17",
+   "nivel": "iniciante",
+   "tags": [
+    "fórum",
+    "prática em dupla"
+   ],
+   "id_global": "OkTBizvNWoI#I28"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Looper pedal",
+  "Backing track",
+  "Fórum da comunidade JustinGuitar",
+  "Curso Practical Music Theory (JustinGuitar)",
+  "Jam Tracks (JustinGuitar)",
+  "Workshops presenciais do JustinGuitar",
+  "Skype",
+  "Zoom"
+ ],
+ "observacoes": "Os exercícios dependem de ouvir sem ver a tela, porque muitas respostas são dadas só pelo áudio, sem nomear a nota. Em trechos de exemplo, o acorde não é anunciado com clareza: o acorde do exemplo 3 foi inferido como G, pelas menções a G7 e G6. A legenda automática erra alguns termos ('re-active' por 'reactive', 'Emin' por Em, 'awfull', 'exercice'), que foram corrigidos pelo contexto. A linha 'na escala de C' no exemplo 3 não bate com o acorde de G mencionado logo depois; foi registrado o acorde de G por ser o que a fala sustenta. O trecho do vídeo com a corda E aguda sobre F sugere que a nota que soa bem é a casa 5 (A), mas a fala não nomeia a casa, então não foi afirmada.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00451,
+  "via": "api"
+ }
+}

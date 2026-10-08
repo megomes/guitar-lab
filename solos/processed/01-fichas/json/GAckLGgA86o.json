@@ -1,0 +1,283 @@
+{
+ "fonte_id": "GAckLGgA86o",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Joe Satriani Guitar Lesson - How to Build Melody",
+  "autor": "Guitar World",
+  "url": "https://www.youtube.com/watch?v=GAckLGgA86o",
+  "idioma": "en",
+  "duracao": "6m 33s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/GAckLGgA86o--joe-satriani-guitar-lesson-how-to-build-melody.md"
+ },
+ "resumo": "Joe Satriani explica como construir melodias mais interessantes evitando \"contar a história cedo demais\". A técnica central é terminar frases em notas suspensas (2ª, 4ª, 6ª) em vez de notas do acorde (fundamental, 3ª, 5ª), adiando a resolução. Mostra também a abordagem inversa: manter poucas notas na melodia e mudar os acordes/baixo por baixo, criando um \"mapa harmônico\" que entra e sai da escala mas continua ligado ao centro tonal (E). Material para guitarristas intermediários que querem fraseado com mais tensão e suspense.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos claros e muito úteis (notas suspensas, adiar a resolução, mudar a harmonia sob uma nota fixa), mas os exemplos tocados não aparecem na transcrição e dependem de ouvir o vídeo ou ver a tablatura."
+ },
+ "assuntos_principais": [
+  "construção de melodia",
+  "notas suspensas",
+  "tensão e resolução",
+  "notas do acorde (tríade)",
+  "harmonia sob nota fixa",
+  "centro tonal"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: não conte a história cedo demais",
+   "inicio": "00:02",
+   "fim": "00:36",
+   "resumo": "Satriani apresenta o tema melodia e aponta o erro de revelar a história da melodia rápido demais.",
+   "assuntos": [
+    "melodia",
+    "introdução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Terminar frases em notas suspensas",
+   "inicio": "00:36",
+   "fim": "02:51",
+   "resumo": "Sobre um acorde de E, começar na 4ª (nota suspensa) em vez de fundamental/3ª/5ª e adiar a resolução para um tom do acorde; improviso longo até chegar à fundamental.",
+   "assuntos": [
+    "notas suspensas",
+    "resolução",
+    "tríade",
+    "E maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Melodia simples, acordes em movimento",
+   "inicio": "02:51",
+   "fim": "04:30",
+   "resumo": "Manter poucas notas na melodia e mudar os acordes por baixo (Bm7 sus4, A, A sus) para quebrar a expectativa; depois resolve na fundamental. Resumo da abordagem.",
+   "assuntos": [
+    "mudança de acordes",
+    "expectativa",
+    "sus4",
+    "resumo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exemplo minimalista: movendo o baixo",
+   "inicio": "04:30",
+   "fim": "06:33",
+   "resumo": "Com uma ou duas notas, move a nota de baixo/acordes (Em, C, Am, nota fora da tonalidade F, Dsus2, G, A, E), criando um mapa harmônico que sai e volta ao centro tonal E.",
+   "assuntos": [
+    "baixo",
+    "harmonia",
+    "fora da tonalidade",
+    "centro tonal"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Contar a história da melodia cedo demais",
+   "descricao": "Muitas melodias entregam tudo rápido demais: basta juntar acordes, descobrir a tonalidade e tocar notas do acorde. Satriani recomenda esticar a melodia para criar mistério e manter o ouvinte curioso.",
+   "passos": [],
+   "timestamp": "00:02",
+   "nivel": "intermediario",
+   "tags": [
+    "melodia",
+    "mistério",
+    "fraseado"
+   ],
+   "id_global": "GAckLGgA86o#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Terminar frases em notas suspensas",
+   "descricao": "Esticar uma melodia fazendo as frases terminarem em notas suspensas (2ª, 4ª ou 6ª) em vez de notas do acorde. O ouvinte precisa esperar mais pela próxima frase para saber aonde a melodia vai.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "intermediario",
+   "tags": [
+    "notas suspensas",
+    "tensão",
+    "fraseado",
+    "resolução"
+   ],
+   "id_global": "GAckLGgA86o#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Notas do acorde soam como já resolvidas",
+   "descricao": "Começar a melodia na fundamental, 3ª ou 5ª de um acorde de E diz ao ouvinte que a nota simplesmente pertence ali. A frase soa resolvida e pouco interessante, sem expectativa do que vem depois.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "intermediario",
+   "tags": [
+    "tríade",
+    "notas do acorde",
+    "resolução"
+   ],
+   "id_global": "GAckLGgA86o#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Começar na 4ª sobre o acorde de E e adiar a resolução",
+   "descricao": "Sobre um acorde de E, comece a melodia na 4ª (nota suspensa) e deixe o ouvinte pendurado. Depois resolva rápido para um tom do acorde ou prolongue a suspensão passando por 2ª e 6ª, só chegando à fundamental no fim de uma frase longa.",
+   "passos": [
+    "Toque um acorde de E (ou backing track em E).",
+    "Comece a melodia na 4ª.",
+    "Opção rápida: resolva logo para um tom do acorde (fundamental, 3ª ou 5ª).",
+    "Opção estendida: continue passando por 2ª e 6ª, sem resolver.",
+    "Resolva na fundamental só depois de um tempo longo, improvisando sem pressa."
+   ],
+   "timestamp": "01:09",
+   "nivel": "intermediario",
+   "tags": [
+    "4ª",
+    "notas suspensas",
+    "improvisação",
+    "E maior"
+   ],
+   "id_global": "GAckLGgA86o#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pensar na escala e nas notas da tríade do acorde",
+   "descricao": "A demonstração usa E maior (ou E mixolídio) como escala, mas o foco é pensar nos acordes e nas notas da tríade (fundamental, 3ª e 5ª) em relação às notas suspensas da escala. Isso orienta quais notas soam resolvidas e quais soam suspensas.",
+   "passos": [],
+   "timestamp": "02:17",
+   "nivel": "intermediario",
+   "tags": [
+    "tríade",
+    "escala",
+    "E maior",
+    "mixolídio"
+   ],
+   "id_global": "GAckLGgA86o#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Melodia simples, mas mudar os acordes por baixo",
+   "descricao": "Em vez de variar a melodia, mantenha a nota e mude os acordes. Isso puxa o tapete do ouvinte, que esperava outra coisa, e prolonga o interesse por saber o que será feito com aquela nota.",
+   "passos": [],
+   "timestamp": "02:51",
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "expectativa",
+    "reharmonização"
+   ],
+   "id_global": "GAckLGgA86o#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Sustentar a 4ª enquanto os acordes mudam",
+   "descricao": "Comece na 4ª sobre E, mantenha essa nota e mova os acordes: Bm7 com sus4, depois A (podendo suspendê-lo), voltando por fim à fundamental para resolver. Usa poucas notas de melodia e deixa a harmonia refletir a melodia.",
+   "passos": [
+    "Comece a melodia na 4ª sobre o acorde de E.",
+    "Mantenha a nota e vá para um Bm7 com sus4.",
+    "Siga para um A, podendo suspendê-lo.",
+    "Volte para a fundamental (E) e resolva."
+   ],
+   "timestamp": "03:24",
+   "nivel": "avancado",
+   "tags": [
+    "acordes sus",
+    "Bm7",
+    "reharmonização",
+    "nota fixa"
+   ],
+   "id_global": "GAckLGgA86o#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Resumo: evite basear a melodia só na tríade",
+   "descricao": "Basear a melodia nas notas da tríade dos acordes apresenta a melodia cedo demais, sem mistério. Estique fazendo as frases pousarem em notas suspensas (2ª, 4ª ou 6ª), tocando-as ou segurando uma nota enquanto o acorde muda por baixo, com modulações inesperadas ou dentro da tonalidade.",
+   "passos": [],
+   "timestamp": "03:55",
+   "nivel": "intermediario",
+   "tags": [
+    "resumo",
+    "tríade",
+    "notas suspensas",
+    "modulação"
+   ],
+   "id_global": "GAckLGgA86o#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Uma ou duas notas com baixo se movendo (mapa harmônico)",
+   "descricao": "Abordagem oposta: em vez de manter o acorde e explorar notas suspensas, use só uma ou duas notas de melodia e mova a nota de baixo. Exemplo em torno de E: Em, C maior (ou qualquer tipo), Am, depois uma nota fora da tonalidade (F), Dsus2, G, A e de volta ao E.",
+   "passos": [
+    "Escolha uma ou duas notas de melodia e mantenha-as.",
+    "Mova o baixo/acorde: Em, C, Am.",
+    "Insira um F fora da tonalidade para um momento de cor.",
+    "Siga com Dsus2, G, A.",
+    "Retorne ao E, o centro tonal."
+   ],
+   "timestamp": "05:11",
+   "nivel": "avancado",
+   "tags": [
+    "baixo",
+    "nota fixa",
+    "fora da tonalidade",
+    "centro tonal"
+   ],
+   "id_global": "GAckLGgA86o#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Mapa harmônico que sai e volta ao centro tonal",
+   "descricao": "Mover as notas de baixo cria um mapa harmônico que entra e sai da escala, mas ainda se relaciona com o centro tonal (aqui, E). Notas fora da tonalidade funcionam se o caminho retorna ao centro.",
+   "passos": [],
+   "timestamp": "06:20",
+   "nivel": "avancado",
+   "tags": [
+    "centro tonal",
+    "harmonia",
+    "tensão"
+   ],
+   "id_global": "GAckLGgA86o#I10"
+  }
+ ],
+ "artistas_citados": [
+  "Joe Satriani"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Tablatura da lição no site da Guitar World (série 'Shredding with the Alien')"
+ ],
+ "observacoes": "Transcrição automática com erros: \"eix aidian\" = E mixolídio; \"F lyan\" = provavelmente F lídio/frígio (incerto; a nota F é citada como fora da tonalidade de E); \"Big E chord\" = acorde de E maior; \"Basse note\" = bass note. Os exemplos tocados não aparecem em texto, então notas exatas, casas e ritmos dependem de ouvir o vídeo ou ver a tablatura. O segmento S4 começa por volta de 04:30 (a transcrição pula para 05:11).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:12:13",
+  "tentativas": 1,
+  "custo_usd": 0.3034
+ }
+}

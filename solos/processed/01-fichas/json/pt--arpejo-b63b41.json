@@ -1,0 +1,270 @@
+{
+ "fonte_id": "pt--arpejo-b63b41",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Arpejo – Wikipédia, a enciclopédia livre",
+  "autor": "",
+  "url": "https://pt.wikipedia.org/wiki/Arpejo",
+  "site": "pt.wikipedia.org",
+  "idioma": "pt",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/pt--arpejo-b63b41.md"
+ },
+ "resumo": "Verbete da Wikipédia que define arpejo como a execução sucessiva das notas de um acorde e o relaciona a acordes e escalas. Apresenta a notação musical e as classificações (conjunto/disjunto, ascendente/descendente, simples/composto). Cita o uso em improvisação, em solos e como \"ponto final\" de uma frase. É material teórico e introdutório, sem exercícios práticos de guitarra. Serve a iniciantes que precisam do conceito.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "A definição e as classificações são claras, mas faltam exercícios, digitações, tablaturas e exemplos aplicados à improvisação. O texto é enciclopédico e não é específico de guitarra."
+ },
+ "assuntos_principais": [
+  "arpejo",
+  "acordes",
+  "tríades",
+  "improvisação",
+  "notação musical",
+  "classificação de arpejos"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de arpejo e relação com acordes e escalas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Arpejo é tocar as notas de um acorde uma a uma. Todo acorde tem arpejo. Ele reúne características de acordes (sons sobrepostos) e de escalas (sequência de sons). Pode incluir extensões e serve para embelezar a harmonia ou compor um solo.",
+   "assuntos": [
+    "arpejo",
+    "acorde",
+    "tríade",
+    "extensões"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Arpejo na escrita musical e classificações",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Representação com linha ondulada ou notas consecutivas. Classificação em conjunto/disjunto, ascendente/descendente e simples/composto. Uso em improvisação e como finalização de frase. Cita o Concerto de Schumann como exemplo.",
+   "assuntos": [
+    "notação",
+    "classificação",
+    "improvisação",
+    "finalização de frase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Referências e bibliografia",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências e livros, entre eles Nelson Faria sobre acordes, arpejos e escalas para violão e guitarra.",
+   "assuntos": [
+    "bibliografia"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é um arpejo",
+   "descricao": "Arpejo (do italiano arpeggio, 'à maneira de harpa') é tocar sucessivamente, uma a uma, as notas de um acorde, em vez de todas juntas. Todo acorde, por mais complexo que seja, tem um arpejo, porque sempre dá para tocá-lo nota por nota.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "acorde",
+    "conceito"
+   ],
+   "id_global": "pt--arpejo-b63b41#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Arpejo une características de acordes e escalas",
+   "descricao": "Os acordes têm as notas tocadas juntas, e nas escalas cada nota soa isolada. O arpejo é uma sucessão de três ou mais notas tocadas em sequência. Ele tem o som harmonioso e sobreposto do acorde e a sequência rápida de sons da escala.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "escala",
+    "acorde"
+   ],
+   "id_global": "pt--arpejo-b63b41#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Exemplo: arpejo de Dó maior (C, E, G)",
+   "descricao": "As notas do acorde de Dó maior são C, E e G. Tocadas juntas, formam o acorde. Tocadas separadamente, uma após a outra, formam o arpejo de Dó.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "tríade",
+    "dó maior",
+    "arpejo"
+   ],
+   "id_global": "pt--arpejo-b63b41#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Arpejos podem ir além da tríade",
+   "descricao": "O arpejo não precisa se limitar às notas da tríade e pode incluir extensões do acorde. As notas citadas são fundamental, terça, quinta e sétima. Acordes com sétima, como o C7maj, dão arpejos mais ricos para o solo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "extensões",
+    "sétima",
+    "tétrade",
+    "arpejo"
+   ],
+   "id_global": "pt--arpejo-b63b41#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Usos do arpejo: embelezar a harmonia e solar",
+   "descricao": "A técnica pode embelezar uma harmonia ou servir como trecho de um solo. Estudá-lo melhora a técnica, o conhecimento harmônico e a improvisação. Vale para instrumentos harmônicos como violão, piano e guitarra.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "solo",
+    "improvisação",
+    "harmonia",
+    "técnica"
+   ],
+   "id_global": "pt--arpejo-b63b41#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Notação do arpejo",
+   "descricao": "Na partitura, o arpejo aparece como um acorde com as notas sobrepostas, antecedido por uma linha ondulada. Também pode ser escrito com as notas em sequência. Em instrumentos monofônicos ou na voz, juntam-se três ou mais notas para produzir o arpejo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notação",
+    "partitura",
+    "arpejo"
+   ],
+   "id_global": "pt--arpejo-b63b41#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo conjunto vs. disjunto",
+   "descricao": "Conjunto é quando as notas do acorde são tocadas em sequência, da mais grave para a mais aguda ou o contrário. Disjunto é quando todas as notas do acorde são tocadas sem seguir um padrão de ordem. Variar a ordem das notas gera frases menos previsíveis.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo conjunto",
+    "arpejo disjunto",
+    "classificação"
+   ],
+   "id_global": "pt--arpejo-b63b41#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo ascendente vs. descendente",
+   "descricao": "Ascendente começa numa nota grave e termina numa aguda. Descendente começa numa aguda e termina numa grave. Treinar nas duas direções dá fluência para frases melódicas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ascendente",
+    "descendente",
+    "direção"
+   ],
+   "id_global": "pt--arpejo-b63b41#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo simples vs. composto",
+   "descricao": "Simples é o arpejo limitado a uma oitava. Composto é o aplicado em mais de uma oitava. O texto usa o acorde C7maj como exemplo numa figura, que não está disponível na fonte.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "oitava",
+    "arpejo composto",
+    "C7maj"
+   ],
+   "id_global": "pt--arpejo-b63b41#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Arpejo como ponto final da frase",
+   "descricao": "O principal uso do arpejo está na improvisação e na composição sobre acordes. Ele dá uma sonoridade melhor à melodia e ajuda a nortear a finalização da música, funcionando como um 'ponto final'. Ao terminar uma frase, vale pousar nas notas do arpejo do acorde da vez.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "notas-alvo",
+    "finalização de frase",
+    "arpejo"
+   ],
+   "id_global": "pt--arpejo-b63b41#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S2",
+   "tipo": "recurso",
+   "titulo": "Referências para estudo",
+   "descricao": "O verbete indica o livro 'Acordes, Arpejos e Escalas para Violão e Guitarra', de Nelson Faria (Lumiar Editora), e um artigo do Cifra Club com 10 dicas para estudar arpejos. Cita também o Concerto para piano em lá menor, de Schumann, como exemplo de uso de arpejos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "livro",
+    "Nelson Faria",
+    "referência"
+   ],
+   "id_global": "pt--arpejo-b63b41#I11"
+  }
+ ],
+ "artistas_citados": [
+  "Robert Schumann",
+  "Nelson Faria",
+  "Theodoro Nogueira"
+ ],
+ "musicas_citadas": [
+  "Concerto para piano e orquestra em lá menor, Op. 54 (Schumann)",
+  "Improviso nº 1 para violão solo (Theodoro Nogueira)"
+ ],
+ "recursos_citados": [
+  "Acordes, Arpejos e Escalas para Violão e Guitarra (Nelson Faria, Lumiar Editora)",
+  "Cifra Club: Como estudar arpejos? Confira 10 dicas práticas",
+  "Dicionário de termos e expressões da música (Henrique Autran Dourado)"
+ ],
+ "observacoes": "Documento enciclopédico, sem timestamps. O texto está um pouco truncado e menciona uma figura com o C7maj que não está disponível. Não traz tablatura, digitações nem exercícios, só conceitos. Algumas afirmações são gerais (não específicas de guitarra), e o título do editor aparece como 'Luminar' na fonte, mas a editora é Lumiar.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:52",
+  "tentativas": 1,
+  "custo_usd": 0.2352
+ }
+}

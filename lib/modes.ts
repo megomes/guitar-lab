@@ -6,9 +6,9 @@
  * As duas metades olham para a mesma tônica e a mesma forma CAGED — trocar uma lá
  * troca aqui.
  */
-export type ModeId = 'scales' | 'chords' | 'chords2' | 'notes' | 'practice' | 'meeting' | 'plan' | 'quiz'
+export type ModeId = 'scales' | 'chords' | 'chords2' | 'notes' | 'practice' | 'meeting' | 'plan' | 'quiz' | 'solos'
 
-export type ModeGroup = 'consulta' | 'treino' | 'jogo'
+export type ModeGroup = 'consulta' | 'treino' | 'jogo' | 'estudo'
 
 export interface Mode {
   id: ModeId
@@ -26,6 +26,7 @@ export const MODES: Mode[] = [
   { id: 'meeting', group: 'treino', name: 'Reunião', hint: 'drills silenciosos para a mão esquerda' },
   { id: 'plan', group: 'treino', name: 'Plano', hint: '30 minutos por noite, uma posição por vez' },
   { id: 'quiz', group: 'jogo', name: 'Jogo', hint: 'decorar o braço: ache a nota' },
+  { id: 'solos', group: 'estudo', name: 'Solos', hint: 'lições de solo e improvisação, com exercícios que tocam' },
 ]
 
-export const GROUP_NAME: Record<ModeGroup, string> = { consulta: 'Consulta', treino: 'Treino', jogo: 'Jogo' }
+export const GROUP_NAME: Record<ModeGroup, string> = { consulta: 'Consulta', treino: 'Treino', jogo: 'Jogo', estudo: 'Estudo' }

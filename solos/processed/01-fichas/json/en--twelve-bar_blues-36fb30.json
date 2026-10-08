@@ -1,0 +1,329 @@
+{
+ "fonte_id": "en--twelve-bar_blues-36fb30",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Twelve-bar blues - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--twelve-bar_blues-36fb30.md"
+ },
+ "resumo": "Artigo da Wikipedia sobre o blues de 12 compassos: origem histórica, progressão básica I-IV-V, variações (shuffle, quick change, com sétimas, bebop, menor) e a forma melódica AA'B. Serve de base harmônica para quem quer improvisar sobre blues, mas não traz exercícios, escalas nem licks.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Referência teórica clara e correta sobre as formas do blues, mas não ensina técnica de solo, escalas ou frases. Serve só como base harmônica."
+ },
+ "assuntos_principais": [
+  "blues de 12 compassos",
+  "progressão I-IV-V",
+  "quick change",
+  "shuffle blues",
+  "blues menor",
+  "bebop blues",
+  "forma AA'B"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e contexto histórico",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define o blues de 12 compassos como progressão baseada nos acordes I, IV e V. Conta a origem do blues e a formalização do padrão, com W. C. Handy.",
+   "assuntos": [
+    "história do blues",
+    "definição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Progressão básica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Mostra a forma básica em acordes (C C C C F F C C G F C G), em notação funcional (T, S, D) e em algarismos romanos.",
+   "assuntos": [
+    "progressão básica",
+    "numeração romana",
+    "função harmônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Variações",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o shuffle (V-IV-I-I no final), o quick change (IV no compasso 2), o uso de acordes com sétima, o bebop blues com V/ii e ii7, o blues menor e as formas de 8 ou 16 compassos.",
+   "assuntos": [
+    "shuffle",
+    "quick change",
+    "acordes com sétima",
+    "bebop blues",
+    "blues menor",
+    "8 e 16 compassos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Linha melódica AA'B",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que melodia e letra seguem a forma AA'B: uma frase, sua repetição com leve alteração e uma frase nova.",
+   "assuntos": [
+    "fraseado",
+    "forma AA'B"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Referências e fontes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas.",
+   "assuntos": [
+    "bibliografia"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O blues de 12 compassos é baseado em I, IV e V",
+   "descricao": "O blues de 12 compassos (blues changes) é uma das progressões mais usadas na música popular. Em sua forma básica usa apenas os acordes I, IV e V da tonalidade. Conhecer essa estrutura é o ponto de partida para improvisar sobre blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blues",
+    "12 compassos",
+    "I-IV-V",
+    "harmonia"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Origem do blues e o papel de W. C. Handy",
+   "descricao": "O blues nasceu da combinação de canções de trabalho, spirituals e do country primitivo do sul dos EUA, e foi passado por tradição oral. W. C. Handy foi o primeiro a escrevê-lo e codificou a forma de 12 compassos para ajudar os músicos a comunicar as mudanças de acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "história",
+    "Handy",
+    "tradição oral"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Forma básica em C: 4 compassos de I, 2 de IV, 2 de I, V, IV, I, V",
+   "descricao": "A progressão básica em Dó é C C C C | F F C C | G F C G. Em algarismos romanos: I I I I | IV IV I I | V IV I V. Em notação funcional: T T T T | S S T T | D S T D. A forma está na versão mais simples, sem quick change, turnarounds nem sétimas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "numeração romana",
+    "tom de C",
+    "função harmônica"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Pensar em graus (números romanos) para transpor",
+   "descricao": "Representar a progressão em graus (I, IV, V) ou em funções (tônica, subdominante, dominante) permite aplicar a mesma forma em qualquer tom. Para solar, vale decorar o desenho em graus, e não só em acordes de um tom específico.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "transposição",
+    "graus",
+    "teoria"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Shuffle blues: V-IV-I-I nos últimos quatro compassos",
+   "descricao": "Na forma original, o acorde dominante se repetia no compasso 12. Mais tarde o padrão V-IV-I-I tornou-se o padrão nos últimos quatro compassos: I I I I | IV IV I I | V IV I I. Isso permite ouvir o fim do ciclo como um ponto de repouso, e não como uma volta.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "shuffle",
+    "variação",
+    "compassos finais"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Quick change (quick to four): IV no compasso 2",
+   "descricao": "Na variação quick change, o acorde IV aparece já no segundo compasso: I IV I I | IV IV I I | V IV I I. Ao solar, é preciso escutar essa mudança antecipada e acompanhá-la com notas do acorde IV.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "quick change",
+    "quick four",
+    "variação"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Acordes dominantes com sétima no blues",
+   "descricao": "No blues costumam ser usados acordes dominantes com sétima (I7, IV7, V7). Acordes com sétima menor ou diminuta aparecem muitas vezes logo antes de uma mudança de acorde, e mais mudanças podem ser acrescentadas. Exemplo citado: I IV I I7 | IV IV7 I I7 | V7 IV I V7.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "sétimas",
+    "dominante",
+    "harmonia"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Bebop blues: V/ii e ii7 nos compassos finais",
+   "descricao": "O blues do bebop, como em Now's the Time e Billie's Bounce (Charlie Parker) e Tenor Madness (Sonny Rollins), inclui o IV7, o #IV diminuto e uma volta com V/ii (com b9) seguido de ii7 e V7. O clichê do solista de bop é arpejar o acorde V/ii (A7b9 em Dó) da terça até a b9.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "bebop",
+    "jazz",
+    "arpejo",
+    "V/ii",
+    "b9"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Blues menor: i7, iv7 e bVI7-V7",
+   "descricao": "Há blues menores de 12 compassos, como Equinox e Mr. P.C. de John Coltrane. A forma é i7 (4 compassos) | iv7 iv7 i7 i7 | bVI7 V7 i7 i7. O quinto grau pode ser maior (V7) ou menor (v7), e os dois podem ser misturados, marca registrada de Charles Brown (por exemplo, alternando Fm7 e B7).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues menor",
+    "Coltrane",
+    "Charles Brown",
+    "iv7"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Blues de 8 e 16 compassos",
+   "descricao": "A forma admite muitas variações. A duração das seções pode mudar para criar blues de 8 compassos ou de 16 compassos. O músico não deve assumir que todo blues tem 12 compassos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "8 compassos",
+    "16 compassos",
+    "forma"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Frase AA'B na melodia e na letra",
+   "descricao": "A melodia e a letra do blues costumam seguir a forma AA'B: uma frase é tocada, repetida (talvez com leve alteração) e depois se toca algo novo. Cada letra ocupa mais ou menos um bloco de 4 compassos. Esse padrão aparece em muitos gêneros derivados do blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "AA'B",
+    "fraseado",
+    "pergunta e resposta",
+    "melodia"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Aplicar AA'B ao solo: repetir a frase com variação e fechar com algo novo",
+   "descricao": "Uma maneira de usar a forma AA'B ao improvisar é tocar uma ideia nos primeiros 4 compassos, repeti-la com pequena alteração nos 4 seguintes (sobre o IV) e responder com uma frase nova nos últimos 4 (V-IV-I). É uma aplicação prática do conceito do artigo, não algo ensinado explicitamente por ele.",
+   "passos": [
+    "Toque uma frase curta nos compassos 1 a 4 (A).",
+    "Repita a frase com pequena alteração nos compassos 5 a 8 (A').",
+    "Toque uma frase nova nos compassos 9 a 12 (B), terminando no acorde I."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "AA'B",
+    "motivo",
+    "repetição",
+    "estrutura do solo"
+   ],
+   "id_global": "en--twelve-bar_blues-36fb30#I12"
+  }
+ ],
+ "artistas_citados": [
+  "W. C. Handy",
+  "Bessie Smith",
+  "Ma Rainey",
+  "Charlie Parker",
+  "Sonny Rollins",
+  "John Coltrane",
+  "Charles Brown"
+ ],
+ "musicas_citadas": [
+  "Now's the Time",
+  "Billie's Bounce",
+  "Tenor Madness",
+  "Equinox",
+  "Mr. P.C."
+ ],
+ "recursos_citados": [
+  "The Total Blues Guitarist (Dennis McCumber)",
+  "Beginning Delta Blues Guitar (Fruteland Jackson)",
+  "Jazz Theory Handbook (Peter Spitzer)",
+  "Voice Leading for Guitar: Moving Through the Changes (John Thomas)",
+  "12-Bar Blues Form: A Complete Guide (Dan Farrant, Hellomusictheory.com)"
+ ],
+ "observacoes": "Documento da Wikipedia, sem timestamps. Alguns exemplos de acordes aparecem truncados ou com formatação quebrada (sobrescritos misturados, como \"I IV I I 7IV IV 7I...\"), então as sequências com sétima, bebop e menor foram reconstruídas pelo contexto. O artigo é teórico e não traz exercícios; a ideia I12 é uma aplicação prática derivada do conceito AA'B, não dita no texto.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:19",
+  "tentativas": 1,
+  "custo_usd": 0.2526
+ }
+}

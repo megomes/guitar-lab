@@ -1,0 +1,1677 @@
+{
+ "titulo": "Gravação, autoavaliação e feedback",
+ "gancho": "Enquanto toca, você ouve o solo que tentou tocar. A gravação mostra o que de fato saiu da guitarra.",
+ "porque_importa": "Enquanto você toca, a atenção está nas mãos. Por isso o tempo que corre, o bend que não chega na nota e a frase repetida pela décima vez passam despercebidos. Gravar e ouvir com critério mostra esses problemas, e o retorno de professores, colegas e parceiros de jam pega o que nem a gravação revela. Sem esse ciclo, você pratica sem saber se está melhorando.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "O ouvido de quem toca engana",
+   "texto": "Enquanto você toca, o cérebro está ocupado com dedos, escala e o próximo acorde. Ele completa o que falta: o bend parece afinado, o tempo parece firme. Só ouvindo depois, de mãos paradas, você escuta o que realmente saiu. O problema mais comum é correr o tempo. Quase todo mundo acelera nas notas rápidas e encurta as pausas sem perceber.",
+   "destaque": "Durante o solo você toca. Depois, na gravação, você ouve o que tocou.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-régua em Lá menor. O primeiro tempo é um bend de 1 tom: a casa 7 da corda 3 (D) precisa soar como E, a casa 9 e quinta do Am. A frase pousa no A no tempo 4 e de novo no tempo 3 do compasso 2. O compasso 3 é silêncio e serve para ver se você aguenta a pausa sem correr.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O ciclo: gravar, ouvir, anotar, regravar",
+   "texto": "O celular basta. Grave sobre a base, ouça a gravação inteira sem a guitarra na mão e sem pausar, anote o que funcionou e o que falhou, trabalhe um ponto e grave de novo. A sessão tem que ter um objetivo e terminar com uma gravação. Tocar sobre a base sem direção é só passar o tempo.",
+   "destaque": "Sem gravação, você não tem como medir a sessão.",
+   "visual": null
+  },
+  {
+   "titulo": "Ouvir com critério: três lentes",
+   "texto": "\"Ficou bom?\" é uma pergunta vaga demais. Faça uma escuta para cada lente. 1) Execução: os bends chegam na nota? O tempo está firme? As trocas de acorde caem no lugar? 2) Ritmo e frase: as durações variam? As frases começam em pontos diferentes? Existe silêncio, ou você está só subindo e descendo a escala? 3) Notas: elas funcionam sobre cada acorde? As transições soam truncadas? Em vídeo, você ainda vê o que o áudio esconde: mãos fora de sincronia e cordas soltas fazendo ruído.",
+   "destaque": "Ouça com uma pergunta concreta por vez.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Calibrador rítmico: no compasso 1, uma semibreve (a nota soa os 4 tempos); no 2, duas mínimas; no 3, quatro semínimas; no 4, uma mistura de semínima, mínima e pausa. Grave, ouça e treine o ouvido para reconhecer cada figura.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Ouvidos gentis e a balança do progresso",
+   "texto": "Ouvir a própria gravação incomoda, e é normal. Ouça primeiro só observando, depois avalie, sempre começando pelo que funcionou. Grave hoje como você toca, mesmo que soe mal, e guarde o arquivo com a data. Semanas depois, compare com uma gravação nova sobre a mesma base. É como a balança de quem faz dieta: mostra uma evolução que, no dia a dia, você não percebe.",
+   "destaque": "Seja exigente com o som e gentil com você.",
+   "visual": null
+  },
+  {
+   "titulo": "Ouvidos de fora: professor, comunidade, jam",
+   "texto": "A autoavaliação tem um ponto cego: você não percebe os próprios vícios. Uma aula por mês, levando gravações e dúvidas concretas, já ajuda a sair da estagnação. Postar em comunidades expõe seu som a outros ouvidos, e comentar o trabalho dos colegas treina a sua escuta. Tocar com outras pessoas, em jam, ensaio ou dupla online, obriga você a ouvir e se adaptar. Sempre que puder, toque com músicos melhores que você.",
+   "destaque": "Estudar sozinho é só parte do caminho. A outra parte é tocar com gente.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 5,
+   "porque": "Paul Davids e Ariel Posen mostram como é fácil correr o tempo tocando sozinho e por que só a gravação revela isso.",
+   "fonte": {
+    "id": "rh6HEF5Dy2I#I33",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+    "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=1264s",
+    "video": "rh6HEF5Dy2I",
+    "inicio": 1264,
+    "momento": "21:06",
+    "ideia": "Tendência a correr o tempo"
+   }
+  },
+  {
+   "ref": 18,
+   "porque": "Bernth explica por que gravar em vídeo, de frente, mostra a dessincronia entre as mãos e o ruído de cordas que quem toca não vê.",
+   "fonte": {
+    "id": "36xG0NIDd7E#I18",
+    "tipo": "video",
+    "autor": "BERNTH Guitar Academy",
+    "titulo": "Everything You Need to Learn on Guitar (In Order)",
+    "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=1559s",
+    "video": "36xG0NIDd7E",
+    "inicio": 1559,
+    "momento": "26:01",
+    "ideia": "Gravar-se e analisar a própria execução"
+   }
+  },
+  {
+   "ref": 19,
+   "porque": "Active Melody propõe gravar o estado atual como linha de base, mesmo ruim, e compara a evolução com uma balança.",
+   "fonte": {
+    "id": "4iqtipKAu8M#I06",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Creating the ultimate practice routine for guitar. How to practice: EP498",
+    "url": "https://www.youtube.com/watch?v=4iqtipKAu8M&t=295s",
+    "video": "4iqtipKAu8M",
+    "inicio": 295,
+    "momento": "04:57",
+    "ideia": "Gravar o estado atual como linha de base"
+   }
+  },
+  {
+   "ref": 15,
+   "porque": "Daniel Seriff fala de como ouvir a si mesmo de forma construtiva, aguentando o desconforto sem se punir.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I22",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=870s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 870,
+    "momento": "14:32",
+    "ideia": "Gravar-se e analisar com escuta construtiva"
+   }
+  },
+  {
+   "ref": 44,
+   "porque": "Daniel Bertamini aparece revezando o improviso com o aluno na mesma backing track, uma tonalidade cada um.",
+   "fonte": {
+    "id": "drX6XjaItA4#I25",
+    "tipo": "video",
+    "autor": "Daniel Bertamini",
+    "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+    "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=1117s",
+    "video": "drX6XjaItA4",
+    "inicio": 1117,
+    "momento": "18:39",
+    "ideia": "Alternar improvisação com o professor na backing track"
+   }
+  },
+  {
+   "ref": 43,
+   "porque": "JustinGuitar mostra o exercício em dupla da nota de acorde, que dá para fazer ao vivo ou por videochamada.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I24",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=1249s",
+    "video": "OkTBizvNWoI",
+    "inicio": 1249,
+    "momento": "20:51",
+    "ideia": "Exercício em dupla"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Linha de base com data",
+   "objetivo": "Criar uma gravação de referência do seu nível atual, para comparar daqui a algumas semanas.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Escolha uma backing track de blues em Lá, lenta (60–80 bpm), e salve o link. Ela será a mesma nas próximas comparações.",
+    "Sem aquecer nem ensaiar, grave 2 voltas completas (24 compassos) improvisando. Não regrave: a primeira gravação é a linha de base.",
+    "Dê ao arquivo um nome com data e contexto, por exemplo: 2026-10-08_blues-A_base.",
+    "Ouça uma vez e escreva três frases só descritivas, sem notas de 0 a 10. Exemplo: \"fiquei quase todo o tempo nas cordas 2 e 3\".",
+    "Marque no calendário a regravação daqui a 3 ou 4 semanas, com a mesma base e o mesmo andamento."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: A7, D7 e E7, os três dominantes. Esta é a base dos exercícios de gravação: use uma backing track lenta (60–80 bpm).",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça linhas de base separadas para cada tema que vai estudar, como bends, fraseado ou trocas de acorde.",
+    "Grave também em vídeo para comparar a postura e o movimento das mãos."
+   ],
+   "cuidado": "Querer \"melhorar um pouco antes\" e regravar até ficar apresentável. Assim a linha de base perde o valor: ela precisa ser crua.",
+   "inspirado_em": [
+    {
+     "id": "4iqtipKAu8M#I06",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Creating the ultimate practice routine for guitar. How to practice: EP498",
+     "url": "https://www.youtube.com/watch?v=4iqtipKAu8M&t=295s",
+     "video": "4iqtipKAu8M",
+     "inicio": 295,
+     "momento": "04:57",
+     "ideia": "Gravar o estado atual como linha de base"
+    },
+    {
+     "id": "4iqtipKAu8M#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Creating the ultimate practice routine for guitar. How to practice: EP498",
+     "url": "https://www.youtube.com/watch?v=4iqtipKAu8M&t=326s",
+     "video": "4iqtipKAu8M",
+     "inicio": 326,
+     "momento": "05:28",
+     "ideia": "Perceber a melhora ao ouvir gravações antigas"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I25",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 7: comparar gravações"
+    },
+    {
+     "id": "tyQ1Qj2yBfI#I11",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO IMPROVISAR NAS 12 TONALIDADES",
+     "url": "https://www.youtube.com/watch?v=tyQ1Qj2yBfI&t=398s",
+     "video": "tyQ1Qj2yBfI",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Gravar o treino e postar para acompanhar a evolução"
+    }
+   ]
+  },
+  {
+   "titulo": "Frase-régua: o metrônomo não mente",
+   "objetivo": "Usar uma frase fixa para medir, sem dúvida, a afinação do bend, o tempo e a capacidade de segurar o silêncio.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Ligue o metrônomo a 75 bpm, alto o bastante para aparecer na gravação.",
+    "Grave a frase do V1 quatro vezes seguidas, respeitando o compasso de silêncio entre uma e outra.",
+    "Antes de ouvir, toque a casa 9 da corda 3 (E) para lembrar o alvo do bend.",
+    "Ouça sem a guitarra. Na primeira escuta, confira se o bend chegou no E ou ficou abaixo. Na segunda, confira se o A do tempo 4 caiu junto com o clique, adiantado ou atrasado.",
+    "Na terceira escuta, conte o compasso de silêncio: você voltou a tocar antes do tempo 1?",
+    "Anote um único ajuste, regrave as quatro vezes e compare com a primeira gravação."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-régua em Lá menor. O primeiro tempo é um bend de 1 tom: a casa 7 da corda 3 (D) precisa soar como E, a casa 9 e quinta do Am. A frase pousa no A no tempo 4 e de novo no tempo 3 do compasso 2. O compasso 3 é silêncio e serve para ver se você aguenta a pausa sem correr.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Desligue o metrônomo na gravação e use uma backing track. Aí o ouvido precisa achar o pulso sozinho.",
+    "Repita a mesma frase-régua toda semana e guarde as gravações em sequência."
+   ],
+   "cuidado": "Ouvir com a guitarra na mão e \"corrigir\" tocando junto. Na escuta você só ouve e anota. Corrigir fica para a próxima gravação.",
+   "inspirado_em": [
+    {
+     "id": "2xR1QJfawjg#I09",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=378s",
+     "video": "2xR1QJfawjg",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Gravar 12 compassos e avaliar"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I33",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=1264s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 1264,
+     "momento": "21:06",
+     "ideia": "Tendência a correr o tempo"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=770s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 770,
+     "momento": "12:52",
+     "ideia": "Limitar cada técnica a 1-2 minutos por sessão"
+    },
+    {
+     "id": "Fi1BWmg3JUk#I21",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Mixing Major & Minor Pentatonics In Blues - How, Why and What To Practice! Guitar Lesson Tutorial",
+     "url": "https://www.youtube.com/watch?v=Fi1BWmg3JUk&t=981s",
+     "video": "Fi1BWmg3JUk",
+     "inicio": 981,
+     "momento": "16:23",
+     "ideia": "Gravar-se e avaliar criticamente"
+    }
+   ]
+  },
+  {
+   "titulo": "Três escutas, três lentes",
+   "objetivo": "Trocar o vago \"ficou bom?\" por um checklist de execução, ritmo e notas.",
+   "nivel": "iniciante",
+   "minutos": 20,
+   "passos": [
+    "Defina um objetivo e uma restrição. Exemplo: uma volta de blues em Lá usando só 4 notas da pentatônica menor.",
+    "Grave uma volta de 12 compassos sobre a base A7–D7–E7.",
+    "Escuta 1, execução: os bends chegam na nota, o tempo está firme, você percebe cada troca de acorde?",
+    "Escuta 2, ritmo e frase: as durações variam? As frases começam em pontos diferentes? Tem silêncio, ou é sobe e desce de escala?",
+    "Escuta 3, notas: como soa a nota que está tocando quando entra o D7? E o E7?",
+    "Escreva no formato \"1 acerto + 2 ajustes\", escolha um ajuste e regrave.",
+    "Ouça as duas versões em sequência e anote se o ajuste apareceu."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: A7, D7 e E7, os três dominantes. Esta é a base dos exercícios de gravação: use uma backing track lenta (60–80 bpm).",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ]
+   },
+   "variacoes": [
+    "Tente responder ao checklist enquanto toca, por exemplo perguntando a si mesmo: \"estou só subindo e descendo a escala?\".",
+    "Troque a restrição a cada sessão, como só 2 cordas ou começar sempre no tempo 2."
+   ],
+   "cuidado": "Tentar corrigir tudo de uma vez. Na regravação, mude só um ponto, senão você não sabe o que funcionou.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I11",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Gravar o solo e avaliar com duas perguntas"
+    },
+    {
+     "id": "2xR1QJfawjg#I09",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=378s",
+     "video": "2xR1QJfawjg",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Gravar 12 compassos e avaliar"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I19",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Prática com objetivo, restrição e gravação"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I21",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Exercício de improvisação em nove passos"
+    },
+    {
+     "id": "Fi1BWmg3JUk#I21",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Mixing Major & Minor Pentatonics In Blues - How, Why and What To Practice! Guitar Lesson Tutorial",
+     "url": "https://www.youtube.com/watch?v=Fi1BWmg3JUk&t=981s",
+     "video": "Fi1BWmg3JUk",
+     "inicio": 981,
+     "momento": "16:23",
+     "ideia": "Gravar-se e avaliar criticamente"
+    },
+    {
+     "id": "hWlyxQclPcs#I18",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=611s",
+     "video": "hWlyxQclPcs",
+     "inicio": 611,
+     "momento": "10:13",
+     "ideia": "Gravar e ouvir a improvisação com objetividade"
+    },
+    {
+     "id": "_kK1_apm-qs#I06",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Land on THESE notes when improvising lead guitar - Guitar Lesson - EP527",
+     "url": "https://www.youtube.com/watch?v=_kK1_apm-qs&t=168s",
+     "video": "_kK1_apm-qs",
+     "inicio": 168,
+     "momento": "02:50",
+     "ideia": "Autoavaliação durante o solo"
+    }
+   ]
+  },
+  {
+   "titulo": "Mapa de figuras rítmicas",
+   "objetivo": "Descobrir, ouvindo a própria gravação, se o seu solo varia as durações ou repete sempre a mesma figura.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Calibre o ouvido: grave a frase do V3 e ouça. Reconheça a semibreve, as mínimas, as semínimas e a pausa.",
+    "Pegue uma gravação sua de improviso, por exemplo a do exercício anterior.",
+    "A cada frase, pause e anote a minutagem e a figura predominante: semibreve, mínima, semínima ou colcheia.",
+    "Conte quantas vezes aparece cada figura.",
+    "Se uma figura passar de dois terços das frases, regrave com uma regra: cada frase tem que ter pelo menos uma nota longa (mínima ou mais)."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Calibrador rítmico: no compasso 1, uma semibreve (a nota soa os 4 tempos); no 2, duas mínimas; no 3, quatro semínimas; no 4, uma mistura de semínima, mínima e pausa. Grave, ouça e treine o ouvido para reconhecer cada figura.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo mapa num solo de um guitarrista que você admira e compare com o seu.",
+    "Conte também quantos compassos inteiros ficaram em silêncio."
+   ],
+   "cuidado": "Confundir nota longa com nota que \"vaza\" sem querer. A mínima e a semibreve precisam ser intencionais, sustentadas e com fim claro.",
+   "inspirado_em": [
+    {
+     "id": "ECtdGsEEecI#I11",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=305s",
+     "video": "ECtdGsEEecI",
+     "inicio": 305,
+     "momento": "05:07",
+     "ideia": "Autoteste de identificação rítmica"
+    }
+   ]
+  },
+  {
+   "titulo": "Câmera de frente: as mãos andam juntas?",
+   "objetivo": "Usar o vídeo para ver os problemas mecânicos que quem toca não enxerga.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Ponha o celular de frente, na altura do peito, enquadrando as duas mãos, como se fosse alguém na plateia.",
+    "Toque a frase do V4 a 70 bpm, em colcheias, quatro vezes seguidas.",
+    "Assista com som: em cada salto de corda, aparece algum ruído de corda solta?",
+    "Assista de novo em câmera lenta, ou a 0,5x: a palheta acerta no mesmo instante em que o dedo pisa? Alguma nota sai cortada ou \"dupla\"?",
+    "Anote em qual par de notas está o problema, toque só esse par por 2 minutos e grave de novo."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Frase com salto de cordas, feita para gravar em vídeo. Cada par de notas pula uma corda, e é aí que aparecem ruído de corda solta e falta de sincronia entre palheta e dedo.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Poste o vídeo numa comunidade e pergunte só sobre sincronia e abafamento.",
+    "Grave um trecho com ligados ou vibrato e assista só a mão do braço."
+   ],
+   "cuidado": "Assistir só olhando os dedos. Ouça também: o ruído de corda costuma aparecer antes no som do que na imagem.",
+   "inspirado_em": [
+    {
+     "id": "36xG0NIDd7E#I18",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=1559s",
+     "video": "36xG0NIDd7E",
+     "inicio": 1559,
+     "momento": "26:01",
+     "ideia": "Gravar-se e analisar a própria execução"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=770s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 770,
+     "momento": "12:52",
+     "ideia": "Limitar cada técnica a 1-2 minutos por sessão"
+    }
+   ]
+  },
+  {
+   "titulo": "Banco de ideias: 15 minutos sem parar e garimpo",
+   "objetivo": "Transformar improvisos longos em material: separar as boas ideias e lapidar as previsíveis.",
+   "nivel": "intermediario",
+   "minutos": 35,
+   "passos": [
+    "Ligue o gravador antes de pegar a guitarra e improvise 15 minutos sobre uma jam track em Lá menor, sem parar para julgar.",
+    "Em outro momento, ouça pausando no fim de cada frase. Anote a minutagem das que chamaram sua atenção.",
+    "Descarte as outras, anotando em poucas palavras por que não funcionaram, como \"sem rumo\" ou \"só escala\".",
+    "Escolha a melhor frase e aprenda a tocá-la de novo.",
+    "Escolha uma frase previsível e lapide como no V5: mantenha o ritmo e troque as notas, mudando o contorno.",
+    "Grave as duas versões, original e lapidada, e guarde no seu arquivo de ideias."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Exemplo de lapidação. O compasso 1 tem a frase como saiu no improviso, uma descida de escala previsível. O compasso 3 mantém exatamente o mesmo ritmo, mas troca as notas para um zigue-zague em volta do E que termina no A. Os compassos 2 e 4 são silêncio para comparar.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Junte as 3 ou 4 melhores frases de várias takes e monte um solo escrito de 12 compassos, como se faz em estúdio.",
+    "Lapide pelo outro lado: mantenha as notas e mude o ritmo."
+   ],
+   "cuidado": "Parar o improviso para corrigir. Durante a gravação, a regra é não julgar. O filtro vem depois, na escuta.",
+   "inspirado_em": [
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I30",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Gravar 15 minutos de improviso"
+    },
+    {
+     "id": "vPIebPDBizs#I23",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=831s",
+     "video": "vPIebPDBizs",
+     "inicio": 831,
+     "momento": "13:53",
+     "ideia": "Gravar sessões de improviso"
+    },
+    {
+     "id": "W9o9gR5f8-A#I06",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=432s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "Improvisar gravando e depois selecionar ideias"
+    },
+    {
+     "id": "ZBQr7STNnCE#I08",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=428s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 428,
+     "momento": "07:10",
+     "ideia": "Solos montados a partir de várias takes"
+    },
+    {
+     "id": "W9o9gR5f8-A#I07",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=432s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "Pausar e reouvir para prestar atenção aos detalhes"
+    },
+    {
+     "id": "W9o9gR5f8-A#I09",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=539s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 539,
+     "momento": "09:01",
+     "ideia": "Revisar frases criticando e modificando"
+    }
+   ]
+  },
+  {
+   "titulo": "Ouvidos de fora: dupla, gravação e comunidade",
+   "objetivo": "Completar a autoavaliação com o retorno de outros músicos, tocando junto e trocando comentários.",
+   "nivel": "avancado",
+   "minutos": 30,
+   "passos": [
+    "Encontre um parceiro, presencial ou de um fórum de guitarra, para tocar junto ou por videochamada.",
+    "Ponham o blues em Lá e revezem: cada um improvisa uma volta inteira enquanto o outro só ouve. Por videochamada, cada um roda a base no próprio computador para driblar o atraso da conexão.",
+    "Regra da escuta: quem entra começa retomando algo que o outro acabou de tocar, seja ritmo, nota ou desenho.",
+    "Gravem a sessão inteira.",
+    "Ouçam juntos. Cada um diz 1 acerto e 1 sugestão concreta sobre o outro: tempo, bend, nota sobre a troca de acorde ou espaço.",
+    "Poste seu melhor trecho numa comunidade com uma pergunta específica, como \"meus bends estão afinados?\", e comente duas gravações de colegas usando as três lentes."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: A7, D7 e E7, os três dominantes. Esta é a base dos exercícios de gravação: use uma backing track lenta (60–80 bpm).",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ]
+   },
+   "variacoes": [
+    "Revezamento nas 12 tonalidades: uma backing track que muda de tom, um toca e o outro cala a cada tonalidade, mantendo a mesma região do braço.",
+    "Jogo da nota de acorde: um toca um acorde sem dizer qual é, o outro testa três notas e escolhe a que pertence a ele. Depois discutem e trocam de papel.",
+    "Leve a gravação da sessão para a aula com seu professor."
+   ],
+   "cuidado": "Pedir \"o que acharam?\". Uma pergunta vaga recebe elogio vago. Faça pergunta específica e dê retorno específico.",
+   "inspirado_em": [
+    {
+     "id": "3kSPGjxI-ns#I35",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=2224s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 2224,
+     "momento": "37:06",
+     "ideia": "Tocar sobre um blues e enviar o vídeo"
+    },
+    {
+     "id": "dxqfxKe5-PU#I18",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to NAIL the Tasty MAJOR THIRDS  in a 12 Bar BLUES SOLO! (chord tones) Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=dxqfxKe5-PU&t=486s",
+     "video": "dxqfxKe5-PU",
+     "inicio": 486,
+     "momento": "08:08",
+     "ideia": "Compartilhar o solo no grupo do Facebook"
+    },
+    {
+     "id": "dxqfxKe5-PU#I17",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to NAIL the Tasty MAJOR THIRDS  in a 12 Bar BLUES SOLO! (chord tones) Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=dxqfxKe5-PU&t=486s",
+     "video": "dxqfxKe5-PU",
+     "inicio": 486,
+     "momento": "08:08",
+     "ideia": "Desafio: solo sobre backing track destacando terças"
+    },
+    {
+     "id": "Fi1BWmg3JUk#I20",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Mixing Major & Minor Pentatonics In Blues - How, Why and What To Practice! Guitar Lesson Tutorial",
+     "url": "https://www.youtube.com/watch?v=Fi1BWmg3JUk&t=949s",
+     "video": "Fi1BWmg3JUk",
+     "inicio": 949,
+     "momento": "15:51",
+     "ideia": "Tocar com outro músico"
+    },
+    {
+     "id": "36xG0NIDd7E#I19",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=1626s",
+     "video": "36xG0NIDd7E",
+     "inicio": 1626,
+     "momento": "27:08",
+     "ideia": "Tocar com outros músicos, especialmente os melhores"
+    },
+    {
+     "id": "OkTBizvNWoI#I28",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=1395s",
+     "video": "OkTBizvNWoI",
+     "inicio": 1395,
+     "momento": "23:17",
+     "ideia": "Praticar com outra pessoa online"
+    },
+    {
+     "id": "-VjHVHzWL0o#I12",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=878s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 878,
+     "momento": "14:40",
+     "ideia": "Trabalhar em dupla"
+    },
+    {
+     "id": "OkTBizvNWoI#I24",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=1249s",
+     "video": "OkTBizvNWoI",
+     "inicio": 1249,
+     "momento": "20:51",
+     "ideia": "Exercício em dupla"
+    },
+    {
+     "id": "drX6XjaItA4#I25",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=1117s",
+     "video": "drX6XjaItA4",
+     "inicio": 1117,
+     "momento": "18:39",
+     "ideia": "Alternar improvisação com o professor na backing track"
+    },
+    {
+     "id": "RTGLGlM9OPg#I19",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Por que tocar guitarra bem NÃO TEM SEGREDO ALGUM",
+     "url": "https://www.youtube.com/watch?v=RTGLGlM9OPg&t=259s",
+     "video": "RTGLGlM9OPg",
+     "inicio": 259,
+     "momento": "04:21",
+     "ideia": "Aula mensal com professor para feedback"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ouvir a gravação com a guitarra na mão e corrigir tocando junto, em vez de só ouvir e anotar.",
+  "Avaliar com \"ficou bom/ficou ruim\", sem critérios concretos de execução, ritmo e notas.",
+  "Regravar até ficar apresentável e apagar as takes ruins. Você perde a linha de base e o banco de ideias.",
+  "Ouvir só para se punir. Comece sempre pelo que funcionou e escolha um ajuste realista.",
+  "Gravar e nunca ouvir. Gravação que não é ouvida não serve para nada.",
+  "Mudar várias coisas na regravação e não saber qual delas fez diferença.",
+  "Estudar só sozinho, sem nunca tocar com outras pessoas nem pedir retorno de fora."
+ ],
+ "resumo": [
+  "Toda sessão termina com uma gravação: grave, ouça sem a guitarra, anote e regrave mudando um ponto só.",
+  "Ouça com uma lente por vez: execução (bends, tempo, trocas), ritmo e frase (variação, espaço) e notas.",
+  "O vídeo de frente mostra o que o áudio esconde: mãos fora de sincronia e ruído de cordas.",
+  "Guarde uma linha de base com data e compare com uma gravação nova sobre a mesma base.",
+  "Busque ouvidos de fora: professor, comunidade, parceiro e jam, de preferência com músicos melhores que você."
+ ],
+ "proximos_passos": "Para organizar esse ciclo dentro da semana, com metas e diário, siga para \"Rotina, planejamento e prática deliberada\". Se as gravações mostrarem que você corre o tempo, trabalhe \"Pulso, contagem e subdivisões\". Se mostrarem solos cheios demais, vá para \"Espaço, silêncio e respiração\". Para levar o que aprendeu às jams e ensaios, estude \"Tocar com a banda e para a música\". Para afiar o ouvido que avalia as gravações, combine com \"Treino auditivo e escuta reativa\" e \"Transcrição de solos\".",
+ "_meta": {
+  "subcategoria": "C01.3",
+  "modulo": {
+   "id": "C01",
+   "nome": "Mentalidade, método e recursos de estudo"
+  },
+  "nome": "Gravação, autoavaliação e feedback",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:39:04",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 4,
+   "cache_write": 34689,
+   "cache_read": 9716,
+   "output": 24898,
+   "thinking": 5562,
+   "turns": 4,
+   "custo_nominal": 0.7774312000000001
+  }
+ }
+}

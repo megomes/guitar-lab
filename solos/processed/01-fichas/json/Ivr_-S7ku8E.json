@@ -1,0 +1,468 @@
+{
+ "fonte_id": "Ivr_-S7ku8E",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+  "autor": "Gu Pedrico",
+  "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E",
+  "idioma": "pt",
+  "duracao": "23m 3s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/Ivr_-S7ku8E--você-aprendeu-isso-errado-esclarecendo-os-modos-gregos.md"
+ },
+ "resumo": "Aula do Gu Pedrico que corrige a forma comum de ensinar modos gregos: um modo não é apenas um desenho de escala, mas uma sonoridade definida pela tônica e pela harmonia (acorde/base) sob a qual a escala é tocada. Usa a escala de Dó tocada sobre Dó, Ré, Mi etc. para mostrar Jônico, Dórico, Frígio, Lídio, Mixolídio, Eólio e Lócrio, e analisa uma progressão em Ré maior/Lá menor/Dó/Sol que soa em Ré mixolídio. Ao final, promove a comunidade paga do canal. Indicado para quem já domina escala maior e intervalos; iniciantes podem ter dificuldade.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A ideia central é valiosa e bem demonstrada com exemplos de backing track, mas a transcrição é muito ruim, a explicação repete bastante, há poucos exercícios práticos concretos e grande parte do vídeo é propaganda da comunidade. Os exemplos sonoros dependem de ouvir a base, o que a fonte escrita não reproduz."
+ },
+ "assuntos_principais": [
+  "modos gregos",
+  "sonoridade modal vs. desenho de escala",
+  "tônica e centro tonal",
+  "harmonia e campo harmônico",
+  "modo Jônico, Dórico, Frígio, Lídio, Mixolídio, Eólio, Lócrio",
+  "backing track e pad como base",
+  "identificação de tonalidade modal (Ré mixolídio)"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e motivação: por que o conteúdo está sendo ensinado",
+   "inicio": "00:01",
+   "fim": "00:35",
+   "resumo": "Apresentação e afirmação de que muitos professores ensinam modos gregos errado, incluindo a própria experiência do apresentador.",
+   "assuntos": [
+    "modos gregos",
+    "crítica ao ensino tradicional"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Modo como sonoridade, não como desenho de escala",
+   "inicio": "00:35",
+   "fim": "02:24",
+   "resumo": "Tese central: o modo é uma sonoridade; a mesma forma de escala pode soar Dórico, Frígio, Lídio ou Mixolídio dependendo da harmonia. Crítica a diagramas de 'desenho dórico'.",
+   "assuntos": [
+    "sonoridade modal",
+    "escala de Sol maior como base de vários modos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Teoria: os sete modos a partir da escala maior de Dó",
+   "inicio": "02:24",
+   "fim": "08:27",
+   "resumo": "Explica que os sete modos são obtidos das notas da escala de Dó maior mudando a referência (tônica). Mostra Jônico (Dó), Dórico (Ré), Frígio (Mi), Lídio (Fá), Mixolídio (Sol), Eólio (Lá) e Lócrio (Si), com comparação de intervalos com a escala maior.",
+   "assuntos": [
+    "escala maior",
+    "modos da escala maior",
+    "estrutura intervalar de cada modo",
+    "tônica como referência"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Forma errada de ensinar modos gregos",
+   "inicio": "08:27",
+   "fim": "09:35",
+   "resumo": "Descreve o ensino tradicional de modos como deslocamento do ponto de início sobre o mesmo desenho e afirma que isso não traz sonoridade modal.",
+   "assuntos": [
+    "erro comum no ensino de modos",
+    "desenho de escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Demonstração prática com backing track em Dó e Ré menor",
+   "inicio": "09:35",
+   "fim": "12:09",
+   "resumo": "Toca a escala de Dó sobre base em Dó (Jônico) e depois sobre base em Ré menor, mostrando que a sonoridade muda com a tônica do acompanhamento.",
+   "assuntos": [
+    "backing track",
+    "pad",
+    "Jônico vs. Dórico na prática",
+    "tônica da base"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Demonstração com base em Mi: sonoridade depende do acorde de fundo",
+   "inicio": "12:09",
+   "fim": "15:43",
+   "resumo": "Demonstra a mesma escala sobre bases em Ré e Mi, mostrando que o mesmo conteúdo de notas soa diferente conforme a nota de repouso. Conclui que a sonoridade modal depende da base, não do desenho.",
+   "assuntos": [
+    "nota de repouso",
+    "base harmônica",
+    "escala de Dó sobre Mi"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Música tonal vs. modal e análise de progressão em Ré mixolídio",
+   "inicio": "15:43",
+   "fim": "19:20",
+   "resumo": "Define música tonal e modal pelo centro de gravidade. Analisa progressão Ré maior – Lá menor – Dó maior – Sol maior, que tem as notas do campo harmônico de Sol mas gira em torno de Ré, sendo portanto Ré mixolídio.",
+   "assuntos": [
+    "música tonal vs. modal",
+    "campo harmônico",
+    "Ré mixolídio",
+    "centro tonal da progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Conclusão sobre dependência harmônica e pedido de comentários",
+   "inicio": "19:20",
+   "fim": "19:53",
+   "resumo": "Resume que a sonoridade depende da harmonia e não do desenho, e pede dúvidas nos comentários.",
+   "assuntos": [
+    "resumo da tese",
+    "engajamento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Promoção da comunidade e cursos",
+   "inicio": "19:53",
+   "fim": "22:47",
+   "resumo": "Apresenta o módulo de modos gregos na comunidade paga, cursos de harmonia, técnica, timbre, minicursos e livro, além de QR Code.",
+   "assuntos": [
+    "comunidade paga",
+    "cursos",
+    "produtos do canal"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S10",
+   "titulo": "Despedida",
+   "inicio": "22:47",
+   "fim": "23:03",
+   "resumo": "Pedido de like, inscrição e comentários; encerramento.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Modo é sonoridade, não desenho",
+   "descricao": "Um modo grego é uma sonoridade definida pela nota de referência (tônica) e pela harmonia de fundo. A mesma forma de escala pode soar Dórico, Mixolídio etc. dependendo da base, então nomear um modo apenas pelo desenho da escala está errado.",
+   "passos": [],
+   "timestamp": "01:09",
+   "nivel": "intermediario",
+   "tags": [
+    "modos gregos",
+    "sonoridade modal",
+    "tônica",
+    "harmonia"
+   ],
+   "id_global": "Ivr_-S7ku8E#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Chamar a escala de Sol maior de 'Dórico' por causa do desenho",
+   "descricao": "Tocar a escala de Sol maior não faz dela Dórico; sem a sonoridade dórica (base em Lá menor com centro em Lá), o nome correto é escala de Sol maior. O mesmo conjunto de notas pode ser Dórico, Frígio, Lídio ou Mixolídio conforme a harmonia.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "modos gregos",
+    "escala de sol"
+   ],
+   "id_global": "Ivr_-S7ku8E#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escala maior já é o modo Jônico",
+   "descricao": "A escala maior já possui sonoridade modal, que é o modo Jônico. Escala de Dó maior (Dó Ré Mi Fá Sol Lá Si) é Jônico quando Dó é a tônica.",
+   "passos": [],
+   "timestamp": "03:32",
+   "nivel": "iniciante",
+   "tags": [
+    "jônico",
+    "escala maior"
+   ],
+   "id_global": "Ivr_-S7ku8E#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Os sete modos a partir das notas de Dó maior",
+   "descricao": "Usando as notas da escala de Dó maior e mudando apenas a tônica: Dó = Jônico, Ré = Dórico, Mi = Frígio, Fá = Lídio, Sol = Mixolídio, Lá = Eólio, Si = Lócrio.",
+   "passos": [],
+   "timestamp": "05:16",
+   "nivel": "iniciante",
+   "tags": [
+    "modos gregos",
+    "jônico",
+    "dórico",
+    "frígio",
+    "lídio",
+    "mixolídio",
+    "eólio",
+    "lócrio"
+   ],
+   "id_global": "Ivr_-S7ku8E#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Dórico: segunda maior e terça menor sobre a tônica Ré",
+   "descricao": "Ao referenciar Ré nas notas de Dó maior, o intervalo de terça fica menor (Fá) e o modo é Dórico: tônica, 2ª maior, 3ª menor, 4ª justa, 5ª justa, 6ª maior, 7ª menor.",
+   "passos": [],
+   "timestamp": "05:16",
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "intervalos",
+    "terça menor"
+   ],
+   "id_global": "Ivr_-S7ku8E#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Frígio: referência em Mi nas notas de Dó",
+   "descricao": "Ao tomar Mi como tônica nas notas de Dó maior, a sonoridade é Frígio, com a 2ª menor (Fá) característica.",
+   "passos": [],
+   "timestamp": "05:53",
+   "nivel": "intermediario",
+   "tags": [
+    "frígio",
+    "segunda menor"
+   ],
+   "id_global": "Ivr_-S7ku8E#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Ensinar modos como deslocamento de ponto de partida",
+   "descricao": "O ensino errado mostra os modos como o mesmo desenho de escala começando em notas diferentes (ex.: Jônico em Dó, Dórico em Ré, Frígio em Mi), sem trabalhar a sonoridade modal. Isso leva o aluno a achar que aprendeu quando só mudou o ponto de início.",
+   "passos": [],
+   "timestamp": "08:27",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "modos gregos",
+    "desenho de escala"
+   ],
+   "id_global": "Ivr_-S7ku8E#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Escala de Dó sobre base em Dó vs. base em Ré menor",
+   "descricao": "Toque a escala de Dó maior sobre uma backing track ou pad em Dó: a sonoridade é Jônico. Depois, toque a mesma escala sobre uma base em Ré menor, com Ré como centro: a sonoridade passa a ser Dórico. O que muda é o acorde de fundo, não as notas.",
+   "passos": [
+    "Coloque uma backing track ou pad em Dó e toque a escala de Dó maior fixando Dó como centro (Jônico).",
+    "Troque a base para Ré menor, mantendo as mesmas notas de Dó maior.",
+    "Repita a escala dando atenção a Ré como nota de repouso e perceba a mudança de cor (Dórico)."
+   ],
+   "timestamp": "12:09",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "dórico",
+    "jônico",
+    "nota de repouso",
+    "pad"
+   ],
+   "id_global": "Ivr_-S7ku8E#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Mesmo desenho em qualquer região do braço soa igual se a base for a mesma",
+   "descricao": "A escala de Dó maior tocada em qualquer região do braço continua sendo Jônico quando a base está em Dó. Mudar de casa não muda o modo.",
+   "passos": [],
+   "timestamp": "11:01",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "jônico",
+    "posição"
+   ],
+   "id_global": "Ivr_-S7ku8E#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Mesma escala sobre bases em Dó, Ré e Mi",
+   "descricao": "Use a escala de Dó maior sobre bases diferentes para perceber a mudança de sonoridade: com base em Mi, a escala ganha caráter Frígio; a nota de repouso define o modo.",
+   "passos": [
+    "Toque a escala de Dó maior sobre uma base em Dó e depois sobre base em Ré.",
+    "Troque a base para Mi e toque a mesma escala, focando em Mi como centro.",
+    "Compare as três sonoridades e identifique a nota de repouso de cada uma."
+   ],
+   "timestamp": "13:54",
+   "nivel": "intermediario",
+   "tags": [
+    "nota de repouso",
+    "frígio",
+    "backing track"
+   ],
+   "id_global": "Ivr_-S7ku8E#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Sonoridade modal depende da base, não do desenho",
+   "descricao": "A pergunta para classificar um modo é qual acorde ou nota de repouso está embaixo, não em que região do braço a escala está tocada.",
+   "passos": [],
+   "timestamp": "15:43",
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "nota de repouso",
+    "modos gregos"
+   ],
+   "id_global": "Ivr_-S7ku8E#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Música tonal vs. modal pelo centro de gravidade",
+   "descricao": "Numa música tonal, todos os acordes giram em torno de uma tônica; a sonoridade é definida pelo centro da música. Em música modal, o que define o modo é a nota ou acorde de repouso, independentemente das notas do campo harmônico.",
+   "passos": [],
+   "timestamp": "15:43",
+   "nivel": "intermediario",
+   "tags": [
+    "tonal",
+    "modal",
+    "centro tonal"
+   ],
+   "id_global": "Ivr_-S7ku8E#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Progressão com notas de Sol mas centro em Ré = Ré mixolídio",
+   "descricao": "A progressão Ré maior – Lá menor – Dó maior – Sol maior usa as notas do campo harmônico de Sol maior, mas como tudo gira em torno de Ré, a música está em Ré mixolídio (mesmas notas de Sol maior, com Ré como tônica).",
+   "passos": [],
+   "timestamp": "17:31",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "campo harmônico",
+    "progressão",
+    "ré mixolídio"
+   ],
+   "id_global": "Ivr_-S7ku8E#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico é o mesmo; a tônica muda o modo",
+   "descricao": "Duas músicas podem compartilhar o mesmo campo harmônico (ex.: Sol maior e Ré mixolídio), mas o modo é definido pelo centro tonal. Nomeie pelo centro, não pelo campo harmônico.",
+   "passos": [],
+   "timestamp": "18:07",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico",
+    "centro tonal",
+    "mixolídio"
+   ],
+   "id_global": "Ivr_-S7ku8E#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Analisar a progressão pelo grau de repouso",
+   "descricao": "Ao analisar uma progressão em modo, observe em qual grau a música assenta: na progressão Ré–Lá–Dó–Sol o ponto de repouso é Ré (I), então o modo é Mixolídio com centro em Ré. Use a escala que tem as notas de repouso da base.",
+   "passos": [
+    "Ouça a progressão e identifique o acorde de repouso (onde a música 'para').",
+    "Tome esse acorde como I e veja quais notas do campo harmônico estão presentes.",
+    "Nomeie o modo pela tônica e pela sonoridade, não pela escala de origem."
+   ],
+   "timestamp": "18:42",
+   "nivel": "intermediario",
+   "tags": [
+    "análise harmônica",
+    "repouso",
+    "mixolídio"
+   ],
+   "id_global": "Ivr_-S7ku8E#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Você pode tocar escala à vontade, mas referencie a tônica",
+   "descricao": "Não é preciso tocar um padrão específico para tocar modal; toque qualquer escala à vontade, mas use como referência a tônica do modo desejado e as notas de repouso que encaixam com a harmonia.",
+   "passos": [],
+   "timestamp": "19:20",
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "tônica",
+    "notas de repouso"
+   ],
+   "id_global": "Ivr_-S7ku8E#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Sonoridade depende da harmonia, não do desenho",
+   "descricao": "Resumo da tese: para tocar modal, pense na harmonia de fundo e na nota de repouso antes de escolher o desenho da escala.",
+   "passos": [],
+   "timestamp": "19:20",
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "modos gregos"
+   ],
+   "id_global": "Ivr_-S7ku8E#I17"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Comunidade Gu Pedrico (curso de harmonia com módulo de modos gregos)",
+  "Curso de técnica e curso de timbre",
+  "Minicurso Plano de 5 dias para sair das cifras (dito como 'Plano de S dias', provavelmente 5 ou 7 dias na fonte)",
+  "Minicurso de criatividade para criar arranjos",
+  "Livro 10 formas de fazer dinheiro tocando guitarra",
+  "Grupo de acompanhamento"
+ ],
+ "observacoes": "Legenda automática com muitos erros: 'modo jico/Jônico', 'doric', 'freijo' (Frígio), 'Lídio', 'mixol Lídio' (Mixolídio), 'back track/back trackz' (backing track), 'pé' (pad/base), 'Remol' e 'ré menor'. Trechos com frases truncadas, por exemplo em 'Camp' (Campo harmônico), 'que foi morto santo santo el' e 'remix solí' (provavelmente Ré mixolídio). Nomes de cursos e prazos foram parcialmente ilegíveis (o minicurso de 'S dias' sugere 5 dias). O vídeo menciona notas e acordes com grande ambiguidade na transcrição; onde a fonte não deixou claro, interpretei pela lógica harmônica. Os exemplos de sonoridade dependem de ouvir as bases. Partes de 'Dó sobre Ré', 'Mi' e o 'Lá menor' foram interpretadas pelo contexto. Há conteúdo promocional extenso.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00206,
+  "via": "api"
+ }
+}

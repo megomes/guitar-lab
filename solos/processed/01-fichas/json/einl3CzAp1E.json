@@ -1,0 +1,79 @@
+{
+ "fonte_id": "einl3CzAp1E",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Easy Groove Backing Track in A minor",
+  "autor": "Sebastien Zunino",
+  "url": "https://www.youtube.com/watch?v=einl3CzAp1E",
+  "idioma": "en",
+  "duracao": "7m 14s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/einl3CzAp1E--easy-groove-backing-track-in-a-minor.md"
+ },
+ "resumo": "Backing track de groove em Lá menor (A minor) de Sebastien Zunino, para praticar improvisação, licks, escalas e senso rítmico. O vídeo não tem fala: o transcript traz só marcações de tempo, sem conteúdo didático. A ficha é basicamente de recurso de prática, para guitarra e outros instrumentos melódicos. A fonte não explica acordes, andamento nem escalas.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 1,
+  "justificativa": "É só uma faixa instrumental sem explicações. Serve como material de prática, mas não ensina nada em si."
+ },
+ "assuntos_principais": [
+  "backing track",
+  "lá menor",
+  "groove",
+  "improvisação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Backing track groove em Lá menor",
+   "inicio": "00:00",
+   "fim": "07:14",
+   "resumo": "Faixa instrumental de groove em Lá menor para improvisar. Sem fala nem explicações no transcript.",
+   "assuntos": [
+    "backing track",
+    "lá menor",
+    "groove"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "recurso",
+   "titulo": "Backing track groove em Lá menor para improvisar",
+   "descricao": "Faixa de cerca de 7 minutos em Lá menor, com groove (estilos como blues, smooth jazz e neo soul, segundo a descrição). Serve para praticar improvisação, licks, escalas e senso rítmico, e é indicada para guitarra e outros instrumentos. A tablatura é gratuita na academia do canal, segundo a descrição. Acordes e andamento não são informados na fonte.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "lá menor",
+    "groove",
+    "improvisação"
+   ],
+   "id_global": "einl3CzAp1E#I01"
+  }
+ ],
+ "artistas_citados": [
+  "Sebastien Zunino"
+ ],
+ "musicas_citadas": [
+  "Easy Groove Backing Track in A minor"
+ ],
+ "recursos_citados": [
+  "Tablaturas gratuitas: academy.sebastienzunino.com",
+  "Backing Tracks Collection Vol. 1 (venda da faixa)",
+  "Playlist completa de backing tracks do canal",
+  "Backing tracks por gênero e tonalidade: sebastienzunino.com"
+ ],
+ "observacoes": "O transcript contém apenas marcações de tempo (00:06, 01:22, 02:33, 03:34, 04:24, 05:20, 06:25), sem texto falado. Não há como saber a progressão de acordes nem o BPM. O segmento foi marcado como didatico=false por ser só música, e a única ideia (recurso) vem da descrição do vídeo.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:20",
+  "tentativas": 1,
+  "custo_usd": 0.1972
+ }
+}

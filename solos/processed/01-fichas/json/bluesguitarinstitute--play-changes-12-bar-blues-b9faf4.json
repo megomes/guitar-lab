@@ -1,0 +1,338 @@
+{
+ "fonte_id": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "3 Ways to Play Through the Chord Changes in a 12 Bar Blues",
+  "autor": "",
+  "url": "https://www.bluesguitarinstitute.com/play-changes-12-bar-blues/",
+  "site": "www.bluesguitarinstitute.com",
+  "idioma": "en",
+  "tema_coleta": "blues",
+  "arquivo_raw": "solos/raw/documentos/bluesguitarinstitute--play-changes-12-bar-blues-b9faf4.md"
+ },
+ "resumo": "Artigo do Blues Guitar Institute com três abordagens para improvisar sobre as mudanças de acordes de um blues de 12 compassos. Começa com uma única pentatônica menor sobre todo o blues. Depois troca a pentatônica menor a cada acorde (C, F, G). Por fim troca a escala a cada acorde sem sair da posição, para frases mais fluidas e conectadas. Serve a iniciantes e intermediários que querem sair dos licks decorados e tocar ligados à harmonia.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A progressão em três etapas é clara e as ideias são práticas, com exemplos concretos em C blues (C7, F7, G7). Os exemplos musicais e diagramas não estão no texto, e há bastante promoção de produtos do site."
+ },
+ "assuntos_principais": [
+  "blues de 12 compassos",
+  "pentatônica menor",
+  "acordes dominantes",
+  "trocar escala por acorde",
+  "tocar em posição",
+  "fraseado"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: sair dos licks decorados",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Improvisar em blues parece um campo minado de notas erradas, e muita gente se refugia em licks conhecidos. O objetivo é um solo que conduza a música.",
+   "assuntos": [
+    "improvisação",
+    "licks"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Uma escala para todos os acordes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Usar a pentatônica menor do acorde I (C menor pentatônica num blues em C) sobre todo o blues. Funciona porque a b7 da escala combina com os acordes dominantes. A limitação força o fraseado e a expressividade.",
+   "assuntos": [
+    "pentatônica menor",
+    "b7",
+    "acorde dominante",
+    "bends",
+    "slides",
+    "legato"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica menor do acorde tocado",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Trocar a tonalidade da pentatônica a cada acorde (C, F, G) para evidenciar o som do acorde sem perder a sonoridade blues. Traz dicas sobre posições, poucas notas e frases deslocadas.",
+   "assuntos": [
+    "pentatônica menor",
+    "mudança de tonalidade",
+    "V-IV",
+    "Clapton"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Frases fluidas tocando na mesma posição",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Trocar a escala conforme o acorde sem mudar de região do braço, para achar notas próximas e soar conectado. Sugere praticar primeiro com C7 e F7 e depois incluir G7.",
+   "assuntos": [
+    "posição",
+    "shapes CAGED",
+    "notas próximas",
+    "condução melódica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Promoção do myBGI",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Divulgação do Fretboard Roadmap e da assinatura myBGI.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Conduzir a música em vez de despejar licks",
+   "descricao": "Despejar licks conhecidos é um refúgio seguro, mas o objetivo é um solo que conduza a música. As abordagens do artigo ajudam a soar bluesy e evitar notas erradas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "licks",
+    "improvisação"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Por que a pentatônica menor combina com acordes dominantes",
+   "descricao": "Um blues de 12 compassos tem muitos acordes dominantes de sétima, que contêm a b7. A pentatônica menor também tem a b7, e essa característica em comum faz as duas combinarem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "b7",
+    "dominante",
+    "teoria"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Solar com uma só pentatônica menor sobre todo o blues",
+   "descricao": "Use a pentatônica menor da tônica (C menor pentatônica num blues em C) durante os 12 compassos. Isso cobre a harmonia de C7 (oito dos doze compassos) com folga. Nos acordes F7 e G7 a mesma escala funciona, mas convém destacar notas diferentes dela.",
+   "passos": [
+    "Escolha um blues em C e toque a C menor pentatônica",
+    "Mantenha a escala durante os 12 compassos",
+    "Nos compassos de F7 e G7, destaque outras notas da escala",
+    "Foque em fraseado e expressividade"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "blues",
+    "12 compassos",
+    "C"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Destacar notas diferentes da escala em F7 e G7",
+   "descricao": "Ao manter a C menor pentatônica sobre F7 ou G7, ela ainda funciona, mas vale escolher notas diferentes da escala para ressaltar cada acorde. O artigo remete a uma lição de solar com apenas quatro notas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "pentatônica",
+    "acordes"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "A limitação de cinco notas treina fraseado e expressão",
+   "descricao": "Ficar com uma só escala na progressão libera a cabeça para pensar no que se toca. Também obriga a fazer cinco notas soarem bem, apoiando-se em fraseado e técnicas expressivas como bends, slides e legato.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "bend",
+    "slide",
+    "legato",
+    "limitação"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Trocar a pentatônica menor a cada acorde",
+   "descricao": "Em vez de uma tonalidade só, mude a pentatônica menor conforme o acorde: C menor pentatônica no C7, F menor pentatônica no F7 e G menor pentatônica no G7, deslocando o padrão para cima ou para baixo. Isso evidencia o som do acorde, mantém o tom sujo do blues e faz o solo soar conectado à música.",
+   "passos": [
+    "Toque a C menor pentatônica sobre o C7",
+    "Quando vier o F7, desloque o padrão para F menor pentatônica",
+    "Quando vier o G7, desloque para G menor pentatônica",
+    "Toque licks de cada escala ao longo da progressão"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "mudança de acorde",
+    "C7",
+    "F7",
+    "G7"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Aprender a pentatônica em várias posições",
+   "descricao": "Para trocar de escala ao mudar os acordes, aprenda a pentatônica menor em diferentes posições do braço.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "pentatônica",
+    "braço"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Poucas notas já indicam o acorde",
+   "descricao": "Não é preciso usar a escala inteira. Algumas notas dela bastam para apontar o som de cada acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "economia",
+    "pentatônica"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Lick curto deslocado um tom do V para o IV",
+   "descricao": "Componha um lick curto e desloque-o um tom (duas casas) para baixo ao ir do acorde V para o IV, como um par combinado. O artigo cita o solo acústico de Clapton em Before You Accuse Me como exemplo.",
+   "passos": [
+    "Componha um lick curto sobre o acorde V",
+    "Desloque-o duas casas para baixo sobre o IV"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "lick",
+    "motivo",
+    "V-IV",
+    "Clapton",
+    "transposição"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Trocar a escala sem sair da posição",
+   "descricao": "Em vez de deslocar o mesmo padrão pelo braço, o que soa abrupto e forçado, mude a escala para combinar com o acorde mantendo a mesma região da escala. Assim as notas ficam próximas umas das outras e a frase soa suave e conectada. Exige conhecer todos os shapes da pentatônica menor, por exemplo pelo sistema CAGED.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posição",
+    "CAGED",
+    "pentatônica",
+    "condução melódica"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Praticar em posição com C7 e F7 e depois G7",
+   "descricao": "Pratique as mudanças de acorde em loop, trocando a escala conforme o acorde mas sem sair da posição. Comece por dois acordes, C7 e F7, e depois inclua o G7. O artigo mostra exemplos de C, F e G em duas posições.",
+   "passos": [
+    "Escolha uma posição da pentatônica menor",
+    "Toque um loop de C7 e F7",
+    "Troque a escala a cada acorde sem sair da posição",
+    "Quando estiver confortável, inclua o G7",
+    "Repita em uma segunda posição"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posição",
+    "loop",
+    "C7",
+    "F7",
+    "G7"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "CAGED Pentatonics Map e Fretboard Roadmap",
+   "descricao": "O autor recomenda o CAGED Pentatonics Map para ver as conexões entre os shapes. Cita também o Fretboard Roadmap, dentro do myBGI, que ensina a usar conceitos fundamentais sem decorar padrões, construir acordes bluesy em qualquer lugar e mapear o braço inteiro.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "recurso",
+    "CAGED",
+    "braço"
+   ],
+   "id_global": "bluesguitarinstitute--play-changes-12-bar-blues-b9faf4#I12"
+  }
+ ],
+ "artistas_citados": [
+  "Eric Clapton"
+ ],
+ "musicas_citadas": [
+  "Before You Accuse Me"
+ ],
+ "recursos_citados": [
+  "CAGED Pentatonics Map",
+  "Fretboard Roadmap (myBGI)",
+  "Lição de solar com quatro notas (Blues Guitar Institute)"
+ ],
+ "observacoes": "Documento web sem timestamps. Os exemplos musicais e diagramas citados no texto não estão na fonte, então os licks e posições concretos não puderam ser catalogados. Parte do texto é promoção de produtos do site. A progressão mostrada é um blues em C (C7, F7, G7).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:26",
+  "tentativas": 1,
+  "custo_usd": 0.2432
+ }
+}

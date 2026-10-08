@@ -1,0 +1,390 @@
+{
+ "fonte_id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+  "autor": "Tommaso Zillio",
+  "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+  "site": "www.musictheoryforguitar.com",
+  "idioma": "en",
+  "tema_coleta": "notas-alvo",
+  "arquivo_raw": "solos/raw/documentos/musictheoryforguitar--pentatonic-chord-tone-soloing-046047.md"
+ },
+ "resumo": "Aula sobre como seguir a progressão de acordes ao solar, mostrando que tocar pentatônicas e tocar notas do acorde (chord tones) pode ser a mesma coisa. A ideia central é associar cada tríade maior ou menor à pentatônica de mesmo nome e buscar posições próximas, já que, num contexto diatônico, as pentatônicas de acordes consecutivos diferem em apenas uma nota. O conteúdo é voltado a guitarristas iniciantes a intermediários que tocam pentatônica por caixas e querem sair do movimento apenas 'por caixas' para um solo que segue a harmonia. A fonte é um documento baseado em transcrição de vídeo, com trechos ruins e mistura de conteúdo de vídeo e de divulgação de curso.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Apresenta um conceito concreto e aplicável (pentatônica de mesmo nome sobre cada tríade) com exemplos de acordes e de progressão (popcorn, E menor, C maior, G maior, D maior). Perde pontos por ser uma transcrição com muitos erros, divagações e exemplos pouco detalhados em notas e casas, além de a fonte conter pouco material escrito e depender de ouvir os exemplos."
+ },
+ "assuntos_principais": [
+  "chord tones",
+  "pentatônica sobre acordes",
+  "tríades maior e menor",
+  "seguir progressão de acordes no solo",
+  "mudança de uma nota entre pentatônicas",
+  "acordes dominantes sobre pentatônica maior",
+  "acordes fora da tonalidade e empréstimos",
+  "posições da pentatônica no braço"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e divulgação do curso",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Texto introdutório que afirma que os solos soam sem direção por não delinearem a progressão de acordes, e faz propaganda do curso Master of the Modes.",
+   "assuntos": [
+    "delinear a progressão de acordes",
+    "propaganda do curso"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Transcrição: duas abordagens aparentemente opostas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "O professor diz que há duas abordagens: pentatônica sobre o acorde (blues e rock) e notas do acorde (jazz), e afirma que, feitas corretamente, são a mesma coisa. Apresenta o caso de um aluno intermediário de rock e metal que pergunta como usar chord tones em situações de pentatônica.",
+   "assuntos": [
+    "pentatônica versus chord tones",
+    "blues e rock",
+    "jazz",
+    "contexto de aluno intermediário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Regra prática: pentatônica de mesmo nome sobre tríades",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica a ideia central: sobre cada acorde maior ou menor, toque a pentatônica de mesmo nome (Em com E menor pentatônica, F com F maior pentatônica, G com G maior pentatônica). Acordes dominantes funcionam, mas não são a melhor opção.",
+   "assuntos": [
+    "pentatônica de mesmo nome",
+    "tríades maior e menor",
+    "acordes dominantes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Progressão popcorn e troca de uma nota",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Aplica a ideia à progressão popcorn (Em, C, G, D). Mostra que a pentatônica muda apenas uma nota entre acordes na mesma tonalidade e que a transição deve ser feita buscando posições próximas; detalha a troca de B por C e de G por F#.",
+   "assuntos": [
+    "progressão popcorn",
+    "posições próximas",
+    "pentatônicas de Em, C, G e D",
+    "troca de uma nota"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Como praticar quando não é natural",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Sugere escrever as notas no papel, localizar a pentatônica no baixo, montar a posição e tocar devagar, com poucas notas. Afirma que, fora da tonalidade, a pentatônica pode mudar mais de uma nota.",
+   "assuntos": [
+    "escrever notas",
+    "tocar devagar",
+    "fora da tonalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Acordes dominantes, empréstimos e tonalidade maior",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Discute o uso da regra com acordes dominantes, empréstimos, dominantes secundárias e napolitanas. Exemplifica com E maior e troca para E menor, A maior e A menor, e diz que o músico não precisa saber o nome dos acordes para tocar bem.",
+   "assuntos": [
+    "acordes dominantes",
+    "empréstimos",
+    "dominante secundária",
+    "napolitana",
+    "tonalidade maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Encerramento e agradecimento",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Conversa final sobre a necessidade de teoria e agradecimento ao interlocutor.",
+   "assuntos": [
+    "teoria musical",
+    "agradecimento"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Chord tones e pentatônica são o mesmo princípio",
+   "descricao": "Tocar as notas do acorde (chord tones) e tocar pentatônica sobre o acorde são duas formas da mesma ideia, desde que a pentatônica seja escolhida pelo acorde certo. A pentatônica contém as notas do acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "chord tones",
+    "pentatônica",
+    "notas-alvo"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Não é preciso saber a teoria para soar bem com a regra",
+   "descricao": "Para usar a pentatônica de mesmo nome sobre um acorde não é preciso saber a análise do acorde (empréstimo, dominante secundária, napolitana). Basta seguir a pentatônica certa; saber teoria ajuda, mas o mínimo já funciona.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "teoria",
+    "empréstimo",
+    "pentatônica"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pentatônica de mesmo nome sobre cada tríade",
+   "descricao": "Sobre cada acorde maior ou menor, toque a pentatônica com a mesma tônica do acorde: sobre Em, E menor pentatônica; sobre F, F maior pentatônica; sobre G, G maior pentatônica. Acordes maiores pedem pentatônica maior e menores pedem pentatônica menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "tríades",
+    "pentatônica de mesmo nome"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Acordes dominantes funcionam com pentatônica maior, sem ser a melhor opção",
+   "descricao": "Sobre um acorde dominante, como D7, tocar a pentatônica maior de mesma tônica (D maior pentatônica) ainda soa bem, mas não é a melhor escolha. Em acordes meio-diminutos ou alterados existem outras opções.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "acordes dominantes",
+    "pentatônica maior",
+    "alterações"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Encontrar a pentatônica na mesma região do braço",
+   "descricao": "O desafio é achar a pentatônica do próximo acorde na mesma região do braço, em vez de pular para cima e para baixo. Isso exige pequena busca, mas as cinco formas pentatônicas já conhecidas em algumas tonalidades ajudam.",
+   "passos": [
+    "Identifique o acorde atual e sua pentatônica de mesmo nome.",
+    "Localize a pentatônica do próximo acorde na forma mais próxima.",
+    "Mantenha o movimento na mesma região do braço."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "pentatônica",
+    "braço"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas de acordes diatônicos diferem em uma nota",
+   "descricao": "Numa mesma tonalidade, as pentatônicas de acordes diferentes costumam mudar apenas uma nota. Ex.: E menor pentatônica (E G A B D) e C maior pentatônica (C D E G A) diferem só porque B vira C.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "diatônico",
+    "troca de nota"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Troca de uma nota entre Em e D maior pentatônica",
+   "descricao": "Entre E menor pentatônica e D maior pentatônica, a diferença é uma nota: G vira F#. Isso permite trocar de acorde com movimento mínimo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "troca de nota",
+    "D maior"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre a progressão popcorn com pentatônicas de mesmo nome",
+   "descricao": "Sobre a progressão popcorn (Em, C, G, D), improvise trocando a pentatônica a cada acorde: E menor, C maior, G maior e D maior pentatônica, mantendo a região do braço próxima. Comece tocando devagar e com poucas notas.",
+   "passos": [
+    "Toque uma frase curta na E menor pentatônica sobre Em.",
+    "Mude para a C maior pentatônica na mesma região quando o acorde mudar para C.",
+    "Repita com G maior pentatônica e D maior pentatônica.",
+    "Toque devagar, com poucas notas, priorizando as notas de transição."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "popcorn",
+    "pentatônica",
+    "progressão"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Não pular de posição ao trocar de acorde",
+   "descricao": "Ao trocar de acorde, a regra é achar a pentatônica nova nas posições vizinhas, evitando saltar entre regiões distantes do braço. Isso mantém a conexão melódica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "condução melódica"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Escrever as notas da pentatônica e montar a posição",
+   "descricao": "Quando a troca de pentatônica não sai de forma natural, escreva no papel as notas de cada pentatônica da progressão, localize-as no baixo e monte a posição no braço antes de tocar.",
+   "passos": [
+    "Escreva as notas da pentatônica do acorde atual.",
+    "Escreva as notas da pentatônica do próximo acorde.",
+    "Localize a nota de baixo da pentatônica no braço.",
+    "Monte a posição a partir dela e toque as notas."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "leitura do braço",
+    "estudo"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Tocar devagar sobre a progressão",
+   "descricao": "Improvise devagar sobre a progressão, sem tocar muitas notas, para dar tempo de trocar a pentatônica a cada acorde e ouvir se a troca soa musical.",
+   "passos": [
+    "Escolha uma progressão diatônica curta.",
+    "Toque poucas notas por acorde.",
+    "Ouça se a troca de pentatônica soa coerente antes de acelerar."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "prática lenta",
+    "improvisação"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Fora da tonalidade a troca muda mais notas",
+   "descricao": "Quando a progressão sai da tonalidade, as pentatônicas dos acordes podem diferir em mais de uma nota, então a troca fica menos suave.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "fora da tonalidade",
+    "pentatônica"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Alternar tonalidade maior com empréstimos",
+   "descricao": "Em E maior, toque frases; ao chegar em um acorde de empréstimo, troque para a pentatônica correspondente: G (E menor pentatônica = G maior pentatônica), A maior pentatônica e A menor pentatônica; depois volte para E maior.",
+   "passos": [
+    "Toque algumas frases na E maior.",
+    "Ao surgir o acorde G, toque a G maior pentatônica (ou E menor pentatônica).",
+    "Ao surgir A maior, toque A maior pentatônica.",
+    "Ao surgir A menor, toque A menor pentatônica.",
+    "Volte para E maior."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "empréstimo",
+    "tonalidade maior",
+    "alternância"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Esquecer a análise e seguir o som",
+   "descricao": "Não é preciso saber o nome do acorde (empréstimo, dominante secundária, napolitana) para tocar a pentatônica certa; a referência é o que soa bem na prática.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "análise"
+   ],
+   "id_global": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I14"
+  }
+ ],
+ "artistas_citados": [
+  "Taylor Swift",
+  "Tom Hess"
+ ],
+ "musicas_citadas": [
+  "popcorn progression (progressão popcorn)"
+ ],
+ "recursos_citados": [
+  "Master of the Modes (curso do autor)",
+  "backing tracks de Tom Hess",
+  "12-bar blues"
+ ],
+ "observacoes": "Transcrição automática com muitos erros: 'Taylor Zwift' (Taylor Swift), 'Tom Hess' (provavelmente Tom Hess, backing tracks), 'the QB minor' (provavelmente 'E menor' ou 'Em'), 'the 12 francs' (provavelmente 'the 12th fret', 12ª casa), 'leaks' (licks), 'half-diminish' (meio-diminuto), 'Neapolitan' (napolitana). Nomes de notas e acordes foram corrigidos pelo contexto, mas o vídeo não deixa claro o número exato das caixas (o professor diz não usar numeração). Passagens com 'E menor pentatônica' e 'G maior pentatônica' estão corretas pela teoria (mesmas notas). A transcrição mistura o vídeo com texto de divulgação de curso. Os timestamps não existem no documento, então inicio/fim e timestamp estão em null.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00167,
+  "via": "api"
+ }
+}

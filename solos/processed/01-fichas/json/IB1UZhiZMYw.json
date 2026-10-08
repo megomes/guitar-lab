@@ -1,0 +1,326 @@
+{
+ "fonte_id": "IB1UZhiZMYw",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+  "autor": "Rumark Video",
+  "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw",
+  "idioma": "en",
+  "duracao": "9m 15s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/IB1UZhiZMYw--barney-kessel-jazz-guitar-improvisation-lesson-1-playing-what-you-hear.md"
+ },
+ "resumo": "Primeira aula do curso de improvisação de Barney Kessel: como desenvolver a capacidade de tocar o que se ouve internamente. Kessel propõe tocar um acorde sem intelectualizar, imaginar uma melodia de 6 a 9 notas, externalizá-la cantando, cantarolando ou assobiando e só então encontrá-la no braço da guitarra, começando nas posições baixas. Voltado a guitarristas com pelo menos um ano de prática e noções básicas de teoria.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Método claro, sequencial e prático para treinar o ouvido e tocar o que se imagina, com bons conselhos de mentalidade. Faltam exemplos nomeados ou escritos, já que o conteúdo musical é só tocado e assobiado."
+ },
+ "assuntos_principais": [
+  "tocar o que se ouve",
+  "treino auditivo",
+  "melodia imaginada",
+  "cantar e assobiar",
+  "improvisação jazz",
+  "mentalidade"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e pré-requisitos",
+   "inicio": "00:00",
+   "fim": "01:08",
+   "resumo": "Apresentação do curso, pré-requisitos (um ano de prática, calos, teoria básica) e afinação em A 440.",
+   "assuntos": [
+    "introdução",
+    "pré-requisitos",
+    "afinação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Por que tocar o que você pensa",
+   "inicio": "01:08",
+   "fim": "02:56",
+   "resumo": "Sem a habilidade de tocar o que se ouve, o músico fica preso a fórmulas, licks e padrões mecânicos. São dois passos: tocar o que ouve e garantir que valha a pena ser tocado.",
+   "assuntos": [
+    "criatividade",
+    "licks e fórmulas",
+    "musicalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "A técnica: acorde, melodia imaginada e externalização",
+   "inicio": "02:56",
+   "fim": "05:11",
+   "resumo": "Tocar um acorde, saboreá-lo sem analisar, imaginar uma melodia de 6 a 9 notas, externalizá-la e achá-la na guitarra perto da pestana, depois em outras posições e tons.",
+   "assuntos": [
+    "acorde",
+    "melodia de 6 a 9 notas",
+    "cantar",
+    "posições",
+    "tons"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Demonstrações e dicas de prática",
+   "inicio": "05:11",
+   "fim": "07:57",
+   "resumo": "Kessel demonstra assobiando e tocando, fala de fechar os olhos, de não voltar aos licks e de persistir até que pensar e tocar quase coincidam.",
+   "assuntos": [
+    "demonstração",
+    "olhos fechados",
+    "persistência",
+    "velocidade de resposta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Exercício para o aluno",
+   "inicio": "07:57",
+   "fim": "09:15",
+   "resumo": "Kessel toca três acordes para o aluno ouvir uma melodia de 6 a 9 notas, externalizá-la e achá-la em posição baixa, depois em outros lugares e tons.",
+   "assuntos": [
+    "exercício",
+    "acordes",
+    "variação de posição e tom"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tocar o que você ouve, não fórmulas",
+   "descricao": "Todo grande improvisador consegue tocar o que pensa. Sem isso, o músico se reduz a fórmulas, licks, artifícios e padrões vistos no braço, o que soa mecânico, sem energia, sem sentimento espontâneo e sem criatividade.",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "intermediario",
+   "tags": [
+    "ouvido",
+    "criatividade",
+    "licks",
+    "improvisação"
+   ],
+   "id_global": "IB1UZhiZMYw#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Dois passos: tocar o que ouve e ouvir algo que valha a pena",
+   "descricao": "Há duas etapas: desenvolver a habilidade de tocar o que se ouve e garantir que o que se ouve tenha valor musical. Conseguir tocar qualquer coisa que se imagina não garante que a ideia seja boa.",
+   "passos": [],
+   "timestamp": "02:19",
+   "nivel": "intermediario",
+   "tags": [
+    "musicalidade",
+    "ouvido",
+    "qualidade"
+   ],
+   "id_global": "IB1UZhiZMYw#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Acorde, melodia imaginada, externalização e busca no braço",
+   "descricao": "Exercício central da aula: toque um acorde sem nomear notas nem o acorde, apenas saboreando o som, como quem sente o aroma de uma comida. Deixe surgir na imaginação uma frase melódica de 6 a 9 notas, externalize-a e então encontre-a na guitarra.",
+   "passos": [
+    "Toque um acorde qualquer, sem intelectualizar, sem nomear notas nem o acorde.",
+    "Ouça a tonalidade e deixe uma melodia de 6 a 9 notas surgir na mente.",
+    "Externalize a melodia cantando, cantarolando ou assobiando.",
+    "Encontre a melodia na guitarra, perto da pestana (primeira posição).",
+    "Com a prática, encontre-a em posições mais altas, na mesma tonalidade e depois em outros tons."
+   ],
+   "timestamp": "02:56",
+   "nivel": "intermediario",
+   "tags": [
+    "treino auditivo",
+    "acorde",
+    "melodia",
+    "cantar",
+    "exercício"
+   ],
+   "id_global": "IB1UZhiZMYw#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Sinta o acorde sem analisar",
+   "descricao": "Ao tocar o acorde, não pense em nomes de notas ou do acorde. Apenas absorva o som harmônico, como sentir o aroma de uma refeição sem analisá-la, e deixe a imaginação responder.",
+   "passos": [],
+   "timestamp": "02:56",
+   "nivel": "intermediario",
+   "tags": [
+    "escuta",
+    "harmonia",
+    "intuição"
+   ],
+   "id_global": "IB1UZhiZMYw#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Tamanho ideal da frase: 6 a 9 notas",
+   "descricao": "Com menos de 6 notas o exercício não é desafiador. Com mais de 9, é fácil se perder se não achar a frase de imediato, pois fica difícil lembrar uma linha longa.",
+   "passos": [],
+   "timestamp": "03:30",
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "memória",
+    "treino auditivo"
+   ],
+   "id_global": "IB1UZhiZMYw#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "A linha imaginada deve ser melodia, não escala ou arpejo",
+   "descricao": "A frase deve ser uma melodia real, com subida e descida, que dê para cantar e à qual se poderia pôr letra, e não uma escala, um arpejo ou um exercício.",
+   "passos": [],
+   "timestamp": "03:30",
+   "nivel": "intermediario",
+   "tags": [
+    "melodia",
+    "fraseado",
+    "musicalidade"
+   ],
+   "id_global": "IB1UZhiZMYw#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Externalize a ideia cantando, cantarolando ou assobiando",
+   "descricao": "Depois de ouvir a melodia na mente, externalize-a por canto, cantarolado ou assobio, conforme sua facilidade. Assim a ideia é enunciada duas vezes, dentro e fora de você, antes de ser procurada na guitarra.",
+   "passos": [],
+   "timestamp": "04:04",
+   "nivel": "iniciante",
+   "tags": [
+    "cantar",
+    "assobiar",
+    "internalizar"
+   ],
+   "id_global": "IB1UZhiZMYw#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Comece nas posições baixas e expanda posições e tons",
+   "descricao": "Procure a melodia primeiro perto da pestana, na primeira posição. Com familiaridade, procure a mesma melodia em posições mais altas na mesma tonalidade e depois em outros tons, tocando-a no maior número possível de lugares do braço.",
+   "passos": [
+    "Ache a melodia na primeira posição.",
+    "Repita-a em posições mais altas, na mesma tonalidade.",
+    "Transponha-a para outros tons.",
+    "Procure o maior número possível de posições para a mesma melodia."
+   ],
+   "timestamp": "04:38",
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "transposição",
+    "braço da guitarra"
+   ],
+   "id_global": "IB1UZhiZMYw#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Feche os olhos para ouvir melhor",
+   "descricao": "Fechar os olhos ajuda a ouvir melhor os próprios pensamentos e a música. Kessel faz isso enquanto procura a melodia na guitarra.",
+   "passos": [],
+   "timestamp": "06:30",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta",
+    "concentração"
+   ],
+   "id_global": "IB1UZhiZMYw#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Voltar aos licks e padrões quando não acha a nota",
+   "descricao": "Se não achar todas as notas de imediato, não desanime nem volte a tocar licks, fórmulas e padrões visuais do braço. Isso anula o objetivo de tocar o que se ouve.",
+   "passos": [],
+   "timestamp": "06:30",
+   "nivel": "intermediario",
+   "tags": [
+    "licks",
+    "persistência",
+    "erro comum"
+   ],
+   "id_global": "IB1UZhiZMYw#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Para criar, continue criando e aceite os erros",
+   "descricao": "A única forma de ficar bom em inventar é inventar sempre, sem desanimar. Se errar, refaça. A cada tentativa você chega mais perto, até que pensar e tocar pareçam quase simultâneos, o primeiro passo essencial para ser improvisador de jazz.",
+   "passos": [],
+   "timestamp": "07:03",
+   "nivel": "intermediario",
+   "tags": [
+    "persistência",
+    "erros",
+    "improvisação",
+    "mentalidade"
+   ],
+   "id_global": "IB1UZhiZMYw#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Prática com três acordes",
+   "descricao": "Kessel toca três acordes em sequência para o aluno praticar: ouvir mentalmente uma melodia de 6 a 9 notas sobre cada um, externalizá-la e achá-la na guitarra em posição baixa, depois buscar outras posições e tons.",
+   "passos": [
+    "Ouça o acorde e imagine uma melodia de 6 a 9 notas.",
+    "Cante, cantarole ou assobie a melodia.",
+    "Encontre-a na guitarra em posição baixa.",
+    "Repita em outras posições do braço e em outros tons."
+   ],
+   "timestamp": "07:57",
+   "nivel": "intermediario",
+   "tags": [
+    "treino auditivo",
+    "exercício",
+    "acordes"
+   ],
+   "id_global": "IB1UZhiZMYw#I12"
+  }
+ ],
+ "artistas_citados": [
+  "Barney Kessel"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso de improvisação em jazz guitar de Barney Kessel (Rumark Video, 1985)",
+  "Nota A 440 para afinação, tocada no vídeo"
+ ],
+ "observacoes": "Transcrição razoável, com poucos erros (\"mind\" por \"tune\", \"court\" por \"chord\", \"Quizzle\" provavelmente um trecho ininteligível). Trechos de demonstração (assobio e guitarra) não têm legenda, então as melodias e acordes tocados não são identificáveis. O último \"you\" é ruído. Não há tablatura nem notas citadas.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:22",
+  "tentativas": 1,
+  "custo_usd": 0.251
+ }
+}

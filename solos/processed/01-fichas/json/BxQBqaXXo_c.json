@@ -1,0 +1,290 @@
+{
+ "fonte_id": "BxQBqaXXo_c",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "5 GREAT Improvisation Tips that DO NOT make YOU as just OKAY GUITARIST ANYMORE!!",
+  "autor": "TomoFujitaMusic",
+  "url": "https://www.youtube.com/watch?v=BxQBqaXXo_c",
+  "idioma": "en",
+  "duracao": "11m 17s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/BxQBqaXXo_c--5-great-improvisation-tips-that-do-not-make-you-as-just-okay-guitarist.md"
+ },
+ "resumo": "Vídeo curto e informal de Tomo Fujita sobre improvisação em Si menor sobre uma progressão simples (i – bVII – iv – V). Ele defende não decidir rápido demais o resultado e não ficar preso ao shape da pentatônica menor: tocar o som da pentatônica em uma oitava, de forma mais suave. Recomenda estudar tríades nas cordas agudas até tocá-las sem hesitar e pensar em cada acorde por suas notas (fundamental, terça, quinta) em vez de escalas. Termina com um lick sobre o acorde dominante resolvendo para Si menor. A transcrição é muito ruim e fragmentada, então parte do conteúdo é inferida.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Conceitos úteis (pensar em tríades/notas, não ficar preso ao shape), mas pouco detalhados, sem exemplos concretos no texto e com transcrição muito confusa; depende de ver o vídeo."
+ },
+ "assuntos_principais": [
+  "improvisação sobre Si menor",
+  "pentatônica menor",
+  "tríades",
+  "pensar em notas de acorde",
+  "progressão i-bVII-iv-V",
+  "lick sobre dominante",
+  "mentalidade na performance"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e contexto da aula",
+   "inicio": "00:00",
+   "fim": "01:26",
+   "resumo": "Saudação, contexto do vídeo feito para alunos e inspiração do canal.",
+   "assuntos": [
+    "introdução"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Progressão em Si menor e não decidir rápido demais",
+   "inicio": "01:26",
+   "fim": "03:32",
+   "resumo": "Apresenta a improvisação sobre Si menor (i – bVII – iv – V) e o erro de decidir cedo demais o resultado, ficando preso ao shape da pentatônica e tenso.",
+   "assuntos": [
+    "pentatônica menor",
+    "shape",
+    "tensão",
+    "progressão i-bVII-iv-V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Tocar o som, em uma oitava e mais suave",
+   "inicio": "03:32",
+   "fim": "04:07",
+   "resumo": "Não é preciso tocar o shape inteiro nem forte: use uma oitava, com dinâmica mais suave, adicionando tempero.",
+   "assuntos": [
+    "pentatônica",
+    "dinâmica",
+    "simplicidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Estudar tríades nas cordas agudas",
+   "inicio": "04:07",
+   "fim": "06:57",
+   "resumo": "Estudar tríades (ex.: Si menor nas três cordas agudas) até tocá-las sem hesitar, depois fazer o mesmo para os outros acordes.",
+   "assuntos": [
+    "tríades",
+    "cordas agudas",
+    "estudo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Pensar em notas, não em escalas",
+   "inicio": "06:57",
+   "fim": "08:11",
+   "resumo": "Ao estudar, pense em cada acorde por suas notas (fundamental, terça, quinta), identificando por exemplo a terça menor de Mi menor.",
+   "assuntos": [
+    "notas de acorde",
+    "terça",
+    "mentalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Na performance, pense na música; lick final",
+   "inicio": "08:11",
+   "fim": "09:24",
+   "resumo": "Estudar com análise, mas na performance focar na música. Mostra um lick sobre o dominante resolvendo para Si menor e sugere postar a tarefa.",
+   "assuntos": [
+    "performance",
+    "lick",
+    "dominante"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Despedida e divulgação",
+   "inicio": "09:24",
+   "fim": "11:17",
+   "resumo": "Agradecimentos e convite ao curso Guitar Wisdom.",
+   "assuntos": [
+    "divulgação"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Decidir o resultado rápido demais",
+   "descricao": "O erro mais comum é decidir cedo demais o que vai tocar. Ao pensar 'Si menor pentatônica' e se prender ao shape, o improvisador fica tenso e travado, como se estivesse brigando com o instrumento por pensar demais.",
+   "passos": [],
+   "timestamp": "02:00",
+   "nivel": "intermediario",
+   "tags": [
+    "tensão",
+    "pentatônica",
+    "mentalidade"
+   ],
+   "id_global": "BxQBqaXXo_c#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Progressão simples i – bVII – iv – V em Si menor",
+   "descricao": "A base do vídeo é uma progressão em Si menor: Bm (i), A (bVII, um tom abaixo), Em (iv) e F#7 (V dominante). Funcionalmente é tudo derivado da tônica menor, e o V volta para o i.",
+   "passos": [],
+   "timestamp": "01:26",
+   "nivel": "intermediario",
+   "tags": [
+    "progressão",
+    "Si menor",
+    "bVII",
+    "dominante"
+   ],
+   "id_global": "BxQBqaXXo_c#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Toque o som da pentatônica, não o shape",
+   "descricao": "Você não precisa tocar o shape completo da pentatônica menor: toque o som dela dentro de apenas uma oitava, em vez de percorrer toda a escala.",
+   "passos": [],
+   "timestamp": "03:00",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "uma oitava",
+    "shape"
+   ],
+   "id_global": "BxQBqaXXo_c#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Toque mais suave e com tempero",
+   "descricao": "Não é necessário palhetar tudo forte nem tocar muitas oitavas. Tocar um pouco mais suave deixa a improvisação mais musical; acrescente um pouco de tempero (nota extra, ornamento) sobre a base simples.",
+   "passos": [],
+   "timestamp": "03:32",
+   "nivel": "intermediario",
+   "tags": [
+    "dinâmica",
+    "palhetada",
+    "simplicidade"
+   ],
+   "id_global": "BxQBqaXXo_c#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Dominar tríades nas três cordas agudas",
+   "descricao": "Pergunte-se: consigo tocar a tríade de Si menor nas três cordas agudas? 'Consigo tocar' significa saber sem hesitar, porque a música passa rápido. Depois faça o mesmo com a tríade de cada acorde da progressão (A, Em, F#).",
+   "passos": [
+    "Escolha as três cordas agudas",
+    "Toque a tríade de Si menor sem hesitar",
+    "Repita para o próximo acorde (A, Em, F#)",
+    "Só considere 'sabido' o que sai sem pensar"
+   ],
+   "timestamp": "04:41",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "cordas agudas",
+    "fluência"
+   ],
+   "id_global": "BxQBqaXXo_c#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pense em notas de acorde, não em escalas",
+   "descricao": "A resposta à pergunta 'no que você pensa ao solar?': primeiro em notas (fundamental, terça, quinta de cada acorde), não em escalas. Cada tríade é uma referência de notas-alvo.",
+   "passos": [],
+   "timestamp": "06:57",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "tríades",
+    "escalas"
+   ],
+   "id_global": "BxQBqaXXo_c#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Nomear fundamental, terça e quinta de cada acorde",
+   "descricao": "Durante o estudo, identifique em voz alta ou mentalmente as notas de cada acorde, por exemplo: em Mi menor, qual é a terça menor (Sol)? Localize essas notas no braço.",
+   "passos": [
+    "Escolha um acorde da progressão",
+    "Diga fundamental, terça e quinta",
+    "Localize cada nota no braço",
+    "Repita para todos os acordes"
+   ],
+   "timestamp": "07:31",
+   "nivel": "intermediario",
+   "tags": [
+    "terça",
+    "notas de acorde",
+    "estudo"
+   ],
+   "id_global": "BxQBqaXXo_c#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Estude pensando, mas toque pensando na música",
+   "descricao": "Na prática você analisa notas e acordes; na performance, pensar demais distrai. O ideal é internalizar no estudo para, ao tocar, focar na música.",
+   "passos": [],
+   "timestamp": "08:11",
+   "nivel": "intermediario",
+   "tags": [
+    "performance",
+    "foco",
+    "mentalidade"
+   ],
+   "id_global": "BxQBqaXXo_c#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Lick sobre o dominante resolvendo em Si menor",
+   "descricao": "Tomo mostra um lick sobre o acorde dominante (F#7) que volta para Si menor, para o aluno aprender e postar. As notas exatas não aparecem na transcrição; é preciso ver o vídeo.",
+   "passos": [],
+   "timestamp": "08:11",
+   "nivel": "intermediario",
+   "tags": [
+    "lick",
+    "dominante",
+    "resolução"
+   ],
+   "id_global": "BxQBqaXXo_c#I09"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Tomo Fujita Guitar Wisdom (curso online)",
+  "Livro Guitar Wisdom (Amazon/Apple Books)",
+  "Lição detalhada sobre tríades no Guitar Wisdom"
+ ],
+ "observacoes": "Transcrição automática muito ruim e fragmentada, com lacunas grandes (ex.: 05:15–06:57, 09:24–10:58). Segmentos e timestamps são aproximados e parte do conteúdo foi inferida pelo contexto (ex.: progressão Bm–A–Em–F#7 deduzida de 'i-bVII-iv-V'; nomes de acordes e o lick não aparecem de forma clara). O lick exige ver o vídeo/tablatura.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:07",
+  "tentativas": 1,
+  "custo_usd": 0.1111
+ }
+}

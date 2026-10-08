@@ -1,0 +1,335 @@
+{
+ "fonte_id": "pt--modos_gregos-233778",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Modos gregorianos – Wikipédia, a enciclopédia livre",
+  "autor": "",
+  "url": "https://pt.wikipedia.org/wiki/Modos_gregos",
+  "site": "pt.wikipedia.org",
+  "idioma": "pt",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/pt--modos_gregos-233778.md"
+ },
+ "resumo": "O documento é um verbete da Wikipédia sobre os modos gregorianos (eclesiásticos), os oito sistemas de organização de altura usados no canto gregoriano. Explica a origem histórica do repertório e da teoria modal, a divisão em modos autênticos e plagais, e a hierarquia de tons (finalis, cofinalis, mediante e participante). Não é um material voltado a solo ou improvisação na guitarra, mas o conteúdo teórico sobre modos pode servir de referência para quem estuda escalas modais com outra perspectiva.",
+ "nivel": "avancado",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Texto informativo e historicamente denso, sem exemplos práticos, exercícios ou aplicação instrumental. Parte dos conceitos é aproveitável como base teórica, mas exige conhecimento prévio de solfejo medieval e não traz exemplos concretos em notas ou casas da guitarra."
+ },
+ "assuntos_principais": [
+  "modos gregorianos",
+  "modos eclesiásticos",
+  "canto gregoriano",
+  "modo autêntico",
+  "modo plagal",
+  "finalis",
+  "cofinalis (tenor)",
+  "mediante",
+  "participante",
+  "oktōēchos bizantino",
+  "história do cantochão"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e definição",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define modo gregoriano como um dos oito sistemas de organização de altura do canto gregoriano, também chamado modo eclesiástico.",
+   "assuntos": [
+    "definição de modo gregoriano",
+    "modo eclesiástico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "História dos modos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Relata a associação do nome de Gregório I ao canto que se difundiu na Europa medieval, a reformulação carolíngia, a origem da teoria modal posterior e a influência do oktōēchos bizantino.",
+   "assuntos": [
+    "Papa Gregório I",
+    "período carolíngio",
+    "cantochão",
+    "oktōēchos bizantino"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Modos autênticos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que os modos autênticos são os ímpares 1, 3, 5 e 7, com finalis como tônica, possível subfinal, e a posição do tenor (uma quinta acima, exceto no frígio, onde é uma sexta acima). Também trata da numeração bizantina dos ecos.",
+   "assuntos": [
+    "modo autêntico",
+    "finalis",
+    "subfinal",
+    "tenor",
+    "modo frígio",
+    "modo lídio",
+    "Glareanus",
+    "Dodecachordon",
+    "ecos bizantinos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Modos plagais",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define os modos plagais como os pares 2, 4, 6 e 8, com extensão da quarta abaixo da finalis à quinta acima, prefixo 'hipo-' e regras de posição do tenor, além da relação com o octoeco bizantino.",
+   "assuntos": [
+    "modo plagal",
+    "hipodórico",
+    "hipofrígio",
+    "hipolídio",
+    "hipomixolídio",
+    "extensão modal",
+    "tenor",
+    "octoeco bizantino"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Hierarquia dos tons",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve as notas de referência de uma melodia modal: finalis, cofinalis, mediante e participante, com suas posições nos modos autênticos e plagais.",
+   "assuntos": [
+    "finalis",
+    "cofinalis",
+    "mediante",
+    "participante",
+    "hierarquia tonal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Ver também, referências e fontes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Seção de navegação, lista de referências bibliográficas e fontes consultadas (New Grove Dictionary, Vinden, Berry, entre outras).",
+   "assuntos": [
+    "referências bibliográficas",
+    "New Grove Dictionary"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Definição de modo gregoriano",
+   "descricao": "Um modo gregoriano (ou modo eclesiástico) é um dos oito sistemas de organização de altura usados no canto gregoriano, ou seja, um conjunto de regras sobre quais alturas são usadas e como se organizam melodicamente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "modos gregorianos",
+    "modo eclesiástico",
+    "canto gregoriano"
+   ],
+   "id_global": "pt--modos_gregos-233778#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Origem da teoria modal",
+   "descricao": "A estrutura teórica dos oito modos surgiu depois da prática do canto, para descrever a organização tonal do repertório; no final do século VIII passou a ser associada ao canto gregoriano e provavelmente se originou do oktōēchos bizantino primitivo. Não é necessariamente aplicável a outros cantos europeus.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "história modal",
+    "oktōēchos",
+    "teoria modal"
+   ],
+   "id_global": "pt--modos_gregos-233778#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Modos autênticos são os ímpares",
+   "descricao": "No sistema dos oito modos, os autênticos são os modos 1, 3, 5 e 7; a finalis é o tônico, e os modos 1, 3 e 7 podem descer um grau abaixo da finalis (subfinal). O modo 5 (lídio) não usa subfinal e mantém o fá como limite inferior.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "modo autêntico",
+    "finalis",
+    "subfinal",
+    "lídio"
+   ],
+   "id_global": "pt--modos_gregos-233778#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Correspondência com escalas modernas",
+   "descricao": "Os quatro modos autênticos correspondem às escalas modernas começando em ré (dórico), mi (frígio), fá (lídio) e sol (mixolídio).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "frígio",
+    "lídio",
+    "mixolídio",
+    "escalas modais"
+   ],
+   "id_global": "pt--modos_gregos-233778#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Tenor do modo autêntico",
+   "descricao": "O tenor (dominante, tom de recitação) fica normalmente uma quinta acima da finalis; no modo 3 (frígio) fica uma sexta acima, pois a quinta cairia no si, grau instável que pode ser rebaixado para si♭.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tenor",
+    "quinta",
+    "frígio",
+    "si instável"
+   ],
+   "id_global": "pt--modos_gregos-233778#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Modos eólio e jônio",
+   "descricao": "A distinção entre modos autênticos e plagais foi estendida ao eólio e ao jônio quando Glareanus os acrescentou aos oito modos originais, em 1547, na obra Dodecachordon.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "eólio",
+    "jônio",
+    "Glareanus"
+   ],
+   "id_global": "pt--modos_gregos-233778#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Modos plagais são os pares",
+   "descricao": "Os modos plagais são os modos 2, 4, 6 e 8, com nomes formados pelo prefixo 'hipo-' e o nome do autêntico correspondente: hipodórico, hipofrígio, hipolídio e hipomixolídio. Sua extensão vai da quarta abaixo da finalis até a quinta acima (ou sexta acima em escritores posteriores).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "modo plagal",
+    "hipodórico",
+    "hipofrígio",
+    "hipolídio",
+    "hipomixolídio",
+    "extensão"
+   ],
+   "id_global": "pt--modos_gregos-233778#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Tenor dos modos plagais",
+   "descricao": "Nos modos plagais o tenor fica uma terça abaixo do tenor do autêntico correspondente, exceto no hipomixolídio (modo 8), onde é elevado para a quarta acima da finalis para evitar o si instável.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tenor",
+    "plagal",
+    "hipomixolídio"
+   ],
+   "id_global": "pt--modos_gregos-233778#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Finalis e cofinalis",
+   "descricao": "A finalis é a nota onde a melodia geralmente termina, análoga ao tônico; a cofinalis (tenor, dominante) é um ponto secundário de repouso, que nem sempre está a uma quinta da finalis.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "finalis",
+    "cofinalis",
+    "tônica",
+    "dominante modal"
+   ],
+   "id_global": "pt--modos_gregos-233778#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Mediante e participante",
+   "descricao": "Nos modos autênticos a mediante é o terceiro grau da escala, exceto quando essa nota seria si, caso em que é substituída por dó. A participante é uma nota auxiliar, geralmente adjacente à mediante, e nos plagais coincide com a cofinalis do autêntico correspondente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "mediante",
+    "participante",
+    "terceiro grau",
+    "notas de referência"
+   ],
+   "id_global": "pt--modos_gregos-233778#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Não confundir finalis com tônica moderna",
+   "descricao": "A finalis é apenas aproximadamente análoga ao tônico da tradição clássica ocidental; não são idênticas, e a cofinalis nem sempre é uma quinta acima da finalis. Aplicar a lógica tonal maior/menor direto aos modos leva a erros de interpretação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tonalidade",
+    "finalis",
+    "erro conceitual"
+   ],
+   "id_global": "pt--modos_gregos-233778#I11"
+  }
+ ],
+ "artistas_citados": [
+  "Papa Gregório I",
+  "Hucbaldo",
+  "Glareanus"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "New Grove Dictionary of Music and Musicians (2001)",
+  "Vinden, David. The Modes: An Introduction through Relative Solfa (2008)",
+  "Berry, Wallace. Structural Functions in Music (1987)",
+  "Rockstro, William Smyth. A Dictionary of Music and Musicians (1880)",
+  "Knighton, Tess e Fallows, David. Companion to Medieval and Renaissance Music (1998)",
+  "Hucbaldo, De harmonica (c. 880)",
+  "Dodecachordon de Glareanus (1547)",
+  "Stanley J. Takis - Byzantine Octoechos Chart"
+ ],
+ "observacoes": "Documento da Wikipédia em português com marcas de edição residuais ('editar | editar código', '<sup>' de notas, '[falta página]', '[Falta ISBN]'), que foram ignoradas. A seção 'Ver também' está vazia. O texto menciona notas em solfejo (ré, mi, fá, sol, si, dó) sem relação direta com a afinação da guitarra; não há exemplos de tablatura. Há um trecho com erro de redação ('o quarto modo plagal — respectivamente com o quarto modo') que foi interpretado como 'relação semelhante com o quarto modo'. Não há timestamps, pois é documento. Conteúdo com baixa aplicabilidade direta a solo e improvisação na guitarra.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 2,
+  "custo_usd": 0.00141,
+  "via": "api"
+ }
+}

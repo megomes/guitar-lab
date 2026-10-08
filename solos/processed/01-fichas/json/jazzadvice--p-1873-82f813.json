@@ -1,0 +1,395 @@
+{
+ "fonte_id": "jazzadvice--p-1873-82f813",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Transcribing Solos Is NOT What You Think It Is • Jazzadvice",
+  "autor": "Eric",
+  "url": "https://www.jazzadvice.com/?p=1873",
+  "site": "www.jazzadvice.com",
+  "idioma": "en",
+  "tema_coleta": "ouvido",
+  "arquivo_raw": "solos/raw/documentos/jazzadvice--p-1873-82f813.md"
+ },
+ "resumo": "O artigo da Jazzadvice argumenta que transcrever solos não deve se limitar a escrever notas no papel: o valor está no processo de aprender de ouvido, cantando e tocando a linha repetidamente. Defende que o jazz é uma língua oral e que a aprendizagem deve passar por ouvir, imitar, internalizar e só depois inovar. Traz também uma proposta prática para criar vocabulário próprio a partir de frases de solos (cantar, tocar, transpor para as doze tonalidades e alterar notas ou ritmo). Destina-se a improvisadores de jazz que já usam ou pensam em usar transcrição como método de estudo.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Traz uma reflexão conceitual útil e uma sequência prática de criação de vocabulário, mas tem pouca especificidade técnica: não cita notas, intervalos, casas, BPM ou exemplos concretos além de menções pontuais como ii-V em F# e a notação 9 para ♭9."
+ },
+ "assuntos_principais": [
+  "transcrição de solos",
+  "aprendizagem de ouvido",
+  "linguagem do jazz",
+  "vocabulário próprio",
+  "transposição",
+  "improvisação",
+  "ii-V",
+  "rhythm changes"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de transcrever e o que o termo realmente significa",
+   "inicio": null,
+   "fim": null,
+   "resumo": "O autor parte da definição de dicionário de 'transcribe' e relata sua experiência inicial, quando associava transcrição a escrever o solo no papel. Aponta a confusão entre professores e músicos sobre o significado do termo.",
+   "assuntos": [
+    "definição de transcrição",
+    "percepção inicial do termo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Perguntar o objetivo antes de transcrever",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista objetivos comuns para transcrever (roubar uma linha, ii-V em F#, seção A de rhythm changes, lick outside, atalho para melhorar) e afirma que copiar uma linha isolada não gera melhora automática.",
+   "assuntos": [
+    "objetivo da transcrição",
+    "ii-V",
+    "rhythm changes",
+    "outside",
+    "erro comum"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Como transcrever: processo por ouvido",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Defende que o benefício está no processo de aprender de ouvido, cantando e tocando repetidamente antes de escrever. Relaciona isso ao treino auditivo, à identificação de acordes, progressões e intervalos.",
+   "assuntos": [
+    "aprendizagem de ouvido",
+    "treino auditivo",
+    "cantar a linha",
+    "memorização"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Aprender jazz como uma língua",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Compara a aprendizagem do jazz com a aquisição de uma língua falada: ouvir, repetir e só depois ler. Conclui que a informação está no som.",
+   "assuntos": [
+    "analogia com língua",
+    "aprendizagem oral",
+    "imitação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Criar vocabulário próprio a partir de frases",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve o risco de a linha escrita engessar o músico e propõe um método em cinco passos para internalizar uma frase, transpô-la para as doze tonalidades e criar variações alterando uma nota ou o ritmo.",
+   "assuntos": [
+    "vocabulário próprio",
+    "transposição para 12 tonalidades",
+    "variação de nota e ritmo",
+    "9 para ♭9"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Redefinir transcrição: ouvido versus papel",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Argumenta que grandes músicos aprendem de ouvido mesmo sem escrever, que o jazz é tradição oral e que a análise escrita só arranha a superfície. Encerra dizendo que o importante é a parte auditiva, independentemente do nome dado.",
+   "assuntos": [
+    "tradição oral",
+    "análise escrita versus auditiva",
+    "semântica"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Escrever um solo não gera melhora automática",
+   "descricao": "Anotar um solo nota a nota ou aprender um lick em uma só tonalidade não torna o músico automaticamente melhor. Ganha-se pouco se não houver um plano para usar o material.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "transcrição",
+    "erro comum",
+    "objetivo"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Definir o objetivo antes de transcrever",
+   "descricao": "Antes de transcrever um solo, perguntar por que aquele solo está sendo estudado e o que se pretende obter dele, como roubar uma linha, aprender um ii-V em F#, tocar sobre a seção A de rhythm changes, buscar um lick outside ou acelerar a evolução como improvisador.",
+   "passos": [
+    "Escolher o solo a ser estudado",
+    "Definir por escrito o objetivo (ex.: ii-V em F#, lick outside, seção A de rhythm changes)",
+    "Planejar como o material será usado no próprio improviso"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "objetivo",
+    "planejamento",
+    "rhythm changes",
+    "ii-V"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Aprender a linha por ouvido antes de escrever",
+   "descricao": "O aspecto da transcrição que mais melhora o músico é o processo de descobrir o solo de ouvido: ouvir intervalos, acordes e articulação e internalizá-los, em vez de ir direto ao papel.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "aprendizagem de ouvido",
+    "transcrição",
+    "articulação"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Cantar e tocar a linha repetidamente",
+   "descricao": "Para aprender uma linha de solo, cantá-la e tocá-la no instrumento várias vezes, sem recorrer ao papel. Isso leva à memorização e ao desenvolvimento do ouvido para tons de acordes, progressões e intervalos.",
+   "passos": [
+    "Ouvir a frase no disco",
+    "Cantar a frase",
+    "Tocar a frase no instrumento",
+    "Repetir até memorizar"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "cantar a linha",
+    "memorização",
+    "treino auditivo"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escrever é análise superficial",
+   "descricao": "Ver a linha escrita mostra o que os mestres tocam sobre os acordes, mas é uma compreensão superficial; a pergunta decisiva é se o músico consegue tocar aquilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "análise",
+    "transcrição",
+    "leitura"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Transcrição deve desenvolver o ouvido",
+   "descricao": "Educadores deveriam apresentar a transcrição como forma de desenvolver o ouvido, perceber progressões, aprender articulação e memorizar standards, e não apenas como exercício de produção de partitura.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "treino auditivo",
+    "ensino"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Jazz como segunda língua",
+   "descricao": "O jazz funciona como uma segunda língua. Assim como se aprende a falar antes de ler, o improvisador deve ouvir, imitar e internalizar a linguagem antes de estudá-la em partitura.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "linguagem",
+    "aprendizagem oral",
+    "imitação"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir, imitar, internalizar, inovar",
+   "descricao": "A sequência para aprender jazz é ouvir a linguagem, imitá-la, internalizá-la e só então inová-la. Esse é o principal motivo para transcrever, além do treino de ouvido.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "sequência de estudo",
+    "linguagem",
+    "improvisação"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Linha escrita engessa o improviso",
+   "descricao": "Ao escrever um solo antes de memorizá-lo, a linha tende a parecer fixa e o músico passa a evitar desvios. Aprender com ouvido e instrumento, e não com os olhos, abre espaço para variação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vocabulário",
+    "criatividade",
+    "erro comum"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Método em cinco passos para internalizar uma frase",
+   "descricao": "Escolher uma frase de um solo que chame atenção, cantar cada nota exatamente como soa, tocá-la no instrumento copiando articulações e inflexões, transpô-la para as doze tonalidades repetindo cada uma até ficar confortável e criar novas linhas.",
+   "passos": [
+    "Escolher uma frase de um solo que desperte interesse",
+    "Cantar cada nota exatamente como soa",
+    "Tocar a frase copiando cada articulação e inflexão",
+    "Transpor a frase para as doze tonalidades, repetindo cada uma até ficar fácil",
+    "Criar novas linhas alterando uma nota (ex.: 9 para ♭9) ou o ritmo"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vocabulário",
+    "transposição",
+    "criação de linhas",
+    "articulação"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Variar uma frase trocando uma nota",
+   "descricao": "Depois de internalizar uma frase, criar variações trocando uma de suas notas, como trocar a 9 por uma ♭9, para gerar material novo.",
+   "passos": [
+    "Internalizar a frase",
+    "Identificar uma nota trocável",
+    "Trocar a nota (ex.: 9 por ♭9)",
+    "Tocar a versão variada sobre o mesmo acorde"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "variação",
+    "9",
+    "♭9",
+    "vocabulário"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Variar uma frase alterando o ritmo",
+   "descricao": "Criar variação de uma frase aprendida mudando apenas seu ritmo, mantendo as notas.",
+   "passos": [
+    "Internalizar a frase",
+    "Manter as notas",
+    "Alterar a divisão rítmica",
+    "Tocar a versão nova"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "variação",
+    "ritmo",
+    "vocabulário"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Transcrição é processo auditivo, não só escrita",
+   "descricao": "Grandes músicos costumam aprender de ouvido, mesmo quando não escrevem os solos. Portanto, transcrição deve ser entendida como aprendizado auditivo, independentemente de haver partitura.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "transcrição",
+    "aprendizagem de ouvido",
+    "mentalidade"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Jazz como tradição oral",
+   "descricao": "O jazz é uma linguagem viva e uma das poucas tradições orais que restam; quando existe só na escrita, perde a capacidade de evoluir e o sentido visceral.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tradição oral",
+    "linguagem",
+    "cultura"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Estudar a música de forma aural e musical",
+   "descricao": "A análise acadêmica feita apenas no papel arranha a superfície do jazz. O mais importante é absorver a música pelo ouvido e se comunicar com ela musicalmente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "análise",
+    "aprendizagem de ouvido",
+    "mentalidade"
+   ],
+   "id_global": "jazzadvice--p-1873-82f813#I15"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Merriam-Webster (dicionário)"
+ ],
+ "observacoes": "Documento de texto sem timestamps; segmentos e ideias ficam com inicio/fim/timestamp nulos. O texto é conceitual e não traz exemplos musicais em notação, notas específicas ou tablaturas. Há erros de digitação na fonte (ex.: 'it's' usado como 'its' e 'from it's structure'); foram corrigidos na ficha. A menção a 'ii-V em F#' e a 'seção A de Bb rhythm changes' aparece como exemplo de objetivo, sem desenvolvimento harmônico.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00153,
+  "via": "api"
+ }
+}

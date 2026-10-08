@@ -1,0 +1,268 @@
+{
+ "fonte_id": "qLEyhW3f08k",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+  "autor": "Rick Beato",
+  "url": "https://www.youtube.com/watch?v=qLEyhW3f08k",
+  "idioma": "en",
+  "duracao": "11m 52s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/qLEyhW3f08k--the-dorian-mode-why-everyone-loves-this-mode.md"
+ },
+ "resumo": "Rick Beato apresenta o modo dórico como o mais \"brilhante\" dos modos menores, caracterizado pela 6ª maior (natural). Explica como obter o som do modo enfatizando os semitons (2–b3 e 6–b7), dá exemplos em pop/rock (Eleanor Rigby, Sting), jazz (So What, Impressions, Recorda Me) e trilha de cinema (Roque Baños), e comenta o valor das extensões 9, 11 e 13 como \"notas bonitas\". Voltado a estudantes de nível intermediário que já conhecem modos e graus da escala.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitos úteis e bons exemplos de repertório, mas muito dependente de ouvir o piano; não há exercícios estruturados nem passo a passo."
+ },
+ "assuntos_principais": [
+  "modo dórico",
+  "6ª maior",
+  "modos menores",
+  "dórico vs eólio",
+  "extensões 9 11 13",
+  "jazz modal",
+  "aplicação em repertório"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e definição do modo dórico",
+   "inicio": "00:03",
+   "fim": "02:00",
+   "resumo": "Dórico como modo menor mais brilhante, 2º modo da escala maior, exemplo em C# dórico (B maior) e dica de enfatizar os semitons para caracterizar o modo.",
+   "assuntos": [
+    "dórico",
+    "construção",
+    "semitons característicos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Dórico em acordes e extensões",
+   "inicio": "02:00",
+   "fim": "02:36",
+   "resumo": "Explica o final do improviso: passagem por tríade de Mi sobre C# menor, mostrando b7, b3, 11 e 13 (6ª dórica).",
+   "assuntos": [
+    "tríades sobre",
+    "extensões",
+    "dórico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exemplos em pop/rock",
+   "inicio": "02:36",
+   "fim": "04:25",
+   "resumo": "Eleanor Rigby (Beatles) alterna 6ª maior e b6 (dórico/eólio); Consider Me Gone (Sting) usa a 6ª maior numa melodia intervalar.",
+   "assuntos": [
+    "Eleanor Rigby",
+    "Sting",
+    "dórico vs eólio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Notas de cor e exemplos no jazz",
+   "inicio": "04:25",
+   "fim": "06:10",
+   "resumo": "Notas de cor (9, 11, 13) e a frase de Charlie Parker; So What e Impressions como dórico em forma AABA (Ré dórico / Mib dórico).",
+   "assuntos": [
+    "extensões",
+    "So What",
+    "Impressions",
+    "jazz modal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Mais exemplos e trilha de cinema",
+   "inicio": "06:10",
+   "fim": "07:50",
+   "resumo": "Recorda Me (Joe Henderson) e uma trilha de Roque Baños em Dó dórico, Mib lídio, Dó menor e Láb lídio.",
+   "assuntos": [
+    "Joe Henderson",
+    "trilha sonora",
+    "progressão dórica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Composição original e encerramento",
+   "inicio": "07:50",
+   "fim": "11:52",
+   "resumo": "Peça composta em dórico (só música) e despedida com divulgação do livro e do curso de treinamento auditivo.",
+   "assuntos": [
+    "divulgação"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Dórico: modo menor com 6ª maior",
+   "descricao": "O dórico é o 2º modo da escala maior e é o mais brilhante dos modos menores, caracterizado pela 6ª maior (natural). Exemplo: C# dórico vem de B maior: C# D# E F# G# A# B C#, onde A# é a 6ª elevada.",
+   "passos": [],
+   "timestamp": "00:42",
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "6ª maior",
+    "modos"
+   ],
+   "id_global": "qLEyhW3f08k#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Enfatize os semitons para soar o modo",
+   "descricao": "Para realmente evocar o som de um modo, procure os semitons. No dórico há semitom entre 2–b3 e entre 6–b7. Crie frases que contenham essas notas.",
+   "passos": [],
+   "timestamp": "01:17",
+   "nivel": "intermediario",
+   "tags": [
+    "semitons",
+    "notas-alvo",
+    "dórico"
+   ],
+   "id_global": "qLEyhW3f08k#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tríade sobre menor para colorir com extensões",
+   "descricao": "Sobre C# menor, uma tríade de Mi com Fá# (E/F#-tipo sonoridade) dá b7, b3, 11 e a 6ª/13 dórica. Mostra como tríades de outros graus revelam extensões do acorde menor.",
+   "passos": [],
+   "timestamp": "01:59",
+   "nivel": "avancado",
+   "tags": [
+    "tríades",
+    "extensões",
+    "dórico"
+   ],
+   "id_global": "qLEyhW3f08k#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Eleanor Rigby alterna dórico e eólio",
+   "descricao": "A melodia de Eleanor Rigby (Beatles) usa a 6ª maior e a b6, alternando entre dórico e eólio; a b6 resolve para a 5ª.",
+   "passos": [],
+   "timestamp": "02:36",
+   "nivel": "intermediario",
+   "tags": [
+    "Eleanor Rigby",
+    "dórico",
+    "eólio",
+    "6ª"
+   ],
+   "id_global": "qLEyhW3f08k#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Consider Me Gone (Sting): melodia intervalar dórica",
+   "descricao": "Em Consider Me Gone (Sting, 1985), a melodia usa a 6ª maior e saltos: 5ª, 4ª, b3, 5ª, desce para a 9ª, 4ª, 3ª e chega à 6ª. Exemplo de melodia intervalar com sabor dórico.",
+   "passos": [],
+   "timestamp": "03:46",
+   "nivel": "intermediario",
+   "tags": [
+    "Sting",
+    "melodia",
+    "intervalos"
+   ],
+   "id_global": "qLEyhW3f08k#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Procure as notas bonitas (extensões)",
+   "descricao": "Charlie Parker dizia: aprenda as mudanças e procure as notas bonitas. Elas são as extensões 9, 11 e 13, que se destacam e dão som bonito ao improviso; no dórico a 13 (6ª) é a nota de cor.",
+   "passos": [],
+   "timestamp": "04:25",
+   "nivel": "intermediario",
+   "tags": [
+    "extensões",
+    "notas de cor",
+    "Charlie Parker"
+   ],
+   "id_global": "qLEyhW3f08k#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "So What e Impressions em dórico",
+   "descricao": "So What (Miles Davis) é todo em Ré dórico, com trecho em Mib dórico. Impressions (Coltrane) tem a mesma estrutura: 8 compassos de Ré dórico, 8 de Mib dórico, 8 de Ré dórico (AABA).",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "intermediario",
+   "tags": [
+    "So What",
+    "Impressions",
+    "jazz modal",
+    "AABA"
+   ],
+   "id_global": "qLEyhW3f08k#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Outras referências dóricas",
+   "descricao": "Recorda Me (Joe Henderson) é uma peça dórica para estudar. Uma trilha de Roque Baños começa em Dó dórico, vai a Mib lídio, volta a Dó menor e passa por Láb lídio (b6 de Dó menor).",
+   "passos": [],
+   "timestamp": "06:10",
+   "nivel": "intermediario",
+   "tags": [
+    "Joe Henderson",
+    "trilha",
+    "repertório"
+   ],
+   "id_global": "qLEyhW3f08k#I08"
+  }
+ ],
+ "artistas_citados": [
+  "Beatles",
+  "Sting",
+  "Miles Davis",
+  "John Coltrane",
+  "Joe Henderson",
+  "Charlie Parker",
+  "Roque Baños"
+ ],
+ "musicas_citadas": [
+  "Eleanor Rigby",
+  "Consider Me Gone",
+  "So What",
+  "Impressions",
+  "Recorda Me"
+ ],
+ "recursos_citados": [
+  "Beato Ear Training",
+  "The Beato Club",
+  "The Beato Book"
+ ],
+ "observacoes": "Transcrição automática com muitos erros (\"Linnaean\" = Lydian/eólio, \"Rojabonos\" = Roque Baños, \"record ma\" = Recorda Me, \"piatto\" = Beato). Conteúdo depende de ouvir o piano; trechos instrumentais sem fala. Trecho sobre tríade de Mi sobre C# menor está confuso e foi interpretado pelo contexto; \"So What\" não é nomeado explicitamente em alguns pontos. Nenhum exercício explícito.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:44",
+  "tentativas": 1,
+  "custo_usd": 0.1107
+ }
+}

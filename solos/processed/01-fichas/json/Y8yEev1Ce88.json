@@ -1,0 +1,810 @@
+{
+ "fonte_id": "Y8yEev1Ce88",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+  "autor": "Marcelo Barbosa",
+  "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88",
+  "idioma": "pt",
+  "duracao": "25m 20s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/Y8yEev1Ce88--escala-pentatônica-na-guitarra-tudo-o-que-você-precisa-saber.md"
+ },
+ "resumo": "Aula introdutória sobre a escala pentatônica menor e maior no braço da guitarra, voltada a quem está começando a solar. O professor apresenta a pentatônica como moldura para improvisar, ensina a localizar a tônica Lá nas oitavas, explica as cinco posições (desenhos) e como encadeá-las, e mostra a relação entre pentatônica menor e maior pela tonalidade relativa (Dó maior e Lá menor). A fala é muito irregular e boa parte das formas é mostrada visualmente, então algumas explicações dependem da teoria padrão. Serve como porta de entrada para quem quer memorizar a pentatônica por posições e começar a tocar com playback.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conteúdo essencial e bem organizado em sequência (oitavas, primeira forma, cinco posições, relativa maior), com exercícios de playback. Porém a legenda automática está muito ruim, muitas formas são mostradas sem explicação verbal e faltam exercícios com passos claros."
+ },
+ "assuntos_principais": [
+  "escala pentatônica menor",
+  "escala pentatônica maior",
+  "oitavas e localização da tônica no braço",
+  "cinco posições da pentatônica",
+  "encadeamento entre posições",
+  "improvisação com playback",
+  "tonalidade relativa (Dó maior e Lá menor)"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: por que a pentatônica",
+   "inicio": "00:00",
+   "fim": "00:33",
+   "resumo": "O professor anuncia que vai esclarecer a pentatônica no braço, afirma que é a escala mais usada em qualquer estilo e explica que é fácil de tocar no primeiro modelo (posição 1).",
+   "assuntos": [
+    "importância da pentatônica",
+    "escala de cinco notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica como moldura",
+   "inicio": "00:33",
+   "fim": "01:37",
+   "resumo": "A pentatônica é comparada a uma moldura ou esqueleto onde se encaixam cromatismos e notas de modos. Em seguida, o professor indica que a pentatônica menor serve sobre acordes menores e a maior sobre acordes maiores.",
+   "assuntos": [
+    "moldura",
+    "tensão e resolução",
+    "pentatônica menor x maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Oitavas e tônica em Lá",
+   "inicio": "01:37",
+   "fim": "03:25",
+   "resumo": "O professor começa pela tônica Lá (5ª casa da corda E grave), apresenta o relativo de Dó maior e mostra o shape de oitava para localizar a mesma nota em duas cordas.",
+   "assuntos": [
+    "tônica Lá",
+    "oitavas no braço",
+    "relativa menor de Dó maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Oitavas em outras tonalidades",
+   "inicio": "03:25",
+   "fim": "05:16",
+   "resumo": "O professor orienta a transportar o shape de oitava para outros tons, fazendo o mesmo padrão em todas as 12 tonalidades.",
+   "assuntos": [
+    "transposição",
+    "12 tons",
+    "oitavas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Transição: pentatônica como moldura",
+   "inicio": "05:16",
+   "fim": "05:49",
+   "resumo": "Trecho curto de transição que retoma a ideia de moldura, sem novos exercícios, e prepara a apresentação da primeira forma.",
+   "assuntos": [
+    "transição"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S6",
+   "titulo": "Primeira forma da pentatônica de lá menor",
+   "inicio": "05:49",
+   "fim": "07:00",
+   "resumo": "O professor mostra a primeira forma da pentatônica de Lá menor (A C D E G), começando na tônica da corda E, e sugere tocá-la subindo e descendo com playback.",
+   "assuntos": [
+    "forma 1",
+    "pentatônica de Lá menor",
+    "playback"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Cinco posições",
+   "inicio": "07:00",
+   "fim": "07:33",
+   "resumo": "O professor explica que a pentatônica se divide em cinco formas que cobrem o braço, sendo a primeira chamada de posição 1 ou desenho de exposição.",
+   "assuntos": [
+    "cinco posições",
+    "desenhos",
+    "divisão do braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Tônica e orientação no braço",
+   "inicio": "07:33",
+   "fim": "08:40",
+   "resumo": "A tônica é apresentada como a nota que dá nome à escala e como referência para se localizar em cada desenho ao tocar.",
+   "assuntos": [
+    "tônica",
+    "orientação no braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Conexões e oitavas entre formas",
+   "inicio": "08:40",
+   "fim": "10:25",
+   "resumo": "O professor recomenda aprender uma forma, colocar playback e já fazer música, sem esperar dominar as cinco formas.",
+   "assuntos": [
+    "playback",
+    "prática inicial",
+    "criação de música"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Tônica como guia para a forma vizinha",
+   "inicio": "10:25",
+   "fim": "11:39",
+   "resumo": "O professor afirma que, conhecendo a tônica e as notas de uma forma, já se domina boa parte da forma seguinte e da anterior, pois elas se sobrepõem.",
+   "assuntos": [
+    "formas vizinhas",
+    "sobreposição de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Notas consecutivas e posições pelo braço",
+   "inicio": "11:39",
+   "fim": "13:22",
+   "resumo": "Mostra-se como a segunda forma começa com notas da forma anterior, permitindo encadear posições em sequência, inclusive a partir da 6ª corda.",
+   "assuntos": [
+    "encadeamento de posições",
+    "sequência de notas",
+    "sexta corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Improviso com o segundo desenho",
+   "inicio": "13:22",
+   "fim": "15:23",
+   "resumo": "O professor compara a forma 2 com a forma 1 pela mesma estrutura de intervalos e demonstra como usar um desenho com notas-tônicas da escala.",
+   "assuntos": [
+    "segundo desenho",
+    "intervalos iguais entre formas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Trocar desenhos livremente",
+   "inicio": "17:31",
+   "fim": "18:49",
+   "resumo": "O professor sugere trocar de desenho livremente pelo braço ao tocar, sem seguir a ordem das formas.",
+   "assuntos": [
+    "troca livre de formas",
+    "improvisação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Demonstração sem fala clara",
+   "inicio": "18:49",
+   "fim": "19:28",
+   "resumo": "Trecho de demonstração improvisada com pouca fala inteligível.",
+   "assuntos": [
+    "demonstração"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S15",
+   "titulo": "Mesma frase em outra altura",
+   "inicio": "19:28",
+   "fim": "20:10",
+   "resumo": "O professor sugere pegar a mesma estação (desenho) em outra altura do braço, reproduzindo a mesma frase em outra região.",
+   "assuntos": [
+    "transposição de frase",
+    "regiões do braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Identificar o desenho e emendar posições 5 e 2",
+   "inicio": "20:10",
+   "fim": "20:43",
+   "resumo": "Dica para saber em que desenho se está e exemplo de emendar as posições 5 e 2 em sequência.",
+   "assuntos": [
+    "identificar desenho",
+    "posições 5 e 2"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S17",
+   "titulo": "Conexões que ampliam notas",
+   "inicio": "20:43",
+   "fim": "21:23",
+   "resumo": "O professor mostra que conectar formas permite alcançar mais notas, sem necessariamente criar um solo longo.",
+   "assuntos": [
+    "conexão de formas",
+    "alcance"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S18",
+   "titulo": "Objetivo: tirar bons solos com cinco notas",
+   "inicio": "21:23",
+   "fim": "23:21",
+   "resumo": "O professor destaca que a ideia não é fazer solos longos e sim mostrar o que é possível com as cinco notas da pentatônica.",
+   "assuntos": [
+    "mentalidade",
+    "cinco notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S19",
+   "titulo": "Relativa maior e menor",
+   "inicio": "23:21",
+   "fim": "24:00",
+   "resumo": "As formas da pentatônica menor servem para a pentatônica maior; o professor usa Dó maior e Lá menor como exemplo de tonalidades relativas.",
+   "assuntos": [
+    "relativa maior e menor",
+    "pentatônica maior",
+    "Dó maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S20",
+   "titulo": "Como calcular a relativa",
+   "inicio": "24:00",
+   "fim": "24:32",
+   "resumo": "O professor ensina a encontrar a relativa: subir três semitons a partir da menor para achar a maior, e descer três para o caminho inverso.",
+   "assuntos": [
+    "cálculo de relativa",
+    "semitons"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S21",
+   "titulo": "Roteiro de estudo",
+   "inicio": "24:32",
+   "fim": "25:06",
+   "resumo": "Resumo da ordem de estudo: memorizar as formas, aprender frases, criar melodias e depois se locomover livremente pelo braço.",
+   "assuntos": [
+    "roteiro de estudo",
+    "memorização"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S22",
+   "titulo": "Divulgação de curso e despedida",
+   "inicio": "25:06",
+   "fim": "25:20",
+   "resumo": "Divulgação do curso online MB Guitar Academy, da comunidade no Facebook e despedida.",
+   "assuntos": [
+    "propaganda",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônica é a escala mais usada",
+   "descricao": "A pentatônica tem cinco notas e é uma das escalas mais usadas em qualquer estilo e instrumento, por ser fácil de tocar.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "base do solo"
+   ],
+   "id_global": "Y8yEev1Ce88#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica como moldura",
+   "descricao": "A pentatônica funciona como um esqueleto ou moldura: sobre ela se acrescentam cromatismos e notas de outros modos, criando relação entre tensão e resolução.",
+   "passos": [],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "moldura",
+    "tensão-resolução",
+    "cromatismo"
+   ],
+   "id_global": "Y8yEev1Ce88#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Menor sobre acordes menores, maior sobre maiores",
+   "descricao": "A pentatônica menor combina melhor com acordes menores e a pentatônica maior com acordes maiores.",
+   "passos": [],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "pentatônica maior",
+    "acordes"
+   ],
+   "id_global": "Y8yEev1Ce88#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Memorizar as oitavas do braço",
+   "descricao": "Antes de tocar a pentatônica, memorize onde estão as oitavas no braço; isso ajuda a não se perder ao tocar a escala.",
+   "passos": [],
+   "timestamp": "01:37",
+   "nivel": "iniciante",
+   "tags": [
+    "oitavas",
+    "orientação no braço"
+   ],
+   "id_global": "Y8yEev1Ce88#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Lá na 5ª casa da corda E",
+   "descricao": "Na corda E grave, a 5ª casa é a nota Lá, tônica da pentatônica de Lá menor. Lá menor é a relativa de Dó maior, que compartilha as mesmas notas.",
+   "passos": [],
+   "timestamp": "01:37",
+   "nivel": "iniciante",
+   "tags": [
+    "tônica",
+    "relativa menor",
+    "notas da corda E"
+   ],
+   "id_global": "Y8yEev1Ce88#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Shape de oitava: corda E casa 5 e corda D casa 7",
+   "descricao": "Tocando a corda E na 5ª casa (Lá) e a corda D na 7ª casa, obtém-se Lá em duas oitavas: a mesma nota com timbre mais agudo.",
+   "passos": [
+    "Toque a corda E grave na 5ª casa (nota Lá) com o dedo indicador.",
+    "Toque a corda D na 7ª casa com o dedo anelar ou mínimo.",
+    "Alterne as duas notas e confirme que soam como a mesma nota em oitavas diferentes.",
+    "Repita tocando as duas notas juntas para sentir a consonância."
+   ],
+   "timestamp": "02:48",
+   "nivel": "iniciante",
+   "tags": [
+    "oitava",
+    "shape",
+    "corda E",
+    "corda D"
+   ],
+   "id_global": "Y8yEev1Ce88#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Transpor o shape de oitava para 12 tons",
+   "descricao": "O shape de oitava deve ser levado para todas as 12 tonalidades, deslocando-o pelo braço a partir da nota tônica desejada.",
+   "passos": [
+    "Escolha uma nota tônica (ex.: Sol, na corda E na 3ª casa).",
+    "Monte o shape de oitava com a corda E e a corda D a partir dessa nota.",
+    "Repita para as outras tônicas, cromaticamente, até fechar as 12 notas."
+   ],
+   "timestamp": "04:40",
+   "nivel": "iniciante",
+   "tags": [
+    "transposição",
+    "12 tons",
+    "oitavas"
+   ],
+   "id_global": "Y8yEev1Ce88#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Primeira forma da pentatônica de Lá menor",
+   "descricao": "A forma 1 de Lá menor (notas A C D E G) começa na corda E na 5ª casa (Lá) e vai até a 8ª casa (Dó), depois passa pelas outras cordas com D, E e G.",
+   "passos": [],
+   "timestamp": "05:49",
+   "nivel": "iniciante",
+   "tags": [
+    "forma 1",
+    "pentatônica de Lá menor",
+    "notas A C D E G"
+   ],
+   "id_global": "Y8yEev1Ce88#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Tocar a forma 1 subindo e descendo",
+   "descricao": "Tocar a forma 1 de Lá menor em ordem ascendente e descendente, começando pela tônica, para fixar o desenho.",
+   "passos": [
+    "Posicione a mão na 5ª casa da corda E, com o indicador na tônica Lá.",
+    "Suba nota por nota pela forma até a última nota da corda E aguda.",
+    "Desça seguindo a mesma sequência até a tônica.",
+    "Repita com metrônomo lento e aumente o andamento aos poucos."
+   ],
+   "timestamp": "06:27",
+   "nivel": "iniciante",
+   "tags": [
+    "forma 1",
+    "escala ascendente e descendente",
+    "metrônomo"
+   ],
+   "id_global": "Y8yEev1Ce88#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Cinco posições cobrem o braço",
+   "descricao": "A pentatônica se divide em cinco formas (desenhos) que se encaixam e cobrem o braço inteiro; a primeira é chamada de posição 1 ou desenho de exposição.",
+   "passos": [],
+   "timestamp": "07:00",
+   "nivel": "iniciante",
+   "tags": [
+    "cinco posições",
+    "desenhos"
+   ],
+   "id_global": "Y8yEev1Ce88#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Dividir o braço em regiões",
+   "descricao": "Para aprender as cinco posições, divida o braço em regiões e estude cada forma na sua região, em vez de tentar memorizar tudo de uma vez.",
+   "passos": [],
+   "timestamp": "07:00",
+   "nivel": "iniciante",
+   "tags": [
+    "regiões do braço",
+    "estudo por partes"
+   ],
+   "id_global": "Y8yEev1Ce88#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Tônica como referência",
+   "descricao": "A tônica é a nota que dá nome à escala e deve ser localizada em cada desenho para saber onde se está no braço.",
+   "passos": [],
+   "timestamp": "08:07",
+   "nivel": "iniciante",
+   "tags": [
+    "tônica",
+    "orientação"
+   ],
+   "id_global": "Y8yEev1Ce88#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S9",
+   "tipo": "rotina_estudo",
+   "titulo": "Aprender uma forma e tocar com playback",
+   "descricao": "Em vez de esperar dominar as cinco formas, aprenda uma forma e já toque sobre um playback, criando frases simples.",
+   "passos": [
+    "Aprenda a primeira forma de Lá menor.",
+    "Coloque um playback em Lá menor.",
+    "Toque a forma improvisando frases curtas por alguns minutos.",
+    "Acrescente a forma seguinte quando a primeira estiver confortável."
+   ],
+   "timestamp": "08:40",
+   "nivel": "iniciante",
+   "tags": [
+    "playback",
+    "backing track",
+    "rotina"
+   ],
+   "id_global": "Y8yEev1Ce88#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S9",
+   "tipo": "mentalidade",
+   "titulo": "Fazer música desde cedo",
+   "descricao": "Não é preciso dominar todas as formas para começar a fazer música; uma ou duas formas já permitem improvisar.",
+   "passos": [],
+   "timestamp": "08:40",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "improvisação"
+   ],
+   "id_global": "Y8yEev1Ce88#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Tônica dá acesso às formas vizinhas",
+   "descricao": "Conhecendo a tônica e as notas de uma forma, já se conhece cerca de metade da forma seguinte e da anterior, pois elas compartilham notas.",
+   "passos": [],
+   "timestamp": "10:25",
+   "nivel": "iniciante",
+   "tags": [
+    "formas vizinhas",
+    "notas compartilhadas",
+    "tônica"
+   ],
+   "id_global": "Y8yEev1Ce88#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Encadear formas pela nota de passagem",
+   "descricao": "A segunda forma começa com notas que já estavam na forma anterior, o que permite ligar uma forma à outra sem salto no braço.",
+   "passos": [],
+   "timestamp": "12:12",
+   "nivel": "iniciante",
+   "tags": [
+    "encadeamento",
+    "forma 2"
+   ],
+   "id_global": "Y8yEev1Ce88#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Subir pelas formas começando na 6ª corda",
+   "descricao": "Tocar a escala em sequência, passando de uma forma à outra e começando pela corda E grave, para ligar as cinco posições.",
+   "passos": [
+    "Comece na tônica da corda E grave (forma 1).",
+    "Toque a forma 1 até a última nota da forma.",
+    "Continue na forma seguinte, usando a nota de passagem.",
+    "Repita até cobrir as cinco formas no braço."
+   ],
+   "timestamp": "14:02",
+   "nivel": "iniciante",
+   "tags": [
+    "sexta corda",
+    "sequência",
+    "cinco formas"
+   ],
+   "id_global": "Y8yEev1Ce88#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S12",
+   "tipo": "exercicio",
+   "titulo": "Improvisar só com o segundo desenho",
+   "descricao": "Sobre um playback, improvisar usando apenas a forma 2 para desenvolver a sensação dessa posição antes de misturar com outras.",
+   "passos": [
+    "Coloque um playback em Lá menor.",
+    "Toque apenas a forma 2, começando e terminando na tônica.",
+    "Crie frases curtas variando ritmo e direção.",
+    "Pare e repita a frase que mais gostou."
+   ],
+   "timestamp": "15:59",
+   "nivel": "iniciante",
+   "tags": [
+    "forma 2",
+    "improvisação",
+    "playback"
+   ],
+   "id_global": "Y8yEev1Ce88#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S13",
+   "tipo": "exercicio",
+   "titulo": "Trocar de desenho livremente",
+   "descricao": "Ao improvisar, mudar de desenho livremente pelo braço, sem seguir a ordem das formas, para treinar a movimentação independente.",
+   "passos": [
+    "Toque com playback usando duas ou três formas.",
+    "A cada compasso ou frase, mude para outra forma sem parar a música.",
+    "Escolha as trocas de forma por intuição, não por ordem."
+   ],
+   "timestamp": "18:09",
+   "nivel": "intermediario",
+   "tags": [
+    "troca de forma",
+    "movimentação no braço",
+    "improvisação"
+   ],
+   "id_global": "Y8yEev1Ce88#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S15",
+   "tipo": "exercicio",
+   "titulo": "Mesma frase em outra altura",
+   "descricao": "Repetir uma frase tocada em um desenho em outra região do braço, mantendo os mesmos intervalos, para reproduzi-la em outra altura.",
+   "passos": [
+    "Toque uma frase curta em uma forma.",
+    "Mantenha os mesmos intervalos e desloque o desenho para outra casa.",
+    "Compare o som das duas versões."
+   ],
+   "timestamp": "19:28",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição de frase",
+    "intervalos",
+    "regiões do braço"
+   ],
+   "id_global": "Y8yEev1Ce88#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S16",
+   "tipo": "dica",
+   "titulo": "Identificar em qual desenho você está",
+   "descricao": "Para saber em que desenho se está, localize a tônica dentro do desenho: a posição da tônica indica a forma.",
+   "passos": [],
+   "timestamp": "20:10",
+   "nivel": "iniciante",
+   "tags": [
+    "identificar desenho",
+    "tônica"
+   ],
+   "id_global": "Y8yEev1Ce88#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S16",
+   "tipo": "exercicio",
+   "titulo": "Emendar as posições 5 e 2",
+   "descricao": "Ligar a posição 5 com a posição 2 em sequência, tocando as notas de uma e depois de outra sem interromper a frase.",
+   "passos": [
+    "Toque a posição 5 da pentatônica.",
+    "Passe para a posição 2 pela nota de conexão.",
+    "Repita a passagem até fazer a troca sem pausa."
+   ],
+   "timestamp": "20:10",
+   "nivel": "intermediario",
+   "tags": [
+    "posição 5",
+    "posição 2",
+    "conexão de formas"
+   ],
+   "id_global": "Y8yEev1Ce88#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S17",
+   "tipo": "conceito",
+   "titulo": "Conexões ampliam o alcance",
+   "descricao": "Ao conectar formas, a escala ganha mais notas e alcance no braço, sem precisar de cinco notas isoladas por posição.",
+   "passos": [],
+   "timestamp": "20:43",
+   "nivel": "intermediario",
+   "tags": [
+    "conexão de formas",
+    "alcance"
+   ],
+   "id_global": "Y8yEev1Ce88#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S18",
+   "tipo": "mentalidade",
+   "titulo": "Bons solos com poucas notas",
+   "descricao": "O objetivo é perceber que é possível tirar bons solos com apenas cinco notas, sem depender de muitas notas.",
+   "passos": [],
+   "timestamp": "21:23",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "cinco notas",
+    "simplicidade"
+   ],
+   "id_global": "Y8yEev1Ce88#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S19",
+   "tipo": "conceito",
+   "titulo": "Mesmas formas para pentatônica maior",
+   "descricao": "As formas da pentatônica menor servem também para a pentatônica maior, bastando mudar a tônica para a relativa maior.",
+   "passos": [],
+   "timestamp": "23:21",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "relativa",
+    "formas"
+   ],
+   "id_global": "Y8yEev1Ce88#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S19",
+   "tipo": "conceito",
+   "titulo": "Dó maior e Lá menor como relativas",
+   "descricao": "Dó maior tem como relativa menor Lá menor; as duas compartilham as mesmas notas, e a pentatônica de Dó maior usa as notas C D E G A dentro das formas de Lá menor.",
+   "passos": [],
+   "timestamp": "23:21",
+   "nivel": "intermediario",
+   "tags": [
+    "relativa",
+    "Dó maior",
+    "Lá menor"
+   ],
+   "id_global": "Y8yEev1Ce88#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S20",
+   "tipo": "exercicio",
+   "titulo": "Calcular a relativa por semitons",
+   "descricao": "Para achar a relativa menor de uma tonalidade maior, desça três semitons; para a relativa maior de uma menor, suba três semitons.",
+   "passos": [
+    "Escolha uma tonalidade maior, por exemplo Dó.",
+    "Desça três semitons (Dó, Si, Si♭, Lá) e chegue em Lá menor.",
+    "Faça o caminho inverso: a partir de Lá menor, suba três semitons e chegue em Dó maior."
+   ],
+   "timestamp": "24:00",
+   "nivel": "intermediario",
+   "tags": [
+    "relativa",
+    "semitons",
+    "cálculo"
+   ],
+   "id_global": "Y8yEev1Ce88#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S21",
+   "tipo": "rotina_estudo",
+   "titulo": "Ordem de estudo da pentatônica",
+   "descricao": "Sequência de estudo proposta: memorizar o desenho, aprender frases com ele, criar melodias e depois se locomover livremente pelo braço.",
+   "passos": [
+    "Memorize o desenho da forma.",
+    "Aprenda frases tocadas nessa forma.",
+    "Crie melodias com o desenho.",
+    "Depois pratique a movimentação livre pelo braço entre as formas."
+   ],
+   "timestamp": "24:32",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "ordem de estudo",
+    "memorização"
+   ],
+   "id_global": "Y8yEev1Ce88#I28"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "MB Guitar Academy (curso online)",
+  "Lista VIP MB",
+  "Canal MB no Telegram",
+  "Comunidade de alunos no Facebook",
+  "Playback/backing track"
+ ],
+ "observacoes": "Transcrição automática com muitos erros: 'beck áudio' e 'playback' referem-se a backing track; 'penta' e 'pentatônica' aparecem mal escritos; 'modelo de mim' e 'desenho' são as formas da escala e não podem ser lidas com segurança da fala. Vários desenhos (formas 2 a 5) são mostrados visualmente e não descritos em detalhe no texto, então as notas das formas foram calculadas pela teoria padrão e não pela fala. Trechos com fala ininteligível: 18:49-19:28 e partes de 13:22-15:23. A ideia de 'metade da forma vizinha' é a afirmação do professor, mantida como dita. Para uso completo, é recomendável ver o vídeo com tablatura.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00522,
+  "via": "api"
+ }
+}

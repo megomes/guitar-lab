@@ -1,0 +1,403 @@
+{
+ "fonte_id": "en--transcription_-music-63bfbc",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Transcription (music) - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Transcription_(music)",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--transcription_-music-63bfbc.md"
+ },
+ "resumo": "O documento é um verbete da Wikipédia sobre transcrição musical, que cobre a notação de gravações (solos de guitarra, linhas de baixo, improvisações de jazz), a transcrição como adaptação para outros instrumentos, ferramentas de apoio (software de notação, de desaceleração sem alterar o tom e de rastreamento de altura) e a transcrição automática por processamento digital de sinais. Não ensina solo ou improvisação diretamente, mas oferece contexto histórico e técnico útil para quem transcreve solos por ouvido. Destina-se a leitores interessados em teoria e tecnologia da transcrição musical.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Conteúdo informativo e bem organizado, porém genérico e voltado a musicologia e engenharia de áudio; há poucas orientações práticas para o guitarrista que quer tirar solos ou improvisar. As ideias úteis são indiretas, como o uso de software para desacelerar sem alterar o tom."
+ },
+ "assuntos_principais": [
+  "transcrição musical",
+  "transcrição de solos de guitarra",
+  "arranjo e transcrição para outros instrumentos",
+  "software de notação",
+  "software de desaceleração sem alterar o tom",
+  "rastreamento de altura (pitch tracking)",
+  "detecção de batida (beat tracking)",
+  "transcrição automática de música",
+  "detecção de altura e harmônicos"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de transcrição musical",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define transcrição como notar uma peça ou um som não escrito, como uma improvisação de jazz, e também como reescrever uma peça para outro instrumento, distinguindo transcrição de arranjo.",
+   "assuntos": [
+    "transcrição musical",
+    "arranjo",
+    "improvisação de jazz"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Transcrição etnomusicológica e ornitológica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Cita coleções de música folclórica de Bartók e Vaughan Williams e o uso de cantos de pássaros por Messiaen, que exigem reconhecimento de graus e análise harmônica com ouvido absoluto ou relativo.",
+   "assuntos": [
+    "etnomusicologia",
+    "ouvido absoluto",
+    "ouvido relativo",
+    "análise harmônica"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Transcrição no rock e na música popular",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve a cópia nota a nota de solos de guitarra por músicos, a publicação de transcrições de solos e linhas de baixo e o formato PVG com melodia, cifras e letra.",
+   "assuntos": [
+    "transcrição de solos de guitarra",
+    "linhas de baixo",
+    "partitura PVG",
+    "cifras"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Adaptação e arranjo na história da música",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Relata exemplos históricos de transcrições e arranjos feitos por compositores, como Ravel sobre Mussorgsky, Webern sobre Bach, Liszt e a redução para piano.",
+   "assuntos": [
+    "arranjo",
+    "redução para piano",
+    "história da música"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S5",
+   "titulo": "Software de notação e de desaceleração",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica softwares de notação, que aceitam MIDI e exportam partituras, e softwares que desaceleram a música sem alterar o tom, explicando o processo em duas etapas de reamostragem e DSP.",
+   "assuntos": [
+    "software de notação",
+    "desaceleração sem alterar o tom",
+    "DSP",
+    "MIDI"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Rastreamento de altura e transcrição automática",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o histórico da transcrição automática, a detecção de altura em sinais monofônicos e polifônicos, harmônicos e espectrogramas, além da detecção de batida e as etapas do processamento.",
+   "assuntos": [
+    "transcrição automática",
+    "detecção de altura",
+    "harmônicos",
+    "espectrograma",
+    "detecção de batida",
+    "BPM"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Referências e links",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas, sem conteúdo didático.",
+   "assuntos": [
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Transcrição como notação de gravação",
+   "descricao": "Transcrever é anotar em partitura uma peça ou som que antes não estava notado, como uma improvisação de jazz, identificando as notas que compõem a gravação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição",
+    "improvisação"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Diferença entre transcrição e arranjo",
+   "descricao": "Transcrição, no sentido de reescrever para outro instrumento, é uma adaptação fiel; arranjo altera aspectos significativos da peça original.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "arranjo",
+    "transcrição"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Cópia nota a nota de solos",
+   "descricao": "No rock e na música popular, músicos copiam solos de guitarra nota a nota, prática central para aprender frases de outros guitarristas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição de solos",
+    "nota a nota",
+    "lick"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Transcrições publicadas de solos e baixos",
+   "descricao": "Editoras publicam em livros encadernados transcrições completas de solos de guitarra e linhas de baixo de gravações.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "partitura",
+    "livro de transcrições"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Software de desaceleração sem alterar o tom",
+   "descricao": "Softwares reduzem o andamento de uma gravação sem mudar a altura das notas, ao contrário de desacelerar um toca-discos, que também baixa o tom. Ajuda a identificar notas, melodias, acordes e letras durante a transcrição.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "desaceleração",
+    "transcrição",
+    "tom original"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Por que desacelerar muda o tom",
+   "descricao": "Desacelerar por reamostragem reduz a frequência e baixa a altura, fazendo a música soar em outra tonalidade; por isso a transcrição teria de ser transposta depois. O software corrige isso com processamento digital de sinais.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "transposição",
+    "DSP"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Software de notação com entrada MIDI",
+   "descricao": "Programas de notação recebem entrada manual de notas ou arquivos MIDI (SMF) e exportam partituras em EPS, PNG e SVG, com biblioteca de sons para conferir a partitura tocando.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notação",
+    "MIDI",
+    "software"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Software de rastreamento de altura",
+   "descricao": "Alguns programas rastreiam aproximadamente a altura de melodias dominantes em gravações polifônicas; as notas detectadas precisam de edição manual e podem ser exportadas em MIDI.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pitch tracking",
+    "MIDI",
+    "edição manual"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Harmônicos de uma nota",
+   "descricao": "Uma nota soa como um conjunto de harmônicos múltiplos da frequência fundamental; por exemplo, o Lá3 (220 Hz) tem harmônicos em 440, 660 e 880 Hz. Gravações são, na prática, coleções de harmônicos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "harmônicos",
+    "fundamental",
+    "acústica"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Espectrograma e comb pattern",
+   "descricao": "Transformar o áudio do domínio do tempo para o da frequência (via Transformada de Fourier) gera um espectrograma, em que cada nota aparece como um padrão de pente vertical de harmônicos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "espectrograma",
+    "Fourier",
+    "frequência"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Monofonia versus polifonia na detecção de altura",
+   "descricao": "Detectar altura em uma linha de uma só nota é simples, e essa tecnologia permitiu os afinadores de guitarra dos anos 1970. Em música polifônica, os padrões se sobrepõem e a detecção fica muito mais difícil.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "monofonia",
+    "polifonia",
+    "afinador"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Batida e BPM",
+   "descricao": "Batida é o intervalo repetitivo entre pulsos percebidos, medido em BPM para definir o andamento; notas costumam começar na batida ou em subdivisões dela.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "BPM",
+    "andamento",
+    "pulso"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Notas começam em batidas e subdivisões",
+   "descricao": "Como as notas costumam começar na batida ou em uma subdivisão simples dela, localizar a batida ajuda a definir o início exato das notas ao transcrever.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ritmo",
+    "subdivisão",
+    "transcrição"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Transcrição manual como exercício de formação",
+   "descricao": "Muitos músicos e educadores consideram a transcrição manual um exercício valioso para desenvolver o músico, embora a transcrição automática busque suprir quem não tem essa habilidade.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "transcrição manual",
+    "formação"
+   ],
+   "id_global": "en--transcription_-music-63bfbc#I14"
+  }
+ ],
+ "artistas_citados": [
+  "Béla Bartók",
+  "Ralph Vaughan Williams",
+  "Olivier Messiaen",
+  "Ravel",
+  "Mussorgsky",
+  "Webern",
+  "Bach",
+  "Vivaldi",
+  "Mozart",
+  "Beethoven",
+  "Franz Liszt",
+  "Tchaikovsky",
+  "Mahler",
+  "Schumann",
+  "Schoenberg",
+  "Brahms",
+  "George Gershwin",
+  "Stravinsky",
+  "Martin Piszczalski",
+  "Bernard Galler",
+  "James A. Moorer"
+ ],
+ "musicas_citadas": [
+  "Catalogue d'oiseaux",
+  "Pictures at an Exhibition",
+  "The Musical Offering",
+  "Don Giovanni",
+  "The Marriage of Figaro",
+  "The Rite of Spring",
+  "The Well-Tempered Clavier",
+  "Rhapsody in Blue",
+  "Große Fuge",
+  "Mozartiana"
+ ],
+ "recursos_citados": [
+  "Häberlin, A Music Transcription Method: Notating Recorded Music by Ear (Routledge, 2025)",
+  "Scheirer, Music Perception Systems (MIT Press, 1998)",
+  "Piszczalski, A Computational model of music transcription (tese, 1986)",
+  "Costantini et al., Event based transcription system for polyphonic piano music (2009)",
+  "Software de notação musical",
+  "Software de desaceleração (slow-down)",
+  "Software de rastreamento de altura (pitch tracking)",
+  "Afinadores de guitarra"
+ ],
+ "observacoes": "Documento da Wikipédia sobre transcrição musical em geral, não específico de solo ou improvisação para guitarra; a maior parte do conteúdo é histórica e técnica. Não há segmentos com tempo, então inicio, fim e timestamp são null. Vários trechos são de acústica e processamento de sinais, pouco úteis para o guitarrista. A seção 'See also' está vazia. O texto menciona 'PVG' sem explicar que 'G' vem de guitarra nas cifras, mas a explicação está no próprio texto. Algumas citações são de formato antigo e o verbete tem marcações de edição e 'citation needed'.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00166,
+  "via": "api"
+ }
+}

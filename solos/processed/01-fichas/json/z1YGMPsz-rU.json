@@ -1,0 +1,654 @@
+{
+ "fonte_id": "z1YGMPsz-rU",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+  "autor": "Israel Rodrigues",
+  "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU",
+  "idioma": "pt",
+  "duracao": "20m 53s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/z1YGMPsz-rU--improvisação-tonal-e-modal-modos-gregos.md"
+ },
+ "resumo": "Aula de Israel Rodrigues que explica a diferença entre improvisação tonal e modal. Ele parte da construção do campo harmônico maior (exemplos em dó e sol), mostra com um exemplo prático como solar sobre uma progressão usando uma única escala (tonal) e depois como escolher um modo para cada acorde isolado (modal). Para estudantes que já conhecem escalas e acordes básicos, é uma introdução conceitual útil, embora a transcrição automática esteja muito ruim em vários trechos.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Os conceitos centrais (campo harmônico, tonal x modal, notas evitadas e modos por acorde) são claros e úteis, mas a fala foi transcrita com muitos erros, há trechos ininteligíveis e quase não há exercícios práticos com passo a passo; a parte de solo é demonstrada, não detalhada em notas."
+ },
+ "assuntos_principais": [
+  "campo harmônico maior",
+  "construção de acordes por graus da escala",
+  "improvisação tonal",
+  "improvisação modal",
+  "escolha de escala sobre progressão",
+  "notas evitadas (nota fora do acorde)",
+  "modos gregos (lídio, mixolídio, dórico, jônio)",
+  "pentatônica de lá menor sobre progressão em dó"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e apresentação do tema",
+   "inicio": "00:00",
+   "fim": "00:33",
+   "resumo": "Saudação e anúncio de que o vídeo tratará de improvisação tonal e modal, com um trecho de solo tocado como introdução.",
+   "assuntos": [
+    "apresentação do tema"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Campo harmônico de dó maior e de sol maior",
+   "inicio": "00:33",
+   "fim": "01:44",
+   "resumo": "Revisão do campo harmônico maior: os acordes formados sobre cada grau da escala de dó e, em seguida, de sol, com a observação de que o padrão maior-menor-menor-maior-maior-menor-diminuto se repete.",
+   "assuntos": [
+    "campo harmônico maior",
+    "acordes diatônicos",
+    "campo harmônico de sol"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Receita para montar o campo harmônico e por que a ordem é essa",
+   "inicio": "01:44",
+   "fim": "04:00",
+   "resumo": "Explica como montar os acordes do campo harmônico (tônica, terça e quinta de cada grau) e por que o sétimo grau é diminuto, já que outras combinações trariam notas fora da escala.",
+   "assuntos": [
+    "campo harmônico",
+    "tríades diatônicas",
+    "acorde diminuto no sétimo grau",
+    "notas fora da escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Introdução ao problema do solo sobre progressão",
+   "inicio": "04:00",
+   "fim": "05:47",
+   "resumo": "Recapitulação do raciocínio sobre campo harmônico e apresentação do problema: qual escala usar para solar sobre uma progressão de acordes.",
+   "assuntos": [
+    "escolha de escala sobre progressão",
+    "diferença entre progressão tonal e sortida"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Exemplo de solo sobre progressão de dó com lá menor",
+   "inicio": "05:47",
+   "fim": "07:37",
+   "resumo": "Base gravada com acordes de lá menor, dó e sol; o professor improvisa com a escala de lá menor (pentatônica) e mostra que todos os acordes da progressão pertencem ao campo de dó.",
+   "assuntos": [
+    "lá menor",
+    "pentatônica menor",
+    "progressão em dó maior",
+    "solo sobre base"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Conceito de improvisação tonal",
+   "inicio": "07:37",
+   "fim": "08:50",
+   "resumo": "Define improvisação tonal como o uso de uma só escala que contém todos os acordes da progressão, dando ênfase ao fraseado mais do que à troca de escala.",
+   "assuntos": [
+    "improvisação tonal",
+    "escala única para a progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Exemplo sobre lá maior e a nota dó",
+   "inicio": "08:50",
+   "fim": "10:41",
+   "resumo": "Imagina a progressão com acorde de lá maior, em que a escala de dó só funciona evitando a nota dó, pois ela cria atrito com a terça do acorde.",
+   "assuntos": [
+    "lá maior",
+    "nota evitada",
+    "escala de dó sobre acorde de lá"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Conceito de improvisação modal",
+   "inicio": "10:41",
+   "fim": "12:22",
+   "resumo": "Define improvisação modal como pensar em cada acorde isoladamente e escolher o modo que o resolve; exemplifica com lá maior (lídio, jônio, mixolídio).",
+   "assuntos": [
+    "improvisação modal",
+    "modos sobre acorde isolado",
+    "lá lídio",
+    "lá mixolídio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Progressão com acordes fora do campo harmônico",
+   "inicio": "12:22",
+   "fim": "13:34",
+   "resumo": "Analisa uma base com acordes que não cabem no mesmo campo harmônico, relacionando dó e ré às funções de sol (IV e V) para decidir a abordagem.",
+   "assuntos": [
+    "acordes fora do campo",
+    "relação de funções entre tônicas",
+    "dó como IV de sol"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Abordagem alternativa: cada acorde com sua própria tônica",
+   "inicio": "13:34",
+   "fim": "14:47",
+   "resumo": "Propõe tratar cada acorde pelo seu centro (lá, dó, etc.) e escolher uma escala ou modo para ele, em vez de uma escala comum; a fala está muito truncada.",
+   "assuntos": [
+    "tônica de cada acorde",
+    "abordagem alternativa",
+    "modos por centro tonal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Quando usar improvisação modal e dificuldade para iniciantes",
+   "inicio": "14:47",
+   "fim": "15:55",
+   "resumo": "Comenta que a abordagem modal soa estranha no início para quem está acostumado ao tonal, mas é comum em rock, metal e blues, e que é mais elaborada de tocar.",
+   "assuntos": [
+    "improvisação modal no rock e no metal",
+    "percepção auditiva",
+    "dificuldade da abordagem modal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Nova base gravada e modos escolhidos acorde a acorde",
+   "inicio": "15:55",
+   "fim": "17:11",
+   "resumo": "Grava outra base com acordes sortidos e associa cada acorde a um modo: maior com quarta aumentada a lídio, menor a dórico, dominante a mixolídio, entre outros.",
+   "assuntos": [
+    "modo por acorde",
+    "lídio",
+    "dórico",
+    "mixolídio",
+    "acorde com quarta aumentada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Trecho de transição e retomada da base",
+   "inicio": "17:11",
+   "fim": "18:30",
+   "resumo": "Trecho de transição quase ininteligível na transcrição, com retomada da base e comentários soltos sobre escolha de escala.",
+   "assuntos": [
+    "transição"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S14",
+   "titulo": "Resumo: tonal x modal",
+   "inicio": "18:30",
+   "fim": "19:03",
+   "resumo": "Resume a diferença entre os dois métodos: tonal usa uma escala do tom para toda a progressão; modal pensa acorde por acorde, comum em harmonias com acordes sortidos.",
+   "assuntos": [
+    "resumo tonal x modal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Convite para lista de e-mail e compartilhamento",
+   "inicio": "19:03",
+   "fim": "20:10",
+   "resumo": "Pede que o público se inscreva na lista de e-mail para receber aulas gratuitas e compartilhe o vídeo com amigos.",
+   "assuntos": [
+    "inscrição",
+    "divulgação do canal"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S16",
+   "titulo": "Despedida",
+   "inicio": "20:10",
+   "fim": "20:53",
+   "resumo": "Agradecimento ao público, pedido de engajamento e despedida.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico maior de dó",
+   "descricao": "Os acordes do campo harmônico maior são formados sobre cada grau da escala: I maior, ii menor, iii menor, IV maior, V maior, vi menor e vii diminuto. Em dó maior: C, Dm, Em, F, G, Am e Bdim.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "campo-harmonico",
+    "acordes-diatonicos",
+    "do-maior"
+   ],
+   "id_global": "z1YGMPsz-rU#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico maior de sol",
+   "descricao": "Aplicando o mesmo padrão à escala de sol maior: G maior, Am, Bm, C maior, D maior, Em e F# diminuto. O padrão de qualidades (maior, menor, menor, maior, maior, menor, diminuto) é o mesmo para qualquer tônica.",
+   "passos": [],
+   "timestamp": "01:08",
+   "nivel": "iniciante",
+   "tags": [
+    "campo-harmonico",
+    "sol-maior"
+   ],
+   "id_global": "z1YGMPsz-rU#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Receita para montar acordes do campo harmônico",
+   "descricao": "Para cada grau da escala, empilhe notas de terça em terça dentro da própria escala (grau, terça e quinta). A qualidade do acorde (maior, menor ou diminuto) surge da distância entre essas notas.",
+   "passos": [],
+   "timestamp": "01:44",
+   "nivel": "iniciante",
+   "tags": [
+    "campo-harmonico",
+    "tercas",
+    "construcao-de-acordes"
+   ],
+   "id_global": "z1YGMPsz-rU#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Por que o sétimo grau é diminuto",
+   "descricao": "Sobre o sétimo grau de dó (Si), a tríade Si-Ré-Fá usa apenas notas da escala de dó, e as distâncias são de terça menor e terça menor, formando um acorde diminuto (Bdim). Outras qualidades exigiriam notas fora da escala.",
+   "passos": [],
+   "timestamp": "02:17",
+   "nivel": "iniciante",
+   "tags": [
+    "acorde-diminuto",
+    "campo-harmonico",
+    "grau-vii"
+   ],
+   "id_global": "z1YGMPsz-rU#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Tentar formar acorde menor sobre a tônica do campo",
+   "descricao": "Se o primeiro grau de dó virasse acorde menor, a terça seria mi bemol, nota que não pertence à escala de dó. Por isso o primeiro acorde do campo maior é sempre maior.",
+   "passos": [],
+   "timestamp": "02:17",
+   "nivel": "intermediario",
+   "tags": [
+    "campo-harmonico",
+    "nota-fora-da-escala",
+    "mi-bemol"
+   ],
+   "id_global": "z1YGMPsz-rU#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Progressão tonal x progressão sortida",
+   "descricao": "Uma progressão tonal tem todos os acordes dentro de um mesmo campo harmônico; uma progressão sortida tem acordes que vêm de centros diferentes. A escolha de como improvisar depende desse tipo de progressão.",
+   "passos": [],
+   "timestamp": "04:33",
+   "nivel": "intermediario",
+   "tags": [
+    "progressao-tonal",
+    "progressao-sortida",
+    "escolha-de-escala"
+   ],
+   "id_global": "z1YGMPsz-rU#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Verificar se a progressão cabe em um campo harmônico",
+   "descricao": "Antes de escolher a escala para solar, verifique se todos os acordes da base pertencem ao mesmo campo harmônico maior. Se pertencem, uma escala serve para tudo; se não, a abordagem muda.",
+   "passos": [
+    "Escreva os acordes da progressão na ordem.",
+    "Identifique a tônica do campo de cada acorde (I, ii, iii, IV, V, vi ou vii).",
+    "Verifique se todos os acordes aparecem no mesmo campo harmônico maior.",
+    "Se sim, use a escala desse tom; se não, considere a abordagem modal."
+   ],
+   "timestamp": "05:07",
+   "nivel": "iniciante",
+   "tags": [
+    "exercicio",
+    "analise-harmonica",
+    "campo-harmonico"
+   ],
+   "id_global": "z1YGMPsz-rU#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Solar sobre base de dó com pentatônica de lá menor",
+   "descricao": "Sobre a progressão com lá menor, dó e sol (todos pertencentes ao campo de dó maior), improvise com a pentatônica de lá menor (lá, dó, ré, mi, sol), que é a relativa menor de dó.",
+   "passos": [
+    "Toque a base de lá menor, dó e sol.",
+    "Improvise usando apenas as notas da pentatônica de lá menor: A C D E G.",
+    "Procure frases que comecem e terminem em notas da pentatônica sem sair do conjunto."
+   ],
+   "timestamp": "05:47",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatonica-menor",
+    "la-menor",
+    "tonal",
+    "exercicio"
+   ],
+   "id_global": "z1YGMPsz-rU#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Escala relativa cobre toda a progressão",
+   "descricao": "Como a escala de lá menor e a de dó maior têm as mesmas notas, a pentatônica de lá menor soa coerente sobre todos os acordes dessa base.",
+   "passos": [],
+   "timestamp": "06:25",
+   "nivel": "iniciante",
+   "tags": [
+    "relativa-menor",
+    "tonal",
+    "pentatonica"
+   ],
+   "id_global": "z1YGMPsz-rU#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Definição de improvisação tonal",
+   "descricao": "Na improvisação tonal, toda a progressão está no mesmo tom e você usa uma única escala que contém todos os acordes, sem precisar trocar de escala a cada acorde.",
+   "passos": [],
+   "timestamp": "07:37",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisacao-tonal",
+    "escala-unica"
+   ],
+   "id_global": "z1YGMPsz-rU#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Priorizar o fraseado na improvisação tonal",
+   "descricao": "Como a escala cobre os acordes, a atenção fica no desenho melódico e na construção das frases, não em checar cada acorde isoladamente.",
+   "passos": [],
+   "timestamp": "07:37",
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "tonal",
+    "criatividade"
+   ],
+   "id_global": "z1YGMPsz-rU#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "erro_comum",
+   "titulo": "Dó natural sobre acorde de lá maior",
+   "descricao": "Sobre lá maior (lá, dó sustenido, mi), a nota dó natural, vinda da escala de dó, é uma ♭3 que cria atrito com a terça do acorde. Por isso ela deve ser evitada ou usada só de passagem.",
+   "passos": [],
+   "timestamp": "08:16",
+   "nivel": "intermediario",
+   "tags": [
+    "nota-evitada",
+    "la-maior",
+    "atrito",
+    "escala-de-do"
+   ],
+   "id_global": "z1YGMPsz-rU#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Escala de dó sobre lá maior com ajustes",
+   "descricao": "A escala de dó pode ser usada sobre um acorde de lá maior desde que a nota dó seja evitada; o professor sugere que a escolha depende de observar quais notas da escala criam conflito com o acorde.",
+   "passos": [],
+   "timestamp": "08:50",
+   "nivel": "intermediario",
+   "tags": [
+    "escala-de-do",
+    "la-maior",
+    "notas-evitadas"
+   ],
+   "id_global": "z1YGMPsz-rU#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Definição de improvisação modal",
+   "descricao": "Na improvisação modal, você pensa em cada acorde isoladamente e escolhe o modo que o resolve, sem se prender a um campo harmônico único para a progressão inteira.",
+   "passos": [],
+   "timestamp": "10:41",
+   "nivel": "intermediario",
+   "tags": [
+    "improvisacao-modal",
+    "modos",
+    "acorde-isolado"
+   ],
+   "id_global": "z1YGMPsz-rU#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Modos que resolvem lá maior",
+   "descricao": "Para um acorde de lá maior, os modos que o resolvem são lá jônio (escala maior de lá), lá lídio e lá mixolídio, todos com lá como tônica.",
+   "passos": [],
+   "timestamp": "10:05",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "la-maior",
+    "lidio",
+    "mixolidio",
+    "jonio"
+   ],
+   "id_global": "z1YGMPsz-rU#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Acordes fora do campo analisados por outra tônica",
+   "descricao": "Um acorde que não cabe no campo harmônico principal pode ser lido como função de outra tônica: por exemplo, dó como IV de sol e ré como V de sol, o que permite escolher um modo ou escala coerente com a tônica vizinha.",
+   "passos": [],
+   "timestamp": "12:22",
+   "nivel": "intermediario",
+   "tags": [
+    "funcoes-harmonicas",
+    "acordes-fora-do-campo",
+    "tonica-vizinha"
+   ],
+   "id_global": "z1YGMPsz-rU#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Cada acorde com sua própria tônica",
+   "descricao": "Abordagem alternativa: para cada acorde, escolha uma escala ou modo que tenha a tônica desse acorde (por exemplo, lá para o acorde de lá), em vez de uma única escala para a progressão inteira.",
+   "passos": [],
+   "timestamp": "13:34",
+   "nivel": "intermediario",
+   "tags": [
+    "tonica-do-acorde",
+    "abordagem-modal",
+    "escolha-de-escala"
+   ],
+   "id_global": "z1YGMPsz-rU#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Estranheza inicial da abordagem modal",
+   "descricao": "Quem está acostumado ao som tonal pode achar que a improvisação modal soa errada no começo; é uma questão de costume do ouvido e vale praticar até se acostumar.",
+   "passos": [],
+   "timestamp": "14:11",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "habito",
+    "modal"
+   ],
+   "id_global": "z1YGMPsz-rU#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Onde a improvisação modal é comum",
+   "descricao": "A improvisação modal aparece com frequência no rock, no metal e no blues, em que os acordes costumam vir de centros diferentes. Ela também é mais elaborada de tocar.",
+   "passos": [],
+   "timestamp": "14:47",
+   "nivel": "intermediario",
+   "tags": [
+    "rock",
+    "metal",
+    "blues",
+    "estilo"
+   ],
+   "id_global": "z1YGMPsz-rU#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S12",
+   "tipo": "frase_lick",
+   "titulo": "Acorde maior com quarta aumentada pede lídio",
+   "descricao": "Quando o acorde maior tem a quarta aumentada (#4) como cor característica, o modo indicado é o lídio, que contém essa nota.",
+   "passos": [],
+   "timestamp": "15:55",
+   "nivel": "intermediario",
+   "tags": [
+    "lidio",
+    "quarta-aumentada",
+    "modo-por-acorde"
+   ],
+   "id_global": "z1YGMPsz-rU#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Menor com sexta maior pede dórico",
+   "descricao": "Sobre um acorde menor com sexta maior, o modo indicado é o dórico, cuja sexta maior e sétima menor o diferenciam da menor natural.",
+   "passos": [],
+   "timestamp": "16:36",
+   "nivel": "intermediario",
+   "tags": [
+    "dorico",
+    "menor",
+    "sexta-maior",
+    "modo-por-acorde"
+   ],
+   "id_global": "z1YGMPsz-rU#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Dominante pede mixolídio",
+   "descricao": "Sobre um acorde de sétima dominante (ex.: G7 = G B D F), o modo indicado é o mixolídio, que tem a sétima menor, ♭7 do acorde.",
+   "passos": [],
+   "timestamp": "16:36",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolidio",
+    "dominante",
+    "setima-menor"
+   ],
+   "id_global": "z1YGMPsz-rU#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S14",
+   "tipo": "conceito",
+   "titulo": "Resumo da improvisação tonal",
+   "descricao": "Improvisação tonal é quando toda a harmonia está no mesmo tom: você usa a escala desse tom sobre toda a progressão, e ela cobre todos os acordes sem importar o desenho melódico.",
+   "passos": [],
+   "timestamp": "18:30",
+   "nivel": "iniciante",
+   "tags": [
+    "tonal",
+    "resumo"
+   ],
+   "id_global": "z1YGMPsz-rU#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S14",
+   "tipo": "conceito",
+   "titulo": "Resumo da improvisação modal",
+   "descricao": "Improvisação modal é quando você pensa em cada acorde separadamente e escolhe o modo para ele; é geralmente usada quando a harmonia tem acordes sortidos, vindos de lugares diferentes.",
+   "passos": [],
+   "timestamp": "18:30",
+   "nivel": "intermediario",
+   "tags": [
+    "modal",
+    "resumo",
+    "acordes-sortidos"
+   ],
+   "id_global": "z1YGMPsz-rU#I24"
+  }
+ ],
+ "artistas_citados": [
+  "Guns N' Roses",
+  "Black Sabbath",
+  "AC/DC"
+ ],
+ "musicas_citadas": [
+  "Sweet Child O' Mine",
+  "Iron Man",
+  "Back In Black"
+ ],
+ "recursos_citados": [
+  "Base de acordes gravada pelo professor durante a aula",
+  "Aulas gratuitas enviadas por e-mail (lista de inscrição divulgada no vídeo)"
+ ],
+ "observacoes": "Transcrição automática com muitos erros (ex.: 'lá maior' e 'lá menor' confundidos, 'campeão único' por 'tônica', 'nuno roque' provavelmente referência a guitarrista). Trechos 13:34-14:47 e 17:11-18:30 estão quase ininteligíveis e as ideias foram reconstruídas pelo contexto. A progressão exata das bases não é clara na fala; as notas indicadas seguem o contexto musical. Sweet Child O' Mine, Iron Man, Back In Black e os artistas aparecem apenas na descrição do vídeo, não na fala. Conteúdo sobre modos depende de ouvir a base para acompanhar. O vídeo tem bastante promoção de curso e lista de e-mail, descartada como não didática.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00414,
+  "via": "api"
+ }
+}

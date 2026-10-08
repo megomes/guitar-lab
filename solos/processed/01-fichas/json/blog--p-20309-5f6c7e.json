@@ -1,0 +1,474 @@
+{
+ "fonte_id": "blog--p-20309-5f6c7e",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+  "autor": "TrueFire",
+  "url": "https://blog.truefire.com/?p=20309",
+  "site": "blog.truefire.com",
+  "idioma": "en",
+  "tema_coleta": "notas-alvo",
+  "arquivo_raw": "solos/raw/documentos/blog--p-20309-5f6c7e.md"
+ },
+ "resumo": "Artigo do blog da TrueFire sobre como solar sobre mudanças de acordes. Explica a ligação entre escalas e acordes, a diferença entre solo vertical (seguir os acordes) e horizontal (seguir a tonalidade) e o uso de notas-alvo (3ª e 7ª) com condução de vozes. Traz três exercícios práticos (arpejos sobre ii-V-I, 3ª e 7ª em blues, solo em uma corda) e erros comuns. É voltado a guitarristas que já dominam as caixas de pentatônica e querem tocar sobre ii-V-I e progressões mais sofisticadas. Tem bastante texto promocional de cursos da TrueFire.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Boa visão conceitual e três exercícios claros, mas é superficial: quase não há notas, posições ou BPM além do exemplo Dm7–G7–Cmaj7 e do E sobre C7. Há muito conteúdo promocional."
+ },
+ "assuntos_principais": [
+  "solo sobre mudanças de acordes",
+  "notas-alvo",
+  "condução de vozes",
+  "solo vertical vs horizontal",
+  "arpejos",
+  "ii-V-I",
+  "escalas e acordes",
+  "blues"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: o problema de sair da pentatônica",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o problema de quem domina as caixas de pentatônica menor e o shuffle de blues, mas se perde em ii-V-I maior ou acordes 'outside'. Propõe ir além de tocar apenas na tonalidade.",
+   "assuntos": [
+    "introdução",
+    "ii-V-I",
+    "pentatônica"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Conectando escalas e acordes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Cada acorde tem uma escala 'base'. Enxergar os tons do acorde dentro dos shapes das escalas elimina o chute e mostra quais notas soam doces e quais geram tensão.",
+   "assuntos": [
+    "escalas e acordes",
+    "Lydian",
+    "tons do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Solo vertical vs. horizontal",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Compara a abordagem vertical (tocar os acordes, trocando escala ou arpejo a cada acorde) com a horizontal (tocar a tonalidade e criar linhas melódicas contínuas). Sugere combinar as duas.",
+   "assuntos": [
+    "vertical",
+    "horizontal",
+    "melodia",
+    "arpejos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "O poder das notas-alvo e da condução de vozes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica por que mirar na 3ª ou 7ª do novo acorde (guide tones) e como conectar notas entre acordes com o menor movimento possível.",
+   "assuntos": [
+    "notas-alvo",
+    "guide tones",
+    "voice leading"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Três exercícios práticos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Superposição de arpejos sobre ii-V-I, conector de 3ª e 7ª em blues e desafio de solar em uma corda só. Cita as ferramentas de slow-mo e loop da TrueFire.",
+   "assuntos": [
+    "exercícios",
+    "arpejos",
+    "blues",
+    "uma corda",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Erros comuns",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Ignorar o ritmo, tocar notas demais e depender só dos olhos em vez do ouvido.",
+   "assuntos": [
+    "fraseado",
+    "espaço",
+    "ouvido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Conclusão e chamada para o teste grátis",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Fecha reforçando a prática de conectar escalas e acordes e mirar nas notas-alvo, e convida para o teste de 14 dias do TrueFire All Access.",
+   "assuntos": [
+    "conclusão",
+    "promoção"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Cada acorde tem uma escala 'base'",
+   "descricao": "Para cada acorde existe uma escala de referência. Por exemplo, sobre Cmaj7 você pode imaginar a escala de C maior ou o modo C Lydian. Isso conecta o acorde ao material melódico disponível.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escalas",
+    "acordes",
+    "Lydian",
+    "Cmaj7"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Enxergue os tons do acorde dentro dos shapes da escala",
+   "descricao": "Ao localizar os tons do acorde (1-3-5-7) dentro dos desenhos da escala, você para de adivinhar e sabe quais notas soam doces (tons do acorde) e quais criam tensão. É o primeiro passo para um som profissional.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "tons do acorde",
+    "shapes",
+    "tensão"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "recurso",
+   "titulo": "Revisar teoria de acordes antes",
+   "descricao": "O artigo recomenda revisar como os acordes são construídos para que a base de ligar escalas e acordes fique sólida.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "teoria",
+    "acordes"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Solo vertical (tocar as mudanças)",
+   "descricao": "Trata cada acorde como uma ilha: quando o acorde muda, muda a escala ou o arpejo. Vantagem: soa sempre afinado com a harmonia. Desvantagem: pode soar 'pulado' e desconectado se não houver transições suaves.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vertical",
+    "arpejos",
+    "harmonia"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Solo horizontal (linear)",
+   "descricao": "Foca na tonalidade geral: escolhe-se uma escala que funcione sobre um grupo de acordes e buscam-se fios melódicos que os unam. Vantagem: melodias mais cantáveis e líricas. Desvantagem: pode perder as notas de 'sabor' específicas de cada acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "horizontal",
+    "melodia",
+    "escalas"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Misture linhas horizontais com arpejos verticais",
+   "descricao": "Músicos como Larry Carlton e Pat Metheny combinam as duas abordagens: usam linhas horizontais para criar fluxo e arpejos verticais para destacar as trocas harmônicas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "vertical",
+    "horizontal",
+    "fraseado",
+    "arpejos"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Notas-alvo: mire num tom do acorde quando ele chega",
+   "descricao": "Nota-alvo é uma nota específica, geralmente um tom do acorde como a 3ª ou a 7ª, que você busca quando um novo acorde chega. É o 'molho secreto' para solar sobre mudanças.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "tons do acorde",
+    "mudanças"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Por que a 3ª e a 7ª (guide tones)",
+   "descricao": "A 3ª e a 7ª definem a qualidade do acorde (maior, menor ou dominante). Tocar a 3ª de um C7 (a nota E) exatamente quando o acorde entra faz o ouvido reconhecer a harmonia na linha, criando resolução e autoridade.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "guide tones",
+    "3ª",
+    "7ª",
+    "C7"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Condução de vozes (voice leading) por semitom ou tom",
+   "descricao": "Mova-se de uma nota de um acorde para uma nota do próximo pela menor distância possível, normalmente meio tom ou um tom. Isso dá um som fluido e sofisticado e evita a armadilha de tocar só em caixas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "voice leading",
+    "semitom",
+    "fluidez"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Superposição de arpejos sobre ii-V-I",
+   "descricao": "Sobre um ii-V-I simples (Dm7 – G7 – Cmaj7), em vez de usar a pentatônica de Ré menor sobre tudo, toque apenas o arpejo de cada acorde. O objetivo é tocar 1-3-5-7 de cada acorde sem pausar quando o ritmo muda.",
+   "passos": [
+    "Escolha a progressão Dm7 – G7 – Cmaj7 e use um backing track.",
+    "Em cada acorde, toque somente o arpejo dele (1-3-5-7).",
+    "Passe de um arpejo ao outro sem interromper o fluxo rítmico.",
+    "Repita até conseguir trocar sem pausas."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "ii-V-I",
+    "Dm7",
+    "G7",
+    "Cmaj7"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Conector de 3ª e 7ª no blues",
+   "descricao": "Sobre uma progressão de blues simples, faça com que a primeira nota em cada troca de acorde seja a 3ª ou a 7ª do novo acorde. Isso força a visualizar as notas-alvo em tempo real.",
+   "passos": [
+    "Toque sobre uma progressão de blues simples com backing track.",
+    "A cada troca de acorde, comece a frase na 3ª ou na 7ª do novo acorde.",
+    "Continue a frase livremente depois dessa nota inicial.",
+    "Repita em todos os acordes do ciclo, variando entre 3ª e 7ª."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "blues",
+    "3ª",
+    "7ª"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Desafio de uma corda só",
+   "descricao": "Solar sobre um backing track usando apenas uma corda. Isso tira a dependência dos shapes verticais em caixas e obriga a pensar horizontalmente, focando na melodia e nos intervalos entre as notas.",
+   "passos": [
+    "Escolha um backing track.",
+    "Escolha uma única corda e não saia dela.",
+    "Foque em melodia e nos intervalos entre as notas, deslizando pelo braço."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "uma corda",
+    "horizontal",
+    "intervalos",
+    "backing track"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Use slow-mo e loop para estudar as transições",
+   "descricao": "Ferramentas de câmera lenta e loop (como as da TrueFire) tornam os exercícios mais eficazes, pois permitem captar cada nuance da transição entre acordes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "estudo",
+    "loop",
+    "slow-mo"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Ignorar o ritmo",
+   "descricao": "Você pode tocar as notas certas, mas se o fraseado for rígido não vai balançar. Use espaço e síncope para fazer as linhas, inclusive as 'outside', respirarem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ritmo",
+    "fraseado",
+    "síncope",
+    "espaço"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Tocar demais",
+   "descricao": "Poder tocar todas as mudanças não significa que se deva. Às vezes manter uma única nota do acorde sobre dois acordes diferentes cria uma tensão bonita.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "overplaying",
+    "tensão",
+    "espaço",
+    "nota sustentada"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Confie no ouvido, não só nos olhos",
+   "descricao": "Não dependa apenas de olhar os shapes no braço. Se uma nota soa bem, ela é boa, mesmo que não se encaixe num modelo teórico 'perfeito'.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "musicalidade"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Solar sobre mudanças é maratona, não sprint",
+   "descricao": "Exige teoria, destreza e curiosidade musical. Combinar escalas e acordes, vertical e horizontal e notas-alvo tira você do grupo que fica preso na caixa pentatônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "pentatônica",
+    "mentalidade"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Curso Soloing the Changes, de Jeff McErlain",
+   "descricao": "O artigo indica o curso 'Soloing the Changes' de Jeff McErlain, da TrueFire, para ver como navegar por mudanças sofisticadas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "curso",
+    "TrueFire",
+    "mudanças"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Curso Jazz Textures, de Christopher Woitach",
+   "descricao": "O artigo recomenda o curso 'Jazz Textures' de Christopher Woitach para aprender a misturar feeling de blues com escolha de notas mais sofisticada, ligado ao exercício de 3ª e 7ª.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "curso",
+    "TrueFire",
+    "blues",
+    "jazz"
+   ],
+   "id_global": "blog--p-20309-5f6c7e#I19"
+  }
+ ],
+ "artistas_citados": [
+  "Larry Carlton",
+  "Pat Metheny",
+  "Jeff McErlain",
+  "Christopher Woitach",
+  "Jack Ruch"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Soloing the Changes (Jeff McErlain, TrueFire)",
+  "Jazz Textures (Christopher Woitach, TrueFire)",
+  "TrueFire All Access (teste grátis de 14 dias)",
+  "Ferramentas de slow-mo e loop da TrueFire",
+  "Backing tracks"
+ ],
+ "observacoes": "Documento em inglês, traduzido e resumido. Texto com forte tom promocional (TrueFire) e pouco concreto: sem tablatura, notação ou BPM. Exemplos são só Dm7–G7–Cmaj7, o E como 3ª de C7 e um blues genérico. A menção a Jack Ruch fala de uso de espaço e síncope, sem detalhar. Há um trecho 'Check out a sample lesson here:' sem o vídeo/link no conteúdo extraído. Timestamps nulos por ser documento.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:24",
+  "tentativas": 1,
+  "custo_usd": 0.2725
+ }
+}

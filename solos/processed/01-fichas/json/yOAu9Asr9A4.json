@@ -1,0 +1,233 @@
+{
+ "fonte_id": "yOAu9Asr9A4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Como improvisar na guitarra?",
+  "autor": "Gustavo Guerra",
+  "url": "https://www.youtube.com/watch?v=yOAu9Asr9A4",
+  "idioma": "pt",
+  "duracao": "5m 38s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/yOAu9Asr9A4--como-improvisar-na-guitarra.md"
+ },
+ "resumo": "Gustavo Guerra mostra como sair da \"caixa\" da pentatônica menor ao improvisar, usando expansões: a partir de uma nota da penta (sol, em lá menor), subir um tom e tocar um arpejo (inteiro ou só metade), ou deslizar um tom/tom e meio e tocar tríades. Combinando pentatônica, fragmentos de arpejo e tríades, o guitarrista se movimenta pelo braço sem precisar pensar em muitos elementos. Serve de iniciante a avançado, conforme o desenvolvimento no fraseado. O vídeo é curto, demonstrativo e depende de ver o instrumento.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceito útil e prático (expandir a penta com arpejos e tríades), mas explicado oralmente e rápido, com notas e posições quase só mostradas no instrumento; a transcrição deixa detalhes ambíguos."
+ },
+ "assuntos_principais": [
+  "pentatônica menor",
+  "expansão da pentatônica",
+  "arpejos",
+  "tríades",
+  "fraseado",
+  "navegação no braço"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: o problema de pensar só na pentatônica",
+   "inicio": "00:00",
+   "fim": "00:40",
+   "resumo": "Apresenta o cenário: pedem para improvisar em uma tonalidade menor (lá menor) e a maioria pensa logo na pentatônica.",
+   "assuntos": [
+    "pentatônica",
+    "improvisação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Da nota da penta: subir um tom e usar arpejo ou fragmento",
+   "inicio": "00:40",
+   "fim": "02:25",
+   "resumo": "Ao chegar numa nota da penta (sol), subir um tom e tocar o arpejo completo ou só metade; outra ideia é deslizar um tom até o lá e tocar lá, fá, mi, dó, inclusive em oitavas.",
+   "assuntos": [
+    "arpejo",
+    "fragmentos",
+    "expansão da penta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Combinando penta, arpejo e tríades",
+   "inicio": "02:25",
+   "fim": "04:54",
+   "resumo": "Recapitula a sequência penta, deslize de um tom, arpejo parcial e volta à penta; apresenta deslizar um tom e meio para outra forma de pentatônica ou tríade, e a combinação das tríades como expansão aplicável em vários níveis.",
+   "assuntos": [
+    "tríades",
+    "conexão",
+    "expansão da penta",
+    "estudo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Convite para a turma Guitar Heroes",
+   "inicio": "04:54",
+   "fim": "05:38",
+   "resumo": "Divulgação da última turma do ano do curso Guitar Heroes e despedida.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Pensar só na pentatônica ao improvisar",
+   "descricao": "Quando pedem para improvisar numa tonalidade menor (ex.: lá menor), a maioria dos guitarristas pensa só na pentatônica tradicional e fica preso ao desenho da caixa. O vídeo propõe expansões para caminhar pelo braço além dela.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "caixa",
+    "limitação"
+   ],
+   "id_global": "yOAu9Asr9A4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Subir um tom a partir de uma nota da penta e tocar arpejo",
+   "descricao": "Ao chegar numa nota da pentatônica (no exemplo, o sol), suba um tom (para o lá) e toque o arpejo a partir dali. Isso cria uma conexão e tira a frase da área da pentatônica.",
+   "passos": [],
+   "timestamp": "01:17",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "arpejo",
+    "expansão",
+    "conexão"
+   ],
+   "id_global": "yOAu9Asr9A4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Usar só metade do arpejo",
+   "descricao": "Não é preciso tocar o arpejo completo: um pedaço (metade) já basta para sair da pentatônica e voltar a ela em seguida. Faça primeiro de forma lenta.",
+   "passos": [],
+   "timestamp": "01:17",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo",
+    "fragmento",
+    "fraseado"
+   ],
+   "id_global": "yOAu9Asr9A4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "frase_lick",
+   "titulo": "Fragmento: deslizar um tom até o lá e tocar lá-fá-mi-dó",
+   "descricao": "Com a ideia em lá menor, escorregue um tom até a nota lá e toque o fragmento lá, fá, mi, dó. Esse fragmento também pode ser tocado em oitavas, o que soa interessante.",
+   "passos": [],
+   "timestamp": "01:52",
+   "nivel": "intermediario",
+   "tags": [
+    "fragmento",
+    "slide",
+    "oitavas",
+    "lá menor"
+   ],
+   "id_global": "yOAu9Asr9A4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Sequência: penta, deslize de um tom, arpejo parcial, volta à penta",
+   "descricao": "Encadeie as ideias: toque a pentatônica, deslize um tom, toque um pedaço do arpejo (não completo), volte à pentatônica, repita a ideia de arpejo e volte ao fragmento. Pode ser estudado de forma mais técnica.",
+   "passos": [
+    "Toque a pentatônica menor",
+    "Deslize um tom para cima",
+    "Toque um pedaço do arpejo",
+    "Volte à pentatônica",
+    "Repita a ideia de arpejo e retome o fragmento"
+   ],
+   "timestamp": "02:25",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "arpejo",
+    "encadeamento",
+    "estudo"
+   ],
+   "id_global": "yOAu9Asr9A4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Deslizar um tom e meio: outra pentatônica ou outra tríade",
+   "descricao": "Se, em vez de um tom, você escorregar um tom e meio, cai num formato de pentatônica próximo ou numa outra tríade. Isso dá mais um recurso de conexão entre regiões do braço.",
+   "passos": [],
+   "timestamp": "03:02",
+   "nivel": "avancado",
+   "tags": [
+    "tríade",
+    "pentatônica",
+    "slide",
+    "conexão"
+   ],
+   "id_global": "yOAu9Asr9A4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Estudar as duas tríades no mesmo formato",
+   "descricao": "Estude as duas tríades (a de um tom acima e a de um tom e meio) no formato mostrado, para usá-las como fragmentos dentro da pentatônica.",
+   "passos": [],
+   "timestamp": "03:36",
+   "nivel": "avancado",
+   "tags": [
+    "tríade",
+    "estudo",
+    "formato"
+   ],
+   "id_global": "yOAu9Asr9A4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Poucos elementos para uma expansão grande",
+   "descricao": "Com pentatônica menor, ideia de arpejo, duas tríades e a expansão em oitava, você já cobre o braço sem precisar pensar em muitos elementos separados. O sistema é simples e pode ser aplicado de forma iniciante ou avançada, dependendo de como se desenvolve no fraseado.",
+   "passos": [],
+   "timestamp": "04:13",
+   "nivel": "intermediario",
+   "tags": [
+    "simplicidade",
+    "fraseado",
+    "expansão"
+   ],
+   "id_global": "yOAu9Asr9A4#I08"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso/turma Guitar Heroes (Gustavo Guerra)",
+  "Masterclass Guitar Heroes - gustavoguerra.com.br"
+ ],
+ "observacoes": "Transcrição automática ruim: \"peta fônica\"=pentatônica, \"R menor\"=lá menor, \"arquejo\"=arpejo, \"mais lent\" truncado. As notas e posições exatas dependem de ver o vídeo; qual tríade/arpejo é usado não é dito com clareza (provavelmente em lá menor). Nenhuma backing track citada.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:39",
+  "tentativas": 1,
+  "custo_usd": 0.096
+ }
+}

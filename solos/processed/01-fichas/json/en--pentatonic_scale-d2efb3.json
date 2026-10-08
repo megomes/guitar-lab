@@ -1,0 +1,435 @@
+{
+ "fonte_id": "en--pentatonic_scale-d2efb3",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Pentatonic scale - Wikipedia",
+  "autor": "Authority control databases International GND National Israel",
+  "url": "https://en.wikipedia.org/wiki/Pentatonic_scale",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--pentatonic_scale-d2efb3.md"
+ },
+ "resumo": "A fonte é um artigo da Wikipédia sobre a escala pentatônica, explicando sua definição (cinco notas por oitava), a diferença entre pentatônicas hemitônicas e anhemitônicas, as escalas maior e menor pentatônicas, seus modos, afinação, usos em diversas tradições musicais e papel na educação musical. Trata-se de material teórico e histórico, com pouca orientação prática para execução. Destina-se a quem quer entender a teoria e o contexto cultural da escala, sobretudo estudantes de música e guitarristas interessados em fundamentos.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Fonte confiável e bem organizada para conceitos teóricos, com exemplos de notas concretos (C-D-E-G-A, Am). Porém é enciclopédica, sem exercícios, digitações ou aplicação direta ao solo na guitarra, e contém muitas informações históricas e acústicas pouco práticas para improvisação."
+ },
+ "assuntos_principais": [
+  "escala pentatônica",
+  "pentatônica maior",
+  "pentatônica menor",
+  "hemitônica e anhemitônica",
+  "modos da pentatônica",
+  "relação com modos diatônicos",
+  "intervalos a partir da tônica",
+  "afinação e acústica",
+  "uso da pentatônica em estilos musicais",
+  "improvisação no jazz com pentatônicas",
+  "pentatônica na educação musical"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e tipos de escalas pentatônicas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define a escala pentatônica como escala de cinco notas por oitava e distingue pentatônicas hemitônicas (com semitons) das anhemitônicas (sem semitons), citando o exemplo da escala yo e in japonesa.",
+   "assuntos": [
+    "definição de pentatônica",
+    "hemitônica",
+    "anhemitônica",
+    "escala yo",
+    "escala in"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica maior e sua construção",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica a pentatônica maior como escala diatônica incompleta (graus 1, 2, 3, 5 e 6), construída pelo círculo de quintas ou omitindo quarto e sétimo graus de Dó maior, resultando em C-D-E-G-A. Também mostra outras transposições e a escala de Sol♭ maior nas teclas pretas do piano.",
+   "assuntos": [
+    "pentatônica maior",
+    "círculo de quintas",
+    "construção por omissão de graus",
+    "transposições",
+    "teclas pretas do piano"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica menor e sua relação com a guitarra",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta a pentatônica menor relativa como graus 1, ♭3, 4, 5 e ♭7 da menor natural, com Lá menor pentatônica (A C D E G) como relativa de Dó pentatônica, e observa que a afinação padrão da guitarra usa as notas de Mi menor pentatônica.",
+   "assuntos": [
+    "pentatônica menor",
+    "relativa menor",
+    "Lá menor pentatônica",
+    "afinação padrão da guitarra",
+    "Mi menor pentatônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Modos e relações com escalas diatônicas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista os cinco modos da pentatônica com nomes, tabelas de notas em Dó e suas relações com modos diatônicos (jônio, mixolídio, dórico, eólio, frígio), além de intervalos a partir da tônica.",
+   "assuntos": [
+    "modos da pentatônica",
+    "relação com modos diatônicos",
+    "intervalos a partir da tônica",
+    "omissão de semitons"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Afinação e aspectos acústicos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Trata de afinações pitagórica, justa e de culturas como slendro do gamelan e afinações de Lou Harrison, com razões de frequência. Conteúdo acústico e pouco aplicável diretamente à guitarra.",
+   "assuntos": [
+    "afinação pitagórica",
+    "intonação justa",
+    "slendro",
+    "gamelan",
+    "Lou Harrison"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Usos da pentatônica em tradições musicais",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista tradições musicais que usam pentatônica (folk, blues, rock, jazz, gospel, música asiática, andina e africana) e exemplos na música clássica como Chopin, Debussy, Ravel e Puccini, além de ragas indianos.",
+   "assuntos": [
+    "usos culturais",
+    "música clássica",
+    "ragas",
+    "blues",
+    "rock",
+    "jazz"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S7",
+   "titulo": "Pentatônica no jazz e na improvisação",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica por que a pentatônica funciona para improvisar sobre acordes diatônicos: as notas evitam a tensão de meio tom sobre a terça do acorde, pois são tríades ou extensões consonantes. Relaciona a escala blues à pentatônica menor.",
+   "assuntos": [
+    "improvisação",
+    "jazz",
+    "escala blues",
+    "notas consonantes",
+    "terça do acorde",
+    "tensão de meio tom"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Pentatônica na educação musical",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve o uso da pentatônica nas metodologias Orff, Kodály e Waldorf para crianças, com instrumentos de lâminas e improvisação sem erros harmônicos.",
+   "assuntos": [
+    "educação musical",
+    "método Orff",
+    "método Kodály",
+    "Waldorf"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônica como escala de cinco notas",
+   "descricao": "A pentatônica é uma escala com cinco notas por oitava, em oposição às heptatônicas (como a maior e a menor natural), que têm sete.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "heptatônica"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Hemitônica versus anhemitônica",
+   "descricao": "Pentatônicas hemitônicas contêm pelo menos um semitom; as anhemitônicas não contêm semitons. A escala yo japonesa é anhemitônica e a in é hemitônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "hemitônica",
+    "anhemitônica",
+    "escala yo"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior como maior com graus omitidos",
+   "descricao": "A pentatônica maior usa os graus 1, 2, 3, 5 e 6 da escala maior; em Dó, são C-D-E-G-A. Omitindo o quarto e o sétimo graus de Dó maior (F e B) chega-se à mesma escala.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "construção de escala"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Construir pentatônica maior pelo círculo de quintas",
+   "descricao": "Partindo de Dó e tomando cinco notas consecutivas no círculo de quintas (C, G, D, A, E), reorganize-as dentro de uma oitava para obter a pentatônica maior de Dó: C, D, E, G, A.",
+   "passos": [
+    "Comece em Dó.",
+    "Ande pelo círculo de quintas: Dó, Sol, Ré, Lá, Mi.",
+    "Reorganize as cinco notas dentro de uma oitava em ordem crescente.",
+    "Resultado: C, D, E, G, A."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "círculo de quintas",
+    "pentatônica maior"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor como relativa da maior",
+   "descricao": "A pentatônica menor usa os graus 1, ♭3, 4, 5 e ♭7 da escala menor natural. É a relativa menor da pentatônica maior: Lá menor pentatônica (A, C, D, E, G) tem as mesmas notas de Dó pentatônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "relativa menor"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Lá menor pentatônica contém a tríade de Lá menor",
+   "descricao": "A pentatônica de Lá menor (A, C, D, E, G) contém as três notas da tríade de Lá menor (A, C, E), o que a torna boa para improvisar sobre Am.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "tríade menor",
+    "notas-alvo"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Afinação padrão da guitarra e a pentatônica de Mi menor",
+   "descricao": "A afinação padrão da guitarra (E-A-D-G-B-E) corresponde às notas da pentatônica de Mi menor, o que contribui para a popularidade do instrumento na música popular.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "afinação",
+    "mi menor pentatônica",
+    "guitarra"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Os cinco modos da pentatônica",
+   "descricao": "A pentatônica de Dó (C, D, E, G, A) possui cinco modos, obtidos ao tomar cada uma de suas notas como tônica: maior, suspensa/egípcia (D), blues maior (G), menor (A) e blues menor (E).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "pentatônica",
+    "blues menor",
+    "blues maior"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Blues menor a partir de Mi",
+   "descricao": "O modo de Mi da pentatônica de Dó dá E, G, A, C, D, cujas notas formam a pentatônica de Mi com características de blues menor, sendo chamada de blues menor na tabela da fonte.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues menor",
+    "modos"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Modos diatônicos correspondentes à pentatônica menor",
+   "descricao": "A pentatônica menor (modo de Lá) se encontra nos modos dórico, eólio e frígio, pois suas cinco notas são os graus compartilhados por esses três modos diatônicos, com as notas omitidas sendo o segundo e o sexto graus.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "modos diatônicos",
+    "dórico",
+    "eólio",
+    "frígio"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Por que a pentatônica funciona sobre acordes",
+   "descricao": "Sobre um acorde de Dó maior (C, E, G), a nota F é dissonante por ser meio tom acima da terça (E). A pentatônica maior evita essa nota, pois seus graus 1, 2, 3, 5 e 6 são tons do acorde ou extensões consonantes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "tensão de meio tom",
+    "terça",
+    "pentatônica maior"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor sobre acordes menores",
+   "descricao": "A pentatônica menor (1, ♭3, 4, 5, ♭7) trabalha sobre acordes menores porque as notas são tônicas menores (1, ♭3, 5) ou extensões comuns (4, ♭7), evitando notas a meio tom de notas do acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "extensões",
+    "notas consonantes"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Pentatônica como alternativa à escala-mãe",
+   "descricao": "Em jazz, pop e rock, a pentatônica costuma funcionar bem sobre vários acordes diatônicos da mesma tonalidade, muitas vezes melhor do que a escala que lhe deu origem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "jazz",
+    "rock"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Escala blues derivada da pentatônica menor",
+   "descricao": "A escala blues deriva predominantemente da pentatônica menor, sendo muito usada em improvisação no blues e no rock.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "escala blues",
+    "blues",
+    "rock"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Razões de frequência da pentatônica pitagórica",
+   "descricao": "Na afinação pitagórica, a pentatônica menor de Lá usa as razões 1/1, 32/27, 4/3, 3/2, 16/9 e 2/1 entre as notas A, C, D, E, G e A.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "afinação pitagórica",
+    "razões"
+   ],
+   "id_global": "en--pentatonic_scale-d2efb3#I15"
+  }
+ ],
+ "artistas_citados": [
+  "Leonard Bernstein",
+  "Stevie Wonder",
+  "Frédéric Chopin",
+  "Claude Debussy",
+  "Maurice Ravel",
+  "Giacomo Puccini",
+  "Ben Johnston",
+  "Lou Harrison",
+  "Carl Orff",
+  "Ramon Ricker",
+  "Annie G. Gilchrist",
+  "Ludwig van Beethoven"
+ ],
+ "musicas_citadas": [
+  "Superstition",
+  "Amazing Grace",
+  "Madama Butterfly",
+  "Turandot"
+ ],
+ "recursos_citados": [
+  "Music: In Theory and Practice (Benward e Saker)",
+  "Pentatonic Khancepts (Steve Khan)",
+  "Guitar Theory for Dummies (Desi Serna)",
+  "Pentatonic Scales for Jazz Improvisation (Ramon Ricker)",
+  "Pentatonic Improvisation: Modern Pentatonic Ideas for Guitarists of All Styles (Erik Halbig)",
+  "Pentatonicism from the Eighteenth Century to Debussy (Jeremy Day-O'Connell)",
+  "Pentatonicism in Jazz (Yamaguchi Masaya)"
+ ],
+ "observacoes": "Documento enciclopédico sem timestamps, portanto inicio, fim e timestamp estão nulos. Há uma incoerência na tabela de modos da fonte: o modo de Mi (blues menor) está listado como pentatônica de Dó com notas 'C–E♭–F–A♭–B♭' em uma coluna, o que se refere a outra transposição; as ideias usam as notas corretas calculadas. A tabela de intervalos está incompleta e não lista todas as notas. Conteúdo sobre afinação e acústica é de pouca utilidade prática para improvisação na guitarra. Algumas citações estão marcadas como 'citation needed' ou 'failed verification' no próprio texto. O artigo não traz exercícios, digitações ou backing tracks.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00241,
+  "via": "api"
+ }
+}

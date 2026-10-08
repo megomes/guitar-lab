@@ -1,0 +1,1466 @@
+{
+ "titulo": "Mentalidade do improvisador",
+ "gancho": "Os grandes guitarristas não guardam escalas secretas. Eles erram e continuam tocando, escutam o que sai e tocam poucas notas com muita intenção.",
+ "porque_importa": "Quase todo bloqueio no improviso vem da cabeça, e não dos dedos: medo de errar, excesso de informação, a ideia de que improvisar é dom. Se você mudar essas crenças, a pentatônica que já conhece passa a render muito mais. Esta lição é o alicerce para todas as outras da aba.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Improviso é treino, não dom",
+   "texto": "Ninguém nasce improvisando. Criar música em tempo real é uma habilidade própria, diferente de tocar escalas e exercícios técnicos. Tem pianista clássico de altíssimo nível que trava na hora de improvisar porque nunca treinou isso. A boa notícia é que dá para começar hoje, com um backing track e uma única forma de escala. Matteo Mancuso resume: o jeito mais rápido de evoluir é soltar e improvisar.",
+   "destaque": "Você soa como aquilo que pratica. Se o seu estudo é subir e descer escala, o seu solo vai soar assim.",
+   "visual": null
+  },
+  {
+   "titulo": "O erro é passagem, não parada",
+   "texto": "Na prática criativa não existe execução perfeita. Nota estranha, ideia boba e frase que não deu certo fazem parte do processo, como o bebê que cai antes de andar. Todo mundo erra; os bons se recuperam rápido. Quando sair uma nota feia, não pare a música: quase sempre há uma nota boa a um passo de distância. E se você repetir o 'erro' de propósito, ele passa a soar como escolha.",
+   "destaque": "Não pare, não recomece: resolva na nota vizinha.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Esbarrão e resgate sobre Am. O C♯ (corda 3, casa 6) bate de frente com o acorde. O resgate fica a um passo: meio tom abaixo (C) ou meio tom acima (D, que leva ao E). No compasso 3 o 'erro' volta de propósito e passa a ser uma ideia.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O ouvido decide, a teoria é o mapa",
+   "texto": "Os professores divergem sobre a ordem. Uns mandam sentir primeiro e analisar depois. Outros dizem que algumas regras básicas poupam anos de tentativa e erro. A síntese mais útil junta os dois lados: a teoria dá nome aos sons e mostra onde eles estão, mas quem decide se a nota fica é o ouvido. Para não brigar com você mesmo, separe dois momentos. No estudo, vá devagar e analise. Na hora de tocar, confie no que já internalizou e não fique calculando. Uma última regra: só considere que aprendeu um conceito quando ele virar som no instrumento.",
+   "destaque": "Estude devagar; toque sem calcular.",
+   "visual": null
+  },
+  {
+   "titulo": "Não há segredo: menos é mais",
+   "texto": "Muitos solos famosos de rock, blues e funk são basicamente pentatônica e escala maior. O que muda é o jeito de tocar: ritmo, fraseado, bend, vibrato, escolha das notas. Se você não consegue fazer música com cinco notas, juntar mais notas não resolve, e o excesso de informação é o que mais trava o solo. Escolha uma forma, como o shape 1 ao lado, e trate-a como sua assinatura. Uma frase lenta tocada com intenção diz mais que uma corrida de notas sem rumo.",
+   "destaque": "Se faltam ideias, o problema é a abordagem, não a escala.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5 a 8). Os anéis marcam as três tônicas (A), que são o porto seguro. Para começar a improvisar, você não precisa de mais nada.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Linguagem, intenção e voz própria",
+   "texto": "Improvisar é falar. Ninguém inventa palavras novas para conversar: você organiza na hora o vocabulário que já tem. Decida o clima antes de começar e deixe cada frase responder à anterior. Toque com direção, e não torcendo para acertar. A voz própria vem de misturar ídolos e influências e dos seus detalhes de execução: como você faz o bend e o vibrato, quais hábitos aparecem sem você planejar. Isso leva meses e anos, e o caminho faz parte do prazer.",
+   "destaque": "Ídolo é trampolim, não destino.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 32,
+   "porque": "O Active Melody explica por que nunca se deve parar a faixa nem recomeçar a frase depois de um erro, e como seguir adiante.",
+   "fonte": {
+    "id": "7FilvCPSYXc#I04",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+    "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=131s",
+    "video": "7FilvCPSYXc",
+    "inicio": 131,
+    "momento": "02:13",
+    "ideia": "Não parar nem recomeçar ao errar"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "O JustinGuitar mostra a dica que ele considera a mais importante: repetir cada nota com calma sobre a base para ouvir se ela repousa ou se puxa para outro lugar.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I08",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=401s",
+    "video": "OkTBizvNWoI",
+    "inicio": 401,
+    "momento": "06:43",
+    "ideia": "Testar cada nota só uma vez"
+   }
+  },
+  {
+   "ref": 22,
+   "porque": "Barney Kessel defende que a única forma de ficar bom em inventar é inventar sempre, aceitando os erros pelo caminho.",
+   "fonte": {
+    "id": "IB1UZhiZMYw#I11",
+    "tipo": "video",
+    "autor": "Rumark Video",
+    "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+    "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=421s",
+    "video": "IB1UZhiZMYw",
+    "inicio": 421,
+    "momento": "07:03",
+    "ideia": "Para criar, continue criando e aceite os erros"
+   }
+  },
+  {
+   "ref": 144,
+   "porque": "Daniel Seriff desmonta a caça a 'segredos': os grandes usam pentatônica e escalas de sete notas, e a diferença está em como tocam.",
+   "fonte": {
+    "id": "On_Ho3azaLk#I03",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=98s",
+    "video": "On_Ho3azaLk",
+    "inicio": 98,
+    "momento": "01:40",
+    "ideia": "Os grandes músicos usam mais pentatônica e escalas de sete notas"
+   }
+  },
+  {
+   "ref": 7,
+   "porque": "Paul Davids e Matteo Mancuso falam sobre não esperar dominar tudo para começar a improvisar.",
+   "fonte": {
+    "id": "XL9TYmwkHWs#I01",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+    "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=150s",
+    "video": "XL9TYmwkHWs",
+    "inicio": 150,
+    "momento": "02:32",
+    "ideia": "Não esperar dominar tudo para improvisar"
+   }
+  },
+  {
+   "ref": 155,
+   "porque": "Andrew Clarke sugere escolher uma única forma de escala como assinatura e explorá-la até o fim antes de partir para outras.",
+   "fonte": {
+    "id": "930K2lldQD8#I01",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "How to Get “Good” At Improvising on Guitar",
+    "url": "https://www.youtube.com/watch?v=930K2lldQD8&t=74s",
+    "video": "930K2lldQD8",
+    "inicio": 74,
+    "momento": "01:16",
+    "ideia": "Escolher uma única forma de escala como assinatura"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "A faixa inteira, sem parar",
+   "objetivo": "Treinar a habilidade de seguir tocando aconteça o que acontecer, que é a base de toda performance.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Coloque um backing track de Lá menor com 3 a 4 minutos e deixe o shape 1 da pentatônica (V1) à vista.",
+    "Antes de dar play, combine consigo mesmo: a faixa vai do começo ao fim e a mão não sai da guitarra.",
+    "Comece em qualquer nota da forma. Toque frases curtas e deixe espaço entre elas.",
+    "Se errar, continue: segure a nota seguinte, volte para uma tônica (anéis) ou simplesmente faça uma pausa no tempo.",
+    "Quando a faixa acabar, anote uma frase de que gostou e um momento em que teve vontade de parar."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5 a 8). Os anéis marcam as três tônicas (A), que são o porto seguro. Para começar a improvisar, você não precisa de mais nada.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque a mesma faixa 3 dias seguidos e repare que a vontade de parar diminui.",
+    "Feche os olhos na segunda metade da faixa.",
+    "Use só as cordas 1, 2 e 3 da forma."
+   ],
+   "cuidado": "Parar a faixa 'só para arrumar uma coisinha'. Toda vez que você para, está treinando a parar.",
+   "inspirado_em": [
+    {
+     "id": "7FilvCPSYXc#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=131s",
+     "video": "7FilvCPSYXc",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Não parar nem recomeçar ao errar"
+    },
+    {
+     "id": "7FilvCPSYXc#I24",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=1032s",
+     "video": "7FilvCPSYXc",
+     "inicio": 1032,
+     "momento": "17:14",
+     "ideia": "Performar sem parar nem recomeçar"
+    },
+    {
+     "id": "ExhI4nkjOAY#I25",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=919s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 919,
+     "momento": "15:21",
+     "ideia": "Começar em algum ponto e seguir"
+    },
+    {
+     "id": "ea2g6P0pCKg#I01",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=0s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Começar pelo simples"
+    },
+    {
+     "id": "On_Ho3azaLk#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=597s",
+     "video": "On_Ho3azaLk",
+     "inicio": 597,
+     "momento": "09:59",
+     "ideia": "Esperar perfeição na prática criativa"
+    },
+    {
+     "id": "wEMMddpcIe0#I14",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=317s",
+     "video": "wEMMddpcIe0",
+     "inicio": 317,
+     "momento": "05:19",
+     "ideia": "Critério de interessante"
+    }
+   ]
+  },
+  {
+   "titulo": "Esbarrão e resgate a um passo",
+   "objetivo": "Perder o medo da nota errada, aprendendo que a nota boa quase sempre está meio tom ou um tom ao lado.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Toque V2 devagar sobre um acorde de Am (ou um backing track). Sinta o choque do C♯ e o alívio do C.",
+    "Repita só o compasso 3: o C♯ que volta passa a soar intencional, e não como acidente.",
+    "Agora improvise. Uma vez a cada frase, toque de propósito uma nota fora da forma (casa 6 na corda 3, casa 6 na corda 1 ou casa 6 na corda 6).",
+    "Resolva logo em seguida na nota da escala vizinha, de cima ou de baixo. Ouça qual das duas ficou melhor.",
+    "Termine sempre a frase numa nota da forma e deixe-a soar."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Esbarrão e resgate sobre Am. O C♯ (corda 3, casa 6) bate de frente com o acorde. O resgate fica a um passo: meio tom abaixo (C) ou meio tom acima (D, que leva ao E). No compasso 3 o 'erro' volta de propósito e passa a ser uma ideia.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Resolva só para baixo por 1 minuto e depois só para cima.",
+    "Repita o 'erro' duas vezes seguidas antes de resolver.",
+    "Sobre uma base de Am–G, repare que o mesmo esbarrão soa diferente em cada acorde."
+   ],
+   "cuidado": "Ficar parado na nota estranha, sem resolver. O resgate precisa vir logo em seguida e no tempo.",
+   "inspirado_em": [
+    {
+     "id": "wEMMddpcIe0#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=385s",
+     "video": "wEMMddpcIe0",
+     "inicio": 385,
+     "momento": "06:27",
+     "ideia": "Mover uma nota para a vizinha"
+    },
+    {
+     "id": "itLSHk5jnTI#I09",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+     "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=320s",
+     "video": "itLSHk5jnTI",
+     "inicio": 320,
+     "momento": "05:22",
+     "ideia": "Tentativa e erro guiada pelo ouvido"
+    },
+    {
+     "id": "W96yUcOEub0#I13",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+     "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=536s",
+     "video": "W96yUcOEub0",
+     "inicio": 536,
+     "momento": "08:58",
+     "ideia": "Confiar no ouvido ao corrigir a nota"
+    },
+    {
+     "id": "7FilvCPSYXc#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=131s",
+     "video": "7FilvCPSYXc",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Não parar nem recomeçar ao errar"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I03",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=98s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Qualquer nota pode soar bem"
+    }
+   ]
+  },
+  {
+   "titulo": "O clichê de propósito",
+   "objetivo": "Destravar quando a cabeça congela, tirando de você a obrigação de soar original.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Toque V3 duas vezes sobre o backing track de Am. É escala pura, sem vergonha nenhuma.",
+    "Na terceira vez, mantenha a mesma ideia e deixe só uma coisa escapar: uma nota repetida, uma pausa a mais, um ritmo torto.",
+    "Siga improvisando por 2 minutos. Sempre que travar, volte ao clichê e deixe ele levar você a outro lugar.",
+    "Se uma melodia boba vier à cabeça, como uma cantiga ou um jingle, cante e toque essa melodia."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "O clichê máximo: descer a escala inteira, respirar e subir de volta. Toque assim de propósito, sem vergonha nenhuma. Essa é a frase que ninguém deveria tocar, e é justamente por isso que ela serve para quebrar o gelo.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque o clichê bem lento e com muito vibrato na última nota.",
+    "Toque só a descida e responda com uma frase sua.",
+    "Cante o clichê antes de tocar."
+   ],
+   "cuidado": "Achar que o exercício é soar bem. O objetivo é perder o medo, e a frase pode ser ruim mesmo.",
+   "inspirado_em": [
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I07",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ser corny de propósito para soltar a criatividade"
+    },
+    {
+     "id": "HVG0MqzGz30#I15",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=521s",
+     "video": "HVG0MqzGz30",
+     "inicio": 521,
+     "momento": "08:43",
+     "ideia": "Errar por um tempo para destravar o improviso"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I37",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aceitar ideias ruins no processo"
+    },
+    {
+     "id": "dQZXiPA5wac#I26",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=647s",
+     "video": "dQZXiPA5wac",
+     "inicio": 647,
+     "momento": "10:49",
+     "ideia": "Aceitar a prática solta e bagunçada"
+    },
+    {
+     "id": "fwyn5tQdF4k#I02",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "Stop Thinking in Scales: why your solos sound boring",
+     "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=108s",
+     "video": "fwyn5tQdF4k",
+     "inicio": 108,
+     "momento": "01:50",
+     "ideia": "Você soa como o que pratica"
+    }
+   ]
+  },
+  {
+   "titulo": "Decida antes de tocar",
+   "objetivo": "Trocar o 'apertar notas torcendo para acertar' pelo hábito de escolher, que é o que faz as escolhas melhorarem com o tempo.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Escreva num papel quatro pares de decisão: grave ou aguda, curta ou longa, sobe ou desce, termina na tônica ou fora dela.",
+    "Antes de cada frase, escolha uma decisão de cada par e diga em voz alta. Exemplo: 'aguda, curta, desce, tônica'.",
+    "Toque a frase cumprindo as decisões. Depois fique em silêncio por um compasso.",
+    "Julgue a frase com uma palavra só: 'ficou' ou 'não ficou'. Sem análise longa.",
+    "Faça 8 frases. Nas últimas, tente decidir sem falar, só pensando."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Sorteie as decisões com dados ou cartas para não cair sempre nas mesmas.",
+    "Acrescente o par 'forte ou suave'.",
+    "Repita a mesma combinação 3 vezes e mantenha a melhor versão."
+   ],
+   "cuidado": "Decidir no meio da frase. Se você não sabe o que vai fazer antes de começar, a frase vira acaso.",
+   "inspirado_em": [
+    {
+     "id": "jexCJFrAeH4#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=101s",
+     "video": "jexCJFrAeH4",
+     "inicio": 101,
+     "momento": "01:43",
+     "ideia": "Praticar fazendo escolhas"
+    },
+    {
+     "id": "jexCJFrAeH4#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=779s",
+     "video": "jexCJFrAeH4",
+     "inicio": 779,
+     "momento": "13:01",
+     "ideia": "Fazer escolhas melhora as escolhas futuras"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=668s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 668,
+     "momento": "11:10",
+     "ideia": "Fazer escolhas musicais no improviso"
+    },
+    {
+     "id": "-El2m16TS5o#I14",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "How Do The Pro's Build A Solo On Guitar",
+     "url": "https://www.youtube.com/watch?v=-El2m16TS5o&t=661s",
+     "video": "-El2m16TS5o",
+     "inicio": 661,
+     "momento": "11:03",
+     "ideia": "Planejar as notas aumenta a confiança"
+    },
+    {
+     "id": "0MLUiyPWt8s#I03",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=99s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Improvisar com atenção, não ao acaso"
+    },
+    {
+     "id": "kkr107pBAAs#I23",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+     "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=921s",
+     "video": "kkr107pBAAs",
+     "inicio": 921,
+     "momento": "15:23",
+     "ideia": "Tocar bem por acaso sem entender o porquê"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas cabeças: estudo e palco",
+   "objetivo": "Separar o momento de analisar do momento de tocar, para a teoria não travar a performance.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Estudo (4 min): escolha uma única coisa pequena. Exemplo: as três tônicas do shape 1 (V1). Toque cada uma devagar, cante a nota e encontre-a de olhos fechados.",
+    "Palco (5 min): ligue o backing track e improvise sem parar e sem analisar. Usar a coisa estudada é permitido, mas não é obrigatório.",
+    "Durante o palco, se pegar você mesmo calculando, respire e deixe o ouvido escolher a próxima nota.",
+    "Fechamento (1 min): escreva uma frase dizendo se o assunto do estudo apareceu sozinho no palco."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5 a 8). Os anéis marcam as três tônicas (A), que são o porto seguro. Para começar a improvisar, você não precisa de mais nada.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mantenha o mesmo assunto de estudo por uma semana inteira e observe quando ele começa a aparecer sem você planejar.",
+    "Inverta a ordem: palco primeiro, para ver o que falta, e estudo depois."
+   ],
+   "cuidado": "Misturar os dois momentos: parar a jam para analisar ou estudar no modo automático, sem atenção.",
+   "inspirado_em": [
+    {
+     "id": "blog--guitar-improvisation-tips-unlock-your-potential-b9ace3#I06",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Improvisation Tips: Unlock Your Potential",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-improvisation-tips-unlock-your-potential/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Separar a mentalidade de estudo da de performance"
+    },
+    {
+     "id": "W96yUcOEub0#I19",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+     "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=953s",
+     "video": "W96yUcOEub0",
+     "inicio": 953,
+     "momento": "15:55",
+     "ideia": "Separar estudo e play"
+    },
+    {
+     "id": "7SNcy_GprQU#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=771s",
+     "video": "7SNcy_GprQU",
+     "inicio": 771,
+     "momento": "12:53",
+     "ideia": "Ilusão de saber"
+    },
+    {
+     "id": "7SNcy_GprQU#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=807s",
+     "video": "7SNcy_GprQU",
+     "inicio": 807,
+     "momento": "13:29",
+     "ideia": "Aprender tocando, não só assistindo"
+    },
+    {
+     "id": "OkTBizvNWoI#I03",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=72s",
+     "video": "OkTBizvNWoI",
+     "inicio": 72,
+     "momento": "01:14",
+     "ideia": "Intelectualizar cada nota"
+    },
+    {
+     "id": "hafoCeXWxAE#I09",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=523s",
+     "video": "hafoCeXWxAE",
+     "inicio": 523,
+     "momento": "08:45",
+     "ideia": "Liberdade total depois que o ouvido entende a relação"
+    }
+   ]
+  },
+  {
+   "titulo": "Faça o inverso do seu vício",
+   "objetivo": "Quebrar os hábitos que deixam seus solos iguais e descobrir o que é realmente seu.",
+   "nivel": "avancado",
+   "minutos": 8,
+   "passos": [
+    "Improvise 1 minuto normalmente e anote três vícios. Exemplos: sempre começar na casa 5 da corda 1, sempre tocar colcheias, sempre terminar descendo até a tônica.",
+    "Toque mais 2 minutos fazendo o inverso de cada vício: começar em outra corda ou região, usar notas longas, terminar subindo ou fora da tônica.",
+    "Aceite que algumas frases vão sair estranhas. Isso faz parte.",
+    "Anote uma ideia nova que valeu a pena e um hábito antigo de que você realmente gosta.",
+    "Por mais 2 minutos, exagere de propósito esse hábito que você gosta. Ele é um pedaço da sua voz."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Proíba por um dia a sua primeira nota favorita.",
+    "Se você sempre toca no shape 1, faça o exercício inteiro na região da casa 12.",
+    "Grave antes e depois e compare (veja a lição Gravação, autoavaliação e feedback)."
+   ],
+   "cuidado": "Achar que o objetivo é eliminar todos os hábitos. Os que você escolhe conscientemente formam o seu estilo; só os automáticos precisam ser quebrados.",
+   "inspirado_em": [
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I29",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Esquecer as teorias por um tempo"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I31",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Fazer o inverso do que você costuma fazer"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I34",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sair da zona de conforto e abandonar vícios"
+    },
+    {
+     "id": "premierguitar--pentatonic-escape-routes-5d1291#I08",
+     "tipo": "documento",
+     "autor": "Paul DePauw",
+     "titulo": "Pentatonic Escape Routes",
+     "url": "https://www.premierguitar.com/lessons/scales/pentatonic-escape-routes",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Encontre e cultive as ideias que surgem naturalmente no seu jeito de tocar"
+    },
+    {
+     "id": "t8SmU7wIxnc#I14",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=818s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 818,
+     "momento": "13:40",
+     "ideia": "Construir voz própria a partir da teoria"
+    },
+    {
+     "id": "5sknWaNKxMA#I01",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=0s",
+     "video": "5sknWaNKxMA",
+     "inicio": 0,
+     "momento": "00:02",
+     "ideia": "Bend e vibrato definem a voz do guitarrista"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Esperar dominar todos os shapes, modos e teoria antes de improvisar pela primeira vez.",
+  "Parar a música ou recomeçar a frase toda vez que sai uma nota errada.",
+  "Caçar escalas e 'segredos' novos quando o que falta é saber usar melhor as notas que você já tem.",
+  "Confundir improviso com velocidade: muitas notas sem direção cansam quem ouve.",
+  "Calcular cada nota durante a performance em vez de deixar essa análise para o horário de estudo.",
+  "Só estudar escalas e exercícios técnicos e depois estranhar que o solo soa como exercício.",
+  "Desanimar porque o progresso demora. Um conceito novo leva semanas, às vezes meses, para aparecer naturalmente no solo."
+ ],
+ "resumo": [
+  "Improvisar é uma habilidade treinável e separada da técnica: comece hoje, com uma forma só.",
+  "Errar faz parte. Não pare: resolva na nota vizinha, ou repita o erro e transforme-o em ideia.",
+  "O ouvido é o juiz e a teoria é o mapa. Estude devagar e toque sem calcular.",
+  "Não há segredo: a diferença está em como você toca poucas notas.",
+  "Solo é conversa com intenção. A voz própria nasce da mistura de influências e dos seus detalhes, ao longo de anos."
+ ],
+ "proximos_passos": "Para transformar essa mentalidade em hábito, siga para \"Rotina, planejamento e prática deliberada\" e use \"Gravação, autoavaliação e feedback\" para se ouvir de fora. Se a sobrecarga de informação estiver travando você, \"Poucas notas e restrições criativas\" é o próximo passo natural. Para entender melhor a regra de que o ouvido decide, vá para \"Treino auditivo e escuta reativa\" e \"Cantar e tocar o que se ouve\". Se precisar de uma base musical antes, a lição \"Contexto: o que é solo e improvisação\" situa tudo isso.",
+ "_meta": {
+  "subcategoria": "C01.1",
+  "modulo": {
+   "id": "C01",
+   "nome": "Mentalidade, método e recursos de estudo"
+  },
+  "nome": "Mentalidade do improvisador",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T12:32:13",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 40989,
+   "cache_read": 43380,
+   "output": 20821,
+   "thinking": 5506,
+   "turns": 3,
+   "custo_nominal": 0.753024
+  }
+ }
+}

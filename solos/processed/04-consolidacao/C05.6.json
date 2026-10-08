@@ -1,0 +1,882 @@
+{
+ "subcategoria": "C05.6",
+ "visao_geral": "A subcategoria trata da mecânica das duas mãos a serviço da velocidade e da limpeza. Os temas centrais são a palhetada alternada curta e uniforme, o apoio da palheta na corda seguinte (rest stroke), o sweep e o escape de palheta, além da economia de movimento da mão esquerda (um dedo por casa, dedos perto das cordas, pressão mínima). A velocidade é tratada como consequência do controle: estudar devagar, observar a mão e subir o metrônomo em pequenos passos, com metas mensuráveis. A ergonomia (pulso reto, polegar atrás do braço, sem pressão excessiva) aparece como forma de prevenir lesões.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Velocidade é consequência do controle",
+   "descricao": "Velocidade não se treina isoladamente: ela surge da repetição feita com controle motor, o que inclui mão relaxada, dedos bem posicionados, apoios corretos e pouco movimento. Ligar o metrônomo em BPM alto e forçar a mão a acompanhar não dá resultado, porque não trabalha o controle. O bom guitarrista quase não move os dedos nem faz esforço.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ghU-p7QAoRQ#I01",
+    "ghU-p7QAoRQ#I02",
+    "ghU-p7QAoRQ#I03",
+    "ghU-p7QAoRQ#I15",
+    "Z7JY7B9YUw8#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "rotina_estudo",
+   "titulo": "Começar devagar e subir o andamento aos poucos",
+   "descricao": "Estude escalas, padrões e exercícios em andamento lento, com metrônomo, sem pular etapas. Toque cada nota de forma limpa e mantenha a frase fluente. Só então aumente o andamento gradualmente.",
+   "passos": [
+    "Ajuste o metrônomo num andamento lento",
+    "Toque o padrão limpo, ouvindo cada nota",
+    "Aumente o andamento aos poucos"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I07",
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I10",
+    "p44c9V-yBBA#I11",
+    "gubqumrozXc#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "dica",
+   "titulo": "Palhetada alternada como base",
+   "descricao": "Toque licks, padrões e escalas com palhetada alternada (para baixo e para cima), que é o ponto de partida antes de acrescentar slides e outras articulações. Treinar escalas como a pentatônica dessa forma desenvolve precisão, controle da palheta e sincronia entre as mãos. No exercício de pivot point de Rick Beato, toda nota é alternada, inclusive nas travessias de corda.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I11",
+    "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I18",
+    "-sKYzObpWpA#I12",
+    "p44c9V-yBBA#I12",
+    "ruwSeYsJtgI#I06",
+    "RTGLGlM9OPg#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "erro_comum",
+   "titulo": "Palhetada aberta, desigual ou quebrando a alternância",
+   "descricao": "Iniciantes costumam fazer movimentos de palhetada muito abertos e às vezes tocam duas palhetadas para baixo seguidas de duas para cima. Use um movimento curto, alternado e o mais uniforme possível, sem overpicking (excesso de força ou amplitude). Busque um som parelho com o mínimo de esforço e palhete com leveza, sem 'bater' na corda, o que faria a corda trastejar.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ghU-p7QAoRQ#I07",
+    "ghU-p7QAoRQ#I08",
+    "J-vMFMHwpkQ#I09",
+    "BQTrA3hpqkM#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Palheta firme entre os dedos",
+   "descricao": "A palheta precisa estar bem firme na mão durante a execução, segundo Vítor Lucena. O trecho original está mal transcrito, então o termo exato usado pelo professor é incerto.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "p44c9V-yBBA#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Downstrokes nas semínimas para sentir o pulso",
+   "descricao": "Ao tocar semínimas, usar apenas palhetadas para baixo conecta o movimento da mão ao pulso da música.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "jexCJFrAeH4#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Direção da palhetada é escolha pessoal",
+   "descricao": "Num lick com pull-off, Paul DePauw usa down + pull-off + down + up, mas muita gente começa com palhetada para cima e adapta o restante. A escolha cabe ao guitarrista.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--pentatonic-escape-routes-5d1291#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "dica",
+   "titulo": "Cada dedo pertence à sua casa",
+   "descricao": "Desde o início, atribua um dedo a cada casa usada no exercício. Mantenha cada dedo sobre a sua casa mesmo quando outro dedo estiver tocando.",
+   "passos": [
+    "Atribua um dedo a cada casa do trecho",
+    "Mantenha os dedos parados sobre as casas quando não estiverem em uso"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ghU-p7QAoRQ#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "dica",
+   "titulo": "Dedos relaxados e próximos das cordas",
+   "descricao": "Mantenha os dedos da mão esquerda abertos, apontando para as casas, paralelos aos trastes e bem perto das cordas. Depois de tocar uma nota, levante o dedo (inclusive o mínimo) só o suficiente para soltá-la. Isso economiza movimento e dá precisão e velocidade.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "36xG0NIDd7E#I02",
+    "Z7JY7B9YUw8#I04",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I50",
+    "J-vMFMHwpkQ#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Polegar atrás do braço e dedos em ângulo reto",
+   "descricao": "Não apoie o polegar em cima do braço: ele deve ficar atrás do braço, alinhado com o dedo médio, deixando o maior espaço possível entre a palma e o braço. Com os dedos em ângulo reto em relação às cordas, o alcance aumenta (por exemplo, da casa 10 à 17); com os dedos inclinados, ele diminui.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I13",
+    "Z7JY7B9YUw8#I17",
+    "36xG0NIDd7E#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "erro_comum",
+   "titulo": "Pulso dobrado gera tensão e dor",
+   "descricao": "Tocar com o pulso dobrado, em qualquer região do braço, causa tensão e dor no pulso e nos dedos. Mantenha o pulso relativamente reto em todas as cordas e casas, inclusive ao fazer bends.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "36xG0NIDd7E#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "erro_comum",
+   "titulo": "Pressionar as cordas com força demais",
+   "descricao": "Muitos intermediários empurram a corda contra o braço com força excessiva. Isso desafina a nota, reduz o sustain e piora o timbre, e equipamento caro não compensa.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "BQTrA3hpqkM#I10",
+    "BQTrA3hpqkM#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Light touch: achar a pressão mínima",
+   "descricao": "Para cada dedo e cada corda, comece com uma pressão que apenas abafa a corda e vá aumentando até a nota soar limpa, sem trastejar. Depois relaxe um pouco e toque nessa pressão. Exemplo: corda G, casa 5 (C), com o indicador.",
+   "passos": [
+    "Escolha uma corda e casa (ex.: G, casa 5, indicador)",
+    "Pressione só o suficiente para abafar",
+    "Palhete a cada meio segundo",
+    "Aumente a pressão até sumir o trastejo",
+    "Alivie um pouco e mantenha essa pressão",
+    "Repita com os outros dedos e cordas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "BQTrA3hpqkM#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Articulações dos dedos colapsando",
+   "descricao": "Em trechos difíceis, as articulações dos dedos podem ceder (colapsar), o que é perigoso e pode causar lesões. As causas são falta de força individual dos dedos ou pressão excessiva provocada por tensão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Isolar e depois integrar as duas mãos",
+   "descricao": "Treine primeiro a mão de trastes sozinha, pressionando as notas sem palhetar. Depois treine o padrão de palhetada com a mão de trastes abafando as cordas. Em seguida, mantenha a forma pressionada e faça a palhetada no ar, em 3 a 5 repetições limpas, antes de tocar com as duas mãos.",
+   "passos": [
+    "Pressione as notas sem palhetar até as trocas saírem limpas",
+    "Abafe as cordas e toque só o padrão de palhetada",
+    "Pressione a forma e faça a palhetada no ar",
+    "Faça 3 a 5 repetições limpas",
+    "Toque com as duas mãos juntas"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "7SNcy_GprQU#I12",
+    "7SNcy_GprQU#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Planejar a digitação da mão esquerda",
+   "descricao": "Observe exatamente quais dedos tocam cada nota de um desenho. Formas simples facilitam a memorização: indicador na casa 5 e anelar na casa 7, a um tom de distância. Escolhas pontuais evitam trocas de posição, como usar o mínimo para o Dó na quinta posição, passar para o 3º dedo para entrar no padrão seguinte ou terminar o lick com o 3º dedo em pestana nas cordas B e E aguda, casa 10, já posicionado para repetir a frase.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "p44c9V-yBBA#I07",
+    "KorP9lq1voU#I04",
+    "ruwSeYsJtgI#I04",
+    "N1shDBha6Y0#I07",
+    "AUhEZ-7q5WI#I06",
+    "MvUgoNBTNjA#I16",
+    "EY6-VNz81HE#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "erro_comum",
+   "titulo": "Barrar ou ancorar com o indicador",
+   "descricao": "Deixar o indicador barrado sobre as cordas, ao tocar tríades ou pentatônicas (por exemplo, a de B maior), reduz a clareza e a mobilidade. Pressionar sempre com o indicador também impede sentir os outros dedos. Pressione cada nota com seu próprio dedo: Rick Beato usa o 3º dedo em vez da pestana, o que treina a independência e alinha cada palhetada à nota certa em qualquer andamento.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ruwSeYsJtgI#I07",
+    "36xG0NIDd7E#I16",
+    "3dW_GQsC5Ak#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "dica",
+   "titulo": "Rolar o dedo para notas seguidas sem que soem juntas",
+   "descricao": "Ao pular uma nota da pentatônica, é comum tocar duas notas seguidas com o mesmo dedo em cordas vizinhas. Role o dedo da ponta para a polpa (ou vice-versa) em vez de fazer pestana, para que as notas não soem juntas como acorde. O mesmo vale para arpejos: cada nota deve soar separada, tocando só a corda desejada.",
+   "passos": [
+    "Toque a primeira nota com a ponta do dedo",
+    "Role o dedo para a corda vizinha",
+    "Verifique que a primeira nota parou de soar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jeJEMmEIVqk#I08",
+    "UG_P4KNw0XM#I07",
+    "UG_P4KNw0XM#I08",
+    "UG_P4KNw0XM#I10",
+    "UG_P4KNw0XM#I11",
+    "UG_P4KNw0XM#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Abafar as cordas que não estão sendo tocadas",
+   "descricao": "Em frases rápidas com legato e tapping, silencie as cordas soltas para a frase sair limpa. Em bends e vibratos é ainda mais fácil esbarrar nas outras cordas e gerar ruído, então a limpeza exige atenção redobrada.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "tomhess--pt-269230#I11",
+    "5sknWaNKxMA#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "Combinações de 2 dedos em vez de permutações de 4",
+   "descricao": "Praticar as 24 permutações de quatro dedos pelo braço gera alguma destreza, mas cerca de 98% desses padrões nunca aparecem em música real. Na pentatônica, quase tudo é troca entre dois dedos numa corda. Daniel Seriff passou a treinar só pares de dedos, 30 s por padrão, e ganhou muita velocidade e destreza.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "J-vMFMHwpkQ#I01",
+    "J-vMFMHwpkQ#I03",
+    "J-vMFMHwpkQ#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "rotina_estudo",
+   "titulo": "Aquecimento de 6 minutos com 12 pares de dedos",
+   "descricao": "São 12 padrões de dois dedos, 30 s cada, sempre com palhetada alternada, sobre bateria reta a cerca de 90 BPM, em colcheias, tercinas ou semicolcheias. Escolha livremente as cordas e posições, em vez de subir o braço em linha reta. Quem está mais lento pode reduzir o BPM ou ficar numa só corda; avançados devem usar andamentos desafiadores.",
+   "passos": [
+    "Toque 1-2, 1-3, 1-4, 2-3, 2-4 e 3-4, 30 s cada",
+    "Depois os invertidos: 2-1, 3-1, 4-1, 3-2, 4-2 e 4-3",
+    "Use bateria a ~90 BPM e palhetada alternada",
+    "Improvise cordas e posições durante os 30 s",
+    "Ajuste o BPM ao seu nível do dia"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "J-vMFMHwpkQ#I04",
+    "J-vMFMHwpkQ#I11",
+    "J-vMFMHwpkQ#I05",
+    "J-vMFMHwpkQ#I06",
+    "J-vMFMHwpkQ#I07",
+    "J-vMFMHwpkQ#I10"
+   ],
+   "divergencias": "Daniel Seriff defende que, para avançados, o aquecimento seja rápido e desafiador, ao contrário da recomendação geral de começar sempre devagar (K02).",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Isolar os dedos fracos sem o indicador",
+   "descricao": "Num padrão de escala menor, deixe o indicador levantado e toque com os outros dedos para sentir cada um individualmente. As notas são: mínimo na casa 8 da E aguda (C), anelar na casa 7 da E aguda (B), mínimo na casa 8 da corda B (G) e médio na casa 6 da corda B (F).",
+   "passos": [
+    "Mínimo na casa 8 da E aguda (C)",
+    "Anelar na casa 7 da E aguda (B)",
+    "Mínimo na casa 8 da corda B (G)",
+    "Médio na casa 6 da corda B (F)",
+    "Mantenha o indicador fora do braço e toque devagar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "dica",
+   "titulo": "Frases em legato fortalecem o mindinho",
+   "descricao": "Corridas com poucas palhetadas, como a de Mi eólio citada por Nick Layton, colocam o dedo mínimo em forma rapidamente.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tomhess--pt-269230#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Fragmentos curtos para ganhar controle",
+   "descricao": "Use fragmentos curtos e comuns em riffs e solos (tablatura no PDF de Guto Gabrelon), tocados devagar, com a mão livre, um dedo por casa e palhetada curta. Quando fluírem, toque com metrônomo, sabendo em que tempo cai cada nota. Na etapa final, troque o dedo 2 pelo dedo 3 na casa seguinte, mantendo a mesma distribuição e controle.",
+   "passos": [
+    "Toque o fragmento devagar, sem travar a mão",
+    "Repita até o controle ficar estável",
+    "Toque com metrônomo, exatamente sobre o clique",
+    "Troque o dedo 2 pelo 3 na casa seguinte",
+    "Mantenha um dedo por casa e palhetada curta"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ghU-p7QAoRQ#I05",
+    "ghU-p7QAoRQ#I10",
+    "ghU-p7QAoRQ#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "dica",
+   "titulo": "Observar e analisar o movimento da mão",
+   "descricao": "Durante o estudo, observe a mão: se o movimento estiver descontrolado, subir o BPM só piora e trava. De tempos em tempos, toque o padrão bem devagar para analisar a eficiência dos movimentos antes de voltar ao seu limite.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ghU-p7QAoRQ#I04",
+    "566LrQfcqgE#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "rotina_estudo",
+   "titulo": "Subir o metrônomo de 3 em 3 BPM, só com controle",
+   "descricao": "Avance para um BPM mais alto apenas quando o controle estiver estável no andamento atual. Saltos grandes de BPM fazem perder o controle conquistado. A progressão recomendada é de +3 BPM por vez.",
+   "passos": [
+    "Encontre o BPM em que o controle está estável",
+    "Aumente 3 BPM",
+    "Repita até estabilizar e só então suba de novo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ghU-p7QAoRQ#I11",
+    "ghU-p7QAoRQ#I12",
+    "ghU-p7QAoRQ#I13"
+   ],
+   "divergencias": "Guto Gabrelon desaconselha saltos grandes de andamento, enquanto Tim Pierce (K40) recomenda pular para perto da velocidade-alvo.",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Palhetada alternada trocando de corda a cada golpe",
+   "descricao": "Alterne a palhetada mudando de corda a cada nota, em vez de repetir notas numa só corda. Isso força a alternância a funcionar nas travessias de corda.",
+   "passos": [
+    "E grave com palhetada para baixo",
+    "Corda A para cima",
+    "Corda D para baixo",
+    "Corda G para cima",
+    "Mantenha o baixo/cima o tempo todo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "conceito",
+   "titulo": "Saltos de corda treinam a precisão da palheta",
+   "descricao": "Pular cordas em frases rápidas ensina a palheta a ir direto à corda certa, sem travar nas cordas do meio.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "exercicio",
+   "titulo": "Tercinas com nota acentuada em outra corda",
+   "descricao": "Em tercinas de colcheia, toque três notas na corda D e uma nota acentuada na corda G, voltando à D. A direção da palhetada na nota acentuada alterna a cada vez. No compasso seguinte o acento vai para a corda B, e no último a palheta salta da D até a E aguda.",
+   "passos": [
+    "Três notas na corda D",
+    "Nota acentuada na G (para cima na 1ª vez)",
+    "Volte à D, alternando a direção do acento",
+    "Leve o acento para a corda B",
+    "Salte da D até a E aguda"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I05",
+    "36xG0NIDd7E#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "dica",
+   "titulo": "Apoiar a palheta na corda seguinte (rest stroke)",
+   "descricao": "Deixar a palheta flutuando entre as cordas desperdiça movimento, tira o controle e limita a velocidade. Após cada golpe, deixe a palheta repousar na corda seguinte, já pronta para a próxima nota. A mão se move menos e o resultado fica mais preciso e repetível, no alternate, no economy e no sweep.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I25",
+    "36xG0NIDd7E#I26",
+    "36xG0NIDd7E#I27",
+    "36xG0NIDd7E#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "exercicio",
+   "titulo": "Rest stroke em saltos de corda (drible rasante)",
+   "descricao": "Após cada palhetada, mantenha a palheta rente às cordas, como num drible de basquete baixo. Treine saltos da corda D para a B e da D para a E aguda com movimento pequeno, aproveitando o impulso para ganhar velocidade.",
+   "passos": [
+    "Downstroke na corda D",
+    "Mantenha a palheta perto da corda",
+    "Salte para a B e depois para a E aguda",
+    "Acelere sem aumentar o movimento"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "36xG0NIDd7E#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "conceito",
+   "titulo": "Mesmo ângulo de punho no alternate e no sweep",
+   "descricao": "Use o mesmo ângulo de punho e a mão apoiada na ponte nos dois modos, com o movimento vindo do punho. Assim a troca entre alternate e sweep fica fluida.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "exercicio",
+   "titulo": "Trocar de alternate para sweep no meio da frase",
+   "descricao": "Toque a primeira metade do exercício em alternate e a segunda em sweep, com um movimento contínuo de corda em corda. Role levemente o dedo médio nas cordas G e B para que as notas não se sobreponham.",
+   "passos": [
+    "Primeira metade em alternate",
+    "Segunda metade em sweep contínuo",
+    "Role o dedo médio nas cordas G e B",
+    "Confira se as notas soam separadas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "36xG0NIDd7E#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K34",
+   "tipo": "exercicio",
+   "titulo": "Escape de palheta com down + dois ups em sweep",
+   "descricao": "Toque um downstroke na corda D, dois upstrokes em sweep/economy nas cordas seguintes e volte ao downstroke na D, mudando a forma de arpejo pelo braço. O foco é o escape: gire levemente o punho para a palheta sair da corda, em vez de afundar em direção ao corpo da guitarra.",
+   "passos": [
+    "Downstroke na corda D",
+    "Dois upstrokes em sweep nas cordas seguintes",
+    "Novo downstroke na D",
+    "Gire o punho para a palheta escapar",
+    "Mude a forma do arpejo pelo braço"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "36xG0NIDd7E#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K35",
+   "tipo": "exercicio",
+   "titulo": "Padrão de três notas por corda, subindo e descendo",
+   "descricao": "Escolha um padrão, como três notas numa corda, e repita-o em cada corda até a mais aguda, voltando depois. Toque com metrônomo, no máximo andamento confortável. Depois varie o padrão ou aplique o método a escalas e passagens musicais.",
+   "passos": [
+    "Escolha um padrão de três notas numa corda",
+    "Repita-o corda a corda até a E aguda",
+    "Desça de volta",
+    "Suba o andamento com metrônomo até o limite confortável",
+    "Varie o padrão ou aplique a uma escala"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "566LrQfcqgE#I06",
+    "566LrQfcqgE#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K36",
+   "tipo": "exercicio",
+   "titulo": "Escala rápida por dois minutos seguidos",
+   "descricao": "Toque uma escala em colcheias rápidas por dois minutos sem parar, de olhos fechados se possível, até ela ficar automática.",
+   "passos": [
+    "Escolha uma escala",
+    "Toque em colcheias rápidas por 2 minutos",
+    "Feche os olhos",
+    "Repita até ficar automático"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I47",
+    "Z7JY7B9YUw8#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K37",
+   "tipo": "rotina_estudo",
+   "titulo": "Escala no andamento da backing track: downpicking, depois alternate",
+   "descricao": "Toque a escala de Sol maior em grupos de quatro notas (sequência 2-3-4 e volta) no andamento da backing track, que fica perto do limite do downpicking. Quando estiver fluido só com palhetadas para baixo, repita com palhetada alternada, sem atropelar o pulso.",
+   "passos": [
+    "Toque Sol maior em grupos de 4 com downpicking",
+    "Mantenha o tempo da backing track",
+    "Quando fluir, repita com alternate picking"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "xKbtQM-qzSM#I03",
+    "vPIebPDBizs#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K38",
+   "tipo": "exercicio",
+   "titulo": "Notas repetidas em colcheias e semicolcheias na pentatônica",
+   "descricao": "Toque cada nota da pentatônica quatro vezes, depois duas e depois uma. Faça primeiro em colcheias com palhetada alternada e volume uniforme, depois em semicolcheias (contando 1 e a 2 e a...). Nas semicolcheias, o domínio da mão de palheta é decisivo; use uma backing track mais lenta se precisar.",
+   "passos": [
+    "Colcheias: cada nota 4x, depois 2x e 1x",
+    "Mantenha volume igual e notas ligadas",
+    "Semicolcheias contando 1 e a 2 e a",
+    "Repita 4x, 2x e 1x por nota",
+    "Use backing track lenta se necessário"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "Qk8rk-uaBzU#I11",
+    "Qk8rk-uaBzU#I12",
+    "Qk8rk-uaBzU#I07"
+   ],
+   "divergencias": "",
+   "correcoes": "A contagem de semicolcheias é '1 e a 2 e a' ('um-é-e-a'), com quatro sílabas por tempo; a fonte a registra de forma incompleta."
+  },
+  {
+   "id": "K39",
+   "tipo": "exercicio",
+   "titulo": "Meta de velocidade mensurável",
+   "descricao": "Defina um alvo concreto, como semicolcheias precisas a 130 BPM, e registre o andamento máximo que você toca com precisão. O apresentador começou por volta de 100 BPM.",
+   "passos": [
+    "Escolha um BPM-alvo",
+    "Toque semicolcheias com precisão",
+    "Registre seu andamento máximo preciso"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "4iqtipKAu8M#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K40",
+   "tipo": "rotina_estudo",
+   "titulo": "Aprender devagar e depois pular para ~90% da velocidade-alvo",
+   "descricao": "Como a mecânica muda em velocidade alta, aprenda a passagem devagar e leve-a logo para cerca de 90% do andamento desejado. Tenha coragem de tocar na velocidade real mesmo errando às vezes, pois a técnica rápida se desenvolve tocando rápido.",
+   "passos": [
+    "Aprenda a frase lenta e sem erros",
+    "Suba o andamento",
+    "Leve a cerca de 90% do alvo",
+    "Toque em velocidade real, aceitando erros"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "SYE8tDSLU0k#I25",
+    "SYE8tDSLU0k#I26"
+   ],
+   "divergencias": "Tim Pierce incentiva tocar na velocidade-alvo mesmo sem garantia de acerto, enquanto Guto Gabrelon só sobe o andamento com controle total (K26).",
+   "correcoes": ""
+  },
+  {
+   "id": "K41",
+   "tipo": "exercicio",
+   "titulo": "Estudar a passagem difícil isolada",
+   "descricao": "Isole o trecho mais difícil do solo, como a passagem rápida final de 'Fade to Black'. Estude-o devagar com metrônomo ou backing track (por exemplo, 50%, 65%, 80% e 100%) e só depois reintegre-o ao solo completo.",
+   "passos": [
+    "Isole a passagem difícil",
+    "Toque devagar com metrônomo ou backing track a 50%",
+    "Suba em pequenos passos até 100%",
+    "Reintegre o trecho ao solo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Anop2dCuR2g#I06",
+    "Uin2lUS1ujs#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K42",
+   "tipo": "exercicio",
+   "titulo": "Acelerar um riff cromático na corda D",
+   "descricao": "Na corda D, toque as casas 7, 6 e 5 (A, G#, G) em sequência descendente cromática. Repita o padrão e acelere gradualmente; depois use a mesma ideia para criar a versão ascendente.",
+   "passos": [
+    "Na corda D, toque as casas 6 e 7",
+    "Desça até a casa 5 (G)",
+    "Repita o padrão",
+    "Acelere aos poucos",
+    "Crie a versão ascendente"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "4-XWDbMtR-U#I16"
+   ],
+   "divergencias": "",
+   "correcoes": "Na corda D, a casa 5 já é o próprio Sol (G); a casa 6 é G# e a casa 7 é A."
+  },
+  {
+   "id": "K43",
+   "tipo": "conceito",
+   "titulo": "Sequências cromáticas soam rápidas com menos dificuldade",
+   "descricao": "Para muitos alunos, tocar notas em sequência cromática é mais fácil do que tocar duas notas por corda à maneira de Eric Johnson. Por isso o cromatismo permite soar rápido com menos esforço.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "4-XWDbMtR-U#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K44",
+   "tipo": "exercicio",
+   "titulo": "Extensão do mindinho e versão repeater",
+   "descricao": "Na segunda repetição do motivo, estique o dedo mínimo para alcançar o Lá. O alongamento é difícil na posição original e fica mais fácil nas regiões agudas, onde as casas são menores. Depois toque a variação em loop contínuo (repeater), útil em trechos rápidos e longos, como em 'Train Kept A-Rollin''.",
+   "passos": [
+    "Toque o motivo normalmente",
+    "Na repetição, estenda o mindinho até o Lá",
+    "Teste em posições mais agudas",
+    "Repita em loop com regularidade"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--pentatonic-escape-routes-5d1291#I10",
+    "premierguitar--pentatonic-escape-routes-5d1291#I11",
+    "premierguitar--pentatonic-escape-routes-5d1291#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K45",
+   "tipo": "recurso",
+   "titulo": "Hybrid picking: palheta e dedos",
+   "descricao": "Escolha uma forma de tocar com a mão direita que dispense pensar nela. Ariel Posen usa hybrid picking, e Paul Davids sugere polegar, indicador e médio para cordas diferentes. O hybrid picking é a forma mais indicada para pegar as notas no exercício de pedal-steel bend.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "rh6HEF5Dy2I#I24",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K46",
+   "tipo": "dica",
+   "titulo": "Mudar a mão de palhetada para quebrar hábitos",
+   "descricao": "Trocar a palheta pelos dedos, ou usar mais os dedos no hybrid picking, tira você dos padrões automáticos de sempre. Richard Barrett diz que essa troca também deixa os double stops mais claros.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I32",
+    "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K47",
+   "tipo": "dica",
+   "titulo": "Baixos em cordas soltas para liberar a mão esquerda",
+   "descricao": "No fingerstyle, toque baixos como Mi e Ré em cordas soltas. Assim os dedos da mão esquerda ficam livres para a melodia nas cordas agudas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "TDhrEDRMxKw#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K48",
+   "tipo": "conceito",
+   "titulo": "As quatro áreas da técnica",
+   "descricao": "A técnica se divide em articulação, tempo/ritmo, técnica de dedos e som (timbre e afinação). Revise essas áreas como manutenção e eleve o nível delas sempre que aprender conceitos novos.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jazzadvice--p-11773-202013#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K49",
+   "tipo": "rotina_estudo",
+   "titulo": "Isolar os pontos fracos da técnica",
+   "descricao": "Em vez de repassar exercícios que já domina, identifique o que falha (digitação desleixada, articulação descoordenada, som pouco focado). Monte um exercício só para isso e estude devagar e com método.",
+   "passos": [
+    "Identifique a parte fraca",
+    "Crie um exercício específico para ela",
+    "Estude devagar e suba o andamento aos poucos"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jazzadvice--p-11773-202013#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K50",
+   "tipo": "dica",
+   "titulo": "Adaptar a técnica à linguagem transcrita",
+   "descricao": "Quando uma linha transcrita estiver além da sua técnica, trabalhe digitação, intervalos maiores e articulação até tocá-la no andamento do disco.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "jazzadvice--p-11773-202013#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K51",
+   "tipo": "dica",
+   "titulo": "Passagens rápidas preparadas dentro do solo",
+   "descricao": "Se fizer sentido para o seu gosto, insira uma passagem rápida em palhetada alternada no meio da melodia e depois volte a ela. Essas passagens vêm do estudo de escalas e arpejos, podem ser licks praticados até sair de memória e não são obrigatórias.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "x8V99YYMRTc#I10",
+    "HY5qWMbvsjY#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "Todas as 90 ideias principais foram alocadas em itens desta subcategoria. A ideia secundária #94 descreve um arpejo cujas casas (D10, G9, B8, E7) dão B-E-G-B, ou seja, Em, e não um maj7; ela foi usada só como exemplo de rest stroke, sem citar as notas. A tablatura da secundária #116 tem um erro (corda G casa 10 = F; o correto é casa 9 = E) e não foi incluída. Os itens K20/K21 dialogam com C01.2 (rotina), e o K38 com C06.1 (subdivisões), mas foram mantidos aqui pelo foco na mecânica da palhetada.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 90,
+  "ideias_secundarias": 32,
+  "itens": 51,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.2316,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 29052,
+   "output_tokens": 17351
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 2,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

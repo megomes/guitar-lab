@@ -1,0 +1,585 @@
+{
+ "subcategoria": "C02.4",
+ "visao_geral": "Esta subcategoria reúne o que o solista precisa saber sobre tonalidade. Uma tonalidade é um conjunto de 7 notas a partir de uma tônica, e quase todos os acordes da música saem dele. Achar o tom é sempre o primeiro passo. As fontes ensinam a achá-lo pelo acorde de repouso, testando a escala maior candidata ou testando o shape no braço. Também alertam que o primeiro acorde nem sempre é o I e que um acorde isolado não diz qual é a sua função. Muitas fontes explicam a relativa menor: ela começa no 6º grau, fica 3 semitons abaixo e usa as mesmas notas, só muda o centro. A ideia se estende aos modos (mesma armadura, centros diferentes). Na transposição, há um consenso forte: na guitarra a forma é móvel. Basta deslocar o desenho até a tônica e pensar em graus, intervalos e funções, não em nomes de notas. Por fim, o ciclo de quintas e quartas organiza armaduras e tonalidades vizinhas (que diferem em uma nota) e serve de roteiro para praticar as 12 tonalidades, com acordes i–VI em tom menor ou com dominantes encadeados.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O que é uma tonalidade: 7 notas das quais saem os acordes",
+   "descricao": "Uma tonalidade usa 7 das 12 notas da escala cromática, seguindo um padrão fixo de tons e semitons a partir da nota que dá nome ao tom. A maior parte dos acordes da música pertence a essa tonalidade. Por isso, tocar as notas da escala do tom mantém o solo 'dentro'. Por exemplo, em Sol maior, os acordes C e D são feitos de notas de G, então pensar na tonalidade ou nos intervalos de cada acorde dá no mesmo. Antes de decorar os acordes de uma música ou de um standard, descubra a tonalidade. Em Dó maior, Cmaj7 é o repouso (casa) e G7 é a tensão que quer voltar a ele.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "hafoCeXWxAE#I01",
+    "ExhI4nkjOAY#I20",
+    "2OxHReoGIqs#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "mentalidade",
+   "titulo": "Comece e se oriente pela tônica",
+   "descricao": "Ao começar um solo, a primeira referência é a tônica da tonalidade, e não um padrão aleatório do braço. Localize a tônica (por exemplo, dentro do shape de E) e construa as frases a partir dela, usando-a como ponto de apoio para afirmar o tom.",
+   "passos": [
+    "Identifique a tonalidade da música.",
+    "Localize a tônica no braço, dentro da forma que você usa.",
+    "Comece e termine as primeiras frases nela, construindo os intervalos a partir desse ponto."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "EwRkYkN7igw#I01",
+    "ExhI4nkjOAY#I01",
+    "ExhI4nkjOAY#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "A tônica é o acorde de repouso",
+   "descricao": "A tonalidade costuma ser o acorde em que a música soa resolvida. Muitas vezes é o acorde que abre e fecha a música ou o que dura mais tempo, e é ele que define a posição principal para solar. Exemplos: em Am–Dm–Em–Am o tom é Lá menor; em Bm–Em7–F#7 o Bm soa como centro, e o ouvido deve reconhecer o caráter menor antes de escolher as notas. Na prática, teste primeiro o acorde inicial como centro; se não convencer, teste o último. Se ainda houver dúvida, procure a tonalidade da música em sites de cifra.",
+   "passos": [
+    "Teste o primeiro acorde como centro tonal.",
+    "Se não soar como 'casa', teste o último acorde ou o que dura mais.",
+    "Confirme pelo ouvido se é maior ou menor.",
+    "Na dúvida, consulte a cifra ou a tonalidade da música online."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "MfrAepqfv2g#I02",
+    "KorP9lq1voU#I25",
+    "HY5qWMbvsjY#I03",
+    "EJW2rIhE_GA#I02",
+    "EJW2rIhE_GA#I03"
+   ],
+   "divergencias": "Stuart (#39) sugere testar primeiro o acorde inicial. Rustys Guitar e Rick Beato (K04) alertam que muitas músicas não começam no I. O critério mais seguro é a sensação de repouso.",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "erro_comum",
+   "titulo": "Presumir que o primeiro acorde é a tônica",
+   "descricao": "Muitas músicas começam no vi, no ii, no IV ou no V. Por exemplo, A–G–D parece estar em Lá, mas está em Ré maior: Lá é o V, Sol é o IV e Ré é o I (progressão 5-4-1). Não deduza o tom só pelo primeiro acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "-El2m16TS5o#I01",
+    "bFtTvqASQ9k#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "erro_comum",
+   "titulo": "Dar grau a um acorde isolado, sem contexto",
+   "descricao": "O mesmo acorde muda de função conforme o tom. Fá maior é IV em Dó maior, I em Fá maior e V em Si♭ maior. Tentar nomear o grau de um acorde sem conhecer a tonalidade leva a erro, por isso descubra o tom primeiro.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "bFtTvqASQ9k#I08",
+    "bFtTvqASQ9k#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Deduzir a tonalidade pelos acordes (teste da escala maior)",
+   "descricao": "Escolha uma tônica candidata, escreva a escala maior dela e numere os graus. Se os acordes da música caem nos graus do campo (por exemplo, I, IV e V), achou o tom. Exemplos: Em7, D/F# e G pertencem todos ao campo de G maior/Em, então a pentatônica de Em ou de G funciona. Gravity alterna G e C (I–IV), logo está em G maior.",
+   "passos": [
+    "Liste os acordes da música.",
+    "Escolha uma tônica candidata e escreva a escala maior dela.",
+    "Numere os graus (I a vii).",
+    "Verifique se todos os acordes caem no campo, por exemplo em I, IV e V.",
+    "Se não couber, troque de candidata."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "-El2m16TS5o#I02",
+    "tRi4vMs2z8M#I17",
+    "hafoCeXWxAE#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Identificar a tonalidade de uma base",
+   "descricao": "Treine localizar a tonalidade rapidamente para saber onde improvisar. Ouça uma base simples e descubra quais acordes tocam, qual soa como repouso, qual nota dá sensação de conclusão e qual tonalidade explica a sequência. Depois de dominar poucas tonalidades, leve o treino a todas.",
+   "passos": [
+    "Identifique os acordes que estão tocando.",
+    "Descubra qual acorde soa como repouso.",
+    "Encontre a nota que soa como conclusão.",
+    "Pense em qual tonalidade explica toda a sequência.",
+    "Repita com bases em tonalidades novas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I05",
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I37",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Achar o tom testando o shape no braço",
+   "descricao": "Com uma forma de escala maior conhecida, desloque-a pelo braço enquanto a música toca até achar a posição em que todas as notas combinam. Em geral só um lugar soa perfeito; se algo soar errado, provavelmente você está na posição errada.",
+   "passos": [
+    "Escolha uma música cuja tonalidade você não conhece.",
+    "Desloque o shape maior pelo braço.",
+    "Teste as posições até todas as notas soarem bem.",
+    "Se alguma nota soar errada, troque de posição."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "hafoCeXWxAE#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Relativa menor: 6º grau, mesmas notas, outro centro",
+   "descricao": "Toda escala maior tem uma relativa menor que começa no seu 6º grau e usa exatamente as mesmas notas. Pares: C↔Am, G↔Em, D↔Bm, F↔Dm. Por isso as mesmas formas servem às duas tonalidades, e a diferença de som vem das notas em que você se apoia. Aplicações: a tríade de C (C-E-G) sobre Am soa como ♭3, 5 e ♭7. Uma progressão como C–G–D–Em sugere ao mesmo tempo G maior e Em. Em G–Em–C, o Em é o vi de G e o C é o IV. Sobre uma base Am–C–G, a pentatônica de Lá menor cobre tudo. Pensar a escala de G maior sobre um Em abre mais notas e posições do que só a pentatônica.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I13",
+    "MfrAepqfv2g#I05",
+    "xKbtQM-qzSM#I24",
+    "iUZwNSDpV_Q#I11",
+    "14UZEproJ-A#I07",
+    "FhfmneCt7jo#I32",
+    "5e0SpzCw3IA#I03",
+    "z1YGMPsz-rU#I09",
+    "5CSSVcINF1o#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Calcular a relativa por 3 semitons",
+   "descricao": "Partindo da tônica maior, desça 3 semitons (1 tom e meio) para achar a relativa menor. Partindo da menor, suba 3 semitons para achar a relativa maior. Exemplo: Dó → Si → Si♭ → Lá (Lá menor). Outros pares: A↔F#m, E↔C#m.",
+   "passos": [
+    "Escolha uma tonalidade maior, por exemplo Dó.",
+    "Desça três semitons: Dó, Si, Si♭, Lá → Lá menor.",
+    "Faça o caminho inverso: de Lá menor, suba três semitons → Dó maior.",
+    "Repita com G, D, A e E."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "Y8yEev1Ce88#I27",
+    "cifranota--escala-pentatonica-396a3a#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Na guitarra a forma é móvel: transpor é deslocar o desenho até a tônica",
+   "descricao": "Diferente do piano, na guitarra o shape é o mesmo em qualquer tonalidade. Para mudar de tom, desloque a forma inteira (ou todas as posições que você conhece, juntas) até a tônica cair na nota desejada. Os graus continuam nos mesmos lugares do desenho; só muda a casa. Bertamini chama isso de 'Dó móvel'. Exemplos: a pentatônica em Sol tem a tônica na casa 3 da corda E grave e, em Si, na casa 7. O shape maior com tônica E vira B maior ao levar a tônica para B. O padrão de acordes do campo dá F, Gm, Am, B♭, C, Dm em Fá e A, Bm, C#m, D, E, F#m em Lá. Nelson Faria cita esse ponto como uma vantagem da guitarra: de Dó para Dó♯ basta mover tudo uma casa, com a mesma digitação.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "hafoCeXWxAE#I25",
+    "hafoCeXWxAE#I26",
+    "b1mdrlngTnA#I12",
+    "b1mdrlngTnA#I21",
+    "wXZGcgYysNs#I12",
+    "v2rtFiZPAJ4#I13",
+    "NGior_1Tsmo#I12",
+    "14UZEproJ-A#I09",
+    "mrKDTl6zDOM#I27",
+    "WdrB9wepGSo#I13",
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I03",
+    "b1mdrlngTnA#I29",
+    "b1mdrlngTnA#I36"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Transpor pela distância em casas entre os tons",
+   "descricao": "Meça o intervalo entre o tom (ou acorde) atual e o novo e mova a forma esse número de casas. Exemplos: de Lá menor para Sol menor, desça 2 casas (1 tom); de C para D, suba 2 casas (D-F#-A, o V de G a partir das formas do IV); E7 está 1 tom acima de D7, então a mesma forma deslocada 1 tom encaixa no novo acorde. Assim você reaproveita a forma em vez de decorar uma nova.",
+   "passos": [
+    "Identifique o tom ou acorde atual e o de destino.",
+    "Conte os semitons entre eles.",
+    "Desloque a forma inteira esse número de casas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "SYE8tDSLU0k#I12",
+    "QXp8yDb3zyQ#I10",
+    "ZX6NW6VqTb8#I15",
+    "dZUSUZjRISI#I14",
+    "dZUSUZjRISI#I24",
+    "dZUSUZjRISI#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Copiar e colar frases e melodias em outros tons",
+   "descricao": "Pegue algo que você já toca e reproduza o mesmo desenho a partir de outra tônica. Os intervalos se deslocam junto, então as notas mudam, mas funções, música e digitação continuam iguais. Nelson Faria faz isso com 'Atirei o pau no gato' (Sol, Fá, Mi, Ré, Mi, Fá, Sol, Sol, Sol) em vários tons.",
+   "passos": [
+    "Escolha uma melodia simples ou uma frase que você conhece.",
+    "Toque-a em um tom.",
+    "Identifique a tônica do novo tom no braço.",
+    "Cole o mesmo desenho a partir dessa tônica.",
+    "Repita em vários tons."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "mrKDTl6zDOM#I26",
+    "v2rtFiZPAJ4#I12",
+    "hafoCeXWxAE#I31",
+    "premierguitar--blues_basics_saying_more_with_less-adf9db#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "rotina_estudo",
+   "titulo": "Achar o tom de uma música real e solar sobre ela",
+   "descricao": "Leve o processo para músicas que você gosta. Descubra o tom, posicione a forma na tônica (por exemplo, na 6ª corda: Dó na casa 8) e improvise. Com a forma no tom certo, qualquer nota dela soa bem sobre a harmonia. Exemplo: a backing track de Gravity (G–C, I–IV) com o shape expandido de G maior, tônica na casa 15 da corda E grave.",
+   "passos": [
+    "Escolha uma música (YouTube, CD ou backing track).",
+    "Descubra o tom tocando ou ouvindo.",
+    "Localize a tônica na 6ª corda.",
+    "Posicione a forma a partir dessa tônica.",
+    "Comece com notas do acorde e de passagem e depois improvise livremente."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "WdrB9wepGSo#I12",
+    "hafoCeXWxAE#I30",
+    "930K2lldQD8#I02",
+    "WdrB9wepGSo#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Pense em intervalos e funções, não em nomes de notas",
+   "descricao": "Saber o nome das notas é o nível menos importante. Se você sobe meio tom mantendo os intervalos, o som, as funções e a digitação são os mesmos; só os nomes mudam. Pensar na relação de intervalos facilita a transposição. Quem pensa só em nomes trava: Cm7(♭5) = Dó, Mi♭, Sol♭, Si♭, mas meio tom acima viraria Ré♭, Fá♭, Lá♭♭, Dó♭, nomes que embaralham, embora o som e a função sejam os mesmos.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "v2rtFiZPAJ4#I08",
+    "U3u3jiF7zVg#I13",
+    "v2rtFiZPAJ4#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Decore progressões em graus (I, IV, V)",
+   "descricao": "Pense a progressão em números romanos ou em funções (tônica, subdominante, dominante), no estilo do sistema Nashville, e não em nomes de acordes de um tom só. O mesmo blues I–IV–V passa a funcionar em qualquer tonalidade, e cada grau ocupa sempre a mesma posição relativa na forma, só deslocada no braço.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "H3DDn8CcSTA#I03",
+    "en--twelve-bar_blues-36fb30#I04",
+    "rh6HEF5Dy2I#I01",
+    "wXZGcgYysNs#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Montar a escala maior de qualquer tom pela fórmula",
+   "descricao": "Aplique o padrão tom-tom-semitom-tom-tom-tom-semitom a partir de qualquer nota. Em Mi: Mi, Fá♯, Sol♯, Lá, Si, Dó♯, Ré♯, Mi. O campo harmônico fica E, F#m, G#m, A, B7, C#m, D#m7♭5. Outro caminho é escrever a sequência de letras a partir da tônica e aplicar a armadura. Em Si♭ (bemóis em Si e Mi): Si♭, Dó, Ré, Mi♭, Fá, Sol, Lá.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "iUZwNSDpV_Q#I05",
+    "pt--campo_harmônico-b0b9ac#I10",
+    "bFtTvqASQ9k#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Escrever a escala maior a partir das 12 notas",
+   "descricao": "No caderno, escreva o padrão T-T-S-T-T-T-S e monte a escala maior a partir de cada uma das 12 notas, até internalizar as notas de cada tonalidade.",
+   "passos": [
+    "Escreva o padrão tom-tom-semitom-tom-tom-tom-semitom.",
+    "Escolha uma nota de partida (Dó, Mi, Sol...).",
+    "Aplique o padrão e anote as sete notas.",
+    "Repita para todas as 12 notas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "iUZwNSDpV_Q#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "mentalidade",
+   "titulo": "Sair da zona de conforto do Mi menor",
+   "descricao": "Mi menor é confortável na guitarra e costuma ser a primeira tonalidade em que se improvisa, por isso é uma boa base inicial. O problema é ficar preso a ela: muitos guitarristas se perdem em tonalidades como Dó♯ menor ou Fá♯ menor. Use o Em para aprender o raciocínio e depois leve-o aos outros tons.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "5CSSVcINF1o#I02",
+    "gubqumrozXc#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "rotina_estudo",
+   "titulo": "Aprenda num tom e depois pratique em todos",
+   "descricao": "Os exemplos das aulas (Sol, Dó) são só pontos de partida. Domine o material num tom e depois aplique as mesmas formas em outras tonalidades e progressões. Só assim você improvisa em qualquer tom. Vale para shapes, tríades, blues e frases transcritas.",
+   "passos": [
+    "Domine o exercício em uma tonalidade (por exemplo, G).",
+    "Transponha as referências de cada forma para outra tonalidade.",
+    "Aplique também a outras progressões.",
+    "Vá acrescentando tonalidades até cobrir todas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I33",
+    "78ZqWUGMzqU#I09",
+    "QXp8yDb3zyQ#I16",
+    "FhfmneCt7jo#I02",
+    "jazzadvice--p-11773-202013#I10",
+    "jazzadvice--the-3-secrets-to-transcribing-jazz-solos-82efb0#I11",
+    "iUZwNSDpV_Q#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "erro_comum",
+   "titulo": "Calcular a relativa menor a cada acorde",
+   "descricao": "Converter cada acorde maior na sua relativa menor para saber qual pentatônica usar transforma o estudo numa maratona. Use os intervalos e as formas da pentatônica para resolver direto.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "lJRzTqOf1ro#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Círculo das quintas e armaduras",
+   "descricao": "No sentido horário, cada tom acrescenta um sustenido: Dó 0, Sol 1, Ré 2, Lá 3, Mi 4, Si 5, Fá♯/Sol♭ 6. No sentido anti-horário, cada tom acrescenta um bemol: Fá 1, Si♭ 2, Mi♭ 3, Lá♭ 4, Ré♭ 5. Ordem dos sustenidos: Fá♯, Dó♯, Sol♯, Ré♯, Lá♯, Mi♯, Si♯. Ordem dos bemóis (inversa): Si♭, Mi♭, Lá♭, Ré♭, Sol♭, Dó♭, Fá♭. Com isso você deduz a armadura de qualquer tom.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "bFtTvqASQ9k#I11",
+    "bFtTvqASQ9k#I12"
+   ],
+   "divergencias": "",
+   "correcoes": "Na ordem dos bemóis, a fonte termina em 'Fá'; o correto é Fá♭ (inverso de Si♯ na ordem dos sustenidos)."
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "Tonalidades vizinhas diferem em uma única nota",
+   "descricao": "Andando pelo ciclo, cada tonalidade difere da anterior por uma só nota, ou seja, um acidente a mais ou a menos na armadura. De Am para Dm muda apenas B para B♭. De Dó maior para Sol maior muda apenas F para F♯ (a 7ª de Sol), e Sol passa a ser a tônica. Para levar uma ideia ao tom vizinho, basta trocar essa nota.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tyQ1Qj2yBfI#I07",
+    "14UZEproJ-A#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "Ciclo das quartas e como achar IV e V",
+   "descricao": "O ciclo das quartas é o das quintas percorrido ao contrário. Partindo de Lá menor e subindo de quarta em quarta: Am, Dm, Gm, Cm, Fm, B♭m, E♭m, A♭m, D♭m (=C♯m), G♭m (=F♯m), Bm, Em e de volta a Am. A quarta de cada tônica é a próxima tonalidade. No círculo das quintas, o V de um tom fica uma posição à direita (horário) e o IV uma posição à esquerda, em qualquer tonalidade.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "drX6XjaItA4#I14",
+    "aHzmIWB0P00#I12"
+   ],
+   "divergencias": "Bertamini grafa A♭m, D♭m e G♭m; o Cifra Club (K26) grafa G♯m, C♯m e F♯m. São enarmônicos.",
+   "correcoes": "Na fonte, 'Ré bemol' e 'Sol bemol' aparecem sem a qualidade; no ciclo de tonalidades menores, são Ré♭ menor (C♯m) e Sol♭ menor (F♯m)."
+  },
+  {
+   "id": "K25",
+   "tipo": "conceito",
+   "titulo": "Tonalidade menor: i menor e VI maior (a relativa)",
+   "descricao": "Em cada tonalidade menor, o material básico são o acorde do 1º grau (menor) e o do 6º grau (maior). Em Lá menor, o VI é Fá maior (F-A-C). O acorde maior é o que mais firma a sensação da nova tonalidade numa troca, por isso deve ser enfatizado. O i da nova tonalidade já existe na anterior (Dm está no campo de Am), então ele sozinho não marca a mudança.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tyQ1Qj2yBfI#I02",
+    "tyQ1Qj2yBfI#I05",
+    "tyQ1Qj2yBfI#I06",
+    "tyQ1Qj2yBfI#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "i–VI pelas 12 tonalidades menores em quartas",
+   "descricao": "Comece alternando Am e F por alguns compassos e depois siga o ciclo de quartas, tocando i e VI em cada tonalidade e destacando o VI ao entrar no tom novo. A sugestão é fazer cerca de 10 minutos por dia, no início do estudo.",
+   "passos": [
+    "Am (i) e F (VI): alterne alguns compassos.",
+    "Dm e B♭.",
+    "Gm e E♭.",
+    "Cm e A♭.",
+    "Fm e D♭.",
+    "B♭m e G♭.",
+    "E♭m e C♭ (=B).",
+    "G♯m e E.",
+    "C♯m e A.",
+    "F♯m e D.",
+    "Bm e G.",
+    "Em e C, voltando a Am."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "tyQ1Qj2yBfI#I03",
+    "tyQ1Qj2yBfI#I04",
+    "tyQ1Qj2yBfI#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Ciclo de quintas com acordes dominantes",
+   "descricao": "Encadeie acordes dominantes em que cada um é o V do seguinte ('cinco para cinco'), girando o ciclo sem parar: E7, A7, D7, G7, C7, F7, B♭7, E♭7, A♭7, D♭7, F♯7, B7 e de volta a E7.",
+   "passos": [
+    "Comece em E7.",
+    "Vá para o dominante uma quinta abaixo (quarta acima): A7, D7, G7, C7, F7, B♭7, E♭7, A♭7, D♭7, F♯7, B7.",
+    "Volte a E7 e continue girando."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ruwSeYsJtgI#I08",
+    "ruwSeYsJtgI#I09"
+   ],
+   "divergencias": "",
+   "correcoes": "Na legenda automática, a sequência aparece como D7, A7, D7, G7; a ordem coerente é por quartas ascendentes a partir de E7."
+  },
+  {
+   "id": "K28",
+   "tipo": "conceito",
+   "titulo": "Mudanças de tonalidade em solos célebres",
+   "descricao": "Ouvir solos famosos ajuda a perceber modulações. Fade to Black: a introdução e o solo estão em Si menor, o resto da música em Lá menor, e a troca acontece na subida rápida final do solo. Comfortably Numb: o solo começa em Ré maior e, na metade, desce para Dó maior (1 tom abaixo). Frusciante: numa música em Lá menor, o solo se apoia em tonalidades relativas (relativa maior: Dó), escolha incomum que o destaca. Também numa progressão em Lá menor com um compasso de Mi menor é preciso atenção ao centro.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Anop2dCuR2g#I05",
+    "Anop2dCuR2g#I08",
+    "Anop2dCuR2g#I07",
+    "SYE8tDSLU0k#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "conceito",
+   "titulo": "Mesma armadura, centros diferentes: a escala maior-pai dos modos",
+   "descricao": "A relação das relativas vale também para os modos. Na música irlandesa, G maior, A dórico, D mixolídio e E eólio usam o mesmo conjunto de notas, e só muda o centro. Para achar a maior-pai de um modo, use a distância até a tônica do modo: dórico, 2ª maior abaixo; frígio, 3ª maior abaixo; lídio, 4ª justa abaixo (ou 5ª acima); mixolídio, 5ª justa abaixo (ou 4ª acima).",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--mode_-music-72a13e#I18",
+    "orphiq--music-modes-explained-9a1b6e#I13",
+    "EY6-VNz81HE#I16"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte diz que o lídio tem a maior-pai uma 5ª justa abaixo. O certo é 4ª justa abaixo: F lídio → C maior, não B♭."
+  },
+  {
+   "id": "K30",
+   "tipo": "exercicio",
+   "titulo": "Achar a maior-pai de Ré dórico",
+   "descricao": "Ré está uma 2ª maior acima de Dó, então Ré dórico usa as notas de Dó maior (armadura sem acidentes), com Ré como centro.",
+   "passos": [
+    "Identifique a tônica do modo (Ré).",
+    "Desça uma 2ª maior para achar a maior-pai (Dó).",
+    "Toque Dó maior para conferir as notas.",
+    "Mantenha as notas e mude o centro para Ré."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "orphiq--music-modes-explained-9a1b6e#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "wXZGcgYysNs#I11",
+   "sugestao": "C04.1",
+   "motivo": "Regra de shape da pentatônica (mínimo na corda E grave = tom maior, indicador = relativa menor) é o caso excluído explicitamente da subcategoria."
+  },
+  {
+   "id": "wXZGcgYysNs#I17",
+   "sugestao": "C04.1",
+   "motivo": "Mesmo exemplo da regra de dedos do shape (mínimo em E, indicador em C♯). Obs.: o vídeo diz 'C menor', mas a relativa de Mi maior é C♯ menor."
+  },
+  {
+   "id": "tRi4vMs2z8M#I09",
+   "sugestao": "C04.2",
+   "motivo": "Localizar a raiz nas caixas da pentatônica em todas as tonalidades, partindo de Em pelo ciclo de quartas, é treino das 12 tonalidades na pentatônica."
+  }
+ ],
+ "observacoes": "Mantive aqui o exercício do ciclo de dominantes (#5), a escala maior em qualquer tom (#76/#77) e a maior-pai dos modos (#74/#75), porque tratam de transposição e armadura. Se a taxonomia preferir, #76/#77 podem ir para C02.2 e #74/#75 para C11.2. Várias secundárias sobre relativas específicas da pentatônica (#91, #97, #100, #103, #106–#108, #114, #126, #138, #143) foram deixadas de fora por pertencerem a C04.1. As de exercícios de pentatônica pelo ciclo (#115–#117) pertencem a C04.2. #119 contém uma confusão na própria fonte sobre C mixolídio. O certo é que C mixolídio usa as notas de F maior, porque C é o V de F. Como #119 é secundária, ficou de fora.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 80,
+  "ideias_secundarias": 68,
+  "itens": 30,
+  "fora_do_lugar": 3,
+  "tentativas": 1,
+  "custo_usd": 0.5732,
+  "segundos": 146,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 30551,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 16408
+  },
+  "gerado_em": "2026-10-08T08:04:03"
+ }
+}

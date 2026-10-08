@@ -1,0 +1,1082 @@
+{
+ "C01.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 35,
+  "ideias_secundarias": 14,
+  "itens": 13,
+  "fora_do_lugar": 2,
+  "tentativas": 1,
+  "custo_usd": 0.3071,
+  "segundos": 85,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15478,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 9165
+  },
+  "gerado_em": "2026-10-08T07:53:22",
+  "reaproveitado_do_piloto": true
+ },
+ "C01.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 22,
+  "ideias_secundarias": 5,
+  "itens": 19,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.2034,
+  "segundos": 58,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 9599,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 6330
+  },
+  "gerado_em": "2026-10-08T07:58:29"
+ },
+ "C01.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 107,
+  "ideias_secundarias": 34,
+  "itens": 31,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.5475,
+  "segundos": 141,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 27273,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 16434
+  },
+  "gerado_em": "2026-10-08T07:59:52"
+ },
+ "C02.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 57,
+  "ideias_secundarias": 31,
+  "itens": 25,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.4233,
+  "segundos": 120,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 17949,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 13955
+  },
+  "gerado_em": "2026-10-08T08:00:29"
+ },
+ "C01.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 172,
+  "ideias_secundarias": 76,
+  "itens": 45,
+  "fora_do_lugar": 16,
+  "tentativas": 1,
+  "custo_usd": 0.9784,
+  "segundos": 246,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 51782,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 28174
+  },
+  "gerado_em": "2026-10-08T08:01:37"
+ },
+ "C02.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 65,
+  "ideias_secundarias": 46,
+  "itens": 19,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.4469,
+  "segundos": 114,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 23925,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 12745
+  },
+  "gerado_em": "2026-10-08T08:01:46"
+ },
+ "C01.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 251,
+  "ideias_secundarias": 82,
+  "itens": 39,
+  "fora_do_lugar": 21,
+  "tentativas": 1,
+  "custo_usd": 1.0113,
+  "segundos": 256,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 55632,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 28280
+  },
+  "gerado_em": "2026-10-08T08:01:47"
+ },
+ "C02.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 60,
+  "ideias_secundarias": 39,
+  "itens": 22,
+  "fora_do_lugar": 4,
+  "tentativas": 1,
+  "custo_usd": 0.4232,
+  "segundos": 121,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 19404,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 13366
+  },
+  "gerado_em": "2026-10-08T08:02:30"
+ },
+ "C02.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 80,
+  "ideias_secundarias": 68,
+  "itens": 30,
+  "fora_do_lugar": 3,
+  "tentativas": 1,
+  "custo_usd": 0.5732,
+  "segundos": 146,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 30551,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 16408
+  },
+  "gerado_em": "2026-10-08T08:04:03"
+ },
+ "C03.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 85,
+  "ideias_secundarias": 35,
+  "itens": 30,
+  "fora_do_lugar": 3,
+  "tentativas": 1,
+  "custo_usd": 0.6024,
+  "segundos": 183,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 26337,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 19555
+  },
+  "gerado_em": "2026-10-08T08:04:49"
+ },
+ "C12.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 14,
+  "ideias_secundarias": 5,
+  "itens": 13,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.0677,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 8185,
+   "output_tokens": 5137
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C06.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 61,
+  "ideias_secundarias": 22,
+  "itens": 26,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1482,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21712,
+   "output_tokens": 10481
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 85,
+  "ideias_secundarias": 56,
+  "itens": 29,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1951,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 33849,
+   "output_tokens": 12737
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C07.6": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 69,
+  "ideias_em_mais_de_um_item": [
+   "x8V99YYMRTc#I03"
+  ],
+  "ideias_secundarias": 40,
+  "itens": 36,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1698,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 23261,
+   "output_tokens": 12327
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C10.6": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 71,
+  "ideias_secundarias": 10,
+  "itens": 36,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1798,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21266,
+   "output_tokens": 13731
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C08.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 93,
+  "ideias_secundarias": 45,
+  "itens": 35,
+  "fora_do_lugar": 7,
+  "custo_usd": 0.2231,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 32237,
+   "output_tokens": 15864
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 201,
+  "ideias_secundarias": 44,
+  "itens": 41,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.2982,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 49600,
+   "output_tokens": 19897
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C04.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 144,
+  "ideias_secundarias": 95,
+  "itens": 34,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.2675,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 47865,
+   "output_tokens": 17175
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C08.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 50,
+  "ideias_secundarias": 19,
+  "itens": 22,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.1268,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 16866,
+   "output_tokens": 9304
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C07.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 176,
+  "ideias_secundarias": 90,
+  "itens": 36,
+  "fora_do_lugar": 5,
+  "custo_usd": 0.3018,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 51194,
+   "output_tokens": 19937
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C06.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 29,
+  "ideias_secundarias": 9,
+  "itens": 17,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.089,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 12293,
+   "output_tokens": 6442
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C04.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 287,
+  "ideias_secundarias": 98,
+  "itens": 48,
+  "fora_do_lugar": 41,
+  "custo_usd": 0.4885,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 85450,
+   "output_tokens": 31756
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 63,
+  "ideias_secundarias": 27,
+  "itens": 27,
+  "fora_do_lugar": 8,
+  "custo_usd": 0.1677,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21617,
+   "output_tokens": 12449
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 79,
+  "ideias_secundarias": 19,
+  "itens": 26,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1573,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 22223,
+   "output_tokens": 11289
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C07.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 64,
+  "ideias_secundarias": 19,
+  "itens": 17,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.1154,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19214,
+   "output_tokens": 7701
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C04.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 110,
+  "ideias_secundarias": 42,
+  "itens": 43,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.2412,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 35816,
+   "output_tokens": 16954
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C12.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 58,
+  "ideias_secundarias": 26,
+  "itens": 31,
+  "fora_do_lugar": 5,
+  "custo_usd": 0.179,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21359,
+   "output_tokens": 13630
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C10.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 135,
+  "ideias_secundarias": 26,
+  "itens": 34,
+  "fora_do_lugar": 17,
+  "custo_usd": 0.2655,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 37371,
+   "output_tokens": 19072
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C10.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 54,
+  "ideias_secundarias": 25,
+  "itens": 26,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.1587,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20427,
+   "output_tokens": 11782
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C08.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 80,
+  "ideias_em_mais_de_um_item": [
+   "EB5E6RBnCKw#I15"
+  ],
+  "ideias_secundarias": 48,
+  "itens": 35,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.2071,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 29741,
+   "output_tokens": 14760
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C07.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 53,
+  "ideias_secundarias": 20,
+  "itens": 31,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1255,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 17863,
+   "output_tokens": 8978
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C11.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 28,
+  "ideias_secundarias": 29,
+  "itens": 23,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1495,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15505,
+   "output_tokens": 11846
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C07.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 81,
+  "ideias_secundarias": 31,
+  "itens": 26,
+  "fora_do_lugar": 5,
+  "custo_usd": 0.1634,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 27394,
+   "output_tokens": 10862
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 65,
+  "ideias_secundarias": 18,
+  "itens": 23,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1201,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 17766,
+   "output_tokens": 8456
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C11.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 58,
+  "ideias_em_mais_de_um_item": [
+   "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I03"
+  ],
+  "ideias_secundarias": 55,
+  "itens": 28,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.161,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 24627,
+   "output_tokens": 11172
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C12.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 40,
+  "ideias_secundarias": 19,
+  "itens": 16,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.0978,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15538,
+   "output_tokens": 6677
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C12.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 142,
+  "ideias_secundarias": 81,
+  "itens": 42,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.2925,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 49285,
+   "output_tokens": 19393
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 111,
+  "ideias_secundarias": 62,
+  "itens": 39,
+  "fora_do_lugar": 4,
+  "custo_usd": 0.2846,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 39960,
+   "output_tokens": 20468
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.6": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 53,
+  "ideias_secundarias": 29,
+  "itens": 28,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1475,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19738,
+   "output_tokens": 10805
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C03.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 43,
+  "ideias_secundarias": 22,
+  "itens": 23,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1379,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19629,
+   "output_tokens": 9861
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C10.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 91,
+  "ideias_secundarias": 26,
+  "itens": 30,
+  "fora_do_lugar": 4,
+  "custo_usd": 0.1994,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 27154,
+   "output_tokens": 14513
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C03.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 111,
+  "ideias_secundarias": 97,
+  "itens": 36,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.3029,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 44928,
+   "output_tokens": 21303
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 52,
+  "ideias_secundarias": 16,
+  "itens": 26,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1218,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 16381,
+   "output_tokens": 8904
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C07.7": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 34,
+  "ideias_secundarias": 13,
+  "itens": 15,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.0777,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 12305,
+   "output_tokens": 5310
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C10.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 44,
+  "ideias_secundarias": 23,
+  "itens": 24,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.1329,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20139,
+   "output_tokens": 9266
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C04.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 43,
+  "ideias_secundarias": 27,
+  "itens": 20,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1299,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 17964,
+   "output_tokens": 9402
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C11.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 57,
+  "ideias_secundarias": 30,
+  "itens": 28,
+  "fora_do_lugar": 5,
+  "custo_usd": 0.1724,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21910,
+   "output_tokens": 12863
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C11.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 119,
+  "ideias_em_mais_de_um_item": [
+   "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I01",
+   "tqnvvqZu2_c#I09",
+   "Ivr_-S7ku8E#I06",
+   "gubqumrozXc#I11"
+  ],
+  "ideias_secundarias": 16,
+  "itens": 24,
+  "fora_do_lugar": 8,
+  "custo_usd": 0.1818,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 28318,
+   "output_tokens": 12521
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C10.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 35,
+  "ideias_secundarias": 17,
+  "itens": 17,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1043,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15088,
+   "output_tokens": 7412
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C06.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 26,
+  "ideias_secundarias": 16,
+  "itens": 24,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.0866,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 12894,
+   "output_tokens": 6085
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 73,
+  "ideias_em_mais_de_um_item": [
+   "hafoCeXWxAE#I20"
+  ],
+  "ideias_secundarias": 32,
+  "itens": 29,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1418,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 22366,
+   "output_tokens": 9704
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C11.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 75,
+  "ideias_secundarias": 28,
+  "itens": 39,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.2229,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 23906,
+   "output_tokens": 17506
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C04.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 57,
+  "ideias_secundarias": 31,
+  "itens": 17,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1405,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20301,
+   "output_tokens": 9989
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C03.4": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 46,
+  "ideias_secundarias": 25,
+  "itens": 26,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1383,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19486,
+   "output_tokens": 9934
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C06.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 53,
+  "ideias_secundarias": 32,
+  "itens": 26,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1251,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20537,
+   "output_tokens": 8407
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.1": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 350,
+  "ideias_em_mais_de_um_item": [
+   "_kK1_apm-qs#I13",
+   "kkr107pBAAs#I13"
+  ],
+  "ideias_secundarias": 214,
+  "itens": 54,
+  "fora_do_lugar": 11,
+  "custo_usd": 0.5779,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 113131,
+   "output_tokens": 35167
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ },
+ "C07.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 144,
+  "ideias_secundarias": 54,
+  "itens": 30,
+  "fora_do_lugar": 6,
+  "custo_usd": 0.2323,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 42601,
+   "output_tokens": 14710
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C05.6": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 90,
+  "ideias_secundarias": 32,
+  "itens": 51,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.2316,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 29052,
+   "output_tokens": 17351
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C09.5": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 63,
+  "ideias_secundarias": 28,
+  "itens": 23,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1554,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21169,
+   "output_tokens": 11308
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C08.3": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 69,
+  "ideias_secundarias": 14,
+  "itens": 22,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1301,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20470,
+   "output_tokens": 8914
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ },
+ "C08.2": {
+  "status": "ok",
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 50,
+  "ideias_secundarias": 21,
+  "itens": 15,
+  "fora_do_lugar": 3,
+  "custo_usd": 0.1071,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19297,
+   "output_tokens": 6846
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

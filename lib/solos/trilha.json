@@ -1,0 +1,576 @@
+{
+ "modulos": [
+  {
+   "id": "C01",
+   "nome": "Mentalidade, método e recursos de estudo",
+   "descricao": "Como pensar e como estudar para improvisar: atitude, rotina, autoavaliação, ferramentas e contexto. É a porta de entrada da aba e o apoio de todos os outros módulos.",
+   "licoes": [
+    {
+     "id": "C01.1",
+     "nome": "Mentalidade do improvisador",
+     "descricao": "Crenças e atitudes que destravam o improviso: paciência, lidar com o erro, confiança no ouvido, menos é mais, identidade e voz própria, improvisar como linguagem.",
+     "nivel": "iniciante",
+     "itens": 39,
+     "fontes": 142
+    },
+    {
+     "id": "C01.2",
+     "nome": "Rotina, planejamento e prática deliberada",
+     "descricao": "Como organizar o tempo de estudo: rotinas diárias, metas mensuráveis, manutenção vs. descoberta, prática intercalada, gradientes de dificuldade, diário de prática e ordem de estudo.",
+     "nivel": "misto",
+     "itens": 45,
+     "fontes": 86
+    },
+    {
+     "id": "C01.3",
+     "nome": "Gravação, autoavaliação e feedback",
+     "descricao": "Gravar-se, ouvir com critério, pedir feedback a professores e colegas, tocar com outros músicos e em jam.",
+     "nivel": "iniciante",
+     "itens": 13,
+     "fontes": 30
+    },
+    {
+     "id": "C01.4",
+     "nome": "Recursos: backing tracks, apps, livros e cursos",
+     "descricao": "Catálogo de ferramentas e materiais: backing tracks, play-alongs, iReal Pro, softwares para desacelerar áudio, looper, PDFs, livros, cursos e discos de referência.",
+     "nivel": "iniciante",
+     "itens": 31,
+     "fontes": 98
+    },
+    {
+     "id": "C01.5",
+     "nome": "Contexto: o que é solo e improvisação",
+     "descricao": "Definições e panorama histórico e cultural: o que é um solo, improvisação idiomática e livre, história do solo de guitarra, improvisação em outras tradições (raga, cadenza, baixo contínuo).",
+     "nivel": "iniciante",
+     "itens": 20,
+     "fontes": 15
+    }
+   ]
+  },
+  {
+   "id": "C02",
+   "nome": "Teoria essencial para solar",
+   "descricao": "O mínimo de teoria para entender o que se toca: intervalos e graus, escala maior e campo harmônico, formação de acordes, tonalidade e relativas, leitura de tablatura.",
+   "licoes": [
+    {
+     "id": "C02.1",
+     "nome": "Notas, intervalos e graus",
+     "descricao": "Alfabeto musical, tom e semitom, nomes e sonoridade dos intervalos, pensar em graus/funções em vez de nomes de notas.",
+     "nivel": "iniciante",
+     "itens": 25,
+     "fontes": 31
+    },
+    {
+     "id": "C02.2",
+     "nome": "Escala maior e campo harmônico",
+     "descricao": "Fórmula da escala maior, harmonização por terças, graus romanos/Nashville, qualidade dos acordes por grau, tétrades diatônicas.",
+     "nivel": "iniciante",
+     "itens": 20,
+     "fontes": 41
+    },
+    {
+     "id": "C02.3",
+     "nome": "Formação de acordes: tríades, tétrades e extensões",
+     "descricao": "Como os acordes são feitos: 1-3-5, sétimas, diminutos, sus, extensões 9/11/13, nomenclatura (C7 vs Cmaj7).",
+     "nivel": "iniciante",
+     "itens": 22,
+     "fontes": 42
+    },
+    {
+     "id": "C02.4",
+     "nome": "Tonalidade, relativas e transposição",
+     "descricao": "Identificar a tonalidade de uma música, relativa maior/menor, ciclo de quintas e quartas, armaduras, transpor ideias.",
+     "nivel": "iniciante",
+     "itens": 30,
+     "fontes": 55
+    }
+   ]
+  },
+  {
+   "id": "C03",
+   "nome": "Mapa do braço e visualização",
+   "descricao": "Saber onde estão as notas e enxergar o braço como um todo, independente da escala: notas e oitavas, CAGED, visão horizontal e padrões que percorrem o braço.",
+   "licoes": [
+    {
+     "id": "C03.1",
+     "nome": "Notas no braço e oitavas",
+     "descricao": "Notas naturais nas cordas E e A, octave mapping, compensação da corda B, casas de referência.",
+     "nivel": "iniciante",
+     "itens": 30,
+     "fontes": 47
+    },
+    {
+     "id": "C03.2",
+     "nome": "CAGED, formas de acorde e regiões do braço",
+     "descricao": "CAGED como mapa, 'vizinhanças' do braço, formas de acorde como âncora para escalas e licks.",
+     "nivel": "intermediario",
+     "itens": 37,
+     "fontes": 64
+    },
+    {
+     "id": "C03.3",
+     "nome": "Visão horizontal: uma corda e pares de cordas",
+     "descricao": "Tocar escalas e melodias ao longo de uma corda ou de duas cordas para enxergar intervalos e sair do pensamento por posição.",
+     "nivel": "intermediario",
+     "itens": 23,
+     "fontes": 29
+    },
+    {
+     "id": "C03.4",
+     "nome": "Sequências, intervalos e padrões melódicos",
+     "descricao": "Padrões que exercitam a escala sem subir e descer em linha: terças, grupos de 3/4 notas, sequências, saltos.",
+     "nivel": "intermediario",
+     "itens": 26,
+     "fontes": 30
+    }
+   ]
+  },
+  {
+   "id": "C04",
+   "nome": "Pentatônica e escala de blues",
+   "descricao": "O material-base da maioria dos solistas: construção, shapes, como sair da caixa, blue note e combinação de pentatônicas maior e menor.",
+   "licoes": [
+    {
+     "id": "C04.1",
+     "nome": "Pentatônica: construção, maior, menor e relativas",
+     "descricao": "O que é, por que soa bem, fórmulas maior e menor, relação de relativas e quando usar cada uma.",
+     "nivel": "iniciante",
+     "itens": 34,
+     "fontes": 72
+    },
+    {
+     "id": "C04.2",
+     "nome": "Os cinco shapes e como conectá-los",
+     "descricao": "Shapes (boxes), ordem de estudo, tônicas em cada posição, transferir licks entre posições, conectar shapes vizinhos e treinar nas 12 tonalidades.",
+     "nivel": "iniciante",
+     "itens": 48,
+     "fontes": 64
+    },
+    {
+     "id": "C04.3",
+     "nome": "Sair da caixa: diagonal, 3-2, blocos e slides",
+     "descricao": "Sistemas para atravessar o braço: pentatônica diagonal (3-2/2-3), three fret shift, slidey box, remapear para 2 e 3 notas por corda, blocos por intervalos, fragmentos.",
+     "nivel": "intermediario",
+     "itens": 45,
+     "fontes": 38
+    },
+    {
+     "id": "C04.4",
+     "nome": "Blue note e escala de blues",
+     "descricao": "A ♭5 e as outras blue notes (♭3 da maior), a escala hexatônica, a blue note como inflexão microtonal e como nota de passagem.",
+     "nivel": "iniciante",
+     "itens": 18,
+     "fontes": 35
+    },
+    {
+     "id": "C04.5",
+     "nome": "Misturar pentatônica maior e menor",
+     "descricao": "As duas pentatônicas no mesmo shape, regra das três casas, o som 'blues' da menor sobre acorde maior, alternância e mistura sobre o mesmo acorde.",
+     "nivel": "intermediario",
+     "itens": 21,
+     "fontes": 24
+    }
+   ]
+  },
+  {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação",
+   "descricao": "Como cada nota soa: bends, vibrato, legato e slides, ornamentos, dinâmica e timbre, mecânica de palhetada e velocidade.",
+   "licoes": [
+    {
+     "id": "C05.1",
+     "nome": "Bend: mecânica, afinação e variações",
+     "descricao": "Mecânica (pivô, antebraço, dedos de apoio), afinação pelo ouvido, meio tom/tom/microbend, pre-bend, release, bends sujos e cascatas.",
+     "nivel": "iniciante",
+     "itens": 41,
+     "fontes": 52
+    },
+    {
+     "id": "C05.2",
+     "nome": "Vibrato",
+     "descricao": "Rate e depth, tipos (clássico, standard, blues, butterfly, neck, com bend), vibrato atrasado, onde aplicá-lo, erros de afinação.",
+     "nivel": "iniciante",
+     "itens": 29,
+     "fontes": 25
+    },
+    {
+     "id": "C05.3",
+     "nome": "Slides, hammer-ons, pull-offs e legato",
+     "descricao": "Ligados e deslizes como articulação: slide de meio tom abaixo, legato em escalas, frases de 3-4 notas com hammer/pull, fluidez sem palhetar.",
+     "nivel": "intermediario",
+     "itens": 29,
+     "fontes": 45
+    },
+    {
+     "id": "C05.4",
+     "nome": "Double stops, rakes, harmônicos, alavanca e ornamentos",
+     "descricao": "Recursos de cor: duas notas simultâneas, rake, harmônicos, whammy bar, cordas soltas como drone, grace notes e trills.",
+     "nivel": "intermediario",
+     "itens": 26,
+     "fontes": 38
+    },
+    {
+     "id": "C05.5",
+     "nome": "Dinâmica de toque, ataque e timbre",
+     "descricao": "Volume e ataque da palheta, leveza na mão, troca de captador, efeitos (delay, reverb, compressão), timbre e mixagem.",
+     "nivel": "intermediario",
+     "itens": 23,
+     "fontes": 32
+    },
+    {
+     "id": "C05.6",
+     "nome": "Palhetada, velocidade e mecânica das mãos",
+     "descricao": "Palhetada alternada, sweep, rest stroke, economia de movimento, relaxamento, digitação, velocidade com metrônomo e prevenção de lesões.",
+     "nivel": "intermediario",
+     "itens": 51,
+     "fontes": 43
+    }
+   ]
+  },
+  {
+   "id": "C06",
+   "nome": "Ritmo, tempo e groove",
+   "descricao": "Quando as notas acontecem: pulso e subdivisões, deslocamento e síncope, variação e ganchos rítmicos, swing, groove e rubato.",
+   "licoes": [
+    {
+     "id": "C06.1",
+     "nome": "Pulso, contagem e subdivisões",
+     "descricao": "Figuras rítmicas (semibreve a semicolcheia, tercinas), contar em voz alta, metrônomo, ouvir a bateria, improvisar com uma subdivisão fixa.",
+     "nivel": "iniciante",
+     "itens": 26,
+     "fontes": 31
+    },
+    {
+     "id": "C06.2",
+     "nome": "Deslocamento, síncope e ponto de entrada",
+     "descricao": "Não começar sempre no tempo 1, deslocar um lick no compasso, atravessar a barra, antecipar.",
+     "nivel": "intermediario",
+     "itens": 17,
+     "fontes": 18
+    },
+    {
+     "id": "C06.3",
+     "nome": "Variação rítmica e ganchos rítmicos",
+     "descricao": "Mudar só o ritmo de uma ideia, ritmos-alvo, padrões rítmicos fixos como andaime, emprestar o ritmo de melodias conhecidas.",
+     "nivel": "intermediario",
+     "itens": 26,
+     "fontes": 41
+    },
+    {
+     "id": "C06.4",
+     "nome": "Feel: swing, groove e rubato",
+     "descricao": "Swing vs. straight, feel ternário do blues, layback, rubato e curva de tempo, encaixe no groove de baixo e bateria.",
+     "nivel": "intermediario",
+     "itens": 24,
+     "fontes": 18
+    }
+   ]
+  },
+  {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo",
+   "descricao": "Transformar notas em música: da escala à frase, poucas notas, espaço, pergunta e resposta, motivo e desenvolvimento, estrutura do solo e interação com a banda.",
+   "licoes": [
+    {
+     "id": "C07.1",
+     "nome": "Da escala à frase: fundamentos do fraseado",
+     "descricao": "Fraseado como 'o como', frase como sentença, parar de subir e descer a escala, noodling, frases curtas e melódicas.",
+     "nivel": "iniciante",
+     "itens": 36,
+     "fontes": 101
+    },
+    {
+     "id": "C07.2",
+     "nome": "Poucas notas e restrições criativas",
+     "descricao": "Improvisar com 1, 2, 3, 4 ou 6 notas, com duas cordas ou com o material limitado, para focar em fraseado e criatividade.",
+     "nivel": "iniciante",
+     "itens": 27,
+     "fontes": 43
+    },
+    {
+     "id": "C07.3",
+     "nome": "Espaço, silêncio e respiração",
+     "descricao": "Pausas como pontuação, respirar como um instrumentista de sopro, deixar a frase ser assimilada, não preencher todos os tempos.",
+     "nivel": "iniciante",
+     "itens": 17,
+     "fontes": 39
+    },
+    {
+     "id": "C07.4",
+     "nome": "Pergunta e resposta (call and response)",
+     "descricao": "Frases em diálogo: mecânica, finais de pergunta (5ª, nota fora) e de resposta (tônica), contraste de registro e dinâmica, antecedente e consequente.",
+     "nivel": "iniciante",
+     "itens": 31,
+     "fontes": 21
+    },
+    {
+     "id": "C07.5",
+     "nome": "Motivo, repetição e desenvolvimento motívico",
+     "descricao": "Criar um motivo e desenvolvê-lo: repetir com variação, permutar, sequenciar, mudar registro, contorno, intervalos, formas AABA/ABAC, operações de 'morph'.",
+     "nivel": "intermediario",
+     "itens": 30,
+     "fontes": 64
+    },
+    {
+     "id": "C07.6",
+     "nome": "Estrutura, narrativa e final do solo",
+     "descricao": "Começo, meio e fim, organizar por compassos, frases de tamanhos variados, construir intensidade, registro como direção, clímax, finais e compor um solo.",
+     "nivel": "intermediario",
+     "itens": 36,
+     "fontes": 46
+    },
+    {
+     "id": "C07.7",
+     "nome": "Tocar com a banda e para a música",
+     "descricao": "Ouvir a faixa antes de entrar, não colidir com outros instrumentos, reagir à bateria, não tocar por cima do cantor, usar a melodia vocal, sinais de palco.",
+     "nivel": "iniciante",
+     "itens": 16,
+     "fontes": 24
+    }
+   ]
+  },
+  {
+   "id": "C08",
+   "nome": "Ouvido, vocabulário e transcrição",
+   "descricao": "Desenvolver o ouvido e construir linguagem própria: treino auditivo, cantar o que se toca, transcrever, aprender e tornar seus os licks, escuta ativa de referências.",
+   "licoes": [
+    {
+     "id": "C08.1",
+     "nome": "Treino auditivo e escuta reativa",
+     "descricao": "Identificar intervalos, notas da tríade, tonalidade e progressões de ouvido. Reactive listening para achar a nota que 'quer ficar'.",
+     "nivel": "iniciante",
+     "itens": 35,
+     "fontes": 43
+    },
+    {
+     "id": "C08.2",
+     "nome": "Cantar e tocar o que se ouve",
+     "descricao": "Audiação: imaginar a melodia, cantar antes ou junto e depois achá-la no braço.",
+     "nivel": "intermediario",
+     "itens": 16,
+     "fontes": 30
+    },
+    {
+     "id": "C08.3",
+     "nome": "Transcrição de solos",
+     "descricao": "Por que e como transcrever: escolher o solo, uma nota por vez, de ouvido antes de escrever, desacelerar, conferir, pós-transcrição (12 tons, análise), execução literal vs. recriação.",
+     "nivel": "intermediario",
+     "itens": 24,
+     "fontes": 19
+    },
+    {
+     "id": "C08.4",
+     "nome": "Licks e vocabulário: aprender e tornar seus",
+     "descricao": "Aprender licks, riffs e solos como vocabulário, transpor, variar (harmônica, rítmica, melodicamente), citar, montar repertório de frases.",
+     "nivel": "intermediario",
+     "itens": 36,
+     "fontes": 55
+    },
+    {
+     "id": "C08.5",
+     "nome": "Escuta ativa e referências",
+     "descricao": "Analisar solos de guitarristas favoritos e de outros instrumentos (sax, cantores), ouvir gêneros variados, estudar o fraseado de ídolos.",
+     "nivel": "intermediario",
+     "itens": 23,
+     "fontes": 39
+    }
+   ]
+  },
+  {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes",
+   "descricao": "Relacionar o solo à harmonia: notas do acorde como destino, guide tones e condução de vozes, seguir as trocas, escolher entre tonal e acorde a acorde, aproximações cromáticas e linhas que conduzem ao próximo acorde.",
+   "licoes": [
+    {
+     "id": "C09.1",
+     "nome": "Notas do acorde, repouso e tensão-resolução",
+     "descricao": "Tônica, 3ª e 5ª (e 7ª, 9ª) como notas de chegada, caráter de cada grau sobre o acorde, terminar frases em notas estáveis ou suspensas, tocar só chord tones.",
+     "nivel": "iniciante",
+     "itens": 57,
+     "fontes": 104
+    },
+    {
+     "id": "C09.2",
+     "nome": "Guide tones e condução de vozes",
+     "descricao": "3ª e 7ª como notas-guia, movimento por semitom entre acordes, notas comuns, escolher a nota mais próxima no acorde seguinte.",
+     "nivel": "intermediario",
+     "itens": 27,
+     "fontes": 27
+    },
+    {
+     "id": "C09.3",
+     "nome": "Seguir as trocas: escala por acorde e chord chasing",
+     "descricao": "Pentatônica de mesmo nome sobre cada acorde, trocar a pentatônica a cada acorde, mudar o mínimo de notas, deslocar o centro do solo, acordes fora da tonalidade.",
+     "nivel": "intermediario",
+     "itens": 41,
+     "fontes": 50
+    },
+    {
+     "id": "C09.4",
+     "nome": "Centro tonal vs. acorde a acorde: escolher a abordagem",
+     "descricao": "Sistema chord-scale, solo vertical vs. horizontal, uma escala para tudo vs. escala por acorde, pensar tonalidade e acorde ao mesmo tempo.",
+     "nivel": "intermediario",
+     "itens": 26,
+     "fontes": 52
+    },
+    {
+     "id": "C09.5",
+     "nome": "Aproximação cromática, enclosures e notas de passagem",
+     "descricao": "Chegar ao alvo por semitom acima ou abaixo, enclosure, notas de passagem e vizinhas, cromatismo resolvido em tempo forte.",
+     "nivel": "intermediario",
+     "itens": 25,
+     "fontes": 47
+    },
+    {
+     "id": "C09.6",
+     "nome": "Pensar à frente: linhas que levam ao próximo acorde",
+     "descricao": "Forward motion, decidir antes onde pousar, alvos nos tempos fortes, construir a linha de trás para frente, conectar frases entre acordes.",
+     "nivel": "intermediario",
+     "itens": 31,
+     "fontes": 39
+    }
+   ]
+  },
+  {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo",
+   "descricao": "O acorde tocado nota a nota: formas de arpejo, tríades e inversões, arpejos de sétima, arpejo como melodia, superposições e voicings para acompanhar.",
+   "licoes": [
+    {
+     "id": "C10.1",
+     "nome": "Arpejos: conceito e formas básicas",
+     "descricao": "O que é um arpejo, tríades maior, menor e diminuta em uma ou mais oitavas, derivar formas pela fórmula do acorde.",
+     "nivel": "iniciante",
+     "itens": 20,
+     "fontes": 18
+    },
+    {
+     "id": "C10.2",
+     "nome": "Tríades em grupos de cordas e inversões",
+     "descricao": "Tríades nas três cordas agudas e em outros grupos, posição fundamental e inversões, tríades diatônicas pelo braço, tríades diagonais, notas dobradas.",
+     "nivel": "intermediario",
+     "itens": 34,
+     "fontes": 26
+    },
+    {
+     "id": "C10.3",
+     "nome": "Arpejos de sétima e diatônicos",
+     "descricao": "Arpejos maj7, 7, m7 e m7♭5, arpejos diatônicos de uma oitava, spread dominant arpeggios, mapear 3ª/5ª/7ª a partir de cada dedo.",
+     "nivel": "intermediario",
+     "itens": 26,
+     "fontes": 25
+    },
+    {
+     "id": "C10.4",
+     "nome": "Arpejo como melodia: combinar com escala e pentatônica",
+     "descricao": "Não subir e descer o arpejo, alternar arpejo e escala, ver o arpejo dentro da pentatônica, notas de órbita, fragmentos e pausas.",
+     "nivel": "intermediario",
+     "itens": 33,
+     "fontes": 47
+    },
+    {
+     "id": "C10.5",
+     "nome": "Superposição e estrutura superior",
+     "descricao": "Arpejo da 3ª do acorde, arpejos de outras notas do acorde, pares de tríades, sus4, extensões 9/11/13 via arpejos, substituição por trítono.",
+     "nivel": "avancado",
+     "itens": 27,
+     "fontes": 23
+    },
+    {
+     "id": "C10.6",
+     "nome": "Tríades e voicings no acompanhamento",
+     "descricao": "Shell voicings, acordes reduzidos às cordas agudas, comping com guide tones, ritmo Charleston, double stops rítmicos, aproximações e extensões no acompanhamento.",
+     "nivel": "intermediario",
+     "itens": 38,
+     "fontes": 22
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica",
+   "descricao": "Escalas de sete notas e seus usos: escala maior no solo, modos e notas características, abordagem modal, escalas híbridas e menores, tensão e notas fora.",
+   "licoes": [
+    {
+     "id": "C11.1",
+     "nome": "Escala maior e diatônica no solo",
+     "descricao": "Shapes de sete notas, improvisar na escala maior, posições mistas e 3nps, escala maior dentro da pentatônica.",
+     "nivel": "iniciante",
+     "itens": 28,
+     "fontes": 29
+    },
+    {
+     "id": "C11.2",
+     "nome": "Modos: construção, sonoridade e nota característica",
+     "descricao": "Modos como rotações e como alteração de uma nota, meios-tons, nota característica, caráter emocional, mito do 'desenho'. Inclui a teoria histórica dos modos.",
+     "nivel": "intermediario",
+     "itens": 24,
+     "fontes": 29
+    },
+    {
+     "id": "C11.3",
+     "nome": "Modos na prática: tonal vs. modal e troca de modo",
+     "descricao": "Ouvir o modo sobre um vamp, alternar dórico/eólio e dórico/frígio, um modo por acorde, tonal vs. modal, 'uma escala sobre as mudanças' via modos.",
+     "nivel": "intermediario",
+     "itens": 40,
+     "fontes": 29
+    },
+    {
+     "id": "C11.4",
+     "nome": "Escalas híbridas, menores e pentatônicas modais",
+     "descricao": "Híbrida mixolídio-blues, menor harmônica, melódica menor, frígio dominante, pentatônica mixolídia, pentatônicas modais, outras pentas.",
+     "nivel": "avancado",
+     "itens": 23,
+     "fontes": 22
+    },
+    {
+     "id": "C11.5",
+     "nome": "Tensão, dissonância e notas fora",
+     "descricao": "Espectro de notas (de óbvias a dissonantes), notas a evitar, suspensões e apojaturas, outside, sobreposições de semitom, usar dissonância com intenção.",
+     "nivel": "avancado",
+     "itens": 28,
+     "fontes": 52
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "nome": "Linguagens de blues e jazz",
+   "descricao": "Aplicação de tudo acima nos dois contextos com mais material: forma e solo no blues, harmonia e vocabulário do jazz, e um abrigo para outros estilos.",
+   "licoes": [
+    {
+     "id": "C12.1",
+     "nome": "Forma e harmonia do blues",
+     "descricao": "12 compassos, I-IV-V com sétimas, quick change, shuffle, blues menor, 8 e 16 compassos, harmonia de turnarounds, forma AA'B.",
+     "nivel": "iniciante",
+     "itens": 17,
+     "fontes": 21
+    },
+    {
+     "id": "C12.2",
+     "nome": "Solar sobre o blues",
+     "descricao": "Pentatônica sobre todo o blues e ajustada por acorde, terças maiores dos dominantes, sexta e ♭7 do IV, ♭5 no V, maior/menor por acorde, licks e turnarounds de blues, caixa do BB King.",
+     "nivel": "intermediario",
+     "itens": 43,
+     "fontes": 52
+    },
+    {
+     "id": "C12.3",
+     "nome": "Harmonia de jazz para o solista",
+     "descricao": "ii-V-I maior e menor, chunking de progressões, dominantes secundárias, turnarounds, rhythm changes, standards (Autumn Leaves, Solar, Blue Bossa).",
+     "nivel": "intermediario",
+     "itens": 31,
+     "fontes": 18
+    },
+    {
+     "id": "C12.4",
+     "nome": "Vocabulário de jazz: bebop, dominantes e tensões",
+     "descricao": "Escala bebop, método Barry Harris, 3 to ♭9, arpejo de dominante com ♭9, tensões alteradas, trocas de quatro, projetos de estudo de jazz.",
+     "nivel": "avancado",
+     "itens": 13,
+     "fontes": 11
+    }
+   ]
+  }
+ ]
+}

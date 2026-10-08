@@ -1,0 +1,204 @@
+{
+ "fonte_id": "pt--improvisação_musical-fe84f3",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Improvisação (música) – Wikipédia, a enciclopédia livre",
+  "autor": "",
+  "url": "https://pt.wikipedia.org/wiki/Improvisação_musical",
+  "site": "pt.wikipedia.org",
+  "idioma": "pt",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/pt--improvisação_musical-fe84f3.md"
+ },
+ "resumo": "Verbete da Wikipédia que define improvisação musical como a habilidade de produzir e interpretar música ao mesmo tempo, dentro ou fora de parâmetros harmônicos e rítmicos. Distingue a improvisação idiomática (dentro de um gênero, como jazz e música brasileira) da não idiomática, ou livre. Critica a ideia de improvisação como \"composição em tempo real\". O conteúdo é conceitual e curto, sem exercícios de guitarra. Serve como contexto e vocabulário para iniciantes.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 1,
+  "justificativa": "Texto enciclopédico curto e genérico, sem exemplos musicais, exercícios ou foco em guitarra. Só serve para vocabulário e contexto conceitual."
+ },
+ "assuntos_principais": [
+  "definição de improvisação",
+  "improvisação idiomática",
+  "improvisação livre",
+  "improvisação vs composição"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de improvisação musical",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define improvisação como produzir e interpretar música simultaneamente. Diz que é preciso ter controle dos parâmetros, senão a música soa incongruente, sobretudo ao tocar com outros músicos. Apresenta a crítica à comparação com composição em tempo real.",
+   "assuntos": [
+    "definição",
+    "controle dos parâmetros",
+    "improvisação vs composição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Improvisação idiomática",
+   "inicio": null,
+   "fim": null,
+   "resumo": "É a improvisação dentro de um gênero e estilo, como jazz e música brasileira, com frases construídas sobre harmonias pré-definidas.",
+   "assuntos": [
+    "idiomática",
+    "jazz",
+    "música brasileira",
+    "harmonia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Improvisação não idiomática (livre)",
+   "inicio": null,
+   "fim": null,
+   "resumo": "É a improvisação sem vínculo com gênero ou regras preconcebidas. Surgiu nos anos 1960, a partir do free jazz e da música contemporânea. Cita como expoentes, entre outros, os guitarristas Fred Frith e Thurston Moore.",
+   "assuntos": [
+    "improvisação livre",
+    "free jazz",
+    "história"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Referências e bibliografia",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências acadêmicas e bibliografia.",
+   "assuntos": [
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é improvisar",
+   "descricao": "Improvisar é produzir e interpretar, ao mesmo tempo, melodias, ritmos ou vocalizações, dentro ou fora de parâmetros harmônicos e rítmicos. Em canções, também pode incluir a criação de letra na hora.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "definição",
+    "improvisação"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Domine os parâmetros antes de improvisar",
+   "descricao": "Para improvisar bem, o músico precisa ter bom controle dos parâmetros com que trabalha (harmonia, ritmo). Sem isso, o que cria pode soar incongruente. Isso pesa mais quando se toca com outros músicos, como numa banda ou com backing track.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "fundamentos",
+    "harmonia",
+    "ritmo",
+    "tocar em grupo"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar não é só composição em tempo real",
+   "descricao": "Teóricos da improvisação criticam a ideia de que improvisar é compor em tempo real. Eles dizem que ela supõe que as habilidades de compor e de improvisar são as mesmas, o que daria vantagem ao ato de compor. Improvisar tem habilidades próprias, então vale treiná-las em si mesmas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "composição",
+    "teoria da improvisação"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Improvisação idiomática",
+   "descricao": "É a criação de melodia, harmonia, ritmo e textura dentro de um gênero e estilo, como jazz e música brasileira. O solista constrói as frases com base em parâmetros definidos, por exemplo melodias sobre harmonias pré-definidas. Na guitarra, isso equivale a solar sobre a progressão da música respeitando a linguagem do estilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "idiomática",
+    "estilo",
+    "harmonia",
+    "jazz",
+    "música brasileira"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Improvisação não idiomática (livre)",
+   "descricao": "É a improvisação sem pertencer a gênero ou estilo, sem regras além da lógica ou da inclinação estética dos músicos. Pode ser uma técnica, usada em qualquer gênero, ou um gênero em si. Surgiu nos EUA e na Europa nos anos 1960, a partir do free jazz e da música contemporânea.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação livre",
+    "free jazz",
+    "não idiomática"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Guitarristas de improvisação livre para ouvir",
+   "descricao": "O verbete cita Fred Frith e Thurston Moore como guitarristas da improvisação livre. Cita também Anthony Braxton, Evan Parker, John Zorn, Matana Roberts, Cecil Taylor, Otomo Yoshihide e Eddie Prévost. Para ouvir mais do gênero, ele indica o livro A Listener's Guide to Free Improvisation, de John Corbett.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "improvisação livre",
+    "referências",
+    "escuta"
+   ],
+   "id_global": "pt--improvisação_musical-fe84f3#I06"
+  }
+ ],
+ "artistas_citados": [
+  "Anthony Braxton",
+  "Evan Parker",
+  "John Zorn",
+  "Matana Roberts",
+  "Cecil Taylor",
+  "Otomo Yoshihide",
+  "Fred Frith",
+  "Thurston Moore",
+  "Eddie Prévost"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "A Listener's Guide to Free Improvisation (John Corbett, 2016)",
+  "Improvisation: methods and models (Jeff Pressing)",
+  "The Oxford Handbook of Critical Improvisation Studies",
+  "Free Improvisation (Derek Bailey)",
+  "Improvisation au piano (Jean-Pierre Thiollet)"
+ ],
+ "observacoes": "Documento enciclopédico curto, sem timestamps. Não tem conteúdo prático de guitarra (escalas, licks, exercícios). As ideias são conceituais. A referência final traz \"so piano\", provavelmente erro de \"sur le piano\" no título original.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:53",
+  "tentativas": 1,
+  "custo_usd": 0.0892
+ }
+}

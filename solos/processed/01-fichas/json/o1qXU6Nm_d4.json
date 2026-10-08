@@ -1,0 +1,631 @@
+{
+ "fonte_id": "o1qXU6Nm_d4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+  "autor": "StichMethod Guitar",
+  "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4",
+  "idioma": "en",
+  "duracao": "15m 7s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/o1qXU6Nm_d4--where-guitar-improvisation-begins-the-absolute-fundamental-mindset.md"
+ },
+ "resumo": "Vídeo do StichMethod que apresenta a 'mentalidade' de improvisação: ver dois 'braços' de guitarra ao mesmo tempo, um com os acordes e outro com a escala por cima, usando o blues como exemplo. Explica a progressão I-IV-V em A (A, D, E) como base, a pentatônica menor de A como escala e a tensão entre a 3ª maior do acorde (C#) e a 3ª menor da escala (C), além de mostrar quais notas do acorde ficam fora da pentatônica em D7 e E7. É voltado a guitarristas iniciantes e intermediários que ainda não enxergam a relação entre acordes e escalas. Boa parte do conteúdo é conceitual e motivacional, com pouca prática guiada.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito central claro e bem ilustrado com exemplos concretos (A, D, E; C# vs C; F# fora da pentatônica), mas com muita repetição, digressões e promoção, e a demonstração final com looper é quase inaudível na transcrição."
+ },
+ "assuntos_principais": [
+  "mentalidade de improvisação",
+  "fórmula da música: escalas e notas de acorde sobre os acordes",
+  "progressão de blues I-IV-V",
+  "pentatônica menor sobre acordes maiores",
+  "3ª maior do acorde vs 3ª menor da escala",
+  "notas de acorde fora da escala",
+  "visualização de dois braços da guitarra",
+  "campo de acordes e escala sobreposta"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e público-alvo",
+   "inicio": "00:00",
+   "fim": "00:36",
+   "resumo": "Apresentação do tema e do público: guitarristas frustrados, céticos ou perdidos.",
+   "assuntos": [
+    "apresentação do vídeo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Apresentação pessoal e perspectiva do professor",
+   "inicio": "00:36",
+   "fim": "01:10",
+   "resumo": "O professor conta que já foi um guitarrista frustrado e diz que a perspectiva do vídeo está presente em quase todos os seus vídeos.",
+   "assuntos": [
+    "mentalidade do guitarrista",
+    "adaptar o que se sabe ao contexto"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "A fórmula da música",
+   "inicio": "01:10",
+   "fim": "02:16",
+   "resumo": "Improviso não é tocar notas soltas em tempo real, mas seguir regras: escalas e/ou notas do acorde sobre os acordes, mais o elemento humano (ritmo, dinâmica, escolhas).",
+   "assuntos": [
+    "teoria como framework",
+    "fórmula da música",
+    "elemento humano: ritmo e dinâmica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Por que estudar blues",
+   "inicio": "02:16",
+   "fim": "02:50",
+   "resumo": "Justificativa para usar o blues como gênero de aprendizado dos fundamentos do improviso.",
+   "assuntos": [
+    "blues como base",
+    "fundamentos do improviso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Camada de base: progressão I-IV-V e pentatônica",
+   "inicio": "02:50",
+   "fim": "03:57",
+   "resumo": "A progressão I-IV-V (A, D, E) é a base ('cupcake'); sobre ela, no blues, usa-se a pentatônica menor, que dá o som do blues e do rock.",
+   "assuntos": [
+    "progressão I-IV-V",
+    "cupcake como metáfora",
+    "pentatônica menor",
+    "som do blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Tensão entre 3ª maior do acorde e 3ª menor da escala",
+   "inicio": "03:57",
+   "fim": "04:33",
+   "resumo": "A 3ª maior do acorde de A (C#) soa contra a 3ª menor da pentatônica (C), gerando o som áspero característico.",
+   "assuntos": [
+    "3ª maior vs 3ª menor",
+    "som gritante do blues",
+    "acorde de A com sétima"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Visualizar dois braços: acordes e escala",
+   "inicio": "04:33",
+   "fim": "05:40",
+   "resumo": "Visualizar o braço dos acordes (E7 na casa 5) e, em plano separado por cima, o braço da escala.",
+   "assuntos": [
+    "visualização do braço",
+    "acorde E7 na casa 5",
+    "escala em plano separado"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Notas coincidentes entre acorde e pentatônica",
+   "inicio": "05:40",
+   "fim": "06:47",
+   "resumo": "Compara quais notas do acorde de A coincidem com a pentatônica de A menor; a 3ª maior fica de fora e deve ser explorada. Analogia dos óculos 3D para a visão em dois planos.",
+   "assuntos": [
+    "notas em comum",
+    "nota fora da pentatônica",
+    "analogia dos óculos 3D"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Notas de acorde fora da escala em D7 e E7",
+   "inicio": "06:47",
+   "fim": "07:57",
+   "resumo": "Sobre o IV (D7), a 3ª maior F# está fora da pentatônica e pode ser trazida como nota de acorde; sobre o V (E7), a G# fica fora e o professor não gosta muito dela, sugerindo usá-la como arpejo.",
+   "assuntos": [
+    "D7 sobre IV",
+    "E7 sobre V",
+    "notas de acorde fora da pentatônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Regra: pentatônica menor sobre acordes maiores",
+   "inicio": "07:57",
+   "fim": "08:32",
+   "resumo": "Resumo da regra: pentatônica menor sobre acordes maiores I, IV e V; acordes com sétima continuam sendo do tipo maior. Melodias não surgem do nada.",
+   "assuntos": [
+    "regra do blues",
+    "acordes com sétima",
+    "melodia não surge do nada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Referências do canal",
+   "inicio": "08:32",
+   "fim": "09:40",
+   "resumo": "Indica vídeos do canal para ver o conceito na prática: Blues Primer, Comfortably Numb e Black Magic Woman.",
+   "assuntos": [
+    "referências de vídeos do canal"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S12",
+   "titulo": "Ter as duas camadas na mente",
+   "inicio": "09:40",
+   "fim": "10:15",
+   "resumo": "O objetivo é enxergar acordes e escala ao mesmo tempo; ver só a escala dá apenas metade do quadro.",
+   "assuntos": [
+    "duas camadas mentais",
+    "visão incompleta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Promoção do Patreon",
+   "inicio": "10:15",
+   "fim": "10:47",
+   "resumo": "Convite para as sessões práticas pagas no Patreon e comentário sobre deixar de lado aulas.",
+   "assuntos": [
+    "Patreon",
+    "promoção"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S14",
+   "titulo": "Demonstração: notas de acorde fora da escala",
+   "inicio": "10:47",
+   "fim": "11:54",
+   "resumo": "Demonstração tocando a 3ª maior sobre o IV e o V, notas que não estão na pentatônica, enquanto narra o raciocínio.",
+   "assuntos": [
+    "demonstração ao vivo",
+    "notas fora da pentatônica",
+    "narrar o raciocínio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Trocar a mentalidade linear pela de acordes e escala",
+   "inicio": "11:54",
+   "fim": "13:05",
+   "resumo": "Em vez de pensar em escalas lineares ou em decorar intervalos de olhos fechados, entender que acordes e escala se encontram. Menciona vídeos sobre teoria, soloing e mapas.",
+   "assuntos": [
+    "mentalidade não linear",
+    "acordes e escala juntos",
+    "teoria e mapas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Demonstração com looper",
+   "inicio": "13:05",
+   "fim": "13:42",
+   "resumo": "Demonstração com looper em que o professor toca e comenta os acordes e a 3ª maior; a fala está ininteligível na transcrição.",
+   "assuntos": [
+    "looper",
+    "demonstração"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S17",
+   "titulo": "Como estudar os vídeos do canal",
+   "inicio": "13:42",
+   "fim": "14:16",
+   "resumo": "Sugere assistir a vídeos antigos do canal para perceber o raciocínio de acordes e escala que o professor não verbaliza.",
+   "assuntos": [
+    "estudo dos vídeos",
+    "raciocínio implícito",
+    "visão 3D"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S18",
+   "titulo": "Recapitulação e convite",
+   "inicio": "14:16",
+   "fim": "14:50",
+   "resumo": "Recapitulação da ideia das duas camadas e convite para Patreon e para perguntas nos comentários.",
+   "assuntos": [
+    "recapitulação",
+    "convite"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S19",
+   "titulo": "Despedida",
+   "inicio": "14:50",
+   "fim": "15:07",
+   "resumo": "Agradecimento e despedida.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Adaptar o que você já sabe ao gênero",
+   "descricao": "Não aprenda o improviso como uma lista isolada de licks: pegue o que você já conhece e encaixe no contexto harmônico e no gênero que está tocando.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "contexto"
+   ],
+   "id_global": "o1qXU6Nm_d4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Fórmula da música: escalas ou notas do acorde sobre os acordes",
+   "descricao": "A música combina escalas e/ou notas do acorde tocadas ao mesmo tempo que os acordes, acrescidas do elemento humano: ritmo, dinâmica e escolhas.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "fórmula da música",
+    "notas do acorde",
+    "escala",
+    "ritmo",
+    "dinâmica"
+   ],
+   "id_global": "o1qXU6Nm_d4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Achar que improvisar é tocar notas sem regras",
+   "descricao": "Improvisar não é comandar notas em tempo real como se fossem tiradas do nada: existe um framework de regras (teoria) que o solista deve conhecer e seguir.",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "iniciante",
+   "tags": [
+    "teoria",
+    "mentalidade"
+   ],
+   "id_global": "o1qXU6Nm_d4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Estudar o blues como base",
+   "descricao": "O blues é apontado como o melhor gênero para aprender o improviso do zero, pois mostra o framework de forma simples.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "iniciante",
+   "tags": [
+    "blues",
+    "fundamentos"
+   ],
+   "id_global": "o1qXU6Nm_d4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Progressão I-IV-V em A (A, D, E)",
+   "descricao": "A camada de base do blues é a progressão I-IV-V: no exemplo, em lá maior, A, D e E, que o professor chama de 'cupcake'.",
+   "passos": [],
+   "timestamp": "02:50",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão I-IV-V",
+    "blues",
+    "cupcake"
+   ],
+   "id_global": "o1qXU6Nm_d4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de A sobre a progressão do blues",
+   "descricao": "No blues, a cobertura melódica é a pentatônica menor (A C D E G) sobre a progressão I-IV-V, que produz o som do blues e do rock.",
+   "passos": [],
+   "timestamp": "03:24",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "blues",
+    "escala"
+   ],
+   "id_global": "o1qXU6Nm_d4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Tensão entre C# (3ª maior) e C (3ª menor)",
+   "descricao": "Sobre o acorde de A, a 3ª maior do acorde (C#) soa junto à 3ª menor da pentatônica de A menor (C). Esse atrito cria o som áspero do blues.",
+   "passos": [],
+   "timestamp": "03:57",
+   "nivel": "iniciante",
+   "tags": [
+    "3ª maior",
+    "3ª menor",
+    "blue note",
+    "tensão"
+   ],
+   "id_global": "o1qXU6Nm_d4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Visualizar dois braços ao mesmo tempo",
+   "descricao": "Imagine dois braços de guitarra: um com a posição dos acordes (onde você está tocando) e outro, em plano separado por cima, com a escala.",
+   "passos": [],
+   "timestamp": "04:33",
+   "nivel": "iniciante",
+   "tags": [
+    "visualização",
+    "braço",
+    "acordes e escala"
+   ],
+   "id_global": "o1qXU6Nm_d4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Sobrepor a pentatônica de A ao acorde de E7 na casa 5",
+   "descricao": "Montar o acorde de E7 na casa 5 e visualizar por cima a pentatônica de A menor, identificando quais notas coincidem com o acorde.",
+   "passos": [
+    "Toque o acorde de E7 na casa 5 e mantenha a imagem dele.",
+    "Visualize, em plano separado por cima, a pentatônica menor de A (A C D E G).",
+    "Identifique quais notas da pentatônica coincidem com as notas do acorde.",
+    "Identifique quais notas do acorde ficam de fora da pentatônica."
+   ],
+   "timestamp": "04:33",
+   "nivel": "iniciante",
+   "tags": [
+    "visualização",
+    "E7",
+    "pentatônica menor",
+    "notas-alvo"
+   ],
+   "id_global": "o1qXU6Nm_d4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Nota de acorde fora da pentatônica como recurso",
+   "descricao": "Sobre o acorde de A, a pentatônica de A menor compartilha quase todas as notas do acorde; apenas a 3ª maior (C#) fica de fora e deve ser aproveitada como cor.",
+   "passos": [],
+   "timestamp": "05:40",
+   "nivel": "iniciante",
+   "tags": [
+    "notas de acorde",
+    "pentatônica menor",
+    "3ª maior"
+   ],
+   "id_global": "o1qXU6Nm_d4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Visão em 3D: óculos de dois filtros",
+   "descricao": "Ver acordes e escala em dois planos separados e, ao mesmo tempo, como um só quadro tridimensional, do mesmo jeito que óculos 3D combinam duas lentes.",
+   "passos": [],
+   "timestamp": "06:14",
+   "nivel": "iniciante",
+   "tags": [
+    "visão 3D",
+    "analogia",
+    "duas camadas"
+   ],
+   "id_global": "o1qXU6Nm_d4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Trazer a 3ª maior de D7 (F#) sobre o IV",
+   "descricao": "Sobre o acorde de D7 (IV), a 3ª maior F# não está na pentatônica de A menor, mas é nota do acorde e pode ser usada no solo porque faz parte da música naquele momento.",
+   "passos": [],
+   "timestamp": "07:21",
+   "nivel": "intermediario",
+   "tags": [
+    "IV",
+    "D7",
+    "F#",
+    "notas de acorde fora da escala"
+   ],
+   "id_global": "o1qXU6Nm_d4#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "G# (3ª maior de E7) fora da pentatônica",
+   "descricao": "Sobre o acorde de E7 (V), a 3ª maior G# fica fora da pentatônica de A menor. O professor pouco usa essa nota e sugere tocá-la como parte de um arpejo.",
+   "passos": [],
+   "timestamp": "07:21",
+   "nivel": "intermediario",
+   "tags": [
+    "V",
+    "E7",
+    "G#",
+    "arpejo"
+   ],
+   "id_global": "o1qXU6Nm_d4#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Regra: pentatônica menor sobre acordes maiores e com sétima",
+   "descricao": "A regra do blues: pentatônica menor sobre os acordes I, IV e V; mesmo com sétimas, esses acordes seguem sendo do tipo maior para fins de escolha da escala.",
+   "passos": [],
+   "timestamp": "08:32",
+   "nivel": "iniciante",
+   "tags": [
+    "regra do blues",
+    "pentatônica menor",
+    "acordes com sétima"
+   ],
+   "id_global": "o1qXU6Nm_d4#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S10",
+   "tipo": "erro_comum",
+   "titulo": "Tentar tirar melodias do nada",
+   "descricao": "O professor afirma que é mais fácil seguir regras do que tentar tirar melodias do nada, sem apoio em acordes e escala.",
+   "passos": [],
+   "timestamp": "08:32",
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "regras"
+   ],
+   "id_global": "o1qXU6Nm_d4#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Ver as duas camadas ao mesmo tempo",
+   "descricao": "Você precisa colocar a mente nas duas camadas simultaneamente: notas do acorde num nível e a escala no outro. Ver só a escala é ver apenas metade do quadro.",
+   "passos": [],
+   "timestamp": "09:40",
+   "nivel": "iniciante",
+   "tags": [
+    "duas camadas",
+    "visão completa"
+   ],
+   "id_global": "o1qXU6Nm_d4#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S14",
+   "tipo": "exercicio",
+   "titulo": "Encaixar a 3ª maior do acorde a cada troca de acorde",
+   "descricao": "Tocar a pentatônica de A menor sobre a progressão I-IV-V e, a cada troca de acorde, encaixar a 3ª maior do acorde que não está na escala (C# no I, F# no IV, G# no V).",
+   "passos": [
+    "Toque a progressão I-IV-V em A (A, D, E) como backing track.",
+    "Toque a pentatônica menor de A por cima.",
+    "Em cada acorde, identifique sua 3ª maior (C# em A, F# em D, G# em E).",
+    "Quando o acorde mudar, toque a 3ª maior dele como nota de passagem ou de destaque.",
+    "Repita devagar e aumente o andamento."
+   ],
+   "timestamp": "11:22",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "3ª maior",
+    "I-IV-V",
+    "pentatônica menor",
+    "exercício"
+   ],
+   "id_global": "o1qXU6Nm_d4#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Trocar a mentalidade linear por acordes + escala",
+   "descricao": "Em vez de pensar no braço de forma linear (tocar escala sem ver os acordes ou decorar intervalos de olhos fechados), pense que existem acordes e, sobre eles, uma escala escolhida, que se encontram.",
+   "passos": [],
+   "timestamp": "11:54",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "escala linear",
+    "acordes e escala"
+   ],
+   "id_global": "o1qXU6Nm_d4#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S17",
+   "tipo": "dica",
+   "titulo": "Assistir a vídeos do canal com foco no raciocínio",
+   "descricao": "Assistir a vídeos do canal observando onde o professor pensa nos acordes e na escala, mesmo quando não diz em voz alta.",
+   "passos": [],
+   "timestamp": "13:42",
+   "nivel": "iniciante",
+   "tags": [
+    "estudo",
+    "vídeos",
+    "raciocínio"
+   ],
+   "id_global": "o1qXU6Nm_d4#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S17",
+   "tipo": "recurso",
+   "titulo": "Playlists e vídeos de referência para visão de acordes e escala",
+   "descricao": "Para ver o conceito na prática, o professor indica o Blues Primer, Comfortably Numb e Black Magic Woman Improvisation, além do CAGED Primer e da masterclass de arpejos CAGED.",
+   "passos": [],
+   "timestamp": "13:42",
+   "nivel": "iniciante",
+   "tags": [
+    "recursos",
+    "blues",
+    "CAGED",
+    "improvisação"
+   ],
+   "id_global": "o1qXU6Nm_d4#I20"
+  }
+ ],
+ "artistas_citados": [
+  "David Gilmour"
+ ],
+ "musicas_citadas": [
+  "Comfortably Numb",
+  "Black Magic Woman"
+ ],
+ "recursos_citados": [
+  "Blues Primer Playlist",
+  "Comfortably Numb Soloing (vídeo do canal)",
+  "Black Magic Woman Improvisation (vídeo do canal)",
+  "THE Master Music Formula (vídeo do canal)",
+  "CAGED Primer Playlist",
+  "2 Hour FREE CAGED ARPEGGIOS Master Class",
+  "Patreon StichMethod (práticas pagas)",
+  "Blues Primer / Blues fire playlist (citado como 'Blue's fire playlist')",
+  "StichMethod.com"
+ ],
+ "observacoes": "Transcrição automática com muitos erros: 'Gilmore' = Gilmour, 'Jamrock' e 'Jam bam'/'janon band' = jam band, 'Comfortly num' = Comfortably Numb, 'Stitch method' = StichMethod, 'one Bridge level' = um nível, 'Blue's fire playlist' = Blues Primer Playlist, 'A1 Stakes sauce bite' provavelmente é uma frase truncada. Trechos de 13:05 a 13:42 (demonstração com looper) são praticamente ininteligíveis e dependem de ver a tela/tocar. Parte do conteúdo depende de ver a demonstração no braço (shapes e casas), que a transcrição não descreve. Há muita promoção de Patreon e de outros vídeos. O professor afirma que a visão 3D é o fundamento, mas não detalha exercícios passo a passo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00381,
+  "via": "api"
+ }
+}

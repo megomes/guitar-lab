@@ -1,0 +1,216 @@
+{
+ "fonte_id": "phildegreg--transcription-dfa342",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Transcription - Phil DeGreg",
+  "autor": "",
+  "url": "https://phildegreg.com/teaching/free-practice-materials/transcription/",
+  "site": "phildegreg.com",
+  "idioma": "en",
+  "tema_coleta": "ouvido",
+  "arquivo_raw": "solos/raw/documentos/phildegreg--transcription-dfa342.md"
+ },
+ "resumo": "Página curta de Phil DeGreg sobre transcrição de música de ouvido (jazz). Defende ouvir em detalhe e copiar solos, frases ou músicas inteiras, valorizando o processo em vez do produto. Descreve como ele aprendeu a tocar linhas transcrevendo solos de Bud Powell, levando-os ao tempo com metrônomo, destacando frases de forte implicação harmônica e praticando-as em outros tons. Voltada a músicos de jazz (exemplos de piano, mas aplicável à guitarra) de qualquer nível.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conselhos valiosos e aplicáveis, mas curtos e genéricos; o material concreto (PDFs) não está no texto e o foco é piano."
+ },
+ "assuntos_principais": [
+  "transcrição de ouvido",
+  "aprendizado de linguagem jazzística",
+  "frases em todos os tons",
+  "metrônomo",
+  "escuta detalhada"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "O que é transcrição e por que fazer",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define transcrição como ouvir em detalhe e copiar de ouvido; foco no processo, escolher solo de que se gosta.",
+   "assuntos": [
+    "transcrição",
+    "escuta",
+    "mentalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Transcrição de exemplo de Bud Powell e método pessoal",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Phil explica como aprendeu linhas transcrevendo Bud Powell, com metrônomo, circulando frases e praticando-as em outros tons.",
+   "assuntos": [
+    "Bud Powell",
+    "frases",
+    "12 tons",
+    "metrônomo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Lista de pianistas de jazz importantes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Menciona PDF com pianistas históricos relevantes para referência de escuta.",
+   "assuntos": [
+    "história do jazz",
+    "referências"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é transcrição",
+   "descricao": "Transcrever é ouvir música em detalhe e copiá-la de ouvido. Pode ser um solo inteiro, uma música ou apenas uma frase de que você goste. Alguns memorizam direto no instrumento, outros escrevem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição",
+    "ouvido"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Vá direto ao som, não à notação",
+   "descricao": "O objetivo é gastar tempo regularmente indo diretamente ao som, e não à partitura/tablatura, para aprender a linguagem do estilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "linguagem"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Escuta detalhada é a habilidade essencial",
+   "descricao": "Ouvir em detalhe é a habilidade mais essencial para tocar jazz; a transcrição treina exatamente isso.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escuta",
+    "jazz"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "O processo importa mais que o produto",
+   "descricao": "Não meça o sucesso pelo número de compassos transcritos, mas pelo tempo dedicado a tentar. O valor está no esforço de escuta.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "processo"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Escolha um solo de que você realmente gosta",
+   "descricao": "Como você passará bastante tempo com aquelas notas, escolha um solo que ama para manter a motivação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "motivação",
+    "repertório"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Método de Phil: transcrever, tempo, circular e transpor",
+   "descricao": "Phil aprendeu a tocar linhas transcrevendo solos (ex.: Bud Powell), levando-os ao andamento com metrônomo, marcando frases com forte implicação harmônica e praticando-as nos outros tons, o que treinou ouvido e digitação improvisada.",
+   "passos": [
+    "Transcreva um solo que você ama",
+    "Trabalhe-o até o andamento original com metrônomo",
+    "Circule frases que tenham forte implicação harmônica",
+    "Pratique essas frases nos outros tons"
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "frases",
+    "12 tons",
+    "metrônomo",
+    "lick"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Extraia frases com forte implicação harmônica",
+   "descricao": "Do solo transcrito, selecione frases que sugerem claramente a harmonia, pois são as mais reutilizáveis em improvisação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "frases"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "PDFs: transcrição de Bud Powell e lista de pianistas",
+   "descricao": "O site oferece download de uma transcrição de Bud Powell (gravação com Sonny Stitt e J.J. Johnson) e de uma lista de pianistas de jazz históricos importantes para escutar.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "recurso",
+    "jazz",
+    "referências"
+   ],
+   "id_global": "phildegreg--transcription-dfa342#I08"
+  }
+ ],
+ "artistas_citados": [
+  "Bud Powell",
+  "Sonny Stitt",
+  "J.J. Johnson",
+  "Phil DeGreg"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Transcrição de piano de Bud Powell (PDF)",
+  "Jazz Pianists You Should Know (PDF)",
+  "Álbum Sonny Stitt, Bud Powell, J.J. Johnson (Prestige OJC)"
+ ],
+ "observacoes": "Documento curto, focado em piano; o conteúdo musical real está nos PDFs não incluídos. Segmentos sem timestamps (documento).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:01",
+  "tentativas": 1,
+  "custo_usd": 0.1674
+ }
+}

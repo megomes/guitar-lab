@@ -1,0 +1,354 @@
+{
+ "fonte_id": "en--bend_-music-f7581f",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Glissando - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Bend_(music)",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--bend_-music-f7581f.md"
+ },
+ "resumo": "A fonte é um verbete da Wikipédia em inglês sobre glissando, traduzido aqui para o português. Ela define glissando como um deslize entre duas alturas, distingue o glissando discreto (em degraus, como no piano) do contínuo (portamento) e lista termos correlatos. Também mostra a notação e menciona como o bend em instrumentos de trastes produz notas alteradas. Serve como referência conceitual para quem estuda bends e slides na guitarra, mas não traz exercícios práticos voltados ao solo.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitualmente claro e com definições úteis sobre glissando, portamento e bend. Não é voltado à guitarra, tem pouca orientação prática e os trechos sobre guitarra são breves e tangenciais."
+ },
+ "assuntos_principais": [
+  "glissando",
+  "portamento",
+  "glissando discreto",
+  "glissando contínuo",
+  "notação de glissando",
+  "bent note",
+  "bend em instrumentos de trastes",
+  "tremolo arm",
+  "termos correlatos (slide, scoop, smear)"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e termos correlatos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define glissando como deslize de uma altura a outra, relaciona com portamento e lista termos equivalentes ou semelhantes em diferentes contextos.",
+   "assuntos": [
+    "definição de glissando",
+    "portamento",
+    "slide",
+    "scoop",
+    "termos correlatos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Notação do glissando",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica como o glissando é indicado na partitura, com linha na direção desejada e abreviação gliss., ou com as notas escritas e a palavra glissando.",
+   "assuntos": [
+    "notação",
+    "linha de glissando",
+    "abreviação gliss.",
+    "semicolcheias"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Glissando discreto",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve glissandos em instrumentos que emitem notas separadas, como piano e harpa, com exemplos de escalas e de uso por compositores.",
+   "assuntos": [
+    "glissando discreto",
+    "piano",
+    "escalas no teclado",
+    "harpa",
+    "escala cromática",
+    "instrumentos de trastes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Glissando contínuo e portamento",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o glissando contínuo, chamado de portamento, em instrumentos de altura variável, e cita o tremolo arm da guitarra.",
+   "assuntos": [
+    "glissando contínuo",
+    "portamento",
+    "instrumentos sem trastes",
+    "guitarra com slide",
+    "tremolo arm",
+    "vibrato"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Bent note",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica a nota dobrada (bent note), como ela é feita em instrumentos de trastes, no harmônica e no trompete, e em quais estilos é comum.",
+   "assuntos": [
+    "bent note",
+    "bend",
+    "intonação",
+    "harmônica",
+    "trompete",
+    "jazz",
+    "blues",
+    "rock"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Referências, leituras e links",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de notas de rodapé, referências bibliográficas, leitura complementar e verbetes relacionados.",
+   "assuntos": [
+    "referências",
+    "bibliografia",
+    "verbetes relacionados"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Glissando como deslize entre alturas",
+   "descricao": "Glissando é um deslize de uma altura a outra. Em alguns contextos equivale ao portamento, um deslize contínuo e sem degraus. Em outros, indica degraus discretos, como os que se ouvem ao deslizar a unha pelas teclas do piano.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "glissando",
+    "portamento",
+    "definição"
+   ],
+   "id_global": "en--bend_-music-f7581f#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Termos correlatos ao glissando",
+   "descricao": "Existem termos semelhantes ou equivalentes ao glissando conforme o contexto: slide, sweep bend, smear, rip (glissando forte até o início da nota), lip (no jazz, feito mudando a embocadura), plop e falling hail (na harpa, com a parte de trás das unhas). Scoop é um glissando ascendente até o ataque da nota, feito só com a embocadura em instrumentos de sopro sem vara, como o trombone.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "scoop",
+    "terminologia"
+   ],
+   "id_global": "en--bend_-music-f7581f#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Notação com linha e abreviação gliss.",
+   "descricao": "O glissando é indicado por uma linha, às vezes ondulada, que sai da primeira nota na direção do deslize, geralmente acompanhada da abreviação gliss.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notação",
+    "gliss.",
+    "partitura"
+   ],
+   "id_global": "en--bend_-music-f7581f#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Notação com notas explícitas",
+   "descricao": "Às vezes as notas desejadas são escritas uma a uma, em semicolcheias, com a palavra glissando indicando que devem ser deslizadas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notação",
+    "semicolcheias"
+   ],
+   "id_global": "en--bend_-music-f7581f#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escalas deslizadas no teclado",
+   "descricao": "No piano, deslizar a unha sobre as teclas brancas produz a escala de dó maior. Sobre as teclas pretas, produz a pentatônica maior de fá sustenido. Tocando as duas ao mesmo tempo, obtém-se a escala cromática completa.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "piano",
+    "escala cromática",
+    "pentatônica maior",
+    "glissando discreto"
+   ],
+   "id_global": "en--bend_-music-f7581f#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Cromática com as duas mãos de deslize",
+   "descricao": "Exercício para montar a escala cromática completa deslizando sobre teclas brancas e pretas ao mesmo tempo.",
+   "passos": [
+    "Deslize a unha sobre as teclas brancas, da nota mais grave à mais aguda, para obter a escala de dó maior.",
+    "Deslize ao mesmo tempo sobre as teclas pretas, para obter a pentatônica maior de fá sustenido.",
+    "Execute os dois movimentos juntos para formar a escala cromática completa."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "cromática",
+    "piano",
+    "coordenação"
+   ],
+   "id_global": "en--bend_-music-f7581f#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escala rápida deslizando pela corda",
+   "descricao": "Em instrumentos de trastes, como a guitarra, é possível fazer uma escala cromática muito rápida deslizando pelo braço ao longo de uma corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "cromática",
+    "trastes",
+    "deslize na corda"
+   ],
+   "id_global": "en--bend_-music-f7581f#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Portamento em instrumentos de altura contínua",
+   "descricao": "Instrumentos sem trastes, como violino, viola, violoncelo, contrabaixo e guitarra fretless, permitem glissando contínuo (portamento) numa faixa grande de alturas. Na guitarra, o mesmo efeito aparece ao usar slide sobre o braço com trastes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "portamento",
+    "fretless",
+    "slide"
+   ],
+   "id_global": "en--bend_-music-f7581f#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Tremolo arm: portamento e vibrato",
+   "descricao": "Muitas guitarras elétricas têm braço de tremolo que pode produzir portamento, vibrato ou a combinação dos dois. Apesar do nome, não produz um tremolo verdadeiro.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "tremolo-arm",
+    "vibrato",
+    "portamento"
+   ],
+   "id_global": "en--bend_-music-f7581f#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Bend para cima com pressão do dedo",
+   "descricao": "Em instrumentos de trastes, a bent note é obtida ao empurrar ou puxar a corda com pressão excessiva do dedo, o que eleva a altura da nota.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "bent-note",
+    "trastes"
+   ],
+   "id_global": "en--bend_-music-f7581f#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Bent note em outros instrumentos",
+   "descricao": "No harmônica, a nota é abaixada alterando o trato vocal para deslocar a ressonância da palheta. No trompete, a nota é dobrada pelo uso dos lábios. Em instrumentos sem trastes, como trombone e voz, a variação é descrita como intonação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "harmônica",
+    "trompete",
+    "intonação"
+   ],
+   "id_global": "en--bend_-music-f7581f#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Estilos com notas dobradas",
+   "descricao": "A bent note é comum no jazz, no blues e no rock.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "jazz",
+    "blues",
+    "rock",
+    "bent-note"
+   ],
+   "id_global": "en--bend_-music-f7581f#I12"
+  }
+ ],
+ "artistas_citados": [
+  "Maurice Ravel",
+  "Rachmaninoff",
+  "Prokofiev",
+  "Franz Liszt",
+  "George Gershwin",
+  "Karlheinz Stockhausen"
+ ],
+ "musicas_citadas": [
+  "Alborada del Gracioso",
+  "Klavierstück X",
+  "Rhapsody in Blue"
+ ],
+ "recursos_citados": [
+  "The New Grove Dictionary of Music and Musicians (verbetes Glissando, Portamento, Lip, Rip, Scoop)",
+  "Harvard Dictionary of Music (Willi Apel)",
+  "Anatomy of the Orchestra (Norman Del Mar)",
+  "Bahnson, Antaki e Beery - estudo sobre a acústica da gaita diatônica (1998)",
+  "Solomon - How to Write for Percussion (2016)",
+  "Greenberg - George Gershwin (1998)",
+  "Wiktionary (verbete glissando)",
+  "Verbetes relacionados da Wikipédia: String bending, Bend (guitar), Blue note, Blues scale, Portamento, Vibrato, Fretless guitar, Meend, Octave glissando"
+ ],
+ "observacoes": "Documento da Wikipédia em inglês, traduzido para o português, sem autor identificado. O conteúdo é de teoria e história musical, não um método de guitarra; o bend é tratado em poucas frases. A fonte traz a marcação 'citation needed' em uma passagem sobre o órgão e uma nota 'contradictory' na referência 8. Ideias em S1 e S2 foram extraídas do próprio texto. Os trechos sobre a guitarra são breves e os dados de partitura e escalas foram mantidos como estão na fonte.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 2,
+  "custo_usd": 0.00191,
+  "via": "api"
+ }
+}

@@ -1,0 +1,493 @@
+{
+ "subcategoria": "C09.5",
+ "visao_geral": "A subcategoria ensina a usar notas fora do acorde (vizinhas diatônicas, cromáticas e de passagem) como caminho até uma nota-alvo, nunca como destino. A progressão começa pelo conceito de nota de passagem e pela regra de que um passo de escala resolve a tensão. Depois vêm a aproximação diatônica e a cromática por semitom (com destaque para ♭3→3), o cromatismo que preenche intervalos de tom e a decoração de tríades e arpejos. Por fim, entram o enclosure (acima-abaixo-alvo) e a regra rítmica que une tudo: o cromatismo cai em tempo fraco e o alvo, no tempo forte.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Notas de passagem e notas vizinhas",
+   "descricao": "Notas que não pertencem ao acorde, alcançadas por grau conjunto, dão movimento à melodia desde que a frase não termine nelas: o erro é parar na tensão, não tocá-la. Exemplos: o Lá sobre a tríade de Dó, a 2ª (Lá) em Sol maior, a 4ª tendendo à 3ª ou à 5ª. Sobre o IV (F), o Mi (3ª do I) é a 7M de F e deve passar rumo a uma nota resolvida. A apoggiatura é a vizinha tocada antes da nota do acorde, com ênfase na resolução. Tocar só notas do acorde é como pintar por cima da mesma cor.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "OkTBizvNWoI#I18",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I22",
+    "14UZEproJ-A#I06",
+    "Rm8Y-Q6wbR4#I20",
+    "6I9x7a1MCI4#I21",
+    "3dW_GQsC5Ak#I28",
+    "UbIv3AKmNl0#I27",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I26"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Um passo resolve a nota de tensão",
+   "descricao": "Numa escala de sete notas, três formam a tríade. Um passo acima ou abaixo de uma nota que não é do acorde costuma cair numa nota dele (7 de 9 casos, segundo Justin). Em C: D vai a C ou E; F vai a E ou G; A vai a G (estável) ou a B (tenso, exige mais um passo). Se tocou uma nota indesejada, mova-a meio tom ou um grau e você provavelmente volta à escala ou ao acorde.",
+   "passos": [
+    "Identifique a tríade do acorde atual",
+    "Ao cair fora dela, mova um grau acima ou abaixo",
+    "Pouse na nota do acorde mais próxima"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "OkTBizvNWoI#I16",
+    "-VjHVHzWL0o#I07",
+    "web--fqbk-handbook-pdf-582590#I08",
+    "-VjHVHzWL0o#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "rotina_estudo",
+   "titulo": "Adicionar notas de passagem em camadas",
+   "descricao": "Comece tocando só a nota do acorde em cada troca, por exemplo C# e depois A. Em seguida, insira uma nota qualquer da escala entre as trocas. Quando estiver confortável, insira duas e depois três, mantendo sempre a chegada na nota do próximo acorde.",
+   "passos": [
+    "Toque uma nota do acorde em cada troca",
+    "Insira uma nota da escala no meio do compasso",
+    "Chegue na nota do próximo acorde",
+    "Aumente para duas e depois três notas entre as trocas"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I08",
+    "hafoCeXWxAE#I08",
+    "9oAxHq-ZLwI#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Notas de órbita: vizinhas da escala ao redor da tríade",
+   "descricao": "No Orbit Method, as três notas da tríade são os destinos e as demais notas da escala ao redor são notas de órbita, usadas para aproximar, afastar e contornar os alvos. Exemplo: sobre Lá, tocar o B (vizinho acima) em hammer-on com anelar ou mindinho. Só tríade soa como pulos entre destinos; as órbitas criam impulso.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "qIewGDRWBu8#I02",
+    "enk-fXAONJQ#I14",
+    "qIewGDRWBu8#I03",
+    "MvUgoNBTNjA#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Decorar cada acorde da progressão com vizinhas da escala",
+   "descricao": "Na progressão G–D–Am–C em Sol maior, identifique para cada acorde as notas da escala de G logo acima e abaixo das notas do acorde. Toque-as como ornamento antes ou entre as notas do acorde, sobre backing track.",
+   "passos": [
+    "Escolha um acorde (G, D, Am ou C)",
+    "Ache as notas da escala de G vizinhas ao acorde",
+    "Toque-as antes ou entre as notas do acorde",
+    "Repita com a progressão completa na backing track"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "MvUgoNBTNjA#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Linhas do Orbit Method sobre formas de tríade",
+   "descricao": "Linha 1 sobre Lá maior: comece na nota superior da tríade, suba em hammer-on para uma nota de órbita e resolva numa nota da tríade. Na segunda forma, saia de uma órbita para duas notas-alvo e repita tudo uma oitava abaixo. Linha 2 sobre Dmaj7sus2: bend de semitom na órbita uma casa acima da nota mais aguda da forma (corda Si), soltando para o alvo.",
+   "passos": [
+    "Monte as formas de tríade de Lá maior",
+    "Nota superior → hammer-on na órbita → nota da tríade",
+    "Segunda forma: órbita → alvo → alvo",
+    "Repita uma oitava abaixo",
+    "Variação: bend de semitom na órbita soltando no alvo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "qIewGDRWBu8#I04",
+    "qIewGDRWBu8#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Aproximação diatônica",
+   "descricao": "Chegue ao alvo a partir da nota vizinha da escala do acorde, acima ou abaixo dele. O som é mais suave e \"dentro\" que o da aproximação cromática.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Aproximação cromática por semitom",
+   "descricao": "Antes do alvo, toque a nota uma casa acima ou abaixo dele, mesmo fora da escala, e resolva no alvo. Exemplos: D#→E (3ª de C), B♭→B no arpejo de Dó, vizinho cromático da tônica antes de resolvê-la. Primeiro estabeleça as notas do acorde e só então saia e volte para casa. Essa tensão-resolução é a base do som bebop e marca a troca de acorde; a cromática deve ser rápida e resolver logo, podendo vir também como slide curto de meio tom.",
+   "passos": [
+    "Estabeleça as notas do acorde",
+    "Toque a nota meio tom acima ou abaixo do alvo",
+    "Resolva no alvo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I22",
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I16",
+    "h4zQjSecjvI#I14",
+    "5hmSQuMIf-w#I11",
+    "QcL5HWH735g#I24",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I48",
+    "hlA3fv1Jq5I#I05",
+    "mw6d34vqDMs#I05",
+    "en--jazz_improvisation-59a777#I18",
+    "On_Ho3azaLk#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Aproximar o alvo G pelos dois tipos",
+   "descricao": "Com G como alvo, compare a aproximação cromática por baixo (F#→G, uma casa abaixo) com a diatônica por cima (A→G).",
+   "passos": [
+    "Toque o alvo G",
+    "Toque F# e resolva em G",
+    "Toque A e resolva em G",
+    "Compare os dois sons"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Meio tom G#→A sobre Mi",
+   "descricao": "Sobre o acorde de Mi, descer o mindinho... ou melhor, mover a voz de G# (3ª de E) para A é um movimento de meio tom comum em muitas músicas. Numa progressão em Lá, ele gera a maior sensação de resolução, como sensível indo para a tônica.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "enk-fXAONJQ#I16",
+    "W96yUcOEub0#I27"
+   ],
+   "divergencias": "",
+   "correcoes": "G# é a 3ª de E e a sensível de Lá; G#→A sobe meio tom (não desce), por isso funciona como sensível→tônica."
+  },
+  {
+   "id": "K11",
+   "tipo": "dica",
+   "titulo": "Aproximar a 3ª do acorde",
+   "descricao": "Chegar à 3ª por cromatismo ressalta o guide tone e dá direção. O clássico é ♭3→3: E♭→E sobre C (som de blues), B♭→B sobre G (casa 15 da corda G; ou Sol–Lá–Si♭–Si–Sol uma oitava acima), F→F# sobre D7. Também vale vir de cima (F→E em C), por slide ou por outras notas: o que importa é a 3ª cair na troca de acorde, de preferência no tempo 1.",
+   "passos": [
+    "Localize a 3ª do acorde seguinte",
+    "Toque meio tom abaixo (♭3) ou acima",
+    "Resolva na 3ª no tempo 1 da troca"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I09",
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I16",
+    "1ksOozBYk8g#I04",
+    "fwyn5tQdF4k#I13",
+    "mw6d34vqDMs#I10",
+    "7Pdss_Gswtc#I07",
+    "fundamental-changes--targeting-chord-tones-b70c9e#I11"
+   ],
+   "divergencias": "Algumas fontes apresentam a aproximação de cima como padrão; Pettingale diz que qualquer lado funciona se a 3ª cair na troca.",
+   "correcoes": "No exemplo de Schofield, G♭ não é a ♭3 de B♭ (que é D♭); a ideia válida é criar tensão antes de resolver em D, 3ª de B♭. Na fala de Beato, a vizinha de resolução da 3ª é a ♭3; a ♭5 é outra cor bluesy."
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Cromatismo de passagem entre notas da escala",
+   "descricao": "Quando duas notas da escala ou da pentatônica estão na mesma corda separadas por uma casa vazia, toque a nota do meio como passagem rápida, sem pousar nela. Exemplo: nota cromática entre graus do dórico, ou descer a partir da casa 13 da corda D (D#/E♭). Com alvo claro, qualquer das 12 notas soa intencional, inclusive fora da forma que você está tocando. Em linha descendente, as passagens criam a sensação de subir e descer ao mesmo tempo. Use com moderação, como tempero forte.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "FhfmneCt7jo#I22",
+    "aHzmIWB0P00#I17",
+    "N1shDBha6Y0#I17",
+    "hlA3fv1Jq5I#I03",
+    "GC-HIgdwVSM#I07",
+    "pickupmusic--what-is-the-caged-system-18ed1a#I13",
+    "fwyn5tQdF4k#I14",
+    "4-XWDbMtR-U#I17"
+   ],
+   "divergencias": "Ozeias defende que as 12 notas cabem com alvo claro; Active Melody insiste em uso pontual e moderado.",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Inserir uma nota cromática na escala maior",
+   "descricao": "Na escala de Mi maior (E F# G# A B C# D#), forma C, escolha um intervalo de tom, como F#–G#. Passe rapidamente pelo G sem parar nele e compare com a escala pura.",
+   "passos": [
+    "Toque Mi maior na forma C",
+    "Escolha um intervalo de tom (F#–G#)",
+    "Passe rápido pelo G sem parar",
+    "Compare com a escala sem a nota extra"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "conceito",
+   "titulo": "Ritmo decide se o cromatismo soa certo",
+   "descricao": "Segundo Matteo Mancuso, uma nota cromática soa errada em tempo forte e intencional como passagem em tempo fraco. Regra prática: sempre pousar numa nota da escala e deixar as cromáticas entre elas como passagem. Exemplos: o B natural da escala bebop dominante (C D E F G A B♭ B) cai sempre no contratempo; a ♭5 do blues soa como quem sabe o que faz quando passa e como erro quando para.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "XL9TYmwkHWs#I27",
+    "XL9TYmwkHWs#I29",
+    "web--fqbk-handbook-pdf-582590#I37",
+    "Cy_c2InwkSk#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "erro_comum",
+   "titulo": "Excesso de cromatismo e terminar na nota cromática",
+   "descricao": "Muitas notas de passagem deixam o solo obsessivo. Use-as em pontos pequenos e nunca termine a frase na cromática, que é onde ela soa estranha.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "FhfmneCt7jo#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Aproximar tríades e arpejos por semitom",
+   "descricao": "Deslize o arpejo inteiro a partir de um semitom abaixo (para G maior, começa em F#) ou faça um passeio cromático de dois semitons (de F, um tom abaixo de G). Outra opção é aproximar só uma nota da tríade por baixo e arpejar o resto, e essa nota pode ser a do meio. No arpejo de Lá7, acrescentar notas a meio tom das notas do acorde dá mais cor.",
+   "passos": [
+    "Escolha a tríade (ex.: G maior)",
+    "Comece um semitom abaixo (F#) ou um tom abaixo (F)",
+    "Varie: aproxime só uma nota, inclusive a do meio",
+    "Arpeje as demais notas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "MvUgoNBTNjA#I07",
+    "MvUgoNBTNjA#I08",
+    "MvUgoNBTNjA#I09",
+    "MvUgoNBTNjA#I10",
+    "SggDUBO6z7Q#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Vizinha por semitom antes de cada fragmento de arpejo",
+   "descricao": "Nos quatro fragmentos de arpejo de sétima, aproxime cada nota inicial por meio tom, de baixo ou de cima. Ao mudar de posição, use um acorde diminuto como passagem.",
+   "passos": [
+    "Escolha a nota inicial do fragmento",
+    "Toque meio tom abaixo ou acima e resolva",
+    "Repita nos quatro fragmentos",
+    "Passe por um diminuto ao trocar de posição"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "1ksOozBYk8g#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Enclosure: cercar a nota-alvo",
+   "descricao": "O enclosure cerca o alvo com notas dos dois lados antes de resolver. Podem ser semitom acima e semitom abaixo, ou nota da escala acima e cromática abaixo (ou o inverso). Usar duas notas antes do alvo cria construção e liberação. Mirar uma nota do acorde no tempo 1 faz a harmonia aparecer no fraseado (Jerry Bergonzi).",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--jazz_improvisation-59a777#I22",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I25",
+    "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I02"
+   ],
+   "divergencias": "Burgess usa semitom acima e abaixo; a definição da Wikipedia combina nota da escala de um lado e cromática do outro.",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Enclosure em 3 notas para a 3ª, com ritmo",
+   "descricao": "Alvo é a 3ª do acorde: meio tom acima no tempo 4, meio tom abaixo no \"e\" do 4, e a 3ª no tempo 1, sustentada por três tempos. Pratique sobre um blues de 12 compassos em Dó com dominantes (C7, F7, G7, mais A7 e D7), mirando E, A, B, C# e F#.",
+   "passos": [
+    "Localize a 3ª do próximo acorde",
+    "Tempo 4: meio tom acima",
+    "\"e\" do 4: meio tom abaixo",
+    "Tempo 1: a 3ª, sustentada 3 tempos",
+    "Aplique em cada troca do blues em Dó"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I03",
+    "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I06",
+    "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Ultrapassar o alvo e voltar",
+   "descricao": "Em vez de chegar direto, suba passando da nota-alvo por uma ou mais notas e então desça até pousar nela, enfatizando-a.",
+   "passos": [
+    "Escolha nota de início e alvo na forma",
+    "Suba além do alvo",
+    "Inverta e pouse no alvo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "930K2lldQD8#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Cromatismo para preencher tempo até o alvo",
+   "descricao": "Quando sobram tempos antes da troca, ligue uma nota à outra por uma sequência cromática (casas 4, 5, 6 e 7), fazendo o alvo chegar no momento certo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "TdzOXWlKtTQ#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "dica",
+   "titulo": "Incorporar cromatismo aos exercícios de escala e arpejo",
+   "descricao": "Em vez de estudar cromatismo isolado, acrescente notas de aproximação às suas sequências de escala e arpejo. Exemplos: arpejos a partir da 3ª no ii-V-I, ou tercinas com nota de aproximação, que servem para qualquer arpejo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "h4zQjSecjvI#I15",
+    "h4zQjSecjvI#I16",
+    "5hmSQuMIf-w#I18",
+    "Md9ZC0qFK3s#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "recurso",
+   "titulo": "Referências históricas de cromatismo",
+   "descricao": "Louis Armstrong usou cromatismo no solo de \"Dippermouth Blues\", recurso depois associado ao bebop. Django Reinhardt fazia corridas cromáticas rápidas, quase shred, misturadas com bends. Jimmy Bryant usava walk-ups cromáticos sobre apenas dois acordes, criando movimento sem mudar a harmonia.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--tgcleary-99b135#I10",
+    "ZBQr7STNnCE#I03",
+    "ZBQr7STNnCE#I05"
+   ],
+   "divergencias": "",
+   "correcoes": "A gravação de Armstrong citada como de 1936 deve ser conferida: a versão clássica de \"Dippermouth Blues\" com Armstrong é a da King Oliver's Creole Jazz Band (1923)."
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "Catálogo de pickups por grau: meio tom ou tom inteiro",
+   "descricao": "Pickups são notas de aproximação que antecedem uma nota-alvo, em geral uma nota do acorde ou da tônica. Em maior, os mais usados por meio tom são 7→1, ♯2→3, ♯4→5 e 4→3; por tom inteiro, 2→1 e 6→5. Em menor, funcionam 4→♭3, 5→4, ♭7→1 e 2→1.",
+   "passos": [
+    "Escolha um acorde e marque 1, 3 e 5 no braço.",
+    "Toque cada alvo antecedido pelo pickup de meio tom (ex.: 7→1, ♯2→3, ♯4→5).",
+    "Repita com pickups de tom inteiro (2→1, 6→5) e compare o som.",
+    "Em tom menor, pratique 4→♭3, ♭7→1 e 2→1.",
+    "Coloque o pickup no tempo fraco e o alvo no tempo forte."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I31"
+   ],
+   "divergencias": "",
+   "correcoes": "Nem todos os pickups levam à tônica: ♯2→3, ♯4→5 e 4→3 resolvem na 3ª ou na 5ª, e em menor 4→♭3, 5→4 e 2→1 são movimentos de tom inteiro, não de meio tom.",
+   "encaixado": true
+  },
+  {
+   "id": "K25",
+   "tipo": "conceito",
+   "titulo": "Cromatismo resolvendo em tensão da escala",
+   "descricao": "A nota cromática não precisa resolver só em nota do acorde. Ela também pode cair numa nota da escala que é tensão. Exemplo: D♯ resolvendo em E, a 9ª do Dm7. O resultado tem mais tensão e surpresa que a resolução na 1, 3 ou 5.",
+   "passos": [
+    "Sobre Dm7, toque D♯→E e sustente o E (9ª).",
+    "Compare com uma resolução em nota do acorde, como E→F (♭3).",
+    "Experimente o mesmo com outras tensões, como G♯→A ou A♯→B.",
+    "Depois da tensão, siga para uma nota do acorde para fechar a frase."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "5hmSQuMIf-w#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "SYE8tDSLU0k#I10",
+   "sugestao": "C09.1",
+   "motivo": "Trata de qual nota de acorde é satisfatória para pousar e de atravessar um acorde sem parar, não de aproximação a um alvo."
+  },
+  {
+   "id": "G5q1lfMQ5A4#I20",
+   "sugestao": "C09.6",
+   "motivo": "Compara caminhos (arpejo, enclosure, Em7♭5) para conduzir de C7 à 3ª de F7, ou seja, linhas que levam ao próximo acorde."
+  }
+ ],
+ "observacoes": "#54 menciona enclosure, mas o foco é a condução entre acordes. Secundárias #64, #66, #67, #70, #72, #74, #81-#84 e #91 não foram incluídas por serem genéricas ou pertencerem a técnica, comping ou outside. As casas citadas por Paul Davids foram conferidas: casa 15 da corda G = A#/B♭; casa 13 da corda D = D#/E♭.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 63,
+  "ideias_secundarias": 28,
+  "itens": 25,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1554,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21169,
+   "output_tokens": 11308
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 0,
+    "novos_itens": 2
+   }
+  ]
+ }
+}

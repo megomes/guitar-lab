@@ -1,0 +1,359 @@
+{
+ "fonte_id": "s6lqWYXvEds",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=s6lqWYXvEds",
+  "idioma": "en",
+  "duracao": "7m 11s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/s6lqWYXvEds--give-me-7-minutes-ill-change-the-way-you-see-the-fretboard.md"
+ },
+ "resumo": "Daniel Seriff apresenta um método simples para memorizar o braço da guitarra: esquecer sustenidos/bemóis no início e aprender só as notas naturais (A–G) nas cordas E e A, falando as letras em voz alta sobre um drone de C maior. Depois usa o \"octave mapping\" para achar a mesma nota (uma oitava acima) nas cordas D, G, B e E aguda. Por fim, aplica isso para iniciar escalas pentatônicas maiores de qualquer ponto do braço. Voltado a iniciantes e intermediários que se sentem perdidos no braço.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Método claro e concreto, com casas e cordas citadas e exemplos (G e C). Depende de diagramas e da visualização, tem um trecho promocional e a parte final sobre pentatônica é muito breve."
+ },
+ "assuntos_principais": [
+  "memorização do braço",
+  "notas naturais",
+  "octave mapping",
+  "cordas E e A",
+  "pentatônica maior",
+  "drone"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e por que a escala cromática é ruim",
+   "inicio": "00:00",
+   "fim": "01:13",
+   "resumo": "Apresenta o problema de memorizar as notas do braço e critica aprender pela escala cromática, que não é tonalidade usada em música real.",
+   "assuntos": [
+    "escala cromática",
+    "memorização"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Notas naturais nas cordas E e A sobre drone de C",
+   "inicio": "01:13",
+   "fim": "03:30",
+   "resumo": "Ensina tocar e dizer as notas naturais (tons e semitons) nas cordas E e A, subindo e descendo, sobre um drone de C maior.",
+   "assuntos": [
+    "notas naturais",
+    "tom e semitom",
+    "alfabeto musical",
+    "drone"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Patrocínio: curso Fretboard Mastery",
+   "inicio": "03:30",
+   "fim": "04:03",
+   "resumo": "Propaganda do curso do autor, com 21 exercícios e 30% de desconto.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S4",
+   "titulo": "Octave mapping nas demais cordas",
+   "inicio": "04:03",
+   "fim": "05:45",
+   "resumo": "Mostra o padrão de oitavas a partir das cordas E e A: descer duas cordas e subir duas casas; ao cruzar a corda B, subir três casas.",
+   "assuntos": [
+    "octave mapping",
+    "oitavas",
+    "afinação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Rotina e aplicação na pentatônica maior",
+   "inicio": "05:45",
+   "fim": "07:11",
+   "resumo": "Sugere praticar E e A diariamente e usar o octave mapping para dominar D, G e B; aplica a pentatônica maior diagonal começando de G e C em várias posições. Encerra indicando outro vídeo.",
+   "assuntos": [
+    "rotina",
+    "pentatônica maior",
+    "posições"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Não aprender o braço pela escala cromática",
+   "descricao": "Decorar E F F# G G# A... até o E na casa 12 é a pior forma de aprender o braço, pois nenhuma música popular usa a cromática como tonalidade; ela não ensina a usar as notas em música real.",
+   "passos": [],
+   "timestamp": "00:38",
+   "nivel": "iniciante",
+   "tags": [
+    "cromática",
+    "erro comum",
+    "braço"
+   ],
+   "id_global": "s6lqWYXvEds#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Comece só com as notas naturais",
+   "descricao": "Esqueça sustenidos e bemóis por enquanto e fale e toque apenas as sete notas naturais A, B, C, D, E, F, G. Isso simplifica o aprendizado e já coloca você na tonalidade de C maior.",
+   "passos": [],
+   "timestamp": "00:55",
+   "nivel": "iniciante",
+   "tags": [
+    "notas naturais",
+    "simplificação",
+    "C maior"
+   ],
+   "id_global": "s6lqWYXvEds#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tons e semitons entre as notas naturais",
+   "descricao": "Entre as notas naturais tudo é um tom (duas casas), exceto B–C e E–F, que são semitons (uma casa). Saber onde ficam esses dois semitons é a chave para localizar as notas.",
+   "passos": [],
+   "timestamp": "01:13",
+   "nivel": "iniciante",
+   "tags": [
+    "tom",
+    "semitom",
+    "B-C",
+    "E-F"
+   ],
+   "id_global": "s6lqWYXvEds#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Notas naturais na corda E grave sobre drone de C",
+   "descricao": "Toque e diga em voz alta as notas naturais na corda E grave sobre um drone de C maior, treinando também o ouvido: E, F (meio tom), G (tom), A (tom), B (tom), C (meio tom), D (tom), E (tom).",
+   "passos": [
+    "Ponha o backing track/drone de C maior",
+    "Toque E solta e diga o nome",
+    "Suba: F (1 casa), G (+2), A (+2), B (+2), C (+1), D (+2), E (+2)",
+    "Diga cada letra em voz alta ao tocar"
+   ],
+   "timestamp": "01:46",
+   "nivel": "iniciante",
+   "tags": [
+    "corda E",
+    "drone",
+    "notas naturais"
+   ],
+   "id_global": "s6lqWYXvEds#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Aprenda o alfabeto musical também de trás para frente",
+   "descricao": "Dizer e tocar o alfabeto musical descendente (E, D, C, B, A, G, F, E) faz o conhecimento do braço 'explodir'. Atenção aos semitons B–C e F–E na descida.",
+   "passos": [],
+   "timestamp": "01:58",
+   "nivel": "iniciante",
+   "tags": [
+    "descendente",
+    "alfabeto musical"
+   ],
+   "id_global": "s6lqWYXvEds#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Notas naturais na corda A, subindo e descendo",
+   "descricao": "Repita o exercício na corda A começando em A: A, B (tom), C (semitom), D, E (tons), F (semitom), G (tom), A (tom). Depois desça: A, G, F, E, D, C, B, A, com semitons em F–E e C–B.",
+   "passos": [
+    "Toque A e diga em voz alta",
+    "Suba pelas notas naturais com o padrão tom/semitom",
+    "Desça em ordem inversa",
+    "Faça sobre o drone de C maior"
+   ],
+   "timestamp": "02:22",
+   "nivel": "iniciante",
+   "tags": [
+    "corda A",
+    "drone",
+    "notas naturais"
+   ],
+   "id_global": "s6lqWYXvEds#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Falar as notas em voz alta acelera a memorização",
+   "descricao": "Dizer os nomes das notas enquanto toca ajuda o cérebro a memorizar bem mais rápido (o autor fala em cerca de 10 vezes).",
+   "passos": [],
+   "timestamp": "02:22",
+   "nivel": "iniciante",
+   "tags": [
+    "memorização",
+    "voz alta"
+   ],
+   "id_global": "s6lqWYXvEds#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Dominando E e A, você acessa o braço inteiro",
+   "descricao": "Quando as cordas E e A estão confortáveis, um único padrão permite chegar a todas as notas do braço.",
+   "passos": [],
+   "timestamp": "03:15",
+   "nivel": "iniciante",
+   "tags": [
+    "corda E",
+    "corda A",
+    "sistema"
+   ],
+   "id_global": "s6lqWYXvEds#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Curso Fretboard Mastery",
+   "descricao": "Curso do autor com 21 exercícios interativos de poucos minutos por dia para memorizar o braço, com 30% de desconto pelo link da descrição.",
+   "passos": [],
+   "timestamp": "03:30",
+   "nivel": "iniciante",
+   "tags": [
+    "curso",
+    "braço"
+   ],
+   "id_global": "s6lqWYXvEds#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Octave mapping a partir da corda E grave",
+   "descricao": "De qualquer nota na corda E grave, desça duas cordas (em direção ao chão) e suba duas casas para achar a mesma nota uma oitava acima na corda D. Para chegar à corda B, desça mais duas cordas e suba três casas (por causa da afinação). Ex.: G na casa 3 da E, casa 5 da D, casa 8 da B.",
+   "passos": [
+    "Escolha uma nota na corda E grave (ex.: G, casa 3)",
+    "Duas cordas abaixo (D), duas casas acima: casa 5 = G",
+    "Mais duas cordas abaixo (B), três casas acima: casa 8 = G"
+   ],
+   "timestamp": "04:03",
+   "nivel": "iniciante",
+   "tags": [
+    "octave mapping",
+    "oitava",
+    "corda D",
+    "corda B"
+   ],
+   "id_global": "s6lqWYXvEds#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Octave mapping a partir da corda A",
+   "descricao": "Da corda A o padrão é o mesmo: descer duas cordas e subir duas casas, depois mais duas cordas e três casas. Ex.: C na casa 3 da A, casa 5 da G, casa 8 da E aguda. A casa extra ocorre porque se cruza a corda B.",
+   "passos": [
+    "Toque C na casa 3 da corda A",
+    "Desça duas cordas (G), suba duas casas: casa 5 = C",
+    "Desça duas cordas (E aguda), suba três casas: casa 8 = C"
+   ],
+   "timestamp": "05:10",
+   "nivel": "iniciante",
+   "tags": [
+    "octave mapping",
+    "corda A",
+    "corda G",
+    "E aguda"
+   ],
+   "id_global": "s6lqWYXvEds#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Pratique E e A e use as formas para D, G e B",
+   "descricao": "Pratique diariamente as notas nas cordas E e A, que a maioria já domina, e use as formas de oitava para fortalecer as cordas D, G e B, onde a maioria é mais fraca.",
+   "passos": [
+    "Revise as naturais nas cordas E e A",
+    "Use o octave mapping para achar as mesmas notas em D, G e B",
+    "Repita todo dia"
+   ],
+   "timestamp": "05:45",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "octave mapping",
+    "cordas D G B"
+   ],
+   "id_global": "s6lqWYXvEds#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Iniciar a pentatônica maior de qualquer ponto do braço",
+   "descricao": "Com as notas e oitavas sabidas, dá para começar a pentatônica maior diagonal em qualquer lugar. Ex.: G maior pentatônica começando pelos G da corda E, D e B; ou da corda A usando os C (C maior).",
+   "passos": [
+    "Localize a nota raiz com octave mapping",
+    "Inicie o shape de pentatônica maior diagonal a partir dela",
+    "Repita com outras raízes e cordas"
+   ],
+   "timestamp": "06:21",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "raiz",
+    "posições"
+   ],
+   "id_global": "s6lqWYXvEds#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Vídeo recomendado: sistema 32 para pentatônicas maiores",
+   "descricao": "O autor indica outro vídeo sobre o 'sistema 32' para tocar pentatônicas maiores em qualquer lugar do braço. O drone/track e diagramas desta aula estão no link da descrição.",
+   "passos": [],
+   "timestamp": "06:58",
+   "nivel": "intermediario",
+   "tags": [
+    "recurso",
+    "pentatônica maior",
+    "sistema 32"
+   ],
+   "id_global": "s6lqWYXvEds#I14"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso Fretboard Mastery (Daniel Seriff)",
+  "Drone track de C maior e diagramas (PDF no link da descrição)",
+  "Vídeo sobre o sistema 32 de pentatônicas maiores (Daniel Seriff)"
+ ],
+ "observacoes": "Transcrição boa. O método depende de diagramas visuais. O trecho das pentatônicas é rápido. O \"138 notas\" é afirmação do autor. Há patrocínio do próprio curso em 03:30–04:03.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:01",
+  "tentativas": 1,
+  "custo_usd": 0.1221
+ }
+}

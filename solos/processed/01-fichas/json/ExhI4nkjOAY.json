@@ -1,0 +1,616 @@
+{
+ "fonte_id": "ExhI4nkjOAY",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How do I START a guitar solo?",
+  "autor": "Active Melody",
+  "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY",
+  "idioma": "en",
+  "duracao": "17m 27s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/ExhI4nkjOAY--how-do-i-start-a-guitar-solo.md"
+ },
+ "resumo": "Aula de Active Melody sobre por onde começar um solo: partindo de uma progressão I-IV-V em G (G-C-D), o professor mostra como construir a linha a partir do arpejo de G no shape de E, adicionando ♭7 (F) e 6ª (E) e depois as pentatônicas menor e maior. Ensina também a usar o shape de A para C e D e a estratégia do 'vizinho mais próximo' para acordes menores (exemplo com A → C#m → D → E). É voltada a guitarristas que já conhecem o shape de E e a pentatônica menor e querem improvisar sobre progressões simples sem backing track.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explica o raciocínio por trás da escolha de notas e dá muitos exemplos concretos com casas e cordas; porém, grande parte da demonstração depende de ver a tablatura, o trecho final é improvisado sem explicação e algumas partes da fala são confusas."
+ },
+ "assuntos_principais": [
+  "ponto de partida para improvisar",
+  "arpejo de acorde maior sobre a progressão I-IV-V",
+  "shape de E e shape de A",
+  "notas-alvo: 1, 3, 5, 6 e ♭7",
+  "♭7 e 6ª como cores do acorde",
+  "pentatônica menor e maior",
+  "vizinho mais próximo para acordes diferentes",
+  "progressão I-IV-V em G"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e problema da pergunta",
+   "inicio": "00:00",
+   "fim": "01:05",
+   "resumo": "O professor apresenta a dúvida recorrente sobre em qual nota ou posição começar a solar e compara com aprender um idioma, dizendo que não é linear, mas que há pontos de partida que funcionam.",
+   "assuntos": [
+    "onde começar a improvisar",
+    "posição no braço"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Progressão I-IV-V e arpejo de G no shape de E",
+   "inicio": "01:05",
+   "fim": "03:18",
+   "resumo": "Define a progressão G-C-D (I-IV-V em G) como base, localiza o acorde de G no shape de E na casa 3 e identifica a nota de partida (G, casa 3 da corda E grave ou casa 5 da corda A, conforme demonstrado). Introduz a ideia de tratar o arpejo como escala.",
+   "assuntos": [
+    "progressão I-IV-V",
+    "shape de E",
+    "acorde de G",
+    "arpejo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Arpejo, intervalos e primeiro improviso",
+   "inicio": "03:18",
+   "fim": "05:35",
+   "resumo": "Explica que o arpejo de G contém 1, 3 e 5, mostra que se pode deslizar para as notas a partir do traste abaixo e pratica o improviso com a progressão tocando as notas do arpejo em tempo lento.",
+   "assuntos": [
+    "intervalos 1-3-5",
+    "arpejo como escala",
+    "deslize para a nota",
+    "tempo lento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Adicionando ♭7 e 6ª",
+   "inicio": "05:35",
+   "fim": "07:26",
+   "resumo": "Adiciona a ♭7 (F, casa 6 da corda B) e a 6ª (E, casa 5 da corda B), formando G7 e G6 arpejados, e mostra que essas notas colorem o som; volta a improvisar com essas notas.",
+   "assuntos": [
+    "♭7",
+    "6ª",
+    "G7",
+    "G6",
+    "cor do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Pentatônicas menor e maior",
+   "inicio": "07:26",
+   "fim": "10:48",
+   "resumo": "Apresenta a pentatônica menor (pattern 1, conectada ao shape de E) e a pentatônica maior (pattern 2 em G), compara o caráter alegre e triste, e combina as duas para explicar onde caem a 6ª e a ♭7.",
+   "assuntos": [
+    "pentatônica menor",
+    "pentatônica maior",
+    "combinação das pentatônicas",
+    "6ª e ♭7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Aplicação sobre C e D com shape de A",
+   "inicio": "10:48",
+   "fim": "12:32",
+   "resumo": "Usa o shape de A para tocar as notas do arpejo de C e D, indicando a 6ª e a ♭7 do acorde de C na corda E e a ♭7 do IV, e mostra como o blues surge ao passar pelas trocas de acorde.",
+   "assuntos": [
+    "shape de A",
+    "arpejos de C e D",
+    "♭7 do acorde",
+    "blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Notas do acorde dentro da tonalidade e exemplo em Bb",
+   "inicio": "12:32",
+   "fim": "13:39",
+   "resumo": "Explica que as notas usadas nos acordes de C e D são as mesmas da tonalidade, por isso funcionam, e dá a regra prática de achar a tônica da música no shape de E e montar a partir dela, exemplificando com Bb.",
+   "assuntos": [
+    "notas da tonalidade",
+    "regra prática",
+    "tônica no shape de E",
+    "exemplo Bb"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Acordes menores e vizinho mais próximo",
+   "inicio": "13:39",
+   "fim": "15:21",
+   "resumo": "Mostra a progressão A - C#m - D - E e a estratégia de ir ao acorde menor mais próximo no braço em vez de subir até ele, usando o arpejo daquele ponto e deslizando para as notas, com a ideia de que o D é tratado como V de A.",
+   "assuntos": [
+    "acordes menores",
+    "vizinho mais próximo",
+    "progressão A-C#m-D-E",
+    "arpejo local"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Improviso final em G",
+   "inicio": "15:21",
+   "fim": "17:00",
+   "resumo": "Improvisa sem planejamento sobre G-C-D, anunciando que a tablatura está disponível para membros premium. Trecho quase todo tocado, com pouca explicação.",
+   "assuntos": [
+    "improviso livre",
+    "tablatura premium"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S10",
+   "titulo": "Despedida",
+   "inicio": "17:00",
+   "fim": "17:27",
+   "resumo": "Convida para perguntas, comentários e curtidas e se despede.",
+   "assuntos": [
+    "inscrição",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Começar pela tônica da música",
+   "descricao": "Para saber onde começar um solo, comece pela nota tônica da tonalidade da música, e não por um padrão aleatório do braço.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "ponto de partida",
+    "tonica",
+    "tonalidade"
+   ],
+   "id_global": "ExhI4nkjOAY#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Progressão I-IV-V como base do improviso",
+   "descricao": "A progressão I-IV-V (em G: G, C, D) é a base para aprender a improvisar, pois qualquer coisa que se consiga sobre ela é a raiz da harmonia de muitas músicas.",
+   "passos": [],
+   "timestamp": "01:38",
+   "nivel": "iniciante",
+   "tags": [
+    "I-IV-V",
+    "progressao",
+    "harmonia"
+   ],
+   "id_global": "ExhI4nkjOAY#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Achar o acorde de G no shape de E",
+   "descricao": "Use o shape de E com pestana na casa 3: as cordas mi grave e si agudo ficam em G, e a corda lá também tem um G na casa 5 da corda ré, mostrando por que o acorde é G.",
+   "passos": [],
+   "timestamp": "02:11",
+   "nivel": "iniciante",
+   "tags": [
+    "shape de E",
+    "acorde de G",
+    "pestana"
+   ],
+   "id_global": "ExhI4nkjOAY#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Nota de partida G na corda ré",
+   "descricao": "O professor usa a nota G na corda ré (casa 5) tocada com o dedo anelar como nota inicial do solo, em vez do dedo mínimo usado no acorde.",
+   "passos": [],
+   "timestamp": "02:44",
+   "nivel": "iniciante",
+   "tags": [
+    "nota de partida",
+    "digitacao",
+    "corda re"
+   ],
+   "id_global": "ExhI4nkjOAY#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Subir e descer o arpejo de G nota por nota",
+   "descricao": "Em vez de tocar o acorde de G com as cordas soando juntas, toque as notas do arpejo uma a uma, subindo pelas cordas 4 a 1 e descendo de volta, pensando na sequência como uma escala.",
+   "passos": [
+    "Toque o acorde de G em arpejo, uma nota de cada vez, nas cordas 4, 3, 2 e 1.",
+    "Desça de volta pelas mesmas notas.",
+    "Mantenha um andamento lento."
+   ],
+   "timestamp": "03:18",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "escala",
+    "notas individuais"
+   ],
+   "id_global": "ExhI4nkjOAY#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Notas do arpejo de G: 1, 3 e 5",
+   "descricao": "O arpejo de G maior é formado por G (1), B (3) e D (5), que são as notas a serem usadas quando se toca só o arpejo sobre o acorde de G.",
+   "passos": [],
+   "timestamp": "03:51",
+   "nivel": "iniciante",
+   "tags": [
+    "1-3-5",
+    "arpejo maior",
+    "notas-alvo"
+   ],
+   "id_global": "ExhI4nkjOAY#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Improvisar só com 1, 3 e 5 sobre I-IV-V",
+   "descricao": "Use apenas as notas do arpejo do acorde em cada troca (G: G-B-D, C: C-E-G, D: D-F#-A) sobre uma progressão lenta de G-C-D, improvisando com essas notas como se fossem a única escala.",
+   "passos": [
+    "Toque a progressão G-C-D lentamente, duas medidas por acorde.",
+    "Improvise usando somente as três notas do arpejo de cada acorde.",
+    "Entre no tempo no final do compasso 3 para pegar a progressão."
+   ],
+   "timestamp": "04:25",
+   "nivel": "iniciante",
+   "tags": [
+    "1-3-5",
+    "improviso",
+    "I-IV-V",
+    "tempo lento"
+   ],
+   "id_global": "ExhI4nkjOAY#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Deslizar para a nota de arpejo a partir do traste abaixo",
+   "descricao": "Você pode fazer um slide para qualquer nota do arpejo vindo do traste imediatamente abaixo, como um toque de tempero, sem sair das notas do acorde.",
+   "passos": [],
+   "timestamp": "04:25",
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "ornamento",
+    "notas do arpejo"
+   ],
+   "id_global": "ExhI4nkjOAY#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Adicionar a ♭7 para formar G7",
+   "descricao": "Acrescentar a ♭7 (F, na casa 6 da corda si) ao arpejo de G transforma-o em arpejo de G7 e muda a cor do som de forma perceptível.",
+   "passos": [],
+   "timestamp": "05:35",
+   "nivel": "iniciante",
+   "tags": [
+    "♭7",
+    "G7",
+    "arpejo",
+    "cor"
+   ],
+   "id_global": "ExhI4nkjOAY#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Adicionar a 6ª para formar G6",
+   "descricao": "Acrescentar a 6ª (E, na casa 5 da corda si, uma casa acima da ♭7 na mesma corda) ao arpejo de G resulta em um arpejo de G6.",
+   "passos": [],
+   "timestamp": "06:16",
+   "nivel": "iniciante",
+   "tags": [
+    "6a",
+    "G6",
+    "arpejo",
+    "intervalos"
+   ],
+   "id_global": "ExhI4nkjOAY#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com a 6ª e a ♭7 sobre I-IV-V",
+   "descricao": "Improvise sobre G-C-D usando 1, 3, 5, 6 e ♭7 do acorde, testando a diferença sonora de cada nota adicionada.",
+   "passos": [
+    "Toque a progressão G-C-D com o arpejo de G.",
+    "Inclua a 6ª (E) e a ♭7 (F) no arpejo de G.",
+    "Improvise com 1, 3, 5, 6 e ♭7 nos três acordes."
+   ],
+   "timestamp": "06:52",
+   "nivel": "iniciante",
+   "tags": [
+    "6a",
+    "♭7",
+    "improviso",
+    "I-IV-V"
+   ],
+   "id_global": "ExhI4nkjOAY#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor sobre o shape de E",
+   "descricao": "A pentatônica menor (padrão 1) está ligada ao shape de E e fornece o som mais triste ou sério sobre G; a pentatônica menor de G é formada por G, B♭, C, D e F.",
+   "passos": [],
+   "timestamp": "09:05",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatonica menor",
+    "shape de E",
+    "padrao 1"
+   ],
+   "id_global": "ExhI4nkjOAY#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior de G (padrão 2)",
+   "descricao": "A pentatônica maior de G é formada por G, A, B, D e E, tocada no padrão 2 descendo até a nota G do padrão, e soa alegre em comparação com a menor.",
+   "passos": [],
+   "timestamp": "09:38",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatonica maior",
+    "padrao 2",
+    "alegre"
+   ],
+   "id_global": "ExhI4nkjOAY#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Combinar pentatônicas menor e maior",
+   "descricao": "Combinar a pentatônica menor e a maior de G gera um conjunto de notas que inclui a 6ª (E) e a ♭7 (F), usado para criar linhas mais sofisticadas sobre o acorde de G.",
+   "passos": [],
+   "timestamp": "10:15",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatonica menor",
+    "pentatonica maior",
+    "combinacao",
+    "6a",
+    "♭7"
+   ],
+   "id_global": "ExhI4nkjOAY#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notas mais importantes do acorde: 1, 3, 5, 6 e ♭7",
+   "descricao": "Segundo o professor, as notas mais importantes para improvisar são a tônica, a 3ª, a 5ª, a 6ª e a ♭7 do acorde.",
+   "passos": [],
+   "timestamp": "10:15",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "1-3-5-6-b7",
+    "intervalos"
+   ],
+   "id_global": "ExhI4nkjOAY#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Usar o shape de A para os acordes de C e D",
+   "descricao": "Os arpejos de C e D podem ser tocados no shape de A; no acorde de C, a 6ª (A) fica na corda mi na casa 5 e a ♭7 (B♭) uma casa à frente na mesma corda, ambas em torno da tríade.",
+   "passos": [],
+   "timestamp": "11:23",
+   "nivel": "intermediario",
+   "tags": [
+    "shape de A",
+    "acorde de C",
+    "6a",
+    "♭7"
+   ],
+   "id_global": "ExhI4nkjOAY#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Notas de C no shape de A",
+   "descricao": "O arpejo de C no shape de A usa a tônica, 3ª e 5ª do acorde (C, E, G), com a 6ª (A) e a ♭7 (B♭) acessíveis a partir dessas notas.",
+   "passos": [],
+   "timestamp": "11:23",
+   "nivel": "intermediario",
+   "tags": [
+    "shape de A",
+    "acorde de C",
+    "1-3-5"
+   ],
+   "id_global": "ExhI4nkjOAY#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "♭7 do IV acorde (F no acorde de C)",
+   "descricao": "A ♭7 do IV grau (acorde de C, tonalidade de G) é a nota B♭ no shape, ligeiramente abaixo do traste da ♭7 de G, e cai dois trastes abaixo do ponto inicial.",
+   "passos": [],
+   "timestamp": "11:58",
+   "nivel": "intermediario",
+   "tags": [
+    "♭7",
+    "IV",
+    "blues"
+   ],
+   "id_global": "ExhI4nkjOAY#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Blues surgindo com as trocas I-IV-V",
+   "descricao": "Ao alternar notas da ♭7 e da 6ª entre os acordes I, IV e V, o improviso já soa como blues, mesmo sendo feito de forma simples.",
+   "passos": [],
+   "timestamp": "12:32",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "I-IV-V",
+    "♭7"
+   ],
+   "id_global": "ExhI4nkjOAY#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Notas dos acordes são notas da tonalidade",
+   "descricao": "As notas usadas para os acordes de C e D pertencem à tonalidade de G, por isso o improviso soa bem; pensar na tonalidade ou nos intervalos do acorde dá no mesmo.",
+   "passos": [],
+   "timestamp": "13:05",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "intervalos",
+    "acorde"
+   ],
+   "id_global": "ExhI4nkjOAY#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Regra prática: achar a tônica no shape de E",
+   "descricao": "Para começar qualquer solo, ache a tônica da tonalidade da música no shape de E e monte o improviso a partir dela. Ex.: em Bb, use o shape de E para achar a nota Bb na corda ré.",
+   "passos": [
+    "Identifique a tonalidade da música.",
+    "Localize a tônica no shape de E.",
+    "Monte os intervalos (1, 3, 5, 6, ♭7) a partir desse ponto."
+   ],
+   "timestamp": "13:05",
+   "nivel": "iniciante",
+   "tags": [
+    "tonica",
+    "shape de E",
+    "regra pratica",
+    "bb"
+   ],
+   "id_global": "ExhI4nkjOAY#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Vizinho mais próximo para acordes diferentes",
+   "descricao": "Quando a progressão muda para um acorde distante, em vez de subir ou descer até ele no braço, procure a versão do acorde mais perto da posição atual e use o arpejo ali.",
+   "passos": [
+    "Identifique o próximo acorde.",
+    "Encontre a versão do acorde mais próxima da posição atual no braço.",
+    "Toque o arpejo dessa posição e deslize para as notas."
+   ],
+   "timestamp": "14:16",
+   "nivel": "intermediario",
+   "tags": [
+    "vizinho mais proximo",
+    "acordes menores",
+    "posicao"
+   ],
+   "id_global": "ExhI4nkjOAY#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Progressão A - C#m - D - E com arpejos locais",
+   "descricao": "Sobre a progressão A - C#m - D - E, toque o arpejo de A no shape de E; para C#m use o C#m mais próximo (perto de onde você já estava) e para D e E use os arpejos perto da posição atual, deslizando para as notas.",
+   "passos": [
+    "Toque o arpejo de A no shape de E.",
+    "Vá para o C#m mais próximo e toque seu arpejo.",
+    "Volte para o arpejo de D e depois para o de E perto da posição atual."
+   ],
+   "timestamp": "14:16",
+   "nivel": "intermediario",
+   "tags": [
+    "progressao",
+    "A-C#m-D-E",
+    "arpejo local",
+    "vizinho mais proximo"
+   ],
+   "id_global": "ExhI4nkjOAY#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Acorde de D como dominante de A",
+   "descricao": "No exemplo A - C#m - D - E, o D é tratado como acorde 'três' em relação ao A e a dominante E7 aparece após ele, por isso notas do D e do E7 são usadas para a transição.",
+   "passos": [],
+   "timestamp": "14:48",
+   "nivel": "avancado",
+   "tags": [
+    "dominante",
+    "E7",
+    "analise funcional"
+   ],
+   "id_global": "ExhI4nkjOAY#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Começar em algum ponto e seguir",
+   "descricao": "O professor afirma que o importante é começar em algum lugar e a partir dali seguir pelos intervalos, sem tentar pensar em todo o braço de uma vez.",
+   "passos": [],
+   "timestamp": "15:21",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "comecar",
+    "intervalos"
+   ],
+   "id_global": "ExhI4nkjOAY#I25"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "MicroLesson Active Melody (tablatura premium em activemelody.com)",
+  "Sistema CAGED (shapes E, A)"
+ ],
+ "observacoes": "Legenda automática com erros: 'board' (provavelmente 'bar' ou 'barré'), 'Gene' (G), 'forward chord' (IV, acorde de C), 'Jam track' é backing track, 'chord words' provavelmente 'chord voicings' ou 'chords'. Trechos de improviso (S9) e demonstrações dependem de ver o vídeo ou a tablatura premium. Algumas casas e cordas foram inferidas pelo contexto e as notas do acorde de C foram calculadas pela referência de teoria. O professor fala em 'One four five' e em 'the one two three' com a notação de graus sem numeração clara em alguns trechos. Transcrição indica 'node' e 'position' sem clareza, e há trechos em que a fala é confusa. O professor afirma usar 'shape de E' para tônica de Bb, mas a nota Bb na corda ré (casa 6) não foi confirmada pela fala.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00226,
+  "via": "api"
+ }
+}

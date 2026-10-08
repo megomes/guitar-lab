@@ -1,0 +1,671 @@
+{
+ "fonte_id": "7FilvCPSYXc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+  "autor": "Active Melody",
+  "url": "https://www.youtube.com/watch?v=7FilvCPSYXc",
+  "idioma": "en",
+  "duracao": "19m 34s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/7FilvCPSYXc--how-do-i-improvise-on-guitar-start-simple-and-expand-guitar-lesson-ml1.md"
+ },
+ "resumo": "Aula de improvisação em guitarra que propõe começar com poucas notas (3ª e 5ª do acorde) e expandir gradualmente, usando a forma E de G maior como base. O professor apresenta a 6ª, a ♭3, a pentatônica maior, a pentatônica menor e a escala híbrida que mistura as duas, além de bends e cromatismo. Também discute a mentalidade de improvisar sem parar e como usar tablaturas e jam tracks para ganhar repertório. Indicada para iniciantes e intermediários que já sabem escalas, mas travam ao tocar sobre uma base.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Didática clara e progressiva, com um único acorde e uma forma fixa, o que facilita muito. Perde pontos porque boa parte do conteúdo depende de ver o braço (posições e casas são descritas verbalmente) e por haver trechos de motivação repetitiva. A ficha de tablatura prometida fica fora do vídeo."
+ },
+ "assuntos_principais": [
+  "improvisação",
+  "intervalos (3ª, 5ª, 6ª, ♭3, ♭7)",
+  "pentatônica maior",
+  "pentatônica menor",
+  "escala híbrida (maior + menor pentatônica)",
+  "bends",
+  "cromatismo",
+  "jam track",
+  "mentalidade de improvisação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Improvisar é outra habilidade",
+   "inicio": "00:00",
+   "fim": "02:13",
+   "resumo": "O professor diz que improvisar exige uma musculatura diferente da prática técnica. Relata o caso de um aluno que sabe escalas mas trava ao improvisar e recomenda tocar com jam tracks, rádio e discos.",
+   "assuntos": [
+    "improvisação",
+    "mentalidade",
+    "prática com play-along"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Errar sem parar e plano de começar simples",
+   "inicio": "02:13",
+   "fim": "03:19",
+   "resumo": "Ensina a continuar tocando após erros, sem recomeçar. Apresenta o plano da aula: começar com 3ª e 5ª, depois acrescentar 6ª e ♭7, expandindo a partir de poucas notas.",
+   "assuntos": [
+    "erros em improviso",
+    "plano de aprendizagem",
+    "intervalos 3ª e 5ª"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Anúncio de materiais",
+   "inicio": "03:19",
+   "fim": "03:51",
+   "resumo": "Divulgação da tablatura e da jam track ML136 no site do canal.",
+   "assuntos": [
+    "materiais extras"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S4",
+   "titulo": "Tonalidade de G e forma E",
+   "inicio": "03:51",
+   "fim": "06:37",
+   "resumo": "Define a tonalidade de G com um único acorde, toca tudo numa forma E e mostra que os nomes das notas importam menos que os graus. Identifica a 3ª (B) e a 5ª (D) e explica a numeração a partir da escala maior.",
+   "assuntos": [
+    "tonalidade de G",
+    "forma E",
+    "graus da escala",
+    "3ª e 5ª de G"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "3ª, 5ª, 6ª e ♭3",
+   "inicio": "06:37",
+   "fim": "08:57",
+   "resumo": "Mostra a 3ª, a 5ª, a 6ª e a tônica na forma E. Explica que 1-3-5 forma o acorde maior e que a ♭3 transforma o maior em menor, usada em deslize para a 3ª.",
+   "assuntos": [
+    "tríade maior",
+    "♭3",
+    "6ª",
+    "deslize de ♭3 para 3"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Primeira frase e cromatismo",
+   "inicio": "08:57",
+   "fim": "11:19",
+   "resumo": "Constrói uma pequena frase com 3, 5, 6 e tônica, varia ritmo e acordes de duas notas, e mostra a passagem cromática entre 6ª e 5ª para soar mais jazzístico.",
+   "assuntos": [
+    "frase curta",
+    "variação rítmica",
+    "cromatismo",
+    "6ª e 5ª"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Pentatônica maior e bends",
+   "inicio": "11:19",
+   "fim": "13:41",
+   "resumo": "Apresenta a pentatônica maior (1 2 3 5 6) na forma E e mostra o uso de bends completos e meios bends para alternar entre sonoridade alegre e triste.",
+   "assuntos": [
+    "pentatônica maior",
+    "bend completo",
+    "meio bend",
+    "♭3 por bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Pentatônica menor e escala híbrida",
+   "inicio": "13:41",
+   "fim": "15:32",
+   "resumo": "Adiciona ♭3, ♭7 e 4 para montar a pentatônica menor. Une as duas pentatônicas numa única área, chamada híbrida, e escolhe as notas conforme o efeito desejado (blues ou maior).",
+   "assuntos": [
+    "pentatônica menor",
+    "escala híbrida",
+    "♭7",
+    "4ª"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Ancorar e responder à frase",
+   "inicio": "15:32",
+   "fim": "17:14",
+   "resumo": "Mostra a escala híbrida percorrida em sequência e recomenda ficar nas quatro cordas superiores da forma. Toca a frase inicial como âncora e cria respostas variadas.",
+   "assuntos": [
+    "escala híbrida em sequência",
+    "ancoragem na forma",
+    "frase-resposta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Mentalidade de performance",
+   "inicio": "17:14",
+   "fim": "17:49",
+   "resumo": "Reforça que improvisar é performar sem parar e que a prática técnica continua necessária em paralelo.",
+   "assuntos": [
+    "performance",
+    "equilíbrio entre técnica e improviso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Vocabulário pessoal e materiais",
+   "inicio": "17:49",
+   "fim": "19:34",
+   "resumo": "Explica que o improviso se apoia em licks já conhecidos, que devem ser roubados e incorporados ao repertório pessoal. Encerra com a indicação das tablaturas e da jam track e a despedida.",
+   "assuntos": [
+    "licks",
+    "vocabulário pessoal",
+    "tablatura",
+    "jam track"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar é uma habilidade diferente de praticar",
+   "descricao": "Tocar escalas e exercícios técnicos treina uma musculatura diferente da de criar música em tempo real. Quem só pratica técnica pode dominar escalas e ainda assim travar quando precisa improvisar.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisacao",
+    "mentalidade"
+   ],
+   "id_global": "7FilvCPSYXc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Travar ao improvisar por nunca improvisar",
+   "descricao": "Um erro comum é estudar muito e nunca praticar improviso. Ao chegar o momento de tocar livremente, o músico congela e esquece o que sabe.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "bloqueio"
+   ],
+   "id_global": "7FilvCPSYXc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "rotina_estudo",
+   "titulo": "Reservar parte da prática para improvisar com play-along",
+   "descricao": "Reserve parte do tempo de estudo para tocar sobre jam tracks, rádio ou discos de que você gosta, com o objetivo de ouvir o som do seu instrumento dentro de um contexto musical.",
+   "passos": [
+    "Escolha uma faixa ou jam track de um acorde ou de uma progressão simples.",
+    "Toque livremente sobre ela sem partitura.",
+    "Ouça o resultado e perceba como suas notas reagem ao contexto."
+   ],
+   "timestamp": "01:39",
+   "nivel": "iniciante",
+   "tags": [
+    "play-along",
+    "jam track",
+    "pratica"
+   ],
+   "id_global": "7FilvCPSYXc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Não parar nem recomeçar ao errar",
+   "descricao": "Todo guitarrista erra. Os melhores se recuperam rápido ao continuar a frase, sem parar nem recomeçar. Essa recuperação também é uma habilidade que deve ser treinada tocando.",
+   "passos": [],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "erros",
+    "recuperacao",
+    "performance"
+   ],
+   "id_global": "7FilvCPSYXc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Começar com duas notas e expandir",
+   "descricao": "Em vez de tentar usar o braço inteiro, comece com apenas duas notas, como a 3ª e a 5ª do acorde, ouça como elas funcionam e só depois acrescente a 6ª, a ♭7 e outras notas.",
+   "passos": [],
+   "timestamp": "02:46",
+   "nivel": "iniciante",
+   "tags": [
+    "estrategia",
+    "notas-alvo",
+    "expansao"
+   ],
+   "id_global": "7FilvCPSYXc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Limitar o improviso a uma única forma",
+   "descricao": "Trabalhe numa área pequena do braço, usando uma única forma de acorde (aqui a forma E de G). Isso elimina padrões de tocar por todo o braço e força a criatividade dentro de poucas notas.",
+   "passos": [],
+   "timestamp": "03:51",
+   "nivel": "iniciante",
+   "tags": [
+    "forma E",
+    "braço",
+    "limitacao"
+   ],
+   "id_global": "7FilvCPSYXc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pensar em graus em vez de nomes de notas",
+   "descricao": "Em vez de decorar que a nota é B ou D, pense nos graus do acorde (3ª, 5ª). Como o som de cada grau é constante em relação ao acorde, a referência fica mais útil do que o nome absoluto da nota.",
+   "passos": [],
+   "timestamp": "04:57",
+   "nivel": "iniciante",
+   "tags": [
+    "graus",
+    "teoria",
+    "ouvido"
+   ],
+   "id_global": "7FilvCPSYXc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "A mesma nota muda de função conforme o acorde",
+   "descricao": "A nota B soa de um jeito sobre G maior (é a 3ª) e de outro sobre Bm (é a tônica). Por isso o significado da nota depende do acorde sobre o qual você toca.",
+   "passos": [],
+   "timestamp": "05:30",
+   "nivel": "iniciante",
+   "tags": [
+    "contexto harmonico",
+    "acorde",
+    "graus"
+   ],
+   "id_global": "7FilvCPSYXc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Numerar a escala maior para encontrar a 3ª e a 5ª",
+   "descricao": "Numerando a escala de G maior como 1 2 3 4 5 6 7, a 3ª é B e a 5ª é D. A 3ª e a 5ª são as notas da tríade de G maior (G B D).",
+   "passos": [],
+   "timestamp": "06:37",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "tercas",
+    "quintas"
+   ],
+   "id_global": "7FilvCPSYXc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Tônica, 3ª e 5ª formam o acorde maior",
+   "descricao": "Tocar a 1ª, a 3ª e a 5ª de qualquer escala maior ao mesmo tempo produz o acorde maior correspondente. Na forma E de G, a tríade é G, B e D.",
+   "passos": [],
+   "timestamp": "08:57",
+   "nivel": "iniciante",
+   "tags": [
+    "triade maior",
+    "acordes"
+   ],
+   "id_global": "7FilvCPSYXc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "A ♭3 transforma o acorde maior em menor",
+   "descricao": "A única diferença entre G maior e G menor é a 3ª: no maior é B e no menor é B♭. A ♭3 fica uma casa abaixo da 3ª na forma E e soa mais triste.",
+   "passos": [],
+   "timestamp": "07:50",
+   "nivel": "iniciante",
+   "tags": [
+    "♭3",
+    "menor",
+    "maior"
+   ],
+   "id_global": "7FilvCPSYXc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Deslizar da ♭3 para a 3ª",
+   "descricao": "Sobre acorde maior, deslize ou faça hammer-on da ♭3 para a 3ª. É um recurso bluesy muito comum, que cria tensão e resolução.",
+   "passos": [
+    "Toque a ♭3 (uma casa abaixo da 3ª, na forma E de G: B♭).",
+    "Deslize ou faça hammer-on até a 3ª (B)."
+   ],
+   "timestamp": "08:23",
+   "nivel": "iniciante",
+   "tags": [
+    "♭3",
+    "slide",
+    "bluesy",
+    "hammer-on"
+   ],
+   "id_global": "7FilvCPSYXc#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Frase curta com 3, 5, 6 e tônica, repetida",
+   "descricao": "Monte uma frase curta com as notas 3ª, 5ª, 6ª e tônica da forma E de G e repita-a sobre o jam track de G. Repetir uma ideia curta é o ponto de partida do improviso.",
+   "passos": [
+    "Toque a 3ª e a 5ª (B e D) com ritmo interessante.",
+    "Acrescente a 6ª (E) e volte para a tônica (G).",
+    "Repita a frase sobre o jam track, variando só o ritmo."
+   ],
+   "timestamp": "09:31",
+   "nivel": "iniciante",
+   "tags": [
+    "frase",
+    "repeticao",
+    "jam track"
+   ],
+   "id_global": "7FilvCPSYXc#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Variar o ritmo e pousar na tônica",
+   "descricao": "Mude o tempo em que as notas caem para alterar o caráter da frase. Você pode tocar duas notas juntas ou pousar na tônica no braço agudo ou grave para mudar o final.",
+   "passos": [],
+   "timestamp": "10:08",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "tonica",
+    "variacao"
+   ],
+   "id_global": "7FilvCPSYXc#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Cromatismo entre a 6ª e a 5ª",
+   "descricao": "Passe cromaticamente da 6ª (E) para a 5ª (D), tocando o D# entre elas. A nota de passagem deixa o som mais jazzístico.",
+   "passos": [
+    "Toque a 6ª (E).",
+    "Toque a nota intermediária (D#).",
+    "Resolva na 5ª (D)."
+   ],
+   "timestamp": "10:42",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "jazz",
+    "passagem"
+   ],
+   "id_global": "7FilvCPSYXc#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior: 1 2 3 5 6",
+   "descricao": "A pentatônica maior é formada por 1, 2, 3, 5 e 6 da escala maior. Em G é G A B D E, e a partir da tônica você pode montá-la em qualquer lugar do braço.",
+   "passos": [],
+   "timestamp": "11:19",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatonica maior",
+    "escalas"
+   ],
+   "id_global": "7FilvCPSYXc#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "frase_lick",
+   "titulo": "Sequência 1 2 ♭3 3 na corda aguda",
+   "descricao": "Na corda mais aguda da forma, toque a tônica, a 2ª, a ♭3 e a 3ª em sequência. A ♭3 para 3ª cria o efeito de deslize que soa bluesy.",
+   "passos": [
+    "Toque a tônica, depois a 2ª (A) na corda aguda.",
+    "Suba para a ♭3 (B♭).",
+    "Finalize na 3ª (B)."
+   ],
+   "timestamp": "11:53",
+   "nivel": "iniciante",
+   "tags": [
+    "frase",
+    "♭3",
+    "sequencia"
+   ],
+   "id_global": "7FilvCPSYXc#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Bend completo versus meio bend",
+   "descricao": "Um bend completo a partir da 2ª leva até a 3ª. Um meio bend, a partir da mesma nota, chega à ♭3 e soa mais triste. A intensidade do bend muda o caráter da frase.",
+   "passos": [],
+   "timestamp": "12:32",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "♭3",
+    "expressao"
+   ],
+   "id_global": "7FilvCPSYXc#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor: 1 ♭3 4 5 ♭7",
+   "descricao": "A pentatônica menor usa 1, ♭3, 4, 5 e ♭7. Em G é G B♭ C D F. Em relação à pentatônica maior, ela acrescenta a ♭3 e a ♭7 e a 4ª.",
+   "passos": [],
+   "timestamp": "13:41",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatonica menor",
+    "♭7",
+    "♭3"
+   ],
+   "id_global": "7FilvCPSYXc#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Escala híbrida: unir pentatônica maior e menor",
+   "descricao": "Juntar as duas pentatônicas na mesma área do braço cria uma escala híbrida com 1, 2, ♭3, 3, 4, 5, 6, ♭7. Usar as notas da menor dá um som blues, e as da maior dá um som alegre.",
+   "passos": [],
+   "timestamp": "14:13",
+   "nivel": "intermediario",
+   "tags": [
+    "escala hibrida",
+    "blues",
+    "pentatonica"
+   ],
+   "id_global": "7FilvCPSYXc#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Subir e descer a escala híbrida em G",
+   "descricao": "Percorra a escala híbrida em G, em ordem, para internalizar as notas e a área do braço. Essa é a base para usar a escala com liberdade.",
+   "passos": [
+    "Comece na tônica (G).",
+    "Suba: 2 (A), ♭3 (B♭), 3 (B), 4 (C), 5 (D), 6 (E), ♭7 (F), tônica (G).",
+    "Desça na ordem inversa, sem sair da área da forma E.",
+    "Repita variando o ritmo."
+   ],
+   "timestamp": "14:46",
+   "nivel": "intermediario",
+   "tags": [
+    "escala hibrida",
+    "sequencia",
+    "ouvido"
+   ],
+   "id_global": "7FilvCPSYXc#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Ficar nas cordas superiores da forma",
+   "descricao": "Limite o improviso às quatro cordas superiores da forma E de G. Isso mantém a coerência e evita tocar sem direção por todo o braço.",
+   "passos": [],
+   "timestamp": "15:32",
+   "nivel": "iniciante",
+   "tags": [
+    "ancoragem",
+    "braço",
+    "limitacao"
+   ],
+   "id_global": "7FilvCPSYXc#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Frase-âncora com respostas variadas",
+   "descricao": "Use uma frase curta como âncora e crie respostas diferentes a ela, tocando sobre o jam track. A ideia é que a frase vá se transformando aos poucos ao longo do improviso.",
+   "passos": [
+    "Toque a frase-âncora sobre o jam track.",
+    "Responda com uma frase diferente, usando a escala híbrida.",
+    "Volte à frase-âncora ou crie outra resposta.",
+    "Repita o processo, deixando a ideia evoluir."
+   ],
+   "timestamp": "16:04",
+   "nivel": "intermediario",
+   "tags": [
+    "call and response",
+    "frase",
+    "improvisacao"
+   ],
+   "id_global": "7FilvCPSYXc#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Performar sem parar nem recomeçar",
+   "descricao": "Ao improvisar, não se deve parar o jam track nem recomeçar a frase. O exercício é tocar do começo ao fim, mesmo quando algo sai diferente do previsto.",
+   "passos": [],
+   "timestamp": "17:14",
+   "nivel": "iniciante",
+   "tags": [
+    "performance",
+    "improvisacao"
+   ],
+   "id_global": "7FilvCPSYXc#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S10",
+   "tipo": "rotina_estudo",
+   "titulo": "Separar a prática técnica do improviso",
+   "descricao": "Mantenha a prática técnica (escalas, sincronia e exercícios mecânicos) e, em paralelo, reserve um tempo para improvisar sobre jam tracks. São habilidades diferentes e ambas precisam ser treinadas.",
+   "passos": [
+    "Divida o tempo de estudo em duas partes.",
+    "Na primeira, faça técnica e escalas.",
+    "Na segunda, toque com um jam track sem parar."
+   ],
+   "timestamp": "17:14",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "tecnica",
+    "jam track"
+   ],
+   "id_global": "7FilvCPSYXc#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "O improviso se apoia em licks já conhecidos",
+   "descricao": "O que parece improviso espontâneo costuma ser uma combinação de frases e padrões já aprendidos ao longo do tempo, como licks de blues e pequenos motivos próprios.",
+   "passos": [],
+   "timestamp": "17:49",
+   "nivel": "iniciante",
+   "tags": [
+    "licks",
+    "vocabulario",
+    "improvisacao"
+   ],
+   "id_global": "7FilvCPSYXc#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S11",
+   "tipo": "recurso",
+   "titulo": "Usar a tablatura e a jam track ML136",
+   "descricao": "O autor disponibiliza a tablatura das frases improvisadas e uma jam track em MP3 no site activemelody.com (busca por ML136), para estudar e tocar sobre o mesmo material.",
+   "passos": [],
+   "timestamp": "18:54",
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "jam track",
+    "recurso"
+   ],
+   "id_global": "7FilvCPSYXc#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Roubar licks e incorporá-los ao vocabulário",
+   "descricao": "Escolha os licks que mais soam interessantes, aprenda-os como ideias e incorpore-os ao seu repertório. O objetivo não é decorar, mas ter novas opções para usar no improviso.",
+   "passos": [],
+   "timestamp": "18:54",
+   "nivel": "iniciante",
+   "tags": [
+    "licks",
+    "vocabulario",
+    "memorizacao"
+   ],
+   "id_global": "7FilvCPSYXc#I28"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Tablatura e jam track MP3 da lição ML136 (activemelody.com)"
+ ],
+ "observacoes": "Legenda automática com trechos repetidos e frases truncadas. Muitas posições e casas são descritas verbalmente e dependem de ver o vídeo ou a tablatura. Os nomes das notas (B, D, B♭, F) foram conferidos pela referência de teoria da forma E de G. A tablatura e a jam track não estão incluídas na fonte. A parte final do segmento S9 é quase toda demonstração musical, com pouca explicação.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00322,
+  "via": "api"
+ }
+}

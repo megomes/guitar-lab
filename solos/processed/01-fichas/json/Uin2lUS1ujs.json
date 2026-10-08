@@ -1,0 +1,746 @@
+{
+ "fonte_id": "Uin2lUS1ujs",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "COMO TIRAR SOLOS DE GUITARRA | Dica do Vinny",
+  "autor": "Cifra Club",
+  "url": "https://www.youtube.com/watch?v=Uin2lUS1ujs",
+  "idioma": "pt-BR",
+  "duracao": "20m 23s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/Uin2lUS1ujs--como-tirar-solos-de-guitarra-dica-do-vinny.md"
+ },
+ "resumo": "Vídeo do canal Cifra Club, apresentado por Vinicius Dias, com dicas para tirar solos de guitarra de ouvido. Ele defende treinar o ouvido, estudar teoria com prática, dividir o solo em partes e usar ferramentas para reduzir o andamento. Depois demonstra o processo com o solo de 'Highway Tune' (Greta Van Fleet), tocando trechos em velocidades progressivas com backing track. O conteúdo é voltado a guitarristas intermediários que já tocam bem, mas o vídeo é mais motivacional e exemplificativo do que um método passo a passo.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Traz processo útil (dividir o solo, usar loop com in/out, reduzir andamento gradualmente, tocar junto com a gravação) e exemplos concretos como Em e pentatônica. Porém muitas dicas ficam genéricas ('ter a teoria é legal', 'ter bagagem'), e o trecho transcrito de tirada do solo é difícil de acompanhar sem a tablatura ou a tela, com notas citadas de forma imprecisa."
+ },
+ "assuntos_principais": [
+  "tirar solos de ouvido",
+  "treino auditivo",
+  "estudo por partes",
+  "redução de andamento",
+  "ferramentas de velocidade (YouTube, VLC, Guitar Rig)",
+  "loop de trechos",
+  "pentatônica menor",
+  "mi menor",
+  "bend",
+  "backing track",
+  "mentalidade de estudo"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e agradecimento aos inscritos",
+   "inicio": "00:00",
+   "fim": "00:38",
+   "resumo": "Agradecimento aos mais de 5 milhões de inscritos e anúncio do tema: como tirar solos difíceis.",
+   "assuntos": [
+    "apresentação do vídeo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Pedido de inscrição",
+   "inicio": "00:38",
+   "fim": "01:13",
+   "resumo": "Pedido para se inscrever, dar like e ativar notificações, com anúncio de videoaulas futuras.",
+   "assuntos": [
+    "inscrição no canal"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Dica 1: treinar o ouvido e a teoria",
+   "inicio": "01:13",
+   "fim": "03:00",
+   "resumo": "Afirma que o ouvido treinado é a base. Lista os temas de teoria a estudar (intervalos, acordes, escalas, campo harmônico, funções e cadências) e defende unir teoria à prática.",
+   "assuntos": [
+    "treino auditivo",
+    "intervalos",
+    "formação de acordes",
+    "escalas",
+    "campo harmônico",
+    "funções harmônicas",
+    "cadências",
+    "prática"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Dica 2: estudar parte por parte",
+   "inicio": "03:00",
+   "fim": "04:44",
+   "resumo": "Divida o solo em seções: primeiro identifique as partes ouvindo bastante, depois estude cada seção separadamente.",
+   "assuntos": [
+    "organização do estudo",
+    "divisão do solo em seções",
+    "escuta repetida"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Dica 3: diminuir o andamento pelo YouTube",
+   "inicio": "04:44",
+   "fim": "06:35",
+   "resumo": "Apresenta a dica de reduzir a velocidade de reprodução para ouvir os detalhes, usando o YouTube. Mostra o solo de 'Highway Tune' e as limitações das velocidades predefinidas.",
+   "assuntos": [
+    "redução de andamento",
+    "YouTube",
+    "velocidade de reprodução",
+    "Highway Tune"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Ferramenta VLC",
+   "inicio": "06:35",
+   "fim": "08:43",
+   "resumo": "Mostra o VLC para reduzir a velocidade com as teclas + e - ou pelo menu, com passos intermediários. Cita a distorção leve do áudio.",
+   "assuntos": [
+    "VLC",
+    "velocidade intermediária",
+    "qualidade de áudio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Ferramenta Guitar Rig",
+   "inicio": "08:43",
+   "fim": "10:36",
+   "resumo": "Apresenta o Guitar Rig como a ferramenta preferida do instrutor, com knob de tempo para reduzir o andamento de 100% a 50% de forma progressiva.",
+   "assuntos": [
+    "Guitar Rig",
+    "knob de tempo",
+    "andamento progressivo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Montando o loop do trecho inicial",
+   "inicio": "10:36",
+   "fim": "12:45",
+   "resumo": "Usa marcadores in e out para criar um loop no início do solo e reduz o andamento para ouvir a primeira frase com atenção.",
+   "assuntos": [
+    "loop",
+    "marcadores in/out",
+    "escuta detalhada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Identificando a tonalidade e as notas",
+   "inicio": "12:45",
+   "fim": "14:06",
+   "resumo": "Identifica o solo como em mi menor e supõe o uso da pentatônica. Descreve uma nota fixa e um movimento de bend nas cordas Sol e Si.",
+   "assuntos": [
+    "mi menor",
+    "pentatônica",
+    "bend",
+    "casa 14"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Primeira passada tocando junto",
+   "inicio": "14:06",
+   "fim": "16:34",
+   "resumo": "Transcreve um trecho maior, toca junto com a gravação, percebe ter esquecido uma nota e volta ao trecho. Comenta a importância de anotar.",
+   "assuntos": [
+    "transcrição",
+    "tocar junto",
+    "correção de notas",
+    "anotação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Aumentando o andamento com backing track",
+   "inicio": "16:34",
+   "fim": "18:09",
+   "resumo": "Treina a primeira frase com backing track em 50%, 65%, 80% e 100%, aumentando o andamento aos poucos.",
+   "assuntos": [
+    "backing track",
+    "andamento progressivo",
+    "treino gradual"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Ferramentas não bastam",
+   "inicio": "18:09",
+   "fim": "18:47",
+   "resumo": "Afirma que as ferramentas não substituem o conhecimento e a prática. Resume o método: trecho por trecho e depois aumentar o andamento.",
+   "assuntos": [
+    "método",
+    "prática",
+    "conhecimento"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Mentalidade e foco no resultado",
+   "inicio": "18:47",
+   "fim": "19:58",
+   "resumo": "Aconselha ouvir com atenção, treinar lento e aumentar o andamento gradualmente, com foco no resultado final bem executado. Ressalta que tirar músicas é diferente de tocar bem.",
+   "assuntos": [
+    "paciência",
+    "domínio",
+    "resultado final",
+    "tocar versus tirar"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Despedida",
+   "inicio": "19:58",
+   "fim": "20:23",
+   "resumo": "Convite para comentários e agradecimento aos inscritos.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Treinar o ouvido antes de tudo",
+   "descricao": "O ouvido treinado e afinado é a base para tirar solos. O instrutor afirma que, sem ele, nenhuma das outras dicas funciona.",
+   "passos": [],
+   "timestamp": "01:13",
+   "nivel": "iniciante",
+   "tags": [
+    "treino auditivo",
+    "ouvido"
+   ],
+   "id_global": "Uin2lUS1ujs#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Estudar intervalos",
+   "descricao": "Intervalos são um dos conteúdos de teoria a dominar para reconhecer o que se ouve e interpretar os sons.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "iniciante",
+   "tags": [
+    "intervalos",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Estudar formação de acordes",
+   "descricao": "Entender como os acordes são formados ajuda a reconhecer, pelo som, que acorde foi tocado e que sensação ele transmite.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "iniciante",
+   "tags": [
+    "acordes",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Estudar escalas",
+   "descricao": "As escalas são um dos temas de teoria a estudar para entender a base melódica do que está sendo tocado e improvisar.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Estudar campo harmônico",
+   "descricao": "O campo harmônico reúne os acordes de uma tonalidade. Conhecê-lo ajuda a prever e reconhecer os acordes que aparecem em uma música.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Estudar funções harmônicas e cadências",
+   "descricao": "Funções harmônicas e cadências explicam o papel de cada acorde na progressão e como a música se encaminha para a resolução.",
+   "passos": [],
+   "timestamp": "01:49",
+   "nivel": "intermediario",
+   "tags": [
+    "funções harmônicas",
+    "cadências",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Teoria sem prática não serve",
+   "descricao": "O conhecimento teórico só ganha valor quando é colocado em prática no instrumento, com vivência constante.",
+   "passos": [],
+   "timestamp": "03:00",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "teoria"
+   ],
+   "id_global": "Uin2lUS1ujs#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "rotina_estudo",
+   "titulo": "Estudar o solo parte por parte",
+   "descricao": "Divida o solo longo em seções menores e estude uma de cada vez, sem tentar tirar o solo inteiro de uma vez.",
+   "passos": [
+    "Ouça a música identificando as partes do solo.",
+    "Ouça quantas vezes for preciso até internalizar cada parte.",
+    "Divida o solo inteiro em seções menores.",
+    "Estude cada seção separadamente antes de juntar as partes."
+   ],
+   "timestamp": "03:35",
+   "nivel": "iniciante",
+   "tags": [
+    "organização",
+    "estudo por partes",
+    "tirar solo"
+   ],
+   "id_global": "Uin2lUS1ujs#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Reduzir a velocidade de reprodução para ouvir com naturalidade",
+   "descricao": "Softwares ou o próprio YouTube permitem diminuir a velocidade do áudio, para que passagens rápidas fiquem audíveis e possam ser tiradas com calma.",
+   "passos": [],
+   "timestamp": "04:07",
+   "nivel": "iniciante",
+   "tags": [
+    "andamento",
+    "velocidade de reprodução",
+    "ferramenta"
+   ],
+   "id_global": "Uin2lUS1ujs#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "YouTube: velocidades 0.25, 0.50 e 0.75",
+   "descricao": "No YouTube, o controle de velocidade permite 0.25, 0.50 e 0.75 do andamento original. A qualidade de áudio é boa, mas só existem essas três opções fixas.",
+   "passos": [],
+   "timestamp": "04:44",
+   "nivel": "iniciante",
+   "tags": [
+    "youtube",
+    "andamento"
+   ],
+   "id_global": "Uin2lUS1ujs#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Limitação das velocidades fixas do YouTube",
+   "descricao": "As velocidades predefinidas do YouTube (0.25, 0.50, 0.75) não permitem aumentar o andamento de forma gradual, o que dificulta o processo progressivo.",
+   "passos": [],
+   "timestamp": "06:35",
+   "nivel": "iniciante",
+   "tags": [
+    "youtube",
+    "andamento progressivo"
+   ],
+   "id_global": "Uin2lUS1ujs#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "VLC: ajustar velocidade com + e -",
+   "descricao": "O player gratuito VLC permite diminuir ou aumentar a velocidade de reprodução com as teclas - e + do computador.",
+   "passos": [],
+   "timestamp": "07:14",
+   "nivel": "iniciante",
+   "tags": [
+    "vlc",
+    "andamento"
+   ],
+   "id_global": "Uin2lUS1ujs#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "VLC: velocidades intermediárias pelo menu",
+   "descricao": "No VLC, o menu Reprodução > Velocidade oferece valores intermediários entre os andamentos fixos, permitindo aumentar o andamento gradualmente.",
+   "passos": [
+    "Abra o menu Reprodução.",
+    "Escolha a opção Velocidade.",
+    "Use os valores intermediários para subir o andamento aos poucos."
+   ],
+   "timestamp": "08:03",
+   "nivel": "iniciante",
+   "tags": [
+    "vlc",
+    "andamento progressivo"
+   ],
+   "id_global": "Uin2lUS1ujs#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "VLC distorce um pouco o áudio",
+   "descricao": "Ao alterar a velocidade no VLC, o áudio pode ficar levemente distorcido, o que atrapalha a escuta fina.",
+   "passos": [],
+   "timestamp": "08:43",
+   "nivel": "iniciante",
+   "tags": [
+    "vlc",
+    "qualidade de áudio"
+   ],
+   "id_global": "Uin2lUS1ujs#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Guitar Rig: knob de tempo para redução progressiva",
+   "descricao": "O Guitar Rig tem um knob de tempo que reduz o andamento de forma progressiva, de 100% até 50%, mantendo bom equilíbrio entre qualidade de áudio e andamentos intermediários. O instrutor diz ser a ferramenta que mais usa.",
+   "passos": [],
+   "timestamp": "09:16",
+   "nivel": "iniciante",
+   "tags": [
+    "guitar rig",
+    "andamento progressivo"
+   ],
+   "id_global": "Uin2lUS1ujs#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Criar loop com marcadores in e out",
+   "descricao": "Marque o início (in) e o fim (out) do trecho para que o software repita essa faixa em loop, sem precisar mexer no mouse durante o estudo.",
+   "passos": [
+    "Ache o ponto onde o solo começa.",
+    "Marque o início com in.",
+    "Marque o fim do trecho com out.",
+    "Deixe o loop rodar enquanto estuda."
+   ],
+   "timestamp": "11:12",
+   "nivel": "iniciante",
+   "tags": [
+    "loop",
+    "software",
+    "estudo"
+   ],
+   "id_global": "Uin2lUS1ujs#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Estudar a primeira frase em andamento reduzido",
+   "descricao": "Comece pela primeira frase do solo, em andamento reduzido, ouvindo com atenção antes de tentar tocar na guitarra.",
+   "passos": [
+    "Reduza o andamento no software.",
+    "Ouça a frase em loop várias vezes.",
+    "Tente tocá-la na guitarra acompanhando o áudio."
+   ],
+   "timestamp": "11:49",
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "andamento reduzido",
+    "loop"
+   ],
+   "id_global": "Uin2lUS1ujs#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Identificar a tonalidade pela escuta",
+   "descricao": "A tonalidade do trecho é identificada pelo ouvido. O instrutor reconhece que o solo está em mi menor (Em).",
+   "passos": [],
+   "timestamp": "12:45",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "mi menor",
+    "escuta"
+   ],
+   "id_global": "Uin2lUS1ujs#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de Em",
+   "descricao": "A pentatônica menor de mi (Em) tem as notas E, G, A, B e D. É a escala sugerida como base do trecho inicial.",
+   "passos": [],
+   "timestamp": "12:45",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "mi menor",
+    "escala"
+   ],
+   "id_global": "Uin2lUS1ujs#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "frase_lick",
+   "titulo": "Nota sustentada seguida de subida",
+   "descricao": "Na frase, o solista fica firme em uma nota (citada como Ré) e depois sobe a partir dela. O trecho exato não fica claro na fonte.",
+   "passos": [],
+   "timestamp": "13:20",
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "nota sustentada",
+    "notas-alvo"
+   ],
+   "id_global": "Uin2lUS1ujs#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S9",
+   "tipo": "frase_lick",
+   "titulo": "Bend simultâneo nas cordas G e B na casa 14",
+   "descricao": "O instrutor descreve um bend executado juntamente nas cordas Sol e Si, na casa 14. Os tons resultantes não fecham claramente com a pentatônica de Em, então vale conferir pelo ouvido.",
+   "passos": [],
+   "timestamp": "13:20",
+   "nivel": "avancado",
+   "tags": [
+    "bend",
+    "bend duplo",
+    "casa 14"
+   ],
+   "id_global": "Uin2lUS1ujs#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Tocar junto com a gravação para conferir",
+   "descricao": "Depois de tirar um trecho, toque junto com a gravação para verificar se as notas estão corretas.",
+   "passos": [
+    "Toque o trecho que você tirou.",
+    "Acompanhe a gravação do solo.",
+    "Compare nota por nota e corrija o que não bater."
+   ],
+   "timestamp": "14:54",
+   "nivel": "iniciante",
+   "tags": [
+    "tocar junto",
+    "verificação"
+   ],
+   "id_global": "Uin2lUS1ujs#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S10",
+   "tipo": "rotina_estudo",
+   "titulo": "Anotar a transcrição enquanto se tira o solo",
+   "descricao": "Escreva as notas ao mesmo tempo que as tira, para não esquecê-las depois. Um vídeo gravado também pode servir de referência.",
+   "passos": [],
+   "timestamp": "14:06",
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição",
+    "anotação"
+   ],
+   "id_global": "Uin2lUS1ujs#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S10",
+   "tipo": "erro_comum",
+   "titulo": "Esquecer notas ao tocar de memória",
+   "descricao": "Durante a passada, o instrutor percebeu que tinha esquecido uma nota (Si). Ao tocar junto com a gravação, fica claro o que falta.",
+   "passos": [],
+   "timestamp": "15:48",
+   "nivel": "iniciante",
+   "tags": [
+    "correção",
+    "memória",
+    "transcrição"
+   ],
+   "id_global": "Uin2lUS1ujs#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Aumentar o andamento em etapas com backing track",
+   "descricao": "Treine o trecho com backing track, começando em 50% e subindo gradualmente até 100%, só avançando quando o trecho estiver seguro.",
+   "passos": [
+    "Toque o trecho com a backing track a 50%.",
+    "Suba para 65% quando estiver seguro.",
+    "Suba para 80%.",
+    "Chegue a 100% (andamento original)."
+   ],
+   "timestamp": "16:34",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "andamento progressivo",
+    "exercício"
+   ],
+   "id_global": "Uin2lUS1ujs#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Segurança antes de acelerar",
+   "descricao": "O instrutor não estava seguro do que tocava. Ele defende que a insegurança indica que o trecho precisa de mais treino lento antes de acelerar.",
+   "passos": [],
+   "timestamp": "16:34",
+   "nivel": "iniciante",
+   "tags": [
+    "segurança",
+    "paciência"
+   ],
+   "id_global": "Uin2lUS1ujs#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Estudar trecho a trecho e depois acelerar",
+   "descricao": "Pegue um trecho, firme-o, passe para o trecho seguinte e só depois aumente o andamento aos poucos.",
+   "passos": [],
+   "timestamp": "18:09",
+   "nivel": "iniciante",
+   "tags": [
+    "método",
+    "trecho a trecho"
+   ],
+   "id_global": "Uin2lUS1ujs#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Ferramenta não substitui conhecimento",
+   "descricao": "Ferramentas de redução de andamento ajudam, mas quem tira o solo é o conhecimento e a prática de cada músico.",
+   "passos": [],
+   "timestamp": "18:09",
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "conhecimento"
+   ],
+   "id_global": "Uin2lUS1ujs#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "Tirar solo parece fácil só para quem tem domínio",
+   "descricao": "Ver um músico tirando um solo pode dar a impressão de que é fácil. Na prática, exige bagagem e domínio do que está sendo feito.",
+   "passos": [],
+   "timestamp": "18:47",
+   "nivel": "iniciante",
+   "tags": [
+    "domínio",
+    "bagagem"
+   ],
+   "id_global": "Uin2lUS1ujs#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "Tocar bem e tirar músicas são habilidades diferentes",
+   "descricao": "Há quem toque muito bem mas tenha dificuldade para tirar músicas, e quem tenha bom ouvido mas dificuldade para executar o que tirou.",
+   "passos": [],
+   "timestamp": "19:22",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "execução"
+   ],
+   "id_global": "Uin2lUS1ujs#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "Foco no resultado final executado",
+   "descricao": "Estude sempre de forma progressiva, mas tenha como meta um solo bem executado, que convença quando tocado.",
+   "passos": [],
+   "timestamp": "19:22",
+   "nivel": "iniciante",
+   "tags": [
+    "resultado final",
+    "progressão"
+   ],
+   "id_global": "Uin2lUS1ujs#I31"
+  }
+ ],
+ "artistas_citados": [
+  "Greta Van Fleet"
+ ],
+ "musicas_citadas": [
+  "Highway Tune"
+ ],
+ "recursos_citados": [
+  "YouTube (controle de velocidade de reprodução)",
+  "VLC (player gratuito com controle de velocidade)",
+  "Guitar Rig (software com knob de tempo)",
+  "Backing track",
+  "Videoaula do solo de Highway Tune no canal Cifra Club (prometida)"
+ ],
+ "observacoes": "Legenda automática com erros e trechos confusos. A nota 'Ré' em 13:20 aparece em uma frase que não está clara, e a casa 14 nas cordas Sol e Si também não fecha com a pentatônica de Em, então estes pontos dependem de conferência pelo ouvido ou tablatura. O trecho de transcrição do solo (14:06 a 16:34) depende de ver a tela e a guitarra para ser compreendido. O vídeo cita 'Vinny' no título, referindo-se a Vinicius Dias. Os equipamentos e links de patrocínio na descrição não foram catalogados.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00355,
+  "via": "api"
+ }
+}

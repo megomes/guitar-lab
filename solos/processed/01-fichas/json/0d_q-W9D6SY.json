@@ -1,0 +1,226 @@
+{
+ "fonte_id": "0d_q-W9D6SY",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Meu TRUQUE para aprender a IMPROVISAR! (Sem escalas)",
+  "autor": "Canal do Cadu",
+  "url": "https://www.youtube.com/watch?v=0d_q-W9D6SY",
+  "idioma": "pt",
+  "duracao": "6m 38s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/0d_q-W9D6SY--meu-truque-para-aprender-a-improvisar-sem-escalas.md"
+ },
+ "resumo": "Cadu contrasta o método \"padrão\" de improvisar (aprender uma escala e ficar indo e voltando nas notas) com o método dele: aprender solos, riffs e frases prontas de músicas de que gosta e reaplicá-las ao improvisar em outras músicas. Dá o exemplo de uma \"caixinha\" de acorde de sétima maior aprendida em \"Oceano\" (Djavan) e reutilizada em vários pontos de outras músicas. Voltado a iniciantes e intermediários que acham estudar escalas chato e querem construir vocabulário real de forma divertida.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A ideia central é clara e motivadora (aprender repertório e reaproveitar frases), mas há poucos detalhes concretos de notas/casas, a transcrição é muito ruim e boa parte depende de ver o violão."
+ },
+ "assuntos_principais": [
+  "improvisação sem escalas",
+  "aprender solos prontos",
+  "vocabulário de frases e riffs",
+  "reaproveitar licks em outras músicas",
+  "caixinha de sétima maior",
+  "linhas de baixo como referência"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "O método padrão: improvisar com uma escala",
+   "inicio": "00:00",
+   "fim": "01:50",
+   "resumo": "Explica o jeito mundialmente padrão: aprender uma escala (ex.: Dó maior, 7 notas) e improvisar indo e voltando nessas notas sobre a música.",
+   "assuntos": [
+    "escala maior",
+    "método padrão",
+    "improvisação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "O método do Cadu: aprender músicas e solos prontos",
+   "inicio": "01:50",
+   "fim": "04:11",
+   "resumo": "Ele aprende solos e riffs de várias músicas (ex.: solo de Sérgio Lopes) e aplica essas frases ao improvisar em outras músicas; é divertido e sem decorar escala. Sugere aprender também linhas de baixo legais e usá-las como referência.",
+   "assuntos": [
+    "repertório",
+    "solos prontos",
+    "riffs",
+    "linhas de baixo",
+    "motivação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exemplo: a caixinha de sétima maior de Oceano",
+   "inicio": "04:11",
+   "fim": "06:17",
+   "resumo": "Mostra uma forma (caixinha) de sétima maior aprendida em Oceano, de Djavan, e a joga em vários pontos de outras músicas.",
+   "assuntos": [
+    "sétima maior",
+    "caixinha",
+    "transposição de shapes",
+    "reaplicação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Conclusão",
+   "inicio": "06:17",
+   "fim": "06:38",
+   "resumo": "Resume: aprenda músicas e aplique o que aprendeu nas outras músicas.",
+   "assuntos": [
+    "resumo",
+    "método"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Método padrão: improvisar sobre uma escala",
+   "descricao": "A forma mais comum de ensinar improvisação é aprender uma escala (ex.: Dó maior, 7 notas) e improvisar sobre a música indo e voltando entre as notas dessa escala.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "escala",
+    "dó maior",
+    "método padrão"
+   ],
+   "id_global": "0d_q-W9D6SY#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Improvise com frases prontas aprendidas de músicas",
+   "descricao": "Em vez de se basear em escalas, aprenda solos e riffs de músicas que você gosta e use essas frases e riffs quando for improvisar em outras músicas.",
+   "passos": [],
+   "timestamp": "01:50",
+   "nivel": "iniciante",
+   "tags": [
+    "vocabulário",
+    "solos",
+    "riffs",
+    "licks"
+   ],
+   "id_global": "0d_q-W9D6SY#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Aprender solos inteiros para ampliar vocabulário",
+   "descricao": "Aprenda o solo de várias músicas (ele cita um solo de Sérgio Lopes) e depois aplique trechos dele no meio de outro solo, por exemplo em tonalidade menor.",
+   "passos": [
+    "Escolha uma música com solo de que você gosta",
+    "Aprenda o solo inteiro",
+    "Ao improvisar em outra música, aplique frases desse solo no meio do seu solo"
+   ],
+   "timestamp": "02:27",
+   "nivel": "iniciante",
+   "tags": [
+    "solos",
+    "repertório",
+    "aplicação"
+   ],
+   "id_global": "0d_q-W9D6SY#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Aprenda por diversão, não por decoreba de escala",
+   "descricao": "Aprender frases por meio de músicas é mais divertido do que decorar escalas, e você ainda ganha uma música nova para tocar. Dois benefícios ao mesmo tempo.",
+   "passos": [],
+   "timestamp": "03:04",
+   "nivel": "iniciante",
+   "tags": [
+    "motivação",
+    "diversão",
+    "estudo"
+   ],
+   "id_global": "0d_q-W9D6SY#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Aprenda linhas de baixo e use como referência",
+   "descricao": "Aprenda músicas com linhas de baixo interessantes (pesquisando em videoaulas) e use essas ideias de baixo ao tocar outras músicas, ampliando as referências.",
+   "passos": [],
+   "timestamp": "03:37",
+   "nivel": "intermediario",
+   "tags": [
+    "baixo",
+    "referências",
+    "repertório"
+   ],
+   "id_global": "0d_q-W9D6SY#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Reaplicar uma caixinha de sétima maior em vários lugares",
+   "descricao": "A forma (caixinha) de sétima maior aprendida em Oceano, de Djavan, pode ser transportada para diferentes pontos do braço e usada em várias outras músicas, sobre diferentes acordes. A transcrição não detalha as casas.",
+   "passos": [
+    "Aprenda a caixinha de sétima maior numa música (ex.: Oceano)",
+    "Identifique em outras músicas onde ela encaixa",
+    "Mova a forma para outras posições do braço e use como frase ou acorde"
+   ],
+   "timestamp": "04:49",
+   "nivel": "intermediario",
+   "tags": [
+    "sétima maior",
+    "shape",
+    "Oceano",
+    "transposição"
+   ],
+   "id_global": "0d_q-W9D6SY#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Aprenda uma música, aplique em várias",
+   "descricao": "Uma ideia aprendida numa música vira ferramenta para todas as outras. É assim que o Cadu aprendeu a improvisar: acumulando repertório e reaproveitando o que aprendeu.",
+   "passos": [],
+   "timestamp": "06:17",
+   "nivel": "iniciante",
+   "tags": [
+    "repertório",
+    "método",
+    "improvisação"
+   ],
+   "id_global": "0d_q-W9D6SY#I07"
+  }
+ ],
+ "artistas_citados": [
+  "Sérgio Lopes",
+  "Djavan"
+ ],
+ "musicas_citadas": [
+  "Oceano",
+  "Chora Israel (solo de Sérgio Lopes, título incerto na transcrição)"
+ ],
+ "recursos_citados": [
+  "Instagram @caduviolonista"
+ ],
+ "observacoes": "Transcrição automática muito ruim, com trechos incompreensíveis. Nomes de músicas e artistas foram inferidos pelo contexto (Oceano/Djavan, Sérgio Lopes). O conteúdo prático (notas, casas, shapes) depende de ver o vídeo, pois o violão é demonstrado sem descrição verbal.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:12",
+  "tentativas": 1,
+  "custo_usd": 0.0901
+ }
+}

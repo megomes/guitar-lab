@@ -1,0 +1,755 @@
+{
+ "fonte_id": "W96yUcOEub0",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+  "autor": "Luiz Criasom",
+  "url": "https://www.youtube.com/watch?v=W96yUcOEub0",
+  "idioma": "pt",
+  "duracao": "27m 37s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/W96yUcOEub0--o-primeiro-passo-para-quem-quer-improvisar-em-cima-de-progressões-de-a.md"
+ },
+ "resumo": "Aula prática de Luiz Criasom sobre como improvisar sobre uma progressão simples (Lá menor, Sol, Fá, Mi) usando a pentatônica e a escala do tom. O professor ensina a identificar as notas seguras de cada acorde (tônica, terça e quinta), a deslocar o centro tonal de um acorde para o seguinte e a empilhar pentatônicas de cada acorde sobre o shape de Lá menor. Também sugere o uso de tríades e arpejos. O público-alvo são guitarristas intermediários que já tocam pentatônica, mas ainda decoram shapes sem entender a harmonia. Boa parte do fim do vídeo é propaganda do curso Destravando a Penta.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo conceitual sólido e exemplos em loop, com notas-alvo explicitadas por acorde. Porém a explicação depende muito de ver o diagrama (caminhos azul, verde e amarelo), há muitas repetições e digressões, e o conteúdo prático é apresentado de forma pouco estruturada."
+ },
+ "assuntos_principais": [
+  "improvisação sobre progressões",
+  "pentatônica de Lá menor",
+  "notas-alvo (tônica, terça, quinta)",
+  "intervalos relativos ao acorde",
+  "pentatônica de Sol maior e Fá maior",
+  "sétima maior em acorde de Mi maior (dominante)",
+  "tríades e arpejos sobre progressão",
+  "estudo do mapeamento versus improviso livre"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação do problema e da progressão Lá menor–Sol–Fá–Mi",
+   "inicio": "00:00",
+   "fim": "01:38",
+   "resumo": "Apresenta a dúvida de como improvisar sobre progressões e propõe a progressão Am–G–F–E. Explica que os acordes criam movimento, tensão e resolução.",
+   "assuntos": [
+    "dúvida de improviso sobre progressões",
+    "progressão Am–G–F–E",
+    "função dos acordes: movimento, tensão, resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica de Lá menor e notas seguras do acorde",
+   "inicio": "01:38",
+   "fim": "03:19",
+   "resumo": "Explica que os intervalos da pentatônica são medidos a partir do acorde. Tônica, terça e quinta são as notas seguras para resolver, e a quarta funciona como passagem. Mostra o loop de Lá menor com as notas-alvo.",
+   "assuntos": [
+    "intervalos relativos ao acorde",
+    "tônica, terça e quinta como notas seguras",
+    "quarta como nota de passagem"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Notas-alvo sobre o acorde de Sol",
+   "inicio": "03:19",
+   "fim": "05:33",
+   "resumo": "Mostra que a mesma escala tem outros intervalos sobre Sol. Tônica (G) e quinta (D) são boas conclusões, enquanto segunda e sexta não concluem bem. O ré, que era quarta de Lá, vira quinta de Sol.",
+   "assuntos": [
+    "notas-alvo sobre Sol maior",
+    "segunda e sexta como notas fracas para concluir",
+    "ré como quinta de Sol"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Pensamento tonal e mapeamento em loop",
+   "inicio": "05:33",
+   "fim": "07:54",
+   "resumo": "Diferencia o pensamento modal do tonal: não se fica preso a um acorde, ele é apenas passagem. Propõe isolar dois acordes em loop para mapear a nota-chave de cada um.",
+   "assuntos": [
+    "pensamento tonal versus modal",
+    "mapeamento em loop de dois acordes",
+    "nota-chave de cada acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Notas seguras do acorde de Fá",
+   "inicio": "07:54",
+   "fim": "09:30",
+   "resumo": "No Fá não há a tônica na pentatônica de Lá menor, mas a terça (Lá) e a quinta (Dó) funcionam como pontos de chegada. Mostra loop Sol–Fá–Lá menor e comenta o papel do ouvido na escolha das notas.",
+   "assuntos": [
+    "terça e quinta de Fá como notas seguras",
+    "loop Sol–Fá–Lá menor",
+    "uso do ouvido na improvisação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Acorde de Mi e a terça menor como sensação de blues",
+   "inicio": "09:30",
+   "fim": "11:42",
+   "resumo": "Explica que o quinto grau do campo menor é frequentemente tocado como acorde maior (dominante). A tônica Mi e a terça menor (Sol) dão sensação blues. Mostra loop com o acorde.",
+   "assuntos": [
+    "quinto grau como dominante",
+    "tônica de Mi maior",
+    "terça menor sobre dominante e sensação blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Caminhos melódicos sobre a progressão com um shape de pentatônica",
+   "inicio": "11:42",
+   "fim": "14:46",
+   "resumo": "Demonstra improviso com um único shape de pentatônica de Lá menor sobre a progressão inteira. Apresenta os caminhos azul (bend da quarta para a quinta resolvendo na tônica), verde e amarelo, com conclusões alternadas em Sol, Fá e Mi.",
+   "assuntos": [
+    "improviso com um shape",
+    "caminho azul com bend",
+    "caminho verde",
+    "caminho amarelo",
+    "conclusões alternadas por acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Estudo do mapeamento versus improviso livre",
+   "inicio": "14:46",
+   "fim": "17:06",
+   "resumo": "Explica que o mapeamento teórico serve para estudo e não para ser pensado durante o play. Sugere que, com o estudo, o improviso tenha ferramentas e liberdade. Menciona a progressão como um exemplo de muitos.",
+   "assuntos": [
+    "diferença entre estudo e play",
+    "mapeamento das possibilidades",
+    "escala única sobre progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Empilhando a pentatônica de Sol maior sobre a de Lá menor",
+   "inicio": "17:06",
+   "fim": "19:48",
+   "resumo": "Mostra que a pentatônica de cada acorde pode ser acrescentada ao shape de Lá menor, pois compartilham quase todas as notas. A única nota nova sobre Sol é a terça (Si), que dá a emoção do acorde.",
+   "assuntos": [
+    "pentatônica de Sol maior",
+    "empilhamento de shapes",
+    "terça de Sol (Si) como nota nova"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Pentatônica de Fá maior e referência ao solo de Stairway to Heaven",
+   "inicio": "19:48",
+   "fim": "22:06",
+   "resumo": "Aplica o mesmo raciocínio à pentatônica de Fá maior na mesma região do braço. A tônica Fá é a nota nova e dá conclusão ao acorde. Cita o solo de Stairway to Heaven, que usa a mesma progressão e conclui na tônica do Fá.",
+   "assuntos": [
+    "pentatônica de Fá maior",
+    "tônica de Fá como nota nova",
+    "Stairway to Heaven como referência"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Sétima maior sobre Mi maior e resolução para Lá",
+   "inicio": "22:06",
+   "fim": "23:45",
+   "resumo": "Explica que a terça maior de Mi (Sol sustenido) é a sétima maior da escala menor harmônica de Lá. Essa nota cria forte tensão e resolve no Lá. Propõe improvisar sem intervalos marcados, pensando nas notas que caracterizam cada acorde.",
+   "assuntos": [
+    "sétima maior da menor harmônica",
+    "Sol sustenido como terça de Mi maior",
+    "resolução Mi para Lá",
+    "improviso livre com notas características"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Tríades, arpejos e treino em todas as tonalidades",
+   "inicio": "23:45",
+   "fim": "24:51",
+   "resumo": "Diz que o mesmo conhecimento pode ser obtido com tríades e tétrades de cada acorde, combinadas com arpejos e licks de pentatônica. Recomenda treinar em todas as tonalidades e estilos.",
+   "assuntos": [
+    "tríades e tétrades de cada acorde",
+    "arpejos",
+    "licks de pentatônica",
+    "treino em todas as tonalidades"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Propaganda do curso Destravando a Penta e encerramento",
+   "inicio": "24:51",
+   "fim": "27:37",
+   "resumo": "Promove o curso Destravando a Penta com reajuste de preço, bônus de mentoria e apostila. Encerra com despedida.",
+   "assuntos": [
+    "propaganda do curso",
+    "preço e bônus",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Função de movimento, tensão e resolução",
+   "descricao": "Na harmonia, cada acorde da progressão faz uma destas funções: movimenta, tensiona ou resolve. Entender a função de cada acorde orienta a escolha das notas do solo.",
+   "passos": [],
+   "timestamp": "01:38",
+   "nivel": "iniciante",
+   "tags": [
+    "harmonia",
+    "função harmônica",
+    "progressão"
+   ],
+   "id_global": "W96yUcOEub0#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Intervalos medidos a partir do acorde",
+   "descricao": "As notas da pentatônica devem ser entendidas como intervalos em relação ao acorde do momento (ex.: tônica, terça, quinta), e não como posições fixas de um shape.",
+   "passos": [],
+   "timestamp": "02:11",
+   "nivel": "iniciante",
+   "tags": [
+    "intervalos",
+    "pentatônica",
+    "notas-alvo"
+   ],
+   "id_global": "W96yUcOEub0#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Tocar só o shape sem entender os intervalos",
+   "descricao": "Conhecer apenas a forma da pentatônica não basta. Sem saber onde fica a tônica dentro do shape, a frase não tem para onde resolver.",
+   "passos": [],
+   "timestamp": "02:11",
+   "nivel": "iniciante",
+   "tags": [
+    "shape",
+    "pentatônica",
+    "erro comum"
+   ],
+   "id_global": "W96yUcOEub0#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Notas seguras: tônica, terça e quinta",
+   "descricao": "Sobre um acorde menor (Lá menor), a tônica, a terça menor e a quinta são as notas seguras para aterrissar a frase. A tônica é a conclusão mais forte. A quarta é uma nota de passagem, não de chegada.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "tônica",
+    "terça",
+    "quinta",
+    "quarta"
+   ],
+   "id_global": "W96yUcOEub0#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Loop de Lá menor com notas-alvo alternadas",
+   "descricao": "Sobre um loop de Lá menor, improvisar frases que terminem na tônica, depois na terça e depois na quinta, para sentir a diferença de cada chegada.",
+   "passos": [
+    "Montar um loop do acorde de Lá menor.",
+    "Improvisar uma frase na pentatônica de Lá menor que termine na tônica (Lá).",
+    "Repetir a frase terminando na terça (Dó).",
+    "Repetir terminando na quinta (Mi) e comparar a sensação de cada chegada."
+   ],
+   "timestamp": "03:19",
+   "nivel": "iniciante",
+   "tags": [
+    "loop",
+    "notas-alvo",
+    "pentatônica",
+    "call and response"
+   ],
+   "id_global": "W96yUcOEub0#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Insistir na quarta como nota de chegada",
+   "descricao": "Terminar frases na quarta do acorde de Lá menor (Ré) soa sem resolução, porque essa nota não é segura para concluir sobre o acorde.",
+   "passos": [],
+   "timestamp": "03:51",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "quarta",
+    "resolução"
+   ],
+   "id_global": "W96yUcOEub0#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Notas-alvo sobre Sol maior",
+   "descricao": "Sobre o acorde de Sol, as boas conclusões são a tônica (Sol) e a quinta (Ré). A segunda (Lá) e a sexta (Mi) não funcionam bem como chegada.",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "sol maior",
+    "tônica",
+    "quinta"
+   ],
+   "id_global": "W96yUcOEub0#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Ré como ponte entre Lá menor e Sol",
+   "descricao": "O Ré é a quarta de Lá menor, uma nota fraca naquele acorde, mas é a quinta de Sol, o que a torna uma boa nota de chegada quando a harmonia muda para Sol.",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "intermediario",
+   "tags": [
+    "ponte harmônica",
+    "quarta",
+    "quinta",
+    "mudança de acorde"
+   ],
+   "id_global": "W96yUcOEub0#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Pensar tonal, não só modal",
+   "descricao": "Cada acorde da progressão é uma passagem pela qual a frase deve passar. Não é preciso ficar preso a um acorde, mas é preciso saber o que fazer em cada um.",
+   "passos": [],
+   "timestamp": "06:08",
+   "nivel": "intermediario",
+   "tags": [
+    "tonal",
+    "modal",
+    "harmonia"
+   ],
+   "id_global": "W96yUcOEub0#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Mapear a nota-chave de cada acorde em loop",
+   "descricao": "Isolar dois acordes da progressão em loop e identificar, para cada um, a nota que serve de chegada e tocar com a pentatônica de Lá menor mantendo essa nota como referência.",
+   "passos": [
+    "Montar um loop com dois acordes consecutivos da progressão.",
+    "Identificar a tônica e a terça de cada acorde.",
+    "Improvisar com a pentatônica de Lá menor terminando frases em cada nota-chave.",
+    "Repetir trocando de par de acordes."
+   ],
+   "timestamp": "06:44",
+   "nivel": "intermediario",
+   "tags": [
+    "loop",
+    "mapeamento",
+    "nota-chave",
+    "pentatônica"
+   ],
+   "id_global": "W96yUcOEub0#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Terça e quinta de Fá como notas seguras",
+   "descricao": "Sobre o acorde de Fá maior, a pentatônica de Lá menor não contém a tônica (Fá). As notas seguras são a terça (Lá) e a quinta (Dó).",
+   "passos": [],
+   "timestamp": "07:54",
+   "nivel": "intermediario",
+   "tags": [
+    "fá maior",
+    "terça",
+    "quinta",
+    "notas-alvo"
+   ],
+   "id_global": "W96yUcOEub0#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Loop Sol–Fá–Lá menor com aterrissagem",
+   "descricao": "Tocar em loop os acordes Sol, Fá e Lá menor e aterrissar nas notas-alvo de cada um, observando como a frase se mantém coerente.",
+   "passos": [
+    "Montar um loop com Sol, Fá e Lá menor.",
+    "Improvisar com a pentatônica de Lá menor aterrissando em Ré ou Sol sobre Sol.",
+    "Aterrissar na terça (Lá) sobre Fá.",
+    "Aterrissar na tônica (Lá) sobre Lá menor."
+   ],
+   "timestamp": "08:25",
+   "nivel": "intermediario",
+   "tags": [
+    "loop",
+    "notas-alvo",
+    "sol maior",
+    "fá maior",
+    "lá menor"
+   ],
+   "id_global": "W96yUcOEub0#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Confiar no ouvido ao corrigir a nota",
+   "descricao": "Muitas dessas relações são intuitivas. Quando o ouvido indica que a frase aterrissou no lugar errado, o músico deve buscar a nota certa.",
+   "passos": [],
+   "timestamp": "08:58",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "intuição",
+    "correção"
+   ],
+   "id_global": "W96yUcOEub0#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Terça menor sobre o acorde de Mi maior",
+   "descricao": "O quinto grau do campo de Lá menor é frequentemente tocado como Mi maior (dominante). A tônica Mi é nota segura, e a terça menor (Sol natural) dá sensação de blues, mesmo sendo uma nota fora do acorde maior.",
+   "passos": [],
+   "timestamp": "10:36",
+   "nivel": "intermediario",
+   "tags": [
+    "mi maior",
+    "dominante",
+    "terça menor",
+    "blues"
+   ],
+   "id_global": "W96yUcOEub0#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Improviso com um shape sobre a progressão inteira",
+   "descricao": "Usar um único shape de pentatônica de Lá menor sobre toda a progressão, buscando concluir cada acorde em suas notas seguras.",
+   "passos": [
+    "Escolher um shape de pentatônica de Lá menor.",
+    "Tocar sobre a progressão Am–G–F–E.",
+    "Em cada acorde, terminar a frase em uma nota-alvo daquele acorde.",
+    "Repetir mudando a nota-alvo de cada acorde."
+   ],
+   "timestamp": "11:42",
+   "nivel": "intermediario",
+   "tags": [
+    "shape",
+    "pentatônica",
+    "progressão",
+    "improviso"
+   ],
+   "id_global": "W96yUcOEub0#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "frase_lick",
+   "titulo": "Caminho azul: bend da quarta para a quinta e resolução na tônica",
+   "descricao": "Frase com bend partindo da quarta do acorde de Lá menor (Ré) até a quinta (Mi), e depois resolução na tônica (Lá).",
+   "passos": [],
+   "timestamp": "12:29",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "caminho azul",
+    "resolução",
+    "lá menor"
+   ],
+   "id_global": "W96yUcOEub0#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "frase_lick",
+   "titulo": "Caminho verde: padrão de pentatônica que percorre o braço",
+   "descricao": "Padrão de pentatônica que percorre o braço e aterrissa na tônica. Gera frase com começo, meio e fim, em vez de escala em sobe e desce.",
+   "passos": [],
+   "timestamp": "14:11",
+   "nivel": "intermediario",
+   "tags": [
+    "caminho verde",
+    "pentatônica",
+    "frase",
+    "braço"
+   ],
+   "id_global": "W96yUcOEub0#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "frase_lick",
+   "titulo": "Caminho amarelo e conclusões alternadas",
+   "descricao": "No shape de Lá menor, aterrissar na quinta de Sol, depois na tônica de Fá e na tônica de Mi conforme a harmonia muda, usando a mesma frase.",
+   "passos": [],
+   "timestamp": "15:18",
+   "nivel": "intermediario",
+   "tags": [
+    "caminho amarelo",
+    "conclusão",
+    "mudança de acorde"
+   ],
+   "id_global": "W96yUcOEub0#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Separar estudo e play",
+   "descricao": "O mapeamento harmônico deve ser estudado, não pensado durante o improviso. No estudo você constrói ferramentas; no play você fecha os olhos e toca.",
+   "passos": [],
+   "timestamp": "15:55",
+   "nivel": "iniciante",
+   "tags": [
+    "estudo",
+    "improviso",
+    "mentalidade"
+   ],
+   "id_global": "W96yUcOEub0#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Usar uma única escala sobre todos os acordes como ponto de partida",
+   "descricao": "A possibilidade mais simples é usar só a escala do tom da música sobre todos os acordes, buscando as notas seguras de cada um. Serve para qualquer progressão.",
+   "passos": [],
+   "timestamp": "16:29",
+   "nivel": "iniciante",
+   "tags": [
+    "escala do tom",
+    "progressão",
+    "ponto de partida"
+   ],
+   "id_global": "W96yUcOEub0#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S9",
+   "tipo": "erro_comum",
+   "titulo": "Tocar o shape inteiro da pentatônica de Sol maior",
+   "descricao": "Ao chegar ao acorde de Sol maior, tocar o shape inteiro da pentatônica pode soar pior do que usar apenas a escala do tom, pois a frase fica sem direção.",
+   "passos": [],
+   "timestamp": "17:38",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "pentatônica",
+    "sol maior"
+   ],
+   "id_global": "W96yUcOEub0#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Empilhar pentatônica de Sol maior sobre a de Lá menor",
+   "descricao": "A pentatônica de Sol maior (Sol, Lá, Si, Ré, Mi) pode ser tocada na mesma região do shape de Lá menor. Quase todas as notas são comuns, e a única nova é o Si, a terça de Sol.",
+   "passos": [],
+   "timestamp": "18:11",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "sol maior",
+    "empilhamento",
+    "terça"
+   ],
+   "id_global": "W96yUcOEub0#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Perseguir a terça de Sol (Si) no agudo",
+   "descricao": "Sobre Sol maior, a terça (Si) é uma nota bonita que dá a emoção do acorde. Procurá-la no agudo, na mesma região, cria uma sensação diferente da escala do tom.",
+   "passos": [],
+   "timestamp": "18:43",
+   "nivel": "intermediario",
+   "tags": [
+    "terça",
+    "sol maior",
+    "notas-alvo",
+    "agudo"
+   ],
+   "id_global": "W96yUcOEub0#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Tônica de Fá como nota nova na pentatônica de Fá maior",
+   "descricao": "A pentatônica de Fá maior (Fá, Sol, Lá, Dó, Ré) compartilha quase todas as notas com a de Lá menor. A tônica Fá é a nota nova e serve de conclusão sobre o acorde de Fá.",
+   "passos": [],
+   "timestamp": "20:23",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "fá maior",
+    "tônica",
+    "empilhamento"
+   ],
+   "id_global": "W96yUcOEub0#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Referência de Stairway to Heaven",
+   "descricao": "O solo de Stairway to Heaven usa a mesma progressão e, no acorde de Fá, conclui uma frase na nota Fá, o que enriquece a emoção do solo.",
+   "passos": [],
+   "timestamp": "20:59",
+   "nivel": "intermediario",
+   "tags": [
+    "referência",
+    "stairway to heaven",
+    "fá maior"
+   ],
+   "id_global": "W96yUcOEub0#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Sétima maior sobre Mi maior",
+   "descricao": "A terça maior de Mi (Sol sustenido) não existe na pentatônica de Lá menor. Ela é a sétima maior da escala menor harmônica de Lá e caracteriza o acorde de Mi maior.",
+   "passos": [],
+   "timestamp": "22:06",
+   "nivel": "avancado",
+   "tags": [
+    "sétima maior",
+    "menor harmônica",
+    "mi maior",
+    "guide tone"
+   ],
+   "id_global": "W96yUcOEub0#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Resolução de Sol sustenido para Lá",
+   "descricao": "Sobre Mi maior, tocar Sol sustenido e resolver em Lá cria a maior sensação de resolução da progressão, semelhante ao movimento de sensível para tônica.",
+   "passos": [],
+   "timestamp": "22:38",
+   "nivel": "avancado",
+   "tags": [
+    "resolução",
+    "sol sustenido",
+    "lá",
+    "sensível"
+   ],
+   "id_global": "W96yUcOEub0#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sem intervalos marcados pensando nas notas características",
+   "descricao": "Retirar as marcações de intervalos e improvisar livremente sobre a progressão, tocando em cada acorde a nota que o caracteriza.",
+   "passos": [
+    "Retirar as marcações de intervalos do diagrama.",
+    "Tocar a progressão em loop.",
+    "Em cada acorde, usar a nota característica: Lá menor (tônica), Sol (tônica), Fá (terça), Mi (terça menor e sétima maior).",
+    "Improvisar livremente sem parar."
+   ],
+   "timestamp": "23:11",
+   "nivel": "avancado",
+   "tags": [
+    "improviso livre",
+    "notas características",
+    "progressão"
+   ],
+   "id_global": "W96yUcOEub0#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Tríades e tétrades como alternativa à pentatônica",
+   "descricao": "O mesmo conhecimento pode ser obtido pensando na tríade ou tétrade de cada acorde da progressão, combinadas com arpejos e licks de pentatônica.",
+   "passos": [],
+   "timestamp": "24:17",
+   "nivel": "avancado",
+   "tags": [
+    "tríades",
+    "tétrades",
+    "arpejos",
+    "licks"
+   ],
+   "id_global": "W96yUcOEub0#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S12",
+   "tipo": "rotina_estudo",
+   "titulo": "Treinar em todas as tonalidades e estilos",
+   "descricao": "Para internalizar a relação entre acordes e pentatônicas, o estudo deve ser repetido em todas as tonalidades e em diferentes estilos musicais.",
+   "passos": [
+    "Escolher uma progressão simples.",
+    "Aplicar o mapeamento de notas-alvo em uma tonalidade.",
+    "Repetir em outras tonalidades e estilos."
+   ],
+   "timestamp": "24:17",
+   "nivel": "intermediario",
+   "tags": [
+    "rotina",
+    "tonalidades",
+    "estilos",
+    "treino"
+   ],
+   "id_global": "W96yUcOEub0#I30"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [
+  "Stairway to Heaven"
+ ],
+ "recursos_citados": [
+  "Curso Destravando a Penta (Luiz Criasom)",
+  "Backing tracks do curso",
+  "Apostila do curso com mais de 70 páginas",
+  "Mentoria ao vivo (bônus do curso)",
+  "Metodologia completa do canal (luizcriasom.com.br/academia)"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'Starway to Heaven' = Stairway to Heaven; 'leaksos'/'leaks' = licks; 'Stravando penta'/'distravanda penta' = Destravando a Penta; 'back in track' = backing track; 'basado' = baseado; 'trouxe' em certo trecho é fala improvisada. O vídeo depende de diagramas visuais (caminhos azul, verde e amarelo; shapes de pentatônica) que não aparecem no transcript, então as frases foram descritas pelas notas. A mensagem 'Mi maior' é a dominante do campo menor, e o transcript diz 'mi menor' em alguns trechos, mas a ficha usa o acorde descrito como maior. Parte do conteúdo final (cerca de 24:51 a 27:37) é propaganda do curso pago, marcada como não didática.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00426,
+  "via": "api"
+ }
+}

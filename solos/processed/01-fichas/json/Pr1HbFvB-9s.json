@@ -1,0 +1,186 @@
+{
+ "fonte_id": "Pr1HbFvB-9s",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+  "autor": "Guitar With Bert",
+  "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s",
+  "idioma": "en",
+  "duracao": "2m 58s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/Pr1HbFvB-9s--improve-your-pentatonic-phrasing-2-steps.md"
+ },
+ "resumo": "Vídeo curto com duas dicas de fraseado na pentatônica: (1) em vez de subir e descer a escala corda por corda a partir da raiz na Mi grave, pensar em grupos de duas cordas, usando uma \"caixa dentro da caixa\" nas cordas Ré e Sol (casas 5 e 7, em Lá menor); (2) repetir as frases criadas, explorando slides e bends para dar direção ao solo. Voltado a iniciantes que soam como \"subindo e descendo uma escada\".",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceito claro e prático (limitar a duas cordas e repetir frases), mas muito curto e com pouca explicação verbal dos exemplos; depende de ver o vídeo."
+ },
+ "assuntos_principais": [
+  "fraseado",
+  "pentatônica menor",
+  "limitação de notas",
+  "repetição de frases",
+  "slides e bends"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Problema: solo que parece escada",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Mostra o problema de tratar a raiz da corda Mi grave como começo obrigatório da pentatônica e subir/descer a escala inteira.",
+   "assuntos": [
+    "fraseado",
+    "pentatônica",
+    "erro comum"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Dica 1: grupos de duas cordas",
+   "inicio": "00:32",
+   "fim": "01:55",
+   "resumo": "Propõe pensar em apenas duas cordas: Ré e Sol, casas 5 e 7 em Lá menor, construindo melodia em volta disso.",
+   "assuntos": [
+    "duas cordas",
+    "pentatônica",
+    "melodia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Dica 2: repetir frases",
+   "inicio": "01:55",
+   "fim": "02:58",
+   "resumo": "Repetir frases dentro da caixa de duas cordas, explorando slides e bends para dar senso de direção ao solo; convite para praticar.",
+   "assuntos": [
+    "repetição",
+    "slides",
+    "bends",
+    "direção do solo"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Tratar a pentatônica como escada da Mi grave à Mi aguda",
+   "descricao": "O solo soa como subir e descer uma escada quando se enxerga a raiz da corda Mi grave como início obrigatório da pentatônica (ex.: Lá menor) e se percorre a escala corda por corda até a Mi aguda e de volta. O problema é o fraseado, não as notas.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "pentatônica",
+    "erro comum"
+   ],
+   "id_global": "Pr1HbFvB-9s#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pensar em grupos de duas cordas",
+   "descricao": "Abandone a ideia de percorrer a escala toda e pense em grupos de duas cordas. Isso cria uma 'caixa dentro da caixa' da pentatônica e simplifica o que tocar.",
+   "passos": [],
+   "timestamp": "00:15",
+   "nivel": "iniciante",
+   "tags": [
+    "duas cordas",
+    "caixa",
+    "pentatônica"
+   ],
+   "id_global": "Pr1HbFvB-9s#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Improvisar nas cordas Ré e Sol, casas 5 e 7 (Lá menor)",
+   "descricao": "Em Lá menor, fique apenas nas cordas Ré e Sol, usando as casas 5 e 7 de cada uma, e construa uma pequena melodia ao redor dessas quatro notas sobre um backing track.",
+   "passos": [
+    "Escolha um backing track em Lá menor",
+    "Toque só as casas 5 e 7 da corda Ré e 5 e 7 da corda Sol",
+    "Crie uma pequena melodia com essas notas, sem sair das duas cordas"
+   ],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "Lá menor",
+    "duas cordas",
+    "improvisação"
+   ],
+   "id_global": "Pr1HbFvB-9s#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Repita suas frases para dar direção ao solo",
+   "descricao": "Repita as melodias e frases que surgirem em vez de sempre tocar algo novo. A repetição dá senso de direção e intenção e ajuda a construir o solo.",
+   "passos": [],
+   "timestamp": "01:55",
+   "nivel": "iniciante",
+   "tags": [
+    "repetição",
+    "fraseado",
+    "motivo"
+   ],
+   "id_global": "Pr1HbFvB-9s#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "A limitação foca nos detalhes: slides e bends",
+   "descricao": "Restringir-se a duas cordas obriga a simplificar e focar nos pequenos detalhes que fazem um solo soar bem, como slides e bends, que podem ser repetidos como elementos do fraseado.",
+   "passos": [],
+   "timestamp": "02:10",
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "bend",
+    "simplificar"
+   ],
+   "id_global": "Pr1HbFvB-9s#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Prática: repetir frases na caixa de duas cordas",
+   "descricao": "Exercício final: foque apenas no padrão de duas cordas (casas 5 e 7 nas cordas Ré e Sol) e tente repetir as melodias e frases que criar.",
+   "passos": [
+    "Fique só nas casas 5 e 7 das cordas Ré e Sol",
+    "Crie uma frase curta, incluindo slide ou bend",
+    "Repita a frase, variando pouco",
+    "Encadeie frases repetidas até formar um solo com direção"
+   ],
+   "timestamp": "02:46",
+   "nivel": "iniciante",
+   "tags": [
+    "repetição",
+    "duas cordas",
+    "prática"
+   ],
+   "id_global": "Pr1HbFvB-9s#I06"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [],
+ "observacoes": "Vídeo curto, com a maior parte demonstrada tocando (sem fala), então os exemplos concretos não aparecem na transcrição. Casas 5 e 7 nas cordas Ré e Sol conforme o transcript; não há detalhe de quais frases, slides ou bends são tocados.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:37",
+  "tentativas": 1,
+  "custo_usd": 0.0782
+ }
+}

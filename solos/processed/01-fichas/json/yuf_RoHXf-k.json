@@ -1,0 +1,188 @@
+{
+ "fonte_id": "yuf_RoHXf-k",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "This Arpeggio Trick Makes Guitar Solos Instantly Better!",
+  "autor": "Marty Music",
+  "url": "https://www.youtube.com/watch?v=yuf_RoHXf-k",
+  "idioma": "en",
+  "duracao": "2m 7s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/yuf_RoHXf-k--this-arpeggio-trick-makes-guitar-solos-instantly-better.md"
+ },
+ "resumo": "Vídeo curto de Marty Schwartz que ensina o \"dispositivo\" do arpejo sus4 para deixar os solos mais melódicos. Parte do tríade de Ré maior na região da 14ª casa, adiciona o mindinho na 15ª casa da 1ª corda (Dsus4) e toca uma frase descendente (17-15-14 na 1ª corda, depois 15 na 2ª e 14 na 3ª) resolvendo na raiz. Repete a ideia sobre A (Asus4) na 2ª, 3ª e 4ª cordas, une as duas formas numa progressão D–A–D e explica que, em C–G, se toca o mesmo desenho um tom abaixo. A transcrição termina cortada e depende de ver o braço da guitarra.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Ideia útil e concreta, com casas citadas, mas o vídeo é muito curto, a explicação é fragmentada, depende de ver o braço e a transcrição termina cortada."
+ },
+ "assuntos_principais": [
+  "arpejo sus4",
+  "melodia sobre acordes",
+  "conectar licks",
+  "mudança de acordes",
+  "transposição de shapes"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução ao arpejo sus4",
+   "inicio": "00:00",
+   "fim": "00:12",
+   "resumo": "Apresenta o arpejo sus4 como recurso para solos mais melódicos e convida a seguir o canal.",
+   "assuntos": [
+    "introdução",
+    "sus4"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Arpejo Dsus4 na região da 14ª casa",
+   "inicio": "00:12",
+   "fim": "00:42",
+   "resumo": "Parte da tríade de Ré maior (3ª corda casa 14, 2ª corda 15, 1ª corda 14), adiciona o mindinho na 15 da 1ª corda e desenha a frase 17-15-14 na 1ª corda, 15 na 2ª, 14 na 3ª, resolvendo na raiz.",
+   "assuntos": [
+    "Dsus4",
+    "arpejo",
+    "tríade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Forma de Asus4 e continuação descendo",
+   "inicio": "00:42",
+   "fim": "01:12",
+   "resumo": "Mesma ideia sobre Asus4, com 17-15-14 na 2ª corda e rolando para a 14 da 3ª e da 4ª corda, podendo continuar descendo pelo mesmo conjunto de notas.",
+   "assuntos": [
+    "Asus4",
+    "arpejo",
+    "mesmo shape"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Aplicação na progressão e transposição",
+   "inicio": "01:12",
+   "fim": "02:07",
+   "resumo": "Une as duas formas sobre D–A–D e explica que em C–G se toca o mesmo um tom abaixo. A transcrição termina cortada.",
+   "assuntos": [
+    "progressão",
+    "transposição",
+    "mudança de acordes"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Arpejo sus4 como dispositivo melódico",
+   "descricao": "Usar o arpejo/sons de um acorde sus4 (com a 4ª no lugar da 3ª) sobre o acorde maior torna o solo mais melódico e intencional, em vez de aleatório, ajudando a conectar licks.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "sus4",
+    "arpejo",
+    "melodia"
+   ],
+   "id_global": "yuf_RoHXf-k#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Dsus4 a partir da tríade de Ré na 14ª casa",
+   "descricao": "Segure a tríade de Ré maior (3ª corda casa 14, 2ª corda casa 15, 1ª corda casa 14) e acrescente o mindinho na casa 15 da 1ª corda, formando Dsus4. A 1ª corda passa a oferecer as notas da melodia.",
+   "passos": [
+    "Posicione a tríade de D: 14 na G, 15 na B, 14 na E aguda",
+    "Adicione o mindinho na 15 da E aguda (Dsus4)",
+    "Toque na E aguda 17, 15, 14",
+    "Vá para a casa 15 da B",
+    "Desça para a 14 da G",
+    "Resolva na raiz (conforme o vídeo, '121 to the root')"
+   ],
+   "timestamp": "00:12",
+   "nivel": "intermediario",
+   "tags": [
+    "Dsus4",
+    "tríade",
+    "1ª corda",
+    "posição 14ª casa"
+   ],
+   "id_global": "yuf_RoHXf-k#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Mesma ideia sobre Asus4",
+   "descricao": "Faça o mesmo desenho em forma de A sus4: na corda B toque 17, 15, 14 e role para a 14 da corda G e a 14 da corda D. É possível continuar descendo pelo mesmo conjunto de notas.",
+   "passos": [
+    "Toque na corda B: 17, 15, 14",
+    "Role para a casa 14 da G",
+    "Continue para a casa 14 da D",
+    "Se quiser, continue descendo pelas mesmas notas"
+   ],
+   "timestamp": "00:42",
+   "nivel": "intermediario",
+   "tags": [
+    "Asus4",
+    "arpejo",
+    "conjunto de cordas"
+   ],
+   "id_global": "yuf_RoHXf-k#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Alternar as formas conforme os acordes",
+   "descricao": "Numa progressão D–A–D, toque elementos da forma de D sobre o acorde D e da forma de A sobre o acorde A, voltando para D. Assim a melodia acompanha as mudanças de acorde.",
+   "passos": [],
+   "timestamp": "01:12",
+   "nivel": "intermediario",
+   "tags": [
+    "progressão",
+    "mudança de acordes",
+    "D A"
+   ],
+   "id_global": "yuf_RoHXf-k#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Transpor o desenho um tom abaixo",
+   "descricao": "Para uma progressão C–G, toque os mesmos elementos uma nota inteira (um tom) abaixo, ou seja, mova o desenho duas casas para baixo.",
+   "passos": [],
+   "timestamp": "01:30",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "C G",
+    "shapes móveis"
+   ],
+   "id_global": "yuf_RoHXf-k#I05"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Guitar Guide PDF gratuito (Marty Music)",
+  "Cursos gratuitos em martymusic.com"
+ ],
+ "observacoes": "Transcrição curta e cortada no final (\"So, >>\"). Conteúdo depende de ver o braço da guitarra; as casas/cordas da frase foram interpretadas pelo contexto e podem ter imprecisões (ex.: \"121 to the root\"). A tonalidade das posições (Dsus4 na 14ª casa) é a descrita no vídeo. O trecho de transposição (C–G) é inferido de \"a whole step down\".",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:36",
+  "tentativas": 1,
+  "custo_usd": 0.0892
+ }
+}

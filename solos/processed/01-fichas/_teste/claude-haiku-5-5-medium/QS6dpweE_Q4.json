@@ -1,0 +1,456 @@
+{
+ "fonte_id": "QS6dpweE_Q4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+  "autor": "Edu Ardanuy",
+  "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4",
+  "idioma": "pt",
+  "duracao": "12m 23s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/QS6dpweE_Q4--improvisação-tonal-com-um-arpejo-para-cada-acorde.md"
+ },
+ "resumo": "Aula de Edu Ardanuy (segunda parte de uma trilogia) sobre improvisação tonal em que cada acorde da cadência (Em, Bm, C, G, D) recebe seu próprio arpejo, organizados em regiões do braço com shapes de posições de escala em formato de sistema 5 e 3 notas por corda. O professor mostra como conectar os arpejos às escalas de Em (G jônio, F# lócrio, B frígio, A dórico, G mixolídio, C lídio) para criar melodias sobre a progressão. Destina-se a guitarristas que já conhecem shapes de arpejos e escalas e querem uma abordagem de improviso mais harmônica.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Mostra o conceito de forma clara e organiza o conteúdo em regiões do braço, mas é majoritariamente demonstrativo, com pouca explicação verbal de passos e exercícios; a tablatura, que seria essencial, fica fora do vídeo (link para download)."
+ },
+ "assuntos_principais": [
+  "arpejos sobre cada acorde da progressão",
+  "improvisação tonal",
+  "shapes de arpejos",
+  "posições de escala no sistema 5",
+  "conexão entre arpejos e escala",
+  "modos gregos aplicados a Em (jônio, lócrio, frígio, dórico, mixolídio, lídio)",
+  "regiões do braço"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação e contexto da trilogia",
+   "inicio": "00:00",
+   "fim": "00:28",
+   "resumo": "Edu se apresenta e situa a aula como continuação da primeira parte, em que se improvisava com um único arpejo de Em sobre a cadência.",
+   "assuntos": [
+    "trilogia de arpejos",
+    "improvisação tonal com um arpejo"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Apresentação da cadência e do conceito",
+   "inicio": "00:28",
+   "fim": "01:26",
+   "resumo": "Define a cadência (Em, Bm, C, G, D) e explica que cada acorde terá seu próprio arpejo, usando graus e o mesmo harmônico da aula anterior.",
+   "assuntos": [
+    "cadência Em-Bm-C-G-D",
+    "graus harmônicos",
+    "arpejo por acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Organização dos arpejos por região do braço",
+   "inicio": "01:26",
+   "fim": "02:12",
+   "resumo": "Explica que é importante agrupar em uma mesma região as posições mais próximas de cada arpejo e apresenta o primeiro bloco: Em no modelo de A, Bm no modelo de E, C no modelo de E, G no modelo de C e D no modelo de A.",
+   "assuntos": [
+    "agrupamento por região",
+    "modelos de shape",
+    "primeiro bloco de arpejos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Sequência de arpejos e segundo bloco",
+   "inicio": "02:12",
+   "fim": "03:58",
+   "resumo": "Toca a sequência completa do primeiro bloco e apresenta o segundo bloco: Em no modelo de C, Bm no modelo de A, C no modelo de A, G no modelo de E e D no modelo de C. Depois inicia o terceiro bloco com Em no modelo de E.",
+   "assuntos": [
+    "sequência de arpejos",
+    "segundo bloco de arpejos",
+    "terceiro bloco de arpejos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Terceiro bloco e conexão com a escala",
+   "inicio": "03:58",
+   "fim": "05:41",
+   "resumo": "Completa o terceiro bloco (Bm em C, C em C, G em A, D em E) e explica a importância de enxergar a escala menor dentro dos arpejos, pois a conexão entre arpejos e escala é o que se usa no solo. Identifica as posições de G jônio e F# lócrio no primeiro bloco.",
+   "assuntos": [
+    "terceiro bloco de arpejos",
+    "enxergar a escala dentro dos arpejos",
+    "G jônio",
+    "F# lócrio",
+    "conexão arpejo-escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Criação de melodias no primeiro bloco",
+   "inicio": "05:41",
+   "fim": "06:38",
+   "resumo": "Demonstra tocar os arpejos e criar pequenas melodias com a escala dentro da progressão no primeiro bloco.",
+   "assuntos": [
+    "criação de melodias",
+    "escala dentro da progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Escalas no segundo bloco (shape de A)",
+   "inicio": "06:38",
+   "fim": "07:58",
+   "resumo": "Na região em que Em está no shape de A, indica as posições de Em/G maior, que correspondem a B frígio, e menciona o A dórico conforme a articulação melódica. Associa a escala à progressão de arpejos.",
+   "assuntos": [
+    "B frígio",
+    "A dórico",
+    "posições de escala no shape de A",
+    "associação escala-progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Escalas no último bloco (shape de E)",
+   "inicio": "07:58",
+   "fim": "09:36",
+   "resumo": "No último bloco, com Em no shape de E, indica as posições de G mixolídio e C lídio e associa a progressão de arpejos com a escala de Em.",
+   "assuntos": [
+    "G mixolídio",
+    "C lídio",
+    "shape de E",
+    "associação escala-progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Demonstração com playback e encerramento",
+   "inicio": "09:36",
+   "fim": "12:23",
+   "resumo": "Demonstra a improvisação sobre o playback e em seguida faz a despedida, pedindo inscrição no canal e indicando a terceira parte da trilogia sobre sobreposição de arpejos na harmonia modal.",
+   "assuntos": [
+    "improvisação com playback",
+    "despedida",
+    "próxima aula da trilogia"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Um arpejo para cada acorde da cadência",
+   "descricao": "Em vez de usar um único arpejo sobre toda a cadência, toca-se o arpejo correspondente a cada acorde da progressão (Em, Bm, C, G, D), o que é uma forma mais comum, porém mais difícil, de usar arpejos na improvisação.",
+   "passos": [],
+   "timestamp": "00:28",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "cadência",
+    "progressão harmônica"
+   ],
+   "id_global": "QS6dpweE_Q4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Agrupar arpejos em regiões próximas do braço",
+   "descricao": "Organizar numa mesma região do braço as posições mais próximas de cada arpejo da progressão, para que a transição entre um acorde e outro seja curta e fluida.",
+   "passos": [],
+   "timestamp": "01:26",
+   "nivel": "intermediario",
+   "tags": [
+    "regiões do braço",
+    "transições",
+    "shapes"
+   ],
+   "id_global": "QS6dpweE_Q4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Primeiro bloco de arpejos: shapes de A e E",
+   "descricao": "Bloco inicial da progressão: Em no modelo de A, Bm no modelo de E, C no modelo de E, G no modelo de C e D no modelo de A.",
+   "passos": [],
+   "timestamp": "01:26",
+   "nivel": "intermediario",
+   "tags": [
+    "shapes",
+    "arpejos",
+    "primeiro bloco"
+   ],
+   "id_global": "QS6dpweE_Q4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Tocar a sequência completa de arpejos do primeiro bloco",
+   "descricao": "Executar em sequência os arpejos de Em (shape A), Bm (shape E), C (shape E), G (shape C) e D (shape A), ouvindo a progressão mesmo sem backing, pois os arpejos são os próprios acordes.",
+   "passos": [
+    "Montar a posição de Em no shape de A",
+    "Passar para Bm no shape de E",
+    "Seguir para C no shape de E",
+    "Tocar G no shape de C",
+    "Fechar em D no shape de A",
+    "Repetir em loop para internalizar a sequência"
+   ],
+   "timestamp": "02:12",
+   "nivel": "intermediario",
+   "tags": [
+    "sequência de arpejos",
+    "shapes",
+    "progressão"
+   ],
+   "id_global": "QS6dpweE_Q4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Arpejos funcionam como os próprios acordes",
+   "descricao": "Tocar arpejos em sequência já transmite a harmonia, porque cada arpejo é o acorde desarticulado, então quem toca pode perceber a progressão mesmo sem escutar harmonia de fundo.",
+   "passos": [],
+   "timestamp": "02:12",
+   "nivel": "iniciante",
+   "tags": [
+    "harmonia",
+    "arpejos",
+    "percepção harmônica"
+   ],
+   "id_global": "QS6dpweE_Q4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Segundo bloco de arpejos: shapes de C e A",
+   "descricao": "Segunda região da progressão: Em no modelo de C, Bm no modelo de A, C no modelo de A, G no modelo de E e D no modelo de C.",
+   "passos": [],
+   "timestamp": "02:57",
+   "nivel": "intermediario",
+   "tags": [
+    "shapes",
+    "arpejos",
+    "segundo bloco"
+   ],
+   "id_global": "QS6dpweE_Q4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Terceiro bloco de arpejos: início com Em no shape de E",
+   "descricao": "Terceira região da progressão começa com Em no modelo de E, seguido de Bm no modelo de C, C no modelo de C, G no modelo de A e D no modelo de E.",
+   "passos": [],
+   "timestamp": "03:58",
+   "nivel": "intermediario",
+   "tags": [
+    "shapes",
+    "arpejos",
+    "terceiro bloco"
+   ],
+   "id_global": "QS6dpweE_Q4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Enxergar a escala dentro dos arpejos",
+   "descricao": "É fundamental identificar a escala menor (de Em) dentro de cada bloco de arpejos, porque solar só com arpejos não é comum; o mais usado é conectar os arpejos à escala.",
+   "passos": [],
+   "timestamp": "04:52",
+   "nivel": "intermediario",
+   "tags": [
+    "escala",
+    "arpejos",
+    "conexão"
+   ],
+   "id_global": "QS6dpweE_Q4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Posições de G jônio e F# lócrio no primeiro bloco",
+   "descricao": "No primeiro bloco da progressão, a escala de Em aparece em duas posições convenientes: a de G jônio (relativo maior) e a posição anterior de F# lócrio.",
+   "passos": [],
+   "timestamp": "05:24",
+   "nivel": "avancado",
+   "tags": [
+    "modos gregos",
+    "G jônio",
+    "F# lócrio",
+    "posições de escala"
+   ],
+   "id_global": "QS6dpweE_Q4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Criar pequenas melodias tocando arpejos e escala na progressão",
+   "descricao": "Tocar os arpejos da progressão intercalando-os com notas da escala de Em dentro das posições do primeiro bloco, criando pequenas melodias que conectem os acordes.",
+   "passos": [
+    "Tocar o arpejo do acorde atual",
+    "Completar a frase com notas da escala (G jônio ou F# lócrio) na mesma região",
+    "Resolver a frase no arpejo do acorde seguinte",
+    "Repetir mudando a articulação melódica"
+   ],
+   "timestamp": "05:41",
+   "nivel": "intermediario",
+   "tags": [
+    "melodia",
+    "escala",
+    "arpejos",
+    "call and response"
+   ],
+   "id_global": "QS6dpweE_Q4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Escala de Em no shape de A: B frígio e A dórico",
+   "descricao": "Na região em que Em está no shape de A, as posições de Em ou G maior correspondem ao modo B frígio, e, dependendo da articulação melódica, também pode-se usar A dórico.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "avancado",
+   "tags": [
+    "modos gregos",
+    "B frígio",
+    "A dórico",
+    "shape de A"
+   ],
+   "id_global": "QS6dpweE_Q4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Ter as posições da escala embaixo dos dedos",
+   "descricao": "Vale manter as posições de escala memorizadas na região de cada bloco para poder alternar entre arpejo e escala sem pausa durante a progressão.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "intermediario",
+   "tags": [
+    "memorização",
+    "posições de escala",
+    "fluência"
+   ],
+   "id_global": "QS6dpweE_Q4#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Associar a escala à progressão de arpejos no shape de A",
+   "descricao": "Tocar a progressão de arpejos do segundo bloco e encaixar as posições de Em/B frígio entre os arpejos, transitando de um acorde para o outro.",
+   "passos": [
+    "Tocar o arpejo de Em no shape de C",
+    "Passar para Bm, C, G e D seguindo o bloco",
+    "Inserir notas da escala de Em/B frígio entre os arpejos",
+    "Alternar com A dórico conforme a melodia pedir"
+   ],
+   "timestamp": "07:22",
+   "nivel": "intermediario",
+   "tags": [
+    "escala-progressão",
+    "B frígio",
+    "A dórico",
+    "arpejos"
+   ],
+   "id_global": "QS6dpweE_Q4#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Último bloco: G mixolídio e C lídio sobre Em no shape de E",
+   "descricao": "Na região em que Em está no shape de E, as posições de Em mais convenientes são a de G mixolídio e a posição anterior de C lídio.",
+   "passos": [],
+   "timestamp": "07:58",
+   "nivel": "avancado",
+   "tags": [
+    "modos gregos",
+    "G mixolídio",
+    "C lídio",
+    "shape de E"
+   ],
+   "id_global": "QS6dpweE_Q4#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Associar arpejos e escala no último bloco",
+   "descricao": "Tocar a progressão de arpejos do último bloco (Em, Bm, C, G, D em shapes de E, C, C, A, E) alternando com as posições de G mixolídio e C lídio.",
+   "passos": [
+    "Tocar o arpejo de Em no shape de E",
+    "Passar para Bm, C, G e D seguindo o bloco",
+    "Inserir notas de G mixolídio e C lídio entre os arpejos",
+    "Improvisar pequenas frases sobre a progressão"
+   ],
+   "timestamp": "08:39",
+   "nivel": "avancado",
+   "tags": [
+    "escala-progressão",
+    "G mixolídio",
+    "C lídio",
+    "arpejos"
+   ],
+   "id_global": "QS6dpweE_Q4#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre o playback usando arpejo de cada acorde",
+   "descricao": "Com o playback disponível no site do professor, improvisar tocando o arpejo respectivo de cada acorde da harmonia, testando como a abordagem soa na prática.",
+   "passos": [
+    "Baixar o playback no link da descrição",
+    "Tocar o arpejo de Em, Bm, C, G e D no acorde correspondente",
+    "Testar conexões com as posições de escala de cada bloco"
+   ],
+   "timestamp": "09:36",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "playback",
+    "improvisação"
+   ],
+   "id_global": "QS6dpweE_Q4#I16"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Tablatura e playback da aula (eduardanuy.com.br, link na descrição)",
+  "Vídeo anterior: improvisação tonal com um único acorde (youtube.com/watch?v=DEpveuAVjl0)",
+  "Vídeo: improvisação modal com sobreposição de arpejos (youtube.com/watch?v=8e3Ad3ihnK8)",
+  "Vídeo: arpejos estratégicos para improvisação modal (youtube.com/watch?v=A0naU1p8g8A)"
+ ],
+ "observacoes": "Legenda automática com muitos erros e sem pontuação: nomes de acordes e shapes aparecem fragmentados (ex.: 'G o maior modelo de E' e 'Em no modelo de E'), e algumas frases estão incompletas. Os blocos de arpejos foram reconstruídos cruzando o índice do vídeo com a descrição; o índice indica 03:00 para Bm no modelo de A e 03:05 para C no modelo de C, enquanto o transcript fala em shapes diferentes em alguns pontos, então os shapes exatos devem ser conferidos na tablatura. Os timestamps de alguns trechos do transcript (por exemplo 03:58 e 04:57) divergem levemente do índice. A descrição menciona a 'escala de Em' com 'G jônio' e 'F# lócrio' para o primeiro bloco e 'B frígio' e 'A dórico' para o segundo; essas associações são as do próprio professor e dependem da articulação melódica. O conteúdo depende da visualização da tablatura para ser totalmente executado.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:26:55",
+  "tentativas": 1,
+  "custo_usd": 0.0034,
+  "via": "api"
+ }
+}

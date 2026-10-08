@@ -1,0 +1,694 @@
+{
+ "subcategoria": "C10.6",
+ "visao_geral": "Esta subcategoria trata da guitarra base que apoia o solista. O princípio central é ocupar menos espaço: deixar a fundamental para o baixo e usar tríades nas cordas agudas, sétimas nas quatro cordas agudas, shell voicings e guide tones. A partir daí entram a condução de vozes entre inversões, ritmos de comping (2 e 4, Charleston) e as decorações que fazem a base andar: aproximações de semitom, double stops de passagem e extensões (9, 13). O caminho vai do blues dominante em A ao ii-V-I de jazz e aos rootless voicings.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O que é comping",
+   "descricao": "Comping é o acompanhamento improvisado feito pela seção rítmica (instrumentos de acorde e bateria) em grupos pequenos. Ele se opõe às partes escritas das big bands: o guitarrista escolhe voicings e ritmos na hora para apoiar o solista.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "en--jazz_improvisation-59a777#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "mentalidade",
+   "titulo": "Tocar nos espaços e com menos notas",
+   "descricao": "O papel da base é ocupar os espaços que sobram na música, tanto no timbre quanto nos voicings, em vez de preencher tudo. Acordes com poucas notas podem soar mais sofisticados que os cheios e deixam espaço para acrescentar notas melódicas. Tensões demais no comping também restringem as escolhas de quem sola, então a cor harmônica deve ser usada com critério.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I01",
+    "rh6HEF5Dy2I#I02",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "erro_comum",
+   "titulo": "Pestanas e formas CAGED completas embolam a banda",
+   "descricao": "Shapes CAGED completos e barre chords ou power chords usam a mão toda, dobram muitas notas e ocupam a região grave, onde ficam o baixo e o teclado. Em blues, R&B, jazz e country isso deixa a banda pior. Double stops e formas pequenas são mais fáceis de tocar e soam melhor em conjunto.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "gueqUPZ88rs#I02",
+    "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Omitir a fundamental (e a 5ª): o baixo cobre",
+   "descricao": "Como o baixo toca a fundamental, a guitarra pode tirar as cordas E e A graves e usar só D, G, B e e sem que o acorde soe incompleto. Por isso, mesmo que a nota mais grave da forma seja a ♭7 (tecnicamente uma inversão), na banda o acorde não soa invertido. No jazz é comum omitir também a 5ª justa e manter 3ª, 7ª e extensões.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "enk-fXAONJQ#I03",
+    "gueqUPZ88rs#I05",
+    "gueqUPZ88rs#I06",
+    "en--jazz_improvisation-59a777#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Tríades de A, D e E nas cordas G-B-e",
+   "descricao": "Da pestana em forma de E na casa 5 fica só o trecho G6-B5-e5, com as notas C#, E e A (Lá maior). Da forma de A na casa 5 fica G7-B7-e5 (D, F#, A = Ré maior). Na mesma região, G4-B5-e4 dá B, E e G# (Mi maior), o \"nugget\" das formas D e C do CAGED. Essas tríades agudas não brigam com baixo e teclado e funcionam como brilho sobre os acordes graves.",
+   "passos": [
+    "Tocar A: G6-B5-e5",
+    "Tocar D: G7-B7-e5",
+    "Tocar E: G4-B5-e4",
+    "Encadear A-D-E sem sair da região da casa 5"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "enk-fXAONJQ#I02",
+    "enk-fXAONJQ#I05",
+    "enk-fXAONJQ#I07",
+    "rtKZBns_IMY#I12"
+   ],
+   "divergencias": "",
+   "correcoes": "No Mi maior a ordem por corda é G4=B, B5=E e e4=G#; a fonte listava G#, B, E como se G4 fosse G#."
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Reduzir acordes abertos e CAGED a tríades pequenas",
+   "descricao": "O Sol pode ser tocado só com a tríade nas cordas 4, 3 e 2, e o Dó com a tríade extraída da forma de Lá. Numa progressão em C, o IV (F) cabe num shape de D, e o V (G) é o mesmo shape dois trastes acima. O Ré7 sai da forma de Dó em primeira posição deslocada duas casas, com o mindinho na casa 5 da 3ª corda (C, a ♭7).",
+   "passos": [
+    "G: tríade nas cordas 4-3-2",
+    "C: tríade da forma de A",
+    "F (IV) com shape de D; G (V) dois trastes acima",
+    "D7: forma de C subida 2 casas + mindinho na casa 5 da corda G"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ea2g6P0pCKg#I05",
+    "ea2g6P0pCKg#I06",
+    "wXZGcgYysNs#I07",
+    "ea2g6P0pCKg#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Variar textura: bloco, arpejo e alternância nota/acorde",
+   "descricao": "O acorde pode soar com todas as notas juntas (bloco) ou separado em sequência (arpejo). Também dá para alternar acorde e notas soltas. Tocar só o acorde sobre a progressão é uma escolha musical válida.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "TDhrEDRMxKw#I09",
+    "ea2g6P0pCKg#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Blues em A com sétimas nas quatro cordas agudas",
+   "descricao": "A pestana na casa 5 (A E A C# E A) vira A7 ao descer a nota da corda D da casa 7 (A) para a casa 5 (G = ♭7), formando 1-5-♭7-3-5-1. Tirando as cordas graves, fica XX5655 (G C# E A). O D7 é XX7778 (A D F# C), e essa mesma forma dois trastes acima, XX99910 (B E G# D), dá o E7. Com as três formas se toca o blues de 12 compassos em A sobre a backing track.",
+   "passos": [
+    "Pestana de A na casa 5; corda D casa 7→5 = A7",
+    "Reduzir para XX5655",
+    "D7 = XX7778 no IV",
+    "E7 = XX99910 no V",
+    "Tocar os 12 compassos com backing track"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I03",
+    "gueqUPZ88rs#I04",
+    "gueqUPZ88rs#I08",
+    "gueqUPZ88rs#I09",
+    "gueqUPZ88rs#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Acordes no 2 e no 4, junto da caixa",
+   "descricao": "Toque A, D e E nos tempos 2 e 4, junto com a caixa da bateria, para encaixar a base no groove. Depois acrescente a colcheia de contratempo entre eles.",
+   "passos": [
+    "Achar o tempo 1 no backing track",
+    "Tocar A, D, E, A nos tempos 1-2-3-4 para ouvir",
+    "Tocar só no 2 e no 4 com a caixa",
+    "Somar o contratempo entre 2 e 4"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "enk-fXAONJQ#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte diz que o tempo 1 coincide com a caixa; no groove padrão a caixa cai no 2 e no 4, que é justamente onde os acordes devem entrar."
+  },
+  {
+   "id": "K10",
+   "tipo": "conceito",
+   "titulo": "Ritmo Charleston: o porto seguro do comping",
+   "descricao": "O Charleston, vindo do blues e do jazz de dança, ataca no tempo 1 e no \"e\" do 2 (contratempo depois do 2). Quando você não sabe o que tocar na base, ele funciona na maioria das situações.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "gueqUPZ88rs#I11",
+    "gueqUPZ88rs#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "exercicio",
+   "titulo": "Charleston nos 12 compassos",
+   "descricao": "Treine o Charleston sobre a backing track de blues em A até tocar o ciclo inteiro sem pensar em cada ataque.",
+   "passos": [
+    "Contar 1 2 3 4 em voz alta",
+    "Atacar no 1 e no & do 2",
+    "Manter nos 12 compassos sem parar",
+    "Aplicar sobre A7, D7 e E7"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Shell voicings para o blues dominante (padrão em L)",
+   "descricao": "No lugar da pestana use shells portáteis. A7 = 5-X-5-6 nas cordas E-A-D-G (A, G, C#). D7 = X-5-4-5 nas cordas A-D-G (D, F#, C). E7 = mesmo shape duas casas acima (X-7-6-7). As raízes de I, IV e V formam um L, que permite tocar 1-4-5 em qualquer casa. Na casa 12 há outra posição: A7 = X-12-11-12, D7 = 10-X-10-11 e E7 com raiz na casa 12 da corda E grave.",
+   "passos": [
+    "A7: 5-X-5-6 (abafar A, B e e)",
+    "D7: descer uma corda, X-5-4-5",
+    "E7: D7 duas casas acima",
+    "Repetir na região da casa 12"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "H3DDn8CcSTA#I04",
+    "H3DDn8CcSTA#I05",
+    "H3DDn8CcSTA#I06",
+    "H3DDn8CcSTA#I07",
+    "H3DDn8CcSTA#I08",
+    "H3DDn8CcSTA#I10"
+   ],
+   "divergencias": "",
+   "correcoes": "O A7 5-X-5-6 usa as cordas E, D e G; ficam mudas A, B e e (a fonte falava em X na 4ª corda). O D7 X-5-4-5 usa as cordas A, D e G, não a B."
+  },
+  {
+   "id": "K13",
+   "tipo": "dica",
+   "titulo": "Shells para o blues menor: Am7 e Dm7",
+   "descricao": "O Am7 tem raiz na casa 5 da corda E grave: 5-X-5-5-5-X (A, G, C, E), com as cordas A e e abafadas. O Dm7 (IV) fica uma corda abaixo, com raiz na corda A, num shape derivado do CAGED. A digitação pode variar (quatro ou dois dedos) conforme a parte.",
+   "passos": [
+    "Am7: 5-X-5-5-5-X",
+    "Abafar A e e",
+    "Dm7: raiz na casa 5 da corda A (shape CAGED)",
+    "Testar digitações diferentes"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I16",
+    "H3DDn8CcSTA#I17",
+    "H3DDn8CcSTA#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Colecionar voicings complexos sem tocar músicas",
+   "descricao": "Muitos iniciantes gastam tempo com centenas de voicings e inversões difíceis e não conseguem tocar uma canção. É melhor começar com formas simples que já sirvam para tocar músicas e ouvir a harmonia.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EMQydbilqmo#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Shell voicings de jazz: raiz, 3ª e 7ª",
+   "descricao": "O shell é um acorde de sétima reduzido a três notas, com a 5ª omitida. É a base mais sólida para aprender acordes na guitarra. Há duas formas: raiz na 6ª corda seguida de 7ª e 3ª (Cmaj7 = C, B, E) e raiz na 5ª corda seguida de 3ª e 7ª. Nas duas, 3ª e 7ª ficam nas cordas do meio.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EMQydbilqmo#I14",
+    "EMQydbilqmo#I15",
+    "yw6K7j6GbDc#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "exercicio",
+   "titulo": "Shells como campo harmônico",
+   "descricao": "Aprenda os shells como acordes da escala, não como formas isoladas, para que os acordes que andam juntos nas músicas fiquem agrupados. Em C são Cmaj7, Dm7, Em7, Fmaj7, G7, Am7 e Bm7♭5, com raiz na 5ª e depois na 6ª corda. Toque com metrônomo, um acorde por tempo e depois um a cada dois tempos.",
+   "passos": [
+    "Montar os 7 graus com raiz na 5ª corda",
+    "Repetir com raiz na 6ª corda",
+    "Tocar em ordem com metrônomo (pode começar pelo IV, Fmaj7)",
+    "1 acorde por tempo, depois 2 tempos"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "EMQydbilqmo#I16",
+    "2OxHReoGIqs#I02"
+   ],
+   "divergencias": "",
+   "correcoes": "O IV de C é Fmaj7 (sétima maior, E), e não F7 dominante como \"Fá maior com 7ª\" pode sugerir."
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I em C com shells próximos",
+   "descricao": "Conecte Dm7-G7-Cmaj7 com os acordes vizinhos no braço para a harmonia fluir. Faça a versão com Dm7 de raiz na 5ª corda e a versão de raiz na 6ª e compare. Trate a progressão como um bloco único, não como três acordes soltos; quanto mais standards você conhece, mais fácil fica comping.",
+   "passos": [
+    "Dm7 com raiz na 5ª corda",
+    "G7 logo ao lado",
+    "Cmaj7 próximo",
+    "Repetir partindo do Dm7 na 6ª corda",
+    "Comparar as duas versões"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "EMQydbilqmo#I17",
+    "EMQydbilqmo#I18",
+    "EMQydbilqmo#I19",
+    "2OxHReoGIqs#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Shells percorrendo o braço",
+   "descricao": "Não fique numa posição fixa: desloque os shells pelos graus da escala ao longo do braço, nos dois conjuntos de cordas (raiz na 5ª e na 6ª).",
+   "passos": [
+    "Dm7 com raiz na 5ª corda",
+    "O mesmo Dm7 com raiz na 6ª",
+    "Subir pelos graus diatônicos no braço",
+    "Repetir no outro conjunto de cordas"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "yw6K7j6GbDc#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Separar baixo e acorde no shell para criar ritmo",
+   "descricao": "No shell, a nota grave e o par 3ª/7ª ficam naturalmente separados. Tocá-los em momentos diferentes gera ritmos interessantes no comping, como em Just Squeeze Me.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yw6K7j6GbDc#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Comping de blues só com guide tones",
+   "descricao": "Acompanhe o blues de 12 compassos em A usando apenas 3ª e ♭7 de A7, D7 e E7, uma base mais criativa que acordes de seis cordas. Depois repita o padrão no shape da 11ª posição, onde a ordem se inverte (♭7 no grave, 3ª no agudo), para ter opções em outra região.",
+   "passos": [
+    "Achar 3ª e ♭7 de A7, D7 e E7",
+    "Tocar os 12 compassos só com essas duas notas",
+    "Repetir no shape da 11ª posição (ordem invertida)",
+    "Comparar as duas versões com backing track"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I04",
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Embelezar guide tones com cromatismo",
+   "descricao": "Com só duas notas, a base pode ser tratada como improviso melódico. Exemplo: no fim do 3º compasso, descer meio tom antes de voltar ao A7. Use esses embelezamentos quando soarem bem.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Condução de vozes: escolher a inversão mais próxima",
+   "descricao": "Voice leading é encadear acordes com o menor movimento possível entre as notas. Na troca de acorde, escolha a inversão mais próxima da anterior, de preferência dentro de uma faixa de cinco casas. Manter a mesma inversão em toda a progressão gera saltos grandes e costuma soar pior, a não ser que o efeito seja intencional.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "rtKZBns_IMY#I08",
+    "ui6qUcvaKU0#I24",
+    "ui6qUcvaKU0#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "exercicio",
+   "titulo": "Am mais próximo de G e a progressão G-D-Am-G-D-C",
+   "descricao": "O Am mais próximo de G é a pestana 5-5-5 nas cordas G-B-e (C, E, A, em primeira inversão). Na progressão G-D-Am-G-D-C, escolha para cada acorde a forma mais próxima da anterior: G na casa 3, o D vizinho, Am na casa 5 e C também na região da casa 5.",
+   "passos": [
+    "Pestana na casa 5 de G-B-e = Am",
+    "Alternar com G e ouvir as vozes",
+    "Tocar G-D-Am-G-D-C com as formas mais próximas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I27",
+    "MvUgoNBTNjA#I20"
+   ],
+   "divergencias": "",
+   "correcoes": "A digitação \"5 5 3\" do C citada na fonte é ambígua; a referência segura é a região da casa 5."
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Os sete acordes de G em cinco casas",
+   "descricao": "Toque G, Am, Bm, C, D, Em e F#dim entre as casas 1 e 5, usando a primeira inversão como base, sem sair da região. Com as formas de 5ª no baixo o encadeamento fica mais grave, e o Bm pode ser a pestana 7-7-7 em G-B-e (D, F#, B).",
+   "passos": [
+    "Aprender cada acorde na faixa de 5 casas",
+    "Treinar pares vizinhos (G→Am)",
+    "Encadear G até F#dim e voltar",
+    "Tocar sobre backing track"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "rtKZBns_IMY#I09",
+    "rtKZBns_IMY#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "exercicio",
+   "titulo": "C-G-Am-F na região alta (casas 10-14)",
+   "descricao": "Nas cordas G-B-e: C em 2ª inversão 12-13-12 (G, C, E), G em posição fundamental 12-12-10 (G, B, D) e Am em posição fundamental 14-13-12 (A, C, E). O F sai do Am subindo a corda e um semitom (casa 13: A, C, F).",
+   "passos": [
+    "C: 12-13-12",
+    "G: 12-12-10",
+    "Am: 14-13-12",
+    "F: 14-13-13",
+    "Repetir com strum, arpejo e ornamentos"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "ui6qUcvaKU0#I31"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "Aplicar as tríades sobre o backing track",
+   "descricao": "Primeiro toque cada acorde da progressão em strum, depois arpeje e por fim decore com notas de passagem para encontrar a música. Depois repita com outras progressões e tonalidades.",
+   "passos": [
+    "Strum em cada acorde",
+    "Arpejar cada acorde",
+    "Decorar com notas de passagem",
+    "Mudar progressão e tom"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I32"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Aproximação de semitom abaixo",
+   "descricao": "Antes do tempo 1, deslize para a forma do acorde a partir de um traste abaixo, o que faz a base andar em qualquer acorde do blues. Exemplo: no Charleston sobre D7, toque no tempo 4 a forma um traste abaixo (C#7) e resolva no D7 no 1 seguinte.",
+   "passos": [
+    "Charleston sobre D7 com backing track",
+    "No tempo 4, forma de D7 um traste abaixo",
+    "Resolver no D7 no tempo 1",
+    "Repetir sem parar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I14",
+    "gueqUPZ88rs#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "dica",
+   "titulo": "Aproximar de cima e de dois trastes abaixo",
+   "descricao": "Também dá para aproximar de um traste acima. Alternar as direções cria tensão e resolução e deixa a base mais viva. A aproximação a partir de um tom abaixo (dois trastes) também gera movimento, tanto em versão curta quanto prolongada.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I16",
+    "gueqUPZ88rs#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "dica",
+   "titulo": "Manter movimento constante na base",
+   "descricao": "Kirk Fletcher acrescenta movimento contínuo aos acordes para a base não ficar monótona, com inspiração na guitarra funk e R&B.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fJs5AALy4GY#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "exercicio",
+   "titulo": "Double stops rítmicos de passagem para o IV",
+   "descricao": "Double stops (duas notas juntas, geralmente terças, quartas ou sextas) funcionam como mini acordes mais cheios que uma linha simples. Fletcher, com ideia aprendida de Chris Kane, usa-os como passagem para o IV, com uma nota extra sobre o acorde, alternando de forma marcada a nota grave e o double stop agudo.",
+   "passos": [
+    "Tocar a base com double stops",
+    "Saltar entre nota grave e double stop agudo",
+    "Usar o double stop como passagem para o IV"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fJs5AALy4GY#I03",
+    "pickupmusic--soloing-with-caged-90d614#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "exercicio",
+   "titulo": "Extensões (9, 13) nas formas pequenas",
+   "descricao": "Pela ideia de Barry Green, dá para colorir os dominantes com extensões sem apertar a mão em formas grandes. Em A7 XX5655, suba a tônica da corda e da casa 5 para a 7 (B = 9) e obtenha A9. Em D7 XX7778, suba a tônica da corda G da casa 7 para a 9 (E = 9). Alternar o acorde com e sem a 9 ou a 13 cria movimento melódico sem mudar de posição.",
+   "passos": [
+    "A7 XX5655 → e casa 7 = A9",
+    "D7 XX7778 → G casa 9 = D9",
+    "Mesma lógica no E7",
+    "Alternar com e sem extensão"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I20",
+    "gueqUPZ88rs#I24",
+    "gueqUPZ88rs#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "exercicio",
+   "titulo": "Achar voicings da tríade perto da melodia",
+   "descricao": "Combine as notas do acorde (ex.: Em = E, G, B) em qualquer ordem e em várias regiões para ter voicings perto de onde está a melodia. Na troca de acorde, escolha se a melodia fica na nota de cima, do meio ou de baixo, conforme soar mais natural.",
+   "passos": [
+    "Listar as 3 notas do acorde",
+    "Procurar combinações em cordas e regiões",
+    "Memorizar voicings perto da melodia",
+    "Testar a melodia no topo, meio ou base"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "TDhrEDRMxKw#I07",
+    "rh6HEF5Dy2I#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "conceito",
+   "titulo": "D com a 5ª no grave conduzindo para Asus",
+   "descricao": "No exemplo de Ariel Posen, a tríade de D é tocada com A no grave (corda A solta) e notas no meio e no agudo. A linha mantida na corda A conduz a voz para um A sus.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "rh6HEF5Dy2I#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K34",
+   "tipo": "recurso",
+   "titulo": "Forma de D/F# estilo Hendrix",
+   "descricao": "A forma apresentada é X-9-7-7-7 nas cordas A-D-G-B-e: F# no baixo (A9), com A, D e F# acima. Hendrix tratava acordes simples como pequenas composições em camadas, ampliando o papel harmônico da guitarra.",
+   "passos": [
+    "Casa 9 da corda A = F# no baixo",
+    "Casas 7 nas cordas D, G e B (A, D, F#)"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "NGior_1Tsmo#I17",
+    "ZBQr7STNnCE#I19"
+   ],
+   "divergencias": "",
+   "correcoes": "Como escrito, a corda e na casa 7 soa B (6ª de D); para um D/F# puro, abafe a corda e ou use a casa 5 (A)."
+  },
+  {
+   "id": "K35",
+   "tipo": "exercicio",
+   "titulo": "Comping fora das posições habituais",
+   "descricao": "Num standard, obrigue-se a tocar os acordes numa posição determinada, em vez de deixar a mão ir às formas de sempre. Depois crie uma linha de baixo sobre a mesma harmonia.",
+   "passos": [
+    "Escolher um standard",
+    "Tocar os acordes só numa posição fixa",
+    "Criar uma linha de baixo na harmonia"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "566LrQfcqgE#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K36",
+   "tipo": "recurso",
+   "titulo": "Dos shells aos rootless voicings",
+   "descricao": "O próximo passo depois dos shells é acrescentar extensões e notas de melodia e chegar aos rootless voicings. Jens Larsen aborda esse processo em outro vídeo.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "EMQydbilqmo#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K37",
+   "tipo": "rotina_estudo",
+   "titulo": "Improviso fingerstyle em 4 camadas: melodia, baixo, linha de baixo e acordes",
+   "descricao": "Para improvisar sozinho no fingerstyle, construa a textura em camadas a partir de uma única escala, como Mi menor. Comece só com melodia, depois sustente uma nota de baixo, transforme-a numa linha de baixo com notas da escala e, por fim, monte acordes sobre cada nota do baixo. Os acordes podem ser tocados em bloco ou em arpejo para variar a textura.",
+   "passos": [
+    "Escolha uma escala (ex.: Mi menor)",
+    "Improvise melodias só com ela",
+    "Acrescente uma nota de baixo fixa (ex.: E solta)",
+    "Crie uma linha de baixo com notas da escala",
+    "Monte acordes sobre cada nota do baixo",
+    "Alterne bloco e arpejo enquanto improvisa a melodia"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "TDhrEDRMxKw#I11"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  },
+  {
+   "id": "K38",
+   "tipo": "conceito",
+   "titulo": "Embelezar acordes com notas da escala da tonalidade",
+   "descricao": "Se a progressão é diatônica, embelezar cada acorde com notas da escala da tonalidade quase nunca soa mal. Algumas notas ficam mais à mão que outras, mas todas funcionam como cor. Exemplo: na tríade de Ré em forma de Lá na casa 5 (G7-B7-e5), acrescente E na casa 5 da corda B (9ª, pestanando com o indicador) e B na casa 7 da corda e (6ª).",
+   "passos": [
+    "Confirme que os acordes pertencem à tonalidade",
+    "Monte a tríade pequena do acorde",
+    "Procure notas da escala ao alcance dos dedos",
+    "No D: E na casa 5 da corda B (pestana com o indicador)",
+    "No D: B na casa 7 da corda e",
+    "Use as notas como ornamento e volte à tríade"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "enk-fXAONJQ#I12",
+    "enk-fXAONJQ#I15"
+   ],
+   "divergencias": "",
+   "correcoes": "No D, o E é a 9ª e o B é a 6ª (13ª), extensões consonantes dentro da escala.",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "5e0SpzCw3IA#I16",
+   "sugestao": "C09.1",
+   "motivo": "Tocar as shapes de C-G-D-Em na caixa serve para mostrar que as chord tones já contam a harmonia antes de improvisar sobre elas; o foco é o solo com notas do acorde."
+  }
+ ],
+ "observacoes": "Todos os shapes foram conferidos nota a nota. Foram corrigidos: o mapeamento de cordas do Mi maior (#9), as cordas mudas dos shells de A7/D7 (#28, #29), a posição da caixa no groove (#10), o Fmaj7 como IV de C (#23) e a nota B na corda e do D/F# (#26). O shape exato do Dm7 (#35) não foi detalhado porque a fonte remete ao PDF.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 71,
+  "ideias_secundarias": 10,
+  "itens": 38,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1798,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21266,
+   "output_tokens": 13731
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 0,
+    "novos_itens": 2
+   }
+  ]
+ }
+}

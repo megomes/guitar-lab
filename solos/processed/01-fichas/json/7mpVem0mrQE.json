@@ -1,0 +1,448 @@
+{
+ "fonte_id": "7mpVem0mrQE",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=7mpVem0mrQE",
+  "idioma": "en",
+  "duracao": "6m 42s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/7mpVem0mrQE--beginner-mistakes-to-avoid-how-to-solo-over-chords.md"
+ },
+ "resumo": "Aula curta de Jens Larsen sobre por que solos de iniciante soam como fragmentos desconectados. Ele explica o erro de trocar de escala a cada acorde isolado e propõe pensar no próximo acorde e tocar linhas que levam até ele. Apresenta rhythm changes e notas-alvo (target notes) como ferramentas práticas e sugere pensar em progressões curtas em vez de acordes soltos. O conteúdo é voltado a quem já improvisa um pouco e quer conectar frases em standards de jazz.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos claros e bem conectados (escala por acorde, notas-alvo, progressões em blocos) com exemplos verbais, mas sem demonstração em tablatura ou áudio e com pouca especificação de notas, cordas e casas."
+ },
+ "assuntos_principais": [
+  "abordagem modal por acorde",
+  "conexão entre frases do solo",
+  "pensar no próximo acorde",
+  "rhythm changes",
+  "notas-alvo (target notes)",
+  "progressões de acordes em blocos",
+  "vocabulário bebop"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "00:20",
+   "resumo": "Apresentação do problema: a diferença entre como iniciantes e experientes pensam progressões de acordes causa solos fragmentados. Anuncia o tema e se apresenta.",
+   "assuntos": [
+    "apresentação do tema"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Escala por acorde em Green Dolphin Street",
+   "inicio": "00:20",
+   "fim": "01:14",
+   "resumo": "Jens conta que, ao aprender Green Dolphin Street, não sabia qual escala usar. Descreve a solução que usou no início: trocar de escala a cada acorde, uma abordagem modal simples e pouco eficiente.",
+   "assuntos": [
+    "Green Dolphin Street",
+    "abordagem modal",
+    "escala por acorde",
+    "construção de vocabulário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Por que a abordagem por acorde isolado não funciona bem",
+   "inicio": "01:14",
+   "fim": "02:59",
+   "resumo": "Explica que tratar cada acorde separadamente gera frases desconectadas, como se cada acorde fosse outra música. A solução é pensar no próximo acorde e tocar linhas que levam a ele, criando fluidez no solo.",
+   "assuntos": [
+    "fragmentação do solo",
+    "conexão de frases",
+    "pensar no próximo acorde",
+    "condução melódica até o acorde seguinte"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Rhythm changes",
+   "inicio": "02:59",
+   "fim": "03:57",
+   "resumo": "Apresenta a forma rhythm changes (AABA) e conta como improvisava sobre ela usando apenas B♭ maior, E♭ e ocasionalmente F7, sem marcar as mudanças reais de acorde.",
+   "assuntos": [
+    "rhythm changes",
+    "forma AABA",
+    "B♭ maior",
+    "E♭",
+    "F7",
+    "marcar as mudanças"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Notas-alvo (target notes)",
+   "inicio": "03:57",
+   "fim": "05:19",
+   "resumo": "Explica a técnica de notas-alvo ensinada por Bjorn Oupay: escolher uma nota para cada acorde e praticar linhas que terminam nela, nos tempos fortes. Indica começar com progressões curtas e cita o vocabulário bebop de Joe Pass.",
+   "assuntos": [
+    "notas-alvo",
+    "tempos fortes 1 e 3",
+    "progressão curta",
+    "exercício de linhas",
+    "bebop",
+    "Joe Pass"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Pensar em progressões de acordes em blocos",
+   "inicio": "05:19",
+   "fim": "06:20",
+   "resumo": "Sugere agrupar acordes em pequenas progressões, comparando com memorizar palavras e significados em vez de letras. Isso facilita memorizar músicas, substituir acordes por equivalentes e improvisar sobre as progressões.",
+   "assuntos": [
+    "progressões em blocos",
+    "memorização de standards",
+    "substituição de acordes",
+    "improvisar sobre progressões"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Convite à playlist e despedida",
+   "inicio": "06:20",
+   "fim": "06:42",
+   "resumo": "Recomenda a playlist sobre notas-alvo e progressões para quem está estagnado e encerra o vídeo.",
+   "assuntos": [
+    "playlist",
+    "chamada para ação"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Trocar de escala a cada acorde isolado",
+   "descricao": "Abordagem modal simples em que se acha uma escala para cada acorde e depois outra para o acorde seguinte. Dá trabalho para começar, mas gera frases isoladas e não conectadas.",
+   "passos": [],
+   "timestamp": "00:20",
+   "nivel": "iniciante",
+   "tags": [
+    "abordagem-modal",
+    "escala-por-acorde",
+    "fragmentacao"
+   ],
+   "id_global": "7mpVem0mrQE#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Trocar a escala junto com o acorde para começar a improvisar",
+   "descricao": "Quando não se descobre qual escala serve em uma música como Green Dolphin Street, a saída inicial é mudar a escala a cada acorde e montar vocabulário para cada um deles.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "green-dolphin-street",
+    "escala-por-acorde",
+    "vocabulario"
+   ],
+   "id_global": "7mpVem0mrQE#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Solo que soa como fragmentos desconectados",
+   "descricao": "Quando cada acorde é tratado como uma situação nova, a mudança de acorde parece trocar de música. Cada frase existe sozinha, sem relação com a seguinte, e o solo perde o fluxo.",
+   "passos": [],
+   "timestamp": "01:14",
+   "nivel": "iniciante",
+   "tags": [
+    "fragmentacao",
+    "conexao-frases",
+    "fluxo"
+   ],
+   "id_global": "7mpVem0mrQE#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Focar em pequenos detalhes e esquecer o que se quer dizer",
+   "descricao": "Analogia com escrever um livro preocupado só com a ortografia: o iniciante foca nas pequenas coisas de cada acorde e não tem energia para o discurso musical como um todo.",
+   "passos": [],
+   "timestamp": "01:53",
+   "nivel": "iniciante",
+   "tags": [
+    "analogia",
+    "discurso-musical",
+    "mentalidade"
+   ],
+   "id_global": "7mpVem0mrQE#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Pensar no próximo acorde antes de tocar",
+   "descricao": "Em vez de reagir ao acorde atual, pense no acorde seguinte e planeje a frase para chegar até ele. Isso conecta naturalmente as linhas e melhora o fluxo do solo.",
+   "passos": [],
+   "timestamp": "02:27",
+   "nivel": "iniciante",
+   "tags": [
+    "antecipacao",
+    "conexao-frases",
+    "proximo-acorde"
+   ],
+   "id_global": "7mpVem0mrQE#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Construir linhas que conduzem ao próximo acorde",
+   "descricao": "Toque linhas cuja direção aponta para o acorde seguinte, em vez de frases fechadas que se encerram dentro do acorde atual. A conexão entre as linhas nasce dessa direção.",
+   "passos": [],
+   "timestamp": "02:27",
+   "nivel": "iniciante",
+   "tags": [
+    "direcao-melodica",
+    "conducao",
+    "conexao-frases"
+   ],
+   "id_global": "7mpVem0mrQE#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Rhythm changes é a forma AABA",
+   "descricao": "Rhythm changes é uma forma de 32 compassos no formato AABA, com a seção A e a ponte B. Por ser simples de acompanhar, é um bom primeiro standard para estudar mudanças de acorde.",
+   "passos": [],
+   "timestamp": "02:59",
+   "nivel": "iniciante",
+   "tags": [
+    "rhythm-changes",
+    "forma-aaba",
+    "standards"
+   ],
+   "id_global": "7mpVem0mrQE#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Improvisar só com B♭ maior, E♭ e F7 sem marcar as mudanças",
+   "descricao": "Tocar sobre B♭ maior usando sobretudo E♭ e ocasionalmente F7 funciona de forma superficial, mas não gera linhas úteis que marquem as mudanças reais da progressão.",
+   "passos": [],
+   "timestamp": "02:59",
+   "nivel": "iniciante",
+   "tags": [
+    "rhythm-changes",
+    "b-bemol-maior",
+    "marcar-mudancas"
+   ],
+   "id_global": "7mpVem0mrQE#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notas-alvo (target notes)",
+   "descricao": "Notas-alvo são notas escolhidas para cada acorde da progressão, às quais as linhas são dirigidas. Uma linha termina na nota-alvo do acorde seguinte, o que soletra as mudanças e cria frases com sentido.",
+   "passos": [],
+   "timestamp": "03:57",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "target-notes",
+    "soletrar-mudancas"
+   ],
+   "id_global": "7mpVem0mrQE#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Começar com uma progressão curta e não com a música inteira",
+   "descricao": "Ao praticar notas-alvo no início, use apenas um trecho curto de progressão e não a música completa, para dominar o processo antes de ampliar.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "iniciante",
+   "tags": [
+    "progressao-curta",
+    "pratica-gradual"
+   ],
+   "id_global": "7mpVem0mrQE#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Linhas terminando na nota-alvo do próximo acorde",
+   "descricao": "Trabalhe uma progressão curta escolhendo uma nota-alvo para cada acorde e criando linhas que sempre terminam na nota-alvo do acorde seguinte.",
+   "passos": [
+    "Escolha uma progressão curta de poucos acordes.",
+    "Defina uma nota-alvo para cada acorde.",
+    "Toque uma linha sobre o primeiro acorde que termine na nota-alvo do acorde seguinte.",
+    "Repita para cada acorde da progressão, sempre chegando à nota-alvo do próximo."
+   ],
+   "timestamp": "04:05",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "exercicio",
+    "progressao-curta"
+   ],
+   "id_global": "7mpVem0mrQE#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notas-alvo caem nos tempos fortes 1 e 3",
+   "descricao": "As notas-alvo ficam nos tempos fortes, 1 e 3 do compasso, e reforçam a harmonia da progressão.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "iniciante",
+   "tags": [
+    "tempos-fortes",
+    "notas-alvo",
+    "compasso"
+   ],
+   "id_global": "7mpVem0mrQE#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Estudar exemplos de linhas no livro Joe Pass Guitar Style",
+   "descricao": "Os exemplos de bebop do livro Joe Pass Guitar Style, citado como base para construir fundamento de jazz, soam como linhas guiadas por notas-alvo, mesmo sem o livro falar nesse conceito.",
+   "passos": [],
+   "timestamp": "04:38",
+   "nivel": "iniciante",
+   "tags": [
+    "joe-pass",
+    "bebop",
+    "estudo-de-linhas"
+   ],
+   "id_global": "7mpVem0mrQE#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Bebop drive nas linhas de notas-alvo",
+   "descricao": "Linhas que chegam às notas-alvo costumam ter um movimento típico do bebop, um impulso rítmico e melódico característico dessa linguagem.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "iniciante",
+   "tags": [
+    "bebop",
+    "linguagem-jazz",
+    "notas-alvo"
+   ],
+   "id_global": "7mpVem0mrQE#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Pensar em progressões e não em acordes isolados",
+   "descricao": "Ao perceber que os acordes se agrupam em pequenas progressões, o músico pensa em blocos e não em acordes soltos, o que muda a forma de improvisar e de estudar.",
+   "passos": [],
+   "timestamp": "05:19",
+   "nivel": "iniciante",
+   "tags": [
+    "progressoes",
+    "pensar-em-blocos",
+    "mentalidade"
+   ],
+   "id_global": "7mpVem0mrQE#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Memorizar músicas como frases de palavras",
+   "descricao": "Lembrar uma música como algumas progressões curtas é mais fácil do que lembrar cada acorde, assim como lembrar o sentido de frases é mais fácil do que lembrar cada letra.",
+   "passos": [],
+   "timestamp": "05:19",
+   "nivel": "iniciante",
+   "tags": [
+    "memorizacao",
+    "analogia",
+    "progressoes"
+   ],
+   "id_global": "7mpVem0mrQE#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Trocar acordes por equivalentes de cor parecida",
+   "descricao": "Assim como se troca uma palavra por outra de sentido parecido, é possível substituir acordes de uma progressão por outros com função ou cor semelhante, o que abre novas opções de improviso.",
+   "passos": [],
+   "timestamp": "05:52",
+   "nivel": "intermediario",
+   "tags": [
+    "substituicao-de-acordes",
+    "cor-harmonica",
+    "improviso"
+   ],
+   "id_global": "7mpVem0mrQE#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Improvisar sobre a progressão e com a progressão",
+   "descricao": "Além de improvisar sobre os acordes, é possível alterar a própria progressão e improvisar com ela. Isso dá à execução uma nova dimensão.",
+   "passos": [],
+   "timestamp": "06:25",
+   "nivel": "intermediario",
+   "tags": [
+    "progressoes",
+    "improviso",
+    "reharmonizacao"
+   ],
+   "id_global": "7mpVem0mrQE#I18"
+  }
+ ],
+ "artistas_citados": [
+  "Jens Larsen",
+  "Bjorn Oupay",
+  "Joe Pass",
+  "Mike Stern",
+  "John Scofield"
+ ],
+ "musicas_citadas": [
+  "Green Dolphin Street"
+ ],
+ "recursos_citados": [
+  "Joe Pass Guitar Style (livro com estudos de bebop)",
+  "Modern Jazz Guitar Concepts (livro de Jens Larsen)",
+  "The Jazz Guitar Roadmap (curso online de Jens Larsen)",
+  "How To Solo Over Chord Changes (vídeo do canal)",
+  "Better Fretboard Overview (vídeo do canal)",
+  "Playlist sobre notas-alvo e progressões"
+ ],
+ "observacoes": "Vídeo sem demonstração em tablatura, áudio ou notas específicas: as notas-alvo e o vocabulário são descritos só em teoria e sem exemplos de casas ou cordas. O nome do professor aparece como Bjorn Oupay (provavelmente Bjørn Øupay, nome dinamarquês). A transcrição contém vários erros de legenda automática, como ii-V-I (II Valt I) na descrição. Para acompanhar as progressões citadas (B♭ maior, E♭, F7 em rhythm changes), é preciso consultar a forma da música.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00273,
+  "via": "api"
+ }
+}

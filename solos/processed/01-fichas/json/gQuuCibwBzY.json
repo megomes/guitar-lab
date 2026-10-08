@@ -1,0 +1,400 @@
+{
+ "fonte_id": "gQuuCibwBzY",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+  "autor": "Signals Music Studio",
+  "url": "https://www.youtube.com/watch?v=gQuuCibwBzY",
+  "idioma": "en",
+  "duracao": "11m 20s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/gQuuCibwBzY--3-rhythmic-concepts-to-improve-your-solos-guitar-lesson.md"
+ },
+ "resumo": "Aula de Jake (Signals Music Studio) com três conceitos rítmicos para tornar solos mais musicais: não começar sempre no tempo 1, deslocar (offset) um mesmo lick em relação ao compasso e usar ganchos rítmicos consistentes como base do solo. O público-alvo são guitarristas iniciantes a intermediários que já tocam licks e querem mais variedade e personalidade rítmica na improvisação e na composição. O conteúdo é conceitual, com demonstrações em backing track de blues e exercícios práticos de ritmo.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos claros e aplicáveis, com exemplos concretos de deslocamento de lick e de padrão rítmico. Perde parte do valor por depender da audição das demonstrações, pouco detalhadas em texto, e por apresentar as contagens rítmicas de forma pouco precisa na transcrição."
+ },
+ "assuntos_principais": [
+  "ritmo em solos",
+  "entrar depois do tempo 1",
+  "offset de lick",
+  "deslocamento rítmico (back beat, contratempo)",
+  "ganchos rítmicos (rhythmic hooks)",
+  "padrão rítmico consistente",
+  "scaffolding rítmico",
+  "pentatônica menor",
+  "tercinas",
+  "improvisação sobre blues"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "00:45",
+   "resumo": "Apresentação do tema: o solo depende de o que tocar e quando tocar, e o ritmo é frequentemente negligenciado. Anúncio dos três conceitos.",
+   "assuntos": [
+    "ritmo em solos",
+    "o quando da música"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Conceito 1: não tocar sempre no tempo 1",
+   "inicio": "00:45",
+   "fim": "02:29",
+   "resumo": "Começar o solo depois do tempo 1 cria um efeito de surpresa e soa mais maduro. Demonstração com backing track tocando primeiro no tempo 1 e depois entrando após o tempo 1.",
+   "assuntos": [
+    "entrada após o tempo 1",
+    "efeito de surpresa",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Conceito 2: offset de um lick",
+   "inicio": "02:29",
+   "fim": "05:50",
+   "resumo": "Um lick simples praticado sobre blues pode ganhar variedade ao ser deslocado em quartos ou colcheias. Demonstração de diferentes permutações do mesmo lick em relação ao compasso.",
+   "assuntos": [
+    "offset de lick",
+    "blues de 12 compassos",
+    "deslocamento por colcheia",
+    "back beat",
+    "síncope"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Conceito 3: ganchos rítmicos",
+   "inicio": "05:50",
+   "fim": "09:39",
+   "resumo": "Melodias marcantes, como Canon, têm ritmo muito consistente. O professor propõe criar um padrão rítmico fixo para improvisar, restringindo-se a ele, e usar esse padrão como andaime para desenvolver o solo.",
+   "assuntos": [
+    "ritmo consistente",
+    "padrão rítmico fixo",
+    "restrição como exercício",
+    "pentatônica menor",
+    "scaffolding"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Demonstração do padrão rítmico",
+   "inicio": "09:39",
+   "fim": "09:39",
+   "resumo": "Trecho de demonstração musical em que o professor toca sobre o padrão, com pouca fala.",
+   "assuntos": [
+    "demonstração"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S6",
+   "titulo": "Reflexões finais e tercinas",
+   "inicio": "09:39",
+   "fim": "11:20",
+   "resumo": "Discussão sobre o uso moderado das técnicas, repetição com variação, e sugestão de avançar com tercinas deslocadas, seguida de despedida.",
+   "assuntos": [
+    "moderação",
+    "repetição com variação",
+    "tercinas",
+    "despedida"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Começar o solo depois do tempo 1",
+   "descricao": "Em vez de iniciar a frase exatamente no tempo 1, comece o solo um pouco depois dele. Isso cria um efeito de surpresa, como chegar atrasado a uma festa, e soa mais maduro do que tocar sempre no tempo 1.",
+   "passos": [],
+   "timestamp": "00:45",
+   "nivel": "intermediario",
+   "tags": [
+    "ritmo",
+    "entrada",
+    "tempo 1",
+    "frase"
+   ],
+   "id_global": "gQuuCibwBzY#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Improviso comparando tempo 1 e entrada tardia",
+   "descricao": "Toque um improviso sobre backing track duas vezes: na primeira, toque apenas no tempo 1; na segunda, comece as notas depois do tempo 1. Compare o efeito sonoro das duas versões.",
+   "passos": [
+    "Escolha uma backing track e um tom.",
+    "Improvise tocando apenas no tempo 1 e observe o resultado.",
+    "Improvise de novo começando as frases depois do tempo 1.",
+    "Compare e escolha onde a entrada tardia funciona melhor."
+   ],
+   "timestamp": "00:45",
+   "nivel": "intermediario",
+   "tags": [
+    "exercicio",
+    "entrada",
+    "backing track",
+    "improviso"
+   ],
+   "id_global": "gQuuCibwBzY#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Diferença está nos detalhes",
+   "descricao": "Como há só 12 notas, a identidade de um solo está nas pequenas escolhas rítmicas e na forma de combinar as notas, não em inventar notas novas. Muitos licks já são bastante explorados.",
+   "passos": [],
+   "timestamp": "02:12",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "originalidade",
+    "detalhes"
+   ],
+   "id_global": "gQuuCibwBzY#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Offset de um lick em quartos e colcheias",
+   "descricao": "Pegue um lick simples de três tempos seguidos de colcheias e toque-o deslocado: começando no tempo 2, no tempo 3, no tempo 4, ou deslocado por meia colcheia (no 'e'). Cada deslocamento muda o efeito e pode ser usado em qualquer compasso do blues.",
+   "passos": [
+    "Toque o lick alinhado ao tempo 1 sobre cada compasso de um blues de 12 compassos.",
+    "Desloque o início do lick por um tempo (tempo 2, depois 3, depois 4).",
+    "Desloque por meia tempo, começando no 'e' de um tempo.",
+    "Toque com metrônomo ou backing track e perceba como o final do lick cai em diferentes partes do compasso."
+   ],
+   "timestamp": "02:29",
+   "nivel": "intermediario",
+   "tags": [
+    "offset",
+    "lick",
+    "blues",
+    "ritmo",
+    "permutação"
+   ],
+   "id_global": "gQuuCibwBzY#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Deslocar o lick muda seu contexto e sensação",
+   "descricao": "Ao terminar uma frase no contratempo (back beat) ou em outra parte do compasso, o mesmo lick passa a soar como outro lick, com outra sensação. Por isso é bom praticar licks conhecidos em diferentes posições rítmicas.",
+   "passos": [],
+   "timestamp": "03:17",
+   "nivel": "intermediario",
+   "tags": [
+    "back beat",
+    "contexto",
+    "sensação",
+    "síncope"
+   ],
+   "id_global": "gQuuCibwBzY#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Rendimento de licks já praticados",
+   "descricao": "Use licks que você já domina em vez de aprender novos: variar apenas o ponto de início ou de término no compasso aumenta muito as possibilidades de uso sem custo de aprendizado.",
+   "passos": [],
+   "timestamp": "03:49",
+   "nivel": "intermediario",
+   "tags": [
+    "rendimento",
+    "estudo",
+    "lick",
+    "variação"
+   ],
+   "id_global": "gQuuCibwBzY#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Permutações rítmicas de um mesmo lick",
+   "descricao": "Trabalhe um lick por meio de várias permutações: começar no tempo 2, no 'e' do tempo 1, no 'e' do tempo 2 e no 'e' do tempo 3 etc. A prática de mudar o ponto de partida desenvolve controle rítmico e flexibilidade.",
+   "passos": [
+    "Escolha um lick que você já domina.",
+    "Comece o lick em diferentes subdivisões do compasso, uma de cada vez.",
+    "Toque cada permutação sobre um ou mais compassos com a backing track.",
+    "Escolha as permutações que soam mais interessantes para usar no solo."
+   ],
+   "timestamp": "04:23",
+   "nivel": "avancado",
+   "tags": [
+    "permutação",
+    "offset",
+    "subdivisão",
+    "controle rítmico"
+   ],
+   "id_global": "gQuuCibwBzY#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Ritmo consistente como gancho",
+   "descricao": "Melodias marcantes, como a de Canon, têm um padrão rítmico muito consistente que ajuda a fixá-las na memória. Um gancho rítmico repetido dá estabilidade ao solo.",
+   "passos": [],
+   "timestamp": "05:50",
+   "nivel": "intermediario",
+   "tags": [
+    "rhythmic hooks",
+    "consistência",
+    "memória",
+    "melodia"
+   ],
+   "id_global": "gQuuCibwBzY#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com um padrão rítmico fixo",
+   "descricao": "Crie um padrão rítmico curto de colcheias e semínimas e toque apenas esse padrão durante o improviso. O padrão usado pelo professor é: pausa no tempo 1, depois 2, 3 e 4 com colcheias, repetido com pausa no tempo 1 do compasso seguinte. A restrição força a pensar diferente no braço da guitarra.",
+   "passos": [
+    "Crie um padrão rítmico de um compasso com pausa no tempo 1 e notas nos demais tempos, combinando colcheias e semínimas.",
+    "Repita o padrão em todos os compassos.",
+    "Comece tocando uma só nota no padrão.",
+    "Depois alterne entre duas notas usando o mesmo padrão.",
+    "Por fim, toque licks inteiros com o mesmo ritmo."
+   ],
+   "timestamp": "07:10",
+   "nivel": "intermediario",
+   "tags": [
+    "padrão rítmico",
+    "restrição",
+    "exercício",
+    "pausa no tempo 1"
+   ],
+   "id_global": "gQuuCibwBzY#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Padrão rítmico como andaime do solo",
+   "descricao": "Um padrão rítmico fixo pode servir de base em duas formas: primeiro como groove de acompanhamento, tocando dentro de um conjunto de notas como a pentatônica menor; depois como estrutura para desenvolver um solo, em que o padrão pode ser seguido com cerca de 90% de precisão, com notas puladas ou acrescentadas.",
+   "passos": [],
+   "timestamp": "07:43",
+   "nivel": "intermediario",
+   "tags": [
+    "scaffolding",
+    "groove",
+    "pentatônica menor",
+    "solo"
+   ],
+   "id_global": "gQuuCibwBzY#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Equilíbrio entre rigidez e liberdade",
+   "descricao": "Depois de dominar um padrão, explore pequenas variações dele. Repetição mantém o ouvinte engajado, mas repetição pura cansa; alterar um pouco os ritmos permite repetir com mais liberdade.",
+   "passos": [],
+   "timestamp": "09:41",
+   "nivel": "intermediario",
+   "tags": [
+    "repetição",
+    "variação",
+    "engajamento"
+   ],
+   "id_global": "gQuuCibwBzY#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Técnicas como tempero",
+   "descricao": "Estas técnicas rítmicas funcionam como sal: em excesso estragam a música. Use-as com moderação e nos lugares certos do solo.",
+   "passos": [],
+   "timestamp": "10:13",
+   "nivel": "intermediario",
+   "tags": [
+    "moderação",
+    "tempero",
+    "uso consciente"
+   ],
+   "id_global": "gQuuCibwBzY#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Frases com tercinas deslocadas",
+   "descricao": "Para avançar, experimente tercinas deslocadas para partes diferentes do tempo. Como tocar entre tercinas é difícil para quem não tem essa familiaridade, o professor sugere escrever a frase no papel e depois tocá-la na guitarra, por exemplo uma tercina seguida de notas que começam na última ou na primeira nota da tercina.",
+   "passos": [
+    "Escreva no papel uma frase com tercina seguida de notas em diferentes posições.",
+    "Toque a frase na guitarra e ouça o resultado.",
+    "Repita até que o ritmo fique natural na improvisação."
+   ],
+   "timestamp": "10:45",
+   "nivel": "avancado",
+   "tags": [
+    "tercinas",
+    "offset",
+    "frase",
+    "estudo"
+   ],
+   "id_global": "gQuuCibwBzY#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "rotina_estudo",
+   "titulo": "Internalizar o ritmo até virar automático",
+   "descricao": "Pratique os conceitos até que o ritmo se torne subconsciente, de modo que surja naturalmente durante a improvisação.",
+   "passos": [
+    "Estude o conceito isoladamente com exercícios.",
+    "Repita até o ritmo ficar confortável.",
+    "Use-o no improviso sem pensar na contagem."
+   ],
+   "timestamp": "10:45",
+   "nivel": "intermediario",
+   "tags": [
+    "internalização",
+    "rotina",
+    "automatismo"
+   ],
+   "id_global": "gQuuCibwBzY#I14"
+  }
+ ],
+ "artistas_citados": [
+  "Pachelbel"
+ ],
+ "musicas_citadas": [
+  "Canon in D (Canon de Pachelbel)"
+ ],
+ "recursos_citados": [
+  "Backing track gratuita (jam track) indicada na descrição do vídeo",
+  "Chord Progression Codex (curso do canal)",
+  "Real Rhythm Guitar Level 1 (curso do canal)",
+  "Curso de teoria e songwriting do canal"
+ ],
+ "observacoes": "Transcrição automática com erros e trechos ambíguos: as contagens rítmicas (ex.: '2 & 3 4 & 2 & 3 & 4') estão confusas e a pausa do padrão foi interpretada como pausa no tempo 1 pelo contexto da fala, o que pode não coincidir com a demonstração. O professor diz 'Pachelbel' no sentido de tocar a linha de Canon em D (o trecho 'Canon and B' provavelmente é 'Canon in D'). Os trechos de demonstração musical (cerca de 08:31 a 09:41) não têm fala e não podem ser verificados pelo texto; a compreensão plena exige ver/ouvir os exemplos. A descrição menciona que o lick é um dos primeiros que o professor ensina, mas o lick exato não é notado em tablatura.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00167,
+  "via": "api"
+ }
+}

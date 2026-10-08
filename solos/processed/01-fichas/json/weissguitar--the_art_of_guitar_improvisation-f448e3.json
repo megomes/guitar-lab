@@ -1,0 +1,725 @@
+{
+ "fonte_id": "weissguitar--the_art_of_guitar_improvisation-f448e3",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+  "autor": "Daniel Weiss",
+  "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+  "site": "weissguitar.com",
+  "idioma": "en",
+  "tema_coleta": "fundamentos",
+  "arquivo_raw": "solos/raw/documentos/weissguitar--the_art_of_guitar_improvisation-f448e3.md"
+ },
+ "resumo": "Guia em inglês de Daniel Weiss sobre improvisação melódica sobre trocas de acordes. Ensina a ouvir a harmonia antes de tocar, a usar notas-alvo (3ª e 7ª), a construir frases com desenvolvimento motívico, a conectar acordes por condução de vozes (exemplo com ii-V-I em C) e a introduzir conceitos avançados como superimposição e enclosures. Destina-se a guitarristas que já conhecem escalas e querem improvisar com mais musicalidade.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto e bem organizado, com exemplos de notas, acordes e exercícios com passo a passo. Parte das instruções depende de áudio, gráfico e vídeos que não estão na fonte, e alguns conceitos são apenas citados sem desenvolvimento."
+ },
+ "assuntos_principais": [
+  "improvisação melódica",
+  "notas-alvo (chord tones)",
+  "condução de vozes (voice leading)",
+  "ii-V-I",
+  "desenvolvimento motívico",
+  "construção de frases",
+  "conceitos avançados (superimposição, enclosures, tensão e resolução)",
+  "rotina de prática",
+  "artistas de referência"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e escopo do guia",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define improvisação como criação musical em tempo real e separa o assunto deste guia (frases sobre trocas de acordes) dos temas de triades e condução de vozes, que têm lições próprias.",
+   "assuntos": [
+    "definição de improvisação",
+    "escopo do guia"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Ouvir a harmonia antes de tocar",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Orienta a cantar melodias sobre um ii-V-I em C (Dm7, G7, Cmaj7) e depois achar as notas no violão. Propõe trabalhar com restrições, como usar uma só corda e um só acorde, para criar frases com ritmo e silêncio.",
+   "assuntos": [
+    "ouvido",
+    "cantar antes de tocar",
+    "restrições",
+    "ritmo e silêncio",
+    "corda única"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Notas-alvo em vez de formas de escala",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que a escala é um conjunto de notas disponíveis e que a 3ª e a 7ª de cada acorde são as notas mais fortes. Lista as notas-alvo de Dm7, G7 e Cmaj7 e propõe tocar apenas essas notas no ii-V-I.",
+   "assuntos": [
+    "chord tones",
+    "3ª e 7ª",
+    "ii-V-I",
+    "escala como reservatório de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Construir frases e desenvolvimento motívico",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Diferencia lick de frase e apresenta três formas de desenvolver um motivo: repetição, variação com o mesmo ritmo e fragmentação. Destaca o uso de pausas.",
+   "assuntos": [
+    "frase versus lick",
+    "motivo",
+    "repetição",
+    "variação",
+    "fragmentação",
+    "espaço e pausas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Conectar acordes com condução de vozes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Mostra como as notas-guia se movem por semitom no ii-V-I em C (F para E e C para B). Ensina a improvisar com arpejos em ordem, usar uma nota cromática entre alvos separados por um tom e começar cada acorde na nota mais próxima da anterior.",
+   "assuntos": [
+    "condução de vozes",
+    "notas-guia",
+    "passagem cromática",
+    "ii-V-I",
+    "arpejo em ordem"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Conceitos avançados de improvisação",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta superimposição (Em7 sobre Cmaj7), enclosure para atingir a 3ª de Cmaj7 e a ideia de tensão seguida de resolução por semitom. Avisa que esses recursos só funcionam com domínio prévio das notas-alvo.",
+   "assuntos": [
+    "superimposição",
+    "enclosure",
+    "tensão e resolução",
+    "notas de fora do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Rotina de prática e mentalidade",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Dá uma rotina em três passos (cantar e depois tocar, só notas-alvo com uma frase própria, um motivo trabalhado) e critérios para saber quando avançar. Diferencia prática com objetivo de tocar sem direção.",
+   "assuntos": [
+    "rotina de estudo",
+    "critérios de avanço",
+    "prática com objetivo",
+    "gravação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Referências: Wes Montgomery e Pat Metheny",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Indica Wes Montgomery para aprender linhas cantáveis e Pat Metheny para estudar desenvolvimento motívico em solos longos. Recomenda estudar a construção dos solos, e não copiar licks, usando transcrição.",
+   "assuntos": [
+    "referências de improvisadores",
+    "transcrição",
+    "estudo de construção de solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Perguntas frequentes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Responde dúvidas sobre começar a improvisar a partir de escalas, por que solos soam como escalas, qual escala usar, a importância da teoria, improvisar em trocas rápidas, tempo de evolução e padrões de jazz como Autumn Leaves, Blue Bossa e All The Things You Are.",
+   "assuntos": [
+    "dúvidas comuns",
+    "escala por tipo de acorde",
+    "teoria",
+    "Autumn Leaves",
+    "Blue Bossa",
+    "All The Things You Are",
+    "trocas rápidas"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Cantar sobre ii-V-I e depois achar no violão",
+   "descricao": "Repetir em loop o ii-V-I em C (Dm7, G7, Cmaj7), com quatro tempos por acorde. Cantar melodias sobre as trocas e depois encontrar no violão as notas cantadas, de três ou quatro por vez.",
+   "passos": [
+    "Colocar um loop de Dm7, G7 e Cmaj7 com quatro tempos por acorde.",
+    "Cantar uma melodia livre sobre as trocas, sem se preocupar com afinação perfeita.",
+    "Achar no violão as notas cantadas, de três ou quatro por vez.",
+    "Repetir variando o ritmo."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "ii-V-I",
+    "cantar",
+    "ii-V-I em C"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Pensar em melodias que se consigam cantar",
+   "descricao": "Sobre progressões simples (exemplo citado: C, F, G), pensar em melodias que você consiga cantar e conduzir as vozes, em vez de sair tocando escalas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "condução de vozes",
+    "ouvido"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Melodia com as notas de Cmaj7 na corda E aguda",
+   "descricao": "Com um backing track de Cmaj7, usar só a corda mi aguda (1ª corda) para achar C, E, G e B e montar uma melodia curta com essas quatro notas. Depois acrescentar ritmo e silêncio.",
+   "passos": [
+    "Colocar um backing track de Cmaj7.",
+    "Usar só a 1ª corda (mi aguda) e achar C, E, G e B.",
+    "Montar uma melodia curta com essas quatro notas.",
+    "Acrescentar variação rítmica e pausas."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "restrição",
+    "corda única",
+    "cmaj7",
+    "backing track",
+    "ritmo"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pensar em alvos (chord tones), não em formas",
+   "descricao": "Dm7 = D, F, A, C; G7 = G, B, D, F; Cmaj7 = C, E, G, B. A 3ª e a 7ª são as notas mais fortes: em Dm7 são F e C; em G7 são B e F; em Cmaj7 são E e B.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "chord tones",
+    "notas-alvo",
+    "3ª e 7ª",
+    "ii-V-I"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I só com notas do acorde",
+   "descricao": "Sobre o ii-V-I em C, tocar apenas as notas do acorde em semínimas, duas por compasso, sem frases extras. O objetivo é ouvir a harmonia se mover com duas notas por acorde.",
+   "passos": [
+    "Selecionar o backing track de ii-V-I em C.",
+    "Tocar apenas as notas do acorde (duas por compasso), em semínimas.",
+    "Ouvir a harmonia se movendo com as duas notas de cada acorde."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "chord tones",
+    "ii-V-I",
+    "semínimas"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escala como reservatório de notas",
+   "descricao": "A escala é um conjunto de notas disponíveis, nem todas estáveis. Ao cair na 3ª e na 7ª, as notas entre elas podem ser quase qualquer uma. Não se deve pensar em formas fixas de escala.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "escala",
+    "formas",
+    "tensão",
+    "alvos"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Frase tem começo, meio e fim; lick é um trecho decorado",
+   "descricao": "Um lick é um trecho já conhecido. Uma frase responde à harmonia e tem começo, meio e fim. Um dos erros mais comuns é não deixar espaço: a frase deve ser tocada, seguida de pausa, e então outra frase.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "frase",
+    "lick",
+    "pausas",
+    "espaço"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Repetição de motivo",
+   "descricao": "Desenvolver um motivo curto repetindo-o; a repetição dá sentido à ideia. Passo a passo: tocar a frase, pausar e repetir.",
+   "passos": [
+    "Tocar um motivo curto.",
+    "Repetir o motivo, com pausa entre as repetições."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "motivo",
+    "desenvolvimento motívico",
+    "repetição"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Variação mantendo o ritmo",
+   "descricao": "Manter o ritmo da frase e trocar as notas. O procedimento é: frase, pausa, mesmo ritmo com notas novas, repetição.",
+   "passos": [
+    "Tocar uma frase.",
+    "Fazer uma pausa.",
+    "Tocar com o mesmo ritmo, mas com notas diferentes.",
+    "Repetir."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "variação",
+    "ritmo",
+    "desenvolvimento motívico"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Fragmentação de frase longa",
+   "descricao": "Tocar uma frase mais longa, fazer uma pausa e depois tocar uma variação de uma parte dela.",
+   "passos": [
+    "Tocar uma frase longa.",
+    "Fazer uma pausa.",
+    "Tocar uma variação de um fragmento dessa frase."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "fragmentação",
+    "desenvolvimento motívico",
+    "frase"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Notas-guia do ii-V-I em C",
+   "descricao": "No ii-V-I em C, o F (3ª de Dm7) fica e o C cai para B (3ª de G7); depois o B fica e o F cai para E (3ª de Cmaj7). São dois movimentos de semitom que formam uma linha melódica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "notas-guia",
+    "semitom",
+    "ii-V-I"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Passagem cromática entre A e B",
+   "descricao": "Entre o A (5ª de Dm7) e o B (3ª de G7), que estão a um tom de distância, colocar o Bb como nota cromática de passagem: A, Bb, B.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "passagem cromática",
+    "ii-V-I",
+    "notas-alvo",
+    "call and response"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Começar cada acorde na nota mais próxima",
+   "descricao": "Ao trocar de acorde, começar a nova frase na nota do acorde mais próxima da última nota tocada, mantendo a condução de vozes suave.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "notas-alvo"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Superimposição: arpejo de um acorde sobre outro",
+   "descricao": "Tocar o arpejo de um acorde sobre outro. Exemplo: Em7 (E, G, B, D) sobre Cmaj7 dá a 3ª, a 5ª, a 7ª e a 9ª de C.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "superimposição",
+    "arpejo",
+    "tensões",
+    "em7 sobre cmaj7"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Enclosure para atingir a 3ª de Cmaj7",
+   "descricao": "Para cair na 3ª de Cmaj7 (E), aproximar por cima (F, meio tom acima) e por baixo (Eb, meio tom abaixo) e então pousar no E.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "enclosure",
+    "notas de aproximação",
+    "cmaj7"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Tensão e resolução por semitom",
+   "descricao": "Tocar uma nota de fora do acorde e resolvê-la por meio tom em uma nota do acorde. Antes, é preciso estabelecer as notas do acorde; depois, acrescentar uma nota de fora e voltar para casa.",
+   "passos": [
+    "Estabelecer as notas do acorde.",
+    "Tocar uma nota de fora do acorde.",
+    "Resolver essa nota por meio tom em uma nota do acorde."
+   ],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "tensão",
+    "resolução",
+    "semitom",
+    "notas de fora"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Notas de fora soam erradas sem alvos claros",
+   "descricao": "Os conceitos avançados só funcionam sobre uma base sólida de notas-alvo. Sem essa base, notas de fora soam erradas em vez de intencionalmente tensas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "notas de fora",
+    "chord tones",
+    "pré-requisito"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "rotina_estudo",
+   "titulo": "Rotina de improvisação em três passos",
+   "descricao": "Rotina diária: cantar sobre o ii-V-I e depois tocar o que foi cantado; tocar só as notas-alvo com uma frase própria; trabalhar um único motivo (repetir, variar e fragmentar).",
+   "passos": [
+    "Cantar sobre o ii-V-I e depois tocar o que foi cantado.",
+    "Tocar apenas as notas-alvo e acrescentar uma frase própria.",
+    "Escolher um motivo: repetir, variar e fragmentar."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "rotina",
+    "ii-V-I",
+    "motivo",
+    "notas-alvo"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Prática com objetivo, restrição e gravação",
+   "descricao": "Ficar tocando sobre um backing track sem direção não é prática. A prática deve ter um objetivo, uma restrição e uma gravação para avaliação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "objetivo",
+    "gravação",
+    "mentalidade"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Critério para avançar",
+   "descricao": "Só avançar quando for possível ouvir o F cair para E e o C cair para B antes de tocar, e quando a frase cair em nota do acorde no primeiro tempo de cada compasso.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "critério",
+    "condução de vozes",
+    "tempo forte"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S8",
+   "tipo": "recurso",
+   "titulo": "Estudar Wes Montgomery para linhas cantáveis",
+   "descricao": "Ouvir Wes Montgomery e cantar suas linhas primeiro, depois encontrar no violão. Estudar por como ele escolhe as notas, não para copiar licks.",
+   "passos": [
+    "Ouvir um solo de Wes Montgomery.",
+    "Cantar a linha.",
+    "Encontrar a linha no violão."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "wes montgomery",
+    "referências",
+    "ouvido",
+    "transcrição"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S8",
+   "tipo": "recurso",
+   "titulo": "Estudar Pat Metheny para desenvolvimento motívico",
+   "descricao": "Para entender o desenvolvimento motívico em solos longos, estudar Pat Metheny. A transcrição coloca a linguagem nas mãos, mas o foco deve ser como o solo é construído.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pat metheny",
+    "desenvolvimento motívico",
+    "transcrição"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Começar pelo ritmo e por duas notas",
+   "descricao": "Para quem só conhece escalas, começar escolhendo duas notas da escala e criando diálogos entre elas sobre um backing track. O ritmo importa mais do que as notas escolhidas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "escala",
+    "diálogo",
+    "iniciante"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S9",
+   "tipo": "erro_comum",
+   "titulo": "Solos que soam como escalas correndo",
+   "descricao": "Quando o solo soa como escala, geralmente se segue uma digitação sem ouvir a troca de acorde. Exercício de diagnóstico: em loop de ii-V-I em C, tocar só a 3ª de cada acorde (F sobre Dm7, B sobre G7, E sobre Cmaj7).",
+   "passos": [
+    "Colocar um loop de ii-V-I em C.",
+    "Tocar apenas a 3ª de cada acorde: F, B, E."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "3ª",
+    "ii-V-I",
+    "digitação"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Escala conforme o tipo de acorde",
+   "descricao": "Não há uma escala melhor para todos os casos. Mixolídio combina com acordes dominantes e dórico combina com acordes m7. Escolher a escala pelo tipo de acorde e mirar nas notas-alvo dentro dela.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "dórico",
+    "escala por acorde",
+    "dominante",
+    "m7"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Teoria como vocabulário, ouvido como decisão",
+   "descricao": "A teoria funciona como mapa e vocabulário, mas as decisões musicais vêm do ouvido.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "teoria",
+    "ouvido",
+    "mentalidade"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S9",
+   "tipo": "rotina_estudo",
+   "titulo": "Checkpoint com Autumn Leaves",
+   "descricao": "Como checkpoint de domínio, tocar Autumn Leaves devagar, usando apenas as 3ª e 7ª de cada acorde ao longo de toda a forma, sem parar.",
+   "passos": [
+    "Tocar Autumn Leaves devagar.",
+    "Usar apenas a 3ª e a 7ª de cada acorde.",
+    "Percorrer toda a forma sem parar."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "autumn leaves",
+    "3ª e 7ª",
+    "checkpoint",
+    "standards"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Construir a linha em camadas para trocas rápidas",
+   "descricao": "Para trocas rápidas, tocar primeiro só as raízes, depois adicionar as terças, depois as tríades e por fim as sétimas. Começar bem devagar.",
+   "passos": [
+    "Tocar só as raízes.",
+    "Adicionar as terças.",
+    "Adicionar as tríades.",
+    "Adicionar as sétimas."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "trocas rápidas",
+    "raízes",
+    "tríades",
+    "sétimas"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Autumn Leaves tem ii-V-I em duas tonalidades",
+   "descricao": "Autumn Leaves é um bom ponto de partida porque contém um ii-V-I claro em duas tonalidades. Blue Bossa e All The Things You Are também reúnem progressões comuns do jazz.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "standards",
+    "autumn leaves",
+    "ii-V-I",
+    "repertório"
+   ],
+   "id_global": "weissguitar--the_art_of_guitar_improvisation-f448e3#I29"
+  }
+ ],
+ "artistas_citados": [
+  "Daniel Weiss",
+  "Wes Montgomery",
+  "Pat Metheny"
+ ],
+ "musicas_citadas": [
+  "Autumn Leaves",
+  "Blue Bossa",
+  "All The Things You Are"
+ ],
+ "recursos_citados": [
+  "Lição Voice Leading for Guitar",
+  "Lição de triades no violão",
+  "Lição de escalas para guitarra",
+  "Lição de arpejos",
+  "Lição de escala blues",
+  "Lição de guide tones (vídeo de 9:20 citado)",
+  "Gráfico de 'The same idea in C' com linhas tocáveis",
+  "Backing tracks de ii-V-I e Cmaj7"
+ ],
+ "observacoes": "Fonte em inglês, traduzida e fichada em português. Vários trechos dependem de áudio, gráfico interativo ou vídeos que não estão no texto (referências a 1:24, 2:18, 3:22 e 9:20, e a 'with the chords'/'same idea in C'), então as instruções de 'Play this' ficam incompletas sem eles. A citação de Daniel Weiss traz a data 15 Sep 2026, que parece estranha e não foi verificada. O texto chama de 'colour' a nota Db sobre F7 (cor, ou ♭6 em relação à fundamental do acorde); a fonte não nomeia o intervalo. O texto menciona 'Bb blues' como vídeo, mas o conteúdo do vídeo não está disponível. As ideias usam timestamp null por ser documento.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.0031,
+  "via": "api"
+ }
+}

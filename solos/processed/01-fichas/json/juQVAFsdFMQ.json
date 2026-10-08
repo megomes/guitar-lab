@@ -1,0 +1,551 @@
+{
+ "fonte_id": "juQVAFsdFMQ",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The FASTEST Way To Learn MODES",
+  "autor": "Rick Beato",
+  "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ",
+  "idioma": "en",
+  "duracao": "10m 52s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/juQVAFsdFMQ--the-fastest-way-to-learn-modes.md"
+ },
+ "resumo": "Aula curta de Rick Beato sobre os sete modos da escala maior (jônio, dórico, frígio, lídio, mixolídio, eólio e lócrio). Ele ensina a identificar cada modo pelos meios-tons e pela nota característica, e mostra como usar essa identificação para soar modal ao improvisar e compor. Serve para guitarristas intermediários que já conhecem escalas e querem entender a diferença sonora entre os modos.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explicação clara e teórica, com a regra dos meios-tons repetida ao final como revisão. Os exemplos sonoros e de solo não são transcritos, então parte do conteúdo depende de ouvir o vídeo. Pouco material de exercício prático."
+ },
+ "assuntos_principais": [
+  "modos da escala maior",
+  "nota característica de cada modo",
+  "meios-tons como chave para identificar modos",
+  "lídio",
+  "eólio",
+  "dórico",
+  "mixolídio",
+  "frígio",
+  "jônio",
+  "lócrio",
+  "improvisação modal"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: som dos modos na improvisação",
+   "inicio": "00:00",
+   "fim": "00:33",
+   "resumo": "Rick explica que o objetivo é obter o som do modo nas improvisações e composições. Mostra uma improvisação sobre Asus2 usando o A lídio, quarto modo de Mi maior.",
+   "assuntos": [
+    "modos",
+    "lídio",
+    "asus2",
+    "improvisação sobre acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Lídio e a nota característica ♯4",
+   "inicio": "00:33",
+   "fim": "01:16",
+   "resumo": "Apresenta a escala e a lick do lídio. Destaca o ♯4 como nota característica do modo.",
+   "assuntos": [
+    "lídio",
+    "♯4",
+    "nota característica",
+    "lick"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Como achar o som do modo: meios-tons e tipo maior/menor",
+   "inicio": "01:16",
+   "fim": "01:48",
+   "resumo": "Ensina que o som de um modo vem dos meios-tons e de definir se o modo é maior ou menor. Usa Fá lídio (teclas brancas) como exemplo, com a tríade de Fá para definir o centro.",
+   "assuntos": [
+    "meios-tons",
+    "tríade",
+    "Fá lídio",
+    "maior ou menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Eólio (menor natural) em Ré",
+   "inicio": "01:48",
+   "fim": "03:34",
+   "resumo": "Descreve o ré eólio como modo menor caracterizado pelo ♭6 (Si♭). Indica os meios-tons entre 2-♭3 e 5-♭6 e toca um exemplo.",
+   "assuntos": [
+    "eólio",
+    "♭6",
+    "meios-tons",
+    "ré menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Dórico em Lá",
+   "inicio": "03:34",
+   "fim": "05:01",
+   "resumo": "Apresenta o lá dórico como o segundo modo de Sol maior, modo menor caracterizado pelo 6 natural. Mostra os meios-tons entre 2-♭3 e 6-♭7 e toca um exemplo.",
+   "assuntos": [
+    "dórico",
+    "6 natural",
+    "meios-tons",
+    "lá menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Mixolídio em Mi",
+   "inicio": "05:01",
+   "fim": "05:45",
+   "resumo": "Explica que o mixolídio é um modo maior usado sobre acordes maiores ou sobre o V grau. Indica os meios-tons entre 3-4 e 6-♭7 no mi mixolídio e toca um solo.",
+   "assuntos": [
+    "mixolídio",
+    "V grau",
+    "meios-tons",
+    "mi mixolídio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Frígio e a nota ♭2",
+   "inicio": "05:45",
+   "fim": "06:55",
+   "resumo": "Apresenta o frígio, terceiro modo da escala maior, caracterizado pelo ♭2. Indica os meios-tons entre 1-♭2 e 5-♭6 e toca uma linha.",
+   "assuntos": [
+    "frígio",
+    "♭2",
+    "meios-tons"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Jônio: a escala maior como modo",
+   "inicio": "06:55",
+   "fim": "08:20",
+   "resumo": "Mostra que o jônio é a escala maior, usada sobre acordes maiores. Em Ré, os meios-tons ficam entre 3-4 e 7-8.",
+   "assuntos": [
+    "jônio",
+    "escala maior",
+    "meios-tons",
+    "ré maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Lócrio sobre meio-diminutos",
+   "inicio": "08:20",
+   "fim": "09:42",
+   "resumo": "Apresenta o lócrio, sétimo modo da escala maior, usado sobre acordes meio-diminutos. Mostra a escala de Dó lócrio com ♭2, ♭3, ♭5, ♭6 e ♭7 e os meios-tons entre 1-♭2 e 4-♭5.",
+   "assuntos": [
+    "lócrio",
+    "meio-diminuto",
+    "m7♭5",
+    "dó lócrio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Revisão dos meios-tons dos sete modos",
+   "inicio": "09:42",
+   "fim": "10:15",
+   "resumo": "Revisa em ordem os meios-tons de cada modo, servindo como resumo para memorizar a identificação.",
+   "assuntos": [
+    "revisão",
+    "meios-tons",
+    "sete modos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Despedida e divulgação",
+   "inicio": "10:15",
+   "fim": "10:52",
+   "resumo": "Pede inscrição e divulga o Beato Book, o site e o Beato Club.",
+   "assuntos": [
+    "divulgação",
+    "inscrição"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Modos são a própria escala maior vista de outro centro",
+   "descricao": "Um modo usa as mesmas notas de uma escala maior, mas com outra nota como centro. Rick toca a escala de Mi maior sobre um acorde Asus2 e chama o resultado de Lá lídio, o quarto modo de Mi maior.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "lídio",
+    "asus2",
+    "escala maior"
+   ],
+   "id_global": "juQVAFsdFMQ#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Improvisar sobre acorde sus com a escala do modo certo",
+   "descricao": "Sobre um acorde Asus2 pode-se improvisar com as notas de Mi maior, o que resulta no som do Lá lídio. Isso mostra que a escolha do modo depende do som que se quer no acorde, não só da tonalidade do acorde.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "asus2",
+    "lídio",
+    "improvisação sobre acorde",
+    "escolha de escala"
+   ],
+   "id_global": "juQVAFsdFMQ#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Nota característica do lídio é o ♯4",
+   "descricao": "O som do lídio vem do ♯4, que fica um semitom acima da quinta. Em Fá lídio, a nota característica é o Si natural.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "intermediario",
+   "tags": [
+    "lídio",
+    "♯4",
+    "nota-caracteristica"
+   ],
+   "id_global": "juQVAFsdFMQ#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "frase_lick",
+   "titulo": "Lick de lídio para ouvir o ♯4",
+   "descricao": "Rick toca uma lick em lídio e destaca o ♯4 como a nota que define o som do modo. Vale tocar a lick e repetir o ♯4 para ouvir a diferença em relação à escala maior.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "intermediario",
+   "tags": [
+    "lick",
+    "lídio",
+    "♯4"
+   ],
+   "id_global": "juQVAFsdFMQ#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Som do modo está nos meios-tons e no tipo maior ou menor",
+   "descricao": "Para achar o caráter de um modo, localize onde estão os meios-tons e decida se o modo é maior ou menor. Esses dois dados definem o som.",
+   "passos": [],
+   "timestamp": "01:16",
+   "nivel": "iniciante",
+   "tags": [
+    "meios-tons",
+    "maior-menor",
+    "caráter do modo"
+   ],
+   "id_global": "juQVAFsdFMQ#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do Fá lídio",
+   "descricao": "Na escala de Fá lídio (teclas brancas), os meios-tons estão entre Si e Dó (4-5) e entre Mi e Fá (7-8). O primeiro é o ♯4 para a 5ª.",
+   "passos": [],
+   "timestamp": "01:16",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "fá lídio",
+    "♯4"
+   ],
+   "id_global": "juQVAFsdFMQ#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Tríade de Fá com ♯4 soa lídio",
+   "descricao": "Tocar a tríade de Fá maior (Fá-Lá-Dó) define o centro como maior. Adicionar o Si (♯4) a essa tríade cria o som lídio.",
+   "passos": [
+    "Toque a tríade Fá-Lá-Dó para definir Fá maior.",
+    "Acrescente o Si (♯4) ao acorde ou à linha.",
+    "Compare com a mesma tríade sem o Si para ouvir a diferença."
+   ],
+   "timestamp": "01:48",
+   "nivel": "intermediario",
+   "tags": [
+    "tríade",
+    "fá maior",
+    "♯4",
+    "lídio"
+   ],
+   "id_global": "juQVAFsdFMQ#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Eólio tem ♭6 como nota característica",
+   "descricao": "O eólio é um modo menor com ♭6. Em Ré eólio, o ♭6 é o Si♭.",
+   "passos": [],
+   "timestamp": "02:20",
+   "nivel": "intermediario",
+   "tags": [
+    "eólio",
+    "♭6",
+    "ré menor"
+   ],
+   "id_global": "juQVAFsdFMQ#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do eólio",
+   "descricao": "No eólio, os meios-tons estão entre 2 e ♭3 e entre 5 e ♭6. Esses dois pontos definem o som do modo.",
+   "passos": [],
+   "timestamp": "02:20",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "eólio"
+   ],
+   "id_global": "juQVAFsdFMQ#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Dórico é menor com 6 natural",
+   "descricao": "O dórico é um modo menor com o 6º grau natural. Lá dórico é o segundo modo de Sol maior e tem Fá♯ como 6ª, o que o diferencia do eólio.",
+   "passos": [],
+   "timestamp": "03:34",
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "6 natural",
+    "lá menor"
+   ],
+   "id_global": "juQVAFsdFMQ#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do dórico",
+   "descricao": "No dórico, os meios-tons estão entre 2 e ♭3 e entre 6 e ♭7. Esse par de meios-tons, junto com o 6 natural, dá o caráter do modo.",
+   "passos": [],
+   "timestamp": "03:34",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "dórico"
+   ],
+   "id_global": "juQVAFsdFMQ#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Mixolídio é maior e usado sobre o V grau",
+   "descricao": "O mixolídio é um modo maior com ♭7, usado sobre acordes maiores ou sobre o V grau. Mi mixolídio tem as notas Mi-Fá♯-Sol♯-Lá-Si-Dó♯-Ré.",
+   "passos": [],
+   "timestamp": "05:01",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "V grau",
+    "♭7"
+   ],
+   "id_global": "juQVAFsdFMQ#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do mixolídio",
+   "descricao": "No mixolídio, os meios-tons estão entre 3 e 4 e entre 6 e ♭7. Isso explica a sonoridade de acordes maiores com ♭7.",
+   "passos": [],
+   "timestamp": "05:01",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "mixolídio"
+   ],
+   "id_global": "juQVAFsdFMQ#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Frígio tem ♭2 como nota característica",
+   "descricao": "O frígio é o terceiro modo da escala maior e tem ♭2 como nota característica. Ele é um dos modos com o som mais escuro e característico.",
+   "passos": [],
+   "timestamp": "06:20",
+   "nivel": "intermediario",
+   "tags": [
+    "frígio",
+    "♭2",
+    "nota-caracteristica"
+   ],
+   "id_global": "juQVAFsdFMQ#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do frígio",
+   "descricao": "No frígio, os meios-tons estão entre a tônica e o ♭2 (1-♭2) e entre 5 e ♭6.",
+   "passos": [],
+   "timestamp": "06:20",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "frígio"
+   ],
+   "id_global": "juQVAFsdFMQ#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Jônio é a escala maior",
+   "descricao": "O jônio é a escala maior usada sobre acordes maiores. Em Ré jônio, os meios-tons estão entre 3 e 4 e entre 7 e 8.",
+   "passos": [],
+   "timestamp": "07:30",
+   "nivel": "iniciante",
+   "tags": [
+    "jônio",
+    "escala maior",
+    "meios-tons"
+   ],
+   "id_global": "juQVAFsdFMQ#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Lócrio é o sétimo modo, usado sobre meio-diminutos",
+   "descricao": "O lócrio é o sétimo modo da escala maior e costuma ser usado sobre acordes meio-diminutos (m7♭5). Dó lócrio tem as notas Dó-D♭-E♭-F-G♭-A♭-B♭.",
+   "passos": [],
+   "timestamp": "08:20",
+   "nivel": "avancado",
+   "tags": [
+    "lócrio",
+    "meio-diminuto",
+    "m7♭5",
+    "dó lócrio"
+   ],
+   "id_global": "juQVAFsdFMQ#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Lócrio sobre tríade diminuta ou escala meio-diminuta",
+   "descricao": "Rick diz que o lócrio pode ser tocado sobre uma tríade diminuta, mas o mais comum é usar a escala inteira sobre acordes meio-diminutos. A fala na fonte está confusa, então a escolha exata deve ser confirmada no material citado.",
+   "passos": [],
+   "timestamp": "08:20",
+   "nivel": "avancado",
+   "tags": [
+    "lócrio",
+    "tríade diminuta",
+    "meio-diminuto"
+   ],
+   "id_global": "juQVAFsdFMQ#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Meios-tons do lócrio",
+   "descricao": "No lócrio, os meios-tons estão entre 1 e ♭2 e entre 4 e ♭5. Esses dois pontos dão o som instável do modo.",
+   "passos": [],
+   "timestamp": "08:56",
+   "nivel": "avancado",
+   "tags": [
+    "meios-tons",
+    "lócrio"
+   ],
+   "id_global": "juQVAFsdFMQ#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "rotina_estudo",
+   "titulo": "Memorizar os sete modos pelos meios-tons",
+   "descricao": "Use a lista de meios-tons de cada modo como ferramenta para identificar o modo ao ouvir ou tocar uma linha. Repita a revisão até reconhecer cada modo sem consultar a tabela.",
+   "passos": [
+    "Escreva a escala maior de referência com os graus 1 a 7.",
+    "Para cada modo, marque os dois pares de meios-tons (jônio 3-4 e 7-8; dórico 2-3 e 6-7; frígio 1-2 e 5-6; lídio 4-5 e 7-8; mixolídio 3-4 e 6-7; eólio 2-3 e 5-6; lócrio 1-2 e 4-5).",
+    "Toque cada modo em uma tonalidade e confirme os meios-tons pelo ouvido.",
+    "Depois, tente reconhecer o modo apenas pelo som dos meios-tons."
+   ],
+   "timestamp": "09:42",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "revisão",
+    "memorização",
+    "sete modos"
+   ],
+   "id_global": "juQVAFsdFMQ#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Tabela de meios-tons dos sete modos",
+   "descricao": "Jônio: 3-4 e 7-8. Dórico: 2-3 e 6-7. Frígio: 1-2 e 5-6. Lídio: 4-5 e 7-8. Mixolídio: 3-4 e 6-7. Eólio: 2-3 e 5-6. Lócrio: 1-2 e 4-5.",
+   "passos": [],
+   "timestamp": "09:42",
+   "nivel": "intermediario",
+   "tags": [
+    "meios-tons",
+    "tabela",
+    "sete modos"
+   ],
+   "id_global": "juQVAFsdFMQ#I21"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "The Beato Book",
+  "Beato Ear Training Program",
+  "Advanced Harmonic Concepts for Composition and Improvisation (curso em vídeo)",
+  "Rick Beato Helix Pack 1 (presets)",
+  "Kemper Profiles",
+  "Beato Club",
+  "Beato Music Forum"
+ ],
+ "observacoes": "Legenda automática com erros: 'F flat six' onde o contexto indica ♭6 em Ré (Si♭); 'Dionian' é Jônio; 'Asus2' é descrito como 'A major chord', mas Asus2 contém Lá, Si e Mi, sem terça maior. O exemplo sobre lócrio mistura tríade diminuta e escala meio-diminuta sem clareza. Os exemplos sonoros e as linhas tocadas não estão no transcript, então dependem de ver o vídeo. Os timestamps são aproximados e vêm do início de cada parágrafo do transcript. Os agradecimentos a apoiadores e os links promocionais foram ignorados.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.0029,
+  "via": "api"
+ }
+}

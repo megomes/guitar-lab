@@ -1,0 +1,326 @@
+{
+ "fonte_id": "v2rtFiZPAJ4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "AULÃO com TÉCNICAS de IMPROVISAÇÃO com NELSON FARIA",
+  "autor": "Cortes do Amplifica [OFICIAL]",
+  "url": "https://www.youtube.com/watch?v=v2rtFiZPAJ4",
+  "idioma": "pt",
+  "duracao": "7m 22s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/v2rtFiZPAJ4--aulão-com-técnicas-de-improvisação-com-nelson-faria.md"
+ },
+ "resumo": "Corte de uma entrevista com Nelson Faria sobre como pensar a improvisação. Ele defende ouvir e cantar a nota antes de tocá-la, em vez de depender da visão do braço da guitarra. Apresenta quatro níveis de consciência musical: som, execução no instrumento, análise das funções e, por último, o nome das notas. Explica que a função da nota define seu som e que pensar em intervalos e funções permite transpor shapes facilmente. Serve para quem quer sair do \"tocar por posição\" e desenvolver ouvido e improvisação.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceitos fundamentais e bem exemplificados (transposição, função da nota, hierarquia de consciência musical). Mas é uma conversa de entrevista, sem exercícios estruturados, e depende de ouvir os exemplos tocados."
+ },
+ "assuntos_principais": [
+  "audiação",
+  "cantar o que se toca",
+  "níveis de consciência musical",
+  "função da nota",
+  "intervalos",
+  "transposição",
+  "geometria da guitarra"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Ouvir a nota antes de tocar e cantar tudo",
+   "inicio": "00:00",
+   "fim": "02:18",
+   "resumo": "Anedota de uma primeira aula em que o professor perguntou se ele ouviu a nota antes de tocá-la. Nelson explica que a guitarra é um instrumento visual e recomenda cantar tudo o que se toca. Também discute a relação entre mudança melódica e harmônica.",
+   "assuntos": [
+    "audiação",
+    "cantar",
+    "guitarra visual",
+    "harmonia e melodia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Os quatro níveis de consciência musical",
+   "inicio": "02:18",
+   "fim": "04:39",
+   "resumo": "Som, execução no instrumento, análise das funções e, por último, nomes das notas. Exemplo com acorde menor com sétima e quinta diminuta, transposto meio tom acima mantendo intervalos e digitação.",
+   "assuntos": [
+    "níveis de consciência",
+    "graus",
+    "intervalos",
+    "transposição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "A função define o som da nota e transposição",
+   "inicio": "04:39",
+   "fim": "07:22",
+   "resumo": "Uma mesma nota soa diferente conforme a função (terça menor, terça maior, quarta aumentada, nona menor). Tocar a mesma melodia em outro tom mantém funções e digitação. Fecha dizendo que exige muito estudo.",
+   "assuntos": [
+    "função da nota",
+    "tensão e resolução",
+    "transposição",
+    "shapes"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Ouça a nota antes de tocá-la",
+   "descricao": "Nelson conta que seu professor perguntou, depois da primeira nota, se ele tinha ouvido a nota antes de tocar ou só a reconheceu depois. A guitarra é visual: dá para tocar uma nota só porque se sabe pelo desenho que ela é do acorde, sem conhecer o som. A ideia é saber o som previamente, antes de executar.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "audiação",
+    "ouvido",
+    "mentalidade"
+   ],
+   "id_global": "v2rtFiZPAJ4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Depender da visão do braço da guitarra",
+   "descricao": "Por ser um instrumento visual, o guitarrista pode escolher uma nota só olhando o braço (por exemplo, sabendo que é uma nota de Dó menor) sem conhecer o seu som. Isso funciona na teoria, mas não desenvolve o ouvido interno necessário para improvisar.",
+   "passos": [],
+   "timestamp": "00:35",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "ouvido",
+    "visual"
+   ],
+   "id_global": "v2rtFiZPAJ4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Cantar tudo o que você toca",
+   "descricao": "Trabalho que Nelson passa aos alunos: cantar tudo o que fizer no instrumento. Por exemplo, ao estudar uma escala maior, aprender como é o som dela e cantá-la, em vez de só decorar a posição.",
+   "passos": [
+    "Escolha o que vai tocar (escala, arpejo, melodia).",
+    "Cante o material até saber o som.",
+    "Só então toque no instrumento, conferindo se bate com o que cantou."
+   ],
+   "timestamp": "00:50",
+   "nivel": "iniciante",
+   "tags": [
+    "cantar",
+    "ouvido",
+    "escala maior"
+   ],
+   "id_global": "v2rtFiZPAJ4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Mudança melódica está sempre ligada à harmônica",
+   "descricao": "Segundo Nelson, a mudança melódica está sempre ligada a uma mudança harmônica, e na cabeça dele as duas surgem juntas. Ele já tem o som das duas na mente ao improvisar.",
+   "passos": [],
+   "timestamp": "01:11",
+   "nivel": "avancado",
+   "tags": [
+    "harmonia",
+    "melodia",
+    "conceito"
+   ],
+   "id_global": "v2rtFiZPAJ4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Primeiro nível: saber o som certo",
+   "descricao": "O primeiro dos quatro níveis de consciência musical é saber o som: se quero tocar uma escala, preciso saber cantá-la antes de poder executá-la.",
+   "passos": [],
+   "timestamp": "01:44",
+   "nivel": "intermediario",
+   "tags": [
+    "níveis de consciência",
+    "audiação"
+   ],
+   "id_global": "v2rtFiZPAJ4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Segundo nível: achar o som no instrumento",
+   "descricao": "Depois de saber o som da melodia ou escala, o segundo nível é descobrir como executá-lo no instrumento, procurando no braço da guitarra.",
+   "passos": [],
+   "timestamp": "02:18",
+   "nivel": "intermediario",
+   "tags": [
+    "níveis de consciência",
+    "execução"
+   ],
+   "id_global": "v2rtFiZPAJ4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Terceiro nível: analisar funções e intervalos",
+   "descricao": "O terceiro nível é a análise do que foi tocado: entender os graus (fundamental, terça, quinta, sétima) e os intervalos, e não apenas os nomes das notas.",
+   "passos": [],
+   "timestamp": "02:30",
+   "nivel": "intermediario",
+   "tags": [
+    "níveis de consciência",
+    "graus",
+    "intervalos",
+    "análise"
+   ],
+   "id_global": "v2rtFiZPAJ4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Quarto nível: o nome das notas é o menos importante",
+   "descricao": "Saber quais notas foram tocadas é o último e menos importante nível. Nelson mostra que, se subir meio tom mantendo os intervalos, o som, os intervalos e a digitação são os mesmos; só os nomes das notas mudam.",
+   "passos": [],
+   "timestamp": "02:40",
+   "nivel": "intermediario",
+   "tags": [
+    "níveis de consciência",
+    "nomes de notas",
+    "transposição"
+   ],
+   "id_global": "v2rtFiZPAJ4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Pensar em função e não em nome de nota evita travar",
+   "descricao": "Exemplo: o acorde Cm7(b5) tem fundamental, terça menor, quinta diminuta e sétima menor (Dó, Mi bemol, Sol bemol, Si bemol). Meio tom acima, em Ré bemol, ficaria Ré bemol, Fá bemol, Lá dobrado bemol e Dó bemol, nomes difíceis de pensar. Quem aprende por nome de nota trava; pensando em som e função, é a mesma coisa.",
+   "passos": [],
+   "timestamp": "03:31",
+   "nivel": "avancado",
+   "tags": [
+    "funções",
+    "intervalos",
+    "transposição",
+    "meio diminuto"
+   ],
+   "id_global": "v2rtFiZPAJ4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "A função da nota determina a qualidade do som",
+   "descricao": "O som de uma nota não está ligado à altura (Mi, Fá, Fá sustenido...), mas à função que ela assume no contexto. A mesma nota soa de forma completamente diferente conforme seja terça menor, terça maior, quarta justa, quarta aumentada etc.",
+   "passos": [],
+   "timestamp": "04:39",
+   "nivel": "intermediario",
+   "tags": [
+    "função",
+    "tensão",
+    "conceito",
+    "sonoridade"
+   ],
+   "id_global": "v2rtFiZPAJ4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Notas de tensão querem resolver",
+   "descricao": "Exemplo dado: se a mesma nota é tratada como nona menor, ela tem um som triste e quer descer; se vira terça, fica alegre e quer subir. Entender essas tendências ajuda a escolher a direção das frases.",
+   "passos": [],
+   "timestamp": "05:13",
+   "nivel": "avancado",
+   "tags": [
+    "tensão",
+    "resolução",
+    "nona menor",
+    "terça"
+   ],
+   "id_global": "v2rtFiZPAJ4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Tocar a mesma melodia em outros tons",
+   "descricao": "Nelson toca 'Atirei o pau no gato' com as notas Sol, Fá, Mi, Ré, Mi, Fá, Sol, Sol, Sol e depois em outro tom. Todas as notas mudam, mas funções, música e digitação continuam iguais.",
+   "passos": [
+    "Escolha uma melodia simples que você conheça.",
+    "Toque-a em um tom.",
+    "Mude o tom, reproduzindo o mesmo shape.",
+    "Repita em vários tons."
+   ],
+   "timestamp": "06:19",
+   "nivel": "iniciante",
+   "tags": [
+    "transposição",
+    "melodia",
+    "shapes"
+   ],
+   "id_global": "v2rtFiZPAJ4#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Aproveite a geometria da guitarra para transpor",
+   "descricao": "Uma vantagem da guitarra é poder transpor movendo o mesmo shape pelo braço, sem mudar a digitação. Pensando em funções, basta mover o desenho para outro tom, como Dó maior para Dó sustenido.",
+   "passos": [],
+   "timestamp": "06:35",
+   "nivel": "iniciante",
+   "tags": [
+    "transposição",
+    "shapes",
+    "geometria"
+   ],
+   "id_global": "v2rtFiZPAJ4#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Isso exige estudo",
+   "descricao": "Nelson fecha lembrando que desenvolver essa consciência demanda bastante estudo e não tem atalho.",
+   "passos": [],
+   "timestamp": "07:10",
+   "nivel": "iniciante",
+   "tags": [
+    "estudo",
+    "mentalidade"
+   ],
+   "id_global": "v2rtFiZPAJ4#I14"
+  }
+ ],
+ "artistas_citados": [
+  "Nelson Faria",
+  "Tom Jobim"
+ ],
+ "musicas_citadas": [
+  "Atirei o pau no gato"
+ ],
+ "recursos_citados": [
+  "Amplifica #164 com Nelson Faria (https://youtu.be/-1BMe2hkHCg)"
+ ],
+ "observacoes": "Transcrição automática com muitos erros e diálogo entrecortado; trechos mal transcritos (nome do professor \"jz\", \"Jobinho\", \"nó que D\" etc.) foram interpretados pelo contexto. Os exemplos musicais (acordes e escalas tocados) não aparecem na transcrição, então os detalhes dependem de ver o vídeo. Não há tablatura, BPM nem exercícios formais; a \"ordem\" dos níveis foi reconstruída a partir da fala. A única música citada é \"Atirei o pau no gato\".",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:02",
+  "tentativas": 1,
+  "custo_usd": 0.2429
+ }
+}

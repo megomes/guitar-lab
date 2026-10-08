@@ -1,0 +1,560 @@
+{
+ "fonte_id": "1ksOozBYk8g",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How To SOLO Over 7th Chords!",
+  "autor": "Rick Beato",
+  "url": "https://www.youtube.com/watch?v=1ksOozBYk8g",
+  "idioma": "en",
+  "duracao": "10m 2s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/1ksOozBYk8g--how-to-solo-over-7th-chords.md"
+ },
+ "resumo": "Rick Beato propõe pensar acordes dominantes de sétima (ex.: E7) com fragmentos de arpejo chamados por ele de spread dominant chords, em vez de tocar apenas escalas. Ele mostra inversões desses fragmentos, bends para ligar o arpejo à posição de pentatônica, notas vizinhas, sus4 e add4, tríades diminutas espalhadas que resolvem nas notas do acorde, e como combinar mixolídio com arpejos. É voltado a guitarristas que já conhecem pentatônicas e escalas e querem soar mais intencionais sobre acordes dominantes.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com notas-alvo, inversões e bends descritos, e ideias aplicáveis. Perde pontos porque boa parte da demonstração depende de ver o braço e a tablatura, e a fala é desorganizada, com repetições e trechos ambíguos."
+ },
+ "assuntos_principais": [
+  "acordes dominantes de sétima",
+  "spread dominant arpeggios",
+  "fragmentos de arpejo com root, b7, 3 e 5",
+  "bends em direção a notas-alvo",
+  "notas vizinhas cromáticas",
+  "sus4 e add4 em acordes dominantes",
+  "tríades diminutas espalhadas",
+  "mixolídio e notas do acorde",
+  "combinação de escala com arpejo",
+  "dominante com nona"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: não ter medo do acorde dominante",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Rick explica que alunos evitam improvisar sobre um acorde de E7 simples e sugere pentatônica menor (som bluesy), pentatônica maior e mixolídio como opções de escala.",
+   "assuntos": [
+    "acorde dominante simples",
+    "pentatônica menor",
+    "pentatônica maior",
+    "mixolídio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Os quatro fragmentos de spread dominant",
+   "inicio": "00:32",
+   "fim": "01:40",
+   "resumo": "Apresenta os fragmentos de arpejo do acorde dominante, com inversões que começam na raiz, na terça, na quinta e na sétima menor.",
+   "assuntos": [
+    "spread dominant",
+    "inversões",
+    "root b7 3",
+    "3 b7 5"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Bends e notas vizinhas nos fragmentos",
+   "inicio": "01:40",
+   "fim": "02:49",
+   "resumo": "Mostra como aplicar bends a partir dos fragmentos na posição de blues e como usar a nota vizinha b5-b3-3.",
+   "assuntos": [
+    "bend",
+    "notas vizinhas",
+    "posição de blues",
+    "b7 para 3"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Ligando arpejos às posições de escala",
+   "inicio": "02:49",
+   "fim": "05:10",
+   "resumo": "Explica a ideia de anunciar o acorde com o arpejo e depois seguir com linhas escalares, usando bends da quinta e da quarta a partir de cada posição.",
+   "assuntos": [
+    "arpejo como anúncio do acorde",
+    "posições de escala",
+    "bend até a quinta",
+    "bend a partir da quarta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Notas vizinhas, diminuto, sus4 e add4",
+   "inicio": "05:10",
+   "fim": "07:03",
+   "resumo": "Usa notas vizinhas de meio tom para entrar em cada nota inicial do arpejo, cita movimento diminuto e explica a sonoridade com sus4 e add4.",
+   "assuntos": [
+    "notas vizinhas de meio tom",
+    "diminuto",
+    "sus4",
+    "add4"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Tríades diminutas espalhadas e resolução",
+   "inicio": "07:03",
+   "fim": "07:37",
+   "resumo": "Mostra tríades diminutas espalhadas (1, b5, b3) que resolvem nas notas do acorde, como a terça e a quinta.",
+   "assuntos": [
+    "tríades diminutas espalhadas",
+    "resolução nas notas do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Mixolídio e notas do acorde",
+   "inicio": "07:37",
+   "fim": "08:08",
+   "resumo": "Alerta que tocar escala mixolídio sem foco leva a notas ruins sobre o acorde, e que é preciso conhecer as notas do acorde.",
+   "assuntos": [
+    "mixolídio",
+    "erro de meandering",
+    "notas do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Combinando escala e arpejo",
+   "inicio": "08:08",
+   "fim": "08:40",
+   "resumo": "Recomenda combinar mixolídio com arpejos, saltando entre eles para criar linhas mais interessantes.",
+   "assuntos": [
+    "combinação escala e arpejo",
+    "linhas com saltos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Escala lançando no arpejo de dominante nona",
+   "inicio": "08:40",
+   "fim": "09:17",
+   "resumo": "Demonstra usar a escala para entrar no arpejo de dominante com nona e fecha o raciocínio do vídeo.",
+   "assuntos": [
+    "dominante nona",
+    "escala para arpejo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Despedida, inscrição e divulgação",
+   "inicio": "09:17",
+   "fim": "10:02",
+   "resumo": "Pede inscrição e curtidas, cita o livro, o site, o Instagram, o programa de treino de ouvido e o clube de membros.",
+   "assuntos": [
+    "inscrição",
+    "livro",
+    "treino de ouvido",
+    "clube de membros"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Não temer o acorde dominante simples",
+   "descricao": "Não há necessidade de evitar improvisar sobre um acorde dominante de sétima simples, como E7 ou E9, em blues, jazz ou rock.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "acorde dominante",
+    "mentalidade"
+   ],
+   "id_global": "1ksOozBYk8g#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor sobre dominante",
+   "descricao": "Sobre um acorde dominante, a pentatônica menor dá um som bluesy.",
+   "passos": [],
+   "timestamp": "00:10",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "blues"
+   ],
+   "id_global": "1ksOozBYk8g#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Opções de escala sobre dominante",
+   "descricao": "Sobre um acorde dominante, pentatônica maior sugere um som mais de rock sulista, enquanto mixolídio sugere um som mais de Jerry Garcia.",
+   "passos": [],
+   "timestamp": "00:20",
+   "nivel": "iniciante",
+   "tags": [
+    "mixolídio",
+    "pentatônica maior",
+    "escolha de escala"
+   ],
+   "id_global": "1ksOozBYk8g#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Fragmentos de arpejo do acorde dominante",
+   "descricao": "Os fragmentos de arpejo do acorde dominante são chamados de spread dominant chords. O primeiro é a raiz, a sétima menor e a terça (R-b7-3).",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "intermediario",
+   "tags": [
+    "spread dominant",
+    "arpejo",
+    "dominante"
+   ],
+   "id_global": "1ksOozBYk8g#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Tocar as inversões dos fragmentos",
+   "descricao": "Tocar os fragmentos de arpejo do dominante em suas inversões, passando pela terça-sétima-quinta e pela quinta-terça-sétima.",
+   "passos": [
+    "Tocar o fragmento R-b7-3 na tônica",
+    "Subir para a inversão 3-b7-5",
+    "Seguir para 5-3-b7",
+    "Voltar à raiz com o fragmento R-b7-3"
+   ],
+   "timestamp": "01:07",
+   "nivel": "intermediario",
+   "tags": [
+    "inversões",
+    "arpejo",
+    "dominante"
+   ],
+   "id_global": "1ksOozBYk8g#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bend de b7 para 3 na posição de blues",
+   "descricao": "Na primeira posição da pentatônica menor, tocar a sétima menor e fazer bend para a terça, depois descer para a posição de blues.",
+   "passos": [
+    "Tocar a b7 na primeira posição",
+    "Fazer bend até a terça",
+    "Descer para a posição de blues",
+    "Repetir em cada inversão"
+   ],
+   "timestamp": "01:40",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "posição de blues",
+    "b7",
+    "terça"
+   ],
+   "id_global": "1ksOozBYk8g#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Nota vizinha b5-b3 antes da terça",
+   "descricao": "Antes da terça natural, usar a quinta bemol e a terça bemol como notas vizinhas que resolvem na terça.",
+   "passos": [],
+   "timestamp": "01:40",
+   "nivel": "intermediario",
+   "tags": [
+    "notas vizinhas",
+    "b5",
+    "b3",
+    "terça"
+   ],
+   "id_global": "1ksOozBYk8g#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bend de 3 para b7 nos fragmentos",
+   "descricao": "Partindo do fragmento 3-b7-5 em cada inversão, fazer bend da terça e ir para a sétima menor, com a sequência de posições.",
+   "passos": [
+    "Tocar o fragmento 3-b7-5",
+    "Bendar da terça para a sétima menor",
+    "Repetir em cada inversão"
+   ],
+   "timestamp": "02:14",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "terça",
+    "b7",
+    "arpejo"
+   ],
+   "id_global": "1ksOozBYk8g#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Anunciar o acorde com o arpejo antes da escala",
+   "descricao": "Primeiro tocar o pequeno arpejo que dá o som do acorde, depois entrar na posição de escala e continuar a improvisação.",
+   "passos": [],
+   "timestamp": "02:49",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo",
+    "anúncio do acorde",
+    "improvisação"
+   ],
+   "id_global": "1ksOozBYk8g#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Bend até a quinta a partir da posição da quinta",
+   "descricao": "Partindo da posição baseada na quinta do acorde, fazer bend até a quinta e seguir para a sétima menor.",
+   "passos": [
+    "Tocar a posição baseada na quinta",
+    "Bendar até a quinta do acorde",
+    "Seguir para a sétima menor"
+   ],
+   "timestamp": "03:25",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "quinta",
+    "b7"
+   ],
+   "id_global": "1ksOozBYk8g#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Bend da raiz para a terça maior",
+   "descricao": "Na posição com a raiz, fazer bend para a terça maior e descer para a pentatônica menor.",
+   "passos": [
+    "Tocar a raiz na posição",
+    "Bendar para a terça maior",
+    "Descer para a pentatônica menor"
+   ],
+   "timestamp": "03:58",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "raiz",
+    "terça",
+    "pentatônica"
+   ],
+   "id_global": "1ksOozBYk8g#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Dominante com quarta e terça (sus4)",
+   "descricao": "Partindo de R-b7-3 e fazendo bend da quarta até a quinta, obtém-se um dominante com quarta e terça, com sonoridade de Jerry Garcia ou dos Beatles.",
+   "passos": [],
+   "timestamp": "04:36",
+   "nivel": "intermediario",
+   "tags": [
+    "sus4",
+    "dominante",
+    "bend"
+   ],
+   "id_global": "1ksOozBYk8g#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Notas vizinhas de meio tom antes de cada nota do arpejo",
+   "descricao": "Para dar movimento, entrar em cada nota inicial do arpejo a partir de um meio tom acima ou abaixo, como nota vizinha.",
+   "passos": [
+    "Escolher a nota inicial do arpejo",
+    "Tocar uma nota a meio tom dela",
+    "Resolver na nota do arpejo"
+   ],
+   "timestamp": "05:10",
+   "nivel": "intermediario",
+   "tags": [
+    "notas vizinhas",
+    "meio tom",
+    "arpejo"
+   ],
+   "id_global": "1ksOozBYk8g#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Movimento harmônico com diminuto",
+   "descricao": "Usar um diminuto nas passagens dá um pouco de movimento harmônico ao fraseado sobre o dominante.",
+   "passos": [],
+   "timestamp": "05:10",
+   "nivel": "avancado",
+   "tags": [
+    "diminuto",
+    "movimento harmônico"
+   ],
+   "id_global": "1ksOozBYk8g#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Sus4 como colorido sobre dominante",
+   "descricao": "Adicionar a quarta ao acorde dominante, criando um sus4, dá uma sonoridade interessante e melódica.",
+   "passos": [],
+   "timestamp": "05:42",
+   "nivel": "intermediario",
+   "tags": [
+    "sus4",
+    "colorido",
+    "dominante"
+   ],
+   "id_global": "1ksOozBYk8g#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Add4 sobre acorde maior",
+   "descricao": "Sobre um acorde maior, tocar a quarta como add4 dá um pouco mais de interesse melódico.",
+   "passos": [],
+   "timestamp": "06:21",
+   "nivel": "intermediario",
+   "tags": [
+    "add4",
+    "colorido",
+    "melodia"
+   ],
+   "id_global": "1ksOozBYk8g#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Tríades diminutas espalhadas resolvendo",
+   "descricao": "Usar tríades diminutas espalhadas (1, b5, b3) e resolvê-las nas notas do acorde; por exemplo, subir uma terça menor até a quinta e depois resolver na sétima menor.",
+   "passos": [
+    "Tocar a tríade diminuta espalhada 1-b5-b3",
+    "Subir uma terça menor",
+    "Resolver na quinta",
+    "Resolver na sétima menor"
+   ],
+   "timestamp": "07:03",
+   "nivel": "avancado",
+   "tags": [
+    "tríade diminuta",
+    "resolução",
+    "notas-alvo"
+   ],
+   "id_global": "1ksOozBYk8g#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "erro_comum",
+   "titulo": "Tocar notas ruins ao vagar pela escala",
+   "descricao": "Ao usar mixolídio sem foco, é fácil tocar notas que não funcionam sobre o acorde por acidente, por apenas andar pela escala.",
+   "passos": [],
+   "timestamp": "07:37",
+   "nivel": "iniciante",
+   "tags": [
+    "mixolídio",
+    "notas-alvo",
+    "erro"
+   ],
+   "id_global": "1ksOozBYk8g#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Aprender onde estão as notas do acorde",
+   "descricao": "Localizar no braço as notas do acorde, principalmente terça e sétima, para que as frases soem intencionais.",
+   "passos": [],
+   "timestamp": "08:08",
+   "nivel": "iniciante",
+   "tags": [
+    "notas do acorde",
+    "terça",
+    "sétima"
+   ],
+   "id_global": "1ksOozBYk8g#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Combinar mixolídio com arpejos",
+   "descricao": "Usar o mixolídio junto com arpejos, pulando entre as notas do acorde, para criar linhas mais interessantes.",
+   "passos": [],
+   "timestamp": "08:08",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "arpejo",
+    "linhas"
+   ],
+   "id_global": "1ksOozBYk8g#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Escala como lançamento para arpejo de dominante com nona",
+   "descricao": "Usar a escala para entrar no arpejo de dominante com nona, em vez de tocar só escalas, deixa a improvisação mais interessante.",
+   "passos": [],
+   "timestamp": "08:40",
+   "nivel": "avancado",
+   "tags": [
+    "dominante nona",
+    "arpejo",
+    "escala"
+   ],
+   "id_global": "1ksOozBYk8g#I21"
+  }
+ ],
+ "artistas_citados": [
+  "Rick Beato",
+  "Allman Brothers",
+  "Jerry Garcia",
+  "Peter Frampton",
+  "The Beatles"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Livro de Rick Beato (mencionado no vídeo)",
+  "Site rickbeato.com (transcrito como rickbeater.com)",
+  "Programa de treino de ouvido de Rick Beato (transcrito como beautiertraining.com)",
+  "Instagram @rickbeat01",
+  "Clube de membros do canal"
+ ],
+ "observacoes": "Legenda automática com erros: 'rick piatto' é Rick Beato, 'biato' é Beato, 'almond brother' é Allman Brothers, 'beetles' é Beatles, 'rickbeater.com' provavelmente é rickbeato.com e 'beautiertraining.com' é o site de treino de ouvido. Vários exemplos dependem de ver o braço e a tablatura (posições, inversões e bends), o que o transcript não mostra. A parte sobre sus4 e add4 mistura nomes de acordes (E minor / major com sus4) de forma confusa, então os timestamps 05:42 e 06:21 foram interpretados com cautela. A descrição do vídeo lista apoiadores, que não têm valor didático.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:26:32",
+  "tentativas": 1,
+  "custo_usd": 0.00485,
+  "via": "api"
+ }
+}

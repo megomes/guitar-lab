@@ -1,0 +1,536 @@
+{
+ "fonte_id": "2OxHReoGIqs",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=2OxHReoGIqs",
+  "idioma": "en",
+  "duracao": "8m 58s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/2OxHReoGIqs--the-jazz-chord-rules-every-pro-knows-but-nobody-teaches.md"
+ },
+ "resumo": "Aula curta de Jens Larsen sobre três regras de harmonia para standards de jazz: pensar na tonalidade (campo harmônico de Dó maior), agrupar acordes em blocos como o ii-V-I em vez de decorar acorde por acorde, e reconhecer dominantes secundárias que puxam para acordes fora do centro tonal. Indicada para quem está começando no jazz e já domina acordes básicos no braço. Não ensina improvisação diretamente, mas dá base para comping e leitura de lead sheets.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo organizado em três regras claras, com exemplos harmônicos concretos (Am7-D7-G7-Cmaj7 etc.) e analogias úteis. Perde pontos por ser superficial em shapes e voicings, por depender de ver o braço e a partitura para acompanhar as sequências e por ter várias falhas de legenda automática."
+ },
+ "assuntos_principais": [
+  "campo harmônico maior",
+  "tonalidade",
+  "shapes de acordes com raiz na 5ª e 6ª cordas",
+  "chunking de progressões",
+  "ii-V-I",
+  "progressões comuns (turnaround, ii-V menor, iv-iv)",
+  "dominantes secundárias",
+  "ii-V secundário"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e promessa das três regras",
+   "inicio": "00:00",
+   "fim": "00:28",
+   "resumo": "Apresentação do problema de ler um chart de jazz e anúncio das três regras.",
+   "assuntos": [
+    "motivação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Regra 1: a tonalidade",
+   "inicio": "00:28",
+   "fim": "01:09",
+   "resumo": "A maioria dos acordes de um standard pertence a uma tonalidade. Em Dó maior, Cmaj7 é a casa e G7 é a tensão que quer resolver. Analogia com personagens de série.",
+   "assuntos": [
+    "tonalidade",
+    "função tonal",
+    "Dó maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Aprendendo a família de acordes da tonalidade",
+   "inicio": "01:09",
+   "fim": "01:55",
+   "resumo": "Exercício de tocar os sete acordes do campo harmônico de Dó maior em tempo, com um acorde por tempo ou dois tempos, para internalizar a ordem e o som.",
+   "assuntos": [
+    "campo harmônico",
+    "exercício de tempo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Shapes com a raiz na sexta corda e mapa do braço",
+   "inicio": "01:55",
+   "fim": "02:53",
+   "resumo": "Começar no shape mais grave disponível e subir o braço, sem partir sempre da raiz, para ter um mapa da tonalidade no braço.",
+   "assuntos": [
+    "shapes",
+    "raiz na 6ª corda",
+    "mapa do braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Sequência prática com shapes e a dominante extra E7",
+   "inicio": "02:53",
+   "fim": "03:40",
+   "resumo": "Sequência de Am7 a Am7 passando por Dm7, G7, Cmaj7, Fmaj7, Bm7♭5 e E7, com E7 como dominante extra que puxa para Am7.",
+   "assuntos": [
+    "sequência harmônica",
+    "E7 como dominante extra"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Regra 2: pensar em blocos (chunking)",
+   "inicio": "03:40",
+   "fim": "04:09",
+   "resumo": "Em vez de decorar acorde por acorde, agrupar símbolos em padrões conhecidos, como ler palavras em vez de letras.",
+   "assuntos": [
+    "chunking",
+    "mentalidade de leitura"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "ii-V-I e exemplo no standard Solar",
+   "inicio": "04:09",
+   "fim": "05:00",
+   "resumo": "O ii-V-I como progressão mais importante do jazz. Exemplo em Solar com ii-V-I em Fá, Mi♭ e Ré♭ e um ii-V menor para Dó menor.",
+   "assuntos": [
+    "ii-V-I",
+    "Solar",
+    "ii-V menor",
+    "chunking"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Outros chunks comuns",
+   "inicio": "05:00",
+   "fim": "06:24",
+   "resumo": "Turnaround I-VI7-ii-V, ii-V menor em Dó menor e a progressão iv-iv menor, com a orientação de tratar cada chunk como um movimento único.",
+   "assuntos": [
+    "turnaround",
+    "ii-V menor",
+    "iv-iv menor",
+    "chunking"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Regra 3: dominantes secundárias",
+   "inicio": "06:24",
+   "fim": "07:11",
+   "resumo": "Definição de dominante secundária como um acorde dominante que resolve em um acorde que não é o I da tonalidade.",
+   "assuntos": [
+    "dominante secundária",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Como identificar dominantes secundárias",
+   "inicio": "07:11",
+   "fim": "07:37",
+   "resumo": "Pergunte para qual acorde a dominante fora de tom está indo; geralmente resolve descendo uma 5ª ou subindo uma 4ª.",
+   "assuntos": [
+    "identificação",
+    "resolução por 5ª descendente"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "ii-V secundário e exemplos em Fly Me to the Moon",
+   "inicio": "07:37",
+   "fim": "08:42",
+   "resumo": "Acrescentar o ii antes da dominante secundária; o tipo do ii depende do alvo (maior ou menor). Exemplos com Bm7♭5-E7-Am7 e Gm7-C7-Fmaj7.",
+   "assuntos": [
+    "ii-V secundário",
+    "Fly Me to the Moon",
+    "ii-V maior e menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Despedida e chamada para o próximo vídeo",
+   "inicio": "08:42",
+   "fim": "08:58",
+   "resumo": "Anúncio do método Joe Pass para montar acordes com shell voicings e pedido de like e Patreon.",
+   "assuntos": [
+    "promoção",
+    "Joe Pass"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Identificar a tonalidade antes dos acordes",
+   "descricao": "Antes de decorar os acordes de um standard, descubra a tonalidade. A maior parte dos acordes pertence a ela. Em Dó maior, Cmaj7 é o centro de repouso e G7 é a tensão que quer voltar para casa.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidade",
+    "função tonal",
+    "campo harmônico"
+   ],
+   "id_global": "2OxHReoGIqs#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Tocar o campo harmônico de Dó maior em tempo",
+   "descricao": "Tocar os sete acordes do campo harmônico de Dó maior (Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7♭5) com shapes de raiz na 5ª corda, um acorde por tempo ou dois tempos, para internalizar a ordem e o som.",
+   "passos": [
+    "Escolher shapes de raiz na 5ª corda para cada acorde do campo harmônico",
+    "Tocar Cmaj7, Dm7, Em7, Fmaj7, G7, Am7 e Bm7♭5 em ordem com metrônomo",
+    "Repetir com um acorde por tempo e depois com dois tempos por acorde"
+   ],
+   "timestamp": "01:09",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "shapes",
+    "corda 5",
+    "metrônomo"
+   ],
+   "id_global": "2OxHReoGIqs#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Shapes com raiz na 6ª corda",
+   "descricao": "Repetir a sequência do campo harmônico usando shapes com a raiz na 6ª corda, começando no shape mais grave disponível e subindo o braço, sem partir obrigatoriamente da raiz.",
+   "passos": [
+    "Encontrar o shape mais grave disponível para cada acorde da sequência (raiz na 6ª corda)",
+    "Subir o braço escolhendo o primeiro shape disponível a partir da posição atual",
+    "Tocar a sequência de Am7 a Am7 sem pular pelo braço"
+   ],
+   "timestamp": "02:15",
+   "nivel": "intermediario",
+   "tags": [
+    "raiz na 6ª corda",
+    "shapes",
+    "movimento no braço"
+   ],
+   "id_global": "2OxHReoGIqs#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Mapa do braço por acordes da tonalidade",
+   "descricao": "Ter o campo harmônico mapeado no braço permite reconhecer a posição do próximo acorde sem contar casas a partir da raiz, o que evita sensação de labirinto no braço.",
+   "passos": [],
+   "timestamp": "02:20",
+   "nivel": "iniciante",
+   "tags": [
+    "mapa do braço",
+    "fretboard",
+    "acordes diatônicos"
+   ],
+   "id_global": "2OxHReoGIqs#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Sequência Am7-Dm7-G7-Cmaj7-Fmaj7-Bm7♭5-E7-Am7",
+   "descricao": "Sequência que percorre o campo harmônico de Dó maior em movimento de quintas, começando e terminando em Am7 com a raiz na 6ª corda. Inclui E7, que não pertence ao campo de Dó maior.",
+   "passos": [
+    "Tocar Am7 com raiz na 6ª corda",
+    "Seguir para Dm7, G7, Cmaj7, Fmaj7 e Bm7♭5 em shapes próximos",
+    "Tocar E7 antes de voltar a Am7"
+   ],
+   "timestamp": "02:53",
+   "nivel": "intermediario",
+   "tags": [
+    "sequência harmônica",
+    "movimento de quintas",
+    "campo harmônico"
+   ],
+   "id_global": "2OxHReoGIqs#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "E7 como dominante extra que puxa para Am7",
+   "descricao": "E7 não pertence ao campo harmônico de Dó maior. É uma dominante extra que resolve em Am7 (E7 é o V de Am7) e soa natural no contexto.",
+   "passos": [],
+   "timestamp": "03:00",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante extra",
+    "E7",
+    "resolução",
+    "Am7"
+   ],
+   "id_global": "2OxHReoGIqs#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Pensar em blocos de progressão, não em acordes isolados",
+   "descricao": "Agrupar acordes em progressões conhecidas (chunking) em vez de memorizar acorde por acorde. É como ler palavras em vez de soletrar letra por letra.",
+   "passos": [],
+   "timestamp": "03:40",
+   "nivel": "iniciante",
+   "tags": [
+    "chunking",
+    "leitura de harmonia",
+    "mentalidade"
+   ],
+   "id_global": "2OxHReoGIqs#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "ii-V-I como a progressão mais importante do jazz",
+   "descricao": "O ii-V-I (por exemplo Dm7-G7-Cmaj7 em Dó maior) é o bloco mais comum do jazz. Reconhecê-lo em qualquer tonalidade faz muitos standards deixarem de ser aleatórios.",
+   "passos": [],
+   "timestamp": "04:09",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V-I",
+    "progressão",
+    "chunking"
+   ],
+   "id_global": "2OxHReoGIqs#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Reconhecer ii-V-I em Solar",
+   "descricao": "Em Solar, há ii-V-I em Fá maior, depois em Mi♭ maior, depois em Ré♭ maior, e por fim um ii-V menor (Dm7♭5-G7) resolvendo em Cm6. Identificar cada bloco em vez de ler doze acordes separados.",
+   "passos": [
+    "Localizar o ii-V-I em Fá maior na sequência do standard",
+    "Identificar o ii-V-I em Mi♭ maior e em Ré♭ maior",
+    "Reconhecer o ii-V menor que termina em Cm6"
+   ],
+   "timestamp": "04:37",
+   "nivel": "intermediario",
+   "tags": [
+    "Solar",
+    "ii-V-I",
+    "ii-V menor",
+    "análise de standard"
+   ],
+   "id_global": "2OxHReoGIqs#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Reconhecer a linguagem, não decorar lista",
+   "descricao": "Não tentar decorar uma lista gigante de chunks de uma vez. Reconhecê-los nas músicas que você toca, pois é assim que eles se fixam de forma musical e não teórica.",
+   "passos": [],
+   "timestamp": "04:50",
+   "nivel": "iniciante",
+   "tags": [
+    "estudo",
+    "chunking",
+    "prática musical"
+   ],
+   "id_global": "2OxHReoGIqs#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Turnaround I-VI7-ii-V",
+   "descricao": "Turnaround clássico Cmaj7-A7-Dm7-G7: o A7 é dominante que leva a Dm7 e depois a G7. Tratar as quatro notas como um único movimento.",
+   "passos": [],
+   "timestamp": "05:13",
+   "nivel": "iniciante",
+   "tags": [
+    "turnaround",
+    "A7",
+    "dominante secundária"
+   ],
+   "id_global": "2OxHReoGIqs#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "ii-V menor em Dó menor",
+   "descricao": "ii-V menor em Dó menor: Dm7♭5 resolve em G7, que resolve em Cm6. É a versão menor do ii-V-I.",
+   "passos": [],
+   "timestamp": "05:30",
+   "nivel": "intermediario",
+   "tags": [
+    "ii-V menor",
+    "Dó menor",
+    "Cm6"
+   ],
+   "id_global": "2OxHReoGIqs#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Progressão iv-iv menor em Dó maior",
+   "descricao": "Sequência Fmaj7-Fm6-Cmaj7: o IV maior vai para uma versão menor do mesmo acorde (Fm6) e depois retorna ao Cmaj7. Variação bonita do chunk de quarto grau.",
+   "passos": [],
+   "timestamp": "05:45",
+   "nivel": "intermediario",
+   "tags": [
+    "iv-iv menor",
+    "Fm6",
+    "Cmaj7"
+   ],
+   "id_global": "2OxHReoGIqs#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Tocar o chunk como um movimento",
+   "descricao": "Ao reconhecer uma progressão comum, tratá-la como uma unidade e não como três ou quatro acordes separados. Quanto mais standards você conhece, mais fácil fica tocar comping.",
+   "passos": [],
+   "timestamp": "06:00",
+   "nivel": "intermediario",
+   "tags": [
+    "comping",
+    "standards",
+    "chunking"
+   ],
+   "id_global": "2OxHReoGIqs#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Dominante secundária",
+   "descricao": "Dominante secundária é um acorde dominante que resolve em um acorde da tonalidade que não é o I. Não muda a tonalidade, apenas cria movimento para frente. Em Fly Me to the Moon, E7 é o V de Am7.",
+   "passos": [],
+   "timestamp": "06:33",
+   "nivel": "iniciante",
+   "tags": [
+    "dominante secundária",
+    "resolução",
+    "Fly Me to the Moon"
+   ],
+   "id_global": "2OxHReoGIqs#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Identificar dominante secundária na partitura",
+   "descricao": "Ao ver um acorde dominante que parece estar fora da tonalidade, pergunte para qual acorde ele está indo. Geralmente resolve descendo uma 5ª ou subindo uma 4ª, como E7 para Am7 e A7 para Dm7.",
+   "passos": [],
+   "timestamp": "07:11",
+   "nivel": "iniciante",
+   "tags": [
+    "identificação",
+    "resolução por 5ª",
+    "chart reading"
+   ],
+   "id_global": "2OxHReoGIqs#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "ii-V antes da dominante secundária",
+   "descricao": "Ao colocar o ii antes da dominante secundária, forma-se um ii-V completo. Se o alvo for maior, o ii é menor (ii-V maior); se o alvo for menor, o ii é meio-diminuto (ii-V menor).",
+   "passos": [],
+   "timestamp": "07:50",
+   "nivel": "intermediario",
+   "tags": [
+    "ii-V secundário",
+    "ii-V maior",
+    "ii-V menor"
+   ],
+   "id_global": "2OxHReoGIqs#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "ii-V secundários em Fly Me to the Moon",
+   "descricao": "Em Fly Me to the Moon há Bm7♭5-E7-Am7 (ii-V menor para Am7) e Gm7-C7-Fmaj7 (ii-V maior para o IV, Fmaj7).",
+   "passos": [
+    "Tocar Bm7♭5-E7-Am7 e sentir a resolução",
+    "Tocar Gm7-C7-Fmaj7 e comparar com o anterior",
+    "Identificar qual ii é menor e qual é maior pelo alvo"
+   ],
+   "timestamp": "08:10",
+   "nivel": "intermediario",
+   "tags": [
+    "Fly Me to the Moon",
+    "ii-V menor",
+    "ii-V maior",
+    "IV"
+   ],
+   "id_global": "2OxHReoGIqs#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S11",
+   "tipo": "mentalidade",
+   "titulo": "Antecipar para onde vai o acorde fora de tom",
+   "descricao": "Quando você sabe para onde uma dominante fora de tom está indo, deixa de se surpreender com ela e entende seu papel na música.",
+   "passos": [],
+   "timestamp": "08:27",
+   "nivel": "iniciante",
+   "tags": [
+    "dominante secundária",
+    "análise",
+    "mentalidade"
+   ],
+   "id_global": "2OxHReoGIqs#I19"
+  }
+ ],
+ "artistas_citados": [
+  "Joe Pass"
+ ],
+ "musicas_citadas": [
+  "Fly Me to the Moon",
+  "Solar"
+ ],
+ "recursos_citados": [
+  "The Jazz Guitar Roadmap (curso online do autor)",
+  "The Jazz Chord Craftsmanship (curso do autor)",
+  "Modern Jazz Guitar Concepts (livro do autor, citado na descrição)",
+  "PDF gratuito com exercícios do vídeo (site do autor)",
+  "GuitarPro e PDF no Patreon (citados na descrição)",
+  "E-book gratuito com 15 licks ii-V-I (citado na descrição)",
+  "Real Book (citado como fonte de charts)"
+ ],
+ "observacoes": "Legenda automática com vários erros. 'D afterminutes' corresponde a Dm7♭5 e 'Fly me' é Fly Me to the Moon. A sequência 'G, V, one, T, four, R' é ininteligível e não foi reproduzida. O trecho 'the 4 to 4 minor' foi interpretado como Fmaj7-Fm6-Cmaj7, conforme o contexto. A progressão de Solar (ii-V sobre Fá, Mi♭ e Ré♭) não é mostrada com todos os acordes no transcript, então os detalhes dependem da fala do professor. O conteúdo depende de ver o PDF ou a partitura para acompanhar os shapes e as sequências, e o vídeo não mostra tablatura no transcript. Pelo transcript, 'Solar' e 'Fly Me to the Moon' são standards citados, sem análise completa de acordes.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00332,
+  "via": "api"
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "fonte_id": "owIXWf9_0Ok",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "seu improviso melhora 200% NA MESMA HORA q vc faz isso #guitar #shorts",
+  "autor": "Gu Pedrico",
+  "url": "https://www.youtube.com/watch?v=owIXWf9_0Ok",
+  "idioma": "pt",
+  "duracao": "1m 1s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/owIXWf9_0Ok--seu-improviso-melhora-200-na-mesma-hora-q-vc-faz-isso-guitar-shorts.md"
+ },
+ "resumo": "Short de 1 minuto do Gu Pedrico alertando que confiar demais em shapes de pentatônica aprendidos no YouTube leva a tocar notas aleatórias dentro do desenho. A solução proposta é escolher apenas 3 ou 4 notas do shape e criar as melhores melodias possíveis com elas, usando técnicas de expressão para desenvolver a criatividade. Voltado a iniciantes e intermediários que ficam presos ao shape.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Dica curta e útil, com exercício claro de limitação de notas, mas sem especificar quais notas, tonalidade, BPM ou técnicas de expressão."
+ },
+ "assuntos_principais": [
+  "shapes de pentatônica",
+  "limitação de notas",
+  "melodia",
+  "técnicas de expressão",
+  "criatividade"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Erro do shape e exercício com poucas notas",
+   "inicio": "00:00",
+   "fim": "01:01",
+   "resumo": "Explica que confiar demais no shape leva a notas aleatórias e propõe restringir-se a 3–4 notas, fazendo as melhores melodias com técnicas de expressão.",
+   "assuntos": [
+    "shape",
+    "limitação de notas",
+    "expressão",
+    "criatividade"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Confiar demais no shape e tocar notas aleatórias",
+   "descricao": "Ao estudar improviso, o erro é confiar demais em shapes aprendidos no YouTube (ex.: pentatônica menor de Lá) e ficar tocando notas aleatórias dentro dele. O shape sozinho não faz música; é só um mapa de notas.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "shape",
+    "pentatônica",
+    "erro comum",
+    "notas aleatórias"
+   ],
+   "id_global": "owIXWf9_0Ok#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com apenas 3 ou 4 notas do shape",
+   "descricao": "Escolha só quatro notas (ou até três) do shape e crie as melhores melodias que conseguir apenas com elas. A limitação força a pensar em melodia e fraseado em vez de percorrer o shape.",
+   "passos": [
+    "Escolha 4 notas do shape da pentatônica (3 já bastam)",
+    "Improvise usando somente essas notas, de preferência sobre um backing track",
+    "Busque a melhor melodia possível com elas, priorizando musicalidade"
+   ],
+   "timestamp": "00:20",
+   "nivel": "iniciante",
+   "tags": [
+    "limitação",
+    "pentatônica",
+    "melodia",
+    "exercício"
+   ],
+   "id_global": "owIXWf9_0Ok#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Use técnicas de expressão para variar com poucas notas",
+   "descricao": "Com notas limitadas, use técnicas de expressão (bends, vibrato, slides, dinâmica etc.) para dar vida às frases. Isso desenvolve a criatividade em vez de depender de mais notas.",
+   "passos": [],
+   "timestamp": "00:45",
+   "nivel": "iniciante",
+   "tags": [
+    "expressão",
+    "criatividade",
+    "técnica"
+   ],
+   "id_global": "owIXWf9_0Ok#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Menos notas, mais criatividade",
+   "descricao": "Melhorar o improviso não é saber mais shapes, e sim extrair mais música de poucas notas. A restrição estimula criatividade e melodias mais intencionais.",
+   "passos": [],
+   "timestamp": "00:37",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "criatividade",
+    "menos é mais"
+   ],
+   "id_global": "owIXWf9_0Ok#I04"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [],
+ "observacoes": "Transcrição curta e truncada pela fala rápida. \"Shapin ok lá menor\" interpretado como \"shape da pentatônica menor de Lá\". As técnicas de expressão (bend, vibrato etc.) são exemplos meus, não citados explicitamente. O vídeo mostra o exemplo tocado, que não está no texto.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:07",
+  "tentativas": 1,
+  "custo_usd": 0.187
+ }
+}

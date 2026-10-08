@@ -25,6 +25,7 @@ import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
 import { QuizView } from './quiz/QuizView'
+import { SolosView } from './solos/SolosView'
 import { Nav, TabBar } from './Shell'
 
 export function GuitarLab() {
@@ -130,7 +131,9 @@ export function GuitarLab() {
   }, [])
 
   const context =
-    mode === 'quiz'
+    mode === 'solos'
+      ? 'Solo e improvisação'
+      : mode === 'quiz'
       ? `${settings.quizPcs.length} notas · ${settings.quizStrings.length} cordas`
       : group === 'treino'
       ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
@@ -163,6 +166,7 @@ export function GuitarLab() {
         {mode === 'chords2' && <ChordsV2 settings={settings} set={set} />}
         {group === 'consulta' && mode !== 'chords2' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
+        {mode === 'solos' && <SolosView />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
         {mode === 'plan' && (

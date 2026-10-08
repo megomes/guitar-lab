@@ -1,0 +1,249 @@
+{
+ "fonte_id": "Cy_c2InwkSk",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+  "autor": "DIME Group - Music Courses, Classes & Programs",
+  "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk",
+  "idioma": "en",
+  "duracao": "5m 10s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/Cy_c2InwkSk--guthrie-govan-on-the-profound-effect-of-intervals.md"
+ },
+ "resumo": "Guthrie Govan explica que notas fora do acorde e fora da pentatônica soam de forma muito diferente conforme o modo, usando Dórico e Frígio sobre um backing track simples. Mostra que as notas \"ofensivas\" do Frígio exigem cuidado: tocadas rápido passam, mas em notas longas soam erradas. Defende aprender a escala para saber o quão tensas são suas notas e usá-las com responsabilidade. Propõe pensar as notas como um espectro (da mais óbvia à mais dissonante) em vez de certas/erradas. Voltado a guitarristas intermediários que querem escolher notas com mais intenção.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito muito valioso e bem explicado, mas é um trecho curto de uma entrevista maior, sem exercícios estruturados e dependente de ouvir os exemplos tocados."
+ },
+ "assuntos_principais": [
+  "notas fora do acorde",
+  "modo frígio",
+  "modo dórico",
+  "tensão e dissonância",
+  "pentatônica menor",
+  "blue note",
+  "espectro de notas",
+  "escolha de notas"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Notas fora do acorde e o efeito do modo (Dórico vs Frígio)",
+   "inicio": "00:01",
+   "fim": "02:34",
+   "resumo": "Govan mostra que o efeito das notas fora do acorde depende do modo. Compara o Dórico com o Frígio, mais escuro por ter duas notas bemolizadas extras, que ficam fora da caixa da pentatônica.",
+   "assuntos": [
+    "dórico",
+    "frígio",
+    "notas fora do acorde",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Tratar notas tensas com cuidado e responsabilidade",
+   "inicio": "02:34",
+   "fim": "03:40",
+   "resumo": "As notas extras do Frígio exigem cuidado ao serem sustentadas. A escala não engana: é preciso conhecer a tensão de cada nota para usá-la bem. Mesmo na pentatônica há notas mais tensas, e o vocabulário de blues lida com isso resolvendo a tensão.",
+   "assuntos": [
+    "tensão",
+    "resolução",
+    "pentatônica",
+    "vocabulário de blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Blue note, nota de passagem e o espectro de notas",
+   "inicio": "03:40",
+   "fim": "05:10",
+   "resumo": "A b5 da escala de blues como nota de passagem, e a proposta de trocar a divisão certo/errado por um espectro de notas, todas válidas se você souber o som que geram sobre o acorde.",
+   "assuntos": [
+    "escala de blues",
+    "b5",
+    "nota de passagem",
+    "espectro de notas"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O efeito de uma nota fora do acorde depende do modo",
+   "descricao": "Uma mesma nota que não está no acorde nem na pentatônica soa diferente conforme o modo em uso. Notas do Dórico, como as usadas sobre um backing track de acorde menor, soam relativamente suaves. Já notas de outro modo menor, como o Frígio, têm outro caráter.",
+   "passos": [],
+   "timestamp": "00:01",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "dórico",
+    "frígio",
+    "notas fora do acorde"
+   ],
+   "id_global": "Cy_c2InwkSk#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Explorar as notas fora da pentatônica sobre um backing track simples",
+   "descricao": "Govan toca sobre um backing track de acorde menor simples, deliberadamente passando tempo nas notas surpreendentes que não estão no acorde nem na pentatônica, para ouvir o efeito de cada uma.",
+   "passos": [
+    "Ponha um backing track simples de um acorde menor.",
+    "Toque a pentatônica menor como base.",
+    "Escolha as notas do modo que ficam fora do acorde e da pentatônica.",
+    "Pare nelas, sem só passar, e ouça o efeito de cada uma.",
+    "Repita com Dórico e depois com Frígio, comparando."
+   ],
+   "timestamp": "00:39",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "dórico",
+    "notas-alvo",
+    "ouvido"
+   ],
+   "id_global": "Cy_c2InwkSk#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Frígio é bem mais escuro que o Dórico",
+   "descricao": "O Frígio, sobre Lá menor no exemplo, é muito mais escuro por ter duas notas bemolizadas a mais que o Dórico. Dentro da caixa da pentatônica, as notas extras do Frígio são duas notas específicas que ficam fora dela. Elas são legítimas pela fórmula do modo, mas soam mais ofensivas.",
+   "passos": [],
+   "timestamp": "01:13",
+   "nivel": "intermediario",
+   "tags": [
+    "frígio",
+    "pentatônica",
+    "caixa",
+    "notas fora da escala"
+   ],
+   "id_global": "Cy_c2InwkSk#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Notas tensas passam em velocidade, mas pedem cuidado em notas longas",
+   "descricao": "Tocando muitas das notas ofensivas do Frígio em passagens rápidas, sem se demorar em nenhuma, o resultado soa aceitável. Ao desacelerar ou sustentar uma delas, é preciso cuidado extra, porque são notas de 'manusear com cuidado' e podem soar erradas.",
+   "passos": [],
+   "timestamp": "01:46",
+   "nivel": "intermediario",
+   "tags": [
+    "frígio",
+    "tensão",
+    "fraseado",
+    "velocidade"
+   ],
+   "id_global": "Cy_c2InwkSk#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Aprenda a escala para saber o quão desagradáveis são suas notas",
+   "descricao": "A escala não engana nem desperdiça seu tempo. Ao aprender um modo, você descobre o quão desagradáveis algumas notas são, e assim pode usá-las com responsabilidade em vez de evitá-las ou usá-las sem critério.",
+   "passos": [],
+   "timestamp": "02:34",
+   "nivel": "intermediario",
+   "tags": [
+    "escalas",
+    "modos",
+    "tensão",
+    "mentalidade"
+   ],
+   "id_global": "Cy_c2InwkSk#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Mesmo na pentatônica menor há notas mais tensas que outras",
+   "descricao": "Até quem só toca a pentatônica menor percebe, por instinto, que algumas notas são mais tensas. Por isso a maioria acaba com um vocabulário de blues em que não se fica suspenso na nota tensa e para: segue-se com algo que a resolva.",
+   "passos": [],
+   "timestamp": "03:07",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "tensão",
+    "blues",
+    "resolução"
+   ],
+   "id_global": "Cy_c2InwkSk#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Depois de uma nota tensa, siga com uma resolução",
+   "descricao": "Ao tocar uma nota tensa num lick, não a deixe suspensa e pare, como se estivesse satisfeito. Faça a frase continuar para outra nota que dê sentido ao que veio antes.",
+   "passos": [],
+   "timestamp": "03:07",
+   "nivel": "iniciante",
+   "tags": [
+    "resolução",
+    "licks",
+    "blues",
+    "fraseado"
+   ],
+   "id_global": "Cy_c2InwkSk#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "A b5 da escala de blues como nota de passagem",
+   "descricao": "A escala de blues acrescenta à pentatônica menor a b5, conhecida no metal como a nota de Satanás. Govan diz que a escala de blues é um jeito teórico ocidental e preguiçoso de aproximar as blue notes, que vêm de uma cultura com outra divisão da oitava. Usada como nota de passagem num lick de blues, a b5 soa como quem sabe o que faz; parada, soa como erro.",
+   "passos": [],
+   "timestamp": "03:40",
+   "nivel": "intermediario",
+   "tags": [
+    "escala de blues",
+    "b5",
+    "nota de passagem",
+    "blue note"
+   ],
+   "id_global": "Cy_c2InwkSk#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Pense num espectro de notas, não em certas e erradas",
+   "descricao": "Em vez de dividir as notas entre as que estão na escala e as que não estão, imagine um espectro com a nota mais óbvia do mundo numa ponta e a mais hedionda na outra. Todas são válidas desde que você saiba o som que geram sobre o acorde em questão.",
+   "passos": [],
+   "timestamp": "04:15",
+   "nivel": "intermediario",
+   "tags": [
+    "escolha de notas",
+    "dissonância",
+    "mentalidade",
+    "improvisação"
+   ],
+   "id_global": "Cy_c2InwkSk#I09"
+  }
+ ],
+ "artistas_citados": [
+  "Guthrie Govan"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "DIME Online (cursos)"
+ ],
+ "observacoes": "Trecho curto de entrevista de 2014, com transcrição automática falha e várias lacunas (sem falas durante os exemplos tocados). Não menciona quais casas ou notas exatas as notas do Frígio ocupam, pois dependem de ver o braço. A tonalidade parece ser Lá menor (\"a minor\"), mas a transcrição é incerta. \"Phrygian\" e \"Dorian\" aparecem com grafia correta; \"beckham\"/similares não ocorrem.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:18",
+  "tentativas": 1,
+  "custo_usd": 0.099
+ }
+}

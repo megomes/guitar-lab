@@ -1,0 +1,235 @@
+{
+ "subcategoria": "C12.4",
+ "visao_geral": "A subcategoria reúne a linguagem típica do bebop: linhas de colcheias e tercinas que caem em notas do acorde nos tempos fortes, a escala bebop com sua nota de passagem e o método de Barry Harris, que intercala escala e arpejo. Em seguida vêm as tensões de dominante (♭9, #9, #11, ♭13), a substituição por trítono, a técnica 3 to ♭9 e o blues de bebop. Fecha com práticas da tradição: recriar solos com mais cromatismo e tensões e trocar quatro compassos com a bateria.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Impulso bebop: linhas que miram notas fortes",
+   "descricao": "No bebop, as linhas caminham em direção a notas-alvo fortes do acorde, colocadas nos tempos fortes. Isso dá um impulso rítmico e melódico característico, com direção e energia, parecido com as linhas densas de Bach. Ouvir solos de bebop ajuda a perceber como a progressão fica audível só pela linha.",
+   "passos": [
+    "Ouça um solo de bebop e identifique em que tempo caem as notas do acorde",
+    "Escolha uma nota-alvo do próximo acorde",
+    "Construa uma linha de colcheias que chegue nela no tempo 1"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "7mpVem0mrQE#I14",
+    "EMQydbilqmo#I24",
+    "iWm_dxEszu0#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "mentalidade",
+   "titulo": "Tercinas como parte do som do jazz",
+   "descricao": "Arpejos tocados em tercina fazem parte do vocabulário jazzístico, como se ouve em Charlie Parker. Use-os de propósito dentro das linhas de colcheias, e não como acidente rítmico.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Md9ZC0qFK3s#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Escala bebop dominante",
+   "descricao": "Sobre C7, a escala bebop dominante é C D E F G A B♭ B C: o mixolídio com a 7ª maior (B) acrescentada como nota de passagem. Com isso, a escala passa a ter 8 notas, e em colcheias as notas do acorde caem nos tempos. O B natural deve cair sempre no contratempo, nunca no tempo forte.",
+   "passos": [
+    "Toque C D E F G A B♭ B C em colcheias, partindo da fundamental no tempo",
+    "Confira se C, E, G e B♭ caem nos tempos",
+    "Desça a escala mantendo o B no contratempo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I37"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Notas de partida das linhas bebop",
+   "descricao": "Em linhas ascendentes de colcheias, comece no tempo forte em 1, 3, 5 ou ♭7. Em descendentes, comece em 1, ♭7, 5 ou 3. Todas são notas do acorde, o que mantém o B (a passagem) no contratempo. Se começar em 2, 4 ou 6, insira uma nota de passagem para recolocar as notas do acorde nos tempos.",
+   "passos": [
+    "Sobre C7, suba a escala bebop a partir de E, depois G e depois B♭",
+    "Desça a partir de C, B♭, G e E",
+    "Comece em D e acrescente uma passagem cromática para corrigir o alinhamento"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I38"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Escalas bebop maior e meio-diminuta",
+   "descricao": "A bebop maior é 1-2-3-4-5-#5-6-7, ou seja, C D E F G G# A B C. A bebop meio-diminuta é 1-2-♭3-3-4-♭5-♭6-♭7: a escala de meio-diminuto com a 3ª maior entrando como passagem extra. Valem as mesmas regras da dominante: notas do acorde nos tempos e passagem no contratempo.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I39"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Método Barry Harris: arpejo nos tempos, escala entre eles",
+   "descricao": "Tocar a escala de cada acorde, com as notas do arpejo nos tempos e notas da escala entre elas, é prática atribuída a Barry Harris. Ela segue a ideia de Charlie Parker de usar escalas ligadas a cada acorde, incluindo tensões alteradas, com as notas do acorde como estrutura para o cromatismo. Harris costuma ignorar o ii de um ii-V e tocar só sobre o V.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "5hmSQuMIf-w#I09",
+    "en--jazz_improvisation-59a777#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "O texto original dizia 'V-ii'; o correto é a cadência ii-V, na qual Harris ignora o ii."
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Intercalar notas da escala no arpejo",
+   "descricao": "Pegue o arpejo do acorde e coloque, entre cada par de notas, a nota da escala que fica entre elas. O resultado são linhas fluidas e às vezes cromáticas que continuam soando a harmonia. Exemplo em Dm7: D (E) F (G) A (B) C.",
+   "passos": [
+    "Toque o arpejo de Dm7 (D F A C) em uma oitava",
+    "Insira a nota da escala entre cada par de notas do arpejo",
+    "Mantenha as notas do arpejo nos tempos fortes",
+    "Repita sobre G7 (G B D F) e Cmaj7 (C E G B)"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "9oAxHq-ZLwI#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Mirar as cores 9, 11 e 13 antes de resolver",
+   "descricao": "No bebop, a frase costuma mirar as tensões (9ª, 11ª e 13ª) e só resolver mais adiante, numa nota do acorde como a 7ª. Isso alonga a tensão dentro da linha.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--jazz_improvisation-59a777#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Dominante alterado e substituição por trítono",
+   "descricao": "No bebop, a 9ª do dominante pode ser ♭9 ou #9, a 11ª costuma ser #11 e a 13ª costuma ser ♭13. Em G7 isso dá A♭ (♭9), A# (#9), C# (#11) e E♭ (♭13). Tocando B, C#, E♭, F e A♭, sem fundamental e quinta, o som fica muito diferente do G7 de pop (G B D F). Outra forma de pensar: G7 e D♭7 compartilham o trítono B–F, então você pode pensar em D♭7 e usar o arpejo da 3ª dele, Fm7♭5 (F A♭ B E♭).",
+   "passos": [
+    "Toque G7 normal (G B D F) e depois B C# E♭ F A♭ sobre o mesmo acorde",
+    "Compare as duas sonoridades",
+    "Toque Fm7♭5 (F A♭ B E♭) sobre G7 resolvendo em C"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "en--jazz_improvisation-59a777#I10",
+    "en--jazz_improvisation-59a777#I21",
+    "Md9ZC0qFK3s#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "3 to ♭9 sobre o dominante",
+   "descricao": "Em um dominante, vá da 3ª até a ♭9, seja por salto direto, seja pelo arpejo diminuto 3-5-♭7-♭9. Sobre G7: B, D, F, A♭. O A♭ desce para G, e a resolução vem em C, uma quarta acima.",
+   "passos": [
+    "Sobre G7, toque a 3ª (B)",
+    "Salte até A♭ ou suba por B D F A♭",
+    "Deixe o A♭ descer para G",
+    "Resolva no acorde de C (por exemplo, na 3ª, E)"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "en--jazz_improvisation-59a777#I23"
+   ],
+   "divergencias": "",
+   "correcoes": "O arpejo diminuto usa a ♭7 (F) do G7, e não uma 7ª maior."
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Blues de bebop: IV7, #IV° e volta com V/ii",
+   "descricao": "O blues de bebop aparece em Now's the Time e Billie's Bounce (Parker) e em Tenor Madness (Rollins). Ele inclui o IV7, o #IV diminuto e uma volta com V/ii (com ♭9), ii7 e V7. Em Dó, a volta é A7♭9, Dm7 e G7. O clichê do solista é arpejar o A7♭9 da 3ª até a ♭9: C# E G B♭.",
+   "passos": [
+    "Toque a volta A7♭9 – Dm7 – G7 – C7 em Dó",
+    "Arpeje o A7♭9 com C# E G B♭",
+    "Resolva o B♭ em A ou na nota do Dm7"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "en--twelve-bar_blues-36fb30#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Recriar solos com mais colcheias e tensões",
+   "descricao": "Na tradição, recriar um solo transcrito significa intensificar a linguagem. Ella Fitzgerald, em 'Flying Home' (1945), usou mais colcheias, mais cromatismo e mais tensões (9ª e 13ª) do que o solo original de Illinois Jacquet.",
+   "passos": [
+    "Transcreva um solo simples",
+    "Reescreva-o com mais colcheias",
+    "Acrescente cromatismo e notas de 9ª e 13ª nos acordes"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "blog--tgcleary-99b135#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Trocas de quatro (trading fours)",
+   "descricao": "No jazz, os solistas alternam trechos de quatro compassos com a bateria. Também constroem coros inteiros de 32 compassos com motivos que se respondem através das mudanças de acorde.",
+   "passos": [
+    "Com um backing track de 32 compassos, solar 4 compassos e silenciar 4",
+    "Responda no seu trecho ao motivo do trecho anterior"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "blog--p-8459-aecaa8#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "A ideia #15 (escala maior como base do jazz) foi omitida por ser secundária e caber melhor em C11.1. A ideia #1 tem interface com C07.4 (pergunta e resposta), mas fica aqui por tratar das trocas de quatro típicas do jazz. A fórmula da bebop meio-diminuta foi mantida conforme a fonte, embora existam variantes na literatura.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 14,
+  "ideias_secundarias": 5,
+  "itens": 13,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.0677,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 8185,
+   "output_tokens": 5137
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

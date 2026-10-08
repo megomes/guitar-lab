@@ -1,0 +1,458 @@
+{
+ "fonte_id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "How to break out of the pentatonic box with your solos",
+  "autor": "Richard Barrett",
+  "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+  "site": "guitarworld.com",
+  "idioma": "en",
+  "tema_coleta": "pentatonica",
+  "arquivo_raw": "solos/raw/documentos/guitarworld--break-out-of-the-pentatonic-box-8a00aa.md"
+ },
+ "resumo": "Lição de Richard Barrett (Guitar World) sobre como sair da \"caixa\" pentatônica usando movimento linear (horizontal) pelas cordas, com slides longos e curtos no lugar de bends e shapes fixos. O solo em Mi menor pentatônica mantém praticamente as mesmas notas, mas muda o fraseado e a técnica. São quatro exemplos de frases, com dicas sobre slides, picking híbrido (dedos + palheta), double stops e whammy bar, além de sugestões de audição. Voltada a guitarristas intermediários que sentem estar presos aos mesmos licks e shapes.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "O conceito é muito bem explicado e há boas referências de audição, mas o texto não traz tablatura, BPM nem notas específicas. Os exemplos dependem da notação original, que não está na fonte."
+ },
+ "assuntos_principais": [
+  "pentatônica",
+  "abordagem linear",
+  "slides",
+  "legato",
+  "double stops",
+  "sair da caixa",
+  "picking híbrido",
+  "bends"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: o risco da caixa pentatônica e a abordagem linear",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica por que os shapes pentatônicos podem virar zona de conforto e lista alternativas para sair dela. Apresenta a abordagem escolhida: movimento horizontal com slides, mesmas notas, fraseado diferente, picking híbrido e whammy bar opcional.",
+   "assuntos": [
+    "pentatônica",
+    "zona de conforto",
+    "abordagem linear",
+    "slides",
+    "picking híbrido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Exemplo 1: lick de blues com slides entre shapes",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lick de blues em Mi menor pentatônica, concentrado na 2ª corda, com slides no compasso 2 que passam rapidamente pelos shapes 1, 2, 3 e 4.",
+   "assuntos": [
+    "blues",
+    "Mi menor pentatônica",
+    "slides",
+    "shapes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exemplo 2: legato com slides e linha descendente na 3ª corda",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Frase mais estática que usa slides no lugar de bends. O final é uma linha descendente na 3ª corda, com mergulho de whammy bar ou, em ponte fixa, um slide.",
+   "assuntos": [
+    "legato",
+    "slides",
+    "whammy bar",
+    "3ª corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exemplo 3: slides nas cordas 4, 3 e 2 rumo ao registro agudo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Linha com slides subindo pela 4ª, depois pela 3ª e 2ª cordas até o registro agudo, terminando de forma melódica na 2ª corda. Substitui o que normalmente seria um bend.",
+   "assuntos": [
+    "slides",
+    "registro agudo",
+    "fraseado melódico",
+    "bends"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Exemplo 4: double stops e abordagem horizontal",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Frase final com double stops da pentatônica, sem bends, para facilitar a troca rápida de posição. Compara a abordagem com a de guitarristas de jazz.",
+   "assuntos": [
+    "double stops",
+    "slides",
+    "jazz",
+    "legato"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Hear it here: discos de referência",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Indica álbuns e faixas de Eric Johnson, Chris Buck e Wes Montgomery que mostram abordagens lineares e legato fora da caixa pentatônica.",
+   "assuntos": [
+    "referências",
+    "Eric Johnson",
+    "Chris Buck",
+    "Wes Montgomery"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Os shapes pentatônicos podem virar uma caixa",
+   "descricao": "Os cinco shapes pentatônicos são úteis para mapear o braço, mas há o risco de ficar preso numa zona segura, tanto na melodia quanto nos padrões físicos tocados por hábito. Quando os mesmos licks ficam familiares demais, vale retomar a iniciativa e quebrar hábitos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "shapes",
+    "zona de conforto",
+    "hábitos"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Formas de sair da caixa pentatônica",
+   "descricao": "Algumas maneiras de fugir do padrão: acrescentar chord tones, incluir notas extras das escalas maior ou menor, ou usar os acordes/arpejos CAGED que existem dentro dos shapes pentatônicos. O autor escolhe outra via: o movimento linear.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "chord tones",
+    "CAGED",
+    "arpejos",
+    "escala menor",
+    "escala maior"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Abordagem linear (horizontal) com slides",
+   "descricao": "Em vez de ficar dentro dos shapes (vertical), faça muito movimento para cima e para baixo no braço, ao longo das cordas, usando slides longos e curtos. As notas continuam sendo da pentatônica; muda só a forma de percorrê-las. Isso altera bastante o modo de pensar fraseado e técnica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "linear",
+    "horizontal",
+    "slides",
+    "pentatônica"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Slides reduzem a dependência de bends",
+   "descricao": "Com o feel legato dos slides, o autor sentiu menos necessidade de recorrer automaticamente aos bends, que são o reflexo comum dentro dos shapes pentatônicos. Os bends continuam existindo, mas como mais uma ferramenta e não como padrão.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "slides",
+    "bend",
+    "legato"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Mudar a mão de palhetada para sair dos hábitos",
+   "descricao": "O autor usa picking híbrido, com os dedos mais do que a palheta, mais para sair dos próprios hábitos do que por necessidade. A técnica também ajuda a tocar os double stops com clareza.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "picking híbrido",
+    "dedos",
+    "hábitos",
+    "double stops"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Whammy bar é opcional",
+   "descricao": "A alavanca é usada ocasionalmente no solo, mas não é essencial. Em guitarra de ponte fixa, o mesmo efeito pode ser substituído por um slide.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "alavanca",
+    "slide"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "frase_lick",
+   "titulo": "Lick de blues na 2ª corda em Mi menor pentatônica",
+   "descricao": "Começa com um lick de blues convencional, com a maior parte do conteúdo melódico na 2ª corda. Os shapes 1 e 2 da Mi menor pentatônica são fáceis de identificar nessa parte.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "Mi menor pentatônica",
+    "2ª corda",
+    "shapes"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Slides atravessando shapes 1, 2, 3 e 4",
+   "descricao": "No compasso 2 os shapes ficam menos óbvios, porque os slides levam rapidamente pelos shapes 1, 2, 3 e depois 4, onde ocorre o bend final. Mesmo fora da caixa em termos de fraseado, os shapes continuam sendo uma referência útil.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "slides",
+    "shapes",
+    "bend",
+    "pentatônica"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Slides no lugar de bends para efeito legato",
+   "descricao": "Na frase do Exemplo 2, o feel legato vem de slides em vez de bends, o que evita o fraseado convencional baseado em shapes mesmo numa frase mais estática.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "legato",
+    "slides",
+    "bend"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Final descendente na 3ª corda com dive",
+   "descricao": "A frase termina com uma linha descendente na 3ª corda. Ao chegar à nota mais grave (corda solta), usa-se o whammy bar para um dive. Em guitarra de ponte fixa, o autor colocaria outro tipo de slide (para cima ou para baixo) para fechar a frase.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "3ª corda",
+    "whammy bar",
+    "slide",
+    "corda solta",
+    "final de frase"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "frase_lick",
+   "titulo": "Linha com slides subindo pelas cordas 4, 3 e 2",
+   "descricao": "Constrói uma linha com slides para cima e para baixo na 4ª corda e depois para cima na 3ª e na 2ª, levando ao registro agudo. A frase termina de forma mais melódica, demorando-se na 2ª corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "slides",
+    "registro agudo",
+    "2ª corda",
+    "4ª corda",
+    "3ª corda"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Mesmas notas, entrega diferente",
+   "descricao": "A linha com slides espelha o que o autor faria com um bend no jogo convencional, mas as mesmas notas soam muito diferentes. Trocar bend por slide é uma forma simples de renovar frases familiares.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "slides",
+    "bend",
+    "variação",
+    "fraseado"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Double stops da pentatônica",
+   "descricao": "Double stops aqui significam tocar duas notas da escala pentatônica ao mesmo tempo. O Exemplo 4 usa essas frases junto com slides.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "double stops",
+    "pentatônica",
+    "slides"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Evitar bends ao trocar de posição rapidamente",
+   "descricao": "Os bends são evitados porque dificultam a mudança rápida de posição. Os slides ganham papel maior e criam um feel legato e fluido.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "slides",
+    "mudança de posição",
+    "legato"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Abordagem horizontal usada por guitarristas de jazz",
+   "descricao": "Pensar escalas e shapes de forma horizontal é comum entre guitarristas de jazz, que em geral usam cordas mais pesadas e menos flexíveis, o que favorece slides e linhas lineares em vez de bends.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "horizontal",
+    "cordas pesadas",
+    "slides"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Eric Johnson – Venus Isle",
+   "descricao": "Eric Johnson dá seu toque pessoal à pentatônica com slides e agrupamentos incomuns de notas. Faixa mais óbvia: When The Sun Meets The Sky, com solos lineares melódicos. Ouça também o outro de All About You e, para ver até onde a abordagem vai, Night Out (Camel).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "Eric Johnson",
+    "audição",
+    "slides",
+    "linear"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Buck & Evans – Write a Better Day",
+   "descricao": "Chris Buck cria partes e solos bluesy cheios de caráter sem parecer preso na caixa pentatônica. Exemplos: Common Ground, Ain't No Moonlight e Going Home. Há bends soulful, mas como uma ferramenta entre outras, não como padrão para frases legato suaves.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "Chris Buck",
+    "blues",
+    "audição",
+    "linear"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Wes Montgomery – Smokin' At The Half Note",
+   "descricao": "Álbum com Wynton Kelly Trio que mostra o estilo de Wes Montgomery, misturando frases lineares, muitas vezes com oitavas, e surtos de fluência. Ele cria feel legato sem nenhum bend em faixas como No Blues, What's New e The Surrey With The Fringe On Top.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "Wes Montgomery",
+    "jazz",
+    "oitavas",
+    "audição",
+    "legato"
+   ],
+   "id_global": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I18"
+  }
+ ],
+ "artistas_citados": [
+  "Eric Johnson",
+  "Camel",
+  "Chris Buck",
+  "Wes Montgomery",
+  "Wynton Kelly Trio",
+  "Tony Hadley",
+  "Roger Daltrey",
+  "Ronan Keating"
+ ],
+ "musicas_citadas": [
+  "When The Sun Meets The Sky",
+  "All About You",
+  "Night Out",
+  "Common Ground",
+  "Ain't No Moonlight",
+  "Going Home",
+  "No Blues",
+  "What's New",
+  "The Surrey With The Fringe On Top"
+ ],
+ "recursos_citados": [
+  "Eric Johnson – Venus Isle (álbum)",
+  "Buck & Evans – Write a Better Day (álbum)",
+  "Wes Montgomery & Wynton Kelly Trio – Smokin' At The Half Note (álbum)",
+  "Revistas Guitarist e Guitar Techniques"
+ ],
+ "observacoes": "Fonte em texto sem tablatura, notação nem áudio: as notas, casas e o ritmo dos quatro exemplos não estão descritos, então as frases dependem do material original (partitura/vídeo do Guitar World). Não há BPM nem tonalidade além de Mi menor pentatônica. No Exemplo 1, a numeração dos shapes (1 a 4) segue a convenção do autor. Não há timestamps, pois é um documento. Na seção \"Hear it here\" o texto original diz \"outro\" de All About You, ou seja, o final da faixa.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:04",
+  "tentativas": 1,
+  "custo_usd": 0.2641
+ }
+}

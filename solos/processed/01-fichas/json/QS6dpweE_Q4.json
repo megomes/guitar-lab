@@ -1,0 +1,382 @@
+{
+ "fonte_id": "QS6dpweE_Q4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+  "autor": "Edu Ardanuy",
+  "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4",
+  "idioma": "pt",
+  "duracao": "12m 23s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/QS6dpweE_Q4--improvisação-tonal-com-um-arpejo-para-cada-acorde.md"
+ },
+ "resumo": "Segunda aula da trilogia de Edu Ardanuy sobre improvisação com arpejos. Sobre a cadência tonal em Em (Em, Bm, C, G, D), o guitarrista toca o arpejo de cada acorde, organizando-os em três regiões do braço (shapes C, A e E do sistema de 5 posições). Depois conecta os arpejos à escala de Em (posições de G jônio, F# lócrio, B frígio, A dórico, G mixolídio e C lídio) para criar melodias. Encerra com improvisação sobre playback. Serve para guitarristas intermediários que já conhecem os shapes de arpejos e escalas.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "O conceito é claro e bem organizado (um arpejo por acorde, agrupados por região, ligados à escala), mas quase tudo é demonstrado ao instrumento. A fala traz pouca explicação e depende da tablatura e do vídeo para os detalhes."
+ },
+ "assuntos_principais": [
+  "arpejos",
+  "improvisação tonal",
+  "cadência em Em",
+  "shapes do sistema de 5 posições",
+  "conexão arpejo-escala",
+  "modos gregos",
+  "regiões do braço"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e proposta da aula",
+   "inicio": "00:00",
+   "fim": "01:25",
+   "resumo": "Recapitula a aula 1 (só o arpejo de Em sobre a cadência) e apresenta a proposta: tocar o arpejo de cada acorde da cadência Em, Bm, C, G, D.",
+   "assuntos": [
+    "introdução",
+    "cadência tonal",
+    "graus da escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Arpejos de cada acorde em três regiões",
+   "inicio": "01:25",
+   "fim": "04:52",
+   "resumo": "Mostra os arpejos de Em, Bm, C, G e D em três regiões do braço, cada uma com shapes diferentes, e toca as sequências para ouvir a harmonia pelos arpejos.",
+   "assuntos": [
+    "arpejos",
+    "shapes",
+    "regiões do braço",
+    "harmonia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Enxergar a escala dentro dos arpejos",
+   "inicio": "04:52",
+   "fim": "09:25",
+   "resumo": "Explica como organizar a escala de Em em cada bloco e conectar arpejos e escala. Indica as posições modais mais convenientes em cada região e demonstra melodias.",
+   "assuntos": [
+    "escala de Em",
+    "modos",
+    "conexão arpejo-escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Improvisação com playback e encerramento",
+   "inicio": "09:25",
+   "fim": "12:23",
+   "resumo": "Demonstração improvisada sobre o playback, aviso sobre a parte 3 (sobreposição de arpejos na harmonia modal) e despedida.",
+   "assuntos": [
+    "playback",
+    "demonstração",
+    "próxima aula"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Um arpejo para cada acorde da cadência",
+   "descricao": "Em vez de usar só o arpejo de Em sobre toda a cadência (aula 1), toca-se o arpejo correspondente a cada acorde: Em (I), Bm (V), C (VI), G (III) e D (VII) na tonalidade de Em. É uma abordagem mais comum e mais difícil, porque exige trocar de arpejo a cada acorde.",
+   "passos": [],
+   "timestamp": "00:28",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "cadência",
+    "tonal",
+    "em menor"
+   ],
+   "id_global": "QS6dpweE_Q4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Agrupar os arpejos na mesma região do braço",
+   "descricao": "Escolha para cada acorde o shape de arpejo mais próximo dos outros, para que a sequência toda fique em uma região só. Isso evita saltos grandes no braço e deixa a troca de acorde fluida.",
+   "passos": [],
+   "timestamp": "01:25",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "regiões",
+    "posições",
+    "shapes"
+   ],
+   "id_global": "QS6dpweE_Q4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Bloco 1 de arpejos: Em(A), Bm(E), C(E), G(C), D(A)",
+   "descricao": "Primeira região do braço. Cada arpejo usa um shape do sistema de 5 posições: Em no modelo de A, Bm no de E, C no de E, G no de C e D no de A. Toque em sequência, um arpejo por acorde, e escute como os arpejos já desenham a harmonia.",
+   "passos": [
+    "Toque o arpejo de Em no modelo de A",
+    "Passe para Bm no modelo de E",
+    "Toque C no modelo de E",
+    "Toque G no modelo de C",
+    "Termine com D no modelo de A",
+    "Repita a sequência continuamente"
+   ],
+   "timestamp": "01:25",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "shapes",
+    "bloco 1",
+    "sequência"
+   ],
+   "id_global": "QS6dpweE_Q4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Os arpejos já fazem ouvir a harmonia",
+   "descricao": "Mesmo sem backing track de acompanhamento, tocar os arpejos de cada acorde em sequência já deixa a harmonia clara, porque os arpejos são os próprios acordes. Isso ajuda a treinar o ouvido para a progressão.",
+   "passos": [],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "harmonia",
+    "ouvido"
+   ],
+   "id_global": "QS6dpweE_Q4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Bloco 2 de arpejos: Em(C), Bm(A), C(A), G(E), D(C)",
+   "descricao": "Segunda região do braço. Os shapes são: Em no modelo de C, Bm no de A, C no de A, G no de E e D no de C. Repita o mesmo processo do bloco 1 nessa região.",
+   "passos": [
+    "Toque Em no modelo de C",
+    "Toque Bm no modelo de A",
+    "Toque C no modelo de A",
+    "Toque G no modelo de E",
+    "Toque D no modelo de C",
+    "Repita continuamente"
+   ],
+   "timestamp": "02:53",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "shapes",
+    "bloco 2",
+    "sequência"
+   ],
+   "id_global": "QS6dpweE_Q4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Bloco 3 de arpejos: Em(E), Bm(C), C(C), G(A), D(E)",
+   "descricao": "Terceira região do braço. Os shapes são: Em no modelo de E, Bm no de C, C no de C, G no de A e D no de E. Complete o mapa tocando a sequência continuamente.",
+   "passos": [
+    "Toque Em no modelo de E",
+    "Toque Bm no modelo de C",
+    "Toque C no modelo de C",
+    "Toque G no modelo de A",
+    "Toque D no modelo de E",
+    "Repita continuamente"
+   ],
+   "timestamp": "03:45",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "shapes",
+    "bloco 3",
+    "sequência"
+   ],
+   "id_global": "QS6dpweE_Q4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Arpejos sozinhos não bastam: conecte com a escala",
+   "descricao": "Não é comum fazer solo só com arpejos. O ideal é enxergar a escala de Em (a tonalidade da música) dentro de cada bloco de arpejos e fazer a conexão entre arpejos e escala. Os arpejos dão as notas fortes de cada acorde e a escala preenche as melodias.",
+   "passos": [],
+   "timestamp": "04:52",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "escala",
+    "conexão",
+    "melodia"
+   ],
+   "id_global": "QS6dpweE_Q4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Organizar a escala de Em dentro de cada bloco",
+   "descricao": "Para cada uma das três regiões de arpejos, localize as posições da escala de Em (ou G maior, a relativa) que ficam dentro ou ao lado dos arpejos. Tenha essas posições sob o dedo para alternar entre arpejo e escala dentro da progressão. As escalas estão no formato do sistema 5 e em 3 notas por corda.",
+   "passos": [],
+   "timestamp": "04:57",
+   "nivel": "intermediario",
+   "tags": [
+    "escala",
+    "posições",
+    "3 notas por corda",
+    "regiões"
+   ],
+   "id_global": "QS6dpweE_Q4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bloco 1: posições de G jônio e F# lócrio",
+   "descricao": "No primeiro bloco (Em no modelo de A), as posições de escala convenientes são a de G jônio e a anterior, F# lócrio. Toque os arpejos da progressão e crie pequenas melodias com a escala entre eles.",
+   "passos": [
+    "Fixe a região do bloco 1",
+    "Localize as posições de G jônio e de F# lócrio (a anterior)",
+    "Toque os arpejos de cada acorde em sequência",
+    "Crie pequenas melodias com a escala dentro da progressão",
+    "Volte aos arpejos na troca de acorde"
+   ],
+   "timestamp": "05:24",
+   "nivel": "avancado",
+   "tags": [
+    "g jônio",
+    "f# lócrio",
+    "escala",
+    "bloco 1",
+    "melodia"
+   ],
+   "id_global": "QS6dpweE_Q4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bloco 2: posições de B frígio e A dórico",
+   "descricao": "Na região em que Em está no shape de A, as posições de Em/G maior mais convenientes são B frígio e, eventualmente, A dórico. Segundo o professor, a escolha depende da articulação que você fizer na melodia. Tenha essas posições à mão e associe-as à progressão de arpejos.",
+   "passos": [
+    "Fixe a região do bloco 2",
+    "Localize a posição de B frígio",
+    "Localize a posição de A dórico",
+    "Associe as escalas à progressão de arpejos, alternando entre arpejo e melodia"
+   ],
+   "timestamp": "06:38",
+   "nivel": "avancado",
+   "tags": [
+    "b frígio",
+    "a dórico",
+    "escala",
+    "bloco 2"
+   ],
+   "id_global": "QS6dpweE_Q4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bloco 3: posições de G mixolídio e C lídio",
+   "descricao": "No último bloco (Em no modelo de E), as posições de escala mais convenientes são G mixolídio e a anterior, C lídio. Associe-as à progressão de arpejos de Em, Bm, C, G e D.",
+   "passos": [
+    "Fixe a região do bloco 3",
+    "Localize G mixolídio e C lídio (a anterior)",
+    "Toque a progressão de arpejos",
+    "Intercale melodias com a escala de Em nessas posições"
+   ],
+   "timestamp": "08:00",
+   "nivel": "avancado",
+   "tags": [
+    "g mixolídio",
+    "c lídio",
+    "escala",
+    "bloco 3"
+   ],
+   "id_global": "QS6dpweE_Q4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Modos como posições da mesma escala",
+   "descricao": "As posições citadas (F# lócrio, G jônio, B frígio, A dórico, C lídio, G mixolídio) são formas de ver a mesma escala de Em / G maior em cada região do braço. Aqui os nomes servem para localizar as posições, não para mudar o centro tonal: a música continua em Em.",
+   "passos": [],
+   "timestamp": "05:24",
+   "nivel": "avancado",
+   "tags": [
+    "modos",
+    "escala",
+    "tonalidade",
+    "em menor",
+    "g maior"
+   ],
+   "id_global": "QS6dpweE_Q4#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Conheça bem os shapes de arpejo da região",
+   "descricao": "Como a harmonia é distribuída em regiões diferentes, é importante conhecer muito bem os shapes dos arpejos associados à escala da região onde se está tocando. Quanto melhor você sabe os shapes, mais fácil trocar de arpejo a cada acorde.",
+   "passos": [],
+   "timestamp": "05:24",
+   "nivel": "intermediario",
+   "tags": [
+    "shapes",
+    "arpejos",
+    "escala",
+    "estudo"
+   ],
+   "id_global": "QS6dpweE_Q4#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Improvisar sobre o playback da cadência",
+   "descricao": "Depois de dominar os blocos, improvise sobre o playback da cadência em Em, usando o arpejo respectivo de cada acorde e conectando com a escala. A tablatura e o playback estão disponíveis no site do professor, e o playback é o mesmo da aula 1.",
+   "passos": [
+    "Baixe o playback e a tablatura",
+    "Escolha um bloco/região",
+    "Toque o arpejo do acorde da vez e conecte com a escala",
+    "Troque de região para variar"
+   ],
+   "timestamp": "09:25",
+   "nivel": "intermediario",
+   "tags": [
+    "playback",
+    "backing track",
+    "improvisação",
+    "prática"
+   ],
+   "id_global": "QS6dpweE_Q4#I14"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Tablatura e playback no site eduardanuy.com.br (improvisacao-com-arpejos-tablatura-trilogia-2)",
+  "Vídeo 1 da trilogia: Improvisação tonal com um único arpejo",
+  "Vídeo 3 da trilogia: Improvisação modal com sobreposição de arpejos",
+  "Vídeo: Arpejos estratégicos para improvisação modal"
+ ],
+ "observacoes": "A transcrição automática tem grandes lacunas nos trechos tocados, e os timestamps do texto não batem exatamente com os capítulos da descrição. Usei os capítulos como referência de tempo. Os shapes citados (modelos de C, A, E, G, D) vêm do sistema de 5 posições (CAGED). A fala cita só os modelos de A, E e C. O mapeamento de cada acorde por bloco segue o índice do vídeo, e os blocos 1 e 2 têm pequenas divergências entre o índice e a fala. Usei a fala para o bloco 1 (Em-A, Bm-E, C-E, G-C, D-A) e o índice para os blocos 2 e 3. O índice indica C no modelo de C no bloco 3, e Bm no modelo de C. As posições exatas (casas e cordas) dependem de ver o vídeo ou a tablatura.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:17",
+  "tentativas": 1,
+  "custo_usd": 0.2625
+ }
+}

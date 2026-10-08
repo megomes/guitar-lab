@@ -1,0 +1,587 @@
+{
+ "fonte_id": "xNlyoGud2A0",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Transcribing Process - The Transcribing Course - Solo Guitar Lesson [TR-101]",
+  "autor": "JustinGuitar",
+  "url": "https://www.youtube.com/watch?v=xNlyoGud2A0",
+  "idioma": "en",
+  "duracao": "11m 46s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/xNlyoGud2A0--the-transcribing-process-the-transcribing-course-solo-guitar-lesson-tr.md"
+ },
+ "resumo": "Aula introdutória de transcrição de solos da série TR-101 do JustinGuitar, que apresenta um processo de 10 etapas: escutar muito, afinar o violão, transcrever uma nota por vez com pausas, escrever à mão, descansar, tocar junto com a gravação, conferir, não desanimar, analisar e aproveitar o processo. É voltada a iniciantes em transcrição e também serve de roteiro geral para quem quer tirar solos de ouvido.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Organiza bem um processo completo com instruções práticas (pausar após cada nota, reduzir o andamento, pausas cronometradas). Falta exemplo musical concreto com notas, casas e cordas, então o conteúdo fica mais no nível de método e mentalidade do que de técnica."
+ },
+ "assuntos_principais": [
+  "transcrição de solos",
+  "processo de 10 etapas",
+  "escuta repetida",
+  "afinação A440",
+  "método de uma nota por vez",
+  "escrita de tablatura à mão",
+  "descanso auditivo",
+  "redução de andamento",
+  "conferência de transcrições",
+  "análise harmônica do solo",
+  "motivação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Visão geral do processo e etapa 1: escuta",
+   "inicio": "00:00",
+   "fim": "01:10",
+   "resumo": "Apresentação do processo de transcrição em 10 etapas e ênfase na escuta repetida do solo até conseguir imaginá-lo de olhos fechados.",
+   "assuntos": [
+    "processo de 10 etapas",
+    "escuta repetida",
+    "imaginar o solo",
+    "cantar o solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Etapa 2: afinação",
+   "inicio": "01:10",
+   "fim": "01:43",
+   "resumo": "Orientação para afinar o violão em A440 e assumir afinação padrão no início.",
+   "assuntos": [
+    "afinação",
+    "A440",
+    "afinação padrão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Etapa 3: pausar e transcrever uma nota por vez",
+   "inicio": "01:43",
+   "fim": "03:22",
+   "resumo": "Explica o método de pausar após cada nota, achar a nota no violão e anotar, avançando uma nota por vez. Alerta contra tentar pegar várias notas ou licks inteiros no início.",
+   "assuntos": [
+    "pausa",
+    "uma nota por vez",
+    "licks",
+    "hábito ruim"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Etapa 4: escrever a transcrição",
+   "inicio": "03:22",
+   "fim": "04:27",
+   "resumo": "Recomenda escrever cada nota à medida que é identificada, à mão e sem programas de tablatura no início, cuidando da legibilidade e da distribuição na linha.",
+   "assuntos": [
+    "escrita de tablatura",
+    "escrita à mão",
+    "legibilidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Etapa 5: descanso",
+   "inicio": "04:27",
+   "fim": "05:31",
+   "resumo": "Explica que os ouvidos cansam, sugere blocos de 10 a 15 minutos com pausas e usa timer. Recomenda revisitar a transcrição no dia seguinte.",
+   "assuntos": [
+    "descanso",
+    "fadiga auditiva",
+    "timer",
+    "revisão no dia seguinte"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Etapa 6: tocar junto com a gravação",
+   "inicio": "05:31",
+   "fim": "06:38",
+   "resumo": "Orienta reduzir o andamento com software de transcrição (50 a 70%, ou 30 a 40% em peças difíceis) e tocar junto com a gravação para conferir as notas.",
+   "assuntos": [
+    "backing da gravação",
+    "redução de andamento",
+    "software de transcrição",
+    "conferência de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Etapa 7: conferir a transcrição",
+   "inicio": "06:38",
+   "fim": "08:17",
+   "resumo": "Discute conferir a transcrição com transcrições de terceiros, que costumam ter erros, e relata que em jazz a comparação tende a dar metade de acertos. Cita o gabarito disponível no fórum do curso.",
+   "assuntos": [
+    "conferência",
+    "transcrições de terceiros",
+    "jazz",
+    "gabarito no fórum"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Etapa 8: não desanimar",
+   "inicio": "08:17",
+   "fim": "08:49",
+   "resumo": "Incentiva a aceitar erros em transcrições iniciais, pois a precisão cresce com a prática.",
+   "assuntos": [
+    "desânimo",
+    "evolução com prática"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Etapa 9: analisar a transcrição",
+   "inicio": "08:49",
+   "fim": "09:55",
+   "resumo": "Explica que a análise harmônica do solo, comparando as notas com os acordes, é a chave para usar as ideias no próprio estilo. Dá exemplo sobre G7 em Wes Montgomery.",
+   "assuntos": [
+    "análise",
+    "relação solo-acorde",
+    "arpejo",
+    "estilo próprio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Etapa 10: aproveitar o processo",
+   "inicio": "09:55",
+   "fim": "11:32",
+   "resumo": "Fala da importância de sentir prazer e recompensa no processo de transcrever, e sugere tocar músicas se não houver interesse.",
+   "assuntos": [
+    "motivação",
+    "prazer no processo",
+    "recompensa"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Despedida",
+   "inicio": "11:32",
+   "fim": "11:46",
+   "resumo": "Anuncia que a próxima aula trata de escrever a tablatura e seus símbolos, e se despede.",
+   "assuntos": [
+    "despedida",
+    "próxima aula"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Processo de transcrição em 10 etapas",
+   "descricao": "A transcrição segue uma sequência de 10 etapas: escuta, afinação, pausar uma nota por vez, escrever, descansar, tocar junto com a gravação, conferir, não desanimar, analisar e aproveitar o processo.",
+   "passos": [],
+   "timestamp": "00:05",
+   "nivel": "iniciante",
+   "tags": [
+    "transcrição",
+    "processo"
+   ],
+   "id_global": "xNlyoGud2A0#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "rotina_estudo",
+   "titulo": "Escutar o solo em loop antes de transcrever",
+   "descricao": "Antes de começar, colocar o solo em loop num programa de transcrição e ouvi-lo 10 a 20 vezes seguidas, até conseguir ouvi-lo mentalmente sem a gravação.",
+   "passos": [
+    "Colocar o trecho em loop num programa de transcrição.",
+    "Ouvir de 10 a 20 vezes seguidas sem tocar nada.",
+    "Repetir até conseguir imaginar o solo de olhos fechados."
+   ],
+   "timestamp": "00:39",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta",
+    "loop",
+    "ouvido"
+   ],
+   "id_global": "xNlyoGud2A0#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Cantar o solo como meta de escuta",
+   "descricao": "Se a melodia estiver na sua tessitura, tente cantá-la. O objetivo é conhecer o solo tão bem quanto um solo favorito conhecido de cor.",
+   "passos": [],
+   "timestamp": "00:39",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta",
+    "cantar",
+    "ouvido"
+   ],
+   "id_global": "xNlyoGud2A0#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Afinar em A440 e assumir afinação padrão",
+   "descricao": "Afine o violão com precisão em A440. No início, assuma que a música está em afinação padrão, pois uma nota desafinada atrapalha a identificação das notas corretas.",
+   "passos": [],
+   "timestamp": "01:10",
+   "nivel": "iniciante",
+   "tags": [
+    "afinação",
+    "A440",
+    "afinação padrão"
+   ],
+   "id_global": "xNlyoGud2A0#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Transcrever uma nota por vez com pausa",
+   "descricao": "Ouça a música até a nota que você quer transcrever, pause; a última nota ouvida permanece no ouvido. Encontre-a no violão e anote. Depois volte e ouça mais uma nota além da última anotada, pause, encontre e anote. Repita nota a nota.",
+   "passos": [
+    "Ouvir a música até a nota que se quer transcrever.",
+    "Pausar assim que ela tocar.",
+    "Achar essa nota no violão e anotá-la.",
+    "Voltar e ouvir uma nota além da última anotada.",
+    "Pausar, achar e anotar. Repetir."
+   ],
+   "timestamp": "02:16",
+   "nivel": "iniciante",
+   "tags": [
+    "pausa",
+    "uma nota por vez",
+    "método"
+   ],
+   "id_global": "xNlyoGud2A0#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "erro_comum",
+   "titulo": "Transcrever duas ou três notas de uma vez",
+   "descricao": "Quem está começando não deve tentar transcrever duas ou três notas de uma vez, pois isso cria um mau hábito, mesmo que pareça mais rápido.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "hábito",
+    "uma nota por vez"
+   ],
+   "id_global": "xNlyoGud2A0#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Licks inteiros vêm só depois",
+   "descricao": "Transcrever frases (licks) inteiras de uma vez é algo para mais tarde, quando já houver muitos licks conhecidos. No começo, não tente isso.",
+   "passos": [],
+   "timestamp": "02:48",
+   "nivel": "iniciante",
+   "tags": [
+    "licks",
+    "progressão"
+   ],
+   "id_global": "xNlyoGud2A0#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Anotar cada nota imediatamente",
+   "descricao": "Escreva cada nota ou lick na tablatura assim que o identificar, porque a memória de um solo longo costuma apagar o início ao chegar ao fim.",
+   "passos": [],
+   "timestamp": "03:55",
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "memória",
+    "anotar"
+   ],
+   "id_global": "xNlyoGud2A0#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Escrever a tablatura à mão no início",
+   "descricao": "Evite programas de geração de tablatura no começo. Aprenda a escrever à mão, de forma legível, distribuindo bem a frase na linha, pois essas habilidades ajudam depois com programas.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "escrita à mão",
+    "legibilidade"
+   ],
+   "id_global": "xNlyoGud2A0#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Blocos de transcrição de 10 a 15 minutos com pausas",
+   "descricao": "Os ouvidos cansam rápido. Trabalhe em blocos de 10 a 15 minutos, com um timer, e depois faça uma pausa de cerca de 5 minutos sem música, como caminhar ou tomar um café.",
+   "passos": [
+    "Ajustar um timer para 10 a 15 minutos.",
+    "Transcrever até o timer tocar.",
+    "Parar por cerca de 5 minutos sem ouvir música.",
+    "Retomar o trabalho."
+   ],
+   "timestamp": "04:59",
+   "nivel": "iniciante",
+   "tags": [
+    "descanso",
+    "timer",
+    "fadiga auditiva"
+   ],
+   "id_global": "xNlyoGud2A0#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Revisar a transcrição no dia seguinte",
+   "descricao": "Ao retomar uma transcrição longa no dia seguinte, com os ouvidos descansados, você costuma notar detalhes que escaparam, especialmente no fim do trecho.",
+   "passos": [],
+   "timestamp": "04:59",
+   "nivel": "iniciante",
+   "tags": [
+    "revisão",
+    "descanso",
+    "ouvido"
+   ],
+   "id_global": "xNlyoGud2A0#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Tocar junto com a gravação em andamento reduzido",
+   "descricao": "Use um software de transcrição para reduzir o andamento para 50 a 60% (30 a 40% em peças muito difíceis, 70% em peças mais fáceis) e tocar sua transcrição junto com a gravação, aumentando o andamento gradualmente.",
+   "passos": [
+    "Usar software de transcrição para reduzir o andamento.",
+    "Escolher a porcentagem confortável (50 a 70%; 30 a 40% se difícil).",
+    "Tocar a transcrição junto com a gravação.",
+    "Verificar se as notas batem.",
+    "Aumentar o andamento aos poucos."
+   ],
+   "timestamp": "05:31",
+   "nivel": "iniciante",
+   "tags": [
+    "andamento",
+    "software",
+    "backing",
+    "conferência"
+   ],
+   "id_global": "xNlyoGud2A0#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Verificar posição e corda ao tocar junto",
+   "descricao": "Nas fases seguintes, além de conferir as notas, é preciso decidir a posição e a corda corretas, perguntando se a nota está nesta ou naquela corda.",
+   "passos": [],
+   "timestamp": "06:05",
+   "nivel": "intermediario",
+   "tags": [
+    "posição",
+    "corda",
+    "detetive"
+   ],
+   "id_global": "xNlyoGud2A0#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Conferir com transcrições de terceiros sem depender delas",
+   "descricao": "Quando existirem transcrições publicadas, compare com a sua. Como muitas são feitas por estudantes, confie primeiro no seu ouvido e só depois compare.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "iniciante",
+   "tags": [
+    "conferência",
+    "transcrições",
+    "ouvido"
+   ],
+   "id_global": "xNlyoGud2A0#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Transcrever primeiro e depois comparar, em jazz",
+   "descricao": "Em jazz mais difícil ou solos sobre acordes, transcreva antes de olhar a transcrição publicada, depois compare e reouça o trecho para decidir quem está certo. Segundo o professor, a comparação dá cerca de 50/50.",
+   "passos": [],
+   "timestamp": "07:10",
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "conferência",
+    "comparação"
+   ],
+   "id_global": "xNlyoGud2A0#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Gabarito no fórum do curso",
+   "descricao": "O curso tem um gabarito (answer sheet) disponível no fórum, acessível pelo link da página da aula. Sugere-se conferir uma lição inteira antes de olhar, em vez de conferir trecho a trecho.",
+   "passos": [],
+   "timestamp": "07:43",
+   "nivel": "iniciante",
+   "tags": [
+    "gabarito",
+    "fórum",
+    "conferência"
+   ],
+   "id_global": "xNlyoGud2A0#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Não desanimar com erros iniciais",
+   "descricao": "É normal errar muitas notas nas primeiras transcrições. Tente não se achar incapaz, pois a precisão cresce com a prática.",
+   "passos": [],
+   "timestamp": "08:17",
+   "nivel": "iniciante",
+   "tags": [
+    "motivação",
+    "erros",
+    "evolução"
+   ],
+   "id_global": "xNlyoGud2A0#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Ouvido aprende cordas e dedilhados com experiência",
+   "descricao": "Com o tempo, a transcrição passa a sugerir em qual corda a nota está e qual dedilhado foi usado num lick. Esse conhecimento vem só com experiência.",
+   "passos": [],
+   "timestamp": "08:49",
+   "nivel": "intermediario",
+   "tags": [
+    "corda",
+    "dedilhado",
+    "experiência"
+   ],
+   "id_global": "xNlyoGud2A0#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Transcrever os acordes junto com o solo e analisar",
+   "descricao": "Transcreva também a harmonia e compare cada nota do solo com o acorde da base. Exemplo: sobre um G7, as notas B, D, F e A formam um arpejo de B meio-diminuto (Bm7♭5).",
+   "passos": [
+    "Transcrever a progressão de acordes da música.",
+    "Transcrever o solo.",
+    "Para cada nota, identificar o acorde da base.",
+    "Verificar a relação com um arpejo ou escala (ex.: B, D, F, A sobre G7 = Bm7♭5)."
+   ],
+   "timestamp": "09:22",
+   "nivel": "avancado",
+   "tags": [
+    "análise",
+    "acordes",
+    "arpejo",
+    "Bm7♭5",
+    "G7"
+   ],
+   "id_global": "xNlyoGud2A0#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Aplicar as ideias transcritas no próprio estilo",
+   "descricao": "Depois de analisar um solo, extraia suas ideias e use-as à sua maneira. Isso começa a influenciar o seu próprio estilo.",
+   "passos": [],
+   "timestamp": "09:55",
+   "nivel": "intermediario",
+   "tags": [
+    "estilo próprio",
+    "aplicação",
+    "ideias"
+   ],
+   "id_global": "xNlyoGud2A0#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Buscar satisfação na transcrição",
+   "descricao": "A transcrição é frustrante, mas deve trazer sensação de conquista e recompensa ao final de cada sessão, como numa subida de montanha. Tente treinar-se para gostar do processo.",
+   "passos": [],
+   "timestamp": "10:27",
+   "nivel": "iniciante",
+   "tags": [
+    "motivação",
+    "recompensa",
+    "prazer"
+   ],
+   "id_global": "xNlyoGud2A0#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Alternar transcrição com tocar músicas",
+   "descricao": "Se não estiver gostando de transcrever e não pretende ser músico profissional, o professor recomenda deixar a transcrição de lado e tocar músicas por prazer.",
+   "passos": [],
+   "timestamp": "10:27",
+   "nivel": "iniciante",
+   "tags": [
+    "motivação",
+    "repertório"
+   ],
+   "id_global": "xNlyoGud2A0#I22"
+  }
+ ],
+ "artistas_citados": [
+  "Eric Clapton",
+  "Wes Montgomery",
+  "Rolling Stones",
+  "Chuck Berry"
+ ],
+ "musicas_citadas": [
+  "Money for Nothing"
+ ],
+ "recursos_citados": [
+  "JustinGuitar.com (site com cursos gratuitos e notas do curso TR-101)",
+  "Curso de teoria do JustinGuitar",
+  "Backing tracks do JustinGuitar",
+  "Fórum do JustinGuitar (gabarito/answer sheet)",
+  "Livros de transcrição de jazz",
+  "Software de transcrição com redução de andamento"
+ ],
+ "observacoes": "Legendas automáticas sem problemas graves de vocabulário técnico. A aula não traz notas, casas ou cordas concretas: o conteúdo é de método e mentalidade, e a parte de tablatura é anunciada para a próxima aula. Algumas partes são de ouvido, como a menção a 'Money for Nothing' e a Wes Montgomery, que não têm trecho transcrito no vídeo. Trechos como 'stage seven' e 'point eight' foram mapeados para as etapas 7 e 8 pelo contexto. Há referências à própria estrutura do curso (outras aulas) que não estão no vídeo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00275,
+  "via": "api"
+ }
+}

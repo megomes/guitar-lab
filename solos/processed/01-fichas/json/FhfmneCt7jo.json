@@ -1,0 +1,809 @@
+{
+ "fonte_id": "FhfmneCt7jo",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+  "autor": "Active Melody",
+  "url": "https://www.youtube.com/watch?v=FhfmneCt7jo",
+  "idioma": "en",
+  "duracao": "24m 2s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/FhfmneCt7jo--learn-how-to-improvise-using-these-3-neighborhoods-on-the-neck-guitar.md"
+ },
+ "resumo": "Aula de improvisação em guitarra que divide o braço em três 'vizinhanças' (regiões das formas E, C e A do sistema CAGED) para conectar as pentatônicas maior e menor de G. O professor mostra onde ficam a nota-âncora G, as notas de bend, como alternar entre regiões com 'bus lines' e como improvisar sobre um blues shuffle de um acorde, de 12 compassos e sobre G-Em-C. O público-alvo são guitarristas iniciantes a intermediários que já conhecem pentatônicas e querem tocar com mais liberdade em jam.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito de organização visual muito claro e exemplos sonoros com backing tracks. Porém a fala é coloquial, com muitas repetições, e vários números de casas são ambíguos na transcrição, o que obriga a consultar a tablatura extra."
+ },
+ "assuntos_principais": [
+  "pentatônica maior e menor de G",
+  "sistema CAGED e vizinhanças do braço",
+  "nota-âncora (nota de casa)",
+  "bends em pentatônicas",
+  "bus lines entre regiões do braço",
+  "cromatismo e notas de passagem",
+  "improvisação sobre blues e progressões simples",
+  "tonalidade e escolha de escala"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação: bairros do braço",
+   "inicio": "00:00",
+   "fim": "01:07",
+   "resumo": "O professor apresenta a metáfora de vizinhanças, bus lines e casas para visualizar o braço, e diz que os princípios servem para qualquer estilo e tonalidade.",
+   "assuntos": [
+    "vizinhanças do braço",
+    "tonalidade de G",
+    "pentatônicas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Vizinhança E: acorde de G na forma de E e a cerca",
+   "inicio": "01:07",
+   "fim": "02:44",
+   "resumo": "Explica que o acorde de G pode ser tocado na forma de E deslocada, com a pestana na 3ª casa, e que o indicador funciona como cerca da região.",
+   "assuntos": [
+    "CAGED",
+    "forma de E",
+    "cerca do indicador"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Simplificação: apenas as três cordas agudas",
+   "inicio": "02:44",
+   "fim": "03:48",
+   "resumo": "Justifica tocar só nas três cordas agudas para simplificar o improviso de lead, reconhecendo que é uma escolha controversa.",
+   "assuntos": [
+    "três cordas agudas",
+    "simplificação para improviso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Pentatônicas de G na vizinhança E",
+   "inicio": "03:48",
+   "fim": "05:27",
+   "resumo": "Mostra a pentatônica maior e a menor de G na região E, a nota G como casa-base compartilhada e a correção sobre a nota repetida da menor.",
+   "assuntos": [
+    "pentatônica maior de G",
+    "pentatônica menor de G",
+    "nota-âncora G",
+    "nota repetida"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Bends nas pentatônicas da vizinhança E",
+   "inicio": "05:27",
+   "fim": "07:36",
+   "resumo": "Indica quais notas de bend são mais usadas nas pentatônicas maior e menor, com bend completo e meio bend.",
+   "assuntos": [
+    "bend completo",
+    "meio bend",
+    "bends na maior e na menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Improviso sobre G com blues shuffle",
+   "inicio": "07:36",
+   "fim": "09:22",
+   "resumo": "Demonstra improviso sobre um acorde de G repetido, alternando pentatônica maior e menor e aterrissando na nota G.",
+   "assuntos": [
+    "improviso sobre acorde único",
+    "mistura de maior e menor",
+    "nota de destino"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Vizinhança C: acorde de G na forma de C",
+   "inicio": "09:22",
+   "fim": "10:28",
+   "resumo": "Apresenta a forma de C transposta para G, a cerca do indicador e a nota G na 2ª corda, 8ª casa, como nova âncora.",
+   "assuntos": [
+    "forma de C",
+    "cerca",
+    "nota G na 2ª corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Pentatônicas de G na vizinhança C",
+   "inicio": "10:28",
+   "fim": "12:12",
+   "resumo": "Mostra a pentatônica maior e a menor de G nessa região, com as posições das notas em cada corda.",
+   "assuntos": [
+    "pentatônica maior na região C",
+    "pentatônica menor na região C"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Bends nas pentatônicas da vizinhança C",
+   "inicio": "12:12",
+   "fim": "13:17",
+   "resumo": "Indica os bends obvios da maior e da menor na região C.",
+   "assuntos": [
+    "bends na região C",
+    "bend completo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Ligação entre as vizinhanças E e C",
+   "inicio": "13:17",
+   "fim": "14:21",
+   "resumo": "Tocar a pentatônica menor de G nas regiões E e C e usar uma bus line para passar de uma para a outra.",
+   "assuntos": [
+    "bus line",
+    "transição entre regiões",
+    "exercício de vizinhanças"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Notas de passagem cromáticas",
+   "inicio": "14:21",
+   "fim": "15:31",
+   "resumo": "Mostra como preencher o intervalo entre duas notas da mesma corda com notas cromáticas de passagem, sem pousar nelas.",
+   "assuntos": [
+    "cromatismo",
+    "notas de passagem"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Vizinhança A: acorde de G na forma de A e pentatônica maior",
+   "inicio": "15:31",
+   "fim": "16:38",
+   "resumo": "Apresenta a forma de A transposta para G, a cerca e a pentatônica maior de G nessa região com a raiz na 3ª corda.",
+   "assuntos": [
+    "forma de A",
+    "pentatônica maior na região A",
+    "raiz na 3ª corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Pentatônica menor na vizinhança A e blues de 12 compassos",
+   "inicio": "16:38",
+   "fim": "19:26",
+   "resumo": "Mostra a pentatônica menor de G na região A e explica que a pentatônica maior só serve em música maior; em seguida demonstra improviso sobre blues de 12 compassos sem seguir cada troca.",
+   "assuntos": [
+    "pentatônica menor na região A",
+    "tonalidade maior versus menor",
+    "blues de 12 compassos",
+    "não seguir cada acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Improviso combinando as três vizinhanças",
+   "inicio": "19:26",
+   "fim": "21:39",
+   "resumo": "Demonstra improviso mudando entre as regiões E, C e A com a nota G como âncora e com uma bus line da região C para a A.",
+   "assuntos": [
+    "improviso entre regiões",
+    "bus line para A",
+    "âncora G"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Improviso sobre G-Em-C",
+   "inicio": "21:39",
+   "fim": "23:07",
+   "resumo": "Aplica os mesmos princípios sobre uma progressão G-Em-C com Em relativo menor e C como IV, e encerra com a ideia de tocar como se estivesse cantando.",
+   "assuntos": [
+    "progressão G-Em-C",
+    "relativo menor",
+    "improviso expressivo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Divulgação do material premium",
+   "inicio": "23:07",
+   "fim": "23:39",
+   "resumo": "Anuncia tablaturas e backing tracks disponíveis para membros premium.",
+   "assuntos": [
+    "material premium"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S17",
+   "titulo": "Despedida",
+   "inicio": "23:39",
+   "fim": "24:02",
+   "resumo": "Despedida e convite para a próxima aula.",
+   "assuntos": [],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Braço dividido em três vizinhanças",
+   "descricao": "Visualize o braço como três regiões (vizinhanças) definidas pelas formas E, C e A do CAGED, cada uma conectada às pentatônicas maior e menor.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "vizinhanças",
+    "caged",
+    "pentatônica"
+   ],
+   "id_global": "FhfmneCt7jo#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Aprender em G e transportar para qualquer tom",
+   "descricao": "Os princípios são ensinados na tonalidade de G, mas servem para qualquer tonalidade: domine em G e depois transponha.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidade",
+    "transposição"
+   ],
+   "id_global": "FhfmneCt7jo#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Acorde de G na forma de E",
+   "descricao": "Um acorde de E aberto deslocado para a 3ª casa, com a pestana na 3ª casa, resulta em G. Essa é a forma E de G, ou vizinhança E.",
+   "passos": [],
+   "timestamp": "01:40",
+   "nivel": "iniciante",
+   "tags": [
+    "forma de e",
+    "pestana",
+    "caged"
+   ],
+   "id_global": "FhfmneCt7jo#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "O indicador como cerca da vizinhança",
+   "descricao": "A pestana do indicador marca uma cerca: fique do lado do corpo (dos trastes mais graves para os agudos) e não ultrapasse a cerca enquanto improvisa nessa região.",
+   "passos": [],
+   "timestamp": "02:12",
+   "nivel": "iniciante",
+   "tags": [
+    "cerca",
+    "região do braço"
+   ],
+   "id_global": "FhfmneCt7jo#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Improvisar só nas três cordas agudas",
+   "descricao": "Para simplificar o improviso de lead, limite-se às três cordas agudas (G, B e E) no início. Depois você pode expandir para as graves.",
+   "passos": [],
+   "timestamp": "02:44",
+   "nivel": "iniciante",
+   "tags": [
+    "cordas agudas",
+    "simplificação"
+   ],
+   "id_global": "FhfmneCt7jo#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "G como nota-âncora da vizinhança E",
+   "descricao": "Na vizinhança E, a nota G está na 1ª corda, 3ª casa. É a nota de casa que deve ser lembrada: ela pertence às pentatônicas maior e menor e serve de eixo.",
+   "passos": [],
+   "timestamp": "03:48",
+   "nivel": "iniciante",
+   "tags": [
+    "nota-âncora",
+    "notas-alvo",
+    "g"
+   ],
+   "id_global": "FhfmneCt7jo#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas maior e menor de G na mesma região",
+   "descricao": "Pentatônica maior de G: G A B D E. Pentatônica menor de G: G B♭ C D F. As duas compartilham a nota G e ocupam a mesma região do braço nas três cordas agudas.",
+   "passos": [],
+   "timestamp": "04:20",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "pentatônica menor",
+    "g"
+   ],
+   "id_global": "FhfmneCt7jo#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Pentatônica tem cinco notas, não seis",
+   "descricao": "Ao tocar a pentatônica menor da região E, a nota de oitava (repetida) tocada no fim não conta como uma sexta nota. A escala tem cinco notas distintas.",
+   "passos": [],
+   "timestamp": "04:54",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "teoria"
+   ],
+   "id_global": "FhfmneCt7jo#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Maior soa alegre, menor soa bluesy",
+   "descricao": "A pentatônica maior dá um som mais alegre e a menor um som mais bluesy. Você pode misturar as duas dentro da mesma região sem mudar de posição.",
+   "passos": [],
+   "timestamp": "06:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "pentatônica menor",
+    "blues"
+   ],
+   "id_global": "FhfmneCt7jo#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Bend completo na 1ª corda, 5ª casa (maior)",
+   "descricao": "Na pentatônica maior da região E, o bend mais usado é o completo na 1ª corda, 5ª casa: sobe duas casas, de A para B.",
+   "passos": [],
+   "timestamp": "06:32",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "bend completo",
+    "pentatônica maior"
+   ],
+   "id_global": "FhfmneCt7jo#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Meio bend na 2ª corda, 5ª casa (maior para menor)",
+   "descricao": "Na 2ª corda, 5ª casa da região E, um meio bend (uma casa) leva a nota E até a F, que é a nota da pentatônica menor. Serve para soar bluesy dentro da maior.",
+   "passos": [],
+   "timestamp": "06:32",
+   "nivel": "intermediario",
+   "tags": [
+    "meio bend",
+    "bend",
+    "blue note"
+   ],
+   "id_global": "FhfmneCt7jo#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Bends principais da pentatônica menor na região E",
+   "descricao": "Os bends mais óbvios da menor na região E são: 1ª corda na 6ª casa, 2ª corda na 6ª casa e 3ª corda na 5ª casa.",
+   "passos": [],
+   "timestamp": "07:04",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "pentatônica menor"
+   ],
+   "id_global": "FhfmneCt7jo#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Caminhar pela escala sobre G e pousar em G",
+   "descricao": "Sobre um blues shuffle de um acorde só (G), suba a pentatônica maior de G e volte à nota G como destino; depois faça o mesmo com a menor.",
+   "passos": [
+    "Ligue a backing track de blues shuffle em G.",
+    "Toque a pentatônica maior de G na região E subindo e descendo.",
+    "Pouse na nota G como ponto de chegada.",
+    "Repita com a pentatônica menor, usando o bend da 1ª corda."
+   ],
+   "timestamp": "08:12",
+   "nivel": "intermediario",
+   "tags": [
+    "backing track",
+    "nota de destino",
+    "blues shuffle"
+   ],
+   "id_global": "FhfmneCt7jo#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Alternar maior e menor sem trocar de região",
+   "descricao": "Você pode alternar entre a pentatônica maior e a menor de G na mesma região, mantendo o dedo na nota G, sem precisar seguir a harmonia que não existe (um acorde só).",
+   "passos": [
+    "Comece na pentatônica maior de G na região E.",
+    "Ao ouvir uma nota bluesy, deslize para a menor usando a mesma nota G como eixo.",
+    "Volte para a maior e alterne algumas vezes em frases curtas."
+   ],
+   "timestamp": "09:22",
+   "nivel": "intermediario",
+   "tags": [
+    "mistura",
+    "maior e menor",
+    "improviso"
+   ],
+   "id_global": "FhfmneCt7jo#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Acorde de G na forma de C",
+   "descricao": "Um acorde de C aberto deslocado para cima (pestana na 3ª casa) resulta em G. Essa é a forma C de G, ou vizinhança C, com cerca no indicador.",
+   "passos": [],
+   "timestamp": "09:56",
+   "nivel": "iniciante",
+   "tags": [
+    "forma de c",
+    "caged",
+    "cerca"
+   ],
+   "id_global": "FhfmneCt7jo#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Mesma nota G, outro lugar",
+   "descricao": "Na vizinhança C, a nota-âncora G está na 2ª corda, 8ª casa, em vez da 1ª corda 3ª casa da região E. Mesma nota, outra posição, e isso define a região.",
+   "passos": [],
+   "timestamp": "10:28",
+   "nivel": "iniciante",
+   "tags": [
+    "nota-âncora",
+    "g",
+    "vizinhança c"
+   ],
+   "id_global": "FhfmneCt7jo#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior de G na vizinhança C",
+   "descricao": "Na região C, a pentatônica maior de G aparece com mais de cinco posições por causa de uma nota repetida. Esta área é comum em solos ao estilo BB King.",
+   "passos": [],
+   "timestamp": "11:01",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "vizinhança c",
+    "bb king"
+   ],
+   "id_global": "FhfmneCt7jo#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Pentatônica menor de G na vizinhança C",
+   "descricao": "Na região C, a pentatônica menor de G usa: 1ª corda 10ª casa (D) e 8ª casa (C); 2ª corda 11ª casa (B♭) e 8ª casa (G); 3ª corda 10ª casa (F) e 7ª casa (D).",
+   "passos": [
+    "Posicione o indicador na cerca da região C.",
+    "Toque D na 1ª corda 10ª casa e desça para C na 8ª casa.",
+    "Vá para a 2ª corda: B♭ na 11ª casa e G na 8ª casa.",
+    "Feche na 3ª corda: F na 10ª casa e D na 7ª casa.",
+    "Repita de baixo para cima."
+   ],
+   "timestamp": "11:37",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "vizinhança c",
+    "posições"
+   ],
+   "id_global": "FhfmneCt7jo#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Bends na região C",
+   "descricao": "Na pentatônica maior de G na região C, o bend obvio é o completo na 2ª corda e na 1ª corda, ambos na 10ª casa. Na menor, bends obvios: 2ª corda na 11ª casa e 3ª corda na 10ª casa.",
+   "passos": [],
+   "timestamp": "12:12",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "vizinhança c"
+   ],
+   "id_global": "FhfmneCt7jo#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Percorrer as vizinhanças E e C com a menor",
+   "descricao": "Tocar a pentatônica menor de G na região E, subir pela bus line e continuar na região C, ligando as duas regiões em uma frase.",
+   "passos": [
+    "Toque a pentatônica menor de G na região E.",
+    "Suba até a nota de ligação (bus line).",
+    "Continue a menor de G na região C.",
+    "Volte pelo mesmo caminho e repita algumas vezes."
+   ],
+   "timestamp": "13:17",
+   "nivel": "intermediario",
+   "tags": [
+    "bus line",
+    "transição",
+    "vizinhanças"
+   ],
+   "id_global": "FhfmneCt7jo#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Bus line como ponte entre regiões",
+   "descricao": "A bus line é um caminho de ligação entre duas vizinhanças. Segundo a fala, a ponte leva da E para a C pela 1ª corda, 8ª casa, chegando à nota G da região C. Confira a posição na tablatura.",
+   "passos": [],
+   "timestamp": "13:49",
+   "nivel": "intermediario",
+   "tags": [
+    "bus line",
+    "transição"
+   ],
+   "id_global": "FhfmneCt7jo#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Notas cromáticas de passagem",
+   "descricao": "Quando duas notas da pentatônica estão na mesma corda separadas por uma casa vazia, você pode tocar a nota entre elas como nota de passagem, sem pousar nela.",
+   "passos": [],
+   "timestamp": "14:55",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "notas de passagem"
+   ],
+   "id_global": "FhfmneCt7jo#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Cromatismo em excesso soa mal",
+   "descricao": "Usar muitas notas de passagem deixa o solo obsessivo. Use em pontos pequenos e nunca termine a frase na nota cromática, pois é aí que soa estranho.",
+   "passos": [],
+   "timestamp": "14:55",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "frase",
+    "erro comum"
+   ],
+   "id_global": "FhfmneCt7jo#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Acorde de G na forma de A",
+   "descricao": "A forma de A deslocada para a 10ª casa dá G, com a pestana na 10ª casa da 5ª corda. As cordas aproveitadas são a 5ª à 2ª. Essa é a vizinhança A.",
+   "passos": [],
+   "timestamp": "16:04",
+   "nivel": "intermediario",
+   "tags": [
+    "forma de a",
+    "caged",
+    "vizinhança a"
+   ],
+   "id_global": "FhfmneCt7jo#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior de G na vizinhança A",
+   "descricao": "Na vizinhança A, a raiz G fica na 3ª corda, 12ª casa (também é a corda solta de G). A maior de G aparece como: 3ª corda 12ª casa; 2ª corda 10ª e 12ª casas (A e B); 1ª corda 10ª e 12ª casas (D e E).",
+   "passos": [],
+   "timestamp": "16:38",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "vizinhança a",
+    "nota-âncora"
+   ],
+   "id_global": "FhfmneCt7jo#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de G na vizinhança A",
+   "descricao": "Na vizinhança A, a menor de G é: 3ª corda 12ª casa (G); 2ª corda 11ª e 13ª casas (B♭ e C); 1ª corda 10ª e 13ª casas (D e F).",
+   "passos": [],
+   "timestamp": "17:12",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "vizinhança a"
+   ],
+   "id_global": "FhfmneCt7jo#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Mesmo desenho, casas diferentes",
+   "descricao": "O desenho da pentatônica maior de G na vizinhança C reaparece como pentatônica menor de G três casas acima. Use esse padrão para reconhecer posições.",
+   "passos": [],
+   "timestamp": "17:12",
+   "nivel": "intermediario",
+   "tags": [
+    "padrão",
+    "deslocamento",
+    "reconhecimento"
+   ],
+   "id_global": "FhfmneCt7jo#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Maior só serve em música maior",
+   "descricao": "A pentatônica maior funciona sobre progressões em tonalidade maior (como o blues de G com I-IV-V). Em música menor, use somente a pentatônica menor.",
+   "passos": [],
+   "timestamp": "18:19",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "pentatônica maior",
+    "pentatônica menor"
+   ],
+   "id_global": "FhfmneCt7jo#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "Ficar na tonalidade em vez de seguir cada acorde",
+   "descricao": "Com as pentatônicas da tonalidade você pode improvisar sem acompanhar cada troca de acorde; a tonalidade da música já oferece notas seguras.",
+   "passos": [],
+   "timestamp": "18:51",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "improviso",
+    "blues de 12 compassos"
+   ],
+   "id_global": "FhfmneCt7jo#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S14",
+   "tipo": "exercicio",
+   "titulo": "Improvisar mudando de região com a nota G fixa",
+   "descricao": "Use a nota G como âncora e alterne entre as vizinhanças E, C e A em uma mesma frase. A nota G funciona como ponto de retorno em cada região.",
+   "passos": [
+    "Comece na região E sobre a backing track.",
+    "Pouse na nota G (âncora).",
+    "Mude para a região C pela bus line.",
+    "Continue a frase na região C e retorne à G.",
+    "Siga para a região A se quiser."
+   ],
+   "timestamp": "19:26",
+   "nivel": "intermediario",
+   "tags": [
+    "vizinhanças",
+    "nota-âncora",
+    "improviso"
+   ],
+   "id_global": "FhfmneCt7jo#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S14",
+   "tipo": "conceito",
+   "titulo": "Bus line da C para a A",
+   "descricao": "Da pentatônica maior na região C, há uma bus line para a região A: basta trocar de forma sem sair da mesma pentatônica maior.",
+   "passos": [],
+   "timestamp": "21:07",
+   "nivel": "intermediario",
+   "tags": [
+    "bus line",
+    "vizinhança a",
+    "transição"
+   ],
+   "id_global": "FhfmneCt7jo#I31"
+  },
+  {
+   "id": "I32",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "Em é o relativo menor de G",
+   "descricao": "Sobre G-Em-C, Em é o vi grau de G (relativo menor) e C é o IV. A nota C pertence à pentatônica menor de G, mas não à maior. Escolha conforme a nota que você quer.",
+   "passos": [],
+   "timestamp": "21:39",
+   "nivel": "intermediario",
+   "tags": [
+    "relativo menor",
+    "g-em-c",
+    "pentatônica menor"
+   ],
+   "id_global": "FhfmneCt7jo#I32"
+  },
+  {
+   "id": "I33",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Tocar como cantar",
+   "descricao": "Foque em tocar o que você ouve e sente, sem se prender à teoria a cada nota. A pentatônica é um caminho para expressar-se melhor.",
+   "passos": [],
+   "timestamp": "22:35",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "expressão",
+    "ouvido"
+   ],
+   "id_global": "FhfmneCt7jo#I33"
+  }
+ ],
+ "artistas_citados": [
+  "BB King"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Active Melody - 3 backing tracks em MP3 (G, G-C-D e G-Em-C) e 2 solos em tablatura, disponíveis no site (EP471)",
+  "Active Melody - membro premium com tablaturas dos solos do vídeo",
+  "Sistema CAGED"
+ ],
+ "observacoes": "Legenda automática com erros: 'pentatonix' por pentatonic, 'half bin' por half bend, 'bb king' como BB King, 'cord' por chord, 'neighborhood' às vezes transcrito como 'neighbor'. Vários números de casas e cordas estão ambíguos ou inconsistentes na transcrição (por exemplo, o trajeto da bus line e a numeração de cordas em alguns trechos), por isso as notas foram calculadas pela teoria e a tablatura extra deve ser consultada. O vídeo depende da tablatura e do áudio dos backing tracks para acompanhar os exemplos. O professor cita 'pattern two' para a pentatônica maior, mas sem explicar o número.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.00535,
+  "via": "api"
+ }
+}

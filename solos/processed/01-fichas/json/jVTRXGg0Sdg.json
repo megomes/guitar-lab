@@ -1,0 +1,826 @@
+{
+ "fonte_id": "jVTRXGg0Sdg",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Soloing Exercise That Changed My Life",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg",
+  "idioma": "en",
+  "duracao": "11m 34s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/jVTRXGg0Sdg--the-soloing-exercise-that-changed-my-life.md"
+ },
+ "resumo": "Jens Larsen apresenta um exercício de solo baseado em tônicas de acordes (chord tone soloing) sobre um jazz blues em C, usando arpejos de uma oitava de C7 e F7 e depois expandindo para posições completas. O vídeo trabalha desenvolvimento motívico, call-and-response, fraseado, dinâmica e conexão entre acordes, com a ideia de que quatro notas por acorde já bastam para fazer música. Destina-se a guitarristas iniciantes ou intermediários que querem sair de solos mecânicos e pensar em frases conectadas.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "O exercício é concreto, progressivo e fácil de aplicar (arpejos de uma oitava, depois posições completas, depois conexão com o próximo acorde). A fonte depende do PDF com os arpejos e de ouvir os exemplos, e algumas explicações são repetitivas e genéricas."
+ },
+ "assuntos_principais": [
+  "chord tone soloing",
+  "arpejos de dominante",
+  "jazz blues em C",
+  "forma de 12 compassos",
+  "ii-V-I",
+  "desenvolvimento motívico",
+  "call and response",
+  "fraseado e dinâmica",
+  "conexão entre acordes",
+  "posições completas de arpejo",
+  "notas-alvo"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura: o exercício que muda o solo",
+   "inicio": "00:00",
+   "fim": "00:35",
+   "resumo": "Gancho inicial que anuncia o exercício de chord tone soloing e seus benefícios para ritmo, visão do braço e fraseado, além do problema de pensar só nas notas e esquecer a música.",
+   "assuntos": [
+    "chord tone soloing",
+    "motivação"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Base: arpejos de uma oitava sobre o blues",
+   "inicio": "00:35",
+   "fim": "01:08",
+   "resumo": "Apresenta o jazz blues em C e os dois arpejos usados nos primeiros quatro compassos (C7 e F7), com a orientação de ficar na mesma região do braço.",
+   "assuntos": [
+    "jazz blues em C",
+    "arpejos de C7 e F7",
+    "arpejos de uma oitava"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Forma do blues: compassos 5 a 12",
+   "inicio": "01:08",
+   "fim": "01:42",
+   "resumo": "Mostra os arpejos dos compassos 5 a 8 (F7, F♯ diminuto, C7, A7) e os compassos 9 a 12 (Dm7, G7, C7), usando a ideia de que o F♯ diminuto é o F7 com a fundamental trocada.",
+   "assuntos": [
+    "F7",
+    "F♯ diminuto",
+    "A7",
+    "ii-V em C",
+    "forma do blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Turnaround e prática dos arpejos",
+   "inicio": "01:42",
+   "fim": "02:48",
+   "resumo": "Fecha a forma com o turnaround de volta ao início (Dm7, G7, C7, G7) e propõe práticas: tocar em tempo sobre a forma, arpejos descendentes, começar na terça e criar licks curtos levados pela forma.",
+   "assuntos": [
+    "turnaround",
+    "prática com a forma",
+    "arpejo descendente",
+    "começar na terça",
+    "licks curtos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Fazer melodias, não só correr arpejos",
+   "inicio": "02:48",
+   "fim": "03:21",
+   "resumo": "Argumenta que o objetivo é criar melodias e não apenas subir e descer arpejos, sugerindo variar direção, pontos de partida e foco no fraseado.",
+   "assuntos": [
+    "melodia",
+    "direção da linha",
+    "ponto de partida",
+    "fraseado"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Conexão entre frases e o 'superpoder' das quatro notas",
+   "inicio": "03:21",
+   "fim": "04:11",
+   "resumo": "Descreve o problema de frases que combinam com o acorde mas não se conectam entre si, e apresenta as quatro notas por acorde como facilitador para criar narrativa melódica.",
+   "assuntos": [
+    "conexão de frases",
+    "erro comum de iniciantes",
+    "quatro notas por acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Desenvolvimento motívico",
+   "inicio": "04:11",
+   "fim": "05:51",
+   "resumo": "Ensina a transpor um motivo entre acordes usando os intervalos da fundamental, aplica o mesmo formato no F7 e sugere alterar ritmo, notas e deslocamento para evitar soar mecânico.",
+   "assuntos": [
+    "motivo",
+    "transposição",
+    "intervalos de acorde",
+    "variação rítmica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Call and response",
+   "inicio": "05:51",
+   "fim": "06:58",
+   "resumo": "Explica call and response como uma frase de chamada seguida de resposta contrastante, sugerindo a versão inversa e descendente da frase e a prática sobre o blues.",
+   "assuntos": [
+    "call and response",
+    "frase de resposta",
+    "inversão",
+    "prática no blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Fraseado e dinâmica",
+   "inicio": "06:58",
+   "fim": "08:14",
+   "resumo": "Trata de detalhes como dinâmica, timing, slides, legato e grace notes, e mostra a transição de C7 para F7 no compasso 5 usando notas do C7.",
+   "assuntos": [
+    "fraseado",
+    "dinâmica",
+    "slides",
+    "legato",
+    "grace note",
+    "transição C7 para F7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Expandindo para posições completas",
+   "inicio": "08:14",
+   "fim": "09:49",
+   "resumo": "Explica que as posições completas são extensão das quatro notas, que não é preciso começar sempre na fundamental e propõe o exercício never-ending arpeggio em colcheias.",
+   "assuntos": [
+    "posições completas",
+    "extensão do arpejo",
+    "never-ending arpeggio",
+    "colcheias"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Conectando um acorde ao próximo",
+   "inicio": "09:49",
+   "fim": "11:10",
+   "resumo": "Ensina a enxergar o arpejo do próximo acorde e terminar frases em direção a uma nota dele, usando a terça de F7 (A) como primeira nota-alvo e uma linha sobre Dm7-G7-C.",
+   "assuntos": [
+    "antecipação",
+    "notas-alvo",
+    "terça do próximo acorde",
+    "ii-V-I",
+    "linha contínua"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Recapitulação: transformar símbolos em música",
+   "inicio": "11:10",
+   "fim": "11:34",
+   "resumo": "Resume o problema de tocar acordes longos no tempo 1 sem ritmo e reforça que o objetivo é transformar cifras em música; termina com chamada para se inscrever e aprender mais.",
+   "assuntos": [
+    "ritmo",
+    "cifras em música",
+    "erro comum",
+    "recapitulação"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejos do primeiro trecho do blues",
+   "descricao": "Nos quatro primeiros compassos de um jazz blues em C, usa-se apenas dois arpejos: C7 (C E G B♭) e F7 (F A C E♭), o que basta para começar a improvisar.",
+   "passos": [],
+   "timestamp": "00:35",
+   "nivel": "iniciante",
+   "tags": [
+    "jazz blues",
+    "C7",
+    "F7",
+    "arpejo de dominante"
+   ],
+   "id_global": "jVTRXGg0Sdg#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Manter a mesma região do braço",
+   "descricao": "Ao usar arpejos de uma oitava, fique na mesma área do braço para facilitar a conexão melódica entre C7 e F7.",
+   "passos": [],
+   "timestamp": "00:35",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "conexão melódica",
+    "arpejo de uma oitava"
+   ],
+   "id_global": "jVTRXGg0Sdg#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "F♯ diminuto como variação do F7",
+   "descricao": "No compasso 6 do blues em C aparece F♯ diminuto (F♯ A C E♭), que o autor descreve como um F7 com apenas uma nota alterada, a fundamental trocada de F para F♯.",
+   "passos": [],
+   "timestamp": "01:08",
+   "nivel": "intermediario",
+   "tags": [
+    "F♯ diminuto",
+    "diminuto",
+    "F7",
+    "forma do blues"
+   ],
+   "id_global": "jVTRXGg0Sdg#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Ii-V em C nos compassos 9 a 11",
+   "descricao": "Para os últimos quatro compassos do blues em C, o ii-V em C é Dm7 (D F A C) seguido de G7 (G B D F), que resolve em C7.",
+   "passos": [],
+   "timestamp": "01:20",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V",
+    "Dm7",
+    "G7",
+    "forma do blues"
+   ],
+   "id_global": "jVTRXGg0Sdg#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Turnaround de volta ao topo da forma",
+   "descricao": "Os compassos finais do blues são Dm7, G7, C7 e um G7 extra no fim, que serve para voltar ao início do chorus.",
+   "passos": [],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "turnaround",
+    "forma do blues",
+    "G7"
+   ],
+   "id_global": "jVTRXGg0Sdg#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Arpejos em tempo sobre a forma",
+   "descricao": "Tocar os arpejos de uma oitava de cada acorde no tempo, percorrendo toda a forma do blues, para internalizar os acordes e a forma e evitar se perder na improvisação.",
+   "passos": [
+    "Escolha o primeiro acorde (C7) e toque seu arpejo de uma oitava (C E G B♭) no tempo.",
+    "Avance para F7 e depois para os acordes seguintes da forma, sem parar.",
+    "Repita a forma completa, prestando atenção em onde começa cada acorde.",
+    "Ao dominar, toque o arpejo de cada acorde sem olhar para a cifra."
+   ],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "forma",
+    "ritmo",
+    "internalização"
+   ],
+   "id_global": "jVTRXGg0Sdg#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Tocar arpejos descendentes",
+   "descricao": "Para mais flexibilidade, toque os arpejos de cima para baixo em vez de sempre começar pela fundamental.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo descendente",
+    "flexibilidade"
+   ],
+   "id_global": "jVTRXGg0Sdg#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Começar o arpejo na terça do acorde",
+   "descricao": "Experimente começar cada arpejo pela terça do acorde (por exemplo, E em C7), o que abre novas possibilidades melódicas.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "intermediario",
+   "tags": [
+    "terça",
+    "ponto de partida",
+    "arpejo"
+   ],
+   "id_global": "jVTRXGg0Sdg#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Criar licks curtos e levá-los pela forma",
+   "descricao": "Criar pequenos licks com as notas do arpejo e tocá-los ao longo da forma do blues, ajustando-os a cada acorde.",
+   "passos": [
+    "Crie um lick curto de 2 a 4 notas usando as notas do arpejo de C7.",
+    "Toque esse lick sobre C7 e depois adapte-o ao F7.",
+    "Repita o processo para os demais acordes da forma."
+   ],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "licks",
+    "forma",
+    "improvisação"
+   ],
+   "id_global": "jVTRXGg0Sdg#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Quatro notas por acorde já bastam para começar",
+   "descricao": "Como cada acorde tem apenas quatro notas, improvisar fica mais fácil do que parece; já com arpejos de uma oitava é possível tocar música.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "motivação"
+   ],
+   "id_global": "jVTRXGg0Sdg#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Foco em fazer melodias",
+   "descricao": "O objetivo não é descer e subir os arpejos, e sim criar melodias com ritmo e fraseado.",
+   "passos": [],
+   "timestamp": "02:48",
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "fraseado"
+   ],
+   "id_global": "jVTRXGg0Sdg#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Começar as frases na fundamental",
+   "descricao": "Segundo o autor, ao construir melodias sobre o arpejo, as frases devem começar na fundamental do acorde.",
+   "passos": [],
+   "timestamp": "02:48",
+   "nivel": "iniciante",
+   "tags": [
+    "fundamental",
+    "início de frase"
+   ],
+   "id_global": "jVTRXGg0Sdg#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Variar direção e ponto de partida das linhas",
+   "descricao": "Mude a direção das linhas (subindo, descendo, alternando) e os notas iniciais para deixar as frases menos previsíveis.",
+   "passos": [],
+   "timestamp": "02:48",
+   "nivel": "iniciante",
+   "tags": [
+    "direção da linha",
+    "variação"
+   ],
+   "id_global": "jVTRXGg0Sdg#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Frases que combinam com o acorde, mas não entre si",
+   "descricao": "Muitos iniciantes criam linhas que funcionam sobre cada acorde isoladamente, mas que se desconectam de um acorde para o seguinte, virando licks aleatórios sem narrativa.",
+   "passos": [],
+   "timestamp": "03:21",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "conexão de frases",
+    "licks"
+   ],
+   "id_global": "jVTRXGg0Sdg#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Conexão de frases como habilidade central do jazz",
+   "descricao": "Frases que se relacionam de um acorde para o outro criam uma história musical, o que é uma habilidade essencial no jazz.",
+   "passos": [],
+   "timestamp": "03:21",
+   "nivel": "intermediario",
+   "tags": [
+    "conexão de frases",
+    "jazz"
+   ],
+   "id_global": "jVTRXGg0Sdg#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Quatro notas facilitam o desenvolvimento motívico",
+   "descricao": "Trabalhar com apenas quatro notas por acorde é uma vantagem para criar solos mais melódicos, pois torna os motivos fáceis de transpor e conectar.",
+   "passos": [],
+   "timestamp": "04:11",
+   "nivel": "iniciante",
+   "tags": [
+    "quatro notas",
+    "melodia"
+   ],
+   "id_global": "jVTRXGg0Sdg#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Transpor um motivo pelos intervalos do acorde",
+   "descricao": "Um motivo construído só com notas do acorde pode ser transposto para outro acorde pensando nas notas como intervalos: fundamental, 3ª, 5ª e 7ª do acorde original são aplicados ao novo acorde (por exemplo, a 3ª, fundamental, 3ª, 5ª, 7ª de F7).",
+   "passos": [],
+   "timestamp": "04:44",
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "transposição",
+    "intervalos",
+    "F7"
+   ],
+   "id_global": "jVTRXGg0Sdg#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Percorrer a forma com um motivo",
+   "descricao": "Pegar um motivo curto e aplicá-lo a cada acorde da forma, usando sempre o mesmo formato de intervalos, para desenvolver o conhecimento do braço.",
+   "passos": [
+    "Crie um motivo curto de 4 a 5 notas usando as notas de C7.",
+    "Aplique o mesmo formato de intervalos ao arpejo de F7.",
+    "Continue a transposição pelos demais acordes da forma.",
+    "Confira se o motivo soa coerente ao longo da forma."
+   ],
+   "timestamp": "04:44",
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "forma",
+    "braço",
+    "transposição"
+   ],
+   "id_global": "jVTRXGg0Sdg#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Variar o motivo para não soar mecânico",
+   "descricao": "Para evitar o efeito mecânico, altere o ritmo do motivo, adicione ou remova notas e desloque levemente a frase, mantendo a ideia básica.",
+   "passos": [],
+   "timestamp": "05:21",
+   "nivel": "intermediario",
+   "tags": [
+    "variação motívica",
+    "ritmo",
+    "mecânico"
+   ],
+   "id_global": "jVTRXGg0Sdg#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Call and response",
+   "descricao": "Call and response é tocar uma frase (call) e responder com outra frase contrastante, criando um diálogo de vaivém no solo.",
+   "passos": [],
+   "timestamp": "05:51",
+   "nivel": "intermediario",
+   "tags": [
+    "call and response",
+    "diálogo",
+    "frase"
+   ],
+   "id_global": "jVTRXGg0Sdg#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Responder com a versão inversa da frase",
+   "descricao": "Use uma frase como call sobre um acorde e, como resposta, toque a versão inversa dela, geralmente com a mesma forma mas descendente.",
+   "passos": [
+    "Toque uma frase curta sobre um acorde como call.",
+    "Toque como response a versão invertida dessa frase, de forma descendente.",
+    "Repita o padrão ao longo da forma do blues."
+   ],
+   "timestamp": "05:54",
+   "nivel": "intermediario",
+   "tags": [
+    "call and response",
+    "inversão",
+    "descendente"
+   ],
+   "id_global": "jVTRXGg0Sdg#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Praticar call and response no blues",
+   "descricao": "Aplicar o padrão de call and response sobre a forma do jazz blues em C, para treinar a comunicação entre frases ao longo dos compassos.",
+   "passos": [],
+   "timestamp": "06:28",
+   "nivel": "intermediario",
+   "tags": [
+    "call and response",
+    "jazz blues"
+   ],
+   "id_global": "jVTRXGg0Sdg#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Detalhes sutis fazem o fraseado",
+   "descricao": "Dinâmica, timing e pequenas notas como grace notes são o que tornam uma frase viva; uma frase com apenas notas do arpejo soa sem graça sem esses elementos.",
+   "passos": [],
+   "timestamp": "07:02",
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "dinâmica",
+    "grace note"
+   ],
+   "id_global": "jVTRXGg0Sdg#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Trabalhar timing, slides, legato e dinâmica",
+   "descricao": "Ao improvisar, trabalhe conscientemente com timing, slides, legato e dinâmica para dar expressão às frases.",
+   "passos": [],
+   "timestamp": "07:02",
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "legato",
+    "dinâmica",
+    "timing"
+   ],
+   "id_global": "jVTRXGg0Sdg#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Transição de C7 para F7 no compasso 5",
+   "descricao": "Usar as notas do C7 para fazer uma transição suave até o F7 no compasso 5 é uma conexão de frases típica do jazz.",
+   "passos": [],
+   "timestamp": "07:46",
+   "nivel": "intermediario",
+   "tags": [
+    "transição",
+    "C7",
+    "F7",
+    "conexão de frases"
+   ],
+   "id_global": "jVTRXGg0Sdg#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S9",
+   "tipo": "mentalidade",
+   "titulo": "Ritmo e fraseado importam mais que quantidade de notas",
+   "descricao": "Se você não consegue fazer música com quatro notas, mais notas não resolvem o problema; o foco deve estar em ritmo e fraseado.",
+   "passos": [],
+   "timestamp": "07:46",
+   "nivel": "iniciante",
+   "tags": [
+    "ritmo",
+    "fraseado",
+    "quantidade de notas"
+   ],
+   "id_global": "jVTRXGg0Sdg#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Adaptar as posições ao seu jeito de tocar",
+   "descricao": "Ao expandir os arpejos para posições completas, adapte as escolhas do autor ao seu próprio hábito de posições de escala.",
+   "passos": [],
+   "timestamp": "08:19",
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "adaptação"
+   ],
+   "id_global": "jVTRXGg0Sdg#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Posições completas como extensão do arpejo de quatro notas",
+   "descricao": "As posições completas devem ser vistas como uma extensão do que já se sabe com as quatro notas, não como um conjunto novo de padrões.",
+   "passos": [],
+   "timestamp": "08:53",
+   "nivel": "intermediario",
+   "tags": [
+    "posições completas",
+    "arpejo",
+    "extensão"
+   ],
+   "id_global": "jVTRXGg0Sdg#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Não começar sempre na fundamental nas posições completas",
+   "descricao": "Com as posições completas, nem sempre é preciso começar pela fundamental do acorde, já que a posição maior oferece outras notas de partida.",
+   "passos": [],
+   "timestamp": "08:19",
+   "nivel": "intermediario",
+   "tags": [
+    "posições completas",
+    "ponto de partida",
+    "fundamental"
+   ],
+   "id_global": "jVTRXGg0Sdg#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre o blues com posições completas",
+   "descricao": "Depois de dominar as posições completas, improvise sobre o blues em C para se acostumar a ter mais notas disponíveis.",
+   "passos": [],
+   "timestamp": "09:26",
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "posições completas",
+    "jazz blues"
+   ],
+   "id_global": "jVTRXGg0Sdg#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Never-ending arpeggio",
+   "descricao": "Tocar os arpejos em colcheias, trocando ao longo da forma para a nota mais próxima do arpejo seguinte, para ganhar flexibilidade entre os acordes.",
+   "passos": [
+    "Toque o arpejo do acorde atual em colcheias, nas posições completas.",
+    "Ao chegar à mudança de acorde, troque para a nota mais próxima do arpejo seguinte.",
+    "Continue assim pela forma, sem interromper o fluxo de colcheias."
+   ],
+   "timestamp": "09:26",
+   "nivel": "avancado",
+   "tags": [
+    "never-ending arpeggio",
+    "colcheias",
+    "voice leading"
+   ],
+   "id_global": "jVTRXGg0Sdg#I31"
+  },
+  {
+   "id": "I32",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Enxergar o arpejo do próximo acorde",
+   "descricao": "Ao improvisar sobre C7, é preciso também enxergar o arpejo de F7 para tocar em direção a uma nota dele e terminar a linha em uma nota do acorde seguinte.",
+   "passos": [],
+   "timestamp": "10:00",
+   "nivel": "intermediario",
+   "tags": [
+    "antecipação",
+    "próximo acorde",
+    "notas-alvo"
+   ],
+   "id_global": "jVTRXGg0Sdg#I32"
+  },
+  {
+   "id": "I33",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "A terça de F7 como nota-alvo inicial",
+   "descricao": "Como nota-alvo inicial para sair de C7 em direção a F7, use o A, a 3ª de F7, que é clara e fácil de atingir; depois acrescente outras notas do acorde seguinte.",
+   "passos": [],
+   "timestamp": "10:39",
+   "nivel": "intermediario",
+   "tags": [
+    "nota-alvo",
+    "terça",
+    "F7"
+   ],
+   "id_global": "jVTRXGg0Sdg#I33"
+  },
+  {
+   "id": "I34",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Linha fluindo por Dm7, G7 e C",
+   "descricao": "Uma boa linha sobre Dm7, G7 e C cria um único movimento melódico que atravessa os três acordes, em vez de três ideias isoladas.",
+   "passos": [],
+   "timestamp": "10:39",
+   "nivel": "intermediario",
+   "tags": [
+    "ii-V-I",
+    "Dm7",
+    "G7",
+    "movimento melódico"
+   ],
+   "id_global": "jVTRXGg0Sdg#I34"
+  },
+  {
+   "id": "I35",
+   "segmento": "S12",
+   "tipo": "erro_comum",
+   "titulo": "Tocar acordes longos no tempo 1 sem ritmo",
+   "descricao": "Um erro comum é preencher a harmonia com acordes longos no primeiro tempo, sem pensar em ritmo, e assim ficar preso à cifra.",
+   "passos": [],
+   "timestamp": "11:13",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "ritmo",
+    "cifra"
+   ],
+   "id_global": "jVTRXGg0Sdg#I35"
+  },
+  {
+   "id": "I36",
+   "segmento": "S12",
+   "tipo": "mentalidade",
+   "titulo": "Transformar cifras em música",
+   "descricao": "O objetivo é transformar símbolos de acordes em música, mantendo-se conectado ao som e não se perdendo na harmonia.",
+   "passos": [],
+   "timestamp": "11:13",
+   "nivel": "iniciante",
+   "tags": [
+    "musicalidade",
+    "cifras",
+    "mentalidade"
+   ],
+   "id_global": "jVTRXGg0Sdg#I36"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [
+  "jazz blues em C (forma de 12 compassos usada como exemplo)"
+ ],
+ "recursos_citados": [
+  "PDF com os arpejos escritos sobre a forma (site jenslarsen.nl)",
+  "PDF e arquivos GuitarPro (Patreon)",
+  "Curso The Jazz Guitar Roadmap (Jens Larsen)",
+  "Curso The Jazz Chord Craftsmanship (Jens Larsen)",
+  "Livro Modern Jazz Guitar Concepts (Jens Larsen)",
+  "E-book gratuito com 15 licks II-V-I",
+  "Vídeo 'Jazz Beginner - 5 Myths That Waste Your Time'",
+  "Vídeo '3 Basic Jazz Chord Exercises That Will Change Your Playing in 2024'"
+ ],
+ "observacoes": "Transcrição automática sem marcação de tablatura ou partitura; exemplos tocados (frases, o solo de demonstração e a forma dos arpejos) só são compreensíveis ouvindo o áudio ou consultando o PDF citado. Termos como 'two-five' e 'arpeggio' aparecem bem transcritos; a fala 'in C major' refere-se ao tom do blues em C. Os nomes dos acordes foram conferidos pela teoria: C7, F7, F♯ diminuto, A7, Dm7 e G7. A descrição do F♯ diminuto como F7 com uma nota alterada foi preservada. A ordem de algumas dicas (começar na fundamental versus começar na terça ou em arpejos descendentes) é apresentada como alternativas do próprio autor.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00418,
+  "via": "api"
+ }
+}

@@ -1,0 +1,690 @@
+{
+ "fonte_id": "PLRMB8b_3pk",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Esse truque me fez improvisar por acordes.",
+  "autor": "Ozeias Rodrigues",
+  "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk",
+  "idioma": "pt",
+  "duracao": "22m 2s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/PLRMB8b_3pk--esse-truque-me-fez-improvisar-por-acordes.md"
+ },
+ "resumo": "Vídeo de Ozeias Rodrigues sobre como começar a improvisar sobre acordes que estão fora do campo harmônico, usando dominantes secundários. O professor explica o conceito a partir do campo harmônico de Dó maior, mostra que cada acorde pode ser preparado pelo seu V7, e propõe um exercício com o arpejo de dominante (fundamental, 3ª, 5ª, ♭7 e ♭9) e suas variações (inversões, início em diferentes graus, resolução na 3ª ou 5ª do acorde-alvo) sobre loops harmônicos. Destinado a guitarristas que já dominam o básico e querem vocabulário de jazz e MPB, incluindo estudantes intermediários.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto e aplicável, com exemplos de notas e de resolução, mas a fala é repetitiva, muitas explicações dependem de ver o braço e a transcrição automática está muito ruim, o que prejudica o acompanhamento."
+ },
+ "assuntos_principais": [
+  "dominantes secundários",
+  "improvisação sobre acordes",
+  "arpejo de dominante",
+  "nota ♭9 do dominante",
+  "análise de movimento harmônico",
+  "campo harmônico maior",
+  "resolução de frases",
+  "loops harmônicos"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: improvisar por acordes",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "O professor conta que começou no rock, onde se improvisa dentro de um centro tonal, e que a dificuldade no jazz e na MPB é tocar sobre acordes fora do campo harmônico. Anuncia o exercício do vídeo.",
+   "assuntos": [
+    "improvisação sobre acordes",
+    "dominantes secundários"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Propaganda do curso e apresentação do exercício",
+   "inicio": "00:32",
+   "fim": "01:06",
+   "resumo": "Divulgação do curso online Jazz Guitar Academy e a ideia de ouvir os acordes antes de tocar.",
+   "assuntos": [
+    "curso online"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Análise de movimento em vez de análise estática",
+   "inicio": "01:06",
+   "fim": "01:39",
+   "resumo": "Alerta que se deve analisar o movimento da frase e não apenas sua relação estática com o acorde, pois a frase muitas vezes prepara o acorde seguinte.",
+   "assuntos": [
+    "análise de movimento",
+    "preparação harmônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Conceito de dominante primário e secundário",
+   "inicio": "01:39",
+   "fim": "03:55",
+   "resumo": "No campo harmônico de Dó maior, o V7 (Sol7) é o dominante primário. Os demais acordes ganham um dominante secundário, o V7 de cada um: A7 para Dm7, B7 para Em7, C7 para F, D7 para G7 e E7 para Am7. O Bm7♭5 não tem dominante secundário natural e é tratado como Dm7 com sexta.",
+   "assuntos": [
+    "dominantes secundários",
+    "campo harmônico maior",
+    "dominante primário",
+    "acorde meio-diminuto"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Conexão de todo o campo harmônico",
+   "inicio": "03:55",
+   "fim": "05:03",
+   "resumo": "Recapitulação da cadeia de dominantes secundários que preparam cada acorde do campo harmônico, fechando com o Bm7♭5 tratado como ii de Dm.",
+   "assuntos": [
+    "cadeia de dominantes",
+    "campo harmônico maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Arpejo do dominante e a nota ♭9",
+   "inicio": "05:03",
+   "fim": "06:52",
+   "resumo": "Apresenta a tensão ♭9 do dominante (em Sol7, Láb) e o arpejo de cinco notas fundamental-3ª-5ª-♭7-♭9. Mostra como preparar Dm7 resolvendo na 3ª menor do acorde.",
+   "assuntos": [
+    "arpejo de dominante",
+    "nota ♭9",
+    "resolução na terça"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Análise de movimento sobre o loop e frases preparando os acordes",
+   "inicio": "06:52",
+   "fim": "09:03",
+   "resumo": "Explica que Charlie Parker preparava acordes com dominantes mesmo quando não escritos. Usa o loop de Dó maior com dois compassos por acorde e aplica o mesmo arpejo para preparar Dm, Fm, C7, Am e Bm7♭5.",
+   "assuntos": [
+    "análise de movimento",
+    "loop harmônico",
+    "preparação com dominantes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Inversão da frase e variações",
+   "inicio": "09:03",
+   "fim": "10:14",
+   "resumo": "Mostra a frase invertida (começando na ♭9 e descendo), com a ideia de visualizar a frase como um desmembramento do acorde-alvo.",
+   "assuntos": [
+    "inversão de frase",
+    "visualização do acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Começar pela fundamental e adicionar a quinta",
+   "inicio": "10:14",
+   "fim": "12:04",
+   "resumo": "Variação que começa na fundamental do arpejo e acrescenta a quinta, resolvendo na 3ª do acorde-alvo. Aplica a ideia para preparar Dm e Em, usando cada acorde do campo harmônico.",
+   "assuntos": [
+    "variação de frase",
+    "resolução na terça",
+    "preparação de acordes diferentes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Frases iniciando na fundamental no grave e na ♭7",
+   "inicio": "12:04",
+   "fim": "13:18",
+   "resumo": "Exemplos com frase iniciando na fundamental do dominante no grave e depois na ♭7 do dominante, com resolução na fundamental do acorde seguinte.",
+   "assuntos": [
+    "variação de frase",
+    "início na ♭7",
+    "resolução na fundamental"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Preparação de todos os acordes com a mesma frase",
+   "inicio": "13:18",
+   "fim": "14:24",
+   "resumo": "Aplica a mesma frase de C7 para preparar Dm, F, G, Am e Bm7♭5, mostrando que o mesmo material serve para todo o campo harmônico.",
+   "assuntos": [
+    "aplicação a todo o campo harmônico",
+    "frase fixa"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Frase iniciada na ♭7 do grave",
+   "inicio": "14:24",
+   "fim": "15:09",
+   "resumo": "Variação da frase começando na ♭7 do grave, com resolução na fundamental do acorde-alvo.",
+   "assuntos": [
+    "variação de frase",
+    "início na ♭7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Frases iniciando na quinta",
+   "inicio": "15:09",
+   "fim": "16:53",
+   "resumo": "Constrói frases do dominante começando na 5ª e resolvendo na 5ª do acorde-alvo, aplicando a mesma ideia para Dm, Am e G, e depois a versão ao contrário com início na quinta no grave.",
+   "assuntos": [
+    "início na quinta",
+    "resolução na quinta",
+    "frase ao contrário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Frases iniciando na terça",
+   "inicio": "16:53",
+   "fim": "19:23",
+   "resumo": "Constrói frases do dominante a partir da 3ª, com resolução na 5ª do acorde-alvo, e explica que a frase do dominante pode começar na terça do grave.",
+   "assuntos": [
+    "início na terça",
+    "resolução na quinta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Aplicação ao tema All of Me",
+   "inicio": "19:23",
+   "fim": "21:28",
+   "resumo": "Aplica o exercício ao tema All of Me, mostrando como preparar Am7 com o dominante E7 e outros acordes, com o áudio ilustrando a preparação.",
+   "assuntos": [
+    "aplicação a standard",
+    "All of Me",
+    "preparação de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Despedida",
+   "inicio": "21:28",
+   "fim": "22:02",
+   "resumo": "Encerramento com agradecimento e convite ao próximo vídeo.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Analisar o movimento, não a frase estática",
+   "descricao": "Ao estudar uma transcrição, não basta ver como a frase se encaixa no acorde atual; é preciso analisar o movimento, porque a frase muitas vezes está sobre um acorde que prepara o próximo.",
+   "passos": [],
+   "timestamp": "01:06",
+   "nivel": "intermediario",
+   "tags": [
+    "análise de movimento",
+    "preparação harmônica"
+   ],
+   "id_global": "PLRMB8b_3pk#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Dominante primário e secundário",
+   "descricao": "O V7 do campo harmônico maior (em Dó, Sol7) é o dominante primário. Cada outro acorde do campo pode ser precedido pelo seu próprio V7, chamado dominante secundário.",
+   "passos": [],
+   "timestamp": "01:39",
+   "nivel": "intermediario",
+   "tags": [
+    "dominantes secundários",
+    "campo harmônico maior"
+   ],
+   "id_global": "PLRMB8b_3pk#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Dominante secundário de Dm7 é A7",
+   "descricao": "Em Dó maior, o dominante secundário de Ré menor (Dm7) é Lá7 (A7), que resolve na tônica do Dm7, Ré.",
+   "passos": [],
+   "timestamp": "02:45",
+   "nivel": "intermediario",
+   "tags": [
+    "dominantes secundários",
+    "dm7"
+   ],
+   "id_global": "PLRMB8b_3pk#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Cadeia de dominantes secundários no campo de Dó",
+   "descricao": "Os dominantes secundários do campo de Dó maior são: A7 para Dm7, B7 para Em7, C7 para Fmaj7, D7 para G7 e E7 para Am7.",
+   "passos": [],
+   "timestamp": "03:19",
+   "nivel": "intermediario",
+   "tags": [
+    "dominantes secundários",
+    "campo harmônico maior"
+   ],
+   "id_global": "PLRMB8b_3pk#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Bm7♭5 como II de Dm",
+   "descricao": "O Bm7♭5 não tem dominante secundário natural; trata-se como o acorde ii de Ré menor, preparado pelo A7 que resolve em Dm.",
+   "passos": [],
+   "timestamp": "03:55",
+   "nivel": "intermediario",
+   "tags": [
+    "meio-diminuto",
+    "bm7b5",
+    "dominantes secundários"
+   ],
+   "id_global": "PLRMB8b_3pk#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Conectar todo o campo harmônico com dominantes",
+   "descricao": "Usando dominantes secundários é possível encadear todo o campo harmônico maior: cada acorde é preparado pelo dominante que o antecede, e a cadeia termina no V7 que leva ao I.",
+   "passos": [],
+   "timestamp": "04:28",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico maior",
+    "cadeia de dominantes"
+   ],
+   "id_global": "PLRMB8b_3pk#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Arpejo de dominante de cinco notas com ♭9",
+   "descricao": "Para improvisar sobre um dominante, pode-se usar o arpejo fundamental-3ª-5ª-♭7 acrescido da ♭9. Em Sol7 são Sol, Si, Ré, Fá e Láb (G B D F A♭).",
+   "passos": [],
+   "timestamp": "05:03",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo de dominante",
+    "nota ♭9",
+    "dominante"
+   ],
+   "id_global": "PLRMB8b_3pk#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Nota de tensão ♭9 como porta de entrada",
+   "descricao": "A ♭9 do dominante é uma tensão forte, mas fácil de internalizar. Vale começar a criar frases a partir dela, testando diversas versões da mesma ideia.",
+   "passos": [],
+   "timestamp": "05:03",
+   "nivel": "intermediario",
+   "tags": [
+    "nota ♭9",
+    "tensão",
+    "dominante"
+   ],
+   "id_global": "PLRMB8b_3pk#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Frase do dominante resolvendo na 3ª menor do acorde-alvo",
+   "descricao": "Tocar o arpejo do dominante com a ♭9 e resolver na 3ª menor do acorde seguinte. Para preparar Dm7 com Lá7 (A7): usar Lá, Dó#, Mi, Sol, Si♭ com Si♭ (♭9 de Lá) e resolver em Fá (3ª menor de Ré).",
+   "passos": [
+    "Tocar sobre o dominante o arpejo fundamental, 3ª, 5ª, ♭7 e ♭9.",
+    "Resolver na 3ª menor do acorde seguinte.",
+    "Variar a posição do resultado (na 3ª ou na 5ª do acorde-alvo) para testar outras soluções."
+   ],
+   "timestamp": "06:15",
+   "nivel": "intermediario",
+   "tags": [
+    "resolução na terça",
+    "arpejo de dominante",
+    "dm7",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Charlie Parker preparava acordes com dominantes implícitos",
+   "descricao": "Muitos músicos, como Charlie Parker, preparavam acordes com dominantes secundários mesmo quando não estavam escritos na harmonia. Ouvir o movimento melódico ajuda a identificar esses dominantes.",
+   "passos": [],
+   "timestamp": "06:52",
+   "nivel": "intermediario",
+   "tags": [
+    "charlie parker",
+    "dominantes implícitos",
+    "movimento harmônico"
+   ],
+   "id_global": "PLRMB8b_3pk#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Tocar frase de dominante sobre loop de Dó maior",
+   "descricao": "Usando um loop de Dó maior com dois compassos por acorde, tocar a mesma frase de dominante sobre o segundo compasso de cada acorde para preparar o próximo.",
+   "passos": [
+    "Montar loop com o campo harmônico de Dó maior, dois compassos por acorde.",
+    "No segundo compasso de cada acorde, tocar o arpejo do dominante (fundamental, 3ª, 5ª, ♭7, ♭9).",
+    "Ouvir o resultado e confirmar que a frase prepara o acorde seguinte."
+   ],
+   "timestamp": "07:24",
+   "nivel": "intermediario",
+   "tags": [
+    "loop harmônico",
+    "preparação",
+    "campo harmônico maior"
+   ],
+   "id_global": "PLRMB8b_3pk#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Frase do dominante invertida",
+   "descricao": "Inverter a frase do dominante, começando pela ♭9 e descendo até a fundamental, com resolução na 3ª ou na fundamental do acorde-alvo.",
+   "passos": [
+    "Começar pela ♭9 do dominante.",
+    "Descer pela 3ª, 5ª, ♭7 e fundamental.",
+    "Resolver no acorde seguinte."
+   ],
+   "timestamp": "09:03",
+   "nivel": "intermediario",
+   "tags": [
+    "inversão",
+    "arpejo de dominante",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Visualizar a frase como desmembramento do acorde-alvo",
+   "descricao": "Ao criar uma frase para preparar um acorde, visualizá-la como um desmembramento do acorde de chegada ajuda a compreender a relação entre as notas.",
+   "passos": [],
+   "timestamp": "09:39",
+   "nivel": "intermediario",
+   "tags": [
+    "visualização",
+    "acorde-alvo"
+   ],
+   "id_global": "PLRMB8b_3pk#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Frase começando na fundamental do dominante com a quinta",
+   "descricao": "Começar na fundamental do arpejo do dominante e acrescentar a 5ª, depois 3ª, ♭7, fundamental, ♭7 e resolver na 3ª do acorde-alvo.",
+   "passos": [
+    "Começar na fundamental do dominante.",
+    "Acrescentar a 5ª e depois a 3ª do dominante.",
+    "Seguir com ♭7, fundamental e ♭7, resolvendo na 3ª do acorde-alvo."
+   ],
+   "timestamp": "10:47",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo de dominante",
+    "resolução na terça",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Escolher a resolução na 3ª do acorde-alvo",
+   "descricao": "Ao resolver a frase do dominante, pode-se optar pela 3ª do acorde-alvo, que é a nota que define a qualidade do acorde, para criar a preparação.",
+   "passos": [],
+   "timestamp": "11:20",
+   "nivel": "intermediario",
+   "tags": [
+    "resolução",
+    "guide tones",
+    "3ª"
+   ],
+   "id_global": "PLRMB8b_3pk#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Frase do dominante iniciando na fundamental do grave",
+   "descricao": "Frase do dominante começando na fundamental no grave: fundamental, ♭9, 3ª, 5ª, ♭7, fundamental, ♭7, resolvendo na fundamental do acorde seguinte. Para Dm, a partir do Lá no grave.",
+   "passos": [
+    "Tocar a fundamental do dominante no grave.",
+    "Subir pela ♭9, 3ª, 5ª e ♭7.",
+    "Descer para a fundamental e ♭7, resolvendo na fundamental do acorde-alvo."
+   ],
+   "timestamp": "12:04",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo de dominante",
+    "resolução na fundamental",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Frase iniciando na ♭7 do grave",
+   "descricao": "Começar na ♭7 do dominante no grave (em Sol7, Fá), subir pela 3ª, 5ª, ♭9 e fundamental, com resolução na fundamental do acorde-alvo (em Dó).",
+   "passos": [
+    "Tocar a ♭7 do dominante no grave.",
+    "Subir pela 3ª, 5ª e ♭9 e fundamental.",
+    "Resolver na fundamental do acorde-alvo."
+   ],
+   "timestamp": "13:18",
+   "nivel": "intermediario",
+   "tags": [
+    "início na ♭7",
+    "arpejo de dominante",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Uma frase serve para todo o campo harmônico",
+   "descricao": "A mesma frase de dominante pode ser transposta para preparar cada acorde do campo: a frase de C7 serve para preparar Dm, F, G, Am e Bm7♭5.",
+   "passos": [],
+   "timestamp": "13:18",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico maior",
+    "transposição",
+    "frase fixa"
+   ],
+   "id_global": "PLRMB8b_3pk#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S12",
+   "tipo": "exercicio",
+   "titulo": "Frase iniciando na ♭7 do grave com resolução na fundamental",
+   "descricao": "Variação com início na ♭7 do dominante no grave, passando pela 3ª, 5ª, ♭9 e fundamental, resolvendo na fundamental do acorde seguinte.",
+   "passos": [
+    "Iniciar na ♭7 do dominante no grave.",
+    "Passar pela 3ª, 5ª, ♭9 e fundamental.",
+    "Resolver na fundamental do acorde-alvo."
+   ],
+   "timestamp": "14:24",
+   "nivel": "intermediario",
+   "tags": [
+    "início na ♭7",
+    "resolução na fundamental",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S13",
+   "tipo": "exercicio",
+   "titulo": "Frase iniciando na quinta do dominante",
+   "descricao": "Construir a frase do dominante começando na 5ª (em Sol7, Ré), passando pela 3ª, ♭7, ♭9 e resolvendo na 5ª do acorde-alvo (em Dó, Sol).",
+   "passos": [
+    "Começar na 5ª do dominante.",
+    "Passar pela 3ª, ♭7 e ♭9.",
+    "Resolver na 5ª do acorde-alvo."
+   ],
+   "timestamp": "15:09",
+   "nivel": "intermediario",
+   "tags": [
+    "início na quinta",
+    "resolução na quinta",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "exercicio",
+   "titulo": "Frase ao contrário iniciando na 5ª do grave",
+   "descricao": "Versão invertida da frase iniciando na 5ª do grave, subindo ou descendo pelo arpejo do dominante e resolvendo na 5ª do acorde-alvo.",
+   "passos": [
+    "Tocar a 5ª do dominante no grave.",
+    "Percorrer o arpejo do dominante em sentido inverso.",
+    "Resolver na 5ª do acorde-alvo."
+   ],
+   "timestamp": "16:53",
+   "nivel": "intermediario",
+   "tags": [
+    "início na quinta",
+    "frase invertida",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S14",
+   "tipo": "exercicio",
+   "titulo": "Frase iniciando na 3ª do dominante",
+   "descricao": "Começar a frase do dominante na 3ª (em Sol7, Si), passar pela ♭7, fundamental, ♭9, 5ª e ♭7, resolvendo na 5ª do acorde-alvo.",
+   "passos": [
+    "Começar na 3ª do dominante.",
+    "Passar pela ♭7, fundamental e 5ª.",
+    "Resolver na 5ª do acorde-alvo."
+   ],
+   "timestamp": "18:05",
+   "nivel": "intermediario",
+   "tags": [
+    "início na terça",
+    "resolução na quinta",
+    "exercício"
+   ],
+   "id_global": "PLRMB8b_3pk#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S14",
+   "tipo": "dica",
+   "titulo": "Frase do dominante pode começar na 3ª do grave",
+   "descricao": "Ao iniciar a frase na 3ª do dominante no grave, o resultado prepara bem a chegada do acorde seguinte.",
+   "passos": [],
+   "timestamp": "19:23",
+   "nivel": "intermediario",
+   "tags": [
+    "início na terça",
+    "grave",
+    "preparação"
+   ],
+   "id_global": "PLRMB8b_3pk#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S15",
+   "tipo": "exercicio",
+   "titulo": "Aplicar a frase de dominante ao tema All of Me",
+   "descricao": "Aplicar o exercício de preparação a um standard: em All of Me, usar o dominante E7 para preparar Am7 e o A7 para preparar Dm7, tocando o arpejo do dominante antes do acorde-alvo.",
+   "passos": [
+    "Identificar o acorde seguinte no tema.",
+    "Montar o dominante secundário correspondente (E7 para Am7, por exemplo).",
+    "Tocar o arpejo do dominante com ♭9 sobre o compasso anterior.",
+    "Resolver na 3ª ou 5ª do acorde seguinte."
+   ],
+   "timestamp": "20:05",
+   "nivel": "intermediario",
+   "tags": [
+    "all of me",
+    "standard",
+    "dominantes secundários"
+   ],
+   "id_global": "PLRMB8b_3pk#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S15",
+   "tipo": "dica",
+   "titulo": "Ouvir o caminho dos dominantes",
+   "descricao": "Ao tocar um standard, é mais fácil ouvir a troca de harmonia e a chegada do acorde quando se toca o caminho dos dominantes secundários.",
+   "passos": [],
+   "timestamp": "20:41",
+   "nivel": "intermediario",
+   "tags": [
+    "audição",
+    "standard",
+    "harmonia"
+   ],
+   "id_global": "PLRMB8b_3pk#I25"
+  }
+ ],
+ "artistas_citados": [
+  "Charlie Parker"
+ ],
+ "musicas_citadas": [
+  "All of Me"
+ ],
+ "recursos_citados": [
+  "Jazz Guitar Academy (curso online do autor, pago)",
+  "Grupo e canal no Telegram do autor"
+ ],
+ "observacoes": "Legenda automática com muitos erros: 'jazzgterrane' é provavelmente Jazz Guitar Academy; 'dominante se7' e 'set' correspondem a sétima ou dominante 7; 'Bemol' aparece como 'nolabemol', 'nova Bemol', 'Nola Bemol' (= ♭9); 'loop' corresponde a 'look' e 'back in track' ao loop; 'Lago' e 'Lá menor' interpretados como Am; 'Acordeon' e 'São 7' são erros de transcrição de acordes. O conteúdo depende fortemente de ouvir e ver as frases tocadas, pois muitos exemplos são apenas nomeados pela nota inicial e resolução. Os detalhes das frases de Dm, F e G na parte final foram reconstruídos pela lógica do exercício, pois a transcrição está incompleta. Ideia I21 e I22 foram inferidas pelo padrão dos exemplos descritos.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00259,
+  "via": "api"
+ }
+}

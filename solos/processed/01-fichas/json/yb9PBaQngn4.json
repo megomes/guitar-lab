@@ -1,0 +1,519 @@
+{
+ "fonte_id": "yb9PBaQngn4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+  "autor": "Ozeias Rodrigues",
+  "url": "https://www.youtube.com/watch?v=yb9PBaQngn4",
+  "idioma": "pt",
+  "duracao": "11m 52s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/yb9PBaQngn4--iniciando-na-improvisação-como-estudar-de-forma-eficiente.md"
+ },
+ "resumo": "Aula de Ozeias Rodrigues para quem está começando a improvisar, com um apêndice para músicos mais avançados. O professor propõe estudar primeiro a escala diatônica de Dó maior tocada em sequência (não por shapes), absorvendo o som das notas antes de pensá-las no braço. Em seguida, mostra como cada nota da escala gera uma tríade empilhando terças, formando o campo harmônico, e como usar a sequência I–vi–ii–V para criar ideias sobre os acordes. Termina com a orientação de repetir e transformar pequenas ideias em vocabulário pessoal, sem depender de muletas como diagramas.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitos importantes e uma mentalidade de estudo útil (ouvir antes de tocar, improvisar como diálogo), mas a fala é muito repetitiva, a transcrição é ruim e vários exemplos dependem de ver o braço ou as sequências tocadas, que não estão claras no transcript."
+ },
+ "assuntos_principais": [
+  "escala diatônica de Dó maior",
+  "shapes e muletas",
+  "absorção sonora das notas",
+  "improvisação como diálogo",
+  "campo harmônico por terças",
+  "sequência de acordes I-vi-ii-V",
+  "construção de ideias e vocabulário"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e pedido de inscrição",
+   "inicio": "00:00",
+   "fim": "00:46",
+   "resumo": "Apresentação do tema e menção de que o material também serve a músicos avançados; em seguida, pedido de like, comentário e compartilhamento.",
+   "assuntos": [
+    "apresentação",
+    "pedido de inscrição"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Escala de Dó maior e a armadilha dos shapes",
+   "inicio": "00:46",
+   "fim": "02:03",
+   "resumo": "Apresentação da escala diatônica de Dó maior pela fórmula de tons e semitons e crítica às apostilas e aos diagramas de shapes que viram muletas.",
+   "assuntos": [
+    "escala diatônica",
+    "fórmula tom-semitom",
+    "shapes como muleta"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Shapes de Dó maior e a posição tocada em oitava",
+   "inicio": "02:03",
+   "fim": "03:23",
+   "resumo": "Demonstração de dois shapes partindo da tônica e do uso da segunda oitava, com a recomendação de não depender deles e de explorar as notas dentro do braço.",
+   "assuntos": [
+    "shapes a partir da tônica",
+    "notas dentro do braço",
+    "segunda oitava"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Absorver as notas: ouvir antes de pensar",
+   "inicio": "03:23",
+   "fim": "03:56",
+   "resumo": "Orientação para primeiro absorver o som das notas, depois pensá-las e só então levá-las ao instrumento, invertendo o processo usual.",
+   "assuntos": [
+    "ouvido",
+    "absorção das notas",
+    "inverter o processo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Improvisação como diálogo e exercício com a nota Dó",
+   "inicio": "03:56",
+   "fim": "05:07",
+   "resumo": "Analogia entre improvisar e escrever um texto ou conversar; exercício partindo de uma única nota Dó e movimentos de passos da escala para frente e para trás.",
+   "assuntos": [
+    "improvisação como diálogo",
+    "exercício com uma nota",
+    "movimento por graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Esperar a ideia e não tocar as notas mecanicamente",
+   "inicio": "05:07",
+   "fim": "06:21",
+   "resumo": "Ressalta que a ideia deve surgir antes de tocar, que tocar notas sem intenção não gera ideias e que o exercício deve ser repetido por bastante tempo.",
+   "assuntos": [
+    "intenção musical",
+    "repetição do exercício",
+    "vocabulário"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Da escala ao acorde: empilhar terças e campo harmônico",
+   "inicio": "06:21",
+   "fim": "07:31",
+   "resumo": "Antes de escalas alteradas, recomenda dominar a diatônica. Explica que sobrepondo terças às notas da escala de Dó maior surgem tríades: Dó maior, Ré menor, Mi menor, Fá maior, Sol maior, Lá menor e Si diminuto.",
+   "assuntos": [
+    "campo harmônico",
+    "tríades por terças",
+    "escala gera acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Sequência de acordes I-vi-ii-V para improvisar",
+   "inicio": "07:31",
+   "fim": "08:38",
+   "resumo": "Consolida o campo harmônico e propõe montar uma progressão com os acordes da escala para improvisar, criando ideias e repetindo as que funcionam.",
+   "assuntos": [
+    "progressão de acordes",
+    "improvisação sobre acordes",
+    "repetição de ideias"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Conexão com o instrumento e uso de poucas notas",
+   "inicio": "08:38",
+   "fim": "10:48",
+   "resumo": "Orientações para repetir notas, conectar-se ao instrumento e evitar frases decoradas; partir de uma nota e esperar a ideia vir.",
+   "assuntos": [
+    "repetição de notas",
+    "conexão com o instrumento",
+    "frases decoradas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Encerramento",
+   "inicio": "10:48",
+   "fim": "11:52",
+   "resumo": "Reforço de que a ideia deve surgir da escuta e despedida do canal.",
+   "assuntos": [
+    "encerramento"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Fórmula da escala maior",
+   "descricao": "A escala diatônica maior segue a sequência tom, tom, semitom, tom, tom, tom, semitom. Em Dó maior, isso dá Dó, Ré, Mi, Fá, Sol, Lá, Si, Dó, sem sustenidos ou bemóis.",
+   "passos": [],
+   "timestamp": "01:20",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "diatônica",
+    "fórmula tom-semitom"
+   ],
+   "id_global": "yb9PBaQngn4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Shapes viram muleta",
+   "descricao": "Aprender a escala como conjunto de shapes fixos faz o músico apertar os padrões sem ouvir o que toca, o que atrapalha a improvisação.",
+   "passos": [],
+   "timestamp": "02:03",
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "muleta",
+    "escuta"
+   ],
+   "id_global": "yb9PBaQngn4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Arte é se expressar, não apertar cordas",
+   "descricao": "Tocar guitarra com expressão depende de absorver as notas e de fazer a voz do instrumento, e não de apenas pressionar as posições do diagrama.",
+   "passos": [],
+   "timestamp": "01:20",
+   "nivel": "iniciante",
+   "tags": [
+    "expressão",
+    "mentalidade"
+   ],
+   "id_global": "yb9PBaQngn4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Começar pelos shapes partindo da tônica",
+   "descricao": "Para começar a improvisar, é mais fácil visualizar shapes da escala de Dó maior que partem da tônica Dó, usando-os como ponto de partida e não como destino.",
+   "passos": [],
+   "timestamp": "02:03",
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "tônica",
+    "visualização"
+   ],
+   "id_global": "yb9PBaQngn4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Explorar as notas na segunda oitava",
+   "descricao": "A escala de Dó maior também pode ser tocada na segunda oitava do braço, partindo de Dó e subindo Dó, Ré, Mi, Fá, Sol, Lá, Si, Dó, para ampliar o alcance além do primeiro shape.",
+   "passos": [],
+   "timestamp": "02:40",
+   "nivel": "iniciante",
+   "tags": [
+    "oitava",
+    "shapes",
+    "braço"
+   ],
+   "id_global": "yb9PBaQngn4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Absorver a escala de Dó maior no braço",
+   "descricao": "Tocar a escala de Dó maior nos shapes sugeridos com atenção ao som de cada nota, procurando descobrir outras notas dentro do formato em vez de apenas repetir o padrão.",
+   "passos": [
+    "Tocar a escala de Dó maior em um dos shapes sugeridos, partindo da tônica",
+    "Ouvir cada nota com atenção ao timbre e à relação com a tônica",
+    "Procurar as mesmas notas em outras posições do braço",
+    "Repetir até reconhecer as notas sem olhar o diagrama"
+   ],
+   "timestamp": "02:40",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "absorção",
+    "shapes"
+   ],
+   "id_global": "yb9PBaQngn4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir a nota antes de pensá-la",
+   "descricao": "Primeiro se absorve o som das notas; depois se pensa a nota e só então se leva ao instrumento. A ordem usual é inversa: o dedo toca e a mente acompanha.",
+   "passos": [],
+   "timestamp": "03:23",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "absorção",
+    "ordem de estudo"
+   ],
+   "id_global": "yb9PBaQngn4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar como texto ou diálogo",
+   "descricao": "Improvisar é semelhante a escrever um texto ou conversar: começa-se com uma frase inicial, que pode ser uma única nota, e a continuação surge da resposta do músico.",
+   "passos": [],
+   "timestamp": "03:56",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "diálogo",
+    "frase"
+   ],
+   "id_global": "yb9PBaQngn4#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Improvisar a partir de uma nota Dó",
+   "descricao": "Usar a nota Dó como ponto de partida para improvisar, deixando o cérebro sugerir a próxima nota pelos passos da escala, para frente ou para trás.",
+   "passos": [
+    "Tocar a nota Dó como início da frase",
+    "Esperar que surja uma ideia para o próximo passo",
+    "Mover-se pela escala de Dó maior um grau por vez, para cima ou para baixo",
+    "Parar e recomeçar sempre que a ideia se esgotar"
+   ],
+   "timestamp": "03:56",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "improvisação",
+    "movimento por graus"
+   ],
+   "id_global": "yb9PBaQngn4#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Tocar as notas sem ideia",
+   "descricao": "Ficar tocando as notas da escala de forma mecânica não gera ideias musicais; é preciso tocar com intenção e esperar a ideia surgir.",
+   "passos": [],
+   "timestamp": "05:07",
+   "nivel": "iniciante",
+   "tags": [
+    "intenção",
+    "improvisação",
+    "mecânica"
+   ],
+   "id_global": "yb9PBaQngn4#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "rotina_estudo",
+   "titulo": "Repetir o exercício por longo período",
+   "descricao": "O exercício de improvisar com a escala deve ser praticado constantemente e por bastante tempo antes de avançar para outros conteúdos.",
+   "passos": [
+    "Praticar o exercício de improvisação com a escala diatônica diariamente",
+    "Manter a prática por um período prolongado",
+    "Só avançar quando a escala diatônica estiver bem resolvida"
+   ],
+   "timestamp": "06:21",
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "repetição",
+    "ordem de estudo"
+   ],
+   "id_global": "yb9PBaQngn4#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Dominar a escala diatônica antes de escalas alteradas",
+   "descricao": "Antes de estudar escalas mais complexas, como a alterada, é preciso compreender muito bem a escala diatônica, que é a base da música ocidental segundo o professor.",
+   "passos": [],
+   "timestamp": "06:21",
+   "nivel": "iniciante",
+   "tags": [
+    "escala diatônica",
+    "ordem de estudo",
+    "escalas alteradas"
+   ],
+   "id_global": "yb9PBaQngn4#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Cada nota da escala gera um acorde por terças",
+   "descricao": "Sobrepondo terças a partir de cada nota da escala de Dó maior (Dó-Mi-Sol, Ré-Fá-Lá, Mi-Sol-Si, Fá-Lá-Dó, Sol-Si-Ré, Lá-Dó-Mi, Si-Ré-Fá) obtêm-se as tríades do campo harmônico: Dó maior, Ré menor, Mi menor, Fá maior, Sol maior, Lá menor e Si diminuto.",
+   "passos": [],
+   "timestamp": "06:55",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "tríades",
+    "terças",
+    "acordes da escala"
+   ],
+   "id_global": "yb9PBaQngn4#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico de Dó maior",
+   "descricao": "O campo harmônico de Dó maior é o conjunto dos acordes formados pelas notas da escala de Dó maior, combinados por terças: Dó, Ré menor, Mi menor, Fá, Sol, Lá menor e Si diminuto.",
+   "passos": [],
+   "timestamp": "07:31",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "dó maior",
+    "acordes"
+   ],
+   "id_global": "yb9PBaQngn4#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre a progressão I-vi-ii-V em Dó maior",
+   "descricao": "Montar uma progressão com acordes do campo harmônico de Dó maior, na ordem Dó maior, Lá menor, Ré menor e Sol maior, e criar ideias melódicas sobre ela, reconhecendo a raiz de cada acorde.",
+   "passos": [
+    "Montar a sequência Dó maior - Lá menor - Ré menor - Sol maior",
+    "Tocar a progressão em loop, sem pressa",
+    "Improvisar com a escala de Dó maior sobre cada acorde",
+    "Ao encontrar uma ideia boa, repeti-la para que vire vocabulário"
+   ],
+   "timestamp": "08:04",
+   "nivel": "intermediario",
+   "tags": [
+    "progressão",
+    "I-vi-ii-V",
+    "improvisação sobre acordes",
+    "campo harmônico"
+   ],
+   "id_global": "yb9PBaQngn4#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "rotina_estudo",
+   "titulo": "Repetir ideias para incorporá-las ao vocabulário",
+   "descricao": "Quando uma ideia musical surge durante a improvisação, repeti-la transforma-a em parte do vocabulário pessoal do músico.",
+   "passos": [],
+   "timestamp": "08:04",
+   "nivel": "iniciante",
+   "tags": [
+    "vocabulário",
+    "repetição",
+    "ideias"
+   ],
+   "id_global": "yb9PBaQngn4#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Repetir notas para criar frases",
+   "descricao": "Repetir notas e pequenas células rítmicas ou melódicas ajuda a criar frases e a se conectar com o instrumento, sem tentar tocar muitas notas de uma vez.",
+   "passos": [],
+   "timestamp": "08:38",
+   "nivel": "iniciante",
+   "tags": [
+    "repetição de notas",
+    "frases",
+    "conexão"
+   ],
+   "id_global": "yb9PBaQngn4#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "erro_comum",
+   "titulo": "Frases decoradas (remédio)",
+   "descricao": "Tocar frases prontas e decoradas, trocando apenas uma nota, costuma levar a ficar sem ideia; é melhor criar a partir da escuta.",
+   "passos": [],
+   "timestamp": "10:00",
+   "nivel": "iniciante",
+   "tags": [
+    "frases prontas",
+    "lick",
+    "criatividade"
+   ],
+   "id_global": "yb9PBaQngn4#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Partir de uma nota e esperar a ideia",
+   "descricao": "Começar a improvisação com apenas uma nota e aguardar uma ideia surgir antes de acrescentar as seguintes, em vez de encadear notas automaticamente.",
+   "passos": [
+    "Tocar uma única nota com intenção",
+    "Esperar que uma ideia surja",
+    "Acrescentar notas somente quando houver uma ideia para elas",
+    "Repetir a frase que funcionou"
+   ],
+   "timestamp": "10:48",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "ideias",
+    "notas"
+   ],
+   "id_global": "yb9PBaQngn4#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "mentalidade",
+   "titulo": "Prazer na conexão com o instrumento",
+   "descricao": "O processo de improvisar deve ser prazeroso e centrado na conexão com o instrumento, não em cumprir uma lista de notas.",
+   "passos": [],
+   "timestamp": "10:00",
+   "nivel": "iniciante",
+   "tags": [
+    "prazer",
+    "conexão",
+    "mentalidade"
+   ],
+   "id_global": "yb9PBaQngn4#I20"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Jazz Guitar Academy (curso pago do canal, citado na descrição)",
+  "Grupo do Telegram do canal (citado na descrição)"
+ ],
+ "observacoes": "Transcrição automática muito ruim, com muitos erros (ex.: 'Salmo' = Olá/Oi, 'Instaram' = Instagram, 'Thor' e 'gay' na escala, 'Aqui tava' por 'Aqui tá', 'Goulart' e 'Fábio' por nomes de notas). A descrição dos acordes do campo harmônico foi reconstruída pela teoria a partir da lista de notas ditadas (ré menor, mi menor, fá maior, sol maior, lá menor, si diminuto), pois o transcript confunde esses nomes. Trechos sobre a exploração de Dó nas oitavas e o exercício de 'um passo para frente ou para trás' estão pouco claros. A parte sobre a escala alterada é apenas mencionada, não explicada. Os exemplos sonoros e os shapes exibidos dependem de ver o vídeo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00191,
+  "via": "api"
+ }
+}

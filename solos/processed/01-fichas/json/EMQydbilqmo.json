@@ -1,0 +1,745 @@
+{
+ "fonte_id": "EMQydbilqmo",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=EMQydbilqmo",
+  "idioma": "en",
+  "duracao": "12m 30s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/EMQydbilqmo--everything-you-need-to-learn-for-jazz-guitar-in-order.md"
+ },
+ "resumo": "Aula em formato de roteiro que organiza o estudo de jazz guitarra em sete níveis: escala maior, arpejos de sétima diatônicos, shell voicings, progressões ii-V-I, fluxo melódico entre acordes, target notes e, por fim, fraseado. O foco é na ordem de estudo e em exercícios práticos de solo e acompanhamento. Destina-se a guitarristas que já tocam pentatônica e querem entrar no jazz de forma estruturada. O vídeo funciona mais como mapa de estudo do que como aula detalhada, pois muitos exemplos são mostrados apenas visualmente.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Estrutura clara, progressiva e com conceitos concretos (arpejos diatônicos, shell voicings, target notes com exemplo em blues em F). Porém, grande parte dos exemplos só é mostrada na tela, a fala é muitas vezes vaga e há bastante promoção de cursos e inscrições."
+ },
+ "assuntos_principais": [
+  "escala maior como base do jazz",
+  "arpejos de sétima diatônicos",
+  "empilhamento de terças",
+  "shell voicings",
+  "progressões ii-V-I",
+  "Satin Doll e cadeias de ii-V",
+  "fluxo melódico entre acordes",
+  "target notes",
+  "blues em F com F7 e Bb7",
+  "fraseado bebop"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: excesso de opções",
+   "inicio": "00:00",
+   "fim": "00:33",
+   "resumo": "Apresentação do problema de estudar sem prioridade e da ideia de seguir sete níveis em ordem, com a analogia das pedras para atravessar um rio.",
+   "assuntos": [
+    "organização do estudo",
+    "ordem dos níveis"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Nível 1: escala maior",
+   "inicio": "00:33",
+   "fim": "01:38",
+   "resumo": "Argumenta que a escala maior é a mais importante para o jazz e que a pentatônica não produz o som típico do estilo. Recomenda aprender primeiro a escala, sem tentar todas as tonalidades e posições de uma vez.",
+   "assuntos": [
+    "escala maior",
+    "pentatônica versus jazz",
+    "escalas do jazz",
+    "estudo gradual de escalas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Nível 2: arpejos de sétima diatônicos",
+   "inicio": "01:38",
+   "fim": "03:56",
+   "resumo": "Mostra como construir os acordes de sétima sobre cada grau da escala maior, empilhando terças até formar tríades e depois acordes de sétima. Recomenda usar esses arpejos sobre as trocas da música e não como formas isoladas.",
+   "assuntos": [
+    "arpejos diatônicos",
+    "empilhamento de terças",
+    "tríades",
+    "acordes de sétima",
+    "trocas de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Nível 3: acordes certos para começar",
+   "inicio": "03:56",
+   "fim": "06:07",
+   "resumo": "Argumenta que começar com acordes completos atrapalha o ritmo e o fraseado. Apresenta os shell voicings de três notas (raiz, 3ª e 7ª) em duas formas, com a raiz na 6ª ou na 5ª corda, e os aplica aos acordes diatônicos de C maior.",
+   "assuntos": [
+    "shell voicings",
+    "acordes de sétima sem quinta",
+    "raiz na 6ª e na 5ª corda",
+    "harmonia diatônica em C maior",
+    "ritmo e fraseado antes dos acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Nível 4: acordes para fazer música",
+   "inicio": "06:07",
+   "fim": "08:36",
+   "resumo": "Conecta os shell voicings em progressões ii-V-I com duas formas de Dm7-G7-Cmaj7 e aplica o método à música Satin Doll, com movimento de voicings próximos entre os ii-V.",
+   "assuntos": [
+    "ii-V-I",
+    "Dm7 G7 Cmaj7",
+    "Satin Doll",
+    "ii-V secundários",
+    "voicings próximos",
+    "rootless voicings"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Nível 5: fluxo do solo",
+   "inicio": "08:36",
+   "fim": "10:35",
+   "resumo": "Explica por que as linhas de bebop soam como Bach, com movimento em direção a notas fortes do acorde nos tempos fortes. Mostra o erro de iniciantes que tocam notas certas sobre cada acorde sem conduzir ao próximo, e recomenda ouvir solos e estudar o livro de Joe Pass.",
+   "assuntos": [
+    "fluxo melódico",
+    "bebop",
+    "tempos fortes",
+    "erro do solo sem direção",
+    "Joe Pass"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Nível 6: target notes",
+   "inicio": "10:35",
+   "fim": "11:59",
+   "resumo": "Define target note como a nota do próximo acorde que a linha alcança. Exemplifica com um blues em F, usando o arpejo de F7 para chegar à terça de Bb7 (Ré).",
+   "assuntos": [
+    "target notes",
+    "blues em F",
+    "F7 e Bb7",
+    "terça como nota-alvo",
+    "fluxo entre acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Nível 7 (anúncio) e despedida",
+   "inicio": "11:59",
+   "fim": "12:30",
+   "resumo": "Anuncia o nível 7, sobre fraseado com arpejos, notas de passagem cromáticas, enclosures e trinados, sem ensinar esses conteúdos. Encerra com chamada para o PDF e para a inscrição.",
+   "assuntos": [
+    "fraseado",
+    "notas cromáticas",
+    "enclosures",
+    "trinados"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Escala maior como base do jazz",
+   "descricao": "A escala maior é a escala mais importante para o jazz, porque o estilo se constrói sobre ela e ela dá sentido aos níveis seguintes. A pentatônica, mesmo sendo familiar, não produz o som típico do jazz.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "pentatônica",
+    "jazz"
+   ],
+   "id_global": "EMQydbilqmo#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Tentar estudar muitas escalas",
+   "descricao": "Estudar uma lista enorme de escalas é improdutivo. Para o jazz bastam três escalas: maior, menor harmônica e menor melódica.",
+   "passos": [],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas",
+    "menor harmônica",
+    "menor melódica",
+    "estudo"
+   ],
+   "id_global": "EMQydbilqmo#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Estudar a escala em todas as tonalidades e posições ao mesmo tempo",
+   "descricao": "Querer aprender a escala maior nas 12 tonalidades e em todas as posições logo de início leva ao esgotamento. Antes, é preciso conhecer bem as notas da escala e dedicar tempo também a tocar música.",
+   "passos": [],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "burnout",
+    "estudo gradual"
+   ],
+   "id_global": "EMQydbilqmo#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Conhecer as notas da escala antes de tudo",
+   "descricao": "Antes de mecanizar a escala em posições, aprenda o que existe dentro dela: as sete notas e a relação entre elas. Em Dó maior, são Dó, Ré, Mi, Fá, Sol, Lá e Si.",
+   "passos": [
+    "Escolha uma tonalidade, por exemplo Dó maior.",
+    "Fale ou cante as sete notas em ordem.",
+    "Identifique a sequência de tons e semitons da escala.",
+    "Só depois toque a escala em uma posição no braço."
+   ],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "teoria",
+    "notas da escala"
+   ],
+   "id_global": "EMQydbilqmo#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Arpejos diatônicos como exercício mais útil",
+   "descricao": "Os arpejos de sétima construídos sobre cada grau da escala maior são o exercício de escala mais útil para o jazz, pois conectam os acordes da música às escalas usadas no solo.",
+   "passos": [],
+   "timestamp": "01:38",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos diatônicos",
+    "acordes de sétima",
+    "escala maior"
+   ],
+   "id_global": "EMQydbilqmo#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Usar arpejos de uma oitava",
+   "descricao": "No jazz, em geral, os lticks usam arpejos de apenas uma oitava, e o arpejo raramente é tocado sozinho, pois aparece misturado com outras notas da escala.",
+   "passos": [],
+   "timestamp": "01:38",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "lick",
+    "uma oitava"
+   ],
+   "id_global": "EMQydbilqmo#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Progressão de exercícios para os arpejos diatônicos",
+   "descricao": "Sequência de exercícios em etapas para chegar aos arpejos de sétima diatônicos, construídos a partir da escala e de terças empilhadas.",
+   "passos": [
+    "Toque a escala maior.",
+    "Toque o intervalo de terça sobre cada grau da escala.",
+    "Empilhe duas terças para formar a tríade em cada grau.",
+    "Adicione mais uma terça para formar o acorde de sétima diatônico em cada grau.",
+    "Toque o arpejo completo de cada acorde da escala."
+   ],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos diatônicos",
+    "terças empilhadas",
+    "tríade",
+    "exercício progressivo"
+   ],
+   "id_global": "EMQydbilqmo#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Tríade a partir de duas terças",
+   "descricao": "Duas terças empilhadas formam uma tríade. Acrescentar mais uma terça forma o acorde de sétima diatônico.",
+   "passos": [],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "tríade",
+    "terças",
+    "acorde de sétima"
+   ],
+   "id_global": "EMQydbilqmo#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Usar vários arpejos sobre o mesmo acorde",
+   "descricao": "Um mesmo acorde pode ser tocado com mais de um arpejo diatônico. Isso multiplica as opções de linhas sobre a mesma harmonia.",
+   "passos": [],
+   "timestamp": "02:46",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos diatônicos",
+    "opções melódicas",
+    "variação"
+   ],
+   "id_global": "EMQydbilqmo#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Tocar o arpejo de cada acorde da música",
+   "descricao": "Para acertar as trocas de uma música, percorra a progressão tocando o arpejo de cada acorde, repetindo várias vezes até o movimento ficar natural.",
+   "passos": [
+    "Escolha uma música com trocas conhecidas.",
+    "Identifique o acorde de cada compasso.",
+    "Toque o arpejo diatônico correspondente em cada acorde.",
+    "Repita a música inteira até fluir sem pausas."
+   ],
+   "timestamp": "03:22",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "trocas de acordes",
+    "música"
+   ],
+   "id_global": "EMQydbilqmo#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "PDF gratuito com os exercícios",
+   "descricao": "O autor oferece um PDF gratuito com todos os exercícios de arpejos e lições do vídeo, para estudo no próprio ritmo. O link está na descrição.",
+   "passos": [],
+   "timestamp": "03:22",
+   "nivel": "iniciante",
+   "tags": [
+    "pdf",
+    "exercícios",
+    "recurso gratuito"
+   ],
+   "id_global": "EMQydbilqmo#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Ritmo e fraseado antes dos acordes completos",
+   "descricao": "Para aprender ritmo, fraseado e o fluxo das melodias, é mais eficiente tocar notas simples e melodias do que acordes de quatro ou cinco notas o tempo todo. Acordes entram depois, em formas simples e flexíveis.",
+   "passos": [],
+   "timestamp": "03:54",
+   "nivel": "iniciante",
+   "tags": [
+    "fraseado",
+    "ritmo",
+    "melodia",
+    "acordes"
+   ],
+   "id_global": "EMQydbilqmo#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Aprender voicings complexos sem usá-los em músicas",
+   "descricao": "Muitos iniciantes gastam tempo com centenas de voicings difíceis e inversões sem conseguir tocar músicas. É melhor começar com formas simples que sirvam para tocar canções e ouvir a harmonia.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "iniciante",
+   "tags": [
+    "voicings",
+    "inversões",
+    "erro comum"
+   ],
+   "id_global": "EMQydbilqmo#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Shell voicings de três notas",
+   "descricao": "Shell voicings são formas de três notas para acordes de sétima, obtidas omitindo a quinta do acorde. Um acorde de sétima normalmente tem quatro notas.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "iniciante",
+   "tags": [
+    "shell voicings",
+    "acordes de sétima",
+    "quinta omitida"
+   ],
+   "id_global": "EMQydbilqmo#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Duas formas de shell voicing",
+   "descricao": "Há duas formas básicas. Na primeira, a raiz está na 6ª corda, seguida da 7ª e da 3ª acima (em Dó maior com raiz Dó: Dó, Si, Mi). Na segunda, a raiz está na 5ª corda, seguida da 3ª e da 7ª. Nas duas, as notas de acorde ficam no conjunto de cordas do meio e a raiz fica na corda mais grave.",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "iniciante",
+   "tags": [
+    "shell voicings",
+    "raiz na 6ª corda",
+    "raiz na 5ª corda",
+    "cordas"
+   ],
+   "id_global": "EMQydbilqmo#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Aprender shell voicings como acordes diatônicos",
+   "descricao": "Os shell voicings devem ser aprendidos como acordes da escala, e não como formas isoladas, para que os acordes que aparecem juntos nas músicas fiquem agrupados. O exemplo mostra os acordes diatônicos de Dó maior, começando pelo IV grau (Fá maior com 7ª).",
+   "passos": [
+    "Monte os shell voicings de todos os graus de Dó maior com a raiz na 5ª corda.",
+    "Repita o processo com a raiz na 6ª corda.",
+    "Toque os acordes em sequência pela escala, começando no IV grau."
+   ],
+   "timestamp": "05:33",
+   "nivel": "iniciante",
+   "tags": [
+    "shell voicings",
+    "harmonia diatônica",
+    "dó maior"
+   ],
+   "id_global": "EMQydbilqmo#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Conectar acordes em progressões curtas",
+   "descricao": "Progressões curtas e comuns, como o ii-V-I em Dó maior, funcionam bem para começar a conectar os shell voicings. Os acordes devem ficar próximos no braço para que a harmonia flua.",
+   "passos": [],
+   "timestamp": "06:05",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V-I",
+    "shell voicings",
+    "progressões"
+   ],
+   "id_global": "EMQydbilqmo#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I com Dm7 de raiz na 5ª corda",
+   "descricao": "Ii-V-I em Dó maior com Dm7 com a raiz na 5ª corda, seguido de G7 bem próximo e resolvendo em Cmaj7 também próximo.",
+   "passos": [
+    "Toque o Dm7 com a raiz na 5ª corda.",
+    "Mova para o G7 que fica logo ao lado.",
+    "Resolva para o Cmaj7 com a raiz na 5ª corda, mantendo o movimento curto."
+   ],
+   "timestamp": "06:05",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V-I",
+    "dm7",
+    "g7",
+    "cmaj7"
+   ],
+   "id_global": "EMQydbilqmo#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I com Dm7 de raiz na 6ª corda",
+   "descricao": "Versão do ii-V-I em Dó maior em que o Dm7 tem a raiz na 6ª corda, seguido do G7 e do Cmaj7 próximos, para comparar a sonoridade e o posicionamento com a versão anterior.",
+   "passos": [
+    "Toque o Dm7 com a raiz na 6ª corda.",
+    "Mova para o G7 ao lado.",
+    "Resolva para o Cmaj7 próximo.",
+    "Compare com a versão de raiz na 5ª corda."
+   ],
+   "timestamp": "06:40",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V-I",
+    "dm7",
+    "raiz na 6ª corda"
+   ],
+   "id_global": "EMQydbilqmo#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Achar ii-V nas músicas",
+   "descricao": "Depois de dominar os ii-V-I básicos, procure-os nas músicas, percorra a canção identificando onde ocorrem e toque os acordes em sequência.",
+   "passos": [
+    "Escolha uma música, como Satin Doll.",
+    "Marque os ii-V dentro da canção.",
+    "Toque cada ii-V com shell voicings próximos.",
+    "Conecte os ii-V na ordem da música."
+   ],
+   "timestamp": "06:40",
+   "nivel": "intermediario",
+   "tags": [
+    "ii-V",
+    "análise harmônica",
+    "música"
+   ],
+   "id_global": "EMQydbilqmo#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Cadeia de ii-V em Satin Doll",
+   "descricao": "Em Satin Doll há vários ii-V além do principal em Dó maior. A sequência mostrada usa Am7-D7 (ii-V que resolve em G), depois Abm7-Db7 (meio tom abaixo) resolvendo em Cmaj7, com voicings que permanecem próximos.",
+   "passos": [],
+   "timestamp": "07:13",
+   "nivel": "intermediario",
+   "tags": [
+    "satin doll",
+    "ii-V secundário",
+    "am7",
+    "d7",
+    "abm7",
+    "db7"
+   ],
+   "id_global": "EMQydbilqmo#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Agrupar acordes para memorizar a música",
+   "descricao": "Agrupar os acordes que formam um ii-V torna a música mais fácil de lembrar e de tocar, porque o movimento de cada par fica claro.",
+   "passos": [],
+   "timestamp": "07:46",
+   "nivel": "iniciante",
+   "tags": [
+    "memorização",
+    "agrupamento de acordes",
+    "ii-V"
+   ],
+   "id_global": "EMQydbilqmo#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Extensões e melodia para rootless voicings",
+   "descricao": "Os shell voicings podem evoluir para rootless voicings, acrescentando extensões e notas de melodia. O autor diz ter outro vídeo sobre esse processo, que pode ser pedido nos comentários.",
+   "passos": [],
+   "timestamp": "07:46",
+   "nivel": "avancado",
+   "tags": [
+    "rootless voicings",
+    "extensões",
+    "recurso"
+   ],
+   "id_global": "EMQydbilqmo#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Linhas de bebop se dirigem a notas fortes",
+   "descricao": "No bebop, as linhas se movem em direção a notas fortes do acorde nos tempos fortes do compasso, o que dá direção e energia ao solo. Esse movimento é semelhante ao de linhas densas de Bach.",
+   "passos": [],
+   "timestamp": "08:36",
+   "nivel": "intermediario",
+   "tags": [
+    "bebop",
+    "tempo forte",
+    "direção melódica",
+    "bach"
+   ],
+   "id_global": "EMQydbilqmo#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Solo que toca só as notas do acorde atual",
+   "descricao": "Iniciantes costumam buscar a nota certa sobre cada acorde sem pensar em como a linha chega ao próximo. O resultado são notas isoladas sobre cada acorde, sem fluxo, como no exemplo de blues em F.",
+   "passos": [],
+   "timestamp": "08:53",
+   "nivel": "iniciante",
+   "tags": [
+    "fluxo",
+    "erro comum",
+    "blues"
+   ],
+   "id_global": "EMQydbilqmo#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Usar as notas do acorde atual para chegar ao próximo",
+   "descricao": "Ao invés de tocar apenas o acorde atual, use as notas dele para construir a passagem até o próximo acorde, como fazem Charlie Parker e outros músicos de bebop.",
+   "passos": [],
+   "timestamp": "09:34",
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "fluxo",
+    "bebop"
+   ],
+   "id_global": "EMQydbilqmo#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Exercícios do livro de Joe Pass",
+   "descricao": "Os exercícios do livro Joe Pass Guitar Style são citados como uma forma de ouvir e praticar o fluxo do jazz na prática.",
+   "passos": [],
+   "timestamp": "09:34",
+   "nivel": "intermediario",
+   "tags": [
+    "joe pass",
+    "livro",
+    "exercícios"
+   ],
+   "id_global": "EMQydbilqmo#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir muitos solos",
+   "descricao": "Além de estudar exercícios, ouça muitos solos de jazz para perceber como os músicos conduzem as linhas de um acorde ao outro.",
+   "passos": [],
+   "timestamp": "09:34",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta",
+    "solos",
+    "transcrição"
+   ],
+   "id_global": "EMQydbilqmo#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Target note",
+   "descricao": "Target note é a nota do próximo acorde para a qual a linha melódica se dirige. Quando as notas do acorde atual caem nos tempos fortes e levam à nota-alvo, a harmonia fica clara e a linha ganha direção.",
+   "passos": [],
+   "timestamp": "10:40",
+   "nivel": "intermediario",
+   "tags": [
+    "target notes",
+    "notas-alvo",
+    "fluxo"
+   ],
+   "id_global": "EMQydbilqmo#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Terça como nota-alvo mais fácil",
+   "descricao": "A terça é a nota mais fácil para definir a qualidade de um acorde, por isso é a melhor escolha de nota-alvo para tornar a troca clara. No exemplo, a terça de Bb7 é Ré.",
+   "passos": [],
+   "timestamp": "11:14",
+   "nivel": "intermediario",
+   "tags": [
+    "target notes",
+    "terça",
+    "bb7",
+    "guide tones"
+   ],
+   "id_global": "EMQydbilqmo#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Blues em F: arpejo de F7 resolvendo na terça de Bb7",
+   "descricao": "Em um blues em F, construa melodias com o arpejo de F7 (Fá, Lá, Dó, Mi♭) que resolvam no Ré, a terça de Bb7. Assim as duas harmonias se conectam como uma só melodia.",
+   "passos": [
+    "Toque o arpejo de F7 (Fá, Lá, Dó, Mi♭) sobre o acorde de F7.",
+    "Termine a frase no Ré, a terça de Bb7.",
+    "Repita a ideia com outras combinações das notas do arpejo.",
+    "Ouça se a troca de acorde fica audível mesmo sem o playback."
+   ],
+   "timestamp": "11:14",
+   "nivel": "intermediario",
+   "tags": [
+    "blues em f",
+    "f7",
+    "bb7",
+    "target notes"
+   ],
+   "id_global": "EMQydbilqmo#I31"
+  },
+  {
+   "id": "I32",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Explorar linhas com as quatro notas do acorde",
+   "descricao": "Depois do exemplo, explore diferentes formas de construir linhas usando apenas as quatro notas de cada acorde de sétima, com foco nas notas-alvo.",
+   "passos": [
+    "Escolha dois acordes de sétima de uma progressão.",
+    "Liste as quatro notas de cada acorde.",
+    "Crie pequenas frases com as notas do primeiro acorde terminando em uma nota do segundo.",
+    "Toque em loop com o playback até soar natural."
+   ],
+   "timestamp": "11:48",
+   "nivel": "intermediario",
+   "tags": [
+    "target notes",
+    "arpejos",
+    "construção de linhas"
+   ],
+   "id_global": "EMQydbilqmo#I32"
+  }
+ ],
+ "artistas_citados": [
+  "Charlie Parker",
+  "Joe Pass",
+  "Bach"
+ ],
+ "musicas_citadas": [
+  "Satin Doll"
+ ],
+ "recursos_citados": [
+  "PDF gratuito de exercícios (link na descrição)",
+  "Joe Pass Guitar Style (livro)",
+  "The Jazz Guitar Roadmap (curso online do autor)",
+  "The Jazz Chord Craftsmanship (curso do autor, citado na descrição)",
+  "Modern Jazz Guitar Concepts (livro do autor, citado na descrição)",
+  "E-book gratuito com 15 licks ii-V-I (citado na descrição)",
+  "Vídeo do autor sobre acordes (youtu.be/8wYYCfl8F_Y, citado na descrição)",
+  "GuitarPro files (citados na descrição)"
+ ],
+ "observacoes": "Legendas automáticas com poucos erros relevantes, mas o conteúdo depende muito de exemplos mostrados na tela (arpejos, voicings, solos de Charlie Parker e do blues em F) que não estão no transcript, então algumas ideias perdem clareza sem o vídeo. Na fala 'two-five in D' seguida de A minor seven e D seven, o acorde resolvido é G, então a tonalidade citada parece imprecisa; a ficha registra os acordes pelo seu conteúdo harmônico. Na descrição há muitos links promocionais e o próprio vídeo cita curso pago, mas os conteúdos didáticos são aproveitáveis. A parte do nível 7 (fraseado com arpejos, notas cromáticas, enclosures e trinados) é apenas anunciada e não ensinada no vídeo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00391,
+  "via": "api"
+ }
+}

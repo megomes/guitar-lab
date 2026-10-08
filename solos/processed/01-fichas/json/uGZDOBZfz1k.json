@@ -1,0 +1,495 @@
+{
+ "fonte_id": "uGZDOBZfz1k",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "I just unlocked the fretboard and it's stupidly simple",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=uGZDOBZfz1k",
+  "idioma": "en",
+  "duracao": "7m 29s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/uGZDOBZfz1k--i-just-unlocked-the-fretboard-and-its-stupidly-simple.md"
+ },
+ "resumo": "Vídeo curto de Daniel Seriff que apresenta o 'diagonal pentatonic method': a pentatônica maior e a menor são organizadas em dois formatos de 3 e 2 notas (padrão 3-2 e 2-3) que se repetem pelo braço em qualquer tonalidade, com exemplos em Sol. Explica também a nota azul (blue note) e como expressar a frase com slides, hammer-ons, pull-offs, bends e vibrato. É voltado a guitarristas iniciantes a intermediários que querem solar e navegar pelo braço de forma mais intuitiva. O conteúdo é mais um resumo introdutório do que um método completo, e vários exemplos dependem de backing tracks e diagramas que estão fora do vídeo.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com notas, casas e cordas citadas e um padrão de organização claro que o aluno pode reproduzir. Perde pontos por ser superficial, depender de diagramas e backing tracks não incluídos na fonte, e ter trechos de venda e uma frase vaga sobre 'três oitavas'."
+ },
+ "assuntos_principais": [
+  "pentatônica maior",
+  "pentatônica menor",
+  "padrão 3-2 e 2-3",
+  "navegação pelo braço",
+  "expansão de escalas em posições",
+  "nota azul (blue note)",
+  "expressão: slides, bends, hammer-ons, pull-offs, vibrato",
+  "backing track"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura: duas formas desbloqueiam o braço",
+   "inicio": "00:00",
+   "fim": "00:38",
+   "resumo": "Apresentação da ideia central: todo o braço pode ser mapeado com duas formas, conectadas em diagonal. O professor diz que o método mudou sua forma de navegar e promete mostrar como copiar e colar as formas em qualquer tonalidade.",
+   "assuntos": [
+    "visão geral do método",
+    "formas diagonais"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que saber antes: localizar notas e escolher as cordas",
+   "inicio": "00:38",
+   "fim": "01:22",
+   "resumo": "Pré-requisito: saber localizar as notas no braço (sem decorar tudo). As escalas serão tocadas com tônica em Sol e começam nas duas cordas do meio, porque as cordas graves soam baixas e pesadas para solar, sendo melhores para riffs.",
+   "assuntos": [
+    "localização das notas no braço",
+    "cordas do meio",
+    "registro grave para solo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Sol maior pentatônica: o padrão 3-2",
+   "inicio": "01:22",
+   "fim": "02:19",
+   "resumo": "Na corda Ré, casa 5 (Sol), tocam-se Sol-Lá-Si (conjunto de 3 notas); ao lado, na corda Sol, Ré-Mi (conjunto de 2 notas). Juntos formam a pentatônica maior (1-2-3-5-6 de Sol) e o padrão 3-2 é o núcleo do método.",
+   "assuntos": [
+    "pentatônica maior de Sol",
+    "conjunto de 3 notas",
+    "conjunto de 2 notas",
+    "padrão 3-2"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Transformar a escala em música",
+   "inicio": "02:19",
+   "fim": "03:16",
+   "resumo": "Cinco notas bastam se forem bem usadas: slides, hammer-ons, pull-offs, bends e vibrato, somados ao ritmo. O professor toca um exemplo em Sol maior com backing track e cita um bend na segunda da escala.",
+   "assuntos": [
+    "expressão",
+    "slides",
+    "hammer-on",
+    "pull-off",
+    "bend",
+    "vibrato",
+    "ritmo",
+    "backing track em Sol maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Expandir pelo braço alternando 3 e 2 notas",
+   "inicio": "03:16",
+   "fim": "04:32",
+   "resumo": "Para expandir a escala, basta alternar 3 e 2 notas pelo braço, ou procurar outros Sóis (ex.: casa 8). Na corda Si é preciso subir uma casa a mais. O padrão de Sol é sempre o mesmo: 3 notas, 2 notas, repetido.",
+   "assuntos": [
+    "expansão pelo braço",
+    "outras posições de G",
+    "corda Si",
+    "padrão repetido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Patrocínio: método completo Diagonal Pentatonic",
+   "inicio": "04:32",
+   "fim": "04:55",
+   "resumo": "Propaganda do curso pago Diagonal Pentatonic Method, com breakdown passo a passo.",
+   "assuntos": [
+    "patrocínio",
+    "curso pago"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S7",
+   "titulo": "Sol menor pentatônica: o padrão 2-3",
+   "inicio": "04:55",
+   "fim": "05:41",
+   "resumo": "Com o mesmo Sol da posição, adiciona-se a nota um tom abaixo (Fá), formando o conjunto de 2 notas (Fá-Sol); o conjunto de 3 notas é Sib-Dó-Ré. A alternância é 2 e 3 notas, e o professor afirma que é igualmente simples.",
+   "assuntos": [
+    "pentatônica menor de Sol",
+    "padrão 2-3",
+    "conjunto de 2 notas",
+    "conjunto de 3 notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "A nota azul",
+   "inicio": "05:41",
+   "fim": "06:14",
+   "resumo": "A nota azul fica sempre entre as duas notas agudas do conjunto de 3 notas, nas duas pentatônicas. Não se pousa nela: desliza-se meio tom para cima ou para baixo.",
+   "assuntos": [
+    "nota azul",
+    "deslize de meio tom",
+    "pentatônica maior e menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Copiar e colar os formatos pelo braço",
+   "inicio": "06:14",
+   "fim": "06:55",
+   "resumo": "Os padrões de 2 e 3 notas podem ser copiados e colados por todo o braço, em qualquer posição. O professor fala em 'três oitavas' e lembra de atenção à corda Si.",
+   "assuntos": [
+    "copiar e colar formatos",
+    "posições",
+    "corda Si"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Parar de buscar escalas; procurar música",
+   "inicio": "06:55",
+   "fim": "07:29",
+   "resumo": "Mentalidade de fechamento: não acumular escalas novas, e sim explorar a música dentro desta. Termina com chamada para o próximo vídeo sobre prática.",
+   "assuntos": [
+    "mentalidade",
+    "não acumular escalas",
+    "próximo vídeo"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Saber localizar as notas no braço",
+   "descricao": "Antes de usar o método, é preciso conseguir localizar as notas no braço. Não é preciso decorar tudo, mas ao menos encontrar cada nota quando necessário.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-no-braco",
+    "pré-requisito"
+   ],
+   "id_global": "uGZDOBZfz1k#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Começar as escalas nas cordas do meio",
+   "descricao": "Para solar, comece as escalas nas duas cordas do meio (Ré e Sol), e não nas cordas graves, que soam baixas demais para improvisar.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "cordas-do-meio",
+    "registro"
+   ],
+   "id_global": "uGZDOBZfz1k#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Ficar preso nas cordas graves ao solar",
+   "descricao": "Muitos guitarristas ficam presos nas cordas mais graves ao tentar solar e não saem do registro grave, que soa pesado para solo. Cordas graves servem melhor para riffs.",
+   "passos": [],
+   "timestamp": "00:36",
+   "nivel": "iniciante",
+   "tags": [
+    "registro",
+    "cordas-graves",
+    "solo"
+   ],
+   "id_global": "uGZDOBZfz1k#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Conjuntos de 3 e 2 notas da pentatônica maior de Sol",
+   "descricao": "A pentatônica maior de Sol (G A B D E) se divide em um conjunto de 3 notas (Sol-Lá-Si, 1-2-3) e um conjunto de 2 notas (Ré-Mi, 5-6) tocados lado a lado. Juntos formam o padrão 3-2.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica-maior",
+    "padrão-3-2",
+    "sol-maior"
+   ],
+   "id_global": "uGZDOBZfz1k#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Montar o padrão 3-2 de Sol maior pentatônica",
+   "descricao": "Montar a pentatônica maior de Sol a partir da corda Ré, casa 5, usando o padrão de 3 notas seguido do padrão de 2 notas na corda Sol.",
+   "passos": [
+    "Localize o Sol na corda Ré, casa 5 (tônica).",
+    "Toque Sol-Lá-Si na corda Ré, casas 5, 7 e 9 (conjunto de 3 notas).",
+    "Passe para a corda Sol e toque Ré-Mi nas casas 7 e 9 (conjunto de 2 notas).",
+    "Repita alternando 3 notas e 2 notas, sempre na mesma posição."
+   ],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica-maior",
+    "padrão-3-2",
+    "corda-ré",
+    "corda-sol"
+   ],
+   "id_global": "uGZDOBZfz1k#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Expressar as notas com técnica e ritmo",
+   "descricao": "Cinco notas podem soar musicais se forem bem tocadas: deslize entre as notas, use hammer-ons, pull-offs, bends e vibrato, e trabalhe o ritmo. A técnica e o ritmo fazem a música, não o número de notas.",
+   "passos": [],
+   "timestamp": "02:19",
+   "nivel": "iniciante",
+   "tags": [
+    "expressão",
+    "slide",
+    "hammer-on",
+    "pull-off",
+    "bend",
+    "vibrato",
+    "ritmo"
+   ],
+   "id_global": "uGZDOBZfz1k#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Fazer muito com poucas notas",
+   "descricao": "Não é preciso muita coisa para improvisar bem. Uma escala de cinco notas, bem explorada, já traz muita música.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "economia-de-notas"
+   ],
+   "id_global": "uGZDOBZfz1k#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Backing track em Sol maior para praticar frases",
+   "descricao": "O professor usa uma backing track em Sol maior para tocar frases com slides, hammer-ons, pull-offs, bends e vibrato sobre a pentatônica maior. O arquivo está disponível na descrição do vídeo.",
+   "passos": [],
+   "timestamp": "02:53",
+   "nivel": "iniciante",
+   "tags": [
+    "backing-track",
+    "sol-maior",
+    "prática"
+   ],
+   "id_global": "uGZDOBZfz1k#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Expandir a escala alternando 3 e 2 notas",
+   "descricao": "Para expandir a pentatônica pelo braço, basta alternar conjuntos de 3 e 2 notas em cada posição. Outra forma é localizar outros Sóis no braço (ex.: casa 8) e aplicar o mesmo padrão.",
+   "passos": [],
+   "timestamp": "03:26",
+   "nivel": "iniciante",
+   "tags": [
+    "expansão",
+    "posições",
+    "padrão-3-2",
+    "notas-alvo"
+   ],
+   "id_global": "uGZDOBZfz1k#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Atenção à corda Si ao mudar de posição",
+   "descricao": "Ao aplicar o padrão na corda Si, é preciso subir uma casa a mais em relação ao padrão das outras cordas para manter a forma.",
+   "passos": [],
+   "timestamp": "03:26",
+   "nivel": "intermediario",
+   "tags": [
+    "corda-si",
+    "posições"
+   ],
+   "id_global": "uGZDOBZfz1k#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "O mesmo padrão em qualquer posição do braço",
+   "descricao": "Em qualquer posição do braço, a escala é tocada sempre com o mesmo padrão alternado de 3 notas e 2 notas, sem precisar memorizar várias formas.",
+   "passos": [],
+   "timestamp": "03:58",
+   "nivel": "iniciante",
+   "tags": [
+    "padrão-3-2",
+    "sem-múltiplas-formas"
+   ],
+   "id_global": "uGZDOBZfz1k#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Conjuntos de 2 e 3 notas da pentatônica menor de Sol",
+   "descricao": "A pentatônica menor de Sol (G Bb C D F) usa o mesmo Sol da posição, com a nota um tom abaixo (Fá) formando o conjunto de 2 notas (Fá-Sol), e o conjunto de 3 notas (Si♭-Dó-Ré).",
+   "passos": [],
+   "timestamp": "05:06",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica-menor",
+    "padrão-2-3",
+    "sol-menor"
+   ],
+   "id_global": "uGZDOBZfz1k#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Montar o padrão 2-3 da pentatônica menor de Sol",
+   "descricao": "Partindo do Sol da posição, montar o padrão 2-3 da pentatônica menor de Sol, alternando os dois conjuntos.",
+   "passos": [
+    "Localize o Sol da posição (tônica).",
+    "Toque Fá-Sol com o Sol como nota mais aguda do conjunto de 2 notas.",
+    "Toque Si♭-Dó-Ré logo ao lado (conjunto de 3 notas).",
+    "Repita alternando 2 notas e 3 notas por todo o braço."
+   ],
+   "timestamp": "05:06",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica-menor",
+    "padrão-2-3",
+    "sol-menor"
+   ],
+   "id_global": "uGZDOBZfz1k#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Nota azul na pentatônica menor de Sol",
+   "descricao": "Na pentatônica menor de Sol, a nota azul fica entre as duas notas agudas do conjunto de 3 (Dó e Ré), ou seja, Dó♯ (Ré♭), que é a ♭5 do acorde de Sol.",
+   "passos": [],
+   "timestamp": "05:41",
+   "nivel": "intermediario",
+   "tags": [
+    "nota-azul",
+    "blue-note",
+    "pentatônica-menor",
+    "♭5"
+   ],
+   "id_global": "uGZDOBZfz1k#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Nota azul na pentatônica maior de Sol",
+   "descricao": "Na pentatônica maior, a nota azul também fica entre as duas notas agudas do conjunto de 3 (Lá e Si), ou seja, Si♭, a ♭3 de Sol.",
+   "passos": [],
+   "timestamp": "05:41",
+   "nivel": "intermediario",
+   "tags": [
+    "nota-azul",
+    "blue-note",
+    "pentatônica-maior",
+    "♭3"
+   ],
+   "id_global": "uGZDOBZfz1k#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Não pousar na nota azul: deslizar meio tom",
+   "descricao": "Não se deve parar exatamente na nota azul. Deslize até ela, meio tom acima ou abaixo, para obter o efeito característico.",
+   "passos": [],
+   "timestamp": "05:41",
+   "nivel": "intermediario",
+   "tags": [
+    "nota-azul",
+    "slide",
+    "meio-tom",
+    "bend"
+   ],
+   "id_global": "uGZDOBZfz1k#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Copiar e colar os padrões por todo o braço",
+   "descricao": "Os padrões de 2 e 3 notas podem ser transportados para qualquer posição do braço, mantendo a alternância entre os dois conjuntos. Assim o professor cobre o braço inteiro com poucas formas.",
+   "passos": [
+    "Escolha uma tônica qualquer no braço.",
+    "Monte o padrão de 3 notas e depois o de 2 notas, na forma já aprendida.",
+    "Desloque o desenho inteiro para outra casa, mantendo a mesma ordem de notas.",
+    "Repita em várias posições, atento às cordas Si e Mi, onde a forma muda."
+   ],
+   "timestamp": "06:14",
+   "nivel": "intermediario",
+   "tags": [
+    "copiar-e-colar",
+    "posições",
+    "padrão-2-3",
+    "padrão-3-2"
+   ],
+   "id_global": "uGZDOBZfz1k#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Procurar a música dentro da escala, não mais escalas",
+   "descricao": "Em vez de acumular escalas novas, explore a música que já existe dentro da pentatônica que você já domina.",
+   "passos": [],
+   "timestamp": "06:55",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "estudo",
+    "pentatônica"
+   ],
+   "id_global": "uGZDOBZfz1k#I18"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Diagonal Pentatonic Method (curso pago do Daniel Seriff)",
+  "PDF de resumo da aula, diagramas e backing tracks (link na descrição)",
+  "backing track em Sol maior",
+  "backing track em Sol menor (com trechos em Dó menor e Ré menor)",
+  "próximo vídeo do canal sobre prática (título citado: 'practice so well it feels illegal')"
+ ],
+ "observacoes": "Legendas automáticas com algumas falhas e frases confusas, como 'penta standing for five' e 'two uh strings'. O professor cita 'three octaves' ao falar do copiar e colar, que provavelmente quer dizer posições ou repetições pelo braço, não oitavas. No trecho do bend ele diz que a nota dobrada é um Lá (a 2ª de Sol), mas a nota azul descrita depois fica entre as notas agudas do conjunto de 3 (Si♭ na maior, Dó♯ na menor), então a relação entre bend e nota azul é pouco clara. O 'G na casa 8' não tem corda identificada no transcript. O 'push up a fret' na corda Si só fica claro com diagramas. O conteúdo depende de ver os diagramas e as backing tracks para ser aplicado. Há trechos de patrocínio (04:32) e um fecho promocional.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.0034,
+  "via": "api"
+ }
+}

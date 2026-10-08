@@ -1,0 +1,390 @@
+{
+ "fonte_id": "en--musical_improvisation-bdab41",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Musical improvisation - Wikipedia",
+  "autor": "Authority control databases",
+  "url": "https://en.wikipedia.org/wiki/Musical_improvisation",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--musical_improvisation-bdab41.md"
+ },
+ "resumo": "Artigo enciclopédico da Wikipédia em inglês sobre improvisação musical, percorrendo sua história na música ocidental (medieval, renascentista, barroca, clássica e romântica), no jazz, na música folk, na música contemporânea, no rock psicodélico e progressivo, no cinema mudo, na comédia musical, no ensino e na improvisação com inteligência artificial, além da música indiana com ragas e alapa. Não é um material de ensino prático de guitarra ou solo: serve como contexto histórico e conceitual para quem quer entender o lugar da improvisação na música. Para estudantes de solo, o conteúdo mais relevante está nas seções sobre jazz, blues, bluegrass e rock.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Informativo e bem referenciado, mas não ensina técnica de solo, escalas, exercícios ou lições aplicáveis ao instrumento. Só há poucas ideias conceituais úteis, como a relação entre a harmonia de acordes e a escolha de notas no jazz."
+ },
+ "assuntos_principais": [
+  "definição de improvisação musical",
+  "improvisação na música ocidental de erudita",
+  "improvisação no jazz",
+  "improvisação no blues e folk",
+  "improvisação no rock progressivo e psicodélico",
+  "improvisação em música indiana (raga e alapa)",
+  "improvisação e inteligência artificial",
+  "ensino de improvisação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e visão geral",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define improvisação musical como composição imediata, com base em estruturas harmônicas pré-existentes, e cita o papel central do jazz, blues e rock.",
+   "assuntos": [
+    "definição de improvisação",
+    "estrutura harmônica",
+    "jazz, blues e rock"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Improvisação na música ocidental até o Romantismo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Percorre a improvisação da Idade Média ao Romantismo: contraponto sobre cantus firmus, realização do baixo contínuo, ornamentação barroca, cadenzas e improvisos de Bach, Mozart e Beethoven.",
+   "assuntos": [
+    "contraponto improvisado",
+    "baixo contínuo",
+    "ornamentação barroca",
+    "cadenza",
+    "história da improvisação clássica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Jazz e música folk",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve o papel da improvisação no jazz, incluindo as opções do solista diante da progressão de acordes, e a prática de breaks e breakdowns no bluegrass.",
+   "assuntos": [
+    "improvisação no jazz",
+    "escolha de notas por acorde",
+    "notas de passagem e vizinhas",
+    "breaks e breakdowns"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Música contemporânea, rock, cinema mudo e comédia",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Trata de compositores contemporâneos, bandas de rock improvisadas (Grateful Dead, Pink Floyd, King Crimson), improvisação para filmes mudos e programas de comédia improvisada.",
+   "assuntos": [
+    "música contemporânea",
+    "rock psicodélico",
+    "jam bands",
+    "cinema mudo",
+    "comédia improvisada"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S5",
+   "titulo": "Ensino, música indiana e inteligência artificial",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta abordagens pedagógicas de improvisação, o conceito de raga e alapa na música indiana e a improvisação por algoritmos de IA.",
+   "assuntos": [
+    "pedagogia da improvisação",
+    "raga",
+    "alapa",
+    "machine improvisation"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Referências, notas e links externos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de notas de rodapé, fontes bibliográficas, leituras complementares e links externos, sem conteúdo de ensino.",
+   "assuntos": [
+    "referências bibliográficas",
+    "leituras complementares",
+    "links externos"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Improvisação como composição imediata",
+   "descricao": "Improvisar é criar música no momento, combinando performance, expressão de emoções, técnica instrumental e resposta espontânea a outros músicos. Costuma acontecer sobre uma estrutura harmônica ou progressão de acordes pré-existente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "harmonia",
+    "progressão de acordes"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Três opções do solista diante dos acordes",
+   "descricao": "Segundo a descrição citada, um improvisador de jazz pode seguir exatamente a progressão de acordes, pode 'pular por cima' dela decorando com notas da tonalidade principal (escala-mãe), ou pode construir a própria condução de vozes, às vezes em atrito com os acordes tocados pela cama rítmica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "progressão de acordes",
+    "tonalidade",
+    "condução de vozes"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escolher notas de cada acorde para formar uma melodia",
+   "descricao": "A visão comum do solista de jazz é selecionar notas de cada acorde conforme as harmonias passam, construindo uma melodia, podendo usar notas de passagem e notas vizinhas e acrescentar extensões aos acordes, sempre seguindo as mudanças.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "notas do acorde",
+    "notas de passagem",
+    "notas vizinhas",
+    "extensões"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Escalas e modos como base do improviso no jazz",
+   "descricao": "Muitas escalas e seus modos podem ser usados na improvisação de jazz. Geralmente não são escritos durante a execução, mas ajudam o músico a praticar o idioma do jazz.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "escalas",
+    "modos"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Gravações de improvisos como material educativo",
+   "descricao": "Gravações de improvisação de jazz são amplamente usadas na educação, servindo de documentação de performances e permitindo que músicos assimilem estilos e influências em seus próprios improvisos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "jazz",
+    "transcrição",
+    "estudo de gravações"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Breaks no bluegrass",
+   "descricao": "No bluegrass, breaks são solos curtos tocados em seções específicas de uma música, por exemplo ao fim de cada refrão, geralmente com um músico diferente em cada break.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bluegrass",
+    "break",
+    "solo curto",
+    "forma"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Improvisação de acompanhamento no baixo contínuo",
+   "descricao": "No Barroco, o baixo contínuo era em grande parte improvisado a partir de uma cifra de baixo figurado, processo chamado realização, em que o intérprete montava os acordes e as vozes sobre o baixo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "baixo contínuo",
+    "baixo figurado",
+    "harmonia barroca"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Cadenza como espaço de improviso",
+   "descricao": "Em concertos solo clássicos, a cadenza é uma seção em que o solista improvisa ou elabora, tradicionalmente para mostrar virtuosismo sobre a harmonia do movimento.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "cadenza",
+    "concerto",
+    "virtuosismo"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Raga como estrutura melódica para improviso",
+   "descricao": "Na música clássica indiana, o raga é um arcabouço melódico com escala definida, ordem típica das notas, motivos característicos e um humor próprio, sendo definido mais pelo modo como as notas são tocadas do que pelas notas em si.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "raga",
+    "modalidade",
+    "improvisação modal"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Alapa como introdução improvisada livre",
+   "descricao": "A alapa é a primeira seção de uma performance de raga: uma improvisação melódica sem métrica fixa, acompanhada por uma nota de bordão e apresentando gradualmente as notas essenciais do raga antes da parte rítmica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "alapa",
+    "raga",
+    "improvisação livre",
+    "bordão"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Improvisação com recombinação de frases e aprendizado de máquina",
+   "descricao": "Em improvisação por máquina, algoritmos analisam exemplos musicais de um estilo, extraem padrões e recombinam frases para criar variações coerentes com esse estilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "inteligência artificial",
+    "padrões",
+    "estilo"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Abordagens pedagógicas de improvisação",
+   "descricao": "O ensino de improvisação se desenvolveu no jazz, na pedagogia da música popular, no método Dalcroze, no Orff-Schulwerk e na música criativa de Satis Coleman, incluindo a improvisação livre em grupo como método.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pedagogia",
+    "improvisação em grupo",
+    "método"
+   ],
+   "id_global": "en--musical_improvisation-bdab41#I12"
+  }
+ ],
+ "artistas_citados": [
+  "J. S. Bach",
+  "Handel",
+  "Mozart",
+  "Beethoven",
+  "Chopin",
+  "Liszt",
+  "Buxtehude",
+  "Marcel Dupré",
+  "Pierre Cochereau",
+  "Pierre Pincemaille",
+  "Maurice Duruflé",
+  "Louis Vierne",
+  "Charles Tournemire",
+  "Olivier Latry",
+  "Mendelssohn",
+  "Rubinstein",
+  "Paderewski",
+  "Percy Grainger",
+  "Pachmann",
+  "Haydn",
+  "Schubert",
+  "Verdi",
+  "Muzio Clementi",
+  "Johann Nepomuk Hummel",
+  "Daniel Steibelt",
+  "Joseph Woelfl",
+  "Grateful Dead",
+  "Pink Floyd",
+  "King Crimson",
+  "Neil Brand",
+  "Wayne Brady",
+  "Josie Lawrence",
+  "Jessica McKenna",
+  "Zach Reino",
+  "Frank Zappa",
+  "John Zorn",
+  "Pauline Oliveros",
+  "Karlheinz Stockhausen",
+  "Pierre Boulez",
+  "Iannis Xenakis",
+  "Terry Riley",
+  "La Monte Young",
+  "Earl Scruggs"
+ ],
+ "musicas_citadas": [
+  "Italian Concerto (Bach)",
+  "Sonata No. 24, Op. 78 (Beethoven)",
+  "Piano Sonata Hob. XVI/52 (Haydn)",
+  "Salve Regina (Latry)",
+  "Foggy Mountain Breakdown (Scruggs)",
+  "Time Cycles (Foss)",
+  "Echoi (Foss)"
+ ],
+ "recursos_citados": [
+  "Whose Line Is It Anyway?",
+  "Make Some Noise",
+  "Play it by Ear",
+  "Off Book: the Improvised Musical",
+  "Make It Up Club (Melbourne)",
+  "Dog Ear: Tritone Substitution for Jazz Guitar (Ken R.)",
+  "Improvisation: Its Nature and Practice in Music (Derek Bailey)",
+  "Thinking in Jazz (Paul Berliner)",
+  "Free Play (Stephen Nachmanovitch)",
+  "How to Improvise Jazz Melodies (Bob Keller)",
+  "A Jazz Improvisation Primer (Marc Sabatella)",
+  "Approaches to Improvisation (tutorial)"
+ ],
+ "observacoes": "Fonte é artigo enciclopédico da Wikipédia, não material de ensino; a 'autoria' indicada no cabeçalho é de catálogo de autoridade, não do conteúdo. Não há timestamps (documento). Não há conteúdo prático de solo, escalas com notas, exercícios ou tablaturas. Algumas referências citadas na fonte são acadêmicas, não didáticas. A fonte cita 'Dog Ear: Tritone Substitution for Jazz Guitar' e um tutorial sem conteúdo descrito. Trechos de navegação ('[edit]') e a seção 'See also' estão vazios. As datas de algumas referências são futuras em relação ao restante, o que sugere versão recente do artigo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00215,
+  "via": "api"
+ }
+}

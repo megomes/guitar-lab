@@ -1,0 +1,363 @@
+{
+ "fonte_id": "mw6d34vqDMs",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "COMO CRIAR FRASES NA GUITARRA",
+  "autor": "jonatha guitar",
+  "url": "https://www.youtube.com/watch?v=mw6d34vqDMs",
+  "idioma": "pt",
+  "duracao": "9m 5s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/mw6d34vqDMs--como-criar-frases-na-guitarra.md"
+ },
+ "resumo": "Aula do Jonatha Guitar sobre criar frases improvisadas a partir do shape de cada acorde do campo harmônico (exemplo em Sol maior, música começando em Mi menor). Para cada grau (Em7, Cmaj7, D dominante, G tônica) ele mostra uma \"carta na manga\": uma frase pensada com a escala maior, a pentatônica de Mi menor e arpejos, acrescentando aproximações cromáticas e identidade pessoal. Voltado a intermediários que já conhecem escala maior e pentatônica e querem saber o que tocar sobre cada acorde.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A ideia central (cada shape de acorde associado a uma frase pronta, derivada da escala e da pentatônica) é boa e útil, mas a transcrição não traz notas e casas exatas; depende de ver o vídeo. Há bastante enrolação e divulgação."
+ },
+ "assuntos_principais": [
+  "frases por acorde",
+  "campo harmônico de Sol maior",
+  "pentatônica de Mi menor",
+  "arpejos",
+  "aproximação cromática",
+  "identidade pessoal",
+  "improvisação por shape"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e proposta",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Apresenta a ideia de ter uma frase 'carta na manga' para cada shape de acorde e divulga as aulas.",
+   "assuntos": [
+    "introdução",
+    "frases por acorde"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Frase sobre Mi menor (Em7)",
+   "inicio": "00:32",
+   "fim": "02:18",
+   "resumo": "No campo harmônico de Sol, com a música começando em Mi menor, combina a escala de Sol maior com a pentatônica de Mi menor para criar a frase, transponível para outros lugares do braço.",
+   "assuntos": [
+    "campo harmônico",
+    "pentatônica de Mi menor",
+    "transposição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Frase sobre o Dó maior com sétima",
+   "inicio": "02:18",
+   "fim": "03:58",
+   "resumo": "Usa as notas do acorde (sétima, terça, quinta) como arpejo de Mi menor dentro do Dó, com aproximação cromática.",
+   "assuntos": [
+    "arpejo",
+    "notas do acorde",
+    "aproximação cromática",
+    "modo livre"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Frase sobre o dominante (Ré)",
+   "inicio": "03:58",
+   "fim": "05:11",
+   "resumo": "Frase descendente dentro da escala de Sol, repetida e depois levada uma oitava abaixo, terminando com slide e pentatônica. Serve para dominante ou tônica.",
+   "assuntos": [
+    "dominante",
+    "frase descendente",
+    "oitava",
+    "slide"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Como aplicar as frases na música",
+   "inicio": "05:11",
+   "fim": "05:46",
+   "resumo": "Não aplicar em ordem nem em todo acorde; usar nos espaços da música e acrescentar identidade.",
+   "assuntos": [
+    "fraseado",
+    "espaços",
+    "identidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Frase sobre a tônica (Sol)",
+   "inicio": "05:46",
+   "fim": "07:42",
+   "resumo": "Frase uma oitava acima, com cromatismo e resolução no Sol.",
+   "assuntos": [
+    "tônica",
+    "cromatismo",
+    "resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Resumo e encerramento",
+   "inicio": "07:42",
+   "fim": "09:05",
+   "resumo": "Reforça criar uma situação por shape usando escala maior, pentatônica e identidade; divulga aulas e métodos.",
+   "assuntos": [
+    "resumo",
+    "identidade",
+    "propaganda"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Uma 'carta na manga' por shape de acorde",
+   "descricao": "Associe cada shape de acorde a uma frase pronta. Ao ver o shape (Em, C, D...), você já sabe o que tocar, o que facilita a improvisação.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "frases",
+    "shape",
+    "acordes"
+   ],
+   "id_global": "mw6d34vqDMs#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Frase de Em7 = escala de Sol maior + pentatônica de Mi menor",
+   "descricao": "Com a música no campo harmônico de Sol começando em Mi menor, pense na escala de Sol maior e localize a pentatônica de Mi menor ao redor do shape. A frase une as duas, pode começar no Sol ou perto dele, usar um slide até o Si e voltar ao Sol.",
+   "passos": [
+    "Toque o shape de Em7 escolhido",
+    "Localize a escala de Sol maior",
+    "Localize a pentatônica de Mi menor ao redor",
+    "Monte a frase começando no Sol, com slide até o Si e volta ao Sol"
+   ],
+   "timestamp": "01:04",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "escala maior",
+    "Mi menor",
+    "slide"
+   ],
+   "id_global": "mw6d34vqDMs#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Frase transponível pelo shape",
+   "descricao": "Como a frase está ligada ao shape do acorde, pode ser aplicada em qualquer lugar do braço onde o shape apareça, bastando transpor.",
+   "passos": [],
+   "timestamp": "01:42",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "shape"
+   ],
+   "id_global": "mw6d34vqDMs#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Arpejo de Mi menor sobre Cmaj7",
+   "descricao": "Sobre Dó maior com sétima use as notas do acorde: Si (sétima), Mi (terça) e opcionalmente Sol (quinta). Isso forma quase um arpejo de Mi menor dentro do Dó.",
+   "passos": [],
+   "timestamp": "02:51",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo",
+    "Cmaj7",
+    "notas do acorde"
+   ],
+   "id_global": "mw6d34vqDMs#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Aproximação cromática de nota do acorde",
+   "descricao": "No arpejo sobre o Dó, aproxime uma nota-alvo pela nota cromática vizinha (Si bemol antes do Si), resolvendo na nota do acorde. Dá sabor ao arpejo.",
+   "passos": [],
+   "timestamp": "03:25",
+   "nivel": "intermediario",
+   "tags": [
+    "aproximação cromática",
+    "notas-alvo"
+   ],
+   "id_global": "mw6d34vqDMs#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Modo livre dentro do campo harmônico",
+   "descricao": "Estando no campo harmônico de Sol, pode-se improvisar com a escala de Sol maior sem se preocupar com modos sobre cada acorde. Ele indica estudar modos gregos, pentatônica e escalas para aprofundar.",
+   "passos": [],
+   "timestamp": "02:18",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico",
+    "modos"
+   ],
+   "id_global": "mw6d34vqDMs#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Frase descendente sobre o dominante (Ré)",
+   "descricao": "Sobre o V grau (Ré), faça uma frase descendente dentro da escala de Sol, repita, depois leve a mesma frase uma oitava abaixo, volte com slide e conclua na pentatônica. Funciona também sobre a tônica.",
+   "passos": [
+    "Desça dentro da escala de Sol",
+    "Repita a frase",
+    "Leve a frase uma oitava abaixo",
+    "Volte com slide",
+    "Conclua na pentatônica"
+   ],
+   "timestamp": "04:32",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante",
+    "frase descendente",
+    "oitava",
+    "repetição"
+   ],
+   "id_global": "mw6d34vqDMs#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Aplicar frases nos espaços da música",
+   "descricao": "Não encaixe frases em ordem nem em todo acorde. Toque nos espaços da música (pausa da bateria, baixo ou voz) e use a frase certa para o acorde do momento.",
+   "passos": [],
+   "timestamp": "05:11",
+   "nivel": "intermediario",
+   "tags": [
+    "espaço",
+    "fraseado",
+    "musicalidade"
+   ],
+   "id_global": "mw6d34vqDMs#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Acrescente sua identidade",
+   "descricao": "Use as frases como base e adicione sua própria identidade e sentimento dentro da escala, em vez de reproduzir tudo igual.",
+   "passos": [],
+   "timestamp": "05:46",
+   "nivel": "iniciante",
+   "tags": [
+    "identidade",
+    "feeling"
+   ],
+   "id_global": "mw6d34vqDMs#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Frase na tônica uma oitava acima com cromatismo",
+   "descricao": "Sobre a tônica (Sol), comece uma oitava acima: toque Sol e Lá, faça um cromatismo passando por Si bemol até o Si, e resolva no Sol. Pode subir ao final para encerrar.",
+   "passos": [],
+   "timestamp": "06:18",
+   "nivel": "intermediario",
+   "tags": [
+    "tônica",
+    "cromatismo",
+    "oitava",
+    "resolução"
+   ],
+   "id_global": "mw6d34vqDMs#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica com som além do óbvio",
+   "descricao": "Combinando escala maior, pentatônica e arpejo de Mi menor dentro do acorde, a pentatônica soa menos 'caixinha'. Basta visualizar onde estão as notas do arpejo dentro do shape.",
+   "passos": [],
+   "timestamp": "07:42",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "arpejo",
+    "visualização"
+   ],
+   "id_global": "mw6d34vqDMs#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "rotina_estudo",
+   "titulo": "Criar uma situação para cada shape",
+   "descricao": "Para cada shape de acorde do campo harmônico, crie uma frase pensando na escala maior, na pentatônica e na sua identidade.",
+   "passos": [
+    "Escolha um shape de acorde",
+    "Identifique a escala maior e a pentatônica ao redor",
+    "Crie uma frase com notas do acorde/arpejo",
+    "Adicione aproximação ou cromatismo",
+    "Repita para cada grau do campo harmônico"
+   ],
+   "timestamp": "07:42",
+   "nivel": "intermediario",
+   "tags": [
+    "rotina",
+    "shape",
+    "campo harmônico"
+   ],
+   "id_global": "mw6d34vqDMs#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Aulas e métodos do canal",
+   "descricao": "O autor divulga aulas online via WhatsApp, o método 'Toca de Ouvido' e um método de real harmonização.",
+   "passos": [],
+   "timestamp": "08:14",
+   "nivel": "iniciante",
+   "tags": [
+    "curso",
+    "toca de ouvido"
+   ],
+   "id_global": "mw6d34vqDMs#I13"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Método Toca de Ouvido (Jonatha Guitar)",
+  "Método de real harmonização (Jonatha Guitar)",
+  "Grupo VIP no Telegram",
+  "Aulas online via WhatsApp"
+ ],
+ "observacoes": "Transcrição automática ruim: muitos trechos truncados ou ininteligíveis (ex.: \"chip de menor\" = shape de menor, \"beijo\" = arpejo, \"projetura\" = aproximação, \"dó doce\" = Dó). As frases exatas (notas e casas) não aparecem; dependem de ver o vídeo. Notas citadas foram interpretadas pelo contexto e podem ter imprecisões.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:14:42",
+  "tentativas": 1,
+  "custo_usd": 0.1277
+ }
+}

@@ -1,0 +1,342 @@
+{
+ "fonte_id": "premierguitar--pentatonic-boxes-are-for-squares-ea729d",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Pentatonic Boxes Are for Squares",
+  "autor": "Rob Michael",
+  "url": "https://www.premierguitar.com/lessons/rock/pentatonic-boxes-are-for-squares",
+  "site": "www.premierguitar.com",
+  "idioma": "en",
+  "tema_coleta": "pentatonica",
+  "arquivo_raw": "solos/raw/documentos/premierguitar--pentatonic-boxes-are-for-squares-ea729d.md"
+ },
+ "resumo": "Artigo de Rob Michael (Premier Guitar) que propõe ir além do \"box\" da pentatônica de duas notas por corda. Mostra como remapear notas para alternar 2 e 3 notas por corda, avançando na diagonal pelo braço com slides, bends, hammer-ons e pull-offs. Apresenta também double-stops (quartas em cordas adjacentes) para soar mais cheio e mais forte sem aumentar o volume, e como usá-los como alternativa aos acordes com pestana no rítmico. Voltado a iniciantes que sentem que o phrasing na pentatônica ficou repetitivo.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceitos claros e úteis (movimento diagonal, double-stops, volume), mas os exemplos (Ex. 1–7) são tablaturas ausentes no texto, então faltam notas, casas e tonalidades concretas."
+ },
+ "assuntos_principais": [
+  "pentatônica",
+  "movimento diagonal no braço",
+  "2 e 3 notas por corda",
+  "slides",
+  "double-stops",
+  "quartas em cordas adjacentes",
+  "articulações",
+  "dinâmica sem aumentar volume",
+  "rítmico com double-stops",
+  "blues"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: a pentatônica e a limitação do box",
+   "inicio": null,
+   "fim": null,
+   "resumo": "A pentatônica é o primeiro recurso melódico do improvisador e soa sempre 'correta', mas o box de duas notas por corda limita o phrasing e gera mesmice.",
+   "assuntos": [
+    "pentatônica",
+    "box",
+    "phrasing"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Remapeando o box: diagonal e 2/3 notas por corda",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Remapear notas do box (Ex. 1) para outras cordas, alternando duas e três notas por corda, para alongar a escala ao longo do braço, com slides, também descendo (Ex. 2–3), e um gesto de blues (Ex. 4).",
+   "assuntos": [
+    "movimento diagonal",
+    "slides",
+    "bends",
+    "hammer-ons",
+    "pull-offs",
+    "blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Double-stops com quartas e hammer-ons",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Quartas deslizantes em cordas adjacentes com delay de colcheia (Ex. 5) e frases com sliding fourths/hammer-on double-stop (Ex. 6) sobre I–VIm–IIm–V.",
+   "assuntos": [
+    "double-stops",
+    "quartas",
+    "legato",
+    "I–VIm–IIm–V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Ficar mais forte sem aumentar o volume",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Duas notas soam mais alto que uma; usar double-stops (Ex. 7) para dar peso às melodias em vez de subir o amp.",
+   "assuntos": [
+    "dinâmica",
+    "double-stops",
+    "jam de blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Rítmico mais leve e conclusão",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Substituir barre chords/power chords por double-stops menores em blues, R&B, jazz e country, evitando conflito com baixo e teclado; solos soam mais cheios.",
+   "assuntos": [
+    "rítmico",
+    "double-stops",
+    "arranjo",
+    "convivência com a banda"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Por que a pentatônica soa sempre 'certa'",
+   "descricao": "A pentatônica contém basicamente as notas 'boas', então quase não é preciso pensar em notas a evitar. Tocando as notas do box em qualquer ordem, no tempo e com fraseado lógico, é difícil errar.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "box",
+    "fundamentos"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Mesmice do box de duas notas por corda",
+   "descricao": "O padrão de duas notas por corda limita o phrasing e deixa a execução picada, uma 'marcha' pelo braço. O autor não pede para abandonar o box, e sim complementá-lo com outras digitações.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "box",
+    "phrasing",
+    "limitação"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Somar recursos, não substituir",
+   "descricao": "A proposta não é 'pare de fazer isso e comece a fazer aquilo', e sim ampliar o repertório já acumulado com novas formas de enxergar a pentatônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "vocabulário"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Remapear o box alternando 2 e 3 notas por corda",
+   "descricao": "Pegar as notas do box (Ex. 1) e movê-las para outras cordas, de modo que se alterne duas notas e três notas por corda. Isso alonga a escala na diagonal ao longo do braço, em vez de marchar de lado a lado. As tablaturas não estão no texto, então casas exatas não são informadas.",
+   "passos": [
+    "Toque o box tradicional da pentatônica (Ex. 1) para ter as notas de referência.",
+    "Remapeie as notas para que as cordas alternem entre duas notas e três notas.",
+    "Suba pela escala avançando na diagonal ao longo do braço (Ex. 2).",
+    "Pratique o mesmo caminho descendo (Ex. 3)."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "diagonal",
+    "2-e-3-notas-por-corda"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Slides estratégicos para dar 'swagger'",
+   "descricao": "Ao alternar 2 e 3 notas por corda, inserir slides entre as posições dá fluidez e personalidade à escala, algo que o box não oferece.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "articulação",
+    "pentatônica"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Praticar a digitação diagonal também descendo",
+   "descricao": "A digitação diagonal deve ser treinada nos dois sentidos; o autor inclui um exemplo descendente (Ex. 3) por considerar que essas digitações têm um 'hipness' que o box não tem.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "descendente",
+    "diagonal"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "frase_lick",
+   "titulo": "Gesto de blues com articulações variadas",
+   "descricao": "O Ex. 4 mostra um gesto de blues na digitação diagonal, no qual o uso criterioso de bends, slides, hammer-ons e pull-offs faz a 'mágica' acontecer. A digitação com 3 notas por corda convida a esse tipo de articulação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blues",
+    "bend",
+    "slide",
+    "hammer-on",
+    "pull-off",
+    "lick"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Quartas deslizantes com delay de colcheia",
+   "descricao": "Quartas em cordas adjacentes tocadas com slide e um atraso de colcheia evocam um clima funk/pop do início dos anos 80. O Ex. 5 deve ser tocado com notas longas e legato para um feeling de smooth jazz.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "double-stops",
+    "quartas",
+    "legato",
+    "funk"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Frases com sliding fourths e hammer-on em double-stop",
+   "descricao": "Dois truques muito usados: deslizar quartas e usar hammer-on em double-stops (Ex. 6). Slides, hammer-ons e pull-offs dão o som 'slinky'. Servem como acentos harmônicos em solos ou em partes rítmicas estilo R&B. Referências citadas: Mateus Asato, Stevie Ray Vaughan e Jimi Hendrix.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "double-stops",
+    "hammer-on",
+    "R&B",
+    "acento harmônico"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Frases pentatônicas com double-stops sugerem harmonia",
+   "descricao": "Mesmo sendo frases pentatônicas sobre uma progressão I–VIm–IIm–V, os double-stops dão um som harmonicamente informado, sugerindo os acordes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "harmonia",
+    "I-VIm-IIm-V",
+    "double-stops"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Duas notas soam mais alto que uma",
+   "descricao": "Em vez de aumentar o volume do amp (por exemplo, num jam de blues com um rítmico alto demais), use double-stops (Ex. 7). Eles transformam melodias simples em declarações mais fortes e com propósito, sem entrar na 'guerra de volume'.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "dinâmica",
+    "volume",
+    "double-stops",
+    "jam"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Trocar barre chords por double-stops no rítmico",
+   "descricao": "Em blues, R&B, jazz e country, a parte grave dos power chords/barre chords pode soar embolada e atrapalhar baixo e teclado. Double-stops menores são mais fáceis de tocar e deixam a banda soar melhor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "rítmico",
+    "power chord",
+    "arranjo",
+    "double-stops"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Repensar o box dá profundidade e solos mais cheios",
+   "descricao": "Reimaginar a pentatônica e usar double-stops adiciona profundidade e vibe ao seu jogo e pode tornar os solos mais cheios e interessantes, além de melhorar a convivência com os demais músicos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "musicalidade",
+    "banda"
+   ],
+   "id_global": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I13"
+  }
+ ],
+ "artistas_citados": [
+  "Eric Johnson",
+  "Eric Clapton",
+  "Eric Gales",
+  "Mateus Asato",
+  "Stevie Ray Vaughan",
+  "Jimi Hendrix"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Premier Guitar – Pentatonic Boxes Are for Squares (Ex. 1–7, tablaturas não incluídas no texto)"
+ ],
+ "observacoes": "Documento em texto sem as tablaturas/notações dos Ex. 1–7; notas, casas, tonalidades e BPM exatos não aparecem e não foram inventados. Conteúdo depende de ver os exemplos na página original.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:11:28",
+  "tentativas": 1,
+  "custo_usd": 0.1141
+ }
+}

@@ -1,0 +1,393 @@
+{
+ "subcategoria": "C10.1",
+ "visao_geral": "Arpejo é o acorde tocado nota a nota: a tríade maior usa 1-3-5, a menor abaixa a terça (1-♭3-5) e a diminuta abaixa também a quinta (1-♭3-♭5). As fontes ensinam a tocar o arpejo devagar, subindo e descendo, com notas limpas. Também mostram que os shapes são móveis e que o desenho do acorde aparece dentro do arpejo. O estudo progride de um shape por vez para duas oitavas e para formas próximas que cobrem uma progressão numa só região do braço.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O que é arpejo",
+   "descricao": "Arpejo é tocar as notas de um acorde uma de cada vez, em sequência, em vez de soarem juntas. Também é chamado de 'acorde quebrado' e funciona como a versão melódica do acorde. Ex.: Cmaj7 vira C-E-G-B tocadas em linha, e qualquer uma dessas notas no solo combina com o acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "jeJEMmEIVqk#I01",
+    "fxpn2pf0zf8#I01",
+    "TdzOXWlKtTQ#I01",
+    "h4zQjSecjvI#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Tríade maior: graus 1, 3 e 5",
+   "descricao": "O arpejo maior usa a 1ª, a 3ª e a 5ª da escala maior do acorde. Exemplos: G = G-B-D; D = D-F#-A; C = C-E-G. Numa progressão C–Am–F–G, as tríades são C-E-G, A-C-E, F-A-C e G-B-D, e essas notas servem de destino para as frases.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ExhI4nkjOAY#I06",
+    "fxpn2pf0zf8#I02",
+    "jeJEMmEIVqk#I02",
+    "14UZEproJ-A#I02",
+    "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Derivar menor e diminuta pela fórmula",
+   "descricao": "Para obter o arpejo menor, abaixe a terça do maior um semitom (uma casa) mantendo o padrão: G menor = G-B♭-D. Para a diminuta, abaixe também a quinta: A diminuto = A-C-E♭ (1-♭3-♭5), forma menos comum na música popular. Com a fórmula do acorde, qualquer arpejo sai de ajustes nos intervalos, sem decorar um desenho novo para cada um. Dominar maior e menor é a base para os demais.",
+   "passos": [
+    "Toque o arpejo maior.",
+    "Abaixe cada terça uma casa para obter o menor.",
+    "Abaixe também cada quinta uma casa para obter o diminuto."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fxpn2pf0zf8#I06",
+    "EY6-VNz81HE#I04",
+    "fxpn2pf0zf8#I04",
+    "fxpn2pf0zf8#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "exercicio",
+   "titulo": "Subir e descer o arpejo nota a nota, devagar",
+   "descricao": "Toque o arpejo uma nota por vez, subindo e descendo, sem deixar as cordas soarem como acorde. Exemplos das fontes: G nas cordas 4 a 1; Sol maior com tônica na casa 3 da corda Mi grave; Ré maior; Ré menor (D-F-A). Comece lento e só aumente a velocidade quando sair sem erro. Use o arpejo para localizar as notas-alvo e depois volte a frases curtas, em vez de solar só com arpejo.",
+   "passos": [
+    "Monte o shape e identifique a tônica.",
+    "Suba nota a nota, devagar.",
+    "Desça pelas mesmas notas.",
+    "Confira se cada nota soa limpa e separada.",
+    "Aumente a velocidade aos poucos."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ExhI4nkjOAY#I05",
+    "jeJEMmEIVqk#I06",
+    "jeJEMmEIVqk#I09",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I15",
+    "gubqumrozXc#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Dominar a mecânica antes de aplicar",
+   "descricao": "Antes de usar o arpejo no improviso, execute o shape com limpeza no instrumento. Sem essa mecânica, a aplicação musical não funciona.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "jeJEMmEIVqk#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "mentalidade",
+   "titulo": "Sem pressa: musicalidade antes de velocidade",
+   "descricao": "Ao estudar arpejos, não se apresse. O foco é o som e a musicalidade das notas, não apenas a velocidade.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "gubqumrozXc#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Shapes móveis: transpor pela tônica",
+   "descricao": "Um shape de arpejo serve para qualquer acorde do mesmo tipo: basta deslocá-lo para a nova tônica. O desenho de Sol maior com tônica na casa 3 da corda Mi vale para todo arpejo maior com tônica nessa corda. Movendo a forma de G, obtêm-se Lá maior ou Dó maior. O shape menor começado em outra nota gera outro arpejo menor.",
+   "passos": [
+    "Aprenda o shape com a tônica numa corda.",
+    "Localize a nova tônica na mesma corda.",
+    "Desloque o desenho inteiro para lá."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "jeJEMmEIVqk#I05",
+    "gubqumrozXc#I15",
+    "xKbtQM-qzSM#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "dica",
+   "titulo": "Ver o acorde dentro do arpejo",
+   "descricao": "Todo arpejo contém a forma do acorde. O arpejo de G maior com raiz na corda E revela a pestana de G maior. Visualizar o acorde é um atalho para memorizar o arpejo.",
+   "passos": [
+    "Faça o acorde.",
+    "Toque suas notas uma a uma.",
+    "Acrescente as notas do arpejo ao redor da forma."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "fxpn2pf0zf8#I19",
+    "fxpn2pf0zf8#I22",
+    "fxpn2pf0zf8#I20",
+    "fxpn2pf0zf8#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Por que visualizar arpejos além da escala",
+   "descricao": "Saber escalas não basta para solar com criatividade. Enxergar tríades e arpejos como formas no braço agiliza o improviso, sobretudo quando não há tempo de percorrer a escala inteira sobre um acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "14UZEproJ-A#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Estender o arpejo a uma oitava a mais",
+   "descricao": "Para estender o arpejo, acrescente as raízes, terças e quintas que faltam dentro do mesmo padrão. Assim o arpejo passa a cobrir duas oitavas na mesma região.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fxpn2pf0zf8#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "rotina_estudo",
+   "titulo": "Um shape por vez",
+   "descricao": "Não tente dominar todos os arpejos de uma vez. Memorize um shape, começando por Sol maior, e entenda suas notas. Só então passe ao seguinte.",
+   "passos": [
+    "Escolha um shape (ex.: Sol maior).",
+    "Memorize o desenho e as notas.",
+    "Avance só depois de dominá-lo."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "jeJEMmEIVqk#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar cada arpejo por oitava",
+   "descricao": "Organize o estudo tocando o arpejo de cada acorde primeiro numa oitava e depois na seguinte, sempre na mesma região. Em seguida, passe ao próximo acorde da progressão.",
+   "passos": [
+    "Toque o arpejo na primeira oitava.",
+    "Toque o mesmo arpejo na oitava seguinte.",
+    "Passe ao próximo acorde."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Y4BPUd_Zxds#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Arpejos de E, A e B maiores entre as casas 4 e 7",
+   "descricao": "Três formas CAGED em duas oitavas, todas na mesma região. E maior (forma C): corda Mi grave 4 (G#) e 7 (B), Lá 7 (E), Ré 6 (G#), Sol 4 (B), Si 5 (E), Mi aguda 4 (G#). A maior (forma E): Mi grave 5 (A), Lá 4 (C#), Lá 7 (E), Ré 7 (A), Sol 6 (C#), Si 5 (E), Mi aguda 5 (A). B maior (forma G): Mi grave 7 (B), Lá 6 (D#), Ré 4 (F#), Sol 4 (B), Si 4 (D#), Mi aguda 7 (B).",
+   "passos": [
+    "Ache a tônica de cada forma.",
+    "Toque 1-3-5 nota a nota, subindo.",
+    "Complete a segunda oitava.",
+    "Desça pelas mesmas notas.",
+    "Alterne E, A e B sem sair da região."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "TdzOXWlKtTQ#I07",
+    "TdzOXWlKtTQ#I08",
+    "TdzOXWlKtTQ#I09"
+   ],
+   "divergencias": "",
+   "correcoes": "As casas da legenda foram recalculadas: a tônica de B fica na casa 7 da corda Mi (não da Lá), a 3ª de E fica na casa 6 da corda Ré e a de B na casa 4 da corda Si, e A aparece na casa 7 da corda Ré ou na casa 5 da Mi aguda (não na casa 5 da Sol, que é C)."
+  },
+  {
+   "id": "K14",
+   "tipo": "dica",
+   "titulo": "Tocar só o trecho necessário da forma",
+   "descricao": "Não é preciso tocar o arpejo inteiro. Use apenas as cordas de que precisa (ex.: cordas 4, 3 e 2 para E), o que economiza movimento e mantém a clareza.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "TdzOXWlKtTQ#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Padrão 1-3-5-3-1 para fechar frases",
+   "descricao": "Sobre o acorde de Sol, toque G-B-D-B-G (1-3-5-3-1) para resolver o final de um riff. Depois repita o padrão em outra oitava.",
+   "passos": [
+    "Toque Sol-Si-Ré-Si-Sol.",
+    "Repita em outra oitava.",
+    "Use para terminar frases no acorde de Sol."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "bhYXolbCrr0#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Escolher formas próximas para cada acorde",
+   "descricao": "Para cada acorde da progressão, escolha o shape mais próximo dos outros, para tudo caber numa região sem saltos. Ex.: em A–E–Bm–D, use A na casa 5, E na casa 7, Bm na casa 7 e D na casa 5. Adapte essas posições ao seu hábito de escalas.",
+   "passos": [
+    "Toque o arpejo de cada acorde na posição escolhida.",
+    "Troque de arpejo ouvindo a relação entre eles.",
+    "Ajuste as posições ao seu jeito de tocar."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I12",
+    "jVTRXGg0Sdg#I27",
+    "QS6dpweE_Q4#I02",
+    "fxpn2pf0zf8#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Arpejar as tríades sobre a backing track",
+   "descricao": "Sobre uma base em Sol maior, toque as tríades de cada acorde em arpejo, uma nota por vez, no ritmo da base. O delay é opcional e dá sustentação. O objetivo é ouvir cada acorde como sequência de notas.",
+   "passos": [
+    "Coloque a backing track em Sol.",
+    "Arpeje a tríade de cada acorde no ritmo.",
+    "Acrescente delay se quiser.",
+    "Ouça se cada troca soa coerente."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "rtKZBns_IMY#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Achar a terça pelo dedo do meio",
+   "descricao": "Na forma do acorde, a terça costuma ser a nota do meio, onde fica o dedo do meio. Localizar essa nota permite mirar a terça com precisão no solo, pois é ela que define se o acorde é maior ou menor.",
+   "passos": [
+    "Monte o acorde e observe qual nota fica sob o dedo do meio",
+    "Toque só essa nota sobre o acorde e ouça a cor maior ou menor",
+    "Use-a como alvo ao trocar de acorde"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "7Pdss_Gswtc#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "Vale como referência prática, não como regra fixa: em algumas formas a terça cai em outro dedo.",
+   "encaixado": true
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Arpejos com raiz na corda A a partir da forma da corda E",
+   "descricao": "Monte arpejos com raiz na corda A, pela escala maior a partir dessa corda ou transpondo a forma com raiz na corda E. Para transpor, desloque a forma inteira um conjunto de cordas acima, de modo que a raiz caia na corda A. As notas que passam a cair na corda B sobem um semitom (uma casa), por causa da afinação em terça maior entre G e B. Vale para maior e menor.",
+   "passos": [
+    "Pegue um arpejo com raiz na corda E",
+    "Desloque a forma para que a raiz caia na corda A",
+    "Nas notas que caem na corda B, suba uma casa",
+    "Confira as notas (1, 3, 5) pelo nome",
+    "Repita com o arpejo menor"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fxpn2pf0zf8#I13",
+    "fxpn2pf0zf8#I14"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Combinar raízes nas cordas E e A para evitar saltos",
+   "descricao": "Ficar só nos arpejos com raiz na corda E obriga a andar muito pelo braço numa progressão. Combinar raízes nas cordas E e A mantém os acordes numa mesma região, com menos movimento. Não há escolha certa: dominar formas que atravessam o braço e formas próximas amplia as opções.",
+   "passos": [
+    "Escolha a progressão G–C–D",
+    "Toque cada arpejo com raiz na corda E (G casa 3, C casa 8, D casa 10)",
+    "Toque misturando raízes: G na corda E casa 3, C na corda A casa 3, D na corda A casa 5",
+    "Compare o deslocamento da mão nas duas versões"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fxpn2pf0zf8#I12",
+    "fxpn2pf0zf8#I15",
+    "fxpn2pf0zf8#I17",
+    "fxpn2pf0zf8#I18"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "ExhI4nkjOAY#I17",
+   "sugestao": "C10.4",
+   "motivo": "Trata de acrescentar 6ª e ♭7 ao arpejo de C no shape de A, ou seja, combinar arpejo com outras notas da escala."
+  },
+  {
+   "id": "xKbtQM-qzSM#I10",
+   "sugestao": "C09.6",
+   "motivo": "Fala em antecipar a posição do próximo acorde antes da troca, o que é pensar à frente."
+  }
+ ],
+ "observacoes": "As casas dos exercícios #30–#32 vinham com vários erros de legenda e foram recalculadas pela afinação padrão. #13 e #47 estão no limite com C09.3, mas ficaram aqui porque tratam de escolher formas de arpejo no braço.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 35,
+  "ideias_secundarias": 17,
+  "itens": 20,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1043,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15088,
+   "output_tokens": 7412
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 3,
+    "novos_itens": 3
+   }
+  ]
+ }
+}

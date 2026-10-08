@@ -1,0 +1,603 @@
+{
+ "fonte_id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+  "autor": "Sam Blakelock",
+  "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+  "site": "pickupmusic.com",
+  "idioma": "en",
+  "tema_coleta": "tecnica",
+  "arquivo_raw": "solos/raw/documentos/pickupmusic--guitar-techniques-bending-and-vibrato-b895d6.md"
+ },
+ "resumo": "Artigo didático sobre bends e vibrato na guitarra, apresentando a relação entre ambos (bends rápidos sucessivos formam vibrato), técnica de bend com antebraço e polegar como apoio, dois exercícios de afinação com a corda G, vibrato com alavanca (whammy bar), bends de pedal steel para country e alguns licks de referência de John Mayer, Jimi Hendrix e outros. Destinado a guitarristas que já tocam e querem expressividade e controle de afinação. O conteúdo é mais introdutório e de inspiração, com pouca notação concreta, e funciona como porta de entrada para os cursos da Pickup Music.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Traz exercícios práticos e conceitos claros sobre bends e vibrato, mas é curto, depende de vídeos e tablaturas não incluídos no texto e tem bastante conteúdo promocional e pouca especificidade (sem notas, casas ou BPM nos exercícios de bend)."
+ },
+ "assuntos_principais": [
+  "bends",
+  "vibrato",
+  "whammy bar",
+  "pedal-steel bends",
+  "afinação em bends",
+  "técnica de antebraço",
+  "hybrid picking",
+  "licks de blues e country"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução ao vibrato e aos bends",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o que o artigo cobre e a relação entre bends e vibrato: ambos aumentam a tensão da corda e elevam a altura; bends rápidos em sequência geram vibrato.",
+   "assuntos": [
+    "bends",
+    "vibrato",
+    "tensão da corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Técnica básica de bend",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica a posição da mão com o polegar como âncora e o movimento de rotação do antebraço e pulso para bendar; só é possível subir a altura com bend.",
+   "assuntos": [
+    "bend",
+    "posição da mão",
+    "polegar como apoio",
+    "rotação do antebraço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exercícios de afinação em bends",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Dois exercícios com bends de tom inteiro na corda G, com o dedo 3, bendando para baixo e para cima, comparando com a nota alvo até acertar a afinação.",
+   "assuntos": [
+    "intonação em bends",
+    "exercício corda G",
+    "notas-alvo",
+    "bend de tom inteiro"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Vibrato em ação e estilo pessoal",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Discute que o vibrato é pessoal, sugere copiar um guitarrista admirado e cita exemplos de Nicklas Myhre com vibrato em acordes, uso da alavanca e vibrato no fim de frases.",
+   "assuntos": [
+    "vibrato",
+    "estilo pessoal",
+    "imitação",
+    "vibrato em acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Vibrato com alavanca (whammy bar)",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que a alavanca afrouxa ou tensiona todas as cordas; empurrar baixa a altura e puxar sobe. Mostra posição de mão de Melanie Faye e um efeito hip-hop com a alavanca empurrada.",
+   "assuntos": [
+    "whammy bar",
+    "vibrato com alavanca",
+    "posição da mão",
+    "efeito hip-hop"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Pedal-steel bends em country",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta bends de pedal steel, típicos do country, e um exercício na tonalidade de Sol com barra na corda mi aguda e bend na corda G, usando hybrid picking.",
+   "assuntos": [
+    "pedal-steel bends",
+    "country",
+    "tonalidade de G",
+    "hybrid picking",
+    "barra com dedo mínimo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Licks avançados de referência",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta licks de John Mayer (bend e tapping sobre linha de blues), Jimi Hendrix (bends em cascata) e um desafio de transcrição por ouvido de Arianna Powell.",
+   "assuntos": [
+    "licks avançados",
+    "bend e tapping",
+    "cascata de bends",
+    "transcrição por ouvido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Próximos passos e promoção",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Sugere explorar um gênero, faz propaganda do teste gratuito de 14 dias e dos pathways de neo-soul, blues e country da Pickup Music, além de dados sobre autor e instrutor.",
+   "assuntos": [
+    "próximos passos",
+    "propaganda",
+    "trilhas de estudo"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Bend aumenta tensão e altura",
+   "descricao": "Ao bendar uma corda, aumenta-se a tensão da corda e, consequentemente, sobe a altura do som, o mesmo princípio de afinar a guitarra.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "tensão",
+    "afinação"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Vibrato é uma sequência rápida de bends",
+   "descricao": "Quando vários bends são feitos em sucessão rápida, o resultado é vibrato.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "bend"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Polegar como âncora",
+   "descricao": "Ao bendar, apoie o polegar no braço da guitarra para criar um ponto de ancoragem firme.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "polegar",
+    "posição da mão"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Bendar girando o antebraço e o pulso",
+   "descricao": "A corda é movida girando o antebraço e o pulso enquanto a corda é segurada, em vez de apenas flexionar o dedo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "antebraço",
+    "pulso"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Qualquer dedo em qualquer corda",
+   "descricao": "É possível fazer bends com qualquer dedo em qualquer corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "dedos"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Bend só sobe de altura",
+   "descricao": "Com bend (não com alavanca) só é possível subir a altura da nota, pois só se aumenta a tensão da corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "altura"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Acessar notas entre os trastes",
+   "descricao": "Bends permitem obter alturas microtonais entre os trastes, mas sem prática podem soar desafinados; a precisão de afinação do bend precisa ser treinada.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "intonação",
+    "microtonal"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bend de tom inteiro na corda G para baixo (dedo 3)",
+   "descricao": "Na corda G, com o dedo 3, faça bends de tom inteiro puxando a corda em direção ao chão, tocando antes a nota alvo e tentando igualar a altura do bend a ela. Pode ser feito em qualquer região do braço, com qualquer dedo, e também com bends de meio tom.",
+   "passos": [
+    "Toque a nota alvo.",
+    "Faça um bend de tom inteiro na corda G com o dedo 3, puxando para baixo (em direção ao chão).",
+    "Compare com a nota alvo e identifique se o bend ficou baixo, alto ou certo.",
+    "Repita até o bend soar idêntico à nota alvo."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "corda G",
+    "intonação",
+    "tom inteiro",
+    "exercício de ouvido"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Bend de tom inteiro na corda G para cima (dedo 3)",
+   "descricao": "Mesmo exercício da corda G, porém bendando para cima (em direção ao teto), igualando a nota alvo.",
+   "passos": [
+    "Toque a nota alvo.",
+    "Faça um bend de tom inteiro na corda G com o dedo 3, puxando para cima (em direção ao teto).",
+    "Compare com a nota alvo e corrija até o bend soar idêntico.",
+    "Repita quantas vezes for necessário."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "corda G",
+    "intonação",
+    "tom inteiro"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Ouvir para corrigir a afinação",
+   "descricao": "Durante os bends, a chave é ouvir atentamente a altura para perceber se o bend ficou baixo, alto ou correto, e a precisão cresce com a memória muscular.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "intonação",
+    "audição",
+    "memória muscular"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Copiar um guitarrista admirado",
+   "descricao": "Para aprender bends e vibrato, é válido escolher um guitarrista de que se goste e copiar seu estilo, até desenvolver um tom e uma identidade próprios.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "estilo",
+    "imitação",
+    "vibrato"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Vibrato com acordes",
+   "descricao": "Um exemplo de vibrato aplicado a acordes, como usado por Nicklas Myhre na peça Juniper, mostra que o vibrato não se restringe a notas isoladas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vibrato",
+    "acordes"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Vibrato suave com alavanca",
+   "descricao": "Na peça Juniper, Nicklas Myhre usa a alavanca para dar um vibrato suave.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vibrato",
+    "whammy bar"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Vibrato para enfatizar a última nota da frase",
+   "descricao": "Aplicar vibrato na última nota de uma frase dá ênfase expressiva ao final.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "frase",
+    "expressão"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Alavanca altera a afinação de todas as cordas",
+   "descricao": "A alavanca (whammy bar) afrouxa ou tensiona as seis cordas ao mesmo tempo: empurrar para baixo diminui a tensão e abaixa a altura; puxar para cima aumenta a tensão e eleva a altura.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "whammy bar",
+    "vibrato",
+    "tensão"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Mão em posição de alavanca com dedo mínimo e anelar",
+   "descricao": "Enrolar o dedo mínimo e o anelar na alavanca permite mantê-la controlada, deixando os outros dedos próximos das cordas para alternar entre dedilhado, batida e alavanca.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "posição da mão",
+    "dedilhado"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Vibrato suave com alavanca",
+   "descricao": "Puxar a alavanca levemente para cima, soltar, puxar de novo e soltar, criando um vibrato sutil.",
+   "passos": [
+    "Enrole o dedo mínimo e o anelar na alavanca.",
+    "Puxe a alavanca levemente para cima (afastando-a do corpo).",
+    "Solte.",
+    "Puxe novamente e solte, repetindo o ciclo."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "vibrato"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Efeito hip-hop com alavanca",
+   "descricao": "Empurrar a alavanca em direção ao corpo da guitarra com a mão espalmada produz um efeito de stutter estilo hip-hop.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "hip-hop",
+    "efeito"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Pedal-steel bends no country",
+   "descricao": "Bends de pedal steel são característicos do country e reproduzem a sonoridade do pedal steel guitar; o artigo cita o início de um solo de Daniel Donato como exemplo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pedal-steel bends",
+    "country"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Pedal-steel bend na tonalidade de Sol",
+   "descricao": "Na tonalidade de Sol, apoie a barra (com o dedo mínimo) nas duas cordas mais agudas e faça o bend na corda G usando o anelar ou o médio, podendo usar os dois juntos para mais força.",
+   "passos": [
+    "Apoie a barra com o dedo mínimo nas duas cordas mais agudas.",
+    "Bende a corda G com o dedo anelar ou médio (ou com os dois juntos).",
+    "Toque com hybrid picking."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pedal-steel bends",
+    "tonalidade de G",
+    "barra",
+    "hybrid picking"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Hybrid picking para pedal-steel",
+   "descricao": "Para tocar o exercício de pedal-steel bend, o hybrid picking (palheta e dedos) é a forma mais indicada de pegar as notas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "hybrid picking",
+    "técnica de mão direita"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Combinar bend e tapping no estilo John Mayer",
+   "descricao": "O lick de John Mayer em I Guess I Just Feel Like combina uma linha de blues típica com bend e tapping; é um exemplo de integração das duas técnicas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "bend",
+    "tapping",
+    "blues",
+    "John Mayer"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Cascata de bends estilo Hendrix",
+   "descricao": "Sequência de bends em cascata inspirada em Hendrix, apresentada por Jamey Arent, que ilustra bends encadeados.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "bend",
+    "cascata",
+    "Hendrix",
+    "blues"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Transcrever os primeiros seis segundos do solo de Arianna Powell",
+   "descricao": "Desafio de tirar de ouvido os seis primeiros segundos de um solo de Arianna Powell, combinando bend e vibrato.",
+   "passos": [
+    "Ouça os seis primeiros segundos do solo de Arianna Powell.",
+    "Tente identificar as notas e os bends por ouvido.",
+    "Compare o resultado com a versão original."
+   ],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "transcrição",
+    "ouvido",
+    "vibrato",
+    "bend"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S8",
+   "tipo": "rotina_estudo",
+   "titulo": "Explorar bends e vibrato dentro de um gênero",
+   "descricao": "Aplicar bends e vibrato no contexto de um gênero que o aluno goste, para desenvolver ideias novas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "estilo",
+    "gênero",
+    "prática"
+   ],
+   "id_global": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I25"
+  }
+ ],
+ "artistas_citados": [
+  "Seth Rosenbloom",
+  "Nicklas Myhre",
+  "Melanie Faye",
+  "Daniel Donato",
+  "John Mayer",
+  "Jimi Hendrix",
+  "Jamey Arent",
+  "Arianna Powell",
+  "Julia Mahncke",
+  "Sam Blakelock"
+ ],
+ "musicas_citadas": [
+  "Juniper",
+  "I Guess I Just Feel Like"
+ ],
+ "recursos_citados": [
+  "Pickup Music (teste gratuito de 14 dias)",
+  "Trilha Neo Soul Learning Pathway",
+  "Trilha Blues Learning Pathway",
+  "Trilha Country Learning Pathway",
+  "Vídeo do site Marshall Amp sobre bends",
+  "Vídeo de Seth Rosenbloom sobre bends",
+  "Vídeo de Nicklas Myhre (Juniper)",
+  "Vídeo de Daniel Donato (solo com pedal-steel bend)",
+  "Lição de Juniper para membros da Pickup Music",
+  "Vídeo de Jamey Arent (cascata de bends)",
+  "Vídeo de Arianna Powell (solo)"
+ ],
+ "observacoes": "Documento em inglês traduzido para este registro. Vários exemplos dependem de vídeos e tablaturas incorporados que não estão no texto, então ideias como o lick de John Mayer, a cascata de Hendrix e o solo de Arianna Powell não têm notas descritas. O exercício de pedal-steel bend foi resumido conforme o texto, sem indicação de notas exatas além da tonalidade de Sol. Parte do conteúdo é promocional (trial e pathways).",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00194,
+  "via": "api"
+ }
+}

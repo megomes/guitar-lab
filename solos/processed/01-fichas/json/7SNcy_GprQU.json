@@ -1,0 +1,611 @@
+{
+ "fonte_id": "7SNcy_GprQU",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=7SNcy_GprQU",
+  "idioma": "en",
+  "duracao": "16m 6s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/7SNcy_GprQU--how-to-get-so-good-at-guitar-it-feels-illegal-using-neuroscience.md"
+ },
+ "resumo": "Vídeo de Daniel Seriff sobre como praticar guitarra de forma mais eficiente, com base em ideias de ciência da aprendizagem: prática intercalada, diário de prática, sessões curtas, abordagem aditiva (somar trechos aos poucos), treino de mãos separadas, foco nos pontos difíceis, prática na borda da capacidade, mapas mentais e uso da voz. Voltado a guitarristas de nível iniciante a intermediário que estudam sem orientação estruturada. O conteúdo é mais metodológico e motivacional do que de solo e improvisação em si, mas aplica-se a quem quer solar melhor. Há bastante foco em conceitos teóricos sem exemplos musicais de solo, e alguns trechos são promocionais.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Dicas concretas e exercícios claros (abordagem aditiva, mãos separadas, timer de 2-5 min), mas pouco conteúdo específico de solo e improvisação; várias afirmações sobre neurociência são simplificadas ou discutíveis (ex.: 'não existe memória muscular')."
+ },
+ "assuntos_principais": [
+  "prática intercalada",
+  "diário de prática",
+  "sessões curtas",
+  "abordagem aditiva",
+  "prática de mãos separadas",
+  "prática deliberada",
+  "foco nos pontos problemáticos",
+  "prática na borda da capacidade",
+  "mapas mentais",
+  "prática sem instrumento",
+  "uso da voz para internalizar frases"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: a chave não é praticar mais",
+   "inicio": "0:00",
+   "fim": "0:38",
+   "resumo": "Apresenta a tese de que a forma de praticar importa mais que o volume de horas, e menciona a experiência do autor com alunos.",
+   "assuntos": [
+    "volume vs. qualidade de prática"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Por que a repetição mecânica falha",
+   "inicio": "0:39",
+   "fim": "1:13",
+   "resumo": "Critica a prática massiva (repetir a mesma coisa) e explica que ela dá sensação de produtividade sem aprendizado.",
+   "assuntos": [
+    "prática massiva",
+    "repetição mecânica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Prática intercalada e recall",
+   "inicio": "1:14",
+   "fim": "2:19",
+   "resumo": "Explica a prática intercalada, alternando vários itens na mesma sessão, e como o esforço de recuperação gera aprendizado mais profundo.",
+   "assuntos": [
+    "prática intercalada",
+    "recall",
+    "retrieval"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Como usar um diário de prática",
+   "inicio": "2:20",
+   "fim": "4:01",
+   "resumo": "Orienta a planejar a sessão antes de começar, registrar tempos, tonalidades e faixas, e observar padrões de dificuldade. Lista cinco categorias de prática.",
+   "assuntos": [
+    "diário de prática",
+    "planejamento",
+    "categorias de prática"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Sessões curtas funcionam melhor",
+   "inicio": "4:02",
+   "fim": "5:17",
+   "resumo": "Recomenda blocos de 15 a 20 minutos com pausas, sessões múltiplas ao longo do dia e uso de timer.",
+   "assuntos": [
+    "sessões curtas",
+    "timer",
+    "descanso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Abordagem aditiva",
+   "inicio": "5:18",
+   "fim": "10:44",
+   "resumo": "Demonstra com a progressão G-D-Em-C a técnica de adicionar acordes aos poucos; depois mostra o treino de mão esquerda e palhetada separadamente, e o método de ir direto ao trecho difícil.",
+   "assuntos": [
+    "abordagem aditiva",
+    "chunking",
+    "progressão G-D-Em-C",
+    "mãos separadas",
+    "padrão de palhetada",
+    "pontos problemáticos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Patrocínio: Ideal Guitarist Inner Circle",
+   "inicio": "10:05",
+   "fim": "10:36",
+   "resumo": "Anúncio do programa de coaching do próprio autor.",
+   "assuntos": [
+    "patrocínio"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S8",
+   "titulo": "Praticar na borda da capacidade",
+   "inicio": "10:37",
+   "fim": "11:45",
+   "resumo": "Argumenta que praticar o que já domina não é prática; é preciso tocar um pouco acima da capacidade atual, com tempos mais rápidos, e o desconforto é sinal de melhora.",
+   "assuntos": [
+    "prática deliberada",
+    "borda da capacidade",
+    "desconforto",
+    "tempo metronômico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Mielina, circuitos neurais e ilusão de saber",
+   "inicio": "11:46",
+   "fim": "13:28",
+   "resumo": "Discute a visão do autor sobre memória muscular, mielina e a diferença entre saber conceitualmente e tocar sob demanda.",
+   "assuntos": [
+    "mielina",
+    "memória muscular",
+    "ilusão de saber",
+    "domínio sob demanda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Mentalidade: não aprender só assistindo e errar com propósito",
+   "inicio": "13:29",
+   "fim": "13:57",
+   "resumo": "Lembra que vídeos não substituem a prática com o instrumento e que é preciso soar mal, entender o erro e corrigir.",
+   "assuntos": [
+    "aprendizado com erro",
+    "prática ativa"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Modelos mentais e prática sem o instrumento",
+   "inicio": "13:58",
+   "fim": "15:40",
+   "resumo": "Explica modelos mentais: ouvir a música na cabeça, visualizar o braço, nomear notas, ver tríades e formas CAGED. Propõe cantar ou cantarolar frases e visualizar a digitação antes de tocar.",
+   "assuntos": [
+    "modelos mentais",
+    "prática mental",
+    "tríades",
+    "sistema CAGED",
+    "cantar frases",
+    "visualização de digitação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Conclusão e chamada para outro vídeo",
+   "inicio": "15:41",
+   "fim": "16:06",
+   "resumo": "Resume a ideia de praticar em zona levemente desconfortável e sugere outro vídeo sobre formas de blues.",
+   "assuntos": [
+    "resumo",
+    "chamada para outro vídeo"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Prática massiva",
+   "descricao": "Repetir a mesma coisa várias vezes tentando perfeição dá sensação de produtividade, mas o cérebro passa a operar no automático e o aprendizado para. Ter os dedos em movimento não significa estar aprendendo.",
+   "passos": [],
+   "timestamp": "0:39",
+   "nivel": "iniciante",
+   "tags": [
+    "prática massiva",
+    "repetição"
+   ],
+   "id_global": "7SNcy_GprQU#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Prática intercalada",
+   "descricao": "Em vez de treinar uma coisa por 20 minutos seguidos, alterne entre vários itens na mesma sessão, por exemplo 2 a 3 minutos em cinco coisas diferentes, e retome todas na sessão seguinte.",
+   "passos": [],
+   "timestamp": "1:05",
+   "nivel": "iniciante",
+   "tags": [
+    "prática intercalada"
+   ],
+   "id_global": "7SNcy_GprQU#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Recall como motor do aprendizado",
+   "descricao": "Ao voltar a um item, você se testa sobre o que já trabalhou. Esse esforço de recuperação cria aprendizado mais profundo, mesmo que a sensação seja de maior dificuldade.",
+   "passos": [],
+   "timestamp": "1:39",
+   "nivel": "iniciante",
+   "tags": [
+    "recall",
+    "retrieval"
+   ],
+   "id_global": "7SNcy_GprQU#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Desconforto como sinal de aprendizado",
+   "descricao": "A dificuldade durante o recall e a frustração de errar fazem parte do aprendizado. Querer tocar até não errar mais atrapalha a evolução.",
+   "passos": [],
+   "timestamp": "1:39",
+   "nivel": "iniciante",
+   "tags": [
+    "desconforto",
+    "ego"
+   ],
+   "id_global": "7SNcy_GprQU#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "rotina_estudo",
+   "titulo": "Diário de prática planejado antecipadamente",
+   "descricao": "Escreva o plano da sessão antes de tocar, com metas e itens a trabalhar, em vez de anotar o que foi feito. Pode ser um caderno ou um documento no computador.",
+   "passos": [
+    "Antes da sessão, escreva as metas.",
+    "Liste os itens que serão trabalhados.",
+    "Registre tempos, tonalidades e faixas usadas.",
+    "Ao longo das sessões, observe os padrões."
+   ],
+   "timestamp": "2:12",
+   "nivel": "iniciante",
+   "tags": [
+    "diário de prática",
+    "planejamento"
+   ],
+   "id_global": "7SNcy_GprQU#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Observar padrões no diário",
+   "descricao": "Anote o que costuma dar dificuldade, o que você vem evitando e o que achava saber mas erra ao retomar. Isso aponta onde focar.",
+   "passos": [],
+   "timestamp": "3:19",
+   "nivel": "iniciante",
+   "tags": [
+    "diário de prática",
+    "autoavaliação"
+   ],
+   "id_global": "7SNcy_GprQU#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Cinco categorias de uma boa sessão",
+   "descricao": "Uma sessão deve combinar: aquecimento, habilidades e técnica, teoria e ouvido, aplicação criativa, e músicas, faixas, licks e linhas.",
+   "passos": [],
+   "timestamp": "3:19",
+   "nivel": "iniciante",
+   "tags": [
+    "estrutura de sessão",
+    "aquecimento",
+    "teoria",
+    "ouvido"
+   ],
+   "id_global": "7SNcy_GprQU#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Blocos curtos de prática com timer",
+   "descricao": "Limite cada bloco de estudo a cerca de 15 a 20 minutos e use um timer simples. Ao tocar, mude de item quando o alarme disparar, com durações de 30 segundos, 1, 2, 3 ou 5 minutos.",
+   "passos": [
+    "Defina um item de prática.",
+    "Ajuste o timer para 15 a 20 minutos ou para uma duração menor.",
+    "Ao disparar, passe ao próximo item sem exceção."
+   ],
+   "timestamp": "4:28",
+   "nivel": "iniciante",
+   "tags": [
+    "timer",
+    "sessões curtas"
+   ],
+   "id_global": "7SNcy_GprQU#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Várias sessões curtas no dia",
+   "descricao": "Dividir o estudo em várias sessões curtas ao longo do dia rende mais do que uma única sessão longa.",
+   "passos": [],
+   "timestamp": "4:28",
+   "nivel": "iniciante",
+   "tags": [
+    "consolidação",
+    "distribuição da prática"
+   ],
+   "id_global": "7SNcy_GprQU#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Abordagem aditiva com a progressão G-D-Em-C",
+   "descricao": "Aprenda uma progressão de quatro acordes somando um acorde por vez. Comece só com o G, depois adicione o D, depois o Em, por fim o C, fazendo uma pausa entre cada etapa. A mesma lógica vale para licks e frases.",
+   "passos": [
+    "Toque o G três a cinco vezes até sair limpo.",
+    "Adicione o D e pare, sem tocar a progressão inteira.",
+    "Repita G-D até sair bem.",
+    "Adicione o Em e pare; repita G-D-Em.",
+    "Adicione o C e toque a progressão completa."
+   ],
+   "timestamp": "5:18",
+   "nivel": "iniciante",
+   "tags": [
+    "abordagem aditiva",
+    "chunking",
+    "progressão"
+   ],
+   "id_global": "7SNcy_GprQU#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Chunking segundo Ericsson",
+   "descricao": "A abordagem aditiva corresponde ao chunking descrito por Anders Ericsson, uma aplicação prática da prática deliberada: montar o trecho em blocos pequenos antes de tocar tudo.",
+   "passos": [],
+   "timestamp": "6:41",
+   "nivel": "intermediario",
+   "tags": [
+    "chunking",
+    "prática deliberada"
+   ],
+   "id_global": "7SNcy_GprQU#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Treino de mão esquerda isolada",
+   "descricao": "Trabalhe a forma da mão de trastes sozinha, tocando as notas sem palhetar. Só depois pratique o padrão de palhetada com a mão de trastes muda.",
+   "passos": [
+    "Pressione as notas com a mão esquerda, sem palhetar.",
+    "Confirme que as trocas de acorde saem limpas.",
+    "Silencie a mão de trastes e toque o padrão de palhetada.",
+    "Ao dominar as duas partes, junte-as."
+   ],
+   "timestamp": "7:15",
+   "nivel": "iniciante",
+   "tags": [
+    "mãos separadas",
+    "mão esquerda",
+    "palhetada"
+   ],
+   "id_global": "7SNcy_GprQU#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Palhetada no ar com a mão de trastes",
+   "descricao": "Com a mão esquerda já pressionando a forma, faça a palhetada no ar, sem tocar as cordas, em 3 a 5 repetições limpas por etapa, para integrar as duas mãos antes de tocar de fato.",
+   "passos": [
+    "Pressione a forma com a mão esquerda.",
+    "Mime o padrão de palhetada no ar.",
+    "Faça de 3 a 5 repetições limpas.",
+    "Só então toque com as duas mãos."
+   ],
+   "timestamp": "8:25",
+   "nivel": "iniciante",
+   "tags": [
+    "mãos separadas",
+    "palhetada no ar"
+   ],
+   "id_global": "7SNcy_GprQU#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Ir direto ao ponto difícil",
+   "descricao": "Em vez de recomeçar do início quando erra, vá direto ao trecho que falhou, como o acorde de dó (C) que sempre sai errado, e trabalhe ali. Recomeçar do início faz o jogador dominar só a primeira parte da música.",
+   "passos": [],
+   "timestamp": "9:31",
+   "nivel": "iniciante",
+   "tags": [
+    "pontos problemáticos",
+    "estudo direcionado"
+   ],
+   "id_global": "7SNcy_GprQU#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Praticar na borda da capacidade",
+   "descricao": "Pratique o que está levemente acima da sua habilidade atual, como aumentar o andamento ou trabalhar coisas um pouco fora do alcance. Tocar o que já domina é apenas tocar.",
+   "passos": [],
+   "timestamp": "10:37",
+   "nivel": "intermediario",
+   "tags": [
+    "borda da capacidade",
+    "prática deliberada",
+    "andamento"
+   ],
+   "id_global": "7SNcy_GprQU#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Prática deliberada segundo Daniel Coyle",
+   "descricao": "Daniel Coyle chama de prática profunda (deep practice) o treino além da capacidade atual, em que o desconforto indica onde está a melhora.",
+   "passos": [],
+   "timestamp": "11:11",
+   "nivel": "intermediario",
+   "tags": [
+    "prática profunda",
+    "Daniel Coyle"
+   ],
+   "id_global": "7SNcy_GprQU#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Mielina e circuitos neurais",
+   "descricao": "Segundo o autor, a prática na borda da capacidade envolve os circuitos neurais com mielina, o que acelera a transmissão de sinais do cérebro aos dedos. A afirmação é uma simplificação da neurociência.",
+   "passos": [],
+   "timestamp": "11:46",
+   "nivel": "avancado",
+   "tags": [
+    "mielina",
+    "neurociência"
+   ],
+   "id_global": "7SNcy_GprQU#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "mentalidade",
+   "titulo": "Ilusão de saber",
+   "descricao": "Reconhecer um conceito intelectualmente não significa dominá-lo. Saber só vale quando você consegue tocar o conceito na guitarra sob demanda, sem hesitação e fora de situações confortáveis.",
+   "passos": [],
+   "timestamp": "12:53",
+   "nivel": "iniciante",
+   "tags": [
+    "domínio",
+    "ilusão de saber"
+   ],
+   "id_global": "7SNcy_GprQU#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "mentalidade",
+   "titulo": "Aprender tocando, não só assistindo",
+   "descricao": "Vídeos não ensinam sozinhos a tocar melhor. É preciso colocar a mão na guitarra, soar mal, entender por que e corrigir.",
+   "passos": [],
+   "timestamp": "13:29",
+   "nivel": "iniciante",
+   "tags": [
+    "prática ativa",
+    "erro"
+   ],
+   "id_global": "7SNcy_GprQU#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Modelos mentais",
+   "descricao": "Modelos mentais são representações internas: ouvir a música na cabeça, visualizar o braço, nomear as notas, enxergar tríades e formas do sistema CAGED sem tocar o instrumento.",
+   "passos": [],
+   "timestamp": "14:00",
+   "nivel": "intermediario",
+   "tags": [
+    "modelos mentais",
+    "tríades",
+    "CAGED",
+    "visualização"
+   ],
+   "id_global": "7SNcy_GprQU#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Prática mental sem o instrumento",
+   "descricao": "Trabalhe a música internamente: ouça, veja e imagine os sons na cabeça, nomeando as notas, antes ou no lugar de tocar. Pode ser feito durante a prática em trechos que não estão funcionando.",
+   "passos": [
+    "Escolha o trecho que não está funcionando.",
+    "Ouça mentalmente a frase.",
+    "Visualize o braço e nomeie as notas.",
+    "Imagine a execução sem tocar."
+   ],
+   "timestamp": "14:34",
+   "nivel": "intermediario",
+   "tags": [
+    "prática mental",
+    "visualização"
+   ],
+   "id_global": "7SNcy_GprQU#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Cantar ou cantarolar antes de tocar",
+   "descricao": "Cante ou cantarole a frase antes de executá-la na guitarra. Se não consegue cantar, a pessoa ainda não a internalizou (princípio citado por um pianista).",
+   "passos": [
+    "Escolha a frase.",
+    "Cante ou cantarole a frase.",
+    "Só então toque na guitarra."
+   ],
+   "timestamp": "15:07",
+   "nivel": "iniciante",
+   "tags": [
+    "cantar",
+    "internalização",
+    "ouvido"
+   ],
+   "id_global": "7SNcy_GprQU#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Visualizar a digitação antes de executar",
+   "descricao": "Feche os olhos e visualize a digitação de uma frase antes de tocá-la, uma forma de prática que pode ser feita em qualquer momento.",
+   "passos": [
+    "Feche os olhos.",
+    "Visualize a digitação da frase.",
+    "Execute a frase na guitarra."
+   ],
+   "timestamp": "15:24",
+   "nivel": "iniciante",
+   "tags": [
+    "visualização",
+    "digitação"
+   ],
+   "id_global": "7SNcy_GprQU#I23"
+  }
+ ],
+ "artistas_citados": [
+  "Daniel Seriff",
+  "Daniel Coyle",
+  "Anders Ericsson",
+  "Jeroen Klijsen",
+  "Gerald Klickstein"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Make It Stick (livro)",
+  "Peak (livro)",
+  "The Musician's Way (livro)",
+  "The Talent Code (livro)",
+  "The Art of Learning (livro)",
+  "The Inner Game of Music (livro)",
+  "Ideal Guitarist Inner Circle (programa pago do autor)",
+  "Resumo gratuito da aula (link no vídeo)",
+  "Vídeo sobre formas de blues (chamada final)"
+ ],
+ "observacoes": "Legendas automáticas com algumas falhas: 'scaly' aparece no sentido de soar 'escalar', 'Talent Code' e 'tips' ok. O exemplo da progressão tem o acorde 'E minor' (Em) e 'C'; a progressão G-D-Em-C foi interpretada assim. Partes do vídeo dependem de ver o que o autor toca (acordes e padrões de palhetada como 'down down up up down up' não estão notados em tablatura). Vários trechos de palhetada no ar foram transcritos com repetições confusas. O conteúdo é mais de metodologia de estudo do que de solo/improvisação; não há exemplos de escalas, licks ou improvisação. Alguns trechos são comerciais ou divulgação do autor. Algumas afirmações (mielina, ausência de memória muscular) são simplificações de neurociência.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00219,
+  "via": "api"
+ }
+}

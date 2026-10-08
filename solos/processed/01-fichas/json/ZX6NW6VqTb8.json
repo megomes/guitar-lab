@@ -1,0 +1,443 @@
+{
+ "fonte_id": "ZX6NW6VqTb8",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Everyone's Blues Solos Are BAD Until They Learn This!",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=ZX6NW6VqTb8",
+  "idioma": "en",
+  "duracao": "8m 14s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/ZX6NW6VqTb8--everyones-blues-solos-are-bad-until-they-learn-this.md"
+ },
+ "resumo": "Vídeo do Daniel Seriff que ensina a simplificar os solos de blues sobre a progressão de 12 compassos em A (A7, D7, E7), sem decorar várias escalas. A ideia central é usar a pentatônica maior de A sobre o A7, trocar apenas uma nota (C# por C) ao chegar no D7 e transpor a mesma forma um tom acima para o E7. Destina-se a guitarristas que já tocam pentatônica e querem conectar o solo às trocas de acorde. A fonte é curta e prática, com backing tracks gratuitas, e inclui um trecho de patrocínio do curso do próprio autor.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto e aplicável: nomeia notas, casas e a relação de tom entre os acordes, e apresenta um sistema completo e curto. Perde pontos por ser breve, depender de ver o braço para acompanhar as formas e ter uma parte considerável de propaganda."
+ },
+ "assuntos_principais": [
+  "blues em 12 compassos",
+  "pentatônica menor",
+  "pentatônica maior sobre dominante",
+  "acordes dominantes I, IV e V",
+  "nota de troca C# para C",
+  "transposição de forma pentatônica",
+  "forma diagonal 3-2"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Motivação: excesso de escalas e alcance do sistema",
+   "inicio": "00:00",
+   "fim": "01:05",
+   "resumo": "O autor afirma que conhecer muitas escalas piora os solos de blues, pois o problema é de sobrecarga e não de conhecimento. Apresenta a abordagem simples que aprendeu com Matt Sickles e diz que ela vale para qualquer música em que I, IV e V sejam acordes dominantes de sétima.",
+   "assuntos": [
+    "sobrecarga de escalas",
+    "abordagem simplificada",
+    "blues de 12 compassos",
+    "acordes dominantes I, IV e V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica menor versus pentatônica maior sobre A7",
+   "inicio": "01:05",
+   "fim": "02:23",
+   "resumo": "Começa tocando a pentatônica menor de A sobre o A7 e depois apresenta a pentatônica maior de A como alternativa mais melódica, citando o uso de B.B. King.",
+   "assuntos": [
+    "pentatônica menor de A",
+    "pentatônica maior de A",
+    "A7 como acorde I",
+    "sonoridade melódica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Forma diagonal 3-2 da pentatônica maior",
+   "inicio": "02:23",
+   "fim": "03:15",
+   "resumo": "Apresenta a forma diagonal 3-2 da pentatônica maior, composta por um grupo de três notas e outro de duas, começando na sétima casa da corda RE. Diz que a forma pode ser encadeada pelo braço e favorece bends e deslizamentos.",
+   "assuntos": [
+    "forma diagonal 3-2",
+    "pentatônica maior",
+    "posição",
+    "slides"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Patrocínio: Diagonal Pentatonic Method",
+   "inicio": "03:15",
+   "fim": "03:51",
+   "resumo": "Trecho de propaganda do curso do autor sobre pentatônica e formas CAGED, com desconto de 25%.",
+   "assuntos": [
+    "propaganda",
+    "curso pago"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S5",
+   "titulo": "Troca para D7: mudar uma nota da pentatônica maior",
+   "inicio": "03:51",
+   "fim": "06:55",
+   "resumo": "Ao mudar de A7 para D7, a pentatônica maior de A continua servindo, mas C# (3ª maior do A7) deve virar C natural, que é a ♭7 do D7. O autor explica por que C# soa mal sobre D7, mostra a posição central da forma e demonstra o resultado com a backing track A7-D7.",
+   "assuntos": [
+    "C# como 3ª do A7",
+    "C natural como ♭7 do D7",
+    "troca de uma nota",
+    "posição central",
+    "backing track A7-D7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Troca para E7: transposição da forma do D7",
+   "inicio": "06:55",
+   "fim": "07:29",
+   "resumo": "Para o acorde de E7 (V), usa-se a mesma forma do D7 deslocada um tom inteiro (duas casas) em direção ao corpo da guitarra, já que E7 está um tom acima de D7.",
+   "assuntos": [
+    "E7 como acorde V",
+    "transposição de forma",
+    "tom inteiro"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Recapitulação do sistema completo",
+   "inicio": "07:29",
+   "fim": "08:02",
+   "resumo": "Resume o sistema: A7 com pentatônica maior de A; D7 com C# abaixado para C; E7 com a forma do D7 subida um tom.",
+   "assuntos": [
+    "recapitulação",
+    "sequência de formas por acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Despedida e convite para outro vídeo",
+   "inicio": "08:02",
+   "fim": "08:14",
+   "resumo": "Encerramento com sugestão de assistir a outro vídeo sobre músicas de blues.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Dificuldade de solo costuma ser sobrecarga, não falta de conhecimento",
+   "descricao": "Quando o solista sente que se perde no braço ou trava durante o solo, o problema costuma ser excesso de informação e não falta de teoria. Simplificar o que se toca tende a melhorar o resultado mais do que acrescentar escalas.",
+   "passos": [],
+   "timestamp": "00:07",
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "sobrecarga",
+    "simplificação"
+   ],
+   "id_global": "ZX6NW6VqTb8#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Simplificar a progressão de 12 compassos com I, IV e V dominantes",
+   "descricao": "A abordagem vale para qualquer blues em que os acordes I, IV e V sejam todos dominantes de sétima (por exemplo, A7, D7 e E7 na tonalidade de A). Dentro dessa estrutura, uma única escala ou forma pode cobrir os três acordes com pequenas trocas.",
+   "passos": [],
+   "timestamp": "00:40",
+   "nivel": "intermediario",
+   "tags": [
+    "blues de 12 compassos",
+    "acordes dominantes",
+    "I-IV-V"
+   ],
+   "id_global": "ZX6NW6VqTb8#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Começar pela pentatônica menor de A sobre o A7",
+   "descricao": "É válido começar o solo de blues tocando apenas a pentatônica menor da tonalidade, que em A é formada por A, C, D, E e G, sobre o acorde A7. Essa é a base antes de explorar alternativas.",
+   "passos": [],
+   "timestamp": "01:14",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "pentatônica menor",
+    "A7",
+    "ponto de partida"
+   ],
+   "id_global": "ZX6NW6VqTb8#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior de A sobre A7 como alternativa mais doce",
+   "descricao": "Sobre o acorde A7 pode-se usar a pentatônica maior de A (A, B, C#, E, F#), que cria um som mais melódico e doce. O autor atribui a B.B. King o uso dessa sonoridade, chamada por ele de doce som do blues. Ela não substitui a menor, mas acrescenta uma opção.",
+   "passos": [],
+   "timestamp": "01:50",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "A7",
+    "sonoridade",
+    "B.B. King"
+   ],
+   "id_global": "ZX6NW6VqTb8#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Forma diagonal 3-2 da pentatônica maior",
+   "descricao": "A forma diagonal 3-2 da pentatônica maior é formada por um grupo de três notas numa corda seguido de um grupo de duas notas na corda vizinha, com um tom inteiro entre cada uma das notas. Na demonstração ela começa na sétima casa da corda RE.",
+   "passos": [],
+   "timestamp": "02:23",
+   "nivel": "intermediario",
+   "tags": [
+    "forma diagonal",
+    "pentatônica maior",
+    "3-2",
+    "posição"
+   ],
+   "id_global": "ZX6NW6VqTb8#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Começar pela posição menor da forma 3-2 e expandir pelo braço",
+   "descricao": "Para aprender a forma diagonal 3-2 da pentatônica maior, comece pela posição pequena indicada (sétima casa da corda RE) e depois repita o mesmo desenho deslocado ao longo do braço.",
+   "passos": [
+    "Localizar a sétima casa da corda RE.",
+    "Tocar o grupo de três notas (três notas diferentes, cada uma separada da seguinte por um tom).",
+    "Tocar o grupo vizinho de duas notas na corda ao lado.",
+    "Repetir o mesmo padrão deslocando a forma pelo braço."
+   ],
+   "timestamp": "02:57",
+   "nivel": "intermediario",
+   "tags": [
+    "forma diagonal",
+    "exercício",
+    "deslocamento pelo braço"
+   ],
+   "id_global": "ZX6NW6VqTb8#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Forma diagonal favorece slides e bends",
+   "descricao": "A forma diagonal 3-2 se presta a deslizamentos e bends logo de início, o que ajuda a dar expressividade ao solo sobre o blues.",
+   "passos": [],
+   "timestamp": "02:57",
+   "nivel": "iniciante",
+   "tags": [
+    "slide",
+    "bend",
+    "expressividade"
+   ],
+   "id_global": "ZX6NW6VqTb8#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Mudança de A7 para D7: trocar só uma nota",
+   "descricao": "Ao passar do acorde I (A7) para o IV (D7), a pentatônica maior de A pode ser mantida; basta trocar a nota C# por C natural. Esse é o principal ponto de troca de todo o sistema.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "intermediario",
+   "tags": [
+    "troca de acorde",
+    "D7",
+    "notas-alvo",
+    "pentatônica maior"
+   ],
+   "id_global": "ZX6NW6VqTb8#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "C# é a 3ª maior do A7 e funciona sobre ele",
+   "descricao": "Sobre o acorde A7 (A, C#, E, G), a nota C# é a 3ª maior e soa consonante, por isso pode ser usada como nota de chegada sobre esse acorde.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "intermediario",
+   "tags": [
+    "A7",
+    "3ª maior",
+    "guide tone",
+    "notas-alvo"
+   ],
+   "id_global": "ZX6NW6VqTb8#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "C# soa errado sobre D7",
+   "descricao": "Sobre o acorde D7 (D, F#, A, C), a nota C# é a 7ª maior, que não pertence ao acorde dominante e cria um choque forte. Por isso, tocar C# sobre o D7 soa muito mal.",
+   "passos": [],
+   "timestamp": "04:39",
+   "nivel": "intermediario",
+   "tags": [
+    "D7",
+    "erro comum",
+    "7ª maior",
+    "dominante"
+   ],
+   "id_global": "ZX6NW6VqTb8#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Trocar C# por C natural na forma central sobre D7",
+   "descricao": "Na posição central da pentatônica maior de A, a nota C# fica na 11ª casa da corda RE. Abaixando-a um semitom para a casa 10 da mesma corda, obtém-se C natural, que é a ♭7 do D7 e encaixa na progressão.",
+   "passos": [
+    "Tocar a pentatônica maior de A na posição central sobre o A7.",
+    "Ao mudar para o D7, localizar a nota C# na 11ª casa da corda RE.",
+    "Abaixar essa nota um semitom para a 10ª casa da corda RE (C natural).",
+    "Tocar o restante da forma sem alteração sobre o D7 e alternar com o A7 em compassos de dois tempos."
+   ],
+   "timestamp": "05:12",
+   "nivel": "intermediario",
+   "tags": [
+    "C natural",
+    "♭7 do D7",
+    "pentatônica maior",
+    "exercício",
+    "backing track"
+   ],
+   "id_global": "ZX6NW6VqTb8#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "C natural é a ♭7 do D7",
+   "descricao": "Ao abaixar C# para C natural sobre o D7, a nota passa a ser a sétima menor do acorde dominante (D F# A C), que é a nota correta para esse acorde.",
+   "passos": [],
+   "timestamp": "05:12",
+   "nivel": "intermediario",
+   "tags": [
+    "D7",
+    "♭7",
+    "guide tone"
+   ],
+   "id_global": "ZX6NW6VqTb8#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Não é preciso rever a escala inteira sobre o D7",
+   "descricao": "Sobre o D7, as demais notas da pentatônica maior de A já funcionam; a única alteração necessária é C# para C. Assim, o solista não precisa reconstruir outra escala ao mudar de acorde.",
+   "passos": [],
+   "timestamp": "06:22",
+   "nivel": "intermediario",
+   "tags": [
+    "D7",
+    "economia de notas",
+    "pentatônica maior"
+   ],
+   "id_global": "ZX6NW6VqTb8#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Transpor a forma do D7 para o E7 subindo um tom",
+   "descricao": "Para tocar sobre o E7 (acorde V), use a mesma forma já usada no D7, deslocada duas casas (um tom inteiro) em direção ao corpo da guitarra. A forma inteira sobe, sem alterações de nota.",
+   "passos": [
+    "Tocar a forma usada sobre o D7 (com a nota C natural).",
+    "Deslocar a forma inteira duas casas em direção ao corpo da guitarra.",
+    "Tocar sobre a backing track de E7."
+   ],
+   "timestamp": "06:55",
+   "nivel": "intermediario",
+   "tags": [
+    "E7",
+    "transposição",
+    "forma",
+    "V"
+   ],
+   "id_global": "ZX6NW6VqTb8#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Transposição de forma pelo intervalo entre acordes",
+   "descricao": "E7 está um tom inteiro acima de D7, então a mesma forma deslocada um tom passa a encaixar nas notas do novo acorde. Isso permite reaproveitar uma forma em vez de decorar uma nova para cada acorde.",
+   "passos": [],
+   "timestamp": "07:04",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "tom inteiro",
+    "reaproveitamento de forma"
+   ],
+   "id_global": "ZX6NW6VqTb8#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "rotina_estudo",
+   "titulo": "Sequência completa do sistema para o blues em A",
+   "descricao": "Resumo prático de como tocar a progressão A7-D7-E7: sobre A7 use a pentatônica maior de A; sobre D7 abaixe C# para C natural; sobre E7 use a forma do D7 subida um tom. Serve como roteiro para estudo e para improvisar sobre a backing track.",
+   "passos": [
+    "Sobre o A7, tocar a pentatônica maior de A.",
+    "Ao chegar ao D7, trocar C# por C natural na forma.",
+    "Ao chegar ao E7, deslocar a forma do D7 um tom acima.",
+    "Repetir a sequência com a backing track de 12 compassos."
+   ],
+   "timestamp": "07:29",
+   "nivel": "intermediario",
+   "tags": [
+    "sistema completo",
+    "12 compassos",
+    "sequência",
+    "rotina"
+   ],
+   "id_global": "ZX6NW6VqTb8#I16"
+  }
+ ],
+ "artistas_citados": [
+  "Daniel Seriff",
+  "Matt Sickles",
+  "B.B. King"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Diagonal Pentatonic Method (curso pago do autor, com 25% de desconto)",
+  "Lesson summary, backing tracks e diagramas gratuitos (link na descrição)",
+  "Backing track de A7 e de A7-D7 (download gratuito)",
+  "Conceito de formas CAGED (mencionado no patrocínio)"
+ ],
+ "observacoes": "Não há problemas graves de legenda: os nomes de notas e casas foram ditos com clareza e batem com a teoria (A7 com C# como 3ª; D7 com C# como 7ª maior e C natural como ♭7). O conteúdo depende de ver as formas no braço e de baixar as backing tracks para acompanhar. O trecho de patrocínio aparece no meio do conteúdo didático (aprox. 03:15 a 03:51). O timestamp da sentença 'um tom inteiro acima' no E7 foi aproximado pela transcrição (06:55–07:29). Os timestamps dos segmentos S3 e S4 foram estimados pelo texto, já que a transcrição não marca o início exato do patrocínio.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00257,
+  "via": "api"
+ }
+}

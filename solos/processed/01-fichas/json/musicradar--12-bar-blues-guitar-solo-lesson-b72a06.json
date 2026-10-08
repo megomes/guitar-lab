@@ -1,0 +1,271 @@
+{
+ "fonte_id": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "How to start soloing over a 12-bar blues",
+  "autor": "MusicRadar",
+  "url": "https://www.musicradar.com/how-to/12-bar-blues-guitar-solo-lesson",
+  "site": "www.musicradar.com",
+  "idioma": "en",
+  "tema_coleta": "blues",
+  "arquivo_raw": "solos/raw/documentos/musicradar--12-bar-blues-guitar-solo-lesson-b72a06.md"
+ },
+ "resumo": "Artigo curto da MusicRadar que mostra como começar a solar sobre um blues de 12 compassos em Lá, usando a pentatônica menor de Lá e acrescentando poucas notas extras. A ideia é adaptar o solo a cada ponto da progressão: abertura no I (A7), mudança para o IV (D7), pico no V e turnaround final. Voltado a iniciantes e intermediários. Os licks em si estão em tablaturas/diagramas que não vieram no texto.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Boa lógica de pensar o solo por seções do blues e notas-alvo concretas, mas o texto é curto e os licks dependem de tablatura ausente."
+ },
+ "assuntos_principais": [
+  "blues de 12 compassos",
+  "pentatônica menor",
+  "notas-alvo",
+  "acorde IV e V",
+  "b5 (blue note)",
+  "turnaround",
+  "sexta maior"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e escala base",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta a pentatônica menor como escala principal para o blues e sugere praticá-la antes de adicionar notas extras (em verde no diagrama).",
+   "assuntos": [
+    "pentatônica menor",
+    "shape"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "A abertura sobre A7 (acorde I)",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lick de abertura sobre A7 que pousa em uma nota do acorde (C# da casa 6).",
+   "assuntos": [
+    "notas-alvo",
+    "acorde I"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "A mudança para o IV (D7)",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Sobre D7 a pentatônica de Lá menor continua funcionando; destaca-se a mudança acrescentando a sexta maior.",
+   "assuntos": [
+    "acorde IV",
+    "sexta maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "O pico no V",
+   "inicio": null,
+   "fim": null,
+   "resumo": "O acorde V é o ponto de maior tensão; usar a b5 para dramatizar.",
+   "assuntos": [
+    "acorde V",
+    "b5",
+    "tensão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "O turnaround",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Os dois últimos compassos preparam a volta ao início; blueseiros têm um repertório de licks de turnaround.",
+   "assuntos": [
+    "turnaround"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Promoção do site",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Newsletter e descrição institucional da MusicRadar.",
+   "assuntos": [],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor como base para solar no blues",
+   "descricao": "A pentatônica menor (aqui, Lá menor pentatônica) é a escala de partida para improvisar sobre um blues de 12 compassos. Acrescentando algumas notas extras fora da escala, dá para soar mais próximo de blueseiros como Joe Bonamassa e Robben Ford.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "blues",
+    "12 compassos"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "rotina_estudo",
+   "titulo": "Dominar o shape básico antes de adicionar notas extras",
+   "descricao": "Primeiro pratique o shape básico da pentatônica menor (raízes em preto), e só depois incorpore as notas extras destacadas em verde no diagrama.",
+   "passos": [
+    "Toque o shape básico da pentatônica menor de Lá até sentir confortável",
+    "Localize as raízes no diagrama",
+    "Acrescente as notas extras (verdes) uma a uma",
+    "Use-as nos licks de cada parte do blues"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "shape",
+    "prática"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Pousar em nota do acorde (C# sobre A7)",
+   "descricao": "Solos soam melhor quando pousam em uma nota do acorde de fundo. No lick de abertura sobre A7, usa-se o C# da casa 6 (terça maior do A7), nota fora da pentatônica menor de Lá; as demais notas vêm da pentatônica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "terça maior",
+    "A7",
+    "acorde I"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pentatônica de Lá segue valendo sobre o D7",
+   "descricao": "Ao mudar para o acorde IV (D7), as notas da pentatônica menor de Lá continuam funcionando, então não é preciso trocar de escala.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "acorde IV",
+    "D7",
+    "pentatônica"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Marcar a mudança para o IV com a sexta maior",
+   "descricao": "Para destacar a troca de acorde, adicione o intervalo de sexta maior (em relação a Lá, o F#), na casa 4 da quarta corda, segundo o artigo. É uma nota que o artigo chama de fantástica para essa hora.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "sexta maior",
+    "acorde IV",
+    "notas-alvo"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Usar a b5 no acorde V para criar tensão",
+   "descricao": "O V é o ponto de maior tensão do blues de 12 compassos. Aproveite isso com a quinta bemol (blue note), que soa muito bem no blues, especialmente se guardada para o acorde V.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "b5",
+    "blue note",
+    "acorde V",
+    "tensão"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Dramaturgia do solo seguindo a forma do blues",
+   "descricao": "Pense o solo acompanhando a tensão da forma: abertura no I, destaque da mudança no IV, clímax no V e fechamento no turnaround. Cada região da progressão pede uma nota ou ideia característica.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "forma",
+    "tensão"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Turnaround: dois últimos compassos",
+   "descricao": "Os dois compassos finais do blues de 12 compassos são o turnaround, que prepara a volta ao início do ciclo e o próximo chorus do solo. Blueseiros costumam ter um repertório de licks de turnaround para encerrar cada volta.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "turnaround",
+    "blues",
+    "licks"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Montar um repertório próprio de licks de turnaround",
+   "descricao": "Colecione alguns licks de turnaround para rematar cada volta do solo, assim como os blueseiros fazem.",
+   "passos": [
+    "Aprenda alguns licks de turnaround",
+    "Pratique-os sobre os dois últimos compassos com backing track",
+    "Alterne entre eles a cada chorus"
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "turnaround",
+    "repertório",
+    "licks"
+   ],
+   "id_global": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I09"
+  }
+ ],
+ "artistas_citados": [
+  "Joe Bonamassa",
+  "Robben Ford"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "The ultimate minor pentatonic guitar lesson: all the skills to get started (MusicRadar)"
+ ],
+ "observacoes": "Documento sem tablaturas nem diagramas: os licks, a progressão e os shapes não estão no texto. Notas como o F# (sexta maior) foram deduzidas do contexto (A pentatônica, casa 4 da corda 4 = F#); o artigo só diz \"major 6\". Seções de newsletter/institucional ignoradas.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:36",
+  "tentativas": 1,
+  "custo_usd": 0.0902
+ }
+}

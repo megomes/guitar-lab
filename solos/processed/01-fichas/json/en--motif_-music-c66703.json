@@ -1,0 +1,260 @@
+{
+ "fonte_id": "en--motif_-music-c66703",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Motif (music) - Wikipedia",
+  "autor": "Authority control databases National Czech Republic",
+  "url": "https://en.wikipedia.org/wiki/Motif_(music)",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--motif_-music-c66703.md"
+ },
+ "resumo": "Verbete da Wikipedia que define motivo musical: a menor unidade estrutural com identidade temática, que pode ser melódica, rítmica ou harmônica. Traz definições de Riemann, Webern e Schoenberg e os conceitos de leitmotif e head-motif. Explica o desenvolvimento motívico (alterar, repetir, sequenciar) com o exemplo do motivo do destino da Quinta de Beethoven. É um texto teórico, sem foco em guitarra. Serve de base conceitual para quem quer construir solos coerentes a partir de pequenas ideias.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "A definição teórica é sólida e serve de base para improvisar com motivos. Não há exemplos de guitarra, exercícios nem aplicação prática."
+ },
+ "assuntos_principais": [
+  "motivo musical",
+  "desenvolvimento motívico",
+  "leitmotif",
+  "teoria musical",
+  "coerência melódica"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de motivo e seus tipos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define motivo como ideia musical curta e recorrente, a menor unidade com identidade temática. Distingue motivos harmônico, melódico e rítmico, e apresenta leitmotif, head-motif e a diferença entre motivo e figura segundo Scruton.",
+   "assuntos": [
+    "motivo",
+    "figura",
+    "leitmotif",
+    "head-motif"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Desenvolvimento motívico e exemplos",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Um motivo pode gerar melodias, temas e peças inteiras por alteração, repetição e sequenciamento, o que garante unidade. Cita Beethoven (Quinta Sinfonia) e a saturação motívica.",
+   "assuntos": [
+    "desenvolvimento motívico",
+    "sequência",
+    "Beethoven",
+    "saturação motívica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Definições de Riemann, Webern e Schoenberg",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Três definições históricas de motivo, que destacam o reconhecimento por repetição e a constância de intervalo e ritmo.",
+   "assuntos": [
+    "definições",
+    "Schoenberg",
+    "Webern",
+    "Riemann"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Head-motif, referências e leitura adicional",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica brevemente o head-motif, que une movimentos de uma obra. O restante são citações e referências bibliográficas.",
+   "assuntos": [
+    "head-motif",
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é um motivo",
+   "descricao": "Motivo é uma ideia musical curta, uma figura recorrente ou sucessão de notas com importância especial na composição. É a menor unidade estrutural que ainda tem identidade temática. Num solo, é a pequena célula que o ouvinte reconhece e lembra.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "motivo",
+    "frase",
+    "conceito"
+   ],
+   "id_global": "en--motif_-music-c66703#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Motivo melódico, rítmico e harmônico",
+   "descricao": "Um motivo pode ser harmônico (série de acordes), melódico (contorno de notas) ou rítmico (fórmula rítmica característica, abstraída das durações de uma melodia). Na improvisação, dá para fixar só o ritmo e trocar as notas, ou manter o contorno melódico e mudar o ritmo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "motivo",
+    "ritmo",
+    "melodia",
+    "harmonia"
+   ],
+   "id_global": "en--motif_-music-c66703#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Leitmotif e head-motif",
+   "descricao": "Leitmotif é um motivo ligado a uma pessoa, lugar ou ideia. Head-motif é uma ideia de abertura que une um conjunto de movimentos. Por analogia, uma assinatura melódica no início do solo pode servir de fio condutor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "leitmotif",
+    "head-motif",
+    "unidade"
+   ],
+   "id_global": "en--motif_-music-c66703#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Motivo versus figura (Scruton)",
+   "descricao": "Para Scruton, o motivo está em primeiro plano e a figura fica ao fundo. A figura é como uma moldura 'aberta nas pontas', repetível indefinidamente, como um riff de acompanhamento. O motivo é o que chama a atenção.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "motivo",
+    "figura",
+    "riff"
+   ],
+   "id_global": "en--motif_-music-c66703#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Desenvolver um motivo: alterar, repetir e sequenciar",
+   "descricao": "O desenvolvimento motívico usa uma figura musical distinta que depois é alterada, repetida ou sequenciada ao longo da peça ou seção. Isso garante unidade. Em um solo, escolha uma ideia curta e reapresente-a com variações em vez de trocar de ideia a cada compasso.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "desenvolvimento motívico",
+    "sequência",
+    "variação",
+    "repetição"
+   ],
+   "id_global": "en--motif_-music-c66703#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Exemplo: o motivo do destino de Beethoven",
+   "descricao": "Na Quinta Sinfonia, três notas curtas seguidas de uma longa abrem a obra e reaparecem em muitas permutações. Mostra como um motivo mínimo e reconhecível sustenta uma obra inteira. Serve de modelo para solos baseados em uma célula rítmica simples.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "Beethoven",
+    "motivo",
+    "ritmo",
+    "exemplo"
+   ],
+   "id_global": "en--motif_-music-c66703#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Saturação motívica",
+   "descricao": "É a imersão de um motivo numa composição: o motivo fica por baixo da superfície ou tem a identidade modificada, sem aparecer sempre explícito. Citam-se Miriam Gideon e Donald Erb. Na improvisação, o motivo pode permear o solo de forma sutil.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "saturação motívica",
+    "desenvolvimento"
+   ],
+   "id_global": "en--motif_-music-c66703#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Motivo é reconhecido pela repetição",
+   "descricao": "Webern define motivo como a menor partícula independente de uma ideia musical, reconhecível por sua repetição. Para o ouvinte perceber uma ideia como motivo, ela precisa voltar. Um lick tocado uma única vez não funciona como motivo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "repetição",
+    "motivo",
+    "Webern"
+   ],
+   "id_global": "en--motif_-music-c66703#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Motivo como intervalo e ritmo constantes (Schoenberg)",
+   "descricao": "Schoenberg define motivo como uma unidade com características de intervalo e ritmo cuja presença se mantém ao longo da peça. Riemann o descreve como o conteúdo concreto de uma unidade de tempo rítmica básica. Para variar sem perder a identidade, preserve o ritmo ou o desenho intervalar e mude o resto.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "intervalos",
+    "ritmo",
+    "Schoenberg",
+    "Riemann"
+   ],
+   "id_global": "en--motif_-music-c66703#I09"
+  }
+ ],
+ "artistas_citados": [
+  "Beethoven",
+  "Domenico Scarlatti",
+  "Haydn",
+  "Mozart",
+  "Miriam Gideon",
+  "Donald Erb",
+  "Arnold Schoenberg",
+  "Anton Webern",
+  "Hugo Riemann",
+  "Roger Scruton"
+ ],
+ "musicas_citadas": [
+  "Sinfonia nº 5 (Beethoven)",
+  "Night is my Sister (Miriam Gideon)",
+  "Fantasy on a Javanese Motif (Miriam Gideon)"
+ ],
+ "recursos_citados": [
+  "Musical Motives: A Theory and Method for Analyzing Shape in Music (Brent Auerbach, 2021)",
+  "The Analysis of Music (John David White, 1976)",
+  "The Aesthetics of Music (Roger Scruton, 1997)"
+ ],
+ "observacoes": "Documento enciclopédico e teórico, sem relação direta com guitarra. As ideias aplicadas a solos são extrapolações da teoria e não estão no texto. O campo AUTOR/CANAL traz um rótulo de controle de autoridade da página, que não é autor real. Não há timestamps. O texto original tem seções vazias (See also) e uma citação [9] sem texto correspondente.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:49",
+  "tentativas": 1,
+  "custo_usd": 0.2435
+ }
+}

@@ -1,0 +1,507 @@
+{
+ "fonte_id": "gubqumrozXc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Aprenda a Improvisar sobre Pentatônicas, e Modos Gregos com Gustavo Guerra.",
+  "autor": "Bruno Oliveira",
+  "url": "https://www.youtube.com/watch?v=gubqumrozXc",
+  "idioma": "pt",
+  "duracao": "14m 53s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/gubqumrozXc--aprenda-a-improvisar-sobre-pentatônicas-e-modos-gregos-com-gustavo-gue.md"
+ },
+ "resumo": "Aula curta do colaborador Gustavo Guerra para a revista Cover Guitarra, voltada a guitarristas iniciantes e intermediários que querem improvisar sem decorar muitas escalas. Ensina a pentatônica menor com sétima dividida em três partes (cordas 6-5, 4-3 e 2-1), a oitavação dessas partes e o encaixe dos modos jônio e mixolídio sobre ela. Termina com um arpejo de tríade menor e os arpejos menores tirados do sexto grau desses modos. A proposta é fluência no braço em qualquer tonalidade, usando poucos elementos bem trabalhados.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conteúdo concreto e aplicável, com casas, cordas e relações entre escalas explicadas. Porém a legenda automática tem muitos erros em nomes de notas e tonalidades, algumas passagens são vagas ('oitavar') e vários exercícios dependem de ver o diagrama ou a tablatura da revista."
+ },
+ "assuntos_principais": [
+  "pentatônica menor com sétima",
+  "divisão da pentatônica em três partes",
+  "oitavação de padrões",
+  "modo jônio saindo da terça menor",
+  "modo mixolídio saindo da sétima menor",
+  "arpejos de tríade menor",
+  "arpejos do sexto grau dos modos",
+  "tonalidades relativas",
+  "fluência na improvisação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Apresentação e contexto da matéria",
+   "inicio": "00:01",
+   "fim": "01:09",
+   "resumo": "Saudação e apresentação do colaborador da revista Cover Guitarra. O professor explica o objetivo: uma abordagem simples, sem excesso de escalas para decorar.",
+   "assuntos": [
+    "apresentação do canal",
+    "revista Cover Guitarra"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Motivação: fluência em vez de muita informação",
+   "inicio": "01:09",
+   "fim": "02:18",
+   "resumo": "O problema é o aluno saber muitas escalas e não conseguir usá-las na improvisação. A proposta é dominar poucos elementos (pentatônica menor com sétima, jônio, mixolídio e um arpejo) e ganhar fluência em qualquer tonalidade. Também aponta o medo de tonalidades diferentes de Mi menor.",
+   "assuntos": [
+    "fluência",
+    "excesso de escalas",
+    "tonalidades menores",
+    "tonalidades relativas",
+    "medo de tonalidades novas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica como ponto de partida para tonalidades menores",
+   "inicio": "02:18",
+   "fim": "03:28",
+   "resumo": "Ao ouvir uma música em tonalidade menor, o primeiro pensamento deve ser a pentatônica menor com sétima. Exemplo com playback em Ré menor, com shape começando na casa 10. Dica de localizar a tônica nas cordas 6 e 5.",
+   "assuntos": [
+    "pentatônica menor",
+    "tonalidade menor",
+    "localização da tônica no braço",
+    "playback em Ré menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Divisão da pentatônica em três partes e oitavação",
+   "inicio": "03:28",
+   "fim": "05:16",
+   "resumo": "O shape é dividido em três grupos de cordas (6-5, 4-3, 2-1). Para estender o alcance, cada parte é oitavada. O primeiro grupo é mostrado da casa 10 até a 15 e depois se chega à casa 18.",
+   "assuntos": [
+    "divisão em três partes",
+    "cordas 6 e 5",
+    "oitavação",
+    "extensão no braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Parte central e final da pentatônica",
+   "inicio": "05:16",
+   "fim": "07:30",
+   "resumo": "O grupo central (cordas 4 e 3, casas 10-12-10-12) é oitavado acima e abaixo. Dica de aplicar bend em qualquer nota apertada do meio da pentatônica. O mesmo procedimento vale para as cordas 2 e 1.",
+   "assuntos": [
+    "cordas 4 e 3",
+    "oitavação acima e abaixo",
+    "bend",
+    "cordas 2 e 1"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Relação dos modos jônio e mixolídio com a pentatônica",
+   "inicio": "07:30",
+   "fim": "09:12",
+   "resumo": "O jônio sai da terça menor da pentatônica e o mixolídio sai da sétima menor. O mixolídio fica um tom abaixo da tônica. Na prática: Ré menor com jônio de Fá e mixolídio de Dó.",
+   "assuntos": [
+    "modo jônio",
+    "modo mixolídio",
+    "terça menor",
+    "sétima menor",
+    "relação com pentatônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Oitavação do jônio e do mixolídio",
+   "inicio": "09:12",
+   "fim": "11:17",
+   "resumo": "O mesmo método de dividir em três partes e oitavar é aplicado ao jônio (início, meio e final, com casas 15, 17 e 18) e depois ao mixolídio.",
+   "assuntos": [
+    "oitavação do jônio",
+    "oitavação do mixolídio",
+    "três partes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Arpejo de tríade menor",
+   "inicio": "11:17",
+   "fim": "12:56",
+   "resumo": "Apresenta um arpejo de tríade menor (tônica, terça e quinta) em Ré menor. Recomenda tocar devagar e aumentar a velocidade aos poucos. Esse arpejo pode começar em qualquer nota e funciona como referência de fluência.",
+   "assuntos": [
+    "arpejo de tríade menor",
+    "tônica, terça e quinta",
+    "velocidade gradual",
+    "musicalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Arpejos menores tirados dos modos",
+   "inicio": "12:56",
+   "fim": "14:23",
+   "resumo": "Explica como localizar o sexto grau do jônio e do mixolídio, contando 1 a 6 a partir da pentatônica. Dos dois sai um arpejo menor: no jônio de Fá, o arpejo de Ré menor (relativa de Fá); no mixolídio, o arpejo de Lá menor.",
+   "assuntos": [
+    "sexto grau",
+    "arpejo menor",
+    "relativa",
+    "contagem de graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Despedida",
+   "inicio": "14:23",
+   "fim": "14:53",
+   "resumo": "Agradecimentos ao público, ao YouTube e à revista Cover Guitarra, com convite para as próximas colunas.",
+   "assuntos": [
+    "agradecimentos",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Fluência vale mais que volume de escalas",
+   "descricao": "O mais importante na improvisação é a fluência, e não saber muitas escalas. Vale mais dominar poucos elementos no braço todo do que decorar muitos padrões sem conseguir tocá-los.",
+   "passos": [],
+   "timestamp": "01:09",
+   "nivel": "iniciante",
+   "tags": [
+    "fluência",
+    "estudo",
+    "objetivo"
+   ],
+   "id_global": "gubqumrozXc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Medo de tonalidades diferentes de Mi menor",
+   "descricao": "Muitos guitarristas se sentem confortáveis só em Mi menor e ficam perdidos em tonalidades como Dó sustenido menor ou Fá sustenido menor, sobretudo quando começam a improvisar.",
+   "passos": [],
+   "timestamp": "01:44",
+   "nivel": "iniciante",
+   "tags": [
+    "tonalidades",
+    "mi menor",
+    "confiança"
+   ],
+   "id_global": "gubqumrozXc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pentatônica menor com sétima como primeira escolha em tonalidade menor",
+   "descricao": "Ao ouvir que uma música está em tonalidade menor, pense primeiro na pentatônica menor com sétima da tônica. O exemplo é Ré menor, com o shape começando na casa 10 da corda 6.",
+   "passos": [],
+   "timestamp": "02:18",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "tonalidade menor",
+    "ré menor"
+   ],
+   "id_global": "gubqumrozXc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Conhecer a tônica nas cordas 6 e 5",
+   "descricao": "Para encontrar a pentatônica de qualquer tônica menor rapidamente, é preciso saber de cor as notas da corda 6 e da corda 5. O exemplo dado é Si bemol menor (cemol menor, corrigido pelo contexto), com a tônica na casa 6 da corda 6.",
+   "passos": [],
+   "timestamp": "02:54",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "notas nas cordas",
+    "tônica",
+    "si bemol menor"
+   ],
+   "id_global": "gubqumrozXc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentatônica dividida em três grupos de cordas",
+   "descricao": "A pentatônica menor com sétima pode ser estudada em três blocos: cordas 6 e 5, cordas 4 e 3, e cordas 2 e 1. Essa divisão facilita memorizar e estender o shape pelo braço.",
+   "passos": [],
+   "timestamp": "04:03",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "divisão",
+    "cordas",
+    "shape"
+   ],
+   "id_global": "gubqumrozXc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Oitavar o grupo das cordas 6 e 5",
+   "descricao": "Estender o grupo das cordas 6 e 5 até as casas 15 e 18, usando as notas oitavadas do mesmo fragmento. O primeiro bloco fica da casa 10 até a 15 e depois até a 18.",
+   "passos": [
+    "Toque o fragmento das cordas 6 e 5 a partir da casa 10.",
+    "Repita o mesmo desenho uma oitava acima, na casa 15.",
+    "Continue o padrão até a casa 18 para alcançar o limite do bloco."
+   ],
+   "timestamp": "04:38",
+   "nivel": "intermediario",
+   "tags": [
+    "oitavação",
+    "pentatônica",
+    "extensão"
+   ],
+   "id_global": "gubqumrozXc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Explorar o grupo central nas cordas 4 e 3",
+   "descricao": "O grupo central da pentatônica, nas cordas 4 e 3, usa as casas 10, 12, 10, 12. O padrão pode ser oitavado acima e abaixo para ampliar o alcance.",
+   "passos": [
+    "Toque o padrão nas cordas 4 e 3 nas casas 10, 12, 10, 12.",
+    "Repita o padrão uma oitava acima.",
+    "Repita o padrão uma oitava abaixo."
+   ],
+   "timestamp": "05:16",
+   "nivel": "intermediario",
+   "tags": [
+    "oitavação",
+    "cordas 4 e 3",
+    "pentatônica"
+   ],
+   "id_global": "gubqumrozXc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Bend em qualquer nota apertada do meio da pentatônica",
+   "descricao": "Em qualquer nota apertada no grupo central (cordas 4 e 3) é possível aplicar bend, criando expressão e uma passagem melódica.",
+   "passos": [],
+   "timestamp": "05:52",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "expressividade",
+    "pentatônica"
+   ],
+   "id_global": "gubqumrozXc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Transpor o padrão do meio para as cordas 2 e 1",
+   "descricao": "O mesmo padrão do grupo central, usado nas cordas 4 e 3, pode ser transposto para as cordas 2 e 1, que formam o final da pentatônica.",
+   "passos": [
+    "Use o padrão das cordas 4 e 3 como modelo.",
+    "Transponha o desenho para as cordas 2 e 1.",
+    "Oitave o final da pentatônica seguindo o mesmo princípio."
+   ],
+   "timestamp": "06:32",
+   "nivel": "intermediario",
+   "tags": [
+    "cordas 2 e 1",
+    "transposição",
+    "oitavação"
+   ],
+   "id_global": "gubqumrozXc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Jônio sai da terça menor e mixolídio sai da sétima menor da pentatônica",
+   "descricao": "O modo jônio começa na terça menor da pentatônica e o mixolídio começa na sétima menor. Por isso os dois modos se encaixam sobre a mesma pentatônica.",
+   "passos": [],
+   "timestamp": "07:30",
+   "nivel": "intermediario",
+   "tags": [
+    "jônio",
+    "mixolídio",
+    "terça menor",
+    "sétima menor"
+   ],
+   "id_global": "gubqumrozXc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Mixolídio fica um tom abaixo da tônica da pentatônica",
+   "descricao": "Em Ré menor, o modo mixolídio correspondente é o de Dó (um tom abaixo da tônica), que contém Dó, Ré, Mi, Fá, Sol, Lá e Si bemol.",
+   "passos": [],
+   "timestamp": "08:04",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "ré menor",
+    "relação de tom"
+   ],
+   "id_global": "gubqumrozXc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Oitavar o jônio em início, meio e final",
+   "descricao": "Aplicar ao modo jônio o mesmo método da pentatônica: início, meio (cordas 4 e 3) e final (cordas 2 e 1). As casas citadas são 15, 17 e 18.",
+   "passos": [
+    "Toque o início do jônio oitavado nas casas 15, 17 e 18.",
+    "Passe para o meio do jônio, cordas 4 e 3.",
+    "Finalize com o trecho das cordas 2 e 1, usando as mesmas casas oitavadas."
+   ],
+   "timestamp": "09:46",
+   "nivel": "intermediario",
+   "tags": [
+    "jônio",
+    "oitavação",
+    "três partes"
+   ],
+   "id_global": "gubqumrozXc#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Aplicar o mesmo princípio ao mixolídio",
+   "descricao": "O procedimento de dividir em três partes e oitavar usado no jônio também se aplica ao mixolídio, com o início, o meio e o final do modo.",
+   "passos": [
+    "Divida o mixolídio em início, meio e final.",
+    "Oitave cada parte como feito no jônio.",
+    "Toque com o playback para ouvir o encaixe."
+   ],
+   "timestamp": "10:41",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "oitavação",
+    "três partes"
+   ],
+   "id_global": "gubqumrozXc#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Arpejo de tríade menor em velocidade gradual",
+   "descricao": "Estudar o arpejo de tríade menor (tônica, terça e quinta; no exemplo, Ré, Fá e Lá) começando devagar e aumentando a velocidade aos poucos.",
+   "passos": [
+    "Toque o arpejo de Ré menor (Ré, Fá, Lá) em andamento lento.",
+    "Repita até tocar sem erro.",
+    "Aumente a velocidade gradualmente."
+   ],
+   "timestamp": "11:50",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "tríade menor",
+    "velocidade"
+   ],
+   "id_global": "gubqumrozXc#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Arpejo pode começar em qualquer nota",
+   "descricao": "O shape do arpejo de tríade menor é transponível: começando em outra nota, ele gera outro arpejo menor. O exemplo é Ré menor no mesmo shape.",
+   "passos": [],
+   "timestamp": "12:23",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "transposição",
+    "shape"
+   ],
+   "id_global": "gubqumrozXc#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Não ter pressa e buscar musicalidade no arpejo",
+   "descricao": "Ao estudar arpejos, não se apressar e focar na musicalidade do som, e não só na velocidade.",
+   "passos": [],
+   "timestamp": "12:23",
+   "nivel": "iniciante",
+   "tags": [
+    "musicalidade",
+    "paciência",
+    "arpejo"
+   ],
+   "id_global": "gubqumrozXc#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Sexto grau do jônio e do mixolídio gera arpejo menor",
+   "descricao": "A partir do sexto grau do modo jônio e do mixolídio sai um arpejo menor. No jônio de Fá, o sexto grau é Ré, gerando Ré menor, relativa de Fá. No mixolídio de Dó, o sexto grau é Lá, gerando Lá menor.",
+   "passos": [],
+   "timestamp": "12:56",
+   "nivel": "intermediario",
+   "tags": [
+    "sexto grau",
+    "arpejo menor",
+    "relativa",
+    "jônio",
+    "mixolídio"
+   ],
+   "id_global": "gubqumrozXc#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Contar graus 1 a 6 para achar o sexto grau",
+   "descricao": "Para encontrar o sexto grau do modo a partir de uma posição na pentatônica, conte 1, 2, 3, 4, 5, 6 e pare na sexta nota; dela sai o arpejo menor.",
+   "passos": [
+    "Escolha a nota de partida no modo.",
+    "Conte 1, 2, 3, 4, 5, 6 notas no braço.",
+    "Na sexta nota, monte o arpejo menor."
+   ],
+   "timestamp": "13:31",
+   "nivel": "intermediario",
+   "tags": [
+    "contagem de graus",
+    "sexto grau",
+    "arpejo menor"
+   ],
+   "id_global": "gubqumrozXc#I18"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Revista Cover Guitarra (shape da pentatônica em tablatura, partitura e diagrama)",
+  "Playback/backing track em Ré menor usado nos exemplos"
+ ],
+ "observacoes": "Legenda automática com muitos erros: 'cemol menor' provavelmente é Si bemol menor, 'cbol menor e f tro menor' é ininteligível, 'dosido menor' é Dó sustenido menor, 'pentatônica menor7' se refere à pentatônica menor com sétima, 'modo jor/jio/mixol' são jônio e mixolídio, 'casa número se' provavelmente é casa 6, 'peij' é provavelmente arpejo. O arpejo 'lá D mi' provavelmente é Ré, Fá, Lá (Ré menor). A frase 'ré o sol e o lá' nas cordas 6 e 5 não bate exatamente com a pentatônica de Ré menor, então pode haver erro de transcrição. Os trechos de oitavação (casas 15, 17, 18) e a divisão em cordas dependem de ver a tablatura ou o diagrama da revista, que não estão no vídeo. O vídeo é curto e a explicação é rápida, com pouco aprofundamento em fraseado.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00306,
+  "via": "api"
+ }
+}

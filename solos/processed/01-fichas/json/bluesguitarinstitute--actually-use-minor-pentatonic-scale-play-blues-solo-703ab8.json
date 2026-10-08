@@ -1,0 +1,433 @@
+{
+ "fonte_id": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "How to Actually Use Pentatonics to Play Great Blues Solos",
+  "autor": "",
+  "url": "https://www.bluesguitarinstitute.com/actually-use-minor-pentatonic-scale-play-blues-solo",
+  "site": "www.bluesguitarinstitute.com",
+  "idioma": "en",
+  "tema_coleta": "blues",
+  "arquivo_raw": "solos/raw/documentos/bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8.md"
+ },
+ "resumo": "Lição do Blues Guitar Institute que ensina a usar a pentatônica menor para tocar sobre as trocas de acordes num blues em G (G7, C7, D7), em vez de só repetir padrões de caixa. O método mapeia a pentatônica de cada acorde no braço, limita o estudo às quatro cordas agudas e na 3ª posição, e treina duas trocas por vez (I-IV e depois V-IV-I). Também sugere usar a 3ª maior do acorde e a ♭5 (blue note) para sair da pentatônica. Indicado para guitarristas que já conhecem a pentatônica menor e querem aplicá-la sobre harmonia.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo claro, com progressão lógica, restrições de prática e exercícios de loop bem definidos. Faltam tablaturas e exemplos sonoros no texto, pois os licks são mostrados apenas em vídeo, o que reduz a concretude para quem lê somente a fonte."
+ },
+ "assuntos_principais": [
+  "pentatônica menor sobre acordes de dominante",
+  "blues em G (I-IV-V)",
+  "mapeamento da escala por acorde",
+  "limitação de cordas e posição para estudo",
+  "trocas de acordes (I-IV, V-IV-I)",
+  "notas-alvo diferentes entre escalas",
+  "3ª maior como nota de acorde",
+  "♭5 (blue note) e escala de blues",
+  "rotina de prática com loops"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: o problema de soar como exercício de padrões",
+   "inicio": null,
+   "fim": null,
+   "resumo": "O texto abre apontando que decorar caixas de pentatônica não gera solos musicais e propõe aplicar a escala às trocas de acordes.",
+   "assuntos": [
+    "caixas de pentatônica",
+    "aplicação musical da escala"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Mapear a pentatônica menor para cada acorde",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que o blues usa três acordes de sétima e apresenta a fórmula da pentatônica menor (1-♭3-4-5-♭7), com G menor pentatônica = G B♭ C D F. Define duas limitações de prática: só as quatro cordas agudas e só a 3ª posição (aprox. casas 3 a 6), e uma rotina de mapeamento do fundamental ao alcance e de volta.",
+   "assuntos": [
+    "fórmula da pentatônica menor",
+    "acordes G7, C7, D7",
+    "limitações de prática",
+    "rotina de mapeamento a partir da fundamental"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Mapear as escalas de C7 e D7",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Aplica a mesma fórmula às outras duas tonalidades: C menor pentatônica = C E♭ F G B♭ e D menor pentatônica = D F G A C, usando a forma Root to Reach.",
+   "assuntos": [
+    "C menor pentatônica",
+    "D menor pentatônica",
+    "forma Root to Reach"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Improvisar combinando escala e acorde",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Introduz a ideia de tocar as trocas, não só licks sobre um acorde, e indica praticar primeiro dois acordes (G7 e C7, com loop de dois compassos cada) e depois os últimos quatro compassos do blues (V-IV-I com troca I-V).",
+   "assuntos": [
+    "tocar as trocas de acordes",
+    "loop I-IV",
+    "loop V-IV-I",
+    "troca I-V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Notas exclusivas de cada escala",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Compara as escalas: G e C menor pentatônica compartilham muitas notas, mas o D (presente na de G e ausente na de C) e o E♭ (presente na de C e ausente na de G) funcionam como notas que sinalizam a troca de acorde.",
+   "assuntos": [
+    "notas exclusivas",
+    "notas que sinalizam troca de acorde",
+    "E♭ sobre C7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Ir além da pentatônica: 3ª maior e ♭5",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Sugere incluir a 3ª maior do acorde (B sobre G7), que aparece como 'hammer' a partir da 3ª menor, e a ♭5 da escala de blues, útil em corridas cromáticas, como no lick sobre D7.",
+   "assuntos": [
+    "3ª maior",
+    "hammer-on da ♭3 para a 3",
+    "♭5 blue note",
+    "escala de blues",
+    "corrida cromática sobre D7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Resumo e encerramento",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Recapitula o método em seis passos e encerra com uma despedida.",
+   "assuntos": [
+    "resumo do método",
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Fórmula da pentatônica menor",
+   "descricao": "A pentatônica menor usa os graus 1, ♭3, 4, 5 e ♭7 de uma tonalidade. Em G, as notas são G, B♭, C, D e F.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "pentatônica menor",
+    "fórmula de escala"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Acordes de sétima do blues em G",
+   "descricao": "Um blues de 12 compassos usa três acordes de sétima de dominante: G7 (I), C7 (IV) e D7 (V). Cada um combina bem com a pentatônica menor de sua própria fundamental.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blues",
+    "acordes de sétima",
+    "campo harmônico",
+    "I-IV-V"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Limitar o estudo para aprofundar",
+   "descricao": "Restringir a prática a poucas cordas e posição ajuda a focar e gera resultados mais rápidos. Depois de dominar, expanda para outras cordas e posições.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "limitações de prática",
+    "foco",
+    "progressão de estudo"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Mapear a pentatônica do fundamental ao alcance",
+   "descricao": "Treine a escala na posição escolhida (cordas 4 a 1, aprox. 3ª posição, casas 3 a 6) indo do fundamental até a nota mais aguda possível, depois descendo pelo mesmo padrão até a nota mais grave disponível e voltando ao fundamental. Isso mapeia todas as notas da posição e mantém o fundamental como referência.",
+   "passos": [
+    "Escolha a posição (cordas 4, 3, 2 e 1; casas aprox. 3 a 6).",
+    "Toque a escala do fundamental até a nota mais aguda possível dentro da posição.",
+    "Desça pelo mesmo padrão até a nota mais grave disponível, mesmo que abaixo do fundamental.",
+    "Suba de volta até o fundamental."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "root to reach",
+    "mapeamento",
+    "posição",
+    "cordas agudas"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Aprender um acorde por vez",
+   "descricao": "Aprenda a relação entre escala e acorde uma troca de cada vez. Logo após aprender as notas da escala, improvise um ou dois licks para familiarizar-se com elas, e só então acrescente o próximo acorde.",
+   "passos": [
+    "Aprenda as notas da pentatônica do primeiro acorde.",
+    "Improvise um ou dois licks usando só essa escala.",
+    "Quando estiver confortável, acrescente o segundo acorde e depois o terceiro."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "progressão de aprendizado",
+    "licks",
+    "relação acorde-escala"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de C (para C7)",
+   "descricao": "A pentatônica menor de C tem as notas C, E♭, F, G e B♭, obtidas aplicando a fórmula 1-♭3-4-5-♭7 a C.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "C7",
+    "notas da escala"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de D (para D7)",
+   "descricao": "A pentatônica menor de D tem as notas D, F, G, A e C, obtidas aplicando a fórmula 1-♭3-4-5-♭7 a D.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "D7",
+    "notas da escala"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Loop de dois acordes G7-C7",
+   "descricao": "Toque um loop de dois compassos de G7 seguidos de dois compassos de C7, alternando a pentatônica de G com a de C conforme o acorde que está soando. Esse é o principal par de acordes para começar, pois a troca I-IV é a mais frequente no blues.",
+   "passos": [
+    "Monte um loop de dois compassos de G7 seguidos de dois de C7.",
+    "Use a pentatônica de G sobre G7 e a de C sobre C7.",
+    "Improvise licks, mudando de escala a cada troca de acorde."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "loop",
+    "I-IV",
+    "backing track",
+    "troca de acordes"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Loop dos quatro últimos compassos do blues",
+   "descricao": "Quando estiver pronto para o terceiro acorde, pratique os últimos quatro compassos do blues (V, IV, I). Ao repetir o loop, você também treina a troca I-V.",
+   "passos": [
+    "Monte um loop com os compassos 9 a 12 do blues: D7, C7, G7 e G7.",
+    "Improvise licks sobre cada acorde usando a pentatônica correspondente.",
+    "Repita o loop para treinar também a transição de I para V."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "loop",
+    "V-IV-I",
+    "turnaround",
+    "troca I-V"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Tocar as trocas, não só licks sobre um acorde",
+   "descricao": "Improvisar sobre um blues é mais do que tocar licks sobre cada acorde isolado. O solista deve tocar notas que destacam as trocas da progressão, conduzindo a música, e não apenas cumprir padrões.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "trocas de acordes",
+    "condução musical",
+    "improvisação"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Usar notas exclusivas para sinalizar a troca",
+   "descricao": "A nota D aparece na pentatônica de G e não na de C, e a nota E♭ aparece na de C e não na de G. Ao tocar essas notas sobre o acorde em que elas são exclusivas, você sinaliza a mudança de acorde (o autor usa o E♭ sobre o C7).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas exclusivas",
+    "notas-alvo",
+    "E♭",
+    "D",
+    "troca de acorde"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Incluir a 3ª maior do acorde",
+   "descricao": "Os acordes de sétima de dominante contêm a 3ª maior (G7 = G B D F), que a pentatônica menor não tem. Use a 3ª maior do acorde sobre o qual você toca: sobre G7, a nota B. Como são notas de acorde, sempre funcionam.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "3ª maior",
+    "notas de acorde",
+    "G7",
+    "dominante"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Hammer-on da ♭3 para a 3ª maior sobre G7",
+   "descricao": "Destaque a 3ª maior (B) sobre G7 aterrissando nela, com um hammer-on vindo da 3ª menor (B♭). Esse tipo de ornamento aparece com frequência no blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "hammer-on",
+    "3ª maior",
+    "B♭ para B",
+    "ornamento",
+    "G7"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Escala de blues e a ♭5",
+   "descricao": "A escala de blues (1-♭3-4-♭5-5-♭7) acrescenta a ♭5 à pentatônica menor. Essa nota, chamada blue note, funciona bem em corridas cromáticas. Em G, a ♭5 é D♭ (C#).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escala de blues",
+    "blue note",
+    "♭5",
+    "cromatismo"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Corrida cromática com ♭5 sobre D7",
+   "descricao": "O autor mostra um lick com corrida cromática sobre D7 usando a ♭5 da escala de blues. O exemplo está só no vídeo, então o texto não traz as notas exatas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "cromatismo",
+    "D7",
+    "♭5",
+    "lick"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "rotina_estudo",
+   "titulo": "Método de seis passos para solar com a harmonia",
+   "descricao": "Resumo da rotina: mapear a pentatônica para cada acorde, improvisar licks sobre cada um, usar as notas exclusivas para destacar cada acorde, incluir a 3ª maior e a ♭5, treinar as trocas com foco e aplicar tudo num solo de blues real.",
+   "passos": [
+    "Mapeie a pentatônica menor para cada acorde da progressão.",
+    "Improvise licks sobre cada acorde usando essas notas.",
+    "Use as notas exclusivas de cada escala para destacar o acorde.",
+    "Inclua a 3ª maior do acorde e a ♭5 (blue note).",
+    "Treine as trocas de acordes com foco, usando loops.",
+    "Aplique tudo em um solo de blues real."
+   ],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "método",
+    "rotina",
+    "blues",
+    "improvisação"
+   ],
+   "id_global": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I16"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Vídeo da lição (solo de exemplo no início e demonstrações de licks)",
+  "Loops de backing track mencionados no texto (não incluídos na fonte)"
+ ],
+ "observacoes": "Documento textual que depende de vídeo: os licks e exemplos sonoros (mapas de braço, lick de hammer-on, lick cromático sobre D7) aparecem como imagens ou vídeo e não estão no texto, então as ideias S6 e a tablatura não podem ser reproduzidas só com a fonte. Os loops de backing track mencionados não estão incluídos. Erros de digitação na fonte: 'Butt' (provavelmente 'But'), 'every actually' (every actually), 'as you're get comfortable' (as you get comfortable), 'follow jam' (provavelmente 'the jam'), 'It's perfect' sobre a ♭5 é descrição do autor, mantida. O texto diz 'Key of G' e 'G Blues progression' com G7-D7-C7 na ordem de apresentação, mas o lição usa o I-IV-V clássico (G-C-D). Também há o trecho 'the I, IV and V', mantido. Termos 'Root to Reach' e 'hammer' foram traduzidos apenas quando claros; 'Root to Reach' manteve-se como nome da forma.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00176,
+  "via": "api"
+ }
+}

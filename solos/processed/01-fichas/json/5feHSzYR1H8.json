@@ -1,0 +1,139 @@
+{
+ "fonte_id": "5feHSzYR1H8",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Guthrie Govan on the Pitfalls of Scale Shapes",
+  "autor": "DIME Group - Music Courses, Classes & Programs",
+  "url": "https://www.youtube.com/watch?v=5feHSzYR1H8",
+  "idioma": "en",
+  "duracao": "2m 43s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/5feHSzYR1H8--guthrie-govan-on-the-pitfalls-of-scale-shapes.md"
+ },
+ "resumo": "Guthrie Govan alerta sobre o perigo de aprender modos e shapes de escala apenas como sequências de notas. Ele relata alunos com bom fraseado bluesy na pentatônica menor que, após absorverem os modos, perdem o fraseado e passam a só \"regurgitar\" a escala. A mensagem central: toda teoria ou escala nova deve ser trabalhada até soar tão natural quanto o material que já se domina. Serve a guitarristas intermediários que estão estudando modos.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Curto e conceitual, com um princípio valioso sobre fraseado versus escalas, mas sem exercícios nem exemplos musicais concretos."
+ },
+ "assuntos_principais": [
+  "fraseado",
+  "modos",
+  "shapes de escala",
+  "pentatônica menor",
+  "musicalidade"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Armadilha dos modos e a perda de fraseado",
+   "inicio": "00:01",
+   "fim": "02:43",
+   "resumo": "Partindo de um contexto de Lá menor e da pentatônica menor, Guthrie conta que alunos que aprendem modos perdem o fraseado, pois confiam demais na escala. Defende que toda escala nova deve soar natural como o que já se domina.",
+   "assuntos": [
+    "fraseado",
+    "modos",
+    "pentatônica menor",
+    "musicalidade"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor como base natural sobre tonalidade menor",
+   "descricao": "Em um contexto de Lá menor, a opção óbvia para improvisar é o framework da pentatônica menor de Lá, que o guitarrista de origem bluesy já conhece e com a qual costuma frasear bem.",
+   "passos": [],
+   "timestamp": "01:03",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "lá menor",
+    "blues"
+   ],
+   "id_global": "5feHSzYR1H8#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Aprender modos e perder o fraseado",
+   "descricao": "Alunos com bom fraseado bluesy aprendem modos e voltam na aula seguinte com o fraseado evaporado, tocando só sequências de notas, ainda assim orgulhosos do que aprenderam. É preciso preservar o fraseado ao incorporar material novo.",
+   "passos": [],
+   "timestamp": "01:35",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "fraseado",
+    "erro comum"
+   ],
+   "id_global": "5feHSzYR1H8#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Confiar demais no modo para resolver problemas que ele não resolve",
+   "descricao": "Quem vem de um ponto de partida bluesy tende a depositar fé excessiva no modo, esperando que ele resolva problemas musicais para os quais não foi criado. O modo fornece notas, não fraseado nem musicalidade.",
+   "passos": [],
+   "timestamp": "02:10",
+   "nivel": "intermediario",
+   "tags": [
+    "modos",
+    "teoria",
+    "musicalidade"
+   ],
+   "id_global": "5feHSzYR1H8#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Não basta subir e descer a escala",
+   "descricao": "Aprender todas as notas de uma escala do grave ao agudo e vice-versa e depois apenas repeti-las não faz sentido musical. Decorar o shape não é saber improvisar com ele.",
+   "passos": [],
+   "timestamp": "02:10",
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "escalas",
+    "fraseado"
+   ],
+   "id_global": "5feHSzYR1H8#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Faça a escala nova soar tão natural quanto o que você já domina",
+   "descricao": "Sempre que aprender uma teoria ou escala nova, parte do desafio é fazê-la soar tão natural e fraseada quanto o vocabulário que você já toca bem (por exemplo, a pentatônica menor). Aplique o mesmo cuidado de fraseado ao material novo.",
+   "passos": [],
+   "timestamp": "02:10",
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "mentalidade",
+    "estudo de escalas"
+   ],
+   "id_global": "5feHSzYR1H8#I05"
+  }
+ ],
+ "artistas_citados": [
+  "Guthrie Govan"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "DIME Online (cursos)"
+ ],
+ "observacoes": "Transcrição curta e com lacunas (saltos de 00:01 a 01:03 e 01:35 a 02:10). Há erros de legenda: \"minor equality key\" provavelmente é \"minor tonality/key\" e \"blow\" provavelmente \"blues\". Sem demonstrações musicais na transcrição; o vídeo é conceitual.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:09",
+  "tentativas": 1,
+  "custo_usd": 0.1926
+ }
+}

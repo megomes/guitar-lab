@@ -1,0 +1,909 @@
+{
+ "fonte_id": "NbNH_C3QAS0",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Ultimate GUITAR SOLO Guide",
+  "autor": "Paul Davids",
+  "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0",
+  "idioma": "en",
+  "duracao": "19m 13s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/NbNH_C3QAS0--the-ultimate-guitar-solo-guide.md"
+ },
+ "resumo": "O vídeo ensina a construir solos sobre harmonia partindo de um único acorde de Ré maior. Mostra a pentatônica como ponto de partida, a nota cromática (blue note) e as escalas diatônicas (maior, lídio e mixolídio). Depois introduz a progressão Ré–Sol, o uso de notas-alvo com a visualização CAGED e as pentatônicas dos acordes diatônicos. Termina com como lidar com um acorde externo (Sol menor), alterando o mínimo de notas. É indicado para iniciantes e intermediários que querem entender a relação entre acordes e escalas.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explica conceitos com exemplos tocados e progressão lógica do mais simples ao mais complexo. Faltam tablaturas, notas exatas de vários exemplos e alguns trechos são dispersos ou repetitivos, com digressões pessoais."
+ },
+ "assuntos_principais": [
+  "acorde de Ré maior",
+  "pentatônica maior e menor",
+  "nota cromática e blue note",
+  "escala blues",
+  "escalas diatônicas",
+  "modo lídio",
+  "modo mixolídio",
+  "progressão I-IV",
+  "notas-alvo",
+  "CAGED",
+  "campo harmônico maior",
+  "pentatônicas dos acordes diatônicos",
+  "acorde externo (Sol menor)",
+  "improviso de ouvido"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: perguntas sobre solo e acordes",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Apresentação das perguntas que o vídeo vai responder sobre relação entre acordes e escalas.",
+   "assuntos": [
+    "introdução"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Acorde de Ré maior: tensão e resolução",
+   "inicio": "00:32",
+   "fim": "01:43",
+   "resumo": "Mostra que tocar só as notas do acorde não cria tensão e que é preciso adicionar notas para alternar tensão e resolução.",
+   "assuntos": [
+    "acorde de Ré maior",
+    "tensão e resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica de Ré e pentatônica menor",
+   "inicio": "01:43",
+   "fim": "02:23",
+   "resumo": "Apresenta a pentatônica como escala segura sobre qualquer acorde e sugere a pentatônica menor sobre acordes menores.",
+   "assuntos": [
+    "pentatônica",
+    "pentatônica menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Nota cromática e escala blues",
+   "inicio": "02:23",
+   "fim": "03:29",
+   "resumo": "Adiciona uma nota fora da escala entre a 2ª e a 3ª da pentatônica de Ré e aplica a ideia com a escala blues de Si menor.",
+   "assuntos": [
+    "nota cromática",
+    "blue note",
+    "escala blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Escalas diatônicas e escala maior de Ré",
+   "inicio": "03:29",
+   "fim": "05:14",
+   "resumo": "Explica que escalas diatônicas têm sete notas e apresenta a escala maior de Ré como escolha óbvia.",
+   "assuntos": [
+    "escalas diatônicas",
+    "escala maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Modos lídio e mixolídio sobre Ré",
+   "inicio": "05:14",
+   "fim": "07:20",
+   "resumo": "Mostra o lídio (4ª aumentada) e o mixolídio (7ª menor) sobre o acorde de Ré, com a escala blues maior como tempero.",
+   "assuntos": [
+    "modo lídio",
+    "modo mixolídio",
+    "escala blues maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Introdução do acorde de Sol (I-IV em Ré)",
+   "inicio": "07:20",
+   "fim": "07:54",
+   "resumo": "Adiciona o acorde de Sol, formando a progressão I-IV em Ré maior, com acordes diatônicos.",
+   "assuntos": [
+    "progressão I-IV",
+    "acorde de Sol"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Improviso de coração e ouvido",
+   "inicio": "07:54",
+   "fim": "08:44",
+   "resumo": "Defende o improviso livre como objetivo, sem pensar em teoria, e como ponto de partida válido.",
+   "assuntos": [
+    "improviso de ouvido",
+    "mentalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Notas-alvo do acorde de Sol",
+   "inicio": "08:44",
+   "fim": "09:17",
+   "resumo": "Usa as notas do acorde de Sol que não estão no acorde de Ré como notas-alvo para destacar no solo.",
+   "assuntos": [
+    "notas-alvo",
+    "acorde de Sol"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "CAGED para visualizar notas-alvo",
+   "inicio": "09:17",
+   "fim": "09:56",
+   "resumo": "Sugere o sistema CAGED para localizar as notas-alvo no braço.",
+   "assuntos": [
+    "CAGED",
+    "notas-alvo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Cuidado com excesso de notas-alvo",
+   "inicio": "09:56",
+   "fim": "10:46",
+   "resumo": "Alerta que destacar demais as notas-alvo soa óbvio e entediante.",
+   "assuntos": [
+    "notas-alvo",
+    "erro comum"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Licks com notas-alvo",
+   "inicio": "10:46",
+   "fim": "11:20",
+   "resumo": "Mostra que frases com notas-alvo demonstram consciência dos acordes.",
+   "assuntos": [
+    "licks",
+    "notas-alvo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Campo harmônico maior de Ré",
+   "inicio": "11:20",
+   "fim": "11:54",
+   "resumo": "Lista os acordes diatônicos de Ré maior e a ideia de que, com eles, a maioria das músicas pop fica coberta.",
+   "assuntos": [
+    "campo harmônico maior",
+    "acordes diatônicos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Pentatônica de cada acorde diatônico",
+   "inicio": "11:54",
+   "fim": "12:39",
+   "resumo": "Mostra que tocar a pentatônica de cada acorde diatônico mantém todas as notas dentro de Ré maior.",
+   "assuntos": [
+    "pentatônicas dos acordes",
+    "campo harmônico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Exercício com pentatônicas dos acordes",
+   "inicio": "12:39",
+   "fim": "13:13",
+   "resumo": "Apresenta a sequência Ré-Lá-Si menor-Sol-Ré com a pentatônica de cada acorde e pede curtida ao final.",
+   "assuntos": [
+    "exercício",
+    "pentatônicas dos acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Acorde externo: conceito",
+   "inicio": "13:13",
+   "fim": "13:45",
+   "resumo": "Define acordes externos (empréstimo modal, acordes de fora da tonalidade) e como as notas do solo podem colidir com eles.",
+   "assuntos": [
+    "acorde externo",
+    "empréstimo modal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S17",
+   "titulo": "Problema: acorde externo Sol menor",
+   "inicio": "13:45",
+   "fim": "14:19",
+   "resumo": "Mostra a progressão Ré-Sol-Sol menor, em que tocar a escala de Ré sem ajuste soa mal.",
+   "assuntos": [
+    "acorde externo",
+    "Sol menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S18",
+   "titulo": "Solução 1: pentatônica de Sol menor",
+   "inicio": "14:19",
+   "fim": "15:10",
+   "resumo": "Identifica que só o Si muda para Si♭ e aplica a pentatônica de Sol menor sobre o acorde externo.",
+   "assuntos": [
+    "Sol menor",
+    "pentatônica menor",
+    "troca de escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S19",
+   "titulo": "Manter padrões na mesma região",
+   "inicio": "15:10",
+   "fim": "15:42",
+   "resumo": "Recomenda manter os padrões na mesma região do braço ao trocar de escala.",
+   "assuntos": [
+    "troca de escala",
+    "padrões no braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S20",
+   "titulo": "Erro comum: focar só no acorde",
+   "inicio": "15:42",
+   "fim": "16:14",
+   "resumo": "Mostra o erro de focar no acorde e abandonar a linha musical, e recomenda fazer as linhas fluírem pelas trocas.",
+   "assuntos": [
+    "erro comum",
+    "fluidez de linhas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S21",
+   "titulo": "Solução 2: alterar só a nota que muda",
+   "inicio": "16:14",
+   "fim": "16:46",
+   "resumo": "Mantém a pentatônica de Ré e troca apenas o Si por Si♭, que é o método preferido do autor.",
+   "assuntos": [
+    "Si♭",
+    "acorde externo",
+    "mínimo de mudanças"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S22",
+   "titulo": "Escala resultante 1-2-3-5-♭6",
+   "inicio": "16:46",
+   "fim": "17:18",
+   "resumo": "Descreve a escala formada por Ré, Mi, Fá#, Lá e Si♭ e sua relação com Sol menor.",
+   "assuntos": [
+    "escala 1-2-3-5-♭6",
+    "Sol menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S23",
+   "titulo": "Método: mudar o mínimo de notas",
+   "inicio": "17:18",
+   "fim": "17:52",
+   "resumo": "Explica que mudar o menor número possível de notas mantém a sonoridade conectada ao que foi tocado antes.",
+   "assuntos": [
+    "mínimo de mudanças",
+    "conexão melódica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S24",
+   "titulo": "Pentatônica de Ré com ♭6 sobre o acorde de Ré",
+   "inicio": "17:52",
+   "fim": "18:25",
+   "resumo": "Mostra que a versão com ♭6 também soa bem sobre o acorde de Ré.",
+   "assuntos": [
+    "pentatônica com ♭6",
+    "acorde de Ré"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S25",
+   "titulo": "Ouvido, coração e novas ideias",
+   "inicio": "18:25",
+   "fim": "18:57",
+   "resumo": "Reforça que a teoria deve ser combinada com o ouvido e que novas ideias virão com a prática.",
+   "assuntos": [
+    "mentalidade",
+    "ouvido"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S26",
+   "titulo": "Despedida",
+   "inicio": "18:57",
+   "fim": "19:13",
+   "resumo": "Agradecimento e despedida do autor.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Acorde de Ré maior tem três notas",
+   "descricao": "O acorde de Ré maior é formado por Ré, Fá# e Lá. Tocar só essas notas não cria tensão e soa sem interesse.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "acorde maior",
+    "tensão"
+   ],
+   "id_global": "NbNH_C3QAS0#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Alternar tensão e resolução",
+   "descricao": "Para um solo ter história, adicione notas que criam uma leve tensão às notas do acorde e alterne entre tensão e resolução.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "tensão e resolução",
+    "frase"
+   ],
+   "id_global": "NbNH_C3QAS0#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pentatônica como escala segura",
+   "descricao": "A pentatônica tem poucas notas de tensão e muitas de resolução, por isso é a escolha mais fácil para improvisar sobre qualquer acorde. Sobre Ré maior, use a pentatônica de Ré (Ré, Mi, Fá#, Lá, Si).",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "escala segura"
+   ],
+   "id_global": "NbNH_C3QAS0#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Pentatônica menor sobre acorde menor",
+   "descricao": "Sobre um acorde menor, use a pentatônica menor correspondente. Por exemplo, sobre Lá menor use Lá, Dó, Ré, Mi, Sol.",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "acorde menor"
+   ],
+   "id_global": "NbNH_C3QAS0#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Nota cromática é uma nota fora da escala",
+   "descricao": "Nota cromática é uma nota que não pertence à escala que você está tocando, usada como tempero para criar tensão. Ela não é um erro quando usada de propósito.",
+   "passos": [],
+   "timestamp": "02:23",
+   "nivel": "iniciante",
+   "tags": [
+    "nota cromática",
+    "tensão"
+   ],
+   "id_global": "NbNH_C3QAS0#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Blue note entre a 2ª e a 3ª da pentatônica de Ré",
+   "descricao": "Adicione a nota Fá entre o Mi e o Fá# da pentatônica de Ré. Fá é a ♭3 de Ré (3 semitons acima de Ré), e o resultado é a escala blues de Ré.",
+   "passos": [],
+   "timestamp": "02:23",
+   "nivel": "iniciante",
+   "tags": [
+    "blue note",
+    "escala blues",
+    "pentatônica"
+   ],
+   "id_global": "NbNH_C3QAS0#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Blue note em acorde menor de Si",
+   "descricao": "Sobre Si menor, use a escala blues de Si: a blue note fica entre a 4ª (Mi) e a 5ª (Fá#) da pentatônica, ou seja, é a nota Fá, a ♭5 de Si.",
+   "passos": [],
+   "timestamp": "02:55",
+   "nivel": "intermediario",
+   "tags": [
+    "escala blues",
+    "blue note",
+    "Si menor"
+   ],
+   "id_global": "NbNH_C3QAS0#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Escalas diatônicas têm sete notas",
+   "descricao": "Escalas diatônicas têm sete notas diferentes, como as escalas maior, dórica, mixolídia e lídia. Com elas, há mais notas de tensão para explorar do que na pentatônica.",
+   "passos": [],
+   "timestamp": "04:02",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas diatônicas",
+    "sete notas"
+   ],
+   "id_global": "NbNH_C3QAS0#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Escala maior de Ré",
+   "descricao": "A escala de Ré maior tem as notas Ré, Mi, Fá#, Sol, Lá, Si, Dó#. É a escolha mais óbvia sobre o acorde de Ré maior depois da pentatônica.",
+   "passos": [],
+   "timestamp": "04:35",
+   "nivel": "iniciante",
+   "tags": [
+    "escala maior",
+    "Ré maior"
+   ],
+   "id_global": "NbNH_C3QAS0#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Modo lídio: quarta aumentada",
+   "descricao": "O lídio de Ré é igual à escala maior, mas com a 4ª elevada um semitom: Ré, Mi, Fá#, Sol#, Lá, Si, Dó#. Essa nota é a #4 e dá um som aberto e brilhante sobre o acorde de Ré.",
+   "passos": [],
+   "timestamp": "05:14",
+   "nivel": "intermediario",
+   "tags": [
+    "lídio",
+    "#4",
+    "modos"
+   ],
+   "id_global": "NbNH_C3QAS0#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Pensar nas notas relativas à tônica",
+   "descricao": "Você pode tocar a escala de Lá maior ou de Fá# menor sobre o acorde de Ré, desde que pense nas notas sempre em relação a Ré, que é a tônica.",
+   "passos": [],
+   "timestamp": "06:33",
+   "nivel": "intermediario",
+   "tags": [
+    "relativo",
+    "tônica",
+    "escolha de escala"
+   ],
+   "id_global": "NbNH_C3QAS0#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Modo mixolídio: sétima menor",
+   "descricao": "O mixolídio de Ré é a escala maior com a 7ª abaixada um semitom: Ré, Mi, Fá#, Sol, Lá, Si, Dó. Esse Dó é a ♭7 e dá um som mais bluesy.",
+   "passos": [],
+   "timestamp": "06:33",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "♭7",
+    "blues"
+   ],
+   "id_global": "NbNH_C3QAS0#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Temperar o mixolídio com a escala blues maior",
+   "descricao": "Sobre o mixolídio de Ré, a escala blues maior adiciona um tempero que funciona bem.",
+   "passos": [],
+   "timestamp": "07:20",
+   "nivel": "intermediario",
+   "tags": [
+    "blues maior",
+    "mixolídio",
+    "tempero"
+   ],
+   "id_global": "NbNH_C3QAS0#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Progressão I-IV em Ré",
+   "descricao": "O acorde de Sol é o IV de Ré maior. A progressão Ré-Sol é I-IV e todos os seus acordes são diatônicos da tonalidade de Ré maior.",
+   "passos": [],
+   "timestamp": "07:20",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão I-IV",
+    "acorde de Sol",
+    "diatônico"
+   ],
+   "id_global": "NbNH_C3QAS0#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Tocar de coração e ouvido como objetivo",
+   "descricao": "Tocar de ouvido, sem pensar em escalas, é um objetivo válido e não algo inferior. Para chegar lá, é preciso primeiro entender a teoria por trás do que se toca.",
+   "passos": [],
+   "timestamp": "07:54",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "mentalidade",
+    "improviso"
+   ],
+   "id_global": "NbNH_C3QAS0#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Notas-alvo do acorde de Sol",
+   "descricao": "O acorde de Sol maior tem Sol, Si e Ré. Como o acorde de Ré tem Ré, Fá# e Lá, as notas-alvo que aparecem só no Sol são Si e Sol.",
+   "passos": [],
+   "timestamp": "08:44",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "acorde de Sol"
+   ],
+   "id_global": "NbNH_C3QAS0#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Destacar notas-alvo sobre o acorde de Sol",
+   "descricao": "Quando o acorde de Sol estiver tocando, destaque as notas Si e Sol no solo para mostrar que você percebe a troca de acorde.",
+   "passos": [],
+   "timestamp": "08:44",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "acorde de Sol",
+    "harmonia"
+   ],
+   "id_global": "NbNH_C3QAS0#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "recurso",
+   "titulo": "Sistema CAGED para visualizar notas-alvo",
+   "descricao": "Use o sistema CAGED para localizar as notas-alvo no braço. O autor diz que ele funciona bem na prática.",
+   "passos": [],
+   "timestamp": "09:17",
+   "nivel": "intermediario",
+   "tags": [
+    "CAGED",
+    "braço",
+    "visualização"
+   ],
+   "id_global": "NbNH_C3QAS0#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Exagerar nas notas-alvo",
+   "descricao": "Usar as notas-alvo o tempo todo torna o solo óbvio e entediante. Use-as com moderação.",
+   "passos": [],
+   "timestamp": "09:56",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "erro comum",
+    "moderação"
+   ],
+   "id_global": "NbNH_C3QAS0#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Notas-alvo dentro de licks",
+   "descricao": "Use as notas-alvo em licks sobre a progressão. Isso mostra que você conhece os acordes por baixo do solo.",
+   "passos": [],
+   "timestamp": "10:46",
+   "nivel": "intermediario",
+   "tags": [
+    "licks",
+    "notas-alvo",
+    "conexão harmônica"
+   ],
+   "id_global": "NbNH_C3QAS0#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Acordes diatônicos de Ré maior",
+   "descricao": "Os acordes do campo harmônico maior de Ré são Ré maior, Mi menor, Fá# menor, Sol maior, Lá maior, Si menor e Dó# meio-diminuto (Dó#m7♭5). Muitas músicas pop usam só esses acordes.",
+   "passos": [],
+   "timestamp": "11:20",
+   "nivel": "intermediario",
+   "tags": [
+    "campo harmônico maior",
+    "diatônicos",
+    "Ré maior"
+   ],
+   "id_global": "NbNH_C3QAS0#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S14",
+   "tipo": "dica",
+   "titulo": "Pentatônica de cada acorde diatônico",
+   "descricao": "Sobre cada acorde diatônico, toque a pentatônica do próprio acorde. Todas as notas continuam pertencendo à escala de Ré maior, pois são sete notas únicas no total.",
+   "passos": [],
+   "timestamp": "11:54",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "acordes diatônicos",
+    "campo harmônico"
+   ],
+   "id_global": "NbNH_C3QAS0#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S15",
+   "tipo": "exercicio",
+   "titulo": "Progressão Ré-Lá-Si menor-Sol com pentatônicas",
+   "descricao": "Toque a progressão Ré maior, Lá maior, Si menor, Sol maior e volte para Ré, trocando a pentatônica a cada acorde para treinar a troca de escalas.",
+   "passos": [
+    "Toque a progressão Ré maior, Lá maior, Si menor, Sol maior e volte para Ré.",
+    "Sobre cada acorde, toque a pentatônica correspondente: Ré, Lá, Si menor e Sol.",
+    "Mantenha a linha fluindo entre as trocas, sem recomeçar do zero a cada acorde."
+   ],
+   "timestamp": "12:39",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício",
+    "pentatônica",
+    "troca de acorde"
+   ],
+   "id_global": "NbNH_C3QAS0#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S16",
+   "tipo": "conceito",
+   "titulo": "Acorde externo ou empréstimo modal",
+   "descricao": "Um acorde externo não pertence à tonalidade (por exemplo, um acorde emprestado de outro modo). Quando ele aparece, uma ou mais notas da escala que você toca podem soar em conflito com ele.",
+   "passos": [],
+   "timestamp": "13:13",
+   "nivel": "avancado",
+   "tags": [
+    "acorde externo",
+    "empréstimo modal",
+    "conflito"
+   ],
+   "id_global": "NbNH_C3QAS0#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S17",
+   "tipo": "erro_comum",
+   "titulo": "Ignorar o acorde externo",
+   "descricao": "Sobre a progressão Ré-Sol-Sol menor, tocar a escala de Ré sem ajuste faz soar mal, porque o acorde de Sol menor não pertence a Ré maior.",
+   "passos": [],
+   "timestamp": "13:45",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "Sol menor",
+    "acorde externo"
+   ],
+   "id_global": "NbNH_C3QAS0#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S18",
+   "tipo": "conceito",
+   "titulo": "Sol menor muda só o Si",
+   "descricao": "Comparado ao Ré maior, o acorde de Sol menor (Sol, Si♭, Ré) muda apenas a nota Si, que vira Si♭.",
+   "passos": [],
+   "timestamp": "14:19",
+   "nivel": "intermediario",
+   "tags": [
+    "Sol menor",
+    "Si♭",
+    "acorde externo"
+   ],
+   "id_global": "NbNH_C3QAS0#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S18",
+   "tipo": "dica",
+   "titulo": "Pentatônica de Sol menor sobre o acorde externo",
+   "descricao": "Sobre o acorde de Sol menor, use a pentatônica de Sol menor (Sol, Si♭, Dó, Ré, Fá). É a opção mais fácil, embora o autor diga não ser a sua favorita.",
+   "passos": [],
+   "timestamp": "14:19",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "Sol menor",
+    "troca de escala"
+   ],
+   "id_global": "NbNH_C3QAS0#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S19",
+   "tipo": "dica",
+   "titulo": "Manter os padrões na mesma região do braço",
+   "descricao": "Ao trocar de escala, procure os padrões na mesma região do braço em que você estava tocando. Assim você estende a linha que já tocava, em vez de recomeçar.",
+   "passos": [],
+   "timestamp": "15:10",
+   "nivel": "intermediario",
+   "tags": [
+    "padrões",
+    "braço",
+    "linhas"
+   ],
+   "id_global": "NbNH_C3QAS0#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S20",
+   "tipo": "erro_comum",
+   "titulo": "Focar só no acorde e abandonar a linha",
+   "descricao": "Focar tanto no acorde externo que a linha musical se perde. Faça a melodia fluir pelas trocas de acorde.",
+   "passos": [],
+   "timestamp": "15:42",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "fluidez melódica"
+   ],
+   "id_global": "NbNH_C3QAS0#I29"
+  },
+  {
+   "id": "I30",
+   "segmento": "S21",
+   "tipo": "dica",
+   "titulo": "Alterar só a nota que muda",
+   "descricao": "Em vez de trocar de escala, mantenha a pentatônica de Ré e troque apenas o Si por Si♭. Assim a sonoridade fica conectada à linha que você já tocava.",
+   "passos": [],
+   "timestamp": "16:14",
+   "nivel": "avancado",
+   "tags": [
+    "Si♭",
+    "mínimo de mudanças",
+    "acorde externo"
+   ],
+   "id_global": "NbNH_C3QAS0#I30"
+  },
+  {
+   "id": "I31",
+   "segmento": "S22",
+   "tipo": "conceito",
+   "titulo": "Escala 1-2-3-5-♭6 resultante",
+   "descricao": "Ao trocar o Si por Si♭ na pentatônica de Ré, a escala formada é Ré, Mi, Fá#, Lá, Si♭ (1-2-3-5-♭6). O autor não a chama de nenhuma escala conhecida e a descreve como um tipo de harmônica maior sem a 7ª.",
+   "passos": [],
+   "timestamp": "16:46",
+   "nivel": "avancado",
+   "tags": [
+    "1-2-3-5-♭6",
+    "escala resultante"
+   ],
+   "id_global": "NbNH_C3QAS0#I31"
+  },
+  {
+   "id": "I32",
+   "segmento": "S23",
+   "tipo": "mentalidade",
+   "titulo": "Mudar o mínimo de notas possível",
+   "descricao": "O método preferido do autor é mudar o menor número de notas possível, para que o som continue ligado ao que foi tocado antes.",
+   "passos": [],
+   "timestamp": "17:18",
+   "nivel": "avancado",
+   "tags": [
+    "mínimo de mudanças",
+    "conexão melódica",
+    "método"
+   ],
+   "id_global": "NbNH_C3QAS0#I32"
+  },
+  {
+   "id": "I33",
+   "segmento": "S24",
+   "tipo": "dica",
+   "titulo": "Pentatônica de Ré com ♭6 também sobre Ré",
+   "descricao": "A pentatônica de Ré com Si♭ (1-2-3-5-♭6) soa bem até sobre o próprio acorde de Ré maior, sem que seja necessário pensar em Sol menor.",
+   "passos": [],
+   "timestamp": "17:52",
+   "nivel": "avancado",
+   "tags": [
+    "♭6",
+    "pentatônica",
+    "sonoridade"
+   ],
+   "id_global": "NbNH_C3QAS0#I33"
+  },
+  {
+   "id": "I34",
+   "segmento": "S25",
+   "tipo": "mentalidade",
+   "titulo": "Combinar teoria com ouvido",
+   "descricao": "Use a teoria como apoio e deixe o ouvido e o coração guiarem. Depois de aprender um conceito, novas ideias surgem naturalmente com a prática.",
+   "passos": [],
+   "timestamp": "18:25",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "teoria",
+    "prática"
+   ],
+   "id_global": "NbNH_C3QAS0#I34"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing tracks no Patreon do autor (patreon.com/pauldavids)",
+  "Curso Beginner do autor (learnpracticeplay.com)",
+  "Curso Intermediate do autor (nextlevelplaying.com)",
+  "Vídeo do próprio canal sobre a escala blue (citado no vídeo)",
+  "Vídeo anterior do canal sobre jazz (citado no vídeo)"
+ ],
+ "observacoes": "Legendas automáticas com erros corrigidos pelo contexto: 'beckham' não aparece, mas 'gauged system' = CAGED, 'wigging' = improvisar, 'the cores' = acordes, 'the skill' = escala, 'f minor' em um trecho = F#m e 'c diminished' = C#m7♭5 (campo harmônico de Ré). O vídeo é em inglês e os exemplos são só auditivos, sem tablatura; as notas são deduzidas pela teoria a partir do que o autor descreve. Há trechos de promoção (Patreon, cursos, Amazon, inscrição) e digressões pessoais. O nome do amigo citado na transcrição é ilegível e foi omitido.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:55:01",
+  "tentativas": 2,
+  "custo_usd": 0.0055,
+  "via": "api"
+ }
+}

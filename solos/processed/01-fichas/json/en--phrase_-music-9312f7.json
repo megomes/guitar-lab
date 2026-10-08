@@ -1,0 +1,264 @@
+{
+ "fonte_id": "en--phrase_-music-9312f7",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Phrase (music) - Wikipedia",
+  "autor": "Authority control databases GND",
+  "url": "https://en.wikipedia.org/wiki/Phrase_(music)",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--phrase_-music-9312f7.md"
+ },
+ "resumo": "O documento é um verbete da Wikipédia em inglês sobre o conceito de frase musical na teoria da música. Explica que a frase é uma unidade de compasso com sentido musical completo, terminada por uma cadência, formada pela interação de melodia, harmonia e ritmo. Reúne definições de autores como John D. White, Edward Cone e Charles Burkhart, além de noções de duração, frase-grupo, ritmo de frase e segmento de frase. Serve mais como base conceitual para quem estuda teoria musical do que como material prático de solo ou improvisação.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Conteúdo teórico e correto, mas abstrato e pouco aplicável diretamente ao solo e à improvisação na guitarra; não traz exercícios, exemplos com braço ou digitações."
+ },
+ "assuntos_principais": [
+  "frase musical",
+  "cadência",
+  "motivo e célula",
+  "período e frase-grupo",
+  "ritmo de frase",
+  "segmento de frase",
+  "estrutura melódica"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de frase musical",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define frase como unidade de compasso com sentido musical completo, terminada por cadência, criada pela interação de melodia, harmonia e ritmo, com citações de White, Cone e Burkhart.",
+   "assuntos": [
+    "frase musical",
+    "cadência",
+    "sentido musical completo",
+    "definições de White, Cone e Burkhart"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Duração e forma da frase",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica que na prática comum frases costumam ter quatro compassos, que a extensão é relativa e que o termo frase foi cunhado por Hugo Riemann; também trata de frase-grupo.",
+   "assuntos": [
+    "duração de frase",
+    "frases de quatro compassos",
+    "antecedente e consequente",
+    "frase-grupo",
+    "Hugo Riemann"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Ritmo de frase e subdivisões",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o conceito de ritmo de frase, popularizado por William Rothstein, com técnicas como overlap, lead-in, extensão, expansão, reinterpretação e elisão, além de membro e segmento de frase.",
+   "assuntos": [
+    "ritmo de frase",
+    "overlap",
+    "lead-in",
+    "elisão",
+    "membro de frase",
+    "segmento de frase"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Referências e leituras complementares",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de notas bibliográficas, fontes e leituras sugeridas sobre análise musical e teoria, sem conteúdo prático novo.",
+   "assuntos": [
+    "bibliografia",
+    "leitura complementar"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Frase como unidade com sentido completo",
+   "descricao": "Uma frase musical é uma unidade de compasso que tem sentido musical completo próprio e termina em uma cadência, criada pela interação entre melodia, harmonia e ritmo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "frase",
+    "cadência",
+    "teoria"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Cadência como ponto final da frase",
+   "descricao": "A cadência é a pontuação musical que encerra a frase, podendo ser de repouso completo ou parcial; para improvisar, pensar em onde a frase 'pousa' ajuda a planejar o final do fraseado.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "cadência",
+    "repouso",
+    "fraseado"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Frase como pensamento musical e não só notas",
+   "descricao": "Segundo Charles Burkhart, a frase tem dimensão rítmica e completude sentida nas alturas, não na notação; o ligado (slur) ou o legato não criam a frase, que é definida pelas funções tonais.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "funções tonais",
+    "legato"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Frase típica de quatro compassos",
+   "descricao": "Na prática comum, as frases costumam ter cerca de quatro compassos, terminando em uma cadência mais ou menos definida; útil como referência para dividir um solo em blocos de quatro compassos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "compasso",
+    "estrutura",
+    "quatro compassos"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Antecedente e consequente",
+   "descricao": "Uma frase pode ser antecedente (termina em cadência mais fraca) ou consequente (termina em cadência mais forte), formando as duas metades de um período; isso orienta perguntas e respostas em um solo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "antecedente",
+    "consequente",
+    "pergunta e resposta",
+    "período"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Frase-grupo",
+   "descricao": "Frase-grupo é um conjunto de três ou mais frases ligadas sem a sensação de dois blocos de período, ou um par de frases em que a primeira repete a segunda ou não há relação antecedente-consequente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "frase-grupo",
+    "período",
+    "forma"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Ritmo de frase",
+   "descricao": "Ritmo de frase é o aspecto rítmico da construção de frases e das relações entre elas; estudá-lo é considerado a chave para entender uma obra e tocá-la com expressão.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ritmo de frase",
+    "fraseado",
+    "expressão"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Técnicas de articulação entre frases",
+   "descricao": "Ritmo de frase usa técnicas como overlap (sobreposição), lead-in (entrada antecipada), extensão, expansão, reinterpretação e elisão (uma nota serve de fim de uma frase e início da seguinte).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "overlap",
+    "lead-in",
+    "elisão",
+    "extensão",
+    "expansão"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Membro e segmento de frase",
+   "descricao": "Membro de frase é uma das partes separadas por pausa ou nota longa, a segunda podendo repetir, sequenciar ou contrastar com a primeira; segmento de frase é uma parte que não termina em cadência ou é curta demais para ser independente.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "membro de frase",
+    "segmento de frase",
+    "sequência",
+    "contraste"
+   ],
+   "id_global": "en--phrase_-music-9312f7#I09"
+  }
+ ],
+ "artistas_citados": [
+  "Hugo Riemann",
+  "William Rothstein",
+  "John D. White",
+  "Edward Cone",
+  "Charles Burkhart",
+  "Chopin"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Rothstein, Phrase Rhythm in Tonal Music",
+  "Benward & Saker, Music: In Theory and Practice",
+  "Kostka & Payne, Tonal Harmony",
+  "White, The Analysis of Music",
+  "Nattiez, Music and Discourse",
+  "Stein, Engaging Music",
+  "How to Understand Music (Mathews, 1881)",
+  "What We Hear in Music (Faulkner, c. 1921)"
+ ],
+ "observacoes": "Fonte é um verbete enciclopédico da Wikipédia, não uma aula. Não há exemplos com notas, acordes, escalas ou braço da guitarra, portanto as ideias são conceituais. Contém marcações de edição e citações pendentes ('full citation needed', 'page needed') e erro de digitação no título da referência 18 ('Phase Rhythm'). Como não é transcrição de vídeo, inicio, fim e timestamps estão nulos. Não há dados de teoria de acordes para checar.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00108,
+  "via": "api"
+ }
+}

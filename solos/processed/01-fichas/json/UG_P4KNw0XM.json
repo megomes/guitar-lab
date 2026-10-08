@@ -1,0 +1,401 @@
+{
+ "fonte_id": "UG_P4KNw0XM",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+  "autor": "Dustin Hofsess",
+  "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM",
+  "idioma": "en",
+  "duracao": "7m 46s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/UG_P4KNw0XM--pentatonic-magic-turn-scales-into-music-with-simple-phrases.md"
+ },
+ "resumo": "Vídeo curto que ensina a sair da pentatônica \"sobe e desce\" (todas as notas em sequência) e passar a fraseá-la com frases de 3 e 4 notas muito comuns em solos profissionais. Usando a pentatônica menor de Lá em um único shape, Dustin mostra frases com hammer-on, pull-off, combinação hammer-on/pull-off e frases que pulam uma nota da escala (exigindo rolar o dedo). Cada frase é aplicada em pares de cordas diferentes, ouvida sobre backing track e estendida em frases maiores. Indicado para iniciantes e intermediários que já conhecem a pentatônica e querem soar mais musicais.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conceito claro e prático, com progressão lógica (hammer-on, pull-off, combinação, notas puladas) e demonstração com backing track. Porém a transcrição quase não traz casas e notas exatas, então depende de ver o vídeo."
+ },
+ "assuntos_principais": [
+  "pentatônica menor",
+  "frases curtas",
+  "hammer-on",
+  "pull-off",
+  "notas puladas",
+  "fraseado",
+  "digitação"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: de escala a música",
+   "inicio": "00:00",
+   "fim": "00:39",
+   "resumo": "Aponta o problema de tocar a pentatônica só subindo e descendo nota por nota e apresenta frases de 3 e 4 notas em Lá menor pentatônica, em um shape.",
+   "assuntos": [
+    "pentatônica",
+    "fraseado"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Frase 1: hammer-on de 3 notas",
+   "inicio": "00:39",
+   "fim": "01:57",
+   "resumo": "Hammer-on em uma corda e depois a próxima nota da pentatônica na corda vizinha. Repete-se em outros pares de cordas, com backing track e estendendo a frase.",
+   "assuntos": [
+    "hammer-on",
+    "pares de cordas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Frase 2: pull-off de 3 notas",
+   "inicio": "01:57",
+   "fim": "02:43",
+   "resumo": "Pull-off começando na corda Mi aguda e depois a próxima nota na corda Si; aplicável a outros pares de cordas.",
+   "assuntos": [
+    "pull-off",
+    "pares de cordas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Frase 3: hammer-on + pull-off de 4 notas",
+   "inicio": "02:43",
+   "fim": "03:23",
+   "resumo": "Hammer-on e pull-off numa corda e depois a nota mais grave da pentatônica na corda seguinte.",
+   "assuntos": [
+    "hammer-on",
+    "pull-off",
+    "frase de 4 notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Frases com nota pulada: técnica do dedo rolado",
+   "inicio": "03:23",
+   "fim": "04:45",
+   "resumo": "Ao pular uma nota da pentatônica tocam-se duas notas seguidas com o mesmo dedo; é preciso rolar o dedo em vez de pestanar. Primeira frase ascendente pulando uma nota e voltando à do meio.",
+   "assuntos": [
+    "notas puladas",
+    "rolar o dedo",
+    "digitação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Variações ascendentes e descendentes com nota pulada",
+   "inicio": "04:45",
+   "fim": "07:37",
+   "resumo": "Variação ascendente com o indicador, depois descendentes começando com o anular (indicador pega a nota do meio) e descendente com o indicador, sempre com exemplo musical e extensão.",
+   "assuntos": [
+    "notas puladas",
+    "ascendente",
+    "descendente",
+    "digitação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Conclusão",
+   "inicio": "07:37",
+   "fim": "07:46",
+   "resumo": "Resumo: são frases muito usadas por profissionais e dão sabor ao solo.",
+   "assuntos": [
+    "conclusão"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Tocar a pentatônica só subindo e descendo nota por nota",
+   "descricao": "Quem acabou de aprender a pentatônica costuma subir e descer a escala palhetando cada nota. Isso soa como exercício e não como música. A solução é usar frases curtas de 3 ou 4 notas, com ligados e notas puladas.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "fraseado",
+    "erro comum"
+   ],
+   "id_global": "UG_P4KNw0XM#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Frases curtas de 3 e 4 notas como blocos de construção",
+   "descricao": "Dustin usa frases curtas e muito comuns em solos reais, todas dentro de um único shape da pentatônica menor de Lá. A ideia é aprender cada frase e depois aplicá-la em qualquer par de cordas do shape.",
+   "passos": [],
+   "timestamp": "00:20",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "frases",
+    "Lá menor"
+   ],
+   "id_global": "UG_P4KNw0XM#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Frase de 3 notas com hammer-on",
+   "descricao": "Faça um hammer-on em uma corda (começando na corda Lá) e depois toque a próxima nota da pentatônica na corda seguinte (a casa 5 da corda Ré). A mesma ideia vale para qualquer par de cordas, como Ré e Sol.",
+   "passos": [
+    "Escolha um par de cordas vizinhas no shape da pentatônica menor de Lá.",
+    "Toque a primeira nota e faça o hammer-on para a segunda na mesma corda.",
+    "Palhete a próxima nota da pentatônica na corda vizinha.",
+    "Repita nos outros pares de cordas.",
+    "Pratique sobre backing track em Lá menor."
+   ],
+   "timestamp": "00:39",
+   "nivel": "iniciante",
+   "tags": [
+    "hammer-on",
+    "pentatônica",
+    "pares de cordas"
+   ],
+   "id_global": "UG_P4KNw0XM#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Estender a frase para criar linhas mais longas",
+   "descricao": "Depois de dominar a frase de 3 notas, encadeie-a em pares de cordas consecutivos para formar uma frase longa, em vez de tocá-la isolada.",
+   "passos": [],
+   "timestamp": "01:23",
+   "nivel": "iniciante",
+   "tags": [
+    "frases",
+    "hammer-on",
+    "extensão"
+   ],
+   "id_global": "UG_P4KNw0XM#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Frase de 3 notas com pull-off",
+   "descricao": "Comece na corda Mi aguda com um pull-off e depois vá para a próxima nota da pentatônica na corda Si. Repita em outros pares de cordas e depois encadeie para estender.",
+   "passos": [
+    "Comece na corda Mi aguda com a nota mais aguda do par.",
+    "Faça o pull-off para a nota mais grave na mesma corda.",
+    "Passe para a próxima nota da pentatônica na corda Si.",
+    "Repita em outros pares de cordas e estenda."
+   ],
+   "timestamp": "01:57",
+   "nivel": "iniciante",
+   "tags": [
+    "pull-off",
+    "pentatônica",
+    "pares de cordas"
+   ],
+   "id_global": "UG_P4KNw0XM#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Frase de 4 notas: hammer-on + pull-off e descida",
+   "descricao": "Faça um hammer-on seguido de pull-off na mesma corda (exemplo na corda Sol) e depois vá para a nota imediatamente mais grave da pentatônica na corda seguinte (casa 7 da corda Ré). Aplique em qualquer par de cordas, rápido ou devagar, e estenda.",
+   "passos": [
+    "Na corda Sol, toque a nota inicial, faça o hammer-on e depois o pull-off.",
+    "Desça para a corda Ré e toque a próxima nota mais grave da pentatônica (casa 7).",
+    "Repita em outros pares de cordas.",
+    "Varie a velocidade: rápido e lento.",
+    "Estenda encadeando a frase."
+   ],
+   "timestamp": "02:43",
+   "nivel": "intermediario",
+   "tags": [
+    "hammer-on",
+    "pull-off",
+    "frase de 4 notas"
+   ],
+   "id_global": "UG_P4KNw0XM#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pular uma nota na pentatônica gera dois toques com o mesmo dedo",
+   "descricao": "Ao pular uma nota da escala na guitarra, normalmente você toca duas notas seguidas com o mesmo dedo. Isso é útil, mas pouco intuitivo.",
+   "passos": [],
+   "timestamp": "03:23",
+   "nivel": "intermediario",
+   "tags": [
+    "notas puladas",
+    "digitação",
+    "pentatônica"
+   ],
+   "id_global": "UG_P4KNw0XM#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Role o dedo em vez de fazer pestana",
+   "descricao": "Para tocar duas notas seguidas com o mesmo dedo, role o dedo de uma nota para a outra. Não faça pestana, porque as duas notas não devem soar juntas.",
+   "passos": [],
+   "timestamp": "04:07",
+   "nivel": "intermediario",
+   "tags": [
+    "digitação",
+    "rolar o dedo",
+    "técnica"
+   ],
+   "id_global": "UG_P4KNw0XM#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Frase ascendente pulando uma nota e voltando à do meio",
+   "descricao": "Suba pulando uma nota da pentatônica e depois volte para a nota do meio que foi pulada. Todas as frases dessa série seguem o padrão pular e voltar para a nota intermediária. Pratique em pares de cordas e estenda.",
+   "passos": [
+    "Toque a primeira nota.",
+    "Pule a nota seguinte e toque a posterior (role o dedo).",
+    "Volte para a nota do meio que foi pulada.",
+    "Aplique em outros pares de cordas e estenda."
+   ],
+   "timestamp": "04:07",
+   "nivel": "intermediario",
+   "tags": [
+    "notas puladas",
+    "ascendente",
+    "pentatônica"
+   ],
+   "id_global": "UG_P4KNw0XM#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Variação ascendente começando com o indicador",
+   "descricao": "Outra frase ascendente com nota pulada, mas executando a subida com o dedo indicador (rolando) e voltando depois para a nota do meio.",
+   "passos": [
+    "Comece com o indicador.",
+    "Role o indicador para a nota pulada ao subir.",
+    "Volte para a nota do meio.",
+    "Aplique em outros pares de cordas e estenda."
+   ],
+   "timestamp": "04:45",
+   "nivel": "intermediario",
+   "tags": [
+    "notas puladas",
+    "indicador",
+    "ascendente"
+   ],
+   "id_global": "UG_P4KNw0XM#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Frases descendentes com nota pulada: começar com o anular",
+   "descricao": "Na versão descendente, comece com o dedo anular e use o indicador para pegar a nota do meio ao voltar.",
+   "passos": [
+    "Toque a primeira nota com o anular.",
+    "Pule a nota do meio e desça.",
+    "Volte com o indicador para pegar a nota do meio.",
+    "Pratique em outros pares de cordas e estenda."
+   ],
+   "timestamp": "06:02",
+   "nivel": "intermediario",
+   "tags": [
+    "notas puladas",
+    "descendente",
+    "digitação"
+   ],
+   "id_global": "UG_P4KNw0XM#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Frase descendente com nota pulada usando o indicador",
+   "descricao": "Última variação: descendente com o indicador rolando entre as notas. Também deve ser praticada em contexto musical e estendida.",
+   "passos": [
+    "Comece a descida usando o indicador.",
+    "Role o indicador para a nota seguinte.",
+    "Volte à nota do meio.",
+    "Aplique no backing track e estenda."
+   ],
+   "timestamp": "06:50",
+   "nivel": "intermediario",
+   "tags": [
+    "notas puladas",
+    "descendente",
+    "indicador"
+   ],
+   "id_global": "UG_P4KNw0XM#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar cada frase em contexto com backing track e estendê-la",
+   "descricao": "Em todas as frases, o fluxo é: aprender a frase isolada, aplicá-la em todos os pares de cordas, tocar sobre um backing track e depois estendê-la em uma linha mais longa. Variar velocidade também ajuda.",
+   "passos": [
+    "Aprenda a frase isolada.",
+    "Aplique-a em todos os pares de cordas do shape.",
+    "Toque sobre backing track em Lá menor.",
+    "Estenda a frase em uma linha mais longa.",
+    "Varie rápido e lento."
+   ],
+   "timestamp": "04:45",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "rotina",
+    "frases"
+   ],
+   "id_global": "UG_P4KNw0XM#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "mentalidade",
+   "titulo": "Frases comuns de profissionais dão sabor ao solo",
+   "descricao": "Essas frases curtas aparecem o tempo todo em solos profissionais. Incorporá-las ao seu vocabulário deixa o solo mais interessante do que o simples sobe e desce da escala.",
+   "passos": [],
+   "timestamp": "07:37",
+   "nivel": "iniciante",
+   "tags": [
+    "vocabulário",
+    "fraseado",
+    "solo"
+   ],
+   "id_global": "UG_P4KNw0XM#I14"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing track em Lá menor (usado nas demonstrações)",
+  "E-book gratuito sobre prática de guitarra (dustinhofsess.com/practice)",
+  "Newsletter e curso de Dustin Hofsess (dustinhofsess.com)"
+ ],
+ "observacoes": "A transcrição é resumida e não menciona as casas e notas exatas da maioria das frases, só algumas (casa 5 da corda Ré, casa 7 da corda Ré). Os detalhes de digitação das frases com nota pulada dependem de ver o vídeo. As partes de demonstração com backing track aparecem sem fala na transcrição. Não consta nenhum artista ou música citado.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:12:02",
+  "tentativas": 1,
+  "custo_usd": 0.1312
+ }
+}

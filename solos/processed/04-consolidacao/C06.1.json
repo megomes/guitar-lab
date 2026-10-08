@@ -1,0 +1,506 @@
+{
+ "subcategoria": "C06.1",
+ "visao_geral": "Esta subcategoria trata o ritmo como base do solo: sem pulso firme, escalas e licks não soam musicais. Começa pelas figuras (semibreve a semicolcheia, tercinas) e pela contagem em voz alta, e passa pelo treino sem instrumento (palmas, voz, drumitar). Depois vêm os exercícios de uma nota só e a improvisação com um valor rítmico fixo, repetindo cada nota para assentar o groove. Fecha com metrônomo ou bateria, tercinas sobre a forma, pulso interno sem base e compassos ímpares.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Ritmo antes das notas",
+   "descricao": "Muitos alunos decoram escalas e tocam rápido, mas sem time feel sólido a frase soa amadora, por mais teoria que conheçam. Motivos e divisões rítmicas só funcionam se você estiver no tempo. A prioridade é manter o pulso da música mesmo quando o solo não está planejado. A rítmica é um dos aspectos mais negligenciados do fraseado e vai além das figuras, incluindo deslocamento e layback.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ECtdGsEEecI#I01",
+    "tRi4vMs2z8M#I01",
+    "mrKDTl6zDOM#I22",
+    "xKbtQM-qzSM#I04",
+    "GC-HIgdwVSM#I14",
+    "VNSfej3sPII#I12"
+   ],
+   "divergencias": "Gardiner diz que o ritmo vale mais que a melodia; Bradley Hall considera o fraseado 50% harmonia e 50% ritmo.",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Ritmo é início, fim e duração de cada nota",
+   "descricao": "Ritmo não é coisa só da guitarra base: está em todo momento do solo. Ele define quando a nota começa, quando termina e quanto dura entre esses dois pontos. Sentir isso importa mais do que saber ler notação.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "BQTrA3hpqkM#I01",
+    "3dW_GQsC5Ak#I30"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Figuras rítmicas e suas durações",
+   "descricao": "Em 4/4, a semibreve (whole note) dura 4 tempos, o compasso inteiro. A mínima (half note) dura 2 tempos, por exemplo 1-2 ou 3-4. A semínima (quarter note) dura 1 tempo, uma por contagem 1, 2, 3, 4. A colcheia dura meio tempo, então cabem duas por tempo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ECtdGsEEecI#I04",
+    "ECtdGsEEecI#I02",
+    "ECtdGsEEecI#I03",
+    "hWlyxQclPcs#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Contagem das subdivisões",
+   "descricao": "Colcheias se contam '1 e 2 e 3 e 4 e': o 'e' é a segunda colcheia de cada tempo, e o compasso fica com 8 pulsos. Assim você localiza entradas exatas, como uma palavra na oitava colcheia do compasso 3. Tercinas têm 3 notas por tempo ('1 e a' ou '1 and uh'). Semicolcheias têm 4 notas por tempo ('1 e & a').",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "hWlyxQclPcs#I02",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I05"
+   ],
+   "divergencias": "",
+   "correcoes": "Algumas fontes contam semicolcheias como '1 e a', que é a contagem de tercina; semicolcheia tem quatro sílabas por tempo ('1 e & a')."
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Contar em voz alta com a música",
+   "descricao": "Antes de tocar, conte em voz alta sobre o backing track ou uma faixa com groove marcado, de forma musical e não robótica. O pulso de semínimas é o mais importante. Em feel ternário, como o blues em 12/8, acrescente a subdivisão em tercinas para internalizá-la. Enquanto conta, ouça bumbo, caixa e pratos.",
+   "passos": [
+    "Ligue a faixa ou o backing track",
+    "Conte 1 2 3 4 sem parar",
+    "Passe às colcheias: 1 e 2 e 3 e 4 e",
+    "Em feel ternário: 1 e a 2 e a…",
+    "Só toque quando a subdivisão parecer natural"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "On_Ho3azaLk#I10",
+    "Ork2Vc2bva8#I09",
+    "BQTrA3hpqkM#I03",
+    "Ork2Vc2bva8#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "O 'blues 128' da fonte provavelmente se refere ao compasso 12/8, que tem subdivisão ternária."
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Ouvir a bateria e achar o tempo 1",
+   "descricao": "Ouça gravações e loops de bateria prestando atenção no que o baterista faz, e localize o tempo 1 do compasso antes de entrar. A bateria também guia acentos do solo: termine um run rápido num ataque de prato, acompanhe passagens de pedal duplo com trechos rápidos e copie ritmos da bateria.",
+   "passos": [
+    "Ouça a bateria antes de tocar",
+    "Identifique bumbo, caixa e prato",
+    "Ache o tempo 1 e conte a partir dele",
+    "Use os acentos da bateria para pontuar frases"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "enk-fXAONJQ#I09",
+    "BQTrA3hpqkM#I02",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I31"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte diz que o tempo 1 coincide com a caixa, mas na maioria dos grooves a caixa marca 2 e 4, e o 1 costuma vir com bumbo ou prato."
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Ritmo sem guitarra: palmas e voz",
+   "descricao": "Treine o ritmo sem pensar em notas, batendo palmas ou cantando sílabas sobre uma backing track, uma música no rádio ou o metrônomo. Dá para fazer em deslocamentos ou tarefas leves. Como o ritmo está na cabeça, dominá-lo nas palmas facilita tocá-lo depois.",
+   "passos": [
+    "Ponha uma música ou o metrônomo com pulso claro",
+    "Conte 1 e 2 e 3 e 4 e",
+    "Bata palmas ou cante subdivisões, inclusive semicolcheias",
+    "Varie posição e densidade sem perder o pulso",
+    "Só vá à guitarra quando a palma estiver firme"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hWlyxQclPcs#I03",
+    "tRi4vMs2z8M#I02",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "erro_comum",
+   "titulo": "Pé batendo as notas em vez do pulso",
+   "descricao": "O pé ou a perna não deve seguir as notas tocadas na guitarra. Ele deve marcar só o pulso, normalmente a semínima, para segurar o groove enquanto as mãos fazem o ritmo do solo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "3dW_GQsC5Ak#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Drumitar: subdivisões com cordas abafadas",
+   "descricao": "A mão do braço abafa as cordas sem pressionar casas e a mão da palheta toca só ritmo, sem se preocupar com notas. A ideia é manter o tempo com as mãos em movimento, subindo gradualmente a subdivisão.",
+   "passos": [
+    "Abafe as cordas com a mão do braço",
+    "Semínimas contando 1 2 3 4",
+    "Colcheias: 1 e 2 e 3 e 4 e",
+    "Tercinas: três por tempo",
+    "Semicolcheias: quatro por tempo",
+    "Repita cada etapa em uma corda e depois em várias"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "BQTrA3hpqkM#I04",
+    "BQTrA3hpqkM#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "erro_comum",
+   "titulo": "O ritmo desmorona quando a atenção vai para as mãos e as notas",
+   "descricao": "Quando você começa a mover as mãos e escolher notas, a mente se distrai e o ritmo se bagunça. Quem toca escalas perfeitas no metrônomo pode perder o tempo ao improvisar, porque improvisar exige outra coisa do cérebro. Por isso comece por exercícios simples, com ritmo constante.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "BQTrA3hpqkM#I05",
+    "Qk8rk-uaBzU#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "exercicio",
+   "titulo": "Figuras rítmicas em uma nota só",
+   "descricao": "Sobre a backing track, use uma única nota para trabalhar só a duração. Exemplos: A na casa 7 da corda D (a raiz da progressão) ou B na casa 12 da corda B. Comece com semibreves, perceba a progressão girando em torno da nota e vá para mínimas e semínimas, sentindo a energia crescer. Depois aplique ritmos cantados e varie dinâmica e pausas.",
+   "passos": [
+    "Escolha a nota (ex.: A, casa 7 da corda D)",
+    "Semibreve: sustente por 4 tempos",
+    "Mínimas: duas de 2 tempos por compasso",
+    "Semínimas: uma por tempo, no pulso da base",
+    "Aplique ritmos cantados, variando intensidade e pausas",
+    "Só depois acrescente outras notas"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ECtdGsEEecI#I13",
+    "ECtdGsEEecI#I14",
+    "ECtdGsEEecI#I15",
+    "tRi4vMs2z8M#I03",
+    "stringkick--guitar-improvisation-74638e#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "exercicio",
+   "titulo": "Misturar figuras começando em qualquer tempo",
+   "descricao": "Sobre a backing track, alterne livremente semínimas, mínimas e semibreves. Varie o tempo do compasso (1, 2, 3 ou 4) em que cada figura começa.",
+   "passos": [
+    "Ponha o backing track",
+    "Toque semínimas, mínimas e semibreves quando quiser",
+    "Comece cada figura em tempos diferentes do compasso"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ECtdGsEEecI#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Caminhar pela pentatônica no tempo",
+   "descricao": "Com a música tocando, suba e desça o desenho da pentatônica menor da tonalidade tocando uma nota por batida. Mantenha o pulso constante até sentir o groove.",
+   "passos": [
+    "Ponha a backing track",
+    "Escolha o desenho da pentatônica menor do tom",
+    "Toque uma nota por batida, subindo e descendo",
+    "Mantenha o pulso até sentir o groove"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Colcheias contínuas sobre a base",
+   "descricao": "Toque colcheias sem pausa sobre a backing track em loop, acompanhando a contagem 1 e 2 e. O objetivo é sentir o impulso rítmico e checar se as notas encaixam na música.",
+   "passos": [
+    "Ponha a base em loop",
+    "Toque colcheias contínuas contando 1 e 2 e",
+    "Ouça se encaixam com a base",
+    "Depois varie a figura sobre a mesma base"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hWlyxQclPcs#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Contar a frase dentro do compasso",
+   "descricao": "Num blues em A, conte '1 & 2 &' e encaixe a primeira frase no 1 e no '2 &'. Deixe a pausa depois do 2 e retome no acorde seguinte, D.",
+   "passos": [
+    "Conte 1 & 2 & sobre a base em A",
+    "Toque a frase no 1 e no 2 &",
+    "Fique em silêncio depois do 2",
+    "Retome no acorde de D"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "zSTAvmXG5m8#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "rotina_estudo",
+   "titulo": "Praticar com metrônomo",
+   "descricao": "Estude escalas e exercícios sempre com metrônomo, porque tocar em tempo é uma das habilidades mais importantes. Use um BPM em que haja controle e saiba em que tempo cai cada nota. Toque exatamente sobre o clique, nem antes nem depois. Se atrasar ou errar, reduza o andamento.",
+   "passos": [
+    "Escolha um BPM com controle",
+    "Mapeie em que tempo cai cada nota",
+    "Toque exatamente sobre o clique",
+    "Mude a direção da escala sem parar",
+    "Reduza o BPM se sair do tempo"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "RTGLGlM9OPg#I11",
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I12",
+    "N1shDBha6Y0#I03",
+    "ghU-p7QAoRQ#I09",
+    "-VjHVHzWL0o#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Bateria em vez de metrônomo",
+   "descricao": "Pratique padrões e músicas sobre uma faixa de bateria reta, por exemplo a 90 BPM, em colcheias, tercinas ou semicolcheias. Isso desenvolve a consciência musical junto com a destreza e ajuda a manter tempo e estrutura. Aumente o andamento aos poucos.",
+   "passos": [
+    "Ponha uma bateria reta (ex.: 90 BPM)",
+    "Escolha um padrão ou a peça",
+    "Toque em colcheias, tercinas ou semicolcheias",
+    "Improvise cordas e posições por cerca de 30 s",
+    "Suba o andamento gradualmente"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "J-vMFMHwpkQ#I06",
+    "rh6HEF5Dy2I#I31"
+   ],
+   "divergencias": "Seriff acha a bateria mais agradável e musical que o metrônomo; Davids aceita os dois; outras fontes indicam o metrônomo.",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "erro_comum",
+   "titulo": "Correr ou atrasar o tempo",
+   "descricao": "Quem toca sozinho tende a acelerar (rushing) ou a ficar atrás do tempo. Muitas vezes só a gravação revela isso.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "rh6HEF5Dy2I#I33"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "conceito",
+   "titulo": "Notas rápidas são divisões do pulso",
+   "descricao": "Mesmo em passagens rápidas, as notas devem cair em semínimas, colcheias, tercinas ou semicolcheias. Não existe lick realmente bom que fuja do groove do baterista. Domine essas quatro subdivisões antes de encurtar notas e deixar o fraseado mais groovy.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "3dW_GQsC5Ak#I12",
+    "3dW_GQsC5Ak#I33"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "Slowing the rate of change (desacelerar a troca de notas)",
+   "descricao": "Repita cada nota várias vezes dentro do valor rítmico escolhido, por exemplo quatro semínimas por nota. Assim a mente não precisa escolher uma nota nova a cada ataque, e o groove e a precisão se assentam antes de você passar a figuras mais rápidas.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jexCJFrAeH4#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "exercicio",
+   "titulo": "Progressão de densidade com repetição de notas",
+   "descricao": "Sobre uma base em Em, usando a pentatônica menor (pode ser a forma diagonal), toque cada nota escolhida várias vezes e vá reduzindo as repetições até chegar a uma por ataque. Mantenha as notas ligadas e o volume uniforme. Nas semínimas, palhetadas só para baixo conectam a mão ao pulso; das colcheias em diante, use palhetada alternada. Se as semicolcheias ficarem rápidas demais, use uma base mais lenta.",
+   "passos": [
+    "Semínimas: 4×, 2× e 1× por nota",
+    "Colcheias (1 e 2 e): 4×, 2× e 1×, com palhetada alternada",
+    "Tercinas: 6×, 3× e 1× por nota",
+    "Semicolcheias: 4×, 2× e 1× por nota",
+    "Só avance quando o valor anterior estiver firme"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "jexCJFrAeH4#I08",
+    "Qk8rk-uaBzU#I04",
+    "Qk8rk-uaBzU#I05",
+    "Qk8rk-uaBzU#I07",
+    "Qk8rk-uaBzU#I09",
+    "Qk8rk-uaBzU#I11",
+    "jexCJFrAeH4#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com um único valor rítmico",
+   "descricao": "Com a forma da escala razoavelmente dominada, improvise sobre a backing track (por exemplo, uma base dórica) usando só um valor por rodada: semínimas, colcheias, tercinas ou semicolcheias. Isso substitui subir e descer escalas no metrônomo e ensina a seguir a bateria. Só semínimas força você a desacelerar e fazer cada nota contar.",
+   "passos": [
+    "Escolha um valor rítmico",
+    "Improvise sobre a base só com ele",
+    "Troque de valor e repita",
+    "Depois combine os valores gradualmente"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "3dW_GQsC5Ak#I13",
+    "jexCJFrAeH4#I02",
+    "jexCJFrAeH4#I06",
+    "3dW_GQsC5Ak#I31",
+    "blog--guitar-phrasing-97a22b#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "exercicio",
+   "titulo": "Tercinas alternando cordas G e B",
+   "descricao": "Na posição 1 da pentatônica, faça um slide da casa 5 para a 7 na corda G (C→D). Depois alterne com a casa 6 da corda B (F), tocada com o dedo médio, em tercinas G-B-G e B-G-B, sentindo '1 2 3 1 2 3'.",
+   "passos": [
+    "Casa 5 da corda G, slide para a 7",
+    "Casa 6 da corda B com o dedo médio",
+    "Tercinas G-B-G e depois B-G-B",
+    "Combine com o slide e volte à posição 1"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gNKJXn8g734#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Tercinas contínuas sem perder a forma nem as trocas",
+   "descricao": "Mantenha tercinas no tempo, em loop, sem perder o lugar na forma do blues, o que exige coordenação dupla. No nível avançado, toque uma ideia em tercinas sobre Cm, repita sobre E♭m e alterne entre os centros sem parar.",
+   "passos": [
+    "Faça um loop em tercinas sobre a forma do blues",
+    "Acompanhe mentalmente o compasso",
+    "Toque uma ideia em tercinas sobre Cm e repita sobre E♭m",
+    "Alterne entre os centros sem parar"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "premierguitar--blues_basics_saying_more_with_less-adf9db#I12",
+    "N1shDBha6Y0#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "exercicio",
+   "titulo": "Pulso interno sem backing track",
+   "descricao": "Componha ou improvise frases sem base, ouvindo internamente as colcheias e os tempos fortes 1 e 3 de cada compasso. Construa as frases em torno desses apoios. O objetivo é saber em que ponto da forma você está a qualquer momento.",
+   "passos": [
+    "Escolha uma progressão e não use base",
+    "Ouça as colcheias por dentro",
+    "Marque os tempos 1 e 3",
+    "Crie frases apoiadas nesses tempos",
+    "Pare em qualquer ponto e confira a posição"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "G5q1lfMQ5A4#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "rotina_estudo",
+   "titulo": "Compassos ímpares",
+   "descricao": "Ouça músicas em 3, treine a sensação de tempo em 5 e em 7 e toque standards conhecidos em compassos ímpares. O desconforto diminui com o tempo.",
+   "passos": [
+    "Ouça peças em 3",
+    "Sinta e conte o tempo em 5 e em 7",
+    "Toque standards conhecidos nesses compassos"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "jazzadvice--p-11773-202013#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "blog--guitar-improvisation-tips-unlock-your-potential-b9ace3#I16",
+   "sugestao": "C06.3",
+   "motivo": "Trata de variar as divisões rítmicas para dar variedade ao solo, não de fundamentos de pulso."
+  },
+  {
+   "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I03",
+   "sugestao": "C07.6",
+   "motivo": "É contagem de compassos para desenvolver consciência de forma, exclusão explícita desta subcategoria."
+  }
+ ],
+ "observacoes": "Itens de Daniel Seriff aparecem em vários vídeos com a mesma ideia e foram fundidos em K19 a K22. Secundárias com foco em deslocamento, swing ou articulação (#62, #64, #65, #66, #68, #69, #70, #71, #73, #74, #75, #77, #78, #79, #80) não foram incluídas por pertencerem melhor a C06.2, C06.3, C06.4, C05 ou C07.6.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 61,
+  "ideias_secundarias": 22,
+  "itens": 26,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1482,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21712,
+   "output_tokens": 10481
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

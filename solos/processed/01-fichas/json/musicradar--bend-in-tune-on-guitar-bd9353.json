@@ -1,0 +1,237 @@
+{
+ "fonte_id": "musicradar--bend-in-tune-on-guitar-bd9353",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "How to bend in tune on your guitar like a pro every time",
+  "autor": "Total Guitar",
+  "url": "https://musicradar.com/how-to/bend-in-tune-on-guitar",
+  "site": "musicradar.com",
+  "idioma": "en",
+  "tema_coleta": "tecnica",
+  "arquivo_raw": "solos/raw/documentos/musicradar--bend-in-tune-on-guitar-bd9353.md"
+ },
+ "resumo": "Artigo curto da Total Guitar sobre como afinar bends usando 12 licks tabulados, adaptáveis a qualquer tonalidade e estilo. A estratégia central é tocar antes a nota-alvo na casa para fixar o som na cabeça. Depois vem o bend sem vibrato e, em seguida, com vibrato. Há um áudio de \"ouvir e repetir\" com backing simples e uma dica de apoiar o dedo do bend com os outros dedos para ter mais força e controle. Voltado a iniciantes e intermediários.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "As dicas são corretas e práticas, mas o texto é curto. Os licks dependem da tablatura e do áudio, que não estão no conteúdo fornecido."
+ },
+ "assuntos_principais": [
+  "bend",
+  "afinação do bend",
+  "vibrato",
+  "nota-alvo",
+  "técnica de mão esquerda",
+  "ouvir e repetir"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: bends afinados e 12 licks",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o objetivo: dominar a afinação dos bends com 12 licks curtos, adaptáveis a qualquer tonalidade e estilo. Bend exige força, controle, feeling e muita prática.",
+   "assuntos": [
+    "bend",
+    "afinação",
+    "licks"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Como praticar: nota-alvo, backing track e vibrato",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Método de praticar tocando a nota-alvo na casa, usando o áudio de ouvir e repetir, com bends sem vibrato e depois com vibrato.",
+   "assuntos": [
+    "nota-alvo",
+    "vibrato",
+    "backing track",
+    "ouvir e repetir"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Apoio dos dedos e técnica da mão esquerda",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Dica de apoiar o dedo que faz o bend com os demais dedos na corda e de angular os dedos e apertar o braço, diferente de exercícios de aranha.",
+   "assuntos": [
+    "apoio de dedos",
+    "força",
+    "controle"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Chamadas editoriais da revista",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Newsletter e divulgação da Total Guitar.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Toque a nota-alvo na casa antes de fazer o bend",
+   "descricao": "Antes de fazer o bend, toque normalmente, sem bend, a nota para a qual você vai subir (a nota-alvo), pisando na casa correspondente. Isso coloca o som da nota na cabeça e dá a referência de afinação para o bend.",
+   "passos": [
+    "Escolha uma das frases com bend.",
+    "Toque a nota-alvo fretada normalmente e ouça o som.",
+    "Faça o bend tentando chegar exatamente nessa altura.",
+    "Compare e corrija a afinação."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "nota-alvo",
+    "afinação",
+    "ouvido"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Ouvir e repetir com backing track",
+   "descricao": "O áudio do artigo toca cada frase sobre um backing simples e deixa um espaço para você repetir o mesmo lick, no estilo ouvir e repetir. Pratique as frases de bend junto com a faixa depois de ter treinado a nota-alvo.",
+   "passos": [
+    "Pratique as frases fretando a nota-alvo.",
+    "Ouça a frase tocada no áudio.",
+    "Repita a frase no espaço deixado.",
+    "Toque junto com o backing."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ouvir e repetir",
+    "backing track",
+    "bend",
+    "licks"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Comece com o bend limpo, sem vibrato",
+   "descricao": "As primeiras frases têm bends 'nus', sem vibrato, ideais para treinar a afinação. Primeiro acerte a altura do bend, sem adicionar movimento.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "afinação",
+    "sem vibrato"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Vibrato no bend exige mais controle da mão esquerda",
+   "descricao": "O mesmo lick é tocado depois com vibrato, técnica descrita como notoriamente difícil, que exige mais controle da mão que pisa. Pratique as duas versões, sem e com vibrato, junto com a faixa.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "vibrato",
+    "bend",
+    "controle"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Apoie o dedo do bend com os outros dedos",
+   "descricao": "Ao fazer o bend com o dedo 3, mantenha os dedos 1 e 2 apoiados na corda para ter mais força e controle. A mesma lógica vale para outros dedos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "apoio de dedos",
+    "força",
+    "técnica"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Angule os dedos e aperte o braço para empurrar",
+   "descricao": "Diferente dos exercícios de aranha, no bend você pode angular os dedos e apertar o braço da guitarra para ter mais impulso ao empurrar a corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "técnica",
+    "mão esquerda"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Bend é força, controle, feeling e prática",
+   "descricao": "Bends afinados combinam força, controle, feeling e muita prática. Os 12 licks do artigo cobrem a maioria das técnicas necessárias e podem ser transpostos para qualquer tonalidade e estilo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "mentalidade",
+    "transposição"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Transponha os licks para outras tonalidades",
+   "descricao": "Cada linha pode ser adaptada a qualquer tonalidade e estilo, então o exercício não termina nos 12 licks da página. Repita os mesmos padrões em outras posições do braço.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "licks",
+    "bend"
+   ],
+   "id_global": "musicradar--bend-in-tune-on-guitar-bd9353#I08"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Faixa de áudio 'ouvir e repetir' com backing simples (no artigo)",
+  "12 licks tabulados do artigo Total Guitar/MusicRadar",
+  "Revista Total Guitar"
+ ],
+ "observacoes": "Documento curto. A tablatura e o áudio não estão no conteúdo, então não há notas, casas, cordas nem BPM dos 12 licks. O título atribui o texto à Total Guitar. O trecho \"separates the novice guitarists from the –\" está incompleto na fonte. Os timestamps são nulos por ser documento.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:51",
+  "tentativas": 1,
+  "custo_usd": 0.2116
+ }
+}

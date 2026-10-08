@@ -1,0 +1,251 @@
+{
+ "fonte_id": "en--lick_-music-21f2b0",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Lick (music) - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Lick_(music)",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--lick_-music-21f2b0.md"
+ },
+ "resumo": "Verbete enciclopédico que define \"lick\" como um padrão ou frase curta de notas usada em solos, linhas melódicas e acompanhamento em country, blues, jazz e rock. Explica que aprender licks é uma forma de imitação que constrói vocabulário próprio, diferencia lick de riff, e relaciona lick com hook, fill e ostinato. Texto conceitual e breve, sem exercícios práticos; serve como base teórica para iniciantes e intermediários.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Definição clara e correta de conceitos úteis (lick, riff, hook, fill, imitação como método), mas curta, sem exemplos musicais, notas, exercícios ou passo a passo."
+ },
+ "assuntos_principais": [
+  "lick",
+  "vocabulário musical",
+  "imitação",
+  "riff vs lick",
+  "hook",
+  "fill",
+  "ostinato",
+  "solo jazz"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de lick e uso no jazz",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define lick como frase/padrão curto de notas usado em solos e linhas melódicas, aprendido por imitação para construir vocabulário; no jazz, aparece em solos e breaks e pode ser adaptado à harmonia.",
+   "assuntos": [
+    "lick",
+    "imitação",
+    "vocabulário",
+    "jazz"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Conceitos relacionados: riff, ostinato, hook e fill",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Diferencia lick de riff, cita ostinato, o uso de licks no rock por fórmula e variação, e a relação com hook e fill.",
+   "assuntos": [
+    "riff",
+    "ostinato",
+    "hook",
+    "fill",
+    "estilo",
+    "rock"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Ver também e referências",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas, incluindo o livro 299 Insane Guitar Licks.",
+   "assuntos": [
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é um lick",
+   "descricao": "Lick é um padrão ou frase pronta (\"stock pattern\"), formado por uma série curta de notas, usado em solos, linhas melódicas e acompanhamento em country, blues, jazz e rock.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "lick",
+    "definição",
+    "frase"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Aprender licks é imitar para criar vocabulário",
+   "descricao": "Aprender um lick costuma ser uma forma de imitação: ao imitar, o músico entende e analisa o que outros fizeram e, com isso, constrói um vocabulário próprio para improvisar.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "imitação",
+    "vocabulário",
+    "estudo"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Licks no jazz: solos e breaks",
+   "descricao": "Numa banda de jazz, o lick pode ser tocado durante um solo improvisado, tanto num chorus acompanhado quanto num solo break sem acompanhamento.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "break",
+    "chorus",
+    "solo"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Adaptar licks de jazz à harmonia",
+   "descricao": "Licks de jazz costumam ser frases curtas originais que podem ser alteradas para se encaixar nos acordes que mudam ao longo da progressão da música, em vez de serem tocadas sempre idênticas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "jazz",
+    "harmonia",
+    "adaptação",
+    "variação"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Lick versus riff",
+   "descricao": "Riffs podem incluir progressões de acordes repetidas, enquanto licks se associam mais a linhas melódicas de voz única. Ainda assim, um lick, como um riff, pode ser a base de uma música inteira.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "riff",
+    "lick",
+    "diferença"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Ostinato",
+   "descricao": "Riffs ou licks de linha única usados como base de peças de música clássica ocidental chamam-se ostinatos; compositores de jazz contemporâneo também usam ostinatos tipo riff/lick em música modal e jazz latino.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "ostinato",
+    "modal",
+    "jazz latino"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Estilo importa tanto quanto a escala",
+   "descricao": "Imitar o estilo (fraseado, sotaque) é tão importante quanto conhecer a escala adequada sobre cada acorde (afirmação do livro 299 Insane Guitar Licks, marcada como \"verificação necessária\" na Wikipedia).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "estilo",
+    "escala",
+    "fraseado"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Licks no rock: fórmula e variação",
+   "descricao": "No rock, licks são frequentemente usados por fórmula e pela técnica de variação: ideias simples e prontas são variadas e desenvolvidas ao longo do solo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "rock",
+    "variação",
+    "desenvolvimento motívico"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Lick como hook e como fill",
+   "descricao": "Um lick pode ser um hook, se for uma ideia musical atraente que faz a música se destacar e prende o ouvido. Também pode ser incorporado a um fill, passagem curta tocada nas pausas entre frases da melodia.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "hook",
+    "fill",
+    "lick"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Livro 299 Insane Guitar Licks",
+   "descricao": "Referência citada: Matias Rengel, 299 Insane Guitar Licks (2015), coletânea de licks de guitarra. Também citado: Complete Country Guitar Book, de Fred Sokolow (1997).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "livro",
+    "licks",
+    "country"
+   ],
+   "id_global": "en--lick_-music-21f2b0#I10"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "299 Insane Guitar Licks (Matias Rengel, 2015)",
+  "Complete Country Guitar Book (Fred Sokolow, 1997)",
+  "Studying Popular Music (Richard Middleton, 1990)",
+  "Engaging Music: Essays in Music Analysis (Deborah Stein, 2005)"
+ ],
+ "observacoes": "Documento enciclopédico curto, apenas conceitual: sem tablaturas, exemplos de licks, BPM ou exercícios. Seções \"Ver também\" vazias na extração. Uma afirmação está marcada na fonte como \"verification needed\".",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:17",
+  "tentativas": 1,
+  "custo_usd": 0.0466
+ }
+}

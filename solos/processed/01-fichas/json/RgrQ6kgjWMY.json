@@ -1,0 +1,201 @@
+{
+ "fonte_id": "RgrQ6kgjWMY",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Como não pensei nisso antes? - Solos Melódicos - Free Guitar lessons!",
+  "autor": "Gustavo Guerra",
+  "url": "https://www.youtube.com/watch?v=RgrQ6kgjWMY",
+  "idioma": "pt",
+  "duracao": "5m 26s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/RgrQ6kgjWMY--como-não-pensei-nisso-antes-solos-melódicos-free-guitar-lessons.md"
+ },
+ "resumo": "Aula curta de Gustavo Guerra sobre como deixar os improvisos mais melódicos. A ideia central é identificar os graus mais fortes da tonalidade (tônica, terça e quinta, opcionalmente a sétima), localizá-los no braço da guitarra e usá-los como notas-alvo para resolver as frases, trabalhando com notas próximas a elas. A demonstração usa um backing track em Si menor, com a guitarra afinada meio tom abaixo (por isso ele pensa em Dó menor). Voltada a iniciantes e intermediários.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "O conceito é útil e claro (notas-alvo: tônica, terça, quinta), mas o vídeo é curto, a transcrição está muito corrompida e as demonstrações no braço dependem de ver o vídeo; faltam posições e exemplos concretos."
+ },
+ "assuntos_principais": [
+  "notas-alvo",
+  "improvisação melódica",
+  "tônica terça e quinta",
+  "notas de aproximação",
+  "guitarra meio tom abaixo",
+  "backing track"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e música",
+   "inicio": "00:00",
+   "fim": "01:54",
+   "resumo": "Trecho musical e apresentação; o professor diz que vai ajudar a deixar os improvisos mais melódicos.",
+   "assuntos": [
+    "intro"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Pensar na tonalidade e nos graus mais fortes",
+   "inicio": "01:55",
+   "fim": "03:05",
+   "resumo": "Backing track em Si menor; como a guitarra está meio tom abaixo, pensa-se em Dó menor. Escolher tônica, terça e quinta como notas de resolução: Dó, Mi bemol e Sol.",
+   "assuntos": [
+    "tonalidade",
+    "notas-alvo",
+    "afinação meio tom abaixo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Localizar as notas-alvo no braço e usar notas próximas",
+   "inicio": "03:06",
+   "fim": "04:49",
+   "resumo": "Encontrar as notas-alvo no braço, na região superior, e trabalhar com notas próximas a elas, escutando o efeito sobre o backing track.",
+   "assuntos": [
+    "notas-alvo",
+    "braço da guitarra",
+    "notas de aproximação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Conclusão e despedida",
+   "inicio": "04:50",
+   "fim": "05:26",
+   "resumo": "Resumo da dica, menção a infinitas possibilidades, pedido de inscrição e like.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Pensar na tonalidade real considerando a afinação da guitarra",
+   "descricao": "O backing track está em Si menor, mas a guitarra do professor está meio tom abaixo do padrão. Por isso ele pensa meio tom acima do backing, em Dó menor, para que as notas toquem na tonalidade correta. Se a guitarra estiver desafinada em relação ao track, ajuste mentalmente a tonalidade (ou afine).",
+   "passos": [],
+   "timestamp": "01:55",
+   "nivel": "iniciante",
+   "tags": [
+    "afinação",
+    "tonalidade",
+    "backing track",
+    "si menor"
+   ],
+   "id_global": "RgrQ6kgjWMY#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Graus mais fortes: tônica, terça e quinta (e sétima)",
+   "descricao": "Critério básico para improvisar de forma melódica: pensar sempre nos graus mais fortes do acorde/escala, que são a tônica, a terça e a quinta, e opcionalmente a sétima. Esses são os melhores pontos de repouso e resolução das frases.",
+   "passos": [],
+   "timestamp": "02:30",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "tônica",
+    "terça",
+    "quinta",
+    "sétima"
+   ],
+   "id_global": "RgrQ6kgjWMY#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Identificar as notas-alvo na escala de Dó menor",
+   "descricao": "Na tonalidade pensada (Dó menor), as notas-alvo são: tônica Dó, terça menor Mi bemol e quinta Sol. São as melhores notas para resolver as frases do solo.",
+   "passos": [
+    "Defina a tonalidade real (aqui, Dó menor)",
+    "Identifique tônica (Dó), terça (Mi bemol) e quinta (Sol)",
+    "Use essas notas para terminar e resolver as frases"
+   ],
+   "timestamp": "02:50",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "dó menor",
+    "escala menor"
+   ],
+   "id_global": "RgrQ6kgjWMY#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Localizar as notas-alvo em todo o braço",
+   "descricao": "É importante achar as notas-alvo (tônica, terça, quinta) em várias regiões do braço. O professor mostra a região superior (agudos), onde fica mais fácil pegá-las. Conhecer várias posições permite resolver frases em qualquer ponto do braço.",
+   "passos": [],
+   "timestamp": "03:06",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "notas-alvo",
+    "posições"
+   ],
+   "id_global": "RgrQ6kgjWMY#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Trabalhar com notas próximas às notas-alvo",
+   "descricao": "Em vez de apenas tocar as notas-alvo, toque notas vizinhas (de aproximação) que levam até elas, e então resolva na tônica, terça ou quinta. Escute o efeito sobre o backing track para perceber quais resoluções soam melhor.",
+   "passos": [
+    "Escolha uma nota-alvo (tônica, terça ou quinta)",
+    "Toque notas vizinhas próximas a ela",
+    "Resolva na nota-alvo",
+    "Escute como soa sobre o backing track e repita com as outras notas-alvo"
+   ],
+   "timestamp": "03:30",
+   "nivel": "iniciante",
+   "tags": [
+    "notas de aproximação",
+    "notas-alvo",
+    "melodia"
+   ],
+   "id_global": "RgrQ6kgjWMY#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Escutar o resultado sobre o backing track",
+   "descricao": "Depois de escolher bem as notas-alvo e as notas próximas, ouça o que elas proporcionam sobre o backing track; o ouvido é o guia para avaliar se a frase soa melódica.",
+   "passos": [],
+   "timestamp": "04:05",
+   "nivel": "iniciante",
+   "tags": [
+    "ouvido",
+    "backing track",
+    "melodia"
+   ],
+   "id_global": "RgrQ6kgjWMY#I06"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Aulas online com Gustavo Guerra (gustavoguerra.com.br)",
+  "Grupo Telegram do canal"
+ ],
+ "observacoes": "Transcrição automática muito ruim, principalmente no início e meio (trechos ininteligíveis). Termos corrigidos pelo contexto: 'elementos de ensino' = elementos de Si menor/tonalidade; 'a menor' = Dó menor; 'backtrack' = backing track; 'bens próximos' = notas próximas. As demonstrações no braço dependem de ver o vídeo; não há posições ou casas específicas na fonte. Há inconsistência na fala sobre 'Si menor' vs 'Dó menor' por conta da afinação meio tom abaixo.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:33",
+  "tentativas": 1,
+  "custo_usd": 0.0876
+ }
+}

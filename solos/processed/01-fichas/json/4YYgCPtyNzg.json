@@ -1,0 +1,168 @@
+{
+ "fonte_id": "4YYgCPtyNzg",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Do this to break out of the pentatonic box! #guitarsolo #guitarlesson #guitarlicks #guitarteacher #1",
+  "autor": "Jordan Steele",
+  "url": "https://www.youtube.com/watch?v=4YYgCPtyNzg",
+  "idioma": "en",
+  "duracao": "1m 0s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/4YYgCPtyNzg--do-this-to-break-out-of-the-pentatonic-box-guitarsolo-guitarlesson-gui.md"
+ },
+ "resumo": "Vídeo curto (1 min) de Jordan Steele sobre como sair da \"caixa\" da pentatônica. A ideia é pegar um lick simples numa posição da pentatônica e repeti-lo nas cinco posições, terminando sempre na mesma nota-alvo (lá). Depois o lick é esticado e variado, o que abre o braço da guitarra aos poucos. Serve para iniciantes e intermediários que ficam presos numa única posição.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "A ideia é boa e prática, mas o vídeo é muito curto e depende de ver o braço. Não mostra o lick completo, a tonalidade ou o dedilhado, e as casas citadas são parciais."
+ },
+ "assuntos_principais": [
+  "pentatônica",
+  "posições da pentatônica",
+  "licks",
+  "exploração do braço",
+  "sair da caixa"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e lick na posição 1",
+   "inicio": "00:00",
+   "fim": "00:20",
+   "resumo": "Apresenta o objetivo de sair da caixa da pentatônica e começa com um lick simples na posição 1, terminando na nota lá (A).",
+   "assuntos": [
+    "pentatônica",
+    "lick",
+    "posição 1"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Mesmo lick nas posições 2 a 5",
+   "inicio": "00:20",
+   "fim": "00:50",
+   "resumo": "Mostra o lick transposto para as posições 2, 3, 4 e 5, citando casas e cordas de referência.",
+   "assuntos": [
+    "posições da pentatônica",
+    "transposição de lick"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Expandir com outros licks e conclusão",
+   "inicio": "00:50",
+   "fim": "01:00",
+   "resumo": "Explica que o processo deve ser feito com licks mais longos e variados em cada posição, abrindo o braço aos poucos.",
+   "assuntos": [
+    "variação de licks",
+    "liberdade no braço"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Tocar o mesmo lick em todas as posições da pentatônica",
+   "descricao": "Para sair da caixa da pentatônica, pegue um lick curto numa posição e reproduza a mesma forma melódica nas cinco posições da escala. O professor diz que aprendeu assim há muitos anos.",
+   "passos": [
+    "Escolha um lick simples na posição 1 da pentatônica.",
+    "Termine o lick numa nota-alvo fixa (no exemplo, o lá).",
+    "Localize essa mesma nota-alvo na posição 2 e toque o mesmo lick ali.",
+    "Repita nas posições 3, 4 e 5.",
+    "Depois, troque por licks mais longos e variados e refaça em cada posição."
+   ],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "posições",
+    "lick",
+    "caixa"
+   ],
+   "id_global": "4YYgCPtyNzg#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "frase_lick",
+   "titulo": "Lick de exemplo na posição 1 terminando em lá",
+   "descricao": "O lick básico começa na corda sol (G) na 7ª casa e termina na nota lá, na 7ª casa da corda ré (D). Serve só como modelo simples, e o professor não mostra o lick completo.",
+   "passos": [],
+   "timestamp": "00:12",
+   "nivel": "iniciante",
+   "tags": [
+    "lick",
+    "posição 1",
+    "nota-alvo",
+    "lá"
+   ],
+   "id_global": "4YYgCPtyNzg#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Usar a mesma nota-alvo como âncora entre posições",
+   "descricao": "Cada posição é encontrada pela mesma nota-alvo (lá) em outra corda e casa. Referências citadas: posição 2 na corda mi aguda, 10ª casa; posição 3 na corda ré, 12ª casa; posição 4 na corda si, 15ª casa. A posição 5 vem em seguida. A transcrição é parcial e confusa, então é preciso conferir no braço.",
+   "passos": [],
+   "timestamp": "00:25",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "posições",
+    "braço",
+    "pentatônica"
+   ],
+   "id_global": "4YYgCPtyNzg#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Esticar o lick e variá-lo em cada posição",
+   "descricao": "Depois de dominar o lick básico, alongue-o e crie vários licks diferentes, tocando cada um nas cinco posições. Com o tempo isso abre o braço e dá liberdade para solar por toda a extensão do instrumento.",
+   "passos": [],
+   "timestamp": "00:40",
+   "nivel": "intermediario",
+   "tags": [
+    "variação",
+    "licks",
+    "braço",
+    "vocabulário"
+   ],
+   "id_global": "4YYgCPtyNzg#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "A abertura do braço é gradual",
+   "descricao": "O professor diz que o método abre o braço devagar. Não há atalho: a liberdade vem de repetir licks em todas as posições até conectá-las.",
+   "passos": [],
+   "timestamp": "00:45",
+   "nivel": "iniciante",
+   "tags": [
+    "progresso",
+    "paciência",
+    "braço"
+   ],
+   "id_global": "4YYgCPtyNzg#I05"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [],
+ "observacoes": "Vídeo curto (Shorts) com transcrição automática curta e imprecisa. Depende muito de ver o braço: tonalidade, lick completo, dedilhado e posição 5 não são especificados. As casas citadas (7ª na corda sol, 10ª na mi aguda, 12ª na ré, 15ª na si) são parciais e vieram de fala ambígua. A nota \"a\" foi interpretada como lá (A).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:07:15",
+  "tentativas": 1,
+  "custo_usd": 0.1999
+ }
+}

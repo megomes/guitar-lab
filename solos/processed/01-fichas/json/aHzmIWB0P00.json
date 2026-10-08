@@ -1,0 +1,687 @@
+{
+ "fonte_id": "aHzmIWB0P00",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+  "autor": "Active Melody",
+  "url": "https://www.youtube.com/watch?v=aHzmIWB0P00",
+  "idioma": "en",
+  "duracao": "19m 20s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/aHzmIWB0P00--play-the-chord-changes-with-just-one-scale-using-modes-how-modes-work.md"
+ },
+ "resumo": "O professor ensina a improvisar sobre progressões de acordes usando apenas uma escala em uma única posição do braço, a escala maior de Mi, e mostra como ela se relaciona com os modos mixolídio e lídio. Ele usa a forma C do sistema CAGED como âncora visual e explica a lógica de trocar a escala pelo grau do acorde, com o ciclo das quintas como ferramenta para localizar o V e o IV. Para as duas primeiras partes do material, o público-alvo é guitarrista que já domina pentatônicas e quer entender harmonia aplicada ao solo.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explicação clara, com demonstrações audíveis do problema (clash de B maior sobre B7) e da solução. Faltam exercícios estruturados e tablatura visual, e a fala é repetitiva em alguns pontos, com o ciclo das quintas tratado de forma rápida demais."
+ },
+ "assuntos_principais": [
+  "improvisação sobre mudanças de acordes",
+  "escala maior em uma única posição",
+  "sistema CAGED (forma C)",
+  "modo mixolídio",
+  "modo lídio",
+  "relação entre modos e acordes I, IV e V",
+  "ciclo das quintas para achar modos",
+  "notas cromáticas de passagem",
+  "tensão do acorde V"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução: o problema de tocar sobre mudanças de acordes",
+   "inicio": "00:00",
+   "fim": "01:08",
+   "resumo": "O professor apresenta a frustração de solistas com as mudanças de acordes e anuncia que vai improvisar usando apenas uma escala.",
+   "assuntos": [
+    "frustração com mudanças de acordes",
+    "pentatônicas como ponto de partida"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Demonstração improvisada com backing track",
+   "inicio": "01:08",
+   "fim": "02:19",
+   "resumo": "Ele toca um solo simples sobre uma base de três acordes em Mi, sem explicação enquanto toca.",
+   "assuntos": [
+    "demonstração musical"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Forma C do CAGED como base de posição",
+   "inicio": "02:19",
+   "fim": "03:25",
+   "resumo": "Explica que vai trabalhar a partir de um único shape de acorde e mostra um acorde de Mi tocado com a forma C, com o indicador na casa 4 como pestana.",
+   "assuntos": [
+    "CAGED",
+    "forma C",
+    "posição fixa no braço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "CAGED como tomadas: tríades, terças e escalas",
+   "inicio": "03:25",
+   "fim": "04:30",
+   "resumo": "Compara as formas CAGED a tomadas em que se pode encaixar acordes, tríades, terças harmonizadas e escalas na mesma área do braço.",
+   "assuntos": [
+    "CAGED",
+    "tríades",
+    "terças harmonizadas",
+    "escala de Mi maior na forma C"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Escala de Mi maior na forma C",
+   "inicio": "04:30",
+   "fim": "05:35",
+   "resumo": "Constrói a escala de Mi maior a partir da forma C, começando pelo dedo mínimo na casa 7, e mostra que as sete notas e a oitava cabem nessa área.",
+   "assuntos": [
+    "escala maior de Mi",
+    "posição fixa",
+    "construção da escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Por que a troca de escala para B falha",
+   "inicio": "05:35",
+   "fim": "07:16",
+   "resumo": "Toca E maior sobre E e depois tenta B maior sobre o acorde de B, mostrando o clash. Explica que a mudança de acorde exige mudança de tonalidade da escala, mas que a regra simples não funciona aqui.",
+   "assuntos": [
+    "mudança de acordes",
+    "clash harmônico",
+    "B maior sobre B7",
+    "sétima da escala"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "O acorde V como tensão e o mixolídio",
+   "inicio": "07:16",
+   "fim": "08:20",
+   "resumo": "Demonstra que B maior não funciona sobre B7 e que o acorde V é um acorde de tensão que pede resolução. Por isso a escolha típica é o mixolídio sobre o V.",
+   "assuntos": [
+    "acorde V como tensão",
+    "mixolídio",
+    "resolução de tensão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Visão geral dos sete modos",
+   "inicio": "08:20",
+   "fim": "08:54",
+   "resumo": "Apresenta os três modos que serão tratados no vídeo, lembra que existem sete modos e cita as lições anteriores sobre o assunto.",
+   "assuntos": [
+    "sete modos",
+    "ordem dos modos",
+    "lições anteriores"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Mixolídio: sétima menor sobre o acorde V",
+   "inicio": "08:54",
+   "fim": "09:59",
+   "resumo": "Explica que abaixar a sétima da escala de B maior gera B mixolídio, que encaixa sobre B7, e que essa é a diferença de um único grau.",
+   "assuntos": [
+    "mixolídio",
+    "♭7",
+    "B7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Mesmas notas: E maior é B mixolídio",
+   "inicio": "09:59",
+   "fim": "11:03",
+   "resumo": "Mostra que a escala de B maior com sétima menor tem exatamente as mesmas notas da escala de E maior, e que a diferença sonora vem do ponto de partida.",
+   "assuntos": [
+    "equivalência de escalas",
+    "modo como centro tonal",
+    "E maior e B mixolídio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Regra prática: I maior, V mixolídio, IV lídio",
+   "inicio": "11:03",
+   "fim": "11:37",
+   "resumo": "Resume a aplicação do 1-4-5: sobre o I toca-se a escala maior, sobre o V o mixolídio da mesma escala, e a progressão de blues e rock usa essa lógica.",
+   "assuntos": [
+    "progressão 1-4-5",
+    "escala maior",
+    "mixolídio",
+    "aplicação em blues e rock"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Ciclo das quintas: achar V e IV",
+   "inicio": "11:37",
+   "fim": "12:42",
+   "resumo": "Usa o ciclo das quintas para localizar o acorde V (uma posição à direita) e o IV (uma posição à esquerda) de qualquer tonalidade.",
+   "assuntos": [
+    "ciclo das quintas",
+    "acorde V",
+    "acorde IV"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Achar o mixolídio de outro tom pelo ciclo",
+   "inicio": "12:42",
+   "fim": "13:46",
+   "resumo": "Mostra como achar o mixolídio de qualquer tom perguntando qual é o V desse acorde: C mixolídio usa a escala de F maior e G mixolídio usa a de C maior.",
+   "assuntos": [
+    "mixolídio em outras tonalidades",
+    "ciclo das quintas",
+    "relação V e escala maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Acorde IV: Mi maior sobre A gera lídio",
+   "inicio": "13:46",
+   "fim": "14:55",
+   "resumo": "Ao chegar ao acorde de A (IV), o professor mantém a escala de Mi maior, o que gera A lídio. Explica que a lógica do mixolídio vale para qualquer modo.",
+   "assuntos": [
+    "lídio",
+    "acorde IV",
+    "escala maior sobre IV"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Sonoridade do lídio",
+   "inicio": "14:55",
+   "fim": "15:28",
+   "resumo": "Descreve o lídio como um som cinematográfico e associado ao estilo de David Gilmour, e afirma que o lídio é a escala maior com a quarta aumentada.",
+   "assuntos": [
+    "lídio",
+    "sonoridade",
+    "quarta aumentada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Notas cromáticas de passagem",
+   "inicio": "15:28",
+   "fim": "16:41",
+   "resumo": "Explica que notas fora da escala podem ser usadas como notas de passagem, sem pousar nelas, e recomenda usar com moderação.",
+   "assuntos": [
+    "cromatismo",
+    "notas de passagem",
+    "uso moderado"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S17",
+   "titulo": "Demonstração de cromatismo",
+   "inicio": "16:41",
+   "fim": "17:14",
+   "resumo": "Toca a escala de Mi maior com uma nota cromática extra, comparando com a versão sem cromatismo.",
+   "assuntos": [
+    "cromatismo",
+    "demonstração"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S18",
+   "titulo": "Resumo e foco em ouvir os modos",
+   "inicio": "17:14",
+   "fim": "18:18",
+   "resumo": "Resume a progressão em que a mesma escala soa diferente conforme o acorde de baixo. Aconselha aprender primeiro as escalas e não pensar em duas coisas ao mesmo tempo, e recomenda começar pelos três modos principais.",
+   "assuntos": [
+    "resumo",
+    "mentalidade de estudo",
+    "três modos principais"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S19",
+   "titulo": "Ouvir a tonalidade e pivotar o dedo",
+   "inicio": "18:18",
+   "fim": "18:50",
+   "resumo": "Orienta a treinar o ouvido para reconhecer o som de cada modo e depois trocar de modo movendo um dedo uma casa, sem depender de pensar na escala.",
+   "assuntos": [
+    "treino auditivo",
+    "trocar modo movendo um dedo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S20",
+   "titulo": "Despedida e referência às lições",
+   "inicio": "18:50",
+   "fim": "19:20",
+   "resumo": "Encerra o vídeo e indica as duas lições anteriores sobre modos para aprofundar o assunto.",
+   "assuntos": [
+    "despedida",
+    "lições anteriores"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Trabalhar a partir de uma forma de acorde",
+   "descricao": "Em vez de pensar na escala por todo o braço, use uma única forma de acorde (aqui a forma C do CAGED) como área de trabalho. Ele toca um Mi com a forma C, com o indicador pestanando a casa 4.",
+   "passos": [],
+   "timestamp": "02:53",
+   "nivel": "iniciante",
+   "tags": [
+    "caged",
+    "forma c",
+    "posição fixa"
+   ],
+   "id_global": "aHzmIWB0P00#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "CAGED como tomadas de referência",
+   "descricao": "As formas CAGED funcionam como pontos de referência visuais. Sobre a mesma área do braço é possível encaixar acordes, tríades, terças harmonizadas e escalas.",
+   "passos": [],
+   "timestamp": "03:57",
+   "nivel": "iniciante",
+   "tags": [
+    "caged",
+    "tríades",
+    "terças harmonizadas",
+    "referência visual"
+   ],
+   "id_global": "aHzmIWB0P00#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Escala de Mi maior na forma C",
+   "descricao": "Construa a escala de Mi maior usando a forma C do CAGED. O dedo mínimo na casa 7 da corda A toca Mi, e a partir dele a escala sobe e desce pela área da forma, com as sete notas e a oitava.",
+   "passos": [
+    "Posicione a forma C do CAGED com o indicador pestanando a casa 4.",
+    "Coloque o dedo mínimo na casa 7 da corda A (nota Mi).",
+    "Suba pelas notas da escala de Mi maior dentro da área da forma.",
+    "Depois desça de volta, passando pelas sete notas e pela oitava.",
+    "Repita até conseguir improvisar um trecho usando apenas essas notas."
+   ],
+   "timestamp": "04:30",
+   "nivel": "intermediario",
+   "tags": [
+    "escala maior",
+    "mi maior",
+    "forma c",
+    "caged"
+   ],
+   "id_global": "aHzmIWB0P00#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Aprender uma posição antes de espalhar pelo braço",
+   "descricao": "Aprender a escala maior em todo o braço é um bom objetivo, mas para entender como usá-la vale começar com uma única área e construir um solo inteiro só nela até ficar confortável.",
+   "passos": [],
+   "timestamp": "05:35",
+   "nivel": "iniciante",
+   "tags": [
+    "posição",
+    "estudo progressivo",
+    "solo em uma área"
+   ],
+   "id_global": "aHzmIWB0P00#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Trocar a escala a cada acorde pela raiz",
+   "descricao": "A lógica de trocar a escala para a tônica de cada acorde (E maior sobre E, B maior sobre B) não funciona. Sobre B7 a escala de B maior gera clash porque tem A# no lugar do A do acorde.",
+   "passos": [],
+   "timestamp": "06:42",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "b maior",
+    "b7",
+    "clash"
+   ],
+   "id_global": "aHzmIWB0P00#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Clash de B maior mesmo com acorde B maior",
+   "descricao": "Mesmo sobre um acorde de B maior (sem sétima) a escala de B maior soaria errada, porque a sétima maior (A#) não combina com a tríade de B. O problema não depende só da sétima do acorde.",
+   "passos": [],
+   "timestamp": "07:48",
+   "nivel": "intermediario",
+   "tags": [
+    "b maior",
+    "clash",
+    "sétima"
+   ],
+   "id_global": "aHzmIWB0P00#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "O acorde V pede resolução",
+   "descricao": "O acorde V é um acorde de tensão e, em geral, a escala que funciona sobre ele é o mixolídio, não a escala maior da tônica do V.",
+   "passos": [],
+   "timestamp": "07:48",
+   "nivel": "intermediario",
+   "tags": [
+    "acorde v",
+    "tensão",
+    "mixolídio"
+   ],
+   "id_global": "aHzmIWB0P00#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Existem sete modos e a ordem importa",
+   "descricao": "A escala maior é o primeiro modo entre os sete. O professor vai tratar de três modos usando a mesma escala de Mi maior, e a ordem dos modos é a referência para saber qual modo usar sobre cada grau.",
+   "passos": [],
+   "timestamp": "08:20",
+   "nivel": "iniciante",
+   "tags": [
+    "modos",
+    "ordem dos modos"
+   ],
+   "id_global": "aHzmIWB0P00#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Mixolídio é a escala maior com sétima menor",
+   "descricao": "O mixolídio se forma abaixando a sétima da escala maior. B mixolídio tem as notas B C# D# E F# G# A, e encaixa sobre B7 (B D# F# A).",
+   "passos": [],
+   "timestamp": "08:54",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "♭7",
+    "b7"
+   ],
+   "id_global": "aHzmIWB0P00#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Mesmas notas, centro tonal diferente",
+   "descricao": "A escala de E maior e a de B mixolídio contêm exatamente as mesmas notas. A diferença sonora vem do centro tonal: quem muda a cor é o ponto de partida (o acorde de baixo), não as notas.",
+   "passos": [],
+   "timestamp": "10:31",
+   "nivel": "intermediario",
+   "tags": [
+    "equivalência",
+    "mixolídio",
+    "centro tonal",
+    "e maior"
+   ],
+   "id_global": "aHzmIWB0P00#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S11",
+   "tipo": "dica",
+   "titulo": "Regra prática do 1-4-5 com modos",
+   "descricao": "Sobre o acorde I use a escala maior; sobre o V use o mixolídio da mesma escala; sobre o IV use o lídio da mesma escala. Isso vale para blues, rock e country.",
+   "passos": [],
+   "timestamp": "11:03",
+   "nivel": "intermediario",
+   "tags": [
+    "1-4-5",
+    "modos",
+    "progressão"
+   ],
+   "id_global": "aHzmIWB0P00#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Ciclo das quintas para achar V e IV",
+   "descricao": "No ciclo das quintas, o acorde V fica uma posição à direita da tônica e o IV uma posição à esquerda. Serve para qualquer tonalidade.",
+   "passos": [],
+   "timestamp": "11:37",
+   "nivel": "intermediario",
+   "tags": [
+    "ciclo das quintas",
+    "acorde v",
+    "acorde iv"
+   ],
+   "id_global": "aHzmIWB0P00#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S13",
+   "tipo": "exercicio",
+   "titulo": "Achar o mixolídio de um tom pelo acorde V",
+   "descricao": "Para tocar o mixolídio de qualquer tom, pergunte qual é o V desse acorde e toque a escala maior dele. C mixolídio usa a escala de F maior (F é o V de C? não: C é o V de F), e G mixolídio usa a escala de C maior.",
+   "passos": [
+    "Identifique o tom do acorde (ex.: C).",
+    "Ache o acorde que está uma posição à esquerda no ciclo das quintas (o IV de C é F).",
+    "Toque a escala maior do acorde que tem o tom pedido como quinto grau: para C mixolídio, toque F maior.",
+    "Confira que as notas são as mesmas de C maior com sétima menor."
+   ],
+   "timestamp": "12:42",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "ciclo das quintas",
+    "tonalidades"
+   ],
+   "id_global": "aHzmIWB0P00#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S14",
+   "tipo": "conceito",
+   "titulo": "Mi maior sobre A gera A lídio",
+   "descricao": "Quando a progressão vai ao acorde de A (IV em Mi), manter a escala de Mi maior produz A lídio. A mesma lógica do mixolídio se aplica a qualquer modo.",
+   "passos": [],
+   "timestamp": "13:46",
+   "nivel": "intermediario",
+   "tags": [
+    "lídio",
+    "acorde iv",
+    "a lídio"
+   ],
+   "id_global": "aHzmIWB0P00#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "Lídio é a escala maior com quarta aumentada",
+   "descricao": "O lídio tem as mesmas notas da escala maior com a quarta aumentada (#4). A sonoridade é luminosa e cinematográfica, diferente do maior.",
+   "passos": [],
+   "timestamp": "14:55",
+   "nivel": "intermediario",
+   "tags": [
+    "lídio",
+    "#4",
+    "quarta aumentada"
+   ],
+   "id_global": "aHzmIWB0P00#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S15",
+   "tipo": "recurso",
+   "titulo": "Ouvir lídio em músicas conhecidas",
+   "descricao": "O professor associa o lídio à sonoridade de David Gilmour e de trilhas de cinema. Ouvir essas referências ajuda a reconhecer o som do modo.",
+   "passos": [],
+   "timestamp": "14:55",
+   "nivel": "iniciante",
+   "tags": [
+    "lídio",
+    "referência auditiva",
+    "pink floyd"
+   ],
+   "id_global": "aHzmIWB0P00#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S16",
+   "tipo": "dica",
+   "titulo": "Cromatismo como nota de passagem",
+   "descricao": "Notas fora da escala podem ser usadas entre as notas da escala, tocadas rapidamente como passagem, sem pousar nelas. Deve ser usado com moderação, como um tempero forte.",
+   "passos": [],
+   "timestamp": "15:28",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "notas de passagem"
+   ],
+   "id_global": "aHzmIWB0P00#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S17",
+   "tipo": "exercicio",
+   "titulo": "Inserir uma nota cromática na escala maior",
+   "descricao": "Toque a escala de Mi maior e insira uma nota cromática de passagem entre dois graus, sem pousar nela, comparando o resultado com a escala sem a nota extra.",
+   "passos": [
+    "Toque a escala de Mi maior na forma C.",
+    "Escolha um intervalo de tom entre dois graus (ex.: entre F# e G#).",
+    "Passe rapidamente por uma nota cromática entre eles (ex.: G) sem parar nela.",
+    "Compare com a versão sem a nota extra e volte para a escala pura."
+   ],
+   "timestamp": "16:41",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "exercício",
+    "mi maior"
+   ],
+   "id_global": "aHzmIWB0P00#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S18",
+   "tipo": "mentalidade",
+   "titulo": "Não tentar dominar escala e lógica ao mesmo tempo",
+   "descricao": "Muita gente se confunde por tentar aprender a escala maior em todas as tonalidades e entender a lógica dos modos ao mesmo tempo. Primeiro domine as escalas e depois entenda a lógica.",
+   "passos": [],
+   "timestamp": "17:14",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "estudo",
+    "escalas"
+   ],
+   "id_global": "aHzmIWB0P00#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S18",
+   "tipo": "rotina_estudo",
+   "titulo": "Treinar os três modos principais pelo ouvido",
+   "descricao": "Comece pelos três modos mais usados (jônio, mixolídio e lídio) e treine o ouvido para reconhecer a sonoridade de cada um antes de pensar na escala.",
+   "passos": [
+    "Toque um acorde de Mi maior sustentado.",
+    "Toque a escala de Mi maior e preste atenção na sonoridade de jônio.",
+    "Troque o acorde de fundo para A (IV) e toque a mesma escala, notando o lídio.",
+    "Troque o fundo para B7 (V) e toque a mesma escala, notando o mixolídio.",
+    "Repita até reconhecer cada modo sem olhar a escala."
+   ],
+   "timestamp": "17:46",
+   "nivel": "intermediario",
+   "tags": [
+    "treino auditivo",
+    "jônio",
+    "lídio",
+    "mixolídio"
+   ],
+   "id_global": "aHzmIWB0P00#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S19",
+   "tipo": "dica",
+   "titulo": "Ouvir a tonalidade antes de pensar na escala",
+   "descricao": "Quando o ouvido já reconhece o som do modo, a pessoa não precisa pensar na escala. Basta ouvir o modo na mente e tocá-lo.",
+   "passos": [],
+   "timestamp": "18:18",
+   "nivel": "intermediario",
+   "tags": [
+    "ouvido",
+    "improvisação",
+    "modos"
+   ],
+   "id_global": "aHzmIWB0P00#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S19",
+   "tipo": "conceito",
+   "titulo": "Trocar de modo movendo um dedo uma casa",
+   "descricao": "Como os modos da mesma escala têm uma nota diferente, trocar de modo é como mover um dedo uma casa para cima ou para baixo, mantendo o resto da posição.",
+   "passos": [],
+   "timestamp": "18:18",
+   "nivel": "intermediario",
+   "tags": [
+    "pivô",
+    "troca de modo",
+    "uma nota"
+   ],
+   "id_global": "aHzmIWB0P00#I22"
+  }
+ ],
+ "artistas_citados": [
+  "David Gilmour",
+  "John Williams"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Aula EP408 do canal sobre o ciclo das quintas",
+  "Duas aulas sobre modos (parte 1 e parte 2) do canal, a parte 1 usa o tom de Sol",
+  "Backing track (jam track) gravada pelo professor"
+ ],
+ "observacoes": "Legenda automática com erros: jam track aparece como jab track, David Gilmour como david gilmore, e a forma C como cowboy cord seat. O professor cita que a pestana está na casa 4 em um trecho com transcrição confusa. Há um erro no vídeo: a corda do dedo mínimo na casa 7 é a corda A (5ª corda), e não a corda E grave, pois a casa 7 da corda A é Mi. Também há uma afirmação incorreta no trecho sobre lídio: o professor diz que o lídio tem a quinta bemol ou a quarta aumentada, mas o lídio é apenas a escala maior com quarta aumentada (#4). Nomes de aulas e números de lições aparecem na tela, mas não na transcrição. Conteúdo visual de tela (diagramas de escala e posição) não está disponível, o que dificulta acompanhar as posições das notas.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00363,
+  "via": "api"
+ }
+}

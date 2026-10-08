@@ -1,0 +1,21 @@
+{
+ "C01.3": {
+  "status": "ok",
+  "modelo": "claude-sonnet-5-5",
+  "effort": "medium",
+  "ideias_principais": 35,
+  "ideias_secundarias": 14,
+  "itens": 14,
+  "fora_do_lugar": 2,
+  "tentativas": 1,
+  "custo_usd": 0.1462,
+  "segundos": 56,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 15484,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 8426
+  },
+  "gerado_em": "2026-10-08T07:52:52"
+ }
+}

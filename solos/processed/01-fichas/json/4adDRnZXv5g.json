@@ -1,0 +1,456 @@
+{
+ "fonte_id": "4adDRnZXv5g",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+  "autor": "Daniel Seriff",
+  "url": "https://www.youtube.com/watch?v=4adDRnZXv5g",
+  "idioma": "en",
+  "duracao": "9m 13s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/4adDRnZXv5g--open-up-the-fretboard-with-the-3-2-system.md"
+ },
+ "resumo": "Aula do Daniel Seriff que apresenta o 'sistema 3-2', um padrão único de pentatônica maior que se repete em formato de 3 notas numa corda seguidas de 2 notas na corda seguinte, sem trocar de casa. Com ele, o aluno toca a escala por todo o braço com um só padrão, em vez de decorar várias formas. O exemplo é em A (A B C# E F#) sobre uma backing track de I-IV. Indicado para guitarristas intermediários que querem soar mais melódicos e menos 'escalares'.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explica a lógica do padrão com exemplos concretos (notas, cordas, casas) e mostra a transposição pelo braço. Perde pontos por depender do diagrama externo e de algumas explicações faladas de forma pouco clara, e por ter bastante conteúdo de patrocínio."
+ },
+ "assuntos_principais": [
+  "pentatônica maior",
+  "sistema 3-2",
+  "padrão diagonal pelo braço",
+  "deslocamento na corda B",
+  "transposição de licks",
+  "notas da tonalidade de A"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura: o problema das cinco formas da pentatônica",
+   "inicio": "00:00",
+   "fim": "00:34",
+   "resumo": "Apresenta o problema de decorar as cinco formas (boxes) da pentatônica menor e promete um padrão único.",
+   "assuntos": [
+    "cinco boxes da pentatônica",
+    "padrão único"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Apresentação do autor e do sistema",
+   "inicio": "00:34",
+   "fim": "01:08",
+   "resumo": "O autor se apresenta e anuncia que o sistema 3-2 dá acesso às notas da pentatônica maior.",
+   "assuntos": [
+    "apresentação do instrutor",
+    "sistema 3-2"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica maior é mais difícil e backing track em A",
+   "inicio": "01:08",
+   "fim": "01:42",
+   "resumo": "Observa que a pentatônica maior é mais difícil de soar bem que a menor e apresenta a backing track de A para D sobre A.",
+   "assuntos": [
+    "pentatônica maior vs menor",
+    "backing track I-IV",
+    "tonalidade de A"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Como montar o sistema 3-2",
+   "inicio": "01:42",
+   "fim": "02:52",
+   "resumo": "Explica o conjunto de 3 notas (tons inteiros) a partir da tônica A na corda E grave e o conjunto de 2 notas na corda seguinte, que são o 5 e o 6 da escala.",
+   "assuntos": [
+    "conjunto de 3 notas",
+    "conjunto de 2 notas",
+    "graus 1 2 3 5 6"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Construindo a forma de três oitavas",
+   "inicio": "02:52",
+   "fim": "04:00",
+   "resumo": "Mostra como o padrão se repete nas cordas seguintes e como ajustar a corda B por causa da afinação.",
+   "assuntos": [
+    "repetição do padrão",
+    "afinação padrão",
+    "deslocamento na corda B"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Demonstração tocada do padrão",
+   "inicio": "04:00",
+   "fim": "04:51",
+   "resumo": "Toca o padrão de três oitavas como exemplo sonoro.",
+   "assuntos": [
+    "demonstração"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S7",
+   "titulo": "Patrocínio do curso Diagonal Pentatonic Method",
+   "inicio": "04:51",
+   "fim": "05:58",
+   "resumo": "Promove o curso do autor com exercícios e licks e um cupom de desconto.",
+   "assuntos": [
+    "patrocínio"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S8",
+   "titulo": "Copiar e colar licks entre posições",
+   "inicio": "05:58",
+   "fim": "06:38",
+   "resumo": "Explica que um lick criado num conjunto 3-2 pode ser transposto para os outros conjuntos de mesma forma.",
+   "assuntos": [
+    "transposição de licks",
+    "posições equivalentes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Encontrando a tônica A em outras posições",
+   "inicio": "06:38",
+   "fim": "07:47",
+   "resumo": "Mostra a tônica A na 12ª casa da corda A e na 2ª casa da corda G, e monta o padrão a partir dali.",
+   "assuntos": [
+    "localizar a tônica A",
+    "padrão a partir da corda G",
+    "posições alternativas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Subindo até a 17ª casa da corda E aguda",
+   "inicio": "07:47",
+   "fim": "08:20",
+   "resumo": "Mostra como subir o padrão até um A na 17ª casa da corda E aguda, mantendo a alternância 3-2.",
+   "assuntos": [
+    "subida pelo braço",
+    "A na 17ª casa"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Descendo o padrão e cuidado na corda B",
+   "inicio": "08:20",
+   "fim": "08:53",
+   "resumo": "Descreve a descida alternando 3 e 2 notas e alerta sobre a passagem da corda B para a G.",
+   "assuntos": [
+    "descida do padrão",
+    "passagem B-G",
+    "alternância 3-2"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Encerramento e chamada para outro vídeo",
+   "inicio": "08:53",
+   "fim": "09:13",
+   "resumo": "Resume a ideia e indica um vídeo sobre simplificar as formas CAGED.",
+   "assuntos": [
+    "encerramento",
+    "CAGED"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Um único padrão no lugar de cinco boxes",
+   "descricao": "O sistema 3-2 usa um só padrão de 3 notas seguidas de 2 notas, que se repete pelo braço, no lugar de decorar as cinco boxes da pentatônica menor.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "boxes",
+    "padrão único"
+   ],
+   "id_global": "4adDRnZXv5g#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Pentatônica maior exige mais refinamento",
+   "descricao": "A pentatônica maior costuma soar menos bem que a menor porque exige mais refinamento na escolha das notas. Vale treinar a maior de forma específica.",
+   "passos": [],
+   "timestamp": "01:08",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "fraseado"
+   ],
+   "id_global": "4adDRnZXv5g#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "recurso",
+   "titulo": "Backing track de A para D sobre A",
+   "descricao": "A backing track usa a progressão A para D sobre o acorde de A (I-IV), uma das mais comuns, e serve para treinar a pentatônica maior de A.",
+   "passos": [],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "progressão I-IV",
+    "tonalidade de A"
+   ],
+   "id_global": "4adDRnZXv5g#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Começar pela tônica A na 5ª casa da corda E grave",
+   "descricao": "Para montar o sistema em A, toque a tônica A na 5ª casa da corda E grave, que é o ponto de partida do padrão.",
+   "passos": [],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "tônica",
+    "corda E grave",
+    "5ª casa"
+   ],
+   "id_global": "4adDRnZXv5g#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Conjunto de 3 notas = graus 1, 2 e 3 da pentatônica maior",
+   "descricao": "O primeiro conjunto tem três notas separadas por tons inteiros, correspondentes aos graus 1, 2 e 3 da pentatônica maior. Em A são A, B e C#, todos na corda E grave (casas 5, 7 e 9).",
+   "passos": [],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "3 notas",
+    "graus 1-2-3",
+    "notas-alvo",
+    "tons inteiros"
+   ],
+   "id_global": "4adDRnZXv5g#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Conjunto de 2 notas = graus 5 e 6 da pentatônica maior",
+   "descricao": "Na corda seguinte, o conjunto de duas notas corresponde ao 5 e ao 6 da pentatônica maior. Em A são E e F#, na corda A (casas 7 e 9), sem trocar de posição da mão.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "iniciante",
+   "tags": [
+    "2 notas",
+    "graus 5-6",
+    "sem troca de casa"
+   ],
+   "id_global": "4adDRnZXv5g#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Montar a forma de três oitavas a partir de um ponto",
+   "descricao": "Monte a forma de três oitavas alternando 3 e 2 notas por todas as cordas a partir de um ponto fixo, reproduzindo o padrão 3-2-3-2-3-2.",
+   "passos": [
+    "Escolha a tônica A na 5ª casa da corda E grave.",
+    "Toque as três notas A, B e C# na corda E grave.",
+    "Passe para a corda A e toque as duas notas E e F# na mesma região.",
+    "Na corda D, repita o conjunto de 3 notas (A, B, C#) uma oitava acima.",
+    "Na corda G, toque o conjunto de 2 notas (E e F#).",
+    "Na corda B, desloque o conjunto de 3 notas uma casa em direção ao corpo e siga a alternância.",
+    "Na corda E aguda, finalize com o conjunto de 2 notas."
+   ],
+   "timestamp": "02:52",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício",
+    "forma de três oitavas",
+    "alternância 3-2"
+   ],
+   "id_global": "4adDRnZXv5g#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "O padrão 3-2 repete o mesmo formato em qualquer ponto do braço",
+   "descricao": "O padrão 3-2 mantém o mesmo formato e a mesma disposição de notas em qualquer tônica do braço, então pode ser deslocado para qualquer região, como a 'diagonal pentatônica'.",
+   "passos": [],
+   "timestamp": "02:52",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "diagonal pentatônica",
+    "forma repetida"
+   ],
+   "id_global": "4adDRnZXv5g#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "erro_comum",
+   "titulo": "Esquecer o deslocamento de uma casa na corda B",
+   "descricao": "Por causa da afinação padrão, a corda B precisa ser deslocada uma casa em direção ao corpo para manter a alternância 3-2. Sem esse ajuste, o padrão se quebra.",
+   "passos": [],
+   "timestamp": "03:27",
+   "nivel": "intermediario",
+   "tags": [
+    "corda B",
+    "afinação",
+    "deslocamento"
+   ],
+   "id_global": "4adDRnZXv5g#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S8",
+   "tipo": "frase_lick",
+   "titulo": "Transpor licks entre os conjuntos equivalentes",
+   "descricao": "Um lick criado em um dos conjuntos 3-2 pode ser copiado e colado em outro conjunto de mesma forma, em outra região do braço, sem mudar a digitação.",
+   "passos": [],
+   "timestamp": "05:58",
+   "nivel": "intermediario",
+   "tags": [
+    "lick",
+    "transposição",
+    "posições equivalentes"
+   ],
+   "id_global": "4adDRnZXv5g#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S9",
+   "tipo": "dica",
+   "titulo": "Localizar a tônica A em várias posições",
+   "descricao": "Use as referências de A para encontrar a posição do padrão: A na 12ª casa da corda A, na 2ª casa da corda G e na 17ª casa da corda E aguda.",
+   "passos": [],
+   "timestamp": "06:38",
+   "nivel": "iniciante",
+   "tags": [
+    "tônica",
+    "referência no braço",
+    "A na 12ª casa"
+   ],
+   "id_global": "4adDRnZXv5g#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Padrão 3-2 a partir da 2ª casa da corda G",
+   "descricao": "Comece na tônica A na 2ª casa da corda G, toque três notas nessa corda, suba para a corda B (com o deslocamento de uma casa) e finalize com três notas na corda E aguda.",
+   "passos": [
+    "Toque A na 2ª casa da corda G e as duas notas seguintes do conjunto de 3.",
+    "Suba para a corda B, deslocando o conjunto uma casa em direção ao corpo.",
+    "Na corda E aguda, toque o conjunto de 3 notas finalizando a sequência."
+   ],
+   "timestamp": "07:12",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício",
+    "corda G",
+    "alternância 3-2"
+   ],
+   "id_global": "4adDRnZXv5g#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Subir o padrão até a 17ª casa da corda E aguda",
+   "descricao": "A partir de uma posição inicial, suba o padrão até o A na 17ª casa da corda E aguda, mantendo a alternância 3 e 2 notas.",
+   "passos": [
+    "Parta de um A em posição conhecida.",
+    "Siga a alternância 3-2 nas cordas ascendentes.",
+    "Chegue ao A na 17ª casa da corda E aguda."
+   ],
+   "timestamp": "07:47",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício",
+    "subida",
+    "17ª casa"
+   ],
+   "id_global": "4adDRnZXv5g#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S11",
+   "tipo": "exercicio",
+   "titulo": "Descer o padrão alternando 3 e 2 notas",
+   "descricao": "A descida segue o mesmo padrão invertido: na corda B fica um conjunto de 2 notas, depois 3 na G, 2 na D, 3 na A e 2 na E grave.",
+   "passos": [
+    "Comece pelo conjunto de 2 notas na corda B.",
+    "Passe para o conjunto de 3 notas na corda G.",
+    "Toque 2 notas na corda D.",
+    "Toque 3 notas na corda A, que pode incluir a corda solta.",
+    "Finalize com 2 notas na corda E grave."
+   ],
+   "timestamp": "08:20",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício",
+    "descida",
+    "alternância 3-2"
+   ],
+   "id_global": "4adDRnZXv5g#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S11",
+   "tipo": "erro_comum",
+   "titulo": "Cuidado com a passagem da corda B para a G",
+   "descricao": "A passagem da corda B para a G é o ponto mais fácil de errar, pois é nela que o padrão muda de 2 para 3 notas. Atenção nesse cruzamento ao descer.",
+   "passos": [],
+   "timestamp": "08:20",
+   "nivel": "intermediario",
+   "tags": [
+    "corda B",
+    "passagem",
+    "alternância 3-2"
+   ],
+   "id_global": "4adDRnZXv5g#I15"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Diagonal Pentatonic Method (curso do Daniel Seriff, mencionado como patrocínio)",
+  "Diagramas do vídeo em danielseriff.com/3-2system",
+  "Outro vídeo do canal sobre simplificar as formas CAGED com três padrões e escalas de sete notas"
+ ],
+ "observacoes": "Legendas automáticas: '32 system' e '3-2 system' é o mesmo sistema; 'twoot set' e 'two note set' são o mesmo conceito; 'copy and paced' = copy and paste; 'sink your ear' provavelmente = sync your ear; 'Cshar' = C#; 'a to D over a' provavelmente = backing track I-IV, A para D sobre A; 'three two note' em 07:47 provavelmente = three note set. A ideia de ajustar a corda B é descrita só em palavras e depende do diagrama externo para visualização. O vídeo não traz tablatura nem diagramas, então as casas citadas foram calculadas a partir da tonalidade de A. Trechos de patrocínio e demonstração não geram ideias.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:39:32",
+  "tentativas": 1,
+  "custo_usd": 0.00307,
+  "via": "api"
+ }
+}

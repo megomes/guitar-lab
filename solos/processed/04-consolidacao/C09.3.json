@@ -1,0 +1,795 @@
+{
+ "subcategoria": "C09.3",
+ "visao_geral": "A subcategoria ensina a seguir a harmonia trocando o material melódico a cada acorde. O método central é tocar a pentatônica de mesmo nome do acorde: maior sobre acorde maior, menor sobre acorde menor. Isso funciona porque cada pentatônica contém a tríade do acorde. Para soar conectado, o aluno aprende a achar a nova pentatônica na mesma região do braço, a mudar o mínimo de notas, a trocar só a nota-alvo e a lidar com acordes emprestados e modulações.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Identificar os acordes de cada compasso",
+   "descricao": "Antes de seguir as trocas, descubra a harmonia pelas informações da backing track ou por cifras em sites como Ultimate Guitar. Ouça a faixa (ex.: Am alternando com Fm) e confirme cada acorde tocando a tríade por cima.",
+   "passos": [
+    "Procure a cifra ou a informação da backing track",
+    "Ouça e marque o acorde de cada compasso",
+    "Confirme tocando a tríade de cada acorde sobre a faixa"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I14",
+    "-KZSGF0gY6E#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "dica",
+   "titulo": "Ouvir onde caem as trocas antes de solar",
+   "descricao": "Use backing tracks lentas (ex.: Am-Dm-Em) para ouvir cada mudança e pensar nas notas que servem nela. Procure as trocas mais saborosas, como acordes de passagem e mudanças de cor, porque elas rendem momentos especiais no solo. Em 'The Weight' (A-C#m-D-A, I-iii-IV-I em Lá), cada acorde dura dois tempos e o A volta antecipado; perceba isso antes de improvisar com a pentatônica maior diagonal.",
+   "passos": [
+    "Ouça a progressão sem tocar",
+    "Conte quantos tempos dura cada acorde",
+    "Marque antecipações e acordes de passagem",
+    "Só depois improvise sobre a faixa"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "On_Ho3azaLk#I06",
+    "On_Ho3azaLk#I11",
+    "kkr107pBAAs#I04",
+    "lEZzseFo6OQ#I02"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #17, a legenda diz 'C#', mas o acorde é C#m."
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Chord chasing: tocar as mudanças",
+   "descricao": "Chord chasing é perseguir cada acorde da progressão com a pentatônica, maior ou menor, da tônica dele, em vez de usar uma só escala na música inteira. É técnica comum entre músicos de sessão, de country e de rock, e Jens Larsen a considera a habilidade central do improvisador, mais útil do que nomear modos. Funciona bem com acordes lentos e fica difícil com trocas rápidas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "KorP9lq1voU#I23",
+    "14UZEproJ-A#I17",
+    "Xs2umOucpSM#I16",
+    "iWm_dxEszu0#I03"
+   ],
+   "divergencias": "Andrew Clarke (#122) e Seriff (#152) defendem que a escala da tonalidade basta ou que pequenas mudanças são preferíveis a perseguir acordes pelo braço.",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "dica",
+   "titulo": "Pentatônica de mesmo nome sobre cada acorde",
+   "descricao": "Sobre acorde maior, toque a pentatônica maior da mesma tônica; sobre acorde menor, a pentatônica menor. Exemplos: Em → E menor pentatônica, F → F maior pentatônica, G → G maior pentatônica. Numa faixa com G e Em, use G maior (ou G pentatônica maior) no G e E pentatônica menor no Em.",
+   "passos": [
+    "Identifique a tônica e a qualidade do acorde",
+    "Maior → pentatônica maior; menor → pentatônica menor",
+    "Troque de pentatônica junto com o acorde"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I03",
+    "z1YGMPsz-rU#I17",
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I08",
+    "guitarlessons--how-to-play-a-guitar-solo-a62e48#I06",
+    "Xs2umOucpSM#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "A pentatônica contém a tríade do acorde",
+   "descricao": "Na pentatônica maior (1-2-3-5-6) está a tríade maior 1-3-5; na menor (1-♭3-4-5-♭7) está a tríade menor 1-♭3-5. Três das cinco notas são notas do acorde, e só 2 e 6 (ou 4 e ♭7) ficam de fora; por isso tocar chord tones e tocar a pentatônica certa são o mesmo princípio. Exemplo: a C pentatônica menor (C E♭ F G B♭) contém todo o Cm7 (C E♭ G B♭).",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I01",
+    "9xHvDRP5Yds#I07",
+    "9xHvDRP5Yds#I13",
+    "Ak_iM6H9rxE#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "mentalidade",
+   "titulo": "A regra funciona sem saber a análise",
+   "descricao": "Não é preciso saber se o acorde é empréstimo, dominante secundária ou napolitano para usar a pentatônica de mesmo nome. A referência é o que soa bem; a teoria ajuda, mas o mínimo já funciona.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I02",
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Várias pentatônicas dentro do mesmo campo harmônico",
+   "descricao": "Uma tonalidade não se resume a uma pentatônica: cada acorde do campo pode ter a sua. Em Dó, as pentatônicas menores de Dm (D F G A C), Em (E G A B D) e Am (A C D E G) só têm notas naturais e cabem no tom. Pela mesma regra, cabem também as maiores de C, F e G.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yDiWrTsQ1tc#I04",
+    "iUZwNSDpV_Q#I14",
+    "iUZwNSDpV_Q#I15",
+    "iUZwNSDpV_Q#I16"
+   ],
+   "divergencias": "",
+   "correcoes": "Pela regra das notas naturais (#109), I, IV e V também servem, com as pentatônicas maiores de C (C D E G A), F (F G A C D) e G (G A B D E)."
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Quantas pentatônicas há em Dó maior?",
+   "descricao": "Estime e depois conte as pentatônicas do campo de Dó. Os acordes maiores (C, F, G) dão pentatônicas maiores e os menores (Dm, Em, Am) dão pentatônicas menores; o Bm7♭5 fica sem pentatônica pela regra. São seis nomes, mas só três conjuntos de notas, porque C=Am, F=Dm e G=Em.",
+   "passos": [
+    "Escreva o campo: C Dm Em F G Am Bm7♭5",
+    "Anote seu palpite",
+    "Monte a pentatônica de cada grau",
+    "Compare as notas e ache as repetidas"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "yDiWrTsQ1tc#I05"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte lista o VII como 'B'; no campo maior ele é Bm7♭5 (meio-diminuto)."
+  },
+  {
+   "id": "K09",
+   "tipo": "erro_comum",
+   "titulo": "Trocar a escala maior/menor inteira a cada acorde",
+   "descricao": "Aplicar a escala diatônica completa de cada acorde muda o tom a cada troca e pode soar errado se não for intencional; isso já é abordagem modal. Para seguir os acordes sem sair do tom, use a pentatônica de cada acorde. Em pop, rock e jazz, ela costuma soar melhor sobre os acordes diatônicos do que a própria escala-mãe.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "yDiWrTsQ1tc#I16",
+    "yDiWrTsQ1tc#I17",
+    "en--pentatonic_scale-d2efb3#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Devagar, com frases curtas por acorde",
+   "descricao": "Improvise devagar e com poucas notas, de duas a quatro por acorde, para ter tempo de trocar a pentatônica e ouvir se a troca soa coerente. O objetivo inicial é confirmar que você acompanha a harmonia, não fazer algo bonito. Pare as frases em notas do acorde: raiz, 3ª ou 5ª.",
+   "passos": [
+    "Escolha uma progressão diatônica curta",
+    "Toque 2 a 4 notas da pentatônica do acorde",
+    "Pare numa nota do acorde",
+    "Passe ao próximo acorde e repita",
+    "Acelere só quando a troca soar natural"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I11",
+    "9xHvDRP5Yds#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "rotina_estudo",
+   "titulo": "Isolar cada acorde e depois juntar aos poucos",
+   "descricao": "Primeiro estude cada pentatônica separada, sobre uma backing track de um acorde só (ex.: Cm7, Fm7, Ab7, G7), para entender que notas combinam com ele. Depois junte dois acordes, alternando a pentatônica na troca. Em seguida, passe a três e quatro acordes e, por fim, una tudo numa única região do braço.",
+   "passos": [
+    "Toque sobre cada acorde isolado em loop",
+    "Junte dois acordes e troque a pentatônica",
+    "Repita até a troca soar natural",
+    "Passe para três e depois quatro acordes",
+    "Unifique as posições numa região"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "Ak_iM6H9rxE#I08",
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I10",
+    "Xs2umOucpSM#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "exercicio",
+   "titulo": "Escrever as notas antes de tocar",
+   "descricao": "Quando a troca não sai naturalmente, escreva no papel as notas da pentatônica do acorde atual e as do próximo. Depois localize a nota de baixo no braço e monte a posição a partir dela.",
+   "passos": [
+    "Escreva a pentatônica do acorde atual",
+    "Escreva a pentatônica do próximo acorde",
+    "Ache a nota de baixo no braço",
+    "Monte a posição e toque"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Progressões diatônicas com pentatônica por acorde",
+   "descricao": "Troque a pentatônica a cada acorde, mirando as tônicas e mantendo a linha fluindo, sem recomeçar do zero a cada acorde. Popcorn Em-C-G-D: E menor, C, G e D maiores. C-F-Am-G (ou C-Am-F-G): C maior, F maior, A menor e G maior. Ré-Lá-Bm-Sol: D, A, Bm e G.",
+   "passos": [
+    "Escolha uma das progressões e uma backing track",
+    "Sobre cada acorde, use a pentatônica de mesmo nome",
+    "Mire a tônica do acorde (C no C, A no Am...)",
+    "Mantenha a região do braço próxima",
+    "Compare com tocar só a pentatônica do tom"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I08",
+    "NbNH_C3QAS0#I23",
+    "yDiWrTsQ1tc#I18",
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I09",
+    "Xs2umOucpSM#I02",
+    "Xs2umOucpSM#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Mover a forma até a tônica de cada acorde",
+   "descricao": "O essencial é saber onde está a tônica no braço; com isso, qualquer pentatônica fica a poucos movimentos (até A♭m ou E♭). Por exemplo, mova a forma de A (casa 5) para D (casa 10) na corda E grave. Em Friend of the Devil, use a forma com raiz no indicador na corda E aguda: G casa 3, C casa 8 e D casa 10 (maiores) e Am casa 5 (menor).",
+   "passos": [
+    "Localize a tônica do acorde na corda E",
+    "Desloque a forma até ela",
+    "Toque trechos curtos nas cordas agudas",
+    "Repita a cada troca mantendo o ritmo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "KorP9lq1voU#I31",
+    "9xHvDRP5Yds#I10",
+    "Xs2umOucpSM#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "dica",
+   "titulo": "Achar a próxima pentatônica na mesma região",
+   "descricao": "Procure a pentatônica do acorde seguinte nas posições vizinhas, sem saltar pelo braço; conhecer os cinco shapes ajuda. Escolha formas próximas do acorde anterior e do seguinte, para manter a conexão melódica e facilitar a condução. Sair da posição é aceitável quando a nota necessária fica longe, como o F na casa 1 da corda E grave.",
+   "passos": [
+    "Identifique a pentatônica atual",
+    "Ache a do próximo acorde no shape mais próximo",
+    "Mantenha a mão na mesma região"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I05",
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I09",
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I02",
+    "fhtaQFOkLXc#I14",
+    "-KZSGF0gY6E#I16",
+    "NbNH_C3QAS0#I28"
+   ],
+   "divergencias": "Zillio insiste em não pular de posição; Steve Stine (#67) aceita sair da posição para alcançar as notas do F.",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Pentatônicas diatônicas diferem em uma nota",
+   "descricao": "Dentro de um tom, as pentatônicas dos acordes costumam mudar uma única nota, e todas ficam dentro da escala-mãe (ex.: as sete notas de Ré maior). Em menor (E G A B D) → C maior (C D E G A): B vira C. Em menor → D maior (D E F# A B): G vira F#. Am (A C D E G) → G maior (G A B D E): C vira B, a 3ª de G.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I06",
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I07",
+    "NbNH_C3QAS0#I22",
+    "W96yUcOEub0#I22",
+    "W96yUcOEub0#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "As notas-alvo mudam a cada acorde",
+   "descricao": "Cada acorde tem seus próprios alvos: mesmo na mesma pentatônica, a 3ª do novo acorde cai em outra casa, então é preciso localizá-los a cada troca. Saber onde estão as notas de cada acorde dá trabalho no começo e fica intuitivo com a prática. Exemplo: o G está um tom abaixo do A e pertence à pentatônica menor de A.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "mtRKsf1Y5cw#I14",
+    "vPIebPDBizs#I14",
+    "lJRzTqOf1ro#I17",
+    "mtRKsf1Y5cw#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "#74/#75 falam em pentatônica 'maior' de A, mas o G só existe na menor (A C D E G); a maior (A B C# E F#) tem apenas B e D do acorde G."
+  },
+  {
+   "id": "K18",
+   "tipo": "dica",
+   "titulo": "Mudar o alvo, não a posição",
+   "descricao": "Mantenha a forma atual e, na troca, dirija a frase para a tônica ou outra nota do novo acorde. Assim a linha ganha direção sem deslocar a mão. Exemplos: com a penta de Am sobre Am-G-F-E, termine cada frase numa nota segura do acorde; com a de Gm sobre Gm-Cm-E♭-F, termine em F ou C no acorde de F; resolva em G sobre o G e em E sobre Em/Am para escurecer.",
+   "passos": [
+    "Fique num shape da pentatônica",
+    "Ache a nota-alvo do próximo acorde dentro dele",
+    "Termine a frase nela na hora da troca",
+    "Repita variando o alvo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "SYE8tDSLU0k#I04",
+    "MfrAepqfv2g#I10",
+    "W96yUcOEub0#I15",
+    "Xs2umOucpSM#I14"
+   ],
+   "divergencias": "Bradley Hall (K22) prefere deslocar o centro para o shape do novo acorde; Steve Stine aqui prefere manter a posição.",
+   "correcoes": "Em #20, o Lá do acorde de F não está na pentatônica de Gm (G B♭ C D F); só F e C estão."
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Alternar notas de acordes dentro de um shape",
+   "descricao": "Num mesmo shape, alterne entre as notas de cada acorde. Em Sol maior, foque G-B-D no G e E-G-B quando vier o Em. Com a pentatônica de A na posição 2, percorra as notas de G, D e A em ciclo.",
+   "passos": [
+    "Escolha um shape e uma backing track",
+    "Toque as notas do primeiro acorde",
+    "Mude para as do acorde seguinte sem sair do shape",
+    "Repita o ciclo até fluir"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "xKbtQM-qzSM#I09",
+    "mtRKsf1Y5cw#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Trocas com shapes CAGED e mini shapes",
+   "descricao": "Em Sol, alterne o mini shape de G (I) com o de C (IV, forma de D) e toque uma nota do acorde novo na troca, completando com pentatônica. Em Ré maior (4 compassos) → Fá maior (4 compassos), use a forma C da pentatônica de Ré e a forma D da de Fá, aproveitando as notas comuns. Depois amplie para V, vi, ii, iii e VII.",
+   "passos": [
+    "Ouça a faixa e marque as trocas",
+    "Toque o mini shape do acorde atual",
+    "Na troca, acerte uma nota do novo acorde",
+    "Preencha com pentatônica",
+    "Amplie para outros graus"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "pickupmusic--soloing-with-caged-90d614#I05",
+    "wXZGcgYysNs#I13",
+    "wXZGcgYysNs#I16",
+    "wXZGcgYysNs#I08",
+    "wXZGcgYysNs#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "exercicio",
+   "titulo": "Ligar as notas do acorde com escala relacionada",
+   "descricao": "Toque uma nota do acorde por troca e preencha o caminho com uma escala relacionada. Para Abmaj, use a escala ou a pentatônica maior de Ab; para Cm, C eólio ou C pentatônica menor. Se souber a escala do trecho (ex.: Lá maior), sobreponha um padrão dela para unir os tons de acorde.",
+   "passos": [
+    "Escolha uma nota do acorde por troca",
+    "Ligue-as com a escala relacionada",
+    "Decida pelo ouvido o que soa bem"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I06",
+    "itLSHk5jnTI#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte #28 escreve 'A maior' para o acorde Abmaj; o correto é Ab maior."
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Sobrepor a pentatônica ao desenho do acorde",
+   "descricao": "Monte o E7 (E G# B D) e visualize por cima a pentatônica de Am (A C D E G). E e D coincidem com o acorde; G# e B ficam de fora, e o G soa como ♭3 bluesy contra o G#.",
+   "passos": [
+    "Toque e fixe a imagem do E7",
+    "Visualize a penta de Am por cima",
+    "Marque as notas comuns",
+    "Marque as notas do acorde que faltam"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "o1qXU6Nm_d4#I09",
+    "I2jAT4btppU#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "O centro do solo é móvel",
+   "descricao": "O 'home' do solo não é fixo na tonalidade: ele se desloca no braço conforme o acorde vigente. Em Em, por exemplo, o centro passa para um shape de B quando o acorde muda para B.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "-KZSGF0gY6E#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "De Em para B deslocando o centro",
+   "descricao": "Toque o riff em Em com a caixa de pentatônica menor de E. Quando entrar o B, vá para um shape de B com raiz na casa 14 da corda A, use as notas do acorde e as vizinhas e volte a Em quando ele retornar.",
+   "passos": [
+    "Riff em Em na caixa da penta menor",
+    "No B, shape com raiz na casa 14 da corda A",
+    "Use as chord tones de B e notas vizinhas",
+    "Volte ao centro de Em"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "-KZSGF0gY6E#I15"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte fala em shape de Bm; se o acorde for B maior (V em Em), o D da penta de Bm choca com o D#, então priorize as notas do acorde (B D# F#)."
+  },
+  {
+   "id": "K25",
+   "tipo": "erro_comum",
+   "titulo": "Despejar o shape inteiro da nova pentatônica",
+   "descricao": "Ao chegar no G, rodar o shape inteiro da pentatônica de Sol maior pode soar pior do que ficar na escala do tom, porque a frase perde direção. Trocar de escala não substitui escolher a nota de chegada.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "W96yUcOEub0#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "erro_comum",
+   "titulo": "Tratar cada acorde como ilha isolada",
+   "descricao": "Trocar a escala a cada acorde é uma boa saída inicial quando não se sabe que escala serve (ex.: Green Dolphin Street), mas gera frases isoladas e desconectadas. Use essa troca para montar vocabulário por acorde e depois ligue as frases através das mudanças.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "7mpVem0mrQE#I01",
+    "7mpVem0mrQE#I02",
+    "blog--p-20309-5f6c7e#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "conceito",
+   "titulo": "Dominante com pentatônica maior",
+   "descricao": "Sobre um acorde dominante como D7, a pentatônica maior de mesma tônica (D E F# A B) ainda soa bem, mas não é a melhor opção. Acordes meio-diminutos ou alterados pedem outras escolhas.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "conceito",
+   "titulo": "Acordes fora da tonalidade",
+   "descricao": "Um acorde externo, como um empréstimo modal, faz uma ou mais notas da sua escala colidirem com ele. Em D-G-Gm, tocar a escala de Ré sem ajuste soa mal no Gm. Fora do tom, as pentatônicas dos acordes diferem em mais de uma nota e a troca fica menos suave.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I12",
+    "NbNH_C3QAS0#I24",
+    "NbNH_C3QAS0#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "exercicio",
+   "titulo": "Pentatônica do próprio acorde emprestado",
+   "descricao": "Quando surge o acorde externo, troque para a pentatônica dele e depois volte ao tom. Em Mi maior: no G, G maior pentatônica (= E menor); no A, A maior; no Am, A menor. Em D-G-Gm, use G menor pentatônica (G B♭ C D F) no Gm, que é a opção mais fácil; para B♭ depois de C, ache a tônica B♭ numa forma conhecida e repita o processo no E♭.",
+   "passos": [
+    "Toque frases no tom principal",
+    "Identifique a tônica do acorde externo",
+    "Ache-a numa forma conhecida",
+    "Use a pentatônica de mesmo nome",
+    "Volte ao tom quando a harmonia voltar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I13",
+    "NbNH_C3QAS0#I27",
+    "Xs2umOucpSM#I15"
+   ],
+   "divergencias": "Paul Davids diz que a penta de Gm é a mais fácil, mas prefere mudar só a nota alterada (K30).",
+   "correcoes": "Em Mi maior, o A maior é o IV diatônico; os empréstimos do exemplo são G e Am."
+  },
+  {
+   "id": "K30",
+   "tipo": "dica",
+   "titulo": "Mudar o mínimo de notas possível",
+   "descricao": "Em vez de trocar de escala, altere só as notas que conflitam, para manter o som ligado ao que veio antes. Contra o Gm, só o B de Ré maior conflita; na pentatônica de Ré, troque B por B♭ (resulta D E F# A B♭, 1-2-3-5-♭6). Sobre D7, a penta maior de A só troca C# por C; sobre Fm7, acrescente A♭ à penta de Dó menor. Se a nota do acorde novo faltar na pentatônica, resolva na nota vizinha ou acrescente-a com cuidado.",
+   "passos": [
+    "Compare as notas do novo acorde com sua escala",
+    "Ache a nota que colide ou falta",
+    "Altere só ela",
+    "Continue a linha no mesmo shape"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "NbNH_C3QAS0#I26",
+    "NbNH_C3QAS0#I30",
+    "NbNH_C3QAS0#I32",
+    "ZX6NW6VqTb8#I13",
+    "Ak_iM6H9rxE#I10",
+    "lJRzTqOf1ro#I25",
+    "NbNH_C3QAS0#I31",
+    "ZX6NW6VqTb8#I08",
+    "Ak_iM6H9rxE#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "No exemplo de #89, o Lá está na pentatônica de Dó maior (C D E G A); ele só fica fora na pentatônica de Dó menor."
+  },
+  {
+   "id": "K31",
+   "tipo": "erro_comum",
+   "titulo": "Procurar um modo para cada acorde fora do tom",
+   "descricao": "Em C-B♭-F-Am-D-G, tentar pensar em mixolídio por causa do B♭ e em dórico por causa do F# do D complica sem necessidade. Uma saída é a pentatônica de Dó maior, que não tem B nem F e evita a dúvida entre bemol, natural ou sustenido.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "MfrAepqfv2g#I18",
+    "MfrAepqfv2g#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "conceito",
+   "titulo": "Ler o acorde externo pela tônica vizinha",
+   "descricao": "Um acorde fora do campo pode ser lido como função de outra tônica: C como IV de Sol e D como V de Sol, o que sugere a escala de Sol. Sobre o A7 que leva a Dm, use a escala de Ré maior, que contém A C# E G. Ao chegar no Dm, troque para Ré menor e destaque a resolução.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "z1YGMPsz-rU#I16",
+    "iUZwNSDpV_Q#I23",
+    "iUZwNSDpV_Q#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "conceito",
+   "titulo": "Um arpejo para cada acorde",
+   "descricao": "Em vez da mesma pentatônica a música toda, toque o arpejo do acorde do momento; tríades e tétrades também servem para improvisar por acorde. Em Em, por exemplo: Em (I), Bm (V), C (VI), G (III) e D (VII), um a cada acorde. É mais difícil do que um arpejo só, porque exige trocar a cada mudança.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fxpn2pf0zf8#I09",
+    "yDiWrTsQ1tc#I20",
+    "QS6dpweE_Q4#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #64, os graus seguem a contagem a partir de Em; pelo campo menor, Bm é v, C é VI, G é III e D é VII."
+  },
+  {
+   "id": "K34",
+   "tipo": "exercicio",
+   "titulo": "Percorrer a progressão com arpejos locais",
+   "descricao": "Toque o arpejo de cada acorde, sempre na forma mais próxima de onde você está. Em A-C#m-D-E, comece no arpejo de A (shape de E) e deslize para os vizinhos; em D-A-D, alterne a forma de D e a de A. Repita a música inteira até fluir, depois reduza a poucas notas de cada arpejo (ex.: Gm-C-Cm-B♭).",
+   "passos": [
+    "Identifique o acorde de cada compasso",
+    "Toque o arpejo de cada um",
+    "Escolha sempre a forma mais próxima",
+    "Repita até não haver pausas",
+    "Reduza a poucas notas por arpejo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ExhI4nkjOAY#I23",
+    "EMQydbilqmo#I10",
+    "fxpn2pf0zf8#I10",
+    "yuf_RoHXf-k#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K35",
+   "tipo": "exercicio",
+   "titulo": "Construir em camadas para trocas rápidas",
+   "descricao": "Para trocas rápidas, comece bem devagar tocando só as raízes. Depois acrescente as terças, em seguida as tríades e por fim as sétimas.",
+   "passos": [
+    "Só raízes",
+    "Raízes e terças",
+    "Tríades completas",
+    "Acrescente as sétimas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "weissguitar--the_art_of_guitar_improvisation-f448e3#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K36",
+   "tipo": "rotina_estudo",
+   "titulo": "Treinar as transições em loop, visualizando os acordes",
+   "descricao": "Deixe as backing tracks em loop e pratique as transições entre os shapes, criando melodias que fluam entre eles. Enquanto toca, visualize o acorde atual e o próximo e saiba em que região e em que arpejo está; a habilidade cresce com a repetição.",
+   "passos": [
+    "Coloque a faixa em loop",
+    "Visualize o acorde atual e o próximo",
+    "Identifique a região em que está",
+    "Repita até a troca sair sem pensar"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "TdzOXWlKtTQ#I13",
+    "-KZSGF0gY6E#I17",
+    "5e0SpzCw3IA#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K37",
+   "tipo": "conceito",
+   "titulo": "Modulações e mudanças de centro",
+   "descricao": "Quando a música modula, mova o shape conhecido para a nova tônica e troque sincronizado com a banda, voltando depois ao tom original. Em Gravity, o pré-refrão vai de G maior a B♭ maior (D, B♭, E♭, D7). Músicas antigas costumam modular por trechos curtos, e uma seção pode ir a Lá menor com um compasso de Em que exige atenção. Em Rick Beato, a mudança é para Mi♭ dórico, modo de Ré♭ maior.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "SYE8tDSLU0k#I11",
+    "hafoCeXWxAE#I32",
+    "hafoCeXWxAE#I34",
+    "hafoCeXWxAE#I35",
+    "N1shDBha6Y0#I19",
+    "Anop2dCuR2g#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K38",
+   "tipo": "exercicio",
+   "titulo": "Deslocar o shape para B♭ e voltar a G",
+   "descricao": "Na modulação de Gravity, ponha a tônica B♭ na casa 6 da corda E grave e toque o shape de B♭ maior durante a seção. Ao fim dela, retorne ao shape de G maior junto com a troca de acordes.",
+   "passos": [
+    "Ache B♭ na casa 6 da corda E grave",
+    "Monte o shape de B♭ maior",
+    "Toque na seção coincidindo com as trocas",
+    "Volte ao shape de G maior"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "hafoCeXWxAE#I33",
+    "N1shDBha6Y0#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K39",
+   "tipo": "mentalidade",
+   "titulo": "Tratamento próprio para cada acorde",
+   "descricao": "Pensar escala por acorde dá liberdade para tratar cada troca de modo especial, algo útil no jazz, no blues e na música brasileira. Charlie Parker usava as escalas de cada acorde, inclusive tensões alteradas, e as notas do acorde como estrutura para o cromatismo. Matt Schofield mistura pentatônica, mixolídio, blues e lídio dominante tocando sabores pontuais de cada uma, sem pensar numa escala gigante.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I01",
+    "yDiWrTsQ1tc#I26",
+    "en--jazz_improvisation-59a777#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K40",
+   "tipo": "rotina_estudo",
+   "titulo": "Repetir o estudo em todas as tonalidades e estilos",
+   "descricao": "Para internalizar a relação entre cada acorde e sua pentatônica, não basta dominar uma progressão num tom só. Repita o mesmo mapeamento de notas-alvo em outras tonalidades e sobre estilos diferentes (rock, pop, blues, funk). Assim a troca deixa de depender de uma posição decorada e passa a vir da tônica de cada acorde.",
+   "passos": [
+    "Escolha uma progressão simples (ex.: I-V-vi-IV)",
+    "Mapeie as pentatônicas e notas-alvo de cada acorde em um tom",
+    "Improvise até a troca sair sem pensar",
+    "Transponha para outra tonalidade e repita",
+    "Troque o estilo da backing track mantendo a progressão"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "W96yUcOEub0#I30"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  },
+  {
+   "id": "K41",
+   "tipo": "rotina_estudo",
+   "titulo": "Roteiro de quatro passos antes de solar",
+   "descricao": "Antes de improvisar sobre uma progressão, siga quatro etapas: identificar acordes e tonalidade, escolher as escalas que servem, localizar as notas de cada acorde e planejar frases. Dê atenção especial às terças, que definem se o acorde é maior ou menor e mudam a cada troca. As frases planejadas devem ser curtas e terminar nessas notas-alvo.",
+   "passos": [
+    "Identifique os acordes e a tonalidade",
+    "Escolha as escalas que servem sobre eles",
+    "Anote as notas de cada acorde, destacando as 3ªs",
+    "Planeje frases curtas que apontem para as notas-alvo",
+    "Toque sobre a backing track e ajuste o plano"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "-El2m16TS5o#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte fala em anotar 'as 3ªs maiores'; o certo é anotar a 3ª de cada acorde, que é menor nos acordes menores.",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "SYE8tDSLU0k#I01",
+   "sugestao": "C09.4",
+   "motivo": "Defende tocar uma pentatônica única de forma automática sobre toda a progressão, o que é escolha de centro tonal."
+  },
+  {
+   "id": "3dW_GQsC5Ak#I01",
+   "sugestao": "C09.4",
+   "motivo": "Lista opções de escala única (penta menor, maior, mixolídio) sobre um vamp B-A, sem troca por acorde."
+  },
+  {
+   "id": "fhtaQFOkLXc#I01",
+   "sugestao": "C09.4",
+   "motivo": "Usa uma só pentatônica (Dó maior) como paleta para toda a progressão C-G-Am-F."
+  },
+  {
+   "id": "-VjHVHzWL0o#I15",
+   "sugestao": "C09.1",
+   "motivo": "Foca em reagir às notas-alvo com a escala de Sol maior fixa, ajustando a nota consonante, e não em trocar de escala."
+  }
+ ],
+ "observacoes": "Duas fontes (#74/#75) trocam pentatônica maior por menor de A, e #89 tem exemplo incoerente; ambos foram corrigidos nos itens. A progressão de #49 vem de legenda e pode estar imprecisa. Itens de blues (#65, #71, #143) entraram apenas como exemplos de mudança mínima; o tratamento completo do blues fica em C12.2.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 111,
+  "ideias_secundarias": 62,
+  "itens": 41,
+  "fora_do_lugar": 4,
+  "custo_usd": 0.2846,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 39960,
+   "output_tokens": 20468
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 0,
+    "novos_itens": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,634 @@
+{
+ "subcategoria": "C07.6",
+ "visao_geral": "O solo é tratado como uma história com começo, meio e fim, organizada pela contagem de compassos e por formas como AABA, AA'B ou ABAC. A direção vem do arco de registro (grave para agudo), de dinâmica (suave para forte) e de densidade (frases curtas e espaçadas que ficam mais longas e cheias), culminando num clímax e num final claro. As frases precisam se conectar entre si, e não só com cada acorde, e o material deve ser dosado para não entregar tudo cedo. Compor ou preparar solos e alternar trechos planejados com improviso livre são caminhos para desenvolver essa visão de conjunto.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O solo como história",
+   "descricao": "Um bom solo conta uma história que provoca emoção em quem toca e em quem ouve: tem começo, meio e fim, cria clima, constrói suspense e pausa antes do desfecho. Temas e motivos conectam as ideias, e ideias soltas e sem relação cansam o ouvinte. Antes de tocar, defina que sentimento quer passar e onde o percurso começa e termina; escalas, arpejos e técnicas servem à narrativa.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I35",
+    "_kK1_apm-qs#I05",
+    "blog--guitar-improvisation-tips-unlock-your-potential-b9ace3#I01",
+    "-sKYzObpWpA#I03",
+    "_Ke2d-2zkHg#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar é compor em tempo real",
+   "descricao": "Grandes improvisadores costumam ser bons compositores porque enxergam a peça inteira, transitam bem entre ideias e retomam motivos de seções anteriores. Aplicar regras básicas de composição, melodia e estrutura melhora muito o improviso. Praticar composição e improvisação em paralelo faz uma alimentar a outra: improvisar em ensaio ajuda ao vivo, e ouvir improvisos gravados inspira composições.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I13",
+    "pickupmusic--soloing-with-caged-90d614#I10",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Solo composto, improvisado e preparado",
+   "descricao": "O solo composto é escrito e ensaiado do início ao fim; o improvisado é criado na hora; o preparado mistura os dois, com partes ensaiadas e boa parte improvisada na apresentação.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "pickupmusic--soloing-with-caged-90d614#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "erro_comum",
+   "titulo": "As três falhas de um solo fraco",
+   "descricao": "Um solo fraco tem um fluxo contínuo de notas sem pausas, não vai a lugar nenhum (é unidimensional) e fica sempre na mesma região do braço. Toda frase deve ter começo e fim, em vez de correr sem parar.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "lEZzseFo6OQ#I08",
+    "N1shDBha6Y0#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Conhecer e contar a forma",
+   "descricao": "Antes de solar, saiba quais acordes tocam e quantos compassos dura cada um; é o número de compassos que define onde ficam o começo, o meio e o fim do solo. Conte os compassos mentalmente, em segundo plano, sobretudo ao tocar sem banda, quando é fácil perder a contagem. Cada troca de acorde funciona como pontuação. Um fluxo de notas sem estrutura faz você perder o lugar na forma, e a banda também.",
+   "passos": [
+    "Ouça a base até memorizar acordes e duração de cada um",
+    "Conte os compassos em voz baixa ou mentalmente",
+    "Marque onde cada bloco de 4 compassos começa",
+    "Solando, mantenha a contagem sem parar"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "rh6HEF5Dy2I#I16",
+    "LNe3bdHBdp4#I02",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I02",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I06",
+    "LNe3bdHBdp4#I01",
+    "x8V99YYMRTc#I03",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Solar em blocos de 4, 8, 12 e 16 compassos",
+   "descricao": "Pratique frases dentro de grupos de compassos até sentir os blocos de 4, 8, 12 e 16 compassos por intuição, o que cobre a maior parte da música pop.",
+   "passos": [
+    "Escolha uma base",
+    "Sole em blocos de 4 compassos",
+    "Passe para blocos de 8, depois 12 e 16",
+    "Marque mentalmente o início de cada bloco"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "De frases a parágrafos: encadear um solo completo",
+   "descricao": "Construa ideias como frases e depois agrupe-as em parágrafos, em vez de tocar muitas notas sem direção. Depois de dominar frases curtas, encadeie várias para formar um solo inteiro; uma frase também pode ser estendida com várias notas de ênfase.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "930K2lldQD8#I13",
+    "N1shDBha6Y0#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "erro_comum",
+   "titulo": "Frases que combinam com o acorde, mas não entre si",
+   "descricao": "Muitos iniciantes criam linhas que funcionam sobre cada acorde isoladamente, mas que terminam em cada troca e recomeçam no acorde seguinte, soando como licks aleatórios. Ouça a frase como um único fluxo que atravessa a progressão, com começo e fim próprios. Para isso, ouça o que você mesmo toca, e não apenas os acordes, fazendo cada frase se encaixar na anterior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jVTRXGg0Sdg#I14",
+    "9oAxHq-ZLwI#I15",
+    "yw6K7j6GbDc#I18",
+    "9oAxHq-ZLwI#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Formas de organização: AABA, ABAC, ABB e outras",
+   "descricao": "Organize frases de cerca de 4 compassos em formas como AABA, ABAC, ABC, ABB ou AC. Em AABA, comum nos standards de jazz, há duas frases iguais ou variadas, uma contrastante e a volta da primeira, o que soa intencional e planejado. Frases relacionadas intercaladas com frases que quebram a relação evitam a repetição. A mesma lógica vale para pequenas ideias, seções ou músicas inteiras. Exemplo em 16 compassos: frase 1 nos compassos 1-4 e repetida em 9-12, frase 2 em 5-6 e repetida em 13-14, frases de fechamento diferentes em 7-8 e 15-16.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "dQZXiPA5wac#I18",
+    "Ib5qv48K7ww#I09",
+    "Rm8Y-Q6wbR4#I10",
+    "qIewGDRWBu8#I11",
+    "dQZXiPA5wac#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Aplicar AA'B ao blues de 12 compassos",
+   "descricao": "Use a forma AA'B na improvisação: uma ideia nos compassos 1-4, a mesma ideia com pequena alteração nos compassos 5-8 (sobre o IV) e uma frase nova nos compassos 9-12 (V-IV-I), fechando no I. É uma aplicação prática da forma, não algo ensinado explicitamente pela fonte.",
+   "passos": [
+    "Toque uma frase curta nos compassos 1-4 (A)",
+    "Repita com pequena alteração nos compassos 5-8 (A')",
+    "Toque uma frase nova nos compassos 9-12 (B)",
+    "Termine sobre o acorde I"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "en--twelve-bar_blues-36fb30#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "mentalidade",
+   "titulo": "Dramaturgia seguindo a forma do blues",
+   "descricao": "Acompanhe a tensão da forma: abertura no I, destaque para a mudança no IV, clímax no V e fechamento no turnaround. Cada região da progressão pede uma nota ou ideia característica.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "erro_comum",
+   "titulo": "Frases sempre do mesmo tamanho",
+   "descricao": "Quando todas as frases duram exatamente um compasso, o solo fica mecânico, repetitivo e sem fluxo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "-sKYzObpWpA#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Variar o comprimento das frases",
+   "descricao": "Combine frases de tamanhos diferentes, algumas começando antes do tempo esperado e outras mais longas, como um texto com sentenças curtas e longas.",
+   "passos": [
+    "Toque um lick de um compasso e pare",
+    "Toque outro que comece antes do tempo forte seguinte",
+    "Estenda uma frase para dois compassos",
+    "Alterne curtas e longas sem padrão fixo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "-sKYzObpWpA#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Uma única frase nos compassos 5 a 8",
+   "descricao": "Em um blues de 12 compassos em Lá, toque uma só frase que vá do compasso 5 (IV, D7) ao compasso 8 (I, A7), em vez de frases de dois compassos, para treinar frases longas.",
+   "passos": [
+    "Use backing track de blues em Lá",
+    "Comece a frase no compasso 5, sobre D7",
+    "Termine no compasso 8, sobre A7",
+    "Repita até a frase sair fluida"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "LNe3bdHBdp4#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "mentalidade",
+   "titulo": "Começar o solo com intenção",
+   "descricao": "Decida com clareza o que fazer no início, em vez de ficar muito tempo tocando sem estrutura. Abra com algo que prepare o ouvinte, como um cumprimento musical, antes de entrar no assunto principal.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Rm8Y-Q6wbR4#I26",
+    "6n2308MSpjk#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "dica",
+   "titulo": "Não entregar tudo de uma vez",
+   "descricao": "Introduza os recursos aos poucos; usar tudo de uma vez deixa o solo previsível. Satriani alerta que melodias baseadas só nas notas da tríade se revelam cedo demais: estique a melodia pousando em notas suspensas (2ª, 4ª ou 6ª), segurando uma nota enquanto o acorde muda ou usando modulações inesperadas, para manter o mistério.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "WcHs5SaynAw#I06",
+    "GAckLGgA86o#I01",
+    "GAckLGgA86o#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "dica",
+   "titulo": "Registro como direção: começar grave e subir",
+   "descricao": "Comece na região grave do braço e suba aos poucos ao longo do solo; notas mais agudas na segunda metade dão sensação de avanço. Ficar preso nas cordas graves soa pesado para solo. Trocar para uma captação mais brilhante na segunda metade reforça a direção.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "lEZzseFo6OQ#I09",
+    "-sKYzObpWpA#I05",
+    "-sKYzObpWpA#I06",
+    "uGZDOBZfz1k#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Controlar o registro pelas mudanças",
+   "descricao": "Escolha a região em que toca, em vez de percorrer o braço inteiro; o que gera efeito é o momento em que você muda de registro, não onde começa. Um salto para a mesma nota uma oitava acima ou abaixo é uma forma simples de mudar de registro com impacto.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I16",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Arco de dinâmica: começar suave e crescer",
+   "descricao": "Comece suave e em registro grave, aumentando volume e intensidade enquanto sobe no braço, e termine com um lick mais rápido ou mais forte; como num filme de ação, os momentos calmos fazem o clímax se destacar. Um solo de abertura pode ter tom mais suave, de introdução, deixando a intensidade para um solo posterior. Variar intensidade e articulação faz as notas-alvo soarem como pontos de chegada. Não é fórmula para todo solo.",
+   "passos": [
+    "Comece suave e no registro grave",
+    "Aumente intensidade e suba no braço",
+    "Termine com lick mais rápido ou volume maior"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "rh6HEF5Dy2I#I21",
+    "guitarlessons--how-to-play-a-guitar-solo-a62e48#I05",
+    "bhYXolbCrr0#I19",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I28",
+    "rh6HEF5Dy2I#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Contrastes de dinâmica, registro, velocidade e silêncio",
+   "descricao": "Com uma mesma forma de escala sobre um acorde (por exemplo, pentatônica de Lá menor em andamento lento), alterne forte e suave, agudo e grave, rápido e lento, e som e silêncio.",
+   "passos": [
+    "Toque a forma sobre o acorde",
+    "Alterne forte e suave a cada frase",
+    "Alterne notas agudas e graves",
+    "Alterne trechos rápidos e lentos",
+    "Insira pausas entre as frases"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "KorP9lq1voU#I10",
+    "b1mdrlngTnA#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "conceito",
+   "titulo": "Construir intensidade pela densidade e extensão",
+   "descricao": "No início, use frases curtas e com bastante espaço, que soam menos intensas; ao crescer, reduza o espaço, aumente a densidade de notas e alongue as frases. Depois de frases lentas, mais atividade rítmica nos últimos compassos antes da resolução cria tensão e prepara a chegada.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Z-KzfB7vfFA#I22",
+    "0DiKyaXf71E#I06",
+    "LNe3bdHBdp4#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Tensão e relaxamento ao longo do solo",
+   "descricao": "Alternar tensão e resolução torna o solo interessante: uma frase que não para cria expectativa, e o ouvinte precisa de uma nota estável para sentir o fim. Uma sequência ascendente gera tensão que deve ser liberada; uma forma simples é repetir as notas da última posição com ritmo diferente, para que soem como final e não como início de nova frase.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "tomhess--pt-269230#I13",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I30",
+    "_kK1_apm-qs#I04",
+    "OkTBizvNWoI#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "O clímax: nota mais aguda e notas rápidas",
+   "descricao": "Posicione o clímax num ponto estratégico; no etude de Jeff Schneider, é a nota A♭, a mais aguda do solo, perto do compasso 16, antes do retorno à forma. Notas agudas sustentadas ou repetidas marcam o clímax, como Armstrong fez ao transformar um A agudo breve de Oliver em nota longa e depois numa série de agudos repetidos. Notas rápidas no fim, seguidas de um pouso, funcionam desde que continuem presas ao pulso.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "Z-KzfB7vfFA#I26",
+    "blog--tgcleary-99b135#I11",
+    "3dW_GQsC5Ak#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "O solo precisa de uma conclusão clara",
+   "descricao": "Como numa história, o final satisfatório avisa o ouvinte de que pode reagir; um final que se esvai enfraquece todo o resto. Uma subida sem conclusão soa como ideia no ar, e voltar à tônica é um caminho comum, mas não uma regra.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "lEZzseFo6OQ#I11",
+    "rODBvbol8dk#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "dica",
+   "titulo": "Como terminar: tônica, intervalos ousados, descida ou nota longa",
+   "descricao": "Não é preciso bend enorme, dive-bomb ou speed picking: terminar na fundamental do acorde ou da tonalidade é sempre seguro, e intervalos mais picantes são a opção aventureira. A última frase pode descer em vez de subir para se diferenciar das anteriores e servir de turnaround; segurar a nota de chegada por alguns tempos reforça a sensação de fim. Treine tocar a mesma frase com vários finais diferentes.",
+   "passos": [
+    "Escolha uma frase curta",
+    "Toque até um ponto comum",
+    "Termine na tônica",
+    "Repita terminando em outro intervalo",
+    "Repita terminando com descida ou nota longa"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "lEZzseFo6OQ#I12",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I16",
+    "6n2308MSpjk#I18",
+    "Z-KzfB7vfFA#I27",
+    "Rm8Y-Q6wbR4#I22"
+   ],
+   "divergencias": "Uma fonte situa o clímax final na tônica em região aguda; Paul Davids sugere fechar o blues com uma frase descendente.",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "dica",
+   "titulo": "O final no contexto da música e da banda",
+   "descricao": "Antecipe o fim, porque a banda começa a fechar antes de o solo acabar. Se for sustentar a última nota, garanta que ela não choque com o que o vocal canta em seguida, e evite um bend longo com muito ganho se a música cai para uma estrofe suave. Ao vivo, com duração aberta, combine um sinal com a banda para encerrar e deixe o público querendo mais.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "lEZzseFo6OQ#I13",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I15",
+    "3dW_GQsC5Ak#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "mentalidade",
+   "titulo": "Pré-planejar partes do solo",
+   "descricao": "Não é preciso criar o solo inteiro na hora: planejar ideias que funcionam sobre cada acorde reduz a dependência do improviso de última hora. Charlie Parker usava padrões de assinatura no início e no fim dos solos e improvisava o meio, garantindo forma e conclusão lógica.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "fhtaQFOkLXc#I08",
+    "en--jazz_improvisation-59a777#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "rotina_estudo",
+   "titulo": "Alternar trechos planejados e improviso livre",
+   "descricao": "Sobre um jam track, alterne ideias pré-planejadas e improviso livre, voltando à ideia planejada quando o acorde esperado chegar. Ajuda em solos curtos e em músicas de banda.",
+   "passos": [
+    "Toque uma ideia planejada sobre um acorde",
+    "Improvise livremente por alguns compassos",
+    "Volte à ideia planejada no acorde marcado",
+    "Repita ao longo do jam track"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fhtaQFOkLXc#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "mentalidade",
+   "titulo": "Compor um solo antes de improvisar",
+   "descricao": "Improvisar exige vocabulário e conforto; quem começa pode compor frase por frase, com calma (uma hora, uma tarde ou uma semana), experimentando, errando sem pressão, gravando versões e escolhendo as melhores, mesmo sem saber escalas. Um roteiro em 3 passos: decorar a base (ciclos, repetições, acordes no tempo ou no contratempo), criar a melodia e interpretá-la com bends, slides, harmônicos, palm mute e vibrato. Depois, repita até automatizar, sobretudo para gravar.",
+   "passos": [
+    "Decore a base e sua estrutura",
+    "Crie a melodia frase por frase",
+    "Grave versões e escolha as preferidas",
+    "Acrescente a interpretação",
+    "Repita até sair sem pensar"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "pickupmusic--soloing-with-caged-90d614#I12",
+    "x8V99YYMRTc#I01",
+    "W9o9gR5f8-A#I02",
+    "x8V99YYMRTc#I03",
+    "x8V99YYMRTc#I08",
+    "x8V99YYMRTc#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "exercicio",
+   "titulo": "Compor um solo completo num trecho curto",
+   "descricao": "Escolha cerca de 1 min 10 s de uma backing track, ou monte sua própria base com bateria, riff e baixo, e construa começo, meio e fim sem cansar. Uma variação cronometrada (criar o solo em 15 a 60 minutos) prepara para pedidos de solo na hora em estúdio.",
+   "passos": [
+    "Escolha ou crie uma base",
+    "Selecione um trecho de cerca de 1 min 10 s",
+    "Construa começo, meio e fim",
+    "Variação: limite a criação a 15-60 minutos"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "W9o9gR5f8-A#I05",
+    "W9o9gR5f8-A#I04",
+    "W9o9gR5f8-A#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "exercicio",
+   "titulo": "Montar um solo combinando os recursos estudados",
+   "descricao": "Sobre uma backing track em Sol maior, construa um solo que passe pela escala maior, pouse em notas do acorde, mude para a pentatônica maior, volte à escala com um padrão e encaixe licks no meio.",
+   "passos": [
+    "Comece com a escala de Sol maior",
+    "Pouse em notas do acorde nos pontos de chegada",
+    "Mude para a pentatônica de Sol maior",
+    "Volte à escala maior com um padrão",
+    "Encaixe os licks estudados no meio"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "xKbtQM-qzSM#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "exercicio",
+   "titulo": "Estrutura de solo à la Gilmour",
+   "descricao": "Comece grave com poucas notas, repita uma ideia curta, responda com pergunta e resposta, construa tensão e suba no braço com bends expressivos.",
+   "passos": [
+    "Comece grave com poucas notas",
+    "Repita uma ideia melódica curta",
+    "Responda com pergunta e resposta",
+    "Construa tensão gradualmente",
+    "Suba no braço com bends expressivos"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZBQr7STNnCE#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "conceito",
+   "titulo": "Repetir um lick para ganhar tempo",
+   "descricao": "Entrar em loop num lick compra tempo para decidir o próximo movimento e evita travar quando uma frase termina.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "AUhEZ-7q5WI#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K34",
+   "tipo": "exercicio",
+   "titulo": "Encadear licks com números de repetição diferentes",
+   "descricao": "Com 4 a 5 licks repetíveis da mesma escala, repita cada um um número diferente de vezes (por exemplo, 5, 3 e 10) para sustentar cerca de 30 segundos de solo, aumentando a duração a cada sessão.",
+   "passos": [
+    "Escolha 4 a 5 licks da mesma escala",
+    "Defina quantas vezes repetir cada um",
+    "Toque a sequência sobre a backing track",
+    "Meça o tempo e tente aumentá-lo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "AUhEZ-7q5WI#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K35",
+   "tipo": "mentalidade",
+   "titulo": "Pensar o solo em vários níveis",
+   "descricao": "Com a mecânica dominada, pense ao mesmo tempo na dinâmica da banda, no clima da música e no movimento expressivo da faixa, com articulações como legato e crescendo. Manter o solo fresco, enxergar o panorama, contar compassos e espelhar a faixa sustentam um improviso satisfatório.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I10",
+    "bennysutton--how_to_improvise_lead_guitar-878e07#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K36",
+   "tipo": "conceito",
+   "titulo": "Referências: o solo longo como clímax e narrativa",
+   "descricao": "No Cream, Clapton estendeu os solos até virarem o centro do show, misturando blues, rock e liberdade do jazz. Jimmy Page fez do solo ao vivo o clímax da música, construindo atmosfera e conduzindo a um ponto de tensão em vez de tocar um número fixo de compassos.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ZBQr7STNnCE#I17",
+    "ZBQr7STNnCE#I20",
+    "ZBQr7STNnCE#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "Ideias secundárias sobre vibrato (#71), rubato (#95-#97), motivos (#73), notas-alvo (#74), ritmo (#75-#76), pergunta e resposta (#86, #102), lick na 15ª casa (#84), composição fora do tempo (#103), pausa (#94), passagens rápidas (#91-#92) e meta de execução (#85) não foram incluídas por pertencerem mais a outras subcategorias.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 69,
+  "ideias_em_mais_de_um_item": [
+   "x8V99YYMRTc#I03"
+  ],
+  "ideias_secundarias": 40,
+  "itens": 36,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.1698,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 23261,
+   "output_tokens": 12327
+  },
+  "gerado_em": "2026-10-08T10:21:02",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 1,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

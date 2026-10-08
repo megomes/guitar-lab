@@ -1,0 +1,423 @@
+{
+ "subcategoria": "C02.3",
+ "visao_geral": "Nesta subcategoria, as fontes concordam num princípio central: todo acorde nasce do empilhamento de terças dentro de uma escala. Com três notas (1-3-5) temos a tríade e, somando mais uma terça, a tétrade (com sétima). Quando o empilhamento continua, surgem as extensões 9, 11 e 13, que são a 2ª, a 4ª e a 6ª uma oitava acima. A terça decide se o acorde é maior ou menor. Mudar uma única nota gera as outras qualidades: menor, diminuto, aumentado e sus. A sétima separa o maj7 (7) do dominante (♭7). O erro mais citado é a nomenclatura: C7 é dominante e tem B♭; só Cmaj7 tem B. Vários professores (Active Melody, Daniel Seriff) mostram isso no braço, transformando G em G6, G7 e G9, e A7 em A9 e A13 com o movimento de uma nota. Samjamguitar e Tomo Fujita insistem em entender a fórmula em vez de decorar desenhos. Para quem sola, saber isso permite reconhecer o acorde pelo som, achar as notas-alvo e nomear o que se toca.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "mentalidade",
+   "titulo": "Por que estudar formação de acordes: teoria é o nome do som",
+   "descricao": "Teoria serve para nomear o que você quer tocar: um acorde (ex.: dominante 7), uma escala (ex.: pentatônica menor) ou um arpejo. Não precisa intimidar. Quem entende como os acordes são formados reconhece pelo som que acorde foi tocado e que sensação ele passa. Além disso, liga com firmeza as escalas aos acordes antes de solar sobre trocas de harmonia. Vale revisar a construção dos acordes antes de estudar o solo sobre progressões.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "Uin2lUS1ujs#I03",
+    "blog--p-20309-5f6c7e#I03",
+    "BQTrA3hpqkM#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Tríade e tétrade: acordes feitos de terças empilhadas",
+   "descricao": "Uma tríade é um acorde de três notas construído de terça em terça: a partir de uma nota da escala, pula-se a seguinte e pega-se a próxima. Duas terças empilhadas formam a tríade (fundamental, terça e quinta). Mais uma terça forma a tétrade, que inclui a sétima. A terça maior tem 4 semitons e a menor tem 3. Se a primeira terça for maior, o acorde é maior; se for menor, o acorde é menor. Exemplo em Dó maior: a tríade C é C-E-G e a tétrade Cmaj7 é C-E-G-B. A qualidade de cada acorde (maior, menor, diminuto) sai das distâncias entre as notas empilhadas dentro da escala.",
+   "passos": [
+    "Escolha o grau e comece pela nota dele.",
+    "Pule a nota seguinte da escala e pegue a próxima: é a terça.",
+    "Pule outra nota e pegue a quinta: está pronta a tríade.",
+    "Para a tétrade, pule mais uma e pegue a sétima.",
+    "Conte os semitons de cada terça (4 = maior, 3 = menor) para saber a qualidade."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "MvUgoNBTNjA#I01",
+    "EMQydbilqmo#I08",
+    "pt--campo_harmônico-b0b9ac#I04",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I08",
+    "z1YGMPsz-rU#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Tríade maior = 1ª, 3ª e 5ª da escala maior",
+   "descricao": "O acorde maior é formado pela fundamental, pela 3ª e pela 5ª da escala maior da própria nota. Tocadas juntas, essas notas soam como acorde; tocadas em sequência, formam o arpejo. Exemplos: C = C-E-G; G = G-B-D; A = A-C#-E; D = D-F#-A; E = E-G#-B. No braço, C maior pode ser tocado na corda 5 casa 3 (C), na corda 4 casa 2 (E) e na corda 3 solta (G). Essas mesmas três notas se repetem em todas as oitavas do braço e servem de base para formas e arpejos.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "7FilvCPSYXc#I10",
+    "EB5E6RBnCKw#I02",
+    "14UZEproJ-A#I02",
+    "QXp8yDb3zyQ#I02",
+    "TdzOXWlKtTQ#I02",
+    "-El2m16TS5o#I06",
+    "-KZSGF0gY6E#I01",
+    "qIewGDRWBu8#I16",
+    "fxpn2pf0zf8#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "exercicio",
+   "titulo": "Montar a tríade contando a escala a partir do baixo",
+   "descricao": "Procedimento usado no fingerstyle e válido para qualquer progressão: trate cada nota do baixo como raiz e conte as notas da escala da música até a 3ª e a 5ª. Exemplo na escala de Mi menor: baixo Mi → E, G, B (Em); baixo Dó → C, E, G (C maior); baixo Ré → D, F#, A (D maior).",
+   "passos": [
+    "Marque a nota do baixo como raiz.",
+    "Conte na escala da música: raiz, 2ª, 3ª.",
+    "Continue até a 5ª nota.",
+    "Junte raiz, 3ª e 5ª e toque como acorde e como arpejo.",
+    "Repita com os outros baixos da progressão."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "TDhrEDRMxKw#I06",
+    "TDhrEDRMxKw#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Maior x menor: a única diferença é a terça",
+   "descricao": "A tríade menor é 1-♭3-5, e a maior é 1-3-5. Basta abaixar a terça um semitom (uma casa) mantendo a mesma forma. G maior = G-B-D e G menor = G-B♭-D. Por isso a ♭3 fica uma casa abaixo da 3ª na forma E e soa mais triste. Em C, a forma 5-5-3 nas cordas G-B-E vira Dó menor quando a nota da corda B desce da casa 5 (E) para a casa 4 (E♭). Entre fundamental, 3ª e 5ª, a 3ª é a nota que carrega mais informação harmônica e mais define o acorde. Quando se compara D maior com G menor, a única nota que muda é o Si, que vira Si♭.",
+   "passos": [
+    "Toque a tríade maior (ex.: C na forma 5-5-3 das cordas G-B-E).",
+    "Desça uma casa só a nota que é a terça (corda B, casa 5 → 4).",
+    "Alterne maior e menor e compare a sensação de cada um.",
+    "Repita com o arpejo: mantenha o padrão e abaixe só a terça."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "rtKZBns_IMY#I02",
+    "EJW2rIhE_GA#I08",
+    "7FilvCPSYXc#I11",
+    "fxpn2pf0zf8#I05",
+    "ui6qUcvaKU0#I08",
+    "NbNH_C3QAS0#I26",
+    "fxpn2pf0zf8#I06",
+    "rh6HEF5Dy2I#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Diminuto e aumentado: alterar a tríade trocando uma nota",
+   "descricao": "As outras qualidades de tríade são pequenas modificações do maior e do menor:\n• Menor: 1-♭3-5 (C-E♭-G).\n• Diminuto: 1-♭3-♭5 (C-E♭-G♭; G dim = G-B♭-D♭). Parte-se da maior abaixando a terça e a quinta, o que gera uma tríade instável que pede resolução.\n• Aumentado: 1-3-#5, subindo a quinta (C-E-G#).\nSus e dominante também são variações dessa base.",
+   "passos": [
+    "Parta da tríade maior (C-E-G).",
+    "Abaixe a 3ª: menor (C-E♭-G).",
+    "Abaixe também a 5ª: diminuto (C-E♭-G♭).",
+    "Volte à maior e suba a 5ª: aumentado (C-E-G#).",
+    "Ouça a estabilidade ou instabilidade de cada uma."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "rtKZBns_IMY#I03",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I04",
+    "lJRzTqOf1ro#I12",
+    "-KZSGF0gY6E#I02"
+   ],
+   "divergencias": "Seriff fala em três qualidades de tríade (maior, menor, diminuta) porque se limita às que existem na escala maior. Bertamini inclui a aumentada, que não aparece no campo harmônico maior.",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "erro_comum",
+   "titulo": "Acorde de seis cordas não tem mais notas que a tríade",
+   "descricao": "Um acorde com as seis cordas soando costuma repetir as mesmas notas em oitavas diferentes. Se as únicas notas presentes são Sol, Si e Ré, ele continua sendo um Sol maior com três notas diferentes, ou seja, uma tríade. O que define o acorde são as notas distintas, não a quantidade de cordas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "QXp8yDb3zyQ#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "As tríades que nascem da escala maior",
+   "descricao": "Empilhando terças a partir de cada nota da escala de Dó maior, temos: Dó-Mi-Sol (C), Ré-Fá-Lá (Dm), Mi-Sol-Si (Em), Fá-Lá-Dó (F), Sol-Si-Ré (G), Lá-Dó-Mi (Am) e Si-Ré-Fá (Bdim). Padrão válido em qualquer tom maior: I, IV e V são maiores; ii, iii e vi são menores; vii é diminuto. Em Sol maior: G, Am, Bm, C, D, Em e F#dim. O vii é diminuto porque Si-Ré-Fá tem duas terças menores usando só notas da escala; outra qualidade exigiria notas de fora. Esse acorde é pouco usado na música popular.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yb9PBaQngn4#I13",
+    "ui6qUcvaKU0#I04",
+    "MvUgoNBTNjA#I03",
+    "z1YGMPsz-rU#I04",
+    "iUZwNSDpV_Q#I07"
+   ],
+   "divergencias": "",
+   "correcoes": "Uma das fontes chama o vii de Dó maior de 'Si meio-diminuto (Bm7♭5)'. Como tríade, Si-Ré-Fá é Bdim (1-♭3-♭5). Ele só vira Bm7♭5 quando se acrescenta a sétima (Lá)."
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Acordes suspensos: sus2 e sus4 trocam a terça",
+   "descricao": "Nos acordes sus a 3ª é substituída: sus2 = 1-2-5 e sus4 = 1-4-5. Ré sus4 = D-G-A, com o Sol (4ª justa) no lugar do F#. Sem a terça, o acorde soa 'flutuante', como se ainda precisasse aterrissar. Quem ouve o Sol sobre o Ré, sem F#, identifica o sus4 e não o Ré maior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "bFtTvqASQ9k#I22",
+    "UbIv3AKmNl0#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Aprenda a fórmula, não decore cada forma",
+   "descricao": "Todo acorde tem um arpejo correspondente. Quem conhece a fórmula em intervalos ajusta notas específicas para formar qualquer acorde ou arpejo, sem decorar um padrão novo para cada um. Exemplos: maior 6 = 1-3-5-6; m7♭5 = 1-♭3-♭5-♭7. Entender a construção de maior e menor permite aplicá-los em qualquer posição. Dominar maiores e menores é a base para todo o resto.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "EJW2rIhE_GA#I11",
+    "fxpn2pf0zf8#I04",
+    "fxpn2pf0zf8#I07",
+    "fxpn2pf0zf8#I24",
+    "fxpn2pf0zf8#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Fórmulas das tétrades: maj7, 7, m7 e m7♭5",
+   "descricao": "As quatro tétrades básicas são:\n• maj7 / 7M = 1-3-5-7 (Cmaj7: C E G B).\n• 7 / dominante = 1-3-5-♭7 (C7: C E G B♭; G7: G B D F; Ab7: A♭ C E♭ G♭).\n• m7 / C- = 1-♭3-5-♭7 (Cm7: C E♭ G B♭; Dm7: D F A C; Fm7: F A♭ C E♭).\n• m7♭5 / meio-diminuto / Ø = 1-♭3-♭5-♭7 (CØ: C E♭ G♭ B♭).\nConheça cada nota pelo nome e pelo intervalo em relação à raiz. Exemplo: em Fm7, o A♭ é a ♭3; em Ab7, o G♭ é a ♭7. Assim fica fácil ver qual nota nova cada acorde traz em relação à escala que você está usando.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "web--fqbk-handbook-pdf-582590#I21",
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I05",
+    "Ak_iM6H9rxE#I04",
+    "Ak_iM6H9rxE#I09",
+    "Ak_iM6H9rxE#I14",
+    "bhYXolbCrr0#I07",
+    "9oAxHq-ZLwI#I02",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Intervalos internos das tétrades (terças empilhadas)",
+   "descricao": "Cada tipo de tétrade tem uma sequência fixa de terças:\n• maj7 (Cmaj7): C-E = 2 tons (3ª maior); E-G = 1 tom e meio (3ª menor); G-B = 2 tons (3ª maior).\n• m7 (Dm7 = D F A C): D-F = 1 tom e meio; F-A = 2 tons; A-C = 1 tom e meio.\nTodo maj7 e todo m7 seguem esses mesmos padrões, em qualquer tonalidade.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "pt--campo_harmônico-b0b9ac#I05",
+    "pt--campo_harmônico-b0b9ac#I06"
+   ],
+   "divergencias": "",
+   "correcoes": "O texto original (Wikipédia) escreve G-A na última terça do Cmaj7. O correto é G-B (2 tons)."
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Acorde dominante: tríade maior + ♭7",
+   "descricao": "Somar a ♭7 (sétima menor) à tríade maior gera o dominante 7 (1-3-5-♭7). G7 = G-B-D-F e E7 = E-G#-B-D. No braço, com a tríade de G nas cordas agudas, o F (♭7) fica na casa 6 da corda Si, uma casa acima do E (6ª, casa 5). Em E7, a ♭7 (D) está na casa 7 da corda Sol. O dominante tem terça maior (A7 = A-C#-E-G) e por isso não é um acorde menor. Logo, usar pentatônica menor sobre dominantes, como no blues, não torna o blues 'menor'.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ExhI4nkjOAY#I09",
+    "H3DDn8CcSTA#I14",
+    "QXp8yDb3zyQ#I18",
+    "TdzOXWlKtTQ#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Não confundir C7 (dominante) com Cmaj7",
+   "descricao": "'C7', 'dó sete' ou 'dó com sétima' é dominante, com sétima B♭ (C-E-G-B♭). A nota B só aparece em Cmaj7/C7M. Trocar essas notas muda completamente a cor de uma nota-alvo. O mesmo vale para o V grau do campo harmônico maior: ele é V7 dominante (G7 em Dó), e não maj7. No blues, I7, IV7 e V7 são todos dominantes (em Dó: C7, F7, G7; em Ré: D7 = D F# A C e G7 = G B D F). Na progressão I-IV-V7 em Sol, o D7 é D-F#-A-C.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I06",
+    "Ork2Vc2bva8#I11",
+    "UiCQL5cxnUA#I03",
+    "NGior_1Tsmo#I05",
+    "ea2g6P0pCKg#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Acorde de sexta: tríade maior + 6ª",
+   "descricao": "Acrescentar a 6ª maior à tríade maior gera o acorde de sexta (1-3-5-6). G6 = G-B-D-E. Na tríade de G nas cordas agudas, o E é tocado com o mindinho na casa 5 da corda Si, uma casa abaixo da ♭7 (F, casa 6) na mesma corda.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ExhI4nkjOAY#I10",
+    "QXp8yDb3zyQ#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "3ª e 7ª (guide tones) definem a qualidade da tétrade",
+   "descricao": "Num acorde de sétima (1-3-5-7), a 3ª diz se ele é maior (3) ou menor (♭3). A 7ª separa o maj7 (7) do dominante ou do m7 (♭7). A fundamental estabelece o centro e a 5ª é basicamente preenchimento. Sem 3ª e 7ª não há acorde maior, menor ou dominante definido. Acordes estendidos e alterados se apoiam nessa base.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "dica",
+   "titulo": "Trocar tríades por tétrades no campo harmônico",
+   "descricao": "Para deixar a harmonia mais sofisticada, troque cada tríade pela tétrade diatônica: I maj7, ii m7, iii m7, IV maj7, V7, vi m7, vii m7♭5. Em Dó: Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7♭5. Em Sol: Gmaj7, Am7, Bm7, Cmaj7, D7, Em7, F#m7♭5. O padrão vale para qualquer tonalidade maior.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "NGior_1Tsmo#I10",
+    "NGior_1Tsmo#I04",
+    "pt--campo_harmônico-b0b9ac#I08"
+   ],
+   "divergencias": "",
+   "correcoes": "A lista de tétrades em Sol citada por Seriff omite o vii. Pelo padrão do campo maior, ele é F#m7♭5."
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Diminuto com sétima (dim7): a ♭♭7 soa como 6ª",
+   "descricao": "O dim7 é 1-♭3-♭5-♭♭7. A sétima dupla bemol é enarmônica da 6ª maior: Cdim7 = C-E♭-G♭-B♭♭, e o B♭♭ soa como A, a mesma nota da 6ª de C. Não confunda com o m7♭5 (1-♭3-♭5-♭7), que tem sétima menor.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "conceito",
+   "titulo": "Extensões 9, 11 e 13: o empilhamento de terças continua",
+   "descricao": "Continuando a empilhar terças depois da 7ª, aparecem a 9ª, a 11ª e a 13ª. Elas são a 2ª, a 4ª e a 6ª da escala uma oitava acima (estrutura superior). Sobre acordes de sétima, elas acrescentam cor (tensão) sem mudar a função do acorde e podem ser redistribuídas livremente no voicing. Atalhos: a ♯9 fica uma terça menor (3 semitons) acima da raiz; a ♭7 fica um tom abaixo da raiz. Pedagogicamente, esse é o passo seguinte depois de dominar tríades e tétrades: identificar as tensões (9ª, 13ª) e explorar suas sonoridades.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I20",
+    "lJRzTqOf1ro#I07",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I14",
+    "web--fqbk-handbook-pdf-582590#I48",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "add9 x 9: somar a nona com ou sem a sétima",
+   "descricao": "add9 = tríade + 9, sem sétima. C add9 = C-E-G-D. Quem ouve um Ré acima da tríade de Dó, sem sétima, reconhece o add9. Já o acorde '9' (ex.: G9, A9) contém a ♭7 mais a 9ª. A forma do acorde (C simples ou C add9) não muda a função do baixo em Dó.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "bFtTvqASQ9k#I21",
+    "KorP9lq1voU#I21"
+   ],
+   "divergencias": "",
+   "correcoes": "Complemento de nomenclatura (add9 sem 7ª, 9 com 7ª) tirado da referência de teoria, para separar os dois casos."
+  },
+  {
+   "id": "K21",
+   "tipo": "conceito",
+   "titulo": "Nona e 13ª no shape: subir uma nota um tom",
+   "descricao": "Ideia atribuída a Barry Green: é possível dar cor aos dominantes nas formas pequenas, sem apertar a mão em formas grandes. Basta mover uma nota um tom (2 casas).\n• Tônica sobe um tom = 2ª, que uma oitava acima é a 9ª. A7 vira A9 (A-C#-E-G-B).\n• 5ª sobe um tom = 6ª, que uma oitava acima é a 13ª. A7 vira A13 (com F#).\nNa tríade de G, a 9ª é A, duas casas acima da tônica G. A lógica vale para qualquer dominante e qualquer região.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "QXp8yDb3zyQ#I19",
+    "gueqUPZ88rs#I21",
+    "gueqUPZ88rs#I23",
+    "gueqUPZ88rs#I20"
+   ],
+   "divergencias": "",
+   "correcoes": "#45: o E da corda Si (casa 5) subindo um tom vai para a casa 7 (F#), não para a casa 6 (casa 6 = F). #37: a nota duas casas abaixo da 6ª (E) é D, não A. O Lá (9ª de G) fica duas casas acima da tônica Sol. Provavelmente a fonte se referia ao movimento a partir da tônica."
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Aplicar 9ª e 13ª em A7, D7 e E7",
+   "descricao": "Pratique o movimento da K21 nas formas pequenas de dominante nas cordas agudas.\n• A7 = XX5655 (D=G ♭7, G=C# 3ª, B=E 5ª, E=A tônica).\n• D7 = XX7778 (D=A 5ª, G=D tônica, B=F# 3ª, E=C ♭7).\nAlterne cada acorde com e sem a extensão para ouvir a cor.",
+   "passos": [
+    "Toque A7 em XX5655.",
+    "Suba a tônica da corda Mi aguda da casa 5 para a casa 7 (B) e toque A9.",
+    "Volte ao A7 e suba a 5ª da corda Si da casa 5 para a casa 7 (F#) para obter A13.",
+    "Em D7 (XX7778), suba a tônica da corda Sol da casa 7 para a casa 9 (E) para obter D9.",
+    "Aplique a mesma lógica ao E7.",
+    "Alterne entre o acorde com e sem a extensão sobre um blues."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gueqUPZ88rs#I22"
+   ],
+   "divergencias": "",
+   "correcoes": "A legenda dizia 'corda e casa 5'. Trata-se da corda Mi aguda (E), casa 5, onde está a tônica Lá do A7."
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "NGior_1Tsmo#I14",
+   "sugestao": "C02.2",
+   "motivo": "Trata do uso do vii diminuto do campo harmônico como acorde de passagem ou substituto do V. É função harmônica, não formação de acorde."
+  },
+  {
+   "id": "NGior_1Tsmo#I15",
+   "sugestao": "C02.2",
+   "motivo": "O acorde V/7 (D/F# em Sol) é um uso de inversão na harmonia do campo. Se o foco for o voicing, cabe também em C10.6."
+  },
+  {
+   "id": "pickupmusic--what-is-the-caged-system-18ed1a#I05",
+   "sugestao": "C03.2",
+   "motivo": "Diferença entre forma CAGED e nome do acorde; é assunto do sistema CAGED no braço."
+  },
+  {
+   "id": "wXZGcgYysNs#I06",
+   "sugestao": "C03.2",
+   "motivo": "Notas fora da pentatônica dentro dos mini shapes CAGED; trata de formas no braço."
+  }
+ ],
+ "observacoes": "Não incluí as ideias secundárias que pertencem a outras subcategorias:\n• Inversões (#91, #92, #96) e tríade superior/inferior (#81): C10.2.\n• Arpejos sobrepostos (#80): C10.5.\n• Extensão como alvo (#79): C10.5.\n• Chord-scale (#90): C09.3/C11.\n• Inversão com ♭7 no grave (#84): C10.6.\n• Chord tones (#62): C09.1.\n• Arpejos diatônicos (#67): C10.3.\n• Forma dentro do arpejo (#75): C10.1.\n• Tríade como base (#98): C10.6.\n\nA #94 contém um erro: diz que A7 em Dó tem Sol♯. O correto é C# (A7 = A C# E G). Ela não foi usada, mas deve ser corrigida se entrar em C09/C12.\n\nNão há divergências fortes de teoria entre as fontes, só de recorte: três qualidades diatônicas versus a inclusão do aumentado.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 60,
+  "ideias_secundarias": 39,
+  "itens": 22,
+  "fora_do_lugar": 4,
+  "tentativas": 1,
+  "custo_usd": 0.4232,
+  "segundos": 121,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 19404,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 13366
+  },
+  "gerado_em": "2026-10-08T08:02:30"
+ }
+}

@@ -1,0 +1,480 @@
+{
+ "subcategoria": "C02.1",
+ "visao_geral": "Esta subcategoria reúne a base teórica que sustenta qualquer improviso: as sete notas naturais, onde ficam os dois semitons naturais (E-F e B-C), a fórmula tom-tom-semitom-tom-tom-tom-semitom da escala maior e a definição de intervalo como a distância entre duas notas. As fontes concordam em três pontos. Todo intervalo é medido a partir da escala maior, numerada de 1 a 7. Os demais intervalos saem da alteração desses graus (♭3, ♭5, ♭7 etc.). Cada intervalo tem um caráter próprio: a 3ª define se o som é maior ou menor, a 5ª é estável, a 4ª soa suspensa, a 7ª maior é uma dissonância colorida e a ♭7 dá o som do blues. A mensagem mais repetida (Active Melody, Paul Davids, Nelson Faria, Ricardo Frade, Bertamini) é pensar em graus e funções, e não só em nomes de notas ou em desenhos de escala. Isso torna o som previsível, facilita transpor e evita decorar dezenas de shapes. Jens Larsen faz o contraponto: os nomes das notas continuam necessários para enxergar a condução de vozes entre acordes. A parte prática inclui escrever e visualizar intervalos, mapear cada nota da caixa pentatônica como grau da raiz, dizer os graus em voz alta com metrônomo e tocar combinações de intervalos contra a tônica.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Alfabeto musical: as sete notas naturais",
+   "descricao": "As notas naturais são A (Lá), B (Si), C (Dó), D (Ré), E (Mi), F (Fá) e G (Sol), sem sustenidos nem bemóis. Elas são a base para entender o braço e a teoria. Para começar, você pode deixar os sustenidos e bemóis de lado e falar e tocar só as sete naturais. Isso simplifica o aprendizado e já coloca você na tonalidade de Dó maior.",
+   "passos": [
+    "Recite o alfabeto musical em ordem a partir de qualquer nota (A B C D E F G A...).",
+    "Recite também de trás para frente.",
+    "Por enquanto, toque e fale só as notas naturais."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I02",
+    "s6lqWYXvEds#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Tom e semitom: os dois semitons naturais (E-F e B-C)",
+   "descricao": "Entre notas naturais vizinhas a distância é de um tom (duas casas), exceto em E-F (Mi-Fá) e B-C (Si-Dó), que estão a um semitom (uma casa). Nos outros pares (A-B, C-D, D-E, F-G, G-A) existe uma casa intermediária, ocupada por um sustenido ou bemol (ex.: entre C e D fica C#/D♭). Uma dica para memorizar: as notas terminadas em 'i' (Mi e Si) têm a nota seguinte a apenas meio tom. Saber onde ficam esses dois semitons é a chave para localizar qualquer nota.",
+   "passos": [
+    "Na corda Lá solta, toque as naturais subindo: A(0) B(2) C(3) D(5) E(7) F(8) G(10) A(12).",
+    "Observe que B→C e E→F têm só uma casa de distância.",
+    "Diga em voz alta 'tom' ou 'semitom' a cada passo."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I03",
+    "s6lqWYXvEds#I03",
+    "OXpW5An9XVQ#I04",
+    "OXpW5An9XVQ#I05",
+    "iUZwNSDpV_Q#I04"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte #46 diz que 'há meio tom entre todas as notas vizinhas exceto B-C e E-F', o que está invertido. O correto é que entre as naturais vizinhas há um tom, e só B-C e E-F estão a meio tom. A dica 'notas terminadas em i' (#49) foi reconstruída a partir da regra Mi-Fá/Si-Dó porque a fala do vídeo está truncada."
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Fórmula da escala maior e Dó maior como escala sem alterações",
+   "descricao": "A escala maior segue o padrão tom, tom, semitom, tom, tom, tom, semitom. Em Dó maior (C D E F G A B C), os semitons caem justamente em E-F e B-C, os dois semitons naturais. Por isso Dó maior é a única escala maior sem sustenidos nem bemóis: suas notas são exatamente as naturais, de C a C. Os graus são 1 2 3 4 5 6 7 e a oitava.",
+   "passos": [
+    "Toque C D E F G A B C numa só corda e confirme o padrão T-T-S-T-T-T-S.",
+    "Aplique o mesmo padrão a partir de G e descubra qual nota precisa de sustenido (F#)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "iUZwNSDpV_Q#I03",
+    "2vpD-LXRenI#I04",
+    "0MLUiyPWt8s#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "O que é intervalo e por que estudar",
+   "descricao": "Intervalo é a distância entre duas notas: pegue uma nota e outra, e o espaço entre elas é o intervalo. É um dos conteúdos de teoria mais importantes para reconhecer o que se ouve, interpretar os sons e entender o que se toca no solo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "UbIv3AKmNl0#I01",
+    "Uin2lUS1ujs#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Numerar os graus: 1 a 7 em relação à tônica",
+   "descricao": "Ao estudar intervalos, pense em números (1, 2, 3, 4, 5, 6, 7) que representam a distância até a tônica, em vez de nomes de notas. Dentro da escala não existe 8: depois do 7, a oitava volta a ser o 1. Para identificar um intervalo, parta da tônica e conte mentalmente os degraus da escala (1, 2, 3, 4...). É mais confiável do que depender de melodias decoradas.",
+   "passos": [
+    "Escolha uma tônica e toque a escala maior dizendo 1, 2, 3... 7, 1.",
+    "Para identificar um intervalo, conte os degraus da tônica até a nota-alvo."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "NGior_1Tsmo#I02",
+    "UbIv3AKmNl0#I05",
+    "UbIv3AKmNl0#I09"
+   ],
+   "divergencias": "Active Melody (#88) prefere contar degraus da escala a usar canções de referência. A ideia secundária #58 usa justamente canções de referência, recurso que pertence ao treino auditivo (C08.1).",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Todo intervalo deriva da escala maior",
+   "descricao": "Todos os intervalos são rótulos ou alterações dos graus da escala maior, por isso é preciso dominar essa escala antes. Os intervalos alterados saem dos graus da maior: para achar a ♭5 de uma tonalidade, suba a escala maior até a 5ª e abaixe essa nota um semitom. Do mesmo jeito, a ♭3 é a 3ª abaixada e a ♭7 é a 7ª abaixada. Ex.: em C, a 5ª é G, logo a ♭5 é G♭.",
+   "passos": [
+    "Escreva a escala maior da tonalidade.",
+    "Para um grau alterado (♭3, ♭5, ♭7...), pegue o grau da maior e mova um semitom."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "UbIv3AKmNl0#I02",
+    "ZPELVwO27lc#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Tabela de nomes de intervalos e graus",
+   "descricao": "A partir da raiz: uníssono = 1 (0 semitom); 2ª menor = ♭2 (1); 2ª maior = 2 (2); 3ª menor = ♭3 (3); 3ª maior = 3 (4); 4ª justa = 4 (5); 4ª aumentada = #4 / 5ª diminuta = ♭5 (6); 5ª justa = 5 (7); 6ª menor = ♭6 (8); 6ª maior = 6 (9); 7ª menor = ♭7 (10); 7ª maior = 7 (11); oitava (12). Os intervalos compostos (acima da oitava) são: 9ª menor = ♭9, 9ª maior = 9, 11ª justa = 11, 11ª aumentada = #11, 13ª maior = 13. Correspondem a 2, 4 e 6 uma oitava acima.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Achar a 3ª e a 5ª de um acorde contando as notas",
+   "descricao": "Numere a escala da tônica do acorde e conte. A 3ª é a terceira nota e a 5ª é a quinta, e as duas formam a tríade com a tônica. Exemplos: C (Dó maior) → 3ª Mi (Dó-Ré-Mi), 5ª Sol (Dó-Ré-Mi-Fá-Sol). G (Sol maior) → 3ª Si, 5ª Ré (tríade G B D). F (Fá maior) → 3ª Lá, 5ª Dó. Am (Lá menor) → 3ª menor Dó, 5ª Mi. Nos acordes maiores a 3ª é maior (2 tons). No Am ela é menor (1,5 tom).",
+   "passos": [
+    "Diga o nome da tônica do acorde.",
+    "Conte as notas da escala até a 3ª e até a 5ª.",
+    "Confira a qualidade da 3ª: em acorde maior, 2 tons; em acorde menor, 1,5 tom.",
+    "Toque a tônica, a 3ª e a 5ª sobre o acorde."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "7FilvCPSYXc#I09",
+    "q_nUp3Lv5H4#I03",
+    "q_nUp3Lv5H4#I04",
+    "q_nUp3Lv5H4#I05",
+    "q_nUp3Lv5H4#I06",
+    "q_nUp3Lv5H4#I09",
+    "q_nUp3Lv5H4#I10",
+    "q_nUp3Lv5H4#I11",
+    "q_nUp3Lv5H4#I12"
+   ],
+   "divergencias": "",
+   "correcoes": "Na contagem por notas naturais, só a qualidade da 3ª distingue Am (Lá-Si-Dó, 3ª menor) dos acordes maiores. Isso foi deixado explícito."
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Nomes funcionais dos sete graus",
+   "descricao": "Os graus da escala maior têm nomes funcionais: I tônica, II supertônica, III mediante, IV subdominante, V dominante, VI superdominante, VII sensível. Cada acorde do campo harmônico recebe a função do seu grau, e isso define o papel dele ao acompanhar a melodia.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "pt--campo_harmônico-b0b9ac#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "conceito",
+   "titulo": "3ª maior e 3ª menor: o intervalo que define maior ou menor",
+   "descricao": "A 3ª maior (2 tons acima da tônica; em Si, é Ré#) resolve a tensão e 'aterrissa' a melodia. Com a tônica e a 5ª, ela forma o 'banquinho de três pernas' 1-3-5 do acorde maior. A 3ª menor (♭3, 1,5 tom acima) é a 3ª maior abaixada um semitom (em Si, Ré natural). Trocar só essa nota muda o clima de alegre para triste ou melancólico. Toda escala menor tem 3ª menor. A 6ª e a 7ª também podem variar conforme o tipo de menor.",
+   "passos": [
+    "Sobre a tônica Si, toque Si-Ré# e depois Si-Ré.",
+    "Compare o caráter alegre e o melancólico."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "UbIv3AKmNl0#I12",
+    "UbIv3AKmNl0#I14",
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "5ª justa (estável) e 4ª justa (suspensa)",
+   "descricao": "A 5ª justa é o 5º grau da maior (7 semitons; em Si, é Fá#). É o intervalo mais fácil de reconhecer, soa estável e serve como pouso seguro no solo. A 4ª justa é o 4º grau (5 semitons; em Si, é Mi). Pousar nela soa suspenso, porque ainda pede resolução na 3ª, daí a relação com os acordes sus4.",
+   "passos": [
+    "Sobre um bordão de Si, pouse na 5ª (Fá#) e depois na 4ª (Mi).",
+    "Ouça a 4ª resolvendo para a 3ª (Mi → Ré#)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "UbIv3AKmNl0#I17",
+    "UbIv3AKmNl0#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "2ª maior e 6ª maior",
+   "descricao": "A 2ª maior é o 2º grau, um tom acima da tônica (em Si, é Dó#). É o primeiro intervalo que o Active Melody ensina. A 6ª maior é o 6º grau, 9 semitons acima (em Si, é Sol#). Contra a tônica, soa mais aberta e menos resolvida que a 3ª ou a 5ª.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "UbIv3AKmNl0#I07",
+    "UbIv3AKmNl0#I20"
+   ],
+   "divergencias": "Active Melody descreve a 6ª maior como 'aberta'. Nicky V (#40) diz que a 6ª 'dá sonoridade menor', provavelmente porque a 6ª maior é a tônica da relativa menor.",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "7ª maior (dissonância colorida) e 7ª menor (som de blues)",
+   "descricao": "A 7ª maior fica meio tom abaixo da tônica (em Si, é Lá#). Por ser vizinha da tônica, forma uma dissonância tensa, que é a cor do acorde maj7 (1-3-5-7). Para colorir uma melodia com essa cor, use a 7ª sobre a tônica. A 7ª menor (♭7) é a 7ª abaixada um semitom, um tom abaixo da tônica (em Si, Lá natural). Ela é a nota do acorde dominante B7 (1-3-5-♭7) e a característica do blues.",
+   "passos": [
+    "Sobre a tônica Si, toque Lá# (7) e Lá (♭7) e compare.",
+    "Ouça a 7ª maior como cor de maj7 e a ♭7 como cor de blues/dominante."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "UbIv3AKmNl0#I21",
+    "UbIv3AKmNl0#I22",
+    "mrKDTl6zDOM#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "conceito",
+   "titulo": "Panorama: a sonoridade de cada intervalo contra a tônica",
+   "descricao": "Resumo de caráter cruzando as fontes. Tônica e 5ª (1-5): estáveis. 3ª maior: resolvida. 3ª menor: emotiva. 2ª/9ª e 4ª: sons abstratos ou suspensos. 6ª: cor diferente (no dórico soa até 'chocante'). 7ª maior com a tônica: muito dissonante. 7ª em geral: abstrata. Esses 'sabores' orientam a escolha da nota de repouso. Lembre também da inversão: 3ª maior invertida (tônica no agudo) vira 6ª menor, e 4ª justa invertida vira 5ª justa. Por isso o mesmo par de notas soa diferente conforme a nota que está no baixo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "t8SmU7wIxnc#I27",
+    "hlA3fv1Jq5I#I13"
+   ],
+   "divergencias": "Sobre a 6ª, Nicky V fala em 'sonoridade menor', Active Melody em 'aberta' e Ozeias Rodrigues em 'chocante' no dórico.",
+   "correcoes": "A fonte #40 diz que '1-4 e 1-3 invertidos podem soar como sexta menor'. Pela teoria, só a 3ª maior invertida vira 6ª menor; a 4ª justa invertida vira 5ª justa."
+  },
+  {
+   "id": "K15",
+   "tipo": "dica",
+   "titulo": "Achar intervalos pela distância em casas a partir da tônica",
+   "descricao": "Referências rápidas a partir da tônica. 2ª: um tom acima (C → D). 7ª maior: meio tom abaixo (C → B). ♭7: um tom abaixo. #9: uma 3ª menor (3 semitons) acima da raiz, escrita como #9 e pensada na oitava acima (em C, D#). Entre uma tônica e sua oitava sempre há uma 5ª, a mesma nota do power chord, que pode ser somada ao 'bloco' da tônica (Bertamini). Ele também usa a ♭7 para definir o 'bloco da sétima menor'.",
+   "passos": [
+    "Localize um C no braço.",
+    "Toque a nota um tom acima (2) e meio tom abaixo (7).",
+    "Toque um tom abaixo (♭7) e uma 3ª menor acima (#9).",
+    "Ache a 5ª entre esse C e a oitava dele."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "t8SmU7wIxnc#I20",
+    "mrKDTl6zDOM#I11",
+    "web--fqbk-handbook-pdf-582590#I48",
+    "mrKDTl6zDOM#I16",
+    "mrKDTl6zDOM#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "exercicio",
+   "titulo": "Escrever intervalos no papel e visualizá-los no braço",
+   "descricao": "Primeiro nível do estudo de intervalos: classificá-los como maiores, menores ou justos no papel e depois encontrar as mesmas notas na guitarra, numa corda e em duas cordas.",
+   "passos": [
+    "Escreva duas notas no papel e identifique o intervalo (maior, menor ou justo).",
+    "Localize as mesmas notas no braço, primeiro numa corda e depois em duas cordas.",
+    "Repita com os intervalos mais usados até reconhecê-los à vista."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "lJRzTqOf1ro#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Pensar em graus e funções, não em nomes de notas",
+   "descricao": "O som de cada grau em relação ao acorde ou à tonalidade é constante. Por isso '3ª' ou '5ª' é uma referência mais útil que 'B' ou 'D'. A mesma nota muda de função conforme o acorde: B é a 3ª de G e a tônica de Bm. F# em C maior é a #4, e saber isso indica o papel dela na harmonia. Por isso pense nas notas sempre em relação à tônica: sobre um acorde de D dá para usar a escala de A maior ou de F# menor, desde que você pense nas notas a partir de D. Ao localizar as notas do acorde, identifique cada uma como fundamental, 3ª ou 5ª. Assim você associa o som ao intervalo e escolhe notas com intenção ao vivo. Nelson Faria chama isso de terceiro nível: analisar o que foi tocado em graus (fundamental, terça, quinta, sétima) e intervalos.",
+   "passos": [
+    "Ao tocar uma nota, pergunte 'que grau ela é deste acorde?'.",
+    "Rotule as notas do acorde como 1, 3 ou 5 enquanto toca.",
+    "Depois de tocar uma frase, analise-a em graus."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "7FilvCPSYXc#I07",
+    "XL9TYmwkHWs#I13",
+    "mtRKsf1Y5cw#I05",
+    "v2rtFiZPAJ4#I07",
+    "7FilvCPSYXc#I08",
+    "NbNH_C3QAS0#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "erro_comum",
+   "titulo": "Decorar só o shape sem saber os graus",
+   "descricao": "Muitos alunos, principalmente sem professor, aprendem o formato da escala e se frustram porque os solos não soam bem. Eles tocam as notas certas, mas não sabem que grau cada uma ocupa em relação ao acorde. Decorar shapes é só a ponta do iceberg. Além disso, decorar cada escala separadamente exigiria uns 35 modelos (sete modos × cinco desenhos). Conhecer os intervalos evita isso: o shape passa a ser lido como um bloco com conexões, blue note e frases reaproveitáveis.",
+   "passos": [
+    "Para cada shape que você já sabe, marque qual nota é 1, 3, 5 e ♭7.",
+    "Toque o shape dizendo o grau em vez de só seguir o desenho."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "academiamusical--melhore-o-seu-improviso-na-guitarra-c-videoaula-073028#I01",
+    "academiamusical--melhore-o-seu-improviso-na-guitarra-c-videoaula-073028#I02",
+    "lJRzTqOf1ro#I10",
+    "mD_JBfqB8X0#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Graus tornam a transposição automática",
+   "descricao": "Se você subir meio tom mantendo os intervalos, o som, os intervalos e a digitação continuam iguais; só mudam os nomes das notas. Ex. de Nelson Faria: Cm7(♭5) = Dó, Mi♭, Sol♭, Si♭ (1, ♭3, ♭5, ♭7). Meio tom acima, D♭m7(♭5) = Ré♭, Fá♭, Lá♭♭, Dó♭, nomes difíceis de pensar em tempo real. Quem pensa por nome trava, e quem pensa por função vê a mesma coisa. Do mesmo jeito, como as formas da pentatônica não mudam, o acorde de grau III fica sempre na mesma posição relativa à escala em qualquer tom. Pensar a partir da distância até a tônica permite levar um bloco para qualquer tônica.",
+   "passos": [
+    "Toque uma frase e anote os graus dela.",
+    "Mova a frase meio tom acima mantendo os graus.",
+    "Toque-a em mais três tonalidades sem pensar nos nomes das notas."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "v2rtFiZPAJ4#I09",
+    "wXZGcgYysNs#I04",
+    "v2rtFiZPAJ4#I08",
+    "U3u3jiF7zVg#I13",
+    "mD_JBfqB8X0#I05"
+   ],
+   "divergencias": "Nelson Faria (#74) considera o nome das notas o nível 'menos importante'. Jens Larsen (K20) defende que os nomes continuam necessários.",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "erro_comum",
+   "titulo": "Pensar só em intervalos e esquecer os nomes das notas",
+   "descricao": "Estudar apenas intervalos contra cada acorde isolado não basta, porque ignora o que acontece ao longo da progressão. Saber os nomes das notas permite ver o movimento das vozes de um acorde para o outro (notas comuns, notas que andam meio tom).",
+   "passos": [
+    "Para cada acorde da progressão, escreva os graus e também os nomes das notas.",
+    "Marque as notas que se mantêm ou andam por grau conjunto na troca de acorde."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "9oAxHq-ZLwI#I03"
+   ],
+   "divergencias": "Jens Larsen diverge da ênfase de Nelson Faria e Paul Davids, que colocam o nome das notas em segundo plano.",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "conceito",
+   "titulo": "Graus da pentatônica menor",
+   "descricao": "A pentatônica menor tem os graus 1, ♭3, 4, 5, ♭7. Em Lá menor: A (1), C (♭3), D (4), E (5), G (♭7). Em Mi menor: E (1), G (♭3), A (4), B (5), D (♭7). Nomear os graus mostra a função de cada nota em vez de tratá-la como mais um ponto do desenho.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "-htAGli1YeY#I06",
+    "tRi4vMs2z8M#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Mapear cada nota da caixa pentatônica como intervalo da raiz",
+   "descricao": "Na caixa de pentatônica menor, identifique o intervalo que cada nota forma com a raiz. Depois refaça o mapeamento usando a raiz logo abaixo da nota, para ver cada intervalo nas duas direções do braço.",
+   "passos": [
+    "Escolha a raiz na caixa de pentatônica menor (ex.: E).",
+    "Identifique na caixa a ♭3, a 4, a 5, a ♭7 e a oitava a partir dessa raiz.",
+    "Refaça o mapeamento usando a raiz uma posição abaixo.",
+    "Observe como cada intervalo aparece nas duas direções."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "tRi4vMs2z8M#I14"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte lista a '3ª' entre as notas da caixa pentatônica menor. Como a escala é 1-♭3-4-5-♭7, a 3ª dela é a ♭3."
+  },
+  {
+   "id": "K23",
+   "tipo": "exercicio",
+   "titulo": "Dizer os graus em voz alta enquanto toca, com metrônomo",
+   "descricao": "Toque a escala devagar e nomeie cada nota pelo grau. Ex. em Lá menor pentatônica: tônica, terça menor, quarta, quinta, sétima menor, uma nota por batida do metrônomo, em todas as regiões do braço. O mesmo vale para escalas maiores. Na híbrida mixolídio-blues, a primeira oitava fica 1, 2, ♭3, 3, 4, ♭5, 5, 6, ♭7, 1, e na segunda oitava a 6 pode ser chamada de 13. O objetivo é achar os intervalos em tempo real.",
+   "passos": [
+    "Ligue o metrônomo numa velocidade lenta.",
+    "Toque uma região da escala dizendo o grau de cada nota a cada batida.",
+    "Repita em todas as regiões (em Lá menor, os cinco desenhos).",
+    "Faça na segunda oitava também, usando os nomes compostos (9, 11, 13) se quiser.",
+    "Por fim, encontre e diga os intervalos sozinho, sem o vídeo."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "lJRzTqOf1ro#I27",
+    "ZPELVwO27lc#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Tocar combinações de intervalos contra a tônica e levá-las para a frase",
+   "descricao": "Invente sequências de intervalos que sempre voltam à tônica, como 1-5-1-4-1 ou 1-3-1-7-1 a partir de C. Toque as notas em sequência e, quando possível, juntas, para ouvir a relação entre elas. Depois use as combinações que você gostou para compor e posicionar notas nas frases de improviso.",
+   "passos": [
+    "Escolha um C no braço.",
+    "Toque sequências com retorno à tônica (1-5-1-4-1, 1-3-1-7-1).",
+    "Toque as duas notas juntas quando possível e ouça a harmonia.",
+    "Anote as combinações mais interessantes.",
+    "Use-as como ponto de partida para frases sobre um backing track."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Rm8Y-Q6wbR4#I23",
+    "t8SmU7wIxnc#I26"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "rotina_estudo",
+   "titulo": "Estudar intervalos em níveis, sem pular etapas",
+   "descricao": "Progressão proposta por Daniel Bertamini. Nível 1: teoria de intervalos (maiores, menores e justos) e visualização no braço. Nível 2: intervalos dentro da pentatônica. Nível 3: pentatônica combinada com tríades. Nível 4: tétrades e tensões. Os intervalos são a base para mirar notas-alvo e qualquer ideia de repouso. Ir direto para tétrades e tensões sem dominar os intervalos básicos atrasa o músico.",
+   "passos": [
+    "Nível 1: teoria e visualização de intervalos (ver K16).",
+    "Nível 2: intervalos dentro da pentatônica (ver K22 e K23).",
+    "Nível 3: pentatônica mais tríades.",
+    "Nível 4: tétrades e tensões."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "lJRzTqOf1ro#I02",
+    "lJRzTqOf1ro#I08",
+    "lJRzTqOf1ro#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "XL9TYmwkHWs#I15",
+   "sugestao": "C03.4",
+   "motivo": "Tocar a terça e a sexta de cada grau da tonalidade, em pares com movimento melódico, é uma sequência de intervalos diatônicos e pertence a padrões melódicos (complementado pelas secundárias #61 e #70)."
+  }
+ ],
+ "observacoes": "Ficaram de fora as ideias secundárias que pertencem a outras subcategorias: #58 (canções de referência, C08.1), #59 e #79 (construção da pentatônica, C04.1), #67 e #68 (intervalos internos de tétrades, C02.3; a própria fonte #67 já corrige G-A para G-B), #75 (mentalidade, C01.1), #76 (recurso, C01.4), #80 a #82 (formas dos intervalos no braço, C03.1), #86 e #87 (notas-alvo e repouso, C09.1). Nos exemplos do Active Melody em Si, todas as notas foram conferidas: C# (2), D# (3), D (♭3), E (4), F# (5), G# (6), A# (7) e A (♭7). A grafia de D♭m7(♭5) do Nelson Faria (D♭, F♭, A♭♭, C♭) também está correta.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 57,
+  "ideias_secundarias": 31,
+  "itens": 25,
+  "fora_do_lugar": 1,
+  "tentativas": 1,
+  "custo_usd": 0.4233,
+  "segundos": 120,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 17949,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 13955
+  },
+  "gerado_em": "2026-10-08T08:00:29"
+ }
+}

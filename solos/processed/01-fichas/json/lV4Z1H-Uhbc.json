@@ -1,0 +1,120 @@
+{
+ "fonte_id": "lV4Z1H-Uhbc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Most IMPORTANT Thing When IMPROVISING! #guitarlesson",
+  "autor": "Jamie Robinson",
+  "url": "https://www.youtube.com/watch?v=lV4Z1H-Uhbc",
+  "idioma": "en",
+  "duracao": "49s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/lV4Z1H-Uhbc--the-most-important-thing-when-improvising-guitarlesson.md"
+ },
+ "resumo": "Vídeo curto de Jamie Robinson com uma única mensagem: o mais importante ao improvisar é ouvir a música (backing track ou banda) e tocar em resposta ao que se ouve, em vez de se prender a escalas, licks ou ao que se praticou recentemente. Compara a improvisação a um diálogo com o acompanhamento, não a um monólogo. Útil para qualquer guitarrista que queira soar mais musical ao solar.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conselho conceitual muito relevante e bem explicado, mas curto e sem exercícios, notas ou exemplos tocados."
+ },
+ "assuntos_principais": [
+  "musicalidade",
+  "escuta ativa",
+  "dinâmica",
+  "improvisação como diálogo"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Ouvir o acompanhamento e dialogar com ele",
+   "inicio": "00:00",
+   "fim": "00:49",
+   "resumo": "Para improvisar de forma mais musical, preste atenção ao que está tocando por baixo: ouça a faixa e toque para ela, em vez de focar em escala, lick ou material estudado. Observe a bateria e a dinâmica e trate a improvisação como conversa.",
+   "assuntos": [
+    "escuta ativa",
+    "dinâmica",
+    "diálogo musical"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Ouça a faixa e toque para ela",
+   "descricao": "A coisa mais importante para soar musical ao improvisar é prestar muita atenção ao que você está improvisando por cima. Ouça o backing track (ou a banda) e toque em resposta ao que ouve. Parece simples, mas é difícil na prática.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "escuta ativa",
+    "musicalidade",
+    "backing track"
+   ],
+   "id_global": "lV4Z1H-Uhbc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Prender-se a escala, lick ou ao que praticou",
+   "descricao": "Erro comum: ficar tão preocupado com qual escala usar, qual lick encaixar ou o que se praticou recentemente que se deixa de ouvir a música. O foco no próprio material atrapalha a resposta ao acompanhamento.",
+   "passos": [],
+   "timestamp": "00:10",
+   "nivel": "intermediario",
+   "tags": [
+    "escalas",
+    "licks",
+    "foco",
+    "erro comum"
+   ],
+   "id_global": "lV4Z1H-Uhbc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Reaja à intensidade e dinâmica da bateria",
+   "descricao": "Pergunte-se enquanto toca: a bateria está aumentando a intensidade? A dinâmica está se acalmando? Isso deve influenciar como você toca, por exemplo na densidade, volume e energia das frases.",
+   "passos": [],
+   "timestamp": "00:22",
+   "nivel": "intermediario",
+   "tags": [
+    "dinâmica",
+    "bateria",
+    "intensidade",
+    "resposta"
+   ],
+   "id_global": "lV4Z1H-Uhbc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar é diálogo, não monólogo",
+   "descricao": "Pense na improvisação como uma conversa com a música de fundo. Um monólogo é quando você só se preocupa com o que quer dizer musicalmente; o diálogo exige escutar e responder ao acompanhamento.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "diálogo",
+    "mentalidade",
+    "musicalidade",
+    "call and response"
+   ],
+   "id_global": "lV4Z1H-Uhbc#I04"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [],
+ "observacoes": "Transcrição limpa e curta (49s). Sem tablatura ou exemplos tocados; conteúdo puramente conceitual. Os detalhes sobre aplicar a dinâmica (densidade, volume) são uma interpretação mínima do que foi dito.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:04:08",
+  "tentativas": 1,
+  "custo_usd": 0.1974
+ }
+}

@@ -1,0 +1,643 @@
+{
+ "fonte_id": "DKe5jX-5pII",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Tone Targeting In 1 4 5 Blues",
+  "autor": "fretjam",
+  "url": "https://www.youtube.com/watch?v=DKe5jX-5pII",
+  "idioma": "en",
+  "duracao": "13m 25s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/DKe5jX-5pII--tone-targeting-in-1-4-5-blues.md"
+ },
+ "resumo": "Aula sobre como escolher notas em blues 1-4-5 de forma mais melódica, em vez de tocar uma única pentatônica sobre toda a progressão. O método usa arpejos de sétima da dominante (A7, D7, E7) como esqueleto e notas-alvo, depois acrescenta a pentatônica menor e a pentatônica maior, com atenção à diferença funcional entre o V do compasso 9 e o V pretônico do compasso 12. Indicada para guitarristas que já tocam pentatônica e querem solar com mais direção harmônica.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com progressão em A, notas-alvo bem explicadas e um roteiro de estudo claro. Perde pontos por depender de diagramas e shapes que não aparecem na transcrição, e por algumas explicações sobre tensões serem vagas."
+ },
+ "assuntos_principais": [
+  "blues 1-4-5",
+  "notas-alvo",
+  "arpejo de dominante 7",
+  "pentatônica menor",
+  "pentatônica maior",
+  "função do V pretônico",
+  "tensões alteradas",
+  "memorização de progressão",
+  "backing track"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Objetivo da aula",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Apresenta o objetivo: pensar com mais cuidado na escolha de notas numa progressão de blues típica, em vez de tocar uma só escala.",
+   "assuntos": [
+    "escolha de notas",
+    "progressão de blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Limitações da pentatônica única e tonalidade de Lá",
+   "inicio": "00:32",
+   "fim": "01:41",
+   "resumo": "Critica o uso da pentatônica menor com ♭5 sobre todo o 1-4-5 e define a progressão em A: A7, D7 e E7.",
+   "assuntos": [
+    "pentatônica menor",
+    "blue note",
+    "tonalidade de A",
+    "acordes I IV V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Arpejo de A7 e tons-chave",
+   "inicio": "01:41",
+   "fim": "03:24",
+   "resumo": "Explica que a 3ª, a 5ª e a 7ª menor do acorde de A7 são os centros de gravidade, arpeja o acorde e mostra a forma de pestana de dominante como base.",
+   "assuntos": [
+    "A7",
+    "arpejo",
+    "tons do acorde",
+    "forma de pestana"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Arpejo de D7 e ligação I-IV-I",
+   "inicio": "03:24",
+   "fim": "04:31",
+   "resumo": "Monta o arpejo de D7 a partir da tônica D e mostra notas-alvo na troca entre o IV e o I, com uma nota comum aos dois acordes.",
+   "assuntos": [
+    "D7",
+    "arpejo",
+    "movimento I-IV",
+    "nota comum"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Melodia antes da técnica e arpejo de E7",
+   "inicio": "04:31",
+   "fim": "05:42",
+   "resumo": "Defende que melodia e harmonia vêm antes de bends e legato, que devem ser adicionados em camadas. Monta o arpejo de E7 e a ligação do I para o V.",
+   "assuntos": [
+    "ordem de estudo",
+    "E7",
+    "arpejo",
+    "movimento I-V"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Memorização com arpejos e início da pentatônica",
+   "inicio": "05:42",
+   "fim": "06:51",
+   "resumo": "Sugere tocar a progressão só com arpejos até memorizar os tons-chave, indica backing tracks e introduz a pentatônica menor de A sobre A7.",
+   "assuntos": [
+    "memorização",
+    "arpejos",
+    "backing track",
+    "pentatônica menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Pentatônica menor sobre A7 e D7",
+   "inicio": "06:51",
+   "fim": "08:25",
+   "resumo": "Mostra como a pentatônica menor de Lá contém a tônica, a 5ª e a 7ª menor de A7, falta a 3ª maior, e como usar os tons do arpejo para localizar alvos. Aplica a mesma pentatônica sobre D7.",
+   "assuntos": [
+    "pentatônica menor de A",
+    "sobreposição",
+    "A7",
+    "D7",
+    "alvos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Primeiro V e V pretônico no blues de 12 compassos",
+   "inicio": "08:25",
+   "fim": "09:33",
+   "resumo": "Diferencia o V do compasso 9 (ou 5 ) do V do compasso 12, que é pretônico e portanto mais tenso.",
+   "assuntos": [
+    "blues de 12 compassos",
+    "V pretônico",
+    "turnaround",
+    "tensão harmônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Pentatônica maior no V e versão alterada no V pretônico",
+   "inicio": "09:33",
+   "fim": "10:49",
+   "resumo": "Sobre o primeiro E7, usa a pentatônica maior junto aos tons do acorde. No V pretônico, adiciona a pentatônica menor de Lá, que gera tensões de E7 alterado.",
+   "assuntos": [
+    "pentatônica maior",
+    "E7",
+    "E7 alterado",
+    "pretônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Hierarquia das notas-alvo na resolução",
+   "inicio": "10:49",
+   "fim": "11:33",
+   "resumo": "Mostra a resolução do V pretônico para o A7 e ordena as notas-alvo: 3ª maior forte, fundamental e 7ª menor fortes, 5ª a mais fraca.",
+   "assuntos": [
+    "resolução",
+    "hierarquia de alvos",
+    "3ª maior",
+    "5ª"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Pausa e anúncio da próxima parte",
+   "inicio": "11:33",
+   "fim": "12:07",
+   "resumo": "Pausa e anuncia que a próxima parte acrescentará mais opções tonais.",
+   "assuntos": [
+    "transição"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S12",
+   "titulo": "Resumo final e blue note",
+   "inicio": "12:07",
+   "fim": "13:25",
+   "resumo": "Resume os pontos-chave: arpejos como esqueleto, pentatônica menor para embelezar, diferença funcional entre os dois V e a ♭5 como próximo passo. Termina com despedida.",
+   "assuntos": [
+    "resumo",
+    "arpejos",
+    "pentatônica menor",
+    "blue note",
+    "diferença funcional do V"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Não tocar uma só escala sobre todo o blues",
+   "descricao": "Em vez de usar uma única pentatônica sobre todos os acordes do 1-4-5, pense em cada acorde e nas notas que o definem para escolher melhor as notas.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "escolha de notas",
+    "blues 1-4-5",
+    "mentalidade"
+   ],
+   "id_global": "DKe5jX-5pII#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Uma pentatônica para três acordes gera notas forçadas",
+   "descricao": "Tocar só a pentatônica menor com ♭5 sobre I, IV e V usa cinco ou seis notas para três acordes diferentes, e algumas notas acabam soando forçadas nos acordes IV e V.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "blue note",
+    "erro comum"
+   ],
+   "id_global": "DKe5jX-5pII#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Tratar cada acorde da progressão em Lá",
+   "descricao": "Na tonalidade de Lá, a progressão usa A7 (I), D7 (IV) e E7 (V). Cada acorde tem tons centrais próprios que devem ser tratados como alvos melódicos.",
+   "passos": [],
+   "timestamp": "01:06",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade de A",
+    "A7",
+    "D7",
+    "E7",
+    "campo harmônico"
+   ],
+   "id_global": "DKe5jX-5pII#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Terça e sétima menor definem o A7",
+   "descricao": "No A7 (A C# E G), a 3ª maior C# e a 7ª menor G são os tons que definem a qualidade dominante do acorde, e junto com a fundamental formam o núcleo do arpejo.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "intermediario",
+   "tags": [
+    "A7",
+    "guide tones",
+    "arpejo",
+    "dominante"
+   ],
+   "id_global": "DKe5jX-5pII#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Arpejo de A7 sobre a forma de pestana",
+   "descricao": "O arpejo de A7 pode ser visualizado sobre a forma de pestana de acorde de sétima dominante, usada como esqueleto para o solo.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "iniciante",
+   "tags": [
+    "shape",
+    "pestana",
+    "A7",
+    "arpejo"
+   ],
+   "id_global": "DKe5jX-5pII#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Tons do acorde como alvos da resolução",
+   "descricao": "Quase sempre a frase termina nos tons do acorde quando a progressão volta ao A7, então esses tons são os alvos mais fortes e dão direção às frases que antecedem a mudança.",
+   "passos": [],
+   "timestamp": "02:49",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "resolução",
+    "tons do acorde"
+   ],
+   "id_global": "DKe5jX-5pII#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Arpejo de D7 a partir da tônica",
+   "descricao": "Monte o arpejo de D7 (D F# A C) partindo da tônica D, com a fundamental na corda Lá, para apoiar a melodia no acorde de IV.",
+   "passos": [
+    "Localize a nota D na corda Lá, casa 5.",
+    "Monte a tríade de D (D, F#, A) e acrescente a 7ª menor C.",
+    "Toque o arpejo para cima e para baixo, dizendo os nomes das notas em voz alta."
+   ],
+   "timestamp": "03:24",
+   "nivel": "iniciante",
+   "tags": [
+    "D7",
+    "arpejo",
+    "corda lá"
+   ],
+   "id_global": "DKe5jX-5pII#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Nota comum entre IV e I",
+   "descricao": "A nota A é comum aos acordes de D7 (como quinta) e A7 (como fundamental). Usá-la como alvo na troca de IV para I ajuda a ligar as frases.",
+   "passos": [],
+   "timestamp": "03:57",
+   "nivel": "intermediario",
+   "tags": [
+    "voice leading",
+    "notas comuns",
+    "movimento IV-I",
+    "notas-alvo"
+   ],
+   "id_global": "DKe5jX-5pII#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Melodia e harmonia antes da técnica",
+   "descricao": "Primeiro aprenda a melodia e a harmonia com notas-alvo. Bends, timing e legato entram depois, em camadas sobre essa base.",
+   "passos": [],
+   "timestamp": "04:31",
+   "nivel": "intermediario",
+   "tags": [
+    "ordem de estudo",
+    "bend",
+    "legato",
+    "camadas"
+   ],
+   "id_global": "DKe5jX-5pII#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Arpejo de E7 e alvo na troca I-V",
+   "descricao": "O arpejo de E7 (E G# B D) tem as mesmas funções dos outros acordes. Na troca do I para o V, uma nota do acorde de E7 pode ser o alvo.",
+   "passos": [],
+   "timestamp": "05:08",
+   "nivel": "intermediario",
+   "tags": [
+    "E7",
+    "arpejo",
+    "movimento I-V"
+   ],
+   "id_global": "DKe5jX-5pII#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Progressão inteira só com arpejos",
+   "descricao": "Toque toda a progressão de blues de 12 compassos (A7, D7, E7) usando somente arpejos de sétima da dominante, até que os tons-chave fiquem memorizados.",
+   "passos": [
+    "Escolha uma backing track de blues em Lá (A7, D7, E7).",
+    "Toque o arpejo de A7 nos compassos 1 a 4.",
+    "Continue com D7 e E7 seguindo a progressão de 12 compassos.",
+    "Repita até conseguir tocar cada acorde sem pensar nas notas."
+   ],
+   "timestamp": "05:42",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "memorização",
+    "12 compassos",
+    "rotina"
+   ],
+   "id_global": "DKe5jX-5pII#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "recurso",
+   "titulo": "Backing tracks da lição",
+   "descricao": "O vídeo indica backing tracks para praticar, disponíveis pelo link da aula completa na descrição.",
+   "passos": [],
+   "timestamp": "05:42",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "recurso"
+   ],
+   "id_global": "DKe5jX-5pII#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor de Lá sobre A7",
+   "descricao": "Sobre A7, a pentatônica menor de Lá (A C D E G) contém a fundamental, a 5ª e a 7ª menor do acorde, mas não tem a 3ª maior (C#), que precisa ser adicionada.",
+   "passos": [],
+   "timestamp": "06:16",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "A7",
+    "pentatônica"
+   ],
+   "id_global": "DKe5jX-5pII#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Terça menor como ♯9 e uso breve",
+   "descricao": "A terça menor C, sobre A7, soa como ♯9 (enarmonicamente B#). Ela aparece em frases curtas porque conflita com a 3ª maior do acorde.",
+   "passos": [],
+   "timestamp": "06:51",
+   "nivel": "avancado",
+   "tags": [
+    "♯9",
+    "terça menor",
+    "tensão",
+    "A7"
+   ],
+   "id_global": "DKe5jX-5pII#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Localizar alvos dentro da pentatônica",
+   "descricao": "Conhecer a posição dos tons do arpejo permite localizar e atacar esses alvos dentro das frases de pentatônica.",
+   "passos": [],
+   "timestamp": "06:51",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "pentatônica",
+    "arpejo"
+   ],
+   "id_global": "DKe5jX-5pII#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Pentatônica de Lá sobre D7",
+   "descricao": "Aplique a mesma pentatônica menor de Lá sobre o arpejo de D7 para preencher a frase do IV, mantendo os tons-chave do acorde em mente.",
+   "passos": [
+    "Toque o arpejo de D7 (D F# A C).",
+    "Sobreponha a pentatônica menor de Lá (A C D E G).",
+    "Toque os primeiros compassos de um blues de 12 compassos usando a pentatônica e os arpejos."
+   ],
+   "timestamp": "07:30",
+   "nivel": "intermediario",
+   "tags": [
+    "D7",
+    "pentatônica menor",
+    "arpejo",
+    "12 compassos"
+   ],
+   "id_global": "DKe5jX-5pII#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Funções diferentes do V no blues de 12 compassos",
+   "descricao": "No blues de 12 compassos, o V do compasso 9 e o V do compasso 12 têm funções diferentes. O primeiro é só um V de passagem para o IV, e o segundo é o acorde pretônico que resolve no I.",
+   "passos": [],
+   "timestamp": "08:25",
+   "nivel": "intermediario",
+   "tags": [
+    "12 compassos",
+    "V pretônico",
+    "turnaround",
+    "função harmônica"
+   ],
+   "id_global": "DKe5jX-5pII#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Tensão do V pretônico",
+   "descricao": "O V pretônico, que antecede a resolução para o I, é mais tenso que o primeiro V. Por isso a escolha de notas precisa refletir essa tensão maior.",
+   "passos": [],
+   "timestamp": "08:58",
+   "nivel": "intermediario",
+   "tags": [
+    "tensão",
+    "pretônica",
+    "escolha de notas"
+   ],
+   "id_global": "DKe5jX-5pII#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior sobre o primeiro E7",
+   "descricao": "No primeiro V (E7), use a pentatônica maior de Mi (E F# G# B C#) junto com os tons do arpejo de E7.",
+   "passos": [],
+   "timestamp": "09:33",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica maior",
+    "E7",
+    "V"
+   ],
+   "id_global": "DKe5jX-5pII#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "E7 alterado com pentatônica de Lá no V pretônico",
+   "descricao": "No V pretônico, a pentatônica menor de Lá (A C D E G) sobre E7 gera tensões de E7 alterado: a C funciona como ♯5 (ou ♭6) e a G como ♯9. Essas notas criam a tensão que resolve no I.",
+   "passos": [
+    "Toque o arpejo de E7 (E G# B D).",
+    "Adicione a pentatônica menor de Lá.",
+    "Resolva para o A7 pela terça maior C# e pelas notas-alvo do acorde."
+   ],
+   "timestamp": "10:15",
+   "nivel": "avancado",
+   "tags": [
+    "E7 alterado",
+    "♯9",
+    "♯5",
+    "pretônica",
+    "pentatônica menor"
+   ],
+   "id_global": "DKe5jX-5pII#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Hierarquia das notas-alvo na resolução",
+   "descricao": "Ao resolver para o A7, a 3ª maior (C#) é o alvo mais forte, seguida da fundamental e da 7ª menor. A 5ª é o alvo mais fraco.",
+   "passos": [],
+   "timestamp": "10:49",
+   "nivel": "avancado",
+   "tags": [
+    "notas-alvo",
+    "hierarquia",
+    "resolução",
+    "3ª maior"
+   ],
+   "id_global": "DKe5jX-5pII#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Arpejos como esqueleto e alvos",
+   "descricao": "Use os arpejos dos acordes como esqueleto das frases e como alvos finais das notas.",
+   "passos": [],
+   "timestamp": "12:07",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "notas-alvo",
+    "resumo"
+   ],
+   "id_global": "DKe5jX-5pII#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Embelezar frases com pentatônica menor",
+   "descricao": "Depois de dominar os arpejos, use a pentatônica menor para embelezar as frases de solo.",
+   "passos": [],
+   "timestamp": "12:07",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica menor",
+    "embelezamento",
+    "frases"
+   ],
+   "id_global": "DKe5jX-5pII#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Diferença funcional dos dois V",
+   "descricao": "Considere a diferença funcional entre o V do compasso 9 e o V pretônico do compasso 12, e como ela muda a escolha de notas.",
+   "passos": [],
+   "timestamp": "12:07",
+   "nivel": "intermediario",
+   "tags": [
+    "V pretônico",
+    "função",
+    "escolha de notas"
+   ],
+   "id_global": "DKe5jX-5pII#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Blue note ♭5 como próximo passo",
+   "descricao": "Depois de dominar o método, experimente acrescentar a ♭5 (blue note) à pentatônica menor. O vídeo promete explorar isso na parte seguinte.",
+   "passos": [],
+   "timestamp": "12:07",
+   "nivel": "intermediario",
+   "tags": [
+    "blue note",
+    "♭5",
+    "pentatônica menor"
+   ],
+   "id_global": "DKe5jX-5pII#I25"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Backing tracks indicadas pelo link da aula (descrição do vídeo)",
+  "Aula completa: fretjam.com/soloing-over-blues.html"
+ ],
+ "observacoes": "Legenda automática sem pontuação e com erros: 'Miner pentatonic' = minor pentatonic, 'preonic'/'pretonic' = pretônica, 'cortone'/'core tones' = tons centrais, 'rapio' = arpejo, 'dominant 7eventh' = dominante 7ª, 'minus 7th' = 7ª menor, 'bar chord' = pestana, 'Blue's' = blues, 'Superfluous' = supérfluas. Os shapes e a sequência de notas dependem de ver o braço ou a tablatura, que não estão na transcrição. A fonte chama a terça menor de ♯9 sobre A7, o que é correto apenas enarmonicamente (C = B#). Na parte do V pretônico, a fonte diz terça menor e 7ª menor da pentatônica, mas a interpretação das notas sobre E7 foi calculada com a pentatônica de Lá. Timestamps são aproximados, a partir dos marcadores do transcript.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00367,
+  "via": "api"
+ }
+}

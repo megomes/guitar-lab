@@ -1,0 +1,402 @@
+{
+ "subcategoria": "C04.4",
+ "visao_geral": "A escala de blues é a pentatônica menor acrescida da ♭5 (1-♭3-4-♭5-5-♭7), a blue note mais famosa. Na pentatônica maior, a blue note equivalente é a ♭3 (1-2-♭3-3-5-6). Por formar trítono com a tônica, a ♭5 funciona como nota de passagem, de slide ou de bend, e não como nota de repouso. As fontes ensinam a localizá-la em qualquer tonalidade e posição (caixa 1, contagem de três notas, regra da diagonal), a usá-la em frases e bends e a entendê-la como uma inflexão microtonal que a escala temperada apenas aproxima.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Escala de blues: pentatônica menor + ♭5",
+   "descricao": "A escala de blues é hexatônica: 1-♭3-4-♭5-5-♭7. Ela deriva da pentatônica menor, que é a favorita do blues, do rock e do metal, com o acréscimo da ♭5 (= #4, quarta aumentada). Em F: F A♭ B♭ B C E♭. Em G: G B♭ C D♭ D F. As blue notes são notas cromáticas que dão a sonoridade do blues; a ♭5 fica entre a 4ª e a 5ª, cria forte tensão cromática e funciona bem em corridas cromáticas.",
+   "passos": [
+    "Toque a pentatônica menor (ex.: Am = A C D E G).",
+    "Acrescente a ♭5 entre a 4ª e a 5ª (E♭ em Am).",
+    "Compare o som com e sem a ♭5."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "WcHs5SaynAw#I02",
+    "web--fqbk-handbook-pdf-582590#I22",
+    "UiCQL5cxnUA#I12",
+    "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I14",
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I05",
+    "pt--escala_pentatônica-58d055#I05",
+    "en--pentatonic_scale-d2efb3#I14",
+    "ZPELVwO27lc#I02",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I23"
+   ],
+   "divergencias": "",
+   "correcoes": "A escala de blues tem seis notas (hexatônica); ao acrescentar a ♭5, ela deixa de ser pentatônica."
+  },
+  {
+   "id": "K02",
+   "tipo": "dica",
+   "titulo": "A blue note como tempero em qualquer pentatônica menor",
+   "descricao": "A ♭5 pode ser introduzida sempre que se usa a pentatônica menor, mesmo fora do blues. Ela deixa os licks mais tensos e com cara de 'profissional', e não apenas 'corretos'. É o passo natural depois de dominar a pentatônica e as notas-alvo.",
+   "passos": [
+    "Pegue um lick de pentatônica que você já sabe.",
+    "Insira a ♭5 como passagem entre a 4ª e a 5ª.",
+    "Compare as duas versões sobre uma backing track."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "DKe5jX-5pII#I25",
+    "gNKJXn8g734#I03",
+    "ZPELVwO27lc#I04",
+    "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Calcular a ♭5 em cada tonalidade",
+   "descricao": "A blue note da menor fica sempre um semitom acima da 4ª, ou um abaixo da 5ª: Am = E♭, Bm = F, Cm = G♭, Dm = A♭ (G#), Em = B♭, Gm = D♭ (C#). Um atalho é baixar a 5ª uma casa.",
+   "passos": [
+    "Identifique a 4ª e a 5ª da pentatônica menor.",
+    "A nota entre elas é a ♭5.",
+    "Treine em Am, Em, Gm, Bm e Cm."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "NbNH_C3QAS0#I07",
+    "gNKJXn8g734#I01",
+    "mrKDTl6zDOM#I06",
+    "WNtvx2q2CrI#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "dica",
+   "titulo": "Blue note na caixa 1: dois lugares",
+   "descricao": "Na caixa 1 de Lá menor (casa 5), a E♭ aparece em dois pontos: casa 6 da corda A e casa 8 da corda G. Em Sol (caixa na casa 3), ela fica na casa 4 da corda A e na casa 6 da corda G. Na corda G, um slide do 3º dedo entre a 5ª e a blue note, ida e volta, é um lick clássico. Usar os dois pontos amplia as frases.",
+   "passos": [
+    "Toque a caixa 1 de Am.",
+    "Acrescente a casa 6 da corda A e a casa 8 da corda G.",
+    "Faça um slide até a blue note na corda G e volte."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "gNKJXn8g734#I04",
+    "4-XWDbMtR-U#I05",
+    "gNKJXn8g734#I07",
+    "3kSPGjxI-ns#I03"
+   ],
+   "divergencias": "",
+   "correcoes": "Uma fonte diz que a blue note de Lá menor é Ré♭ na casa 5 da corda G; na verdade, a casa 5 da corda G é Dó, e a blue note é Mi♭, na casa 8 dessa corda."
+  },
+  {
+   "id": "K05",
+   "tipo": "dica",
+   "titulo": "Método 'contar três notas' para achar a blue note em qualquer posição",
+   "descricao": "A partir de cada tônica da posição, conte três notas da escala (incluindo a tônica) e suba uma casa a partir da terceira. Em G: G, B♭, C → C#/D♭. O método vale para as cinco posições. Nas posições 4 e 5, use as tônicas que ficam dentro do shape; na posição 5, evite a tônica da corda E aguda, que leva para fora da posição.",
+   "passos": [
+    "Localize as tônicas da posição.",
+    "Conte tônica, ♭3 e 4.",
+    "Suba uma casa a partir da 4ª: aí está a ♭5.",
+    "Repita nas posições 1 a 5."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "gNKJXn8g734#I12",
+    "gNKJXn8g734#I18",
+    "gNKJXn8g734#I23",
+    "gNKJXn8g734#I26"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Escala de blues de Lá menor na casa 5",
+   "descricao": "Esta é a digitação da escala de blues de Am na posição 5, com a ♭5 (E♭) nas duas oitavas.",
+   "passos": [
+    "Corda E grave: casas 5-8 (A, C).",
+    "Corda A: casas 5-6-7 (D, E♭, E).",
+    "Corda D: casas 5-7 (G, A).",
+    "Corda G: casas 5-7-8 (C, D, E♭); corda B: casas 5-8 (E, G).",
+    "Corda E aguda: casas 5-8 (A, C); suba e desça devagar."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ZPELVwO27lc#I03"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte coloca 5-7-8-5-6-7 na corda E grave e cita 'sol, sol♯'; o correto é 5-8 na E grave e o cromatismo 5-6-7 (D-E♭-E) na corda A."
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Regra da diagonal: entre as duas notas mais agudas do grupo de três",
+   "descricao": "Na pentatônica diagonal (três notas por corda), a blue note fica sempre entre as duas notas mais agudas do grupo de três, em qualquer ponto do braço. Como os intervalos se repetem, a posição relativa nunca muda. A regra vale para a menor e para a maior: em Gm, entre C e D → C# (♭5); em Cm → G♭; em G maior, entre A e B → B♭ (♭3).",
+   "passos": [
+    "Toque a pentatônica diagonal em Gm.",
+    "Em cada grupo de três, insira o semitom entre as duas notas mais agudas.",
+    "Repita na pentatônica maior de G (B♭).",
+    "Mude de tonalidade mantendo a regra."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Ork2Vc2bva8#I15",
+    "Diou83hvGA4#I11",
+    "Ak_iM6H9rxE#I15",
+    "WNtvx2q2CrI#I20",
+    "WNtvx2q2CrI#I22",
+    "uGZDOBZfz1k#I14",
+    "uGZDOBZfz1k#I15",
+    "WNtvx2q2CrI#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "mentalidade",
+   "titulo": "Conhecer as blue notes nas cinco posições, não só no box 1",
+   "descricao": "Muitos guitarristas intermediários só sabem onde está a blue note no box 1. A diagonal (ou a contagem de três notas) permite acessá-la em qualquer box, sempre que quiser.",
+   "passos": [
+    "Liste onde você já sabe achar a blue note.",
+    "Use a regra da diagonal para preencher os outros boxes.",
+    "Improvise em cada box usando a blue note."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "Diou83hvGA4#I12",
+    "WNtvx2q2CrI#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "A blue note da pentatônica maior é a ♭3",
+   "descricao": "Na pentatônica maior, a blue note é a ♭3 (= #2), entre a 2ª e a 3ª, o que forma a 'blues maior' (1-2-♭3-3-5-6). Exemplos: em C, E♭; em D, F (entre E e F#); em E, G (inclusive na casa 8 da corda B); em A, C. Ela dá sabor bluesy e torna a escala híbrida entre maior e menor.",
+   "passos": [
+    "Toque a pentatônica maior de C (C D E G A).",
+    "Insira E♭ entre D e E.",
+    "Use-a sobre um blues em A maior com a pentatônica de A (blue note C)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "NbNH_C3QAS0#I06",
+    "MfrAepqfv2g#I15",
+    "WNtvx2q2CrI#I12",
+    "3kSPGjxI-ns#I02"
+   ],
+   "divergencias": "",
+   "correcoes": "Uma fonte chama o resultado em Ré de 'escala blues'; é a blues maior. Em outra, a nota extra sobre Lá maior, que o vídeo não nomeia, é pela teoria a ♭3 (C)."
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "Copiar o lick da maior três casas acima",
+   "descricao": "Um lick com a ♭3 no box 1 da pentatônica maior, copiado três casas acima, vira um lick da menor com a ♭5 no mesmo lugar relativo. Exemplo: em E maior a blue note é G; três casas acima, em E menor, ela é B♭.",
+   "passos": [
+    "Crie um lick no box 1 maior com a ♭3.",
+    "Desloque-o exatamente três casas acima.",
+    "Confirme que a nota agora é a ♭5 da menor."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "WNtvx2q2CrI#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Atrito e passagem cromática entre ♭3 e 3",
+   "descricao": "Sobre o acorde de A, a 3ª maior (C#) soa contra a ♭3 da pentatônica menor (C), e esse atrito gera o som áspero do blues. No fraseado, é típico passar cromaticamente de C para C#.",
+   "passos": [
+    "Sobre A7, toque C e resolva em C# (casa 5→6 da corda G).",
+    "Alterne as duas terças e ouça o atrito."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "UiCQL5cxnUA#I13",
+    "o1qXU6Nm_d4#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "erro_comum",
+   "titulo": "Não pousar na ♭5: usá-la como passagem ou slide",
+   "descricao": "A ♭5 forma trítono com a tônica e, se sustentada ou colocada no tempo forte, soa como erro. Use-a como passagem entre a 4ª e a 5ª, ou em slide meio tom para dentro ou para fora de uma nota. Govan lembra que a escala de blues é uma aproximação ocidental 'preguiçosa' de blue notes de outra cultura: em movimento, a ♭5 soa como quem sabe o que faz; parada, soa como erro.",
+   "passos": [
+    "Toque 4-♭5-5 e 5-♭5-4 em colcheias.",
+    "Faça slide da ♭5 para a 5ª.",
+    "Evite terminar frases ou tempos fortes na ♭5."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "Ork2Vc2bva8#I14",
+    "Cy_c2InwkSk#I08",
+    "mD_JBfqB8X0#I11",
+    "gNKJXn8g734#I02",
+    "3kSPGjxI-ns#I01",
+    "uGZDOBZfz1k#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "dica",
+   "titulo": "Descida conclusiva com blue note",
+   "descricao": "Um caminho descendente de 5ª, ♭5, 4ª, ♭3 até a tônica dá uma conclusão grave e expressiva, por exemplo depois da ♭7 (G em Am), que é instável. A versão ascendente é tônica, ♭3, 4ª, ♭5, 5ª e volta à tônica.",
+   "passos": [
+    "Em Am, toque E-E♭-D-C-A.",
+    "Antecipe a descida com G (♭7).",
+    "Varie oscilando entre a ♭3 e a 4ª antes da tônica."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "rODBvbol8dk#I08",
+    "rODBvbol8dk#I10",
+    "3kSPGjxI-ns#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "dica",
+   "titulo": "Combinar blue notes e bends",
+   "descricao": "A nota logo acima daquela em que se faz o bend (a 4ª) é a blue note, e incluí-la colore a frase. Misturar blue notes e bends na mesma frase soa mais natural do que usar cada recurso isolado. Um exemplo é o bend da ♭5 até a 5ª justa.",
+   "passos": [
+    "Faça bend da 4ª para a 5ª.",
+    "Na frase seguinte, toque a ♭5 como passagem.",
+    "Experimente o bend de meio tom da ♭5 até a 5ª."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "EwRkYkN7igw#I07",
+    "UiCQL5cxnUA#I15",
+    "mD_JBfqB8X0#I25"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Inserir a blue note em fragmentos e exercícios já conhecidos",
+   "descricao": "Acrescente a ♭5 (E♭ em Am) aos fragmentos da pentatônica para ampliar as frases dentro do shape. Faça o mesmo com o fragmento uma oitava abaixo, em outra posição (para legato) e nos exercícios de colcheias.",
+   "passos": [
+    "Toque um fragmento da pentatônica de Am.",
+    "Adicione a ♭5 e a 5ª.",
+    "Repita o fragmento uma oitava abaixo com a blue note.",
+    "Use-a nos exercícios de colcheias.",
+    "Teste em outra posição com legato."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "2-KlhAakkfU#I16",
+    "2-KlhAakkfU#I07",
+    "tomhess--pt-269230#I05",
+    "Qk8rk-uaBzU#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Blue note como inflexão microtonal",
+   "descricao": "A blue 'real' fica entre as casas: um quarter-step bend no C (♭3 de A), sem chegar ao C#, ou um bend parcial na corda G, quase até a 3ª maior. É uma nota escondida entre a tecla branca e a preta, que não existe no piano, e por isso se afina pelo ouvido. Na gaita, no trompete e na voz obtém-se o mesmo efeito pela embocadura ou pela entonação.",
+   "passos": [
+    "Sobre A7, toque C na corda G (casa 5).",
+    "Dê um leve bend sem chegar a C#.",
+    "Ajuste pela escuta até soar 'entre' as terças."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "premierguitar--blues_basics_saying_more_with_less-adf9db#I09",
+    "tELIgr96WcM#I04",
+    "btoooVk54LY#I08",
+    "en--bend_-music-f7581f#I11",
+    "tELIgr96WcM#I01",
+    "bhYXolbCrr0#I08",
+    "en--bend_-music-f7581f#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Outras passagens cromáticas do blues",
+   "descricao": "Além de ♭3→3, o blues usa as passagens 4→#4 (♭5), 5→♭6 e ♭7→7, resolvendo na oitava. Em A: D-D#, E-F e G-G#-A.",
+   "passos": [
+    "Toque D-D#-E, E-F-E e G-G#-A sobre A7.",
+    "Encaixe essas passagens em frases curtas."
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "UiCQL5cxnUA#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Blue note por shape: regiões práticas e menos práticas",
+   "descricao": "Cada shape da pentatônica menor posiciona a ♭5 de modo diferente, e alguns são mais confortáveis para usá-la. No shape longo, com saltos de tom e meio entre as notas, a blue note cai numa região pouco prática. Já os shapes que começam na ♭3 (box 2) e na 5ª (box 4) deixam a blue note bem acessível e rendem frases muito usadas. Um exemplo no shape da ♭3 é a frase ♭5-5-♭7-1, que se repete ao subir ou descer o shape.",
+   "passos": [
+    "Localize a ♭5 em cada shape da pentatônica menor (ex.: E♭ em Am).",
+    "Compare a digitação e marque os shapes em que ela fica confortável.",
+    "No shape que começa na ♭3, toque ♭5-5-♭7-1 (em Am: E♭-E-G-A).",
+    "Repita a mesma frase na oitava acima ou abaixo dentro do shape.",
+    "No shape que começa na 5ª, aplique os mesmos ornamentos (bends, slides) usados nos outros shapes."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "3kSPGjxI-ns#I05",
+    "3kSPGjxI-ns#I06",
+    "3kSPGjxI-ns#I15"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "en--pentatonic_scale-d2efb3#I09",
+   "sugestao": "C04.1",
+   "motivo": "Trata do modo de Mi da pentatônica de Dó (E G A C D), isto é, da pentatônica menor de Mi e das relativas, e não da escala de blues com ♭5."
+  }
+ ],
+ "observacoes": "As ideias sobre microbend foram tratadas aqui só como conceito (blue note microtonal); a técnica fica em C05.1. As secundárias #59, #60, #62, #72 (♭5 sobre o V/acorde) e #83 (híbrida mixolídio-blues) pertencem a C12.2 e C11.4 e não foram incluídas. A ideia #77 chama de blue note um mini bend da 2ª para a 3ª, classificação discutível.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 57,
+  "ideias_secundarias": 31,
+  "itens": 18,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1405,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 20301,
+   "output_tokens": 9989
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 0,
+    "novos_itens": 1
+   }
+  ]
+ }
+}

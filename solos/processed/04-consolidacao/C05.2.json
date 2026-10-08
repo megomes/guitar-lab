@@ -1,0 +1,515 @@
+{
+ "subcategoria": "C05.2",
+ "visao_geral": "Vibrato é uma oscilação regular da altura em torno da nota, sem trocar de nota. Ele se define por rate (velocidade) e depth (largura), e o ouvido percebe a altura média. As fontes ensinam a mecânica (movimento da mão a partir de um pivô, dedos travados, apoio no braço), os principais tipos (clássico, standard, rock, blues, butterfly, com bend, neck) e os erros de afinação mais comuns. Também orientam onde aplicá-lo (notas de chegada, tônica, notas longas), insistem em variar o vibrato conforme a música e no uso intencional, e tratam o vibrato como parte da voz pessoal do guitarrista.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "O que é vibrato",
+   "descricao": "Técnica de expressão que faz a altura de uma nota oscilar de forma regular e pulsante, sempre voltando à nota de origem. Na guitarra, isso se faz tensionando a corda um pouco mais e soltando. O ouvinte percebe a altura média e não os dois extremos, por isso o vibrato soa como uma única nota, mais calorosa. Se a nota não retorna à fundamental, soa desafinada.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I01",
+    "i9yDenSMpJk#I01",
+    "en--vibrato-633c98#I01",
+    "en--vibrato-633c98#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Vibrato x bend x trêmolo",
+   "descricao": "O gesto de tensionar a corda é o mesmo do bend, mas o objetivo é outro. O bend muda a nota; o vibrato só oscila em volta dela. Vários bends minúsculos em sucessão rápida resultam em vibrato. Trêmolo é outra coisa: repetir rapidamente a mesma nota (ex.: tremolo picking) ou alternar duas notas, embora os termos sejam usados como sinônimos na prática.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I06",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I02",
+    "en--vibrato-633c98#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Rate e depth",
+   "descricao": "Rate é a velocidade com que a nota sai da fundamental e volta a ela. Lento demais quase não soa como vibrato; rápido demais vira um 'boing'. Depth é a distância percorrida, de sutil a muito largo. Como referência, cantores solistas ficam abaixo de 1 semitom para cada lado, enquanto guitarristas elétricos chegam a vibratos de até 1 tom, imitando a voz.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "i9yDenSMpJk#I02",
+    "i9yDenSMpJk#I03",
+    "en--vibrato-633c98#I04",
+    "en--vibrato-633c98#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Direção da oscilação: puxar ou empurrar",
+   "descricao": "A corda não é sacudida para cima e para baixo: ela é tensionada (puxando para baixo ou empurrando para cima) e depois volta à posição natural, sem flexionar o dedo. Conforme a técnica, a oscilação fica só acima da fundamental, só abaixo ou dos dois lados. Vale explorar as duas direções.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I04",
+    "oQpLyyRCc6A#I05",
+    "i9yDenSMpJk#I12",
+    "i9yDenSMpJk#I04"
+   ],
+   "divergencias": "JustinGuitar prefere puxar a corda para baixo; o Cifra Club apresenta as duas direções como equivalentes.",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Saber a altura: vibrato centrado na nota",
+   "descricao": "Segundo Music is Win, cerca de 90% do vibrato é saber exatamente onde está a altura da nota. O vibrato deve ficar perto dela, com oscilações sutis de cerca de 1/4 de tom, sem se afastar da afinação.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "S9GgTvj9FXs#I15",
+    "S9GgTvj9FXs#I16"
+   ],
+   "divergencias": "Music is Win oscila acima e abaixo da nota; no vibrato standard do JustinGuitar a nota só sobe a partir da fundamental.",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Vibrato standard: a mão gira num pivô, dedos travados",
+   "descricao": "Os dedos ficam juntos e a mão gira em torno de um pivô na borda do braço (lateral da palma/1º dedo ou polegar), com a mesma mecânica do bend. O movimento vem do pulso ou da mão, não de empurrar e puxar dedos isolados, o que gera ruído e desafinação. É o tipo mais usado e o mais fácil de soar bem, recomendado como padrão. Usar ou não o dedo mínimo é escolha pessoal: JustinGuitar não o usa, por ser curto.",
+   "passos": [
+    "Trave os dedos juntos sobre a nota",
+    "Apoie a borda da mão no braço como pivô",
+    "Gire a mão ou o pulso, não os dedos",
+    "Volte sempre à nota de origem"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hafoCeXWxAE#I20",
+    "S9GgTvj9FXs#I18",
+    "S9GgTvj9FXs#I19",
+    "i9yDenSMpJk#I08",
+    "i9yDenSMpJk#I09",
+    "i9yDenSMpJk#I10",
+    "i9yDenSMpJk#I11",
+    "5sknWaNKxMA#I06"
+   ],
+   "divergencias": "Andrew Clarke e Kiko Loureiro falam em torção ou rotação do pulso e antebraço; Music is Win rejeita o giro tipo 'maçaneta' e prefere mover o braço com o pivô no polegar.",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "dica",
+   "titulo": "Apoio da mão e polegar: apoiado ou flutuando",
+   "descricao": "Para começar, o mais simples é apoiar a base da mão, perto da palma, no braço, segurando-o com firmeza. Kirk Fletcher ora apoia o polegar, ora o deixa flutuando. Com o polegar flutuando, o peso da guitarra ajuda o movimento, mas fica difícil fazer vibrato rápido, então o recurso combina com frases lentas. B.B. King vibrava com o pulso solto, sem apoio; quem não consegue deve usar o braço como apoio e praticar por longos períodos.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fJs5AALy4GY#I14",
+    "fJs5AALy4GY#I15",
+    "oQpLyyRCc6A#I03",
+    "bhYXolbCrr0#I11",
+    "S9GgTvj9FXs#I14"
+   ],
+   "divergencias": "O Cifra Club e Music is Win recomendam apoio firme; Fletcher e B.B. King também usam a mão sem apoio. Use o que der mais controle.",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Vibrato básico na casa 5 da corda G",
+   "descricao": "Com o dedo 1 na casa 5 da 3ª corda (nota C), toque e faça pequenos movimentos regulares de tensionar e soltar a corda. Depois aplique o mesmo gesto em notas da pentatônica. Comece lento e acelere aos poucos só quando o movimento estiver controlado.",
+   "passos": [
+    "Dedo 1 na casa 5 da corda G (C)",
+    "Toque a nota",
+    "Puxe levemente a corda e volte à posição natural",
+    "Repita em movimentos curtos e regulares",
+    "Aplique em outras notas da pentatônica",
+    "Aumente a velocidade gradualmente"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I02",
+    "S9GgTvj9FXs#I22",
+    "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I15"
+   ],
+   "divergencias": "",
+   "correcoes": "A casa 5 da 3ª corda (G) corresponde à nota C."
+  },
+  {
+   "id": "K09",
+   "tipo": "erro_comum",
+   "titulo": "Apertar demais a corda contra o braço",
+   "descricao": "Pressionar com força excessiva deixa o vibrato azedo e levemente desafinado, além de vago e aleatório. Faça o vibrato a partir de uma posição neutra e relaxada da mão, buscando um movimento que soe agradável.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "On_Ho3azaLk#I24",
+    "Qk8rk-uaBzU#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "erro_comum",
+   "titulo": "Começar o vibrato com a nota já desafinada",
+   "descricao": "Não dobre a nota antes de iniciar o vibrato, sobretudo na tônica, que precisa estar perfeitamente afinada. Comece o movimento de forma intencional e faça a nota voltar à posição neutra a cada ciclo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "On_Ho3azaLk#I25",
+    "3dW_GQsC5Ak#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "erro_comum",
+   "titulo": "Sacudir a guitarra inteira",
+   "descricao": "Balançar o instrumento no ar não gera vibrato; só produz ruído e tira o controle das cordas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "i9yDenSMpJk#I17"
+   ],
+   "divergencias": "",
+   "correcoes": "A legenda dizia 'violão', mas o contexto é a guitarra."
+  },
+  {
+   "id": "K12",
+   "tipo": "dica",
+   "titulo": "Onde aplicar: notas de chegada, tônica e notas longas",
+   "descricao": "Use vibrato em uma ou duas notas da frase, não em todas. Os melhores lugares são a nota final que você quer deixar soar, uma nota característica do trecho e as notas sustentadas da pentatônica. A tônica ou a terça ao concluir a frase recebem muito bem o vibrato; sem movimento, a nota longa soa sem expressão.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I09",
+    "hafoCeXWxAE#I20",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I14",
+    "0MLUiyPWt8s#I11",
+    "Ork2Vc2bva8#I18",
+    "QCpx0U09Z_o#I08",
+    "3kSPGjxI-ns#I13",
+    "930K2lldQD8#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Uma nota só na tônica, sustentada com vibrato",
+   "descricao": "Sobre uma backing track, toque apenas a tônica no tempo 1 de cada compasso e sustente-a com vibrato até o fim do compasso. Exemplos: A na pentatônica de Am (shape 1) ou C na pentatônica de C maior. O exercício mostra o peso de uma nota bem colocada.",
+   "passos": [
+    "Escolha a tônica (A em Am ou C em C maior)",
+    "Toque no tempo 1 de cada compasso",
+    "Sustente com vibrato até o fim do compasso",
+    "Repita durante toda a backing track"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "dZUSUZjRISI#I16",
+    "dZUSUZjRISI#I03",
+    "WcHs5SaynAw#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Colocar vibrato em riffs que não o têm",
+   "descricao": "Pegue um riff ou melodia que você já toca, por exemplo Come As You Are (Nirvana), e acrescente vibrato onde achar que fica bom, para explorar sua própria interpretação.",
+   "passos": [
+    "Escolha um riff ou melodia conhecida",
+    "Marque notas longas, finais de frase e notas características",
+    "Aplique vibrato e ouça o efeito",
+    "Teste outros pontos e fique com o que soa melhor"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "dica",
+   "titulo": "Variar rate e depth conforme a música",
+   "descricao": "Não use uma única velocidade e largura para tudo. Combine lento e largo, lento e estreito, rápido e largo ou rápido e estreito, e varie também a duração, conforme a música e o momento. Ter vibratos suaves e outros mais 'violentos' torna o solo mais interessante.",
+   "passos": [
+    "Escolha uma nota longa",
+    "Toque lento e estreito",
+    "Toque lento e largo",
+    "Toque rápido e estreito",
+    "Toque rápido e largo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "On_Ho3azaLk#I23",
+    "Qk8rk-uaBzU#I21",
+    "5sknWaNKxMA#I05",
+    "x8V99YYMRTc#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Vibrato clássico (lateral, ao longo da corda)",
+   "descricao": "O dedo fica parado sobre a casa e a mão balança para frente e para trás, ao longo da corda. Ao puxar, a altura sobe levemente; ao voltar, desce levemente, então oscila dos dois lados. O resultado é sutil e suave, ideal para baladas e para o violão de nylon, mas não indicado para blues. Para aprendê-lo, ouça violonistas clássicos tocando linhas melódicas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I07",
+    "i9yDenSMpJk#I05",
+    "i9yDenSMpJk#I06",
+    "i9yDenSMpJk#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "dica",
+   "titulo": "Vibrato rock: mais rate e mais depth",
+   "descricao": "Use a mecânica do vibrato standard aumentando ao mesmo tempo a velocidade e a largura. O resultado é o vibrato largo e agressivo típico do rock.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "i9yDenSMpJk#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Explorar os tipos de vibrato na escala maior",
+   "descricao": "Depois de dominar a escala maior, aplique cada tipo de vibrato a uma nota e compare o som, sem esperar dominar tudo de imediato.",
+   "passos": [
+    "Toque uma nota da escala maior",
+    "Aplique um tipo de vibrato por vez",
+    "Compare rate e depth de cada tipo"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "i9yDenSMpJk#I27"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Vibrato sobre o bend (microbends no topo)",
+   "descricao": "Primeiro faça o bend até a altura exata do alvo; só então o vibrato vira um microbend em volta da nota já dobrada. No topo, relaxe um pouco a pegada para a nota cair cerca de 1/8 de tom e empurre de volta. É difícil e exige controle da mão que pisa, então aprenda bend e vibrato separadamente antes de combiná-los.",
+   "passos": [
+    "Faça o bend até a nota-alvo afinada",
+    "Relaxe levemente a pegada no topo",
+    "Deixe cair cerca de 1/8 de tom",
+    "Empurre de volta à altura do bend",
+    "Repita e acelere aos poucos"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "S9GgTvj9FXs#I20",
+    "S9GgTvj9FXs#I21",
+    "S9GgTvj9FXs#I23",
+    "musicradar--bend-in-tune-on-guitar-bd9353#I04",
+    "i9yDenSMpJk#I21",
+    "i9yDenSMpJk#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "Vibrato de blues estilo Clapton",
+   "descricao": "A mão sai do braço e só a ponta do dedo toca a nota, que é 'quicada' para cima e para baixo. O atrito na casa ajuda a sustentar a nota. Exige mais pressão e movimento do antebraço, não só do pulso. Assista a vídeos de Clapton para absorver o gesto e o som; é um ótimo vibrato para finalizar licks de blues.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "i9yDenSMpJk#I13",
+    "btoooVk54LY#I11",
+    "i9yDenSMpJk#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Butterfly vibrato (B.B. King)",
+   "descricao": "Também chamado de flutter, é muito rápido e estreito, feito com o 1º dedo a partir do pivô da mão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "i9yDenSMpJk#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Vibrato lento e largo de Albert King",
+   "descricao": "É um vibrato lento e largo, que soa 'bêbado'. Kirk Fletcher o contrasta com o vibrato mais rápido de outros bluesmen. Como Albert King afinava mais grave, imitá-lo exige cuidado redobrado com a afinação.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "fJs5AALy4GY#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "Quando o vibrato entra: atrasado ou contínuo",
+   "descricao": "Além de rate e depth, importa o momento em que o vibrato começa. Em cantores pop a nota começa reta e o vibrato entra perto do fim (vibrato atrasado); na ópera ele vai do início ao fim da nota. No jazz, até os anos 1950 o uso era quase contínuo; com o bebop passou a ser seletivo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "i9yDenSMpJk#I26",
+    "en--vibrato-633c98#I05",
+    "en--vibrato-633c98#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "Neck vibrato",
+   "descricao": "Segure o corpo firmemente e empurre ou puxe levemente o braço, mudando a tensão das cordas. É uma das poucas formas de oscilar abaixo da fundamental. Use de forma sutil, principalmente em acordes e raramente em linhas de uma nota. Nunca force ao máximo, porque pode quebrar o braço.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "i9yDenSMpJk#I18",
+    "i9yDenSMpJk#I19",
+    "i9yDenSMpJk#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "conceito",
+   "titulo": "Vibrato em acordes",
+   "descricao": "O vibrato não se limita a notas isoladas. Nicklas Myhre o aplica a acordes na peça Juniper.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "Tocar sem vibrato para ganhar controle",
+   "descricao": "Método de Leopold Auer para violinistas: tocar passagens totalmente sem vibrato. Se o vibrato aparecer sem intenção, pare alguns minutos. O objetivo é controlar quando o vibrato está presente ou ausente.",
+   "passos": [
+    "Toque uma passagem sem nenhum vibrato",
+    "Se o vibrato entrar sem querer, pare alguns minutos",
+    "Retome e repita até ter controle total"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "en--vibrato-633c98#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "mentalidade",
+   "titulo": "Convicção e intenção",
+   "descricao": "Para Kirk Fletcher, o que faz o vibrato funcionar é a convicção de quem toca, como na fala ou no canto. Exagere a expressão e toque com confiança. B.B. King defendia que uma nota bem vibrada emociona mais do que muitas notas rápidas.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "fJs5AALy4GY#I16",
+    "ZBQr7STNnCE#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "mentalidade",
+   "titulo": "Não há regra fixa: o vibrato é a sua voz",
+   "descricao": "Depois de dominar a técnica básica, velocidade, largura e caráter do vibrato são escolhas pessoais. Os guitarristas, ao vivo, não seguem um padrão fixo de onde usá-lo. Bend e vibrato estão entre o que mais define a identidade e o timbre pessoal de um solista.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "oQpLyyRCc6A#I11",
+    "S9GgTvj9FXs#I17",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I18",
+    "oQpLyyRCc6A#I12",
+    "5sknWaNKxMA#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "mentalidade",
+   "titulo": "Imitar o vibrato de quem você admira",
+   "descricao": "Escolha um guitarrista, ouça várias vezes prestando atenção só no vibrato dele e tente reproduzi-lo, ajustando a mecânica até o som ficar parecido. Com o tempo, a cópia evolui para um vibrato próprio.",
+   "passos": [
+    "Escolha um guitarrista admirado",
+    "Ouça repetidamente focando só no vibrato",
+    "Tente reproduzir e ajuste a mecânica"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "i9yDenSMpJk#I25",
+    "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "btoooVk54LY#I06",
+   "sugestao": "C05.5",
+   "motivo": "O foco é atacar a nota com dedo ou palheta para obter timbres diferentes, ou seja, ataque e timbre; o vibrato aparece só de passagem."
+  }
+ ],
+ "observacoes": "O item K13 reúne apenas ideias secundárias (#82, #95, #77) por ser um exercício concreto útil. As ideias secundárias sobre alavanca (#94) pertencem a C05.4 e não foram incluídas. As referências genéricas a ornamentação (#75, #88, #100, #102, #105) e a fraseado (#80, #90, #96, #99, #101) foram omitidas por não acrescentarem nada específico sobre vibrato.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 73,
+  "ideias_em_mais_de_um_item": [
+   "hafoCeXWxAE#I20"
+  ],
+  "ideias_secundarias": 32,
+  "itens": 29,
+  "fora_do_lugar": 1,
+  "custo_usd": 0.1418,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 22366,
+   "output_tokens": 9704
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ }
+}

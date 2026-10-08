@@ -1,0 +1,721 @@
+{
+ "fonte_id": "iUZwNSDpV_Q",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Como solar em QUALQUER música",
+  "autor": "Mauricio Alabama",
+  "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q",
+  "idioma": "pt",
+  "duracao": "17m 51s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/iUZwNSDpV_Q--como-solar-em-qualquer-música.md"
+ },
+ "resumo": "Aula do Mauricio Alabama que ensina a montar improvisação a partir do campo harmônico: intervalos de tom e semitom, acordes do campo de Dó maior, escala menor relativa e pentatônica nos graus II, III e VI, e transposição para outras tonalidades. Na reta final apresenta o acorde dominante, a ideia de dominante individual (preparação de outros acordes) e como trocar de escala na resolução. Destina-se a guitarristas iniciantes e intermediários que já conhecem escalas básicas e querem uma lógica para improvisar em qualquer música.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Organiza bem a lógica do campo harmônico e da pentatônica e traz exemplos concretos (Mi maior, Dó maior, A7 para Dm). Perde pontos porque boa parte das explicações depende de ver o braço, os diagramas e a tela, e porque a legenda automática está muito truncada em trechos importantes, deixando passagens ambíguas."
+ },
+ "assuntos_principais": [
+  "campo harmônico",
+  "intervalos de tom e semitom",
+  "formação de acordes diatônicos",
+  "escala menor relativa",
+  "pentatônica menor",
+  "shapes no braço",
+  "transposição para outras tonalidades",
+  "acorde dominante",
+  "dominante individual / preparação harmônica",
+  "troca de escala na resolução",
+  "modos e contexto modal",
+  "improvisação em diferentes estilos"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura e pedido de like e inscrição",
+   "inicio": "00:00",
+   "fim": "00:34",
+   "resumo": "Apresentação do tema e pedido de like, inscrição e compartilhamento.",
+   "assuntos": [
+    "introdução"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que é campo harmônico e a escala de Dó maior",
+   "inicio": "00:34",
+   "fim": "01:41",
+   "resumo": "Define campo harmônico como notas que harmonizam entre si e acordes formados pela junção dessas notas. Apresenta as notas naturais de Dó maior como campo sem acidentes.",
+   "assuntos": [
+    "campo harmônico",
+    "escala de Dó maior",
+    "notas naturais"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Padrão de tons e semitons da escala maior",
+   "inicio": "01:41",
+   "fim": "02:45",
+   "resumo": "Mostra o padrão tom-tom-semitom-tom-tom-tom-semitom, aplica a Dó maior e a Mi maior e sugere estudar o padrão escrevendo-o.",
+   "assuntos": [
+    "tom e semitom",
+    "padrão da escala maior",
+    "transposição",
+    "Mi maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exercício de escrever o padrão",
+   "inicio": "02:45",
+   "fim": "03:19",
+   "resumo": "Orienta a escrever o padrão de tons e semitons e a praticá-lo partindo de todas as notas.",
+   "assuntos": [
+    "exercício de teoria",
+    "estudo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Acordes do campo harmônico de Dó maior",
+   "inicio": "03:19",
+   "fim": "05:42",
+   "resumo": "Lista os acordes diatônicos de Dó maior (Dó, Ré menor, Mi menor, Fá, Sol, Lá menor, Si meio-diminuto) e explica que a qualidade de cada acorde vem das notas do campo.",
+   "assuntos": [
+    "acordes diatônicos",
+    "campo de Dó maior",
+    "qualidade dos acordes",
+    "Bm7♭5"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Notas no braço e shapes",
+   "inicio": "05:42",
+   "fim": "06:57",
+   "resumo": "Propõe estudar as notas do campo corda por corda e introduz os shapes como forma de concentrar notas numa região do braço.",
+   "assuntos": [
+    "notas no braço",
+    "shapes",
+    "estudo corda por corda"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Grau relativo e pentatônica de Dó",
+   "inicio": "06:57",
+   "fim": "08:45",
+   "resumo": "Explica que a escala menor relativa de Dó maior é Lá menor, com as mesmas notas, e apresenta a pentatônica como escala de cinco notas obtida retirando duas notas da menor.",
+   "assuntos": [
+    "relativa menor",
+    "Lá menor",
+    "pentatônica menor",
+    "retirada de notas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Pentatônica nos graus do campo harmônico",
+   "inicio": "08:45",
+   "fim": "09:53",
+   "resumo": "Mostra que a pentatônica pode ser tirada de graus diferentes desde que as notas sejam naturais, indicando os graus II, III e VI de Dó.",
+   "assuntos": [
+    "pentatônica no II grau",
+    "pentatônica no III grau",
+    "pentatônica no VI grau",
+    "notas naturais"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Transposição e transição para acordes fora do campo",
+   "inicio": "09:53",
+   "fim": "10:26",
+   "resumo": "Orienta a aplicar escalas maiores, menores e pentatônicas em outras tonalidades e anuncia o acorde que não pertence ao campo harmônico.",
+   "assuntos": [
+    "transposição",
+    "transição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Acorde dominante e função de preparação",
+   "inicio": "10:26",
+   "fim": "12:08",
+   "resumo": "Introduz o acorde dominante, o Sol com sétima, como acorde instável que pede resolução. Trecho com pedido de comentários e menção ao Instagram. Explica que o dominante prepara a entrada de outro acorde.",
+   "assuntos": [
+    "acorde dominante",
+    "empréstimo modal",
+    "resolução",
+    "acorde de preparação"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Dominante individual de cada grau",
+   "inicio": "12:08",
+   "fim": "13:53",
+   "resumo": "Mostra o dominante de Ré menor (Lá com sétima) como dominante individual que prepara o II grau e generaliza o conceito para todos os graus.",
+   "assuntos": [
+    "dominante individual",
+    "V/ii",
+    "preparação de graus"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S12",
+   "titulo": "Escala do dominante e troca de escala na resolução",
+   "inicio": "13:53",
+   "fim": "15:01",
+   "resumo": "Mostra que sobre o dominante se toca a escala do acorde-alvo maior e, ao chegar no acorde menor, muda-se para a escala menor, efeito descrito como o acabamento do solo.",
+   "assuntos": [
+    "escala sobre dominante",
+    "Ré maior",
+    "Ré menor",
+    "efeito de resolução"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Modos e contexto modal",
+   "inicio": "15:01",
+   "fim": "15:34",
+   "resumo": "Cita o mixolídio e outros contextos modais como aprofundamento possível, sem detalhar.",
+   "assuntos": [
+    "modos",
+    "mixolídio",
+    "contexto modal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Promoção do pack de cursos",
+   "inicio": "15:34",
+   "fim": "16:07",
+   "resumo": "Divulga a promoção de um pack de aulas do canal.",
+   "assuntos": [
+    "promoção"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S15",
+   "titulo": "Aplicação em diferentes estilos",
+   "inicio": "16:07",
+   "fim": "17:13",
+   "resumo": "Afirma que a maioria dos estilos usa o mesmo raciocínio, mas o blues trabalha com acordes dominantes e exige outra abordagem, e cita gospel e reggae.",
+   "assuntos": [
+    "estilos musicais",
+    "blues",
+    "gospel",
+    "reggae"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S16",
+   "titulo": "Despedida",
+   "inicio": "17:13",
+   "fim": "17:48",
+   "resumo": "Encerramento com convite para o Instagram e agradecimento.",
+   "assuntos": [
+    "despedida"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico",
+   "descricao": "Campo harmônico é o conjunto de notas que harmonizam entre si; ao juntar algumas dessas notas formam-se os acordes.",
+   "passos": [],
+   "timestamp": "00:34",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "acordes"
+   ],
+   "id_global": "iUZwNSDpV_Q#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico de Dó maior",
+   "descricao": "O campo de Dó maior é o mais simples por usar só notas naturais: Dó, Ré, Mi, Fá, Sol, Lá, Si, sem sustenidos nem bemóis, e essas notas geram a escala de Dó maior.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "dó maior",
+    "notas naturais",
+    "escala maior"
+   ],
+   "id_global": "iUZwNSDpV_Q#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Padrão tom-tom-semitom da escala maior",
+   "descricao": "Na escala maior o padrão é tom, tom, semitom, tom, tom, tom, semitom. Os semitons ocorrem entre Mi e Fá e entre Si e Dó, pois são as únicas notas naturais separadas por meio tom.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "tom e semitom",
+    "escala maior",
+    "intervalos"
+   ],
+   "id_global": "iUZwNSDpV_Q#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Dica para lembrar onde estão os semitons",
+   "descricao": "A dica do vídeo para lembrar os semitons é observar as notas que terminam com 'i' (Mi e Si) e ver que a casa seguinte a elas é meio tom. A fala do vídeo está truncada, então a formulação vem da regra de Mi-Fá e Si-Dó.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "tom e semitom",
+    "mnemônico"
+   ],
+   "id_global": "iUZwNSDpV_Q#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Transpor o padrão para Mi maior",
+   "descricao": "Partindo de Mi e aplicando o padrão tom-tom-semitom-tom-tom-tom-semitom, obtém-se Mi, Fá♯, Sol♯, Lá, Si, Dó♯, Ré♯, Mi. Esses são as notas do campo harmônico de Mi maior.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "iniciante",
+   "tags": [
+    "mi maior",
+    "transposição",
+    "tom e semitom"
+   ],
+   "id_global": "iUZwNSDpV_Q#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Escrever o padrão e praticar partindo de todas as notas",
+   "descricao": "Estudar o padrão tom-tom-semitom escrevendo-o num caderno ou bloco de notas e montar a escala a partir de cada uma das doze notas, até internalizar as notas de cada campo harmônico.",
+   "passos": [
+    "Escreva o padrão tom-tom-semitom-tom-tom-tom-semitom",
+    "Escolha uma nota de partida, como Dó, Mi ou Sol",
+    "Aplique o padrão e anote as sete notas da escala",
+    "Repita para todas as notas diferentes"
+   ],
+   "timestamp": "02:45",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "tom e semitom",
+    "transposição"
+   ],
+   "id_global": "iUZwNSDpV_Q#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Acordes diatônicos de Dó maior",
+   "descricao": "Os acordes do campo de Dó maior são: Dó maior (C), Ré menor (Dm), Mi menor (Em), Fá maior (F), Sol maior (G), Lá menor (Am) e Si meio-diminuto (Bm7♭5, Si menor com quinta diminuta).",
+   "passos": [],
+   "timestamp": "03:52",
+   "nivel": "iniciante",
+   "tags": [
+    "acordes",
+    "dó maior",
+    "campo harmônico",
+    "m7♭5"
+   ],
+   "id_global": "iUZwNSDpV_Q#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Qualidade dos acordes vem das notas do campo",
+   "descricao": "Cada acorde do campo sai de empilhamento de notas do próprio campo, sem alterações. Por isso Ré dá menor e Si dá meio-diminuto. Não é arbitrário: a qualidade é consequência da escala.",
+   "passos": [],
+   "timestamp": "04:26",
+   "nivel": "intermediario",
+   "tags": [
+    "qualidade do acorde",
+    "campo harmônico"
+   ],
+   "id_global": "iUZwNSDpV_Q#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Localizar as notas do campo em cada corda",
+   "descricao": "Estudar corda por corda as notas de Dó maior (Dó, Ré, Mi, Fá, Sol, Lá, Si) em todo o braço, começando pelas cordas soltas. Na corda Mi grave as notas do campo ficam nas casas 1 (Fá), 3 (Sol), 5 (Lá), 7 (Si), 8 (Dó), 10 (Ré) e 12 (Mi).",
+   "passos": [
+    "Comece pela corda Mi grave e identifique as notas nas casas de 0 a 12",
+    "Repita o mesmo mapeamento nas cordas Lá, Ré, Sol, Si e Mi agudo",
+    "Confira que a corda Sol tem Si na casa 4 e as demais seguem o padrão"
+   ],
+   "timestamp": "05:42",
+   "nivel": "iniciante",
+   "tags": [
+    "braço",
+    "notas",
+    "corda por corda"
+   ],
+   "id_global": "iUZwNSDpV_Q#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Shapes",
+   "descricao": "Shapes são digitações que concentram as notas de uma escala numa mesma região do braço, permitindo tocar mais notas sem deslocar a mão.",
+   "passos": [],
+   "timestamp": "06:19",
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "digitação",
+    "posição"
+   ],
+   "id_global": "iUZwNSDpV_Q#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Grau relativo menor",
+   "descricao": "Toda escala maior tem um grau relativo menor, que é o VI grau. A relativa de Dó maior é Lá menor: mesmas notas, apenas com outro ponto de partida.",
+   "passos": [],
+   "timestamp": "06:57",
+   "nivel": "iniciante",
+   "tags": [
+    "relativa menor",
+    "lá menor",
+    "dó maior"
+   ],
+   "id_global": "iUZwNSDpV_Q#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica menor formada a partir da menor",
+   "descricao": "A pentatônica menor é uma escala de cinco notas obtida da escala menor retirando o II e o VI graus. Em Lá menor: Lá, Dó, Ré, Mi, Sol.",
+   "passos": [],
+   "timestamp": "08:08",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "pentatônica menor",
+    "lá menor"
+   ],
+   "id_global": "iUZwNSDpV_Q#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Dó no grau relativo",
+   "descricao": "Usar a pentatônica do grau relativo (Lá menor pentatônica: Lá, Dó, Ré, Mi, Sol) sobre o campo de Dó maior, algo que o próprio professor diz que os alunos já fazem.",
+   "passos": [],
+   "timestamp": "08:45",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "lá menor",
+    "dó maior"
+   ],
+   "id_global": "iUZwNSDpV_Q#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pentatônica no II grau de Dó",
+   "descricao": "Sobre o II grau de Dó, a pentatônica menor de Ré (Ré, Fá, Sol, Lá, Dó) usa apenas notas naturais, por isso pode ser aplicada sobre o acorde de Ré menor.",
+   "passos": [],
+   "timestamp": "09:19",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "ré menor",
+    "II grau"
+   ],
+   "id_global": "iUZwNSDpV_Q#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Pentatônica no III grau de Dó",
+   "descricao": "Sobre o III grau de Dó, a pentatônica menor de Mi (Mi, Sol, Lá, Si, Ré) usa apenas notas naturais e pode ser aplicada sobre o acorde de Mi menor.",
+   "passos": [],
+   "timestamp": "09:19",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "mi menor",
+    "III grau"
+   ],
+   "id_global": "iUZwNSDpV_Q#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Regra das notas naturais para pentatônicas",
+   "descricao": "Uma pentatônica pode ser usada em qualquer grau do campo harmônico desde que todas as suas notas sejam naturais. Em Dó, isso vale para II, III e VI, cujas pentatônicas menores são Ré, Mi e Lá.",
+   "passos": [],
+   "timestamp": "08:45",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "notas naturais",
+    "graus"
+   ],
+   "id_global": "iUZwNSDpV_Q#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "rotina_estudo",
+   "titulo": "Levar o estudo para outras tonalidades",
+   "descricao": "Repetir o estudo de campo harmônico, escala maior, escala menor e pentatônicas em outras tonalidades. Para improvisar basta saber a tonalidade da música.",
+   "passos": [
+    "Escolha uma tonalidade diferente de Dó",
+    "Monte o campo harmônico com o padrão tom-tom-semitom",
+    "Identifique a relativa menor e as pentatônicas dos graus II, III e VI",
+    "Toque cada escala sobre o acorde correspondente"
+   ],
+   "timestamp": "09:53",
+   "nivel": "intermediario",
+   "tags": [
+    "transposição",
+    "rotina",
+    "tonalidade"
+   ],
+   "id_global": "iUZwNSDpV_Q#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Acorde fora do campo harmônico",
+   "descricao": "Quando aparece um acorde que não pertence ao campo, como o Lá com sétima (A7) em Dó maior, ele não segue a lógica do campo. Esse é o caso do acorde dominante, com sétima menor, que contém a nota Sol♯.",
+   "passos": [],
+   "timestamp": "10:26",
+   "nivel": "intermediario",
+   "tags": [
+    "acorde fora do campo",
+    "A7",
+    "dominante"
+   ],
+   "id_global": "iUZwNSDpV_Q#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Acorde dominante como tensão",
+   "descricao": "O acorde dominante, como o Sol com sétima (G7 = Sol, Si, Ré, Fá), é instável e pede resolução. Ele tende a repousar na quarta justa, descrita no vídeo como o quarto grau desse acorde, que é Dó no caso de G7.",
+   "passos": [],
+   "timestamp": "11:31",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante",
+    "G7",
+    "tensão",
+    "resolução"
+   ],
+   "id_global": "iUZwNSDpV_Q#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "conceito",
+   "titulo": "Dominante como acorde de preparação",
+   "descricao": "O acorde dominante prepara a entrada de outro acorde, por isso é chamado de acorde de preparação. Ele aparece antes do acorde de destino.",
+   "passos": [],
+   "timestamp": "12:08",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante",
+    "preparação",
+    "harmonia"
+   ],
+   "id_global": "iUZwNSDpV_Q#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Dominante individual",
+   "descricao": "Qualquer acorde do campo pode receber seu próprio dominante, que o prepara. O dominante é sempre um acorde maior com sétima menor. Exemplo: o A7 (Lá com sétima) prepara o Ré menor, sendo dominante do segundo grau (V/ii).",
+   "passos": [],
+   "timestamp": "12:41",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante individual",
+    "V/ii",
+    "A7",
+    "Dm"
+   ],
+   "id_global": "iUZwNSDpV_Q#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S11",
+   "tipo": "conceito",
+   "titulo": "Dominante individual para todos os graus",
+   "descricao": "O dominante individual pode ser feito para qualquer grau do campo. Por exemplo, antes do Mi menor usa-se o B7 (Si com sétima), dominante de Mi, e antes de Lá menor usa-se o E7 (Mi com sétima).",
+   "passos": [],
+   "timestamp": "13:19",
+   "nivel": "intermediario",
+   "tags": [
+    "dominante individual",
+    "B7",
+    "E7"
+   ],
+   "id_global": "iUZwNSDpV_Q#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Escala do acorde-alvo sobre o dominante",
+   "descricao": "Sobre o dominante do Ré menor (A7), toca-se a escala de Ré maior, que contém as notas do A7 (Lá, Dó♯, Mi, Sol). Ao chegar no Ré menor, muda-se para a escala de Ré menor.",
+   "passos": [],
+   "timestamp": "14:27",
+   "nivel": "avancado",
+   "tags": [
+    "escala de dominante",
+    "ré maior",
+    "ré menor",
+    "A7"
+   ],
+   "id_global": "iUZwNSDpV_Q#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S12",
+   "tipo": "dica",
+   "titulo": "Trocar de escala na resolução",
+   "descricao": "Ao sair do dominante e chegar no acorde menor-alvo, trocar a escala maior pela menor correspondente gera o efeito de resolução que o vídeo chama de cereja do bolo.",
+   "passos": [],
+   "timestamp": "15:01",
+   "nivel": "avancado",
+   "tags": [
+    "resolução",
+    "troca de escala",
+    "efeito"
+   ],
+   "id_global": "iUZwNSDpV_Q#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S13",
+   "tipo": "recurso",
+   "titulo": "Modos como alternativa ao dominante",
+   "descricao": "Sobre acordes dominantes podem-se usar outros contextos modais, como o mixolídio, e o professor sugere uma aula futura para aprofundar modos e contexto modal.",
+   "passos": [],
+   "timestamp": "15:01",
+   "nivel": "avancado",
+   "tags": [
+    "modos",
+    "mixolídio",
+    "contexto modal"
+   ],
+   "id_global": "iUZwNSDpV_Q#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S15",
+   "tipo": "conceito",
+   "titulo": "Blues é outro contexto harmônico",
+   "descricao": "No blues o raciocínio muda porque o contexto é de acordes dominantes, portanto a abordagem de improvisação é diferente da do campo harmônico tradicional.",
+   "passos": [],
+   "timestamp": "16:41",
+   "nivel": "intermediario",
+   "tags": [
+    "blues",
+    "dominante",
+    "estilo"
+   ],
+   "id_global": "iUZwNSDpV_Q#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Mesmo raciocínio para a maioria dos estilos",
+   "descricao": "A maioria dos estilos musicais usa o mesmo raciocínio de campo harmônico, escalas e acordes, o que torna o aprendizado mais prático ao ir de um estilo a outro.",
+   "passos": [],
+   "timestamp": "17:13",
+   "nivel": "iniciante",
+   "tags": [
+    "estilos",
+    "generalização"
+   ],
+   "id_global": "iUZwNSDpV_Q#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Aplicar a teoria em músicas reais",
+   "descricao": "O objetivo é pegar uma música real e conseguir improvisar sobre ela, usando o campo harmônico como guia, em vez de apenas decorar escalas.",
+   "passos": [],
+   "timestamp": "15:34",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "aplicação"
+   ],
+   "id_global": "iUZwNSDpV_Q#I28"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Instagram @mauricioalabama",
+  "Cursos Mauricio Alabama (cursosmauricioalabama.com.br)",
+  "Aplicativo de visualização de escalas mencionado pelo professor (sem nome)"
+ ],
+ "observacoes": "Legenda automática muito ruim em trechos centrais: 'quarto grau', 'sol com sétima' e 'lá com sétima' foram reconstruídos pelo contexto. O padrão de semitons (fala de 'termina com i') está truncado e foi reescrito como Mi-Fá e Si-Dó. A fala sobre a pentatônica de Ré, Mi e Lá aparece como 'no segundo, terceiro e sexto grau' e foi confirmada pela teoria. Parte da explicação depende de ver o braço, diagramas e tela do professor, como os shapes e a sequência corda por corda, que não estão descritos no transcript. Trechos sobre empilhamento de terças, modos e blues são apenas anunciados e não desenvolvidos. A fala 'escala de ré mas é maior' foi interpretada como escala de Ré maior sobre o A7.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00416,
+  "via": "api"
+ }
+}

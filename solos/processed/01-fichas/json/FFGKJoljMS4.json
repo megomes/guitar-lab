@@ -1,0 +1,219 @@
+{
+ "fonte_id": "FFGKJoljMS4",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "As Escalas e suas Emoções (Modos Gregos na Guitarra)",
+  "autor": "Edu Ardanuy",
+  "url": "https://www.youtube.com/watch?v=FFGKJoljMS4",
+  "idioma": "pt",
+  "duracao": "6m 18s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/FFGKJoljMS4--as-escalas-e-suas-emoções-modos-gregos-na-guitarra.md"
+ },
+ "resumo": "Vídeo curto do Edu Ardanuy sobre como cada modo grego transmite uma emoção diferente. Apresenta os três pilares da música (harmonia, melodia e ritmo) e demonstra na guitarra os modos jônio, lídio, mixolídio, eólio, dórico e frígio, descrevendo o caráter de cada um. Voltado a iniciantes que querem escolher escalas pela sonoridade ao solar. A transcrição perdeu quase toda a fala durante as demonstrações, então o conteúdo é mais conceitual que prático.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Boa visão geral e associação clara entre modos e emoções, mas é curto e não traz notas, shapes, tonalidades nem exercícios; a demonstração é sonora e depende de ouvir o vídeo."
+ },
+ "assuntos_principais": [
+  "modos gregos",
+  "escalas e emoção",
+  "escala maior",
+  "escala menor",
+  "jônio",
+  "lídio",
+  "mixolídio",
+  "eólio",
+  "dórico",
+  "frígio"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Música e emoção: harmonia, melodia e ritmo",
+   "inicio": "00:00",
+   "fim": "00:47",
+   "resumo": "A música expressa qualquer emoção, manipulada por três elementos: harmonia (acordes), melodia (escalas) e ritmo.",
+   "assuntos": [
+    "emoção",
+    "harmonia",
+    "melodia",
+    "ritmo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Escalas maiores: jônio, lídio e mixolídio",
+   "inicio": "00:47",
+   "fim": "03:22",
+   "resumo": "Demonstração do modo jônio (escala maior natural), do lídio e do mixolídio, com suas sonoridades mais alegres e associações como blues e baião.",
+   "assuntos": [
+    "jônio",
+    "lídio",
+    "mixolídio",
+    "escala maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Escalas menores: eólio, dórico e frígio",
+   "inicio": "03:22",
+   "fim": "06:18",
+   "resumo": "Escala menor natural (eólio), dórico como menor menos triste e frígio com sabor espanhol/flamenco e mais tenso.",
+   "assuntos": [
+    "eólio",
+    "dórico",
+    "frígio",
+    "escala menor"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Três elementos que manipulam a emoção",
+   "descricao": "Para provocar emoções na música (alegre, triste, sombrio, emocionante, agressivo, tranquilo) contam três elementos: harmonia (acordes), melodia (escalas) e parte rítmica. A escolha da escala é um dos recursos para moldar a emoção da melodia.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "iniciante",
+   "tags": [
+    "emoção",
+    "harmonia",
+    "melodia",
+    "ritmo"
+   ],
+   "id_global": "FFGKJoljMS4#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Jônio (escala maior natural): tendência alegre",
+   "descricao": "O modo jônio é a escala maior natural. Acordes e escalas maiores tendem a soar mais alegres, mas isso é uma tendência, não uma regra.",
+   "passos": [],
+   "timestamp": "00:49",
+   "nivel": "iniciante",
+   "tags": [
+    "jônio",
+    "escala maior",
+    "alegre"
+   ],
+   "id_global": "FFGKJoljMS4#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Lídio como alternativa interessante à escala maior",
+   "descricao": "O modo lídio é outro modo maior, apresentado como alternativa interessante ao jônio para dar uma cor diferente a uma melodia maior. O autor o cita como uma de suas escalas maiores prediletas.",
+   "passos": [],
+   "timestamp": "01:47",
+   "nivel": "intermediario",
+   "tags": [
+    "lídio",
+    "escala maior",
+    "cor sonora"
+   ],
+   "id_global": "FFGKJoljMS4#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Mixolídio: ligação com blues e baião",
+   "descricao": "O mixolídio é um modo maior associado ao blues e ao baião (música nordestina brasileira). Serve para soar maior, porém com sabor mais bluesy ou regional.",
+   "passos": [],
+   "timestamp": "02:35",
+   "nivel": "intermediario",
+   "tags": [
+    "mixolídio",
+    "blues",
+    "baião"
+   ],
+   "id_global": "FFGKJoljMS4#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Eólio (menor natural): tristeza e melancolia",
+   "descricao": "Acordes e escalas menores tendem a soar mais tristes e melancólicos. O modo eólio, a escala menor natural, é o exemplo mais clássico dessa sonoridade.",
+   "passos": [],
+   "timestamp": "03:28",
+   "nivel": "iniciante",
+   "tags": [
+    "eólio",
+    "escala menor",
+    "melancólico"
+   ],
+   "id_global": "FFGKJoljMS4#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Dórico: menor menos triste",
+   "descricao": "Após o eólio, o dórico é apresentado como escala menor que não soa tão triste, uma opção quando se quer um menor mais aberto e menos sombrio.",
+   "passos": [],
+   "timestamp": "04:12",
+   "nivel": "intermediario",
+   "tags": [
+    "dórico",
+    "escala menor"
+   ],
+   "id_global": "FFGKJoljMS4#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Frígio: espanhol, flamenco e tensão",
+   "descricao": "O modo frígio remete à música espanhola e ao flamenco, com sonoridade mais tensa que os outros modos menores.",
+   "passos": [],
+   "timestamp": "04:59",
+   "nivel": "intermediario",
+   "tags": [
+    "frígio",
+    "flamenco",
+    "tensão"
+   ],
+   "id_global": "FFGKJoljMS4#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "mentalidade",
+   "titulo": "Escolha a escala pela emoção desejada",
+   "descricao": "Ouça a diferença sonora entre os modos e escolha o modo pela emoção que quer transmitir, lembrando que maior tende a alegre e menor a triste, mas sem regra rígida.",
+   "passos": [],
+   "timestamp": "00:33",
+   "nivel": "iniciante",
+   "tags": [
+    "modos gregos",
+    "emoção",
+    "escolha de escala"
+   ],
+   "id_global": "FFGKJoljMS4#I08"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso Improvisando Sem Mistérios (Edu Ardanuy)",
+  "Curso de técnica de palheta alternada (Edu Ardanuy)"
+ ],
+ "observacoes": "Transcrição automática muito ruim: grande parte do vídeo são demonstrações musicais sem fala (\"E aí\" repetido). Termos corrigidos: \"modo Júnior\" = jônio, \"escala Lídia\" = lídio, \"eólica\" = eólio, \"Dori\" = dórico. A frase sobre o baião/\"vítima bastante famoso brasileiro\" está truncada; provavelmente cita uma música brasileira em mixolídio, mas não é possível identificar. Sem notas, tonalidades ou shapes na fonte, que dependem de ver/ouvir o vídeo. As ideias de lídio e dórico têm poucos detalhes porque a fala foi perdida.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:33",
+  "tentativas": 1,
+  "custo_usd": 0.089
+ }
+}

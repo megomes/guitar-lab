@@ -1,0 +1,469 @@
+{
+ "fonte_id": "5hmSQuMIf-w",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "II V I  - You Need To Practice This For Solos",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w",
+  "idioma": "en",
+  "duracao": "9m 13s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/5hmSQuMIf-w--ii-v-i-you-need-to-practice-this-for-solos.md"
+ },
+ "resumo": "Aula de Jens Larsen sobre como improvisar sobre a progressão ii-V-I (Dm7, G7, Cmaj7 em Dó maior). Ele propõe praticar arpejos dos acordes na mesma posição, depois arpejos dentro da posição de escala, depois a escala sobre os acordes, e por fim notas cromáticas de aproximação e arpejos construídos a partir da 3ª do acorde. Voltada a guitarristas intermediários que já conhecem arpejos e escalas e querem soar mais como jazz e menos como 'noodling' na escala.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com notas, acordes e exemplos de frases, e uma progressão lógica do básico (arpejos) ao avançado (cromatismo e arpejos da 3ª). Perde pontos porque os exemplos são tocados sem tablatura no transcript e dependem de ouvir ou ver o vídeo ou o PDF pago."
+ },
+ "assuntos_principais": [
+  "ii-V-I",
+  "arpejos sobre progressão",
+  "notas-alvo e resolução",
+  "escala sobre os acordes (chord tones nos tempos fortes)",
+  "notas cromáticas de aproximação (bebop)",
+  "arpejos a partir da 3ª do acorde",
+  "campo harmônico maior"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "00:20",
+   "resumo": "Apresentação: o ii-V-I é a progressão mais comum do jazz e o vídeo mostrará o que praticar e como transformar isso em linhas de solo.",
+   "assuntos": [
+    "ii-V-I"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que é um ii-V-I",
+   "inicio": "00:20",
+   "fim": "01:09",
+   "resumo": "Harmonização diatônica de Dó maior e a sequência Dm7 - G7 - Cmaj7 que leva à tônica.",
+   "assuntos": [
+    "campo harmônico maior",
+    "ii-V-I",
+    "acordes diatônicos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Arpejos básicos sobre a progressão",
+   "inicio": "01:09",
+   "fim": "02:36",
+   "resumo": "Arpejos de uma oitava na mesma posição tocados sobre a progressão e a técnica de buscar notas da próxima harmonia no tempo 1 do compasso seguinte.",
+   "assuntos": [
+    "arpejos",
+    "notas-alvo",
+    "mudança de acorde",
+    "posição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "O exercício de escala mais importante",
+   "inicio": "02:36",
+   "fim": "03:35",
+   "resumo": "Apresentação do exercício de arpejos dentro de uma posição de escala, que dá acesso a todos os arpejos da escala numa só região do braço. Remete a outro vídeo.",
+   "assuntos": [
+    "exercício de escala",
+    "arpejos na posição de escala",
+    "harmonia e escalas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Usando a escala sobre os acordes",
+   "inicio": "03:35",
+   "fim": "05:13",
+   "resumo": "Tocar a escala de Dó maior sobre a progressão com os chord tones nos tempos fortes e as notas de escala entre os tempos, e primeiras linhas com acordes em tempos 1 e 3.",
+   "assuntos": [
+    "escala de Dó maior",
+    "chord tones nos tempos fortes",
+    "licks",
+    "Barry Harris"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Notas cromáticas (bebop simplificado)",
+   "inicio": "05:13",
+   "fim": "07:28",
+   "resumo": "Uso de notas cromáticas de aproximação antes dos chord tones, exemplos de resolução no ii-V-I, e notas de tensão e suspensões.",
+   "assuntos": [
+    "cromatismo",
+    "notas de aproximação",
+    "bebop",
+    "suspensão",
+    "tensão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Mais ideias com arpejos",
+   "inicio": "07:28",
+   "fim": "08:57",
+   "resumo": "Arpejos construídos a partir da 3ª de cada acorde, o que dobra o número de arpejos disponíveis por acorde, e combinação com cromatismo.",
+   "assuntos": [
+    "arpejos a partir da 3ª",
+    "Cmaj7",
+    "Dm7",
+    "G7",
+    "combinação com cromatismo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Despedida e chamada para outro vídeo",
+   "inicio": "08:57",
+   "fim": "09:13",
+   "resumo": "Chamada para o vídeo sobre o exercício de escala e pedido de curtidas e apoio no Patreon.",
+   "assuntos": [
+    "despedida",
+    "patreon"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Acordes diatônicos de Dó maior",
+   "descricao": "Cada nota da escala de Dó maior gera um acorde: Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7♭5 e Cmaj7 na oitava.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico maior",
+    "acordes diatônicos",
+    "dó maior"
+   ],
+   "id_global": "5hmSQuMIf-w#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Função do ii-V-I",
+   "descricao": "O ii-V-I em Dó maior é Dm7 - G7 - Cmaj7. Ele leva à tônica (o centro da tonalidade) e é a progressão mais comum do jazz.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "ii-V-I",
+    "resolução",
+    "dó maior"
+   ],
+   "id_global": "5hmSQuMIf-w#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Arpejos de uma oitava sobre a progressão",
+   "descricao": "Tocar sobre o ii-V-I o arpejo de cada acorde como melodia de uma oitava, sempre na mesma posição do braço, para que seja fácil e possa ser conectado depois na improvisação.",
+   "passos": [
+    "Escolher uma posição fixa do braço",
+    "Tocar o arpejo de Dm7 (D F A C) numa oitava",
+    "Tocar o arpejo de G7 (G B D F) na mesma região",
+    "Tocar o arpejo de Cmaj7 (C E G B) na mesma região",
+    "Repetir o ciclo com a progressão e depois improvisar só com os arpejos"
+   ],
+   "timestamp": "01:09",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "ii-V-I",
+    "posição fixa"
+   ],
+   "id_global": "5hmSQuMIf-w#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Manter os arpejos na mesma posição",
+   "descricao": "Manter os arpejos na mesma região do braço evita pular pelo braço e permite conectar as linhas depois na improvisação.",
+   "passos": [],
+   "timestamp": "01:41",
+   "nivel": "iniciante",
+   "tags": [
+    "posição",
+    "conexão de linhas"
+   ],
+   "id_global": "5hmSQuMIf-w#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Notas-alvo no tempo 1 do compasso seguinte",
+   "descricao": "Para deixar a troca de acorde clara, procure notas que não pertencem ao acorde atual, mas só ao próximo, e toque-as no tempo 1 do compasso seguinte. Exemplo do vídeo: B no tempo 1 do G7 e E no tempo 1 do Cmaj7.",
+   "passos": [],
+   "timestamp": "02:14",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "mudança de acorde",
+    "tempo 1"
+   ],
+   "id_global": "5hmSQuMIf-w#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Arpejos dentro de uma posição de escala",
+   "descricao": "Tocar os arpejos dos acordes dentro de uma posição de escala, o que dá acesso a todos os arpejos da escala numa só região. Serve para qualquer progressão, não só o ii-V-I.",
+   "passos": [
+    "Escolher uma posição da escala de Dó maior",
+    "Tocar o arpejo de cada grau dentro da posição",
+    "Aplicar o mesmo exercício em outras progressões"
+   ],
+   "timestamp": "02:46",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "posição de escala",
+    "exercício de escala"
+   ],
+   "id_global": "5hmSQuMIf-w#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Vídeo sobre o exercício de escala mais importante",
+   "descricao": "O próprio Jens Larsen indica um vídeo separado, The Most Important Scale Exercise In Jazz, que aprofunda o exercício que conecta harmonia, escalas e arpejos.",
+   "passos": [],
+   "timestamp": "03:20",
+   "nivel": "intermediario",
+   "tags": [
+    "exercício de escala",
+    "recurso externo"
+   ],
+   "id_global": "5hmSQuMIf-w#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "exercicio",
+   "titulo": "Escala sobre os acordes com chord tones nos tempos fortes",
+   "descricao": "Tocar a escala de Dó maior sobre o ii-V-I com os chord tones (arpejos) nos tempos fortes e as demais notas da escala entre os tempos. A harmonia continua clara porque os chord tones marcam o acorde.",
+   "passos": [
+    "Tocar os arpejos dos acordes sobre o tempo",
+    "Preencher as colcheias entre os tempos com notas da escala de Dó maior",
+    "Ouvir como a escala muda a sonoridade de cada acorde mantendo o arpejo audível"
+   ],
+   "timestamp": "03:54",
+   "nivel": "intermediario",
+   "tags": [
+    "escala de dó maior",
+    "chord tones",
+    "tempo forte",
+    "ii-V-I"
+   ],
+   "id_global": "5hmSQuMIf-w#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Origem do método: Barry Harris",
+   "descricao": "A prática de tocar escalas sobre os acordes, com arpejos nos tempos e escala entre eles, é atribuída a Barry Harris, embora ele costume ignorar o ii e tocar só o V de um V-ii.",
+   "passos": [],
+   "timestamp": "04:28",
+   "nivel": "avancado",
+   "tags": [
+    "barry harris",
+    "escala sobre acorde",
+    "método"
+   ],
+   "id_global": "5hmSQuMIf-w#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Licks com chord tones em tempos 1 e 3",
+   "descricao": "Ao criar licks a partir das escalas, mantenha os chord tones nos tempos fortes 1 e 3; isso mantém as trocas de acorde claras mesmo sem backing.",
+   "passos": [],
+   "timestamp": "05:00",
+   "nivel": "iniciante",
+   "tags": [
+    "licks",
+    "tempos 1 e 3",
+    "chord tones"
+   ],
+   "id_global": "5hmSQuMIf-w#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Notas cromáticas de aproximação aos chord tones",
+   "descricao": "Colocar uma nota cromática logo antes de um chord tone cria uma tensão que se resolve forte no alvo. É a base do som bebop e ajuda a marcar a troca de acorde.",
+   "passos": [],
+   "timestamp": "05:32",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "bebop",
+    "notas de aproximação",
+    "resolução"
+   ],
+   "id_global": "5hmSQuMIf-w#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Aproximações cromáticas no ii-V-I",
+   "descricao": "Exemplos citados: C♯ antes do D (sobre Dm7), A♯ levando ao B no G7 e D♯ subindo ao E no Cmaj7. Cada aproximação enfatiza o chord tone de destino e marca a mudança de acorde.",
+   "passos": [],
+   "timestamp": "06:07",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "ii-V-I",
+    "notas de aproximação",
+    "frase"
+   ],
+   "id_global": "5hmSQuMIf-w#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Notas cromáticas que resolvem em notas de escala",
+   "descricao": "Notas cromáticas também podem resolver em notas de escala que não são chord tones, como o D♯ resolvendo no E (9ª do Dm7), criando mais tensão e surpresa.",
+   "passos": [],
+   "timestamp": "06:39",
+   "nivel": "avancado",
+   "tags": [
+    "tensão",
+    "notas de escala",
+    "9ª",
+    "cromatismo"
+   ],
+   "id_global": "5hmSQuMIf-w#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Atrasar o chord tone como suspensão",
+   "descricao": "Em vez de tocar a 3ª do G7 (B) no tempo 1, pode-se atrasá-la para criar tensão; a nota de tensão no tempo 1 (A♯, que é a ♯9 do G7) é resolvida depois. Isso torna a linha menos previsível.",
+   "passos": [],
+   "timestamp": "06:48",
+   "nivel": "avancado",
+   "tags": [
+    "suspensão",
+    "tensão",
+    "ii-V-I",
+    "G7"
+   ],
+   "id_global": "5hmSQuMIf-w#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "frase_lick",
+   "titulo": "Resolução cromática descendente para Cmaj7",
+   "descricao": "Sobre o Cmaj7, a sequência A - A♭ - G leva ao G (5ª do acorde) de forma cromática descendente. Também há uma nota de aproximação à 3ª (E) vinda de baixo.",
+   "passos": [],
+   "timestamp": "07:12",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "cmaj7",
+    "resolução descendente",
+    "aproximação à 3ª"
+   ],
+   "id_global": "5hmSQuMIf-w#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Arpejo a partir da 3ª do acorde",
+   "descricao": "Além do arpejo fundamental, pode-se usar o arpejo que começa na 3ª do acorde, pois ele tem notas muito parecidas e também soa bem. No Cmaj7 (C E G B), a 3ª é E, e o arpejo a partir dela é Em7 (E G B D).",
+   "passos": [],
+   "timestamp": "07:44",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "3ª do acorde",
+    "cmaj7",
+    "em7"
+   ],
+   "id_global": "5hmSQuMIf-w#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Arpejos a partir da 3ª em cada acorde do ii-V-I",
+   "descricao": "Dobrando as opções de arpejo: sobre Dm7 use Fmaj7 (F A C E, a partir da 3ª F); sobre G7 use Bm7♭5 (B D F A, a partir da 3ª B); sobre Cmaj7 use Em7 (E G B D).",
+   "passos": [
+    "Tocar Dm7 com Fmaj7 a partir da 3ª",
+    "Tocar G7 com Bm7♭5 a partir da 3ª",
+    "Tocar Cmaj7 com Em7 a partir da 3ª"
+   ],
+   "timestamp": "08:17",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos",
+    "3ª do acorde",
+    "ii-V-I",
+    "fmaj7",
+    "bm7b5",
+    "em7"
+   ],
+   "id_global": "5hmSQuMIf-w#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Combinar arpejos da 3ª com cromatismo",
+   "descricao": "O material obtido com os arpejos a partir da 3ª pode ser combinado com notas cromáticas para criar linhas de improvisação mais ricas sobre o ii-V-I.",
+   "passos": [],
+   "timestamp": "08:50",
+   "nivel": "intermediario",
+   "tags": [
+    "cromatismo",
+    "arpejos",
+    "combinação"
+   ],
+   "id_global": "5hmSQuMIf-w#I18"
+  }
+ ],
+ "artistas_citados": [
+  "Barry Harris"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Vídeo The Most Important Scale Exercise In Jazz (exercício de escala citado pelo autor)"
+ ],
+ "observacoes": "Legenda automática troca 'II V I' por 'II, IV, I'; corrigido para ii-V-I. O trecho em que se diz que F maj7 é usado 'over the G seven' está confuso no transcript; pela teoria, Fmaj7 é o arpejo a partir da 3ª do Dm7 e Bm7♭5 o do G7, então a ficha segue essa lógica. O trecho 'D sharp on B3' é ambíguo e foi interpretado como D♯ resolvendo em E. Os exemplos musicais aparecem só como '(guitar plays)' e '(jazz music)', sem tablatura no transcript; as linhas dependem de ver o vídeo ou do PDF/GuitarPro citados na descrição (pagos no Patreon, no caso dos arquivos GuitarPro). Não há ideias nos segmentos de introdução e despedida, marcados como não didáticos.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00286,
+  "via": "api"
+ }
+}

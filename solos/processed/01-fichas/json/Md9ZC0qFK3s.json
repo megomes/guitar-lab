@@ -1,0 +1,611 @@
+{
+ "fonte_id": "Md9ZC0qFK3s",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s",
+  "idioma": "en",
+  "duracao": "9m 28s",
+  "origem": "lista do usuário (2ª leva)",
+  "legenda_automatica": false,
+  "arquivo_raw": "solos/raw/transcripts/Md9ZC0qFK3s--the-most-important-arpeggio-for-every-jazz-chord-it-will-skyrocket-you.md"
+ },
+ "resumo": "Aula curta de Jens Larsen sobre como escolher o arpejo certo para cada acorde em jazz. A regra central é usar o arpejo a partir da 3ª do acorde (por exemplo, Bm7♭5 sobre G7), exemplificada com linhas de George Benson, Wes Montgomery, Charlie Parker e Joe Pass. O vídeo também mostra técnicas de fraseado (tercinas com nota de aproximação e arpejo 'pivô') e a substituição por trítono para dominantes alterados. Destina-se a guitarristas de jazz que já conhecem arpejos básicos e querem usá-los em solos.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo concreto, com exemplos transpostos para C e teoria explicada passo a passo (quais notas do arpejo coincidem com o acorde e qual é a 9ª). Perde pontos por ser parcialmente promocional e por depender do PDF/tablatura para os exemplos completos e pelo exercício de tríades ser apenas citado."
+ },
+ "assuntos_principais": [
+  "arpejo a partir da 3ª do acorde",
+  "ii-V-I em jazz",
+  "Bm7♭5 sobre G7",
+  "arpejos maiores com sétima (maj7)",
+  "tercinas de arpejo",
+  "nota de aproximação",
+  "arpejo pivô",
+  "dominante alterado",
+  "substituição por trítono",
+  "arpejos diatônicos",
+  "tríades"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e apresentação do problema",
+   "inicio": "00:00",
+   "fim": "00:38",
+   "resumo": "Jens apresenta a ideia de que o problema não é desconhecer arpejos, e sim saber qual usar em cada acorde, e anuncia a regra e os exemplos de Benson, Pass e Wes.",
+   "assuntos": [
+    "problema dos arpejos",
+    "anúncio da regra"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Benson e o arpejo da 3ª sobre G7",
+   "inicio": "00:38",
+   "fim": "01:45",
+   "resumo": "Análise de uma linha de Benson sobre G7 em um ii-V-I em C, que usa o arpejo a partir da 3ª (B), resultando em Bm7♭5. Apresenta-se a regra: usar o arpejo a partir da 3ª do acorde.",
+   "assuntos": [
+    "George Benson",
+    "G7",
+    "Bm7♭5",
+    "regra da 3ª"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Wes Montgomery sobre Dm7",
+   "inicio": "01:45",
+   "fim": "02:53",
+   "resumo": "Demonstração do ii-V-I com Bm7♭5 sobre G7, seguida de exemplo de Wes sobre Dm7 com enclosure cromático na 9ª (E), arpejo maj7 de duas oitavas e melodia grave que aponta para a nota B.",
+   "assuntos": [
+    "Wes Montgomery",
+    "Dm7",
+    "Fmaj7",
+    "enclosure cromático",
+    "arpejo de duas oitavas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Tercinas e nota de aproximação",
+   "inicio": "02:53",
+   "fim": "03:34",
+   "resumo": "Técnica para variar o ritmo do arpejo: tocá-lo em tercinas e acrescentar uma nota guia antes da primeira nota. Aplicada ao Fmaj7, e funciona com qualquer arpejo. Menção ao PDF gratuito com os exemplos.",
+   "assuntos": [
+    "tercinas de arpejo",
+    "nota de aproximação",
+    "Fmaj7"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Charlie Parker e arpejos maj7",
+   "inicio": "03:34",
+   "fim": "04:47",
+   "resumo": "Frase de Charlie Parker sobre Cmaj7: escala descendente com nota cromática de passagem seguida de arpejo em tercinas, a partir da 3ª (E, gerando Em7). Menção ao curso Jazz Guitar Roadmap.",
+   "assuntos": [
+    "Charlie Parker",
+    "Cmaj7",
+    "Em7",
+    "tercinas",
+    "nota cromática de passagem"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Por que a regra funciona: arpejos diatônicos",
+   "inicio": "04:47",
+   "fim": "06:29",
+   "resumo": "Explicação da lógica da regra usando os acordes diatônicos de C: três notas do arpejo da 3ª coincidem com o acorde e a 9ª fica no topo. Recomenda-se praticar os sete arpejos diatônicos.",
+   "assuntos": [
+    "acordes diatônicos de C",
+    "arpejos diatônicos",
+    "9ª",
+    "notas compartilhadas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Joe Pass e o arpejo pivô",
+   "inicio": "06:29",
+   "fim": "07:43",
+   "resumo": "Joe Pass toca Fmaj7 sobre Dm com a primeira nota deslocada uma oitava acima, criando o efeito de 'arpejo pivô' (termo de Barry Harris). Benson também usa a técnica com Em7 sobre Cmaj7.",
+   "assuntos": [
+    "Joe Pass",
+    "arpejo pivô",
+    "Barry Harris",
+    "intervalo de salto"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Dominantes alterados e substituição por trítono",
+   "inicio": "07:43",
+   "fim": "08:50",
+   "resumo": "A regra falha sobre dominantes alterados porque o Bm7♭5 gera tensões que não combinam com G7 alterado. Solução: pensar em Db7 (substituto por trítono) e usar o arpejo a partir de sua 3ª, F meio-diminuto.",
+   "assuntos": [
+    "dominante alterado",
+    "substituição por trítono",
+    "Db7",
+    "Fm7♭5"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Resumo, prática e exercício de tríades",
+   "inicio": "08:50",
+   "fim": "09:28",
+   "resumo": "Recapitulação da regra e sugestão de prática em uma música conhecida, usando tercinas e arpejos pivô. Menção breve a um exercício de tríades, sem detalhamento no vídeo. Encerramento.",
+   "assuntos": [
+    "rotina de prática",
+    "exercício de tríades",
+    "recapitulação"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo da 3ª de G7 é Bm7♭5",
+   "descricao": "Sobre um acorde G7 (G B D F), a 3ª é B. O arpejo a partir dessa nota (B D F A) é um B meio-diminuto (Bm7♭5), com a 9ª (A) no topo.",
+   "passos": [],
+   "timestamp": "01:14",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-da-terça",
+    "dominante",
+    "meio-diminuto",
+    "bm7♭5"
+   ],
+   "id_global": "Md9ZC0qFK3s#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Regra: usar o arpejo a partir da 3ª do acorde",
+   "descricao": "Para qualquer acorde, toque o arpejo que começa na 3ª do acorde. Ele reúne 3ª, 5ª e 7ª (notas fortes do acorde) mais uma 9ª no topo.",
+   "passos": [],
+   "timestamp": "01:14",
+   "nivel": "intermediario",
+   "tags": [
+    "regra-da-terça",
+    "notas-alvo",
+    "arpejo"
+   ],
+   "id_global": "Md9ZC0qFK3s#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I com Bm7♭5 sobre G7",
+   "descricao": "Num ii-V-I em C, toque Dm7 com linha livre, depois Bm7♭5 (arpejo da 3ª) sobre G7 e resolva em Cmaj7, observando a resolução do B para o G.",
+   "passos": [
+    "Escolha um ii-V-I em C (Dm7 – G7 – Cmaj7).",
+    "Sobre G7, toque o arpejo B D F A (Bm7♭5) em vez do G7 básico.",
+    "Resolva a linha em Cmaj7, notando que a nota final de G7 leva ao G do Cmaj7."
+   ],
+   "timestamp": "01:45",
+   "nivel": "intermediario",
+   "tags": [
+    "ii-v-i",
+    "bm7♭5",
+    "g7",
+    "resolução"
+   ],
+   "id_global": "Md9ZC0qFK3s#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Arpejo da 3ª de Dm7 é Fmaj7",
+   "descricao": "Sobre Dm7 (D F A C), a 3ª é F. O arpejo a partir dela é Fmaj7 (F A C E), com a 9ª (E) no topo.",
+   "passos": [],
+   "timestamp": "02:53",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-da-terça",
+    "dm7",
+    "fmaj7"
+   ],
+   "id_global": "Md9ZC0qFK3s#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Arpejo maj7 de duas oitavas",
+   "descricao": "Wes Montgomery usa um arpejo maj7 de duas oitavas sobre Dm7, algo raro no jazz, em que normalmente se toca apenas uma oitava.",
+   "passos": [],
+   "timestamp": "02:21",
+   "nivel": "avancado",
+   "tags": [
+    "arpejo",
+    "duas-oitavas",
+    "wes-montgomery",
+    "maj7"
+   ],
+   "id_global": "Md9ZC0qFK3s#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Enclosure cromático na 9ª do Dm7",
+   "descricao": "Sobre Dm7, a linha de Wes começa com um enclosure cromático em torno da 9ª (E), isto é, a nota alvo é cercada por notas cromáticas acima e abaixo antes de ser alcançada.",
+   "passos": [],
+   "timestamp": "02:21",
+   "nivel": "avancado",
+   "tags": [
+    "enclosure",
+    "cromatismo",
+    "9a",
+    "wes-montgomery"
+   ],
+   "id_global": "Md9ZC0qFK3s#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "frase_lick",
+   "titulo": "Melodia grave em Dm7 apontando para B",
+   "descricao": "Wes toca uma melodia grave sobre Dm7 que direciona a frase para a nota B, que é a 6ª do acorde (13ª).",
+   "passos": [],
+   "timestamp": "02:53",
+   "nivel": "avancado",
+   "tags": [
+    "dm7",
+    "notas-alvo",
+    "melodia-grave"
+   ],
+   "id_global": "Md9ZC0qFK3s#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Tercina de arpejo com nota de aproximação",
+   "descricao": "Para variar o ritmo de um arpejo, toque-o em tercinas e acrescente uma nota guia antes da primeira nota do arpejo. Isso dá fluidez e energia à linha. O exemplo usa Fmaj7.",
+   "passos": [
+    "Escolha um arpejo (exemplo: F A C E).",
+    "Toque as notas em grupos de tercina.",
+    "Acrescente uma nota de aproximação logo antes da primeira nota do arpejo.",
+    "Repita variando a direção e a posição."
+   ],
+   "timestamp": "02:53",
+   "nivel": "intermediario",
+   "tags": [
+    "tercina",
+    "nota-de-aproximação",
+    "fmaj7",
+    "ritmo"
+   ],
+   "id_global": "Md9ZC0qFK3s#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Técnica de ritmo vale para qualquer arpejo",
+   "descricao": "A combinação de tercinas com nota de aproximação não é exclusiva de um acorde: pode ser aplicada a qualquer arpejo usado na regra da 3ª.",
+   "passos": [],
+   "timestamp": "03:00",
+   "nivel": "intermediario",
+   "tags": [
+    "tercina",
+    "arpejo",
+    "fraseado"
+   ],
+   "id_global": "Md9ZC0qFK3s#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Frase de Charlie Parker com escala descendente e arpejo final",
+   "descricao": "Frase de Charlie Parker (transposta para C) sobre Cmaj7: uma escala descendente de A até E, com nota cromática de passagem (Ab), que leva ao arpejo no final da frase, tocado em tercinas.",
+   "passos": [],
+   "timestamp": "03:46",
+   "nivel": "avancado",
+   "tags": [
+    "charlie-parker",
+    "escala-descendente",
+    "nota-cromática",
+    "cmaj7"
+   ],
+   "id_global": "Md9ZC0qFK3s#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Arpejo da 3ª de Cmaj7 é Em7",
+   "descricao": "Sobre Cmaj7 (C E G B), a 3ª é E. O arpejo a partir dela é Em7 (E G B D), com a 9ª (D) no topo.",
+   "passos": [],
+   "timestamp": "04:12",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-da-terça",
+    "cmaj7",
+    "em7"
+   ],
+   "id_global": "Md9ZC0qFK3s#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "mentalidade",
+   "titulo": "Tercinas fazem parte da linguagem do jazz",
+   "descricao": "Arpejos em tercina não são coincidência: fazem parte do vocabulário e do som do jazz, como mostram Parker e a própria aula.",
+   "passos": [],
+   "timestamp": "04:12",
+   "nivel": "intermediario",
+   "tags": [
+    "tercina",
+    "linguagem-do-jazz",
+    "vocabulário"
+   ],
+   "id_global": "Md9ZC0qFK3s#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Por que a regra funciona",
+   "descricao": "O arpejo da 3ª compartilha três notas com o acorde (ex.: B D F em G7) e acrescenta a 9ª no topo (A). Por isso ele soa bem sobre o acorde original.",
+   "passos": [],
+   "timestamp": "05:22",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-compartilhadas",
+    "9a",
+    "lógica-da-regra"
+   ],
+   "id_global": "Md9ZC0qFK3s#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Estudar os arpejos diatônicos de C",
+   "descricao": "Estudar os arpejos a partir da 3ª de cada acorde diatônico de C, como Bm7♭5 sobre G7, Fmaj7 sobre Dm7 e Em7 sobre Cmaj7. Após dominar as sete, o arpejo da 3ª está disponível em qualquer acorde da música.",
+   "passos": [
+    "Liste os sete acordes diatônicos de C (Cmaj7, Dm7, Em7, Fmaj7, G7, Am7, Bm7♭5).",
+    "Para cada acorde, identifique a 3ª e monte o arpejo a partir dela.",
+    "Toque os arpejos em sequência e compare a sonoridade com o acorde original."
+   ],
+   "timestamp": "05:22",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejos-diatônicos",
+    "campo-harmônico",
+    "estudo"
+   ],
+   "id_global": "Md9ZC0qFK3s#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Estudo dos diatônicos compensa a longo prazo",
+   "descricao": "Praticar os arpejos diatônicos rende resultados duradouros, porque cobre todos os acordes que aparecem numa música tonal.",
+   "passos": [],
+   "timestamp": "05:56",
+   "nivel": "intermediario",
+   "tags": [
+    "prática",
+    "longo-prazo"
+   ],
+   "id_global": "Md9ZC0qFK3s#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Arpejo pivô (Joe Pass)",
+   "descricao": "Num arpejo pivô, as notas são as mesmas do arpejo, mas a primeira nota é tocada uma oitava acima, criando um salto de intervalo. Joe Pass usa Fmaj7 (F A C E) sobre Dm, com o F inicial uma oitava acima.",
+   "passos": [],
+   "timestamp": "07:07",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-pivô",
+    "joe-pass",
+    "salto-de-oitava"
+   ],
+   "id_global": "Md9ZC0qFK3s#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "exercicio",
+   "titulo": "Aplicar o arpejo pivô a qualquer arpejo",
+   "descricao": "Pegue um arpejo da 3ª e deixe a primeira nota uma oitava acima. Exemplo de Benson: Em7 sobre Cmaj7, com o E inicial uma oitava acima.",
+   "passos": [
+    "Escolha um arpejo da 3ª (ex.: Fmaj7 sobre Dm7).",
+    "Toque-o normalmente na ordem ascendente.",
+    "Mova a primeira nota uma oitava acima e toque a sequência de novo, sentindo o salto.",
+    "Aplique o mesmo a outros arpejos da música."
+   ],
+   "timestamp": "07:07",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo-pivô",
+    "exercício",
+    "benson"
+   ],
+   "id_global": "Md9ZC0qFK3s#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "erro_comum",
+   "titulo": "Arpejo tocado de forma previsível",
+   "descricao": "Tocar o arpejo sempre em ordem simples e ascendente o torna previsível. Pequenos saltos de intervalo, como o do arpejo pivô, tornam a linha mais surpreendente.",
+   "passos": [],
+   "timestamp": "06:32",
+   "nivel": "intermediario",
+   "tags": [
+    "fraseado",
+    "previsibilidade",
+    "arpejo"
+   ],
+   "id_global": "Md9ZC0qFK3s#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Regra não funciona direto sobre dominante alterado",
+   "descricao": "Sobre G7 alterado, o arpejo da 3ª (Bm7♭5) gera 9ª e 5ª que conflitam com as alterações do acorde. Por isso é preciso outra forma de encontrar o meio-diminuto.",
+   "passos": [],
+   "timestamp": "07:43",
+   "nivel": "avancado",
+   "tags": [
+    "dominante-alterado",
+    "tensões",
+    "limitação-da-regra"
+   ],
+   "id_global": "Md9ZC0qFK3s#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Substituição por trítono: G7 alterado vira Db7",
+   "descricao": "G7 e Db7 compartilham o mesmo trítono (B e F), e o Db7 é o substituto por trítono de G7. Assim, em vez de pensar em G7 alterado, pense em Db7 e use o arpejo da 3ª dele: F meio-diminuto (Fm7♭5: F Ab B Eb).",
+   "passos": [],
+   "timestamp": "08:16",
+   "nivel": "avancado",
+   "tags": [
+    "substituição-por-trítono",
+    "dominante-alterado",
+    "db7",
+    "fm7♭5"
+   ],
+   "id_global": "Md9ZC0qFK3s#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "ii-V-I com G7 alterado usando Fm7♭5",
+   "descricao": "Num ii-V-I em C com G7 alterado, substitua o acorde de dominante por Db7 e toque o arpejo a partir da 3ª dele (F meio-diminuto) para soar com as tensões alteradas.",
+   "passos": [
+    "Monte o ii-V-I (Dm7 – G7alt – Cmaj7).",
+    "Sobre o V, pense em Db7 (substituto por trítono).",
+    "Toque o arpejo Fm7♭5 (F Ab B Eb) sobre o V.",
+    "Resolva em Cmaj7 e compare com a versão sobre G7 comum."
+   ],
+   "timestamp": "08:50",
+   "nivel": "avancado",
+   "tags": [
+    "dominante-alterado",
+    "ii-v-i",
+    "fm7♭5",
+    "substituição-por-trítono"
+   ],
+   "id_global": "Md9ZC0qFK3s#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S9",
+   "tipo": "rotina_estudo",
+   "titulo": "Aplicar a regra numa música conhecida",
+   "descricao": "Escolha uma música que você já sabe, identifique o arpejo da 3ª em cada acorde e pratique-o com tercinas e arpejos pivô.",
+   "passos": [
+    "Escolha uma música que você já toca bem.",
+    "Para cada acorde, identifique a 3ª e monte o arpejo a partir dela.",
+    "Toque cada arpejo em tercinas, com nota de aproximação.",
+    "Experimente a versão pivô (primeira nota uma oitava acima).",
+    "Em dominantes alterados, use a substituição por trítono."
+   ],
+   "timestamp": "08:50",
+   "nivel": "intermediario",
+   "tags": [
+    "rotina",
+    "prática-em-música",
+    "arpejo-da-terça",
+    "tercina",
+    "arpejo-pivô"
+   ],
+   "id_global": "Md9ZC0qFK3s#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S9",
+   "tipo": "recurso",
+   "titulo": "Exercício de tríades",
+   "descricao": "Jens cita um exercício de tríades que parece simples e até entediante, mas ajuda a conseguir o som do jazz nos solos. O vídeo não detalha a execução; o material completo está no PDF citado.",
+   "passos": [],
+   "timestamp": "09:09",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "exercício",
+    "pdf"
+   ],
+   "id_global": "Md9ZC0qFK3s#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S9",
+   "tipo": "mentalidade",
+   "titulo": "Básicos que a maioria ignora",
+   "descricao": "Muitos guitarristas ignoram exercícios básicos como o de tríades, mas os jazzistas profissionais estudam esses exercícios obsessivamente justamente por causa do som que eles produzem.",
+   "passos": [],
+   "timestamp": "09:09",
+   "nivel": "intermediario",
+   "tags": [
+    "fundamentos",
+    "prática",
+    "tríades"
+   ],
+   "id_global": "Md9ZC0qFK3s#I24"
+  }
+ ],
+ "artistas_citados": [
+  "Wes Montgomery",
+  "Joe Pass",
+  "George Benson",
+  "Charlie Parker",
+  "Barry Harris"
+ ],
+ "musicas_citadas": [
+  "Billie's Bounce",
+  "Four on Six",
+  "Ornithology"
+ ],
+ "recursos_citados": [
+  "PDF com exemplos e tablaturas (site do autor e Patreon)",
+  "GuitarPro files (Patreon)",
+  "Curso The Jazz Guitar Roadmap",
+  "Curso The Jazz Chord Craftsmanship",
+  "Livro Modern Jazz Guitar Concepts",
+  "E-book gratuito com 15 licks II-V-I"
+ ],
+ "observacoes": "Vídeo com forte apelo promocional (cursos, Patreon, livro), com vários trechos de chamada à inscrição. Os exemplos de Benson, Wes, Parker e Pass são apresentados por áudio e dependem do PDF/tablatura para serem tocados com precisão. O exercício de tríades é citado nos capítulos (09:09) mas não é explicado no transcript. A legenda automática está limpa e não exigiu correções. Os exemplos foram transpostos para C e Dm por Jens. A frase de Parker é descrita de forma breve, e a descrição exata das notas de passagem depende do material visual.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00336,
+  "via": "api"
+ }
+}

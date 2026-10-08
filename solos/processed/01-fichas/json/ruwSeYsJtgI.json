@@ -1,0 +1,292 @@
+{
+ "fonte_id": "ruwSeYsJtgI",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+  "autor": "Rick Beato",
+  "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI",
+  "idioma": "en",
+  "duracao": "6m 39s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/ruwSeYsJtgI--these-3-exercises-will-transform-your-playing.md"
+ },
+ "resumo": "Rick Beato apresenta três exercícios de aquecimento melódicos que também servem para improvisar: (1) uma sequência de tríades em Mi maior, tocada em três grupos de quatro cordas; (2) um exercício de pivot/pedal point nas duas cordas agudas, com palhetada alternada e sem pestana; (3) um ciclo de quintas com acordes dominantes. Os exercícios trabalham soltura dos dedos, travessia de cordas, independência de dedos e conhecimento da escala maior nas cordas agudas. O vídeo é voltado a guitarristas intermediários e depende bastante de ver as mãos dele.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Boas ideias de aquecimento com aplicação melódica, mas a explicação verbal é curta. A parte prática depende de ver as mãos ou do PDF pago, e os exercícios 2 e 3 têm pouco detalhe."
+ },
+ "assuntos_principais": [
+  "aquecimento",
+  "tríades",
+  "Mi maior",
+  "pedal point",
+  "string crossing",
+  "palhetada alternada",
+  "independência de dedos",
+  "ciclo de quintas",
+  "acordes dominantes"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e exercício 1: sequência de tríades em Mi maior",
+   "inicio": "00:00",
+   "fim": "03:06",
+   "resumo": "Sequência de tríades pela tonalidade de Mi maior, tocada em três grupos de quatro cordas, com versão simples e versão mais movimentada.",
+   "assuntos": [
+    "tríades",
+    "Mi maior",
+    "aquecimento",
+    "inversões"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Exercício 2: pivot point / pedal point",
+   "inicio": "03:06",
+   "fim": "05:03",
+   "resumo": "Exercício nas duas cordas agudas em Mi maior, começando na quinta do tom (Si), com palhetada alternada e sem pestana.",
+   "assuntos": [
+    "pedal point",
+    "string crossing",
+    "palhetada alternada",
+    "independência de dedos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exercício 3: ciclo de quintas e encerramento",
+   "inicio": "05:03",
+   "fim": "06:39",
+   "resumo": "Ciclo de acordes dominantes em relação de quinta, começando em E7, seguido da propaganda final da coleção.",
+   "assuntos": [
+    "ciclo de quintas",
+    "acordes dominantes"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Sequência de tríades em Mi maior",
+   "descricao": "Aquecimento melódico que sobe por uma sequência de tríades em Mi maior: E, F#m, E/G# (E com G# no baixo), A, B, C#m, B/D# (B com D# no baixo) e E. Soa melódico e pode ser usado em improvisações.",
+   "passos": [
+    "Toque E maior.",
+    "Siga para F#m.",
+    "Toque E com G# no baixo.",
+    "Toque A maior.",
+    "Toque B maior.",
+    "Toque C#m.",
+    "Toque B com D# no baixo.",
+    "Termine em E maior."
+   ],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "Mi maior",
+    "aquecimento",
+    "inversões"
+   ],
+   "id_global": "ruwSeYsJtgI#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "exercicio",
+   "titulo": "Repetir a sequência em três grupos de quatro cordas",
+   "descricao": "A mesma sequência de tríades, com os mesmos shapes, é transposta para o grupo seguinte de quatro cordas e depois para as quatro cordas agudas. Isso trabalha o braço todo e a visualização das tríades em cada conjunto de cordas.",
+   "passos": [
+    "Toque a sequência no primeiro grupo de quatro cordas.",
+    "Repita nas quatro cordas seguintes, com os mesmos voicings.",
+    "Repita nas quatro cordas agudas, com digitação praticamente igual à do grupo anterior."
+   ],
+   "timestamp": "01:12",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "grupos de cordas",
+    "aquecimento"
+   ],
+   "id_global": "ruwSeYsJtgI#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Versão simplificada e versão mais movimentada",
+   "descricao": "Cada grupo de cordas tem uma versão simples, só com os acordes, e outra mais movimentada. Comece pela simples e depois passe para a versão ocupada, que é mais difícil.",
+   "passos": [],
+   "timestamp": "00:38",
+   "nivel": "intermediario",
+   "tags": [
+    "aquecimento",
+    "tríades",
+    "variação"
+   ],
+   "id_global": "ruwSeYsJtgI#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Trocar para o terceiro dedo para entrar no padrão seguinte",
+   "descricao": "Num ponto mais difícil da versão movimentada, Rick desloca a mão para o terceiro dedo. Isso facilita a entrada no padrão seguinte.",
+   "passos": [],
+   "timestamp": "01:57",
+   "nivel": "intermediario",
+   "tags": [
+    "digitação",
+    "terceiro dedo",
+    "mudança de posição"
+   ],
+   "id_global": "ruwSeYsJtgI#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Pivot point / pedal point nas duas cordas agudas",
+   "descricao": "Exercício em Mi maior nas duas cordas agudas, começando na nota Si (quinta do tom). Serve para treinar travessia de cordas e para aprender as notas da escala de Mi maior, ou de qualquer escala maior, nessas cordas, onde se improvisa com mais frequência.",
+   "passos": [
+    "Comece na nota Si, a quinta de Mi maior, nas cordas agudas.",
+    "Use uma nota fixa como pivô e alterne com as notas da escala na outra corda.",
+    "Alterne a palheta em todas as notas: sempre para baixo e para cima.",
+    "Não use pestana; mude de dedo ao mover o padrão."
+   ],
+   "timestamp": "03:06",
+   "nivel": "intermediario",
+   "tags": [
+    "pedal point",
+    "pivot",
+    "string crossing",
+    "escala maior",
+    "cordas agudas"
+   ],
+   "id_global": "ruwSeYsJtgI#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Palhetada alternada estrita em todas as notas",
+   "descricao": "No exercício de pivot point, toda nota é tocada com palhetada alternada, descendo e subindo o tempo todo. Isso treina a coordenação entre palheta e mão esquerda nas travessias de corda.",
+   "passos": [],
+   "timestamp": "04:22",
+   "nivel": "intermediario",
+   "tags": [
+    "palhetada alternada",
+    "string crossing",
+    "técnica"
+   ],
+   "id_global": "ruwSeYsJtgI#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Evitar pestana e usar o terceiro dedo para independência",
+   "descricao": "Rick não usa pestana neste exercício. Ele usa o terceiro dedo, que ele diz ser mais limpo do que a alternativa mais desajeitada, e deixa o dedo se mover pelo braço. É um bom treino de independência de dedos.",
+   "passos": [],
+   "timestamp": "04:22",
+   "nivel": "intermediario",
+   "tags": [
+    "independência de dedos",
+    "terceiro dedo",
+    "sem pestana"
+   ],
+   "id_global": "ruwSeYsJtgI#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Exercício do ciclo de quintas com acordes dominantes",
+   "descricao": "Exercício que vai de acorde dominante a acorde dominante em relação de quinta, num ciclo contínuo. A sequência parte de E7 e segue por A7, D7, G7, C7, F7, Bb7, Eb7, Ab7, Db7, F#7 e B7, voltando a E7 para recomeçar. Na transcrição, o trecho lido soa como D7, A7, D7, G7, mas é um erro de legenda; a sequência de quartas ascendentes (quintas descendentes) é a coerente.",
+   "passos": [
+    "Comece em E7.",
+    "Siga a cada acorde dominante uma quinta abaixo (ou quarta acima), passando por A7, D7, G7, C7, F7, Bb7, Eb7, Ab7, Db7, F#7 e B7.",
+    "Volte a E7 e continue girando pelo ciclo."
+   ],
+   "timestamp": "05:03",
+   "nivel": "intermediario",
+   "tags": [
+    "ciclo de quintas",
+    "dominantes",
+    "acordes",
+    "V-I"
+   ],
+   "id_global": "ruwSeYsJtgI#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Ciclo de quintas como sucessão de V7 para V7",
+   "descricao": "O exercício é descrito como uma sequência de 'cinco para cinco' (V para V), em que cada acorde dominante funciona como o V do próximo. Há vários padrões pequenos dentro do ciclo, como E7, A7, D7, G7, e a progressão pode girar sem parar.",
+   "passos": [],
+   "timestamp": "05:36",
+   "nivel": "intermediario",
+   "tags": [
+    "ciclo de quintas",
+    "dominantes",
+    "harmonia"
+   ],
+   "id_global": "ruwSeYsJtgI#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Aquecimentos que soam musicais e viram vocabulário de solo",
+   "descricao": "A proposta de Rick é fazer aquecimentos que soltem os dedos, mas que também soem melódicos. Assim o mesmo material do aquecimento pode ser reaproveitado na improvisação.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "aquecimento",
+    "prática",
+    "improvisação"
+   ],
+   "id_global": "ruwSeYsJtgI#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S1",
+   "tipo": "recurso",
+   "titulo": "PDF com notação e tablatura dos exercícios",
+   "descricao": "Rick oferece um PDF com a notação e as tablaturas dos exercícios do vídeo. Ele faz parte da Professional Guitar Collection, vendida em rickbeato.com por tempo limitado (cerca de 89 dólares na semana do vídeo).",
+   "passos": [],
+   "timestamp": "03:06",
+   "nivel": "intermediario",
+   "tags": [
+    "PDF",
+    "tablatura",
+    "curso"
+   ],
+   "id_global": "ruwSeYsJtgI#I11"
+  }
+ ],
+ "artistas_citados": [
+  "Rick Beato"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Professional Guitar Collection (rickbeato.com)",
+  "PDF com notação e tablatura dos exercícios do vídeo"
+ ],
+ "observacoes": "Vídeo curto, quase todo demonstrado ao instrumento, e o transcript não traz as notas tocadas, só os nomes dos acordes. As digitações, as casas e o padrão exato do exercício 2 (pedal point) não aparecem na fala e dependem de ver as mãos ou do PDF pago. O passo a passo do exercício 2 é uma reconstrução genérica do que ele descreve (começar em Si, palhetada alternada, sem pestana). Há ruídos na legenda: \"Rick Bato/Biato/rickpato\" é Rick Beato e rickbeato.com, \"C#arp minor\" é C#m, \"Gsharp/Dsharp\" são G#/D#. No ciclo de quintas, a legenda traz \"and the bridge is going to go D7, A7, D7, G7...\", que parece ser erro de transcrição; a ordem coerente seria E7, A7, D7, G7, C7, F7, Bb7, Eb7, Ab7, Db7, F#7, B7. Os dois \"D7\" iniciais da transcrição foram descartados.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:11:29",
+  "tentativas": 1,
+  "custo_usd": 0.2362
+ }
+}

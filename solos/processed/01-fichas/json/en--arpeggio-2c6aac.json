@@ -1,0 +1,287 @@
+{
+ "fonte_id": "en--arpeggio-2c6aac",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Arpeggio - Wikipedia",
+  "autor": "",
+  "url": "https://en.wikipedia.org/wiki/Arpeggio",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--arpeggio-2c6aac.md"
+ },
+ "resumo": "Verbete da Wikipedia sobre arpejo: definição (notas de um acorde tocadas em sequência ascendente ou descendente), usos, notação, origem da palavra e o conceito de \"bell chord\". Para guitarristas é pouco profundo: menciona sweep picking, jazz e neoclássico, mas não traz exercícios nem shapes. Serve como referência conceitual básica para entender o que é um arpejo antes de aplicá-lo em solos.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Bom para a definição geral, mas é enciclopédico, não específico de guitarra, e não tem exercícios, shapes nem aplicação prática em improvisação."
+ },
+ "assuntos_principais": [
+  "arpejos",
+  "definição de arpejo",
+  "sweep picking",
+  "improvisação no jazz",
+  "exercícios técnicos",
+  "bell chord"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e características do arpejo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define arpejo, exemplifica com Dó maior em duas oitavas, explica a notação, a função em instrumentos monofônicos e a etimologia.",
+   "assuntos": [
+    "definição",
+    "notação",
+    "etimologia"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Usos do arpejo",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Usos em gêneros musicais, jazz, sweep picking na guitarra, exercício técnico, ear training, arpeggiators e música de videogame.",
+   "assuntos": [
+    "sweep picking",
+    "jazz",
+    "exercício técnico",
+    "ear training"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Bell chord",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Técnica de arranjo em que instrumentos diferentes entram em sequência sustentando as notas do acorde; exemplos do Queen.",
+   "assuntos": [
+    "bell chord",
+    "arranjo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Referências e leitura adicional",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Referências, o livro Guitar Arpeggio Dictionary e um link de arpejos de guitarra para iniciantes no jazzguitar.be.",
+   "assuntos": [
+    "recursos"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é um arpejo",
+   "descricao": "Arpejo é um acorde cujas notas são tocadas uma a uma, em ordem ascendente ou descendente, em vez de simultaneamente. Em teclados chama-se 'rolled chord'. Se as notas soam em sucessão rápida, o ouvinte percebe a sequência como um acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "acorde",
+    "conceito"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Mínimo de três notas e extensão em oitavas",
+   "descricao": "Um arpejo precisa ter pelo menos três alturas diferentes; sequências de duas notas são trinados ou tremolos. Pode ficar em uma oitava ou cobrir várias. Exemplo: Dó maior subindo duas oitavas = C, E, G, C, E, G, C. As notas podem ser sustentadas e sobrepostas ou soar separadas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "arpejo",
+    "oitavas",
+    "tríade",
+    "dó maior"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Notas de passagem e análise",
+   "descricao": "Quando um arpejo contém notas de passagem que não pertencem ao acorde, diferentes teóricos podem analisar o mesmo trecho de formas distintas. Lembra que, em solos, notas fora do acorde mudam a leitura harmônica da frase.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas de passagem",
+    "teoria",
+    "análise"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Arpejo como forma de sugerir harmonia em instrumento monofônico",
+   "descricao": "Arpejos permitem que instrumentos que tocam uma nota por vez (como trompete) soem acordes e progressões. Servem também para criar interesse rítmico e como ornamento melódico no solo ou no acompanhamento.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "harmonia",
+    "ritmo",
+    "ornamentação"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Notação do arpejo",
+   "descricao": "Na partitura, um acorde arpejado rápido é escrito com uma linha ondulada vertical antes do acorde, lido normalmente da nota mais grave para a mais aguda. Uma seta para baixo indica execução do agudo para o grave.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "notação",
+    "leitura",
+    "partitura"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo como alternativa ao portamento",
+   "descricao": "Em instrumentos com limitação para deslizar continuamente entre várias notas (teclados, instrumentos com trastes, flauta), arpejos funcionam como alternativa ao portamento contínuo.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "portamento",
+    "técnica",
+    "fraseado"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Gêneros e técnicas que destacam arpejos",
+   "descricao": "Arpejos são muito usados em gêneros focados em melodia e ornamentação, como flamenco e neoclássico, e são parte importante da improvisação no jazz. Na guitarra, o sweep picking é a técnica para arpejar com rapidez, mais comum em rock e heavy metal.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "sweep picking",
+    "jazz",
+    "neoclássico",
+    "flamenco",
+    "metal"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Arpejos como exercício técnico básico junto com escalas",
+   "descricao": "Junto com as escalas, arpejos são exercício técnico básico para desenvolver afinação e técnica. Vale incluí-los na rotina de estudo como base para o fraseado em solos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "rotina",
+    "técnica",
+    "escalas",
+    "arpejo"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Ditado de ouvido com arpejos (call and response)",
+   "descricao": "Arpejos podem ser usados em ditados de ear training no formato call and response, sozinhos ou combinados com ditados de harmonia, para treinar a percepção das notas dos acordes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ear training",
+    "call and response",
+    "ouvido"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Bell chord (acorde de sino)",
+   "descricao": "Técnica de arranjo em que instrumentos diferentes tocam, em sequência, cada nota de um acorde e as sustentam até formar o acorde completo; é um arpejo distribuído entre instrumentos. Também chamado de pyramid ou cascade. Vem das big bands de jazz. Exemplos: 'Bohemian Rhapsody' (seção do meio) e o solo de 'Killer Queen' a partir de 1:48, ambos do Queen.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "bell chord",
+    "arranjo",
+    "Queen",
+    "big band"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "recurso",
+   "titulo": "Material de arpejos para guitarra",
+   "descricao": "A página indica o livro Guitar Arpeggio Dictionary (Chuck Wayne e Ralph Patt, 1965), com mais de 2000 arpejos, e o artigo 'Guitar Arpeggios for Beginners' de Dirk Laukens, no jazzguitar.be.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "recurso",
+    "livro",
+    "jazzguitar.be"
+   ],
+   "id_global": "en--arpeggio-2c6aac#I11"
+  }
+ ],
+ "artistas_citados": [
+  "Queen",
+  "The Temperance Seven",
+  "Chuck Wayne",
+  "Ralph Patt",
+  "Dirk Laukens"
+ ],
+ "musicas_citadas": [
+  "Bohemian Rhapsody",
+  "Killer Queen",
+  "The Charleston"
+ ],
+ "recursos_citados": [
+  "Guitar Arpeggio Dictionary (Chuck Wayne e Ralph Patt, 1965)",
+  "Guitar Arpeggios for Beginners (Dirk Laukens, jazzguitar.be)",
+  "reelear.com (ear training com arpejos e harmonia)"
+ ],
+ "observacoes": "Documento enciclopédico, não é específico de guitarra e não traz tablaturas, shapes nem exercícios práticos. Cita arpeggiators e música de videogame (Commodore 64, NES), que não têm utilidade direta para solo e foram omitidos das ideias. Os trechos de referências e links são pouco aproveitáveis. Não há timestamps.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:12:23",
+  "tentativas": 1,
+  "custo_usd": 0.1031
+ }
+}

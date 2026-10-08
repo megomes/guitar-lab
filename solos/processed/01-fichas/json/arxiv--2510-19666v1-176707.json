@@ -1,0 +1,489 @@
+{
+ "fonte_id": "arxiv--2510-19666v1-176707",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "A Graph Engine for Guitar Chord-Tone Soloing Education",
+  "autor": "",
+  "url": "https://arxiv.org/html/2510.19666v1",
+  "site": "arxiv.org",
+  "idioma": "en",
+  "tema_coleta": "notas-alvo",
+  "arquivo_raw": "solos/raw/documentos/arxiv--2510-19666v1-176707.md"
+ },
+ "resumo": "Artigo técnico de pesquisa que propõe um motor baseado em grafo para gerar sugestões de solo com notas do acorde (chord-tone soloing) para estudantes de guitarra. O método gera arpejos de acordes em várias posições do braço, monta um grafo com pesos pela distância entre notas de transição e usa o caminho mais curto (Dijkstra) para montar uma linha monofônica que segue a progressão, exibida em tablatura. Serve sobretudo a quem estuda jazz e quer praticar arpejos em diferentes posições, e também a quem se interessa por ferramentas computacionais para educação musical. Não é uma aula de improviso: o conteúdo didático aparece como ideias de teoria e prática embutidas numa explicação de engenharia.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "É um artigo de pesquisa em computação musical, não material pedagógico. As ideias de teoria e prática são corretas e úteis (arpejos de acordes, notas de transição, posições no braço), mas aparecem de forma técnica e sem exercícios guiados. O exemplo Am7 para D7 é concreto, porém a tabela de notas do exemplo tem inconsistências."
+ },
+ "assuntos_principais": [
+  "chord-tone soloing",
+  "arpejos de acordes",
+  "notas de transição",
+  "grafo ponderado e caminho mínimo",
+  "tablatura",
+  "progressão ii-V em jazz",
+  "posições no braço da guitarra",
+  "educação musical com computador"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abstract",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Apresenta o motor em grafo para sugestões de chord-tone soloing, o método de pesos por notas de transição e o caminho mínimo.",
+   "assuntos": [
+    "chord-tone soloing",
+    "grafo ponderado"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Introdução: o que é chord-tone soloing e por que é difícil na guitarra",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define chord-tone soloing, mostra a quantidade de posições possíveis para arpejos na guitarra e explica por que a troca de acorde exige escolher posições com boas notas de transição.",
+   "assuntos": [
+    "chord-tone soloing",
+    "arpejos de tétrade",
+    "posições no braço",
+    "notas de transição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Geração de arpejos de acordes no braço",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica como gerar arpejos a partir da raiz e dos intervalos do acorde, com exemplo de Am7 na corda E grave, e a regra de estiramento máximo de D casas.",
+   "assuntos": [
+    "arpejos",
+    "Am7",
+    "regra de estiramento",
+    "fórmula de intervalos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Grafo e função de peso",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Descreve nós (padrões de notas por acorde), arestas entre acordes consecutivos e o peso que mede a distância entre notas de transição, com penalização de troca de corda.",
+   "assuntos": [
+    "grafo",
+    "nós e arestas",
+    "distância em casas",
+    "penalização de troca de corda",
+    "pesos combinados"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Consulta do grafo e ordenação da linha",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Explica a busca do caminho mais curto com Dijkstra e o procedimento para ordenar as notas de cada arpejo usando as notas de transição, com exemplo Am7 para D7.",
+   "assuntos": [
+    "Dijkstra",
+    "ordenação de notas",
+    "Am7 para D7",
+    "notas de transição"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Introdução de aleatoriedade",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Propõe iniciar o grafo com uma nota aleatória do braço para variar as posições sugeridas, já que a saída determinística limita a prática.",
+   "assuntos": [
+    "aleatoriedade",
+    "posições variadas",
+    "nó fonte"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Uso educacional: entrada, saída e tablatura",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Discute como o usuário pode informar a progressão por texto, áudio ou foto de cifra, e por que a tablatura é a notação mais clara para mostrar a posição exata.",
+   "assuntos": [
+    "entrada por texto, áudio e imagem",
+    "tablatura versus partitura",
+    "reconhecimento de acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Conclusões e trabalhos futuros",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Resume a contribuição e sugere melhorias como aprender pesos com solos de guitarristas profissionais.",
+   "assuntos": [
+    "trabalhos futuros",
+    "aprendizado de máquina"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S9",
+   "titulo": "Referências",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas do artigo.",
+   "assuntos": [
+    "bibliografia"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Chord-tone soloing",
+   "descricao": "Chord-tone soloing é improvisar usando somente as notas do acorde atual, tocadas como arpejos. É a base do improviso jazzístico mais avançado e a prática de como trocar de acorde com uma linha contínua.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "chord-tone soloing",
+    "improviso",
+    "arpejos"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Notas do acorde de quatro notas",
+   "descricao": "Num acorde de quatro notas, como Am7 (A, C, E, G), todas as quatro notas são notas do acorde. Elas formam o arpejo que se toca no improviso sobre esse acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "am7",
+    "tétrade",
+    "arpejo"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Muitas posições para a mesma nota",
+   "descricao": "Na guitarra cada nota aparece em cerca de 11 posições (6 cordas e 22 casas). Um arpejo de quatro notas tem aproximadamente 44 posições possíveis, o que torna difícil decorar todas e escolher a melhor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "posições",
+    "braço",
+    "escolha de posição"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Escolher posição pela transição",
+   "descricao": "Ao trocar de acorde, escolha a posição do arpejo do novo acorde que fique mais perto de uma nota do arpejo anterior. Assim a linha anda pouco pelo braço.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "notas-alvo",
+    "transição"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Nota de transição",
+   "descricao": "A melhor transição entre dois arpejos é quando há uma nota em comum ou muito próxima (a um semitom ou um tom) entre os dois conjuntos de notas. Essa nota liga um acorde ao seguinte.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "notas de transição",
+    "semitom",
+    "condução melódica"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Arpejo de Am7 em quatro posições",
+   "descricao": "Monte o arpejo de Am7 (A C E G) começando na 5ª casa da corda E grave, usando a sequência de posições do exemplo do artigo.",
+   "passos": [
+    "Toque o A na 5ª casa da corda E grave (mi grave).",
+    "Toque o C na 8ª casa da corda E grave.",
+    "Toque o E na 7ª casa da corda A.",
+    "Toque o G na 5ª casa da corda D."
+   ],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "am7",
+    "arpejo",
+    "corda E grave",
+    "posição"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Mudar a raiz muda a forma",
+   "descricao": "Começar o arpejo em outra posição da mesma nota da raiz gera outro conjunto de casas e cordas, e ainda assim é um arpejo válido do mesmo acorde. Pratique as diversas formas do mesmo acorde.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "formas",
+    "arpejo",
+    "raiz"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Limite de estiramento da mão",
+   "descricao": "O gerador do artigo só aceita notas a no máximo D casas da raiz, com D ajustável para o estiramento confortável de cada aluno. Isso evita posições que exigem esticar demais os dedos.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "ergonomia",
+    "estiramento",
+    "casas"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Intervalos para montar arpejos",
+   "descricao": "O artigo gera arpejos empilhando intervalos de terça: o m7 é 3 menor, 3 maior e 3 menor em semitons (3-4-3). Essa fórmula é usada para montar o arpejo a partir da raiz.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "intervalos",
+    "m7",
+    "fórmula de acorde"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Peso da transição em casas",
+   "descricao": "A distância entre dois arpejos é a menor distância em casas entre uma nota do primeiro e uma nota do segundo. Quanto menor o peso, melhor a transição.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "distância",
+    "casas",
+    "grafo"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Penalizar troca de corda",
+   "descricao": "Quando as notas de transição estão em cordas diferentes, o motor conta a troca de corda como o dobro de uma casa. Esse valor pode ser ajustado conforme a preferência do guitarrista, e um valor maior gera menos linhas com saltos de corda.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "troca de corda",
+    "penalização",
+    "pesos"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Combinar critérios de escolha",
+   "descricao": "O peso pode somar métricas com importâncias diferentes, como distância de movimento da mão ou preferência pessoal por certos arpejos (gostar ou não gostar). Cada métrica recebe uma constante própria.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "pesos",
+    "preferência pessoal",
+    "mão"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Ordenar notas de um arpejo pelas transições",
+   "descricao": "Ao montar a linha, as notas de transição de cada par de arpejos consecutivos são colocadas em posições seguidas. As notas restantes preenchem os espaços vagos. O artigo preenche com ordem aleatória, mas a ordem poderia ser melhorada.",
+   "passos": [
+    "Para cada par de arpejos consecutivos, ache as notas de transição com a menor distância.",
+    "Coloque essas notas em posições seguidas da lista ordenada.",
+    "Preencha as posições vazias com as demais notas de cada arpejo.",
+    "Repita para todos os pares de acordes."
+   ],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "ordenação",
+    "notas de transição",
+    "linha melódica"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Ii-V em G: Am7 para D7",
+   "descricao": "Na progressão Am7 para D7 (ii-V em sol maior), os dois acordes têm em comum as notas A e C. Por isso a transição entre eles é fácil. Esta observação é cálculo do catalogador, a partir das notas dos acordes.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "ii-v",
+    "am7",
+    "d7",
+    "notas comuns"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Variar posições com nota inicial aleatória",
+   "descricao": "Para que o motor não dê sempre a mesma linha, o nó inicial recebe uma nota escolhida ao acaso no braço. O primeiro acorde então é escolhido pela proximidade dessa nota, o que muda as posições sugeridas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "aleatoriedade",
+    "posições",
+    "nó inicial"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Praticar a progressão em muitas posições",
+   "descricao": "Um estudante deve praticar os mesmos acordes em muitas posições do braço, e não só numa forma decorada. Isso é o motivo do artigo ser orientado à variação.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "prática",
+    "posições",
+    "variação"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Três formas de entrada da progressão",
+   "descricao": "O sistema proposto aceita a progressão digitada como texto, reconhecida de um áudio por reconhecimento automático de acordes, ou lida de uma foto de cifra, como as do Real Book.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "entrada",
+    "cifra",
+    "reconhecimento de acordes"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Tablatura mostra corda e casa",
+   "descricao": "A partitura não diz em qual corda ou casa tocar uma nota: a nota C5 pode ser tocada em pelo menos cinco posições. A tablatura mostra a corda e a casa exatas, por isso é a notação mais clara para o estudante.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "partitura",
+    "posição exata"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Leitura de tablatura",
+   "descricao": "Na tablatura, cada linha é uma corda e o número escrito é a casa. O exemplo mostra um 10 na segunda linha mais grave, que é a nota G na 10ª casa da corda A.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "tablatura",
+    "leitura",
+    "corda A"
+   ],
+   "id_global": "arxiv--2510-19666v1-176707#I19"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Código do motor: https://github.com/mbkeating/chord-tone-generator",
+  "Keating e Casey (2024), geração de voicings de guitarra com LSTM, AIMC",
+  "Hori, Kameoka e Sagayama (2013), arranjo automático para guitarra com HMM",
+  "Nakamura, Saito e Yoshii (2020), estimativa de digitação de piano",
+  "Frieler e Zaddach (2022), modelo de improvisação baseado em dados",
+  "Pachet (2003), The Continuator",
+  "Dijkstra (1959), algoritmo do caminho mínimo",
+  "Pauwels et al. (2019), 20 anos de reconhecimento automático de acordes",
+  "Kodirov et al. (2014), separação de acordes em partituras impressas",
+  "Real Book (livro de partituras de jazz, citado como exemplo de cifras)"
+ ],
+ "observacoes": "O documento é um artigo de pesquisa em inglês e não tem timestamps. O exemplo das equações (3) a (6) é inconsistente: as notas listadas para Am7 incluem D, e as do D7 incluem G, o que não condiz com A-C-E-G e D-F#-A-C; provavelmente é erro de transcrição ou do exemplo. A referência 'Equation 6' na seção de aleatoriedade deveria apontar para a Equação 7. A afirmação de que a distância máxima de transição é uma terça menor tem uma prova apenas esboçada e não rigorosa. O texto diz que a guitarra é um instrumento de transposição, o que é usado de forma imprecisa (é um instrumento transpositor, mas o ponto do artigo é a multiplicidade de posições). A ordenação das notas dentro do arpejo é aleatória, o que o próprio autor reconhece como limitação. A referência a Hori et al. tem o mesmo título repetido. Não há áudio, vídeo ou tablatura impressa; as figuras de grafo e de tablatura não foram incluídas no texto, então o conteúdo das figuras 1 e 2 não pode ser verificado.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00319,
+  "via": "api"
+ }
+}

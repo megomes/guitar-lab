@@ -1,0 +1,2113 @@
+{
+ "titulo": "Espaço, silêncio e respiração",
+ "gancho": "A nota mais poderosa do seu solo pode ser a que você não tocou.",
+ "porque_importa": "Ritmo é feito de som e de silêncio, e o ouvinte precisa de tempo para absorver o que você disse. Um solo sem pausas soa como alguém falando sem respirar: cansa, achata a emoção e esconde as boas ideias. Aprender a parar é o atalho mais rápido para soar musical, em qualquer nível técnico.",
+ "ilustracao": "respiracao",
+ "conceito": [
+  {
+   "titulo": "Silêncio também é ritmo",
+   "texto": "Uma pausa de um tempo vale tanto quanto uma nota de um tempo: ela está na partitura, tem duração e tem lugar no compasso. Ouça a V2: notas certas, colcheias corretas, e mesmo assim soa como exercício de escala. O problema não está nas notas, está na ausência de silêncio.",
+   "destaque": "Frasear é decidir quando tocar, quando parar e quando deixar a banda falar.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O jeito errado: colcheias sem parar. Nenhuma nota está errada, mas a frase não tem vírgula nem ponto final.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Pausa é pontuação",
+   "texto": "Pense no solo como fala. Uma frase curta termina com ponto final (uma nota do acorde sustentada), vem a pausa, e só então a próxima frase. Ouça a V3: são praticamente as mesmas notas da V2, mas agora há vírgula, ponto e respiro. De repente parece que alguém está dizendo algo.",
+   "destaque": "Toque um pouco. Pare. Toque de novo.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As mesmas notas, agora com pontuação: frase, ponto final na tônica, um compasso inteiro de respiro, resposta que começa depois do tempo 1 e termina em nota do acorde.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O ouvinte está um passo atrás de você",
+   "texto": "Você já sabe a frase antes de tocá-la. Quem ouve não sabe. O espaço depois de uma ideia deixa ela assentar e cria expectativa para a próxima. Sem esse tempo, suas ideias ficam completas só dentro da sua cabeça. E a pausa ainda dá tempo a você: dá para enxergar o braço, escolher a próxima nota e parar de tocar no automático.",
+   "destaque": "Improvise também como ouvinte: a frase anterior já foi absorvida?",
+   "visual": null
+  },
+  {
+   "titulo": "Respire como cantor ou saxofonista",
+   "texto": "Cantores e sopristas são obrigados a parar para puxar ar, e é por isso que frasear em unidades claras é natural para eles. A guitarra não tem esse limite, então emendamos linhas infinitas. A solução é emprestar o pulmão: cante a frase por dentro enquanto toca e encerre onde você precisaria respirar.",
+   "destaque": "Se você não conseguiria cantar a frase num fôlego, ela está longa demais.",
+   "visual": null
+  },
+  {
+   "titulo": "Cheio contra vazio",
+   "texto": "Espaço não significa tocar sempre devagar. Uma rajada de notas seguida de uma nota longa e silêncio cria tensão e resolução, e a rajada fica mais impactante justamente porque vem cercada de ar. O silêncio entra como mais um contraste, ao lado de volume, registro e velocidade.",
+   "destaque": "O vazio é a moldura que faz a frase rápida brilhar.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Contraste de densidade: compasso cheio no agudo → uma nota longa; compasso cheio no grave → uma nota longa. O vazio faz a corrida soar maior.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 40,
+   "porque": "Daniel Seriff toca uma frase e tira a mão da guitarra na hora, mostrando como o espaço vazio muda a percepção da ideia.",
+   "fonte": {
+    "id": "On_Ho3azaLk#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=413s",
+    "video": "On_Ho3azaLk",
+    "inicio": 413,
+    "momento": "06:55",
+    "ideia": "Tocar uma frase e tirar a mão da guitarra"
+   }
+  },
+  {
+   "ref": 44,
+   "porque": "Kirk Fletcher demora-se em quatro notas, sem pressa, e prova que pouco material com espaço soa cheio de alma.",
+   "fonte": {
+    "id": "fJs5AALy4GY#I10",
+    "tipo": "video",
+    "autor": "Brett Papa",
+    "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+    "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1101s",
+    "video": "fJs5AALy4GY",
+    "inicio": 1101,
+    "momento": "18:23",
+    "ideia": "Frase de quatro notas com espaço"
+   }
+  },
+  {
+   "ref": 51,
+   "porque": "Uma frase de dois compassos com o primeiro denso e o segundo quase vazio, tocada e explicada como tensão e resolução.",
+   "fonte": {
+    "id": "hWlyxQclPcs#I15",
+    "tipo": "video",
+    "autor": "Your Guitar Academy",
+    "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+    "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=511s",
+    "video": "hWlyxQclPcs",
+    "inicio": 511,
+    "momento": "08:33",
+    "ideia": "Frase de dois compassos com contraste de densidade"
+   }
+  },
+  {
+   "ref": 67,
+   "porque": "Jared demonstra a estrutura AABA com compassos de tocar e de respirar, e como a ideia B preenche o espaço deixado.",
+   "fonte": {
+    "id": "Ib5qv48K7ww#I08",
+    "tipo": "video",
+    "autor": "Sound Guitar Lessons With Jared",
+    "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+    "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=398s",
+    "video": "Ib5qv48K7ww",
+    "inicio": 398,
+    "momento": "06:40",
+    "ideia": "Blueprint AABA com compassos de tocar e respirar"
+   }
+  },
+  {
+   "ref": 65,
+   "porque": "Marty toca um solo deliberadamente cheio de buracos para você ouvir o peso que cada nota ganha.",
+   "fonte": {
+    "id": "7P1e_7rqemY#I02",
+    "tipo": "video",
+    "autor": "Marty Music",
+    "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+    "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=138s",
+    "video": "7P1e_7rqemY",
+    "inicio": 138,
+    "momento": "02:20",
+    "ideia": "Exercício de improviso com muito espaço"
+   }
+  },
+  {
+   "ref": 68,
+   "porque": "Análise do fraseado de David Gilmour: o espaço entre as notas como parte central do seu som.",
+   "fonte": {
+    "id": "6aJqjgu5LwM#I12",
+    "tipo": "video",
+    "autor": "That Pedal Show",
+    "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+    "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=670s",
+    "video": "6aJqjgu5LwM",
+    "inicio": 670,
+    "momento": "11:12",
+    "ideia": "O espaço entre as notas define o som"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Toque e tire a mão",
+   "objetivo": "Criar o reflexo físico de parar depois de cada frase, quebrando o hábito de preencher tudo.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Coloque uma base em Lá menor (só Am já basta) e use a pentatônica da casa 5 (V1).",
+    "Toque uma frase curta, de 3 a 6 notas, terminando numa nota com anel (A, C ou E).",
+    "Assim que a última nota soar, tire a mão esquerda do braço. De verdade: mão no colo.",
+    "Espere pelo menos um compasso inteiro contando 1-2-3-4 em silêncio.",
+    "Volte só quando tiver uma resposta clara na cabeça. Toque essa resposta e tire a mão de novo.",
+    "A cada rodada, aumente a pausa: um compasso, depois dois."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5. As notas com anel (A, C, E) são do acorde Am: são os melhores lugares para terminar uma frase e respirar.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Em vez de esperar um número fixo de compassos, volte só quando sentir que é realmente necessário tocar.",
+    "Alongue um pouco as frases, mas mantenha a pausa igual ou maior que a frase."
+   ],
+   "cuidado": "Deixar a mão no braço 'só esperando': ela acaba escorregando para mais notas. Tirar a mão é o que garante o silêncio.",
+   "inspirado_em": [
+    {
+     "id": "On_Ho3azaLk#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=413s",
+     "video": "On_Ho3azaLk",
+     "inicio": 413,
+     "momento": "06:55",
+     "ideia": "Tocar uma frase e tirar a mão da guitarra"
+    },
+    {
+     "id": "Ork2Vc2bva8#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=382s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 382,
+     "momento": "06:24",
+     "ideia": "Frase com espaço: tirar a mão do instrumento"
+    },
+    {
+     "id": "0DiKyaXf71E#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "You’ll NEVER Noodle Again After Using THIS Secret System",
+     "url": "https://www.youtube.com/watch?v=0DiKyaXf71E&t=83s",
+     "video": "0DiKyaXf71E",
+     "inicio": 83,
+     "momento": "01:25",
+     "ideia": "Tocar frase e tirar a mão do braço"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I26",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Silêncio como parte da frase"
+    }
+   ]
+  },
+  {
+   "titulo": "Frase, silêncio, repete, varia",
+   "objetivo": "Treinar pausa e repetição juntas, como numa conversa em que você deixa a ideia ser entendida antes de desenvolvê-la.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Toque o tema do compasso 1 da V4 (E–D–C–A), sem pressa, segurando o A.",
+    "Fique calado o restante do compasso e o compasso 2 inteiro (uns 5 tempos).",
+    "Repita os compassos 1 e 2 exatamente iguais.",
+    "Na terceira vez, toque os compassos 3 e 4: o mesmo começo com uma cauda que desce até o Lá grave, e silêncio de novo.",
+    "Depois crie seu próprio tema de 4 a 6 notas e aplique o mesmo roteiro: igual, igual, variado, sempre com silêncio entre eles."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Tema de 4 notas + silêncio. Toque os compassos 1–2 duas vezes iguais; na terceira vez vá para 3–4, onde o tema ganha uma cauda que desce até o Lá grave.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Varie o começo do tema em vez do final.",
+    "Mude só o ritmo do tema na terceira vez, mantendo as mesmas notas."
+   ],
+   "cuidado": "Encurtar o silêncio por ansiedade. Conte os tempos em voz baixa até ficar natural.",
+   "inspirado_em": [
+    {
+     "id": "fJs5AALy4GY#I10",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1101s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1101,
+     "momento": "18:23",
+     "ideia": "Frase de quatro notas com espaço"
+    },
+    {
+     "id": "HY5qWMbvsjY#I08",
+     "tipo": "video",
+     "autor": "Marin Music Center",
+     "titulo": "Guitar Soloing Guide: Tips and Techniques - Guitar Lessons with Stuart!",
+     "url": "https://www.youtube.com/watch?v=HY5qWMbvsjY&t=516s",
+     "video": "HY5qWMbvsjY",
+     "inicio": 516,
+     "momento": "08:38",
+     "ideia": "Frase com silêncio e variação"
+    },
+    {
+     "id": "wEMMddpcIe0#I18",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=457s",
+     "video": "wEMMddpcIe0",
+     "inicio": 457,
+     "momento": "07:39",
+     "ideia": "Aplicar play/rest e repetição na prática"
+    },
+    {
+     "id": "guitarlessons--how-to-play-a-guitar-solo-a62e48#I04",
+     "tipo": "documento",
+     "autor": "guitarlessons.com",
+     "titulo": "How To Play A Guitar Solo - Lead Guitar Lessons",
+     "url": "https://guitarlessons.com/guitar-lessons/lead-guitar-quick-start-series/how-to-play-a-guitar-solo/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Deixe espaço entre as notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma frase por respiração",
+   "objetivo": "Dar ao solo o fôlego de um cantor ou soprista, usando seu próprio pulmão como régua.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Com a base de Am tocando, respire devagar e confortável, sem forçar.",
+    "Enquanto solta o ar, toque de 3 a 5 notas e segure a última até o ar acabar.",
+    "Ao inspirar, não toque nada.",
+    "Termine sempre numa nota do acorde (A, C ou E); dissonância sustentada soa como erro.",
+    "Use a V3 como modelo de tamanho: cada frase dela cabe numa expiração."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As mesmas notas, agora com pontuação: frase, ponto final na tônica, um compasso inteiro de respiro, resposta que começa depois do tempo 1 e termina em nota do acorde.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Cante (ou cantarole) a frase junto com a guitarra; onde a voz precisar de ar, a guitarra para.",
+    "Toque na inspiração e cale na expiração, para mudar o lugar da frase dentro do compasso."
+   ],
+   "cuidado": "Prender a respiração para tocar mais notas. A regra é o contrário: o pulmão manda, a guitarra obedece.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I10",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar acompanhando a respiração"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I09",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar pausas a cada 4 ou 5 notas"
+    },
+    {
+     "id": "7P1e_7rqemY#I03",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+     "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=183s",
+     "video": "7P1e_7rqemY",
+     "inicio": 183,
+     "momento": "03:05",
+     "ideia": "Cantar as frases do solo"
+    },
+    {
+     "id": "guitarworld--rut-busters-guitarists-part-3-8-phrasing-c8aed7#I01",
+     "tipo": "documento",
+     "autor": "Adrian Galysh",
+     "titulo": "Rut-Busters for Guitarists: Phrasing",
+     "url": "https://guitarworld.com/lessons/rut-busters-guitarists-part-3-8-phrasing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Melodias precisam respirar"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I04",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Respirar como um instrumentista de sopro"
+    }
+   ]
+  },
+  {
+   "titulo": "Metade fala, metade cala no blues",
+   "objetivo": "Sentir compassos inteiros de silêncio dentro da forma de 12 compassos, sem se perder.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Coloque um blues de 12 compassos em Lá.",
+    "Divida cada linha de quatro compassos em 2 + 2.",
+    "Toque só nos dois primeiros compassos de cada linha (como na V5) e fique em silêncio total nos dois seguintes.",
+    "Continue acompanhando a forma de ouvido durante o silêncio: saiba sempre em que compasso está.",
+    "Faça isso por cinco chorus seguidos. Repare como, lá pelo quarto ou quinto, as frases ficam mais intencionais."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Primeira linha de um blues em Lá: dois compassos falando, dois calados. Repare no C → C♯ (♭3 → 3) que pousa na terça do A7 antes da tônica.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Inverta: cale nos dois primeiros compassos e toque nos dois últimos de cada linha.",
+    "Toque só um compasso e cale três."
+   ],
+   "cuidado": "Usar o silêncio para 'descansar a cabeça' e perder a forma. O silêncio é ativo: você está ouvindo e contando.",
+   "inspirado_em": [
+    {
+     "id": "ECtdGsEEecI#I20",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=638s",
+     "video": "ECtdGsEEecI",
+     "inicio": 638,
+     "momento": "10:40",
+     "ideia": "Deixar um compasso em silêncio"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I08",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar só na primeira metade de cada linha de quatro compassos"
+    }
+   ]
+  },
+  {
+   "titulo": "Cheio e vazio",
+   "objetivo": "Usar o silêncio como contraste, junto com densidade e registro, para criar tensão e resolução.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque a V6 devagar até as colcheias saírem limpas.",
+    "Sinta a diferença: compasso 1 cheio e agudo, compasso 2 com uma nota só e espaço.",
+    "Repita com compassos 3 e 4: cheio e grave, depois uma nota longa.",
+    "Agora improvise em blocos de dois compassos: o primeiro denso, o segundo com no máximo duas notas.",
+    "Some também volume: o compasso cheio forte, a nota longa suave (ou o contrário)."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Contraste de densidade: compasso cheio no agudo → uma nota longa; compasso cheio no grave → uma nota longa. O vazio faz a corrida soar maior.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Inverta a ordem: comece com a nota longa e responda com a frase densa.",
+    "Faça três blocos vazios para cada bloco cheio."
+   ],
+   "cuidado": "Deixar o compasso 'vazio' ser invadido por notinhas de enfeite. Ele precisa ser realmente esparso para o contraste funcionar.",
+   "inspirado_em": [
+    {
+     "id": "hWlyxQclPcs#I07",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=204s",
+     "video": "hWlyxQclPcs",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Juxtaposição para tensão e resolução"
+    },
+    {
+     "id": "hWlyxQclPcs#I15",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=511s",
+     "video": "hWlyxQclPcs",
+     "inicio": 511,
+     "momento": "08:33",
+     "ideia": "Frase de dois compassos com contraste de densidade"
+    },
+    {
+     "id": "KorP9lq1voU#I10",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=335s",
+     "video": "KorP9lq1voU",
+     "inicio": 335,
+     "momento": "05:37",
+     "ideia": "Contrastes de dinâmica, registro e velocidade"
+    }
+   ]
+  },
+  {
+   "titulo": "AABA: tocar e respirar",
+   "objetivo": "Organizar o espaço numa estrutura clara, em que o silêncio prepara a entrada de uma ideia nova.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Ideia A (V7, compassos 1–2): um compasso tocando, um compasso respirando.",
+    "Toque A, depois A de novo (compasso 3).",
+    "No compasso que seria de pausa da segunda A, toque B (compasso 4): ela ocupa exatamente esse espaço e termina num D que leva de volta ao E.",
+    "Volte ao compasso 1 e feche com A, deixando o último compasso em silêncio.",
+    "Depois crie seu próprio A e seu próprio B com a mesma planta."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Estrutura AABA: A (toca + respira), A de novo, e B ocupa o compasso que seria de silêncio, descendo e subindo até desembocar no E que abre o A final (volte ao compasso 1).",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Em vez de silêncio no compasso de respiro, sustente a última nota de A com vibrato.",
+    "Use a mesma estrutura sobre o blues, com cada letra ocupando uma linha de quatro compassos."
+   ],
+   "cuidado": "Fazer B transbordar para dentro do A final. B precisa caber no compasso e entregar a frase de volta no tempo 1.",
+   "inspirado_em": [
+    {
+     "id": "Ib5qv48K7ww#I08",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=398s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Blueprint AABA com compassos de tocar e respirar"
+    }
+   ]
+  },
+  {
+   "titulo": "Dez minutos de contenção",
+   "objetivo": "Levar o espaço para um solo longo e real, onde a adrenalina empurra você a encher tudo.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Escolha uma base de que você goste e um cronômetro de 10 minutos.",
+    "Sole o tempo todo respirando entre as frases, com pausas longas de propósito, mais longas do que parecem confortáveis.",
+    "Guarde recursos: segure sua nota mais aguda ou mais grave para um momento só.",
+    "Grave tudo.",
+    "Ao ouvir, marque onde ficou sem respirar e onde uma nota ganhou peso por vir depois do silêncio."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Antes de tocar, ouça um solo de David Gilmour e copie só o espaçamento, não as notas.",
+    "Limite-se a no máximo uma frase a cada dois compassos."
+   ],
+   "cuidado": "Achar que silêncio é 'não ter ideia'. Com pausas intencionais, o solo fica mais forte, não mais pobre; desvios pequenos na contagem são aceitáveis.",
+   "inspirado_em": [
+    {
+     "id": "7P1e_7rqemY#I02",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "4 Tips For Better Phrasing in Your Lead Guitar Playing - Blues Rock Guitar Soloing Lesson",
+     "url": "https://www.youtube.com/watch?v=7P1e_7rqemY&t=138s",
+     "video": "7P1e_7rqemY",
+     "inicio": 138,
+     "momento": "02:20",
+     "ideia": "Exercício de improviso com muito espaço"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I19",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 1: solar com respiração consciente"
+    },
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I02",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Abordagem comedida para manter o solo fresco"
+    },
+    {
+     "id": "HY5qWMbvsjY#I09",
+     "tipo": "video",
+     "autor": "Marin Music Center",
+     "titulo": "Guitar Soloing Guide: Tips and Techniques - Guitar Lessons with Stuart!",
+     "url": "https://www.youtube.com/watch?v=HY5qWMbvsjY&t=550s",
+     "video": "HY5qWMbvsjY",
+     "inicio": 550,
+     "momento": "09:12",
+     "ideia": "Silêncio com intenção"
+    },
+    {
+     "id": "6aJqjgu5LwM#I12",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=670s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 670,
+     "momento": "11:12",
+     "ideia": "O espaço entre as notas define o som"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar colcheias contínuas por medo do vazio ou para mostrar técnica: o solo soa impaciente e sem pontuação.",
+  "Emendar linhas cada vez mais longas porque a guitarra não precisa de ar, até o ouvinte perder o fio.",
+  "Encerrar a frase numa nota dissonante sustentada antes da pausa; termine em nota do acorde.",
+  "Encurtar o silêncio por ansiedade, ainda mais ao vivo, com adrenalina.",
+  "Usar a pausa para se desligar e perder o lugar na forma, em vez de ouvir e planejar a próxima frase.",
+  "Lançar ideias novas rápido demais, sem dar tempo para a anterior ser assimilada."
+ ],
+ "resumo": [
+  "Pausa é ritmo: um tempo de silêncio vale tanto quanto um tempo de nota.",
+  "Frase curta, ponto final numa nota do acorde, respiro, e só então a próxima frase.",
+  "O ouvinte precisa de tempo para absorver a ideia, e você precisa de tempo para pensar na próxima.",
+  "Respire como cantor: se não cabe num fôlego, está longa demais.",
+  "Contraste cheio e vazio: o silêncio faz as notas tocadas pesarem mais."
+ ],
+ "proximos_passos": "Com o espaço sob controle, siga para 'Pergunta e resposta (call and response)', que usa esses silêncios como lugar da resposta, e para 'Motivo, repetição e desenvolvimento motívico', que aprofunda o tema que se repete e varia. Para colocar as pausas em lugares surpreendentes do compasso, estude 'Deslocamento, síncope e ponto de entrada'. Para avaliar suas gravações com mais método, veja 'Gravação, autoavaliação e feedback'.",
+ "_meta": {
+  "subcategoria": "C07.3",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Espaço, silêncio e respiração",
+  "modelo": "claude-opus-5-5",
+  "gerado_em": "2026-10-08T12:08:17",
+  "erros_restantes": [],
+  "tentativas": 1
+ }
+}

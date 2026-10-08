@@ -1,0 +1,453 @@
+{
+ "fonte_id": "9oAxHq-ZLwI",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+  "autor": "Jens Larsen",
+  "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI",
+  "idioma": "en",
+  "duracao": "10m 24s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/9oAxHq-ZLwI--5-exercises-that-will-help-you-solo-over-chord-changes.md"
+ },
+ "resumo": "Aula de Jens Larsen sobre como estruturar um solo sobre trocas de acordes, usando a progressão ii-V-I em C maior (Dm7-G7-Cmaj7) como exemplo. São cinco exercícios: estudar arpejos com nomes de notas e intervalos, intercalar notas de escala entre os arpejos (método Barry Harris), manter os arpejos na mesma faixa de altura, conectar os acordes por condução de vozes e pensar no acorde seguinte com movimento para uma nota-alvo. Destina-se a guitarristas intermediários que já conhecem arpejos e escalas básicas e querem criar melodias que fluam pela progressão.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Exercícios concretos e progressivos, com exemplos de condução de vozes nomeando notas e graus. Perde pontos por depender de exemplos tocados e de partituras/tablaturas que não aparecem no transcript, e por algumas explicações ficarem vagas (ex.: as linhas de exemplo do segmento 6)."
+ },
+ "assuntos_principais": [
+  "arpejos de acordes (ii-V-I)",
+  "intervalos e nomes de notas nos acordes",
+  "escalas de passagem entre notas do arpejo",
+  "tessitura e mesma oitava para conectar acordes",
+  "condução de vozes (voice leading)",
+  "notas que mudam de acorde",
+  "pensamento antecipado e nota-alvo (forward motion)",
+  "erros comuns em solos sobre trocas de acordes"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "01:00",
+   "resumo": "Apresentação do tema: improvisar sobre trocas de acordes com melodias que fluam, anúncio dos cinco exercícios e escolha da progressão ii-V-I em C maior para simplificar.",
+   "assuntos": [
+    "apresentação",
+    "progressão ii-V-I em C maior"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Exercício 1: estudar arpejos com notas e intervalos",
+   "inicio": "01:00",
+   "fim": "03:56",
+   "resumo": "Tocar o arpejo de cada acorde em uma oitava, sabendo as notas e os intervalos (D F A C = raiz, ♭3, 5, ♭7 em Dm7). Explica por que saber intervalos e nomes de notas juntos importa e como a condução de vozes entre os acordes aparece nas notas.",
+   "assuntos": [
+    "arpejos",
+    "intervalos",
+    "nomes das notas",
+    "condução de vozes entre acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Exercício 2: adicionar notas de escala ao arpejo",
+   "inicio": "03:56",
+   "fim": "04:47",
+   "resumo": "Método Barry Harris: intercalar as notas da escala entre as notas do arpejo, mantendo as notas do acorde nos tempos fortes.",
+   "assuntos": [
+    "método Barry Harris",
+    "escalas de passagem",
+    "tempos fortes e fracos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Exercício 3: manter os arpejos na mesma faixa",
+   "inicio": "04:47",
+   "fim": "05:56",
+   "resumo": "Transpor os arpejos para que fiquem dentro da mesma oitava, eliminando saltos entre acordes, e perceber que notas iguais podem aparecer em posições diferentes.",
+   "assuntos": [
+    "tessitura",
+    "transposição de arpejos",
+    "mesma nota em oitavas diferentes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Exercício 4: conectar acordes por condução de vozes",
+   "inicio": "05:56",
+   "fim": "06:48",
+   "resumo": "Movimento das quatro vozes de Dm7 para G7 e Cmaj7 (C-B, A-G, F-E, D-C), e como identificar as notas que mudam de acorde para perceber a troca.",
+   "assuntos": [
+    "condução de vozes",
+    "movimento das quatro vozes",
+    "notas que mudam de acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Exercício 5: pensar à frente e nota-alvo",
+   "inicio": "06:48",
+   "fim": "10:07",
+   "resumo": "Mostra a diferença entre tocar cada acorde isolado e criar uma única linha que atravessa a progressão, usando como guia a nota-alvo do próximo acorde (movimento para frente). Inclui exemplo de linha simples e linha mais densa.",
+   "assuntos": [
+    "pensar no próximo acorde",
+    "nota-alvo",
+    "movimento para frente",
+    "frases que fluem pela progressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Despedida e chamada para outro vídeo",
+   "inicio": "10:07",
+   "fim": "10:24",
+   "resumo": "Indicação de outro vídeo sobre erros comuns ao estudar jazz e pedido de inscrição em Patreon.",
+   "assuntos": [
+    "chamada para outro vídeo"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Arpejo de cada acorde em uma oitava",
+   "descricao": "Para cada acorde da progressão (Dm7, G7, Cmaj7), tocar o arpejo em uma oitava, como ponto de partida para improvisar sobre as trocas.",
+   "passos": [
+    "Escolher o acorde (começar por Dm7)",
+    "Tocar as quatro notas do arpejo em uma oitava, subindo e descendo",
+    "Falar o nome de cada nota e o intervalo que ela forma com a raiz",
+    "Repetir para G7 e Cmaj7"
+   ],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "ii-V-I",
+    "rotina básica"
+   ],
+   "id_global": "9oAxHq-ZLwI#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Arpejo de Dm7 em notas e intervalos",
+   "descricao": "O arpejo de Dm7 é D, F, A, C: D é a raiz, F é a ♭3, A é a 5ª e C é a ♭7. Saber o nome da nota e o intervalo que ela forma com o acorde.",
+   "passos": [],
+   "timestamp": "01:43",
+   "nivel": "iniciante",
+   "tags": [
+    "arpejos",
+    "intervalos",
+    "Dm7"
+   ],
+   "id_global": "9oAxHq-ZLwI#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Pensar só em intervalos, sem as notas",
+   "descricao": "Estudar apenas intervalos contra o acorde não basta, porque ignora o que acontece na progressão. Também é preciso saber os nomes das notas para ver o movimento das vozes entre acordes.",
+   "passos": [],
+   "timestamp": "02:16",
+   "nivel": "intermediario",
+   "tags": [
+    "intervalos",
+    "notas",
+    "condução de vozes"
+   ],
+   "id_global": "9oAxHq-ZLwI#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Condução da 5ª de Dm7 para a ♭7 de B♭7 e a 5ª de Cmaj7",
+   "descricao": "Em uma progressão de dominante substituta (B♭7 indo para Cmaj7), a 5ª de Dm7 (A) desce um semitom para a ♭7 de B♭7 (A♭) e resolve na 5ª de Cmaj7 (G). Ver as notas mostra esse movimento de voz.",
+   "passos": [],
+   "timestamp": "03:24",
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "dominante substituta",
+    "B♭7",
+    "Cmaj7"
+   ],
+   "id_global": "9oAxHq-ZLwI#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Intercalar notas de escala no arpejo (Barry Harris)",
+   "descricao": "Pegar o arpejo do acorde e colocar, entre as notas do arpejo, as notas da escala que combina com o acorde. Assim surgem linhas cromáticas e fluidas que mantêm a harmonia.",
+   "passos": [
+    "Tocar o arpejo de Dm7 (D F A C) em uma oitava",
+    "Inserir, entre cada par de notas do arpejo, a nota de escala que fica entre elas",
+    "Manter as notas do arpejo em posição de tempo forte",
+    "Repetir para G7 e Cmaj7"
+   ],
+   "timestamp": "03:56",
+   "nivel": "intermediario",
+   "tags": [
+    "Barry Harris",
+    "escalas de passagem",
+    "arpejos",
+    "notas de passagem"
+   ],
+   "id_global": "9oAxHq-ZLwI#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Tempo forte com notas do acorde, tempo fraco com notas de escala",
+   "descricao": "Na linha com notas de escala intercaladas, as notas do acorde ficam nos tempos fortes e as notas de escala nos tempos fracos. Isso mantém a harmonia clara mesmo com notas extras.",
+   "passos": [],
+   "timestamp": "04:28",
+   "nivel": "intermediario",
+   "tags": [
+    "tempo forte",
+    "tempo fraco",
+    "notas de acorde",
+    "notas de escala"
+   ],
+   "id_global": "9oAxHq-ZLwI#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Arpejos na mesma faixa de altura",
+   "descricao": "Transpor os arpejos de Dm7, G7 e Cmaj7 para a mesma faixa, para que as notas fiquem dentro de uma mesma oitava e a conexão entre acordes seja curta, sem saltos grandes.",
+   "passos": [
+    "Tocar o arpejo de Dm7 em uma oitava",
+    "Transpor o arpejo de G7 para a mesma faixa de altura",
+    "Transpor o arpejo de Cmaj7 para a mesma faixa",
+    "Tocar os três arpejos em sequência, observando as notas comuns e as que mudam"
+   ],
+   "timestamp": "04:47",
+   "nivel": "intermediario",
+   "tags": [
+    "tessitura",
+    "transposição",
+    "arpejos",
+    "condução de vozes"
+   ],
+   "id_global": "9oAxHq-ZLwI#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Mesma nota em posição diferente",
+   "descricao": "Ao transpor os arpejos para a mesma oitava, o F de Dm7 e o F de G7 aparecem em lugares diferentes do braço ou da oitava. Reconhecer que são a mesma nota ajuda a conectar os acordes e a condução de vozes, que vale também para solos.",
+   "passos": [],
+   "timestamp": "05:34",
+   "nivel": "intermediario",
+   "tags": [
+    "mesma nota",
+    "oitavas",
+    "condução de vozes",
+    "solo"
+   ],
+   "id_global": "9oAxHq-ZLwI#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Movimento das quatro vozes de Dm7 a G7 a Cmaj7",
+   "descricao": "C (♭7 de Dm7) vai a B (3ª de G7) e fica como 7ª de Cmaj7. A (5ª de Dm7) vai a G (raiz de G7) e fica como 5ª de Cmaj7. F (3ª de Dm7) fica como ♭7 de G7 e resolve em E (3ª de Cmaj7). D (raiz de Dm7) fica como 5ª de G7 e desce a C (raiz de Cmaj7).",
+   "passos": [],
+   "timestamp": "06:06",
+   "nivel": "intermediario",
+   "tags": [
+    "condução de vozes",
+    "ii-V-I",
+    "Dm7",
+    "G7",
+    "Cmaj7"
+   ],
+   "id_global": "9oAxHq-ZLwI#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Observar as notas que mudam de acorde",
+   "descricao": "Para achar as conduções, procurar as notas que mudam de um acorde para o outro. Se uma dessas notas cair no tempo 1 do compasso novo, a troca de acorde fica clara.",
+   "passos": [],
+   "timestamp": "06:42",
+   "nivel": "intermediario",
+   "tags": [
+    "notas que mudam",
+    "tempo 1",
+    "troca de acorde"
+   ],
+   "id_global": "9oAxHq-ZLwI#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Nota de um acorde tocada sobre o acorde seguinte",
+   "descricao": "Tocar a 3ª de G7 (B) no tempo 1 do compasso de G7 mostra que já não estamos em Dm7. Do mesmo modo, tocar a 3ª de Cmaj7 (E) sobre G7 soa como troca antecipada para Cmaj7.",
+   "passos": [],
+   "timestamp": "07:15",
+   "nivel": "intermediario",
+   "tags": [
+    "troca de acorde",
+    "B",
+    "E",
+    "G7",
+    "Cmaj7"
+   ],
+   "id_global": "9oAxHq-ZLwI#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Da linha simples à linha densa",
+   "descricao": "Começar com uma linha simples que usa só notas do arpejo (partindo da 5ª e subindo à 7ª de C, descendo à 3ª de G7 e percorrendo o arpejo de F até E sobre Cmaj7) e depois preencher com notas extras para formar uma linha mais densa.",
+   "passos": [
+    "Tocar primeiro só as notas do arpejo, em movimento claro entre os acordes",
+    "Depois adicionar algumas notas de passagem entre elas",
+    "Manter a chegada nas notas dos acordes"
+   ],
+   "timestamp": "07:55",
+   "nivel": "intermediario",
+   "tags": [
+    "linha simples",
+    "linha densa",
+    "notas de passagem"
+   ],
+   "id_global": "9oAxHq-ZLwI#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Solar acorde por acorde, sem ligação",
+   "descricao": "Frases que se encerram em cada acorde e recomeçam no seguinte soam como trechos isolados, sem começo e fim na progressão. A melodia deve ser uma única ideia que atravessa as trocas.",
+   "passos": [],
+   "timestamp": "08:36",
+   "nivel": "intermediario",
+   "tags": [
+    "frases",
+    "fluxo melódico",
+    "erro comum"
+   ],
+   "id_global": "9oAxHq-ZLwI#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S6",
+   "tipo": "mentalidade",
+   "titulo": "Pensar no acorde de destino enquanto toca o atual",
+   "descricao": "Ao improvisar, pensar não só no acorde em que se está, mas também no próximo, e construir a frase já visando ao acorde de chegada.",
+   "passos": [],
+   "timestamp": "08:36",
+   "nivel": "intermediario",
+   "tags": [
+    "pensar à frente",
+    "acorde de destino"
+   ],
+   "id_global": "9oAxHq-ZLwI#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Frase como um fluxo único",
+   "descricao": "Ouvir a frase como um único fluxo que atravessa a progressão, com começo e fim, em vez de duas ou mais frases separadas pelos acordes.",
+   "passos": [],
+   "timestamp": "09:08",
+   "nivel": "intermediario",
+   "tags": [
+    "fluxo melódico",
+    "frase",
+    "progressão"
+   ],
+   "id_global": "9oAxHq-ZLwI#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Movimento para frente (forward motion)",
+   "descricao": "Escolher uma nota-alvo no próximo acorde e tocar em direção a ela. Na progressão ii-V-I, a nota-alvo sobre G7 é B e sobre Cmaj7 é E. Esta é a base da construção de linhas de Jens Larsen.",
+   "passos": [],
+   "timestamp": "09:42",
+   "nivel": "intermediario",
+   "tags": [
+    "forward motion",
+    "nota-alvo",
+    "notas-alvo",
+    "movimento para frente"
+   ],
+   "id_global": "9oAxHq-ZLwI#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "exercicio",
+   "titulo": "Improvisar frases terminando na nota-alvo do próximo acorde",
+   "descricao": "Improvisar sobre a progressão de modo que cada frase termine na nota-alvo do acorde seguinte: B sobre G7 e E sobre Cmaj7. Assim surge o fluxo entre os acordes.",
+   "passos": [
+    "Tocar Dm7 e improvisar uma frase que leve ao B",
+    "Terminar a frase sobre G7 no B",
+    "Improvisar sobre G7 uma frase que leve ao E",
+    "Terminar a frase sobre Cmaj7 no E",
+    "Tocar a sequência Dm7-G7-Cmaj7 sem pausa entre as frases"
+   ],
+   "timestamp": "09:42",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "B",
+    "E",
+    "ii-V-I",
+    "improvisação"
+   ],
+   "id_global": "9oAxHq-ZLwI#I17"
+  }
+ ],
+ "artistas_citados": [
+  "Barry Harris"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Livro Modern Jazz Guitar Concepts (Jens Larsen)",
+  "Curso/produto Rhythm Changes Target Note Strategies (jenslarsen.nl)",
+  "PDF 5 Exercises no Patreon",
+  "Vídeo 5 Common Mistakes When You Learn Jazz (Jens Larsen)",
+  "Guitar Pro (notação musical)",
+  "E-book gratuito com 15 licks ii-V-I (jenslarsen.nl)",
+  "Grupo Facebook Jazz Guitar Community"
+ ],
+ "observacoes": "Legendas automáticas com erros: 'Apache O's' e 'picture(s)' são arpejos; 'costs', 'court' e 'chose' são acordes; 'backed out dominant' é backdoor (dominante substituta); 'patron hours' e 'opechee oh' são arpejos; 'Jens lassen' é Jens Larsen; 'g7' é G7 e 'C major seven' é Cmaj7; 'bebop' e 'Barry Harris' aparecem corretos. Os exemplos musicais (linhas tocadas nos segmentos 3 e 6) e as partituras mostradas na tela não estão no transcript, então algumas descrições dependem de ouvir o vídeo. A transcrição do exemplo de linha simples (07:55) é confusa, e a descrição das notas iniciais dessa linha foi reconstruída com cuidado. A parte de conteúdo do segmento 5 e início do 6 (condução e notas que mudam) foi mantida no segmento 6 seguindo os capítulos do vídeo. Não há tablatura; o conteúdo depende de ler as notas e de tocar o exemplo.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00423,
+  "via": "api"
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "subcategoria": "C12.1",
+ "visao_geral": "O blues é a forma mais usada para começar a improvisar, porque deixa a estrutura bem visível. A base é o I-IV-V em 12 compassos, normalmente com todos os acordes dominantes, organizado em três linhas de quatro compassos que seguem a lógica AA'B. A partir dessa forma surgem variações: quick change, compasso 12 de volta ou de repouso, turnarounds, ii-V nos compassos finais, diminuto de passagem e os dois V com funções diferentes. Fecham o quadro o blues menor, com turnaround ♭VI-V-i, e as formas de 8 e 16 compassos.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "mentalidade",
+   "titulo": "Blues como porta de entrada da improvisação",
+   "descricao": "O blues é apontado como o melhor gênero para aprender a improvisar do zero, porque mostra a estrutura de forma simples e repetitiva. Funciona bem para os primeiros solos com pentatônica menor, seja em músicas clássicas, seja em backing tracks.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "o1qXU6Nm_d4#I04",
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "A base harmônica: I, IV e V",
+   "descricao": "O blues tem forma fixa construída sobre os graus I, IV e V da tonalidade: em Lá são A, D e E; em Dó, C, F e G. Historicamente começou com um único acorde, depois ganhou o IV e mais tarde o turnaround (V-IV-I). Pensar em graus ou funções (tônica, subdominante, dominante) permite levar a forma a qualquer tom e estudar as escalas considerando cada acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "UiCQL5cxnUA#I01",
+    "UiCQL5cxnUA#I04",
+    "o1qXU6Nm_d4#I05",
+    "en--twelve-bar_blues-36fb30#I01",
+    "3kSPGjxI-ns#I27",
+    "en--twelve-bar_blues-36fb30#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Forma de 12 compassos compasso a compasso",
+   "descricao": "São 12 compassos em 4/4, repetidos em ciclo: I I I I | IV IV I I | V IV I V. Em Dó fica C C C C | F F C C | G F C G; em Fá, F7 F7 F7 F7 | B♭7 B♭7 F7 F7 | C7 B♭7 F7 C7. Em resumo: I por 4 compassos, IV por 2, I por 2, V (1), IV (1) e I até o fim. Há variações com ii-V nas últimas quatro barras.",
+   "passos": [
+    "Contar 1 2 3 4 em cada compasso",
+    "Memorizar: 4 de I, 2 de IV, 2 de I",
+    "Depois V, IV, I e V de volta"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "H3DDn8CcSTA#I01",
+    "en--twelve-bar_blues-36fb30#I03",
+    "LNe3bdHBdp4#I03",
+    "web--fqbk-handbook-pdf-582590#I36"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Todos os acordes são dominantes (I7, IV7, V7)",
+   "descricao": "No blues tradicional os três graus são acordes com sétima dominante (♭7), inclusive o I e o IV. Exemplos: C7 F7 G7 em Dó, A7 D7 E7 em Lá, G7 C7 D7 em Sol. Em Ré, D7 = D F# A C e G7 = G B D F. Como não segue o campo harmônico maior (onde só o V é dominante), o blues pede outra lógica de improviso, por exemplo a pentatônica menor de cada fundamental.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "UiCQL5cxnUA#I03",
+    "H3DDn8CcSTA#I02",
+    "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I02",
+    "en--twelve-bar_blues-36fb30#I07",
+    "Ork2Vc2bva8#I11",
+    "iUZwNSDpV_Q#I26",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I24"
+   ],
+   "divergencias": "",
+   "correcoes": "A sétima de C7 é B♭, não B; só em Cmaj7 a sétima é B."
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Tocar a forma em Lá com acordes de sétima",
+   "descricao": "Toque o blues em Lá dominante sobre backing track, mantendo o acorde de cada compasso: A7 A7 A7 A7 | D7 D7 A7 A7 | E7 D7 A7 E7. Use formas de sétima nas cordas agudas: A7 = XX5655 (G C# E A) e D7 = XX7778 (A D F# C).",
+   "passos": [
+    "Compassos 1-4: A7 (XX5655)",
+    "Compassos 5-6: D7 (XX7778)",
+    "Compassos 7-8: A7",
+    "Compasso 9: E7; compasso 10: D7",
+    "Compasso 11: A7; compasso 12: E7 e recomeçar"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "H3DDn8CcSTA#I09",
+    "gueqUPZ88rs#I10"
+   ],
+   "divergencias": "",
+   "correcoes": "A sequência transcrita em #13 estava embaralhada (D7 no compasso 3, E7 no 8); foi corrigida para a forma padrão, coerente com os graus citados pela própria fonte."
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Três linhas de quatro compassos e frase AA'B",
+   "descricao": "Os 12 compassos se dividem em três linhas de quatro (1-4, 5-8, 9-12). A melodia e a letra seguem AA'B: uma frase, a mesma repetida com leve variação e depois algo novo, cada uma ocupando mais ou menos uma linha. Em cada linha, a chamada fica na primeira metade e a resposta na segunda, e a chamada do compasso 5 pode repetir ou variar a do compasso 1.",
+   "passos": [
+    "Linha 1: frase A nos compassos 1-4",
+    "Linha 2: repetir/variar A a partir do compasso 5 (A')",
+    "Linha 3: frase nova B a partir do compasso 9"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "en--twelve-bar_blues-36fb30#I11",
+    "blog--p-8459-aecaa8#I03",
+    "blog--p-8459-aecaa8#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Compasso 12: V de volta ou I de repouso",
+   "descricao": "Na forma original, o compasso 12 é V, que puxa a volta ao início. Depois se popularizou terminar com V-IV-I-I (I I I I | IV IV I I | V IV I I), o que faz o fim do ciclo soar como repouso. Algumas versões, como as de B.B. King, têm uma virada extra no compasso 12, que precisa ser escutada.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "en--twelve-bar_blues-36fb30#I05",
+    "Ak_iM6H9rxE#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "conceito",
+   "titulo": "Turnaround: os dois últimos compassos",
+   "descricao": "O turnaround ocupa os compassos finais e prepara a volta ao início e o próximo chorus, normalmente fechando no V para resolver no I. Uma versão com ii-V em Dó é Dm7 | G7 | C7 | G7, com o G7 final devolvendo ao topo da forma. Blueseiros mantêm um repertório de licks de turnaround para encerrar cada volta.",
+   "passos": [
+    "Aprender alguns licks de turnaround",
+    "Praticá-los nos dois últimos compassos com backing track",
+    "Alternar entre eles a cada chorus"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I08",
+    "UiCQL5cxnUA#I16",
+    "jVTRXGg0Sdg#I05",
+    "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I09",
+    "jVTRXGg0Sdg#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Quick change (quick to four)",
+   "descricao": "Variação em que o IV aparece já no compasso 2: I IV I I | IV IV I I | V IV I I. Em Lá: A7 | D7 | A7 | A7... Ao solar, é preciso ouvir essa troca antecipada e acompanhá-la com notas do IV.",
+   "passos": [
+    "A7 no compasso 1",
+    "D7 no compasso 2",
+    "Voltar a A7 nos compassos 3-4 e seguir a forma"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I11",
+    "en--twelve-bar_blues-36fb30#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "conceito",
+   "titulo": "Os dois V têm funções diferentes",
+   "descricao": "O V do compasso 9 é de passagem e segue para o IV. O V do compasso 12 é pretônico: resolve no I e por isso é mais tenso. A escolha de notas deve refletir essa diferença, dando mais tensão ao V do compasso 12. No blues em Lá, o compasso 9 (E7) é onde se espera a conclusão da história do solo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "DKe5jX-5pII#I17",
+    "DKe5jX-5pII#I18",
+    "DKe5jX-5pII#I24",
+    "6n2308MSpjk#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Diminuto de passagem entre IV e I",
+   "descricao": "No blues em Dó, o compasso 6 pode trocar F7 por F#dim7 (F# A C E♭): é um F7 (F A C E♭) com só a fundamental alterada. O movimento C-F-F#dim-C dá cor e sofisticação e aparece em Ray Charles e em gravações de B.B. King.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "jVTRXGg0Sdg#I03",
+    "7Pdss_Gswtc#I18",
+    "7Pdss_Gswtc#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Blues menor: i7, iv7 e ♭VI7-V7",
+   "descricao": "Forma: i7 i7 i7 i7 | iv7 iv7 i7 i7 | ♭VI7 V7 i7 i7. Em Dó menor: Cm7 ×4 | Fm7 Fm7 Cm7 Cm7 | A♭7 G7 Cm7 Cm7. Em Lá menor: Am7, Dm7 e E7 (ou Em7; os dois podem ser misturados). Exemplos: Equinox e Mr. P.C. (Coltrane) e, com ♭VImaj7, The Thrill Is Gone (B♭m7, E♭m7, G♭maj7).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I15",
+    "Ak_iM6H9rxE#I02",
+    "en--twelve-bar_blues-36fb30#I09",
+    "fJs5AALy4GY#I01"
+   ],
+   "divergencias": "#15 apresenta o V como E7, enquanto #35 aceita V7 ou v7.",
+   "correcoes": "O 'F#maj7' citado em #2 equivale a G♭maj7, o ♭VI de B♭ menor, e não um acorde alterado."
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Mapear o blues menor no braço",
+   "descricao": "Em Lá menor, a fundamental do Am fica na casa 5 da corda Mi grave. O Dm fica na mesma casa da corda Lá (D), o E duas casas acima (casa 7) e o F uma casa acima do E (casa 8).",
+   "passos": [
+    "Am: casa 5 da corda Mi grave",
+    "Dm (iv): casa 5 da corda Lá",
+    "E (V): casa 7 da corda Lá",
+    "F (♭VI): casa 8 da corda Lá"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Assumir turnaround V-iv-i no blues menor",
+   "descricao": "Muitos guitarristas tocam Em7-Dm7-Am7 no fim do blues menor. Esse movimento existe (Ain't No Sunshine), mas é raro no blues clássico e costuma causar confusão em jams.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Turnaround ♭VI-V-i no blues menor",
+   "descricao": "É o turnaround mais comum do blues menor: em Am, F7 vai para E7 e resolve em Am. Variações: F9 para E7 (estilo James Brown) e E7♯9 (acorde de Hendrix) de volta ao Am. Vale aprender as duas e usá-las na mesma música.",
+   "passos": [
+    "Tocar F7 ou F9 no ♭VI",
+    "Resolver em E7 ou E7♯9",
+    "Voltar a Am"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "H3DDn8CcSTA#I20",
+    "H3DDn8CcSTA#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Blues de 8 e 16 compassos",
+   "descricao": "Mudar a duração das seções gera blues de 8 ou de 16 compassos. Não assuma que todo blues tem 12 compassos: escute a forma antes de solar.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "en--twelve-bar_blues-36fb30#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "mentalidade",
+   "titulo": "Dominar as formas antes de espalhar a pentatônica",
+   "descricao": "Antes de tentar usar a pentatônica menor em todo o braço, aprenda as duas progressões de blues mais comuns: o blues maior de 12 compassos e o blues menor. Saber onde cada acorde cai na forma evita ficar preso às caixas da escala e faz o solo seguir a harmonia, em vez de só repetir desenhos.",
+   "passos": [
+    "Toque a forma de 12 compassos maior (I7 IV7 V7) até não precisar contar.",
+    "Toque também a forma do blues menor (i7 iv7 ♭VI7 V7).",
+    "Cante ou fale o acorde de cada compasso enquanto toca a base.",
+    "Só depois improvise, mirando notas que mudam junto com a troca de acorde.",
+    "Expanda a pentatônica pelo braço mantendo a forma na cabeça."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "H3DDn8CcSTA#I23"
+   ],
+   "divergencias": "",
+   "correcoes": "",
+   "encaixado": true
+  }
+ ],
+ "fora_do_lugar": [],
+ "observacoes": "As secundárias #41, #43, #46, #49, #50, #51, #52, #54 e #57-#59 tratam do que tocar sobre a forma (C12.2, C07.x, C10.x) e não foram incluídas. A forma de E7 em #26 não foi detalhada porque a fonte não informa as casas.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 40,
+  "ideias_secundarias": 19,
+  "itens": 17,
+  "fora_do_lugar": 0,
+  "custo_usd": 0.0978,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 15538,
+   "output_tokens": 6677
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 2,
+    "novos_itens": 1
+   }
+  ]
+ }
+}

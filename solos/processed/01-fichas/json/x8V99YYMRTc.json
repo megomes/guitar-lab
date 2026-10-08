@@ -1,0 +1,325 @@
+{
+ "fonte_id": "x8V99YYMRTc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Como criar um solo - 3 passos",
+  "autor": "Rodrigo Flausino",
+  "url": "https://www.youtube.com/watch?v=x8V99YYMRTc",
+  "idioma": "pt",
+  "duracao": "7m 49s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/x8V99YYMRTc--como-criar-um-solo-3-passos.md"
+ },
+ "resumo": "Rodrigo Flausino ensina um método de 3 passos para compor um solo, voltado a quem está começando e ainda não tem vocabulário para improvisar livremente: (1) decorar a base, (2) criar uma melodia mentalmente e/ou com escalas, cuidando das notas de pouso, e (3) trabalhar a interpretação com recursos expressivos e memorizar o solo por repetição.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Estrutura clara em 3 passos e conselhos práticos, mas pouco concreto (sem notas, escalas ou tonalidade) e depende do solo tocado no início do vídeo, que não aparece na transcrição."
+ },
+ "assuntos_principais": [
+  "composição de solo",
+  "decorar a base",
+  "criar melodia mentalmente",
+  "notas de resolução",
+  "interpretação",
+  "memória muscular"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução e contato",
+   "inicio": "00:00",
+   "fim": "01:07",
+   "resumo": "Apresentação, divulgação de aulas e contexto: compor passo a passo é indicado para quem ainda não tem vocabulário para improvisar.",
+   "assuntos": [
+    "introdução",
+    "aulas"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Passo 1: decorar a base",
+   "inicio": "01:07",
+   "fim": "02:18",
+   "resumo": "Importância de conhecer bem a base antes de solar: onde começa o acorde, repetições e ciclos.",
+   "assuntos": [
+    "base",
+    "ciclos",
+    "ritmo harmônico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Passo 2: criar a melodia",
+   "inicio": "02:18",
+   "fim": "04:33",
+   "resumo": "Imaginar a melodia com a base em loop, reaproveitar motivos, combinar com escalas e escolher bem as notas de pouso.",
+   "assuntos": [
+    "melodia",
+    "motivo",
+    "escalas",
+    "notas de pouso"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Passo 3: interpretação",
+   "inicio": "04:33",
+   "fim": "06:49",
+   "resumo": "Adicionar bends, slides, harmônicos, palm mute, vibratos variados e passagens rápidas.",
+   "assuntos": [
+    "bend",
+    "slide",
+    "vibrato",
+    "palm mute",
+    "palhetada alternada"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Fixação e encerramento",
+   "inicio": "06:49",
+   "fim": "07:49",
+   "resumo": "Repetir até ficar automático (memória muscular), principalmente para gravação; despedida.",
+   "assuntos": [
+    "memória muscular",
+    "repetição",
+    "gravação"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Compor passo a passo quando se está começando",
+   "descricao": "Improvisar sobre a base exige vocabulário e conforto. Quem está começando pode compor o solo em etapas (decorar a base, criar melodia, interpretar) em vez de improvisar direto.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "composição",
+    "improvisação",
+    "método"
+   ],
+   "id_global": "x8V99YYMRTc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "erro_comum",
+   "titulo": "Ir direto às escalas sem conhecer a base",
+   "descricao": "Na pressa de solar, muita gente vai direto buscar escalas sem saber a base. Conhecer a base é essencial para saber quais notas casam com ela, sobretudo para quem ainda não acha notas boas ouvindo a harmonia.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "base",
+    "escalas",
+    "erro comum"
+   ],
+   "id_global": "x8V99YYMRTc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "exercicio",
+   "titulo": "Passo 1: decorar a base",
+   "descricao": "Antes de criar o solo, memorize a base prestando atenção à estrutura rítmica e formal dela.",
+   "passos": [
+    "Ouça a base repetidamente até memorizá-la",
+    "Note se o acorde começa na cabeça do tempo ou no contratempo",
+    "Observe as repetições: se é um ciclo ou dois ciclos iguais",
+    "Verifique se há diferença entre o primeiro e o segundo ciclo"
+   ],
+   "timestamp": "01:42",
+   "nivel": "iniciante",
+   "tags": [
+    "base",
+    "ciclos",
+    "contratempo",
+    "ouvido"
+   ],
+   "id_global": "x8V99YYMRTc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "exercicio",
+   "titulo": "Passo 2: imaginar a melodia com a base em loop",
+   "descricao": "Deixe a base gravada em loop e imagine mentalmente melodias para o solo. Ao gostar de uma ideia, mantenha-a.",
+   "passos": [
+    "Coloque a base em loop",
+    "Imagine melodias mentalmente enquanto ela toca",
+    "Fixe a ideia de que gostou",
+    "Nos acordes seguintes, mantenha o mesmo motivo rítmico e mude apenas a resolução (a resposta)"
+   ],
+   "timestamp": "02:18",
+   "nivel": "iniciante",
+   "tags": [
+    "melodia",
+    "motivo",
+    "loop",
+    "pergunta e resposta"
+   ],
+   "id_global": "x8V99YYMRTc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Repetir o motivo rítmico e variar a resolução",
+   "descricao": "Ao passar para os acordes seguintes, reaproveite o mesmo motivo/ritmo da melodia criada e altere só a resolução (a resposta), criando coesão no solo.",
+   "passos": [],
+   "timestamp": "02:51",
+   "nivel": "iniciante",
+   "tags": [
+    "motivo",
+    "desenvolvimento",
+    "coesão"
+   ],
+   "id_global": "x8V99YYMRTc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Combinar melodia mental com escalas",
+   "descricao": "Se não conseguir criar tudo mentalmente, faça parte de ouvido e parte com uma escala. Pode-se usar uma escala que sirva para todos os acordes ou escalas diferentes a cada dois acordes, misturando quantas quiser, para ter referência de notas e passear criando a melodia.",
+   "passos": [],
+   "timestamp": "03:25",
+   "nivel": "iniciante",
+   "tags": [
+    "escalas",
+    "melodia",
+    "abordagem analítica"
+   ],
+   "id_global": "x8V99YYMRTc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Notas de pouso: tônica ou quinta do acorde",
+   "descricao": "Preste atenção nas notas em que você para. Nem toda nota soa bem sobre o acorde. Não é regra, mas terminar a frase na tônica ou na quinta soa bem resolvido. Com power chords (sem terça) a frase fica um pouco em aberto. Em geral, terminar em nota do acorde resolve bem a frase.",
+   "passos": [],
+   "timestamp": "04:00",
+   "nivel": "iniciante",
+   "tags": [
+    "notas-alvo",
+    "tônica",
+    "quinta",
+    "power chord",
+    "resolução"
+   ],
+   "id_global": "x8V99YYMRTc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Passo 3: interpretação como \"perfumaria\"",
+   "descricao": "Depois de criar a melodia, acrescente elementos expressivos para deixá-la mais interessante: bends, slides, harmônicos, palm mute em algumas notas, e vibratos.",
+   "passos": [],
+   "timestamp": "04:33",
+   "nivel": "iniciante",
+   "tags": [
+    "interpretação",
+    "bend",
+    "slide",
+    "harmônicos",
+    "palm mute"
+   ],
+   "id_global": "x8V99YYMRTc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Variar o vibrato",
+   "descricao": "Use vibratos mais curtos ou mais longos, mais rápidos ou mais lentos; essa variação deixa o solo mais interessante de ouvir.",
+   "passos": [],
+   "timestamp": "05:43",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "expressividade"
+   ],
+   "id_global": "x8V99YYMRTc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Incluir passagens rápidas (opcional)",
+   "descricao": "Conforme o gosto, insira uma passagem mais rápida no meio da melodia, com palhetada alternada, voltando depois à melodia. Essas passagens vêm do estudo de escalas e arpejos. Não é obrigatório.",
+   "passos": [],
+   "timestamp": "05:43",
+   "nivel": "intermediario",
+   "tags": [
+    "passagem rápida",
+    "palhetada alternada",
+    "escalas",
+    "arpejos"
+   ],
+   "id_global": "x8V99YYMRTc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Variar ao retornar à sequência de acordes",
+   "descricao": "Ao voltar à sequência de acordes, em vez de repetir a melodia, toque algo diferente pensando nos acordes e usando notas que combinem com eles.",
+   "passos": [],
+   "timestamp": "06:17",
+   "nivel": "iniciante",
+   "tags": [
+    "variação",
+    "notas do acorde",
+    "harmonia"
+   ],
+   "id_global": "x8V99YYMRTc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "rotina_estudo",
+   "titulo": "Repetir até automatizar o solo composto",
+   "descricao": "Como o solo é composto (não improvisado), repita-o até ficar 100%, capricahndo na interpretação, para fixar na memória muscular. Isso é fundamental se for gravar em vídeo ou CD.",
+   "passos": [
+    "Toque o solo com a interpretação completa",
+    "Repita muitas vezes até ficar automático",
+    "Pratique até estar decorado e sair sem pensar na hora de gravar"
+   ],
+   "timestamp": "06:49",
+   "nivel": "iniciante",
+   "tags": [
+    "memória muscular",
+    "repetição",
+    "gravação",
+    "decorar"
+   ],
+   "id_global": "x8V99YYMRTc#I12"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Aulas presenciais e por Skype com Rodrigo Flausino (Osasco-SP)",
+  "Conservatório Souza Lima"
+ ],
+ "observacoes": "Transcrição automática com ruídos (ex.: \"Palm milil\" = palm mute, \"Souza em São Paulo\" = Souza Lima). O solo de exemplo tocado no início do vídeo não está na transcrição, então escala, tonalidade e notas exatas não são conhecidas. Há um pequeno erro de digitação em I12 (\"capricahndo\" = caprichando).",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:13:04",
+  "tentativas": 1,
+  "custo_usd": 0.1108
+ }
+}

@@ -1,0 +1,502 @@
+{
+ "subcategoria": "C11.2",
+ "visao_geral": "Os modos são rotações da escala maior: as mesmas sete notas com outra tônica, o que muda a ordem de tons e semitons e, portanto, a sonoridade. Cada modo pode ser lido também como uma escala maior ou menor com uma nota alterada, a nota característica, e reconhecido pelo ouvido a partir da posição dos meios-tons. As fontes insistem que o modo é uma sonoridade definida pela tônica e pela harmonia de fundo, e não um desenho no braço. Também alertam que o modo fornece notas, não fraseado, e que algumas notas características soam ásperas sobre o acorde.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Modos como rotações da escala maior",
+   "descricao": "Um modo usa as mesmas sete notas da escala maior-mãe, na mesma ordem, mas toma outro grau como tônica. A sequência T-T-S-T-T-T-S do jônio vira, por exemplo, T-S-T-T-T-S-T no dórico, que começa no 2º grau. Quem domina a escala maior já tem as notas dos sete modos e só precisa aprender qual nota funciona como centro. A ordem dos modos (jônio, dórico, frígio, lídio, mixolídio, eólio, lócrio) indica qual modo nasce de cada grau. Exemplo: a escala de Mi maior sobre Asus2 soa Lá lídio, o 4º modo de Mi. Só essas sete escalas são modos da maior; pentatônica, blues e menor harmônica são escalas, mas não modos da maior.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "78ZqWUGMzqU#I05",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I01",
+    "tqnvvqZu2_c#I09",
+    "aHzmIWB0P00#I08",
+    "xKbtQM-qzSM#I25",
+    "juQVAFsdFMQ#I01",
+    "en--mode_-music-72a13e#I07",
+    "orphiq--music-modes-explained-9a1b6e#I01",
+    "orphiq--music-modes-explained-9a1b6e#I02",
+    "orphiq--music-modes-explained-9a1b6e#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Os sete modos sobre as notas de Dó maior",
+   "descricao": "Com as notas naturais de Dó maior: Dó jônio (C D E F G A B), Ré dórico (D E F G A B C), Mi frígio (E F G A B C D), Fá lídio (F G A B C D E), Sol mixolídio (G A B C D E F), Lá eólio (A B C D E F G) e Si lócrio (B C D E F G A). Tomando Ré como referência, a 3ª vira menor (Fá) e surge a fórmula 1-2-♭3-4-5-6-♭7 (dórico). Tomando Mi como referência, aparece a 2ª menor (Fá), típica do frígio.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "orphiq--music-modes-explained-9a1b6e#I03",
+    "Ivr_-S7ku8E#I04",
+    "Ivr_-S7ku8E#I05",
+    "Ivr_-S7ku8E#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "exercicio",
+   "titulo": "Notas de Dó maior com tônica em Ré (dórico)",
+   "descricao": "O exercício treina a mudança de centro tonal sem trocar nenhuma nota. Ré dórico (D E F G A B C) soa como um menor com 6ª maior. Domine pelo menos duas posições, uma delas com a tônica Ré na 10ª casa da corda E grave.",
+   "passos": [
+    "Toque Dó maior: C D E F G A B C.",
+    "Toque as mesmas notas de D a D.",
+    "Alterne um acorde de Dm e um de Am para ouvir a troca de centro.",
+    "Improvise frases curtas sobre Dm, enfatizando o Ré.",
+    "Repita numa segunda posição do braço (tônica na casa 10)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hlA3fv1Jq5I#I02",
+    "en--mode_-music-72a13e#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Achar a escala-mãe de cada modo",
+   "descricao": "Cada modo herda as notas de uma escala maior específica. Dórico = 2º grau (Ré dórico e Dm7 → Dó maior; Lá dórico → Sol maior; Dó dórico → Si♭ maior: C D E♭ F G A B♭). Lídio = 4º grau (Fá lídio → Dó maior, com o Si como #4; Dó lídio → Sol maior). Mixolídio = 5º grau (Sol mixolídio → Dó maior; Ré mixolídio sobre D7 → Sol maior, com 3ª F# e ♭7 C; Dó mixolídio → Fá maior: C D E F G A B♭).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "yDiWrTsQ1tc#I22",
+    "yDiWrTsQ1tc#I23",
+    "yDiWrTsQ1tc#I24",
+    "yDiWrTsQ1tc#I25",
+    "N1shDBha6Y0#I05",
+    "tqnvvqZu2_c#I09",
+    "gubqumrozXc#I11",
+    "bhYXolbCrr0#I16",
+    "orphiq--music-modes-explained-9a1b6e#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #15, Dó lídio é C D E F# G A B (notas de Sol maior), sem C#; em #17, Sol maior tem F#, não F."
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Encontrar o mixolídio (ou outro modo) pela escala-mãe",
+   "descricao": "Para tocar X mixolídio, toque a escala maior da qual X é o 5º grau, isto é, a uma 4ª justa acima (ou 5ª justa abaixo) de X. Exemplos: Dó mixolídio = Fá maior; Sol mixolídio = Dó maior. A mesma lógica vale para os outros modos: o dórico fica uma 2ª maior acima da tônica da escala-mãe, o frígio uma 3ª maior acima e o lídio uma 4ª justa acima.",
+   "passos": [
+    "Defina a tônica do modo (ex.: C).",
+    "Pergunte de qual tom ela é o V: C é o V de F.",
+    "Toque a escala maior desse tom (F maior).",
+    "Confira: é C maior com ♭7 (B♭)."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "aHzmIWB0P00#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "O texto de #38 se confunde ao dizer que F é o V de C; o correto é que C é o V de F, então Dó mixolídio usa as notas de Fá maior."
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Nota característica: cada modo é uma escala conhecida com uma nota alterada",
+   "descricao": "Cada modo se distingue da escala maior ou da menor natural pela sua nota característica: dórico = menor com 6ª maior; frígio = menor com ♭2; lídio = maior com #4; mixolídio = maior com ♭7; lócrio = menor com ♭2 e ♭5. Para evocar um modo, privilegie a fundamental, a 3ª, a 5ª (opcional) e a nota característica.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "WcHs5SaynAw#I10",
+    "orphiq--music-modes-explained-9a1b6e#I12",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I10",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I44"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #2 a ♭7 é a nota característica do mixolídio, não do lídio; a #4 é a do lídio."
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Meios-tons definem o som do modo",
+   "descricao": "O caráter de um modo sai de dois dados: se ele é maior ou menor e onde caem os seus dois meios-tons. Jônio: 3-4 e 7-8. Dórico: 2-♭3 e 6-♭7. Frígio: 1-♭2 e 5-♭6. Lídio: #4-5 e 7-8 (em Fá lídio, Si-Dó e Mi-Fá). Mixolídio: 3-4 e 6-♭7. Eólio: 2-♭3 e 5-♭6. Lócrio: 1-♭2 e 4-♭5. Para fazer o modo soar, crie frases que passem por esses semitons.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "qLEyhW3f08k#I02",
+    "juQVAFsdFMQ#I05",
+    "juQVAFsdFMQ#I06",
+    "juQVAFsdFMQ#I09",
+    "juQVAFsdFMQ#I11",
+    "juQVAFsdFMQ#I13",
+    "juQVAFsdFMQ#I15",
+    "juQVAFsdFMQ#I16",
+    "juQVAFsdFMQ#I19",
+    "juQVAFsdFMQ#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "rotina_estudo",
+   "titulo": "Memorizar e reconhecer os modos pelos meios-tons",
+   "descricao": "Use a tabela de meios-tons como ferramenta de revisão até reconhecer cada modo pelo ouvido, sem consultá-la.",
+   "passos": [
+    "Escreva os graus 1 a 7 da escala maior de referência.",
+    "Marque os dois meios-tons de cada modo.",
+    "Toque cada modo num tom e confirme os meios-tons de ouvido.",
+    "Tente identificar o modo só pelo som."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "juQVAFsdFMQ#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "conceito",
+   "titulo": "Modos e emoção: tendências, não regras",
+   "descricao": "A emoção de uma música nasce de três elementos: harmonia, melodia (escala) e ritmo. A escolha do modo molda a cor emocional da melodia. Em geral, os modos maiores tendem ao alegre e os menores ao triste, mas isso é uma tendência, não uma regra.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "FFGKJoljMS4#I01",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "conceito",
+   "titulo": "Jônio: a escala maior",
+   "descricao": "O jônio é a própria escala maior (Dó jônio = C D E F G A B com Dó como tônica) e tende a soar alegre. A sua 4ª justa pede resolução na 3ª maior. Por isso, em arranjos sofisticados, costuma-se emprestar a #4 do lídio.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "FFGKJoljMS4#I02",
+    "Ivr_-S7ku8E#I03",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I34"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "conceito",
+   "titulo": "Dórico: menor com 6ª maior",
+   "descricao": "O dórico é a menor natural com a 6ª elevada meio tom (1-2-♭3-4-5-6-♭7). É o mais brilhante e o menos triste dos modos menores. Exemplos: Lá dórico = A B C D E F# G; Si dórico = B C# D E F# G# A; C# dórico = C# D# E F# G# A# B; em Dó dórico, a característica é o Lá. A 6ª maior sobre a tônica menor (Si sobre Ré) soa marcante e funciona bem como nota-alvo. É o modo mais fácil de começar: basta trocar a 6ª da escala menor. Segundo Daniel Seriff, nenhuma nota do dórico precisa ser evitada sobre o acorde.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "hlA3fv1Jq5I#I10",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I03",
+    "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I09",
+    "qLEyhW3f08k#I01",
+    "EY6-VNz81HE#I15",
+    "FFGKJoljMS4#I06",
+    "juQVAFsdFMQ#I10",
+    "en--mode_-music-72a13e#I09",
+    "orphiq--music-modes-explained-9a1b6e#I04",
+    "orphiq--music-modes-explained-9a1b6e#I21",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I39"
+   ],
+   "divergencias": "Seriff diz que no dórico todas as notas soam bem, enquanto Jens Larsen (K22) alerta que as notas características em geral podem soar fracas sobre o acorde.",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Eólio: menor natural e a ♭6",
+   "descricao": "O eólio é a menor natural (1-2-♭3-4-5-♭6-♭7), a sonoridade clássica da tristeza e da melancolia. A sua nota característica é a ♭6: Si♭ em Ré eólio, Lá♭ em Dó eólio. Ele é o 6º modo da escala maior.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I15",
+    "FFGKJoljMS4#I05",
+    "juQVAFsdFMQ#I08",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I41"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #10, a menor harmônica e a menor melódica não são modos da escala maior; só a menor natural (eólio) é."
+  },
+  {
+   "id": "K13",
+   "tipo": "conceito",
+   "titulo": "Mixolídio: maior com ♭7",
+   "descricao": "O mixolídio é a escala maior com a 7ª abaixada meio tom (1-2-3-4-5-6-♭7). Por isso encaixa em acordes dominantes e no V grau. Exemplos: Ré mixolídio = D E F# G A B C; Mi mixolídio = E F# G# A B C# D; Si mixolídio = B C# D# E F# G# A, sobre B7. Em Sol mixolídio, o Fá é a ♭7, o acorde da tônica é G7 e o do 5º grau é Dm7. Tem som bluesy e está ligado ao blues e ao baião.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "NbNH_C3QAS0#I12",
+    "FFGKJoljMS4#I04",
+    "aHzmIWB0P00#I09",
+    "juQVAFsdFMQ#I12",
+    "en--mode_-music-72a13e#I12",
+    "orphiq--music-modes-explained-9a1b6e#I06",
+    "ZPELVwO27lc#I05",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I36"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "conceito",
+   "titulo": "Lídio: maior com #4",
+   "descricao": "O lídio é o jônio com a 4ª elevada meio tom (1-2-3-#4-5-6-7). Exemplos: Dó lídio = C D E F# G A B; Ré lídio = D E F# G# A B C#; em Fá lídio, a #4 é o Si, a um trítono da tônica e um semitom abaixo da 5ª. A #4 tira a atração da 4ª justa e dá um som aberto, flutuante e cinematográfico. Use-a em destaque, e não como nota a evitar: sobre a tríade Fá-Lá-Dó, acrescentar o Si já soa lídio. É uma alternativa frequente à escala maior, sobretudo em finais de tema, e pode ser complementado pela 6ª e pela 9ª.",
+   "passos": [
+    "Toque a tríade do acorde maior (ex.: F A C).",
+    "Acrescente a #4 (Si).",
+    "Compare com a tríade sem a #4."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "NbNH_C3QAS0#I10",
+    "14UZEproJ-A#I19",
+    "web--fqbk-handbook-pdf-582590#I49",
+    "FFGKJoljMS4#I03",
+    "aHzmIWB0P00#I15",
+    "juQVAFsdFMQ#I03",
+    "juQVAFsdFMQ#I07",
+    "en--mode_-music-72a13e#I11",
+    "lJRzTqOf1ro#I11",
+    "orphiq--music-modes-explained-9a1b6e#I10",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I32"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Frígio: menor com ♭2",
+   "descricao": "O frígio é a menor natural com a 2ª menor (1-♭2-♭3-4-5-♭6-♭7). Mi frígio = E F G A B C D, e o semitom Mi-Fá define o som escuro, espanhol ou flamenco. Em Dó frígio, a característica é o Ré♭ (♭9). Em relação ao dórico, tem duas notas bemolizadas a mais (♭2 e ♭6), o que o torna bem mais escuro e tenso. O acorde sobre o seu 5º grau é diminuto (Bdim em Mi frígio).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "FFGKJoljMS4#I07",
+    "juQVAFsdFMQ#I14",
+    "en--mode_-music-72a13e#I10",
+    "orphiq--music-modes-explained-9a1b6e#I09",
+    "Ivr_-S7ku8E#I06",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I42"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Lócrio: ♭5 e tônica diminuta",
+   "descricao": "O lócrio é o 7º modo (1-♭2-♭3-4-♭5-♭6-♭7). Dó lócrio = C D♭ E♭ F G♭ A♭ B♭; Si lócrio = B C D E F G A. A ♭5 torna diminuta a tríade da tônica (tétrade m7♭5, ex.: Bm7♭5), o que deixa o modo instável, mais teórico e raro na música popular. Costuma ser associado a acordes meio-diminutos.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "juQVAFsdFMQ#I17",
+    "en--mode_-music-72a13e#I13",
+    "orphiq--music-modes-explained-9a1b6e#I11",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I43"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico de cada modo e família pela tríade",
+   "descricao": "Empilhando terças sobre cada nota do modo obtêm-se as tríades e tétrades do seu campo harmônico próprio. Pela tríade da tônica, os modos se agrupam assim: jônio, lídio e mixolídio são maiores; dórico, frígio e eólio são menores; lócrio é diminuto.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "en--mode_-music-72a13e#I14",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Sete modos, cinco shapes no braço",
+   "descricao": "Modos relativos, como Lá dórico e Si frígio (ambos com as notas de Sol maior), têm o mesmo desenho no braço e mudam só a nota de partida. Por isso os sete modos cabem em cinco shapes que cobrem o braço todo. Edu Ardanuy usa os nomes (F# lócrio, G jônio, A dórico, B frígio, C lídio etc.) apenas para localizar posições da mesma escala de Em/G, sem mudar o centro tonal.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "78ZqWUGMzqU#I04",
+    "78ZqWUGMzqU#I06",
+    "QS6dpweE_Q4#I12"
+   ],
+   "divergencias": "D'Eon e Ardanuy nomeiam posições com nomes de modos; Gu Pedrico (K19) considera errado chamar de modo o que é só desenho.",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "erro_comum",
+   "titulo": "Modo é sonoridade, não desenho",
+   "descricao": "Quem define o modo é a tônica de referência junto com a harmonia de fundo: a escala de Sol maior só é Lá dórico se a base estiver centrada em Lá menor. Mudar de casa não muda o modo, pois Dó maior em qualquer região, sobre base em Dó, continua jônio. A progressão D–Am–C–G usa as notas de Sol maior, mas gira em torno de Ré, logo está em Ré mixolídio. Decorar modos como \"o desenho começando em outra nota\", sem ouvir o caráter, dá a falsa sensação de ter aprendido.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "WcHs5SaynAw#I09",
+    "Ivr_-S7ku8E#I01",
+    "Ivr_-S7ku8E#I02",
+    "Ivr_-S7ku8E#I07",
+    "Ivr_-S7ku8E#I09",
+    "Ivr_-S7ku8E#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "conceito",
+   "titulo": "Modo é escala mais comportamento melódico",
+   "descricao": "Um modo combina uma escala com comportamentos melódicos e harmônicos típicos em torno de uma tônica. Harold Powers o descreve como \"escala particularizada\" e \"melodia generalizada\", ou ambos. Na improvisação, isso significa que o modo se define tanto pelas notas quanto pelos motivos tocados com elas.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "en--mode_-music-72a13e#I01",
+    "en--mode_-music-72a13e#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Achar jônio e mixolídio a partir da pentatônica menor",
+   "descricao": "Na pentatônica de Ré menor, o jônio começa na ♭3 (Fá jônio) e o mixolídio na ♭7, um tom abaixo da tônica (Dó mixolídio = C D E F G A B♭). Por isso os dois encaixam na mesma pentatônica. A partir do 6º grau de cada um sai um arpejo menor: Ré menor no Fá jônio e Lá menor no Dó mixolídio.",
+   "passos": [
+    "Parta da tônica do modo.",
+    "Conte 1 a 6 notas no braço.",
+    "Na 6ª nota, monte o arpejo menor."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gubqumrozXc#I10",
+    "gubqumrozXc#I11",
+    "gubqumrozXc#I17",
+    "gubqumrozXc#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "conceito",
+   "titulo": "Notas características podem soar erradas sobre o acorde",
+   "descricao": "Como as notas características diferem da escala maior ou menor, muitas vezes não pertencem ao acorde, e enfatizá-las pode soar fraco. Exemplo: sobre Em7 (iii de Dó), o frígio traz o F (♭9) e o C (♭6), e o F soa estranho. No frígio sobre Lá menor, as duas notas fora da pentatônica são legítimas, mas soam mais ofensivas que as do dórico. O efeito de uma nota fora do acorde depende do modo em uso.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "iWm_dxEszu0#I11",
+    "Cy_c2InwkSk#I03",
+    "iWm_dxEszu0#I10",
+    "Cy_c2InwkSk#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "erro_comum",
+   "titulo": "Esperar que o modo resolva a música",
+   "descricao": "Listar notas ou fórmulas, ou apenas identificar de que modo é uma linha, não dá nada para praticar nem ensina a tocar um lick. O modo fornece notas, não fraseado nem musicalidade. Quem vem do blues tende a depositar fé excessiva nele. Estudar todos os modos pelo braço antes de tocar músicas reais consome tempo sem melhorar o solo.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "5feHSzYR1H8#I03",
+    "iWm_dxEszu0#I21",
+    "iWm_dxEszu0#I04",
+    "iWm_dxEszu0#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "conceito",
+   "titulo": "Teoria histórica: modos gregos e gregorianos",
+   "descricao": "Na Grécia antiga, os tetracordes tinham as bordas fixas numa 4ª justa e se organizavam em três gêneros: diatônico (tons e semitons), cromático (semitons e terça menor) e enarmônico (terça maior e dois quartos de tom). Não havia hierarquia tonal; a mese talvez servisse de ponto de retorno, mas não de centro harmônico. Nos modos gregorianos, cada par autêntico/plagal compartilha um final (nota de repouso) com âmbito de uma oitava. A nota de recitação fica uma 5ª acima do final nos autênticos e uma 3ª acima nos plagais.",
+   "passos": [],
+   "nivel": "avancado",
+   "fontes": [
+    "en--mode_-music-72a13e#I03",
+    "en--mode_-music-72a13e#I04",
+    "en--mode_-music-72a13e#I05",
+    "en--mode_-music-72a13e#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "z1YGMPsz-rU#I15",
+   "sugestao": "C11.3",
+   "motivo": "Escolher modos (jônio, lídio, mixolídio) sobre um acorde de Lá maior é aplicação sobre acordes."
+  },
+  {
+   "id": "z1YGMPsz-rU#I21",
+   "sugestao": "C11.3",
+   "motivo": "Indica o dórico sobre acorde menor com 6ª: aplicação modo-acorde."
+  },
+  {
+   "id": "z1YGMPsz-rU#I22",
+   "sugestao": "C11.3",
+   "motivo": "Indica o mixolídio sobre dominante: aplicação modo-acorde."
+  },
+  {
+   "id": "en--chord-scale_system-ebd9f4#I07",
+   "sugestao": "C11.3",
+   "motivo": "Divergência (Russell vs. Mehegan/Baker/Levine) sobre o par escala-acorde para acorde maior."
+  },
+  {
+   "id": "en--jazz_improvisation-59a777#I14",
+   "sugestao": "C11.3",
+   "motivo": "Modo como reservatório de notas sobre C7: sistema acorde-escala."
+  },
+  {
+   "id": "en--jazz_improvisation-59a777#I15",
+   "sugestao": "C11.3",
+   "motivo": "Mapeamento Cm7→dórico e Cm→eólio é aplicação sobre acordes."
+  },
+  {
+   "id": "en--jazz_improvisation-59a777#I16",
+   "sugestao": "C11.3",
+   "motivo": "Mapeamento Cmaj7→jônio e Cmaj7♯11→lídio é aplicação sobre acordes."
+  },
+  {
+   "id": "en--jazz_improvisation-59a777#I17",
+   "sugestao": "C11.3",
+   "motivo": "Mapeamento Csus♭9→frígio e Cø→lócrio é aplicação sobre acordes."
+  }
+ ],
+ "observacoes": "As fontes sem autor identificado (#19, #111-#119, #135) foram tratadas como material teórico de apoio. Os itens das escalas de cada modo concentram os exemplos concretos, e os conceitos transversais (escala-mãe, meios-tons, nota característica) ficam em itens próprios. Recomenda-se ligar K19 e K23 à C11.3 e ligar K21 à C11.4.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 119,
+  "ideias_em_mais_de_um_item": [
+   "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I01",
+   "tqnvvqZu2_c#I09",
+   "Ivr_-S7ku8E#I06",
+   "gubqumrozXc#I11"
+  ],
+  "ideias_secundarias": 16,
+  "itens": 24,
+  "fora_do_lugar": 8,
+  "custo_usd": 0.1818,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 28318,
+   "output_tokens": 12521
+  },
+  "gerado_em": "2026-10-08T10:21:02"
+ }
+}

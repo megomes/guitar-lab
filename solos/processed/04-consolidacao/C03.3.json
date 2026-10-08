@@ -1,0 +1,459 @@
+{
+ "subcategoria": "C03.3",
+ "visao_geral": "Tocar escalas numa corda só ou em pares e grupos de cordas revela os intervalos reais (tons e terças menores) e quebra a dependência das caixas verticais. A progressão começa pelos conceitos de linear e posição. Depois vem a montagem da pentatônica e da escala maior em cordas específicas, com casas e notas nomeadas. Por fim, o aluno improvisa em uma corda e em grupos de 2 a 4 cordas, conectando os shapes pelo braço.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Horizontal (linear) versus vertical (em posição)",
+   "descricao": "Tocar na vertical é percorrer modelos ou posições da escala numa região do braço. Tocar na horizontal é deslocar-se ao longo das cordas. O ideal é dominar as duas formas: a linear amplia a liberdade, a fluidez e a expressividade.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "QcL5HWH735g#I18",
+    "pickupmusic--soloing-with-caged-90d614#I16"
+   ],
+   "divergencias": "Bertamini diz que o horizontal tende a soar mais fluido e musical; Giuliani afirma que nenhum dos dois é melhor ou pior.",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Uma corda revela os intervalos da escala",
+   "descricao": "Numa única corda, as distâncias entre as notas aparecem lado a lado. Na pentatônica menor, por exemplo, surgem tons e terças menores. Assim fica claro por que a escala funciona em qualquer lugar do braço, em vez de só decorar caixas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "t6q5mFGdDy4#I01",
+    "-htAGli1YeY#I02",
+    "-htAGli1YeY#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "exercicio",
+   "titulo": "Pentatônica linear em uma corda só",
+   "descricao": "Escolha uma corda e toque a pentatônica, por exemplo Lá menor (A C D E G), em sequência ao longo do braço, subindo e descendo. Observe onde há tom e onde há terça menor. Repita em outras cordas e tonalidades e depois crie pequenas frases. O ganho não é imediato, mas dá autonomia para entender as relações e evoluir sozinho.",
+   "passos": [
+    "Escolha a escala (ex.: Lá menor pentatônica)",
+    "Localize todas as notas numa única corda",
+    "Suba e desça em sequência, nomeando tons e terças menores",
+    "Repita em outras cordas e tonalidades",
+    "Crie pequenas frases lineares",
+    "Volte às formas da pentatônica e explore variações"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "U3u3jiF7zVg#I06",
+    "GC-HIgdwVSM#I03",
+    "t6q5mFGdDy4#I12"
+   ],
+   "divergencias": "",
+   "correcoes": "Pedro Bernardi fala em 'tom e semitom', mas na pentatônica os intervalos entre notas vizinhas são tom e terça menor (1,5 tom)."
+  },
+  {
+   "id": "K04",
+   "tipo": "exercicio",
+   "titulo": "Lá menor pentatônica na corda Mi aguda",
+   "descricao": "Na corda Mi aguda, a escala fica: E solto, G (3), A (5), C (8), D (10), E (12), G (15), A (17). A partir da tônica, a fórmula é terça menor, tom, tom, terça menor, tom. A casa 3 (G) é a nota um tom abaixo da tônica.",
+   "passos": [
+    "Localize a tônica A na casa 5",
+    "Toque o G da casa 3, um tom abaixo",
+    "Suba: C (8), D (10), E (12), G (15), A (17)",
+    "Opcional: comece no E solto (5ª do Am)",
+    "Desça na ordem inversa"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "t6q5mFGdDy4#I04",
+    "-htAGli1YeY#I16"
+   ],
+   "divergencias": "",
+   "correcoes": "A descida listada numa das fontes estava fora de ordem; a ordem correta a partir da casa 12 é E-D-C-A-G-E."
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Lá menor pentatônica na corda Si, nomeando as notas",
+   "descricao": "Na corda Si, as notas são C (1), D (3), E (5), G (8), A (10), C (13), D (15) e E (17). Os passos são tom C-D, tom D-E, terça menor E-G, tom G-A e terça menor A-C. Fale o nome de cada nota em voz alta para associar nome e som.",
+   "passos": [
+    "Suba de C (1) até E (17) dizendo C, D, E, G, A, C, D, E",
+    "Desça dizendo E, D, C, A, G, E, D, C",
+    "Repare nos tons e nas terças menores",
+    "Só mude de corda quando nomear tudo sem olhar"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "-htAGli1YeY#I04",
+    "-htAGli1YeY#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Escala numa corda sobre a base em Lá menor",
+   "descricao": "Com um backing track em Lá menor, suba e desça a pentatônica na corda Si ou na Mi aguda até a casa 12. Perceba a oitava: a casa 12 é E, igual à corda solta. Note também como cada nota se relaciona com o acorde.",
+   "passos": [
+    "Ligue o backing track em Lá menor",
+    "Suba e desça a escala numa corda sem pausa",
+    "Pare em cada nota por um compasso",
+    "Decida se a nota resolve ou pede movimento"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "-htAGli1YeY#I09",
+    "-htAGli1YeY#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Transpor o padrão: Mi menor pentatônica na corda Ré",
+   "descricao": "Aplique a mesma fórmula (terça menor, tom, tom, terça menor, tom) a partir de E na corda Ré: E (2), G (5), A (7), B (9), D (12), E (14). Compare com Lá menor na corda Mi aguda: o padrão é idêntico em qualquer tonalidade.",
+   "passos": [
+    "Ache E na casa 2 da corda Ré",
+    "Toque D (corda solta), um tom abaixo",
+    "Suba G (5), A (7), B (9), D (12), E (14)",
+    "Compare com o padrão de Lá menor"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "t6q5mFGdDy4#I05"
+   ],
+   "divergencias": "",
+   "correcoes": "A fonte diz que a corda Ré solta é a tônica Mi, mas a corda solta é D; o E fica na casa 2."
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Escala maior mapeada em uma corda",
+   "descricao": "Escolha uma tonalidade, por exemplo Ré maior (D E F# G A B C#), e encontre todas as suas notas numa única corda. Suba e desça o braço e comece a escala a partir de qualquer nota, em vez de ficar preso ao padrão 1. Isso conecta as regiões do braço com movimento linear.",
+   "passos": [
+    "Escolha a tonalidade (ex.: Ré maior)",
+    "Localize todas as notas numa corda",
+    "Suba e desça pela corda até a tônica",
+    "Comece a escala em cada nota encontrada"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "HVG0MqzGz30#I01",
+    "-El2m16TS5o#I11",
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Percorrer a escala em linha, cantando os graus",
+   "descricao": "Antes de montar frases, percorra a escala em ordem para sentir o conjunto. Em Dó, por exemplo, suba 1-2-3-4-5-6-7-1 e desça cantando e nomeando cada grau. Depois repita a partir de outro C do braço.",
+   "passos": [
+    "Suba 1-2-3-4-5-6-7-1 em linha",
+    "Desça 1-7-6-5-4-3-2-1 cantando",
+    "Nomeie cada grau em voz alta",
+    "Repita a partir de outro C"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "t8SmU7wIxnc#I25",
+    "ea2g6P0pCKg#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "dica",
+   "titulo": "Tocar a escala linear sempre numa direção",
+   "descricao": "Toque a escala de forma linear, sempre num único sentido: do grave para o agudo ou do agudo para o grave. Continue até esgotar as possibilidades daquela região do braço.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "U3u3jiF7zVg#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "exercicio",
+   "titulo": "Escala e melodia na corda Si atravessando as formas CAGED",
+   "descricao": "Toque Dó maior na corda Si e observe a passagem pelas formas A → G → E. O mesmo padrão de intervalos gera uma escala maior a partir de qualquer tônica. Depois toque melodias só nessa corda: isso força a conexão entre as formas.",
+   "passos": [
+    "Toque Dó maior na corda Si",
+    "Memorize a sequência de notas",
+    "Visualize as formas A, G e E ao deslizar",
+    "Toque uma melodia só na corda Si",
+    "Crie seu próprio ritmo se o da fonte for difícil",
+    "Aplique em outras cordas e crie licks"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "pickupmusic--soloing-with-caged-90d614#I15",
+    "pickupmusic--what-is-the-caged-system-18ed1a#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "conceito",
+   "titulo": "Aplicar o método de uma corda a qualquer escala ou arpejo",
+   "descricao": "Tocar uma corda por vez funciona com qualquer escala ou arpejo estudado. O objetivo é fixar intervalos e nomes das notas no braço. Um exemplo é tocar os arpejos diatônicos de Dó maior (Cmaj7, Dm7, Em7…) numa só corda para ver como os acordes saem da escala.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "-htAGli1YeY#I19",
+    "566LrQfcqgE#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "erro_comum",
+   "titulo": "Estranhar tocar notas soltas numa corda",
+   "descricao": "Tocar notas isoladas numa só corda parece estranho no começo e exige tempo para se acostumar. Isso é normal e não é motivo para abandonar o exercício.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "KorP9lq1voU#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Achar de ouvido as notas boas numa corda",
+   "descricao": "Sobre uma música, teste notas numa corda até achar umas cinco que soem bem. Cada corda tem cerca de sete notas úteis entre a casa 1 e a 12. Improvise só com elas e amplie depois.",
+   "passos": [
+    "Escolha uma corda",
+    "Toque notas sobre a música e guarde as que soam bem",
+    "Improvise com cerca de cinco notas",
+    "Se uma nota soar mal, deslize uma casa",
+    "Acrescente mais notas aos poucos"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "stringkick--guitar-improvisation-74638e#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "exercicio",
+   "titulo": "Solo inteiro em uma corda só",
+   "descricao": "Encontre as notas da escala numa corda e solte um solo inteiro sem sair dela, sobre um backing track ou uma progressão numa tonalidade. O foco é a melodia e os intervalos, deslizando pelo braço e visualizando as formas CAGED percorridas. Com pentatônica, alterne grupos de três e de duas notas: é o 'three fret shift'. Faça isso na corda Sol e depois na Ré.",
+   "passos": [
+    "Escolha a base e uma corda",
+    "Mapeie as notas da escala nela",
+    "Improvise sem sair da corda",
+    "Visualize as formas CAGED que você atravessa",
+    "Na pentatônica, alterne blocos de 3 e 2 notas",
+    "Repita em outra corda"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "WcHs5SaynAw#I14",
+    "blog--p-20309-5f6c7e#I12",
+    "pickupmusic--soloing-with-caged-90d614#I33",
+    "Diou83hvGA4#I13",
+    "-htAGli1YeY#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Pensar em grupos de cordas, não na escala inteira",
+   "descricao": "Trate duas, três ou quatro cordas vizinhas como um conjunto próprio, uma 'caixa dentro da caixa' da pentatônica. Isso reduz o leque a poucas notas (três a seis), soa mais melódico e simplifica o que tocar. Depois troque de grupo e amplie.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "Pr1HbFvB-9s#I02",
+    "N8N6MAxvJIk#I06",
+    "HY5qWMbvsjY#I06",
+    "gubqumrozXc#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Improvisar em duas cordas vizinhas",
+   "descricao": "Limite o solo a um par de cordas adjacentes. Na pentatônica de Lá menor, use só as casas 5 e 7 das cordas Lá e Ré (D E G A) ou das cordas Ré e Sol (G A C D). Faça isso por alguns compassos sobre a base e depois troque de par (a jam track da fonte está em Ré maior).",
+   "passos": [
+    "Escolha duas cordas vizinhas",
+    "Use poucas notas, ex.: casas 5 e 7",
+    "Crie uma melodia curta sem sair do par",
+    "Troque de par e repita"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "pickupmusic--what-is-the-caged-system-18ed1a#I17",
+    "HY5qWMbvsjY#I07",
+    "Pr1HbFvB-9s#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "exercicio",
+   "titulo": "Pentatônica em pares, trios e quartetos de cordas pelos shapes",
+   "descricao": "Toque a pentatônica só num grupo de cordas, como as três primeiras ou as graves, e percorra os cinco modelos dentro dele. Procure os 'hotspots', isto é, as saídas para os shapes vizinhos. Aumente o número de cordas aos poucos, misturando a visão vertical e a horizontal.",
+   "passos": [
+    "Escolha 2, 3 ou 4 cordas vizinhas",
+    "Comece pelo shape 1 nesse grupo",
+    "Ache as saídas para os shapes vizinhos",
+    "Percorra os cinco modelos criando caminhos",
+    "Mude de grupo só quando estiver fluente",
+    "Aumente o número de cordas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "U3u3jiF7zVg#I10",
+    "QcL5HWH735g#I19",
+    "0Dh8aGffCaI#I15",
+    "FhfmneCt7jo#I05"
+   ],
+   "divergencias": "Pow Music insiste em fixar o shape 1 antes de avançar; Bertamini já propõe percorrer os cinco modelos nas três primeiras cordas.",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Sequência em grupos de três cordas na box 1",
+   "descricao": "Na box 1 de Sol menor pentatônica (casa 3), toque os grupos de cordas 6-5-4, 5-4-3, 4-3-2 e 3-2-1. Na descida, faça 1-2-3, 2-3-4, 3-4-5 e 4-5-6.",
+   "passos": [
+    "Monte a box 1 de Sol menor na casa 3",
+    "Toque as cordas 6-5-4",
+    "Volte uma corda: 5-4-3, depois 4-3-2 e 3-2-1",
+    "Desça: 1-2-3, 2-3-4, 3-4-5, 4-5-6"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "N8N6MAxvJIk#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Motivos em pares de cordas consecutivos",
+   "descricao": "Toque uma ideia curta em duas cordas vizinhas e repita-a ou varie-a no par seguinte. Use graus conjuntos e mantenha a frase entre 1 e 2 oitavas. Encadear o motivo pelos pares cria linhas longas.",
+   "passos": [
+    "Escolha duas cordas vizinhas",
+    "Toque uma ideia curta",
+    "Passe para o par seguinte",
+    "Toque outra ideia ou a mesma",
+    "Mantenha as notas próximas entre si"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I11",
+    "UG_P4KNw0XM#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "exercicio",
+   "titulo": "Cordas graves e saltos entre regiões de cordas",
+   "descricao": "Faça solos só nas cordas graves e depois alterne entre as finas e as graves, sempre com notas da escala. O resultado pode soar estranho, mas não desafinado.",
+   "passos": [
+    "Improvise só nas cordas graves",
+    "Salte das finas para as graves e volte",
+    "Guarde o que soar bem"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "wEMMddpcIe0#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Pivot (pedal) point nas duas cordas agudas",
+   "descricao": "Em Mi maior, nas cordas Si e Mi aguda, comece em B (a 5ª do tom). Use uma nota fixa como pivô e alterne com as notas da escala na outra corda. Isso treina a travessia de cordas e fixa a escala maior onde mais se improvisa.",
+   "passos": [
+    "Comece em B, 5ª de Mi maior",
+    "Mantenha uma nota pivô fixa",
+    "Alterne com as notas da escala na outra corda",
+    "Palhetada alternada em todas as notas",
+    "Sem pestana: troque de dedo ao mover"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ruwSeYsJtgI#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "conceito",
+   "titulo": "Abordagem linear com slides",
+   "descricao": "Use muito movimento ao longo das cordas, com slides longos e curtos. As notas continuam sendo da pentatônica; muda só o trajeto, e isso altera o fraseado e a técnica. É comum no jazz, onde cordas mais pesadas favorecem slides e linhas lineares em vez de bends.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I03",
+    "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "t8SmU7wIxnc#I16",
+   "sugestao": "C09.1",
+   "motivo": "O foco é pousar em notas-alvo do acorde (6-1-3 sobre Am, 1-3-5 sobre C) numa corda, o que a taxonomia direciona para C09.1."
+  },
+  {
+   "id": "en--bend_-music-f7581f#I07",
+   "sugestao": "C05.3",
+   "motivo": "Trata do glissando cromático como técnica de slide, não da visualização de intervalos numa corda."
+  }
+ ],
+ "observacoes": "A fonte #6 traz um erro: a corda Ré solta não é E; o E fica na casa 2 e o item foi corrigido. #11 (three fret shift) ficou aqui por ser solo linear numa corda, mas tem ligação com C04.3. As secundárias #45-#54, #58-#62 e #65 não foram usadas por pertencerem a outros temas (diagonais, sequências, CAGED, arpejos).",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 43,
+  "ideias_secundarias": 22,
+  "itens": 23,
+  "fora_do_lugar": 2,
+  "custo_usd": 0.1379,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 19629,
+   "output_tokens": 9861
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 3,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

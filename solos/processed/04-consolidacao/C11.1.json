@@ -1,0 +1,524 @@
+{
+ "subcategoria": "C11.1",
+ "visao_geral": "A subcategoria mostra como passar da pentatônica para a escala maior de sete notas como material de improviso. Ela tem mais cor e mais tensão, mas também mais notas que podem soar dissonantes. O percurso começa memorizando um shape móvel, como a tônica na corda A ou na corda E grave. Depois vem improvisar livremente sobre uma backing track, ouvindo cada nota, e enxergar a pentatônica dentro da escala maior. Por fim, o aluno combina posições, usa a relativa maior sobre tons menores e leva tudo para outras tonalidades e para contextos de arpejo.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Sete notas diatônicas versus cinco da pentatônica",
+   "descricao": "Escalas diatônicas (maior, dórica, mixolídia, lídia) têm sete notas, e a pentatônica tem cinco. As sete notas trazem mais tensão e um som mais sofisticado, e podem ser alternadas com a pentatônica para variar o discurso. Em troca, há mais notas dissonantes e fica mais fácil soar mal. No jazz, a escala maior é a base do estilo, e a pentatônica sozinha não produz esse som.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "SYE8tDSLU0k#I18",
+    "EMQydbilqmo#I01",
+    "NbNH_C3QAS0#I08",
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "Tim Pierce fala em 'jônia de Sol menor', termo contraditório: o jônio é maior, então trata-se de uma escala de sete notas na tonalidade da música."
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Notas das escalas maiores usadas nas aulas",
+   "descricao": "As escalas usadas como exemplo são: Ré maior = D E F# G A B C#; Mi maior = E F# G# A B C# D#; Sol maior = G A B C D E F#. Sobre um acorde de Ré maior, a escala de Ré maior é a escolha mais óbvia depois da pentatônica. Duas formas parciais de Sol maior cobrem G A B C D E, e falta só o F#.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "NbNH_C3QAS0#I09",
+    "sX3dqStq0ag#I06",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "dica",
+   "titulo": "No começo, só notas da escala",
+   "descricao": "Para iniciantes, toque apenas as notas da escala maior do tom (em Sol: G A B C D E F#). Notas de fora costumam soar mal no início. Notas de passagem cromáticas ficam para depois de dominar o básico.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "wEMMddpcIe0#I03",
+    "wEMMddpcIe0#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Forma móvel com tônica na corda A (forma de C do CAGED)",
+   "descricao": "O mindinho fica na tônica da corda A, e a forma gera a escala maior dessa nota. Os exemplos são: casa 10 = Sol maior, casa 7 = Mi maior (indicador pestanando a casa 4) e casa 5 = Ré maior. A forma continua abaixo da tônica nas cordas graves, com notas extras para usar com moderação.",
+   "passos": [
+    "Ponha o mindinho na tônica na corda A",
+    "Suba e desça as sete notas e a oitava dentro da forma",
+    "Explore também as notas abaixo da tônica",
+    "Mova a forma para mudar de tom"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "xKbtQM-qzSM#I01",
+    "aHzmIWB0P00#I03",
+    "p44c9V-yBBA#I03",
+    "xKbtQM-qzSM#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "conceito",
+   "titulo": "Posições de Sol maior a partir da corda E grave e combinação de posições",
+   "descricao": "Sol maior pode ser tocada em spread fingering a partir de G (casa 3, corda E grave). Uma segunda posição começa no A (casa 5 da mesma corda), com as mesmas notas e outro ponto de partida. Combinar duas ou mais posições dá mais notas disponíveis sobre diferentes acordes e mudanças.",
+   "passos": [
+    "Toque Sol maior a partir da casa 3 da corda E grave",
+    "Toque a posição seguinte a partir da casa 5 (Lá)",
+    "Ligue as duas posições numa mesma frase"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "gkcw9CzLA-A#I19",
+    "gkcw9CzLA-A#I20",
+    "gkcw9CzLA-A#I21"
+   ],
+   "divergencias": "",
+   "correcoes": "A posição que começa no Lá é outra posição da mesma escala, não 'a mesma posição'."
+  },
+  {
+   "id": "K06",
+   "tipo": "dica",
+   "titulo": "Shapes partindo da tônica, em duas oitavas",
+   "descricao": "Para começar, use shapes de Dó maior que partem da própria tônica Dó, porque são mais fáceis de visualizar. Trate o shape como ponto de partida, não como destino. Depois repita C D E F G A B C na segunda oitava para ampliar o alcance.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yb9PBaQngn4#I04",
+    "yb9PBaQngn4#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K07",
+   "tipo": "erro_comum",
+   "titulo": "Shape vira muleta",
+   "descricao": "Quem aprende a escala só como desenho fixo acaba apertando o padrão sem ouvir o que toca, e isso trava a improvisação. O shape deve servir para localizar sons, não substituir o ouvido.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "yb9PBaQngn4#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Memorizar um shape antes de improvisar",
+   "descricao": "Fixe uma forma de sete notas até tocá-la de memória, subindo e descendo, devagar e rápido, sem olhar o diagrama. Reserve uns 10 minutos por sessão, ou alguns dias se for preciso. Exemplo concreto, Si maior com dedos nas casas 6-7-8-9: corda D casa 9 (B); corda G casas 6, 8, 9; corda B casas 7, 9; corda E aguda casas 6, 7.",
+   "passos": [
+    "Escolha um shape (ex.: Mi maior desde a corda E grave ou Si maior na casa 6)",
+    "Toque subindo e descendo",
+    "Varie a velocidade sem pressa",
+    "Só avance quando tocar sem o diagrama"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hafoCeXWxAE#I02",
+    "wEMMddpcIe0#I02",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I04",
+    "UbIv3AKmNl0#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "rotina_estudo",
+   "titulo": "Uma posição por vez",
+   "descricao": "A escala maior tem 7 posições no braço, mas não tente todas as posições e as 12 tonalidades de uma vez, porque isso esgota. Domine uma área, construa solos inteiros só nela e então acrescente a próxima, revisando as anteriores. Também não acumule muitas escalas antes de dominar uma.",
+   "passos": [
+    "Domine a primeira posição",
+    "Faça um solo inteiro só nela",
+    "Adicione a segunda e treine as duas juntas",
+    "Continue uma a uma, revisando as anteriores"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I09",
+    "aHzmIWB0P00#I04",
+    "EMQydbilqmo#I03",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "mentalidade",
+   "titulo": "Ter outros shapes tão fluentes quanto a pentatônica menor",
+   "descricao": "Muita gente visualiza a pentatônica menor sem pensar. A meta é conhecer os shapes da escala maior com a mesma fluência: são sete modos, mas só cinco shapes, e com eles se improvisa em qualquer região.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "78ZqWUGMzqU#I03",
+    "78ZqWUGMzqU#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "rotina_estudo",
+   "titulo": "Cerca de mil repetições por shape, de formas variadas",
+   "descricao": "Toque cada um dos cinco shapes da escala maior cerca de 1000 vezes, variando o modo de tocar: improvisando com ele e tocando em intervalos incomuns. Pratique em todos os tons, não só em Sol maior.",
+   "passos": [
+    "Escolha um dos cinco shapes",
+    "Acumule cerca de 1000 repetições",
+    "Varie: improvise e toque em intervalos",
+    "Repita com os outros shapes e em outros tons"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "78ZqWUGMzqU#I07",
+    "78ZqWUGMzqU#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "exercicio",
+   "titulo": "Absorver a escala de Dó maior pelo som",
+   "descricao": "Toque Dó maior num shape que parte da tônica ouvindo cada nota e sua relação com o Dó. Depois procure as mesmas notas em outras posições, em vez de só repetir o desenho.",
+   "passos": [
+    "Toque Dó maior partindo da tônica",
+    "Ouça cada nota em relação ao Dó",
+    "Ache as mesmas notas em outras posições",
+    "Repita até reconhecê-las sem diagrama"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "yb9PBaQngn4#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Escala com mudanças aleatórias de direção",
+   "descricao": "Toque a escala maior subindo e descendo e mude de direção em pontos aleatórios, sem parar e no pulso do metrônomo. Se atrasar, reduza o andamento.",
+   "passos": [
+    "Ligue o metrônomo lento",
+    "Suba e desça a escala",
+    "Inverta a direção em pontos aleatórios",
+    "Não pare; reduza o BPM se atrasar"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "-VjHVHzWL0o#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "exercicio",
+   "titulo": "Primeira improvisação livre sobre backing track",
+   "descricao": "Sobre uma backing track no tom, toque a escala livremente. Exemplos: Mi maior em 'Slow Dancing in a Burning Room' ou Sol maior com a forma da casa 10 da corda A. Suba e desça, repita trechos, deixe notas soarem e toque em qualquer ordem, ouvindo como cada nota cai sobre cada acorde.",
+   "passos": [
+    "Ouça a backing track uma vez",
+    "Suba e desça a escala devagar junto com ela (de olhos fechados, se possível)",
+    "Toque notas em qualquer ordem",
+    "Note quais soam melhor em cada acorde"
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "hafoCeXWxAE#I03",
+    "xKbtQM-qzSM#I02",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I10",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I07"
+   ],
+   "divergencias": "Uma fonte diz que todas as notas funcionam; Ricardo Frade (K16) alerta que algumas soam dissonantes.",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "dica",
+   "titulo": "Concentrar-se nas três cordas agudas",
+   "descricao": "Em vez de usar o shape inteiro, pegue só as notas das três cordas mais finas, perto do acorde. Em Lá maior, as notas são A B C# D E F# G#. JustinGuitar improvisa em Sol maior quase só nessas cordas.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "enk-fXAONJQ#I13",
+    "wEMMddpcIe0#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "exercicio",
+   "titulo": "Mapear as notas mais tensas da escala",
+   "descricao": "Improvise em Sol maior com um shape da escala sobre uma backing track em Sol maior e observe quais notas soam mais dissonantes. Evite terminar frases nelas.",
+   "passos": [
+    "Escolha um shape de Sol maior",
+    "Improvise sobre a backing track em Sol",
+    "Identifique as notas mais tensas",
+    "Não termine frases nelas"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "academiamusical--como-improvisar-na-guitarra-9d4f5f#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "conceito",
+   "titulo": "Da pentatônica à diatônica: acrescentar as duas notas que faltam",
+   "descricao": "Depois de dominar a pentatônica pelo braço, acrescente as duas notas que completam a escala: em Dó maior, F e B (4ª e 7ª). Visualizar as pentatônicas de vários acordes juntas já leva a tocar a diatônica naturalmente. Essas notas extras dão mais opções, mas sem pensar nos acordes são menos seguras que a pentatônica.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "XL9TYmwkHWs#I09",
+    "U3u3jiF7zVg#I18",
+    "5e0SpzCw3IA#I13",
+    "Xs2umOucpSM#I21"
+   ],
+   "divergencias": "",
+   "correcoes": "A versão de Pedro Bernardi foi ajustada: a pentatônica fornece cinco das sete notas, e a escala completa adiciona as outras duas."
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "A pentatônica relativa está dentro da escala maior (shape expandido)",
+   "descricao": "Alinhadas na mesma tonalidade, a pentatônica menor relativa fica contida no shape de sete notas. Em Mi maior, essa pentatônica é a de C#m. O shape expandido de Mi maior, entre as casas 8 e 12, reúne todas as notas do tom, inclusive as da pentatônica. Nele, as notas de acorde (C#, A, E) aparecem em posições novas que convém localizar.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I19",
+    "hafoCeXWxAE#I15",
+    "hafoCeXWxAE#I16"
+   ],
+   "divergencias": "",
+   "correcoes": "É a pentatônica que está contida na escala maior, e não o inverso. 'Mesma tonalidade' significa a menor relativa (C#m para E; Am para C)."
+  },
+  {
+   "id": "K19",
+   "tipo": "exercicio",
+   "titulo": "Combinar o shape maior com a pentatônica menor relativa",
+   "descricao": "Sobre 'Slow Dancing', em Mi maior, una o shape de Mi maior à pentatônica de C#m para ter um conjunto maior de notas. Toque notas de acorde nas trocas e preencha o espaço entre elas com notas das duas escalas.",
+   "passos": [
+    "Ligue a backing track",
+    "Toque notas de acorde na troca",
+    "Preencha com notas das duas escalas",
+    "Depois improvise livremente"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "hafoCeXWxAE#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "dica",
+   "titulo": "Alternar escala maior completa e pentatônica maior",
+   "descricao": "Faça uma passagem com as sete notas e depois mude para a pentatônica maior. O contraste entre as duas sonoridades fica forte.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "xKbtQM-qzSM#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "conceito",
+   "titulo": "Escala maior relativa sobre tom menor",
+   "descricao": "Sobre Em, pense na escala de G maior, a relativa, com as notas G A B C D E F#. Isso abre mais notas e posições que a pentatônica de Em, que costuma virar chavão.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "5CSSVcINF1o#I07",
+    "5CSSVcINF1o#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Solo em Em com pentatônica de Em + escala de G maior",
+   "descricao": "Sobre uma backing track em Em, monte o vocabulário com a pentatônica e o arpejo de Em, uma segunda pentatônica com arpejo (ex.: Bm) e a escala de G maior. Um exemplo de frase sobre Em7: localize G maior e a pentatônica de Em ao redor do shape, comece no Sol, faça um slide até o Si e volte ao Sol.",
+   "passos": [
+    "Toque a pentatônica e o arpejo de Em",
+    "Adicione a pentatônica de Bm e seu arpejo",
+    "Expanda com a escala de G maior",
+    "Frase: Sol → slide até Si → Sol",
+    "Alterne os blocos ao longo do solo"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "5CSSVcINF1o#I06",
+    "mw6d34vqDMs#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "mentalidade",
+   "titulo": "Centro tonal: tocar por instinto na progressão diatônica",
+   "descricao": "Se a progressão é diatônica (ex.: campo de Sol), dá para improvisar com a escala de G maior inteira por instinto. Não é preciso mirar notas-alvo nem trocar de modo em cada acorde.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "Rm8Y-Q6wbR4#I27",
+    "mw6d34vqDMs#I06"
+   ],
+   "divergencias": "Brian Kelly (K17) adverte que, sem pensar nos acordes, as notas diatônicas são menos seguras que a pentatônica.",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Shape expandido com técnicas expressivas",
+   "descricao": "Sobre 'Slow Dancing', use o shape expandido de Mi maior e incorpore slides, bends, vibrato e double stops às frases.",
+   "passos": [
+    "Ligue a backing track",
+    "Use o shape expandido de Mi maior",
+    "Inclua slides, bends, vibrato e double stops"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "hafoCeXWxAE#I22"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "dica",
+   "titulo": "Posições mistas em vez de só 3 notas por corda",
+   "descricao": "Matteo Mancuso prefere posições mistas, com 3 notas numa corda e 2 em outra (ex.: na corda B). Para ele, usar só o sistema de 3 notas por corda soa previsível.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "XL9TYmwkHWs#I11"
+   ],
+   "divergencias": "Edu Ardanuy (K28) trabalha com o sistema de 5 posições e também com 3 notas por corda.",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "Levar a escala para outras tonalidades",
+   "descricao": "Desloque a forma de sete notas para a 5ª casa, alinhada à pentatônica de Lá menor, o que dá Dó maior. Aplique ali os mesmos exercícios. Depois aprenda as demais escalas maiores nas cinco formas, ligando os graus aos nomes das notas.",
+   "passos": [
+    "Mova a forma para a 5ª casa (Dó maior / Am)",
+    "Repita os exercícios anteriores",
+    "Faça o mesmo em outras tonalidades nas cinco formas",
+    "Nomeie grau e nota em cada posição"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I21",
+    "BQTrA3hpqkM#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com padrões além da pentatônica",
+   "descricao": "Na mesma tonalidade e backing track, improvise primeiro com o padrão da escala maior e depois com o da menor melódica. Compare como cada um soa sobre a mesma harmonia.",
+   "passos": [
+    "Escolha tom e backing track",
+    "Improvise com a escala maior",
+    "Improvise com a menor melódica",
+    "Compare as sonoridades"
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "exercicio",
+   "titulo": "Posições da escala ao redor dos blocos de arpejo",
+   "descricao": "Em cada região de arpejos da progressão em Em, localize as posições de Em/G maior que ficam dentro ou ao lado deles. No bloco 1 (Em no modelo de A), as posições são G jônio e a anterior, F# lócrio. Os arpejos dão as notas fortes de cada acorde, e a escala preenche as melodias entre eles.",
+   "passos": [
+    "Fixe a região do bloco",
+    "Localize as posições de G jônio e F# lócrio",
+    "Toque os arpejos da progressão",
+    "Crie melodias curtas com a escala entre eles",
+    "Volte ao arpejo na troca de acorde"
+   ],
+   "nivel": "avancado",
+   "fontes": [
+    "QS6dpweE_Q4#I08",
+    "QS6dpweE_Q4#I09",
+    "QS6dpweE_Q4#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "RTGLGlM9OPg#I14",
+   "sugestao": "C05.6",
+   "motivo": "O foco é a mecânica: palheta alternada e ligados aplicados às escalas."
+  },
+  {
+   "id": "jeJEMmEIVqk#I20",
+   "sugestao": "C10.4",
+   "motivo": "Trata de integrar arpejos com escala e pentatônica."
+  },
+  {
+   "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I08",
+   "sugestao": "C03.3",
+   "motivo": "A escala de Dó é tocada inteira na corda A (casas 3 a 15), ou seja, visão numa corda."
+  },
+  {
+   "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I16",
+   "sugestao": "C03.4",
+   "motivo": "Criar sequências de notas dentro da escala."
+  },
+  {
+   "id": "MvUgoNBTNjA#I18",
+   "sugestao": "C10.4",
+   "motivo": "Ornamentar tríades e acordes com notas vizinhas da escala é combinar arpejo e escala."
+  }
+ ],
+ "observacoes": "As secundárias 58, 59, 62, 65, 66, 67, 68, 69, 72, 74, 75, 77, 78, 79, 81, 83, 84, 85 e 86 não foram usadas, por pertencerem a arpejos, modos, sequências ou técnica. Também ficaram de fora 16 e 18, por serem visão numa corda e sequências. A legenda de #16 apontava o Dó na 3ª casa da 2ª corda, o que está errado (fica na 1ª casa); de qualquer forma, o item foi para C03.3.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 57,
+  "ideias_secundarias": 30,
+  "itens": 28,
+  "fora_do_lugar": 5,
+  "custo_usd": 0.1724,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 21910,
+   "output_tokens": 12863
+  },
+  "gerado_em": "2026-10-08T10:20:25"
+ }
+}

@@ -1,0 +1,760 @@
+{
+ "subcategoria": "C10.2",
+ "visao_geral": "Esta subcategoria organiza as tríades (1-3-5) como um sistema de mapa do braço. Primeiro vêm a posição fundamental e as duas inversões, depois a troca de qualidade (maior, menor e diminuta) alterando a 3ª e a 5ª, e as formas em cada grupo de três cordas vizinhas com a compensação na corda B. A seguir, as tríades são ligadas às formas CAGED, percorridas pelo campo harmônico e conectadas em progressões pela inversão mais próxima. No fim entram os recursos de vocabulário: tríades diagonais em duas cordas, notas dobradas para encaixar no 4/4, shells, pares de cordas e voicings abertos.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "conceito",
+   "titulo": "Tríade 1-3-5 como forma-base do solo",
+   "descricao": "Tríades são formas de três notas (1-3-5) que ligam escalas e arpejos pelo braço e servem para linhas de uma nota e para acordes. Construa o acorde primeiro pela tríade e só acrescente notas se a música pedir. No solo, tocar só as três notas em três cordas soa mais limpo que o acorde cheio. Exemplo: G (G-B-D) na casa 12 das cordas D, G e B é um ponto de partida versátil, antes mesmo da escala completa.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "ui6qUcvaKU0#I02",
+    "rh6HEF5Dy2I#I03",
+    "7Pdss_Gswtc#I06",
+    "fwyn5tQdF4k#I01"
+   ],
+   "divergencias": "",
+   "correcoes": "No #37, a forma de G na casa 12 está nas cordas D (D), G (G) e B (B), ou seja, G em 2ª inversão, e não com a tônica na corda mais grave."
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "Posição fundamental e as duas inversões",
+   "descricao": "As três formas têm as mesmas notas, só muda qual delas fica no baixo. Na fundamental a ordem é 1-3-5 (G-B-D; C-E-G), na 1ª inversão é 3-5-1 (B-D-G; E-G-C) e na 2ª inversão é 5-1-3 (D-G-B; G-C-E). Nas versões menor e diminuta a ordem é a mesma: Gm em 1ª inversão é B♭-D-G e Gdim em 2ª inversão é D♭-G-B♭. Variar a inversão muda o ponto de partida das frases.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EJW2rIhE_GA#I09",
+    "Z-KzfB7vfFA#I09",
+    "qIewGDRWBu8#I17",
+    "ui6qUcvaKU0#I06",
+    "rtKZBns_IMY#I01",
+    "rtKZBns_IMY#I05",
+    "rtKZBns_IMY#I06",
+    "FZB0Ia7ftRo#I06",
+    "FZB0Ia7ftRo#I16",
+    "FZB0Ia7ftRo#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "mentalidade",
+   "titulo": "Não pular o estudo básico de tríades",
+   "descricao": "As inversões soam musicais de imediato e são chamadas de “molho secreto” dos profissionais. Jens Larsen observa que muitos ignoram o exercício de tríades por parecer simples ou entediante, mas jazzistas profissionais o estudam obsessivamente por causa do som que ele dá (o detalhamento está no PDF dele).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I05",
+    "Md9ZC0qFK3s#I24",
+    "Md9ZC0qFK3s#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "conceito",
+   "titulo": "Os quatro grupos de três cordas vizinhas",
+   "descricao": "O voicing fechado (closed) toca as três notas em cordas adjacentes, e há quatro grupos: 1-3, 2-4, 3-5 e 4-6. O grupo G-B-E (cordas 3 a 1) é apontado como o mais útil para solar. A lógica das formas se estende de um grupo para o outro.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "qIewGDRWBu8#I18",
+    "EJW2rIhE_GA#I07",
+    "ui6qUcvaKU0#I03",
+    "FZB0Ia7ftRo#I03",
+    "EY6-VNz81HE#I09"
+   ],
+   "divergencias": "Daniel Seriff recomenda em um vídeo começar pelas cordas graves 6-5-4 (lógica que se estende pelo braço) e em outros pelas agudas (G-B-E e pares finos), alertando contra ficar preso nas graves; Tomo Fujita prioriza as três agudas.",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "exercicio",
+   "titulo": "Maior → menor → diminuta mexendo na 3ª e na 5ª",
+   "descricao": "Parta da forma maior e baixe a 3ª um semitom para obter a menor. Para a diminuta, baixe também a 5ª um semitom (C-E♭-G♭). Em G nas cordas agudas, por exemplo, a 3ª fica na corda B: G-B-D vira G-B♭-D. Entender essa construção dispensa decorar cada forma isolada e cobre todas as menores do braço a partir das maiores.",
+   "passos": [
+    "Monte a tríade maior em uma inversão.",
+    "Baixe a 3ª uma casa (menor).",
+    "Baixe também a 5ª uma casa (diminuta).",
+    "Alterne as três sem parar, ouvindo a mudança de cor.",
+    "Repita nas outras inversões e tonalidades."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "rtKZBns_IMY#I04",
+    "ui6qUcvaKU0#I08",
+    "ui6qUcvaKU0#I09",
+    "EJW2rIhE_GA#I10",
+    "FZB0Ia7ftRo#I27",
+    "rtKZBns_IMY#I02",
+    "EJW2rIhE_GA#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "exercicio",
+   "titulo": "Tríades de Dó nas cordas G-B-E: as três inversões",
+   "descricao": "Casas nas cordas G, B e E aguda. Fundamental: C 5-5-3, Cm 5-4-3, Cdim 5-4-2. 1ª inversão: C 9-8-8 (E no baixo), Cm 8-8-8, Cdim 8-7-8. 2ª inversão: C 12-13-12, Cm 12-13-11 (G-C-E♭), Cdim 11-13-11 (G♭-C-E♭).",
+   "passos": [
+    "Toque C 5-5-3 e confirme o Dó no baixo.",
+    "Toque C 9-8-8 (Mi no baixo).",
+    "Toque Cm 12-13-11 (Sol no baixo).",
+    "Faça as versões menor e diminuta de cada inversão.",
+    "Alterne entre as três qualidades sem pausa."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I07",
+    "ui6qUcvaKU0#I10",
+    "ui6qUcvaKU0#I11",
+    "ui6qUcvaKU0#I12",
+    "ui6qUcvaKU0#I13"
+   ],
+   "divergencias": "",
+   "correcoes": "As formas de C maior 12-13-12 e Cdim 5-4-2 foram completadas pela teoria (meio tom acima/abaixo das formas citadas), seguindo a regra de alteração da 3ª e da 5ª."
+  },
+  {
+   "id": "K07",
+   "tipo": "conceito",
+   "titulo": "Três formas móveis e a regra da corda B",
+   "descricao": "Três formas (fundamental, 1ª e 2ª inversão), aprendidas nas cordas 6-5-4, cobrem todas as tríades maiores do braço. Basta copiá-las para o grupo de cordas seguinte e para qualquer tonalidade. Única regra: quando a forma toca ou cruza a corda B, a nota dessa corda sobe uma casa, porque G-B é uma 3ª maior e não uma 4ª. As várias formas de cada inversão no braço são a mesma ideia copiada e compensada, não padrões separados.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "FZB0Ia7ftRo#I01",
+    "FZB0Ia7ftRo#I05",
+    "FZB0Ia7ftRo#I13",
+    "FZB0Ia7ftRo#I20",
+    "FZB0Ia7ftRo#I26",
+    "FZB0Ia7ftRo#I04",
+    "FZB0Ia7ftRo#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "erro_comum",
+   "titulo": "Copiar a forma sem compensar a corda B",
+   "descricao": "Levar a forma de C das cordas 6-5-4 (8-7-5) direto para D-G-B como 10-9-7 soa errado: a casa 7 da corda B é F#, não G. O correto é 10-9-8. O mesmo vale para a 1ª e a 2ª inversão que cruzam a corda B.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "FZB0Ia7ftRo#I11",
+    "FZB0Ia7ftRo#I19"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "C maior em posição fundamental nos quatro grupos",
+   "descricao": "Cordas E-A-D: 8-7-5 (C-E-G). Cordas A-D-G: 3-2-0, ou 15-14-12 na oitava de cima, mais fácil de reconhecer. Cordas D-G-B: 10-9-8, com a corda B compensada. Cordas G-B-E: 5-5-3.",
+   "passos": [
+    "Toque 8-7-5 nas cordas E-A-D.",
+    "Copie para A-D-G: 15-14-12 (ou 3-2-0).",
+    "Copie para D-G-B subindo a nota da corda B: 10-9-8.",
+    "Copie para G-B-E: 5-5-3.",
+    "Confirme C-E-G em cada grupo."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "FZB0Ia7ftRo#I07",
+    "FZB0Ia7ftRo#I08",
+    "FZB0Ia7ftRo#I09",
+    "FZB0Ia7ftRo#I10",
+    "FZB0Ia7ftRo#I12"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "exercicio",
+   "titulo": "1ª e 2ª inversão de C pelos grupos de cordas",
+   "descricao": "1ª inversão (E-G-C): E-A-D 12-10-10 e A-D-G 7-5-5. 2ª inversão (G-C-E): E-A-D 3-3-2 (ou 15-15-14), A-D-G 10-10-9 e D-G-B 5-5-5 (com a corda B compensada). Nas cordas G-B-E, 12-13-12 lembra o shape de Ré maior aberto (5ª, tônica, 3ª).",
+   "passos": [
+    "1ª inversão: 12-10-10 em E-A-D.",
+    "1ª inversão: 7-5-5 em A-D-G.",
+    "2ª inversão: 3-3-2 e 15-15-14 em E-A-D.",
+    "2ª inversão: 10-10-9 em A-D-G e 5-5-5 em D-G-B.",
+    "Feche com 12-13-12 em G-B-E (forma de “Ré aberto”)."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "FZB0Ia7ftRo#I17",
+    "FZB0Ia7ftRo#I18",
+    "FZB0Ia7ftRo#I22",
+    "FZB0Ia7ftRo#I23",
+    "FZB0Ia7ftRo#I24",
+    "FZB0Ia7ftRo#I25"
+   ],
+   "divergencias": "",
+   "correcoes": "No #119, o G de partida está na 12ª casa da corda G, não da corda D (a casa 12 da corda D é Ré)."
+  },
+  {
+   "id": "K11",
+   "tipo": "rotina_estudo",
+   "titulo": "Escrever 1-3-5 em diagramas em branco antes de tocar",
+   "descricao": "Antes de tocar cada forma, preencha um diagrama de braço vazio com os graus 1, 3 e 5. Repita diariamente até a forma sair automática.",
+   "passos": [
+    "Imprima diagramas de braço em branco.",
+    "Escreva 1, 3 e 5 de cada forma.",
+    "Só então toque no instrumento.",
+    "Repita todo dia."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "FZB0Ia7ftRo#I14"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K12",
+   "tipo": "exercicio",
+   "titulo": "Todas as inversões em cada grupo de cordas",
+   "descricao": "Escolha uma tríade maior (ex.: C = C-E-G) e a menor da mesma tônica (Cm = C-E♭-G). Toque as três inversões em cada grupo de três cordas vizinhas, começando pela corda grave e subindo. Nomeie as notas em voz alta. Pedro Bernardi resume a meta: dominar ao menos três versões de cada tríade (e tétrade).",
+   "passos": [
+    "Escolha a tríade (ex.: C ou A maior).",
+    "Toque 1-3-5, 3-5-1 e 5-1-3 no grupo E-A-D.",
+    "Desloque para A-D-G, D-G-B e G-B-E.",
+    "Repita com a menor.",
+    "Fale as notas enquanto toca."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "rh6HEF5Dy2I#I27",
+    "rh6HEF5Dy2I#I06",
+    "rh6HEF5Dy2I#I07",
+    "RTGLGlM9OPg#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "exercicio",
+   "titulo": "Percorrer o braço com a mesma qualidade",
+   "descricao": "Encadeie as formas de uma mesma qualidade (maior, menor ou diminuta) na ordem fundamental → 1ª → 2ª inversão, subindo uma oitava (12 casas) quando o braço acabar. Toque cada inversão o mais grave e o mais agudo possível. Ao tocar pares de tríades com uma nota por corda, reaproveite o mesmo shape: funciona melhor com a mesma qualidade e a mesma inversão.",
+   "passos": [
+    "Escolha uma qualidade.",
+    "Toque fundamental, 1ª e 2ª inversão em sequência.",
+    "Suba 12 casas e continue.",
+    "Toque cada inversão na região mais grave e na mais aguda.",
+    "Repita nas três qualidades."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "ui6qUcvaKU0#I14",
+    "ui6qUcvaKU0#I20",
+    "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "rotina_estudo",
+   "titulo": "Levar as tríades a todas as tonalidades",
+   "descricao": "Depois de dominar as formas em Dó, passe pelas 15 tonalidades maiores de escrita lógica (incluindo as enarmônicas), uma por sessão. Toque maiores e menores nas três inversões em todas as cordas e confira as notas.",
+   "passos": [
+    "Escolha uma tonalidade por sessão.",
+    "Toque maiores e menores nas três inversões em todos os grupos.",
+    "Confira as notas.",
+    "Avance para a próxima tonalidade."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ui6qUcvaKU0#I15",
+    "rh6HEF5Dy2I#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "conceito",
+   "titulo": "Tríades escondidas nas formas CAGED",
+   "descricao": "Toda tríade nas três cordas agudas está contida em um dos cinco formatos CAGED. Por isso, os acordes de seis cordas que você já conhece revelam as tríades, e vice-versa. Exemplos: G como tríade nas cordas 4-3-2, ou C tirado só da forma de A.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "enk-fXAONJQ#I06",
+    "kkr107pBAAs#I11",
+    "ea2g6P0pCKg#I05",
+    "ea2g6P0pCKg#I06"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "conceito",
+   "titulo": "Formas E, C e A: tríade superior e inferior, seis posições",
+   "descricao": "Descarte as cordas 5 e 6 e divida cada forma em uma tríade superior (cordas 1-3) e uma inferior (cordas 2-4). A nota-guia muda com a forma: na forma E é a 1ª corda (G na casa 3, C na casa 8), na forma C é a 2ª corda (G na casa 8) e na forma A é a 3ª corda (G na casa 12). Assim cada acorde maior aparece em seis lugares, repetidos a cada 12 casas.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "QXp8yDb3zyQ#I04",
+    "QXp8yDb3zyQ#I05",
+    "QXp8yDb3zyQ#I06",
+    "QXp8yDb3zyQ#I07",
+    "QXp8yDb3zyQ#I08",
+    "QXp8yDb3zyQ#I09",
+    "QXp8yDb3zyQ#I11"
+   ],
+   "divergencias": "",
+   "correcoes": "No #71, a legenda “os seis a eliminar” corresponde a “as cordas a eliminar são a 5 e a 6”."
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "I-IV-V (G-C-D) com tríades superiores e inferiores",
+   "descricao": "Toque G-C-D-G escolhendo a forma vizinha de cada acorde. Para achar o D, suba duas casas qualquer forma de C. Faça primeiro só com as tríades superiores (cordas 1-3), depois só com as inferiores (cordas 2-4), e por fim alternando superior e inferior. Depois transponha para outras tonalidades.",
+   "passos": [
+    "G forma E → C forma C → D forma E → G forma A, nas cordas 1-3.",
+    "Repita nas cordas 2-4.",
+    "Alterne: inferior de G, superior de C, inferior de D, superior de G.",
+    "Inverta a alternância, começando pela outra.",
+    "Diga os graus em voz alta e transponha."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "QXp8yDb3zyQ#I12",
+    "QXp8yDb3zyQ#I13",
+    "QXp8yDb3zyQ#I14",
+    "QXp8yDb3zyQ#I15",
+    "QXp8yDb3zyQ#I29",
+    "QXp8yDb3zyQ#I10",
+    "QXp8yDb3zyQ#I16"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Tríade diagonal em duas cordas",
+   "descricao": "A tríade pode ser tocada em apenas duas cordas vizinhas, num desenho diagonal. Exemplos nas cordas 1 e 2: A maior (A-C#-E) e A menor (A-C-E, 1-♭3-5), na mesma forma com a 3ª uma casa abaixo.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EY6-VNz81HE#I01",
+    "EY6-VNz81HE#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K19",
+   "tipo": "dica",
+   "titulo": "Digitações das formas de tríade",
+   "descricao": "Am diagonal nas cordas agudas: médio, indicador e mínimo, o mesmo padrão da maior. Adim: anelar, indicador e mínimo, ou médio, indicador e anelar, conforme o conforto. Quando três notas caem na mesma casa em cordas vizinhas, uma pestana com o anelar facilita.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "EY6-VNz81HE#I03",
+    "EY6-VNz81HE#I05",
+    "jeJEMmEIVqk#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "exercicio",
+   "titulo": "Deslocar a tríade diagonal pelos três pares de cordas",
+   "descricao": "Toque A maior nas cordas 1-2 e copie o mesmo desenho para as cordas 3-4 e 5-6, cobrindo três oitavas. Depois faça o mesmo com A menor e A diminuta.",
+   "passos": [
+    "A maior nas cordas 1-2.",
+    "Copie para 3-4 e 5-6.",
+    "Suba e desça pelos três pares.",
+    "Repita com Am e Adim e compare as cores."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "EY6-VNz81HE#I07",
+    "EY6-VNz81HE#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "dica",
+   "titulo": "Uma forma compacta repetida em cada oitava",
+   "descricao": "Em vez de montar o arpejo pelo braço inteiro, use uma forma compacta de C (médio no C da corda E grave, indicador no E, mínimo no G) e repita-a em cada oitava de Dó. Basta ter a forma visualizada para acessá-la por posição quando o contexto pedir. Ela também se transpõe (ex.: para G) e funciona sobre Em, útil no metal.",
+   "passos": [
+    "Ache o primeiro Dó.",
+    "Monte a forma a partir dele.",
+    "Repita na oitava seguinte.",
+    "Repita na terceira oitava."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "14UZEproJ-A#I03",
+    "14UZEproJ-A#I04",
+    "14UZEproJ-A#I13",
+    "14UZEproJ-A#I09"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Escala harmonizada em tríades (campo harmônico)",
+   "descricao": "Percorra o campo de Dó em um grupo de cordas (G-B-E), sempre na mesma inversão: C, Dm, Em, F, G, Am, Bdim, C. Desça uma oitava quando o braço acabar; referências: Am 5-5-5 na 1ª inversão e F 5-6-5 na 2ª. Em Sol, toque G-Am-Bm-C-D-Em-F#dim em 1ª inversão (G = 4-3-3) sobre uma base. Variação: na mesma região, alterne a direção (C sobe, Dm desce, Em sobe, F desce).",
+   "passos": [
+    "Fundamental: de C 5-5-3 grau a grau até C.",
+    "1ª inversão: de C 9-8-8, descendo 12 casas quando preciso.",
+    "2ª inversão: inclua F 5-6-5.",
+    "Em Sol: as sete tríades em 1ª inversão sobre a base.",
+    "Variação: alterne subir e descer arpejos numa posição."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "MvUgoNBTNjA#I04",
+    "MvUgoNBTNjA#I05",
+    "ui6qUcvaKU0#I17",
+    "ui6qUcvaKU0#I18",
+    "ui6qUcvaKU0#I19",
+    "XL9TYmwkHWs#I19"
+   ],
+   "divergencias": "",
+   "correcoes": "No #1, a forma de G em 1ª inversão nas cordas G-B-E é 4-3-3 (B-D-G), com a fundamental na casa 3 da corda E aguda."
+  },
+  {
+   "id": "K23",
+   "tipo": "exercicio",
+   "titulo": "Sequência melódica de tríades em Mi maior (Rick Beato)",
+   "descricao": "Suba por E, F#m, E/G#, A, B, C#m, B/D#, E: o baixo forma a escala de E maior (E-F#-G#-A-B-C#-D#-E). Toque nos três grupos de quatro cordas com os mesmos voicings. Comece pela versão só com os acordes e depois passe para a versão mais movimentada; o resultado serve como vocabulário de improviso.",
+   "passos": [
+    "Toque a sequência no grupo grave de quatro cordas.",
+    "Repita no grupo do meio.",
+    "Repita nas quatro agudas, com digitação quase igual.",
+    "Passe da versão simples para a movimentada."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "ruwSeYsJtgI#I01",
+    "ruwSeYsJtgI#I02",
+    "ruwSeYsJtgI#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Um arpejo por acorde em três regiões CAGED (Edu Ardanuy)",
+   "descricao": "Sobre Em-Bm-C-G-D, toque um arpejo de tríade por acorde dentro de uma região. Bloco 1: Em(A), Bm(E), C(E), G(C), D(A). Bloco 2: Em(C), Bm(A), C(A), G(E), D(C). Bloco 3: Em(E), Bm(C), C(C), G(A), D(E). Conhecer bem os shapes da região é o que permite trocar de arpejo a cada acorde.",
+   "passos": [
+    "Toque o bloco 1 em loop.",
+    "Toque o bloco 2 em loop.",
+    "Toque o bloco 3 em loop.",
+    "Ouça a harmonia desenhada só pelos arpejos."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "QS6dpweE_Q4#I03",
+    "QS6dpweE_Q4#I05",
+    "QS6dpweE_Q4#I06",
+    "QS6dpweE_Q4#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "conceito",
+   "titulo": "Escolher a inversão mais próxima do acorde anterior",
+   "descricao": "Em vez de saltar pelo braço com a mesma forma, use a inversão do próximo acorde que está mais perto da posição atual. Assim as vozes se movem pouco e a ligação entre os acordes fica suave.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "MvUgoNBTNjA#I19",
+    "ui6qUcvaKU0#I26",
+    "ui6qUcvaKU0#I28"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "exercicio",
+   "titulo": "Progressão com movimento mínimo (G-D-Am-G-D-C)",
+   "descricao": "Revise as três inversões maiores, menores e diminutas nas cordas G-B-E. Toque G (4-3-3, na 3ª casa), o D mais próximo (2-3-2), Am 5-5-5 e C 5-5-3. Depois troque as inversões de partida e repita em outras regiões até dominar o braço.",
+   "passos": [
+    "Revise as inversões nas três cordas agudas.",
+    "G 4-3-3 → D 2-3-2 → Am 5-5-5.",
+    "G → D → C 5-5-3.",
+    "Recomece por outra inversão de G.",
+    "Mude de região e repita."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "MvUgoNBTNjA#I20",
+    "MvUgoNBTNjA#I22",
+    "MvUgoNBTNjA#I23",
+    "XL9TYmwkHWs#I23"
+   ],
+   "divergencias": "",
+   "correcoes": "O “5 5 3” do C no #63 é a forma de C em posição fundamental nas cordas G-B-E (C-E-G), que fica perto do Am 5-5-5."
+  },
+  {
+   "id": "K27",
+   "tipo": "conceito",
+   "titulo": "Dobrar uma nota para encaixar a tríade no 4/4",
+   "descricao": "Três notas em grupos de quatro tempos soam desencontradas, e repetir uma delas resolve. As opções são 1-1-3-5 (em A: A-A-C#-E), 1-3-3-5 ou 1-3-5-5. A nota repetida não precisa ser consecutiva: o padrão preferido de Seriff é 3-5-3-1.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "EY6-VNz81HE#I10",
+    "EY6-VNz81HE#I11",
+    "EY6-VNz81HE#I12",
+    "EY6-VNz81HE#I13"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "exercicio",
+   "titulo": "Padrão 3-5-3-1 nas tríades de Sol maior sobre Lá dórico",
+   "descricao": "Sobre A dórico, use as tríades do campo de G (G, Am, Bm, C, D, Em, F#dim) no padrão 3-5-3-1, com pull-offs e forma diagonal. Mude de oitava quando ficar agudo demais.",
+   "passos": [
+    "G maior em 3-5-3-1.",
+    "Siga por Am, Bm, C, D, Em, F#dim.",
+    "Use pull-offs entre as notas.",
+    "Troque de oitava quando necessário.",
+    "Repita em cada grupo de cordas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "EY6-VNz81HE#I18",
+    "EY6-VNz81HE#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K29",
+   "tipo": "conceito",
+   "titulo": "Shell: tríade sem a nota do meio",
+   "descricao": "Shell é a forma de tríade sem a nota central, ficando só as duas notas externas. O som continua sendo o da mesma tríade, mais aberto e leve.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "qIewGDRWBu8#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "exercicio",
+   "titulo": "Montar e aplicar shells (ex.: sobre E maior)",
+   "descricao": "Pegue formas de tríade conhecidas, retire a nota do meio e ajuste a mão. Sobre E maior, toque os shells das três formas de E e, entre as duas mais agudas, insira duas notas de passagem (da escala de A maior). Opções de articulação: chegar à nota grave de cada shell com slide a partir de notas abaixo, ou tocar a grave com a palheta e a aguda com o dedo (chicken picking).",
+   "passos": [
+    "Escolha uma forma de tríade.",
+    "Remova a nota do meio.",
+    "Encadeie as três formas de E em shell.",
+    "Insira notas de passagem entre as agudas.",
+    "Compare com a versão de tríade cheia."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "qIewGDRWBu8#I08",
+    "qIewGDRWBu8#I14",
+    "qIewGDRWBu8#I10",
+    "7Pdss_Gswtc#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K31",
+   "tipo": "dica",
+   "titulo": "Tocar só duas cordas da tríade",
+   "descricao": "Não é preciso tocar as três cordas o tempo todo. Pares das cordas 1-2 ou 2-3 da tríade dão som de acorde dentro da frase com menos notas, alternando entre notas da tríade (ex.: na região das casas 4-5 das cordas 1 e 2).",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "QXp8yDb3zyQ#I24",
+    "TdzOXWlKtTQ#I24"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K32",
+   "tipo": "recurso",
+   "titulo": "Tríade aberta com a 3ª uma oitava acima",
+   "descricao": "Tocar a tríade levando a 3ª maior uma oitava acima cria um voicing aberto com sonoridade de Eric Johnson. Funciona especialmente bem com delay e overdrive suave.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "XL9TYmwkHWs#I17"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K33",
+   "tipo": "dica",
+   "titulo": "Usar tríades com musicalidade, não de forma literal",
+   "descricao": "Tríades destacam as notas do acorde e geram sons interessantes, mas, tocadas literalmente e espalhadas pelo braço sobre a progressão, soam óbvias. Use-as com moderação, alterne inversões e faça zigue-zague entre as notas dentro da mesma frase. Combine com outras ideias melódicas, como notas de órbita e shells.",
+   "passos": [],
+   "nivel": "intermediario",
+   "fontes": [
+    "3dW_GQsC5Ak#I18",
+    "Rm8Y-Q6wbR4#I13",
+    "qIewGDRWBu8#I19",
+    "Z-KzfB7vfFA#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K34",
+   "tipo": "exercicio",
+   "titulo": "Improvisar só com formas de tríade e extensões",
+   "descricao": "Num blues em G, improvise apenas com tríades e suas versões com 6, 7 ou 9, que valem tanto na tríade superior quanto na inferior. São seis posições por sonoridade, o que permite trocar de cor sem mudar de região.",
+   "passos": [
+    "Escolha uma região de G (forma E, C ou A).",
+    "Toque uma tríade ou extensão por compasso.",
+    "Vá para a forma vizinha de C ou D na troca.",
+    "Varie entre tríade, 6, 7 e 9."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "QXp8yDb3zyQ#I23",
+    "QXp8yDb3zyQ#I22",
+    "QXp8yDb3zyQ#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "fhzrQgPROxg#I16",
+   "sugestao": "C10.3",
+   "motivo": "Arpejo de sétima (3-5-♭7-1) começando pela 3ª."
+  },
+  {
+   "id": "fhzrQgPROxg#I17",
+   "sugestao": "C10.3",
+   "motivo": "Inversões aleatórias de arpejos com 7ª."
+  },
+  {
+   "id": "kkr107pBAAs#I05",
+   "sugestao": "C10.4",
+   "motivo": "Tríades dentro da pentatônica de Am para solar."
+  },
+  {
+   "id": "kkr107pBAAs#I10",
+   "sugestao": "C10.4",
+   "motivo": "Tocar notas de tríade sobre backing track como base de frase dentro da escala."
+  },
+  {
+   "id": "wXZGcgYysNs#I05",
+   "sugestao": "C10.4",
+   "motivo": "Mini shapes de tríade encaixados na pentatônica."
+  },
+  {
+   "id": "mtRKsf1Y5cw#I18",
+   "sugestao": "C10.4",
+   "motivo": "Inversões a partir da corda G dentro do shape da pentatônica maior."
+  },
+  {
+   "id": "yOAu9Asr9A4#I07",
+   "sugestao": "C10.5",
+   "motivo": "Tríades de um tom e de um tom e meio acima como fragmentos sobrepostos."
+  },
+  {
+   "id": "XL9TYmwkHWs#I21",
+   "sugestao": "C09.3",
+   "motivo": "Seguir um acorde de fora da tonalidade (E7 em C)."
+  },
+  {
+   "id": "fxpn2pf0zf8#I12",
+   "sugestao": "C10.1",
+   "motivo": "Formas de arpejo com raiz na corda E."
+  },
+  {
+   "id": "fxpn2pf0zf8#I13",
+   "sugestao": "C10.1",
+   "motivo": "Arpejos com raiz na corda A."
+  },
+  {
+   "id": "fxpn2pf0zf8#I14",
+   "sugestao": "C10.1",
+   "motivo": "Transpor forma de arpejo da corda E para a A."
+  },
+  {
+   "id": "fxpn2pf0zf8#I15",
+   "sugestao": "C10.1",
+   "motivo": "Combinar raízes E e A em arpejos."
+  },
+  {
+   "id": "fxpn2pf0zf8#I16",
+   "sugestao": "C10.1",
+   "motivo": "Analogia arpejo/pestana."
+  },
+  {
+   "id": "fxpn2pf0zf8#I17",
+   "sugestao": "C10.1",
+   "motivo": "Escolha de posição de arpejo."
+  },
+  {
+   "id": "fxpn2pf0zf8#I18",
+   "sugestao": "C10.1",
+   "motivo": "G-C-D com arpejos de raiz E e A."
+  },
+  {
+   "id": "fxpn2pf0zf8#I20",
+   "sugestao": "C10.1",
+   "motivo": "Arpejo menor revela pestana."
+  },
+  {
+   "id": "fxpn2pf0zf8#I21",
+   "sugestao": "C10.1",
+   "motivo": "Arpejos de C com raiz na corda A."
+  }
+ ],
+ "observacoes": "Os itens K07 a K10 seguem o sistema de Daniel Seriff nas cordas 6-5-4 e K06/K22/K26 seu sistema nas cordas G-B-E. Todas as casas foram conferidas pela afinação padrão. A forma compacta de Steve Stine (K21) não tem casas exatas na fonte e por isso foi descrita só pelos dedos.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "estilo": "enxuto",
+  "ideias_principais": 135,
+  "ideias_secundarias": 26,
+  "itens": 34,
+  "fora_do_lugar": 17,
+  "custo_usd": 0.2655,
+  "via": "api-batch",
+  "usage": {
+   "input_tokens": 37371,
+   "output_tokens": 19072
+  },
+  "gerado_em": "2026-10-08T10:20:25",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 2,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

@@ -1,0 +1,552 @@
+{
+ "fonte_id": "UiCQL5cxnUA",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+  "autor": "Cifra Club",
+  "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA",
+  "idioma": "pt",
+  "duracao": "15m 50s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/UiCQL5cxnUA--como-tocar-blues-tudo-que-você-precisa-para-começar.md"
+ },
+ "resumo": "Aula introdutória do Cifra Club, com o instrutor Vinicius Dias, sobre como começar a tocar blues: estrutura de 12 compassos, harmonia com acordes com sétima (I7, IV7, V7), repertório, licks da pentatônica, bends e double stops, blue notes e turnarounds. Destina-se a iniciantes que já tocam algum acorde e querem entender a linguagem básica do blues. O conteúdo é mais panorâmico do que aprofundado, e parte dos exemplos depende de ouvir ou ver a tablatura.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Apresenta os pilares do blues de forma organizada e com exemplos úteis (progressão de 12 compassos, call and response, bends, blue notes, turnarounds). Porém a legenda automática está muito ruim, os exemplos são tocados sem explicação detalhada de notas e casas, e muita coisa depende de ver a tela ou a tablatura."
+ },
+ "assuntos_principais": [
+  "estrutura de 12 compassos",
+  "harmonia do blues com acordes com sétima",
+  "repertório",
+  "licks de pentatônica",
+  "call and response",
+  "bends e double stops",
+  "blue notes",
+  "turnarounds"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "00:54",
+   "resumo": "Apresentação do tema e do instrutor, pedido de inscrição no canal e menção ao black Ice (palhetas).",
+   "assuntos": [
+    "apresentação",
+    "inscrição no canal"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Estrutura do blues e progressão de 12 compassos",
+   "inicio": "00:54",
+   "fim": "02:13",
+   "resumo": "Blues como estilo de estrutura fixa, focado em contar histórias; exemplo de progressão tocada com base de bateria.",
+   "assuntos": [
+    "estrutura do blues",
+    "progressão tradicional",
+    "backing track"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Entenda a harmonia",
+   "inicio": "02:13",
+   "fim": "03:50",
+   "resumo": "Uso de acordes com sétima (dominantes) no I, IV e V graus, com a progressão de 12 compassos no tom de dó.",
+   "assuntos": [
+    "acordes com sétima",
+    "I IV V",
+    "progressão de 12 compassos",
+    "tom de dó"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "O que caracteriza um blues e repertório",
+   "inicio": "03:50",
+   "fim": "04:54",
+   "resumo": "Variações harmônicas do blues, a importância de ter repertório e de estudar blues mais simples no início.",
+   "assuntos": [
+    "variações do blues",
+    "repertório"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Licks que você precisa saber",
+   "inicio": "04:54",
+   "fim": "06:25",
+   "resumo": "Três licks típicos: um lick clichê na região da pentatônica, um lick de pergunta e resposta e um lick com dois trechos que terminam na tônica.",
+   "assuntos": [
+    "licks",
+    "pentatônica",
+    "call and response",
+    "tônica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Bends e double stops",
+   "inicio": "06:25",
+   "fim": "07:13",
+   "resumo": "Uso de bends e double stops para dar caráter ao fraseado, com demonstração trocando a última nota de uma frase por um double stop.",
+   "assuntos": [
+    "bends",
+    "double stops"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "The Thrill Is Gone (B.B. King) e demonstração de bend",
+   "inicio": "07:13",
+   "fim": "08:04",
+   "resumo": "Referência à música The Thrill Is Gone de B.B. King, com demonstração de frase com bend.",
+   "assuntos": [
+    "B.B. King",
+    "bend",
+    "frase característica"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "A cereja do bolo: blue notes",
+   "inicio": "08:04",
+   "fim": "10:17",
+   "resumo": "Explicação das blue notes como cromatismos que dão a sonoridade do blues, com passagens entre terça menor e maior, quarta justa e aumentada, quinta e sétima menor e maior.",
+   "assuntos": [
+    "blue notes",
+    "cromatismo",
+    "terça menor e maior",
+    "quarta aumentada",
+    "sétima menor e maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Turnarounds",
+   "inicio": "10:17",
+   "fim": "13:29",
+   "resumo": "Turnarounds como passagens de retorno ao início da progressão, com três exemplos e a ideia de fechar em cima do V grau.",
+   "assuntos": [
+    "turnarounds",
+    "retorno ao I",
+    "acorde de V grau"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Juntando tudo",
+   "inicio": "13:29",
+   "fim": "15:27",
+   "resumo": "Demonstração de como combinar licks, bends, blue notes e turnarounds em um solo, incluindo uma nona no acorde de F7.",
+   "assuntos": [
+    "integração",
+    "nona no acorde de F7",
+    "solo completo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Despedida",
+   "inicio": "15:27",
+   "fim": "15:50",
+   "resumo": "Convite para praticar com a backing track e deixar dúvidas nos comentários.",
+   "assuntos": [
+    "despedida",
+    "prática"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Blues como estrutura de 12 compassos",
+   "descricao": "O blues é um estilo de estrutura fixa, em que a progressão tradicional de 12 compassos (I, IV, V) serve de base e a atenção principal fica na letra e na melodia.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "12 compassos",
+    "estrutura",
+    "progressão"
+   ],
+   "id_global": "UiCQL5cxnUA#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Treinar sobre backing track de bateria",
+   "descricao": "Tocar a progressão de blues sobre uma base de bateria ajuda a sentir o groove e a estrutura do estilo.",
+   "passos": [],
+   "timestamp": "01:07",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "groove",
+    "treino"
+   ],
+   "id_global": "UiCQL5cxnUA#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Acordes com sétima como sonoridade do blues",
+   "descricao": "No blues tradicional usam-se acordes com sétima (dominantes) em vez de tríades: no tom de dó, C7, F7 e G7 nos graus I, IV e V. A sétima de C7 é B♭, não B.",
+   "passos": [],
+   "timestamp": "02:19",
+   "nivel": "iniciante",
+   "tags": [
+    "acordes com sétima",
+    "dominante",
+    "I IV V",
+    "tom de dó"
+   ],
+   "id_global": "UiCQL5cxnUA#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Progressão tradicional de 12 compassos como ponto de partida",
+   "descricao": "A estrutura de 12 compassos com os graus I, IV e V é o ponto de partida para construir solos e acompanhamentos de blues.",
+   "passos": [],
+   "timestamp": "02:53",
+   "nivel": "iniciante",
+   "tags": [
+    "12 compassos",
+    "graus",
+    "ponto de partida"
+   ],
+   "id_global": "UiCQL5cxnUA#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "mentalidade",
+   "titulo": "Repertório antes de improvisar",
+   "descricao": "Não é possível improvisar blues de forma convincente sem antes ter um repertório de frases e músicas aprendidas; por isso vale estudar blues mais simples no início.",
+   "passos": [],
+   "timestamp": "04:20",
+   "nivel": "iniciante",
+   "tags": [
+    "repertório",
+    "linguagem",
+    "estudo"
+   ],
+   "id_global": "UiCQL5cxnUA#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Lick clássico na região da pentatônica",
+   "descricao": "Lick muito conhecido, tocado na região mais famosa da pentatônica, que pode ser usado em qualquer ponto de um solo de blues porque sempre soa bem.",
+   "passos": [],
+   "timestamp": "04:54",
+   "nivel": "iniciante",
+   "tags": [
+    "lick",
+    "pentatônica",
+    "clichê"
+   ],
+   "id_global": "UiCQL5cxnUA#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Lick de pergunta e resposta",
+   "descricao": "Lick em formato call and response: uma frase de pergunta seguida de uma resposta, repetida em conjunto. Depois a resposta se repete por inteiro.",
+   "passos": [
+    "Tocar a frase de pergunta",
+    "Responder com a frase de resposta",
+    "Repetir o conjunto para completar a ideia"
+   ],
+   "timestamp": "05:26",
+   "nivel": "iniciante",
+   "tags": [
+    "call and response",
+    "lick",
+    "frase"
+   ],
+   "id_global": "UiCQL5cxnUA#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "frase_lick",
+   "titulo": "Lick com trechos que terminam na tônica",
+   "descricao": "Frase que começa nas notas do segundo e terceiro trastes da região tocada, desce e fecha na tônica da progressão, que é a nota de resolução mais importante do blues.",
+   "passos": [],
+   "timestamp": "06:03",
+   "nivel": "intermediario",
+   "tags": [
+    "lick",
+    "tônica",
+    "resolução"
+   ],
+   "id_global": "UiCQL5cxnUA#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Bends e double stops no fraseado",
+   "descricao": "Bends e double stops são técnicas características do blues e devem ser usadas com frequência ao tocar uma melodia.",
+   "passos": [],
+   "timestamp": "06:25",
+   "nivel": "iniciante",
+   "tags": [
+    "bend",
+    "double stop",
+    "fraseado"
+   ],
+   "id_global": "UiCQL5cxnUA#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Transformar a última nota de uma frase em double stop",
+   "descricao": "Trocar a última nota de uma frase simples por um double stop deixa a frase muito mais característica do blues.",
+   "passos": [
+    "Tocar a frase normalmente",
+    "Trocar a última nota por um double stop",
+    "Comparar as duas versões"
+   ],
+   "timestamp": "06:37",
+   "nivel": "iniciante",
+   "tags": [
+    "double stop",
+    "fraseado",
+    "comparação"
+   ],
+   "id_global": "UiCQL5cxnUA#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S7",
+   "tipo": "recurso",
+   "titulo": "Estudar The Thrill Is Gone de B.B. King",
+   "descricao": "A música The Thrill Is Gone, de B.B. King, é citada como referência de linguagem de blues com bends e frases características.",
+   "passos": [],
+   "timestamp": "07:13",
+   "nivel": "iniciante",
+   "tags": [
+    "B.B. King",
+    "referência",
+    "repertório"
+   ],
+   "id_global": "UiCQL5cxnUA#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Blue notes como cromatismos do blues",
+   "descricao": "As blue notes são notas cromáticas adicionadas à escala que criam a sonoridade do blues. A mais famosa é a ♭5 em relação à tônica, chamada de nota da tristeza.",
+   "passos": [],
+   "timestamp": "08:04",
+   "nivel": "intermediario",
+   "tags": [
+    "blue notes",
+    "cromatismo",
+    "♭5"
+   ],
+   "id_global": "UiCQL5cxnUA#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Passagens cromáticas entre terça menor e maior",
+   "descricao": "Pode-se passar cromaticamente da terça menor para a terça maior dentro de um fraseado de blues, o que dá a sonoridade típica do estilo.",
+   "passos": [],
+   "timestamp": "08:40",
+   "nivel": "intermediario",
+   "tags": [
+    "blue notes",
+    "terça menor",
+    "terça maior"
+   ],
+   "id_global": "UiCQL5cxnUA#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Passagens cromáticas em quarta, quinta e sétima",
+   "descricao": "Também são usadas passagens cromáticas da quarta justa para a quarta aumentada, da quinta justa para a sexta menor, e da sétima menor para a sétima maior, sempre com resolução na oitava.",
+   "passos": [],
+   "timestamp": "09:14",
+   "nivel": "avancado",
+   "tags": [
+    "blue notes",
+    "quarta aumentada",
+    "sétima menor",
+    "sétima maior"
+   ],
+   "id_global": "UiCQL5cxnUA#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Misturar blue notes e bends",
+   "descricao": "Combinar todas as possibilidades de blue notes e bends em uma mesma frase soa muito mais natural do que usá-las isoladamente.",
+   "passos": [],
+   "timestamp": "09:14",
+   "nivel": "intermediario",
+   "tags": [
+    "blue notes",
+    "bend",
+    "combinação"
+   ],
+   "id_global": "UiCQL5cxnUA#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S9",
+   "tipo": "conceito",
+   "titulo": "Turnaround como retorno ao início",
+   "descricao": "Turnarounds são passagens que ocorrem no fim do ciclo de 12 compassos para voltar ao início da progressão; costumam fechar sobre o acorde de V grau para preparar o retorno ao I.",
+   "passos": [],
+   "timestamp": "11:02",
+   "nivel": "intermediario",
+   "tags": [
+    "turnaround",
+    "retorno",
+    "V grau"
+   ],
+   "id_global": "UiCQL5cxnUA#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S9",
+   "tipo": "frase_lick",
+   "titulo": "Turnaround que fecha sobre a nota da progressão",
+   "descricao": "Primeiro turnaround apresentado, que termina em cima de uma nota da progressão harmônica tocada no início do ciclo, criando retorno suave ao início.",
+   "passos": [],
+   "timestamp": "11:40",
+   "nivel": "intermediario",
+   "tags": [
+    "turnaround",
+    "resolução"
+   ],
+   "id_global": "UiCQL5cxnUA#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "frase_lick",
+   "titulo": "Turnaround ascendente que cai do F7 para o E7",
+   "descricao": "Segundo turnaround: progressão subindo que termina caindo de F7 para E7 e voltando ao acorde de V grau, que prepara o retorno do ciclo.",
+   "passos": [],
+   "timestamp": "11:40",
+   "nivel": "intermediario",
+   "tags": [
+    "turnaround",
+    "F7",
+    "E7",
+    "V grau"
+   ],
+   "id_global": "UiCQL5cxnUA#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S9",
+   "tipo": "frase_lick",
+   "titulo": "Turnaround em registro agudo com nona",
+   "descricao": "Terceiro turnaround, feito em sequência mais aguda, sobre F7 com a nona adicionada, também usado como forma de fechar o ciclo.",
+   "passos": [],
+   "timestamp": "12:20",
+   "nivel": "avancado",
+   "tags": [
+    "turnaround",
+    "registro agudo",
+    "nona",
+    "F7"
+   ],
+   "id_global": "UiCQL5cxnUA#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S10",
+   "tipo": "dica",
+   "titulo": "Juntar licks, bends, blue notes e turnarounds em um solo",
+   "descricao": "A integração de todos os elementos anteriores em um único solo sobre a progressão de 12 compassos é o objetivo prático da aula.",
+   "passos": [
+    "Usar licks de pergunta e resposta no início",
+    "Inserir bends e double stops",
+    "Adicionar blue notes entre as notas da escala",
+    "Fechar o ciclo com um turnaround"
+   ],
+   "timestamp": "13:29",
+   "nivel": "intermediario",
+   "tags": [
+    "integração",
+    "solo",
+    "12 compassos"
+   ],
+   "id_global": "UiCQL5cxnUA#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S10",
+   "tipo": "exercicio",
+   "titulo": "Praticar com a backing track da descrição",
+   "descricao": "A descrição do vídeo traz uma backing track para treinar a progressão de blues, com a qual o aluno pode aplicar os exercícios da aula.",
+   "passos": [
+    "Abrir a backing track no link da descrição",
+    "Tocar a progressão de 12 compassos",
+    "Aplicar um lick, um bend e um turnaround em cada ciclo"
+   ],
+   "timestamp": "15:27",
+   "nivel": "iniciante",
+   "tags": [
+    "backing track",
+    "treino",
+    "prática"
+   ],
+   "id_global": "UiCQL5cxnUA#I21"
+  }
+ ],
+ "artistas_citados": [
+  "B.B. King",
+  "Ramones"
+ ],
+ "musicas_citadas": [
+  "The Thrill Is Gone"
+ ],
+ "recursos_citados": [
+  "Cifra Club Academy (curso de guitarra blues)",
+  "backing track de blues disponível no Google Drive (link na descrição)"
+ ],
+ "observacoes": "Legenda automática muito ruim: 'blusa' e 'blues', 'bens' (bends), 'Booster Land' e 'ter ROMs' (turnarounds), 'Bruno's' e 'glosas' (blue notes), 'beckham' e 'bruster' não são confiáveis. As notas citadas em voz alta (ex.: 'lá si dó ré com sétima') estão truncadas e foram interpretadas pela harmonia do tom de dó: C7, F7 e G7. Os licks e turnarounds dependem de ver a tela e a tablatura, então as descrições foram feitas pelos graus e pelas casas citadas de forma aproximada. As notas dos turnarounds e do trecho final não podem ser confirmadas só pelo áudio.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.0023,
+  "via": "api"
+ }
+}

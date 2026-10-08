@@ -1,0 +1,152 @@
+{
+ "fonte_id": "I2jAT4btppU",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "How to use arpeggios in your guitar solo 🎸🤔 #guitarlessons #guitar #musiclessons #lesson",
+  "autor": "Mike Salow",
+  "url": "https://www.youtube.com/watch?v=I2jAT4btppU",
+  "idioma": "en",
+  "duracao": "1m 19s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/I2jAT4btppU--how-to-use-arpeggios-in-your-guitar-solo-guitarlessons-guitar-musicles.md"
+ },
+ "resumo": "Dica rápida de Mike Salow sobre como usar arpeggios de forma musical na improvisação. Em vez de tocar o arpejo só subindo e descendo, use a escala ou pentatônica da tonalidade como \"rede de segurança\" e sobreponha mentalmente o arpejo do acorde (ex.: Fm em Cm) sobre ela, usando as notas do arpejo como notas-alvo. Indicado para iniciantes avançados e intermediários.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conceito claro e útil, mas o vídeo é muito curto, sem notas/casas específicas nem exercício detalhado; depende de demonstração visual."
+ },
+ "assuntos_principais": [
+  "arpejos",
+  "notas-alvo",
+  "pentatônica menor",
+  "improvisação sobre mudanças de acorde",
+  "visualização no braço"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "O problema: arpejo subindo e descendo",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Explica que o erro comum é tocar o arpejo apenas para cima e para baixo, o que soa pouco musical. Recomenda usar a escala da tonalidade como rede de segurança.",
+   "assuntos": [
+    "arpejos",
+    "erro comum",
+    "escala da tonalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Sobrepor o arpejo à pentatônica e usar notas-alvo",
+   "inicio": "00:32",
+   "fim": "01:06",
+   "resumo": "Visualizar o arpejo de Fm sobreposto à pentatônica de Cm e usar suas notas como notas-alvo, integrando os dois.",
+   "assuntos": [
+    "notas-alvo",
+    "pentatônica",
+    "visualização",
+    "integração"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Chamada para aulas particulares",
+   "inicio": "01:06",
+   "fim": "01:19",
+   "resumo": "Divulgação de aulas individuais e consulta gratuita.",
+   "assuntos": [
+    "propaganda"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "erro_comum",
+   "titulo": "Tocar o arpejo só subindo e descendo",
+   "descricao": "Quando surge um acorde novo (ex.: Fm numa progressão em Cm), é tentador apenas percorrer o arpejo para cima e para baixo. Isso cumpre tecnicamente 'usar um arpejo', mas soa mecânico e pouco musical.",
+   "passos": [],
+   "timestamp": "00:00",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo",
+    "erro comum",
+    "musicalidade"
+   ],
+   "id_global": "I2jAT4btppU#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "dica",
+   "titulo": "Usar a escala da tonalidade como rede de segurança",
+   "descricao": "Em Cm, use a escala menor ou a pentatônica menor de Cm como base 'catch-all' do solo. Ela é o território seguro ao qual você volta, e o arpejo entra como ponto de destaque quando o acorde muda.",
+   "passos": [],
+   "timestamp": "00:20",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica",
+    "escala",
+    "base",
+    "tonalidade"
+   ],
+   "id_global": "I2jAT4btppU#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Sobrepor o arpejo do acorde à pentatônica",
+   "descricao": "Visualize o shape do arpejo do acorde (ex.: Fm) sobreposto ao shape da pentatônica de Cm no braço. Assim você enxerga quais notas da pentatônica já são notas do arpejo e como o acorde se encaixa no desenho que você já usa.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "intermediario",
+   "tags": [
+    "arpejo",
+    "visualização",
+    "pentatônica",
+    "shapes"
+   ],
+   "id_global": "I2jAT4btppU#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "dica",
+   "titulo": "Usar as notas do arpejo como notas-alvo",
+   "descricao": "Enquanto toca a pentatônica de Cm, quando o acorde F menor chega, direcione a frase para notas do arpejo de Fm (target tones). Integrar arpejo e pentatônica soa mais musical do que tocar o arpejo isolado.",
+   "passos": [
+    "Toque a pentatônica menor de Cm como base.",
+    "Quando o acorde mudar para Fm, identifique as notas do arpejo de Fm dentro do shape.",
+    "Direcione as frases para essas notas, resolvendo nelas."
+   ],
+   "timestamp": "00:48",
+   "nivel": "intermediario",
+   "tags": [
+    "notas-alvo",
+    "arpejo",
+    "pentatônica",
+    "mudança de acordes"
+   ],
+   "id_global": "I2jAT4btppU#I04"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Aulas individuais com Mike Salow (consulta gratuita, link na bio)"
+ ],
+ "observacoes": "Transcrição boa. O vídeo depende de demonstração visual no braço da guitarra (shapes do arpejo de Fm sobre a pentatônica de Cm), que não aparece no texto. Notas, casas e posições não foram citadas.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:09:24",
+  "tentativas": 1,
+  "custo_usd": 0.1939
+ }
+}

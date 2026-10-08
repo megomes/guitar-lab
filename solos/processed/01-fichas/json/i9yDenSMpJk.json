@@ -1,0 +1,612 @@
+{
+ "fonte_id": "i9yDenSMpJk",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+  "autor": "JustinGuitar",
+  "url": "https://www.youtube.com/watch?v=i9yDenSMpJk",
+  "idioma": "en",
+  "duracao": "28m 45s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/i9yDenSMpJk--vibrato-on-guitar-6-techniques-mechanics.md"
+ },
+ "resumo": "Aula do JustinGuitar apresentando vibrato como oscilação de altura em torno da nota fundamental, com as duas variáveis principais (rate e depth) e seis técnicas: clássico (dedo oscilando), standard (rotação da mão com pivô na borda do braço), blues (mão solta, antebraço/mão 'bouncing', estilo Clapton), neck vibrato (empurrar o braço inteiro), bending vibrato e whammy bar. Destinada a iniciantes e intermediários que estão começando a improvisar, com foco em escolher o tipo adequado ao estilo e em imitar guitarristas admirados.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Explicações claras sobre mecânica e variáveis do vibrato, com exemplos sonoros e referências de artistas; porém muito conceitual, com pouquíssimos exercícios práticos e a demonstração depende de ver o vídeo."
+ },
+ "assuntos_principais": [
+  "vibrato",
+  "rate e depth",
+  "vibrato clássico",
+  "vibrato standard",
+  "vibrato de blues",
+  "neck vibrato",
+  "bending vibrato",
+  "whammy bar",
+  "mecânica da mão",
+  "imitação de guitarristas"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Introdução",
+   "inicio": "00:00",
+   "fim": "00:45",
+   "resumo": "Apresentação do tema e dos erros comuns de iniciantes com vibrato.",
+   "assuntos": [
+    "erros comuns de vibrato"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "O que é vibrato e variáveis rate e depth",
+   "inicio": "00:45",
+   "fim": "03:25",
+   "resumo": "Definição de vibrato como oscilação em torno da fundamental e explicação de rate e depth.",
+   "assuntos": [
+    "vibrato",
+    "fundamental",
+    "rate",
+    "depth"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Vibrato clássico",
+   "inicio": "03:25",
+   "fim": "07:27",
+   "resumo": "Vibrato de dedo oscilando, mecânica da tração da corda e uso em baladas e violão de nylon.",
+   "assuntos": [
+    "vibrato clássico",
+    "mecânica do dedo",
+    "violão de nylon"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Vibrato standard",
+   "inicio": "07:27",
+   "fim": "14:16",
+   "resumo": "Vibrato com pivô na borda da mão, mecânica igual à do bend, e preferência por bend para cima ou para baixo.",
+   "assuntos": [
+    "vibrato standard",
+    "pivô da mão",
+    "bend",
+    "dedo mínimo"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Vibrato de blues",
+   "inicio": "14:16",
+   "fim": "17:22",
+   "resumo": "Vibrato de mão solta (estilo Clapton), com movimento de antebraço e atrito na casa.",
+   "assuntos": [
+    "vibrato de blues",
+    "mão solta",
+    "antebraço"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Neck vibrato",
+   "inicio": "17:22",
+   "fim": "20:40",
+   "resumo": "Vibrato empurrando e puxando o braço, usado em acordes, com cuidado para não quebrar o braço.",
+   "assuntos": [
+    "neck vibrato",
+    "acordes"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Bending vibrato",
+   "inicio": "20:40",
+   "fim": "22:28",
+   "resumo": "Vibrato aplicado após bend, diferenciação do vibrato sobre nota movida de posição; recomendado para nível intermediário.",
+   "assuntos": [
+    "bending vibrato",
+    "bend"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Whammy bar e conclusão",
+   "inicio": "22:28",
+   "fim": "28:34",
+   "resumo": "Demonstração da whammy bar, comentários sobre Steve Vai e Jeff Beck, e orientação final de imitar cantores e guitarristas.",
+   "assuntos": [
+    "whammy bar",
+    "imitação",
+    "estudo do vibrato"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Despedida",
+   "inicio": "28:34",
+   "fim": "28:45",
+   "resumo": "Encerramento e convite para próximas aulas.",
+   "assuntos": [],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Vibrato como oscilação em torno da fundamental",
+   "descricao": "Vibrato é uma oscilação de altura em torno da nota fundamental: a nota sobe e desce, mas sempre retorna à fundamental. Se não voltar à fundamental, soa desafinado.",
+   "passos": [],
+   "timestamp": "00:45",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato",
+    "fundamental",
+    "afinação"
+   ],
+   "id_global": "i9yDenSMpJk#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Rate do vibrato",
+   "descricao": "Rate é a velocidade com que a nota se afasta e volta à fundamental. Muito lento quase não soa como vibrato; muito rápido soa como um 'boing'.",
+   "passos": [],
+   "timestamp": "01:36",
+   "nivel": "iniciante",
+   "tags": [
+    "rate",
+    "vibrato"
+   ],
+   "id_global": "i9yDenSMpJk#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Depth do vibrato",
+   "descricao": "Depth é a distância que a nota se afasta da fundamental: pode ser sutil ou muito larga.",
+   "passos": [],
+   "timestamp": "01:36",
+   "nivel": "iniciante",
+   "tags": [
+    "depth",
+    "vibrato"
+   ],
+   "id_global": "i9yDenSMpJk#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Direção da oscilação",
+   "descricao": "A oscilação pode ser só acima da fundamental, só abaixo ou nos dois sentidos; qual delas ocorre depende da técnica usada para criar o vibrato.",
+   "passos": [],
+   "timestamp": "02:55",
+   "nivel": "iniciante",
+   "tags": [
+    "direção",
+    "vibrato",
+    "mecânica"
+   ],
+   "id_global": "i9yDenSMpJk#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Vibrato clássico: mecânica do dedo",
+   "descricao": "No vibrato clássico o dedo fica sobre a casa e a mão balança para frente e para trás. Puxar a corda aumenta levemente a altura e, ao voltar, a nota fica levemente mais grave. A pressão do dedo também tem um pequeno efeito. A ponta do dedo deve ficar parada.",
+   "passos": [],
+   "timestamp": "04:04",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato clássico",
+    "mecânica",
+    "mão"
+   ],
+   "id_global": "i9yDenSMpJk#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Vibrato clássico é sutil e usado em baladas",
+   "descricao": "O vibrato clássico é sutil e funciona melhor em baladas e no violão de nylon, onde a corda permite mais profundidade. Não é indicado para blues.",
+   "passos": [],
+   "timestamp": "05:44",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato clássico",
+    "balada",
+    "nylon"
+   ],
+   "id_global": "i9yDenSMpJk#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "dica",
+   "titulo": "Ouvir linhas de violão clássico",
+   "descricao": "Para aprender o vibrato clássico, ouça como violonistas clássicos tocam linhas individuais, pois esse é quase o único tipo de vibrato que usam.",
+   "passos": [],
+   "timestamp": "06:17",
+   "nivel": "iniciante",
+   "tags": [
+    "referência",
+    "vibrato clássico",
+    "audição"
+   ],
+   "id_global": "i9yDenSMpJk#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Vibrato standard: pivô na borda da mão",
+   "descricao": "No vibrato standard os dedos ficam travados juntos e a mão gira como se houvesse um pivô na borda do braço (lateral da palma/primeiro dedo). Essa é a mesma mecânica usada no bend. A nota só sobe a partir da fundamental.",
+   "passos": [],
+   "timestamp": "07:58",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato standard",
+    "pivô",
+    "mecânica da mão",
+    "bend"
+   ],
+   "id_global": "i9yDenSMpJk#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S4",
+   "tipo": "erro_comum",
+   "titulo": "Mover os dedos em vez da mão",
+   "descricao": "Fazer o vibrato mexendo os dedos individualmente causa ruído e desafinação; o movimento deve vir da mão, com os dedos juntos.",
+   "passos": [],
+   "timestamp": "09:03",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "mecânica da mão"
+   ],
+   "id_global": "i9yDenSMpJk#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Dedo mínimo no vibrato",
+   "descricao": "O professor não usa o dedo mínimo para bend ou vibrato por ser mais curto e desconfortável; usar ou não o mínimo é uma escolha pessoal.",
+   "passos": [],
+   "timestamp": "10:09",
+   "nivel": "iniciante",
+   "tags": [
+    "dedo mínimo",
+    "escolha pessoal"
+   ],
+   "id_global": "i9yDenSMpJk#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Vibrato standard como padrão",
+   "descricao": "O vibrato standard é o mais usado e o mais fácil de soar bem; recomenda-se adotá-lo como estilo padrão. A amplitude (depth) pode ser pequena ou grande.",
+   "passos": [],
+   "timestamp": "10:09",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato standard",
+    "depth",
+    "padrão"
+   ],
+   "id_global": "i9yDenSMpJk#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Vibrato para cima ou para baixo",
+   "descricao": "O professor prefere puxar a corda para baixo (fazer o pull e release) ao invés de empurrar para cima; a escolha é pessoal e deve-se explorar as duas direções.",
+   "passos": [],
+   "timestamp": "10:43",
+   "nivel": "iniciante",
+   "tags": [
+    "direção",
+    "pull",
+    "release"
+   ],
+   "id_global": "i9yDenSMpJk#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Vibrato de blues com mão solta",
+   "descricao": "No vibrato de blues (estilo Clapton) a mão inteira sai da corda e apenas a ponta do dedo encosta na nota, que é 'quicada' para cima e para baixo. Gera um atrito na casa que sustenta a nota. Exige mais pressão e movimento do antebraço, não só do pulso.",
+   "passos": [],
+   "timestamp": "14:32",
+   "nivel": "intermediario",
+   "tags": [
+    "vibrato de blues",
+    "mão solta",
+    "antebraço",
+    "Clapton"
+   ],
+   "id_global": "i9yDenSMpJk#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Assistir Clapton para absorver o movimento",
+   "descricao": "Para aprender o vibrato de blues, assista vídeos de Eric Clapton observando sua mecânica e tente absorver o movimento visual e auditivo.",
+   "passos": [],
+   "timestamp": "16:11",
+   "nivel": "iniciante",
+   "tags": [
+    "referência",
+    "Clapton",
+    "vibrato de blues"
+   ],
+   "id_global": "i9yDenSMpJk#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Vibrato de butterfly (BB King)",
+   "descricao": "O vibrato de BB King, chamado butterfly ou flutter, é muito rápido, estreito e feito com o primeiro dedo a partir do pivô da mão.",
+   "passos": [],
+   "timestamp": "12:21",
+   "nivel": "intermediario",
+   "tags": [
+    "butterfly",
+    "BB King",
+    "vibrato rápido"
+   ],
+   "id_global": "i9yDenSMpJk#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S4",
+   "tipo": "dica",
+   "titulo": "Vibrato rock: aumentar rate e depth juntos",
+   "descricao": "Aumentar simultaneamente o rate e o depth da mesma técnica standard gera um vibrato largo e agressivo, típico do rock.",
+   "passos": [],
+   "timestamp": "13:27",
+   "nivel": "iniciante",
+   "tags": [
+    "vibrato rock",
+    "rate",
+    "depth"
+   ],
+   "id_global": "i9yDenSMpJk#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Sacudir o instrumento",
+   "descricao": "Balançar o violão inteiro no ar não gera vibrato; apenas produz ruído e perda de controle das cordas.",
+   "passos": [],
+   "timestamp": "17:51",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "neck vibrato"
+   ],
+   "id_global": "i9yDenSMpJk#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Neck vibrato",
+   "descricao": "No neck vibrato o corpo do violão é firmemente segurado e o braço é empurrado para frente e puxado para trás, mudando a tensão das cordas. Assim a altura pode descer e subir, o que é uma das poucas formas de obter oscilação abaixo da fundamental.",
+   "passos": [],
+   "timestamp": "17:51",
+   "nivel": "intermediario",
+   "tags": [
+    "neck vibrato",
+    "tensão",
+    "altura"
+   ],
+   "id_global": "i9yDenSMpJk#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S6",
+   "tipo": "erro_comum",
+   "titulo": "Quebrar o braço no neck vibrato",
+   "descricao": "Não force o neck vibrato ao máximo, especialmente com pessoas fortes, pois pode-se quebrar o braço.",
+   "passos": [],
+   "timestamp": "18:25",
+   "nivel": "intermediario",
+   "tags": [
+    "neck vibrato",
+    "segurança"
+   ],
+   "id_global": "i9yDenSMpJk#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S6",
+   "tipo": "dica",
+   "titulo": "Neck vibrato para acordes",
+   "descricao": "O neck vibrato é usado principalmente em acordes, de forma sutil, e raramente em linhas de uma nota só.",
+   "passos": [],
+   "timestamp": "18:56",
+   "nivel": "intermediario",
+   "tags": [
+    "neck vibrato",
+    "acordes"
+   ],
+   "id_global": "i9yDenSMpJk#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Bending vibrato",
+   "descricao": "No bending vibrato a nota é primeiro bendada para outra nota e depois o vibrato oscila em torno dessa nota bendada, voltando a ela. Diferencia-se do vibrato após mover a posição, que oscila apenas acima da fundamental.",
+   "passos": [],
+   "timestamp": "20:40",
+   "nivel": "intermediario",
+   "tags": [
+    "bending vibrato",
+    "bend",
+    "fundamental"
+   ],
+   "id_global": "i9yDenSMpJk#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S7",
+   "tipo": "dica",
+   "titulo": "Aprender bend e vibrato separadamente",
+   "descricao": "Antes de combinar bend e vibrato, aprenda ambos separadamente; a combinação é conteúdo intermediário a médio.",
+   "passos": [],
+   "timestamp": "22:16",
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "vibrato",
+    "progressão"
+   ],
+   "id_global": "i9yDenSMpJk#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S8",
+   "tipo": "recurso",
+   "titulo": "Whammy bar para vibrato",
+   "descricao": "A whammy bar (alavanca de tremolo) permite oscilar a altura para cima e para baixo; é usada por guitarristas como Dave Gilmour e Steve Vai, mas o professor usa pouco.",
+   "passos": [],
+   "timestamp": "22:28",
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "tremolo",
+    "vibrato"
+   ],
+   "id_global": "i9yDenSMpJk#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Explorar a whammy bar com cuidado",
+   "descricao": "A whammy bar permite controle preciso da altura, inclusive para harmônicos e efeitos de rock; ajuste a afinação (parafuso) para evitar folga e ruídos.",
+   "passos": [],
+   "timestamp": "23:24",
+   "nivel": "intermediario",
+   "tags": [
+    "whammy bar",
+    "ajuste",
+    "afinação"
+   ],
+   "id_global": "i9yDenSMpJk#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Imitar o vibrato de um guitarrista admirado",
+   "descricao": "Escute um guitarrista que você admira, foque apenas no vibrato dele e tente reproduzir esse som, treinando o corpo para produzir a sonoridade que está na imaginação musical.",
+   "passos": [
+    "Escolha um guitarrista que você admira.",
+    "Ouça várias vezes focando só no vibrato.",
+    "Tente reproduzir o som, ajustando a mecânica até ficar parecido."
+   ],
+   "timestamp": "26:11",
+   "nivel": "iniciante",
+   "tags": [
+    "imitação",
+    "audição",
+    "estilo"
+   ],
+   "id_global": "i9yDenSMpJk#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S8",
+   "tipo": "mentalidade",
+   "titulo": "Vibrato evolui com o tempo",
+   "descricao": "O vibrato não surge pronto: em cantores, por exemplo, a nota começa reta e o vibrato entra gradualmente. Além de rate e depth, importa quão rápido eles entram no vibrato.",
+   "passos": [],
+   "timestamp": "27:19",
+   "nivel": "iniciante",
+   "tags": [
+    "mentalidade",
+    "vibrato",
+    "evolução"
+   ],
+   "id_global": "i9yDenSMpJk#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Experimentar os tipos de vibrato na escala maior",
+   "descricao": "Para iniciantes, após dominar a escala maior, experimente os diferentes tipos de vibrato apenas para explorar, sem esperar domínio imediato.",
+   "passos": [
+    "Escolha uma escala maior.",
+    "Toque uma nota e aplique um tipo de vibrato por vez.",
+    "Compare o som de cada tipo e observe rate e depth."
+   ],
+   "timestamp": "27:19",
+   "nivel": "iniciante",
+   "tags": [
+    "exercício",
+    "escala maior",
+    "experimentação"
+   ],
+   "id_global": "i9yDenSMpJk#I27"
+  }
+ ],
+ "artistas_citados": [
+  "JustinGuitar",
+  "Dominic Miller",
+  "Sting",
+  "Mark Knopfler",
+  "BB King",
+  "Eric Clapton",
+  "Joe Satriani",
+  "Steve Vai",
+  "Gary Moore",
+  "Angus Young",
+  "Jim Campilongo",
+  "Dave Gilmour",
+  "Jeff Beck",
+  "Hank Marvin"
+ ],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso de teoria musical do JustinGuitar",
+  "Lições de vibrato no site do JustinGuitar",
+  "Aulas do intermediário do JustinGuitar"
+ ],
+ "observacoes": "Transcrição automática com erros: 'Dave Gilmore' provavelmente é Dave Gilmour, 'JFK' e 'Jeff x Steve' provavelmente se referem a Jeff Beck e Steve Vai, 'Bibi' é BB King, 'Jim cam for Longo' é Jim Campilongo, 'Patrick eggle' é Patrick Eggle e 'proprietor' provavelmente é 'proportionate'. Várias passagens dependem de ver a demonstração física (vibrato clássico, neck vibrato, mão solta). A ficha não traz tablatura nem exemplos de notas específicas. A descrição 'mão solta' (blues) é interpretada a partir de explicação verbal confusa. Os timestamps dos segmentos seguem os capítulos da descrição, mas algumas ideias usam o timestamp do transcript onde são mencionadas.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00223,
+  "via": "api"
+ }
+}

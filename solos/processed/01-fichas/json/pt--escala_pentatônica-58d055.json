@@ -1,0 +1,313 @@
+{
+ "fonte_id": "pt--escala_pentatônica-58d055",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Escala pentatônica – Wikipédia, a enciclopédia livre",
+  "autor": "",
+  "url": "https://pt.wikipedia.org/wiki/Escala_pentatônica",
+  "site": "pt.wikipedia.org",
+  "idioma": "pt",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/pt--escala_pentatônica-58d055.md"
+ },
+ "resumo": "Artigo enciclopédico da Wikipédia sobre escalas pentatônicas. Explica a origem histórica, a construção das pentatônicas maior e menor a partir das escalas de 7 notas, a blue note (pentablues) e variantes com outras sonoridades. Traz também aplicações para improviso: ambiguidade harmônica, inversão de shapes e uso da penta menor sobre acorde dominante no blues. É material de referência teórica para iniciantes e intermediários, sem exercícios práticos.",
+ "nivel": "iniciante",
+ "qualidade_didatica": {
+  "nota": 3,
+  "justificativa": "Conteúdo teórico correto e conciso, com exemplos em Dó, mas é um verbete enciclopédico: poucos exercícios, sem tablatura nem aplicação prática detalhada."
+ },
+ "assuntos_principais": [
+  "escala pentatônica",
+  "pentatônica maior",
+  "pentatônica menor",
+  "blue note",
+  "pentablues",
+  "shapes",
+  "improvisação no blues"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição e história",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define pentatônicas como escalas de cinco notas, mais usadas em blues, rock e música popular, e conta a origem atribuída à China e a Pitágoras, com a retirada da nota si.",
+   "assuntos": [
+    "definição",
+    "história"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Pentatônica maior",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Construção a partir da escala maior sem o 4º e o 7º graus; exemplo em Dó.",
+   "assuntos": [
+    "pentatônica maior",
+    "graus",
+    "intervalos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Pentatônica menor e blue note",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Construção a partir da menor natural sem o 2º e o 6º graus; preferida no blues, rock e metal; a adição da b5 forma a pentablues.",
+   "assuntos": [
+    "pentatônica menor",
+    "blue note",
+    "pentablues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Outras escalas pentatônicas",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de pentas menores e maiores alternativas em Dó e suas sonoridades (blues, frígia, japonesa, jazz, alterada, mixolídia, lídia).",
+   "assuntos": [
+    "pentas alternativas",
+    "cores sonoras"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Aplicações no improviso",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Estabilidade e ambiguidade das pentas, relação entre maior e relativa menor, memorização dos 5 shapes e uso da penta menor sobre dominante no blues.",
+   "assuntos": [
+    "improviso",
+    "shapes",
+    "relativa menor",
+    "blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Referências",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas do artigo.",
+   "assuntos": [
+    "referências"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "O que é a escala pentatônica",
+   "descricao": "Pentatônicas (a 'penta') são escalas formadas por cinco notas. As mais usadas são a maior e a menor, presentes em blues, rock e música popular.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "definição"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Origem: a nota si foi retirada",
+   "descricao": "Segundo o artigo, a escala teria surgido na China, com divisões propostas por Pitágoras. Gerava seis notas (si, dó, ré, mi, sol, lá), mas si e dó, muito próximas, soavam dissonantes juntas. Retirou-se o si e ficou a escala de 5 tons.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "história",
+    "pitágoras"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Construção da pentatônica maior",
+   "descricao": "A penta maior vem da escala maior sem o 4º e o 7º graus. Em Dó: C D E G A (fá e si removidos). Fórmula: 1 2 3 5 6, com intervalos de 1+1+1,5+1+1,5 tons. Qualquer escala de cinco notas com terça maior poderia ser chamada de penta maior, mas esta é a forma mais comum.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "graus",
+    "fórmula"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Construção da pentatônica menor",
+   "descricao": "A penta menor vem da escala menor natural sem o 2º e o 6º graus. Em Dó: C Eb F G Bb (ré e láb removidos). Fórmula: 1 b3 4 5 b7, com intervalos de 1,5+1+1+1,5+1 tons.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "graus",
+    "fórmula"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Penta menor: escala preferida do blues, rock e metal",
+   "descricao": "A penta menor é a favorita de músicos de blues, rock e metal. Pode-se acrescentar a b5 (quarta aumentada/quinta diminuta), a blue note, formando a pentablues (escala de blues).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blue note",
+    "pentablues",
+    "blues",
+    "b5"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentas menores alternativas (em Dó)",
+   "descricao": "Qualquer conjunto de cinco notas distintas pode ser uma penta. Variantes menores: C Eb F G Bb (próxima da escala de blues); C Eb F Ab Bb (frígia); C Db F G Bb (sonoridade japonesa); C Eb F G A (jazz); C Eb F A Bb (alterada).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentas alternativas",
+    "frígio",
+    "jazz",
+    "sonoridade japonesa"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentas maiores alternativas (em Dó)",
+   "descricao": "C D E G A soa próxima da escala maior natural; C D E G Bb, da mixolídia; C D E F# A, de jazz ou lídia. Trocar uma nota muda a cor da penta.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "pentas alternativas",
+    "mixolídio",
+    "lídio"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Estabilidade das pentas",
+   "descricao": "As pentas maior e menor não têm semitons, por isso são as mais estáveis e fáceis de cantar. Isso ajuda a criar frases melódicas e cantáveis.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "estabilidade",
+    "melodia",
+    "cantabilidade"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Ambiguidade: várias pentas servem para o mesmo acorde",
+   "descricao": "Como as pentas têm menos notas que as diatônicas e são mais ambíguas, sobre um mesmo acorde dá para escolher várias pentas que soam bem. É um bom motivo para usá-las no improviso.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação",
+    "escolha de escala",
+    "ambiguidade"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Inversões geram os 5 shapes e a relativa menor",
+   "descricao": "Começar a penta maior em cada uma de suas notas gera outras quatro pentas. A penta maior de Dó começada em Lá forma a penta menor de Lá, a relativa menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "relativa menor",
+    "inversão",
+    "modos da penta"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Memorize os 5 shapes no braço",
+   "descricao": "Na guitarra ou violão, os cinco padrões (shapes), um por inversão da penta, são fáceis de memorizar e servem como base para improvisar em todo o braço.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "shapes",
+    "braço",
+    "memorização"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S5",
+   "tipo": "dica",
+   "titulo": "Penta menor sobre acorde dominante maior no blues",
+   "descricao": "No blues é comum usar a penta menor para improvisar sobre acorde dominante maior. Exemplo: penta menor de Lá sobre A7. O choque entre a terça menor da penta e a terça maior do acorde é parte do som do blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blues",
+    "dominante",
+    "penta menor",
+    "A7"
+   ],
+   "id_global": "pt--escala_pentatônica-58d055#I12"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Guitarpedia: 'As 6 pentatônicas mais importantes para incrementar o seu blues!!' (2019)",
+  "Stanford Encyclopedia of Philosophy: verbete 'Philolaus'"
+ ],
+ "observacoes": "Fonte é um verbete da Wikipédia, sem vídeo, timestamps nem tablatura. Não há exercícios, só teoria e orientações gerais. A atribuição histórica a Pitágoras e à China é do artigo e não foi verificada. A seção 'Outras escalas' dá os nomes das sonoridades sem explicar como usá-las.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:11:11",
+  "tentativas": 1,
+  "custo_usd": 0.1106
+ }
+}

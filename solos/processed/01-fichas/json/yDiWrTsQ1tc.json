@@ -1,0 +1,720 @@
+{
+ "fonte_id": "yDiWrTsQ1tc",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+  "autor": "Daniel Bertamini",
+  "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc",
+  "idioma": "pt",
+  "duracao": "13m 40s",
+  "origem": "pesquisa do Claude (YouTube)",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/yDiWrTsQ1tc--improvisação-por-acorde-como-pensar-guitarra-e-violão.md"
+ },
+ "resumo": "Daniel Bertamini explica como pensar o improviso sobre progressões de acordes: a relação entre escala maior, campo harmônico e pentatônicas (maiores e menores relativas) dentro de um tom. Compara a improvisação no centro tonal (uma escala para todos os acordes) com a improvisação por acorde (pentatônica de cada acorde ou escala modal de cada acorde). Termina apresentando a improvisação modal, em que cada acorde é tratado como um modo de uma escala maior de outra tonalidade. É voltado a guitarristas iniciantes e intermediários que já conhecem o básico de escalas e acordes.",
+ "nivel": "intermediario",
+ "qualidade_didatica": {
+  "nota": 4,
+  "justificativa": "Conteúdo conceitual claro, com exemplos concretos em Dó maior (notas, graus e relações entre pentatônicas) e uma comparação útil entre centro tonal, pentatônica por acorde e modos. Perde pontos por ser quase só fala, sem exemplos tocados nem tablatura, por ter bastante propaganda do BMA e por algumas respostas ficarem no ar (o próprio vídeo manda para outras aulas do canal)."
+ },
+ "assuntos_principais": [
+  "escala maior",
+  "pentatônica maior",
+  "pentatônica menor",
+  "campo harmônico",
+  "pentatônicas relativas",
+  "improvisação no centro tonal",
+  "improvisação por acorde",
+  "pentatônica por acorde",
+  "modos gregos",
+  "improvisação modal",
+  "arpejos, tríades e tétrades por acorde"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Abertura: a dúvida sobre uma escala por acorde ou uma só",
+   "inicio": "00:00",
+   "fim": "00:32",
+   "resumo": "Apresenta a pergunta central do vídeo (uma escala para cada acorde ou uma só para todos) e afirma que é preciso dominar a lógica da escala maior antes de responder.",
+   "assuntos": [
+    "motivação",
+    "pergunta central"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S2",
+   "titulo": "Escala maior e pentatônica maior de Dó",
+   "inicio": "00:32",
+   "fim": "01:05",
+   "resumo": "Mostra a escala de Dó maior e como tirar a 4ª e a 7ª para obter a pentatônica maior, e introduz a ideia de campo harmônico.",
+   "assuntos": [
+    "escala maior",
+    "pentatônica maior",
+    "campo harmônico"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Campo harmônico de Dó maior",
+   "inicio": "01:05",
+   "fim": "01:39",
+   "resumo": "Lista os graus do campo harmônico de Dó maior e mostra que cada nota da escala gera um acorde do tom.",
+   "assuntos": [
+    "campo harmônico",
+    "graus",
+    "acordes diatônicos"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Quantas pentatônicas existem dentro de um tom",
+   "inicio": "01:39",
+   "fim": "02:47",
+   "resumo": "Propõe ao espectador que tente adivinhar quantas pentatônicas há no campo harmônico de Dó, e depois identifica as pentatônicas de F e G maiores.",
+   "assuntos": [
+    "pentatônicas por grau",
+    "pentatônica de Fá maior",
+    "pentatônica de Sol maior"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S5",
+   "titulo": "Pentatônicas maiores como recorte da escala maior",
+   "inicio": "02:47",
+   "fim": "03:20",
+   "resumo": "Conclui que as três pentatônicas maiores do tom são apenas cinco notas extraídas da escala maior, e indica o aulão de pentatônica do canal.",
+   "assuntos": [
+    "pentatônica maior",
+    "recorte da escala maior",
+    "recurso do canal"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S6",
+   "titulo": "Pentatônica menor e relativas",
+   "inicio": "03:20",
+   "fim": "04:27",
+   "resumo": "Apresenta a formação da pentatônica menor, mostra que a pentatônica de Ré menor tem as mesmas notas da de Fá maior e explica a relação de acordes relativos.",
+   "assuntos": [
+    "pentatônica menor",
+    "acordes relativos",
+    "pentatônicas iguais"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S7",
+   "titulo": "Conclusão: três pentatônicas por tonalidade",
+   "inicio": "04:27",
+   "fim": "05:03",
+   "resumo": "Resume que um tom tem uma escala maior, um campo harmônico e três pentatônicas, e introduz a pergunta prática sobre aplicar uma escala por acorde.",
+   "assuntos": [
+    "resumo do tom",
+    "pentatônicas do tom"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S8",
+   "titulo": "Centro tonal versus improvisação por acorde",
+   "inicio": "05:03",
+   "fim": "06:41",
+   "resumo": "Demonstra que tocar só a escala de Dó sobre a progressão Dó-Fá-Lá menor-Sol funciona (improvisação no centro tonal). Alerta que aplicar a escala maior ou menor diatônica de cada acorde muda o tom, a menos que se trate de improvisação modal.",
+   "assuntos": [
+    "centro tonal",
+    "improvisação por acorde",
+    "escala diatônica por acorde",
+    "mudança de tom"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S9",
+   "titulo": "Pentatônica por acorde",
+   "inicio": "06:41",
+   "fim": "07:29",
+   "resumo": "Indica que é possível tocar a pentatônica correspondente a cada acorde da progressão e mostra a sonoridade do resultado.",
+   "assuntos": [
+    "pentatônica por acorde",
+    "sonoridade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S10",
+   "titulo": "Diagnóstico: teoria sem aplicação",
+   "inicio": "07:29",
+   "fim": "08:01",
+   "resumo": "Aponta que iniciantes e intermediários entendem a teoria mas não sabem usá-la na hora de tocar, e que escalas tocadas só subindo e descendo indicam lacunas de base.",
+   "assuntos": [
+    "lacunas de base",
+    "aplicação da teoria",
+    "escalas sem expressão"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S11",
+   "titulo": "Promoção do curso BMA",
+   "inicio": "08:01",
+   "fim": "09:41",
+   "resumo": "Divulga a escola BMA, seus cursos, o suporte aos alunos e a proposta de estudo com pouco tempo diário.",
+   "assuntos": [
+    "propaganda",
+    "curso BMA"
+   ],
+   "didatico": false
+  },
+  {
+   "id": "S12",
+   "titulo": "Outras técnicas por acorde",
+   "inicio": "09:41",
+   "fim": "10:31",
+   "resumo": "Cita que, além da pentatônica, também é possível improvisar por acorde com tríades, tétrades e arpejos, e toca a sonoridade da escala maior de cada acorde como prévia.",
+   "assuntos": [
+    "tríades por acorde",
+    "tétrades por acorde",
+    "arpejos por acorde"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S13",
+   "titulo": "Improvisação modal: cada acorde como um modo",
+   "inicio": "10:31",
+   "fim": "12:10",
+   "resumo": "Explica que tocar a escala maior de cada acorde é improvisação modal, pois cada acorde pode ser visto como um modo de outra escala maior. Dá exemplos: C lídio, F lídio, Lá menor dórico e Sol mixolídio sobre a progressão Dó-Fá-Lá menor-Sol.",
+   "assuntos": [
+    "improvisação modal",
+    "modos gregos",
+    "lídio",
+    "dórico",
+    "mixolídio"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S14",
+   "titulo": "Liberdade harmônica e aplicações no jazz, blues e MPB",
+   "inicio": "12:10",
+   "fim": "13:00",
+   "resumo": "Diz que dominar a visão modal dá liberdade para tratar cada acorde de forma especial, em jazz, blues e música brasileira, e que isso exige base sólida. Toca a sonoridade dos modos em uma progressão simples de quatro acordes.",
+   "assuntos": [
+    "liberdade harmônica",
+    "estilos musicais",
+    "base sólida"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S15",
+   "titulo": "Mescla das abordagens e encerramento",
+   "inicio": "13:00",
+   "fim": "13:40",
+   "resumo": "Conclui que não há uma forma única de pensar o improviso e que o solo final mescla todas as abordagens, com convite ao curso BMA e despedida.",
+   "assuntos": [
+    "mescla de abordagens",
+    "estudo contínuo",
+    "despedida"
+   ],
+   "didatico": true
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Pentatônica maior sai da escala maior",
+   "descricao": "A pentatônica maior é obtida ao retirar da escala maior a 4ª justa e a 7ª maior. Em Dó maior, a escala C D E F G A B vira a pentatônica C D E G A.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "escala maior",
+    "pentatônica maior"
+   ],
+   "id_global": "yDiWrTsQ1tc#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico gerado pela escala",
+   "descricao": "Cada nota da escala maior serve de base para um acorde do tom. Esse conjunto de acordes é o campo harmônico, e é a partir dele que se decide que pentatônica ou escala usar em cada momento.",
+   "passos": [],
+   "timestamp": "00:32",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "acordes diatônicos"
+   ],
+   "id_global": "yDiWrTsQ1tc#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Campo harmônico de Dó maior",
+   "descricao": "Em Dó maior, os graus formam: I maior (C), ii menor (Dm), iii menor (Em), IV maior (F), V maior (G), vi menor (Am) e VII (B). O VII grau é tratado no vídeo como diminuto, mas no campo harmônico maior é meio-diminuto (Bm7♭5).",
+   "passos": [],
+   "timestamp": "01:05",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "graus",
+    "dó maior"
+   ],
+   "id_global": "yDiWrTsQ1tc#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Há uma pentatônica por acorde do campo harmônico",
+   "descricao": "Dentro de um mesmo tom existem várias pentatônicas: cada acorde do campo harmônico pode ter a sua. A ideia é que a tonalidade não se resume a uma única pentatônica.",
+   "passos": [],
+   "timestamp": "01:39",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica por acorde",
+    "campo harmônico"
+   ],
+   "id_global": "yDiWrTsQ1tc#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S4",
+   "tipo": "exercicio",
+   "titulo": "Adivinhar quantas pentatônicas há no tom de Dó",
+   "descricao": "Antes de ver a resposta, o aluno tenta estimar quantas pentatônicas existem no campo harmônico de Dó maior e depois confere.",
+   "passos": [
+    "Olhe o campo harmônico de Dó maior (C, Dm, Em, F, G, Am, B)",
+    "Anote um número estimado de pentatônicas diferentes",
+    "Conte as pentatônicas de cada grau e compare com a sua estimativa"
+   ],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "campo harmônico",
+    "pentatônica",
+    "autoavaliação"
+   ],
+   "id_global": "yDiWrTsQ1tc#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S4",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Fá maior tem as notas da escala de Dó",
+   "descricao": "A pentatônica de Fá maior é F G A C D, e todas essas notas estão na escala de Dó maior.",
+   "passos": [],
+   "timestamp": "02:13",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "fá maior",
+    "notas da escala"
+   ],
+   "id_global": "yDiWrTsQ1tc#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Sol maior",
+   "descricao": "A pentatônica maior de Sol é formada pela tônica, 2ª maior, 3ª maior, 5ª justa e 6ª maior: G A B D E.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica maior",
+    "sol maior"
+   ],
+   "id_global": "yDiWrTsQ1tc#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S5",
+   "tipo": "conceito",
+   "titulo": "As três pentatônicas maiores são recortes de uma só escala",
+   "descricao": "As pentatônicas de Dó, Fá e Sol maiores são apenas cinco notas cada, todas tiradas da escala maior de Dó. Por isso elas convivem sem conflito.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica",
+    "escala maior",
+    "recorte"
+   ],
+   "id_global": "yDiWrTsQ1tc#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S5",
+   "tipo": "recurso",
+   "titulo": "Aulão de pentatônica no canal",
+   "descricao": "O autor indica no próprio canal um aulão sobre pentatônica, com mais de meio milhão de visualizações, para quem não domina o assunto.",
+   "passos": [],
+   "timestamp": "02:47",
+   "nivel": "iniciante",
+   "tags": [
+    "recurso",
+    "pentatônica"
+   ],
+   "id_global": "yDiWrTsQ1tc#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Fórmula da pentatônica menor",
+   "descricao": "A pentatônica menor é formada por tônica, 3ª menor, 4ª justa, 5ª justa e 7ª menor (1-♭3-4-5-♭7). Em Ré menor: D F G A C.",
+   "passos": [],
+   "timestamp": "03:20",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "fórmula"
+   ],
+   "id_global": "yDiWrTsQ1tc#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Pentatônica de Ré menor igual à de Fá maior",
+   "descricao": "A pentatônica de Ré menor (D F G A C) tem as mesmas notas da pentatônica de Fá maior (F G A C D), porque Ré menor e Fá maior são acordes relativos.",
+   "passos": [],
+   "timestamp": "03:54",
+   "nivel": "iniciante",
+   "tags": [
+    "pentatônica menor",
+    "relativos",
+    "ré menor"
+   ],
+   "id_global": "yDiWrTsQ1tc#I11"
+  },
+  {
+   "id": "I12",
+   "segmento": "S6",
+   "tipo": "conceito",
+   "titulo": "Pares de relativos com a mesma pentatônica",
+   "descricao": "No tom de Dó maior, a pentatônica de Dó maior é igual à de Lá menor (A C D E G), a de Ré menor é igual à de Fá maior, e a de Sol maior é igual à de Mi menor (E G A B D).",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "intermediario",
+   "tags": [
+    "relativos",
+    "pentatônica",
+    "campo harmônico"
+   ],
+   "id_global": "yDiWrTsQ1tc#I12"
+  },
+  {
+   "id": "I13",
+   "segmento": "S7",
+   "tipo": "conceito",
+   "titulo": "Três pentatônicas por tonalidade",
+   "descricao": "Dentro de um tom há uma escala maior, um campo harmônico e três pentatônicas distintas, já que as maiores e as menores relativas se repetem.",
+   "passos": [],
+   "timestamp": "04:27",
+   "nivel": "intermediario",
+   "tags": [
+    "tonalidade",
+    "pentatônica",
+    "campo harmônico"
+   ],
+   "id_global": "yDiWrTsQ1tc#I13"
+  },
+  {
+   "id": "I14",
+   "segmento": "S8",
+   "tipo": "conceito",
+   "titulo": "Improvisação no centro tonal",
+   "descricao": "Improvisar no centro tonal é usar a mesma escala (no caso, a de Dó maior) sobre toda a progressão. Funciona sobre Dó, Fá, Lá menor e Sol, pois todos os acordes pertencem ao tom.",
+   "passos": [],
+   "timestamp": "05:03",
+   "nivel": "iniciante",
+   "tags": [
+    "centro tonal",
+    "improvisação",
+    "escala única"
+   ],
+   "id_global": "yDiWrTsQ1tc#I14"
+  },
+  {
+   "id": "I15",
+   "segmento": "S8",
+   "tipo": "exercicio",
+   "titulo": "Improvisar sobre C-F-Am-G com a escala de Dó",
+   "descricao": "Exercício de improvisação no centro tonal usando apenas a escala de Dó maior sobre a progressão Dó maior, Fá maior, Lá menor e Sol maior, prestando atenção à sonoridade.",
+   "passos": [
+    "Toque a progressão C - F - Am - G em loop com backing track ou com outro instrumento",
+    "Improvise usando apenas a escala de Dó maior",
+    "Ouça como a sonoridade muda quando o acorde troca e observe quais notas ficam estáveis"
+   ],
+   "timestamp": "05:36",
+   "nivel": "iniciante",
+   "tags": [
+    "centro tonal",
+    "exercício",
+    "dó maior",
+    "progressão"
+   ],
+   "id_global": "yDiWrTsQ1tc#I15"
+  },
+  {
+   "id": "I16",
+   "segmento": "S8",
+   "tipo": "erro_comum",
+   "titulo": "Aplicar escala maior ou menor diatônica a cada acorde",
+   "descricao": "Trocar a escala diatônica (maior ou menor) a cada acorde faz o tom mudar a cada troca, o que pode soar errado se não for intencional. Isso é possível, mas faz parte da improvisação modal e deve ser feito com consciência.",
+   "passos": [],
+   "timestamp": "06:08",
+   "nivel": "intermediario",
+   "tags": [
+    "erro comum",
+    "escala diatônica",
+    "mudança de tom"
+   ],
+   "id_global": "yDiWrTsQ1tc#I16"
+  },
+  {
+   "id": "I17",
+   "segmento": "S8",
+   "tipo": "dica",
+   "titulo": "Usar a pentatônica de cada acorde, não a escala inteira",
+   "descricao": "Para improvisar por acorde sem sair do tom, a sugestão é usar a pentatônica correspondente a cada acorde, em vez da escala maior ou menor completa.",
+   "passos": [],
+   "timestamp": "06:08",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica por acorde",
+    "improvisação por acorde"
+   ],
+   "id_global": "yDiWrTsQ1tc#I17"
+  },
+  {
+   "id": "I18",
+   "segmento": "S9",
+   "tipo": "exercicio",
+   "titulo": "Improvisar com uma pentatônica por acorde",
+   "descricao": "Exercício de improvisação por acorde em que cada acorde da progressão recebe a sua pentatônica correspondente, tocada em sequência ao longo do acorde.",
+   "passos": [
+    "Escolha a progressão C - F - Am - G",
+    "Para cada acorde, toque a pentatônica correspondente: C maior (C D E G A), F maior (F G A C D), A menor (A C D E G) e G maior (G A B D E)",
+    "Toque a progressão e improvise dentro da pentatônica de cada acorde na troca",
+    "Ouça a sonoridade e compare com o exercício no centro tonal"
+   ],
+   "timestamp": "06:41",
+   "nivel": "intermediario",
+   "tags": [
+    "pentatônica por acorde",
+    "exercício",
+    "improvisação"
+   ],
+   "id_global": "yDiWrTsQ1tc#I18"
+  },
+  {
+   "id": "I19",
+   "segmento": "S10",
+   "tipo": "erro_comum",
+   "titulo": "Escalas tocadas só subindo e descendo",
+   "descricao": "Quem conhece a teoria mas não consegue aplicá-la costuma tocar as escalas só subindo e descendo, sem expressão musical. Para o autor, isso indica lacunas na base.",
+   "passos": [],
+   "timestamp": "07:29",
+   "nivel": "iniciante",
+   "tags": [
+    "erro comum",
+    "expressão",
+    "base musical"
+   ],
+   "id_global": "yDiWrTsQ1tc#I19"
+  },
+  {
+   "id": "I20",
+   "segmento": "S12",
+   "tipo": "conceito",
+   "titulo": "Outras formas de improvisar por acorde",
+   "descricao": "Além da pentatônica, é possível improvisar por acorde usando tríades, tétrades e arpejos de cada acorde.",
+   "passos": [],
+   "timestamp": "09:41",
+   "nivel": "intermediario",
+   "tags": [
+    "tríades",
+    "tétrades",
+    "arpejos",
+    "improvisação por acorde"
+   ],
+   "id_global": "yDiWrTsQ1tc#I20"
+  },
+  {
+   "id": "I21",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Improvisação modal: escala maior de cada acorde",
+   "descricao": "Tocar a escala maior de cada acorde é improvisação modal: cada acorde é tratado como um modo grego de uma escala maior de outra tonalidade, e o resultado sai do centro tonal de forma consciente.",
+   "passos": [],
+   "timestamp": "10:31",
+   "nivel": "intermediario",
+   "tags": [
+    "improvisação modal",
+    "modos gregos"
+   ],
+   "id_global": "yDiWrTsQ1tc#I21"
+  },
+  {
+   "id": "I22",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Dó maior como Dó lídio e a escala de Sol",
+   "descricao": "Sobre o acorde de Dó maior, pode-se pensar no modo Dó lídio, cuja escala é a de Sol maior (G A B C# D E F#, ou seja, a escala de Sol maior com a 4ª elevada). Isto é, a 4ª do modo lídio é o F#.",
+   "passos": [],
+   "timestamp": "11:04",
+   "nivel": "avancado",
+   "tags": [
+    "lídio",
+    "modos gregos",
+    "dó lídio"
+   ],
+   "id_global": "yDiWrTsQ1tc#I22"
+  },
+  {
+   "id": "I23",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Fá lídio usa a escala de Dó maior",
+   "descricao": "Sobre o acorde de Fá maior, pode-se pensar no modo Fá lídio, cuja escala é a de Dó maior (C D E F G A B), com a 4ª justa do Fá virando a tônica e o B aparecendo como 4ª aumentada.",
+   "passos": [],
+   "timestamp": "11:04",
+   "nivel": "avancado",
+   "tags": [
+    "lídio",
+    "fá lídio",
+    "modos gregos"
+   ],
+   "id_global": "yDiWrTsQ1tc#I23"
+  },
+  {
+   "id": "I24",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Lá menor dórico usa a escala de Sol maior",
+   "descricao": "Sobre o acorde de Lá menor, pode-se pensar no modo Lá dórico, cuja escala é a de Sol maior (G A B C D E F), pois o dórico tem a 6ª maior sobre a tônica menor.",
+   "passos": [],
+   "timestamp": "11:37",
+   "nivel": "avancado",
+   "tags": [
+    "dórico",
+    "modos gregos",
+    "lá menor"
+   ],
+   "id_global": "yDiWrTsQ1tc#I24"
+  },
+  {
+   "id": "I25",
+   "segmento": "S13",
+   "tipo": "conceito",
+   "titulo": "Sol maior como Sol mixolídio usa a escala de Dó",
+   "descricao": "Sobre o acorde de Sol maior, pode-se pensar no modo Sol mixolídio, cuja escala é a de Dó maior (C D E F G A B), com a 7ª menor do modo dando o F.",
+   "passos": [],
+   "timestamp": "11:37",
+   "nivel": "avancado",
+   "tags": [
+    "mixolídio",
+    "modos gregos",
+    "sol maior"
+   ],
+   "id_global": "yDiWrTsQ1tc#I25"
+  },
+  {
+   "id": "I26",
+   "segmento": "S13",
+   "tipo": "mentalidade",
+   "titulo": "Cada acorde pode receber um tratamento próprio",
+   "descricao": "Ao pensar cada acorde como um modo, cada troca pode ter a sua escala e o solista ganha liberdade para dar um tratamento especial a cada acorde, o que é especialmente útil no jazz, no blues e na música brasileira.",
+   "passos": [],
+   "timestamp": "12:10",
+   "nivel": "intermediario",
+   "tags": [
+    "liberdade",
+    "jazz",
+    "blues",
+    "música brasileira"
+   ],
+   "id_global": "yDiWrTsQ1tc#I26"
+  },
+  {
+   "id": "I27",
+   "segmento": "S14",
+   "tipo": "mentalidade",
+   "titulo": "Não há uma única forma certa de pensar o improviso",
+   "descricao": "Não existe uma forma única de pensar o improviso por acorde: o solo ideal costuma mesclar centro tonal, pentatônicas, arpejos e modos, conforme o momento.",
+   "passos": [],
+   "timestamp": "13:00",
+   "nivel": "intermediario",
+   "tags": [
+    "mentalidade",
+    "mescla",
+    "abordagens"
+   ],
+   "id_global": "yDiWrTsQ1tc#I27"
+  },
+  {
+   "id": "I28",
+   "segmento": "S14",
+   "tipo": "mentalidade",
+   "titulo": "Base sólida antes de usar a visão modal",
+   "descricao": "O autor avisa que a visão modal exige uma base sólida. Sem ela, não se consegue aplicar os modos com resultado musical.",
+   "passos": [],
+   "timestamp": "12:10",
+   "nivel": "intermediario",
+   "tags": [
+    "base musical",
+    "pré-requisito"
+   ],
+   "id_global": "yDiWrTsQ1tc#I28"
+  },
+  {
+   "id": "I29",
+   "segmento": "S15",
+   "tipo": "mentalidade",
+   "titulo": "Estudar mais expande o repertório de recursos",
+   "descricao": "Quanto mais o músico estuda, mais recursos tem e mais sonoridades diferentes consegue trazer para o seu som.",
+   "passos": [],
+   "timestamp": "13:00",
+   "nivel": "iniciante",
+   "tags": [
+    "estudo contínuo",
+    "recursos",
+    "sonoridade"
+   ],
+   "id_global": "yDiWrTsQ1tc#I29"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "BMA (escola de música de Daniel Bertamini)",
+  "Aulão de pentatônica do canal Daniel Bertamini",
+  "Aula de campo harmônico do canal Daniel Bertamini",
+  "Aula de modos gregos do canal Daniel Bertamini",
+  "Aula sobre escala maior no canal Daniel Bertamini"
+ ],
+ "observacoes": "Legenda automática com erros: 'escalinha', 'fa'/'faá' (Fá), 'ré menor' com 'ó' no lugar de Dó, 'Fáb' (Fá), 'falídio' (Fá lídio), 'deatônica' (diatônica), 'corte'/'AirPs' (acorde/arpejos), 'tetredes' (tétrades), 'DNA' (BMA), 'evolu' e 'destravou' correspondendo ao contexto. Em 'Tem muito músico que só com isso já destrói' a frase é coloquial. O autor chama o VII grau do campo harmônico maior de diminuto, mas o correto é meio-diminuto (m7♭5). O conteúdo depende de ouvir os exemplos tocados, pois não há tablatura nem partitura. O vídeo tem bastante propaganda do curso BMA (trechos 08:01 a 09:41 e 13:00 em diante). Algumas ideias dos modos são apenas citadas sem desenvolvimento, e as sonoridades são demonstradas só em áudio.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00394,
+  "via": "api"
+ }
+}

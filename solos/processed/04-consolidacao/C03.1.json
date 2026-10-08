@@ -1,0 +1,638 @@
+{
+ "subcategoria": "C03.1",
+ "visao_geral": "Esta subcategoria ensina a se localizar no braço pelo nome das notas e pelas oitavas, que é a base para mirar tônicas, notas do acorde e intervalos ao solar. As fontes concordam na ordem: primeiro entender como o braço é montado (cada corda é um \"teclado\" que começa na nota da corda solta, e as 12 casas cobrem os 12 sons), depois memorizar as notas naturais, começando pelas cordas E e A, com casas de referência (3, 5, 7, 8, 10, 12). O exercício central, que se repete em várias fontes, sobretudo Daniel Seriff, é tocar as notas naturais corda por corda, subindo e descendo e dizendo o nome em voz alta. Com E e A firmes, o mapeamento de oitavas (duas cordas e duas casas, ou três casas quando se cruza a corda B) leva as notas às cordas D, G e B, que são as mais fracas para a maioria. A \"regra da corda B\" (+1 casa, por causa do intervalo de terça entre G e B) aparece em várias aulas como o principal ajuste. No fim, o conhecimento vira música: usar outras oitavas da tônica para ampliar a extensão das frases, resolver frases em outros C e A, repetir blocos em outra oitava e mapear intervalos (3ª, 5ª etc.) em volta de qualquer tônica.",
+ "itens": [
+  {
+   "id": "K01",
+   "tipo": "mentalidade",
+   "titulo": "Por que conhecer as notas do braço",
+   "descricao": "Saber o nome das notas em qualquer casa é uma habilidade básica do improvisador. É o que permite usar técnicas mais avançadas, aplicar ideias sobre músicas e backing tracks por conta própria e achar notas e acordes na hora, com fluidez. Não é preciso decorar tudo antes de começar, mas é preciso conseguir encontrar cada nota quando ela é necessária. O objetivo final é parar de pensar onde as notas estão e mirar nelas de forma automática. Para memorizar, a fonte Samjamguitar indica o vídeo do próprio canal sobre o assunto.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "RTGLGlM9OPg#I12",
+    "OXpW5An9XVQ#I12",
+    "uGZDOBZfz1k#I01",
+    "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I03",
+    "b1mdrlngTnA#I13",
+    "TDhrEDRMxKw#I10",
+    "academiamusical--melhore-o-seu-improviso-na-guitarra-c-videoaula-073028#I08",
+    "ea2g6P0pCKg#I12"
+   ],
+   "divergencias": "A maioria (Pedro Bernardi, Your Guitar Academy, Daniel Seriff) considera o nome das notas fundamental. Active Melody (#99) diz que, para começar, basta memorizar a posição da nota-alvo na caixa, sem saber o nome. Daniel Seriff (#81) fica no meio: não é preciso decorar tudo, mas é preciso saber localizar.",
+   "correcoes": ""
+  },
+  {
+   "id": "K02",
+   "tipo": "conceito",
+   "titulo": "O braço como seis teclados empilhados",
+   "descricao": "O braço funciona como seis teclados de piano de cerca de 22 teclas, empilhados e deslocados. Cada um começa numa nota diferente (a da corda solta) e, ao contrário do piano, não tem teclas pretas e brancas que diferenciem as notas. Por isso ler o braço é mais difícil que ler o piano e exige referências próprias.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I01"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K03",
+   "tipo": "conceito",
+   "titulo": "Corda solta como referência, semitons E–F e B–C e as 12 casas",
+   "descricao": "Para achar a nota de qualquer casa, parta da nota da corda solta (E A D G B E) e conte as casas: 1 casa = semitom, 2 casas = tom. Entre as notas naturais tudo é um tom, exceto E–F e B–C, que são semitons e não têm casa no meio (ex.: corda E solta = E, casa 1 = F; corda A casa 2 = B, casa 3 = C). Da corda solta até a casa 12 passam todos os 12 sons (na corda E: E F F# G G# A A# B C C# D D# E). A casa 12 repete a nota da corda solta uma oitava acima, e por isso o mesmo desenho pode começar em qualquer casa.",
+   "passos": [
+    "Toque a corda solta e diga o nome dela.",
+    "Suba casa por casa contando semitons.",
+    "Note que de B para C e de E para F você sobe só uma casa.",
+    "Confirme que a casa 12 é a mesma nota da corda solta."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "OXpW5An9XVQ#I09",
+    "WdrB9wepGSo#I10",
+    "OXpW5An9XVQ#I06",
+    "OXpW5An9XVQ#I07",
+    "s6lqWYXvEds#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K04",
+   "tipo": "mentalidade",
+   "titulo": "Comece só pelas notas naturais",
+   "descricao": "Em vez de decorar o braço todo com sustenidos e bemóis de uma vez, aprenda primeiro as sete notas naturais (A B C D E F G). Elas são mais fáceis de memorizar, fazem mais sentido musical e já formam a tonalidade de C maior (e de Lá menor, a relativa). Os sustenidos e bemóis ficam depois entre elas, exceto em E–F e B–C.",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I05",
+    "s6lqWYXvEds#I02",
+    "2vpD-LXRenI#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K05",
+   "tipo": "erro_comum",
+   "titulo": "Decorar o braço pela escala cromática",
+   "descricao": "Decorar E F F# G G# A… até o E da casa 12 é, segundo Daniel Seriff, a pior forma de aprender o braço: nenhuma música popular usa a cromática como tonalidade, então esse método não ensina a usar as notas em música real. Prefira as notas naturais sobre uma tonalidade (ver K04 e K08).",
+   "passos": [],
+   "nivel": "iniciante",
+   "fontes": [
+    "s6lqWYXvEds#I01"
+   ],
+   "divergencias": "Your Guitar Academy (#72), Sidimar Antunes (#5) e Gu Pedrico (#78) ensinam a percorrer a corda casa a casa, com sustenidos, como forma de localizar as notas, justamente o que Seriff desaconselha como método principal.",
+   "correcoes": ""
+  },
+  {
+   "id": "K06",
+   "tipo": "conceito",
+   "titulo": "Mapa das notas naturais nas cordas E (grave e aguda) e A",
+   "descricao": "Corda E grave (6ª), que tem as mesmas notas da E aguda (1ª): 0 = E, 1 = F, 3 = G, 5 = A, 7 = B, 8 = C, 10 = D, 12 = E. Na E aguda os sustenidos ficam entre elas: 2 = F#, 4 = G#. Corda A (5ª): 0 = A, 2 = B, 3 = C, 5 = D, 7 = E, 8 = F, 10 = G, 12 = A. A 6ª corda é a referência mais usada para achar a tônica: Lá na casa 5 (Lá menor, relativa de Dó maior, ou Lá maior), Sol na 3, Dó na 8, Ré na 10, Fá na 1, Si na 7, Mi na corda solta, Si♭ na 6. Juntando as duas cordas, as casas 3, 5 e 7 das cordas E e A dão G, A, B, C, D e E, as seis raízes dos acordes de Sol maior.",
+   "passos": [
+    "Toque e nomeie as casas 0, 1, 3, 5, 7, 8, 10 e 12 da corda E grave.",
+    "Faça o mesmo na corda A: 0, 2, 3, 5, 7, 8, 10 e 12.",
+    "Escolha um tom (ex.: Am, G, D, C) e ache a tônica na corda E grave."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "WdrB9wepGSo#I01",
+    "WdrB9wepGSo#I02",
+    "Z7JY7B9YUw8#I08",
+    "Y8yEev1Ce88#I05",
+    "KorP9lq1voU#I02",
+    "KorP9lq1voU#I09",
+    "KorP9lq1voU#I16",
+    "KorP9lq1voU#I21",
+    "WdrB9wepGSo#I03",
+    "9xHvDRP5Yds#I03",
+    "NGior_1Tsmo#I07",
+    "Z7JY7B9YUw8#I09"
+   ],
+   "divergencias": "",
+   "correcoes": "Sidimar Antunes (#3) afirma que as cordas graves 'definem o tom e a escala'. Na prática, elas só indicam onde fica a tônica no braço."
+  },
+  {
+   "id": "K07",
+   "tipo": "exercicio",
+   "titulo": "Casas de referência 3, 7 e 10 nas cordas E e A",
+   "descricao": "Em vez de contar casa por casa, decore alguns pontos fixos e parta do mais próximo. Corda E: casa 3 = G, 7 = B, 10 = D. Corda A: casa 3 = C, 7 = E, 10 = G. As marcações do braço e as formas de acorde também servem de referência: se G está na casa 3 da E, o A está duas casas acima. Depois, vá ampliando o mapa aos poucos a partir desses pontos.",
+   "passos": [
+    "Decore as notas das casas 3, 7 e 10 das cordas E e A.",
+    "Ao procurar uma nota, parta da referência mais próxima e conte a partir dela.",
+    "Preencha as notas entre as referências.",
+    "Amplie o mapa aos poucos para as outras cordas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "OXpW5An9XVQ#I10",
+    "OXpW5An9XVQ#I11",
+    "pickupmusic--what-is-the-caged-system-18ed1a#I02"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K08",
+   "tipo": "exercicio",
+   "titulo": "Notas naturais corda por corda, subindo e descendo e falando o nome",
+   "descricao": "O exercício-base do mapa do braço. Sobre um drone ou backing track de C maior, toque as notas naturais de uma corda da casa 0 à 12 e volte, dizendo cada nome em voz alta. Corda E: E, F (+1), G (+2), A (+2), B (+2), C (+1), D (+2), E (+2). Corda A: A, B (+2), C (+1), D (+2), E (+2), F (+1), G (+2), A (+2). Corda D: D (solta), E (2), F (3), G (5)… Repita nas seis cordas, lembrando que na corda G o B fica na casa 4. Uma variante começa a partir do Dó, dizendo Dó Ré Mi Fá Sol Lá Si e depois descendo. Outra faz o mesmo com a escala que você está estudando numa só corda: pentatônica de C na corda B, C D E G A C D E e volta. Faça pelo menos uma vez por dia.",
+   "passos": [
+    "Ponha um drone ou backing track de C maior.",
+    "Escolha uma corda e toque a nota solta dizendo o nome.",
+    "Suba pelas notas naturais até a casa 12 respeitando os semitons E–F e B–C, nomeando cada uma.",
+    "Desça até a casa 0, ainda nomeando.",
+    "Repita nas seis cordas; só avance quando nomear tudo sem olhar.",
+    "Repita diariamente."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I06",
+    "s6lqWYXvEds#I04",
+    "s6lqWYXvEds#I06",
+    "BQTrA3hpqkM#I18",
+    "iUZwNSDpV_Q#I09",
+    "sX3dqStq0ag#I03",
+    "2vpD-LXRenI#I09",
+    "-htAGli1YeY#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K09",
+   "tipo": "exercicio",
+   "titulo": "Percorrer a corda casa a casa, com sustenidos e bemóis",
+   "descricao": "Partindo da corda A solta, nomeie todas as casas até a 12: A, A#/B♭, B, C, C#/D♭, D, D#/E♭, E, F, F#/G♭, G, G#/A♭, A. Observe que entre B–C e E–F não há casa intermediária. Serve para conferir o mapa cromático depois de conhecer as naturais.",
+   "passos": [
+    "Toque a corda A solta e diga A.",
+    "Casa 1: A#/B♭; casa 2: B; casa 3: C.",
+    "Continue até a casa 12 nomeando sustenidos e bemóis.",
+    "Marque onde não há casa intermediária (B–C e E–F)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "OXpW5An9XVQ#I08"
+   ],
+   "divergencias": "Ver K05: Daniel Seriff desaconselha usar a cromática como método principal.",
+   "correcoes": ""
+  },
+  {
+   "id": "K10",
+   "tipo": "erro_comum",
+   "titulo": "Treinar só subindo",
+   "descricao": "Muitos guitarristas treinam só a subida e ficam piores na descida. Sempre inclua a volta e aprenda o alfabeto musical também ao contrário: E, D, C, B, A, G, F, E. Na descida, preste atenção aos semitons C–B e F–E. Segundo Seriff, isso faz o conhecimento do braço 'explodir'.",
+   "passos": [
+    "Depois de subir uma corda, desça dizendo E D C B A G F E.",
+    "Confira os semitons C–B e F–E na descida."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I07",
+    "s6lqWYXvEds#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K11",
+   "tipo": "dica",
+   "titulo": "Diga as notas em voz alta (ou cante)",
+   "descricao": "Dizer o nome da nota em voz alta enquanto toca devagar é mais difícil e muito mais eficaz do que só pensar nela, porque liga o som ao nome. Seriff diz que memoriza cerca de 10 vezes mais rápido assim. Se conseguir, cante as notas.",
+   "passos": [
+    "Toque devagar.",
+    "Fale cada nota em voz alta ao tocá-la.",
+    "Se possível, cante a nota na altura certa."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "2vpD-LXRenI#I08",
+    "s6lqWYXvEds#I07",
+    "BQTrA3hpqkM#I21"
+   ],
+   "divergencias": "",
+   "correcoes": "O '10 vezes mais rápido' é uma estimativa do próprio autor, não um dado medido."
+  },
+  {
+   "id": "K12",
+   "tipo": "exercicio",
+   "titulo": "Notas naturais até a última casa",
+   "descricao": "Variante do K08: em cada corda, suba pelas notas naturais até a última casa do braço (22, na guitarra do professor) e volte até a casa 0, com backing track e nomeando cada nota.",
+   "passos": [
+    "Escolha uma corda.",
+    "Suba pelas naturais até a última casa nomeando cada uma.",
+    "Desça até a casa 0.",
+    "Repita nas outras cordas com a backing track."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "2vpD-LXRenI#I11"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K13",
+   "tipo": "rotina_estudo",
+   "titulo": "E e A como base e oitavas para chegar a D, G e B",
+   "descricao": "Para achar a tônica de qualquer tom rápido (ex.: Si♭ menor na casa 6 da corda 6), é preciso saber de cor as cordas 6 e 5. Com E e A confortáveis, o padrão de oitavas (K18) leva a todas as notas do braço. Rotina sugerida: revisar as naturais em E e A todo dia e usar as formas de oitava para fortalecer D, G e B, onde a maioria é mais fraca. No exercício K08, comece pelas cordas que você conhece menos.",
+   "passos": [
+    "Revise as naturais nas cordas E e A.",
+    "Para cada nota, use o mapeamento de oitavas e ache a mesma nota em D, G e B.",
+    "Dê mais tempo às cordas mais fracas.",
+    "Repita todo dia."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "s6lqWYXvEds#I08",
+    "s6lqWYXvEds#I12",
+    "gubqumrozXc#I04",
+    "2vpD-LXRenI#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K14",
+   "tipo": "erro_comum",
+   "titulo": "Evitar as cordas centrais e só saber as raízes em E e A",
+   "descricao": "Muitos guitarristas evitam as cordas D e G e ficam inseguros quando chegam nelas, porque não conhecem as notas. O motivo é que decoram E e A por causa dos power chords e voicings. Jack Gardiner sugere aprender também as raízes nas cordas D, G, B e E aguda. Estudar formas centradas nas cordas do meio ensina essas duas cordas inteiras de quebra.",
+   "passos": [
+    "Escolha uma tônica e localize-a nas cordas D, G, B e E aguda.",
+    "Improvise de propósito só nas cordas D e G por alguns minutos."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "sX3dqStq0ag#I17",
+    "sX3dqStq0ag#I18",
+    "tRi4vMs2z8M#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K15",
+   "tipo": "dica",
+   "titulo": "Memorizar com uma imagem do braço",
+   "descricao": "Pesquise 'notas no braço da guitarra' numa busca de imagens, escolha uma imagem grande e estude-a até fixar as notas, criando seu próprio método de memorização.",
+   "passos": [
+    "Busque 'notas no braço da guitarra' no Google Imagens.",
+    "Escolha uma imagem grande e clara.",
+    "Estude a imagem até fixar as notas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "RTGLGlM9OPg#I18"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K16",
+   "tipo": "rotina_estudo",
+   "titulo": "Desenhar o braço todos os dias",
+   "descricao": "Escreva as notas do braço todos os dias, junto com diagramas dos arpejos, formas de acordes e escalas que estiver estudando, e conecte essas formas entre si. Daniel Seriff cita esse hábito como uma das melhores coisas que fez.",
+   "passos": [
+    "Desenhe um braço em branco e preencha as notas.",
+    "Desenhe os arpejos que está estudando.",
+    "Desenhe formas de acorde e de escala.",
+    "Ligue as formas que compartilham notas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "BQTrA3hpqkM#I20"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K17",
+   "tipo": "exercicio",
+   "titulo": "Primeiro desenho de oitava: corda E casa 5 e corda D casa 7",
+   "descricao": "Antes de tocar a pentatônica, memorize onde estão as oitavas para não se perder. Primeiro desenho: corda E grave casa 5 (Lá) e corda D casa 7 (Lá uma oitava acima). É a mesma nota, só mais aguda.",
+   "passos": [
+    "Toque a casa 5 da corda E com o indicador (Lá).",
+    "Toque a casa 7 da corda D com o anelar ou o mínimo.",
+    "Alterne as duas e confirme que são a mesma nota em oitavas diferentes.",
+    "Toque as duas juntas para sentir a consonância.",
+    "Mova o desenho para outras tônicas."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "Y8yEev1Ce88#I04",
+    "Y8yEev1Ce88#I06",
+    "Y8yEev1Ce88#I07"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K18",
+   "tipo": "conceito",
+   "titulo": "Mapeamento de oitavas (octave mapping)",
+   "descricao": "Desenhos fixos para achar a mesma nota em outra corda. Duas cordas para o agudo, duas casas para frente: E→D e A→G. Ex.: G na casa 3 da E = casa 5 da D; C na casa 3 da A = casa 5 da G. Duas cordas para o agudo atravessando a corda B: três casas para frente, D→B e G→E aguda. Ex.: G na casa 5 da D = casa 8 da B; C na casa 5 da G = casa 8 da E aguda. Três cordas para o agudo, voltando casas: da corda E, três casas para trás (A na casa 5 da E = casa 2 da G); das cordas A ou D, que cruzam a B, duas casas para trás (C na casa 3 da A = casa 1 da B). Exemplo das várias posições de A: casa 12 da A, casa 2 da G, casa 17 da E aguda. Os desenhos dependem da corda, mas cada um se repete em todo o braço.",
+   "passos": [
+    "Escolha uma nota na corda E grave (ex.: G, casa 3).",
+    "Duas cordas para o agudo, +2 casas: casa 5 da D = G.",
+    "Mais duas cordas, +3 casas por cruzar a B: casa 8 da B = G.",
+    "Faça o mesmo a partir da corda A (C casa 3 → G casa 5 → E aguda casa 8)."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "s6lqWYXvEds#I10",
+    "s6lqWYXvEds#I11",
+    "0Dh8aGffCaI#I12",
+    "lJRzTqOf1ro#I22",
+    "4adDRnZXv5g#I11"
+   ],
+   "divergencias": "",
+   "correcoes": "Na fonte #55 a transcrição está confusa ('três cordas e duas casas'). Pela afinação: da corda E são três cordas e três casas para trás (E5 = G2 = Lá); das cordas A ou D, que cruzam a B, são três cordas e duas casas para trás (A3 = B1 = Dó). 'Descer duas cordas' em #34 significa ir em direção ao chão, ou seja, para as cordas mais agudas."
+  },
+  {
+   "id": "K19",
+   "tipo": "conceito",
+   "titulo": "Regra da corda B: +1 casa",
+   "descricao": "As cordas são afinadas em quartas (5 semitons), exceto G→B, que é uma terça maior (4 semitons). Por isso, quando uma forma toca ou cruza a corda B, a nota nessa corda (e nas seguintes) sobe uma casa para manter o mesmo desenho sonoro. Ex.: um desenho 7-9 numa corda vira 8-10 na corda B. Pelo mesmo motivo, ao ligar posições de escala, a forma seguinte não fica exatamente em cima da anterior e é preciso deslocá-la.",
+   "passos": [
+    "Toque um desenho em duas cordas abaixo da B (ex.: D-G).",
+    "Leve o desenho para G-B.",
+    "Suba uma casa as notas da corda B e confira que o som se mantém."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fZ7nVnhm3VE#I07",
+    "FZB0Ia7ftRo#I04",
+    "q3qPxtW8T_0#I05"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K20",
+   "tipo": "erro_comum",
+   "titulo": "Copiar a forma sem compensar a corda B",
+   "descricao": "Se você copia uma forma de outro grupo de cordas para a corda B sem ajuste, a nota sai errada. Ex.: tríade de C nas cordas D-G-B. A forma 10-9-7 dá C-E-F#, errado; o certo é 10 (C) - 9 (E) - 8 (G). Do mesmo jeito, uma nota que cai 'na mesma casa' entre outros pares de cordas, como a 5ª uma corda abaixo em altura, fica um semitom (uma casa) para trás quando o par envolve G e B.",
+   "passos": [
+    "Localize o C na casa 10 da corda D.",
+    "Toque o E na casa 9 da corda G.",
+    "Toque o G na casa 8 da corda B (já compensado), não na 7.",
+    "Ouça a diferença entre 10-9-7 e 10-9-8."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "mrKDTl6zDOM#I19",
+    "FZB0Ia7ftRo#I11",
+    "FZB0Ia7ftRo#I10"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K21",
+   "tipo": "exercicio",
+   "titulo": "Achar a mesma nota em várias cordas e oitavas",
+   "descricao": "Escolha uma nota, por exemplo uma nota do acorde atual ou o Mi de um bloco de pentatônica, e localize-a em todas as cordas e oitavas. Serve para testar o mapa e criar conexões entre regiões. O Dó grave, por exemplo, pode estar na casa 3 da A ou na casa 8 da E: se a melodia está numa região mais aguda, use o que está ao alcance. Reconhecer que uma nota comum a dois acordes (ex.: o F de Dm7 e o F de G7) é a mesma, mesmo aparecendo em lugares diferentes, ajuda a ligar os acordes.",
+   "passos": [
+    "Escolha uma nota do acorde atual ou do bloco.",
+    "Localize-a em pelo menos duas cordas diferentes e depois em todas as oitavas.",
+    "Use essas posições para ligar regiões do braço.",
+    "Repita com as notas do próximo acorde."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fretjam--how-to-solo-over-chord-changes-html-a60088#I05",
+    "mrKDTl6zDOM#I17",
+    "TDhrEDRMxKw#I05",
+    "9oAxHq-ZLwI#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K22",
+   "tipo": "exercicio",
+   "titulo": "Localizar as raízes dos acordes nas cordas do meio e agudas",
+   "descricao": "Sobre uma progressão lenta, toque a fundamental de cada acorde fora das cordas graves. Ex. 1 (Am, Dm, Em): A na casa 7 da D; D na casa 7 da G; E na casa 9 da G ou na casa 5 da B. Ex. 2 (C#m, A, E): C# na casa 9 da E aguda; A na casa 10 da B; E na casa 9 da G.",
+   "passos": [
+    "Ponha um backing track lento da progressão.",
+    "Ache a raiz de cada acorde numa corda do meio ou aguda.",
+    "Toque a raiz na troca de cada acorde.",
+    "Depois procure a mesma raiz em outra oitava."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "kkr107pBAAs#I06",
+    "guitareo--improvising-guitar-solos-guide-b7c09a#I08"
+   ],
+   "divergencias": "Steve Stine (K06) acha a raiz na corda E grave; Rustys Guitar e a outra fonte preferem as cordas do meio e agudas, onde o solo acontece.",
+   "correcoes": ""
+  },
+  {
+   "id": "K23",
+   "tipo": "dica",
+   "titulo": "Use a oitava da tônica para ampliar a extensão",
+   "descricao": "Incluir a oitava da tônica dá duas rotas e muito mais possibilidades de frase, sem cair no sobe e desce da escala. Ex. em Sol: G na casa 5 da D e outro G na casa 12 da G. Em vez de usar cordas soltas na posição baixa, leve o shape para a oitava de cima, a partir do G na casa 15 da E grave. Paul Davids usa a nota deslizando até a casa 16 da G, com as casas 15 e 17 da B em volta.",
+   "passos": [
+    "Ache a tônica na região onde está tocando.",
+    "Ache a mesma tônica uma oitava acima.",
+    "Crie frases que vão de uma região à outra."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fwyn5tQdF4k#I04",
+    "sX3dqStq0ag#I11",
+    "hafoCeXWxAE#I29",
+    "sX3dqStq0ag#I02"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #18 o tom não aparece no trecho, então não dá para conferir se a casa 16 da G é mesmo a tônica (a nota ali é Si). A posição foi mantida como a fonte deu."
+  },
+  {
+   "id": "K24",
+   "tipo": "exercicio",
+   "titulo": "Alternar o mesmo material entre duas oitavas",
+   "descricao": "Toque 12 compassos de blues com um conjunto pequeno de notas (ex.: 6 casas) na posição inicial e depois mais 12 compassos com as mesmas notas uma oitava acima, sobre o backing track. Você ganha frases novas sem trocar as notas, pois a mesma sequência de intervalos soa igual em qualquer oitava.",
+   "passos": [
+    "Toque 12 compassos com as notas escolhidas na posição inicial.",
+    "Toque mais 12 compassos com as mesmas notas uma oitava acima.",
+    "Alterne as regiões a cada chorus, com pergunta e resposta entre elas."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "2xR1QJfawjg#I07",
+    "2-KlhAakkfU#I15"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K25",
+   "tipo": "exercicio",
+   "titulo": "Resolver frases em outros C e A do braço",
+   "descricao": "Crie variações de uma frase fazendo-a resolver em outras oitavas da tônica. Assim você aprende o braço e vê como os padrões se encaixam. Em C maior: C na casa 3 da A ou na casa 13 da B. Em A menor: A na casa 5 da E grave ou na casa 14 da G.",
+   "passos": [
+    "Localize outras oitavas da tônica (C: A3, B13; A: E5, G14).",
+    "Monte uma frase de quatro notas que resolva nessa nota.",
+    "Toque sobre backing track em C maior ou A menor.",
+    "Repita a ideia em cada oitava."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "dZUSUZjRISI#I12",
+    "dZUSUZjRISI#I23"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K26",
+   "tipo": "conceito",
+   "titulo": "Padrões e blocos se repetem em oitava pelo braço",
+   "descricao": "Como o braço é simétrico, um bloco de tônica a tônica se repete em outras regiões com a mesma digitação, a não ser que atravesse de outro jeito a corda B. Por isso as ideias criadas num bloco podem ser espalhadas pelo braço todo, oitavando a partir da tônica ou de outra nota de referência (ex.: o lado do Ré). Um shape que começa na corda solta se repete na casa 12, e uma forma de tríade pode ser repetida em cada oitava de Dó. Como os intervalos são os mesmos, o fragmento soa igual em qualquer oitava, e você passa a reconhecer o som pelo desenho.",
+   "passos": [
+    "Marque todas as tônicas no braço.",
+    "Crie uma frase num bloco em uma região.",
+    "Toque a mesma frase oitavada a partir de cada tônica (ou da casa 12 para formas com cordas soltas).",
+    "Ajuste a digitação se a frase atravessar a corda B de outro jeito."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "mrKDTl6zDOM#I07",
+    "mrKDTl6zDOM#I08",
+    "mD_JBfqB8X0#I08",
+    "mD_JBfqB8X0#I07",
+    "2-KlhAakkfU#I17",
+    "0MLUiyPWt8s#I26",
+    "14UZEproJ-A#I04"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K27",
+   "tipo": "conceito",
+   "titulo": "Pensar em intervalos para achar notas em qualquer lugar",
+   "descricao": "Além do nome das notas, reconheça os intervalos direto no braço. As mesmas relações (1-3-5) se repetem em cordas e casas diferentes. Em vez de decorar formas grandes, saiba achar a raiz, a 3ª, a 5ª e a 7ª dentro de uma oitava, subindo e descendo, a partir de qualquer tônica. Com isso dá para montar qualquer arpejo onde estiver. Para fixar, escreva duas notas no papel, identifique o intervalo (maior, menor ou justo) e depois localize-o numa corda e em duas cordas.",
+   "passos": [
+    "Escreva duas notas e identifique o intervalo.",
+    "Localize esse intervalo numa corda.",
+    "Localize o mesmo intervalo em duas cordas vizinhas.",
+    "Repita a partir de outras tônicas até reconhecer à vista."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "RTGLGlM9OPg#I16",
+    "rh6HEF5Dy2I#I05",
+    "rh6HEF5Dy2I#I08",
+    "rh6HEF5Dy2I#I09",
+    "fhzrQgPROxg#I02",
+    "lJRzTqOf1ro#I03"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K28",
+   "tipo": "conceito",
+   "titulo": "Mapa de intervalos em volta da tônica (ex.: C)",
+   "descricao": "Com os Dós localizados, ache as notas vizinhas pelas distâncias (1 tom = 2 casas; terça menor = 3 casas). 2ª (D): um tom acima. 7ª maior (B): meio tom abaixo. 3ª maior (E): 4 casas acima na mesma corda, ou na corda seguinte (mais aguda) 1 casa atrás; na passagem G→B, uma casa a mais (na mesma casa). 4ª (F): mesma casa da corda seguinte (mais aguda), exceto na passagem G→B (+1 casa). 5ª (G): desenho de power chord, corda seguinte +2 casas; na passagem G→B, +3 casas, mais espalhado. 6ª (A): um tom e meio (3 casas) abaixo da tônica na mesma corda, ou duas cordas acima 1 casa atrás (na mesma casa se cruzar a corda B).",
+   "passos": [
+    "Localize todos os Dós no braço.",
+    "Toque D (2 casas acima) e B (1 casa abaixo) em volta de cada um.",
+    "Ache E, F, G e A pelos desenhos acima.",
+    "Refaça os desenhos que passam de G para B."
+   ],
+   "nivel": "iniciante",
+   "fontes": [
+    "t8SmU7wIxnc#I22",
+    "t8SmU7wIxnc#I23",
+    "t8SmU7wIxnc#I24",
+    "t8SmU7wIxnc#I20",
+    "t6q5mFGdDy4#I03"
+   ],
+   "divergencias": "",
+   "correcoes": "Em #60 a fonte diz que a 6ª fica 'na mesma casa da corda seguinte'. Pela afinação, a mesma casa da corda seguinte (mais aguda) é a 4ª. A 6ª fica 3 casas abaixo da tônica na mesma corda, ou duas cordas acima e uma casa atrás (na mesma casa se cruzar a B). A posição da 3ª maior foi completada a partir da afinação."
+  },
+  {
+   "id": "K29",
+   "tipo": "exercicio",
+   "titulo": "Mapear tônica e 3ª com cada dedo (Tom Quayle)",
+   "descricao": "Com o indicador sempre na tônica, procure todas as ocorrências da tônica no braço (ex.: D). Para cada uma, ache a 3ª acima dentro de uma oitava: maior ou menor, conforme o acorde. Depois repita com a tônica no médio, no anelar e no mínimo, o que gera digitações diferentes para o mesmo intervalo.",
+   "passos": [
+    "Escolha uma tônica (ex.: D) e ache todas as ocorrências no braço com o indicador.",
+    "Para cada uma, toque a 3ª (maior ou menor) acima dentro da oitava.",
+    "Repita com o médio, o anelar e o mínimo na tônica.",
+    "Depois amplie para 5ª e 7ª."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "fhzrQgPROxg#I08"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  },
+  {
+   "id": "K30",
+   "tipo": "dica",
+   "titulo": "Treine sem olhar para o braço",
+   "descricao": "Evite olhar para o braço e os dedos o tempo todo. Olhe para outro ponto, visualize o braço na mente, mantenha os dedos perto das cordas e se oriente pelo tato. A ideia é aprender a ouvir o caminho pelo braço, em vez de depender só da visão. É difícil no começo.",
+   "passos": [
+    "Olhe para a frente (ex.: para a câmera).",
+    "Visualize o braço mentalmente.",
+    "Mantenha os dedos próximos às cordas.",
+    "Oriente-se pelo tato e pelo ouvido."
+   ],
+   "nivel": "intermediario",
+   "fontes": [
+    "J-vMFMHwpkQ#I12",
+    "2vpD-LXRenI#I21"
+   ],
+   "divergencias": "",
+   "correcoes": ""
+  }
+ ],
+ "fora_do_lugar": [
+  {
+   "id": "ExhI4nkjOAY#I04",
+   "sugestao": "C07.1",
+   "motivo": "É sobre escolher a nota de partida (G na casa 5 da D com o anelar) para começar um solo, não sobre memorizar notas."
+  },
+  {
+   "id": "14UZEproJ-A#I21",
+   "sugestao": "C10.4",
+   "motivo": "O foco é usar o F (casa 8 da A) para expandir a tríade de Dó no solo, ou seja, combinar arpejo e notas de escala."
+  },
+  {
+   "id": "7Pdss_Gswtc#I08",
+   "sugestao": "C10.1",
+   "motivo": "É sobre localizar a terça dentro de uma forma de acorde (dedo médio), que é nota do acorde no braço, item excluído desta subcategoria."
+  }
+ ],
+ "observacoes": "Todas as posições citadas foram conferidas pela afinação padrão (E2–A–D–G–B–E). Uma correção importante: na fonte #55, o desenho de oitava de 'três cordas' é de três casas para trás a partir da corda E e de duas casas para trás a partir das cordas A ou D. Na fonte #60, a posição da 6ª estava errada e foi corrigida. Daniel Seriff é a fonte principal do método 'notas naturais + voz alta + oitavas'. A única divergência de fundo é sobre a cromática (K05 x K09). Os itens sobre blocos e padrões oitavados (K26) ficam no limite com C04.3. Ficaram aqui porque o foco é repetir em oitava, não sair da caixa. As secundárias sobre pentatônica e CAGED (#86, #87, #105, #106, #110, #113, #114), alvo no acorde (#90) e tríades (#107, #108) não foram incluídas.",
+ "_meta": {
+  "modelo": "claude-opus-5-5",
+  "effort": "medium",
+  "ideias_principais": 85,
+  "ideias_secundarias": 35,
+  "itens": 30,
+  "fora_do_lugar": 3,
+  "tentativas": 1,
+  "custo_usd": 0.6024,
+  "segundos": 183,
+  "usage": {
+   "input_tokens": 2,
+   "cache_creation_input_tokens": 26337,
+   "cache_read_input_tokens": 3073,
+   "output_tokens": 19555
+  },
+  "gerado_em": "2026-10-08T08:04:49",
+  "encaixe": [
+   {
+    "batch": "msgbatch_01GtWrxLJPTAbqUZ5EJBesVc",
+    "anexos": 1,
+    "novos_itens": 0
+   }
+  ]
+ }
+}

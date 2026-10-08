@@ -1,0 +1,308 @@
+{
+ "fonte_id": "en--blue_note-24ff9c",
+ "fonte": {
+  "tipo": "documento",
+  "titulo": "Blue note - Wikipedia",
+  "autor": "Authority control databases GND",
+  "url": "https://en.wikipedia.org/wiki/Blue_note",
+  "site": "en.wikipedia.org",
+  "idioma": "en",
+  "tema_coleta": "referencia",
+  "arquivo_raw": "solos/raw/documentos/en--blue_note-24ff9c.md"
+ },
+ "resumo": "O texto é um verbete da Wikipedia sobre a blue note, a nota alterada (geralmente entre um quarto de tom e um semitom) usada para expressão no jazz e no blues. Explica que as blue notes costumam ser a 3ª, 5ª e 7ª graus rebaixados, discute a origem africana e as hipóteses de afinação por justa entoação (6/5 para a 3ª menor, 7/5 para a 5ª 'elevada' ou 4ª aumentada, 7/4 ou 9/5 para a 7ª menor). Não é material de ensino prático de solo, mas ajuda a entender o porquê do som dessas notas. Serve para músicos que querem contexto teórico sobre o bend e a dissonância do blues.",
+ "nivel": "avancado",
+ "qualidade_didatica": {
+  "nota": 2,
+  "justificativa": "Conteúdo teórico e histórico, com pouca orientação prática para solar; traz valores em cents e razões de frequência úteis para entender a origem da blue note, mas sem exercícios, licks ou passos de estudo."
+ },
+ "assuntos_principais": [
+  "blue note",
+  "escala de blues",
+  "terceira menor, quinta e sétima rebaixadas",
+  "justa entoação e cents",
+  "origem africana do blues",
+  "dissonância entre tonalidades maior e menor"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Definição de blue note",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Define blue note como nota cantada ou tocada um pouco fora da afinação padrão, tipicamente entre um quarto de tom e um semitom, e descreve os tipos de alteração (microtonal, glissando, shake).",
+   "assuntos": [
+    "definição de blue note",
+    "alteração entre quarto de tom e semitom",
+    "glissando e microtonalidade"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Graus rebaixados e conflito tonal",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Indica que as blue notes são geralmente a 3ª, 5ª e 7ª rebaixadas, que a 5ª rebaixada é também chamada de 4ª aumentada, e que a escala de blues é forçada sobre acordes maiores gerando dissonância.",
+   "assuntos": [
+    "3ª, 5ª e 7ª rebaixadas",
+    "5ª rebaixada como 4ª aumentada",
+    "conflito entre tonalidade maior e menor"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Teoria, justa entoação e origem africana",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Discute a hipótese de que as blue notes derivam da justa entoação, com valores medidos para a 3ª (6/5, 316 cents), a 5ª aumentada (7/5, 583 cents) e a 7ª menor (7/4 ou 9/5), e atribui a origem a escalas da África ocidental.",
+   "assuntos": [
+    "justa entoação",
+    "harmônicos e razões 6/5, 7/5, 7/4, 9/5",
+    "cents",
+    "influência africana no blues"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S4",
+   "titulo": "Referências e leitura complementar",
+   "inicio": null,
+   "fim": null,
+   "resumo": "Lista de referências bibliográficas e leitura adicional sobre blue notes e blues.",
+   "assuntos": [
+    "referências bibliográficas",
+    "leitura complementar"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Blue note como nota levemente desafinada",
+   "descricao": "Blue note é uma nota cantada ou tocada em uma altura um pouco diferente da padrão, tipicamente entre um quarto de tom e um semitom, para fins expressivos no jazz e no blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "blue note",
+    "afinação",
+    "expressão"
+   ],
+   "id_global": "en--blue_note-24ff9c#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Formas de execução da blue note",
+   "descricao": "A blue note pode ser microtonal (um quarto de tom aproximadamente), rebaixada em um semitom, obtida por glissando ascendente ou descendente, ou por um shake microtonal; em instrumentos de teclado a alteração é sempre de um semitom.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "bend",
+    "glissando",
+    "microtonal",
+    "vibrato"
+   ],
+   "id_global": "en--blue_note-24ff9c#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Graus rebaixados que formam a blue note",
+   "descricao": "As blue notes são geralmente a terça, a quinta e a sétima da escala rebaixadas (♭3, ♭5 e ♭7). A quinta rebaixada também é chamada de quarta aumentada.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "♭3",
+    "♭5",
+    "♭7",
+    "blues"
+   ],
+   "id_global": "en--blue_note-24ff9c#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Conflito entre escala de blues e acordes maiores",
+   "descricao": "A escala de blues tem tonalidade menor inerente; quando é tocada sobre acordes maiores, gera uma dissonância característica entre as tonalidades. Ocorre algo parecido entre a escala menor e a menor de blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "intermediario",
+   "tags": [
+    "escala de blues",
+    "tonalidade maior e menor",
+    "dissonância"
+   ],
+   "id_global": "en--blue_note-24ff9c#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Terça neutra sobre a fundamental",
+   "descricao": "Quando a ♭3 é tocada sobre a tônica (ou a ♭7 sobre a dominante), o acorde resultante é um acorde de terça neutra (mixed third), nem maior nem menor.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "terça neutra",
+    "acorde",
+    "♭3",
+    "♭7"
+   ],
+   "id_global": "en--blue_note-24ff9c#I05"
+  },
+  {
+   "id": "I06",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Justa entoação como origem da blue note",
+   "descricao": "Pesquisadores supõem que as blue notes sejam intervalos de justa entoação derivados da série harmônica, não da afinação temperada de 12 notas; a razão da terça menor empírica é 6/5 (316 cents).",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "justa entoação",
+    "série harmônica",
+    "cents",
+    "afinação"
+   ],
+   "id_global": "en--blue_note-24ff9c#I06"
+  },
+  {
+   "id": "I07",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Terça blue entre 6/5 e 5/4",
+   "descricao": "A ♭3 blue costuma aparecer deslizando entre a terça menor justa 6/5 (316 cents) e a terça maior justa 5/4 (386 cents), a chamada terça neutra; o bend entre elas é característico do blues.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "terça neutra",
+    "bend",
+    "6/5",
+    "5/4"
+   ],
+   "id_global": "en--blue_note-24ff9c#I07"
+  },
+  {
+   "id": "I08",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Quinta blue como quarta aumentada 7/5",
+   "descricao": "A quinta rebaixada, que agrupa com a quarta justa, é mais comumente expressa em 7/5 (583 cents); a 11ª harmônica (11/8, 551 cents) também é proposta.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "♭5",
+    "quarta aumentada",
+    "7/5",
+    "cents"
+   ],
+   "id_global": "en--blue_note-24ff9c#I08"
+  },
+  {
+   "id": "I09",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Sétima blue em 7/4 ou 9/5",
+   "descricao": "A ♭7 blue aparece em duas posições: 7/4 (969 cents), a sétima harmônica comum no quarteto barbershop, e 9/5 (1018 cents), que foi encontrada como mais frequente nas gravações antigas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "♭7",
+    "7/4",
+    "9/5",
+    "cents"
+   ],
+   "id_global": "en--blue_note-24ff9c#I09"
+  },
+  {
+   "id": "I10",
+   "segmento": "S3",
+   "tipo": "conceito",
+   "titulo": "Temperamento igual não representa bem a blue note",
+   "descricao": "As blue notes não são representadas com precisão na afinação temperada de 12 notas, porque os intervalos de justa entoação envolvem primos maiores que 3, perceptivelmente diferentes das notas temperadas.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "avancado",
+   "tags": [
+    "temperamento igual",
+    "justa entoação",
+    "harmônicos"
+   ],
+   "id_global": "en--blue_note-24ff9c#I10"
+  },
+  {
+   "id": "I11",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Blues como fusão de escala africana e harmonia europeia",
+   "descricao": "O blues provavelmente surgiu da fusão de uma escala africana de justa entoação com instrumentos e harmonia europeus, dando origem a uma música americana que fundamenta o jazz.",
+   "passos": [],
+   "timestamp": null,
+   "nivel": "iniciante",
+   "tags": [
+    "história do blues",
+    "origem africana",
+    "jazz"
+   ],
+   "id_global": "en--blue_note-24ff9c#I11"
+  }
+ ],
+ "artistas_citados": [
+  "Harold Arlen",
+  "Peter van der Merwe",
+  "Gerhard Kubik",
+  "Ben Curry",
+  "Court B. Cutting",
+  "David Temperley",
+  "Jeff Todd Titon",
+  "David Evans",
+  "Jim Ferguson",
+  "Gunther Schuller",
+  "Paul Oliver",
+  "Lynn Abbott",
+  "Gage Averill",
+  "Alain Danielou",
+  "Richard Middleton",
+  "A. L. Lloyd"
+ ],
+ "musicas_citadas": [
+  "Stormy Weather",
+  "Why Don't You Do Right?",
+  "Happy",
+  "Sweet About Me"
+ ],
+ "recursos_citados": [
+  "Origins of the Popular Style (Peter van der Merwe, 1989)",
+  "All Blues Soloing for Jazz Guitar (Jim Ferguson)",
+  "Big Road Blues (David Evans, 1982)",
+  "Early Downhome Blues (Jeff Todd Titon)",
+  "Africa and the blues (Gerhard Kubik)",
+  "Microtonal Analysis of Blue Notes and the Blues Scale (Cutting, 2019)",
+  "Four Parts, No Waiting (Gage Averill)",
+  "How To Play Blues Guitar (site citado nas referências)"
+ ],
+ "observacoes": "Documento é uma página da Wikipedia com marcações de edição e referências numeradas; sem timestamps. Seções 'See also' estavam vazias. Os valores em cents e razões são teóricos/empíricos e não são prescrições de afinação para guitarra; na prática o bend aproxima essas alturas. Não há exemplos de tablatura ou exercícios.",
+ "_meta": {
+  "modelo": "claude-haiku-5-5",
+  "gerado_em": "2026-10-07T23:52:07",
+  "tentativas": 1,
+  "custo_usd": 0.00133,
+  "via": "api"
+ }
+}

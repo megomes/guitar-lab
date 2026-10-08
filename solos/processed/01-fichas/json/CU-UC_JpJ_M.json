@@ -1,0 +1,171 @@
+{
+ "fonte_id": "CU-UC_JpJ_M",
+ "fonte": {
+  "tipo": "video",
+  "titulo": "Improvisation Level 1 | Guitar Skills Course - Course Introduction",
+  "autor": "Your Guitar Academy",
+  "url": "https://www.youtube.com/watch?v=CU-UC_JpJ_M",
+  "idioma": "en",
+  "duracao": "3m 33s",
+  "origem": "lista do usuário",
+  "legenda_automatica": true,
+  "arquivo_raw": "solos/raw/transcripts/CU-UC_JpJ_M--improvisation-level-1-guitar-skills-course-course-introduction.md"
+ },
+ "resumo": "Vídeo de apresentação do curso \"Improvisation Level 1\" da Your Guitar Academy. Explica que improvisar é difícil de ensinar e aprender, mas muito gratificante. O curso parte de uma única nota soando bem sobre qualquer base e chega a uma escala inteira, com técnicas e conceitos para improvisar em tempo real. O foco é pensar além de dedilhados, escalas e padrões, rumo a melodias e frases. O público são guitarristas que já tocam solos há algum tempo ou que bateram numa barreira criativa. Quase não há conteúdo técnico concreto, só a proposta do curso.",
+ "nivel": "misto",
+ "qualidade_didatica": {
+  "nota": 1,
+  "justificativa": "É só a apresentação do curso, sem exercícios, notas ou exemplos concretos. Traz apenas a filosofia e a progressão do curso."
+ },
+ "assuntos_principais": [
+  "improvisação",
+  "introdução ao curso",
+  "uma nota só",
+  "melodias e frases",
+  "criatividade"
+ ],
+ "segmentos": [
+  {
+   "id": "S1",
+   "titulo": "Por que improvisar é difícil e gratificante",
+   "inicio": "00:01",
+   "fim": "01:44",
+   "resumo": "Fala da improvisação como algo difícil de fazer e de ensinar, mas muito recompensador, ligado à criação de música no momento. Coloca o desafio de por onde começar e de ir além de dedilhados, escalas e padrões, rumo a melodias e frases.",
+   "assuntos": [
+    "improvisação",
+    "criatividade",
+    "melodias e frases"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S2",
+   "titulo": "Estrutura do Nível 1: de uma nota até a escala",
+   "inicio": "01:44",
+   "fim": "02:56",
+   "resumo": "O curso começa com uma única nota que soe bem sobre qualquer base e evolui por etapas até uma escala completa. Inclui técnicas e conceitos aplicáveis em tempo real.",
+   "assuntos": [
+    "uma nota",
+    "escala",
+    "progressão por etapas",
+    "técnicas"
+   ],
+   "didatico": true
+  },
+  {
+   "id": "S3",
+   "titulo": "Para quem é o curso e despedida",
+   "inicio": "02:56",
+   "fim": "03:33",
+   "resumo": "Indicado a quem já toca solos há algum tempo ou está travado criativamente. Termina com o convite para participar do curso.",
+   "assuntos": [
+    "público-alvo",
+    "bloqueio criativo"
+   ],
+   "didatico": false
+  }
+ ],
+ "ideias": [
+  {
+   "id": "I01",
+   "segmento": "S1",
+   "tipo": "mentalidade",
+   "titulo": "Improvisar é criar música na hora, e isso é gratificante",
+   "descricao": "Tocar algo que você acabou de pensar é uma das coisas mais recompensadoras da música, em qualquer instrumento. Está ligado à criação em tempo real: provavelmente você nunca tocará aquilo da mesma forma de novo, e há beleza nessa efemeridade.",
+   "passos": [],
+   "timestamp": "00:01",
+   "nivel": "iniciante",
+   "tags": [
+    "improvisação",
+    "criatividade",
+    "mentalidade"
+   ],
+   "id_global": "CU-UC_JpJ_M#I01"
+  },
+  {
+   "id": "I02",
+   "segmento": "S1",
+   "tipo": "conceito",
+   "titulo": "Ir além de dedilhados, escalas e padrões: pensar em melodias e frases",
+   "descricao": "A dificuldade da improvisação é ganhar confiança para juntar o que já se sabe no braço e criar música. Para isso é preciso pensar em melodias e frases, e não só em dedilhados, escalas ou padrões. O curso quer tornar isso interessante e inspirador.",
+   "passos": [],
+   "timestamp": "01:12",
+   "nivel": "intermediario",
+   "tags": [
+    "melodia",
+    "frases",
+    "escalas",
+    "padrões"
+   ],
+   "id_global": "CU-UC_JpJ_M#I02"
+  },
+  {
+   "id": "I03",
+   "segmento": "S2",
+   "tipo": "conceito",
+   "titulo": "Começar com uma única nota sobre qualquer base",
+   "descricao": "O ponto de partida do curso é pegar uma só nota e fazê-la soar bem sobre uma base, seja qual for. A ideia é liberar a musicalidade e o potencial que você já tem para improvisar, antes de partir para escalas.",
+   "passos": [],
+   "timestamp": "01:44",
+   "nivel": "iniciante",
+   "tags": [
+    "uma nota",
+    "backing track",
+    "musicalidade"
+   ],
+   "id_global": "CU-UC_JpJ_M#I03"
+  },
+  {
+   "id": "I04",
+   "segmento": "S2",
+   "tipo": "rotina_estudo",
+   "titulo": "Progressão por etapas: de uma nota a uma escala inteira",
+   "descricao": "O curso amplia a improvisação aos poucos, de uma única nota até uma escala completa com grande extensão no braço. Sobre essa base entram técnicas e ideias conceituais que ajudam a construir o improviso em tempo real.",
+   "passos": [
+    "Começar com uma única nota sobre a base",
+    "Ampliar o material gradualmente, etapa por etapa",
+    "Chegar a uma escala completa, com boa extensão no braço",
+    "Aplicar técnicas e conceitos sobre esse material para improvisar em tempo real"
+   ],
+   "timestamp": "02:18",
+   "nivel": "iniciante",
+   "tags": [
+    "progressão",
+    "escala",
+    "técnicas",
+    "tempo real"
+   ],
+   "id_global": "CU-UC_JpJ_M#I04"
+  },
+  {
+   "id": "I05",
+   "segmento": "S3",
+   "tipo": "mentalidade",
+   "titulo": "Barreira criativa: conceitos musicais abrem caminhos",
+   "descricao": "O curso serve tanto a quem toca solos há pouco tempo quanto a quem tem muita experiência e sente que travou criativamente, sem saber o que fazer com tudo o que aprendeu. A promessa é que haverá conceitos musicais que abram novas possibilidades, em qualquer nível.",
+   "passos": [],
+   "timestamp": "02:56",
+   "nivel": "intermediario",
+   "tags": [
+    "bloqueio criativo",
+    "mentalidade",
+    "improvisação"
+   ],
+   "id_global": "CU-UC_JpJ_M#I05"
+  }
+ ],
+ "artistas_citados": [],
+ "musicas_citadas": [],
+ "recursos_citados": [
+  "Curso Improvisation Level 1 (Guitar Skills Course) - Your Guitar Academy / Guitar Club (guitarclub.io)",
+  "Playlist de Song Lessons da Your Guitar Academy",
+  "30-Day Beginners Challenge (Your Guitar Academy)"
+ ],
+ "observacoes": "Vídeo promocional curto, com pouquíssimo conteúdo prático. A transcrição está legível. Há um erro óbvio: \"likelihood is when you buy something\" provavelmente quer dizer \"the likelihood is when you play something, you're not going to play it that way ever again\". Os trechos instrumentais ao fundo não aparecem na transcrição.",
+ "_meta": {
+  "modelo": "claude-sonnet-5-5",
+  "gerado_em": "2026-10-07T23:10:09",
+  "tentativas": 1,
+  "custo_usd": 0.0811
+ }
+}

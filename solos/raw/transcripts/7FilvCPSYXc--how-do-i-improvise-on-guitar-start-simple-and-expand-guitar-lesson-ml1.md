@@ -1,0 +1,92 @@
+---
+video_id: 7FilvCPSYXc
+title: "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136"
+channel: "Active Melody"
+channel_url: "https://www.youtube.com/channel/UCecl4C6gPzRnvQw7hJeJz6A"
+url: https://www.youtube.com/watch?v=7FilvCPSYXc
+duration: "19m 34s"
+views: 116240
+language: en
+auto_generated_captions: true
+source: "pesquisa do Claude (YouTube)"
+---
+
+# How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136
+
+**Canal:** Active Melody · **Duração:** 19m 34s · **Link:** https://www.youtube.com/watch?v=7FilvCPSYXc
+
+## Descrição do vídeo
+
+In this week's guitar lesson, you'll learn a process for how start improvising by starting simple (just 2 notes) and building on top of them. Learn how to find a major 3rd, minor 3rd, 5th, 6th, flat 7, and several other key notes and what they sound like.
+
+To download the TAB and the MP3 jam track for this lesson, visit: https://www.activemelody.com/microlesson/how-do-i-improvise-on-guitar-start-simple-and-expand-guitar-lesson-ml136/
+
+## Transcript
+
+**[00:00]** Okay, so in this week's lesson, I want to talk about how to improvise and give you a little game plan for doing it and getting better at it by hearing intervals. We're going to talk through all that in a in a minute. Um, but you know, when you want to learn how to jam and just improvise, make up music on the fly, um, that's a different muscle that you use than when you're practicing. And I'm only saying that because I got an email the other day from somebody that said uh he's been practicing for a long time and he's gotten really good at he knows his
+
+**[00:32]** scales, he's got a pretty good technique, uh but he doesn't know how to improvise. When he when it comes down to doing that, he freezes every time. And and and when I was reading that, I was thinking, well, yeah, that that happens. That's common. The You just kind of forget everything that you've learned. But then I asked him how much time he spends improvising. Uh uh and he said he doesn't really do that. And so uh I thought, well, you know, I'm going to make a video because I bet a lot of you are probably in this boat. And so when you're at home practicing, uh you know, there's the whole learning
+
+**[01:05]** scales and chords and all of the theory and that bit of it. Uh but but it's a very different mindset that when you're sitting, especially with another person, and you're you have to make music on the fly, just the way that I'm making these words come out of my mouth right now. I'm improvising it. I don't have a script. I don't I'm not reading anything. That's a very different skill set than if I were reading something. The same is true with music. And so I want to first of all just start this video and say, if you're not spending a portion of your time, your practice time, by improvising, and and when I'm talking about improvising, I mean
+
+**[01:39]** playing along with jam tracks, playing along with the radio, with your favorite record, just trying to play on top of something just to get the sound of what's coming out of your guitar in context to to another thing. If you're not doing that, you need to add that to your practice because that's how you get better at it. And your favorite guitar hero makes mistakes. I don't care who they are, they all make mistakes. Every great guitar player makes mistakes, but the really good ones are good at correcting those mistakes on the fly. That's what separates a really good guitar player from a mediocre one, in my opinion. They
+
+**[02:13]** all make mistakes, but the best players, they can just recover quickly. And the reason that they can do that is because they've practiced that. That's another thing you have to practice. So, when you're improvising at home and you're playing along with something, you make a mistake, don't stop and like restart anything, just keep going. You push through it until you can kind of pull pull the car out of the ditch. That's what you're trying to do. And that's another skill that you have to learn, and the only way you learn it is by doing it. So, anyway, in this video, we're going to take a look at a very simple approach. We're going to start with a simple playing the third interval
+
+**[02:46]** and the fifth interval out of a chord. I'll explain what those numbers mean and all that. And then we're going to add to that. We're going to add the sixth and the flat seventh. And I want you to hear the sounds of those notes and how they react to a chord. And and hopefully this will give you a game plan for for starting with a something very simple and building on it and being able to improvise. That's how I learned to do it. When I thought back to, you know, when I first started this, I started with just a couple of notes and I wanted to hear how those notes worked before I added a third note and a fourth note. And so, the mistake a lot of us make are
+
+**[03:19]** we want to learn the entire fretboard and be playing all over the place, but really you can make a lot of music with just a few notes. And I want to demonstrate that in this video. So, at the end of this video, I'm going to take all the notes that we're going to talk through and I'm going to play a lead. And I've got that tabbed out. I've also got an MP3 jam track that you can practice playing the lead if you want. I just wanted to take those licks and give them to you so that you can have more ideas that you can put into your memory banks. So, if you'd like to get the tablature and the MP3 jam track that I'll play at At end of this video, you can get those
+
+**[03:51]** extra materials by going to activemelody.com and doing a search for ML136. Okay, so we're going to be playing in the key of G. In fact, the jam track is just one chord. It's G chord over and over again because I want to demonstrate you know, obviously how this works, the phrasing thing. We're going to be playing out of one shape. We're going to be playing out of this E shape. Now, this is my G chord using the the E shape. And everything we're going to be doing is right here. You're going to be amazed at what you can do it with just a few notes in this one area. And so I'm doing that to like eliminate patterns
+
+**[04:25]** and the playing all over the fretboard. We're going to not even going to use all six strings. We're just going to be stuck in in this one little area, but we're going to be able to play some really cool stuff. So, I want you to look at two notes to start with in this shape. We're going to look at the third string and the second string. These two notes. Now, this note fourth fret, third string, that note is a B note. And this note is a D note. So, we have a B and a D. We're going to start with those two notes. But the the fact that I'm saying
+
+**[04:57]** B and D and letting you know the label of the note, it that really doesn't matter. It to me it doesn't matter. Now, to some of you, you know, just depending on the way your brain works, some people want to know that. But I'm telling you it doesn't matter. What does matter to me though is knowing that this is the third and this is the fifth. That means a lot more because I can always hear the sound of a third and know what a third does and hear the sound of a fifth in reference to the chord and know what
+
+**[05:30]** a fifth does. If I said a B note a B note means this sound in over a G chord, but a B note over a B minor chord has a whole different context. So, So me the sound of a B note when you're improvising really doesn't mean much to say a B note because it doesn't it depends on what chord you're playing over. But if I say the third or the flat three or the five, that means something very specific to each chord and I don't even need to know the note name. So I've
+
+**[06:03]** been talking about this G chord, right? We have the third and the fifth and you can see where they are in relation to this chord shape, right? Third and the fifth. If I played a G sharp, there's the third, there's the fifth. They're in the same spot, right? If I play an A, third, fifth and I can hear them in reference to the chord. So to me calling them by the number can carries more weight. Now if you don't know what those numbers are, where they're coming from, it's very simple. Let's go back to our G.
+
+**[06:37]** There's my G major scale, right? So if I just put a number to each of those, 1 2 3 4 5 6 7 and then we're back to 1. That's where the numbers come from. 1 2 3, there's my third. 4 5, there's my five. So third, fifth. Okay, so let's take our third and our fifth and see what we can do musically with those two notes. Now we're going to have to rely on our timing to make it interesting. So check this out. All I can do really to to make it sound
+
+**[07:18]** like anything is just kind of play in in sort of interesting timing. I can play them together. All right, so we have our third and our fifth and we see where they are in relation to the E shape, right? This note, the note right behind the third, the note that's one fret this direction, that's our flat three. So, that would be the note that you'd play if you're playing a G minor chord.
+
+**[07:50]** In fact, the only difference between a G major chord and a G minor chord is flatting the third. You can hear the difference. That completely changes the sound of it, right? Um but, if we just look at that one note, the flat three, I can slide that flat three or hammer on the flat three to the three, and you hear that all the time over a major chord. That's a very common, kind of a bluesy thing. That that little slide there. So, I'm just pointing that out, the flat three to the three. All right, so now let's add a few
+
+**[08:23]** notes. So, we have our three, we have our five. And if I come up here to the fifth fret, second string, that's my sixth. And look at where it is inside of this E shape. It's right here. It's It's It's right inside of that E shape. So, what my third, fifth, sixth, and then up here on the third fret, first string, that's my root or my one. So, and and I had I have another one down here on the fifth fret, fourth string. So, I have my one, three, five,
+
+**[08:57]** six, and back to my one. And don't forget we have the flat three as well that you can slide into the third. In fact, if we play the one, the three, and the five of any major scale, you play them in unison, you're playing a major chord. So, that's a I started with a G note, one, three, five, that's a G major chord. All right, so let's take those notes and start to improvise with that over jam track. Okay, so let's take those notes now and and make a little phrase out of it and then something that we can repeat.
+
+**[09:31]** There it is. Let me do it again. Notice I'm sliding from the three to the three. Each time I hit that three, I slide from the flat three. I can also land on the root note up here. Watch this. So, I have the root note here or down here. So, I can kind of change the timing a little bit if I want.
+
+**[10:08]** There's options that I can work with. I can play two notes at once. Right? I can play these two notes, these two notes, or these two down here. So, I Now, I have all these things I can do. And this is how I learned to play is just taking a simple little idea like this and internalizing the sounds of these.
+
+**[10:42]** I need to hear the the five and what that sounds like, the three, the flat three. And then the root. And then the six as well. You've also got the ability, check this out, to play chromatically between the six and the five. So, you can play that note in between and that's a huge deal. When I realized that, it it changed the game for me because you can sound a little jazzier. All right, so let's stay in this
+
+**[11:19]** neighborhood and add a few more notes. All right, so we have our one, three, five, six, and back to the one. So, if I went from Let's add a note now. Let's add another note. So, from my one, if I come up two frets, uh fifth fret first string, that's my two. So, I have it down here as well, second fret third string. And those are the notes of my major pentatonic scale. 1 2 3 5 6. That's it. That's all your major pentatonic scale is. 1 You can keep You can do it all over the fretboard. All
+
+**[11:53]** you have to do is start with a root note and find 1 2 3 5 and 6. Now, look at what we can do on this first string. So, we have our 1, our 2. If I were to go up two more frets, that would be my 3, right? Same as the 3 here. It's just an octave higher. And this would be my flat 3. So, now I can play 1 2 flat 3 to the 3. You can start to hear that flat 3 to the
+
+**[12:32]** 3 just as in an octave higher, but I just wanted to kind of spell it out in relation to this chord shape. So, what's cool, too, is from this 2, I can do a full bend and I can hit the 3 from doing a full bend here. That means you're bending two frets higher than where you started. I can do a half bend to get a sadder-sounding bends because I'm bending to the flat 3. Hear that? This is a little bluesier versus happy. Right? So, just depending on how hard I
+
+**[13:07]** bend, I get a different sound. I can go happy or sad just from that one note. Um so, let's go back to our little phrase and then add in add some of these extra notes. This note, that flat three, is a note that may look familiar in this
+
+**[13:41]** position because that would be a note from my minor pentatonic scale. And I want to give you the minor pentatonic scale here as well, at least just on these top strings here. So, if we add that flat three, that's one of the notes. The other one we can add is the flat seven. And this is minor pentatonic scale pattern one, by the way. All right, so we have our flat three, back down to the one, we have our flat seven, down to the five. The only other note that we have to add to this minor pentatonic scale is the four. And that's here, fifth fret, third
+
+**[14:13]** string. Okay, so what we've done then is we've taken the notes of our minor pentatonic scale and the notes of our major pentatonic scale. And we've put them in the same little area here, and we can start to blend those two and think of them as really as one scale in a way. And what I like to do is when I'm improvising and I want it to sound more bluesy, I use these two notes, but if I want it to sound more major or happy, I use
+
+**[14:46]** these two notes. It's kind of that simple in a way. So, let's start from this G note down here, the one. Let's just walk through all of these. The the blend of the major and the minor pentatonic. So, we have our one, our two, our flat three, our three, our four, five, six, flat seven, up to the one again. And that's it. And then from here we have a one, two, flat three, three. It just repeats, and I'm just going to end it right there. But, that gives you so many options for improvising.
+
+**[15:32]** >> And I can start to make any really sound that I want out of those notes. I mean, I can I can dial in the blues. Or I can just make it happy. And play the the major pentatonic scale. And I'm just staying in this one little area here. I'm not playing all over the fretboard. I'm anchored to the top part of this E shape really. The top four strings out of it. Okay, now let's pull this together. So, we're going to go back to our initial phrase. But remember, in this area, we've got our
+
+**[16:04]** major pentatonic scale. We've got our minor pentatonic. And we've got the hybrid. Where we can combine the major and minor. And so, let's start with our phrase. Kind of corny little phrase, I know, but we're just going to use that as our our our our anchor. And then I'm going to play different responses to that. It's going to start to morph.
+
+**[17:14]** All right. Well, hopefully that you're starting to understand what I'm talking about here, and see that when you're improvising, it's a very different mindset than than just practicing. Completely different. These are different muscles, different skills. And when you're practicing and learning how to to play the guitar, keep doing what you're doing with scales and learning how to do some technical thing and get your synchronization and all that kind of stuff. You you've got to get that. But you also need to be practicing how to do what I just did, and that is put on a jam track and just play and and perform. You have to have the mindset
+
+**[17:49]** that you're performing. You don't You have to just go and whatever comes out is what comes out. You don't get to stop the thing and start it over or any of that. You just have to perform. And you'll see that what what you start to rely on are familiar things that you you know. And so when I was doing that, I was improvising. All those little phrases All of that kind of stuff was coming from things that I've learned before. You know, it'd be a combination of, you know, blues licks and and and little things that I've worked out and through
+
+**[18:21]** the years and years of doing this. And so there wasn't anything in there that I made up that was innovative. It was all stuff that I've done before, right? It's just the same way that I'm speaking. I'm not making up any new words as I'm communicating this to you. I've said them all before at some point. It's the same thing. And so I just will hope that you can understand that and and you can get into that head space and it's really necessary part of your practice. Okay, so I did go ahead and tab out that last little piece that I improvised uh so that you can download that. You can also get the MP3 jam track, and then you can
+
+**[18:54]** take any of those licks that I played, and you can steal those and put those into your memory banks and use those as well. And you can add those too. And you know, any of them that sound interesting, you can you can use them. That's why I like to tab the stuff out so that you can have that. Not that you memorize and just you know, learn it that way. Um, but it you know, the idea is the point of it is to give you ideas so that you can go, "Oh, okay. I see where that's coming from and and now I can add that to my my thoughts when I'm playing." Uh, I'm trying to make that process easy for you. So, that's why I like to
+
+**[19:26]** include the tab and the jam tracks so you can practice doing it. All right, that's what we have for this week's lesson. I'll see you next week for something new.
