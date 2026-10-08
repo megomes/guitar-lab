@@ -1,0 +1,2433 @@
+{
+ "titulo": "Notas no braço e oitavas",
+ "gancho": "Quem sabe onde mora cada Lá não se perde no braço: em qualquer região, a próxima tônica está a um desenho de distância.",
+ "porque_importa": "Para mirar a tônica, pousar numa nota do acorde ou levar uma frase para outra região, você precisa saber onde as notas estão. Quem só decorou caixas fica preso nelas. Quem conhece as notas e as oitavas enxerga o braço inteiro como um mapa só.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Seis teclados sem teclas pretas",
+   "texto": "Cada corda funciona como um teclado de piano que começa na nota da corda solta: E A D G B E. Cada casa sobe um semitom. Na casa 12 a nota da corda solta volta, uma oitava acima, e daí em diante tudo se repete. Só que, ao contrário do piano, nada no braço diferencia uma nota da outra, e por isso você precisa de referências próprias. A regra dos semitons E–F e B–C está em \"Notas, intervalos e graus\".",
+   "destaque": "Casa 12 = corda solta, uma oitava acima.",
+   "visual": null
+  },
+  {
+   "titulo": "Naturais primeiro, nas cordas E e A",
+   "texto": "Não decore a escala cromática casa por casa. Aprenda as sete notas naturais (A B C D E F G), que já formam o tom de Dó maior e o de Lá menor. Comece pelas cordas Mi grave e Lá, onde você acha a tônica de qualquer tom. Fixe algumas âncoras e conte a partir da mais próxima: na Mi grave, casa 3 = G, 7 = B, 10 = D; na Lá, casa 3 = C, 7 = E, 10 = G. A Mi aguda tem as mesmas notas da Mi grave.",
+   "destaque": "Âncoras 3-7-10: G-B-D na Mi, C-E-G na Lá.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Notas naturais nas cordas Mi grave (6ª) e Lá (5ª), da casa 0 à 12. Os anéis marcam as casas-âncora 3, 7 e 10. Graus em relação a Dó.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 0,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 1,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "2",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 12,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Oitava é um desenho, não uma conta",
+   "texto": "Quando E e A estiverem firmes, as outras cordas vêm por desenho. Duas cordas acima, a oitava fica duas casas à frente (Mi→Ré, Lá→Sol). Se esse salto cruza a corda Si, são três casas à frente (Ré→Si, Sol→Mi aguda). Três cordas acima, a oitava fica para trás: saindo da Mi grave, 3 casas para trás (casa 5 da Mi = casa 2 da Sol); saindo da Lá ou da Ré, que cruzam a Si, 2 casas para trás (casa 3 da Lá = casa 1 da Si). Cada desenho funciona em qualquer casa.",
+   "destaque": "2 cordas: +2 casas. Cruzou a Si: +3.",
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Duas cadeias de Sol (G). Partindo da corda Mi grave: casa 3 → corda Ré casa 5 → corda Si casa 8. Partindo da corda Lá: casa 10 → corda Sol casa 12 → Mi aguda casa 15.",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A corda Si empurra uma casa",
+   "texto": "Entre cordas vizinhas o intervalo é uma quarta (5 semitons), exceto entre Sol e Si, que é uma terça maior (4 semitons). Por isso qualquer desenho que entra na corda Si, ou passa por ela, precisa avançar uma casa para soar igual. Ouça o exemplo: a quarta \"na mesma casa\" funciona da Mi grave até a Sol, mas na Si a casa 5 dá E, uma terça. O F certo está na casa 6.",
+   "destaque": "Tocou ou cruzou a Si: +1 casa.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Cadeia de quartas: mesma casa na corda seguinte (A-D-G-C) até chegar à corda Si, onde o F fica uma casa à frente. No compasso 3, compare: casa 5 da Si dá E (errado), casa 6 dá F (certo).",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": []
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Do mapa à frase",
+   "texto": "Saber as oitavas serve para tocar. Uma frase que você já conhece soa igual em qualquer oitava, porque os intervalos não mudam, e ganha outra cor no grave ou no agudo. Com duas ou três tônicas à vista, o solo sobe e desce pelo braço em vez de ficar preso num desenho, e qualquer Lá vira um lugar possível para terminar a frase.",
+   "destaque": "Mesmos intervalos, mesmo som. Só muda a altura.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Uma frase em três alturas: E-D-C-B pousando em A, em três oitavas. O desenho é o mesmo e anda +2 casas, depois +3 (porque cruzou a Si). O compasso 4 fica em silêncio.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 7,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 35,
+   "porque": "Daniel Seriff toca as notas naturais na corda Mi grave sobre um drone de Dó e diz cada nota em voz alta. É o modelo do exercício-base.",
+   "fonte": {
+    "id": "s6lqWYXvEds#I04",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+    "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=104s",
+    "video": "s6lqWYXvEds",
+    "inicio": 104,
+    "momento": "01:46",
+    "ideia": "Notas naturais na corda E grave sobre drone de C"
+   }
+  },
+  {
+   "ref": 61,
+   "porque": "Seriff mostra no braço o mapeamento de oitavas a partir da corda Mi grave, incluindo o salto de +3 casas ao cruzar a corda Si.",
+   "fonte": {
+    "id": "s6lqWYXvEds#I10",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+    "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=241s",
+    "video": "s6lqWYXvEds",
+    "inicio": 241,
+    "momento": "04:03",
+    "ideia": "Octave mapping a partir da corda E grave"
+   }
+  },
+  {
+   "ref": 59,
+   "porque": "Marcelo Barbosa, em português, mostra o desenho de oitava casa 5 da Mi / casa 7 da Ré e toca as notas alternadas e juntas.",
+   "fonte": {
+    "id": "Y8yEev1Ce88#I06",
+    "tipo": "video",
+    "autor": "Marcelo Barbosa",
+    "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+    "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=166s",
+    "video": "Y8yEev1Ce88",
+    "inicio": 166,
+    "momento": "02:48",
+    "ideia": "Shape de oitava: corda E casa 5 e corda D casa 7"
+   }
+  },
+  {
+   "ref": 71,
+   "porque": "Seriff compara a forma copiada (10-9-7) com a compensada (10-9-8), e dá para ouvir o erro da corda Si.",
+   "fonte": {
+    "id": "FZB0Ia7ftRo#I10",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+    "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=167s",
+    "video": "FZB0Ia7ftRo",
+    "inicio": 167,
+    "momento": "02:49",
+    "ideia": "C maior nas cordas 4-3-2 com compensação na corda B"
+   }
+  },
+  {
+   "ref": 84,
+   "porque": "Desi Serna termina a mesma ideia em outros Dós do braço, em regiões diferentes.",
+   "fonte": {
+    "id": "dZUSUZjRISI#I12",
+    "tipo": "video",
+    "autor": "Desi Serna | Guitar Music Theory",
+    "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+    "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=258s",
+    "video": "dZUSUZjRISI",
+    "inicio": 258,
+    "momento": "04:20",
+    "ideia": "Criar frases com outros C do braço"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Corda Mi grave: sobe, desce e fala",
+   "objetivo": "Fixar as notas naturais da 6ª corda ligando o nome ao som, nos dois sentidos.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Ponha um drone ou uma base de Dó maior e o metrônomo a 70 bpm.",
+    "Toque a Mi solta e diga \"Mi\" em voz alta. Uma nota por tempo, como na tab.",
+    "Suba até a casa 12 dizendo cada nome: Mi, Fá, Sol, Lá, Si, Dó, Ré, Mi. Fá e Dó chegam com uma casa só. O anel marca o Dó, a tônica da base: ouça como ele repousa.",
+    "Volte até a casa 0 dizendo Ré, Dó, Si, Lá, Sol, Fá, Mi. Na descida, Dó→Si e Fá→Mi também são de uma casa.",
+    "Respeite o silêncio do último tempo e recomece. Faça 4 voltas, a última sem olhar para o braço."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Corda Mi grave: notas naturais subindo até a casa 12 e voltando. Os anéis marcam o Dó, a tônica da base. Fá e Dó chegam com uma casa só (semitom).",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 10,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 12,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 10,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça igual na Mi aguda (1ª corda): mesmas casas, mesmas notas.",
+    "Comece no Dó da casa 8 e diga Dó, Ré, Mi até a casa 12. Depois desça Ré, Dó, Si... até a corda solta e suba de volta ao Dó.",
+    "Cante a nota na altura certa em vez de só falar."
+   ],
+   "cuidado": "Treinar só a subida. A descida é onde o mapa costuma falhar, então faça sempre as duas.",
+   "inspirado_em": [
+    {
+     "id": "2vpD-LXRenI#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=131s",
+     "video": "2vpD-LXRenI",
+     "inicio": 131,
+     "momento": "2:13",
+     "ideia": "Notas naturais da casa 0 à 12, subindo e descendo"
+    },
+    {
+     "id": "s6lqWYXvEds#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=104s",
+     "video": "s6lqWYXvEds",
+     "inicio": 104,
+     "momento": "01:46",
+     "ideia": "Notas naturais na corda E grave sobre drone de C"
+    },
+    {
+     "id": "2vpD-LXRenI#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=166s",
+     "video": "2vpD-LXRenI",
+     "inicio": 166,
+     "momento": "2:48",
+     "ideia": "Esquecer de tocar descendo"
+    },
+    {
+     "id": "s6lqWYXvEds#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=116s",
+     "video": "s6lqWYXvEds",
+     "inicio": 116,
+     "momento": "01:58",
+     "ideia": "Aprenda o alfabeto musical também de trás para frente"
+    },
+    {
+     "id": "2vpD-LXRenI#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=166s",
+     "video": "2vpD-LXRenI",
+     "inicio": 166,
+     "momento": "2:48",
+     "ideia": "Falar as notas em voz alta"
+    }
+   ]
+  },
+  {
+   "titulo": "Corda Lá e as âncoras 3-7-10",
+   "objetivo": "Achar qualquer nota natural nas cordas E e A partindo do ponto fixo mais próximo, sem contar desde a casa 0.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Toque as naturais da corda Lá subindo e descendo e falando: Lá, Si, Dó, Ré, Mi, Fá, Sol, Lá (casas 0-2-3-5-7-8-10-12).",
+    "Agora diga só as âncoras em voz alta: na Mi, casa 3 = Sol, 7 = Si, 10 = Ré; na Lá, casa 3 = Dó, 7 = Mi, 10 = Sol.",
+    "Sorteie (ou peça a alguém) uma nota e uma corda, por exemplo \"Fá na corda Lá\".",
+    "Vá para a âncora mais próxima (Mi, casa 7), conte a partir dela (Fá = casa 8) e toque.",
+    "Faça 15 sorteios. Anote os que levaram mais de 3 segundos e repita só esses no dia seguinte."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Notas naturais nas cordas Mi grave (6ª) e Lá (5ª), da casa 0 à 12. Os anéis marcam as casas-âncora 3, 7 e 10. Graus em relação a Dó.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 0,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 1,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "2",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 12,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use as marcações do braço (casas 3, 5, 7, 9 e 12) como âncoras extras.",
+    "Sorteie notas com sustenido ou bemol: Si♭ na Mi fica uma casa antes do Si (casa 6)."
+   ],
+   "cuidado": "Contar casa por casa desde a corda solta. É lento e não fixa na memória. Parta sempre da âncora.",
+   "inspirado_em": [
+    {
+     "id": "OXpW5An9XVQ#I10",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 1",
+     "url": "https://www.youtube.com/watch?v=OXpW5An9XVQ&t=321s",
+     "video": "OXpW5An9XVQ",
+     "inicio": 321,
+     "momento": "05:23",
+     "ideia": "Memorizar as notas das casas 3, 7 e 10 nas cordas E e A"
+    },
+    {
+     "id": "OXpW5An9XVQ#I11",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 1",
+     "url": "https://www.youtube.com/watch?v=OXpW5An9XVQ&t=321s",
+     "video": "OXpW5An9XVQ",
+     "inicio": 321,
+     "momento": "05:23",
+     "ideia": "Construir um mapa de notas do braço gradualmente"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I02",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pensar em marcos e não em casas isoladas"
+    },
+    {
+     "id": "s6lqWYXvEds#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=140s",
+     "video": "s6lqWYXvEds",
+     "inicio": 140,
+     "momento": "02:22",
+     "ideia": "Notas naturais na corda A, subindo e descendo"
+    },
+    {
+     "id": "OXpW5An9XVQ#I08",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 1",
+     "url": "https://www.youtube.com/watch?v=OXpW5An9XVQ&t=255s",
+     "video": "OXpW5An9XVQ",
+     "inicio": 255,
+     "momento": "04:17",
+     "ideia": "Percorrer a corda A casa a casa nomeando as notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Chamada de tônicas",
+   "objetivo": "Achar a tônica de qualquer tom nas cordas 6 e 5 em até 3 segundos, o primeiro passo para solar numa música.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Escreva 8 tons em papéis: Am, G, C, D, Em, F, Bm, B♭m.",
+    "Sorteie um e toque a tônica na corda Mi grave (Lá = 5, Sol = 3, Dó = 8, Ré = 10, Mi = 0, Fá = 1, Si = 7, Si♭ = 6).",
+    "Logo em seguida, toque a mesma tônica na corda Lá (Lá = 0 ou 12, Sol = 10, Dó = 3, Ré = 5, Mi = 7, Fá = 8, Si = 2, Si♭ = 1).",
+    "Diga em voz alta qual das duas fica mais perto da região onde você costuma tocar: é ali que você vai solar.",
+    "Quando acertar 8 de 8 sem hesitar, troque por tons com sustenidos e bemóis: F#m, C#m, E♭."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Notas naturais nas cordas Mi grave (6ª) e Lá (5ª), da casa 0 à 12. Os anéis marcam as casas-âncora 3, 7 e 10. Graus em relação a Dó.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 0,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 1,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "2",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 12,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Ponha uma base num tom que você não conhece e ache a tônica de ouvido nas cordas 6 e 5.",
+    "Cronometre: uma rodada de 8 tons em menos de 30 segundos."
+   ],
+   "cuidado": "Achar a tônica só na corda 6. Muitas vezes a da corda 5 está mais perto da região onde você vai tocar.",
+   "inspirado_em": [
+    {
+     "id": "KorP9lq1voU#I02",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=65s",
+     "video": "KorP9lq1voU",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Encontrar a raiz do acorde na 6ª corda"
+    },
+    {
+     "id": "KorP9lq1voU#I09",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=300s",
+     "video": "KorP9lq1voU",
+     "inicio": 300,
+     "momento": "05:02",
+     "ideia": "Raiz G na 3ª casa da 6ª corda"
+    },
+    {
+     "id": "KorP9lq1voU#I16",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=442s",
+     "video": "KorP9lq1voU",
+     "inicio": 442,
+     "momento": "07:24",
+     "ideia": "Raiz D na 10ª casa da 6ª corda"
+    },
+    {
+     "id": "KorP9lq1voU#I21",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=573s",
+     "video": "KorP9lq1voU",
+     "inicio": 573,
+     "momento": "09:35",
+     "ideia": "C na 8ª casa da 6ª corda (C add9 como variação)"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I09",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=337s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 337,
+     "momento": "05:39",
+     "ideia": "Localizar a tônica do tom menor"
+    },
+    {
+     "id": "gubqumrozXc#I04",
+     "tipo": "video",
+     "autor": "Bruno Oliveira",
+     "titulo": "Aprenda a Improvisar sobre Pentatônicas, e Modos Gregos com Gustavo Guerra.",
+     "url": "https://www.youtube.com/watch?v=gubqumrozXc&t=172s",
+     "video": "gubqumrozXc",
+     "inicio": 172,
+     "momento": "02:54",
+     "ideia": "Conhecer a tônica nas cordas 6 e 5"
+    }
+   ]
+  },
+  {
+   "titulo": "Cadeias de oitava: E→D→B e A→G→E",
+   "objetivo": "Levar as notas que você já sabe nas cordas E e A para as cordas Ré, Sol e Si, onde a maioria se perde.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a tab devagar (66 bpm), falando a nota a cada toque: \"Sol, Sol, Sol\" e silêncio.",
+    "Os compassos 1 e 3 começam na Mi grave: +2 casas na corda Ré e +3 na corda Si.",
+    "Os compassos 2 e 4 começam na corda Lá: +2 casas na corda Sol e +3 na Mi aguda.",
+    "Faça a cadeia com as sete naturais da corda Mi grave (Fá 1, Sol 3, Lá 5, Si 7, Dó 8, Ré 10, Mi 12) e depois com as da corda Lá.",
+    "No fim de cada cadeia, toque a nota de cima sozinha e diga o nome da nota, a corda e a casa: \"Lá, corda Si, casa 10\"."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Cadeias de oitava: a mesma nota em três alturas, com um tempo de silêncio no fim de cada compasso. Duas cordas acima = +2 casas. Se cruzar a corda Si = +3 casas (anel).",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "2",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Desenho de três cordas: da Mi grave, 3 casas para trás (Lá 5 → Sol 2); da Lá, 2 casas para trás (Dó 3 → Si 1).",
+    "Faça de cima para baixo: comece na corda Si e volte até a Mi grave.",
+    "Leve o desenho Mi grave → Ré pelos 12 tons, cromaticamente."
+   ],
+   "cuidado": "Usar +2 casas também na corda Si. Ao cruzar a Si são +3, e o anel da tab marca essa nota.",
+   "inspirado_em": [
+    {
+     "id": "s6lqWYXvEds#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=193s",
+     "video": "s6lqWYXvEds",
+     "inicio": 193,
+     "momento": "03:15",
+     "ideia": "Dominando E e A, você acessa o braço inteiro"
+    },
+    {
+     "id": "s6lqWYXvEds#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=343s",
+     "video": "s6lqWYXvEds",
+     "inicio": 343,
+     "momento": "05:45",
+     "ideia": "Pratique E e A e use as formas para D, G e B"
+    },
+    {
+     "id": "Y8yEev1Ce88#I04",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=95s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 95,
+     "momento": "01:37",
+     "ideia": "Memorizar as oitavas do braço"
+    },
+    {
+     "id": "Y8yEev1Ce88#I06",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=166s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Shape de oitava: corda E casa 5 e corda D casa 7"
+    },
+    {
+     "id": "Y8yEev1Ce88#I07",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=278s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 278,
+     "momento": "04:40",
+     "ideia": "Transpor o shape de oitava para 12 tons"
+    },
+    {
+     "id": "s6lqWYXvEds#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=241s",
+     "video": "s6lqWYXvEds",
+     "inicio": 241,
+     "momento": "04:03",
+     "ideia": "Octave mapping a partir da corda E grave"
+    },
+    {
+     "id": "s6lqWYXvEds#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give me 7 Minutes, I'll Change the Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=s6lqWYXvEds&t=308s",
+     "video": "s6lqWYXvEds",
+     "inicio": 308,
+     "momento": "05:10",
+     "ideia": "Octave mapping a partir da corda A"
+    },
+    {
+     "id": "0Dh8aGffCaI#I12",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "The 2 1/2 Pentatonic Scale Patterns that Connect the Entire Fretboard! (FORGET THE 5 SHAPES)",
+     "url": "https://www.youtube.com/watch?v=0Dh8aGffCaI&t=359s",
+     "video": "0Dh8aGffCaI",
+     "inicio": 359,
+     "momento": "06:01",
+     "ideia": "Achar a mesma nota em outra oitava"
+    }
+   ]
+  },
+  {
+   "titulo": "Regra da Si: a cadeia de quartas",
+   "objetivo": "Sentir no ouvido e na mão por que a corda Si pede uma casa a mais.",
+   "nivel": "intermediario",
+   "minutos": 5,
+   "passos": [
+    "Toque a cadeia do compasso 1: casa 5 das cordas 6, 5, 4 e 3 (Lá, Ré, Sol, Dó). Cada nota é uma quarta acima da anterior.",
+    "No compasso 2, continue a cadeia na corda Si. Para soar outra quarta, o Fá fica na casa 6, não na 5.",
+    "No compasso 3, alterne o Dó (corda Sol, casa 5) com o Mi (Si, casa 5) e depois com o Fá (Si, casa 6). Ouça: a mesma casa dá uma terça, e a casa da frente devolve a quarta.",
+    "Leve a cadeia para a casa 3 (Sol, Dó, Fá, Si♭ e, na Si, Mi♭ na casa 4) e confira de ouvido.",
+    "Pegue um desenho de duas notas que você conhece nas cordas Ré e Sol, leve para Sol e Si e corrija a nota da Si."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Cadeia de quartas: mesma casa na corda seguinte (A-D-G-C) até chegar à corda Si, onde o F fica uma casa à frente. No compasso 3, compare: casa 5 da Si dá E (errado), casa 6 dá F (certo).",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": []
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça com quintas: corda seguinte +2 casas (Lá da Mi grave 5 → Mi da corda Lá 7), mas da Sol para a Si são +3.",
+    "Cadeia descendente: da Mi aguda para a Mi grave, voltando uma casa ao sair da Si."
+   ],
+   "cuidado": "Copiar a forma sem compensar. Se a nota da corda Si soou \"estranha\", provavelmente faltou uma casa.",
+   "inspirado_em": [
+    {
+     "id": "fZ7nVnhm3VE#I07",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Connect All 5 Pentatonic Scale Positions With This Hidden Pathway - Lead Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=fZ7nVnhm3VE&t=234s",
+     "video": "fZ7nVnhm3VE",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "Compensar a corda Si na conexão"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=36s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 36,
+     "momento": "00:38",
+     "ideia": "Regra da corda B"
+    },
+    {
+     "id": "q3qPxtW8T_0#I05",
+     "tipo": "video",
+     "autor": "Robert Rooke",
+     "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+     "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=133s",
+     "video": "q3qPxtW8T_0",
+     "inicio": 133,
+     "momento": "02:15",
+     "ideia": "Compensar a afinação da corda B (+1 casa)"
+    },
+    {
+     "id": "mrKDTl6zDOM#I19",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=936s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 936,
+     "momento": "15:38",
+     "ideia": "Quinta não cai na mesma casa em todas as cordas"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=202s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Copiar a forma sem compensar a corda B"
+    },
+    {
+     "id": "FZB0Ia7ftRo#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice Triads EVERY DAY Like THIS to SKYROCKET Your Playing",
+     "url": "https://www.youtube.com/watch?v=FZB0Ia7ftRo&t=167s",
+     "video": "FZB0Ia7ftRo",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "C maior nas cordas 4-3-2 com compensação na corda B"
+    }
+   ]
+  },
+  {
+   "titulo": "Caça aos Lás",
+   "objetivo": "Ver todas as oitavas de uma nota pelo braço e chegar a qualquer uma delas sem olhar.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Ponha uma base ou drone de Lá menor a 70 bpm.",
+    "Toque um Lá no tempo 1 de cada compasso, do grave para o agudo: corda Lá solta e Mi grave 5 (uníssono); Ré 7, Sol 2, Lá 12 e Mi grave 17 (uníssonos); Sol 14, Si 10 e Mi aguda 5 (uníssonos); Mi aguda 17.",
+    "A cada toque, diga onde está: \"Lá, Ré, 7\". Confira com as cadeias de oitava do exercício anterior.",
+    "Agora sem olhar: olhe para a frente, visualize o braço e vá de um Lá a outro pelo tato e pelo ouvido.",
+    "Por fim, em ordem aleatória: alguém diz uma corda e você toca o Lá daquela corda dentro de um compasso."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Todos os Lás (A) até a casa 17. Uníssonos: corda Lá solta = Mi grave casa 5; corda Ré casa 7 = Sol casa 2 = Lá casa 12 = Mi grave casa 17; Sol 14 = Si 10 = Mi aguda 5.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Repita com Mi (a 5ª de Lá menor) e depois com Dó (a ♭3).",
+    "Sobre Am–Dm–Em, toque a fundamental de cada acorde só nas cordas Ré, Sol e Si."
+   ],
+   "cuidado": "Só achar as tônicas nas cordas graves. O exercício existe para firmar Ré, Sol e Si, então dê mais tempo a elas.",
+   "inspirado_em": [
+    {
+     "id": "sX3dqStq0ag#I17",
+     "tipo": "video",
+     "autor": "The-Art-of-Guitar",
+     "titulo": "UNLOCK Your Improvising/Soloing Skills with this Method!",
+     "url": "https://www.youtube.com/watch?v=sX3dqStq0ag&t=358s",
+     "video": "sX3dqStq0ag",
+     "inicio": 358,
+     "momento": "06:00",
+     "ideia": "Evitar as cordas centrais"
+    },
+    {
+     "id": "tRi4vMs2z8M#I10",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=658s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 658,
+     "momento": "11:00",
+     "ideia": "Localizar raízes nas cordas agudas"
+    },
+    {
+     "id": "4adDRnZXv5g#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=396s",
+     "video": "4adDRnZXv5g",
+     "inicio": 396,
+     "momento": "06:38",
+     "ideia": "Localizar a tônica A em várias posições"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I05",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Achar as mesmas notas em cordas diferentes"
+    },
+    {
+     "id": "mrKDTl6zDOM#I17",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=864s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 864,
+     "momento": "14:26",
+     "ideia": "Oitavar a quinta pelo braço"
+    },
+    {
+     "id": "kkr107pBAAs#I06",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+     "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=207s",
+     "video": "kkr107pBAAs",
+     "inicio": 207,
+     "momento": "03:29",
+     "ideia": "Localizar as raízes de Am, Dm e Em no braço"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=407s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 407,
+     "momento": "06:49",
+     "ideia": "Pratique sem olhar para o braço"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma frase, três alturas",
+   "objetivo": "Transformar o mapa de oitavas em música: a mesma frase pousando no Lá em três regiões.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Base de Lá menor a 70 bpm. Toque o compasso 1: Mi-Ré-Dó-Si em colcheias, pousando no Lá da casa 5 da Mi grave.",
+    "Compasso 2: o mesmo desenho duas cordas acima e +2 casas (cordas Sol e Ré), pousando no Lá da casa 7 da Ré.",
+    "Compasso 3: duas cordas acima e +3 casas, porque cruzou a Si (Mi aguda e Si), pousando no Lá da casa 10 da Si.",
+    "Respeite o silêncio do compasso 4 e recomece. Diga a nota final de cada vez: \"Lá grave, Lá médio, Lá agudo\".",
+    "Crie sua própria frase de 4 ou 5 notas que pouse num Lá e leve-a para as três alturas, ajustando a casa ao cruzar a Si."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Uma frase em três alturas: E-D-C-B pousando em A, em três oitavas. O desenho é o mesmo e anda +2 casas, depois +3 (porque cruzou a Si). O compasso 4 fica em silêncio.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 7,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça em Dó maior: pouse no Dó da casa 3 da corda Lá, no da casa 5 da Sol e no da casa 13 da Si.",
+    "Pergunta e resposta: a frase na região grave pergunta, a da aguda responde.",
+    "Toque 12 compassos de base numa região e os 12 seguintes uma oitava acima, sem mudar as notas."
+   ],
+   "cuidado": "Mudar a digitação entre as alturas sem perceber. O desenho é o mesmo, só se desloca. Se soar diferente, confira a corda Si.",
+   "inspirado_em": [
+    {
+     "id": "fwyn5tQdF4k#I04",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "Stop Thinking in Scales: why your solos sound boring",
+     "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=118s",
+     "video": "fwyn5tQdF4k",
+     "inicio": 118,
+     "momento": "02:00",
+     "ideia": "Adicionar a oitava amplia o fraseado"
+    },
+    {
+     "id": "2xR1QJfawjg#I07",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=247s",
+     "video": "2xR1QJfawjg",
+     "inicio": 247,
+     "momento": "04:09",
+     "ideia": "Repetir o exercício uma oitava acima"
+    },
+    {
+     "id": "2-KlhAakkfU#I15",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=681s",
+     "video": "2-KlhAakkfU",
+     "inicio": 681,
+     "momento": "11:23",
+     "ideia": "Oitavar o fragmento na região aguda"
+    },
+    {
+     "id": "dZUSUZjRISI#I12",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=258s",
+     "video": "dZUSUZjRISI",
+     "inicio": 258,
+     "momento": "04:20",
+     "ideia": "Criar frases com outros C do braço"
+    },
+    {
+     "id": "dZUSUZjRISI#I23",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=498s",
+     "video": "dZUSUZjRISI",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Criar frases com outros A do braço"
+    },
+    {
+     "id": "mrKDTl6zDOM#I07",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=302s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 302,
+     "momento": "05:04",
+     "ideia": "Padrões oitavados pelo braço"
+    },
+    {
+     "id": "2-KlhAakkfU#I17",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=859s",
+     "video": "2-KlhAakkfU",
+     "inicio": 859,
+     "momento": "14:21",
+     "ideia": "Mesmo fragmento, mesmo som em qualquer oitava"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Decorar o braço pela escala cromática casa por casa: as notas naturais sobre um tom fixam mais rápido e servem na música real.",
+  "Treinar só subindo: o alfabeto ao contrário (E D C B A G F E) também precisa ficar automático.",
+  "Saber as raízes só nas cordas Mi e Lá (por causa dos power chords) e evitar as cordas Ré e Sol.",
+  "Copiar um desenho para a corda Si sem avançar uma casa.",
+  "Contar desde a corda solta em vez de partir da âncora mais próxima (casas 3, 7, 10 e 12).",
+  "Pensar as notas em silêncio: dizer o nome em voz alta, ou cantar, liga o nome ao som.",
+  "Depender dos olhos o tempo todo: treine também sem olhar, pelo tato e pelo ouvido."
+ ],
+ "resumo": [
+  "Cada corda é um teclado que começa na nota solta, e a casa 12 é a oitava dela.",
+  "Aprenda primeiro as notas naturais nas cordas Mi e Lá, com as âncoras 3-7-10, subindo, descendo e falando os nomes.",
+  "Oitava por desenho: duas cordas acima e +2 casas; se cruzar a Si, +3.",
+  "A corda Si está a uma terça da Sol: tocou ou cruzou a Si, avance uma casa.",
+  "Uma frase soa igual em qualquer oitava. Use os outros Lás e Dós para mudar de região."
+ ],
+ "proximos_passos": "Com as notas e as oitavas no lugar, siga para \"Visão horizontal: uma corda e pares de cordas\", que ensina a andar pelo comprimento do braço, e para \"CAGED, formas de acorde e regiões do braço\", que liga cada tônica a uma forma de acorde. Depois, em \"Os cinco shapes e como conectá-los\", use as cadeias de oitava para passar de um shape a outro. \"Notas do acorde, repouso e tensão-resolução\" mostra o que fazer quando você já sabe onde cada nota está.",
+ "_meta": {
+  "subcategoria": "C03.1",
+  "modulo": {
+   "id": "C03",
+   "nome": "Mapa do braço e visualização"
+  },
+  "nome": "Notas no braço e oitavas",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T13:15:27",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 4,
+   "cache_write": 67139,
+   "cache_read": 9866,
+   "output": 31113,
+   "thinking": 8479,
+   "turns": 4,
+   "custo_nominal": 1.2153451999999998
+  }
+ }
+}

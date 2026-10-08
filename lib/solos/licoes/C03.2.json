@@ -1,0 +1,1734 @@
+{
+ "titulo": "CAGED: formas de acorde como mapa do braço",
+ "gancho": "Os cinco acordes abertos que você já toca formam o mapa do braço inteiro.",
+ "porque_importa": "Sem mapa, o solo fica preso numa caixa ou vira um salto às cegas. Com o CAGED, cada região do braço tem uma forma de acorde como referência, e nela você vê a tônica, as notas do acorde e a escala. Assim dá para trocar de acorde, de região ou de tom sem se perder.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Cinco acordes que são um mapa",
+   "texto": "C, A, G, E e D são os cinco acordes abertos mais básicos do violão. No CAGED, eles contam como DESENHOS. Qualquer acorde maior no braço é um desses desenhos deslocado. Por isso o nome da forma não é o nome do acorde: a 'forma de E' tocada na casa 5 soa Lá.",
+   "destaque": "A forma é o desenho. O nome do acorde vem da raiz.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "As cinco formas abertas: C, A, G, E e D. O sistema inteiro sai delas.",
+    "tonica": "",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "A",
+      "digitacao": "x02220"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "E",
+      "digitacao": "022100"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "A forma anda, a raiz manda",
+   "texto": "Para mover uma forma, o indicador faz a pestana no lugar das cordas soltas. Depois, saiba em que corda fica a raiz mais grave: Mi grave nas formas E e G, Lá nas formas C e A, Ré na forma D. Coloque a raiz na nota que você quer e o acorde está pronto. Em sequência (A → G → E → D → C), as formas se encaixam como peças de quebra-cabeça: o fim de uma é o começo da próxima. Depois da forma C, o ciclo recomeça uma oitava acima.",
+   "destaque": "Cada forma divide notas com a vizinha, por isso não sobra buraco no braço.",
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "O mesmo acorde de Lá em cinco formas, subindo o braço. Da esquerda para a direita: forma A (aberta), forma G (casas 2–5), forma E (casa 5), forma D (casas 7–10) e forma C (casas 9–12). Na casa 12, a forma A volta.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A",
+      "digitacao": "x02220"
+     },
+     {
+      "nome": "A",
+      "digitacao": "542225"
+     },
+     {
+      "nome": "A",
+      "digitacao": "577655"
+     },
+     {
+      "nome": "A",
+      "digitacao": "xx79a9"
+     },
+     {
+      "nome": "A",
+      "digitacao": "xcb9a9"
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Três vizinhanças e uma âncora",
+   "texto": "Não precisa encarar as cinco formas de uma vez. As formas E, C e A dividem o braço em três 'vizinhanças'. Em Sol: a forma E tem pestana na casa 3, a forma C ocupa as casas 7 a 10 e a forma A, as casas 10 a 12. Cada vizinhança tem um G de referência numa corda diferente: na forma E, 1ª corda, casa 3. Na C, 2ª corda, casa 8. Na A, 3ª corda, casa 12. O indicador é a cerca: improvise na direção do corpo da guitarra, sem passar dele.",
+   "destaque": "Se se perder, volte para o G da sua vizinhança.",
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "As três vizinhanças de Sol nas cordas agudas: forma E (casas 3–4), forma C (casas 7–8) e forma A (casas 10–12). O G com anel é a âncora de cada região.",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "acordes": [],
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Acorde por baixo, escala por cima",
+   "texto": "Imagine duas camadas na mesma região: embaixo, a forma do acorde; em cima, a escala. Todas as notas do acorde estão dentro da escala e são o lugar seguro para começar e pousar. As outras notas servem de caminho entre elas. Comece pelas três cordas agudas, no meio do braço. As cordas graves soam pesadas e funcionam melhor em riffs.",
+   "destaque": "A forma do acorde mostra onde pousar dentro da escala.",
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "Forma E de Sol (pestana na casa 3) com a pentatônica maior de G em volta. As notas com anel formam o acorde. As outras são a escala que se encaixa nele.",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "acordes": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Fique na vizinhança quando o acorde muda",
+   "texto": "Quando a harmonia troca, não salte pelo braço atrás da forma favorita. Procure a forma do novo acorde que está PERTO da mão, e a frase continua sem buraco. O CAGED é um andaime: com o tempo, a mão sabe sozinha para onde ir. Também não é o único método. Alguns professores preferem pensar por intervalos ou por dedos, e as abordagens se completam.",
+   "destaque": "Na troca de acorde, use a forma mais próxima.",
+   "visual": {
+    "id": "V8",
+    "tipo": "acordes",
+    "legenda": "G, C e D na mesma região (casas 7–10). Da esquerda para a direita: G na forma C, C na forma E e D na forma G. Para solar, bastam as três cordas agudas de cada uma.",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "xa9787"
+     },
+     {
+      "nome": "C",
+      "digitacao": "8aa988"
+     },
+     {
+      "nome": "D",
+      "digitacao": "a9777a"
+     }
+    ]
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 35,
+   "porque": "Active Melody divide o braço em três vizinhanças (E, C e A) em Sol e toca cada uma.",
+   "fonte": {
+    "id": "FhfmneCt7jo#I01",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+    "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=0s",
+    "video": "FhfmneCt7jo",
+    "inicio": 0,
+    "momento": "00:00",
+    "ideia": "Braço dividido em três vizinhanças"
+   }
+  },
+  {
+   "ref": 53,
+   "porque": "A bus line na prática: a frase sai de uma região e chega à seguinte sem quebrar.",
+   "fonte": {
+    "id": "FhfmneCt7jo#I21",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+    "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=827s",
+    "video": "FhfmneCt7jo",
+    "inicio": 827,
+    "momento": "13:49",
+    "ideia": "Bus line como ponte entre regiões"
+   }
+  },
+  {
+   "ref": 56,
+   "porque": "Improviso real sobre backing track, atravessando as regiões e voltando sempre ao G âncora.",
+   "fonte": {
+    "id": "FhfmneCt7jo#I30",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+    "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=1164s",
+    "video": "FhfmneCt7jo",
+    "inicio": 1164,
+    "momento": "19:26",
+    "ideia": "Improvisar mudando de região com a nota G fixa"
+   }
+  },
+  {
+   "ref": 3,
+   "porque": "Andrew Clarke explica o CAGED básico e o usa para solar sobre trocas de acorde.",
+   "fonte": {
+    "id": "wXZGcgYysNs#I02",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "How To Use Basic CAGED To Solo Effortlessly Over Chord Changes - Lead Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=wXZGcgYysNs&t=48s",
+    "video": "wXZGcgYysNs",
+    "inicio": 48,
+    "momento": "0:50",
+    "ideia": "CAGED como acrônimo dos cinco shapes de acorde"
+   }
+  },
+  {
+   "ref": 109,
+   "porque": "Na progressão A–C♯m–D–E, cada arpejo é buscado perto da posição atual, e dá para ouvir a diferença.",
+   "fonte": {
+    "id": "ExhI4nkjOAY#I23",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "How do I START a guitar solo?",
+    "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=854s",
+    "video": "ExhI4nkjOAY",
+    "inicio": 854,
+    "momento": "14:16",
+    "ideia": "Progressão A - C#m - D - E com arpejos locais"
+   }
+  },
+  {
+   "ref": 114,
+   "porque": "Bradley Hall acha shapes de Am e Fm próximos entre si e monta o improviso a partir deles.",
+   "fonte": {
+    "id": "-KZSGF0gY6E#I07",
+    "tipo": "video",
+    "autor": "Bradley Hall's Guitar School",
+    "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+    "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=274s",
+    "video": "-KZSGF0gY6E",
+    "inicio": 274,
+    "momento": "04:36",
+    "ideia": "Passo 2: localizar shapes de barre dos acordes em uma oitava"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Do aberto ao movível",
+   "objetivo": "Transformar formas abertas em formas movíveis e saber em que corda está a raiz de cada uma.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque as cinco formas abertas (V1). Em cada uma, diga em voz alta a corda da raiz mais grave: C e A → corda Lá; G e E → Mi grave; D → corda Ré.",
+    "Forma de C: a raiz está na casa 3 da corda Lá. Leve o desenho até a raiz ficar na casa 5. O indicador faz a pestana na casa 2, e o resultado é D (x54232).",
+    "Forma de E: com pestana na casa 1 sai F (133211); com pestana na casa 3 sai G (355433).",
+    "Forma de A: com pestana na casa 3 sai C (x35553); na casa 5 sai D (x57775).",
+    "Em cada forma movida, toque só as três cordas agudas e ache a raiz entre elas."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "As cinco formas abertas: C, A, G, E e D. O sistema inteiro sai delas.",
+    "tonica": "",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "A",
+      "digitacao": "x02220"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "E",
+      "digitacao": "022100"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     }
+    ]
+   },
+   "variacoes": [
+    "Sorteie uma nota (ex.: B♭) e monte o acorde em três formas diferentes.",
+    "Faça tudo sem olhar o braço e só depois confira."
+   ],
+   "cuidado": "Esquecer que as cordas soltas viraram pestana: se alguma corda solta soar, o acorde fica errado. Abafe ou faça a pestana.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I06",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Da forma aberta de C à forma movível"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I08",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tornar cada forma movível sem cordas soltas"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I07",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Localizar a raiz mais grave de cada forma"
+    },
+    {
+     "id": "fhtaQFOkLXc#I15",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=851s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 851,
+     "momento": "14:13",
+     "ideia": "Sistema CAGED para ver acordes em todo o braço"
+    },
+    {
+     "id": "KorP9lq1voU#I17",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=475s",
+     "video": "KorP9lq1voU",
+     "inicio": 475,
+     "momento": "07:57",
+     "ideia": "O braço é um sistema movível"
+    }
+   ]
+  },
+  {
+   "titulo": "A escada CAGED em Lá",
+   "objetivo": "Ver que as cinco formas se encaixam pelo braço e achar as notas que cada uma divide com a vizinha.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Toque Lá nas cinco formas, em ordem, subindo o braço (V2): A aberto → forma G (casas 2–5) → forma E (casa 5) → forma D (casas 7–10) → forma C (casas 9–12).",
+    "Entre duas formas vizinhas, ache a nota em comum. Exemplo: o A da 1ª corda, casa 5, está na forma G e na forma E.",
+    "Toque cada forma devagar, nota por nota, dizendo 'raiz', 'terça' ou 'quinta'.",
+    "Ao chegar à forma C, lembre que a forma A volta na casa 12, uma oitava acima.",
+    "Desça a escada pelo caminho inverso."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "acordes",
+    "legenda": "O mesmo acorde de Lá em cinco formas, subindo o braço. Da esquerda para a direita: forma A (aberta), forma G (casas 2–5), forma E (casa 5), forma D (casas 7–10) e forma C (casas 9–12). Na casa 12, a forma A volta.",
+    "tonica": "A",
+    "bpm": 0,
+    "compassos": [],
+    "marcas": [],
+    "acordes": [
+     {
+      "nome": "A",
+      "digitacao": "x02220"
+     },
+     {
+      "nome": "A",
+      "digitacao": "542225"
+     },
+     {
+      "nome": "A",
+      "digitacao": "577655"
+     },
+     {
+      "nome": "A",
+      "digitacao": "xx79a9"
+     },
+     {
+      "nome": "A",
+      "digitacao": "xcb9a9"
+     }
+    ]
+   },
+   "variacoes": [
+    "Repita a escada em Dó, começando pela forma C aberta.",
+    "Toque cada forma só nas três cordas agudas: vira um mapa de tríades para solar."
+   ],
+   "cuidado": "Tocar as formas como posições soltas, sem procurar as notas comuns. É a nota comum que liga uma forma à outra.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I10",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Formas consecutivas compartilham notas"
+    },
+    {
+     "id": "0MLUiyPWt8s#I18",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=779s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 779,
+     "momento": "13:01",
+     "ideia": "Shapes encadeados como quebra-cabeça"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I09",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Verificar conexões tocando as formas com raiz em Dó"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I04",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Formas abertas não cobrem o braço sozinhas"
+    }
+   ]
+  },
+  {
+   "titulo": "Três vizinhanças, um G",
+   "objetivo": "Fixar as três regiões de Sol e a nota-âncora de cada uma.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Rode uma base em G (pode ser só o acorde de Sol em loop).",
+    "Toque a tab V5. Na região E, termine no G da 1ª corda, casa 3. Na região C, no G da 2ª corda, casa 8. Na região A, no G da 3ª corda, casa 12.",
+    "Use o compasso vazio para trocar de região sem pressa.",
+    "Agora improvise 2 compassos em cada região, só com as notas de V3, e termine sempre no G daquela região."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Três vizinhanças, um G: em cada região, três notas do acorde que terminam na âncora. O último compasso fica vazio para você respirar e voltar.",
+    "tonica": "G",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ]
+   },
+   "variacoes": [
+    "Mude a ordem das regiões: A → E → C.",
+    "Faça o mesmo em Lá: tudo sobe duas casas."
+   ],
+   "cuidado": "Passar da 'cerca' do indicador e sair da região sem perceber. Fique nas casas da forma.",
+   "inspirado_em": [
+    {
+     "id": "FhfmneCt7jo#I01",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=0s",
+     "video": "FhfmneCt7jo",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Braço dividido em três vizinhanças"
+    },
+    {
+     "id": "FhfmneCt7jo#I03",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=98s",
+     "video": "FhfmneCt7jo",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Acorde de G na forma de E"
+    },
+    {
+     "id": "FhfmneCt7jo#I15",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=594s",
+     "video": "FhfmneCt7jo",
+     "inicio": 594,
+     "momento": "09:56",
+     "ideia": "Acorde de G na forma de C"
+    },
+    {
+     "id": "FhfmneCt7jo#I24",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=962s",
+     "video": "FhfmneCt7jo",
+     "inicio": 962,
+     "momento": "16:04",
+     "ideia": "Acorde de G na forma de A"
+    },
+    {
+     "id": "FhfmneCt7jo#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=130s",
+     "video": "FhfmneCt7jo",
+     "inicio": 130,
+     "momento": "02:12",
+     "ideia": "O indicador como cerca da vizinhança"
+    },
+    {
+     "id": "FhfmneCt7jo#I06",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=226s",
+     "video": "FhfmneCt7jo",
+     "inicio": 226,
+     "momento": "03:48",
+     "ideia": "G como nota-âncora da vizinhança E"
+    },
+    {
+     "id": "FhfmneCt7jo#I16",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=626s",
+     "video": "FhfmneCt7jo",
+     "inicio": 626,
+     "momento": "10:28",
+     "ideia": "Mesma nota G, outro lugar"
+    }
+   ]
+  },
+  {
+   "titulo": "Acorde por baixo, escala por cima",
+   "objetivo": "Usar a forma E de Sol para achar as notas de pouso dentro da pentatônica maior.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Faça a pestana de Sol na casa 3 e toque o acorde. Depois solte a mão e veja as notas com anel em V4.",
+    "Toque a pentatônica maior de G em volta da forma, do grave ao agudo, e demore um pouco em cada nota do acorde.",
+    "Toque a frase V6 e repare que todos os pousos (com anel) são notas do acorde.",
+    "Improvise 8 compassos sobre G. Comece e termine cada frase numa nota da forma do acorde."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "Forma E de Sol (pestana na casa 3) com a pentatônica maior de G em volta. As notas com anel formam o acorde. As outras são a escala que se encaixa nele.",
+    "tonica": "G",
+    "bpm": 0,
+    "compassos": [],
+    "acordes": [],
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça o mesmo na região C: forma C de Sol (xa9787) com a escala em volta.",
+    "Troque a pentatônica pela escala maior de G e veja as notas do acorde no meio das sete."
+   ],
+   "cuidado": "Terminar a frase em A ou E (graus 2 e 6) sem querer. Essas notas são de passagem; o repouso fica no 1, no 3 e no 5.",
+   "inspirado_em": [
+    {
+     "id": "o1qXU6Nm_d4#I08",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=271s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Visualizar dois braços ao mesmo tempo"
+    },
+    {
+     "id": "fhtaQFOkLXc#I07",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=387s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 387,
+     "momento": "06:29",
+     "ideia": "Ver a forma do acorde e a escala juntas no braço"
+    },
+    {
+     "id": "UbIv3AKmNl0#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=197s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 197,
+     "momento": "03:19",
+     "ideia": "Conectar a escala de Si ao shape de E"
+    },
+    {
+     "id": "aHzmIWB0P00#I01",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=171s",
+     "video": "aHzmIWB0P00",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Trabalhar a partir de uma forma de acorde"
+    },
+    {
+     "id": "o1qXU6Nm_d4#I11",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=372s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 372,
+     "momento": "06:14",
+     "ideia": "Visão em 3D: óculos de dois filtros"
+    },
+    {
+     "id": "aHzmIWB0P00#I03",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=268s",
+     "video": "aHzmIWB0P00",
+     "inicio": 268,
+     "momento": "04:30",
+     "ideia": "Escala de Mi maior na forma C"
+    },
+    {
+     "id": "QXp8yDb3zyQ#I25",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+     "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=1243s",
+     "video": "QXp8yDb3zyQ",
+     "inicio": 1243,
+     "momento": "20:45",
+     "ideia": "Pentatônica menor do padrão 1 dentro da forma E"
+    }
+   ]
+  },
+  {
+   "titulo": "Bus line: atravessar as vizinhanças",
+   "objetivo": "Ligar as três regiões numa única frase, sem pular.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque a tab V7 devagar. O slide na 1ª corda (casa 5 → 7) leva da região E para a C, e o slide na 2ª corda (casa 10 → 12) leva da C para a A.",
+    "Em cada chegada, deixe o G âncora soar até o fim.",
+    "Volte pelo caminho inverso: da região A para a C (slide 12 → 10 na 2ª corda) e da C para a E (7 → 5 na 1ª corda).",
+    "Improvise sobre a base em G: 4 compassos por região, sempre mudando de região pela bus line."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Bus line com a pentatônica maior de G: um slide leva a frase da região E para a C (1ª corda, 5→7) e outro da C para a A (2ª corda, 10→12). Cada chegada pousa no G âncora.",
+    "tonica": "G",
+    "bpm": 66,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça o mesmo com a pentatônica menor de G (G B♭ C D F) sobre uma base de blues em G.",
+    "Troque o slide por um bend de um tom e veja se ele também leva à próxima região."
+   ],
+   "cuidado": "Pular de uma região para a outra sem fazer o caminho. A bus line tem que soar como parte da frase, não como troca de posição.",
+   "inspirado_em": [
+    {
+     "id": "FhfmneCt7jo#I21",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=827s",
+     "video": "FhfmneCt7jo",
+     "inicio": 827,
+     "momento": "13:49",
+     "ideia": "Bus line como ponte entre regiões"
+    },
+    {
+     "id": "FhfmneCt7jo#I31",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=1265s",
+     "video": "FhfmneCt7jo",
+     "inicio": 1265,
+     "momento": "21:07",
+     "ideia": "Bus line da C para a A"
+    },
+    {
+     "id": "FhfmneCt7jo#I20",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=795s",
+     "video": "FhfmneCt7jo",
+     "inicio": 795,
+     "momento": "13:17",
+     "ideia": "Percorrer as vizinhanças E e C com a menor"
+    },
+    {
+     "id": "FhfmneCt7jo#I30",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=1164s",
+     "video": "FhfmneCt7jo",
+     "inicio": 1164,
+     "momento": "19:26",
+     "ideia": "Improvisar mudando de região com a nota G fixa"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I08",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Conectar duas formas CAGED pelas notas comuns"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I26",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Conectar formas CAGED com bends e slides"
+    }
+   ]
+  },
+  {
+   "titulo": "G–C–D sem sair da casa 7",
+   "objetivo": "Seguir uma troca de acordes escolhendo, para cada acorde, a forma mais próxima da mão.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque os três acordes de V8: G na forma C, C na forma E e D na forma G. Todos ficam entre as casas 7 e 10.",
+    "Repare que as cordas agudas mudam pouco: o G da 2ª corda, casa 8, aparece no G e no C.",
+    "Toque a tab V9 sobre G–C–D–G, um acorde por compasso.",
+    "Improvise só com as notas das três cordas agudas de cada forma, mudando junto com o acorde.",
+    "Depois encontre G, C e D numa segunda região (ex.: casas 2–5) e alterne entre as duas."
+   ],
+   "visual": {
+    "id": "V9",
+    "tipo": "tab",
+    "legenda": "G–C–D–G sem sair das casas 7–10: em cada compasso, as notas vêm da forma do acorde que está soando.",
+    "tonica": "G",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Mude a progressão para Em–C–G–D na mesma região.",
+    "Toque a mesma progressão um tom acima (A–D–E): é só subir tudo duas casas."
+   ],
+   "cuidado": "Buscar o D na pestana da casa 10 ou na forma aberta. A ideia é ficar na mesma vizinhança.",
+   "inspirado_em": [
+    {
+     "id": "ExhI4nkjOAY#I22",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=854s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 854,
+     "momento": "14:16",
+     "ideia": "Vizinho mais próximo para acordes diferentes"
+    },
+    {
+     "id": "NbNH_C3QAS0#I28",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=908s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 908,
+     "momento": "15:10",
+     "ideia": "Manter os padrões na mesma região do braço"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=33s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 33,
+     "momento": "00:35",
+     "ideia": "Manter a mesma região do braço"
+    },
+    {
+     "id": "ExhI4nkjOAY#I23",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=854s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 854,
+     "momento": "14:16",
+     "ideia": "Progressão A - C#m - D - E com arpejos locais"
+    },
+    {
+     "id": "-KZSGF0gY6E#I07",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=274s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Passo 2: localizar shapes de barre dos acordes em uma oitava"
+    },
+    {
+     "id": "-KZSGF0gY6E#I08",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=310s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 310,
+     "momento": "05:12",
+     "ideia": "Passo 3: escolher um shape de cada acorde próximo entre si"
+    },
+    {
+     "id": "-KZSGF0gY6E#I11",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=391s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 391,
+     "momento": "06:33",
+     "ideia": "Passo 5: usar os quatro shapes (dois de cada acorde)"
+    },
+    {
+     "id": "5e0SpzCw3IA#I06",
+     "tipo": "video",
+     "autor": "Brian Kelly",
+     "titulo": "Chord Tone Soloing Series (part 1) - Targeting Chord Tones in the \"Home Box\"",
+     "url": "https://www.youtube.com/watch?v=5e0SpzCw3IA&t=282s",
+     "video": "5e0SpzCw3IA",
+     "inicio": 282,
+     "momento": "04:44",
+     "ideia": "Tocar as shapes CAGED dos quatro acordes na caixa"
+    },
+    {
+     "id": "ea2g6P0pCKg#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=97s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 97,
+     "momento": "01:39",
+     "ideia": "Caixa móvel para transpor"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma frase, três endereços (e de olhos fechados)",
+   "objetivo": "Levar a mesma ideia para outra forma e enxergar o mapa sem a guitarra.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Pegue a primeira frase de V6 (graus 5-6-1-2-1-6-5) e decore-a em graus, não em casas.",
+    "De olhos fechados, imagine a forma C de Sol (casas 7–10) e procure onde ficam o 5, o 6, o 1 e o 2. Só então toque.",
+    "Faça o mesmo na forma A (casas 10–12).",
+    "Improvise sobre G mudando de região a cada 4 compassos, sem tocar a raiz: guarde na cabeça onde ela fica e use isso para trocar de forma.",
+    "Grave e ouça: a frase continua reconhecível nas três regiões?"
+   ],
+   "visual": null,
+   "variacoes": [
+    "Crie uma 'carta na manga' para cada forma: uma frase curta sua para E, C e A.",
+    "Repita em outro tom (Lá ou Dó) sem ensaiar antes."
+   ],
+   "cuidado": "Decorar a frase como casas. Quem não sabe o grau de cada nota não consegue levá-la para outra forma.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I02",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar o CAGED para transpor licks entre posições"
+    },
+    {
+     "id": "566LrQfcqgE#I18",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=495s",
+     "video": "566LrQfcqgE",
+     "inicio": 495,
+     "momento": "08:17",
+     "ideia": "Melodia de standard em várias posições do braço"
+    },
+    {
+     "id": "IB1UZhiZMYw#I08",
+     "tipo": "video",
+     "autor": "Rumark Video",
+     "titulo": "Barney Kessel Jazz Guitar Improvisation: Lesson 1 - Playing What You Hear",
+     "url": "https://www.youtube.com/watch?v=IB1UZhiZMYw&t=276s",
+     "video": "IB1UZhiZMYw",
+     "inicio": 276,
+     "momento": "04:38",
+     "ideia": "Comece nas posições baixas e expanda posições e tons"
+    },
+    {
+     "id": "P4m4vVAcmTw#I09",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=401s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 401,
+     "momento": "06:43",
+     "ideia": "Trocar de forma sem tocar a raiz"
+    },
+    {
+     "id": "7SNcy_GprQU#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=872s",
+     "video": "7SNcy_GprQU",
+     "inicio": 872,
+     "momento": "14:34",
+     "ideia": "Prática mental sem o instrumento"
+    },
+    {
+     "id": "7SNcy_GprQU#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=922s",
+     "video": "7SNcy_GprQU",
+     "inicio": 922,
+     "momento": "15:24",
+     "ideia": "Visualizar a digitação antes de executar"
+    },
+    {
+     "id": "mw6d34vqDMs#I01",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO CRIAR FRASES NA GUITARRA",
+     "url": "https://www.youtube.com/watch?v=mw6d34vqDMs&t=0s",
+     "video": "mw6d34vqDMs",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Uma 'carta na manga' por shape de acorde"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Confundir o nome da forma com o nome do acorde: a 'forma de E' na casa 5 é Lá.",
+  "Mover a forma e deixar soar cordas que eram soltas no acorde aberto.",
+  "Tentar decorar as cinco formas de uma vez, em vez de dominar uma região e depois ligá-la à vizinha.",
+  "Solar nas cordas graves, onde a frase se mistura com a base. Comece no meio do braço e nas três cordas agudas.",
+  "Saltar pelo braço a cada troca de acorde, em vez de procurar a forma mais próxima.",
+  "Esticar a mão para alcançar uma nota: procure-a em outra corda dentro da mesma região.",
+  "Tratar o CAGED como jaula: ele é um andaime, e quem decide o que tocar é o ouvido."
+ ],
+ "resumo": [
+  "CAGED = cinco desenhos de acorde (C, A, G, E, D) que, deslocados, cobrem o braço em qualquer tom.",
+  "Raiz mais grave: corda Lá nas formas C e A, Mi grave nas formas E e G, Ré na forma D.",
+  "Formas vizinhas dividem notas. Em Sol, as regiões E, C e A têm o G âncora na 1ª, na 2ª e na 3ª corda.",
+  "Acorde por baixo, escala por cima: as notas da forma são os pousos dentro da escala.",
+  "Na troca de acorde, use a forma mais próxima e fique na região."
+ ],
+ "proximos_passos": "Para encaixar as pentatônicas nessas regiões, siga para \"Os cinco shapes e como conectá-los\" e depois para \"Sair da caixa: diagonal, 3-2, blocos e slides\". Para usar as formas de acorde como guia do solo, veja \"Tríades em grupos de cordas e inversões\", \"Arpejos: conceito e formas básicas\" e \"Seguir as trocas: escala por acorde e chord chasing\".",
+ "_meta": {
+  "subcategoria": "C03.2",
+  "modulo": {
+   "id": "C03",
+   "nome": "Mapa do braço e visualização"
+  },
+  "nome": "CAGED, formas de acorde e regiões do braço",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T13:20:50",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 6,
+   "cache_write": 91768,
+   "cache_read": 44419,
+   "output": 41292,
+   "thinking": 9864,
+   "turns": 5,
+   "custo_nominal": 1.6239938
+  }
+ }
+}

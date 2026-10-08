@@ -1,0 +1,2202 @@
+{
+ "titulo": "Visão horizontal: uma corda e pares de cordas",
+ "gancho": "Toque a escala numa corda só e a caixa desaparece: você enxerga a distância entre as notas e chega a qualquer ponto do braço.",
+ "porque_importa": "Quem só pensa em caixas fica preso numa região de quatro casas e repete sempre os mesmos caminhos. Numa corda só, cada intervalo vira uma distância que você vê e ouve: duas casas são um tom e três casas são uma terça menor. Com essa régua na cabeça, você sobe e desce o braço como um cantor, sem depender de desenhos decorados.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Em posição ou em linha",
+   "texto": "Tocar na vertical é ficar numa região do braço e atravessar as cordas, que é o pensamento por caixa. Tocar na horizontal é seguir ao longo de uma corda e mudar de região. Nenhum dos dois é melhor; o problema é saber só um deles. Quem domina o horizontal ganha alcance, fluidez e frases que sobem e descem como uma voz.",
+   "destaque": "A caixa é um bairro. A corda é a avenida que liga os bairros.",
+   "visual": null
+  },
+  {
+   "titulo": "Uma corda é uma régua",
+   "texto": "Na caixa, a distância entre duas notas fica escondida porque a nota seguinte está em outra corda. Numa corda só, você vê a distância: 2 casas são um tom e 3 casas são uma terça menor. Na pentatônica de Lá menor, a partir do A, os saltos são de 3-2-2-3-2 casas. Por isso a escala funciona em qualquer lugar: o que vale é a distância entre as notas, não o desenho da caixa.",
+   "destaque": "Pentatônica = terça menor, tom, tom, terça menor, tom.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Lá menor pentatônica inteira na corda Mi aguda. Entre as notas há saltos de 3 casas (terça menor) e de 2 casas (tom).",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O desenho é portátil",
+   "texto": "Os mesmos saltos de 3-2-2-3-2 casas, a partir do E da casa 2 da corda Ré, formam a Mi menor pentatônica. Se você muda de corda ou de tom, só muda o ponto de partida; as distâncias são as mesmas. Para achar a tônica em cada corda, use a lição Notas no braço e oitavas.",
+   "destaque": "Achou a tônica, a régua faz o resto.",
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Mi menor pentatônica na corda Ré. As distâncias entre as casas são as mesmas do Lá menor na corda Mi aguda; só muda o ponto de partida.",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 0,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 12,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 14,
+      "nota": "E",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Escala maior numa corda: ache os dois semitons",
+   "texto": "A escala maior segue 2-2-1-2-2-2-1 casas. Em Dó, na corda Si, só dois pares de notas ficam em casas vizinhas: E–F (casas 5 e 6) e B–C (casas 12 e 13). Deslizando por essa corda, você passa pelas regiões das formas A, G e E do CAGED sem perceber. Por isso tocar melodias numa corda só ensina a ligar as formas.",
+   "destaque": "Ache os semitons e as outras notas se encaixam sozinhas.",
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "Dó maior na corda Si. Os dois semitons (E–F nas casas 5–6 e B–C nas casas 12–13) são as únicas notas em casas vizinhas.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 2,
+      "casa": 1,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 15,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 17,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Pares de cordas: menos notas, mais melodia",
+   "texto": "O passo seguinte é usar duas cordas vizinhas como um trilho. Em cada região há só 3 ou 4 notas à mão, então você ouve mais e despeja menos escala. Ao escorregar o par pelo braço, você leva a mesma ideia para outra altura. Depois passe para 3 ou 4 cordas e junte o pensamento vertical com o horizontal.",
+   "destaque": "Duas cordas: pouco espaço para os dedos, o braço inteiro para andar.",
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "O par de cordas Si + Mi aguda com Lá menor pentatônica de uma ponta à outra do braço: um trilho de duas cordas para andar na horizontal.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 1,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 15,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 17,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 9,
+   "porque": "Marty monta Lá menor pentatônica na corda Mi aguda a partir da tônica na casa 5, contando as casas de cada salto.",
+   "fonte": {
+    "id": "t6q5mFGdDy4#I04",
+    "tipo": "video",
+    "autor": "Marty Music",
+    "titulo": "The 1-String Scale Trick That Breaks Out of \"Pentatonic Box\" Jail",
+    "url": "https://www.youtube.com/watch?v=t6q5mFGdDy4&t=148s",
+    "video": "t6q5mFGdDy4",
+    "inicio": 148,
+    "momento": "2:30",
+    "ideia": "Montar a escala de Lá menor na corda Mi aguda"
+   }
+  },
+  {
+   "ref": 11,
+   "porque": "Jeff McErlain toca a pentatônica na corda Si e nomeia os tons e as terças menores enquanto sobe.",
+   "fonte": {
+    "id": "-htAGli1YeY#I04",
+    "tipo": "video",
+    "autor": "Jeff McErlain",
+    "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+    "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=66s",
+    "video": "-htAGli1YeY",
+    "inicio": 66,
+    "momento": "01:08",
+    "ideia": "Lá menor pentatônica na corda B"
+   }
+  },
+  {
+   "ref": 13,
+   "porque": "Jeff McErlain sobe e desce a escala numa corda sobre a base e mostra como cada nota soa contra o acorde.",
+   "fonte": {
+    "id": "-htAGli1YeY#I09",
+    "tipo": "video",
+    "autor": "Jeff McErlain",
+    "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+    "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=232s",
+    "video": "-htAGli1YeY",
+    "inicio": 232,
+    "momento": "03:54",
+    "ideia": "Subir e descer a escala na corda B com a base"
+   }
+  },
+  {
+   "ref": 15,
+   "porque": "Marty aplica a mesma régua a Mi menor na corda Ré e mostra que o padrão não muda.",
+   "fonte": {
+    "id": "t6q5mFGdDy4#I05",
+    "tipo": "video",
+    "autor": "Marty Music",
+    "titulo": "The 1-String Scale Trick That Breaks Out of \"Pentatonic Box\" Jail",
+    "url": "https://www.youtube.com/watch?v=t6q5mFGdDy4&t=270s",
+    "video": "t6q5mFGdDy4",
+    "inicio": 270,
+    "momento": "4:32",
+    "ideia": "Mi menor pentatônica na corda Ré"
+   }
+  },
+  {
+   "ref": 40,
+   "porque": "Pedro Bernardi toca a pentatônica em pares, trios e quartetos de cordas, misturando as visões vertical e horizontal.",
+   "fonte": {
+    "id": "U3u3jiF7zVg#I10",
+    "tipo": "video",
+    "autor": "Pedro Bernardi",
+    "titulo": "Como tocar solos por todo o braço da guitarra",
+    "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=376s",
+    "video": "U3u3jiF7zVg",
+    "inicio": 376,
+    "momento": "06:18",
+    "ideia": "Pentatônica em pares, trios e quartetos de cordas"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "Daniel Seriff improvisa só na corda Sol e depois só na Ré, provando que uma corda basta para um solo.",
+   "fonte": {
+    "id": "Diou83hvGA4#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+    "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=721s",
+    "video": "Diou83hvGA4",
+    "inicio": 721,
+    "momento": "12:03",
+    "ideia": "Constraint: solar em uma única corda com three fret shift"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "A régua na corda Mi aguda",
+   "objetivo": "Montar Lá menor pentatônica numa corda e sentir na mão os saltos de 3 e 2 casas.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Ache a tônica A na casa 5 da corda 1 e toque-a algumas vezes.",
+    "Suba contando as casas em voz alta: +3 (C, casa 8), +2 (D, casa 10), +2 (E, casa 12), +3 (G, casa 15), +2 (A, casa 17).",
+    "Desça na ordem inversa até o G da casa 3 e termine no E solto.",
+    "Na descida, diga em cada salto se é tom ou terça menor.",
+    "Toque tudo com um só dedo, deslizando: a corda inteira vira um teclado de piano."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Lá menor pentatônica inteira na corda Mi aguda. Entre as notas há saltos de 3 casas (terça menor) e de 2 casas (tom).",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 0,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mesma régua na corda Mi grave, com a tônica A na casa 5.",
+    "Mi menor na corda Ré, partindo do E da casa 2 (veja o mapa V3).",
+    "Comece de cada nota da escala, não só da tônica."
+   ],
+   "cuidado": "Dizer 'tom e semitom'. Na pentatônica não há semitom entre notas vizinhas: os saltos são de tom (2 casas) ou de terça menor (3 casas).",
+   "inspirado_em": [
+    {
+     "id": "U3u3jiF7zVg#I06",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=269s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Pentatônica em uma corda só"
+    },
+    {
+     "id": "GC-HIgdwVSM#I03",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=328s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 328,
+     "momento": "05:30",
+     "ideia": "Tocar a escala em uma corda só (linear)"
+    },
+    {
+     "id": "t6q5mFGdDy4#I04",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "The 1-String Scale Trick That Breaks Out of \"Pentatonic Box\" Jail",
+     "url": "https://www.youtube.com/watch?v=t6q5mFGdDy4&t=148s",
+     "video": "t6q5mFGdDy4",
+     "inicio": 148,
+     "momento": "2:30",
+     "ideia": "Montar a escala de Lá menor na corda Mi aguda"
+    },
+    {
+     "id": "-htAGli1YeY#I16",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=364s",
+     "video": "-htAGli1YeY",
+     "inicio": 364,
+     "momento": "06:06",
+     "ideia": "Lá menor pentatônica na corda E aguda"
+    },
+    {
+     "id": "t6q5mFGdDy4#I05",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "The 1-String Scale Trick That Breaks Out of \"Pentatonic Box\" Jail",
+     "url": "https://www.youtube.com/watch?v=t6q5mFGdDy4&t=270s",
+     "video": "t6q5mFGdDy4",
+     "inicio": 270,
+     "momento": "4:32",
+     "ideia": "Mi menor pentatônica na corda Ré"
+    }
+   ]
+  },
+  {
+   "titulo": "Corda Si falando as notas",
+   "objetivo": "Ligar nome, som e lugar de cada nota da pentatônica numa corda muito usada em solos.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Metrônomo a 70 bpm, uma nota por tempo, como no V2.",
+    "Suba da casa 1 à 17 dizendo: C, D, E, G, A, C, D, E.",
+    "Desça dizendo: E, D, C, A, G, E, D, C.",
+    "Cada vez que passar pelo A (casa 10), diga 'tônica' e segure um pouco mais.",
+    "Só passe para outra corda quando fizer tudo de olhos fechados, sem errar nenhum nome."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Lá menor pentatônica na corda Si, da casa 1 à 17 e de volta. Diga o nome de cada nota em voz alta.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 17,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 17,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Diga o grau no lugar da nota: ♭3, 4, 5, ♭7, 1…",
+    "Ligue uma base em Lá menor e fique um compasso inteiro em cada nota: ela resolve ou pede movimento?",
+    "Repita na corda Sol (A na casa 2 e na casa 14)."
+   ],
+   "cuidado": "Falar no automático, sem ouvir. Se o nome sai antes do som, desacelere: a meta é casar os dois.",
+   "inspirado_em": [
+    {
+     "id": "-htAGli1YeY#I04",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=66s",
+     "video": "-htAGli1YeY",
+     "inicio": 66,
+     "momento": "01:08",
+     "ideia": "Lá menor pentatônica na corda B"
+    },
+    {
+     "id": "-htAGli1YeY#I05",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=99s",
+     "video": "-htAGli1YeY",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Solfejar as notas na corda"
+    },
+    {
+     "id": "-htAGli1YeY#I09",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=232s",
+     "video": "-htAGli1YeY",
+     "inicio": 232,
+     "momento": "03:54",
+     "ideia": "Subir e descer a escala na corda B com a base"
+    },
+    {
+     "id": "-htAGli1YeY#I18",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=444s",
+     "video": "-htAGli1YeY",
+     "inicio": 444,
+     "momento": "07:26",
+     "ideia": "Subir para a casa 12 com a base"
+    }
+   ]
+  },
+  {
+   "titulo": "Escala maior na corda Si: caça aos semitons",
+   "objetivo": "Mapear Dó maior numa corda a partir dos dois semitons e tocar a escala começando de qualquer nota.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o C da casa 1 e suba seguindo 2-2-1-2-2-2-1 casas até o C da casa 13.",
+    "Marque os semitons: E–F (casas 5–6) e B–C (casas 12–13). São as únicas notas em casas vizinhas.",
+    "Suba e desça cantando os graus: 1-2-3-4-5-6-7-1 e 1-7-6-5-4-3-2-1.",
+    "Agora comece no E (casa 5) e suba oito notas até o E da casa 17, ainda pensando em Dó maior.",
+    "Repita começando no G (casa 8) e no A (casa 10)."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "Dó maior na corda Si. Os dois semitons (E–F nas casas 5–6 e B–C nas casas 12–13) são as únicas notas em casas vizinhas.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [],
+    "marcas": [
+     {
+      "corda": 2,
+      "casa": 1,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 15,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 17,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Ré maior na mesma corda: D na casa 3 e C# na casa 2.",
+    "Toque nessa corda, sem sair dela, só as notas 1, 3, 5 e 7 de cada acorde do campo (Cmaj7, Dm7, Em7…).",
+    "Repita na corda Lá, com o C na casa 3."
+   ],
+   "cuidado": "Pôr o semitom no lugar errado, como tocar F# em Dó maior. Antes de seguir, confira se há exatamente dois pares de notas em casas vizinhas.",
+   "inspirado_em": [
+    {
+     "id": "HVG0MqzGz30#I01",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=91s",
+     "video": "HVG0MqzGz30",
+     "inicio": 91,
+     "momento": "01:33",
+     "ideia": "Mapear a escala em uma corda"
+    },
+    {
+     "id": "-El2m16TS5o#I11",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "How Do The Pro's Build A Solo On Guitar",
+     "url": "https://www.youtube.com/watch?v=-El2m16TS5o&t=523s",
+     "video": "-El2m16TS5o",
+     "inicio": 523,
+     "momento": "8:45",
+     "ideia": "Escala de Ré maior em uma corda"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I08",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar a escala maior de Dó no braço"
+    },
+    {
+     "id": "t8SmU7wIxnc#I25",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1350s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1350,
+     "momento": "22:32",
+     "ideia": "Escala de C tocada e cantada linearmente"
+    },
+    {
+     "id": "ea2g6P0pCKg#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=196s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 196,
+     "momento": "03:18",
+     "ideia": "Caminhar pela escala antes de montar frases"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I15",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar a escala de Dó maior na corda Si ao longo das formas"
+    },
+    {
+     "id": "-htAGli1YeY#I19",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=476s",
+     "video": "-htAGli1YeY",
+     "inicio": 476,
+     "momento": "07:58",
+     "ideia": "Aplicar o método a outras escalas e arpejos"
+    },
+    {
+     "id": "566LrQfcqgE#I16",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=459s",
+     "video": "566LrQfcqgE",
+     "inicio": 459,
+     "momento": "07:41",
+     "ideia": "Arpejos diatônicos em uma única corda"
+    }
+   ]
+  },
+  {
+   "titulo": "Melodia de uma corda sobre C–Am–F–G",
+   "objetivo": "Atravessar regiões do braço tocando uma melodia de verdade numa corda só, pousando em notas de cada acorde.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Aprenda o V5 devagar e repare que a mão vai da casa 5 à 15 sem trocar de corda.",
+    "Use slides curtos entre notas distantes, por exemplo da casa 10 para a 13.",
+    "Respeite o silêncio do tempo 4: ele separa as frases.",
+    "Grave uma base de C–Am–F–G e toque a melodia por cima.",
+    "Crie sua versão: mantenha a primeira nota de cada compasso e troque as outras."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Melodia só na corda Si sobre C–Am–F–G. A mão anda pelo braço, a frase respira no tempo 4 e cada compasso pousa numa nota do acorde.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mesma melodia uma oitava abaixo, na corda Lá (E na casa 7, e assim por diante).",
+    "Toque na corda Sol: o E fica na casa 9 e todo o desenho desce.",
+    "Enquanto toca, diga em voz alta qual forma do CAGED você está atravessando."
+   ],
+   "cuidado": "Alcançar notas distantes só esticando o dedo. Desloque a mão inteira e use o slide para ligar as notas.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I15",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar a escala de Dó maior na corda Si ao longo das formas"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I12",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar melodia só em uma corda"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I33",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Solar sobre progressão em uma tonalidade usando uma corda só"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I03",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Abordagem linear (horizontal) com slides"
+    }
+   ]
+  },
+  {
+   "titulo": "Desafio: um solo inteiro numa corda só",
+   "objetivo": "Improvisar sem caixa nenhuma, pensando só na melodia e na distância entre as notas.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Ponha uma base em Lá menor e escolha a corda Si.",
+    "Comece com 4 ou 5 notas da pentatônica que soem bem, por exemplo C, D, E, G e A (casas 1 a 10).",
+    "Improvise por 2 minutos só com elas, sem sair da corda.",
+    "Acrescente as notas mais agudas (casas 13, 15 e 17) e use o braço inteiro.",
+    "Termine sempre num A (casa 10) ou num E (casa 5 ou 17)."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Sem mapa: ache de ouvido 5 notas boas numa corda. Se uma soar mal, deslize uma casa.",
+    "Corda Sol e depois corda Ré, como no vídeo do Seriff.",
+    "Base em tom maior, usando a escala maior na corda."
+   ],
+   "cuidado": "Desistir porque soa estranho. No começo é normal que tocar notas soltas numa corda pareça esquisito. Dê alguns dias ao exercício.",
+   "inspirado_em": [
+    {
+     "id": "KorP9lq1voU#I15",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=442s",
+     "video": "KorP9lq1voU",
+     "inicio": 442,
+     "momento": "07:24",
+     "ideia": "Tocar notas soltas numa corda é estranho no início"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I13",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar em uma só corda"
+    },
+    {
+     "id": "WcHs5SaynAw#I14",
+     "tipo": "video",
+     "autor": "Kingdom Of Mist Podcast",
+     "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+     "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=361s",
+     "video": "WcHs5SaynAw",
+     "inicio": 361,
+     "momento": "06:03",
+     "ideia": "Achar as notas em uma corda só"
+    },
+    {
+     "id": "blog--p-20309-5f6c7e#I12",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Desafio de uma corda só"
+    },
+    {
+     "id": "Diou83hvGA4#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=721s",
+     "video": "Diou83hvGA4",
+     "inicio": 721,
+     "momento": "12:03",
+     "ideia": "Constraint: solar em uma única corda com three fret shift"
+    },
+    {
+     "id": "-htAGli1YeY#I15",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=331s",
+     "video": "-htAGli1YeY",
+     "inicio": 331,
+     "momento": "05:33",
+     "ideia": "Limitação como ferramenta"
+    }
+   ]
+  },
+  {
+   "titulo": "Motivo que anda no par Si + Mi",
+   "objetivo": "Usar duas cordas vizinhas como trilho e levar uma ideia curta para cima no braço, um degrau da escala por vez.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o motivo do compasso 1 do V7: duas notas na corda Si, uma na Mi e de volta à Si.",
+    "Repita o mesmo desenho a partir da nota seguinte da escala (compassos 2 e 3).",
+    "No compasso 4, resolva subindo pela corda 1 até o A da casa 17.",
+    "Depois faça o caminho de volta: desça o motivo degrau por degrau até a casa 5.",
+    "Sobre a base, invente outro motivo de 3 ou 4 notas e faça-o andar pelo trilho do mesmo jeito."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Motivo de 4 notas no par Si + Mi aguda. A cada compasso ele sobe um degrau da escala e, no fim, chega ao Lá da casa 17.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 17,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Par Ré + Sol, só com as casas 5 e 7 (G, A, C, D) antes de usar o resto do braço.",
+    "Par Sol + Si e depois o trio Sol + Si + Mi.",
+    "Mantenha o ritmo do motivo e mude só a última nota em cada repetição."
+   ],
+   "cuidado": "Voltar para a escala inteira no meio do caminho. O exercício só funciona se você ficar nas duas cordas: com menos notas, a frase precisa ganhar forma.",
+   "inspirado_em": [
+    {
+     "id": "Pr1HbFvB-9s#I02",
+     "tipo": "video",
+     "autor": "Guitar With Bert",
+     "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+     "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s&t=13s",
+     "video": "Pr1HbFvB-9s",
+     "inicio": 13,
+     "momento": "00:15",
+     "ideia": "Pensar em grupos de duas cordas"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I17",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Restrição: duas cordas adjacentes"
+    },
+    {
+     "id": "HY5qWMbvsjY#I07",
+     "tipo": "video",
+     "autor": "Marin Music Center",
+     "titulo": "Guitar Soloing Guide: Tips and Techniques - Guitar Lessons with Stuart!",
+     "url": "https://www.youtube.com/watch?v=HY5qWMbvsjY&t=463s",
+     "video": "HY5qWMbvsjY",
+     "inicio": 463,
+     "momento": "07:45",
+     "ideia": "Fragmento de 5 e 7 nas cordas centrais"
+    },
+    {
+     "id": "Pr1HbFvB-9s#I03",
+     "tipo": "video",
+     "autor": "Guitar With Bert",
+     "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+     "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s&t=30s",
+     "video": "Pr1HbFvB-9s",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Improvisar nas cordas Ré e Sol, casas 5 e 7 (Lá menor)"
+    },
+    {
+     "id": "U3u3jiF7zVg#I10",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=376s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 376,
+     "momento": "06:18",
+     "ideia": "Pentatônica em pares, trios e quartetos de cordas"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I11",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Motivos em cordas adjacentes"
+    },
+    {
+     "id": "UG_P4KNw0XM#I04",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=81s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 81,
+     "momento": "01:23",
+     "ideia": "Estender a frase para criar linhas mais longas"
+    }
+   ]
+  },
+  {
+   "titulo": "Pedal na corda solta",
+   "objetivo": "Percorrer a escala maior pela corda Si alternando com uma nota fixa, para treinar a troca de corda enquanto a mão anda pelo braço.",
+   "nivel": "avancado",
+   "minutos": 10,
+   "passos": [
+    "Toque o V8 a 60 bpm: uma nota de Mi maior na corda Si e o Mi solto na corda 1, sempre alternando.",
+    "Use palhetada alternada estrita: para baixo na corda Si, para cima na corda solta.",
+    "Ao subir, troque de dedo (1, 2, 3, 4) em vez de arrastar sempre o mesmo.",
+    "Na descida, deixe o Mi solto soar limpo, sem raspar a corda Si.",
+    "Suba de 4 em 4 bpm até chegar a 90 bpm sem perder a clareza."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "Pedal na corda solta: Mi maior sobe e desce na corda Si, sempre alternando com o Mi solto da corda 1.",
+    "tonica": "E",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 14,
+          "nota": "C♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 16,
+          "nota": "D♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 17,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 16,
+          "nota": "D♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 14,
+          "nota": "C♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use como pedal o E da casa 12 da corda 1 em vez da corda solta: a mão fica entre as casas 5 e 17, o que exige mais.",
+    "Comece no B (casa 12), a quinta, e desça a escala a partir dele.",
+    "Lá menor: pentatônica na corda Si com o Mi solto como pedal."
+   ],
+   "cuidado": "Acelerar antes de a troca de corda ficar limpa. Se a nota pedal for abafada ou a nota da corda Si morrer, volte ao andamento anterior.",
+   "inspirado_em": [
+    {
+     "id": "ruwSeYsJtgI#I05",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=184s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 184,
+     "momento": "03:06",
+     "ideia": "Pivot point / pedal point nas duas cordas agudas"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I03",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Abordagem linear (horizontal) com slides"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Achar que a pentatônica tem semitons entre notas vizinhas. Os saltos são de tom (2 casas) ou de terça menor (3 casas).",
+  "Decorar só os números das casas, sem dizer o nome ou o grau. Assim a régua não fica na cabeça.",
+  "Só subir e descer a escala na corda, sem nunca tocar uma frase com ritmo e pausa.",
+  "Desistir porque tocar numa corda só soa estranho no começo. A estranheza passa em poucos dias.",
+  "Esticar os dedos para alcançar notas distantes em vez de deslocar a mão ou usar slide.",
+  "Voltar à caixa inteira no exercício de duas cordas e perder a limitação, que é justamente o que ensina."
+ ],
+ "resumo": [
+  "Vertical é região; horizontal é caminho. Os dois se completam.",
+  "Pentatônica numa corda: saltos de 3-2-2-3-2 casas a partir da tônica.",
+  "Escala maior numa corda: 2-2-1-2-2-2-1 casas. Ache os dois semitons e o resto se encaixa.",
+  "As distâncias valem em qualquer corda e em qualquer tom; só muda o ponto de partida.",
+  "Com um par de cordas, você tem poucas notas em cada região e o braço inteiro para andar."
+ ],
+ "proximos_passos": "Nesta lição você deitou a escala na horizontal. Para juntar essa visão às caixas, siga para \"Sair da caixa: diagonal, 3-2, blocos e slides\", que trata do deslocamento de três casas e das diagonais. \"Os cinco shapes e como conectá-los\" ajuda a reconhecer as caixas que a corda atravessa. Depois, use os pares de cordas para desenvolver ideias em \"Motivo, repetição e desenvolvimento motívico\".",
+ "_meta": {
+  "subcategoria": "C03.3",
+  "modulo": {
+   "id": "C03",
+   "nome": "Mapa do braço e visualização"
+  },
+  "nome": "Visão horizontal: uma corda e pares de cordas",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T13:24:57",
+  "erros_restantes": [],
+  "tentativas": 2,
+  "uso": {
+   "input": 4,
+   "cache_write": 50433,
+   "cache_read": 9866,
+   "output": 30523,
+   "thinking": 6457,
+   "turns": 4,
+   "custo_nominal": 1.0567592000000001
+  }
+ }
+}
