@@ -1,0 +1,2332 @@
+{
+ "titulo": "Pensar à frente: linhas que levam ao próximo acorde",
+ "gancho": "Quem sabe onde vai pousar não se perde no caminho. Escolha o destino primeiro e a frase ganha direção sozinha.",
+ "porque_importa": "O erro mais comum de quem sola sobre acordes é reagir a cada troca e recomeçar a frase toda vez. O resultado parece uma coleção de pedaços soltos. Quando você mira uma nota do próximo acorde e chega nela no tempo 1, o ouvinte sente a harmonia andar e o solo vira uma única linha com começo, meio e fim.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Toque o atual pensando no próximo",
+   "texto": "Enquanto o Dm7 soa, sua cabeça já deveria estar no G7. O acorde atual serve de caminho e o próximo é o destino. É isso que a gente chama de forward motion, ou movimento para frente: a linha atravessa a barra de compasso e anuncia a troca antes que o ouvinte perceba que ela aconteceu. Quem só reage à troca chega sempre atrasado e precisa recomeçar a frase.",
+   "destaque": "O acorde atual é o caminho. O próximo é o destino.",
+   "visual": {
+    "id": "V3",
+    "tipo": "acordes",
+    "legenda": "Os acordes da lição: o ii-V-I em Dó, o A7 que prepara o Dm7 e a volta C7 → F7 do blues em Fá.",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "Dm7",
+      "digitacao": "xx0211"
+     },
+     {
+      "nome": "G7",
+      "digitacao": "320001"
+     },
+     {
+      "nome": "Cmaj7",
+      "digitacao": "x32000"
+     },
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "C7",
+      "digitacao": "x32310"
+     },
+     {
+      "nome": "F7",
+      "digitacao": "131211"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Nota-alvo: escolha o pouso primeiro",
+   "texto": "Pegue uma nota do próximo acorde, de preferência a 3ª, porque ela diz se o acorde é maior ou menor. No ii-V-I em Dó, os alvos clássicos são o B no G7 e o E no Cmaj7. A melhor nota de todas é a que existe no acorde novo mas não existia no anterior. O B não faz parte do Dm7, então quando ele aparece no tempo 1 todo mundo ouve que a harmonia andou.",
+   "destaque": "A melhor nota de chegada é a que o acorde anterior não tinha.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "ii-V-I em Dó, região das casas 3 a 7 (graus em relação a Dó). Os pousos com anel são o B (7 de Dó = 3ª de G7) e o E (3 de Dó = 3ª de Cmaj7). O F (♭3 de Dm7 e ♭7 de G7) e o C (tônica de Cmaj7) são os pontos de partida.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "De trás para frente",
+   "texto": "Escreva o fim antes do começo. Primeiro marque o pouso e o tempo em que ele cai, quase sempre o 1. Só depois desenhe o caminho até lá. O caminho pode ser curto ou longo, subir ou descer, mas a chegada não muda. Repare na linha ao lado: tudo no Dm7 foi pensado para que o C desça meio tom e caia no B.",
+   "destaque": "Destino fixo, caminho livre.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Linha construída de trás para frente: o B e o E foram escolhidos primeiro e o caminho foi traçado depois. Repare que cada chegada vem por grau conjunto (C→B, F→E).",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O ritmo leva até lá: '4 e 1'",
+   "texto": "Uma nota-alvo só convence quando cai no tempo forte. Conte '4 e 1 2 3, 4 e 1 2 3': o '4 e' é a rampa e o '1' é a chegada. Você também pode tocar uma nota do próximo acorde um pouco antes da troca, o que se chama antecipação. Isso deixa o solo mais falado e mostra que você sabe para onde a música vai.",
+   "destaque": "O '4 e' prepara, o '1' confirma.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "C–G–Am–F: um alvo por acorde (E, D, C, A) formando uma melodia que desce. No '4 e' de cada compasso, duas notas preparam o pouso do tempo 1.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A dominante é a seta",
+   "texto": "A dominante existe para preparar o acorde seguinte, que fica uma 4ª acima: A7 vai para Dm7, G7 para C, C7 para F7. Em cima dela, toque o arpejo com ♭9 e resolva na 3ª do destino. A ♭9 (B♭ no A7) é uma tensão que não pertence a nenhum acorde do tom, então o ouvido fica pedindo a resolução. Pense na frase inteira como o acorde de chegada se formando aos poucos.",
+   "destaque": "Tensão sobre a dominante, resolução no tempo 1.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Dominante com ♭9 preparando o próximo acorde: A7(♭9) resolve no F (♭3 de Dm7) e G7(♭9) resolve no E (3 de Cmaj7). É o mesmo desenho, duas casas abaixo.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 8,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 33,
+   "porque": "Jens Larsen improvisa sobre Dm7-G7-Cmaj7 fazendo cada frase terminar no B e no E, e dá para ouvir o fluxo se formar.",
+   "fonte": {
+    "id": "9oAxHq-ZLwI#I17",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+    "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=580s",
+    "video": "9oAxHq-ZLwI",
+    "inicio": 580,
+    "momento": "09:42",
+    "ideia": "Improvisar frases terminando na nota-alvo do próximo acorde"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "O exercício em rubato: frases curtas que terminam no alvo, sem a pressão do metrônomo, antes de levar tudo para o tempo.",
+   "fonte": {
+    "id": "h4zQjSecjvI#I12",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+    "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=341s",
+    "video": "h4zQjSecjvI",
+    "inicio": 341,
+    "momento": "05:43",
+    "ideia": "Melodias em rubato até a nota-alvo"
+   }
+  },
+  {
+   "ref": 84,
+   "porque": "Três rotas diferentes de C7 até o Lá de F7, tocadas lado a lado para comparar o som de cada uma.",
+   "fonte": {
+    "id": "G5q1lfMQ5A4#I20",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+    "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=586s",
+    "video": "G5q1lfMQ5A4",
+    "inicio": 586,
+    "momento": "09:48",
+    "ideia": "Três caminhos para chegar à nota-alvo"
+   }
+  },
+  {
+   "ref": 56,
+   "porque": "Ozeias Rodrigues monta o arpejo do dominante com ♭9 e resolve na 3ª menor do Dm, nota por nota.",
+   "fonte": {
+    "id": "PLRMB8b_3pk#I09",
+    "tipo": "video",
+    "autor": "Ozeias Rodrigues",
+    "titulo": "Esse truque me fez improvisar por acordes.",
+    "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=373s",
+    "video": "PLRMB8b_3pk",
+    "inicio": 373,
+    "momento": "06:15",
+    "ideia": "Frase do dominante resolvendo na 3ª menor do acorde-alvo"
+   }
+  },
+  {
+   "ref": 28,
+   "porque": "Steve Stine toca só as notas-alvo sobre C-G-Am-F, subindo e descendo, e mostra como a melodia já aparece aí.",
+   "fonte": {
+    "id": "fhtaQFOkLXc#I13",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+    "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=752s",
+    "video": "fhtaQFOkLXc",
+    "inicio": 752,
+    "momento": "12:34",
+    "ideia": "Sequência de notas-alvo C - G - Am - F nos dois sentidos"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Rubato de trás para frente",
+   "objetivo": "Criar o hábito de decidir o pouso antes de tocar, sem a pressão do tempo.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque Dm7, G7 e Cmaj7 devagar, só para ouvir a sequência.",
+    "No braço da figura, ache o B (3ª de G7) e o E (3ª de Cmaj7) na região das casas 2 a 7.",
+    "Sem metrônomo, toque o Dm7 e invente uma frase de 3 a 5 notas que termine no B. Depois toque o G7 por baixo (ou imagine o acorde) e confira se a nota se encaixa.",
+    "Faça o mesmo do G7 até o E.",
+    "Crie cinco caminhos diferentes para o mesmo B: subindo, descendo, curto, longo, com salto. O destino não muda."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "ii-V-I em Dó, região das casas 3 a 7 (graus em relação a Dó). Os pousos com anel são o B (7 de Dó = 3ª de G7) e o E (3 de Dó = 3ª de Cmaj7). O F (♭3 de Dm7 e ♭7 de G7) e o C (tônica de Cmaj7) são os pontos de partida.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Use só as quatro notas do acorde atual até chegar ao alvo.",
+    "Troque os alvos: F no G7 (a ♭7) e B no Cmaj7 (a 7)."
+   ],
+   "cuidado": "Começar a tocar e só depois procurar onde parar. Fale a nota-alvo em voz alta antes da primeira nota.",
+   "inspirado_em": [
+    {
+     "id": "h4zQjSecjvI#I12",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=341s",
+     "video": "h4zQjSecjvI",
+     "inicio": 341,
+     "momento": "05:43",
+     "ideia": "Melodias em rubato até a nota-alvo"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I16",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=519s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 519,
+     "momento": "08:41",
+     "ideia": "Pensar as linhas de trás para frente"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I18",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=552s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 552,
+     "momento": "09:14",
+     "ideia": "Começar pela nota-alvo"
+    },
+    {
+     "id": "h4zQjSecjvI#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=238s",
+     "video": "h4zQjSecjvI",
+     "inicio": 238,
+     "momento": "04:00",
+     "ideia": "Nota-alvo"
+    }
+   ]
+  },
+  {
+   "titulo": "Alvos-guia e o '4 e' em C–G–Am–F",
+   "objetivo": "Montar uma melodia só com os alvos e chegar a cada um vindo do '4 e' do compasso anterior.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Toque só os alvos sobre a base, um por compasso e no tempo 1: E (C), D (G), C (Am), A (F). Repare que eles formam uma melodia que desce.",
+    "Agora toque a ordem contrária, subindo: A, C, D, E. Qual direção soa mais natural para você?",
+    "Toque a tab: o alvo no 1, silêncio nos tempos 2 e 3, e duas notas no '4 e' levando ao próximo alvo.",
+    "Conte em voz alta '4 e 1' em cada troca.",
+    "Mude as notas do '4 e', mas mantenha o mesmo alvo no 1."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "C–G–Am–F: um alvo por acorde (E, D, C, A) formando uma melodia que desce. No '4 e' de cada compasso, duas notas preparam o pouso do tempo 1.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Complete os tempos 2 e 3 com a pentatônica de Lá menor, sem tirar o alvo do lugar.",
+    "Repita a mesma sequência de alvos uma oitava acima, na região da casa 8."
+   ],
+   "cuidado": "Encher os tempos 2 e 3 e chegar atrasado ao alvo. O silêncio é o que deixa o pouso claro.",
+   "inspirado_em": [
+    {
+     "id": "fhtaQFOkLXc#I13",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=752s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 752,
+     "momento": "12:34",
+     "ideia": "Sequência de notas-alvo C - G - Am - F nos dois sentidos"
+    },
+    {
+     "id": "fhtaQFOkLXc#I18",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=981s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 981,
+     "momento": "16:23",
+     "ideia": "Preencher o espaço entre notas-alvo com a escala"
+    },
+    {
+     "id": "t8SmU7wIxnc#I28",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1560s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1560,
+     "momento": "26:02",
+     "ideia": "Aplicar notas-alvo no solo partindo da tônica"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I07",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pense '4 & 1 2 3' para antecipar a mudança de acorde"
+    },
+    {
+     "id": "W96yUcOEub0#I08",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+     "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=298s",
+     "video": "W96yUcOEub0",
+     "inicio": 298,
+     "momento": "05:00",
+     "ideia": "Ré como ponte entre Lá menor e Sol"
+    }
+   ]
+  },
+  {
+   "titulo": "ii-V-I sem costura",
+   "objetivo": "Encadear frases que terminam no alvo do próximo acorde e tocar a progressão inteira como uma única linha.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque a tab a 70 bpm e repare nas chegadas por meio tom: C→B e F→E.",
+    "Monte um loop de Dm7 | G7 | Cmaj7 | Cmaj7.",
+    "Sobre o Dm7, improvise uma frase que caia no B no tempo 1 do G7.",
+    "Sem parar, faça a frase do G7 cair no E no tempo 1 do Cmaj7.",
+    "No Cmaj7, segure o E e respire. Depois recomece mirando de novo o B."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Linha construída de trás para frente: o B e o E foram escolhidos primeiro e o caminho foi traçado depois. Repare que cada chegada vem por grau conjunto (C→B, F→E).",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use só arpejos de sétima (quatro notas por acorde).",
+    "Antecipe o E: toque-o no '4 e' do G7 e ouça a troca chegar mais cedo.",
+    "Comece rubato e vá subindo o andamento de 50 a 90 bpm."
+   ],
+   "cuidado": "Parar depois de cada pouso. A ideia é que o alvo seja ao mesmo tempo o fim de uma frase e o começo da próxima.",
+   "inspirado_em": [
+    {
+     "id": "9oAxHq-ZLwI#I17",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=580s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 580,
+     "momento": "09:42",
+     "ideia": "Improvisar frases terminando na nota-alvo do próximo acorde"
+    },
+    {
+     "id": "7mpVem0mrQE#I11",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+     "url": "https://www.youtube.com/watch?v=7mpVem0mrQE&t=243s",
+     "video": "7mpVem0mrQE",
+     "inicio": 243,
+     "momento": "04:05",
+     "ideia": "Linhas terminando na nota-alvo do próximo acorde"
+    },
+    {
+     "id": "EMQydbilqmo#I32",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=706s",
+     "video": "EMQydbilqmo",
+     "inicio": 706,
+     "momento": "11:48",
+     "ideia": "Explorar linhas com as quatro notas do acorde"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I11",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=433s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 433,
+     "momento": "07:15",
+     "ideia": "Nota de um acorde tocada sobre o acorde seguinte"
+    },
+    {
+     "id": "5hmSQuMIf-w#I05",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=132s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Notas-alvo no tempo 1 do compasso seguinte"
+    },
+    {
+     "id": "h4zQjSecjvI#I13",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=341s",
+     "video": "h4zQjSecjvI",
+     "inicio": 341,
+     "momento": "05:43",
+     "ideia": "Levar as notas-alvo para o tempo gradualmente"
+    }
+   ]
+  },
+  {
+   "titulo": "Três rotas para o mesmo Lá",
+   "objetivo": "Chegar à 3ª de F7 saindo do C7 por caminhos diferentes, a partir de uma posição fixa.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Ache os dois Lás da região das casas 5 a 8: corda 1, casa 5, e corda 4, casa 7.",
+    "Rota 1: arpejo de C7 subindo (C E G B♭) e pouso no A no tempo 1 do F7.",
+    "Rota 2: arpejo de Em7♭5 descendo (B♭ G E D), que soa como C9, e pouso no outro A.",
+    "Rota 3: arpejo de C7 e um cerco antes do A. A técnica do cerco está em 'Aproximação cromática, enclosures e notas de passagem'.",
+    "Faça um loop C7 | F7 e alterne as três rotas. Escolha a sua preferida e diga por quê."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Dois caminhos de C7 até o Lá (3ª de F7). Rota 1: arpejo de C7 subindo até o A da corda 1. Rota 2: arpejo de Em7♭5 (C9 sem fundamental) descendo até o A da corda 4.",
+    "tonica": "F",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mire o C (5ª de F7) ou o E♭ (♭7) no lugar do A.",
+    "Repita na região da casa 1, com o A da corda 3, casa 2."
+   ],
+   "cuidado": "Pousar no A e fazer o B♭ ou o G soarem como chegada. O alvo é só o A, e ele tem que cair no tempo 1.",
+   "inspirado_em": [
+    {
+     "id": "jVTRXGg0Sdg#I25",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=464s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Transição de C7 para F7 no compasso 5"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I32",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=598s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 598,
+     "momento": "10:00",
+     "ideia": "Enxergar o arpejo do próximo acorde"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I33",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=637s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 637,
+     "momento": "10:39",
+     "ideia": "A terça de F7 como nota-alvo inicial"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=552s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 552,
+     "momento": "09:14",
+     "ideia": "Frases até a 3ª de F7 (Lá)"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I20",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=586s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 586,
+     "momento": "09:48",
+     "ideia": "Três caminhos para chegar à nota-alvo"
+    }
+   ]
+  },
+  {
+   "titulo": "A dominante com ♭9 aponta o caminho",
+   "objetivo": "Usar o arpejo 1-3-5-♭7-♭9 para preparar a chegada na 3ª do acorde seguinte.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Toque a tab: A7(♭9) resolve no F do Dm7, e G7(♭9) resolve no E do Cmaj7.",
+    "Perceba que o desenho do G7 é o do A7 duas casas abaixo.",
+    "Inverta a frase: comece na ♭9 e desça até a fundamental antes de resolver.",
+    "Comece pela 3ª no grave (C# no A7, B no G7) e resolva na 5ª do acorde de destino.",
+    "Monte um loop do campo de Dó com dois compassos por acorde. No segundo compasso, toque a dominante do próximo acorde (E7 antes de Am7, A7 antes de Dm7, D7 antes de G7)."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Dominante com ♭9 preparando o próximo acorde: A7(♭9) resolve no F (♭3 de Dm7) e G7(♭9) resolve no E (3 de Cmaj7). É o mesmo desenho, duas casas abaixo.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 8,
+          "nota": "B♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Aplique em All of Me: E7 prepara o Am7 e A7 prepara o Dm7.",
+    "Resolva na fundamental do destino e compare: soa mais conclusivo e menos melódico."
+   ],
+   "cuidado": "Pousar a ♭9 no tempo forte do acorde de destino. Ela é tensão da dominante e tem que resolver antes da barra.",
+   "inspirado_em": [
+    {
+     "id": "iUZwNSDpV_Q#I20",
+     "tipo": "video",
+     "autor": "Mauricio Alabama",
+     "titulo": "Como solar em QUALQUER música",
+     "url": "https://www.youtube.com/watch?v=iUZwNSDpV_Q&t=726s",
+     "video": "iUZwNSDpV_Q",
+     "inicio": 726,
+     "momento": "12:08",
+     "ideia": "Dominante como acorde de preparação"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I25",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dominante resolve uma quarta justa acima"
+    },
+    {
+     "id": "PLRMB8b_3pk#I09",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=373s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Frase do dominante resolvendo na 3ª menor do acorde-alvo"
+    },
+    {
+     "id": "PLRMB8b_3pk#I12",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=541s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 541,
+     "momento": "09:03",
+     "ideia": "Frase do dominante invertida"
+    },
+    {
+     "id": "PLRMB8b_3pk#I14",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=645s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 645,
+     "momento": "10:47",
+     "ideia": "Frase começando na fundamental do dominante com a quinta"
+    },
+    {
+     "id": "PLRMB8b_3pk#I22",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=1083s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 1083,
+     "momento": "18:05",
+     "ideia": "Frase iniciando na 3ª do dominante"
+    },
+    {
+     "id": "PLRMB8b_3pk#I11",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=442s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 442,
+     "momento": "07:24",
+     "ideia": "Tocar frase de dominante sobre loop de Dó maior"
+    },
+    {
+     "id": "PLRMB8b_3pk#I24",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=1203s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 1203,
+     "momento": "20:05",
+     "ideia": "Aplicar a frase de dominante ao tema All of Me"
+    },
+    {
+     "id": "PLRMB8b_3pk#I13",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=577s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 577,
+     "momento": "09:39",
+     "ideia": "Visualizar a frase como desmembramento do acorde-alvo"
+    }
+   ]
+  },
+  {
+   "titulo": "Motivo que atravessa a barra",
+   "objetivo": "Levar a mesma ideia de acorde em acorde, fazendo cada fim de motivo preparar a 3ª seguinte.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Aprenda o motivo do F7 como sequência de graus: 3-1-3-5-♭7.",
+    "Aplique os mesmos graus ao B♭7: D-B♭-D-F-A♭.",
+    "Repare na costura: a ♭7 de cada acorde desce meio tom e vira a 3ª do próximo (E♭→D, A♭→A).",
+    "Toque F7 | B♭7 | F7 | F7 em loop a 75 bpm.",
+    "Crie um motivo seu de 4 ou 5 notas que termine num grau a meio tom ou um tom da 3ª do próximo acorde e leve-o pela forma."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "O motivo 3-1-3-5-♭7 atravessa F7 → B♭7 → F7. A ♭7 de cada compasso desce meio tom e cai na 3ª do acorde seguinte (E♭→D, A♭→A).",
+    "tonica": "F",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "F7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "B♭7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 8,
+          "nota": "B♭",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve o motivo pelos 12 compassos do blues em Fá, incluindo o C7 → F7 da volta.",
+    "Mude o ritmo do motivo em cada passagem, mas mantenha os graus."
+   ],
+   "cuidado": "Transpor as notas de um acorde para outro em vez dos graus. Na dominante a 7ª é menor: E♭ no F7, A♭ no B♭7.",
+   "inspirado_em": [
+    {
+     "id": "jVTRXGg0Sdg#I16",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=249s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 249,
+     "momento": "04:11",
+     "ideia": "Quatro notas facilitam o desenvolvimento motívico"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I17",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=282s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 282,
+     "momento": "04:44",
+     "ideia": "Transpor um motivo pelos intervalos do acorde"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I18",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=282s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 282,
+     "momento": "04:44",
+     "ideia": "Percorrer a forma com um motivo"
+    },
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I11",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Passar a mesma ideia pelas mudanças harmônicas"
+    },
+    {
+     "id": "yw6K7j6GbDc#I20",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=499s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Desenvolvimento motívico"
+    }
+   ]
+  },
+  {
+   "titulo": "Solo com plano de pousos",
+   "objetivo": "Improvisar livremente olhando a progressão adiante e decidindo o pouso a cada dois compassos.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Base em Sol: Am7 | D7 | Gmaj7 | E7, dois compassos por acorde, em loop.",
+    "Anote os pousos possíveis: C (♭3 de Am7), F# (3 de D7), B (3 de Gmaj7), G# (3 de E7).",
+    "Improvise livre com a pentatônica de Mi menor ou a escala de Sol. No 2º compasso de cada acorde, olhe o próximo e decida o pouso antes de tocar.",
+    "Sobre o E7, a nota que muda é o G#. Mire o C do Am7 a partir dele.",
+    "Grave 3 minutos e marque os momentos em que você caiu no alvo no tempo 1 e os que se perderam."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Desça a metade de cima de um arpejo pela pentatônica e termine na 3ª do próximo acorde.",
+    "Escolha a 9ª como alvo do Gmaj7 (A) e explore essa cor ao chegar."
+   ],
+   "cuidado": "Esquecer o plano no meio da frase e cair na tônica de sempre. Se se perder, pare, olhe o próximo acorde e mire só a 3ª dele.",
+   "inspirado_em": [
+    {
+     "id": "notreble--p-3775-d3b1d5#I05",
+     "tipo": "documento",
+     "autor": "Damian Erskine",
+     "titulo": "Ask Damian Erskine: Target Notes",
+     "url": "https://www.notreble.com/?p=3775",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Olhar adiante e decidir como pousar no próximo acorde"
+    },
+    {
+     "id": "SggDUBO6z7Q#I10",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=347s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 347,
+     "momento": "05:49",
+     "ideia": "Usar a oitava superior do arpejo e descer pela pentatônica"
+    },
+    {
+     "id": "SggDUBO6z7Q#I11",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=383s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 383,
+     "momento": "06:25",
+     "ideia": "Terminar a frase para conduzir ao Ré7"
+    },
+    {
+     "id": "SggDUBO6z7Q#I18",
+     "tipo": "video",
+     "autor": "Corey Congilio",
+     "titulo": "Combining Arpeggios with Pentatonics Unlocks Everything!",
+     "url": "https://www.youtube.com/watch?v=SggDUBO6z7Q&t=585s",
+     "video": "SggDUBO6z7Q",
+     "inicio": 585,
+     "momento": "09:47",
+     "ideia": "Ouvir e mirar a nota-alvo do acorde seguinte"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I13",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=448s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 448,
+     "momento": "07:30",
+     "ideia": "Linhas precisam ter direção"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I21",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=586s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 586,
+     "momento": "09:48",
+     "ideia": "Dar direção à música, não acumular teoria"
+    },
+    {
+     "id": "2OxHReoGIqs#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=505s",
+     "video": "2OxHReoGIqs",
+     "inicio": 505,
+     "momento": "08:27",
+     "ideia": "Antecipar para onde vai o acorde fora de tom"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Recomeçar a frase a cada troca, deixando o solo com cara de pedaços soltos.",
+  "Escolher a nota-alvo só depois de começar a tocar.",
+  "Acertar a nota do acorde, mas no contratempo ou atrasada, o que tira a força da chegada.",
+  "Mirar sempre a tônica: ela é segura, mas mostra pouco a troca. A 3ª conta mais.",
+  "Pousar numa tensão (como a ♭9) sobre o acorde de destino em vez de resolvê-la antes.",
+  "Achar que acertar as notas do acorde basta: sem direção, a linha fica correta e mecânica."
+ ],
+ "resumo": [
+  "Enquanto toca o acorde atual, pense no próximo.",
+  "Escolha o pouso primeiro, de preferência a 3ª ou uma nota que só o próximo acorde tem, e depois desenhe o caminho.",
+  "O alvo cai no tempo 1. O '4 e' é a rampa que leva até ele.",
+  "A dominante prepara o destino: arpejo com ♭9 resolvendo na 3ª.",
+  "Uma linha boa atravessa a barra de compasso. O pouso de uma frase é o começo da próxima."
+ ],
+ "proximos_passos": "Para refinar as chegadas, siga para 'Guide tones e condução de vozes' (3ª e 7ª caminhando de acorde em acorde) e para 'Aproximação cromática, enclosures e notas de passagem' (formas de cercar o alvo). Depois vá para 'Arpejo como melodia: combinar com escala e pentatônica' e 'Vocabulário de jazz: bebop, dominantes e tensões', para dar mais vocabulário ao caminho até o pouso.",
+ "_meta": {
+  "subcategoria": "C09.6",
+  "modulo": {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes"
+  },
+  "nome": "Pensar à frente: linhas que levam ao próximo acorde",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:58:55",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 28968,
+   "cache_read": 8780,
+   "output": 18411,
+   "thinking": 7599,
+   "turns": 4,
+   "custo_nominal": 0.6253860000000001
+  }
+ }
+}

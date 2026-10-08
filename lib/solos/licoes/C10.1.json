@@ -1,0 +1,2246 @@
+{
+ "titulo": "Arpejos: o acorde tocado nota a nota",
+ "gancho": "Por dentro de cada acorde que você já sabe tocar existe uma melodia pronta. Basta soltar as notas uma de cada vez.",
+ "porque_importa": "A escala mostra todas as notas que você pode usar. O arpejo mostra só as que o acorde está tocando naquele momento. Quando você enxerga a tríade no braço, sabe na hora onde a frase pode pousar, sem precisar percorrer a escala inteira. Como tudo sai da fórmula 1-3-5, um único desenho já te dá os arpejos maior, menor e diminuto.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Arpejo é o acorde em fila",
+   "texto": "No acorde, as notas soam juntas. No arpejo, elas saem uma de cada vez, como se o acorde estivesse quebrado. Um G vira Sol, Si, Ré tocados em sequência. Por isso o arpejo é a versão melódica do acorde, e qualquer nota dele combina com o acorde que está soando.",
+   "destaque": "Acorde parado é harmonia. Acorde andando é melodia.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Sol maior subindo e descendo em colcheias. Uma nota por vez, e as anteriores não ficam soando.",
+    "tonica": "G",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A fórmula: 1, 3 e 5",
+   "texto": "A tríade maior pega a 1ª, a 3ª e a 5ª da escala maior do acorde. G = G-B-D, C = C-E-G, D = D-F♯-A. Repetindo essas três notas em outras oitavas, você tem o arpejo inteiro. No desenho de Sol com tônica na casa 3 da corda Mi grave, cabem duas oitavas sem mover a mão.",
+   "destaque": "Três notas, repetidas pelo braço.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Arpejo de Sol maior com tônica na casa 3 da corda Mi grave, em duas oitavas. É o desenho base desta lição.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Uma casa muda o acorde",
+   "texto": "Não decore um desenho para cada tipo de acorde. Ajuste a fórmula. Abaixe cada terça uma casa e o maior vira menor (1-♭3-5, ou seja, G-B♭-D). Abaixe também cada quinta e sai o diminuto (1-♭3-♭5, ou seja, G-B♭-D♭). O diminuto aparece menos na música popular, mas sai do mesmo desenho.",
+   "destaque": "Fórmula na cabeça, ajuste nos dedos.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "O mesmo desenho três vezes. Abaixe as terças uma casa e sai Sol menor. Abaixe também as quintas e sai Sol diminuto.",
+    "tonica": "G",
+    "bpm": 63,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 1,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gdim",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 1,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "D♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "D♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O acorde está dentro do arpejo",
+   "texto": "Faça a pestana de G e olhe o desenho do arpejo: é a mesma forma com uma nota a mais, o Si na casa 2 da corda Lá. A pestana serve de esqueleto para memorizar o arpejo. Repare também no dedo do meio: no G em pestana, ele fica no Si da corda Sol, que é a terça. Quando o acorde vira Gm, esse dedo sai e a terça cai para a pestana. Isso vale em muitas formas, mas não em todas.",
+   "destaque": "Ache a pestana e você já achou o arpejo.",
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Os acordes que moram dentro dos arpejos desta lição: pestanas de G e Gm com tônica na corda Mi, e C e D com tônica na corda Lá.",
+    "tonica": "G",
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "355433"
+     },
+     {
+      "nome": "Gm",
+      "digitacao": "355333"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x35553"
+     },
+     {
+      "nome": "D",
+      "digitacao": "x57775"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O desenho anda, a tônica manda",
+   "texto": "O shape é móvel. Leve a tônica da casa 3 para a casa 5 da corda Mi e você tem Lá maior. Na casa 8, Dó maior. Para ter a tônica na corda Lá, suba o desenho uma corda inteira, e a nota que cair na corda Si sobe uma casa. Misturando tônicas nas cordas Mi e Lá, uma progressão inteira cabe numa só região do braço.",
+   "destaque": "Uma forma serve para os doze tons.",
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Arpejo de Dó maior com tônica na casa 3 da corda Lá. É o desenho de Sol subido uma corda, com a nota da corda Si subindo uma casa.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 15,
+   "porque": "Vítor Lucena toca devagar o arpejo de Sol maior com tônica na casa 3, nota por nota, e mostra como evitar que as cordas soem juntas.",
+   "fonte": {
+    "id": "jeJEMmEIVqk#I06",
+    "tipo": "video",
+    "autor": "Vítor Lucena",
+    "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+    "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=134s",
+    "video": "jeJEMmEIVqk",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Tocar o arpejo de Sol maior nota por nota"
+   }
+  },
+  {
+   "ref": 10,
+   "porque": "Samjamguitar transforma o arpejo maior em menor só abaixando as terças uma casa, sem trocar o desenho.",
+   "fonte": {
+    "id": "fxpn2pf0zf8#I06",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+    "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=67s",
+    "video": "fxpn2pf0zf8",
+    "inicio": 67,
+    "momento": "01:09",
+    "ideia": "Criar arpejo menor abaixando a terça do maior"
+   }
+  },
+  {
+   "ref": 24,
+   "porque": "Mostra a pestana aparecendo dentro do arpejo, o atalho visual para memorizar a forma.",
+   "fonte": {
+    "id": "fxpn2pf0zf8#I19",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+    "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=307s",
+    "video": "fxpn2pf0zf8",
+    "inicio": 307,
+    "momento": "05:09",
+    "ideia": "A forma do acorde aparece dentro do arpejo"
+   }
+  },
+  {
+   "ref": 44,
+   "porque": "Passo a passo para levar o arpejo da corda Mi para a corda Lá, incluindo o ajuste de uma casa na corda Si.",
+   "fonte": {
+    "id": "fxpn2pf0zf8#I14",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+    "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=235s",
+    "video": "fxpn2pf0zf8",
+    "inicio": 235,
+    "momento": "03:57",
+    "ideia": "Transpor arpejo da corda E para a corda A"
+   }
+  },
+  {
+   "ref": 48,
+   "porque": "G–C–D tocado de dois jeitos: só com tônicas na corda Mi e misturando as cordas Mi e Lá. Dá para ver o quanto a mão economiza de movimento.",
+   "fonte": {
+    "id": "fxpn2pf0zf8#I18",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+    "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=269s",
+    "video": "fxpn2pf0zf8",
+    "inicio": 269,
+    "momento": "04:31",
+    "ideia": "Progressão G C D em duas posições de arpejo"
+   }
+  },
+  {
+   "ref": 33,
+   "porque": "Active Melody toca o arpejo de Lá maior em duas oitavas entre as casas 4 e 7, um bom modelo de região fixa.",
+   "fonte": {
+    "id": "TdzOXWlKtTQ#I08",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Arpeggio Deep Dive: How to use Arpeggios when improvising chord changes - Guitar Lesson EP512",
+    "url": "https://www.youtube.com/watch?v=TdzOXWlKtTQ&t=573s",
+    "video": "TdzOXWlKtTQ",
+    "inicio": 573,
+    "momento": "09:35",
+    "ideia": "Arpejo de A maior na forma E (região 4ª a 7ª)"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Sol maior em câmera lenta",
+   "objetivo": "Tocar o arpejo de Sol maior em duas oitavas com cada nota limpa e separada.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Ponha o dedo 2 (médio) no Sol da casa 3 da corda Mi grave e diga em voz alta: tônica.",
+    "Suba pelo desenho do V1 dizendo o grau de cada nota: 1, 3, 5, 1, 3, 5, 1.",
+    "Abafe cada nota tirando a pressão do dedo antes de tocar a próxima. Nada de efeito de acorde.",
+    "Desça pelas mesmas notas até o Sol grave e segure por um tempo.",
+    "Toque o V2 a 66 bpm, quatro vezes seguidas sem erro, antes de subir 4 bpm."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Sol maior subindo e descendo em colcheias. Uma nota por vez, e as anteriores não ficam soando.",
+    "tonica": "G",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece na nota mais aguda (Sol da corda Mi aguda) e faça só a descida.",
+    "Toque em semínimas a 60 bpm cantando o nome de cada nota."
+   ],
+   "cuidado": "Deixar as notas soando umas por cima das outras. Se ficar parecendo um acorde dedilhado, você ainda não está tocando um arpejo.",
+   "inspirado_em": [
+    {
+     "id": "ExhI4nkjOAY#I05",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=196s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 196,
+     "momento": "03:18",
+     "ideia": "Subir e descer o arpejo de G nota por nota"
+    },
+    {
+     "id": "jeJEMmEIVqk#I06",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=134s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Tocar o arpejo de Sol maior nota por nota"
+    },
+    {
+     "id": "jeJEMmEIVqk#I09",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=233s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 233,
+     "momento": "03:55",
+     "ideia": "Arpejo de Ré maior lentamente"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I15",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Arpejos de tons de acorde ascendentes e descendentes"
+    },
+    {
+     "id": "jeJEMmEIVqk#I04",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=97s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 97,
+     "momento": "01:39",
+     "ideia": "Dominar a mecânica antes de aplicar"
+    },
+    {
+     "id": "gubqumrozXc#I16",
+     "tipo": "video",
+     "autor": "Bruno Oliveira",
+     "titulo": "Aprenda a Improvisar sobre Pentatônicas, e Modos Gregos com Gustavo Guerra.",
+     "url": "https://www.youtube.com/watch?v=gubqumrozXc&t=741s",
+     "video": "gubqumrozXc",
+     "inicio": 741,
+     "momento": "12:23",
+     "ideia": "Não ter pressa e buscar musicalidade no arpejo"
+    }
+   ]
+  },
+  {
+   "titulo": "Abaixe uma casa: Sol, Sol menor, Sol diminuto",
+   "objetivo": "Tirar os arpejos menor e diminuto do desenho maior, ajustando só os graus.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Toque o compasso 1 do V3 (G maior) e localize as duas terças: casa 2 da corda Lá e casa 4 da corda Sol.",
+    "Abaixe as duas terças uma casa (casa 1 da corda Lá, casa 3 da corda Sol). Agora o arpejo é Sol menor.",
+    "Ouça a diferença tocando só 1-3-1 e depois 1-♭3-1.",
+    "Mantenha as terças menores e abaixe as quintas: casa 4 da corda Lá e casa 2 da corda Si. Agora é Sol diminuto.",
+    "Toque os três compassos em sequência e diga o nome de cada tipo antes de começar o compasso."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "O mesmo desenho três vezes. Abaixe as terças uma casa e sai Sol menor. Abaixe também as quintas e sai Sol diminuto.",
+    "tonica": "G",
+    "bpm": 63,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 1,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gdim",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 1,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "D♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "D♭",
+          "grau": "♭5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve o desenho para a casa 5 (Lá) e faça A, Am e Adim.",
+    "Toque só as cordas 4 a 1 dos três tipos e preste atenção na nota que muda."
+   ],
+   "cuidado": "Mexer na tônica ou esquecer uma das oitavas. Só as terças e as quintas mudam, e mudam em todas as oitavas.",
+   "inspirado_em": [
+    {
+     "id": "fxpn2pf0zf8#I06",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=67s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Criar arpejo menor abaixando a terça do maior"
+    },
+    {
+     "id": "EY6-VNz81HE#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad System, It Will 10x Your Guitar Playing In 2026",
+     "url": "https://www.youtube.com/watch?v=EY6-VNz81HE&t=69s",
+     "video": "EY6-VNz81HE",
+     "inicio": 69,
+     "momento": "01:11",
+     "ideia": "A diminuta (1-♭3-♭5)"
+    },
+    {
+     "id": "fxpn2pf0zf8#I04",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=34s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "A fórmula do acorde gera qualquer arpejo"
+    },
+    {
+     "id": "gubqumrozXc#I14",
+     "tipo": "video",
+     "autor": "Bruno Oliveira",
+     "titulo": "Aprenda a Improvisar sobre Pentatônicas, e Modos Gregos com Gustavo Guerra.",
+     "url": "https://www.youtube.com/watch?v=gubqumrozXc&t=708s",
+     "video": "gubqumrozXc",
+     "inicio": 708,
+     "momento": "11:50",
+     "ideia": "Arpejo de tríade menor em velocidade gradual"
+    }
+   ]
+  },
+  {
+   "titulo": "A pestana dentro do arpejo",
+   "objetivo": "Usar a forma do acorde como esqueleto para memorizar o arpejo e achar a terça pelo dedo do meio.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Faça a pestana de G (355433) e toque o acorde inteiro uma vez.",
+    "Sem soltar a pestana, toque as seis cordas uma por uma, de baixo para cima.",
+    "Acrescente a única nota que falta no arpejo: o Si na casa 2 da corda Lá. Faça com o dedo 1 esticado ou mexendo a mão um pouco.",
+    "Toque só a nota que fica sob o dedo do meio (casa 4 da corda Sol) junto com o acorde. Essa é a terça.",
+    "Troque para Gm (355333) e repita. Repare que a terça agora fica na pestana, na casa 3."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Os acordes que moram dentro dos arpejos desta lição: pestanas de G e Gm com tônica na corda Mi, e C e D com tônica na corda Lá.",
+    "tonica": "G",
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "355433"
+     },
+     {
+      "nome": "Gm",
+      "digitacao": "355333"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x35553"
+     },
+     {
+      "nome": "D",
+      "digitacao": "x57775"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o mesmo com C (x35553), achando o desenho do V5.",
+    "Feche os olhos, faça a pestana e toque o arpejo de memória."
+   ],
+   "cuidado": "Tratar a pestana como regra fixa. O dedo do meio é só uma pista: em outras formas, a terça cai em outro dedo.",
+   "inspirado_em": [
+    {
+     "id": "fxpn2pf0zf8#I19",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=307s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 307,
+     "momento": "05:09",
+     "ideia": "A forma do acorde aparece dentro do arpejo"
+    },
+    {
+     "id": "fxpn2pf0zf8#I22",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=342s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 342,
+     "momento": "05:44",
+     "ideia": "Visualizar o acorde para memorizar o arpejo"
+    },
+    {
+     "id": "fxpn2pf0zf8#I20",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=342s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 342,
+     "momento": "05:44",
+     "ideia": "Arpejo menor revela pestana menor"
+    },
+    {
+     "id": "7Pdss_Gswtc#I08",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=369s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 369,
+     "momento": "06:11",
+     "ideia": "Terça no dedo do meio"
+    }
+   ]
+  },
+  {
+   "titulo": "Fechar a frase com 1-3-5-3-1",
+   "objetivo": "Usar um fragmento curto do arpejo como final de frase, em duas oitavas.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Toque o compasso 1 do V7: Sol, Si, Ré, Si, Sol na região grave.",
+    "Segure o último Sol e fique em silêncio durante todo o compasso 2.",
+    "Repita o desenho na oitava média (cordas 4, 3 e 2) e pouse no Sol.",
+    "Use só as cordas de que precisa. O arpejo não tem que ser tocado inteiro.",
+    "Toque uma frase livre na pentatônica de Sol e termine sempre com um desses dois fechamentos."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Fechamento 1-3-5-3-1 sobre Sol, na oitava grave e depois na média, com um compasso de silêncio entre as duas.",
+    "tonica": "G",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine no 3 (Si) em vez do 1 e ouça o final ficar menos conclusivo.",
+    "Toque o fechamento começando no tempo 2 do compasso."
+   ],
+   "cuidado": "Correr as cinco notas. Mantenha as colcheias iguais e deixe o pouso soar até o fim.",
+   "inspirado_em": [
+    {
+     "id": "bhYXolbCrr0#I18",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1514s",
+     "video": "bhYXolbCrr0",
+     "inicio": 1514,
+     "momento": "25:16",
+     "ideia": "Arpejo de Sol maior 1-3-5-3-1"
+    },
+    {
+     "id": "TdzOXWlKtTQ#I28",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Arpeggio Deep Dive: How to use Arpeggios when improvising chord changes - Guitar Lesson EP512",
+     "url": "https://www.youtube.com/watch?v=TdzOXWlKtTQ&t=1744s",
+     "video": "TdzOXWlKtTQ",
+     "inicio": 1744,
+     "momento": "29:06",
+     "ideia": "Tocar só o trecho necessário da forma"
+    }
+   ]
+  },
+  {
+   "titulo": "Shape móvel: G, A e C pela tônica",
+   "objetivo": "Transpor o desenho maior para outros tons movendo a mão até a nova tônica.",
+   "nivel": "intermediario",
+   "minutos": 6,
+   "passos": [
+    "Toque o arpejo de G com tônica na casa 3 da corda Mi grave (V1).",
+    "Leve o desenho inteiro duas casas acima, com tônica na casa 5. Diga as notas: A, C♯, E.",
+    "Leve até a casa 8 (tônica Dó) e diga: C, E, G.",
+    "Em cada tom, toque uma oitava (cordas 6 a 4), depois a segunda oitava (cordas 4 a 1), e só depois as duas juntas.",
+    "Repita a sequência G → A → C com a versão menor (terças uma casa abaixo)."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Arpejo de Sol maior com tônica na casa 3 da corda Mi grave, em duas oitavas. É o desenho base desta lição.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Tônica na casa 7 (Si maior) e na casa 10 (Ré maior).",
+    "Sorteie um tom, ache a tônica na corda Mi em até dois segundos e toque o arpejo."
+   ],
+   "cuidado": "Mudar o desenho no meio do caminho. Se a forma é a mesma, a distância entre os dedos também é.",
+   "inspirado_em": [
+    {
+     "id": "jeJEMmEIVqk#I05",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=134s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Arpejo de Sol maior com tônica na corda Mi"
+    },
+    {
+     "id": "gubqumrozXc#I15",
+     "tipo": "video",
+     "autor": "Bruno Oliveira",
+     "titulo": "Aprenda a Improvisar sobre Pentatônicas, e Modos Gregos com Gustavo Guerra.",
+     "url": "https://www.youtube.com/watch?v=gubqumrozXc&t=741s",
+     "video": "gubqumrozXc",
+     "inicio": 741,
+     "momento": "12:23",
+     "ideia": "Arpejo pode começar em qualquer nota"
+    },
+    {
+     "id": "xKbtQM-qzSM#I05",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=199s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 199,
+     "momento": "03:21",
+     "ideia": "A forma também é um arpejo maior"
+    },
+    {
+     "id": "fxpn2pf0zf8#I03",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=34s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "Estender o arpejo uma oitava"
+    },
+    {
+     "id": "jeJEMmEIVqk#I10",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=272s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 272,
+     "momento": "04:34",
+     "ideia": "Aprender um shape por vez"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I13",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=571s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 571,
+     "momento": "09:33",
+     "ideia": "Praticar cada arpejo por oitava"
+    }
+   ]
+  },
+  {
+   "titulo": "Da corda Mi para a corda Lá",
+   "objetivo": "Montar o arpejo com tônica na corda Lá a partir do desenho com tônica na corda Mi.",
+   "nivel": "intermediario",
+   "minutos": 7,
+   "passos": [
+    "Toque o arpejo de G do V1 e anote mentalmente as casas de cada corda.",
+    "Suba o desenho uma corda inteira, de modo que a tônica caia na casa 3 da corda Lá. Agora ele é de Dó.",
+    "A terça que antes ficava na corda Sol cai na corda Si. Suba essa nota uma casa: casa 5, Mi.",
+    "Confira pelo nome das notas: C, E, G, C, E, G (V5).",
+    "Faça o mesmo com Gm: tônica na casa 3 da corda Lá, terças na casa 1 da corda Ré e na casa 4 da corda Si. Resultado: Cm."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Arpejo de Dó maior com tônica na casa 3 da corda Lá. É o desenho de Sol subido uma corda, com a nota da corda Si subindo uma casa.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Monte D maior com tônica na casa 5 da corda Lá (5/5, 4/4, 4/7, 3/7, 2/7, 1/5).",
+    "Compare Dó com tônica na casa 8 da corda Mi e na casa 3 da corda Lá e diga qual soa mais encorpado."
+   ],
+   "cuidado": "Esquecer o ajuste da corda Si. Se o Mi sair na casa 4 da corda Si (Ré♯), a nota vai soar desafinada contra o acorde.",
+   "inspirado_em": [
+    {
+     "id": "fxpn2pf0zf8#I13",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=235s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 235,
+     "momento": "03:57",
+     "ideia": "Arpejos com raiz na corda A"
+    },
+    {
+     "id": "fxpn2pf0zf8#I14",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=235s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 235,
+     "momento": "03:57",
+     "ideia": "Transpor arpejo da corda E para a corda A"
+    },
+    {
+     "id": "fxpn2pf0zf8#I21",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=342s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 342,
+     "momento": "05:44",
+     "ideia": "Arpejos de C com raiz na corda A revelam formas de cinco cordas"
+    }
+   ]
+  },
+  {
+   "titulo": "G–C–D sem viajar pelo braço",
+   "objetivo": "Trocar de arpejo a cada acorde sem sair de uma região, misturando tônicas nas cordas Mi e Lá.",
+   "nivel": "avancado",
+   "minutos": 8,
+   "passos": [
+    "Primeiro toque G, C e D com tônica na corda Mi (casas 3, 8 e 10) e repare no tamanho dos saltos.",
+    "Agora toque o V6: G na corda Mi (casa 3), C na corda Lá (casa 3), D na corda Lá (casa 5).",
+    "Em cada compasso, suba 1-3-5-1 e pouse na terça do tempo 3. Deixe o tempo 4 em silêncio para preparar a próxima forma.",
+    "No último compasso, desça para o Sol da corda Ré e segure.",
+    "Com uma base G–C–D ou um looper, toque cada tríade no ritmo da base, uma nota por vez, e ouça se cada troca soa coerente."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "G–C–D sem sair das casas 2 a 7: G com tônica na corda Mi, C e D com tônica na corda Lá. Cada compasso pousa na terça do acorde.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Pouse na quinta de cada acorde em vez da terça.",
+    "Comece cada compasso pela nota mais aguda e desça o arpejo.",
+    "Acrescente um delay curto para dar sustentação às notas."
+   ],
+   "cuidado": "Pensar no próximo shape só quando o acorde já trocou. Use o silêncio do tempo 4 para mirar a próxima tônica.",
+   "inspirado_em": [
+    {
+     "id": "fxpn2pf0zf8#I12",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=201s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 201,
+     "momento": "03:23",
+     "ideia": "Ficar preso a arpejos com raiz na corda E"
+    },
+    {
+     "id": "fxpn2pf0zf8#I15",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=269s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Combinar raízes nas cordas E e A"
+    },
+    {
+     "id": "fxpn2pf0zf8#I17",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=269s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Não há escolha certa ou errada de posição"
+    },
+    {
+     "id": "fxpn2pf0zf8#I18",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The BEST Way To Learn Arpeggios on Guitar (And How To Use Them!)",
+     "url": "https://www.youtube.com/watch?v=fxpn2pf0zf8&t=269s",
+     "video": "fxpn2pf0zf8",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Progressão G C D em duas posições de arpejo"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I12",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Posições de referência para arpejos em Amaj Emaj Bm Dmaj"
+    },
+    {
+     "id": "QS6dpweE_Q4#I02",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+     "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4&t=83s",
+     "video": "QS6dpweE_Q4",
+     "inicio": 83,
+     "momento": "01:25",
+     "ideia": "Agrupar os arpejos na mesma região do braço"
+    },
+    {
+     "id": "rtKZBns_IMY#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad Practice Routine, It'll 10X Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=rtKZBns_IMY&t=627s",
+     "video": "rtKZBns_IMY",
+     "inicio": 627,
+     "momento": "10:29",
+     "ideia": "Arpejar as tríades sobre o track"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Deixar as notas soando juntas, e aí o arpejo vira um acorde dedilhado.",
+  "Correr antes de ter a mecânica limpa. Velocidade só depois de quatro repetições sem erro.",
+  "Decorar um desenho novo para menor e diminuto em vez de abaixar a terça e a quinta.",
+  "Perder a tônica de vista e não saber qual nota é 1, 3 ou 5.",
+  "Esquecer que a nota da corda Si sobe uma casa quando o desenho passa da corda Mi para a corda Lá.",
+  "Querer aprender todos os shapes de uma vez em vez de dominar um por vez.",
+  "Solar só subindo e descendo o arpejo. Ele mostra onde estão os alvos, mas a frase ainda é sua."
+ ],
+ "resumo": [
+  "Arpejo é o acorde tocado nota a nota, a versão melódica da harmonia.",
+  "Maior = 1-3-5. Menor = abaixe a terça. Diminuto = abaixe também a quinta.",
+  "A pestana do acorde mora dentro do arpejo e serve de mapa para lembrar dele.",
+  "O shape é móvel: a tônica diz o tom. Da corda Mi para a Lá, a nota da corda Si sobe uma casa.",
+  "Tônicas nas cordas Mi e Lá misturadas fazem uma progressão inteira caber numa só região."
+ ],
+ "proximos_passos": "Com as tríades maior, menor e diminuta na mão, siga para \"Tríades em grupos de cordas e inversões\", que mostra formas menores e mais ágeis. Depois vá para \"Arpejos de sétima e diatônicos\", onde se acrescenta a quarta nota. Para transformar arpejos em frases, use \"Arpejo como melodia: combinar com escala e pentatônica\" e \"Notas do acorde, repouso e tensão-resolução\". Se o mapa de formas ainda estiver confuso, reveja \"CAGED, formas de acorde e regiões do braço\".",
+ "_meta": {
+  "subcategoria": "C10.1",
+  "modulo": {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo"
+  },
+  "nome": "Arpejos: conceito e formas básicas",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T19:01:39",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 21868,
+   "cache_read": 4913,
+   "output": 13491,
+   "thinking": 3539,
+   "turns": 2,
+   "custo_nominal": 0.4634326
+  }
+ }
+}

@@ -1,0 +1,1606 @@
+{
+ "titulo": "Aproximação cromática, enclosures e notas de passagem",
+ "gancho": "A nota \"errada\" vira a mais bonita da frase quando passa no tempo fraco e cai no alvo do tempo forte.",
+ "porque_importa": "Só com notas do acorde, o solo fica parecendo uma sequência de pulos entre pontos parados. As notas de passagem, as vizinhas e o cromatismo criam o caminho até esses pontos, e é dessa tensão que se resolve que vêm o som de blues, de bebop e de melodia \"cantada\". Também é o seu seguro contra nota ruim: se uma nota soar mal, ela fica a meio tom de uma boa.",
+ "ilustracao": "gravidade",
+ "conceito": [
+  {
+   "titulo": "Caminho, não destino",
+   "texto": "Notas de passagem e notas vizinhas não pertencem ao acorde, mas são alcançadas por grau conjunto e dão movimento à melodia. O problema não é tocar a tensão, é parar nela. A apojatura é o caso mais expressivo: a vizinha cai antes da nota do acorde e o peso vai para a resolução.",
+   "destaque": "O erro é parar na tensão, não tocá-la.",
+   "visual": null
+  },
+  {
+   "titulo": "Um passo resolve",
+   "texto": "Numa escala de sete notas, três formam a tríade. Por isso, quase toda nota que não é do acorde está a um passo de uma que é. Em C, o D vai para C ou E; o F vai para E ou G. Se uma nota soou mal, mova meio tom ou um grau e você volta para casa.",
+   "destaque": "Toda nota ruim mora ao lado de uma nota boa.",
+   "visual": null
+  },
+  {
+   "titulo": "Três jeitos de chegar e o cerco",
+   "texto": "Para chegar a um alvo, como o E sobre C, você pode vir pela vizinha diatônica (D ou F, som suave, 'dentro'), pela cromática meio tom abaixo (D♯, que já tem som de blues e bebop) ou cercando o alvo com o enclosure: uma nota acima, outra abaixo e então o alvo (F–D♯–E). O cerco gera mais tensão e, por isso, mais alívio quando resolve. A 3ª é o alvo mais forte, porque é ela que diz se o acorde é maior ou menor.",
+   "destaque": "Diatônica suaviza, cromática puxa, enclosure cerca.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Alvo E (3ª de C) na corda Sol, casa 9, e seus vizinhos: D (diatônico abaixo), D♯ (cromático abaixo) e F (diatônico acima)",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "D♯",
+      "grau": "♯2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "bpm": 0,
+    "compassos": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O ritmo decide se soa certo",
+   "texto": "A mesma nota cromática soa como erro no tempo forte e como intenção no contratempo. A regra é pousar nas notas da escala ou do acorde nos tempos e deixar a cromática passar entre elas. A escala bebop funciona exatamente assim: o B natural no C7 cai sempre no contratempo.",
+   "destaque": "Cromática no 'e', alvo no 1.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Descida em Lá menor com cromáticas (G♯, D♯, C♯) sempre no contratempo. As notas da escala caem nos tempos e o pouso é o C (♭3).",
+    "tonica": "A",
+    "bpm": 72,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "titulo": "Tempero forte",
+   "texto": "Use o cromatismo para preencher um intervalo de tom, para gastar tempos que sobram antes da troca ou para marcar a chegada de um acorde novo. Usado em excesso, deixa o solo obsessivo. E nunca termine a frase numa cromática: é exatamente aí que ela soa como engano.",
+   "destaque": "",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 53,
+   "porque": "Matteo Mancuso mostra a mesma nota cromática soando errada no tempo forte e certa como passagem no contratempo.",
+   "fonte": {
+    "id": "XL9TYmwkHWs#I27",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+    "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1831s",
+    "video": "XL9TYmwkHWs",
+    "inicio": 1831,
+    "momento": "30:33",
+    "ideia": "Nota 'errada' depende do tempo em que cai"
+   }
+  },
+  {
+   "ref": 9,
+   "porque": "Justin demonstra como um passo na escala tira você da nota tensa e leva para a nota do acorde, sem complicação.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I16",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=902s",
+    "video": "OkTBizvNWoI",
+    "inicio": 902,
+    "momento": "15:04",
+    "ideia": "Passos na escala para chegar ao acorde"
+   }
+  },
+  {
+   "ref": 40,
+   "porque": "Paul Davids toca a passagem cromática na casa 15 da corda Sol rumo à 3ª e você ouve o efeito na hora.",
+   "fonte": {
+    "id": "fwyn5tQdF4k#I13",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "Stop Thinking in Scales: why your solos sound boring",
+    "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=680s",
+    "video": "fwyn5tQdF4k",
+    "inicio": 680,
+    "momento": "11:22",
+    "ideia": "Cromatismo: nota de passagem na casa 15 da G"
+   }
+  },
+  {
+   "ref": 58,
+   "porque": "Daniel Seriff aproxima o arpejo inteiro a partir de um semitom abaixo e depois só uma nota da tríade.",
+   "fonte": {
+    "id": "MvUgoNBTNjA#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+    "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=239s",
+    "video": "MvUgoNBTNjA",
+    "inicio": 239,
+    "momento": "4:01",
+    "ideia": "Arpejo deslizando desde um semitom abaixo"
+   }
+  },
+  {
+   "ref": 80,
+   "porque": "Jens Larsen faz a cromática resolver numa tensão, D♯→E (9ª do Dm7), além das notas do acorde.",
+   "fonte": {
+    "id": "5hmSQuMIf-w#I13",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "II V I  - You Need To Practice This For Solos",
+    "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=397s",
+    "video": "5hmSQuMIf-w",
+    "inicio": 397,
+    "momento": "06:39",
+    "ideia": "Notas cromáticas que resolvem em notas de escala"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Quatro portas para o mesmo alvo",
+   "objetivo": "Ouvir a diferença entre chegar ao alvo pela vizinha diatônica, pela cromática e pelo enclosure.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Grave ou deixe em loop um acorde de C. Toque o E da corda Sol, casa 9, e deixe soar: esse é o alvo.",
+    "Porta 1: D (casa 7) → E. Chegada diatônica por baixo.",
+    "Porta 2: F (casa 10) → E. Chegada diatônica por cima, que soa como suspiro.",
+    "Porta 3: D♯ (casa 8) → E. Chegada cromática, que puxa mais.",
+    "Porta 4: F → D♯ → E. É o enclosure. Sustente o E com vibrato.",
+    "Em cada porta, a nota de chegada é mais curta e o E é mais longo."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Alvo E (3ª de C) na corda Sol, casa 9, e seus vizinhos: D (diatônico abaixo), D♯ (cromático abaixo) e F (diatônico acima)",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "D♯",
+      "grau": "♯2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "bpm": 0,
+    "compassos": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mude o alvo para G (5ª), na corda Si casa 8: F♯→G, A→G e A→F♯→G.",
+    "De olhos fechados, peça a alguém que toque uma porta e tente descobrir qual foi."
+   ],
+   "cuidado": "Dar à nota de aproximação a mesma duração do alvo. Ela é breve e o alvo é que fica.",
+   "inspirado_em": [
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I24",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Exemplo de aproximação ao G"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I23",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aproximação diatônica"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I22",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aproximação cromática"
+    },
+    {
+     "id": "OkTBizvNWoI#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=902s",
+     "video": "OkTBizvNWoI",
+     "inicio": 902,
+     "momento": "15:04",
+     "ideia": "Passos na escala para chegar ao acorde"
+    },
+    {
+     "id": "-VjHVHzWL0o#I07",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=405s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 405,
+     "momento": "06:47",
+     "ideia": "Corrigir nota ruim com um passo"
+    }
+   ]
+  },
+  {
+   "titulo": "Meio tom abaixo da 3ª em cada troca",
+   "objetivo": "Marcar cada mudança de acorde fazendo a 3ª chegar no tempo 1, vinda de meio tom abaixo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a tab de C–F–G–C devagar e diga em voz alta o alvo de cada compasso: A, B e E.",
+    "Repare que a nota cromática (G♯, B♭, D♯) fica sempre no 'e' do 4, a última colcheia antes da troca.",
+    "Toque com uma base ou um looper. No tempo 1, o alvo tem que coincidir com o acorde novo.",
+    "Depois de 4 voltas certas, mude as notas dos tempos 1 a 3 à vontade e mantenha só a regra: cromática no 'e' do 4 e 3ª no 1."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "C–F–G–C: em cada troca, a 3ª do novo acorde vem de meio tom abaixo. A cromática fica no 'e' do 4 e o alvo cai no 1.",
+    "tonica": "C",
+    "bpm": 70,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "♯5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Chegue à 3ª por cima, pela vizinha diatônica (B♭→A no F, C→B no G).",
+    "Troque o alvo pela tônica de cada acorde (B→C, E→F, F♯→G)."
+   ],
+   "cuidado": "Chegar adiantado: se a cromática cair no tempo 4 e o alvo no 'e' do 4, a 3ª entra antes do acorde e perde o efeito.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I16",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aproxime a 3ª por cromatismo"
+    },
+    {
+     "id": "1ksOozBYk8g#I04",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=98s",
+     "video": "1ksOozBYk8g",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Nota vizinha b3 resolvendo na 3ª"
+    },
+    {
+     "id": "7Pdss_Gswtc#I07",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=334s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 334,
+     "momento": "05:36",
+     "ideia": "Flertar com a terça por meio tom"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I11",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "A 3ª pode ser atingida de qualquer lado"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I22",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aproximação cromática"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I08",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Adicionar notas de passagem em camadas"
+    }
+   ]
+  },
+  {
+   "titulo": "Cromática no contratempo: a descida em Lá menor",
+   "objetivo": "Sentir na prática a regra de ritmo: notas da escala nos tempos e cromáticas entre eles.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a descida de V4 a 72 bpm em colcheias retas, com palhetada alternada.",
+    "Conte '1 e 2 e 3 e 4 e'. Toda nota cromática (G♯, D♯, C♯) cai num 'e'.",
+    "Pouse no C (♭3 do Am) e segure por um compasso inteiro.",
+    "Agora erre de propósito: comece a frase uma colcheia depois. As cromáticas vão parar nos tempos. Ouça como soa 'errado' e volte à versão certa."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Descida em Lá menor com cromáticas (G♯, D♯, C♯) sempre no contratempo. As notas da escala caem nos tempos e o pouso é o C (♭3).",
+    "tonica": "A",
+    "bpm": 72,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Faça a mesma descida a partir do E da corda Si, casa 5, preenchendo só os intervalos de tom.",
+    "Na escala maior de Sol, preencha um único intervalo de tom e deixe o resto puro."
+   ],
+   "cuidado": "Encher todos os intervalos o tempo todo. Num solo de verdade, use uma ou duas passagens por frase.",
+   "inspirado_em": [
+    {
+     "id": "XL9TYmwkHWs#I27",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1831s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1831,
+     "momento": "30:33",
+     "ideia": "Nota 'errada' depende do tempo em que cai"
+    },
+    {
+     "id": "XL9TYmwkHWs#I29",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1979s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1979,
+     "momento": "33:01",
+     "ideia": "Pousar em notas da escala e usar cromatismo como passagem"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I37",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala bebop dominante: B natural no tempo fraco"
+    },
+    {
+     "id": "FhfmneCt7jo#I22",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=893s",
+     "video": "FhfmneCt7jo",
+     "inicio": 893,
+     "momento": "14:55",
+     "ideia": "Notas cromáticas de passagem"
+    },
+    {
+     "id": "aHzmIWB0P00#I18",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=999s",
+     "video": "aHzmIWB0P00",
+     "inicio": 999,
+     "momento": "16:41",
+     "ideia": "Inserir uma nota cromática na escala maior"
+    },
+    {
+     "id": "FhfmneCt7jo#I23",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=893s",
+     "video": "FhfmneCt7jo",
+     "inicio": 893,
+     "momento": "14:55",
+     "ideia": "Cromatismo em excesso soa mal"
+    }
+   ]
+  },
+  {
+   "titulo": "Arpejo cercado: vizinhas ao redor da tríade",
+   "objetivo": "Decorar um arpejo com aproximações por meio tom, de baixo para cima e de cima para baixo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque só o arpejo de G (G, B, D e G agudo) até soar limpo.",
+    "Compasso 1: antes de cada nota, toque a casa logo abaixo no contratempo (F♯→G, A♯→B, C♯→D, F♯→G).",
+    "Segure o G agudo por um compasso inteiro, como pausa para respirar.",
+    "Compasso 3: desça com a vizinha de cima (D♯→D, C→B, G♯→G). O C é vizinho da escala, não cromático. Ouça como ele soa mais suave."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Arpejo de G com cada nota cercada pela vizinha: subindo, cromática de baixo; descendo, vizinha de cima. A vizinha fica no contratempo e a nota do acorde, no tempo.",
+    "tonica": "G",
+    "bpm": 66,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "A♯",
+          "grau": "♯2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Aproxime só a nota do meio (B) e arpeje o resto sem decoração.",
+    "Faça o mesmo sobre D e Am e depois sobre a progressão G–D–Am–C, decorando cada acorde."
+   ],
+   "cuidado": "Deixar a vizinha soar junto com o alvo. Levante o dedo da vizinha assim que tocar a nota do acorde.",
+   "inspirado_em": [
+    {
+     "id": "MvUgoNBTNjA#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=239s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 239,
+     "momento": "4:01",
+     "ideia": "Arpejo deslizando desde um semitom abaixo"
+    },
+    {
+     "id": "MvUgoNBTNjA#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=277s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 277,
+     "momento": "4:39",
+     "ideia": "Aproximação do arpejo a partir de dois semitons abaixo"
+    },
+    {
+     "id": "MvUgoNBTNjA#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=315s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 315,
+     "momento": "5:17",
+     "ideia": "Uma nota da tríade um semitom abaixo, depois o resto do arpejo"
+    },
+    {
+     "id": "MvUgoNBTNjA#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=349s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 349,
+     "momento": "5:51",
+     "ideia": "A nota decorada não precisa ser a mais grave ou a mais aguda"
+    },
+    {
+     "id": "1ksOozBYk8g#I09",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "How To SOLO Over 7th Chords!",
+     "url": "https://www.youtube.com/watch?v=1ksOozBYk8g&t=274s",
+     "video": "1ksOozBYk8g",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Notas vizinhas por semitom antes de cada nota inicial"
+    },
+    {
+     "id": "MvUgoNBTNjA#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=610s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 610,
+     "momento": "10:12",
+     "ideia": "Decorar com notas da escala maior acima ou abaixo"
+    },
+    {
+     "id": "MvUgoNBTNjA#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=782s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 782,
+     "momento": "13:04",
+     "ideia": "Decorar cada acorde da progressão com notas da escala ao redor"
+    }
+   ]
+  },
+  {
+   "titulo": "Enclosure no V7→I",
+   "objetivo": "Cercar a nota-alvo com uma nota acima e outra abaixo, resolvendo no tempo 1 do acorde novo.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque V3 lentamente e diga o nome de cada nota que forma o cerco: F–D♯→E e depois G♯–F♯→G.",
+    "Ritmo fixo: nota de cima no tempo 4, nota de baixo no 'e' do 4 e alvo no 1.",
+    "Observe que o F é ♭7 do G7 e o F♯ é a sensível. O cerco já carrega a resolução do V para o I.",
+    "Em loop G7–C, improvise livremente nos tempos 1 a 3 e feche cada G7 com um enclosure. Alterne os alvos: 3ª, 5ª e tônica de C (B–C♯... não: D–B→C)."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Enclosure G7→C: no tempo 4 a nota de cima, no 'e' do 4 a de baixo, no 1 o alvo. Primeiro o alvo é E (3ª), depois G (5ª).",
+    "tonica": "C",
+    "bpm": 66,
+    "marcas": [],
+    "acordes": [],
+    "compassos": [
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   },
+   "variacoes": [
+    "Cerque com duas cromáticas (F–D♯→E) e depois com diatônica em cima e cromática embaixo (F–D♯ continua valendo; para G, A–F♯→G).",
+    "Resolva o cerco numa tensão: sobre Dm7, F–D♯→E (9ª) e depois desça para o D."
+   ],
+   "cuidado": "Deixar o alvo cair no 'e' do 1 porque o cerco atrasou. Se faltar tempo, comece o enclosure mais cedo e não empurre o alvo para depois.",
+   "inspirado_em": [
+    {
+     "id": "en--jazz_improvisation-59a777#I22",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Enclosure"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I25",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar duas notas antes do alvo"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I02",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mirar notas do acorde com notas de aproximação"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I03",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Enclosure em 3 passos para a 3ª do acorde"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I06",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ritmo do enclosure: começar no tempo 4"
+    },
+    {
+     "id": "5hmSQuMIf-w#I13",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=397s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 397,
+     "momento": "06:39",
+     "ideia": "Notas cromáticas que resolvem em notas de escala"
+    }
+   ]
+  },
+  {
+   "titulo": "Enclosure em cada troca do blues em Dó",
+   "objetivo": "Aplicar o enclosure à 3ª num blues de 12 compassos com dominantes extras.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Use uma base de blues em Dó: C7 | F7 | C7 | C7 | F7 | F7 | C7 | A7 | D7 | G7 | C7 | G7.",
+    "Marque no braço as 3ªs: E (C7), A (F7), B (G7), C♯ (A7) e F♯ (D7), todas entre as casas 4 e 7.",
+    "A cada troca de acorde, faça o cerco: meio tom acima no tempo 4, meio tom abaixo no 'e' do 4 e a 3ª no tempo 1, sustentada por três tempos.",
+    "Nos compassos sem troca (3–4 e 5–6), não faça cerco. Use a pausa ou uma frase simples.",
+    "Na segunda volta, troque metade dos enclosures por aproximações de um só passo, para variar."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Blues jazzístico em Dó: as 3ªs de C7 (E), F7 (A), G7 (B), A7 (C♯) e D7 (F♯) entre as casas 4 e 7. São os alvos dos enclosures. Os graus mostrados são em relação a Dó (tônica do blues); cada nota é a 3ª do seu acorde.",
+    "tonica": "C",
+    "bpm": 0,
+    "compassos": [],
+    "acordes": [],
+    "marcas": [
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "C♯",
+      "grau": "♭2",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "#4",
+      "alvo": true
+     }
+    ]
+   },
+   "variacoes": [
+    "Mire a ♭7 de cada acorde em vez da 3ª (B♭, E♭, F, G, C).",
+    "Faça o cerco começar no 'e' do 3, com três notas antes do alvo: escala acima, cromática acima e cromática abaixo."
+   ],
+   "cuidado": "Se perder na forma por estar pensando nas notas. Antes, toque só os alvos no tempo 1 até a forma ficar automática.",
+   "inspirado_em": [
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I03",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Enclosure em 3 passos para a 3ª do acorde"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I06",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ritmo do enclosure: começar no tempo 4"
+    },
+    {
+     "id": "jazzguitartoday--how-to-approach-note-soloing-part-1-f4e66d#I05",
+     "tipo": "documento",
+     "autor": "Richard Burgess",
+     "titulo": "How To Approach Note Soloing, Part 1",
+     "url": "https://jazzguitartoday.com/2023/12/how-to-approach-note-soloing-part-1/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aplicar o enclosure num blues dominante em Dó"
+    },
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I16",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aproxime a 3ª por cromatismo"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I11",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "A 3ª pode ser atingida de qualquer lado"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Terminar a frase na nota cromática: a nota de passagem não serve de pouso.",
+  "Colocar a cromática no tempo forte e o alvo no contratempo, o que inverte a tensão e soa como engano.",
+  "Usar cromatismo em todo intervalo, o que deixa o solo obsessivo, parecendo exercício de escala.",
+  "Ficar muito tempo na nota de aproximação. Ela deve ser rápida e resolver logo.",
+  "Cromatismo sem alvo definido: o que faz qualquer nota soar intencional é saber onde ela vai cair.",
+  "Confundir aproximação com destino e sustentar ou dar vibrato na vizinha, em vez de fazer isso no alvo."
+ ],
+ "resumo": [
+  "Nota de passagem é caminho: pode tocar qualquer uma, só não pare nela.",
+  "Um passo, seja grau ou meio tom, quase sempre leva de uma nota tensa a uma nota do acorde.",
+  "Diatônica soa suave, cromática puxa e o enclosure (acima–abaixo–alvo) cerca o alvo.",
+  "Cromática no contratempo, alvo no tempo forte, de preferência no 1 da troca.",
+  "A 3ª é o alvo mais forte, e ♭3→3 é a aproximação clássica."
+ ],
+ "proximos_passos": "Leve as aproximações para \"Pensar à frente: linhas que levam ao próximo acorde\" e conecte os alvos com \"Guide tones e condução de vozes\". Depois, aprofunde a linguagem cromática em \"Vocabulário de jazz: bebop, dominantes e tensões\" e em \"Tensão, dissonância e notas fora\".",
+ "_meta": {
+  "subcategoria": "C09.5",
+  "modulo": {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes"
+  },
+  "nome": "Aproximação cromática, enclosures e notas de passagem",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:56:02",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 35279,
+   "cache_read": 0,
+   "output": 15243,
+   "thinking": 5866,
+   "turns": 4,
+   "custo_nominal": 0.608542
+  }
+ }
+}
