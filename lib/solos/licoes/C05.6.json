@@ -1,0 +1,2615 @@
+{
+ "titulo": "Palhetada, velocidade e mecânica das mãos",
+ "gancho": "Os guitarristas rápidos não fazem mais força que você. Eles desperdiçam menos movimento.",
+ "porque_importa": "Uma frase bonita não chega ao ouvinte se a mão trava, a nota trasteja ou a palheta erra a corda. Quando a mecânica fica limpa e econômica, as duas mãos param de ocupar sua atenção e ela volta para a música. Isso também protege pulso e dedos para você tocar por décadas.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Velocidade é efeito colateral",
+   "texto": "Você não treina velocidade diretamente. Ligar o metrônomo a 160 e obrigar a mão a acompanhar só ensaia a tensão. A velocidade aparece sozinha quando cada movimento fica curto, relaxado e repetível. Por isso o bom guitarrista rápido parece estar quase parado.",
+   "destaque": "Controle primeiro. A velocidade vem como consequência.",
+   "visual": null
+  },
+  {
+   "titulo": "Mão da palheta: curta, alternada e apoiada",
+   "texto": "A palhetada alternada (↓↑↓↑) é a base: cada golpe já prepara o seguinte. O movimento deve ser pequeno e parelho, sem bater na corda. Depois de um golpe, deixe a palheta descansar na corda seguinte (rest stroke) em vez de flutuar no ar, porque assim ela já fica no lugar certo. No sweep acontece o mesmo: um único gesto contínuo atravessa as cordas na mesma direção. Mantenha o mesmo ângulo de punho e o mesmo apoio na ponte nos dois modos.",
+   "destaque": "Palheta flutuando é movimento desperdiçado.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Uma nota por corda em palhetada alternada estrita (↓↑↓↑…). Depois de cada golpe para baixo, a palheta descansa na corda seguinte. Role o indicador entre as cordas Si e Mi e o anelar entre Ré e Lá.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Mão dos trastes: um dedo por casa e pressão mínima",
+   "texto": "Cada dedo fica responsável por uma casa e permanece sobre ela mesmo quando não está tocando. Os dedos ficam perto das cordas e só se levantam o suficiente para soltar a nota. Aperte apenas o necessário para a nota soar sem trastejar: força a mais desafina, mata o sustain e cansa a mão. Quando duas notas seguidas caem na mesma casa em cordas vizinhas, role a ponta do dedo em vez de fazer pestana, para que não soem juntas.",
+   "destaque": "Aperte só o suficiente para a nota soar limpa.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5: um dedo por casa (indicador na 5, médio na 6, anelar na 7, mínimo na 8). As tônicas (Lá) estão marcadas.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O metrônomo como lupa",
+   "texto": "Comece num andamento em que você observa a própria mão e vê movimentos limpos. Existem duas escolas. Guto Gabrelon sobe de 3 em 3 BPM, e só quando o controle está estável. Tim Pierce aprende devagar e salta para perto de 90% do andamento-alvo, aceitando alguns erros, porque a mecânica muda em velocidade alta. As duas funcionam se você voltar com frequência ao andamento lento para conferir a eficiência. Meça o progresso com um número: o BPM máximo em que você toca limpo.",
+   "destaque": "Se o movimento está descontrolado, subir o BPM só piora.",
+   "visual": null
+  },
+  {
+   "titulo": "Corpo: pulso reto e polegar atrás",
+   "texto": "Deixe o pulso relativamente reto em qualquer região do braço. O polegar fica atrás do braço, mais ou menos na altura do dedo médio, com espaço entre a palma e o braço. Com os dedos em ângulo reto em relação às cordas, o alcance aumenta. Articulações dos dedos que cedem e dor no pulso são sinais para parar e reduzir a pressão, nunca para insistir.",
+   "destaque": "Dor não é progresso. É aviso.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 80,
+   "porque": "O BERNTH mostra de perto a palheta apoiando na corda seguinte após cada golpe e compara com a palheta flutuando.",
+   "fonte": {
+    "id": "36xG0NIDd7E#I26",
+    "tipo": "video",
+    "autor": "BERNTH Guitar Academy",
+    "titulo": "Everything You Need to Learn on Guitar (In Order)",
+    "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=2133s",
+    "video": "36xG0NIDd7E",
+    "inicio": 2133,
+    "momento": "35:35",
+    "ideia": "Apoiar a palheta na corda seguinte após cada golpe"
+   }
+  },
+  {
+   "ref": 59,
+   "porque": "Daniel Seriff toca o aquecimento de 6 minutos com os 12 pares de dedos sobre bateria.",
+   "fonte": {
+    "id": "J-vMFMHwpkQ#I04",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+    "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=135s",
+    "video": "J-vMFMHwpkQ",
+    "inicio": 135,
+    "momento": "02:17",
+    "ideia": "Aquecimento diário de 6 minutos com 12 padrões"
+   }
+  },
+  {
+   "ref": 34,
+   "porque": "Demonstração do light touch: a pressão aumenta aos poucos até o trastejo sumir e depois alivia.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I11",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=429s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 429,
+    "momento": "7:11",
+    "ideia": "Light touch: achar o ponto mínimo de pressão"
+   }
+  },
+  {
+   "ref": 95,
+   "porque": "O exercício 4×, 2×, 1× na pentatônica em palhetada alternada, com volume parelho.",
+   "fonte": {
+    "id": "Qk8rk-uaBzU#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+    "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=238s",
+    "video": "Qk8rk-uaBzU",
+    "inicio": 238,
+    "momento": "04:00",
+    "ideia": "Colcheias com palhetada alternada"
+   }
+  },
+  {
+   "ref": 74,
+   "porque": "Guto Gabrelon explica por que subir de 3 em 3 BPM preserva o controle conquistado.",
+   "fonte": {
+    "id": "ghU-p7QAoRQ#I13",
+    "tipo": "video",
+    "autor": "Guto Gabrelon",
+    "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+    "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=436s",
+    "video": "ghU-p7QAoRQ",
+    "inicio": 436,
+    "momento": "07:18",
+    "ideia": "Subir o metrônomo de 3 em 3 BPM"
+   }
+  },
+  {
+   "ref": 37,
+   "porque": "A palhetada no ar com a forma já pressionada, para integrar as mãos antes de tocar.",
+   "fonte": {
+    "id": "7SNcy_GprQU#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+    "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=503s",
+    "video": "7SNcy_GprQU",
+    "inicio": 503,
+    "momento": "8:25",
+    "ideia": "Palhetada no ar com a mão de trastes"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Aquecimento de pares de dedos",
+   "objetivo": "Treinar as trocas de dois dedos que aparecem de fato nos solos (quase tudo na pentatônica), com palhetada alternada e dedos perto das cordas.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Coloque uma bateria reta ou um metrônomo a 80 BPM e toque V2 em colcheias, palhetada ↓↑ o tempo todo.",
+    "Depois faça os 12 pares por 30 s cada: 1-2, 1-3, 1-4, 2-3, 2-4, 3-4 e os invertidos 2-1, 3-1, 4-1, 3-2, 4-2, 4-3.",
+    "Durante os 30 s, troque de corda e de posição livremente, em vez de subir o braço em linha reta.",
+    "Observe os dedos parados: eles precisam ficar pairando sobre as próprias casas, a poucos milímetros da corda.",
+    "No fim, anote o BPM em que tudo saiu limpo hoje."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Pares de dedos em palhetada alternada: dedos 1-3 na corda Sol, 1-4 na Si e 1-4 na Mi aguda. Os dedos que não tocam ficam pairando sobre suas casas.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque em tercinas e depois em semicolcheias.",
+    "Num dia bom, suba o BPM até ficar desafiador. Num dia cansado, fique numa corda só."
+   ],
+   "cuidado": "O dedo mínimo costuma voar longe da corda quando o indicador toca. Mantenha-o baixo.",
+   "inspirado_em": [
+    {
+     "id": "J-vMFMHwpkQ#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=37s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Padrões digitais de 4 dedos são pouco úteis"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=135s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 135,
+     "momento": "02:17",
+     "ideia": "Trocar permutações de 4 dedos por combinações de 2 dedos"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=135s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 135,
+     "momento": "02:17",
+     "ideia": "Aquecimento diário de 6 minutos com 12 padrões"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=205s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 205,
+     "momento": "03:27",
+     "ideia": "Não vá reto pelo braço: improvise o padrão"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=240s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 240,
+     "momento": "04:02",
+     "ideia": "Praticar os padrões sobre bateria a 90 BPM"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=274s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Adapte a dificuldade ao dia"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I06",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=232s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 232,
+     "momento": "03:54",
+     "ideia": "Cada dedo pertence à sua casa"
+    },
+    {
+     "id": "36xG0NIDd7E#I02",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=128s",
+     "video": "36xG0NIDd7E",
+     "inicio": 128,
+     "momento": "02:10",
+     "ideia": "Mantenha os dedos da mão esquerda próximos ao braço"
+    }
+   ]
+  },
+  {
+   "titulo": "Separar as mãos e achar a pressão mínima",
+   "objetivo": "Montar a frase em partes (mão esquerda, mão direita, as duas) e tocar com a menor pressão que ainda soa limpa.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Pressão mínima: na corda Sol, casa 5 (Dó), com o indicador, encoste o dedo só até abafar a corda. Palhete a cada meio segundo e aumente a pressão aos poucos até o trastejo sumir. Depois alivie um pouco e guarde essa sensação. Repita com os outros três dedos.",
+    "Pegue a frase de V5. Só com a mão esquerda, sem palhetar, faça as trocas de dedo até saírem sem hesitar.",
+    "Abafe as cordas com a mão esquerda e toque só a palhetada da frase (↓↑↓↑↓↑↓).",
+    "Mantenha a primeira nota pressionada e faça a palhetada no ar, sem tocar as cordas, de 3 a 5 vezes seguidas sem erro.",
+    "Junte as mãos devagar, usando a pressão mínima que você encontrou no primeiro passo."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Rajada: sete notas rápidas descendo a caixa, pouso no Lá e um compasso inteiro de silêncio para a mão soltar. Palhetada: ↓↑↓↑↓↑↓.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o teste de pressão também nas casas 12 e 15 e compare a força necessária em cada uma.",
+    "Aplique as quatro etapas a um trecho de solo que esteja travando você."
+   ],
+   "cuidado": "Na hora de juntar as mãos, a força costuma voltar. Se a nota desafinar ou o pulso doer, você está apertando demais.",
+   "inspirado_em": [
+    {
+     "id": "BQTrA3hpqkM#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=429s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 429,
+     "momento": "7:11",
+     "ideia": "Light touch: achar o ponto mínimo de pressão"
+    },
+    {
+     "id": "BQTrA3hpqkM#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=408s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 408,
+     "momento": "6:50",
+     "ideia": "Pressionar as cordas com força excessiva"
+    },
+    {
+     "id": "7SNcy_GprQU#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=433s",
+     "video": "7SNcy_GprQU",
+     "inicio": 433,
+     "momento": "7:15",
+     "ideia": "Treino de mão esquerda isolada"
+    },
+    {
+     "id": "7SNcy_GprQU#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to get SO GOOD at guitar it feels ILLEGAL (Using Neuroscience)",
+     "url": "https://www.youtube.com/watch?v=7SNcy_GprQU&t=503s",
+     "video": "7SNcy_GprQU",
+     "inicio": 503,
+     "momento": "8:25",
+     "ideia": "Palhetada no ar com a mão de trastes"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I06",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=232s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 232,
+     "momento": "03:54",
+     "ideia": "Cada dedo pertence à sua casa"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma nota por corda, palheta apoiada",
+   "objetivo": "Manter a alternância ↓↑ estrita mesmo trocando de corda a cada golpe, usando o rest stroke e rolando o dedo.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque V3 a 70 BPM em palhetada estritamente alternada: o primeiro Lá é ↓, o Mi é ↑, e assim por diante.",
+    "Em cada golpe para baixo que sobe de corda, deixe a palheta parar encostada na corda seguinte.",
+    "Entre as cordas Si e Mi (casa 5), role o indicador da ponta para a polpa, sem pestana. Entre Ré e Lá (casa 7), faça o mesmo com o anelar.",
+    "Confira de ouvido: cada nota precisa parar quando a próxima começa, sem soar como acorde.",
+    "Suba 3 BPM só depois de duas passadas seguidas limpas."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Uma nota por corda em palhetada alternada estrita (↓↑↓↑…). Depois de cada golpe para baixo, a palheta descansa na corda seguinte. Role o indicador entre as cordas Si e Mi e o anelar entre Ré e Lá.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece com ↑ em vez de ↓ e veja qual das travessias fica mais difícil.",
+    "Faça o mesmo percurso com a escala de Mi menor na casa 12."
+   ],
+   "cuidado": "Duas palhetadas na mesma direção para facilitar a troca de corda quebram a alternância.",
+   "inspirado_em": [
+    {
+     "id": "ruwSeYsJtgI#I06",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "These 3 Exercises Will TRANSFORM Your PLAYING",
+     "url": "https://www.youtube.com/watch?v=ruwSeYsJtgI&t=260s",
+     "video": "ruwSeYsJtgI",
+     "inicio": 260,
+     "momento": "04:22",
+     "ideia": "Palhetada alternada estrita em todas as notas"
+    },
+    {
+     "id": "36xG0NIDd7E#I01",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=94s",
+     "video": "36xG0NIDd7E",
+     "inicio": 94,
+     "momento": "01:36",
+     "ideia": "Alternate picking trocando de corda a cada golpe"
+    },
+    {
+     "id": "36xG0NIDd7E#I26",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=2133s",
+     "video": "36xG0NIDd7E",
+     "inicio": 2133,
+     "momento": "35:35",
+     "ideia": "Apoiar a palheta na corda seguinte após cada golpe"
+    },
+    {
+     "id": "36xG0NIDd7E#I27",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=2273s",
+     "video": "36xG0NIDd7E",
+     "inicio": 2273,
+     "momento": "37:55",
+     "ideia": "Apoio da palheta traz velocidade, controle e consistência"
+    },
+    {
+     "id": "UG_P4KNw0XM#I08",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=245s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 245,
+     "momento": "04:07",
+     "ideia": "Role o dedo em vez de fazer pestana"
+    },
+    {
+     "id": "36xG0NIDd7E#I25",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=2101s",
+     "video": "36xG0NIDd7E",
+     "inicio": 2101,
+     "momento": "35:03",
+     "ideia": "Palheta flutuando entre as cordas"
+    }
+   ]
+  },
+  {
+   "titulo": "4×, 2×, 1×: a escada da mão direita",
+   "objetivo": "Manter volume e tempo iguais enquanto as trocas de corda ficam mais frequentes.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque V4 a 70 BPM, em colcheias e palhetada alternada, contando '1 e 2 e'.",
+    "No compasso 1, cada nota soa 4×. No 2, cada nota soa 2×. No 3, cada nota soa 1× e você pousa no Lá agudo.",
+    "Mantenha o volume parelho: nenhuma nota pode sair mais forte só porque coincidiu com uma troca de corda.",
+    "Desça de volta pela caixa com a mesma lógica.",
+    "Quando ficar fácil, passe para semicolcheias ('1 e a 2 e a') à metade do BPM e depois suba aos poucos."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Cada nota 4×, depois 2×, depois 1×, sempre em colcheias e palhetada alternada. O ritmo não muda. O que fica mais difícil é a troca de corda.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a mesma escada na pentatônica de Mi menor, casa 12.",
+    "Toque só com palhetadas para baixo numa base lenta e depois repita em alternada."
+   ],
+   "cuidado": "Na versão 1× a mão costuma correr e chegar antes do clique. O ritmo continua sendo colcheias.",
+   "inspirado_em": [
+    {
+     "id": "Qk8rk-uaBzU#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=450s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 450,
+     "momento": "07:32",
+     "ideia": "Semicolcheias com contagem 1 e 2 e 3 e 4 e"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=486s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 486,
+     "momento": "08:08",
+     "ideia": "Cuidar da palhetada (mão de palheta) nas semicolcheias"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=238s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 238,
+     "momento": "04:00",
+     "ideia": "Colcheias com palhetada alternada"
+    },
+    {
+     "id": "xKbtQM-qzSM#I03",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=106s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 106,
+     "momento": "01:48",
+     "ideia": "Tocar a escala no andamento da backing track"
+    }
+   ]
+  },
+  {
+   "titulo": "Rajadas com silêncio",
+   "objetivo": "Ganhar velocidade em explosões curtas, alternando tensão e relaxamento, sem tocar rápido por muito tempo seguido.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque V5 a 70 BPM: sete notas, pouso no Lá da corda Ré e um compasso inteiro com as mãos soltas.",
+    "No compasso de silêncio, solte de propósito ombro, pulso e polegar.",
+    "Método A (Gabrelon): suba de 3 em 3 BPM, só quando estiver limpo.",
+    "Método B (Pierce): depois de dominar a frase devagar, pule direto para cerca de 90% do seu BPM-alvo e aceite alguns erros.",
+    "A cada cinco rajadas, toque uma bem lenta e observe se a palhetada continua curta."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Rajada: sete notas rápidas descendo a caixa, pouso no Lá e um compasso inteiro de silêncio para a mão soltar. Palhetada: ↓↑↓↑↓↑↓.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Dobre a rajada para semicolcheias mantendo o mesmo BPM.",
+    "Leve a rajada para a casa 12 (Mi menor) e repare que as casas menores facilitam."
+   ],
+   "cuidado": "Encurtar o silêncio para repetir mais vezes. A pausa é a hora em que a mão aprende a soltar.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I25",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1452s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1452,
+     "momento": "24:14",
+     "ideia": "Estudar devagar e depois tocar perto da velocidade-alvo"
+    },
+    {
+     "id": "SYE8tDSLU0k#I26",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1520s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1520,
+     "momento": "25:22",
+     "ideia": "Coragem para tocar rápido"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I11",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=371s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 371,
+     "momento": "06:13",
+     "ideia": "Esperar o sinal de controle para subir a velocidade"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I12",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=404s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 404,
+     "momento": "06:46",
+     "ideia": "Dar saltos grandes de BPM"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I13",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=436s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 436,
+     "momento": "07:18",
+     "ideia": "Subir o metrônomo de 3 em 3 BPM"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I04",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=132s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Observar o movimento da mão durante o treino"
+    },
+    {
+     "id": "566LrQfcqgE#I08",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=260s",
+     "video": "566LrQfcqgE",
+     "inicio": 260,
+     "momento": "04:22",
+     "ideia": "Analisar movimentos em velocidade baixa"
+    },
+    {
+     "id": "4iqtipKAu8M#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Creating the ultimate practice routine for guitar. How to practice: EP498",
+     "url": "https://www.youtube.com/watch?v=4iqtipKAu8M&t=230s",
+     "video": "4iqtipKAu8M",
+     "inicio": 230,
+     "momento": "03:52",
+     "ideia": "Meta mensurável: tocar 16avos a 130 BPM"
+    }
+   ]
+  },
+  {
+   "titulo": "Sweep curto de três cordas",
+   "objetivo": "Fazer cada sentido do sweep num único gesto contínuo, com a palheta apoiada e as notas separadas.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Monte a forma de Am na casa 12: anelar na 14 da corda Sol, médio na 13 da Si e indicador na 12 da Mi.",
+    "A 60 BPM, suba com ↓↓↓ num só empurrão: a palheta para em cada corda seguinte como num degrau. Desça com ↑↑.",
+    "Levante cada dedo logo depois que a nota soar, para as notas não se misturarem. Elas devem soar como arpejo, não como acorde.",
+    "No Em (casa 7), mantenha o mesmo ângulo de punho e o mesmo apoio na ponte.",
+    "Alterne: um compasso em sweep e o seguinte com as mesmas notas em alternada estrita, até as duas formas soarem iguais."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Sweep curto em tríades menores de três cordas: sobe com ↓↓↓ e desce com ↑↑, com a palheta apoiada na corda seguinte. Am na casa 12, Em na casa 7. Dedos: anelar, médio, indicador.",
+    "tonica": "A",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente o Lá agudo (corda Mi, casa 17) com hammer-on a partir do Mi, casa 12.",
+    "Toque com distorção, onde a falta de separação entre as notas aparece muito mais."
+   ],
+   "cuidado": "Transformar o sweep num strum. Se as notas soam juntas, você está levantando os dedos tarde ou passando a palheta rápido demais.",
+   "inspirado_em": [
+    {
+     "id": "36xG0NIDd7E#I04",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=225s",
+     "video": "36xG0NIDd7E",
+     "inicio": 225,
+     "momento": "03:47",
+     "ideia": "Mesmo ângulo de punho para alternate e sweep"
+    },
+    {
+     "id": "36xG0NIDd7E#I03",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=161s",
+     "video": "36xG0NIDd7E",
+     "inicio": 161,
+     "momento": "02:43",
+     "ideia": "Trocar de alternate para sweep na segunda metade"
+    },
+    {
+     "id": "36xG0NIDd7E#I28",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=2310s",
+     "video": "36xG0NIDd7E",
+     "inicio": 2310,
+     "momento": "38:32",
+     "ideia": "Arpejo de formato maior com sétima: subida em downstrokes e descida em upstrokes"
+    },
+    {
+     "id": "36xG0NIDd7E#I09",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=690s",
+     "video": "36xG0NIDd7E",
+     "inicio": 690,
+     "momento": "11:32",
+     "ideia": "Escape de palheta após downstroke e dois upstrokes em sweep"
+    },
+    {
+     "id": "jeJEMmEIVqk#I08",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "🎸Adicione ARPEJOS aos seus solos com esse truque simples - Como fazer arpejos no violão",
+     "url": "https://www.youtube.com/watch?v=jeJEMmEIVqk&t=200s",
+     "video": "jeJEMmEIVqk",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Notas do arpejo soando como acorde"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ligar o metrônomo rápido e forçar a mão a acompanhar, o que treina tensão em vez de controle.",
+  "Palhetada larga e pesada que bate na corda e trasteja.",
+  "Quebrar a alternância nas trocas de corda (↓↓ ou ↑↑ sem querer).",
+  "Deixar a palheta flutuar entre as cordas em vez de apoiá-la na corda seguinte.",
+  "Dedos da mão esquerda voando longe das cordas, principalmente o mínimo.",
+  "Apertar a corda com força demais: a nota desafina, perde sustain e a mão cansa.",
+  "Fazer pestana com o indicador em notas vizinhas, que acabam soando como acorde.",
+  "Pulso dobrado e polegar por cima do braço em passagens rápidas.",
+  "Subir o BPM em saltos grandes sem voltar ao andamento lento para conferir."
+ ],
+ "resumo": [
+  "Velocidade é consequência de movimentos curtos, relaxados e repetíveis.",
+  "Use palhetada alternada estrita e apoie a palheta na corda seguinte depois de cada golpe.",
+  "Um dedo por casa, dedos perto das cordas e só a pressão necessária para a nota soar limpa.",
+  "Use o metrônomo como lupa: suba aos poucos ou salte para 90%, mas sempre volte ao lento para conferir.",
+  "Pulso reto, polegar atrás do braço. Se doer, pare."
+ ],
+ "proximos_passos": "Com a mecânica limpa, leve o mesmo cuidado com o som para \"Dinâmica de toque, ataque e timbre\". Para usar as passagens rápidas com sentido musical, siga para \"Sequências, intervalos e padrões melódicos\" e \"Arpejos: conceito e formas básicas\". Para organizar a escalada de BPM ao longo das semanas, veja \"Rotina, planejamento e prática deliberada\".",
+ "_meta": {
+  "subcategoria": "C05.6",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Palhetada, velocidade e mecânica das mãos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:02:24",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 31302,
+   "cache_read": 4913,
+   "output": 17038,
+   "thinking": 5534,
+   "turns": 2,
+   "custo_nominal": 0.6168086000000002
+  }
+ }
+}

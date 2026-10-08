@@ -1,0 +1,1866 @@
+{
+ "titulo": "Dinâmica de toque, ataque e timbre",
+ "gancho": "As mesmas cinco notas podem sussurrar ou gritar. Quem decide é a sua mão, não a escala.",
+ "porque_importa": "O ouvinte percebe o som da nota antes de perceber qual nota é. Tocar com volume, ataque e cor variados é o que separa um solo que fala de um solo que parece MIDI tocado pelo computador. E quase tudo isso sai das mãos, não da pedaleira.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "O som vem antes da nota",
+   "texto": "Dê a mesma frase a três guitarristas e você ouve três músicas diferentes. A diferença está em como cada nota começa (ataque), em quão alto ela soa (dinâmica) e na cor que ela tem (timbre). Uma frase de quatro notas bem tocada vale mais que uma escala inteira tocada no mesmo volume.",
+   "destaque": "Como você toca pesa tanto quanto o que você toca.",
+   "visual": null
+  },
+  {
+   "titulo": "O timbre nasce na mão",
+   "texto": "Apertar a corda com força demais desafina a nota e corta o sustain. Bater na corda com a palheta faz ela trastejar e vibrar de forma caótica. Use firmeza sem esmagar: na mão esquerda, só a pressão necessária para a nota soar limpa. Na palhetada, a palheta passa pela corda, não bate nela. Ataque forte existe e funciona (pense em Stevie Ray Vaughan), mas é uma escolha. Não pode ser o seu único jeito de tocar.",
+   "destaque": "Força é tempero; leveza é a base.",
+   "visual": null
+  },
+  {
+   "titulo": "Dinâmica é a pontuação da frase",
+   "texto": "Na fala, algumas sílabas são mais fortes que outras. Na guitarra também. Toque a maior parte da frase leve e ataque forte só uma ou duas notas: elas viram a ênfase da frase, quase sempre os pontos de chegada. Outro recurso é tocar quase sussurrando antes de uma frase forte. O contraste é o que o ouvido sente. Ligados também ajudam: o legato suave tem mais faixa dinâmica que a palhetada, mas ainda precisa de acentos para não escorregar.",
+   "destaque": "Tudo no mesmo volume = solo robótico.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-laboratório em Lá menor (pentatônica, casa 5). Toque tudo leve e ataque forte só as notas com anel. Depois mude quais notas levam o anel.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Cor: captador, knob, registro e dedos",
+   "texto": "O captador do braço soa quente e redondo; o da ponte, brilhante e agressivo; o do meio fica entre os dois. Trocar de captador entre frases, ou passar para um mais brilhante na segunda metade do solo, dá direção ao solo. Baixar um pouco o tone da ponte tira o chiado áspero. O knob de volume da guitarra também é ferramenta de expressão: Peter Green abaixava o volume no meio do solo. Atacar algumas notas com o dedo em vez da palheta muda o timbre na hora. E escolha a região: nas cordas graves, o solo se mistura com o baixo e some. Do meio do braço para cima, ele corta a mistura.",
+   "destaque": "Você tem uma paleta de timbres antes de ligar qualquer pedal.",
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Zona que corta a mistura: cordas Sol, Si e Mi aguda na pentatônica de Lá menor (casa 5). Lá fica acima do baixo e da base.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Efeitos: tempero, não esconderijo",
+   "texto": "Overdrive, delay e reverb encorpam o som e deixam o estudo mais gostoso, e isso tem valor. Em excesso, porém, escondem bends desafinados, vibrato irregular e notas desconectadas. A ligação entre as notas tem que vir das suas mãos, não da cauda do delay. Pratique com o sinal limpo e depois volte com os efeitos em doses pequenas. No nível avançado, entram EQ (médios na frente, graves cortados), compressão e reverb na mixagem. Ao copiar o timbre de alguém, persiga o clima do som, não o número de série do pedal.",
+   "destaque": "Se só soa bom com delay, ainda não soa bom.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 17,
+   "porque": "Uma frase de blues tocada variando o volume da palheta, em comparação direta com a versão no mesmo volume.",
+   "fonte": {
+    "id": "7Pdss_Gswtc#I21",
+    "tipo": "video",
+    "autor": "Soulful Guitar Lessons",
+    "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+    "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1057s",
+    "video": "7Pdss_Gswtc",
+    "inicio": 1057,
+    "momento": "17:39",
+    "ideia": "Variar o volume da palheta"
+   }
+  },
+  {
+   "ref": 23,
+   "porque": "Tim Pierce demonstra o método Gilmour: frase leve com poucas notas atacadas com força, criando sensação de conversa.",
+   "fonte": {
+    "id": "SYE8tDSLU0k#I17",
+    "tipo": "video",
+    "autor": "Tim Pierce Guitar",
+    "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+    "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1088s",
+    "video": "SYE8tDSLU0k",
+    "inicio": 1088,
+    "momento": "18:10",
+    "ideia": "Pontuar com notas fortes e fracas"
+   }
+  },
+  {
+   "ref": 8,
+   "porque": "Daniel Seriff mostra a diferença entre bater na corda e passar a palheta por ela, e como isso muda o som.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I12",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=530s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 530,
+    "momento": "8:52",
+    "ideia": "Palhetar com leveza para não bater na corda"
+   }
+  },
+  {
+   "ref": 45,
+   "porque": "Troca de captador entre frases num blues para quebrar a monotonia, com o antes e depois audível.",
+   "fonte": {
+    "id": "7Pdss_Gswtc#I23",
+    "tipo": "video",
+    "autor": "Soulful Guitar Lessons",
+    "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+    "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1135s",
+    "video": "7Pdss_Gswtc",
+    "inicio": 1135,
+    "momento": "18:57",
+    "ideia": "Trocar de captador entre frases"
+   }
+  },
+  {
+   "ref": 52,
+   "porque": "Seriff desliga o delay no meio da frase e expõe o que ele escondia: vibrato e afinação dos bends.",
+   "fonte": {
+    "id": "3dW_GQsC5Ak#I32",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+    "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=1240s",
+    "video": "3dW_GQsC5Ak",
+    "inicio": 1240,
+    "momento": "20:42",
+    "ideia": "Desligar o delay para ouvir vibrato e bends"
+   }
+  },
+  {
+   "ref": 62,
+   "porque": "That Pedal Show explica como recriar o timbre de Gilmour pelo clima geral do som, e não pela cópia exata do equipamento.",
+   "fonte": {
+    "id": "6aJqjgu5LwM#I16",
+    "tipo": "video",
+    "autor": "That Pedal Show",
+    "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+    "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=801s",
+    "video": "6aJqjgu5LwM",
+    "inicio": 801,
+    "momento": "13:23",
+    "ideia": "Guiar-se pelo vibe da faixa original"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Escada de volume numa nota só",
+   "objetivo": "Descobrir quantos níveis de volume a sua palhetada consegue produzir, sem mudar nada além do ataque.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Som limpo, sem efeitos. Metrônomo a 66 bpm.",
+    "Toque o Lá da corda Sol, casa 7, em colcheias (V2).",
+    "Compasso 1: comece quase inaudível e aumente um pouco a cada nota, até a 8ª sair forte.",
+    "Compasso 2: faça o caminho de volta, do forte ao sussurro.",
+    "Mantenha o ritmo exato: só o volume muda. Repita 4 vezes."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Escada de volume numa nota só (Lá, corda Sol, casa 7). No compasso 1, vá do quase inaudível ao forte. No compasso 2, volte do forte ao sussurro.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a escada só com palhetadas para cima e depois só para baixo.",
+    "Faça em 4 níveis claros (muito leve, leve, médio, forte) em vez de rampa contínua.",
+    "Repita com overdrive e note como o drive comprime a diferença: você precisa exagerar mais."
+   ],
+   "cuidado": "Acelerar quando aumenta o volume e perder o tempo quando diminui. O metrônomo manda.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I13",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=528s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 528,
+     "momento": "08:50",
+     "ideia": "Dinâmica com a palheta como forma de expressão"
+    },
+    {
+     "id": "7Pdss_Gswtc#I21",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1057s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1057,
+     "momento": "17:39",
+     "ideia": "Variar o volume da palheta"
+    },
+    {
+     "id": "GC-HIgdwVSM#I12",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=832s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 832,
+     "momento": "13:54",
+     "ideia": "Trabalhar dinâmica com a palhetada"
+    }
+   ]
+  },
+  {
+   "titulo": "Palheta que passa, não que bate",
+   "objetivo": "Achar o ataque limpo: firme na mão esquerda, sem esmagar, e palheta deslizando pela corda.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Toque a frase de V1 apertando as casas com toda a força. Ouça o som tenso e levemente desafinado.",
+    "Agora vá aliviando a pressão até a nota quase trastejar. Depois volte só o mínimo para ela soar limpa.",
+    "Na palheta, deixe só a pontinha passar pela corda, sem cavar.",
+    "Toque a frase 3 vezes com essa pegada mínima e compare o sustain da última nota com o da primeira versão."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-laboratório em Lá menor (pentatônica, casa 5). Toque tudo leve e ataque forte só as notas com anel. Depois mude quais notas levam o anel.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mude onde a palheta ataca: perto da ponte (mais brilho) e perto do braço (mais redondo).",
+    "Segure a palheta mais frouxa e depois mais firme, e compare."
+   ],
+   "cuidado": "Confundir leveza com moleza: a nota precisa soar inteira, só sem pressão desnecessária.",
+   "inspirado_em": [
+    {
+     "id": "BQTrA3hpqkM#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=395s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 395,
+     "momento": "6:37",
+     "ideia": "Toque (tone) depende da pressão da mão"
+    },
+    {
+     "id": "BQTrA3hpqkM#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=530s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 530,
+     "momento": "8:52",
+     "ideia": "Palhetar com leveza para não bater na corda"
+    },
+    {
+     "id": "BQTrA3hpqkM#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=408s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 408,
+     "momento": "6:50",
+     "ideia": "Pressionar as cordas com força excessiva"
+    }
+   ]
+  },
+  {
+   "titulo": "Acentos que andam pela escala",
+   "objetivo": "Controlar acentos fortes, médios e leves com precisão, mesmo quando caem fora do tempo forte.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Metrônomo a 60–70 bpm. Suba a pentatônica de Lá menor em colcheias (V3).",
+    "Acentue forte a cada 3 notas (as notas com anel) e toque as outras leve.",
+    "Repita com acento médio e depois com acento leve, só um pouco acima das outras.",
+    "Agora acentue a cada 2 notas e depois a cada 4.",
+    "Desça a escala mantendo o mesmo agrupamento de acentos."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Acento a cada 3 notas, subindo a pentatônica de Lá menor em colcheias. O acento (anel) cai cada vez num lugar diferente do tempo.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Estenda para duas oitavas: comece no Lá da casa 5 e suba até o Lá da casa 17 na corda Mi aguda.",
+    "Faça a mesma subida só com ligados e use a palheta apenas nas notas acentuadas."
+   ],
+   "cuidado": "Os acentos puxarem o ritmo: a nota forte tende a sair adiantada. Grave e confira.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I33",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar articulação com metrônomo"
+    },
+    {
+     "id": "tomhess--pt-269230#I14",
+     "tipo": "documento",
+     "autor": "De Nick Layton",
+     "titulo": "Melhorar O Teu Fraseado De Solos De Guitarra",
+     "url": "https://tomhess.net/ImprovingYourPhrasingPart3.aspx/pt",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Acentos para frases legato escorregadias"
+    },
+    {
+     "id": "GC-HIgdwVSM#I11",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=761s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 761,
+     "momento": "12:43",
+     "ideia": "Variar articulação entre palhetada e ligadura"
+    }
+   ]
+  },
+  {
+   "titulo": "Toque leve, duas notas fortes",
+   "objetivo": "Usar a dinâmica como pontuação: decidir onde está a ênfase da frase.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Coloque uma base em Lá menor.",
+    "Toque a frase de V1 toda leve, quase sussurrando.",
+    "Agora ataque forte só as notas com anel (o Sol do início e o Lá de chegada; depois o Mi do 3º compasso).",
+    "Troque as notas fortes: acentue só a última nota de cada frase. Depois só a primeira.",
+    "Escolha a versão que mais parece uma frase falada e toque-a 5 vezes seguidas."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-laboratório em Lá menor (pentatônica, casa 5). Toque tudo leve e ataque forte só as notas com anel. Depois mude quais notas levam o anel.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque bem baixinho antes e entre com a frase forte para criar contraste.",
+    "Ataque a nota forte com o dedo médio, beliscando, e as fracas com palheta."
+   ],
+   "cuidado": "Acentuar demais e transformar tudo em forte. Se mais da metade das notas é forte, nenhuma é.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I17",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1088s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1088,
+     "momento": "18:10",
+     "ideia": "Pontuar com notas fortes e fracas"
+    },
+    {
+     "id": "t8SmU7wIxnc#I15",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=851s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 851,
+     "momento": "14:13",
+     "ideia": "Dinâmica separa o bom do mediano"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I28",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dinâmica e fraseado"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma frase, quatro timbres",
+   "objetivo": "Perceber que a mesma sequência de notas muda de caráter só com ataque e cor.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Grave a frase de V1 sem nenhuma intenção, toda reta: é a sua versão de referência.",
+    "Versão 2: só palheta, perto da ponte, ataque firme.",
+    "Versão 3: só dedos (polegar ou dedo médio), som redondo, captador do braço.",
+    "Versão 4: mistura, com a nota de chegada atacada com o dedo e as demais com palheta, e dinâmica pontuada.",
+    "Ouça as quatro em sequência e anote qual combina com uma base calma e qual com uma base agitada."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Frase-laboratório em Lá menor (pentatônica, casa 5). Toque tudo leve e ataque forte só as notas com anel. Depois mude quais notas levam o anel.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Some bends e vibrato depois (veja Bend e Vibrato), mas só se a versão sem eles já soar viva.",
+    "Use uma moeda no lugar da palheta, como Brian May, para um ataque mais metálico."
+   ],
+   "cuidado": "Mudar as notas ou o ritmo entre versões. Aqui só muda o como.",
+   "inspirado_em": [
+    {
+     "id": "5sknWaNKxMA#I02",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=13s",
+     "video": "5sknWaNKxMA",
+     "inicio": 13,
+     "momento": "00:15",
+     "ideia": "Tocar uma melodia simples de várias formas"
+    },
+    {
+     "id": "tRi4vMs2z8M#I23",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1451s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1451,
+     "momento": "24:13",
+     "ideia": "Variar uma frase pentatônica pela execução"
+    },
+    {
+     "id": "N8N6MAxvJIk#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=928s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 928,
+     "momento": "15:30",
+     "ideia": "Tornar cada repetição mais expressiva"
+    },
+    {
+     "id": "7Pdss_Gswtc#I25",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1204s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1204,
+     "momento": "20:06",
+     "ideia": "Usar os dedos para ampliar o timbre"
+    },
+    {
+     "id": "Anop2dCuR2g#I17",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "10 ICONIC GUITAR SOLOS (everyone should know)",
+     "url": "https://www.youtube.com/watch?v=Anop2dCuR2g&t=745s",
+     "video": "Anop2dCuR2g",
+     "inicio": 745,
+     "momento": "12:27",
+     "ideia": "Moeda como palheta para ataque"
+    }
+   ]
+  },
+  {
+   "titulo": "Pergunta suave, resposta brilhante",
+   "objetivo": "Usar captador e knob de volume como parte do fraseado, trocando nos silêncios.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Base em Lá menor. Captador do braço, volume da guitarra em 5–6.",
+    "Toque os compassos 1–2 de V4 (pergunta) de forma suave.",
+    "No silêncio do compasso 2, passe para o captador da ponte e suba o volume para 10.",
+    "Toque os compassos 3–4 (resposta), mais na cara.",
+    "Faça o ciclo inteiro 4 vezes sem perder o tempo da base."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Pergunta e resposta de timbre: compassos 1–2 no captador do braço com o volume da guitarra pela metade; compassos 3–4 no captador da ponte com o volume no máximo. Use os silêncios para trocar.",
+    "tonica": "A",
+    "bpm": 68,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o volume swell: ataque a nota com o volume no zero e suba o knob com o dedinho enquanto ela soa.",
+    "Durante o solo, baixe um pouco o tone da ponte e ouça o chiado agressivo sumir.",
+    "Toque a mesma pergunta nas cordas graves (casa 5, cordas Mi e Lá) e ouça como ela embola com a base."
+   ],
+   "cuidado": "Atrasar a resposta por causa da troca. Pratique a troca de captador no ar antes, até ser automática.",
+   "inspirado_em": [
+    {
+     "id": "pzqGdf_3Aug#I09",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Dicas de improvisação - Free Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=pzqGdf_3Aug&t=372s",
+     "video": "pzqGdf_3Aug",
+     "inicio": 372,
+     "momento": "06:14",
+     "ideia": "Trabalhar o volume da guitarra"
+    },
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I12",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sutileza vale mais que velocidade"
+    },
+    {
+     "id": "SYE8tDSLU0k#I15",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1055s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1055,
+     "momento": "17:37",
+     "ideia": "Trocar de captador para variar a cor do solo"
+    },
+    {
+     "id": "-sKYzObpWpA#I06",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=167s",
+     "video": "-sKYzObpWpA",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "Trocar para captação mais brilhante para mudar a direção"
+    },
+    {
+     "id": "7Pdss_Gswtc#I23",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1135s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1135,
+     "momento": "18:57",
+     "ideia": "Trocar de captador entre frases"
+    },
+    {
+     "id": "SYE8tDSLU0k#I16",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1088s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1088,
+     "momento": "18:10",
+     "ideia": "Reduzir o tone para tirar o fizz"
+    }
+   ]
+  },
+  {
+   "titulo": "Seco, molhado e o timbre de referência",
+   "objetivo": "Tirar dos efeitos o papel de esconderijo e montar um timbre próprio a partir de uma referência.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Improvise 1 minuto sobre uma base com o sinal totalmente seco (sem delay, sem reverb) e grave.",
+    "Ouça a gravação: os bends chegam na nota? As notas se ligam ou ficam soltas? Corrija com as mãos.",
+    "Religue reverb e delay e suba até o efeito aparecer. Depois volte 30%. Grave de novo e compare.",
+    "Escolha uma faixa de referência e anote 4 traços: limpo ou sujo, quanta compressão, médios ou agudos à frente, espaço seco ou amplo.",
+    "Monte esse clima no seu equipamento: médios à frente, graves cortados, compressão discreta. Toque a mesma ideia e compare com a faixa."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Na gravação, registre a guitarra sem reverb e adicione reverb plate e compressão suave depois.",
+    "Teste um delay estéreo com tempos diferentes à esquerda e à direita para abrir o espaço."
+   ],
+   "cuidado": "Querer copiar a cadeia de pedais exata. Se o fraseado e o clima estão certos, o som funciona com outro equipamento.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I08",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=79s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 79,
+     "momento": "01:21",
+     "ideia": "Frase com delay ligado atrapalha"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=520s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 520,
+     "momento": "08:42",
+     "ideia": "Excesso de reverb e delay"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=795s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 795,
+     "momento": "13:17",
+     "ideia": "Limpar o sinal para ouvir a afinação"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I32",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=1240s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 1240,
+     "momento": "20:42",
+     "ideia": "Desligar o delay para ouvir vibrato e bends"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I26",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=962s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 962,
+     "momento": "16:04",
+     "ideia": "Delay encobre falta de conexão"
+    },
+    {
+     "id": "dZUSUZjRISI#I13",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=258s",
+     "video": "dZUSUZjRISI",
+     "inicio": 258,
+     "momento": "04:20",
+     "ideia": "Usar efeitos para dar profundidade"
+    },
+    {
+     "id": "6aJqjgu5LwM#I16",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=801s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 801,
+     "momento": "13:23",
+     "ideia": "Guiar-se pelo vibe da faixa original"
+    },
+    {
+     "id": "6aJqjgu5LwM#I27",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=1215s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 1215,
+     "momento": "20:17",
+     "ideia": "Ao vivo: vibe e fraseado, não cópia"
+    },
+    {
+     "id": "6aJqjgu5LwM#I17",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=896s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 896,
+     "momento": "14:58",
+     "ideia": "EQ direto: médios no alto e graves cortados"
+    },
+    {
+     "id": "-sKYzObpWpA#I20",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=440s",
+     "video": "-sKYzObpWpA",
+     "inicio": 440,
+     "momento": "07:22",
+     "ideia": "Ajustes básicos de mixagem: EQ, compressão e reverb"
+    },
+    {
+     "id": "-sKYzObpWpA#I21",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=440s",
+     "video": "-sKYzObpWpA",
+     "inicio": 440,
+     "momento": "07:22",
+     "ideia": "Stereo delay com tempos diferentes em cada ouvido"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Atacar todas as notas com a mesma força: o solo soa como arquivo de computador.",
+  "Apertar as casas com força demais, desafinando a nota e matando o sustain.",
+  "Bater na corda com a palheta em vez de passar por ela, fazendo a corda trastejar.",
+  "Acentuar tantas notas que nenhuma se destaca.",
+  "Solar nas cordas graves e sumir no meio do baixo e da base.",
+  "Usar delay e reverb para esconder bends desafinados e notas desconectadas.",
+  "Correr atrás do pedal do ídolo antes de ter a pegada e o fraseado dele."
+ ],
+ "resumo": [
+  "O ouvinte percebe ataque, volume e cor antes de perceber as notas.",
+  "Pegada mínima na mão esquerda e palheta que passa pela corda: é aí que nasce o timbre.",
+  "Toque leve e ataque forte só as notas de ênfase. O contraste é a pontuação.",
+  "Captador, tone, knob de volume, dedos e região do braço são uma paleta de timbres sem pedal nenhum.",
+  "Pratique com o sinal seco. Efeitos entram em dose pequena, como tempero."
+ ],
+ "proximos_passos": "Para dar ainda mais voz às notas que você agora sabe acentuar, siga para Vibrato e Bend: mecânica, afinação e variações. Para alternar palhetada e ligados com intenção, veja Slides, hammer-ons, pull-offs e legato. Depois leve a dinâmica para a estrutura do solo em Estrutura, narrativa e final do solo e para o contexto da banda em Tocar com a banda e para a música. Grave suas versões e compare usando Gravação, autoavaliação e feedback.",
+ "_meta": {
+  "subcategoria": "C05.5",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Dinâmica de toque, ataque e timbre",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T16:59:53",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 6,
+   "cache_write": 32352,
+   "cache_read": 31072,
+   "output": 23290,
+   "thinking": 1879,
+   "turns": 5,
+   "custo_nominal": 0.7473614
+  }
+ }
+}

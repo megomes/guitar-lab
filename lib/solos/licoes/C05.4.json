@@ -1,0 +1,2008 @@
+{
+ "titulo": "Double stops, rakes, harmônicos, alavanca e ornamentos",
+ "gancho": "As notas são as mesmas. Muda o jeito de tocar cada uma, e é isso que separa uma escala de um solo.",
+ "porque_importa": "A pentatônica tem só cinco notas. O que faz um solo soar como Mayer, Gilmour ou B.B. King é como cada nota é tocada: ela pode chegar enfeitada, vir acompanhada de outra nota, soar sobre uma corda solta ou começar com um ataque percussivo. Esses recursos de cor rendem mais variedade do que decorar escalas novas.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "A nota decorada: grace notes",
+   "texto": "Grace note é uma nota-relâmpago colada antes da nota principal. Ela costuma vir meio tom abaixo e entrar com hammer-on, slide ou um bend curtinho. Ela não ocupa um tempo próprio: é a principal que cai no tempo. Por isso dá para enfeitar uma melodia simples, de uma nota por tempo, sem tirar o pulso. O efeito lembra uma voz que escorrega para a nota.",
+   "destaque": "Mesmas notas e mesmo ritmo, mas a frase passa a ter sotaque.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Grace notes de meio tom abaixo, feitas com hammer-on. A tab escreve cada par em colcheias, mas na mão a primeira nota é um 'tropeço' rápido e o hammer-on cai em cima do tempo. Os alvos são as notas do acorde Am: C, E e A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Duas notas de uma vez: double stops",
+   "texto": "Double stop é tocar duas notas da escala juntas, como um mini acorde. Na pentatônica os pares mais úteis são terças, quartas e sextas, tocados com pestana de um dedo ou com dois dedos. Quando as duas notas são do acorde do momento (C+E sobre Am), o par desenha a harmonia. Segundas (D+E) criam um atrito saboroso. Tocar as duas notas com um leve atraso, quase arpejado, também funciona. Com o rítmico alto demais, duas notas se impõem melhor do que mais volume no amplificador.",
+   "destaque": "Uma nota canta, duas notas afirmam.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Double stops na caixa 1 de Lá menor (casa 5). Pares principais: C+E (G e B, casa 5, uma terça com duas notas do acorde Am), E+A e G+C (B e E, quartas) e D+E (G casa 7 + B casa 5, uma segunda com atrito).",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 0
+   }
+  },
+  {
+   "titulo": "Cordas soltas: o drone que preenche",
+   "texto": "Uma corda solta deixada soando enquanto a melodia anda por cima vira um tapete contínuo, o drone. Se essa nota fica fixa enquanto os acordes mudam, ela é um pedal e muda de papel: o B solto é a 5 de Em e a 7 de C. Em tons como Mi menor, Mi maior e Ré, as cordas soltas E, B e A estão quase sempre dentro da escala. Também vale trocar uma nota presa pela mesma nota em corda solta, o que dá à frase um brilho de sino.",
+   "destaque": "Uma corda solta trabalha por você o tempo todo.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Drone em Mi menor. A melodia anda na corda G enquanto as cordas B e E soltas tocam no meio e continuam soando. Não abafe! A corda B solta é a 5 de Em e vira a 7 de Cmaj7, a mesma nota mudando de papel (pedal).",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Ataques especiais: rake, harmônicos e snap",
+   "texto": "Rake: abafe as cordas com a mão esquerda e arraste a palheta inclinada por elas até a nota-alvo. O resultado é um 'chhk' percussivo antes da nota, o ataque típico de Mayer e B.B. King. Gilmour faz um rake parcial, só uma raspada. Harmônico natural: encoste o dedo sobre o traste da casa 12, 7 ou 5, sem apertar, e palhete. Harmônico artificial: com a nota presa, bata um dedo 12 casas acima (tapped) ou palhete e encoste o polegar logo em seguida (pinch). Snap: puxe a corda com o dedo e solte para ela estalar no braço, o que dá ênfase a uma nota de chegada.",
+   "destaque": "O começo da nota também é música.",
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Harmônicos naturais nas cordas G, B e E. Encoste o dedo exatamente sobre o traste, sem apertar. Na casa 12 os harmônicos soam G, B e E. Na casa 7 soam D, F♯ e B. Juntos formam um som de Em7(9), cristalino.",
+    "tonica": "E",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "9",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 0
+   }
+  },
+  {
+   "titulo": "Alavanca: a afinação na sua mão",
+   "texto": "A alavanca muda a tensão das seis cordas ao mesmo tempo. Empurrar abaixa a altura e puxar sobe (só em pontes flutuantes). Ela faz vibrato largo ou sutil, simula bend quando você parte de baixo e solta até a nota, e tem efeitos como o dive bomb de Van Halen. Enrole o anelar e o mínimo na alavanca para manter a mão perto das cordas. Ela é opcional: numa ponte fixa, o vibrato de mão e o slide cumprem o papel. Se usar, a ponte precisa estar bem regulada para não desafinar.",
+   "destaque": "Opcional, mas, quando entra, é a voz mais humana da guitarra.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 16,
+   "porque": "Andrew Clarke toca double stops da pentatônica num solo de iniciante e mostra como o som fica mais cheio na hora.",
+   "fonte": {
+    "id": "hafoCeXWxAE#I21",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+    "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1092s",
+    "video": "hafoCeXWxAE",
+    "inicio": 1092,
+    "momento": "18:14",
+    "ideia": "Double-stops: tocar duas notas ao mesmo tempo"
+   }
+  },
+  {
+   "ref": 29,
+   "porque": "O samuraiguitarist toca o mesmo lick com e sem as cordas E e B soltas, e dá para ouvir o drone mudar a frase.",
+   "fonte": {
+    "id": "-sKYzObpWpA#I14",
+    "tipo": "video",
+    "autor": "samuraiguitarist",
+    "titulo": "Guitar Solo Techniques",
+    "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=337s",
+    "video": "-sKYzObpWpA",
+    "inicio": 337,
+    "momento": "05:39",
+    "ideia": "Cordas soltas como drone"
+   }
+  },
+  {
+   "ref": 37,
+   "porque": "Demonstração do rake com palheta inclinada atravessando as cordas abafadas até a nota-alvo, num solo de blues.",
+   "fonte": {
+    "id": "7Pdss_Gswtc#I16",
+    "tipo": "video",
+    "autor": "Soulful Guitar Lessons",
+    "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+    "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=822s",
+    "video": "7Pdss_Gswtc",
+    "inicio": 822,
+    "momento": "13:44",
+    "ideia": "Rake descendente com palheta inclinada"
+   }
+  },
+  {
+   "ref": 43,
+   "porque": "Kiko Loureiro mostra harmônicos naturais nas casas 12, 7 e 5 e, na sequência, o harmônico batido e o pinch.",
+   "fonte": {
+    "id": "5sknWaNKxMA#I10",
+    "tipo": "video",
+    "autor": "Kiko Loureiro",
+    "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+    "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=248s",
+    "video": "5sknWaNKxMA",
+    "inicio": 248,
+    "momento": "04:10",
+    "ideia": "Harmônico natural: oitava na casa 12, e casas 5 e 7"
+   }
+  },
+  {
+   "ref": 55,
+   "porque": "Kiko usa a alavanca para fazer vibrato largo e para simular um bend partindo de baixo.",
+   "fonte": {
+    "id": "5sknWaNKxMA#I13",
+    "tipo": "video",
+    "autor": "Kiko Loureiro",
+    "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+    "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=319s",
+    "video": "5sknWaNKxMA",
+    "inicio": 319,
+    "momento": "05:21",
+    "ideia": "Alavanca: vibrato e simular bend"
+   }
+  },
+  {
+   "ref": 60,
+   "porque": "Chicken picking em tríades sem a nota do meio: palheta embaixo, dedo médio em cima, e o timbre muda na hora.",
+   "fonte": {
+    "id": "7Pdss_Gswtc#I24",
+    "tipo": "video",
+    "autor": "Soulful Guitar Lessons",
+    "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+    "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1171s",
+    "video": "7Pdss_Gswtc",
+    "inicio": 1171,
+    "momento": "19:33",
+    "ideia": "Chicken picking em tríades"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Grace notes em três alvos",
+   "objetivo": "Colar uma grace note de meio tom abaixo nas notas do acorde sem perder o pulso.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Com metrônomo a 70, toque só as notas-alvo de V3 (C, E, A), uma por tempo forte, sem enfeite.",
+    "Agora encaixe a grace: toque a casa 4 e faça hammer-on na casa 5 da mesma corda. O hammer-on deve cair em cima do clique.",
+    "A nota de baixo dura quase nada: pense em 'tropeçar' na nota principal, não em tocar duas colcheias.",
+    "Toque V3 quatro vezes, deixando o silêncio dos tempos vazios bem inteiro.",
+    "Escolha uma melodia simples de semínimas que você já sabe e enfeite só 2 ou 3 notas dela."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Grace notes de meio tom abaixo, feitas com hammer-on. A tab escreve cada par em colcheias, mas na mão a primeira nota é um 'tropeço' rápido e o hammer-on cai em cima do tempo. Os alvos são as notas do acorde Am: C, E e A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o hammer-on por um slide curto de uma casa abaixo.",
+    "Grace slide para o acorde: monte um power chord (5ª corda, casa 5 + 4ª corda, casa 7) e entre deslizando da casa de baixo, primeiro com uma nota e depois com as duas."
+   ],
+   "cuidado": "Deixar a grace note virar uma nota de tempo inteiro e atrasar a principal. O enfeite é rápido e a nota-alvo é que chega no tempo.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--22582-fretboard-workshop-revisualize-the-pentatonic-scale-10858e#I12",
+     "tipo": "documento",
+     "autor": "Shawn Persinger",
+     "titulo": "Fretboard Workshop: Revisualize the Pentatonic Scale",
+     "url": "https://www.premierguitar.com/articles/22582-fretboard-workshop-revisualize-the-pentatonic-scale",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Grace-note slides na frase de uma nota por corda (Ex. 11)"
+    },
+    {
+     "id": "enk-fXAONJQ#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why PRO Guitarists DON'T Play Bar Chords",
+     "url": "https://www.youtube.com/watch?v=enk-fXAONJQ&t=505s",
+     "video": "enk-fXAONJQ",
+     "inicio": 505,
+     "momento": "08:27",
+     "ideia": "Grace note slide a partir de um traste abaixo"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I07",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ornamentar com hammer-ons e bend de apojatura"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=205s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 205,
+     "momento": "03:27",
+     "ideia": "Notas de passagem (grace notes) como decoração"
+    },
+    {
+     "id": "enk-fXAONJQ#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why PRO Guitarists DON'T Play Bar Chords",
+     "url": "https://www.youtube.com/watch?v=enk-fXAONJQ&t=539s",
+     "video": "enk-fXAONJQ",
+     "inicio": 539,
+     "momento": "09:01",
+     "ideia": "Tocar uma nota e deslizar para o acorde"
+    }
+   ]
+  },
+  {
+   "titulo": "Mesma frase, final em double stop",
+   "objetivo": "Ouvir como trocar a última nota por duas notas do acorde muda o peso da frase.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque V2 sobre uma base de Am a 75 bpm.",
+    "Nos compassos 1 e 2 a frase termina no E sozinho. Deixe soar até o fim do compasso.",
+    "Nos compassos 3 e 4, faça uma pestana de um dedo (indicador) nas cordas G e B, casa 5, para o C+E.",
+    "Toque as duas notas com uma palhetada só e abafe as outras cordas com a lateral da mão direita.",
+    "Grave as duas versões e compare: qual soa mais conclusiva? Qual soa mais blues?"
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A mesma frase com dois finais. Nos compassos 1 e 2 ela termina numa nota só (E). Nos compassos 3 e 4 termina no double stop C+E, a ♭3 e a 5 de Am. Ouça como o segundo final soa mais cheio e mais blues.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine com as notas levemente arpejadas (C, depois E, quase juntas).",
+    "Use o par A+E (cordas E e B, casa 5) como final alternativo e compare a sonoridade."
+   ],
+   "cuidado": "Deixar a corda D ou a E aguda vazar junto. Um double stop sujo soa como acorde errado, não como cor.",
+   "inspirado_em": [
+    {
+     "id": "UiCQL5cxnUA#I10",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=395s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 395,
+     "momento": "06:37",
+     "ideia": "Transformar a última nota de uma frase em double stop"
+    },
+    {
+     "id": "SYE8tDSLU0k#I07",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=113s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 113,
+     "momento": "01:55",
+     "ideia": "Cordas duplas para finalizar"
+    },
+    {
+     "id": "mtRKsf1Y5cw#I15",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "10 Minute Guide To Melodic Soloing - Guitar Lesson - Turn Scales Into Memorable Solos - EASY",
+     "url": "https://www.youtube.com/watch?v=mtRKsf1Y5cw&t=592s",
+     "video": "mtRKsf1Y5cw",
+     "inicio": 592,
+     "momento": "09:54",
+     "ideia": "Double stops com notas de acorde"
+    },
+    {
+     "id": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I10",
+     "tipo": "documento",
+     "autor": "Rob Michael",
+     "titulo": "Pentatonic Boxes Are for Squares",
+     "url": "https://www.premierguitar.com/lessons/rock/pentatonic-boxes-are-for-squares",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Frases pentatônicas com double-stops sugerem harmonia"
+    }
+   ]
+  },
+  {
+   "titulo": "Mapa de duplas na caixa de Lá menor",
+   "objetivo": "Montar um vocabulário pessoal de pares de notas dentro da pentatônica.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Em V1, toque cada par separadamente: C+E (G/B casa 5), E+A (B/E casa 5), G+C (B/E casa 8) e D+E (G casa 7 + B casa 5).",
+    "Diga em voz alta o intervalo de cada um: terça, quarta, quarta, segunda.",
+    "Sobre uma base de Am, improvise 1 minuto usando só double stops, com bastante espaço entre eles.",
+    "Alterne pares em sequência: G+C → E+A → C+E, como uma pequena melodia descendente.",
+    "Anote os 2 pares de que mais gostou e use pelo menos um no próximo improviso."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Double stops na caixa 1 de Lá menor (casa 5). Pares principais: C+E (G e B, casa 5, uma terça com duas notas do acorde Am), E+A e G+C (B e E, quartas) e D+E (G casa 7 + B casa 5, uma segunda com atrito).",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 0
+   },
+   "variacoes": [
+    "Faça o mesmo par subir de um shape para o vizinho com slide (ex.: E+A da casa 5 para G+C na casa 8).",
+    "Numa progressão Am–Dm, procure um par que contenha notas de Dm (D+F, A+D)."
+   ],
+   "cuidado": "Achar que o par D+E (segunda) está errado e evitá-lo. O atrito é a graça: use em passagem e resolva em C+E.",
+   "inspirado_em": [
+    {
+     "id": "hafoCeXWxAE#I21",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1092s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1092,
+     "momento": "18:14",
+     "ideia": "Double-stops: tocar duas notas ao mesmo tempo"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I17",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Double stops como mini acordes"
+    },
+    {
+     "id": "premierguitar--pentatonic-boxes-are-for-squares-ea729d#I11",
+     "tipo": "documento",
+     "autor": "Rob Michael",
+     "titulo": "Pentatonic Boxes Are for Squares",
+     "url": "https://www.premierguitar.com/lessons/rock/pentatonic-boxes-are-for-squares",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Duas notas soam mais alto que uma"
+    },
+    {
+     "id": "-sKYzObpWpA#I17",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=373s",
+     "video": "-sKYzObpWpA",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Segundas maiores e menores para dar caráter"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I19",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Explorar double stops sem teoria detalhada"
+    }
+   ]
+  },
+  {
+   "titulo": "Drone de cordas soltas em Mi menor",
+   "objetivo": "Deixar cordas soltas soando por baixo da melodia e ouvir uma nota pedal mudar de função.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque V4 bem devagar (60 bpm). A melodia fica toda na corda G, e as cordas B e E soltas tocam entre as notas.",
+    "Deixe tudo soar: não abafe com a palma nem com os dedos da mão esquerda.",
+    "No compasso de C, preste atenção no B solto: antes era repouso (5 de Em) e agora é a cor da 7 de Cmaj7.",
+    "Toque a mesma frase uma vez abafando as cordas soltas e compare.",
+    "Improvise sobre Em–C usando a corda G para a melodia e as soltas como tapete."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Drone em Mi menor. A melodia anda na corda G enquanto as cordas B e E soltas tocam no meio e continuam soando. Não abafe! A corda B solta é a 5 de Em e vira a 7 de Cmaj7, a mesma nota mudando de papel (pedal).",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Pegue um lick seu em Mi menor e troque uma nota presa pela mesma nota em corda solta (ex.: o E da corda B, casa 5, pela E aguda solta).",
+    "Use a corda E grave solta como pedal no início de uma frase em Mi."
+   ],
+   "cuidado": "Encostar sem querer o dedo da corda G nas cordas de baixo e cortar o drone. Arqueie bem o dedo.",
+   "inspirado_em": [
+    {
+     "id": "-sKYzObpWpA#I14",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=337s",
+     "video": "-sKYzObpWpA",
+     "inicio": 337,
+     "momento": "05:39",
+     "ideia": "Cordas soltas como drone"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I16",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Corda Mi aberta como pedal sobre o vamp"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I23",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=1055s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 1055,
+     "momento": "17:37",
+     "ideia": "Usar cordas soltas (A, E, D, G) em progressões em E"
+    },
+    {
+     "id": "-sKYzObpWpA#I15",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=337s",
+     "video": "-sKYzObpWpA",
+     "inicio": 337,
+     "momento": "05:39",
+     "ideia": "Lick com cordas E e B soando soltas"
+    },
+    {
+     "id": "W9o9gR5f8-A#I10",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=539s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 539,
+     "momento": "09:01",
+     "ideia": "Trocar notas por cordas soltas para variar a frase"
+    },
+    {
+     "id": "W9o9gR5f8-A#I08",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=501s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 501,
+     "momento": "08:23",
+     "ideia": "Frase em graus conjuntos sobre Ré, reescrita com cordas soltas"
+    }
+   ]
+  },
+  {
+   "titulo": "Ataques: harmônicos, rake e pinch",
+   "objetivo": "Controlar o começo da nota com três ataques diferentes.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Harmônicos naturais (V5): encoste o dedo exatamente sobre o traste da casa 12 nas cordas G, B e E, palhete e tire o dedo logo depois. Repita na casa 7.",
+    "Toque os três harmônicos da casa 12 juntos e deixe soar: é um acorde de sino.",
+    "Rake: com a caixa de Am, abafe as cordas D, G e B com a mão esquerda e arraste a palheta inclinada por elas até a corda E, casa 8 (C). Só o C deve soar com nota definida.",
+    "Rake parcial à la Gilmour: palheta só raspa uma corda abafada antes da nota.",
+    "Pinch (com distorção): palhete o C da corda B, casa 13, deixando a lateral do polegar tocar a corda logo depois da palheta. Mova a mão direita perto dos captadores até achar o grito."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Harmônicos naturais nas cordas G, B e E. Encoste o dedo exatamente sobre o traste, sem apertar. Na casa 12 os harmônicos soam G, B e E. Na casa 7 soam D, F♯ e B. Juntos formam um som de Em7(9), cristalino.",
+    "tonica": "E",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "9",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 0
+   },
+   "variacoes": [
+    "Harmônico batido: prenda a casa 5 da corda B (E) e bata com o indicador direito sobre o traste da casa 17.",
+    "Snap: termine uma frase puxando o A da corda E, casa 5, com o dedo e soltando para estalar."
+   ],
+   "cuidado": "No harmônico natural, encostar o dedo no meio da casa ou apertar a corda: tem que ser exatamente sobre o traste e só encostando.",
+   "inspirado_em": [
+    {
+     "id": "0Dz1QC7xk5U#I10",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=432s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "Rake na primeira nota da frase"
+    },
+    {
+     "id": "7Pdss_Gswtc#I16",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=822s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 822,
+     "momento": "13:44",
+     "ideia": "Rake descendente com palheta inclinada"
+    },
+    {
+     "id": "bhYXolbCrr0#I15",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1233s",
+     "video": "bhYXolbCrr0",
+     "inicio": 1233,
+     "momento": "20:35",
+     "ideia": "Rake para encorpar a nota"
+    },
+    {
+     "id": "6aJqjgu5LwM#I06",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=428s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 428,
+     "momento": "07:10",
+     "ideia": "Rake parcial no ataque"
+    },
+    {
+     "id": "5sknWaNKxMA#I10",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=248s",
+     "video": "5sknWaNKxMA",
+     "inicio": 248,
+     "momento": "04:10",
+     "ideia": "Harmônico natural: oitava na casa 12, e casas 5 e 7"
+    },
+    {
+     "id": "5sknWaNKxMA#I11",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=268s",
+     "video": "5sknWaNKxMA",
+     "inicio": 268,
+     "momento": "04:30",
+     "ideia": "Harmônico batido com o dedo"
+    },
+    {
+     "id": "5sknWaNKxMA#I12",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=282s",
+     "video": "5sknWaNKxMA",
+     "inicio": 282,
+     "momento": "04:44",
+     "ideia": "Harmônico com palheta e polegar"
+    }
+   ]
+  },
+  {
+   "titulo": "Sextas em palhetada híbrida",
+   "objetivo": "Ganhar um timbre novo com palheta e dedo e tocar double stops mais limpos.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Em V6, cada acorde vira um par: 3ª na corda G e tônica na corda E aguda. A corda B fica em silêncio (é a nota do meio da tríade, omitida).",
+    "Segure a palheta com polegar e indicador e deixe o dedo médio livre sobre a corda E aguda.",
+    "Palheta toca a nota grave e o médio puxa a aguda. Comece a 60 bpm.",
+    "No tempo 3, toque as duas ao mesmo tempo, com o médio puxando a corda para cima para dar estalo (chicken pop).",
+    "Toque a sequência Am–G–F–E inteira, respeitando o silêncio do último tempo."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Sextas em palhetada híbrida: a nota grave (corda G) é tocada com a palheta e a aguda (corda E) com o dedo médio. Em cada acorde o par é a 3ª embaixo e a tônica em cima. No tempo 3 as duas soam juntas, com o dedo puxando a corda para fazer um estalo.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use o anelar no lugar do médio.",
+    "Leve as mesmas sextas para um improviso, misturando com notas soltas da pentatônica."
+   ],
+   "cuidado": "Deixar a corda B soar no meio do salto. Abafe-a com a polpa do dedo que prende a nota da corda G.",
+   "inspirado_em": [
+    {
+     "id": "7Pdss_Gswtc#I24",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1171s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1171,
+     "momento": "19:33",
+     "ideia": "Chicken picking em tríades"
+    },
+    {
+     "id": "7Pdss_Gswtc#I25",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=1204s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 1204,
+     "momento": "20:06",
+     "ideia": "Usar os dedos para ampliar o timbre"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I05",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mudar a mão de palhetada para sair dos hábitos"
+    }
+   ]
+  },
+  {
+   "titulo": "Alavanca: vibrato sutil e falso bend",
+   "objetivo": "Usar a alavanca com controle de altura, não só como efeito.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Enrole o anelar e o mínimo na alavanca e deixe polegar e indicador com a palheta, prontos para tocar.",
+    "Toque o A da corda E aguda, casa 5, e faça ciclos curtos e regulares de puxar levemente e soltar: vibrato sutil.",
+    "Agora o falso bend: empurre a alavanca antes de tocar (a nota soa abaixo), palhete e solte devagar até a nota cair afinada no A.",
+    "Confira a chegada tocando o A sem alavanca logo em seguida.",
+    "Combo: numa frase da caixa de Am, termine com double stop C+E e aplique o vibrato de alavanca nele."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Dive bomb curto num harmônico natural da casa 12 da corda G.",
+    "Sem alavanca (ponte fixa): faça o mesmo final com vibrato de mão ou um slide largo de saída."
+   ],
+   "cuidado": "Exagerar a largura e desafinar o acorde-alvo. Se a ponte não volta ao lugar, regule antes de treinar.",
+   "inspirado_em": [
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I16",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mão em posição de alavanca com dedo mínimo e anelar"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I13",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vibrato suave com alavanca"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I17",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vibrato suave com alavanca"
+    },
+    {
+     "id": "5sknWaNKxMA#I13",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=319s",
+     "video": "5sknWaNKxMA",
+     "inicio": 319,
+     "momento": "05:21",
+     "ideia": "Alavanca: vibrato e simular bend"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I06",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Whammy bar é opcional"
+    },
+    {
+     "id": "i9yDenSMpJk#I24",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1402s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1402,
+     "momento": "23:24",
+     "ideia": "Explorar a whammy bar com cuidado"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Usar todos os recursos na mesma frase. Cada um é um tempero: estude isolado e depois combine no máximo dois (por exemplo, grace note + double stop).",
+  "Grace note lenta demais, que vira nota de tempo e desloca a frase.",
+  "Double stop com cordas vizinhas vazando, o que soa como acorde sujo.",
+  "Rake em que as cordas abafadas soam como notas: a mão esquerda precisa realmente silenciá-las.",
+  "Harmônico natural fora do traste ou com o dedo apertando.",
+  "Drone de corda solta que bate com a harmonia: confira se a corda solta pertence à escala do tom.",
+  "Alavanca usada sem regulagem, desafinando a guitarra a cada frase."
+ ],
+ "resumo": [
+  "A escala vira música pelo jeito de tocar cada nota: ornamento, nota dupla, drone e ataque.",
+  "Grace note é um enfeite rápido de meio tom abaixo. A nota principal é que cai no tempo.",
+  "Double stops com notas do acorde enchem o som e desenham a harmonia. Terminar a frase num deles soa blues na hora.",
+  "Cordas soltas como drone ou pedal preenchem o solo e mudam de papel quando o acorde muda.",
+  "Rake, harmônicos, pinch, alavanca e palhetada híbrida mudam o começo e o corpo da nota. Use com intenção e um de cada vez."
+ ],
+ "proximos_passos": "Para revisar a base expressiva, volte a \"Bend: mecânica, afinação e variações\", \"Vibrato\" e \"Slides, hammer-ons, pull-offs e legato\". Depois leve esses recursos para \"Dinâmica de toque, ataque e timbre\" e use os double stops com notas do acorde em \"Notas do acorde, repouso e tensão-resolução\". Para pôr tudo num contexto real, siga para \"Solar sobre o blues\".",
+ "_meta": {
+  "subcategoria": "C05.4",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Double stops, rakes, harmônicos, alavanca e ornamentos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T16:56:46",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 28073,
+   "cache_read": 0,
+   "output": 16439,
+   "thinking": 4716,
+   "turns": 4,
+   "custo_nominal": 0.5692459999999999
+  }
+ }
+}
