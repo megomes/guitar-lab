@@ -1,0 +1,2289 @@
+{
+ "titulo": "Blue note e escala de blues",
+ "gancho": "Uma casa a mais na pentatônica, e o seu solo deixa de soar só \"certo\" e passa a soar como blues.",
+ "porque_importa": "A ♭5 é a nota que separa uma pentatônica escolar de uma frase com sotaque de blues. Só que ela é perigosa: tocada na hora certa, dá tensão e malícia; parada no lugar errado, soa como erro. Nesta lição você vai aprender onde ela fica, como entrar e sair dela e por que a blue note de verdade mora entre as casas.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Seis notas: pentatônica menor + ♭5",
+   "texto": "A escala de blues é a pentatônica menor com uma nota a mais: 1-♭3-4-♭5-5-♭7. Como tem seis notas, ela é hexatônica e já não é mais pentatônica. Em Lá menor: A C D E♭ E G. A ♭5 (também chamada #4) fica espremida entre a 4ª e a 5ª, e é essa casa de meio tom que dá o sotaque do blues. Na caixa 1 de Am ela aparece duas vezes, uma em cada oitava.",
+   "destaque": "Pentatônica menor + uma casa entre a 4ª e a 5ª = escala de blues.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Escala de blues de Lá menor, caixa 1 (casa 5). As blue notes (E♭ = ♭5) aparecem em dois lugares: casa 6 da corda Lá e casa 8 da corda Sol.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 6,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Ela passa, não pousa",
+   "texto": "A ♭5 forma um trítono com a tônica, o intervalo mais instável que existe. Em movimento (4-♭5-5, 5-♭5-4, slide de meio tom), ela soa como quem sabe o que está fazendo. Parada num tempo forte ou no fim da frase, soa como erro. Como diz Guthrie Govan, a escala de blues é só uma aproximação ocidental das blue notes; quem decide o uso é o seu ouvido. Trate a ♭5 como uma porta, não como um sofá.",
+   "destaque": "Em movimento, ela é tempero; parada, é erro.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Passa, não pousa: a ♭5 sempre a caminho de uma nota firme (5ª ou tônica). Os compassos vazios são para ouvir a resolução.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 6,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Onde ela mora, em qualquer tom e posição",
+   "texto": "Há três atalhos. 1) Uma casa abaixo da 5ª (ou uma acima da 4ª): Am = E♭, Em = B♭, Bm = F, Cm = G♭, Dm = A♭, Gm = D♭. 2) Contar três: a partir de cada tônica da posição, conte tônica, ♭3 e 4 e suba uma casa. 3) Na pentatônica diagonal (três notas por corda), a blue note fica sempre entre as duas notas mais agudas do grupo de três. Não fique preso ao box 1: na caixa 2 (a que começa na ♭3), ela cai muito à mão.",
+   "destaque": "4ª + uma casa. Sempre.",
+   "visual": {
+    "id": "V9",
+    "tipo": "braco",
+    "legenda": "Sol menor, caixa 1 (casa 3). Conte G → B♭ → C e suba uma casa: D♭ (♭5), na casa 4 da corda Lá e na casa 6 da corda Sol.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 6,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "D♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "D♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 6,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Na pentatônica maior, a blue note é a ♭3",
+   "texto": "Acrescente a ♭3 entre a 2ª e a 3ª da pentatônica maior e você tem a \"blues maior\": 1-2-♭3-3-5-6. Em Lá: A B C C# E F#. Sobre A7, o C raspando no C# é o atrito clássico do blues, quase sempre resolvido subindo meio tom. Atalho de shape: o mesmo desenho com a ♭3 da maior, tocado três casas acima, vira a ♭5 da menor no mesmo lugar relativo. Outros cromatismos típicos são 5→♭6 (E-F) e ♭7→7→1 (G-G#-A).",
+   "destaque": "Menor: blue note = ♭5. Maior: blue note = ♭3.",
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Blues maior de Lá (pentatônica maior + ♭3). A blue note C fica na casa 5 da corda Sol, colada na 3ª maior (C#, casa 6).",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "C#",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F#",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "C#",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F#",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A blue note de verdade mora entre as casas",
+   "texto": "No canto, na gaita e no trompete, a blue note é uma afinação \"suja\" entre a terça menor e a maior, que o piano não consegue tocar. Na guitarra, você chega lá com um bend de ¼ de tom no C (♭3 de A), sem alcançar o C#. Não há casa certa: você afina pelo ouvido até soar entre as duas terças. A ♭3 e a ♭5 da escala são o endereço; o microbend é o sotaque.",
+   "destaque": "O temperamento só aproxima; o bend é que diz.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 20,
+   "porque": "Mostra, tocado devagar, o slide de ida e volta para a blue note na corda Sol, com uma só palhetada.",
+   "fonte": {
+    "id": "gNKJXn8g734#I07",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=271s",
+    "video": "gNKJXn8g734",
+    "inicio": 271,
+    "momento": "04:33",
+    "ideia": "Slide ida e volta para a blue note na corda G"
+   }
+  },
+  {
+   "ref": 22,
+   "porque": "Ensina o método de contar três notas a partir de cada tônica para achar a ♭5 em qualquer posição.",
+   "fonte": {
+    "id": "gNKJXn8g734#I12",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=641s",
+    "video": "gNKJXn8g734",
+    "inicio": 641,
+    "momento": "10:43",
+    "ideia": "Achar a blue note contando três notas a partir da tônica"
+   }
+  },
+  {
+   "ref": 28,
+   "porque": "Demonstra na diagonal a regra de inserir a blue note entre as duas notas mais agudas do grupo de três.",
+   "fonte": {
+    "id": "Diou83hvGA4#I11",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+    "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=664s",
+    "video": "Diou83hvGA4",
+    "inicio": 664,
+    "momento": "11:06",
+    "ideia": "Inserir a blue note entre as duas notas agudas do conjunto de três"
+   }
+  },
+  {
+   "ref": 45,
+   "porque": "Guthrie Govan explica por que a ♭5 só convence em movimento e soa como erro quando fica parada.",
+   "fonte": {
+    "id": "Cy_c2InwkSk#I08",
+    "tipo": "video",
+    "autor": "DIME Group - Music Courses, Classes & Programs",
+    "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+    "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=218s",
+    "video": "Cy_c2InwkSk",
+    "inicio": 218,
+    "momento": "03:40",
+    "ideia": "A b5 da escala de blues como nota de passagem"
+   }
+  },
+  {
+   "ref": 65,
+   "porque": "Animação de braço com o microbend de B.B. King entre a terça menor e a maior.",
+   "fonte": {
+    "id": "bhYXolbCrr0#I08",
+    "tipo": "video",
+    "autor": "Pow Music",
+    "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+    "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=607s",
+    "video": "bhYXolbCrr0",
+    "inicio": 607,
+    "momento": "10:09",
+    "ideia": "Microbend entre a 3ª menor e a 3ª maior"
+   }
+  },
+  {
+   "ref": 69,
+   "porque": "Frases com a ♭5 no shape que começa na ♭3, onde a blue note cai à mão.",
+   "fonte": {
+    "id": "3kSPGjxI-ns#I06",
+    "tipo": "video",
+    "autor": "Luiz Criasom",
+    "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+    "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=307s",
+    "video": "3kSPGjxI-ns",
+    "inicio": 307,
+    "momento": "05:09",
+    "ideia": "Shape que começa na terça menor"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Seis notas, duas blue notes",
+   "objetivo": "Tocar a escala de blues de Am na caixa 1 e ouvir o que a ♭5 acrescenta.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Toque a pentatônica de Am na casa 5, subindo e descendo, a 60 bpm, em colcheias.",
+    "Agora inclua o E♭: casa 6 da corda Lá (dedo 2) e casa 8 da corda Sol (dedo 4).",
+    "Suba e desça falando os graus em voz alta: 1, ♭3, 4, ♭5, 5, ♭7…",
+    "Alterne uma volta sem a ♭5 e outra com ela e descreva em uma palavra a diferença que você ouve."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Escala de blues de Lá menor, caixa 1 (casa 5). As blue notes (E♭ = ♭5) aparecem em dois lugares: casa 6 da corda Lá e casa 8 da corda Sol.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 6,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Toque só as cordas Lá a Sol, onde ficam as duas blue notes.",
+    "Comece pela nota mais aguda e desça até a mais grave."
+   ],
+   "cuidado": "Não pule a ♭5 na corda Sol: ela fica na casa 8, não na 6. A casa 6 da corda Sol é C#, que não pertence à escala.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I22",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala de blues: raiz, ♭3, 4, ♯4, 5, ♭7"
+    },
+    {
+     "id": "gNKJXn8g734#I03",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=100s",
+     "video": "gNKJXn8g734",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Blue scale é a pentatônica menor com uma nota a mais"
+    },
+    {
+     "id": "gNKJXn8g734#I04",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=67s",
+     "video": "gNKJXn8g734",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Blue note aparece em dois lugares na posição 1"
+    },
+    {
+     "id": "ZPELVwO27lc#I03",
+     "tipo": "video",
+     "autor": "swiftlessons",
+     "titulo": "The Mixolydian Blues Hybrid Scale - The Holy Grail of Major Soloing!",
+     "url": "https://www.youtube.com/watch?v=ZPELVwO27lc&t=102s",
+     "video": "ZPELVwO27lc",
+     "inicio": 102,
+     "momento": "1:44",
+     "ideia": "Blues menor em lá, posição de 5ª casa"
+    }
+   ]
+  },
+  {
+   "titulo": "Passa, não pousa",
+   "objetivo": "Usar a ♭5 só como nota de passagem, sempre resolvendo numa nota firme.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Toque o V2 a 70 bpm: 4-♭5-5 subindo na corda Lá e resolução na tônica.",
+    "No compasso 3, faça o caminho contrário: 5-♭5-4-♭3 até o A.",
+    "Repita, mas agora sustente o E♭ por um tempo inteiro e ouça como ele soa \"errado\".",
+    "Volte à versão em movimento. Sobre uma base em Am, improvise 1 minuto com uma regra: toda ♭5 precisa sair para a 4ª ou para a 5ª na colcheia seguinte."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Passa, não pousa: a ♭5 sempre a caminho de uma nota firme (5ª ou tônica). Os compassos vazios são para ouvir a resolução.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 6,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque a palhetada da ♭5 por um hammer-on vindo da 4ª.",
+    "Coloque a ♭5 no contratempo e a 5ª no tempo."
+   ],
+   "cuidado": "Terminar a frase ou cair no tempo forte justamente na ♭5.",
+   "inspirado_em": [
+    {
+     "id": "Ork2Vc2bva8#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=485s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 485,
+     "momento": "08:07",
+     "ideia": "Nota azul na pentatônica menor de Ré"
+    },
+    {
+     "id": "Cy_c2InwkSk#I08",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=218s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 218,
+     "momento": "03:40",
+     "ideia": "A b5 da escala de blues como nota de passagem"
+    },
+    {
+     "id": "mD_JBfqB8X0#I11",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+     "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=325s",
+     "video": "mD_JBfqB8X0",
+     "inicio": 325,
+     "momento": "05:27",
+     "ideia": "Blue note como nota de passagem"
+    },
+    {
+     "id": "gNKJXn8g734#I02",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=67s",
+     "video": "gNKJXn8g734",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Não pousar na blue note como nota-alvo"
+    },
+    {
+     "id": "3kSPGjxI-ns#I01",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=103s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 103,
+     "momento": "01:45",
+     "ideia": "Blue note como nota de passagem"
+    },
+    {
+     "id": "uGZDOBZfz1k#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I just unlocked the fretboard and it's stupidly simple",
+     "url": "https://www.youtube.com/watch?v=uGZDOBZfz1k&t=339s",
+     "video": "uGZDOBZfz1k",
+     "inicio": 339,
+     "momento": "05:41",
+     "ideia": "Não pousar na nota azul: deslizar meio tom"
+    }
+   ]
+  },
+  {
+   "titulo": "Slide ida e volta na corda Sol",
+   "objetivo": "Dominar o lick clássico da blue note com slide e pull-off numa só palhetada.",
+   "nivel": "iniciante",
+   "minutos": 7,
+   "passos": [
+    "Toque E na casa 5 da corda Si com o indicador.",
+    "Na corda Sol, toque a casa 7 (D) com o dedo 3 e deslize até a casa 8 (E♭) sem palhetar de novo.",
+    "Deslize de volta à casa 7 e faça pull-off para a casa 5 (C) com o indicador, tudo com uma só palhetada.",
+    "Feche na tônica (casa 7 da corda Ré) e deixe o compasso seguinte em silêncio.",
+    "No compasso 3, comece pelo G (casa 8 da corda Si) e repita o miolo."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Lick clássico na corda Sol: 4ª → slide para a ♭5 → slide de volta → pull-off para a ♭3. Use uma única palhetada na corda Sol.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Transponha para Sol menor: a mesma figura nas casas 5-6-5-3 da corda Sol.",
+    "Acelere até 90 bpm sem perder a clareza do slide."
+   ],
+   "cuidado": "Palhetar de novo no slide ou no pull-off: o lick perde a fluidez e vira uma escada de notas.",
+   "inspirado_em": [
+    {
+     "id": "4-XWDbMtR-U#I05",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Blues Soloing Secrets - Unlocking The Pentatonic Scale - Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=4-XWDbMtR-U&t=196s",
+     "video": "4-XWDbMtR-U",
+     "inicio": 196,
+     "momento": "03:18",
+     "ideia": "Nota blue na corda G da caixa 1"
+    },
+    {
+     "id": "gNKJXn8g734#I07",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=271s",
+     "video": "gNKJXn8g734",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Slide ida e volta para a blue note na corda G"
+    },
+    {
+     "id": "3kSPGjxI-ns#I03",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=204s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Shape da pentatônica menor a partir da tônica"
+    }
+   ]
+  },
+  {
+   "titulo": "Contar três: a blue note em qualquer tom",
+   "objetivo": "Achar a ♭5 sem decorar, em várias tonalidades.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Em Sol menor, caixa 1 (casa 3), localize as tônicas G nas cordas Mi grave, Ré e Mi aguda.",
+    "De cada tônica, conte G → B♭ → C e suba uma casa: D♭. Confira no V9 (casa 4 da corda Lá e casa 6 da corda Sol).",
+    "Toque a escala de blues de Gm completa, sempre resolvendo a ♭5.",
+    "Repita a contagem em Em (casa 12/0), Bm (casa 7) e Cm (casa 8) e diga o nome da blue note antes de tocar: B♭, F, G♭."
+   ],
+   "visual": {
+    "id": "V9",
+    "tipo": "braco",
+    "legenda": "Sol menor, caixa 1 (casa 3). Conte G → B♭ → C e suba uma casa: D♭ (♭5), na casa 4 da corda Lá e na casa 6 da corda Sol.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 6,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "D♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "D♭",
+      "grau": "♭5",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 6,
+      "nota": "B♭",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça a contagem na caixa 2 de cada tom.",
+    "Na pentatônica diagonal, insira a blue note entre as duas notas mais agudas de cada grupo de três."
+   ],
+   "cuidado": "Contar casas em vez de notas da escala: você conta tônica, ♭3 e 4 (notas da pentatônica) e só depois sobe uma casa.",
+   "inspirado_em": [
+    {
+     "id": "NbNH_C3QAS0#I07",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=173s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 173,
+     "momento": "02:55",
+     "ideia": "Blue note em acorde menor de Si"
+    },
+    {
+     "id": "gNKJXn8g734#I01",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=34s",
+     "video": "gNKJXn8g734",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "A blue note é o ♭5 da pentatônica menor"
+    },
+    {
+     "id": "mrKDTl6zDOM#I06",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=270s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 270,
+     "momento": "04:32",
+     "ideia": "Blue note na pentatônica"
+    },
+    {
+     "id": "WNtvx2q2CrI#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=278s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 278,
+     "momento": "04:40",
+     "ideia": "Blue note da pentatônica menor é a ♭5"
+    },
+    {
+     "id": "gNKJXn8g734#I12",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=641s",
+     "video": "gNKJXn8g734",
+     "inicio": 641,
+     "momento": "10:43",
+     "ideia": "Achar a blue note contando três notas a partir da tônica"
+    },
+    {
+     "id": "gNKJXn8g734#I18",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=1232s",
+     "video": "gNKJXn8g734",
+     "inicio": 1232,
+     "momento": "20:34",
+     "ideia": "Blue notes da posição 3 pela mesma contagem"
+    },
+    {
+     "id": "gNKJXn8g734#I23",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=1711s",
+     "video": "gNKJXn8g734",
+     "inicio": 1711,
+     "momento": "28:33",
+     "ideia": "Blue notes da posição 4 pelo mesmo método"
+    },
+    {
+     "id": "gNKJXn8g734#I26",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=2064s",
+     "video": "gNKJXn8g734",
+     "inicio": 2064,
+     "momento": "34:26",
+     "ideia": "Posição 5 é simétrica e fácil de memorizar"
+    },
+    {
+     "id": "Ork2Vc2bva8#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=517s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 517,
+     "momento": "08:39",
+     "ideia": "Usar a diagonal para encaixar a nota azul pelo braço"
+    },
+    {
+     "id": "Diou83hvGA4#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=664s",
+     "video": "Diou83hvGA4",
+     "inicio": 664,
+     "momento": "11:06",
+     "ideia": "Inserir a blue note entre as duas notas agudas do conjunto de três"
+    },
+    {
+     "id": "WNtvx2q2CrI#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=503s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 503,
+     "momento": "08:25",
+     "ideia": "Blue note fica entre as duas notas mais agudas do grupo de três"
+    }
+   ]
+  },
+  {
+   "titulo": "Caixa 2: a frase ♭5-5-♭7-1",
+   "objetivo": "Usar a blue note fora do box 1, no shape em que ela fica mais confortável.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Localize no V4 as três ♭5 da caixa 2: casa 11 da corda Mi grave, casa 8 da corda Sol e casa 11 da corda Mi aguda.",
+    "Toque o compasso 1 do V5: E♭-E na corda Sol (dedos 2 e 3) e G-A na corda Si.",
+    "Pause dois tempos. Depois toque a descida do compasso 2, que passa pela ♭5 até a tônica na corda Ré.",
+    "Improvise 2 minutos na caixa 2 sobre uma base em Am, usando a frase como ponto de partida."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Na caixa 2: ♭5-5-♭7-1 subindo e uma descida que passa pela ♭5 até a tônica.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use a ♭5 da corda Mi aguda (casa 11) como passagem para o E (casa 12).",
+    "Comece a frase no contratempo."
+   ],
+   "cuidado": "Voltar instintivamente para o box 1. Fique na caixa 2 o exercício inteiro.",
+   "inspirado_em": [
+    {
+     "id": "Diou83hvGA4#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=678s",
+     "video": "Diou83hvGA4",
+     "inicio": 678,
+     "momento": "11:20",
+     "ideia": "Usar a diagonal para acessar blue notes em boxes"
+    },
+    {
+     "id": "WNtvx2q2CrI#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=503s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 503,
+     "momento": "08:25",
+     "ideia": "Conhecer as blue notes em todas as posições, não só no box 1"
+    },
+    {
+     "id": "2-KlhAakkfU#I16",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=748s",
+     "video": "2-KlhAakkfU",
+     "inicio": 748,
+     "momento": "12:30",
+     "ideia": "Fragmento na oitava grave com blue note"
+    },
+    {
+     "id": "2-KlhAakkfU#I07",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=279s",
+     "video": "2-KlhAakkfU",
+     "inicio": 279,
+     "momento": "04:41",
+     "ideia": "Blue note como nota de expansão"
+    },
+    {
+     "id": "3kSPGjxI-ns#I05",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=274s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 274,
+     "momento": "04:36",
+     "ideia": "Shape longo com blue note mais afastada"
+    },
+    {
+     "id": "3kSPGjxI-ns#I06",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=307s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 307,
+     "momento": "05:09",
+     "ideia": "Shape que começa na terça menor"
+    },
+    {
+     "id": "3kSPGjxI-ns#I15",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=646s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 646,
+     "momento": "10:48",
+     "ideia": "Shape que começa na quinta"
+    }
+   ]
+  },
+  {
+   "titulo": "Entre as terças: ♭3 da maior e o quarter bend",
+   "objetivo": "Ouvir a blue note da maior e tocá-la como inflexão microtonal sobre A7.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque um A7 e deixe soar. Em seguida, toque o C (casa 5 da corda Sol) e o C# (casa 6) e ouça o atrito.",
+    "Compasso 1 do V7: B-C-C#, subindo cromaticamente até a 3ª maior, e depois E e A.",
+    "Compasso 3: toque o C e empurre a corda de leve, só ¼ de tom. Pare antes de chegar ao C#.",
+    "Ajuste pelo ouvido até o C soar \"entre\" as terças. Só então desça para B e A.",
+    "Grave-se e compare o C reto com o C dobrado."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Sobre A7: no compasso 1, a ♭3 (C) sobe cromaticamente até a 3ª (C#). No compasso 3, segure o C com um bend de ¼ de tom, sem chegar ao C#, e resolva na tônica A.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C#",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use a blues maior de Dó: E♭ entre D e E, sobre C7.",
+    "Toque a mesma ideia três casas abaixo, como ♭5 da menor de F#."
+   ],
+   "cuidado": "Exagerar o bend até virar C#: o efeito da blue note mora justamente no meio do caminho.",
+   "inspirado_em": [
+    {
+     "id": "NbNH_C3QAS0#I06",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=141s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 141,
+     "momento": "02:23",
+     "ideia": "Blue note entre a 2ª e a 3ª da pentatônica de Ré"
+    },
+    {
+     "id": "MfrAepqfv2g#I15",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=701s",
+     "video": "MfrAepqfv2g",
+     "inicio": 701,
+     "momento": "11:43",
+     "ideia": "Nota extra de blue note"
+    },
+    {
+     "id": "3kSPGjxI-ns#I02",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=136s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Blue note na pentatônica maior de dó"
+    },
+    {
+     "id": "UiCQL5cxnUA#I13",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=518s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 518,
+     "momento": "08:40",
+     "ideia": "Passagens cromáticas entre terça menor e maior"
+    },
+    {
+     "id": "o1qXU6Nm_d4#I07",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=235s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 235,
+     "momento": "03:57",
+     "ideia": "Tensão entre C# (3ª maior) e C (3ª menor)"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I09",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Quarter-step bend"
+    },
+    {
+     "id": "btoooVk54LY#I08",
+     "tipo": "video",
+     "autor": "Learning Guitar Now",
+     "titulo": "How to Solo over a 12 Bar Blues in the Key of A",
+     "url": "https://www.youtube.com/watch?v=btoooVk54LY&t=625s",
+     "video": "btoooVk54LY",
+     "inicio": 625,
+     "momento": "10:27",
+     "ideia": "Bend parcial entre terça menor e maior"
+    },
+    {
+     "id": "tELIgr96WcM#I01",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=37s",
+     "video": "tELIgr96WcM",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Microtonal bend: levar a nota um pouco acima sem chegar ao semitom"
+    },
+    {
+     "id": "bhYXolbCrr0#I08",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=607s",
+     "video": "bhYXolbCrr0",
+     "inicio": 607,
+     "momento": "10:09",
+     "ideia": "Microbend entre a 3ª menor e a 3ª maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Descida conclusiva e bend da ♭5",
+   "objetivo": "Fechar frases com uma descida que passa pela blue note e usar o bend de meio tom da ♭5 para a 5ª.",
+   "nivel": "avancado",
+   "minutos": 9,
+   "passos": [
+    "Compasso 1 do V8: A-G (♭7 instável) e depois a descida E-E♭-D-C-A nos graves.",
+    "Pause um compasso inteiro: deixe a tônica grave soar.",
+    "Compasso 3: faça um bend de meio tom no E♭ (casa 8 da corda Sol) até soar o E, solte e desça D-C-A.",
+    "Sobre uma base de blues em Am, termine cada chorus com uma das duas frases e varie o ritmo da descida."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "Descida conclusiva: ♭7 → 5 → ♭5 → 4 → ♭3 → 1 nos graves. Depois, um bend de meio tom da ♭5 até a 5ª (casa 8 da corda Sol) e resolução na tônica.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 6,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Antes da tônica, oscile entre a ♭3 e a 4ª (C-D-C-A).",
+    "Use a versão ascendente 1-♭3-4-♭5-5 e volte à tônica."
+   ],
+   "cuidado": "Bend desafinado: o E♭ precisa chegar exatamente ao E. Confira tocando a casa 9 da corda Sol antes.",
+   "inspirado_em": [
+    {
+     "id": "rODBvbol8dk#I08",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=314s",
+     "video": "rODBvbol8dk",
+     "inicio": 314,
+     "momento": "05:16",
+     "ideia": "Usar blue note para conclusão grave"
+    },
+    {
+     "id": "rODBvbol8dk#I10",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=390s",
+     "video": "rODBvbol8dk",
+     "inicio": 390,
+     "momento": "06:32",
+     "ideia": "Sétima como tensão a ser resolvida"
+    },
+    {
+     "id": "3kSPGjxI-ns#I04",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=238s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 238,
+     "momento": "04:00",
+     "ideia": "Frase conclusiva com blue note"
+    },
+    {
+     "id": "EwRkYkN7igw#I07",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Isso vai mudar seu improviso - Guitarra",
+     "url": "https://www.youtube.com/watch?v=EwRkYkN7igw&t=173s",
+     "video": "EwRkYkN7igw",
+     "inicio": 173,
+     "momento": "02:55",
+     "ideia": "Blue note logo após a nota do bend"
+    },
+    {
+     "id": "UiCQL5cxnUA#I15",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=552s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 552,
+     "momento": "09:14",
+     "ideia": "Misturar blue notes e bends"
+    },
+    {
+     "id": "mD_JBfqB8X0#I25",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+     "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=981s",
+     "video": "mD_JBfqB8X0",
+     "inicio": 981,
+     "momento": "16:23",
+     "ideia": "Bends da blue note até a quinta justa no bloco roxo"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Sustentar a ♭5 ou colocá-la no tempo forte: o trítono com a tônica soa como erro.",
+  "Achar que a escala de blues ainda é pentatônica: ela tem seis notas.",
+  "Procurar a blue note de Am na casa 5 da corda Sol (que é C). Ela fica na casa 8 (E♭).",
+  "Saber a blue note só no box 1 e travar nos outros shapes.",
+  "Usar a ♭5 na pentatônica maior: lá, a blue note é a ♭3.",
+  "Fazer o microbend até o semitom inteiro e perder a nota \"entre\" as terças."
+ ],
+ "resumo": [
+  "Escala de blues = pentatônica menor + ♭5: 1-♭3-4-♭5-5-♭7 (Am: A C D E♭ E G).",
+  "A ♭5 é passagem, slide ou bend, nunca pouso.",
+  "Para achar a ♭5: 4ª + uma casa, contar três a partir da tônica ou, na diagonal, entre as duas notas mais agudas do grupo.",
+  "Na pentatônica maior, a blue note é a ♭3 (blues maior 1-2-♭3-3-5-6).",
+  "A blue note real é microtonal: um bend de ¼ de tom entre a ♭3 e a 3."
+ ],
+ "proximos_passos": "Leve a blue note para o contexto do blues em \"Solar sobre o blues\" e \"Forma e harmonia do blues\". Para combinar ♭3 e 3 com intenção, siga para \"Misturar pentatônica maior e menor\". Para refinar o microbend, estude \"Bend: mecânica, afinação e variações\". Para outros cromatismos, veja \"Aproximação cromática, enclosures e notas de passagem\".",
+ "_meta": {
+  "subcategoria": "C04.4",
+  "modulo": {
+   "id": "C04",
+   "nome": "Pentatônica e escala de blues"
+  },
+  "nome": "Blue note e escala de blues",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T14:27:45",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 18480,
+   "cache_read": 8780,
+   "output": 16161,
+   "thinking": 4003,
+   "turns": 4,
+   "custo_nominal": 0.48833100000000007
+  }
+ }
+}

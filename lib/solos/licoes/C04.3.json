@@ -1,0 +1,2090 @@
+{
+ "titulo": "Sair da caixa: diagonal, 3-2, blocos e slides",
+ "gancho": "As mesmas cinco notas que você toca na casa 5 cobrem o braço inteiro. O que falta é o caminho.",
+ "porque_importa": "O box da pentatônica é confortável. Por isso o solo fica preso em duas notas por corda e sempre na mesma oitava, como uma marcha de lado a lado. Com sistemas para atravessar o braço (blocos, diagonal 3-2, three fret shift e slides), você ganha registro, fluidez e um fraseado mais longo, sem aprender nenhuma nota nova.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "O box é a sua casa, não uma cela",
+   "texto": "Ninguém vai mandar você abandonar a caixa da casa 5. A ideia é abrir portas a partir dela. O box tem uma limitação: duas notas por corda, uma oitava e meia, sempre na mesma altura. Os sistemas desta lição usam as mesmas cinco notas e só mudam o caminho entre elas.",
+   "destaque": "Somar recursos ao box, não substituí-lo.",
+   "visual": null
+  },
+  {
+   "titulo": "Pense em pedaços: fragmentos e blocos",
+   "texto": "Em vez de decorar o shape inteiro, recorte pedaços pequenos em volta da tônica. O fragmento de seis notas (casas 5 e 7, indicador e anelar) já basta para tocar música. O bloco da tônica reúne Lá, a ♭3 (Dó) três casas acima, e a 4 e a 5 (Ré e Mi) na corda de cima. Um bloco pequeno repete o mesmo desenho em cada tônica do braço. Para passar de um bloco ao outro, use uma nota de conexão: a 5ª, a blue note ou um slide.",
+   "destaque": "Bloco pequeno, desenho fixo, várias oitavas.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Fragmento de seis notas da pentatônica de Lá menor (casas 5 e 7, só indicador e anelar), com o Lá da casa 5 na corda Mi grave como âncora",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A diagonal: um só desenho, 3 e 2 notas",
+   "texto": "Na pentatônica maior, toque 3 notas numa corda (graus 1-2-3, um tom entre elas) e 2 na corda seguinte (graus 5-6), sem mexer a mão. Depois repita a dupla a partir da nota do meio do trio. A mão sobe na diagonal e atravessa três oitavas com um único padrão. Na menor a ordem se inverte e fica 2-3: o par ♭7-1 seguido do trio ♭3-4-5. E tem um atalho: qualquer lick maior copiado 3 casas acima vira menor na mesma tônica.",
+   "destaque": "Maior = 3-2. Menor = 2-3. Mesmo desenho, ordem invertida.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá maior em diagonal 3-2: trio 1-2-3, par 5-6. Na corda Si o trio anda uma casa para a frente (10-12-14). Três oitavas, da casa 5 à 17.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 9,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 11,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 14,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 14,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A corda Si cobra uma casa, e o shift de 3 casas leva você adiante",
+   "texto": "Entre as cordas Sol e Si o intervalo é uma terça maior, não uma quarta. Por isso, ao chegar à Si, o conjunto anda uma casa em direção ao corpo. Sem isso o padrão desafina. Para mudar de região sem trocar de corda, use o three fret shift: no fim de um conjunto, suba 3 casas na mesma corda e comece o conjunto oposto (depois do trio vem o par, depois do par vem o trio). Repare que a diagonal 2-3 de Lá menor é o mesmo 'slidey box' que os bluesmen usam deslizando da casa 3 à 12.",
+   "destaque": "Chegou à corda Si? Uma casa a mais.",
+   "visual": {
+    "id": "V4",
+    "tipo": "braco",
+    "legenda": "Lá menor em diagonal 2-3 (o 'slidey box'): par ♭7-1 e trio ♭3-4-5, o mesmo desenho em três alturas. Na corda Si o par anda uma casa (8-10).",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Slides são portas",
+   "texto": "Toda nota do shape pode sair por um slide, para cima ou para baixo, até uma nota da escala na posição vizinha. Com slides, duas posições viram uma só, com várias entradas e saídas. Saia, toque um pouco na região nova e volte para a caixa. Ficar transitando é o que solta o braço. As notas continuam pentatônicas: só a geografia muda.",
+   "destaque": "Cada nota do box é uma saída de emergência.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 57,
+   "porque": "Daniel Seriff monta o 3-2 de Lá maior nota por nota, da casa 5 até a 17, em três oitavas.",
+   "fonte": {
+    "id": "4adDRnZXv5g#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+    "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=170s",
+    "video": "4adDRnZXv5g",
+    "inicio": 170,
+    "momento": "02:52",
+    "ideia": "Montar a forma de três oitavas a partir de um ponto"
+   }
+  },
+  {
+   "ref": 65,
+   "porque": "Mostra, tocando, o ponto exato em que o padrão desloca uma casa na corda Si e por que ele quebra sem esse ajuste.",
+   "fonte": {
+    "id": "Diou83hvGA4#I02",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+    "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=210s",
+    "video": "Diou83hvGA4",
+    "inicio": 210,
+    "momento": "03:32",
+    "ideia": "Compensar a corda B ao cruzar para a seguinte"
+   }
+  },
+  {
+   "ref": 81,
+   "porque": "O three fret shift em ação: do trio na corda Si até o registro agudo da Mi, sem perder o desenho.",
+   "fonte": {
+    "id": "Diou83hvGA4#I10",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+    "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=629s",
+    "video": "Diou83hvGA4",
+    "inicio": 629,
+    "momento": "10:31",
+    "ideia": "Subir para o registro agudo com three fret shift"
+   }
+  },
+  {
+   "ref": 108,
+   "porque": "Robert Rooke toca o slidey box em Lá menor e liga as três alturas do mesmo shape com slides.",
+   "fonte": {
+    "id": "q3qPxtW8T_0#I04",
+    "tipo": "video",
+    "autor": "Robert Rooke",
+    "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+    "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=133s",
+    "video": "q3qPxtW8T_0",
+    "inicio": 133,
+    "momento": "02:15",
+    "ideia": "Slidey box em Lá menor: três posições com o mesmo shape"
+   }
+  },
+  {
+   "ref": 143,
+   "porque": "Daniel Bertamini mostra os blocos coloridos conectados como uma teia que cobre o braço todo.",
+   "fonte": {
+    "id": "mD_JBfqB8X0#I04",
+    "tipo": "video",
+    "autor": "Daniel Bertamini",
+    "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+    "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=95s",
+    "video": "mD_JBfqB8X0",
+    "inicio": 95,
+    "momento": "01:37",
+    "ideia": "Três blocos conectados formam uma teia pelo braço"
+   }
+  },
+  {
+   "ref": 115,
+   "porque": "Guthrie Govan usa slides como portal entre dois shapes vizinhos de Lá menor, improvisando ao vivo.",
+   "fonte": {
+    "id": "vwudVCEDPsI#I04",
+    "tipo": "video",
+    "autor": "Licklibrary - Online Guitar Lessons",
+    "titulo": "Guthrie Govan on Breaking Out Of Scale Boxes Using Am Pentatonic | Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=vwudVCEDPsI&t=120s",
+    "video": "vwudVCEDPsI",
+    "inicio": 120,
+    "momento": "02:02",
+    "ideia": "Usar os slides como portal para a posição seguinte"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Seis notas, dois dedos",
+   "objetivo": "Fazer música com um fragmento mínimo, sem pensar no shape inteiro.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Toque o Lá da casa 5 na corda Mi grave: é a sua âncora.",
+    "Toque as casas 5 e 7 nas cordas Lá, Ré e Sol: Ré-Mi, Sol-Lá, Dó-Ré. Use só o indicador (5) e o anelar (7).",
+    "Sobre um Lá menor (ou base de Am), improvise só com essas seis notas por 2 minutos.",
+    "Termine cada frase no Lá da casa 7 da corda Ré.",
+    "Depois mova o fragmento duas casas abaixo (casas 3 e 5) sobre um Sol menor e confira que funciona igual."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Fragmento de seis notas da pentatônica de Lá menor (casas 5 e 7, só indicador e anelar), com o Lá da casa 5 na corda Mi grave como âncora",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça frases de no máximo 3 notas.",
+    "Adicione um bend de um tom no Ré (corda Sol, casa 7) até o Mi."
+   ],
+   "cuidado": "Querer usar o resto da caixa. A restrição é o exercício: seis notas e mais nada.",
+   "inspirado_em": [
+    {
+     "id": "KorP9lq1voU#I01",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=32s",
+     "video": "KorP9lq1voU",
+     "inicio": 32,
+     "momento": "00:34",
+     "ideia": "Seis notas que funcionam sobre qualquer acorde"
+    },
+    {
+     "id": "KorP9lq1voU#I04",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=164s",
+     "video": "KorP9lq1voU",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "A forma usa indicador e anelar"
+    },
+    {
+     "id": "KorP9lq1voU#I03",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=101s",
+     "video": "KorP9lq1voU",
+     "inicio": 101,
+     "momento": "01:43",
+     "ideia": "Forma de seis notas sobre A na 5ª casa"
+    }
+   ]
+  },
+  {
+   "titulo": "Um bloco, três oitavas",
+   "objetivo": "Transportar a mesma frase de quatro notas para tônicas diferentes, guiado só pelos intervalos.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a frase da tab nas cordas Mi/Lá: Lá (casa 5), Dó (casa 8), Ré e Mi (casas 5 e 7 da corda Lá).",
+    "Repita a mesma frase nas cordas Ré/Sol, a partir do Lá na casa 7: o desenho é idêntico.",
+    "Leve a frase para a terceira oitava, nas cordas Si/Mi: Lá na casa 10 da Si, Dó na 13, Ré e Mi nas casas 10 e 12 da Mi aguda.",
+    "Ligue duas oitavas com um slide: do Mi (corda Lá, casa 7) deslize até a casa 9 e já ataque o bloco seguinte.",
+    "Improvise 1 minuto trocando de oitava a cada frase."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Bloco da tônica (1, ♭3, 4, 5): a mesma frase de quatro notas nas cordas Mi/Lá (casa 5) e depois uma oitava acima, nas cordas Ré/Sol (casa 7). O desenho não muda.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Monte o bloco da ♭7 (Sol, um tom abaixo da tônica) e faça o mesmo.",
+    "Some a 5ª oitavada (Mi) ao bloco para ganhar território."
+   ],
+   "cuidado": "Achar que o bloco muda nas cordas Si/Mi. Ele não muda, porque o par Si-Mi também é uma quarta. A compensação só aparece quando o desenho cruza da Sol para a Si.",
+   "inspirado_em": [
+    {
+     "id": "mrKDTl6zDOM#I02",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=168s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 168,
+     "momento": "02:50",
+     "ideia": "Bloco da tônica: terça menor, quarta e quinta"
+    },
+    {
+     "id": "mrKDTl6zDOM#I03",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=202s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Fazer música com quatro notas do bloco"
+    },
+    {
+     "id": "mrKDTl6zDOM#I08",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=337s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 337,
+     "momento": "05:39",
+     "ideia": "Colorir tônicas e oitavar o bloco"
+    },
+    {
+     "id": "mrKDTl6zDOM#I17",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=864s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 864,
+     "momento": "14:26",
+     "ideia": "Oitavar a quinta pelo braço"
+    },
+    {
+     "id": "mD_JBfqB8X0#I32",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+     "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=1388s",
+     "video": "mD_JBfqB8X0",
+     "inicio": 1388,
+     "momento": "23:10",
+     "ideia": "Criar uma frase num bloco e levá-la a outro"
+    }
+   ]
+  },
+  {
+   "titulo": "Diagonal 3-2 de Lá maior em três oitavas",
+   "objetivo": "Fixar o padrão 3-2 e a compensação da corda Si, subindo e descendo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Corda Mi grave: Lá-Si-Dó♯ nas casas 5-7-9 (graus 1-2-3).",
+    "Corda Lá: Mi-Fá♯ nas casas 7-9 (graus 5-6).",
+    "Corda Ré: trio nas casas 7-9-11. Corda Sol: par nas casas 9-11.",
+    "Corda Si: trio uma casa adiante, nas casas 10-12-14. Corda Mi aguda: par nas casas 12-14 e termine no Lá da casa 17.",
+    "Desça invertendo o caminho: par, trio, par... Diga 'uma casa!' em voz alta ao passar da Si para a Sol.",
+    "Com metrônomo a 60 bpm em colcheias, faça 3 subidas e descidas sem erro antes de acelerar."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá maior em diagonal 3-2: trio 1-2-3, par 5-6. Na corda Si o trio anda uma casa para a frente (10-12-14). Três oitavas, da casa 5 à 17.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 9,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 11,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 14,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 14,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 17,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Comece no Sol (casa 3 da Mi grave) e toque Sol maior com o mesmo desenho.",
+    "Faça só a meia diagonal Ré→Si, que é a região mais usada."
+   ],
+   "cuidado": "Esquecer a casa a mais na corda Si, principalmente na descida, ao voltar para a corda Sol.",
+   "inspirado_em": [
+    {
+     "id": "4adDRnZXv5g#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=100s",
+     "video": "4adDRnZXv5g",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Conjunto de 3 notas = graus 1, 2 e 3 da pentatônica maior"
+    },
+    {
+     "id": "4adDRnZXv5g#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=134s",
+     "video": "4adDRnZXv5g",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Conjunto de 2 notas = graus 5 e 6 da pentatônica maior"
+    },
+    {
+     "id": "4adDRnZXv5g#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=170s",
+     "video": "4adDRnZXv5g",
+     "inicio": 170,
+     "momento": "02:52",
+     "ideia": "Montar a forma de três oitavas a partir de um ponto"
+    },
+    {
+     "id": "4adDRnZXv5g#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=465s",
+     "video": "4adDRnZXv5g",
+     "inicio": 465,
+     "momento": "07:47",
+     "ideia": "Subir o padrão até a 17ª casa da corda E aguda"
+    },
+    {
+     "id": "4adDRnZXv5g#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=498s",
+     "video": "4adDRnZXv5g",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Descer o padrão alternando 3 e 2 notas"
+    },
+    {
+     "id": "Diou83hvGA4#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=210s",
+     "video": "Diou83hvGA4",
+     "inicio": 210,
+     "momento": "03:32",
+     "ideia": "Compensar a corda B ao cruzar para a seguinte"
+    },
+    {
+     "id": "4adDRnZXv5g#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Open Up The Fretboard With The \"3-2 System\"",
+     "url": "https://www.youtube.com/watch?v=4adDRnZXv5g&t=498s",
+     "video": "4adDRnZXv5g",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Cuidado com a passagem da corda B para a G"
+    }
+   ]
+  },
+  {
+   "titulo": "Maior vira menor: três casas acima",
+   "objetivo": "Perceber que o mesmo desenho dá maior ou menor conforme o lugar, e copiar licks pelo braço.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Sobre um acorde de Lá maior, toque o lick dos dois primeiros compassos (cordas Ré e Sol, casa 7).",
+    "Copie o lick exatamente 3 casas acima (casa 10) e toque sobre Lá menor.",
+    "Compare: as mesmas distâncias soam alegres no primeiro e melancólicas no segundo.",
+    "Repare que o Lá, a tônica, agora está no topo do par (corda Sol, casa 14).",
+    "Crie um lick seu de 5 a 7 notas e faça a mesma cópia."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Mesmo lick, dois sabores. Em Lá maior (3-2, casa 7) e depois copiado exatamente 3 casas acima, onde vira Lá menor.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 11,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 11,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 12,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 14,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 14,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o caminho inverso: lick em Lá menor, 3 casas abaixo, sobre Lá maior.",
+    "No trio menor, a blue note fica entre as duas notas mais agudas (Mi♭, entre Ré e Mi). Inclua-a."
+   ],
+   "cuidado": "Copiar o lick 3 casas acima e continuar tocando sobre Lá maior. A cópia só soa certa sobre o acorde menor.",
+   "inspirado_em": [
+    {
+     "id": "Ork2Vc2bva8#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=136s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Pentatônica menor diagonal de uma oitava"
+    },
+    {
+     "id": "WNtvx2q2CrI#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=398s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "E maior diagonal na 5ª casa da corda B"
+    },
+    {
+     "id": "WNtvx2q2CrI#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=432s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 432,
+     "momento": "07:14",
+     "ideia": "Repetir o procedimento com E na 7ª casa da corda A"
+    },
+    {
+     "id": "WNtvx2q2CrI#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=537s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 537,
+     "momento": "08:59",
+     "ideia": "Copiar e colar licks por todo o braço"
+    },
+    {
+     "id": "WNtvx2q2CrI#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=465s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 465,
+     "momento": "07:47",
+     "ideia": "Intervalos iguais em todos os padrões da diagonal"
+    },
+    {
+     "id": "Diou83hvGA4#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=664s",
+     "video": "Diou83hvGA4",
+     "inicio": 664,
+     "momento": "11:06",
+     "ideia": "Inserir a blue note entre as duas notas agudas do conjunto de três"
+    }
+   ]
+  },
+  {
+   "titulo": "Slidey box: da casa 3 à 12 numa frase",
+   "objetivo": "Atravessar três alturas do mesmo desenho 2-3 com slides, em vez de trocar de caixa por saltos.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Entre com slide no Lá: casa 3 → 5 na corda Mi grave (♭7 → 1).",
+    "Corda Lá: Dó e Ré nas casas 3 e 5, depois deslize até o Mi na casa 7.",
+    "Repita o desenho mais acima: par Sol-Lá na corda Ré (5-7) e trio na corda Sol (5-7-9).",
+    "Na corda Si, o par anda uma casa (8-10). Pouse no Lá e respire.",
+    "Termine com o trio na Mi aguda (8-10-12) e volte ao Lá da casa 10 da Si.",
+    "Depois toque a frase de trás para frente, descendo com slides."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Subida diagonal em Lá menor, da casa 3 à 12. Entre na casa 5 com slide desde a 3 e deslize da 5 para a 7 na corda Lá. O pouso vem na corda Si.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Pule uma altura: vá direto da corda Lá para a corda Si.",
+    "Troque o slide da corda Lá por um bend de um tom no Ré (casa 5) até o Mi."
+   ],
+   "cuidado": "Atacar a nota de chegada do slide com a palheta. Deixe o slide fazer a nota soar, para a frase fluir em legato.",
+   "inspirado_em": [
+    {
+     "id": "q3qPxtW8T_0#I01",
+     "tipo": "video",
+     "autor": "Robert Rooke",
+     "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+     "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=33s",
+     "video": "q3qPxtW8T_0",
+     "inicio": 33,
+     "momento": "00:35",
+     "ideia": "Slidey box: um só shape deslizando pelo braço"
+    },
+    {
+     "id": "q3qPxtW8T_0#I03",
+     "tipo": "video",
+     "autor": "Robert Rooke",
+     "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+     "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=100s",
+     "video": "q3qPxtW8T_0",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Começar um pouco antes da caixa e entrar com slide"
+    },
+    {
+     "id": "q3qPxtW8T_0#I04",
+     "tipo": "video",
+     "autor": "Robert Rooke",
+     "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+     "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=133s",
+     "video": "q3qPxtW8T_0",
+     "inicio": 133,
+     "momento": "02:15",
+     "ideia": "Slidey box em Lá menor: três posições com o mesmo shape"
+    },
+    {
+     "id": "q3qPxtW8T_0#I07",
+     "tipo": "video",
+     "autor": "Robert Rooke",
+     "titulo": "BREAK OUT OF THE PENTATONIC BOX (a guide to fretboard “mastery”) blues guitar lesson",
+     "url": "https://www.youtube.com/watch?v=q3qPxtW8T_0&t=275s",
+     "video": "q3qPxtW8T_0",
+     "inicio": 275,
+     "momento": "04:37",
+     "ideia": "Misture, pule e combine as caixas livremente"
+    },
+    {
+     "id": "SYE8tDSLU0k#I21",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=1247s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 1247,
+     "momento": "20:49",
+     "ideia": "Slides na corda de Si para mudar de posição"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma corda só, com o three fret shift",
+   "objetivo": "Fixar o salto de 3 casas e aprender a cruzar o braço inteiro numa única corda.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Na corda Sol, em Lá menor: par Sol-Lá (casas 0-2), trio Dó-Ré-Mi (5-7-9), par Sol-Lá (12-14), trio Dó-Ré (17-19).",
+    "Toque a tab: suba com o shift, faça uma pausa, explore o agudo e desça até o Lá da casa 2.",
+    "Faça cada salto de 3 casas com slide do mesmo dedo.",
+    "Improvise 2 minutos só na corda Sol sobre uma base de Am.",
+    "Repita na corda Ré: o par fica nas casas 5-7 e o trio nas 10-12-14."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Three fret shift numa corda só (corda Sol, Lá menor): trio 5-7-9, salto de 3 casas, par 12-14, salto de 3 casas, trio 17-19. Faça cada salto com slide do mesmo dedo.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 17,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 19,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 17,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Duas cordas: Sol e Si. Lembre que a Si pede uma casa a mais.",
+    "Toque cada frase com ritmo diferente: semínimas, colcheias, uma nota longa."
+   ],
+   "cuidado": "Saltar 2 ou 4 casas no shift. Entre conjuntos o salto é sempre de 3 casas (tom e meio), de Mi para Sol ou de Lá para Dó.",
+   "inspirado_em": [
+    {
+     "id": "Diou83hvGA4#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=244s",
+     "video": "Diou83hvGA4",
+     "inicio": 244,
+     "momento": "04:06",
+     "ideia": "Three fret shift: deslocamento de três casas"
+    },
+    {
+     "id": "Diou83hvGA4#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=420s",
+     "video": "Diou83hvGA4",
+     "inicio": 420,
+     "momento": "07:02",
+     "ideia": "Trocar sempre para o conjunto oposto no shift"
+    },
+    {
+     "id": "Diou83hvGA4#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=629s",
+     "video": "Diou83hvGA4",
+     "inicio": 629,
+     "momento": "10:31",
+     "ideia": "Subir para o registro agudo com three fret shift"
+    },
+    {
+     "id": "Diou83hvGA4#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=313s",
+     "video": "Diou83hvGA4",
+     "inicio": 313,
+     "momento": "05:15",
+     "ideia": "Conectar frases ao longo de uma só corda ao deslizar com um dedo"
+    },
+    {
+     "id": "Diou83hvGA4#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this every day to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=Diou83hvGA4&t=721s",
+     "video": "Diou83hvGA4",
+     "inicio": 721,
+     "momento": "12:03",
+     "ideia": "Constraint: solar em uma única corda com three fret shift"
+    }
+   ]
+  },
+  {
+   "titulo": "Viagem pelo braço com backing track",
+   "objetivo": "Juntar fragmentos, diagonal e slides num improviso que não volta a uma caixa fixa.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Coloque uma base em Lá menor (lenta, 70–80 bpm).",
+    "Volta 1: comece no box da casa 5, saia por um slide para a posição vizinha e volte.",
+    "Volta 2: comece na região grave (casas 3-5) e termine na região aguda (casas 12-17) usando a diagonal 2-3.",
+    "Volta 3: faça o caminho contrário, descendo com o three fret shift e com subidas curtas no meio da descida.",
+    "Volta 4: escolha uma frase curta e leve-a para outra oitava pelo mesmo desenho.",
+    "Grave e confira: quantas regiões do braço você usou?"
+   ],
+   "visual": null,
+   "variacoes": [
+    "Diga em voz alta o sistema que está usando (bloco, diagonal, slide, shift).",
+    "Use só duas ou três cordas vizinhas, mas atravessando o braço todo."
+   ],
+   "cuidado": "Correr de uma ponta à outra sem música. Faça pausas e pouse nas notas do acorde em cada região.",
+   "inspirado_em": [
+    {
+     "id": "vwudVCEDPsI#I04",
+     "tipo": "video",
+     "autor": "Licklibrary - Online Guitar Lessons",
+     "titulo": "Guthrie Govan on Breaking Out Of Scale Boxes Using Am Pentatonic | Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=vwudVCEDPsI&t=120s",
+     "video": "vwudVCEDPsI",
+     "inicio": 120,
+     "momento": "02:02",
+     "ideia": "Usar os slides como portal para a posição seguinte"
+    },
+    {
+     "id": "vwudVCEDPsI#I05",
+     "tipo": "video",
+     "autor": "Licklibrary - Online Guitar Lessons",
+     "titulo": "Guthrie Govan on Breaking Out Of Scale Boxes Using Am Pentatonic | Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=vwudVCEDPsI&t=163s",
+     "video": "vwudVCEDPsI",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Aumentar a ambição: cobrir mais ramais do braço"
+    },
+    {
+     "id": "fZ7nVnhm3VE#I10",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Connect All 5 Pentatonic Scale Positions With This Hidden Pathway - Lead Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=fZ7nVnhm3VE&t=335s",
+     "video": "fZ7nVnhm3VE",
+     "inicio": 335,
+     "momento": "05:37",
+     "ideia": "Sair da trilha em pontos de parada"
+    },
+    {
+     "id": "fZ7nVnhm3VE#I15",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Connect All 5 Pentatonic Scale Positions With This Hidden Pathway - Lead Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=fZ7nVnhm3VE&t=538s",
+     "video": "fZ7nVnhm3VE",
+     "inicio": 538,
+     "momento": "09:00",
+     "ideia": "Improvisar com a trilha e saltar para outras formas"
+    },
+    {
+     "id": "fwyn5tQdF4k#I11",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "Stop Thinking in Scales: why your solos sound boring",
+     "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=508s",
+     "video": "fwyn5tQdF4k",
+     "inicio": 508,
+     "momento": "08:30",
+     "ideia": "Linha descendente com subidas intercaladas"
+    },
+    {
+     "id": "-htAGli1YeY#I21",
+     "tipo": "video",
+     "autor": "Jeff McErlain",
+     "titulo": "How To Break Out Of The Pentatonic Box For Good.",
+     "url": "https://www.youtube.com/watch?v=-htAGli1YeY&t=554s",
+     "video": "-htAGli1YeY",
+     "inicio": 554,
+     "momento": "09:16",
+     "ideia": "Jam pela pentatônica em várias cordas"
+    },
+    {
+     "id": "mD_JBfqB8X0#I34",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Por que seu IMPROVISO na Pentatônica NUNCA soa PROFISSIONAL I O Segredo",
+     "url": "https://www.youtube.com/watch?v=mD_JBfqB8X0&t=1535s",
+     "video": "mD_JBfqB8X0",
+     "inicio": 1535,
+     "momento": "25:37",
+     "ideia": "Identificar o bloco enquanto toca"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Achar que sair da caixa exige notas novas. As notas são as mesmas cinco, só o caminho muda.",
+  "Esquecer de deslocar uma casa na corda Si, principalmente na descida da Si para a Sol.",
+  "Trocar a ordem dos conjuntos: maior é 3-2 (trio 1-2-3) e menor é 2-3 (par ♭7-1).",
+  "No three fret shift, saltar 2 ou 4 casas em vez de 3.",
+  "Usar a diagonal como escala para cima e para baixo, sem frase e sem pausa.",
+  "Abandonar o box. Ele continua sendo o ponto de partida e de volta."
+ ],
+ "resumo": [
+  "Fragmentos e blocos pequenos repetem o mesmo desenho em cada tônica, e uma nota de conexão liga um ao outro.",
+  "Diagonal: maior 3-2 (1-2-3 + 5-6), menor 2-3 (♭7-1 + ♭3-4-5). Um desenho só cobre três oitavas.",
+  "Copiar um lick 3 casas acima transforma maior em menor na mesma tônica.",
+  "Na corda Si o desenho anda uma casa. O three fret shift troca de conjunto na mesma corda.",
+  "Slides são portas entre posições: saia, explore e volte."
+ ],
+ "proximos_passos": "Para ligar os sistemas desta lição às posições tradicionais, revise \"Os cinco shapes e como conectá-los\". Para refinar a técnica dos slides e do legato entre posições, siga para \"Slides, hammer-ons, pull-offs e legato\". Para colocar a nota extra no trio da diagonal, vá para \"Blue note e escala de blues\". Para transformar o deslocamento pelo braço em discurso, estude \"Motivo, repetição e desenvolvimento motívico\".",
+ "_meta": {
+  "subcategoria": "C04.3",
+  "modulo": {
+   "id": "C04",
+   "nome": "Pentatônica e escala de blues"
+  },
+  "nome": "Sair da caixa: diagonal, 3-2, blocos e slides",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T14:25:27",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 35084,
+   "cache_read": 4913,
+   "output": 17091,
+   "thinking": 5940,
+   "turns": 2,
+   "custo_nominal": 0.6508886
+  }
+ }
+}
