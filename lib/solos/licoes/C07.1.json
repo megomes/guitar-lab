@@ -1,0 +1,2284 @@
+{
+ "titulo": "Da escala à frase: fundamentos do fraseado",
+ "gancho": "Você não precisa de uma escala nova. Precisa parar de recitar o alfabeto e começar a dizer frases.",
+ "porque_importa": "Quase todo solo que soa como exercício tem a mesma causa: a escala tocada em fila, sem destino e sem pausa. Fraseado é o que transforma as mesmas cinco notas em música, e conta mais do que escolher a escala ou tocar muitas notas. Nesta lição você aprende a sair da escala e chegar à frase sem sair da pentatônica que já conhece.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "Fraseado é o como, não o quê",
+   "texto": "A escala é só uma lista de notas: não tem ritmo, não tem bend, não tem respiração. O fraseado é o resto, ou seja, quando a nota entra, quanto dura, com que força, para onde vai e quando você para. Duas pessoas com a mesma pentatônica soam como dois mundos, e a diferença está toda no como.",
+   "destaque": "A escala diz quais notas funcionam. O fraseado diz o que fazer com elas.",
+   "visual": null
+  },
+  {
+   "titulo": "Escala é alfabeto, frase é sentença",
+   "texto": "Notas são letras, grupos curtos são palavras e frases são sentenças com começo, meio e fim. Ninguém fala recitando o alfabeto sem parar para respirar. Uma frase começa em algum lugar, passa por um caminho e termina num ponto que soa como ponto final, muitas vezes uma nota do acorde. Compare V2 com V3: são as mesmas notas, mas uma é lista e a outra é sentença.",
+   "destaque": "Pense em sentenças de 3 a 6 notas, não em nota após nota.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As mesmas notas viram frase: começa no meio da escala (4), sobe até o ♭7, respira e desce até a tônica, que é o ponto final.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Os dois vícios: escada e noodling",
+   "texto": "Primeiro vício: subir e descer a caixa em ordem, da Mi grave à Mi aguda e de volta, em colcheias iguais (V2). Serve para decorar o desenho, mas no solo soa como frase sem vírgula. Segundo vício: o noodling, que é ligar a base e sair tocando qualquer nota que cai sob os dedos. Não é falta de talento, é falta de destino. O remédio para os dois é o mesmo: decidir onde a frase termina e parar quando chegar lá.",
+   "destaque": "Noodling não é falta de talento, é falta de destino.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O vício: a escala em fila, em colcheias, sem pausa e sem destino. Está tecnicamente certo, mas soa como exercício.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Mesma caixa, frases infinitas",
+   "texto": "Para a linha deixar de soar como escala, basta mexer em um elemento por vez: mudar a direção num ponto inesperado, pular uma nota, repetir uma nota, começar no meio da caixa em vez da tônica ou terminar numa nota diferente. Cada escolha gera outra frase sem sair do shape 1 (V1). E quando você chega no topo e acha que a escala acabou, ela não acabou: continue a partir da última nota tocada.",
+   "destaque": "Mude uma coisa só e a escala vira melodia.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Uma mudança por vez. Compasso 1: linha em ordem. 2: só muda a direção. 3: só um salto. 4: só uma nota repetida.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Não troque de escala, troque de jeito",
+   "texto": "Quando o solo soa mecânico, a tentação é buscar outra escala ou um modo secreto. Só que modo novo traz notas novas, não fraseado, e quem aprende modos sem fraseado volta tocando sequências mais longas. Procure a música dentro da pentatônica que você já domina. Também vale a regra da melodia antes da velocidade: uma frase simples tocada com convicção ganha de uma rajada sem intenção.",
+   "destaque": "Uma frase simples com intenção vale mais que uma escala nova.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 17,
+   "porque": "Emanuel Hedberg mostra o rabisco de subir e descer a pentatônica e, logo depois, a mesma caixa tocada como frases de blues.",
+   "fonte": {
+    "id": "2xR1QJfawjg#I01",
+    "tipo": "video",
+    "autor": "Emanuel Hedberg",
+    "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+    "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=30s",
+    "video": "2xR1QJfawjg",
+    "inicio": 30,
+    "momento": "00:32",
+    "ideia": "Rabiscar a escala para cima e para baixo"
+   }
+  },
+  {
+   "ref": 137,
+   "porque": "Paul Davids toca uma linha que desce com pequenas subidas no caminho e mostra como isso já soa mais musical que a escala em ordem.",
+   "fonte": {
+    "id": "fwyn5tQdF4k#I11",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "Stop Thinking in Scales: why your solos sound boring",
+    "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=508s",
+    "video": "fwyn5tQdF4k",
+    "inicio": 508,
+    "momento": "08:30",
+    "ideia": "Linha descendente com subidas intercaladas"
+   }
+  },
+  {
+   "ref": 138,
+   "porque": "Andrew Clarke demonstra como gerar frases infinitas no mesmo desenho variando onde inverte a direção, que nota pula e qual nota destaca.",
+   "fonte": {
+    "id": "930K2lldQD8#I12",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "How to Get “Good” At Improvising on Guitar",
+    "url": "https://www.youtube.com/watch?v=930K2lldQD8&t=453s",
+    "video": "930K2lldQD8",
+    "inicio": 453,
+    "momento": "07:35",
+    "ideia": "Gerar frases infinitas variando pontos de inversão, notas puladas e ênfase"
+   }
+  },
+  {
+   "ref": 145,
+   "porque": "Samjamguitar transforma a pentatônica de Lá menor em solo ao vivo mudando início, fim, repetição, duração e dinâmica.",
+   "fonte": {
+    "id": "b1mdrlngTnA#I07",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=170s",
+    "video": "b1mdrlngTnA",
+    "inicio": 170,
+    "momento": "02:52",
+    "ideia": "Variar início, fim e dinâmica da escala"
+   }
+  },
+  {
+   "ref": 36,
+   "porque": "Daniel Seriff mostra o noodling sobre a base e explica por que a saída é definir partida e chegada antes de tocar.",
+   "fonte": {
+    "id": "On_Ho3azaLk#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=208s",
+    "video": "On_Ho3azaLk",
+    "inicio": 208,
+    "momento": "03:30",
+    "ideia": "Noodling sem direção sobre o backing track"
+   }
+  },
+  {
+   "ref": 183,
+   "porque": "GuitarLessonsVancouver toca os quatro primeiros compassos de um blues em Lá divididos em duas frases de dois compassos, com respiro entre elas.",
+   "fonte": {
+    "id": "LNe3bdHBdp4#I04",
+    "tipo": "video",
+    "autor": "GuitarLessonsVancouver",
+    "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+    "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=142s",
+    "video": "LNe3bdHBdp4",
+    "inicio": 142,
+    "momento": "02:24",
+    "ideia": "Dividir os 4 compassos do I em duas frases"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Lista × sentença: o diagnóstico",
+   "objetivo": "Ouvir no próprio som a diferença entre correr a escala e dizer uma frase, e descobrir quanto do seu improviso é escada.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque V2 com o app a 80 bpm: a caixa em fila, sem pausa. Repare como soa.",
+    "Toque V3: as mesmas notas, começando no D, com respiro no meio e ponto final no Lá.",
+    "Ligue uma base em Lá menor e grave 1 minuto de improviso livre, sem pensar.",
+    "Ouça a gravação e marque cada trecho de 4 ou mais notas seguidas em ordem de escala.",
+    "Escolha um desses trechos e reescreva-o como V3: comece em outra nota, coloque uma pausa no meio e termine numa nota longa."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As mesmas notas viram frase: começa no meio da escala (4), sobe até o ♭7, respira e desce até a tônica, que é o ponto final.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com a escala de blues ou com a pentatônica em outra posição.",
+    "Conte quantas notas o seu trecho de escada tem e corte pela metade na versão-frase."
+   ],
+   "cuidado": "Na versão-frase, não pule a pausa só porque ela parece estranha. Sem silêncio a frase não tem ponto final e vira escada de novo.",
+   "inspirado_em": [
+    {
+     "id": "Pr1HbFvB-9s#I01",
+     "tipo": "video",
+     "autor": "Guitar With Bert",
+     "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+     "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s&t=0s",
+     "video": "Pr1HbFvB-9s",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Tratar a pentatônica como escada da Mi grave à Mi aguda"
+    },
+    {
+     "id": "kkr107pBAAs#I03",
+     "tipo": "video",
+     "autor": "Rustys Guitar",
+     "titulo": "HOW I WISH guitar soloing was explained to me as a beginner",
+     "url": "https://www.youtube.com/watch?v=kkr107pBAAs&t=65s",
+     "video": "kkr107pBAAs",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Ficar preso a subir e descer a escala"
+    },
+    {
+     "id": "2xR1QJfawjg#I01",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=30s",
+     "video": "2xR1QJfawjg",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Rabiscar a escala para cima e para baixo"
+    },
+    {
+     "id": "_kK1_apm-qs#I02",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Land on THESE notes when improvising lead guitar - Guitar Lesson - EP527",
+     "url": "https://www.youtube.com/watch?v=_kK1_apm-qs&t=32s",
+     "video": "_kK1_apm-qs",
+     "inicio": 32,
+     "momento": "00:34",
+     "ideia": "Solo como frase sem pontuação"
+    },
+    {
+     "id": "UG_P4KNw0XM#I01",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=0s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Tocar a pentatônica só subindo e descendo nota por nota"
+    }
+   ]
+  },
+  {
+   "titulo": "Passeio a um passo (meandering)",
+   "objetivo": "Soltar a mão do desenho decorado e andar pelas notas em qualquer ordem, ouvindo cada passo.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Suba e desça a caixa do V1 uma única vez, só para acordar a mão.",
+    "Toque o C da corda Sol (casa 5) e espere. Não toque a próxima nota antes de ela aparecer na cabeça.",
+    "Mova-se sempre para a nota vizinha da escala, para cima ou para baixo, mudando de direção quando quiser.",
+    "Varie a duração: algumas notas curtas e outras longas, sem métrica fixa.",
+    "Se uma nota soar mal, vá para a vizinha. Quase sempre há uma nota boa a um passo.",
+    "Quando a ideia acabar, pare e recomece de outra nota."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5 a 8): o mapa das notas. As frases desta lição moram aqui.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o passeio só nas cordas Sol, Si e Mi aguda.",
+    "Use as notas de Mi menor natural (E F♯ G A B C D) na região da casa 7.",
+    "Faça sobre a base, deixando a harmonia sugerir a próxima nota."
+   ],
+   "cuidado": "Correr. O passeio é lento de propósito: a pausa entre as notas é onde você escolhe a próxima. Se virar fluxo automático, voltou ao noodling.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I08",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variar a ordem das notas dentro do padrão"
+    },
+    {
+     "id": "KorP9lq1voU#I06",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=231s",
+     "video": "KorP9lq1voU",
+     "inicio": 231,
+     "momento": "03:53",
+     "ideia": "Meandering: movimentar-se pelas notas"
+    },
+    {
+     "id": "yb9PBaQngn4#I09",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=234s",
+     "video": "yb9PBaQngn4",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "Improvisar a partir de uma nota Dó"
+    },
+    {
+     "id": "wEMMddpcIe0#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=385s",
+     "video": "wEMMddpcIe0",
+     "inicio": 385,
+     "momento": "06:27",
+     "ideia": "Mover uma nota para a vizinha"
+    },
+    {
+     "id": "TDhrEDRMxKw#I01",
+     "tipo": "video",
+     "autor": "Beyond The Guitar",
+     "titulo": "Fingerstyle Improvisation in 4 Simple Steps",
+     "url": "https://www.youtube.com/watch?v=TDhrEDRMxKw&t=3s",
+     "video": "TDhrEDRMxKw",
+     "inicio": 3,
+     "momento": "00:05",
+     "ideia": "Improvisar melodias com as notas de Mi menor"
+    },
+    {
+     "id": "ea2g6P0pCKg#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=196s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 196,
+     "momento": "03:18",
+     "ideia": "Caminhar pela escala antes de montar frases"
+    }
+   ]
+  },
+  {
+   "titulo": "Mude uma coisa só",
+   "objetivo": "Aprender a desmontar a linearidade da escala variando um único elemento de cada vez.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o compasso 1 do V4: A–G–E–D descendo em ordem. Essa é a sua linha base.",
+    "Compasso 2: a mesma linha, mas ela volta para cima no fim (A–G–E–G). Só a direção mudou.",
+    "Compasso 3: mantenha a direção e pule o G (A–E–D–C). Só entrou um salto.",
+    "Compasso 4: repita o primeiro A (A–A–G–E). Só entrou uma repetição.",
+    "Agora crie você uma linha base de 4 notas em outra região do V1 e aplique as três mudanças nela, uma por vez.",
+    "Por último, mude o ponto de partida: comece a mesma linha no C ou no G em vez do A."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Uma mudança por vez. Compasso 1: linha em ordem. 2: só muda a direção. 3: só um salto. 4: só uma nota repetida.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mude só a nota que recebe ênfase, tocando-a mais forte e mais longa.",
+    "Faça uma linha que desce no geral, mas sobe uma nota a cada dois passos."
+   ],
+   "cuidado": "Mudar tudo ao mesmo tempo. Se a direção, o ritmo e as notas mudam juntos, você não aprende qual escolha fez a diferença.",
+   "inspirado_em": [
+    {
+     "id": "hlA3fv1Jq5I#I14",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Exercício para melhorar a improvisação - Pare de subir e descer escalas.",
+     "url": "https://www.youtube.com/watch?v=hlA3fv1Jq5I&t=558s",
+     "video": "hlA3fv1Jq5I",
+     "inicio": 558,
+     "momento": "09:20",
+     "ideia": "Pare de só subir e descer a escala"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I01",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=174s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 174,
+     "momento": "02:56",
+     "ideia": "Mudar apenas um aspecto da linha"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I13",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Repetir notas para sair da rotina"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I15",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mudar de direção na escala"
+    },
+    {
+     "id": "fwyn5tQdF4k#I11",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "Stop Thinking in Scales: why your solos sound boring",
+     "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=508s",
+     "video": "fwyn5tQdF4k",
+     "inicio": 508,
+     "momento": "08:30",
+     "ideia": "Linha descendente com subidas intercaladas"
+    },
+    {
+     "id": "930K2lldQD8#I12",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "How to Get “Good” At Improvising on Guitar",
+     "url": "https://www.youtube.com/watch?v=930K2lldQD8&t=453s",
+     "video": "930K2lldQD8",
+     "inicio": 453,
+     "momento": "07:35",
+     "ideia": "Gerar frases infinitas variando pontos de inversão, notas puladas e ênfase"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I28",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mudar uma coisa de cada vez quando o solo ficar repetitivo"
+    },
+    {
+     "id": "dQZXiPA5wac#I01",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=30s",
+     "video": "dQZXiPA5wac",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Começar a frase em pontos diferentes da escala"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I08",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=261s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 261,
+     "momento": "04:23",
+     "ideia": "Não começar frases sempre na fundamental"
+    }
+   ]
+  },
+  {
+   "titulo": "Destino antes de sair",
+   "objetivo": "Curar o noodling escolhendo a nota de chegada antes de tocar a frase.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Ligue a base em Lá menor e ouça dois compassos sem tocar.",
+    "Escolha o destino em voz alta: 'vou terminar no E da corda Si'.",
+    "Toque de 2 a 4 notas até ele e segure o destino até o fim do compasso. Depois pare (compasso 1 do V5).",
+    "Escolha outro destino, o C agudo, e chegue nele por outro caminho (compasso 2).",
+    "Terceiro destino: a tônica Lá na corda Ré (compasso 3). Depois descanse um compasso inteiro (compasso 4).",
+    "Repita o ciclo sobre a base inventando caminhos novos para os mesmos três destinos."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Destino antes de sair: três frases curtas, cada uma com uma nota de chegada escolhida antes (anel). O último compasso fica vazio de propósito.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Sorteie o destino entre as cinco notas da pentatônica.",
+    "Mantenha um destino fixo por um minuto e mude só o caminho até ele."
+   ],
+   "cuidado": "Escolher o destino e passar direto por ele. Chegou, segurou, parou: a frase termina ali.",
+   "inspirado_em": [
+    {
+     "id": "On_Ho3azaLk#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=208s",
+     "video": "On_Ho3azaLk",
+     "inicio": 208,
+     "momento": "03:30",
+     "ideia": "Noodling sem direção sobre o backing track"
+    },
+    {
+     "id": "Ork2Vc2bva8#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=169s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 169,
+     "momento": "02:51",
+     "ideia": "Começar a tocar (noodling) assim que o backing track entra"
+    },
+    {
+     "id": "0DiKyaXf71E#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "You’ll NEVER Noodle Again After Using THIS Secret System",
+     "url": "https://www.youtube.com/watch?v=0DiKyaXf71E&t=4s",
+     "video": "0DiKyaXf71E",
+     "inicio": 4,
+     "momento": "00:06",
+     "ideia": "Noodling é falta de alvo"
+    },
+    {
+     "id": "0MLUiyPWt8s#I09",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=373s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Subir e descer a escala sem destino"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I14",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=689s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 689,
+     "momento": "11:31",
+     "ideia": "Notas de repouso para começar o improviso"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I26",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=1056s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 1056,
+     "momento": "17:38",
+     "ideia": "Começar o solo com intenção"
+    }
+   ]
+  },
+  {
+   "titulo": "A escala não acabou",
+   "objetivo": "Prolongar a ideia continuando da última nota tocada, em vez de travar no topo da caixa.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a frase do compasso 1 do V6 (A–C–D–E) e segure o E.",
+    "Continue exatamente dessa nota: o compasso 2 começa no E e sobe até o C agudo.",
+    "No topo, não pare: o compasso 3 começa no C e desce.",
+    "O compasso 4 leva a frase para casa, na tônica Lá.",
+    "Agora improvise sobre a base: toque 4 notas, pare, e a próxima frase sempre começa na nota onde a anterior terminou."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "A escala não acabou: cada compasso começa na nota onde o anterior parou. Sobe até o topo e volta descendo para casa.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece a continuação um semitom de escala acima ou abaixo da última nota.",
+    "Faça 8 frases seguidas sem tirar a mão da região da casa 5 a 8."
+   ],
+   "cuidado": "Pular para outro lugar do braço para recomeçar do zero. A graça é que a frase nova nasce da anterior, sem pressa.",
+   "inspirado_em": [
+    {
+     "id": "fJs5AALy4GY#I13",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1207s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1207,
+     "momento": "20:09",
+     "ideia": "Continuar a frase a partir do ponto de parada"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I17",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=763s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 763,
+     "momento": "12:45",
+     "ideia": "Descer de novo ao chegar no topo da pentatônica"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I02",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=77s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 77,
+     "momento": "01:19",
+     "ideia": "Achar que a escala acabou ao subir o padrão uma vez"
+    },
+    {
+     "id": "b1mdrlngTnA#I07",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=170s",
+     "video": "b1mdrlngTnA",
+     "inicio": 170,
+     "momento": "02:52",
+     "ideia": "Variar início, fim e dinâmica da escala"
+    }
+   ]
+  },
+  {
+   "titulo": "Sentenças de dois compassos no blues",
+   "objetivo": "Organizar as frases pela forma, tratando cada grupo de dois compassos como uma sentença com ponto final.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Use uma base de blues em Lá a 70–80 bpm e toque o V7 junto com os quatro primeiros compassos.",
+    "Frase 1 (compassos 1–2): entre depois do tempo 1, chegue no Lá e pare.",
+    "Frase 2 (compassos 3–4): comece parecido com a primeira, suba um pouco mais e termine de novo no Lá.",
+    "Agora crie as suas duas frases, sempre com respiro entre elas.",
+    "Compassos 5–6 (D7): faça uma frase com material diferente das anteriores. A troca de acorde pede contraste.",
+    "Encadeie os 8 primeiros compassos: quatro sentenças, quatro pontos finais.",
+    "Extensão: faça uma frase única do compasso 5 ao 8, do D7 até o A7."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Primeiros 4 compassos de um blues em Lá: duas sentenças de dois compassos, as duas terminando na tônica, com respiro entre elas. A segunda começa como a primeira e sobe um pouco mais.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine a primeira frase no E (5) em vez do Lá, para soar como vírgula, e a segunda na tônica, como ponto final.",
+    "Depois que os dois compassos estiverem sólidos, deixe uma frase atravessar a troca para o D7."
+   ],
+   "cuidado": "Encher os dois compassos de nota. Cada sentença precisa caber com folga: se você chega no compasso 3 ainda tocando, a frase estava longa demais.",
+   "inspirado_em": [
+    {
+     "id": "LNe3bdHBdp4#I01",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=32s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 32,
+     "momento": "00:34",
+     "ideia": "Alvos rítmicos"
+    },
+    {
+     "id": "LNe3bdHBdp4#I10",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=327s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 327,
+     "momento": "05:29",
+     "ideia": "V e IV de um compasso como uma frase de dois compassos"
+    },
+    {
+     "id": "LNe3bdHBdp4#I04",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=142s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 142,
+     "momento": "02:24",
+     "ideia": "Dividir os 4 compassos do I em duas frases"
+    },
+    {
+     "id": "LNe3bdHBdp4#I06",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=207s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 207,
+     "momento": "03:29",
+     "ideia": "Duas frases de dois compassos sobre o IV"
+    },
+    {
+     "id": "LNe3bdHBdp4#I08",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=295s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 295,
+     "momento": "04:57",
+     "ideia": "Tocar os oito primeiros compassos com frases de dois compassos"
+    },
+    {
+     "id": "LNe3bdHBdp4#I18",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=698s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 698,
+     "momento": "11:40",
+     "ideia": "Frase única nos compassos 5 a 8"
+    },
+    {
+     "id": "LNe3bdHBdp4#I09",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=295s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 295,
+     "momento": "04:57",
+     "ideia": "Contraste na mudança para o IV"
+    },
+    {
+     "id": "LNe3bdHBdp4#I11",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=395s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 395,
+     "momento": "06:37",
+     "ideia": "Manter o conceito de dois compassos antes de sobrepor frases"
+    },
+    {
+     "id": "LNe3bdHBdp4#I19",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=698s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 698,
+     "momento": "11:40",
+     "ideia": "Quebrar a regra depois de dominar a estrutura"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Subir e descer a caixa em ordem, em notas iguais e sem pausa, achando que isso é solar.",
+  "Ligar a base e sair tocando sem saber onde a frase vai terminar (noodling).",
+  "Começar toda frase na nota mais grave da caixa ou na tônica.",
+  "Achar que a escala acabou depois de subir a caixa uma vez e deixar o solo morrer em poucos compassos.",
+  "Trocar de escala ou de posição para resolver um problema que é de fraseado.",
+  "Usar todas as notas da escala em toda frase, em vez de escolher poucas.",
+  "Despejar velocidade constante: rajada é tempero, não prato principal."
+ ],
+ "resumo": [
+  "Fraseado é o como: ritmo, duração, ênfase e onde a frase começa e termina.",
+  "Escala é alfabeto, frase é sentença: 3 a 6 notas com começo, meio e ponto final.",
+  "Antes de tocar, escolha o destino. Chegou, segurou, parou.",
+  "Mude uma coisa por vez (direção, salto, repetição ou ponto de partida) e a escala vira melodia.",
+  "Não troque de escala: procure a música dentro da caixa que você já sabe."
+ ],
+ "proximos_passos": "Com as frases curtas no lugar, siga para \"Espaço, silêncio e respiração\" para trabalhar as pausas entre elas, \"Pergunta e resposta (call and response)\" para fazer as frases conversarem e \"Motivo, repetição e desenvolvimento motívico\" para transformar uma frase em solo. Para escolher melhor onde cada frase pousa, veja \"Notas do acorde, repouso e tensão-resolução\". Para dar voz às notas, veja \"Bend: mecânica, afinação e variações\" e \"Vibrato\".",
+ "_meta": {
+  "subcategoria": "C07.1",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Da escala à frase: fundamentos do fraseado",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:19:01",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 37388,
+   "cache_read": 8780,
+   "output": 15282,
+   "thinking": 3238,
+   "turns": 4,
+   "custo_nominal": 0.63608
+  }
+ }
+}

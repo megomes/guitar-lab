@@ -1,0 +1,1428 @@
+{
+ "titulo": "Poucas notas e restrições criativas",
+ "gancho": "Tire quase todas as notas da guitarra e escute o que sobra: ritmo, toque e intenção. É disso que um solo é feito.",
+ "porque_importa": "A escala põe todas as notas certas na sua frente, mas não manda você usar todas. Quando o material fica curto, os dedos não conseguem fugir para os licks de sempre, e você passa a cuidar do ritmo, da pausa, da dinâmica e da expressão. Depois, quando as outras notas voltam, essas habilidades vêm junto.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "A escala oferece, não obriga",
+   "texto": "Saber a pentatônica inteira não quer dizer que você precise usar todas as notas dela em toda frase. Quem percorre a caixa de cima a baixo soa como escala, não como música. Com quatro notas, cada uma precisa valer a pena: quanto dura, onde entra e como você a ataca.",
+   "destaque": "Menos notas obrigam você a ouvir como está tocando.",
+   "visual": null
+  },
+  {
+   "titulo": "A restrição é uma regra de jogo",
+   "texto": "Defina uma regra clara antes de tocar: 1 nota, 2 notas, 4 notas, duas cordas, uma região. Com uma regra assim, você deixa de se perguntar 'por onde eu começo?' e passa a se perguntar 'o que eu faço com isto?'. Os licks de sempre não cabem na regra, então você é obrigado a inventar.",
+   "destaque": "Quando a ideia some, diminua o espaço em vez de aumentar.",
+   "visual": null
+  },
+  {
+   "titulo": "A caixa de quatro notas",
+   "texto": "Em Lá menor, as casas 5 e 7 das cordas Ré e Sol dão G, A, C e D. É a pentatônica sem o E. Com elas cabem uma tônica para pousar, uma terça menor que dá a cor e duas notas de passagem. Bend, slide, hammer-on e vibrato fazem quatro notas soarem como dez.",
+   "destaque": "Varie a técnica, não a nota.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "A caixa de quatro notas em Lá menor: casas 5 e 7 das cordas Ré e Sol (G, A, C, D)",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Subir os degraus e depois desfazer",
+   "texto": "A ordem é 1 → 2 → 3 → 4 notas, depois 5 e 6, e então outra região, outro shape, outro tom. Só suba quando o degrau atual já fizer música. A restrição é um treino, não um estilo, e você vai desfazendo aos poucos. Leve dela o hábito de escolher.",
+   "destaque": "Quem não faz música com cinco notas também não faz com sete.",
+   "visual": null
+  },
+  {
+   "titulo": "Uma nota contra a harmonia",
+   "texto": "Restringir também vale com acordes andando. Segure uma única nota enquanto a base muda: ela troca de função (♭3 no Am, 5 no F, tônica no C) sem você mexer o dedo. Você não é obrigado a marcar cada troca com um monte de notas.",
+   "destaque": "A harmonia se move, você fica parado, e isso já é uma frase.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Uma nota atravessa a harmonia: o C (corda Sol, casa 5) muda de função a cada acorde e só resolve no D sobre o G.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 43,
+   "porque": "Mostra o improviso tocado só nas casas 5 e 7 das cordas Ré e Sol sobre uma base em Lá menor.",
+   "fonte": {
+    "id": "Pr1HbFvB-9s#I03",
+    "tipo": "video",
+    "autor": "Guitar With Bert",
+    "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+    "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s&t=30s",
+    "video": "Pr1HbFvB-9s",
+    "inicio": 30,
+    "momento": "00:32",
+    "ideia": "Improvisar nas cordas Ré e Sol, casas 5 e 7 (Lá menor)"
+   }
+  },
+  {
+   "ref": 54,
+   "porque": "Mostra as quatro notas do blues em Lá (F#, A, B e o bend até C#) e como virar um solo inteiro com elas.",
+   "fonte": {
+    "id": "zSTAvmXG5m8#I07",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+    "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=216s",
+    "video": "zSTAvmXG5m8",
+    "inicio": 216,
+    "momento": "03:38",
+    "ideia": "As quatro notas em A: F#, A, B e C#"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Mostra 6 casas da escala de blues de C rendendo 12 compassos com bends, slides e cromatismos.",
+   "fonte": {
+    "id": "2xR1QJfawjg#I03",
+    "tipo": "video",
+    "autor": "Emanuel Hedberg",
+    "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+    "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=100s",
+    "video": "2xR1QJfawjg",
+    "inicio": 100,
+    "momento": "01:42",
+    "ideia": "Improvisar com apenas 6 casas da escala de blues de C"
+   }
+  },
+  {
+   "ref": 73,
+   "porque": "Mostra pergunta e resposta presas a um único fragmento da pentatônica, frase após frase.",
+   "fonte": {
+    "id": "2-KlhAakkfU#I05",
+    "tipo": "video",
+    "autor": "RUAN DE CASTRO - GUITAR MAPS",
+    "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+    "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=209s",
+    "video": "2-KlhAakkfU",
+    "inicio": 209,
+    "momento": "03:31",
+    "ideia": "Improviso restrito ao fragmento 2 com backing track"
+   }
+  },
+  {
+   "ref": 74,
+   "porque": "JustinGuitar improvisa com um dedo só, alternando motivos curtos e respiros.",
+   "fonte": {
+    "id": "-VjHVHzWL0o#I21",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+    "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1771s",
+    "video": "-VjHVHzWL0o",
+    "inicio": 1771,
+    "momento": "29:33",
+    "ideia": "One finger solos com respiros"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Uma nota, mil ritmos",
+   "objetivo": "Fazer música só com ritmo, dinâmica e pausa, sem a muleta de trocar de nota.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Ponha uma base lenta em Lá menor e escolha o E da corda Si, casa 5.",
+    "Toque a frase do V2 até ela ficar natural, respeitando o compasso vazio.",
+    "Crie um ritmo seu de 1 compasso e repita 4 vezes, mudando só a força: forte, fraco, forte, fantasma.",
+    "Agora deixe 2 compassos de silêncio entre cada ideia.",
+    "Só acrescente uma segunda nota se tiver uma ideia clara para ela. Antes disso, não."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Uma nota só (E, corda Si, casa 5): o interesse vem do ritmo e do silêncio. O 3º compasso é pausa.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque para A (corda Mi aguda, casa 5) e note como o mesmo ritmo muda de peso.",
+    "Se a nota soar estranha sobre a base, mova uma casa acima ou abaixo até encaixar."
+   ],
+   "cuidado": "Tocar sem parar, em colcheias seguidas. Com uma nota só, a pausa é o que cria a frase.",
+   "inspirado_em": [
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I08",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com uma nota só"
+    },
+    {
+     "id": "hWlyxQclPcs#I17",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=579s",
+     "video": "hWlyxQclPcs",
+     "inicio": 579,
+     "momento": "09:41",
+     "ideia": "Achar que tocar uma nota só é fácil"
+    },
+    {
+     "id": "yb9PBaQngn4#I19",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=646s",
+     "video": "yb9PBaQngn4",
+     "inicio": 646,
+     "momento": "10:48",
+     "ideia": "Partir de uma nota e esperar a ideia"
+    },
+    {
+     "id": "yb9PBaQngn4#I17",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=516s",
+     "video": "yb9PBaQngn4",
+     "inicio": 516,
+     "momento": "08:38",
+     "ideia": "Repetir notas para criar frases"
+    },
+    {
+     "id": "pzqGdf_3Aug#I07",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Dicas de improvisação - Free Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=pzqGdf_3Aug&t=253s",
+     "video": "pzqGdf_3Aug",
+     "inicio": 253,
+     "momento": "04:15",
+     "ideia": "Tocar a mesma nota mais vezes"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas notas, devagar e com vibrato",
+   "objetivo": "Criar diálogo entre duas notas e dar voz à nota longa.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Use só C (corda Sol, casa 5) e A (corda Ré, casa 7).",
+    "Toque o V3 e repare: o C se repete três vezes antes de mudar. Você não precisa alternar.",
+    "A cada frase, termine numa nota longa com vibrato e deixe ela soar até morrer.",
+    "Faça 5 frases que terminam em A e 5 que terminam em C. Ouça qual soa como ponto final e qual soa como vírgula."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Duas notas, A e C, sem obrigação de alternar. A nota longa no final pede vibrato.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o par para A e E (5ª): o par fica mais aberto e menos melancólico.",
+    "Acrescente a terceira nota, G (♭7, corda Ré, casa 5), só no fim da frase."
+   ],
+   "cuidado": "Pensar em notas em vez de ritmo. Aqui o ritmo importa mais que a escolha das notas.",
+   "inspirado_em": [
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I09",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com duas notas"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I23",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Começar pelo ritmo e por duas notas"
+    },
+    {
+     "id": "7FilvCPSYXc#I05",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=164s",
+     "video": "7FilvCPSYXc",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "Começar com duas notas e expandir"
+    },
+    {
+     "id": "WcHs5SaynAw#I12",
+     "tipo": "video",
+     "autor": "Kingdom Of Mist Podcast",
+     "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+     "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=327s",
+     "video": "WcHs5SaynAw",
+     "inicio": 327,
+     "momento": "05:29",
+     "ideia": "Improvisar com poucas notas e vibrato"
+    }
+   ]
+  },
+  {
+   "titulo": "Três notas, dez frases",
+   "objetivo": "Esgotar um material pequeno até descobrir ideias que você não tocaria por hábito.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Escolha três notas da caixa do V1, por exemplo A, C e D.",
+    "Antes de tocar cada frase, cante ou imagine a frase, depois toque.",
+    "Crie 10 frases diferentes: mude duração, ordem, acento, repetição e ponto de entrada.",
+    "Anote ou grave as 3 melhores.",
+    "Troque o trio (por exemplo G, A, C) e compare qual grupo soa melhor sobre a base."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "A caixa de quatro notas em Lá menor: casas 5 e 7 das cordas Ré e Sol (G, A, C, D)",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Leve as mesmas três notas para outra oitava (A na corda Mi aguda, casa 5; C na casa 8).",
+    "Num blues em Lá, teste A, C e F# (1, ♭3 e 6) e ouça o sabor da sexta."
+   ],
+   "cuidado": "Parar na quarta frase achando que acabaram as ideias. As melhores costumam aparecer depois da sexta.",
+   "inspirado_em": [
+    {
+     "id": "_Ke2d-2zkHg#I01",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=0s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Solar com apenas três notas"
+    },
+    {
+     "id": "_Ke2d-2zkHg#I04",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=63s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 63,
+     "momento": "01:05",
+     "ideia": "Três notas sobre blues em A: raiz, 3ª menor e 6ª"
+    },
+    {
+     "id": "_Ke2d-2zkHg#I08",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=347s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 347,
+     "momento": "05:49",
+     "ideia": "Experimente combinações de notas"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I14",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dez frases com três notas da pentatônica"
+    },
+    {
+     "id": "pzqGdf_3Aug#I02",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Dicas de improvisação - Free Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=pzqGdf_3Aug&t=71s",
+     "video": "pzqGdf_3Aug",
+     "inicio": 71,
+     "momento": "01:13",
+     "ideia": "Comece simples com poucas notas"
+    },
+    {
+     "id": "QcL5HWH735g#I05",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como improvisar na Guitarra - Dicas para Iniciantes",
+     "url": "https://www.youtube.com/watch?v=QcL5HWH735g&t=362s",
+     "video": "QcL5HWH735g",
+     "inicio": 362,
+     "momento": "06:04",
+     "ideia": "Improvisar com quatro notas da pentatônica"
+    },
+    {
+     "id": "owIXWf9_0Ok#I02",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "seu improviso melhora 200% NA MESMA HORA q vc faz isso #guitar #shorts",
+     "url": "https://www.youtube.com/watch?v=owIXWf9_0Ok&t=18s",
+     "video": "owIXWf9_0Ok",
+     "inicio": 18,
+     "momento": "00:20",
+     "ideia": "Improvisar com apenas 3 ou 4 notas do shape"
+    }
+   ]
+  },
+  {
+   "titulo": "A caixa de quatro notas com todas as técnicas",
+   "objetivo": "Variar a técnica em vez de variar a nota.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o V4 sobre uma base em Lá menor: duas ideias curtas, cada uma pousando em A.",
+    "Repita a mesma frase 4 vezes, mudando uma técnica por vez: com slide para o D, com hammer-on C→D, com pull-off D→C e com vibrato no A final.",
+    "Faça um bend de um tom no D (corda Sol, casa 7) até o E. A casa continua dentro da regra.",
+    "Improvise 2 minutos sem sair das quatro casas.",
+    "Reduza para três notas e depois para duas, mantendo a base rodando."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Frase na caixa de quatro notas: duas ideias curtas, cada uma pousando em A",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Transporte a caixa para Mi menor: casas 12 e 14 das cordas Ré e Sol (D, E, G, A).",
+    "Repita o exercício nas cordas Si e Mi aguda, casas 5 e 8 (E, G, A, C)."
+   ],
+   "cuidado": "Escapar 'só um pouquinho' para a casa 5 da corda Si. Respeitar a regra é o que faz o treino funcionar.",
+   "inspirado_em": [
+    {
+     "id": "Pr1HbFvB-9s#I03",
+     "tipo": "video",
+     "autor": "Guitar With Bert",
+     "titulo": "IMPROVE your PENTATONIC PHRASING (2 steps)",
+     "url": "https://www.youtube.com/watch?v=Pr1HbFvB-9s&t=30s",
+     "video": "Pr1HbFvB-9s",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Improvisar nas cordas Ré e Sol, casas 5 e 7 (Lá menor)"
+    },
+    {
+     "id": "blackstaramps--basics-of-lead-guitar-phrasing-97a663#I03",
+     "tipo": "documento",
+     "autor": "blackstaramps.com",
+     "titulo": "Basics of Lead Guitar Phrasing - Blackstar",
+     "url": "https://blackstaramps.com/lessons/basics-of-lead-guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com apenas 4 notas"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I04",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Frases com apenas A–C–D–G na 5ª posição"
+    },
+    {
+     "id": "mrKDTl6zDOM#I03",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como Destravar Seu Improviso na Guitarra, Sem Precisar Decorar as Notas do Braço!",
+     "url": "https://www.youtube.com/watch?v=mrKDTl6zDOM&t=202s",
+     "video": "mrKDTl6zDOM",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Fazer música com quatro notas do bloco"
+    },
+    {
+     "id": "owIXWf9_0Ok#I03",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "seu improviso melhora 200% NA MESMA HORA q vc faz isso #guitar #shorts",
+     "url": "https://www.youtube.com/watch?v=owIXWf9_0Ok&t=43s",
+     "video": "owIXWf9_0Ok",
+     "inicio": 43,
+     "momento": "00:45",
+     "ideia": "Use técnicas de expressão para variar com poucas notas"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I19",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=901s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 901,
+     "momento": "15:03",
+     "ideia": "Usar bend, vibrato, slide e hammer-on/pull-off"
+    }
+   ]
+  },
+  {
+   "titulo": "Quatro notas, seis sons: blues em Lá",
+   "objetivo": "Tirar um solo de blues inteiro de uma única posição de mão, à moda de B.B. King.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Ponha um blues de 12 compassos em Lá.",
+    "Posicione a mão como no V5: médio na corda Sol, casa 11 (F#); indicador na corda Si, casa 10 (A); anelar na casa 12 (B).",
+    "Faça o bend de um tom na casa 12 da corda Si até soar C#, a terça do A7.",
+    "Toque um chorus inteiro só com isso. A cada frase, use outra técnica: bend, bend que volta, slide, hammer-on, vibrato.",
+    "No fim dos 12 compassos, pouse no A com vibrato largo."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Blues em Lá à moda de B.B. King: F#, A e B, mais o bend de um tom da casa 12 da corda Si até C#",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 12,
+      "nota": "B",
+      "grau": "9",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 14,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Leve o mesmo desenho para Mi: três casas abaixo cai em C#, então desça 5 casas: corda Sol casa 6, corda Si casas 5 e 7.",
+    "Toque só com A e o bend até C# durante um chorus inteiro."
+   ],
+   "cuidado": "Bend desafinado. Com tão poucas notas, um C# baixo aparece demais. Confira com a casa 14 da corda Si.",
+   "inspirado_em": [
+    {
+     "id": "zSTAvmXG5m8#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=31s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 31,
+     "momento": "00:33",
+     "ideia": "Construir um solo com poucas notas"
+    },
+    {
+     "id": "zSTAvmXG5m8#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=216s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 216,
+     "momento": "03:38",
+     "ideia": "As quatro notas em A: F#, A, B e C#"
+    },
+    {
+     "id": "zSTAvmXG5m8#I22",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=664s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 664,
+     "momento": "11:06",
+     "ideia": "Combinar poucas técnicas para criar variação"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada de expansão: 4 → 5 → 6 e outra região",
+   "objetivo": "Abrir a restrição aos poucos sem perder o foco no fraseado.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Comece com a caixa de quatro notas (V1) por 3 minutos.",
+    "Acrescente o E (corda Lá, casa 7) e continue por mais 3 minutos.",
+    "Acrescente o E da corda Si, casa 5: agora são 6 notas, num fragmento de 3 cordas. Continue por mais 3 minutos.",
+    "Agora mude a regra: só as cordas Si e Mi aguda, entre as casas 8 e 12 (G, A, C, D, E), por 3 minutos.",
+    "Por fim, troque de tom (Mi menor) e repita só o primeiro degrau."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Num blues em C, escolha 6 casas da escala de blues (G, B♭, C, E♭, F, G♭) e toque um chorus inteiro só com elas.",
+    "Restrinja às cordas Ré, Sol e Si e fique num único modo."
+   ],
+   "cuidado": "Pular de degrau antes de o anterior fluir. Se a nova nota virar 'correr a escala', volte um degrau.",
+   "inspirado_em": [
+    {
+     "id": "2xR1QJfawjg#I03",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=100s",
+     "video": "2xR1QJfawjg",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Improvisar com apenas 6 casas da escala de blues de C"
+    },
+    {
+     "id": "2xR1QJfawjg#I04",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=100s",
+     "video": "2xR1QJfawjg",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Recursos permitidos: bends, slides e cromatismos"
+    },
+    {
+     "id": "QcL5HWH735g#I09",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Como improvisar na Guitarra - Dicas para Iniciantes",
+     "url": "https://www.youtube.com/watch?v=QcL5HWH735g&t=500s",
+     "video": "QcL5HWH735g",
+     "inicio": 500,
+     "momento": "08:22",
+     "ideia": "Acrescentar uma quinta nota ao exercício"
+    },
+    {
+     "id": "blackstaramps--basics-of-lead-guitar-phrasing-97a663#I07",
+     "tipo": "documento",
+     "autor": "blackstaramps.com",
+     "titulo": "Basics of Lead Guitar Phrasing - Blackstar",
+     "url": "https://blackstaramps.com/lessons/basics-of-lead-guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Progressão: mudar de tom/shape e ampliar para 6 notas"
+    },
+    {
+     "id": "WcHs5SaynAw#I11",
+     "tipo": "video",
+     "autor": "Kingdom Of Mist Podcast",
+     "titulo": "Mirella Caramelo explica o jeito certo de estudar improvisação na guitarra. #guitarra #heavymetal",
+     "url": "https://www.youtube.com/watch?v=WcHs5SaynAw&t=261s",
+     "video": "WcHs5SaynAw",
+     "inicio": 261,
+     "momento": "04:23",
+     "ideia": "Limitar o improviso a uma região do braço"
+    },
+    {
+     "id": "tRi4vMs2z8M#I18",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1102s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1102,
+     "momento": "18:24",
+     "ideia": "Começar em uma área pequena do braço"
+    },
+    {
+     "id": "FhfmneCt7jo#I05",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=162s",
+     "video": "FhfmneCt7jo",
+     "inicio": 162,
+     "momento": "02:44",
+     "ideia": "Improvisar só nas três cordas agudas"
+    },
+    {
+     "id": "78ZqWUGMzqU#I08",
+     "tipo": "video",
+     "autor": "Brandon D'Eon",
+     "titulo": "How to Improvise Solos on Guitar THE HARD WAY",
+     "url": "https://www.youtube.com/watch?v=78ZqWUGMzqU&t=321s",
+     "video": "78ZqWUGMzqU",
+     "inicio": 321,
+     "momento": "05:23",
+     "ideia": "Improvise com restrições (cordas e modo)"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I30",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar com limitações de cordas, notas ou compassos"
+    },
+    {
+     "id": "2-KlhAakkfU#I05",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=209s",
+     "video": "2-KlhAakkfU",
+     "inicio": 209,
+     "momento": "03:31",
+     "ideia": "Improviso restrito ao fragmento 2 com backing track"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma nota atravessa a harmonia",
+   "objetivo": "Tocar menos sobre as trocas e ouvir uma nota mudar de função.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Grave ou ache uma base Am–F–C–G (V7), um compasso por acorde.",
+    "Toque o V6: o mesmo C em cada compasso, com vibrato e sustentado.",
+    "Diga em voz alta a função a cada troca: ♭3, 5, 1, 4. No G, sinta a tensão e resolva no D.",
+    "Faça a mesma coisa com A (corda Ré, casa 7): 1 no Am, 3 no F, 6 no C, 9 no G.",
+    "Alterne um ciclo de nota parada com um ciclo usando as quatro notas da caixa e compare."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Uma nota atravessa a harmonia: o C (corda Sol, casa 5) muda de função a cada acorde e só resolve no D sobre o G.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Escolha três notas por acorde e toque no tempo, mudando só o ritmo.",
+    "Grave um minuto e ouça onde cada nota longa soou mais bonita."
+   ],
+   "cuidado": "Achar que precisa mudar de nota toda vez que o acorde muda. A tensão de ficar parado faz parte do som.",
+   "inspirado_em": [
+    {
+     "id": "yw6K7j6GbDc#I22",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=531s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 531,
+     "momento": "08:53",
+     "ideia": "Limitação com três notas por acorde, tocado no tempo"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I21",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Exercício de improvisação em nove passos"
+    },
+    {
+     "id": "blog--p-20309-5f6c7e#I15",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar demais"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Abrir mão da regra no primeiro tédio. O tédio é justamente o momento em que a criatividade começa a trabalhar.",
+  "Compensar as poucas notas tocando rápido e sem pausa. Poucas notas pedem mais silêncio, não mais velocidade.",
+  "Querer muitas notas cedo demais e perder o pouso na tônica.",
+  "Usar sempre a mesma técnica. Bend, slide, ligado e vibrato são suas 'notas extras'.",
+  "Tratar a restrição como estilo definitivo. Ela é um treino e deve ser desfeita aos poucos."
+ ],
+ "resumo": [
+  "A escala oferece as notas, mas não obriga você a usar todas.",
+  "Restrição é regra de jogo: 1, 2, 3, 4 ou 6 notas, duas cordas, uma região.",
+  "Com poucas notas, o solo vem do ritmo, da pausa, da dinâmica e da técnica.",
+  "Em Lá menor, a caixa G-A-C-D (casas 5 e 7 das cordas Ré e Sol) é o ponto de partida.",
+  "Expanda um degrau por vez e só quando o degrau atual já fizer música."
+ ],
+ "proximos_passos": "Leve o material reduzido para \"Espaço, silêncio e respiração\" e \"Pergunta e resposta (call and response)\". Depois desenvolva uma única ideia em \"Motivo, repetição e desenvolvimento motívico\". Para escolher melhor onde pousar com poucas notas, siga para \"Notas do acorde, repouso e tensão-resolução\".",
+ "_meta": {
+  "subcategoria": "C07.2",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Poucas notas e restrições criativas",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:20:38",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 26243,
+   "cache_read": 4913,
+   "output": 10382,
+   "thinking": 2659,
+   "turns": 2,
+   "custo_nominal": 0.4393266
+  }
+ }
+}

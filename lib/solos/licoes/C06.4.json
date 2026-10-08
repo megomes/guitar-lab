@@ -1,0 +1,1872 @@
+{
+ "titulo": "Feel: swing, groove e rubato",
+ "gancho": "As mesmas cinco notas podem soar como um exercício de escola ou como B.B. King. O que muda é onde e quanto tempo cada uma dura.",
+ "porque_importa": "O ouvinte sente o feel antes de perceber qualquer nota. Uma frase reta sobre um shuffle soa errada mesmo com as notas certas, e um lick em tempo de MIDI soa sem vida mesmo sendo bonito. Dominar swing, layback e rubato é o que faz o seu solo conversar com a banda em vez de passar por cima dela.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Reto ou balançado",
+   "texto": "Nas colcheias retas (straight), as duas metades do tempo têm a mesma duração: ta-ta, ta-ta. No swing, cada par vira uma nota longa seguida de uma curta: taaa-ta, taaa-ta. Quem escolhe o feel é a base, não você. Sobre um shuffle, toque swing. Sobre um rock reto ou um pop, toque reto.",
+   "destaque": "O feel da sua frase tem que ser o mesmo da bateria.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Linha de colcheias na pentatônica de Lá menor sobre A7. A tab mostra as colcheias retas. Toque em swing: a primeira de cada par é longa e a segunda é curta.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O shuffle é feito de três",
+   "texto": "No blues em shuffle (12/8), cada tempo se divide em três. Bumbo e caixa marcam 1, 2, 3 e 4, e o chimbal toca as tercinas: 1-e-a, 2-e-a. A colcheia swing é essa tercina com a nota do meio calada: você toca no '1' e no 'a'. Ouça a bateria e conte em voz alta antes de pôr a mão na guitarra.",
+   "destaque": "Swing = tercina sem a nota do meio.",
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Acordes da lição: o shuffle em Lá (A7, D7) e a cadência menor do rubato (E7 → Am).",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Duração e layback",
+   "texto": "A nota da guitarra morre rápido, então a duração precisa ser uma escolha sua. Segure a nota anterior e faça o hammer-on ou o pull-off só no último instante: nasce aí o sotaque do blues. Layback é tocar a frase um fio atrás do tempo, de propósito, em momentos escolhidos. O tempo da banda continua firme, e a sua frase 'descansa' em cima dele.",
+   "destaque": "Atrasar de propósito é groove. Atrasar sem querer é erro.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Frase-régua para o layback: E–G–A com pausas longas. A tab mostra onde fica o tempo. Você vai tocar em cima dele, depois um fio atrás.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Rubato: a frase respira",
+   "texto": "Rubato é esticar e comprimir o tempo dentro de uma frase. Pense numa curva: começa devagar, acelera no meio e freia na chegada. Também vale com duas partes (lento → rápido) ou com quatro ou cinco. Até uma variação pequena já dá vida ao lick. Sobre o clique, só a primeira e a última nota precisam cair no pulso. O meio é livre.",
+   "destaque": "Rubato é intenção, não falta de tempo.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Lick em Lá menor harmônica: desce sobre E7 e resolve em Am. Primeiro toque reto, exatamente como está escrito. Depois aplique a curva de rubato.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Contraste é o tempero",
+   "texto": "Ninguém toca o solo inteiro em rubato nem inteiro em swing duro. Alterne licks retos, licks balançados e um ou outro com a frase atrasada ou esticada. Só trocar o feel, sem mexer nas notas, já é variação suficiente para o ouvido.",
+   "destaque": "Mesmas notas, outro tempo, outra frase.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 4,
+   "porque": "Daniel Seriff isola a bateria de um shuffle e mostra o bumbo e a caixa nas semínimas e o chimbal em tercinas.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I07",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=204s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 204,
+    "momento": "03:26",
+    "ideia": "Ouvir a bateria antes de tocar"
+   }
+  },
+  {
+   "ref": 5,
+   "porque": "Ele conta em voz alta '1 e a 2 e a' sobre o track, o jeito mais rápido de internalizar o feel ternário.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I09",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=275s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 275,
+    "momento": "04:37",
+    "ideia": "Contar em voz alta com a subdivisão ternária"
+   }
+  },
+  {
+   "ref": 1,
+   "porque": "Comparação direta entre colcheias retas e swing tocadas na guitarra, para ouvir a diferença longa-curta.",
+   "fonte": {
+    "id": "hWlyxQclPcs#I05",
+    "tipo": "video",
+    "autor": "Your Guitar Academy",
+    "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+    "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=138s",
+    "video": "hWlyxQclPcs",
+    "inicio": 138,
+    "momento": "02:20",
+    "ideia": "Colcheias retas versus swing"
+   }
+  },
+  {
+   "ref": 14,
+   "porque": "Samjam toca o mesmo lick de blues com hammer-on e pull-off adiantados e depois atrasados, e o sotaque aparece.",
+   "fonte": {
+    "id": "gNKJXn8g734#I06",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=165s",
+    "video": "gNKJXn8g734",
+    "inicio": 165,
+    "momento": "02:47",
+    "ideia": "Deixar hammer-on e pull-off para o último momento"
+   }
+  },
+  {
+   "ref": 27,
+   "porque": "Tom Hess toca um lick de menor harmônica reto e depois com a curva lento–rápido–lento, lado a lado.",
+   "fonte": {
+    "id": "0Dz1QC7xk5U#I05",
+    "tipo": "video",
+    "autor": "TomHessMusicCorp",
+    "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+    "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=236s",
+    "video": "0Dz1QC7xk5U",
+    "inicio": 236,
+    "momento": "03:58",
+    "ideia": "Curva de rubato: lento, rápido, lento"
+   }
+  },
+  {
+   "ref": 10,
+   "porque": "That Pedal Show compara a transcrição reta de Gilmour com o balanço real da gravação.",
+   "fonte": {
+    "id": "6aJqjgu5LwM#I07",
+    "tipo": "video",
+    "autor": "That Pedal Show",
+    "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+    "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=463s",
+    "video": "6aJqjgu5LwM",
+    "inicio": 463,
+    "momento": "07:45",
+    "ideia": "Desmontar o ritmo e aplicar swing"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Ouvir, contar e bater o shuffle",
+   "objetivo": "Internalizar a subdivisão ternária antes de tocar qualquer nota.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Coloque um backing track de blues shuffle em Lá (70–90 bpm) e não toque a guitarra.",
+    "Ache o bumbo e a caixa e conte junto em voz alta: '1, 2, 3, 4'.",
+    "Ouça o chimbal e passe a contar as tercinas: '1-e-a, 2-e-a, 3-e-a, 4-e-a'.",
+    "Bata palma só no '1' e no 'a' de cada tempo, mantendo a contagem. Esse é o ritmo do swing.",
+    "Continue por um minuto inteiro sem perder o encaixe. Só então pegue a guitarra."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Acordes da lição: o shuffle em Lá (A7, D7) e a cadência menor do rubato (E7 → Am).",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Abafe as cordas com a mão esquerda e palhete o '1' e o 'a', como um chimbal na guitarra.",
+    "Faça o mesmo sobre uma base reta (rock) contando '1 e 2 e' e sinta a diferença."
+   ],
+   "cuidado": "Passar a contar em binário ('1 e 2 e') sem perceber. Se a palma cair no meio do tempo, o swing virou reto.",
+   "inspirado_em": [
+    {
+     "id": "Ork2Vc2bva8#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=239s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 239,
+     "momento": "04:01",
+     "ideia": "Feel de blues 128 como subdivisão ternária"
+    },
+    {
+     "id": "Ork2Vc2bva8#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=204s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Ouvir a bateria antes de tocar"
+    },
+    {
+     "id": "Ork2Vc2bva8#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=275s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 275,
+     "momento": "04:37",
+     "ideia": "Contar em voz alta com a subdivisão ternária"
+    }
+   ]
+  },
+  {
+   "titulo": "Colcheias longa-curta no shuffle",
+   "objetivo": "Fazer a mão tocar swing de verdade sobre uma base em swing.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque V1 sobre o shuffle em Lá, mantendo a contagem '1-e-a' na cabeça.",
+    "Cada par de colcheias vira 'taaa-ta': a primeira dura duas tercinas e a segunda dura uma.",
+    "Respeite os compassos de pausa (2 e 4) e use esse tempo para ouvir a bateria.",
+    "Depois de quatro voltas limpas, improvise ritmos livres na mesma caixa, sem largar o feel longa-curta."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Linha de colcheias na pentatônica de Lá menor sobre A7. A tab mostra as colcheias retas. Toque em swing: a primeira de cada par é longa e a segunda é curta.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque V1 sobre uma base reta, com colcheias retas, e depois volte para o shuffle.",
+    "Acentue só as colcheias curtas (as do 'a') para um swing mais jazzístico."
+   ],
+   "cuidado": "Exagerar o swing até virar colcheia pontuada e semicolcheia, um balanço duro e militar. O swing do blues é a tercina, 2 para 1.",
+   "inspirado_em": [
+    {
+     "id": "hWlyxQclPcs#I05",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=138s",
+     "video": "hWlyxQclPcs",
+     "inicio": 138,
+     "momento": "02:20",
+     "ideia": "Colcheias retas versus swing"
+    },
+    {
+     "id": "hWlyxQclPcs#I06",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=170s",
+     "video": "hWlyxQclPcs",
+     "inicio": 170,
+     "momento": "02:52",
+     "ideia": "Tocar swing sobre base em swing"
+    },
+    {
+     "id": "UiCQL5cxnUA#I02",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=65s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Treinar sobre backing track de bateria"
+    }
+   ]
+  },
+  {
+   "titulo": "Um motivo, três feels",
+   "objetivo": "Gerar variedade rítmica só trocando o feel, sem mudar as notas.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Use o motivo C–D–E de V2 sobre A7.",
+    "Versão 1: toque as três notas como uma tercina dentro de um único tempo, e repita.",
+    "Versão 2: toque como está escrito, em colcheias swing.",
+    "Versão 3: toque em colcheias retas.",
+    "Grave as três versões e diga qual combina com o shuffle, qual empurra e qual soa 'fora'.",
+    "Improvise oito compassos misturando as três versões do mesmo motivo."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Motivo de três notas (C–D–E) que você vai tocar em tercina, em swing e reto. O segundo compasso resolve na tônica.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o D com hammer-on a partir do C. Primeiro no tempo normal, depois segurando o C e fazendo o hammer-on no último instante.",
+    "Leve a ideia para a escala híbrida mixolídio/blues em tercinas, deslocando o acento a cada volta."
+   ],
+   "cuidado": "Deixar a tercina acelerar ou atrasar a próxima nota. As três notas cabem exatamente em um tempo, e a nota seguinte cai no tempo seguinte.",
+   "inspirado_em": [
+    {
+     "id": "_Ke2d-2zkHg#I11",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=380s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 380,
+     "momento": "06:22",
+     "ideia": "Tercinas e alternar swing e straight"
+    },
+    {
+     "id": "ZPELVwO27lc#I11",
+     "tipo": "video",
+     "autor": "swiftlessons",
+     "titulo": "The Mixolydian Blues Hybrid Scale - The Holy Grail of Major Soloing!",
+     "url": "https://www.youtube.com/watch?v=ZPELVwO27lc&t=466s",
+     "video": "ZPELVwO27lc",
+     "inicio": 466,
+     "momento": "7:48",
+     "ideia": "Praticar a híbrida com feeling de tercina e síncope"
+    },
+    {
+     "id": "gNKJXn8g734#I06",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=165s",
+     "video": "gNKJXn8g734",
+     "inicio": 165,
+     "momento": "02:47",
+     "ideia": "Deixar hammer-on e pull-off para o último momento"
+    }
+   ]
+  },
+  {
+   "titulo": "Em cima, no meio, atrás: o layback",
+   "objetivo": "Controlar onde a frase cai em relação ao tempo da banda.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Sobre o shuffle (A7–D7), toque V3 bem em cima do tempo, junto com a caixa.",
+    "Repita tocando um fio atrás: o E entra logo depois do tempo 2, como se você estivesse sem pressa.",
+    "Mantenha o mesmo atraso nas três notas. A frase inteira 'desliza' para trás, não só a primeira nota.",
+    "Segure o A e o C finais até quase o próximo compasso. Duração também é feel.",
+    "Grave e compare: a versão atrasada deve soar relaxada, não errada."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Frase-régua para o layback: E–G–A com pausas longas. A tab mostra onde fica o tempo. Você vai tocar em cima dele, depois um fio atrás.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o contrário: toque levemente à frente do tempo e perceba a urgência.",
+    "Alterne a cada frase: uma em cima, uma atrás."
+   ],
+   "cuidado": "Atrasar a base mental junto com a frase. O pé continua marcando o tempo da bateria, e só a guitarra se atrasa.",
+   "inspirado_em": [
+    {
+     "id": "GC-HIgdwVSM#I15",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=1044s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 1044,
+     "momento": "17:26",
+     "ideia": "Layback: atrasar a frase de propósito"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=173s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 173,
+     "momento": "02:55",
+     "ideia": "Guitarra é instrumento staccato"
+    },
+    {
+     "id": "7Pdss_Gswtc#I12",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=652s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 652,
+     "momento": "10:54",
+     "ideia": "Nuances em vez de muitas notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Do reto ao rubato: a curva lento–rápido–lento",
+   "objetivo": "Sentir como a variação de velocidade dá drama a um lick.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque o lick de V4 com metrônomo a 66 bpm, rigidamente uniforme. Essa é a referência 'seca'.",
+    "Desligue o metrônomo. Comece o C e o B devagar e com ataque forte.",
+    "Acelere com fluidez no meio (A, G♯, F, E).",
+    "Freie no D e no B e deixe o A final soar com vibrato.",
+    "Grave a versão reta e a versão em rubato e compare."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Lick em Lá menor harmônica: desce sobre E7 e resolve em Am. Primeiro toque reto, exatamente como está escrito. Depois aplique a curva de rubato.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Curva em duas partes: lento → rápido, chegando no A de surpresa.",
+    "Rubato sutil: varie só um pouco a velocidade e veja se a frase continua viva.",
+    "Termine com palm mute nas últimas notas enquanto desacelera."
+   ],
+   "cuidado": "Confundir rubato com tocar sem controle. Se você não consegue repetir a mesma curva duas vezes, ainda não é rubato.",
+   "inspirado_em": [
+    {
+     "id": "0Dz1QC7xk5U#I04",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=168s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 168,
+     "momento": "02:50",
+     "ideia": "Tocar o lick de menor harmônica reto primeiro"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I05",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=236s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 236,
+     "momento": "03:58",
+     "ideia": "Curva de rubato: lento, rápido, lento"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I12",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=499s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Escala menor harmônica com ataque, aceleração e palm mute"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I13",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=531s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 531,
+     "momento": "08:53",
+     "ideia": "Rubato pode ser pequeno e continuar musical"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I15",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=596s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 596,
+     "momento": "09:58",
+     "ideia": "Frase em duas, três, quatro ou cinco partes"
+    }
+   ]
+  },
+  {
+   "titulo": "Rubato com âncoras no clique",
+   "objetivo": "Usar rubato dentro do tempo: o meio livre, as pontas no pulso.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Ligue o metrônomo a 60 bpm. A primeira nota (C) cai no tempo 1 e o A final no tempo 1 do compasso seguinte.",
+    "Entre essas duas âncoras, distribua as notas do meio como quiser: comece devagar, acelere e freie.",
+    "Agora inverta: pontas rápidas e meio lento. As extremidades definem o meio em oposição.",
+    "Faça quatro combinações diferentes e anote qual soou mais musical.",
+    "Sobre um vamp E7–Am, toque o lick em rubato numa volta e reto na outra."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Lick em Lá menor harmônica: desce sobre E7 e resolve em Am. Primeiro toque reto, exatamente como está escrito. Depois aplique a curva de rubato.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use um lick seu de 8 a 24 notas e aplique as mesmas regras.",
+    "Toque frases curtas em rubato sobre Cmaj7–A7–Dm7, terminando cada uma numa nota do próximo acorde."
+   ],
+   "cuidado": "Deixar o A final escorregar para depois do tempo. Se a chegada não bate com o clique, a frase soa perdida, e não expressiva.",
+   "inspirado_em": [
+    {
+     "id": "0Dz1QC7xk5U#I14",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=564s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 564,
+     "momento": "09:26",
+     "ideia": "Praticar pelas extremidades da frase"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I16",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=629s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 629,
+     "momento": "10:31",
+     "ideia": "Primeiro tempo livre, depois metrônomo"
+    },
+    {
+     "id": "h4zQjSecjvI#I12",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=341s",
+     "video": "h4zQjSecjvI",
+     "inicio": 341,
+     "momento": "05:43",
+     "ideia": "Melodias em rubato até a nota-alvo"
+    },
+    {
+     "id": "yw6K7j6GbDc#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=464s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Rubato sobre o turnaround: frase em Cmaj7, A7 e Dm7"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I17",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=661s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 661,
+     "momento": "11:03",
+     "ideia": "Só a primeira e a última nota precisam alinhar"
+    }
+   ]
+  },
+  {
+   "titulo": "Doze compassos, três feels",
+   "objetivo": "Juntar swing, layback e rubato num solo com contraste.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Sobre um blues shuffle em Lá, toque os compassos 1–4 com frases curtas em swing firme.",
+    "Nos compassos 5–8, use uma ou duas frases com layback, segurando as notas longas.",
+    "No turnaround (9–12), coloque um único lick esticado: comece devagar, acelere e chegue no tempo 1 da próxima volta.",
+    "Na segunda volta, troque a ordem dos feels.",
+    "Grave e verifique se cada trecho tem um caráter diferente e se a chegada no 1 continua precisa."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça um solo inteiro só com três notas, variando apenas o feel.",
+    "Tire de ouvido uma frase de Gilmour. Primeiro toque o ritmo exato, depois balance as colcheias até soar como a gravação."
+   ],
+   "cuidado": "Usar rubato em todos os licks. O efeito depende do contraste com frases que andam firmes no groove.",
+   "inspirado_em": [
+    {
+     "id": "0Dz1QC7xk5U#I09",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=367s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 367,
+     "momento": "06:09",
+     "ideia": "Variar o rubato entre os licks do solo"
+    },
+    {
+     "id": "6aJqjgu5LwM#I07",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=463s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 463,
+     "momento": "07:45",
+     "ideia": "Desmontar o ritmo e aplicar swing"
+    },
+    {
+     "id": "jazzadvice--the-3-secrets-to-transcribing-jazz-solos-82efb0#I09",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "The 3 Secrets to Transcribing Jazz Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/lessons/the-3-secrets-to-transcribing-jazz-solos/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Transcreva além das notas: estilo, tempo, fraseado e articulação"
+    },
+    {
+     "id": "7Pdss_Gswtc#I12",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=652s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 652,
+     "momento": "10:54",
+     "ideia": "Nuances em vez de muitas notas"
+    },
+    {
+     "id": "N8N6MAxvJIk#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=852s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 852,
+     "momento": "14:14",
+     "ideia": "Repetição trabalha ritmo, toque, tom, tempo e groove"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar colcheias retas sobre um shuffle, ou swing sobre um rock reto. O feel da frase briga com a bateria.",
+  "Exagerar o swing para colcheia pontuada e semicolcheia, que soa duro. O swing do blues é a tercina, 2 para 1.",
+  "Dar a mesma duração a todas as notas: a guitarra fica picotada e mecânica.",
+  "Chamar de 'layback' ou 'rubato' o que é falta de controle de tempo.",
+  "Deixar o rubato atrasar a chegada: a última nota tem que cair no pulso.",
+  "Aplicar o mesmo efeito em todos os licks, sem contraste."
+ ],
+ "resumo": [
+  "Siga o feel da base: shuffle pede swing, rock e pop pedem reto.",
+  "Swing é a tercina sem a nota do meio. Conte '1-e-a' e toque no '1' e no 'a'.",
+  "Duração é escolha: segure a nota, faça o ligado no último instante e atrase a frase de propósito.",
+  "Rubato é uma curva intencional de velocidade. Pratique em tempo livre e depois com as pontas no clique.",
+  "Alterne frases retas, balançadas e esticadas. O contraste é o que prende o ouvido."
+ ],
+ "proximos_passos": "Se o swing ainda escapa, volte para \"Pulso, contagem e subdivisões\". Depois leve o feel para o contexto em \"Tocar com a banda e para a música\" e \"Solar sobre o blues\". Para medir se o seu layback e o seu rubato estão intencionais, use \"Gravação, autoavaliação e feedback\".",
+ "_meta": {
+  "subcategoria": "C06.4",
+  "modulo": {
+   "id": "C06",
+   "nome": "Ritmo, tempo e groove"
+  },
+  "nome": "Feel: swing, groove e rubato",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:16:44",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 16390,
+   "cache_read": 4913,
+   "output": 10261,
+   "thinking": 2315,
+   "turns": 2,
+   "custo_nominal": 0.3504556
+  }
+ }
+}
