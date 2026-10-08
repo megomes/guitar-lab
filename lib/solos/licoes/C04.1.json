@@ -1,0 +1,2027 @@
+{
+ "titulo": "Pentatônica: construção, maior, menor e relativas",
+ "gancho": "Cinco notas, nenhuma que choque, e boa parte dos solos de rock e blues que você já ouviu saiu delas.",
+ "porque_importa": "A pentatônica tira da escala justamente as notas que ficam a meio tom do acorde. Por isso é o jeito mais seguro de começar a improvisar sem soar errado. Você vai saber de onde ela vem, a diferença entre a maior e a menor e por que um mesmo desenho serve para as duas. Assim, cada vez que aprender um desenho, ganha as duas escalas.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Cinco notas, nenhum meio tom",
+   "texto": "Penta = cinco. A pentatônica tem cinco notas diferentes por oitava. A escala maior e a menor natural têm sete. Na maior e na menor pentatônica não existe nenhum intervalo de meio tom entre notas vizinhas. Sem esses atritos a escala fica estável, fácil de cantar e de memorizar. A oitava que você toca no fim não é uma sexta nota: é a primeira começando de novo.",
+   "destaque": "Menos notas e nenhum semitom: tudo soa cantável.",
+   "visual": null
+  },
+  {
+   "titulo": "Como se constrói: escala de sete menos duas",
+   "texto": "Maior pentatônica = escala maior sem a 4ª e a 7ª, fórmula 1-2-3-5-6. C D E F G A B vira C D E G A. Menor pentatônica = menor natural sem a 2ª e a ♭6, fórmula 1-♭3-4-5-♭7. A B C D E F G vira A C D E G. As notas que saem são justamente as que ficam a meio tom de alguma nota do acorde. Sobre C, por exemplo, o F esbarra no E. Por isso fica difícil errar feio. Um atalho: cinco notas seguidas do ciclo de quintas (C-G-D-A-E) já formam a pentatônica maior.",
+   "destaque": "Tirar as notas de atrito é o segredo do 'sempre soa bem'.",
+   "visual": null
+  },
+  {
+   "titulo": "O acorde mora dentro da escala",
+   "texto": "Na pentatônica de Lá menor (A C D E G), três notas são a tríade Am (A C E). Somando o G, você tem o Am7 inteiro, e só o D fica de fora, como cor. Com a maior acontece o mesmo: C D E G A traz a tríade C E G mais duas cores (D e A). Por isso cada desenho da escala também é um mapa do acorde.",
+   "destaque": "4 das 5 notas de Am pentatônica formam o Am7.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, na região da casa 5: A C D E G. Tônicas (Lá) com anel.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Relativas: as mesmas notas em outro chão",
+   "texto": "Toda menor pentatônica tem as mesmas notas da maior que fica 3 semitons acima. Am = C, Em = G, Dm = F, F♯m = A, Bm = D. O desenho no braço é o mesmo. O que muda é a nota que você trata como casa. No desenho da casa 5, o indicador na corda 6 está na tônica menor (Lá) e o mindinho, três casas acima, na tônica maior (Dó). Cada nota da escala pode virar tônica, o que dá cinco 'modos' da pentatônica. Maior e menor são os dois que você mais vai usar.",
+   "destaque": "Indicador = tônica menor. Mindinho = tônica maior.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "O MESMO desenho lido como Dó maior pentatônica (C D E G A). Mudou só a tônica: agora o anel está no Dó, a casa do mindinho na corda 6.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Qual usar: a cor que você quer",
+   "texto": "Tom ou acorde menor: use a pentatônica menor da tônica. A maior de mesma tônica não funciona ali. Tom maior ou acorde dominante (A7, E7): as duas servem, com cores diferentes. A maior soa doce e aberta, o lado B.B. King. A menor soa rasgada e bluesy, o lado Albert King e SRV, porque a ♭3 dela raspa na 3ª maior do acorde. Comece pela regra 'menor sobre menor, maior sobre maior' e escolha o resto pelo ouvido.",
+   "destaque": "Menor sobre menor. Sobre maior, escolha: doce ou rasgado.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Doce × rasgado sobre A7. A mesma frase duas vezes: primeiro com Lá maior pentatônica (com C♯, a 3ª do acorde), depois com Lá menor pentatônica (com C, a ♭3, que raspa na 3ª do acorde).",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 34,
+   "porque": "Luiz Criasom monta a pentatônica maior tirando a 4ª e a 7ª da escala maior e mostra no braço o motivo de cada corte.",
+   "fonte": {
+    "id": "0MLUiyPWt8s#I05",
+    "tipo": "video",
+    "autor": "Luiz Criasom",
+    "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+    "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=235s",
+    "video": "0MLUiyPWt8s",
+    "inicio": 235,
+    "momento": "03:57",
+    "ideia": "Pentatônica maior: tirar a quarta e a sétima"
+   }
+  },
+  {
+   "ref": 115,
+   "porque": "Jules Guitar toca a mesma forma sobre C-F-G-C e mostra a frase passando de menor a maior só porque passa a terminar no Dó.",
+   "fonte": {
+    "id": "MfrAepqfv2g#I07",
+    "tipo": "video",
+    "autor": "Jules Guitar",
+    "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+    "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=349s",
+    "video": "MfrAepqfv2g",
+    "inicio": 349,
+    "momento": "05:51",
+    "ideia": "Resolver em Dó para soar maior"
+   }
+  },
+  {
+   "ref": 114,
+   "porque": "Steve Stine mostra ao vivo o atalho de recuar a forma menor 3 casas para ter a pentatônica maior.",
+   "fonte": {
+    "id": "Xs2umOucpSM#I05",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=163s",
+    "video": "Xs2umOucpSM",
+    "inicio": 163,
+    "momento": "02:45",
+    "ideia": "Pentatônica maior: deslocar a forma menor três casas para trás"
+   }
+  },
+  {
+   "ref": 132,
+   "porque": "Daniel Seriff toca E maior pentatônica sobre E7 e logo depois a menor: você ouve o som doce e o rasgado lado a lado.",
+   "fonte": {
+    "id": "WNtvx2q2CrI#I04",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+    "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=64s",
+    "video": "WNtvx2q2CrI",
+    "inicio": 64,
+    "momento": "01:06",
+    "ideia": "E maior pentatônica sobre E7 (som doce)"
+   }
+  },
+  {
+   "ref": 138,
+   "porque": "Luiz Criasom compara de ouvido maior e menor sobre o mesmo acorde maior, em contexto de blues.",
+   "fonte": {
+    "id": "3kSPGjxI-ns#I23",
+    "tipo": "video",
+    "autor": "Luiz Criasom",
+    "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+    "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=1195s",
+    "video": "3kSPGjxI-ns",
+    "inicio": 1195,
+    "momento": "19:57",
+    "ideia": "Comparação auditiva entre maior e menor sobre acorde maior"
+   }
+  },
+  {
+   "ref": 146,
+   "porque": "Daniel Bertamini mostra que as três pentatônicas de um tom são recortes da mesma escala maior.",
+   "fonte": {
+    "id": "yDiWrTsQ1tc#I08",
+    "tipo": "video",
+    "autor": "Daniel Bertamini",
+    "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+    "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=165s",
+    "video": "yDiWrTsQ1tc",
+    "inicio": 165,
+    "momento": "02:47",
+    "ideia": "As três pentatônicas maiores são recortes de uma só escala"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Tira duas, sobram cinco",
+   "objetivo": "Construir sozinho qualquer pentatônica maior ou menor a partir da escala de sete notas e conferir pelo ciclo de quintas.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "No papel, escreva a escala de Dó maior (C D E F G A B), risque a 4ª (F) e a 7ª (B) e confira: C D E G A.",
+    "Faça o mesmo em Sol (risque C e F♯) e em Ré (risque G e C♯).",
+    "Escreva Lá menor natural (A B C D E F G), risque a 2ª (B) e a ♭6 (F) e confira: A C D E G.",
+    "Repita com Mi menor e Ré menor.",
+    "Confira as maiores pelo ciclo de quintas: em Sol, G-D-A-E-B em ordem dá G A B D E.",
+    "Por fim, olhe as listas e marque os pares com as mesmas notas: C/Am, G/Em, F/Dm."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça Lá maior e Mi maior, que têm sustenidos (A B C♯ E F♯ e E F♯ G♯ B C♯).",
+    "Cronometre: quanto tempo você leva para escrever 6 pentatônicas sem errar?"
+   ],
+   "cuidado": "Riscar a 6ª na menor. A pentatônica menor não tem sexta: o G de Lá menor é a ♭7.",
+   "inspirado_em": [
+    {
+     "id": "WdrB9wepGSo#I05",
+     "tipo": "video",
+     "autor": "Sidimar Antunes",
+     "titulo": "Esse é TRUQUE PARA SOLAR em QUALQUER MÚSICA e em QUALQUER TOM  - Prof. Sidimar Antunes🎸",
+     "url": "https://www.youtube.com/watch?v=WdrB9wepGSo&t=378s",
+     "video": "WdrB9wepGSo",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Pentatônica maior de Lá: notas"
+    },
+    {
+     "id": "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I09",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "ESCALAS PENTATÔNICAS na Guitarra: Como Aprender, Aplicar e Criar Solos Melhores",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/25/escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-criar-solos-melhores/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica maior de Dó (C)"
+    },
+    {
+     "id": "0MLUiyPWt8s#I05",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=235s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 235,
+     "momento": "03:57",
+     "ideia": "Pentatônica maior: tirar a quarta e a sétima"
+    },
+    {
+     "id": "en--pentatonic_scale-d2efb3#I04",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National Israel",
+     "titulo": "Pentatonic scale - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pentatonic_scale",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Construir pentatônica maior pelo círculo de quintas"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I23",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica menor e maior"
+    },
+    {
+     "id": "pt--escala_pentatônica-58d055#I04",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Escala pentatônica – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Escala_pentatônica",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Construção da pentatônica menor"
+    },
+    {
+     "id": "cifranota--escala-pentatonica-396a3a#I10",
+     "tipo": "documento",
+     "autor": "cifranota.com",
+     "titulo": "Escala Pentatônica: O Que É, Como Usar e 5 Shapes Essenciais",
+     "url": "https://cifranota.com/blog/escala-pentatonica/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica menor é a escala menor sem 2ª e 6ª"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma corda, duas tônicas",
+   "objetivo": "Ouvir as distâncias da fórmula numa única corda e perceber que Mi menor e Sol maior são as mesmas notas.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque V3 a 70 bpm. Os dois primeiros compassos são Mi menor (casas 0-3-5-7-10-12) e os dois últimos são Sol maior (3-5-7-10-12-15).",
+    "Na menor, diga as distâncias em voz alta enquanto toca: 'um e meio, tom, tom, um e meio, tom'.",
+    "Na maior, a ordem muda: 'tom, tom, um e meio, tom, um e meio'.",
+    "Deixe soar a última nota de cada metade até o fim do compasso. A pausa ajuda a sentir onde é a casa.",
+    "Toque um Em aberto, faça a primeira metade e pare no Mi. Depois toque um G, faça a segunda metade e pare no Sol."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Uma corda, duas tônicas. Na corda Mi aguda: Mi menor pentatônica (casas 0-3-5-7-10-12) e depois Sol maior pentatônica (3-5-7-10-12-15). As notas são as mesmas e o ponto de partida muda.",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo na corda Si: Sol♯ menor? Não, escolha uma tônica e confira pelas distâncias, sem decorar.",
+    "Faça Lá menor na corda Sol (casas 2-5-7-9-12-14) e Dó maior começando na casa 5 da mesma corda."
+   ],
+   "cuidado": "Contar casas no lugar de ouvir. A ideia é sentir que os saltos de um tom e meio dão o 'desenho' sonoro da escala.",
+   "inspirado_em": [
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I23",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica menor e maior"
+    },
+    {
+     "id": "t6q5mFGdDy4#I02",
+     "tipo": "video",
+     "autor": "Marty Music",
+     "titulo": "The 1-String Scale Trick That Breaks Out of \"Pentatonic Box\" Jail",
+     "url": "https://www.youtube.com/watch?v=t6q5mFGdDy4&t=148s",
+     "video": "t6q5mFGdDy4",
+     "inicio": 148,
+     "momento": "2:30",
+     "ideia": "Padrão de intervalos da pentatônica menor"
+    },
+    {
+     "id": "en--pentatonic_scale-d2efb3#I07",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National Israel",
+     "titulo": "Pentatonic scale - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pentatonic_scale",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Afinação padrão da guitarra e a pentatônica de Mi menor"
+    },
+    {
+     "id": "MfrAepqfv2g#I09",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=485s",
+     "video": "MfrAepqfv2g",
+     "inicio": 485,
+     "momento": "08:07",
+     "ideia": "Pentatônica de Sol maior é igual à de Mi menor"
+    },
+    {
+     "id": "gkcw9CzLA-A#I05",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=269s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Mesmas notas, dois nomes"
+    }
+   ]
+  },
+  {
+   "titulo": "Ache o acorde dentro da caixa",
+   "objetivo": "Ver e ouvir que a pentatônica de Lá menor contém o Am7 e que só o D fica de fora.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a caixa de V1 subindo e descendo devagar, só para pôr a mão no lugar.",
+    "Agora toque apenas as notas A, C e E da caixa, em qualquer ordem. É a tríade Am.",
+    "Acrescente o G: agora é o Am7 inteiro.",
+    "Com uma base parada em Am (V6), sustente uma nota por vez, 4 tempos cada, e deixe 4 tempos de silêncio entre elas.",
+    "Por último sustente o D e repare: é a única nota da escala que não está no acorde, e ainda assim não soa errada."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, na região da casa 5: A C D E G. Tônicas (Lá) com anel.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça em Mi menor na casa 12 (mesmo desenho): ache E G B e depois o D.",
+    "Faça com Lá maior em V7: ache A C♯ E dentro da caixa."
+   ],
+   "cuidado": "Tocar rápido e corrido. Neste exercício quem manda é a nota longa, para o ouvido comparar cada uma com o acorde.",
+   "inspirado_em": [
+    {
+     "id": "academiamusical--melhore-o-seu-improviso-na-guitarra-c-videoaula-073028#I04",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Melhore o Seu Improviso na Guitarra (C/ Vídeoaula) - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/melhore-o-seu-improviso-na-guitarra-c-videoaula/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Por que a pentatônica menor soa bem"
+    },
+    {
+     "id": "en--pentatonic_scale-d2efb3#I06",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National Israel",
+     "titulo": "Pentatonic scale - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Pentatonic_scale",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Lá menor pentatônica contém a tríade de Lá menor"
+    },
+    {
+     "id": "9xHvDRP5Yds#I13",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Start Soloing WITH THE MUSIC. How to  KEEP TRACK Of The Chord Changes.",
+     "url": "https://www.youtube.com/watch?v=9xHvDRP5Yds&t=634s",
+     "video": "9xHvDRP5Yds",
+     "inicio": 634,
+     "momento": "10:36",
+     "ideia": "Cada pentatônica contém três notas do acorde"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=171s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Pentatônica de Dó contém o Cm7"
+    },
+    {
+     "id": "cifranota--escala-pentatonica-396a3a#I24",
+     "tipo": "documento",
+     "autor": "cifranota.com",
+     "titulo": "Escala Pentatônica: O Que É, Como Usar e 5 Shapes Essenciais",
+     "url": "https://cifranota.com/blog/escala-pentatonica/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com notas longas sobre backing track menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Mesma caixa, outro dono",
+   "objetivo": "Transformar Lá menor em Dó maior sem mudar de lugar, só trocando a nota de repouso.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Compare V1 e V2: as casas são as mesmas e só os anéis de tônica mudaram.",
+    "Toque V5. Nos compassos 1-2, sobre Am, a frase pousa no Lá. Nos compassos 3-4, sobre C, a mesma frase pousa no Dó.",
+    "Grave uma base alternando 2 compassos de Am e 2 de C (V6).",
+    "Improvise frases curtas sempre na caixa da casa 5. Termine no Lá quando soar Am e no Dó quando soar C.",
+    "Repare que o 'clima' muda sem que a mão mude de lugar."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Mesma caixa (V1/V2), outro dono. A frase é igual nas duas metades. Sobre Am ela pousa no Lá e sobre C pousa no Dó.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": []
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": []
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque a base para Am-C-G e use só A C D E G, pousando no Lá, no Dó ou no Sol conforme o acorde.",
+    "Faça o mesmo em Mi menor / Sol maior na casa 12 sobre Em e G."
+   ],
+   "cuidado": "Levar o final de sempre (no Lá) para o trecho de C. A forma é a mesma, mas a casa mudou e o final também precisa mudar.",
+   "inspirado_em": [
+    {
+     "id": "MfrAepqfv2g#I06",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=269s",
+     "video": "MfrAepqfv2g",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Regra das duas primeiras notas da forma"
+    },
+    {
+     "id": "fZ7nVnhm3VE#I03",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Connect All 5 Pentatonic Scale Positions With This Hidden Pathway - Lead Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=fZ7nVnhm3VE&t=66s",
+     "video": "fZ7nVnhm3VE",
+     "inicio": 66,
+     "momento": "01:08",
+     "ideia": "Cada forma cobre a menor e a maior relativa"
+    },
+    {
+     "id": "MfrAepqfv2g#I07",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=349s",
+     "video": "MfrAepqfv2g",
+     "inicio": 349,
+     "momento": "05:51",
+     "ideia": "Resolver em Dó para soar maior"
+    },
+    {
+     "id": "Xs2umOucpSM#I13",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=434s",
+     "video": "Xs2umOucpSM",
+     "inicio": 434,
+     "momento": "07:16",
+     "ideia": "Dó maior e Lá menor na mesma posição"
+    },
+    {
+     "id": "MfrAepqfv2g#I03",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=135s",
+     "video": "MfrAepqfv2g",
+     "inicio": 135,
+     "momento": "02:17",
+     "ideia": "Resolver frases na tônica para soar menor"
+    },
+    {
+     "id": "z1YGMPsz-rU#I08",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=345s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 345,
+     "momento": "05:47",
+     "ideia": "Solar sobre base de dó com pentatônica de lá menor"
+    },
+    {
+     "id": "b1mdrlngTnA#I45",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=1517s",
+     "video": "b1mdrlngTnA",
+     "inicio": 1517,
+     "momento": "25:19",
+     "ideia": "Frases da menor que não funcionam na maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Atalho das 3 casas",
+   "objetivo": "Achar na hora a pentatônica maior de qualquer tom usando o desenho menor que você já conhece.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Ache a tônica do tom maior na corda 6. Lá maior: casa 5.",
+    "Recue 3 casas (casa 2, F♯) e toque ali o desenho da pentatônica menor, com o indicador na casa 2. O resultado está em V7.",
+    "Confirme: o mindinho, de volta na casa 5, cai no Lá. O mindinho fica na tônica maior.",
+    "Com uma backing track em Lá maior, toque as notas devagar e faça frases que terminem num dos três Lás com anel.",
+    "Repita o processo para Ré maior (tônica na casa 10, desenho na casa 7) e Sol maior (tônica na casa 3, desenho na casa 0, com cordas soltas)."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "braco",
+    "legenda": "Atalho das 3 casas. Para ter Lá maior, ache o Lá (casa 5 da corda 6), recue 3 casas (casa 2, F♯) e toque ali o desenho de pentatônica menor. Resultado: A B C♯ E F♯.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 2,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 2,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 2,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Caminho inverso: ache Dó♯ menor a partir de Mi maior (casa 12 → casa 9).",
+    "Compare: toque Lá menor (casa 5) e Lá maior (casa 2) sobre a mesma base em Lá maior e note o brilho da maior."
+   ],
+   "cuidado": "Recuar 2 ou 4 casas. A distância entre relativas é sempre 3 casas (um tom e meio).",
+   "inspirado_em": [
+    {
+     "id": "LNe3bdHBdp4#I16",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=626s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 626,
+     "momento": "10:28",
+     "ideia": "Pentatônica maior de Lá com o dedo mínimo"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I10",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=442s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 442,
+     "momento": "07:24",
+     "ideia": "Localizar a tônica do tom maior com o mindinho"
+    },
+    {
+     "id": "MfrAepqfv2g#I08",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=451s",
+     "video": "MfrAepqfv2g",
+     "inicio": 451,
+     "momento": "07:33",
+     "ideia": "Pentatônica de Sol maior na mesma forma"
+    },
+    {
+     "id": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I04",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Como improvisar na guitarra - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/como-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Achar a pentatônica maior pela relativa"
+    },
+    {
+     "id": "Ork2Vc2bva8#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=862s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 862,
+     "momento": "14:24",
+     "ideia": "Pentatônica maior de Ré pelo deslocamento da forma menor"
+    },
+    {
+     "id": "Xs2umOucpSM#I05",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=163s",
+     "video": "Xs2umOucpSM",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Pentatônica maior: deslocar a forma menor três casas para trás"
+    },
+    {
+     "id": "b1mdrlngTnA#I43",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=1450s",
+     "video": "b1mdrlngTnA",
+     "inicio": 1450,
+     "momento": "24:12",
+     "ideia": "Improvisar com pentatônica maior sobre backing track em Lá maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Doce ou rasgado: maior × menor sobre A7",
+   "objetivo": "Comparar de ouvido as pentatônicas paralelas (mesma tônica) sobre um acorde dominante e escolher a cor.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Grave ou use um loop de A7 (V6) por um minuto.",
+    "Toque V4. Compassos 1-2 em Lá maior pentatônica, pousando no C♯. Compassos 3-4 em Lá menor, mesma rota, pousando no C.",
+    "Note que as duas ficam na mesma região (casas 4 a 8). A menor troca B, C♯ e F♯ por C, D e G, e só o Lá e o Mi se mantêm.",
+    "Improvise 4 compassos só com a maior e 4 só com a menor, sem misturar.",
+    "Escreva uma palavra para o clima de cada uma (ex.: 'sorriso' e 'grito')."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Doce × rasgado sobre A7. A mesma frase duas vezes: primeiro com Lá maior pentatônica (com C♯, a 3ª do acorde), depois com Lá menor pentatônica (com C, a ♭3, que raspa na 3ª do acorde).",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": []
+       },
+       {
+        "t": 3,
+        "notas": []
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo sobre E7: E F♯ G♯ B C♯ contra E G A B D, com a corda Mi solta como bordão.",
+    "Troque o A7 por um Am: ouça a maior perder o sentido e a menor ficar em casa."
+   ],
+   "cuidado": "Achar que a nota C sobre A7 é erro. É o atrito bluesy que dá o caráter. Misturar as duas de propósito é assunto de 'Misturar pentatônica maior e menor'.",
+   "inspirado_em": [
+    {
+     "id": "FhfmneCt7jo#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=258s",
+     "video": "FhfmneCt7jo",
+     "inicio": 258,
+     "momento": "04:20",
+     "ideia": "Pentatônicas maior e menor de G na mesma região"
+    },
+    {
+     "id": "3kSPGjxI-ns#I19",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=888s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 888,
+     "momento": "14:50",
+     "ideia": "Menor e maior paralelas"
+    },
+    {
+     "id": "FhfmneCt7jo#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Learn how to Improvise using these 3 \"Neighborhoods\" on the neck. Guitar Lesson - EP471",
+     "url": "https://www.youtube.com/watch?v=FhfmneCt7jo&t=358s",
+     "video": "FhfmneCt7jo",
+     "inicio": 358,
+     "momento": "06:00",
+     "ideia": "Maior soa alegre, menor soa bluesy"
+    },
+    {
+     "id": "WNtvx2q2CrI#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=64s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 64,
+     "momento": "01:06",
+     "ideia": "E maior pentatônica sobre E7 (som doce)"
+    },
+    {
+     "id": "WNtvx2q2CrI#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=64s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 64,
+     "momento": "01:06",
+     "ideia": "E menor pentatônica sobre E7 (som rasgado)"
+    },
+    {
+     "id": "3kSPGjxI-ns#I22",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=1127s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 1127,
+     "momento": "18:49",
+     "ideia": "Sonoridade blues: pentatônica menor sobre acorde maior"
+    },
+    {
+     "id": "3kSPGjxI-ns#I23",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=1195s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 1195,
+     "momento": "19:57",
+     "ideia": "Comparação auditiva entre maior e menor sobre acorde maior"
+    },
+    {
+     "id": "ZX6NW6VqTb8#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Everyone's Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=ZX6NW6VqTb8&t=108s",
+     "video": "ZX6NW6VqTb8",
+     "inicio": 108,
+     "momento": "01:50",
+     "ideia": "Pentatônica maior de A sobre A7 como alternativa mais doce"
+    }
+   ]
+  },
+  {
+   "titulo": "Quantas pentatônicas cabem em Dó?",
+   "objetivo": "Descobrir que um tom maior tem três pentatônicas e que todas são recortes da mesma escala.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Antes de calcular, chute: quantas pentatônicas diferentes cabem no campo de Dó maior? Anote o número.",
+    "Liste os acordes maiores do campo (C, F, G) e escreva a pentatônica maior de cada um: C D E G A, F G A C D, G A B D E.",
+    "Pareie cada uma com a relativa menor: C = Am, F = Dm, G = Em. São três conjuntos, não seis.",
+    "Confira que nenhuma tem F♯, B♭ ou outra nota fora de Dó maior.",
+    "Toque as três sobre uma nota Dó sustentada: Am na casa 5, Dm na casa 10 e Em na casa 12 (mesmo desenho de V1). Ouça como cada uma dá uma cor diferente ao mesmo Dó."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Repita em Sol maior: G/Em, C/Am, D/Bm.",
+    "Descubra qual das três tem a 7ª maior (B) de Dó e qual tem a 4ª (F)."
+   ],
+   "cuidado": "Contar Am e C como duas escalas. Relativas são um só conjunto de notas. Trocar de pentatônica a cada acorde é tema de 'Seguir as trocas: escala por acorde e chord chasing'.",
+   "inspirado_em": [
+    {
+     "id": "yDiWrTsQ1tc#I06",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=131s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Pentatônica de Fá maior tem as notas da escala de Dó"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I08",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=165s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 165,
+     "momento": "02:47",
+     "ideia": "As três pentatônicas maiores são recortes de uma só escala"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I12",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=265s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 265,
+     "momento": "04:27",
+     "ideia": "Pares de relativos com a mesma pentatônica"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I13",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=265s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 265,
+     "momento": "04:27",
+     "ideia": "Três pentatônicas por tonalidade"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I05",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=131s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 131,
+     "momento": "02:13",
+     "ideia": "Adivinhar quantas pentatônicas há no tom de Dó"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Chamar a ♭7 da menor de 'sexta'. A pentatônica menor é 1-♭3-4-5-♭7 e não tem sexta.",
+  "Tratar relativas como escalas diferentes: Am e C pentatônica são as mesmas cinco notas, só muda a casa.",
+  "Usar a pentatônica maior de mesma tônica sobre um tom menor (Lá maior sobre Am). Em tom menor, use só a menor.",
+  "Levar as frases decoradas da menor para a maior sem mudar o final. As tônicas mudam de lugar dentro do desenho.",
+  "Errar a distância do atalho: são exatamente 3 casas entre a tônica menor e a maior relativa.",
+  "Pensar a pentatônica só como desenho de dedos e não como notas com função (tônica, terça, cor)."
+ ],
+ "resumo": [
+  "Pentatônica = 5 notas por oitava, sem semitons: estável e cantável.",
+  "Maior: 1-2-3-5-6 (escala maior sem 4ª e 7ª). Menor: 1-♭3-4-5-♭7 (menor natural sem 2ª e ♭6).",
+  "Relativas têm as mesmas notas: a maior fica 3 casas acima da menor (Am = C, Em = G). No desenho, indicador = tônica menor e mindinho = tônica maior.",
+  "A nota onde a frase pousa decide se o som é maior ou menor.",
+  "Menor sobre menor. Sobre maior ou dominante: a maior é doce e a menor é bluesy."
+ ],
+ "proximos_passos": "Com o desenho da casa 5 na mão, siga para \"Os cinco shapes e como conectá-los\", para levar a mesma escala ao braço todo. Depois vá a \"Blue note e escala de blues\", que acrescenta a sexta nota, e a \"Misturar pentatônica maior e menor\", para juntar o doce e o rasgado na mesma frase. Para que as notas da escala pousem no acorde certo, continue em \"Notas do acorde, repouso e tensão-resolução\".",
+ "_meta": {
+  "subcategoria": "C04.1",
+  "modulo": {
+   "id": "C04",
+   "nome": "Pentatônica e escala de blues"
+  },
+  "nome": "Pentatônica: construção, maior, menor e relativas",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T14:07:47",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 32634,
+   "cache_read": 4913,
+   "output": 17977,
+   "thinking": 6074,
+   "turns": 4,
+   "custo_nominal": 0.6446816
+  }
+ }
+}

@@ -1,0 +1,3684 @@
+{
+ "titulo": "Sequências, intervalos e padrões melódicos",
+ "gancho": "Você não precisa de notas novas: as que já sabe, em outra ordem, viram outra música.",
+ "porque_importa": "Quem só sobe e desce a escala soa como quem está estudando, não como quem está falando. Terças, grupos de notas e saltos mudam o desenho da frase sem tirar você do shape. Também obrigam a mão e o ouvido a enxergar a escala como intervalos, e não como uma fila de casas.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "A escala é o dicionário; o padrão é a ordem das palavras",
+   "texto": "Subir e descer o shape serve para achar as notas, e ali o trabalho dele acaba. Música tem saltos, mudanças de direção e repetições. Com as mesmas notas, só mudando a ordem, você muda o contorno da frase sem trocar de posição. Um padrão melódico é uma ordem pensada de antemão, e treiná-la ensina a mão a sair da fila.",
+   "destaque": "Mesmas notas, outra ordem: outra frase.",
+   "visual": null
+  },
+  {
+   "titulo": "Grupos: uma fórmula que anda pela escala",
+   "texto": "Pegue uma fórmula curta, como 1-2-3, e repita-a a partir de cada grau: C-D-E, D-E-F, E-F-G... Isso é uma sequência. O ouvido reconhece o desenho e acompanha a frase subindo como uma escada. Depois dos grupos de três vêm os de quatro (1-2-3-4) e os de \"pula e volta\" (1-3-2). Cada fórmula tem seu sotaque.",
+   "destaque": "Uma ideia curta, repetida grau a grau.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Grupos de três na corda Lá (Dó maior): C-D-E, D-E-F, E-F-G... cada grupo começa um grau acima. Respire no fim de cada grupo.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Terças e sextas: os intervalos que cantam",
+   "texto": "Na escala em terças, você toca uma nota, pula a vizinha e volta: 1-3, 2-4, 3-5... O resultado soa como melodia, não como exercício. As sextas são o mesmo intervalo de cabeça para baixo (a terça invertida). Muitos solistas, como Matteo Mancuso, consideram as duas os intervalos mais melódicos que existem. Na guitarra, a sexta fica confortável pulando uma corda: a sexta maior cai na mesma casa entre as cordas 3 e 1.",
+   "destaque": "Pular uma nota já transforma escala em melodia.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Terças subindo em Sol maior: G-B, A-C, B-D... Toque uma nota, pule a vizinha e volte uma para começar o próximo par.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Na pentatônica, os saltos já vêm prontos",
+   "texto": "A pentatônica tem buracos entre as notas, então qualquer padrão nela já salta. \"Pula e volta à do meio\" (A-D-C) e os grupos de quatro descendo (C-A-G-E) são o vocabulário de muitos solos de rock e blues. Um bônus: um desenho aprendido num par de cordas reaparece uma oitava acima com os mesmos intervalos (veja Notas no braço e oitavas).",
+   "destaque": "",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Pula e volta à do meio (Lá menor pentatônica): A-D-C, C-E-D, D-G-E... A 1ª nota pula a vizinha e a 3ª volta para buscá-la.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Padrão é andaime, não prédio",
+   "texto": "Tocado inteiro e sem pausa, todo padrão soa como robô. No solo, use pedaços: um grupo e silêncio, outro grupo começando fora do tempo 1, um fragmento repetido e um pouso numa nota forte. O padrão vira uma fonte de ideias para quando a inspiração some. Escolher onde ele começa e termina já é improvisar.",
+   "destaque": "No solo, use só o pedaço do padrão que a frase pede.",
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "O mesmo padrão de V6 virando frase: um grupo e silêncio, outro grupo entrando no tempo 2, um fragmento repetido e o pouso na tônica.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 24,
+   "porque": "Daniel Seriff toca os grupos de três na corda Lá falando o nome de cada nota, subindo e descendo pelo braço todo.",
+   "fonte": {
+    "id": "2vpD-LXRenI#I14",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+    "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=377s",
+    "video": "2vpD-LXRenI",
+    "inicio": 377,
+    "momento": "6:19",
+    "ideia": "Padrão sobe duas e desce uma na corda Lá"
+   }
+  },
+  {
+   "ref": 30,
+   "porque": "O mesmo professor mostra as terças na corda Lá (B-D, C-E, D-F...) e como o padrão revela o braço.",
+   "fonte": {
+    "id": "2vpD-LXRenI#I17",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+    "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=496s",
+    "video": "2vpD-LXRenI",
+    "inicio": 496,
+    "momento": "8:18",
+    "ideia": "Terças ascendentes na corda Lá"
+   }
+  },
+  {
+   "ref": 43,
+   "porque": "Dustin Hofsess demonstra o \"pula e volta à do meio\" na pentatônica, com a digitação de dedo rolado.",
+   "fonte": {
+    "id": "UG_P4KNw0XM#I09",
+    "tipo": "video",
+    "autor": "Dustin Hofsess",
+    "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+    "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=245s",
+    "video": "UG_P4KNw0XM",
+    "inicio": 245,
+    "momento": "04:07",
+    "ideia": "Frase ascendente pulando uma nota e voltando à do meio"
+   }
+  },
+  {
+   "ref": 48,
+   "porque": "Matteo Mancuso explica por que terças e sextas são os intervalos mais melódicos e toca exemplos.",
+   "fonte": {
+    "id": "XL9TYmwkHWs#I14",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+    "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=944s",
+    "video": "XL9TYmwkHWs",
+    "inicio": 944,
+    "momento": "15:46",
+    "ideia": "Terças e sextas como intervalos melódicos centrais"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Seriff transforma o padrão de terças em frase musical, com slides, hammer-ons e escolhas na hora.",
+   "fonte": {
+    "id": "N8N6MAxvJIk#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+    "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=574s",
+    "video": "N8N6MAxvJIk",
+    "inicio": 574,
+    "momento": "09:36",
+    "ideia": "Transformar o padrão de terças em ideia musical"
+   }
+  },
+  {
+   "ref": 62,
+   "porque": "Signals Music Studio mostra como mudar o ritmo de um padrão de escala para ele soar como música.",
+   "fonte": {
+    "id": "xKbtQM-qzSM#I17",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+    "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=639s",
+    "video": "xKbtQM-qzSM",
+    "inicio": 639,
+    "momento": "10:41",
+    "ideia": "Variar o ritmo dos padrões de escala"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Grupos de três numa corda só",
+   "objetivo": "Entender o que é uma sequência (a mesma fórmula andando grau a grau) sem a distração de trocar de corda.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Na corda Lá, localize Dó maior: C3, D5, E7, F8, G10, A12, B14, C15.",
+    "Toque C-D-E e pare. Recomece um grau acima: D-E-F. Continue até A-B-C (V1).",
+    "Fale o nome de cada nota enquanto toca. A pausa no fim de cada grupo é a hora de olhar para a próxima casa.",
+    "Agora desça com o mesmo padrão: C-B-A, B-A-G, A-G-F... até chegar ao C da casa 3.",
+    "Metrônomo a 60, depois 70. Só suba o andamento quando a subida e a descida saírem sem hesitação."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Grupos de três na corda Lá (Dó maior): C-D-E, D-E-F, E-F-G... cada grupo começa um grau acima. Respire no fim de cada grupo.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 14,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Grupos de quatro: C-D-E-F, D-E-F-G, E-F-G-A...",
+    "Grupo \"pula e volta\" 1-3-2: C-E-D, D-F-E, E-G-F...",
+    "Repita na corda Mi grave começando no G (casa 3), em Sol maior."
+   ],
+   "cuidado": "Escorregar a mão no salto entre grupos e cair na casa errada. Use a pausa para mirar antes de mover.",
+   "inspirado_em": [
+    {
+     "id": "2vpD-LXRenI#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=301s",
+     "video": "2vpD-LXRenI",
+     "inicio": 301,
+     "momento": "5:03",
+     "ideia": "Grupos de notas (motivos)"
+    },
+    {
+     "id": "N8N6MAxvJIk#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=251s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 251,
+     "momento": "04:13",
+     "ideia": "Experimentar grupos de quatro e cinco notas"
+    },
+    {
+     "id": "2vpD-LXRenI#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=339s",
+     "video": "2vpD-LXRenI",
+     "inicio": 339,
+     "momento": "5:41",
+     "ideia": "Grupos de notas na corda Lá"
+    },
+    {
+     "id": "2vpD-LXRenI#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=377s",
+     "video": "2vpD-LXRenI",
+     "inicio": 377,
+     "momento": "6:19",
+     "ideia": "Padrão sobe duas e desce uma na corda Lá"
+    }
+   ]
+  },
+  {
+   "titulo": "Terças no shape de Sol maior",
+   "objetivo": "Tocar a escala em terças dentro de uma posição, subindo e descendo, até o padrão soar como melodia.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o shape de Sol maior uma vez em linha (V2) só para localizar as notas.",
+    "Agora em terças: G-B, A-C, B-D, C-E... Uma nota, pula a vizinha, volta uma (V3).",
+    "Suba até o G da corda 1 e segure essa nota.",
+    "Desça a partir do A (corda 1, casa 5): A-F♯, G-E, F♯-D, E-C... até o G grave.",
+    "Metrônomo a 60 em colcheias. Quando estiver limpo, coloque uma base em Sol (G-Em-C-D) e toque só a subida, pousando no G."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Terças subindo em Sol maior: G-B, A-C, B-D... Toque uma nota, pule a vizinha e volte uma para começar o próximo par.",
+    "tonica": "G",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 2,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Terças invertidas: B-G, C-A, D-B... (dentro de cada par, a nota aguda vem primeiro).",
+    "Alterne pares subindo e descendo: G-B, C-A, B-D, E-C...",
+    "Leve o padrão para o shape de Mi menor (a relativa) ou para Ré maior."
+   ],
+   "cuidado": "Quando o par cruza de corda, a mão tende a pular duas notas e tocar uma quarta. Confira cada par pelo grau: 1-3, 2-4, 3-5.",
+   "inspirado_em": [
+    {
+     "id": "2vpD-LXRenI#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=496s",
+     "video": "2vpD-LXRenI",
+     "inicio": 496,
+     "momento": "8:18",
+     "ideia": "Intervalos de terça (jumpin' 3rds)"
+    },
+    {
+     "id": "p44c9V-yBBA#I05",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=140s",
+     "video": "p44c9V-yBBA",
+     "inicio": 140,
+     "momento": "02:22",
+     "ideia": "Padrão de alternância em terças"
+    },
+    {
+     "id": "2vpD-LXRenI#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=496s",
+     "video": "2vpD-LXRenI",
+     "inicio": 496,
+     "momento": "8:18",
+     "ideia": "Terças ascendentes na corda Lá"
+    },
+    {
+     "id": "2vpD-LXRenI#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=531s",
+     "video": "2vpD-LXRenI",
+     "inicio": 531,
+     "momento": "8:53",
+     "ideia": "Terças até a última casa"
+    },
+    {
+     "id": "2vpD-LXRenI#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Give Me 10 Minutes and I'll Change The Way You See The Fretboard",
+     "url": "https://www.youtube.com/watch?v=2vpD-LXRenI&t=573s",
+     "video": "2vpD-LXRenI",
+     "inicio": 573,
+     "momento": "9:35",
+     "ideia": "Terças descendentes na corda Lá"
+    },
+    {
+     "id": "N8N6MAxvJIk#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=497s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 497,
+     "momento": "08:19",
+     "ideia": "Terças na forma dórica (subida)"
+    },
+    {
+     "id": "N8N6MAxvJIk#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=538s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 538,
+     "momento": "09:00",
+     "ideia": "Terças na forma dórica (descida)"
+    },
+    {
+     "id": "p44c9V-yBBA#I06",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=173s",
+     "video": "p44c9V-yBBA",
+     "inicio": 173,
+     "momento": "02:55",
+     "ideia": "Estudar o padrão devagar na tablatura"
+    },
+    {
+     "id": "p44c9V-yBBA#I09",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=336s",
+     "video": "p44c9V-yBBA",
+     "inicio": 336,
+     "momento": "05:38",
+     "ideia": "Aplicar o padrão sobre backing track em Ré maior"
+    },
+    {
+     "id": "p44c9V-yBBA#I13",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=478s",
+     "video": "p44c9V-yBBA",
+     "inicio": 478,
+     "momento": "08:00",
+     "ideia": "Aplicar o padrão em outros shapes de escala maior e menor"
+    },
+    {
+     "id": "p44c9V-yBBA#I04",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=102s",
+     "video": "p44c9V-yBBA",
+     "inicio": 102,
+     "momento": "01:44",
+     "ideia": "O padrão vale para qualquer shape de escala"
+    }
+   ]
+  },
+  {
+   "titulo": "Pula e volta à do meio",
+   "objetivo": "Dominar o salto da pentatônica com a volta à nota pulada, o padrão 1-3-2, e o dedo rolado entre cordas na mesma casa.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Monte o shape 1 de Lá menor pentatônica (V4).",
+    "Toque A-D-C: o Lá, pula o Dó, vai ao Ré e volta ao Dó. Esse é o desenho.",
+    "Siga grupo a grupo: C-E-D, D-G-E, E-A-G, G-C-A, A-D-C (V5).",
+    "Em A(6,5)→D(5,5), role o indicador de uma corda para a outra. Não levante o dedo: as notas não podem soar juntas.",
+    "Faça a descida: C-G-A na corda 1/2 (C1,8 → G2,8 → A1,5), A-E-G, G-D-E... até o Lá grave."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Pula e volta à do meio (Lá menor pentatônica): A-D-C, C-E-D, D-G-E... A 1ª nota pula a vizinha e a 3ª volta para buscá-la.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque em colcheias contínuas, sem as pausas: o grupo de 3 cai cada vez num tempo diferente.",
+    "Use hammer-on na volta ascendente e pull-off na descendente.",
+    "Leve para o shape 2 da pentatônica."
+   ],
+   "cuidado": "Deixar duas notas da mesma casa soarem ao mesmo tempo. Role o dedo e alivie a pressão da nota anterior.",
+   "inspirado_em": [
+    {
+     "id": "N8N6MAxvJIk#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=42s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 42,
+     "momento": "00:44",
+     "ideia": "Grupos de três notas na pentatônica diagonal (subida)"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I20",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Restrição: subir pulando notas"
+    },
+    {
+     "id": "UG_P4KNw0XM#I09",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=245s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 245,
+     "momento": "04:07",
+     "ideia": "Frase ascendente pulando uma nota e voltando à do meio"
+    },
+    {
+     "id": "UG_P4KNw0XM#I10",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=283s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 283,
+     "momento": "04:45",
+     "ideia": "Variação ascendente começando com o indicador"
+    },
+    {
+     "id": "UG_P4KNw0XM#I11",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=360s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 360,
+     "momento": "06:02",
+     "ideia": "Frases descendentes com nota pulada: começar com o anular"
+    },
+    {
+     "id": "UG_P4KNw0XM#I12",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=408s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 408,
+     "momento": "06:50",
+     "ideia": "Frase descendente com nota pulada usando o indicador"
+    }
+   ]
+  },
+  {
+   "titulo": "Grupos de quatro descendo a pentatônica",
+   "objetivo": "Automatizar o grupo de quatro descendente, o padrão pentatônico mais usado em solos, e fechar com um salto de oitava.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "A partir do Dó agudo (corda 1, casa 8), toque C-A-G-E.",
+    "Comece uma nota abaixo: A-G-E-D. Depois G-E-D-C, E-D-C-A... (V6).",
+    "Acentue levemente a 1ª nota de cada grupo para ouvir o desenho.",
+    "No fim, salte do Ré (corda 5) para o Lá grave (corda 6, casa 5) e segure.",
+    "Comece a 60 bpm e suba de 5 em 5 até 80, sempre limpo."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Grupos de quatro descendo a pentatônica de Lá menor: C-A-G-E, A-G-E-D... Cada grupo começa uma nota abaixo. Fecha com salto de oitava até o Lá grave.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Suba em grupos de quatro: A-C-D-E, C-D-E-G, D-E-G-A...",
+    "Alterne um grupo de três e um de quatro.",
+    "Mova tudo duas casas para trás e toque em Sol menor."
+   ],
+   "cuidado": "Atropelar a troca de corda e perder o grupo. Se o acento se mexer, o padrão desandou: volte o metrônomo.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I27",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Saltos de oitava"
+    },
+    {
+     "id": "N8N6MAxvJIk#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=251s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 251,
+     "momento": "04:13",
+     "ideia": "Experimentar grupos de quatro e cinco notas"
+    },
+    {
+     "id": "vPIebPDBizs#I19",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=645s",
+     "video": "vPIebPDBizs",
+     "inicio": 645,
+     "momento": "10:47",
+     "ideia": "Pentatônica mixolídia em grupos de três e quatro notas"
+    },
+    {
+     "id": "N8N6MAxvJIk#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=158s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 158,
+     "momento": "02:40",
+     "ideia": "Grupos de três notas na pentatônica diagonal (descida)"
+    }
+   ]
+  },
+  {
+   "titulo": "Sextas pulando corda",
+   "objetivo": "Ouvir e localizar sextas maiores e menores da escala como melodia, usando o pulo de corda.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Em Dó maior, nas cordas 3 e 1: C(3,5) e A(1,5). Toque uma nota de cada vez, não juntas.",
+    "Suba: D-B, E-C, F-D, G-E (V7). Repare: sexta maior na mesma casa; E-C, a sexta menor, uma casa atrás.",
+    "Desça de volta e resolva o Si final no Dó da casa 8.",
+    "Abafe a corda Si com a sobra do dedo da mão esquerda e com a palheta.",
+    "Cante a nota aguda antes de tocá-la."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Sextas melódicas em Dó maior, pulando a corda Si (cordas 3 e 1). Sexta maior fica na mesma casa; a menor (E-C), uma casa atrás. O Si final resolve no Dó.",
+    "tonica": "C",
+    "bpm": 65,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça as terças no mesmo trecho, nas cordas 3 e 2 (C-E, D-F, E-G...).",
+    "Inverta a ordem: nota aguda primeiro, depois a grave.",
+    "Sobre uma base em Dó, improvise usando só sextas, com pausas entre elas."
+   ],
+   "cuidado": "Esbarrar na corda Si no meio do pulo. Mire na corda 1 e mantenha a Si abafada.",
+   "inspirado_em": [
+    {
+     "id": "XL9TYmwkHWs#I14",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=944s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 944,
+     "momento": "15:46",
+     "ideia": "Terças e sextas como intervalos melódicos centrais"
+    },
+    {
+     "id": "XL9TYmwkHWs#I15",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=969s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 969,
+     "momento": "16:11",
+     "ideia": "Tocar terças e sextas sobre a tonalidade"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I18",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Double stops de sextas em Mi maior pelas formas"
+    },
+    {
+     "id": "XL9TYmwkHWs#I16",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1002s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1002,
+     "momento": "16:44",
+     "ideia": "Terças pulando cordas (string skipping)"
+    }
+   ]
+  },
+  {
+   "titulo": "Do padrão à frase",
+   "objetivo": "Transformar um padrão estudado em vocabulário de improviso, com pausas, deslocamento e repetição.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque V6 inteiro uma vez, como exercício.",
+    "Agora toque V8 sobre uma base em Lá menor: só o 1º grupo e dois tempos de silêncio.",
+    "Entre no 2º grupo no tempo 2, não no 1. Segure o Mi.",
+    "Repita um fragmento duas vezes e pouse no Lá. Fique em silêncio um compasso.",
+    "Improvise 2 minutos usando só pedaços do padrão (1 a 6 notas), cada pedaço com começo, fim e pausa."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "O mesmo padrão de V6 virando frase: um grupo e silêncio, outro grupo entrando no tempo 2, um fragmento repetido e o pouso na tônica.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use V5 (pula e volta) como fonte.",
+    "Use as terças de Sol maior sobre G-Em-C-D.",
+    "Mude a figura rítmica de um grupo: duas colcheias e uma semínima, por exemplo."
+   ],
+   "cuidado": "Voltar ao modo metralhadora e tocar o padrão inteiro. Se tocou mais de 2 grupos seguidos, pare e respire.",
+   "inspirado_em": [
+    {
+     "id": "N8N6MAxvJIk#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=574s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 574,
+     "momento": "09:36",
+     "ideia": "Transformar o padrão de terças em ideia musical"
+    },
+    {
+     "id": "jexCJFrAeH4#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=915s",
+     "video": "jexCJFrAeH4",
+     "inicio": 915,
+     "momento": "15:17",
+     "ideia": "Aplicar qualquer padrão de escala em improviso"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I30",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Gerar ideias a partir de padrões de escala"
+    },
+    {
+     "id": "p44c9V-yBBA#I02",
+     "tipo": "video",
+     "autor": "Vítor Lucena",
+     "titulo": "Use esse PADRÃO MELÓDICO para fazer SOLOS LINDOS na escala maior - Aula de violão",
+     "url": "https://www.youtube.com/watch?v=p44c9V-yBBA&t=30s",
+     "video": "p44c9V-yBBA",
+     "inicio": 30,
+     "momento": "00:32",
+     "ideia": "Usar um padrão melódico como ferramenta no improviso"
+    },
+    {
+     "id": "N8N6MAxvJIk#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=180s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 180,
+     "momento": "03:02",
+     "ideia": "Aplicar os grupos em frases, não apenas repeti-los"
+    },
+    {
+     "id": "xKbtQM-qzSM#I17",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=639s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 639,
+     "momento": "10:41",
+     "ideia": "Variar o ritmo dos padrões de escala"
+    }
+   ]
+  },
+  {
+   "titulo": "Laboratório: seu padrão, seu percurso",
+   "objetivo": "Criar padrões próprios e escolher na hora onde aplicá-los, transformando a sequência em decisão musical.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Invente uma fórmula de 3 ou 4 notas que não seja linear, por exemplo 1-3-2-4, 1-5-3 ou 3-6-5-2-3-5.",
+    "No shape de Sol maior (V2), aplique a fórmula a partir de cada grau, primeiro por escrito, depois na guitarra.",
+    "Agora quebre a rota: dois grupos subindo, um descendo, depois troque de corda ou de posição quando quiser.",
+    "Sobre G-Em-C-D, solte só fragmentos do seu padrão, sempre terminando numa nota do shape que soe estável.",
+    "Grave 1 minuto e guarde as 2 combinações que mais soaram como música."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Sol maior na posição 2 (casas 2 a 5): o shape usado nas terças e no laboratório de padrões.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 2,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 2,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 2,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Notas aleatórias da escala no metrônomo, aumentando o tamanho dos saltos aos poucos. Errou, baixe o bpm.",
+    "Pegue um lick curto e sequencie pelas 5 posições da pentatônica.",
+    "Toque o mesmo padrão em Dó menor e depois em Mi♭ menor, alternando os centros."
+   ],
+   "cuidado": "Inventar fórmulas longas demais para lembrar. Mantenha 3 a 4 notas, e o ouvido decide se fica.",
+   "inspirado_em": [
+    {
+     "id": "P4m4vVAcmTw#I17",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=709s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 709,
+     "momento": "11:51",
+     "ideia": "Variar a ordem das notas com padrões melódicos"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I18",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=585s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 585,
+     "momento": "09:47",
+     "ideia": "Tocar as notas do lick fora de ordem linear"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I16",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Criar sequências na escala maior"
+    },
+    {
+     "id": "-VjHVHzWL0o#I20",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1577s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 1577,
+     "momento": "26:19",
+     "ideia": "Notas aleatórias da escala"
+    },
+    {
+     "id": "U3u3jiF7zVg#I17",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=563s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 563,
+     "momento": "09:25",
+     "ideia": "Criar padrões melódicos próprios com saltos"
+    },
+    {
+     "id": "J-vMFMHwpkQ#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=205s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 205,
+     "momento": "03:27",
+     "ideia": "Não vá reto pelo braço: improvise o padrão"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I29",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sequenciar um lick pelas posições da pentatônica"
+    },
+    {
+     "id": "N1shDBha6Y0#I24",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1767s",
+     "video": "N1shDBha6Y0",
+     "inicio": 1767,
+     "momento": "29:29",
+     "ideia": "Padrões intervalares sobre Cm e Mi♭m"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar o padrão inteiro do início ao fim no solo, como exercício: soa robótico.",
+  "Treinar só a subida. A descida de cada padrão é outro desenho e precisa de estudo próprio.",
+  "Começar sempre da nota mais grave do shape: a mão vicia num único ponto de partida.",
+  "Acelerar antes de o padrão estar limpo. Grupo embolado não vira frase.",
+  "Achar que terça em cordas vizinhas cai na mesma casa. Isso só vale para a terça maior no par G-B.",
+  "Deixar notas da mesma casa em cordas vizinhas soarem juntas por não rolar o dedo."
+ ],
+ "resumo": [
+  "Sequência é uma fórmula curta (1-2-3, 1-3-2, 1-2-3-4) repetida a partir de cada grau.",
+  "Terças (1-3, 2-4...) e sextas são os intervalos mais melódicos: pular uma nota já vira melodia.",
+  "Na pentatônica, \"pula e volta\" e os grupos de quatro descendo são vocabulário clássico.",
+  "Estude subida e descida, devagar e com metrônomo, falando ou cantando as notas.",
+  "No solo, use pedaços do padrão com pausas, deslocamento e pouso. Escolher o percurso já é improvisar."
+ ],
+ "proximos_passos": "Leve os saltos para as notas do acorde em \"Arpejos: conceito e formas básicas\". Para desenvolver os fragmentos como ideia, siga para \"Motivo, repetição e desenvolvimento motívico\". Para atravessar o braço com esses padrões, veja \"Sair da caixa: diagonal, 3-2, blocos e slides\". Para ganhar velocidade limpa nos grupos, estude \"Palhetada, velocidade e mecânica das mãos\".",
+ "_meta": {
+  "subcategoria": "C03.4",
+  "modulo": {
+   "id": "C03",
+   "nome": "Mapa do braço e visualização"
+  },
+  "nome": "Sequências, intervalos e padrões melódicos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T14:05:06",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 25680,
+   "cache_read": 0,
+   "output": 26438,
+   "thinking": 12690,
+   "turns": 2,
+   "custo_nominal": 0.750857
+  }
+ }
+}

@@ -1,0 +1,2634 @@
+{
+ "titulo": "Os cinco shapes e como conectá-los",
+ "gancho": "São só cinco notas, mas espalhadas pelo braço inteiro. Quem conecta os cinco shapes para de pensar em caixas e vê o braço como um território só.",
+ "porque_importa": "Quase todo guitarrista aprende o shape 1 e fica nele, repetindo os mesmos licks na mesma região. Os outros quatro shapes não trazem notas novas: trazem outros registros, outras digitações e outros lugares para o bend. Conectá-los é o que permite seguir a música pelo braço todo e trocar de tom sem sair do lugar.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Cinco recortes do mesmo braço",
+   "texto": "Em Lá menor pentatônica as notas são sempre A, C, D, E e G. Espalhadas pelo braço, elas formam cinco desenhos (shapes ou boxes) que se encaixam sem deixar buraco. Trocar de shape não traz nenhuma nota nova, só outra digitação e outro registro. Cada shape nasce de começar a escala numa nota diferente: na Mi grave, as casas 3, 5, 8, 10 e 12 são cinco pontos de partida. Atenção: a numeração dos shapes muda de professor para professor. Aqui o shape 1 é o de tônica na Mi grave com o indicador (casa 5 em Am).",
+   "destaque": "Cinco shapes, as mesmas cinco notas.",
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Lá menor pentatônica da casa 2 à 15: os cinco shapes encaixados. Shape 5 ≈ casas 2–5 · Shape 1 ≈ 5–8 · Shape 2 ≈ 7–10 · Shape 3 ≈ 9–13 · Shape 4 ≈ 12–15 (o shape 5 volta em 14–17). Anéis = tônicas.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 15,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 12,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 14,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 15,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O shape 1 e o mapa de tônicas",
+   "texto": "Comece pelo shape 1, nas casas 5–8, com duas notas por corda. Entre as notas há só dois tipos de distância: 3 casas (tom e meio) e 2 casas (um tom). Saber o desenho não basta: decore também onde estão os Lás. São três no shape 1 (Mi grave 5, Ré 7, Mi aguda 5). Os shapes 1 e 5 têm três tônicas, e os shapes 2, 3 e 4 têm duas. A tônica é o seu GPS: é onde a frase pousa e o ponto que diz em qual shape você está.",
+   "destaque": "Antes do desenho, decore onde moram as tônicas.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Shape 1 de Lá menor pentatônica (casas 5–8). Os anéis marcam as três tônicas (Lá): Mi grave casa 5, Ré casa 7 e Mi aguda casa 5.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O desenho anda, a tônica manda",
+   "texto": "Os cinco shapes são móveis e andam juntos, como um bloco. Leve a tônica do shape 1 para a casa 3 da Mi grave e você está em Sol menor. Na casa 7, Si menor. Na casa 8, Dó menor. Na casa 10, Ré menor. Os graus não mudam, só o endereço. Os mesmos cinco desenhos servem também à pentatônica maior relativa. O que muda é qual nota você trata como casa (veja a lição Pentatônica: construção, maior, menor e relativas).",
+   "destaque": "Mesma forma, outra casa: outro tom.",
+   "visual": null
+  },
+  {
+   "titulo": "Vizinhos dividem a fronteira",
+   "texto": "O lado direito de um shape é o lado esquerdo do próximo. Quem conhece o shape 1 já sabe metade do shape 2. Essas notas de fronteira, principalmente as tônicas, funcionam como portas. Você pousa num Lá, passa a enxergá-lo como Lá do shape vizinho e continua a frase do outro lado. A ordem é um ciclo: 5-1-2-3-4-5, e depois do shape 4 o 5 leva de volta ao shape 1, uma oitava acima (casa 17).",
+   "destaque": "Cada tônica pertence a dois shapes: é ali que se troca de caixa.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Shapes 1 e 2 de Lá menor juntos (casas 5–10). As notas com anel (casas 7 e 8) pertencem aos DOIS shapes: o lado direito do shape 1 é o lado esquerdo do shape 2.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Shape é mapa, não música",
+   "texto": "Subir e descer caixas não é solar. Cada shape tem seu caráter. O 1 é compacto e bom para bends. O 2 é mais brilhante. O 3 tem notas próximas, boas para frases rápidas. O 4 serve para descidas e finais. O 5 é simétrico e fácil de decorar. A mesma frase em outro shape muda de digitação e de timbre e sugere ideias novas. Com os cinco na mão, você ganha a liberdade maior: trocar de tom ou de acorde sem pular pelo braço, usando o shape que já está debaixo dos dedos.",
+   "destaque": "Trocar de posição dá opções. Quem dá a qualidade é o ouvido.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 41,
+   "porque": "Samjam toca a posição 1 de Lá menor e aponta cada tônica, que é a base de todo o resto.",
+   "fonte": {
+    "id": "b1mdrlngTnA#I09",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=203s",
+    "video": "b1mdrlngTnA",
+    "inicio": 203,
+    "momento": "03:25",
+    "ideia": "Localizar as tônicas da posição 1"
+   }
+  },
+  {
+   "ref": 177,
+   "porque": "Mostra no braço que cada posição começa na segunda nota da anterior, encaixando os shapes como peças.",
+   "fonte": {
+    "id": "b1mdrlngTnA#I22",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=680s",
+    "video": "b1mdrlngTnA",
+    "inicio": 680,
+    "momento": "11:22",
+    "ideia": "Posição 3 começa na segunda nota da posição 2"
+   }
+  },
+  {
+   "ref": 203,
+   "porque": "Jared improvisa, pousa numa raiz e passa a enxergá-la como raiz da forma vizinha. É a troca de shape ao vivo.",
+   "fonte": {
+    "id": "P4m4vVAcmTw#I08",
+    "tipo": "video",
+    "autor": "Sound Guitar Lessons With Jared",
+    "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+    "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=356s",
+    "video": "P4m4vVAcmTw",
+    "inicio": 356,
+    "momento": "05:58",
+    "ideia": "Trocar de forma pela raiz em comum"
+   }
+  },
+  {
+   "ref": 196,
+   "porque": "Pedro Bernardi demonstra transições entre shapes vizinhos corda por corda, sem quebrar o pulso.",
+   "fonte": {
+    "id": "U3u3jiF7zVg#I07",
+    "tipo": "video",
+    "autor": "Pedro Bernardi",
+    "titulo": "Como tocar solos por todo o braço da guitarra",
+    "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=303s",
+    "video": "U3u3jiF7zVg",
+    "inicio": 303,
+    "momento": "05:05",
+    "ideia": "Transições entre shapes pela mesma corda"
+   }
+  },
+  {
+   "ref": 230,
+   "porque": "Jordan Steele leva o mesmo lick curto pelas cinco posições, sempre terminando no mesmo Lá.",
+   "fonte": {
+    "id": "4YYgCPtyNzg#I01",
+    "tipo": "video",
+    "autor": "Jordan Steele",
+    "titulo": "Do this to break out of the pentatonic box! #guitarsolo #guitarlesson #guitarlicks #guitarteacher #1",
+    "url": "https://www.youtube.com/watch?v=4YYgCPtyNzg&t=0s",
+    "video": "4YYgCPtyNzg",
+    "inicio": 0,
+    "momento": "00:00",
+    "ideia": "Tocar o mesmo lick em todas as posições da pentatônica"
+   }
+  },
+  {
+   "ref": 261,
+   "porque": "Bertamini muda de tonalidade pelo ciclo de quartas sem tirar a mão da região, escolhendo o desenho mais próximo.",
+   "fonte": {
+    "id": "drX6XjaItA4#I15",
+    "tipo": "video",
+    "autor": "Daniel Bertamini",
+    "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+    "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=537s",
+    "video": "drX6XjaItA4",
+    "inicio": 537,
+    "momento": "08:59",
+    "ideia": "Mudar de tom sem mover a mão"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Shape 1 com GPS: as três tônicas",
+   "objetivo": "Automatizar o shape 1 de Lá menor nos dois sentidos e saber sem pensar onde estão os três Lás.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Indicador na casa 5 da Mi grave (Lá). Toque o shape 1 subindo, duas notas por corda, a 60 bpm em colcheias.",
+    "Desça sozinho, sem voltar a subir. A descida usa outra memória muscular e precisa de treino próprio.",
+    "Toque de novo e diga 'Lá' em voz alta toda vez que passar por uma tônica: Mi grave 5, Ré 7 e Mi aguda 5.",
+    "Crie três frases de 3 ou 4 notas, cada uma terminando num Lá diferente, e deixe a última nota soar.",
+    "Feche tocando o shape sem olhar para a mão, com a atenção em outra coisa (uma conversa, a TV)."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Shape 1 de Lá menor pentatônica (casas 5–8). Os anéis marcam as três tônicas (Lá): Mi grave casa 5, Ré casa 7 e Mi aguda casa 5.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Comece em qualquer nota do shape, vá até a mais aguda, desça até a mais grave e volte à nota de partida.",
+    "Toque o shape inteiro com o médio na tônica em vez do indicador e veja que caminhos novos aparecem."
+   ],
+   "cuidado": "Pular a descida e acelerar cedo demais. Se você trava ao descer ou hesita para achar o Lá da corda Ré, ainda não é hora de subir o bpm.",
+   "inspirado_em": [
+    {
+     "id": "Y8yEev1Ce88#I09",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=385s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 385,
+     "momento": "06:27",
+     "ideia": "Tocar a forma 1 subindo e descendo"
+    },
+    {
+     "id": "b1mdrlngTnA#I02",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=65s",
+     "video": "b1mdrlngTnA",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Tocar a posição 1 subindo e descendo"
+    },
+    {
+     "id": "MfrAepqfv2g#I04",
+     "tipo": "video",
+     "autor": "Jules Guitar",
+     "titulo": "When to Play Major vs Minor Pentatonic [It's easier than you think!]",
+     "url": "https://www.youtube.com/watch?v=MfrAepqfv2g&t=169s",
+     "video": "MfrAepqfv2g",
+     "inicio": 169,
+     "momento": "02:51",
+     "ideia": "Mapear as três tônicas Lá na forma"
+    },
+    {
+     "id": "b1mdrlngTnA#I09",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=203s",
+     "video": "b1mdrlngTnA",
+     "inicio": 203,
+     "momento": "03:25",
+     "ideia": "Localizar as tônicas da posição 1"
+    },
+    {
+     "id": "Z7JY7B9YUw8#I05",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "Se não aprender a IMPROVISAR com a Pentatônica, com este vídeo - DESISTA!",
+     "url": "https://www.youtube.com/watch?v=Z7JY7B9YUw8&t=170s",
+     "video": "Z7JY7B9YUw8",
+     "inicio": 170,
+     "momento": "02:52",
+     "ideia": "Ida e volta com memórias musculares diferentes"
+    },
+    {
+     "id": "930K2lldQD8#I04",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "How to Get “Good” At Improvising on Guitar",
+     "url": "https://www.youtube.com/watch?v=930K2lldQD8&t=167s",
+     "video": "930K2lldQD8",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "Desenhar a forma de olhos vendados"
+    },
+    {
+     "id": "bluesguitarinstitute--actually-use-minor-pentatonic-scale-play-blues-solo-703ab8#I04",
+     "tipo": "documento",
+     "autor": "www.bluesguitarinstitute.com",
+     "titulo": "How to Actually Use Pentatonics to Play Great Blues Solos",
+     "url": "https://www.bluesguitarinstitute.com/actually-use-minor-pentatonic-scale-play-blues-solo",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mapear a pentatônica do fundamental ao alcance"
+    },
+    {
+     "id": "tRi4vMs2z8M#I11",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=658s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 658,
+     "momento": "11:00",
+     "ideia": "Mesma caixa com dedos diferentes"
+    }
+   ]
+  },
+  {
+   "titulo": "Um shape por semana, já fazendo música",
+   "objetivo": "Aprender os cinco shapes de Lá menor um de cada vez, com tônicas mapeadas e uso real sobre uma base.",
+   "nivel": "iniciante",
+   "minutos": 15,
+   "passos": [
+    "Use o mapa: shape 5 (casas 2–5), shape 1 (5–8), shape 2 (7–10), shape 3 (9–13) e shape 4 (12–15).",
+    "Escolha UM shape novo. Toque-o subindo e descendo devagar até sair sem consultar o mapa.",
+    "Marque as tônicas dele. Shape 2: Ré 7 e Si 10. Shape 3: Lá 12 e Si 10. Shape 4: Lá 12 e Sol 14. Shape 5: Mi grave 5, Sol 2 e Mi aguda 5.",
+    "Ligue uma base em Lá menor e improvise 3 minutos só nesse shape, terminando cada frase numa tônica dele.",
+    "Repita a frase de que mais gostou três vezes e anote-a. Só passe ao próximo shape quando este parecer seu."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "braco",
+    "legenda": "Lá menor pentatônica da casa 2 à 15: os cinco shapes encaixados. Shape 5 ≈ casas 2–5 · Shape 1 ≈ 5–8 · Shape 2 ≈ 7–10 · Shape 3 ≈ 9–13 · Shape 4 ≈ 12–15 (o shape 5 volta em 14–17). Anéis = tônicas.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 15,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 2,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 12,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 14,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 3,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 13,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 15,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 3,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 15,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Atalho: priorize shape 1, shape 2 e shape 4 (tônica na corda Lá, casa 12). Com eles você já cobre boa parte do braço.",
+    "Comece todos os solos da semana pelo Lá da corda Lá, casa 12 (shape 3/4), em vez da Mi grave."
+   ],
+   "cuidado": "Querer decorar os cinco de uma vez e acabar sem nenhum firme. Um shape bem resolvido vale mais que cinco pela metade.",
+   "inspirado_em": [
+    {
+     "id": "tRi4vMs2z8M#I08",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=552s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 552,
+     "momento": "09:14",
+     "ideia": "Achar a raiz em todas as caixas da pentatônica menor"
+    },
+    {
+     "id": "P4m4vVAcmTw#I05",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=214s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 214,
+     "momento": "03:36",
+     "ideia": "Mapear as raízes em todas as formas"
+    },
+    {
+     "id": "b1mdrlngTnA#I16",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=402s",
+     "video": "b1mdrlngTnA",
+     "inicio": 402,
+     "momento": "06:44",
+     "ideia": "Tônicas da posição 2"
+    },
+    {
+     "id": "b1mdrlngTnA#I24",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=715s",
+     "video": "b1mdrlngTnA",
+     "inicio": 715,
+     "momento": "11:57",
+     "ideia": "Tônicas da posição 3 na corda A"
+    },
+    {
+     "id": "b1mdrlngTnA#I33",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=996s",
+     "video": "b1mdrlngTnA",
+     "inicio": 996,
+     "momento": "16:38",
+     "ideia": "Tônicas da posição 4"
+    },
+    {
+     "id": "b1mdrlngTnA#I39",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=1277s",
+     "video": "b1mdrlngTnA",
+     "inicio": 1277,
+     "momento": "21:19",
+     "ideia": "Tônicas da posição 5"
+    },
+    {
+     "id": "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I23",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "ESCALAS PENTATÔNICAS na Guitarra: Como Aprender, Aplicar e Criar Solos Melhores",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/25/escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-criar-solos-melhores/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Memorizar um shape de cada vez"
+    },
+    {
+     "id": "Y8yEev1Ce88#I13",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=518s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 518,
+     "momento": "08:40",
+     "ideia": "Aprender uma forma e tocar com playback"
+    },
+    {
+     "id": "Y8yEev1Ce88#I18",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=957s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 957,
+     "momento": "15:59",
+     "ideia": "Improvisar só com o segundo desenho"
+    },
+    {
+     "id": "tRi4vMs2z8M#I19",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1138s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1138,
+     "momento": "19:00",
+     "ideia": "Improvisar dentro de cada posição"
+    },
+    {
+     "id": "0Dh8aGffCaI#I01",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "The 2 1/2 Pentatonic Scale Patterns that Connect the Entire Fretboard! (FORGET THE 5 SHAPES)",
+     "url": "https://www.youtube.com/watch?v=0Dh8aGffCaI&t=0s",
+     "video": "0Dh8aGffCaI",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Dois shapes e meio cobrem o braço todo"
+    },
+    {
+     "id": "b1mdrlngTnA#I26",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=760s",
+     "video": "b1mdrlngTnA",
+     "inicio": 760,
+     "momento": "12:42",
+     "ideia": "Começar solos pela tônica na corda A"
+    },
+    {
+     "id": "drX6XjaItA4#I05",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=229s",
+     "video": "drX6XjaItA4",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "Mapear os cinco desenhos em Lá menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Sobe num, desce no vizinho",
+   "objetivo": "Emendar dois shapes adjacentes numa linha contínua, trocando de caixa sem perder o pulso.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Metrônomo a 60. Toque a tab: suba o shape 1 a partir do Lá da Mi grave.",
+    "No Dó da Mi aguda (casa 8), nota que os dois shapes têm em comum, siga para o Ré (casa 10) e desça pelo shape 2.",
+    "No fim da descida (Dó, Mi grave casa 8), volte para o Lá da casa 5. Deixe soar e respeite o compasso de silêncio.",
+    "Inverta: suba pelo shape 2 e desça pelo shape 1.",
+    "Repita o processo nos outros pares: 2↔3, 3↔4, 4↔5 e 5↔1."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Sobe no shape 1, desce no shape 2 e volta para casa. A virada acontece no Dó da Mi aguda (casa 8), nota que os dois shapes têm em comum. Tudo em colcheias, sem parar na troca.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Percorra o braço inteiro: suba no 5, desça no 1, suba no 2, desça no 3, e assim por diante até o shape 1 na casa 17.",
+    "'Meandering': com metrônomo ou base, ande de um shape para o vizinho sem parar por 2 minutos. Se travar, baixe o bpm."
+   ],
+   "cuidado": "Parar ou 'respirar' na troca de shape. A virada tem de soar no mesmo pulso das outras notas. Se não soa, o andamento está alto.",
+   "inspirado_em": [
+    {
+     "id": "Y8yEev1Ce88#I22",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=1208s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 1208,
+     "momento": "20:10",
+     "ideia": "Emendar as posições 5 e 2"
+    },
+    {
+     "id": "pickupmusic--what-is-the-caged-system-18ed1a#I15",
+     "tipo": "documento",
+     "autor": "Dr Molly Miller",
+     "titulo": "What is the CAGED System for Guitar? Learn the CAGED Method Today - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/what-is-the-caged-system",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Conectar as formas A e G da pentatônica de Ré"
+    },
+    {
+     "id": "Y8yEev1Ce88#I17",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=840s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 840,
+     "momento": "14:02",
+     "ideia": "Subir pelas formas começando na 6ª corda"
+    },
+    {
+     "id": "b1mdrlngTnA#I14",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=368s",
+     "video": "b1mdrlngTnA",
+     "inicio": 368,
+     "momento": "06:10",
+     "ideia": "Posição 2 conectada à posição 1"
+    },
+    {
+     "id": "fZ7nVnhm3VE#I06",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Connect All 5 Pentatonic Scale Positions With This Hidden Pathway - Lead Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=fZ7nVnhm3VE&t=167s",
+     "video": "fZ7nVnhm3VE",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "Deslizar da posição 5 para a posição 1"
+    },
+    {
+     "id": "gkcw9CzLA-A#I13",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=612s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 612,
+     "momento": "10:14",
+     "ideia": "Meandering"
+    },
+    {
+     "id": "gkcw9CzLA-A#I14",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=649s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 649,
+     "momento": "10:51",
+     "ideia": "Andamento alto demais no meandering"
+    }
+   ]
+  },
+  {
+   "titulo": "Mesma frase, cinco endereços",
+   "objetivo": "Reconhecer uma frase pelas notas e pelos graus, não pelos dedos, tocando-a idêntica em todos os shapes.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque o motivo Mi–Ré–Dó–Lá no shape 1 (Si 5, Sol 7, Sol 5, Ré 7) e diga os graus: 5, 4, ♭3, 1.",
+    "Agora no shape 2 (Sol 9, Sol 7, Ré 10, Ré 7). As notas são as mesmas, só os dedos mudam.",
+    "Siga para o shape 3 (Sol 9, Ré 12, Ré 10, Lá 12) e o shape 4 (Ré 14, Ré 12, Lá 15, Lá 12).",
+    "Feche no shape 5: Si 5, Si 3, Sol 5, Sol 2.",
+    "Compare: em qual shape a frase fica mais confortável? Em qual o timbre da corda soa mais encorpado?"
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Mesmo motivo (Mi–Ré–Dó–Lá), mesmas alturas, quatro endereços: shape 1, shape 2, shape 3 e shape 4. O som é idêntico, a digitação muda. No shape 5 fica assim: Si casa 5, Si casa 3, Sol casa 5, Sol casa 2.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 12,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 14,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 12,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 15,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 12,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mantenha o desenho, não a altura: toque o motivo terminando no Lá de cada shape, mesmo em outra oitava (ex.: shape 2 terminando no Lá da Si casa 10).",
+    "Troque por um lick seu de 6 a 8 notas e repita o roteiro nos cinco shapes."
+   ],
+   "cuidado": "Copiar o desenho dos dedos de um shape para o outro. Isso muda as notas. Pense na sequência de notas (5-4-♭3-1) e procure cada uma no novo shape.",
+   "inspirado_em": [
+    {
+     "id": "4YYgCPtyNzg#I01",
+     "tipo": "video",
+     "autor": "Jordan Steele",
+     "titulo": "Do this to break out of the pentatonic box! #guitarsolo #guitarlesson #guitarlicks #guitarteacher #1",
+     "url": "https://www.youtube.com/watch?v=4YYgCPtyNzg&t=0s",
+     "video": "4YYgCPtyNzg",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Tocar o mesmo lick em todas as posições da pentatônica"
+    },
+    {
+     "id": "4YYgCPtyNzg#I03",
+     "tipo": "video",
+     "autor": "Jordan Steele",
+     "titulo": "Do this to break out of the pentatonic box! #guitarsolo #guitarlesson #guitarlicks #guitarteacher #1",
+     "url": "https://www.youtube.com/watch?v=4YYgCPtyNzg&t=23s",
+     "video": "4YYgCPtyNzg",
+     "inicio": 23,
+     "momento": "00:25",
+     "ideia": "Usar a mesma nota-alvo como âncora entre posições"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I29",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sequenciar um lick pelas posições da pentatônica"
+    },
+    {
+     "id": "rODBvbol8dk#I21",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=757s",
+     "video": "rODBvbol8dk",
+     "inicio": 757,
+     "momento": "12:39",
+     "ideia": "Estudar um motivo em todos os shapes"
+    },
+    {
+     "id": "0Dh8aGffCaI#I11",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "The 2 1/2 Pentatonic Scale Patterns that Connect the Entire Fretboard! (FORGET THE 5 SHAPES)",
+     "url": "https://www.youtube.com/watch?v=0Dh8aGffCaI&t=325s",
+     "video": "0Dh8aGffCaI",
+     "inicio": 325,
+     "momento": "05:27",
+     "ideia": "Transpor um lick entre shape 1, House of Blues e shape 4"
+    },
+    {
+     "id": "rODBvbol8dk#I18",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=856s",
+     "video": "rODBvbol8dk",
+     "inicio": 856,
+     "momento": "14:18",
+     "ideia": "Transpor a mesma frase para outros shapes"
+    },
+    {
+     "id": "dQZXiPA5wac#I15",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=424s",
+     "video": "dQZXiPA5wac",
+     "inicio": 424,
+     "momento": "07:06",
+     "ideia": "Relocate (transposição diatônica)"
+    },
+    {
+     "id": "Y8yEev1Ce88#I20",
+     "tipo": "video",
+     "autor": "Marcelo Barbosa",
+     "titulo": "Escala Pentatônica na Guitarra (Tudo o que você precisa saber!)",
+     "url": "https://www.youtube.com/watch?v=Y8yEev1Ce88&t=1166s",
+     "video": "Y8yEev1Ce88",
+     "inicio": 1166,
+     "momento": "19:28",
+     "ideia": "Mesma frase em outra altura"
+    }
+   ]
+  },
+  {
+   "titulo": "Portas de tônica: uma frase, três shapes",
+   "objetivo": "Atravessar shapes vizinhos no meio de uma frase usando a tônica em comum como porta.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque o compasso 1: frase no shape 1 que pousa no Lá da corda Ré (casa 7).",
+    "Pense 'esse Lá agora é do shape 2' e continue no compasso 2 até pousar no Lá da corda Si (casa 10).",
+    "Faça o mesmo: esse Lá abre o shape 3 no compasso 3. Deixe o compasso 4 em silêncio.",
+    "Com base em Lá menor, improvise. Sempre que pousar numa tônica, decida se fica no shape ou atravessa para o vizinho.",
+    "Faça a volta: comece no shape 3 e desça até o shape 1 pelas mesmas portas."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Frase que atravessa três shapes pelas tônicas em comum. Compasso 1: shape 1, pousa no Lá da corda Ré (casa 7). Compasso 2: o mesmo Lá vira porta do shape 2 e a frase pousa no Lá da corda Si (casa 10). Compasso 3: esse Lá abre o shape 3. Compasso 4: silêncio.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque de shape por outras cordas: 1→2 pela corda Si, 2→3 pela corda Lá, 3→4 pela corda Sol.",
+    "Nível avançado: troque de shape sem tocar a tônica, só sabendo onde ela está."
+   ],
+   "cuidado": "Esperar que a conexão apareça sozinha. Ela só vira reflexo se você reenxergar de propósito a tônica como parte do shape vizinho, devagar, muitas vezes.",
+   "inspirado_em": [
+    {
+     "id": "P4m4vVAcmTw#I08",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=356s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 356,
+     "momento": "05:58",
+     "ideia": "Trocar de forma pela raiz em comum"
+    },
+    {
+     "id": "P4m4vVAcmTw#I09",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=401s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 401,
+     "momento": "06:43",
+     "ideia": "Trocar de forma sem tocar a raiz"
+    },
+    {
+     "id": "P4m4vVAcmTw#I12",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=513s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 513,
+     "momento": "08:35",
+     "ideia": "Roteiro de prática de conexão entre formas"
+    },
+    {
+     "id": "P4m4vVAcmTw#I07",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "Connecting Scales for Improvising on Guitar / Soloing",
+     "url": "https://www.youtube.com/watch?v=P4m4vVAcmTw&t=288s",
+     "video": "P4m4vVAcmTw",
+     "inicio": 288,
+     "momento": "04:50",
+     "ideia": "Cada raiz pertence a duas formas"
+    },
+    {
+     "id": "U3u3jiF7zVg#I07",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=303s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 303,
+     "momento": "05:05",
+     "ideia": "Transições entre shapes pela mesma corda"
+    },
+    {
+     "id": "U3u3jiF7zVg#I09",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=376s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 376,
+     "momento": "06:18",
+     "ideia": "Variar as cordas nas transições"
+    },
+    {
+     "id": "gNKJXn8g734#I17",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=1077s",
+     "video": "gNKJXn8g734",
+     "inicio": 1077,
+     "momento": "17:59",
+     "ideia": "Conectar posições 1 e 2 na mesma frase"
+    },
+    {
+     "id": "b1mdrlngTnA#I20",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to PENTATONIC SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=b1mdrlngTnA&t=601s",
+     "video": "b1mdrlngTnA",
+     "inicio": 601,
+     "momento": "10:03",
+     "ideia": "Posições 1 e 2 como uma posição grande"
+    },
+    {
+     "id": "0MLUiyPWt8s#I24",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=1152s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 1152,
+     "momento": "19:14",
+     "ideia": "Diagonal entre shapes adjacentes"
+    }
+   ]
+  },
+  {
+   "titulo": "Doze tons sem sair do lugar",
+   "objetivo": "Usar os cinco desenhos para tocar qualquer tonalidade menor dentro da mesma região do braço (casas 2–8).",
+   "nivel": "avancado",
+   "minutos": 20,
+   "passos": [
+    "Fique entre as casas 2 e 8. Comece em Lá menor no shape 1 (tônica na Mi grave, casa 5).",
+    "Ré menor: a tônica mais próxima é a corda Lá, casa 5. Toque ali o desenho do shape 4 de Am (aquele com tônica na corda Lá sob o indicador). Só duas notas mudam: Mi vira Fá.",
+    "Sol menor: tônica na corda Ré, casa 5, com o desenho do shape 2.",
+    "Dó menor: tônica na corda Sol, casa 5, com o desenho do shape 5. Fá menor: tônica na corda Si, casa 6, com o desenho do shape 3.",
+    "Continue pelo ciclo (B♭m, E♭m, A♭m, D♭m, G♭m, Bm, Em) até voltar a Am. Para cada tom: ache a tônica no mapa, identifique o desenho e toque-o subindo e descendo uma vez.",
+    "Com base ou metrônomo, faça 4 compassos por tom, terminando cada um na tônica."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "braco",
+    "legenda": "Região das casas 5–7: cada ponto é a tônica de uma tonalidade menor do ciclo de quartas (Am, Dm, Gm, Cm, Fm, B♭m, E♭m, A♭m, D♭m, G♭m, Bm, Em). Todas cabem sem a mão sair do lugar. O anel marca o ponto de partida, Lá; os graus mostram a distância de cada tônica até Lá.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 6,
+      "nota": "B♭",
+      "grau": "♭2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 6,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "A♭",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "D♭",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "G♭",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Repita o ciclo começando em outra região (casas 7–10, 9–13...).",
+    "Faça de olhos fechados, e depois com o ciclo de trás para frente.",
+    "Faça em dupla: cada um improvisa num tom e o outro responde no tom seguinte, sem mudar de região."
+   ],
+   "cuidado": "Pular pelo braço atrás da 'casa 1' de cada tom. A graça do exercício é a mão ficar parada e a cabeça trocar de desenho. Faça poucos tons por sessão e com precisão.",
+   "inspirado_em": [
+    {
+     "id": "drX6XjaItA4#I05",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=229s",
+     "video": "drX6XjaItA4",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "Mapear os cinco desenhos em Lá menor"
+    },
+    {
+     "id": "drX6XjaItA4#I15",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=537s",
+     "video": "drX6XjaItA4",
+     "inicio": 537,
+     "momento": "08:59",
+     "ideia": "Mudar de tom sem mover a mão"
+    },
+    {
+     "id": "drX6XjaItA4#I18",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=773s",
+     "video": "drX6XjaItA4",
+     "inicio": 773,
+     "momento": "12:55",
+     "ideia": "Ciclo completo das doze tonalidades numa região"
+    },
+    {
+     "id": "drX6XjaItA4#I19",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=847s",
+     "video": "drX6XjaItA4",
+     "inicio": 847,
+     "momento": "14:09",
+     "ideia": "Repetir o ciclo em cada região do braço"
+    },
+    {
+     "id": "drX6XjaItA4#I21",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=919s",
+     "video": "drX6XjaItA4",
+     "inicio": 919,
+     "momento": "15:21",
+     "ideia": "Treino de olhos fechados de trás para frente"
+    },
+    {
+     "id": "drX6XjaItA4#I25",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=1117s",
+     "video": "drX6XjaItA4",
+     "inicio": 1117,
+     "momento": "18:39",
+     "ideia": "Alternar improvisação com o professor na backing track"
+    },
+    {
+     "id": "drX6XjaItA4#I03",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=163s",
+     "video": "drX6XjaItA4",
+     "inicio": 163,
+     "momento": "02:45",
+     "ideia": "Saltar pelo braço ao trocar de tonalidade"
+    },
+    {
+     "id": "drX6XjaItA4#I04",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Exercício de PENTATÔNICA Que Mudou Para Sempre a Minha Forma de Tocar!",
+     "url": "https://www.youtube.com/watch?v=drX6XjaItA4&t=195s",
+     "video": "drX6XjaItA4",
+     "inicio": 195,
+     "momento": "03:17",
+     "ideia": "Resolver os cinco desenhos numa única região"
+    },
+    {
+     "id": "tRi4vMs2z8M#I09",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=623s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 623,
+     "momento": "10:25",
+     "ideia": "Percorrer todas as tonalidades pelo ciclo de quartas"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Ficar preso ao shape 1 e começar todo solo no Lá da Mi grave, casa 5.",
+  "Decorar desenhos sem saber onde estão as tônicas e por isso não conseguir terminar frases.",
+  "Tentar decorar os cinco shapes de uma vez e não firmar nenhum.",
+  "Treinar só a subida: a descida trava na hora do solo.",
+  "Parar ou hesitar na troca de shape, quebrando o pulso.",
+  "Mover só um shape ao mudar de tom, em vez de deslocar o bloco inteiro dos cinco.",
+  "Confundir a numeração dos shapes entre materiais diferentes: confira sempre onde fica a tônica.",
+  "Achar que trocar de shape melhora o solo. A troca dá opções, quem faz a música é a frase."
+ ],
+ "resumo": [
+  "Os cinco shapes são as mesmas cinco notas recortadas em regiões vizinhas que cobrem o braço todo.",
+  "Decore as tônicas de cada shape: três nos shapes 1 e 5, duas nos shapes 2, 3 e 4.",
+  "O bloco é móvel: leve a tônica a outra casa e todos os shapes mudam de tom juntos.",
+  "Vizinhos dividem a fronteira. Pouse numa tônica em comum e continue no shape ao lado.",
+  "Com os cinco desenhos você troca de tom ou de acorde sem sair da região."
+ ],
+ "proximos_passos": "Com os shapes conectados, vá para \"Sair da caixa: diagonal, 3-2, blocos e slides\" e atravesse o braço na diagonal. Depois, em \"Blue note e escala de blues\", acrescente a ♭5 em cada shape. Em \"Misturar pentatônica maior e menor\", use o mesmo mapa com outro centro. Para ligar os shapes às formas de acorde, revise \"CAGED, formas de acorde e regiões do braço\".",
+ "_meta": {
+  "subcategoria": "C04.2",
+  "modulo": {
+   "id": "C04",
+   "nome": "Pentatônica e escala de blues"
+  },
+  "nome": "Os cinco shapes e como conectá-los",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "high",
+  "gerado_em": "2026-10-08T14:11:23",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 52585,
+   "cache_read": 8780,
+   "output": 24440,
+   "thinking": 10852,
+   "turns": 4,
+   "custo_nominal": 0.9526950000000001
+  }
+ }
+}
