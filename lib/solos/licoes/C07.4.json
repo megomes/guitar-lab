@@ -1,0 +1,1658 @@
+{
+ "titulo": "Pergunta e resposta (call and response)",
+ "gancho": "Seu solo deixa de ser uma lista de notas e vira uma conversa: uma frase pergunta, o silêncio espera e a próxima responde.",
+ "porque_importa": "Quem já sabe a pentatônica costuma tocar notas que soam certas, mas não dizem nada. A pergunta e resposta organiza essas notas em frases que conversam entre si, e o ouvinte entende o solo como uma história. A técnica vem da música clássica, passa pelo blues de B.B. King e funciona em qualquer estilo, do rock ao jazz e ao shred.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "O solo é uma conversa",
+   "texto": "Uma frase faz a chamada e a seguinte responde, como duas pessoas falando. Cada frase reage à anterior, e é isso que faz o ouvinte entender o solo como um discurso em vez de um amontoado de notas. B.B. King, Albert King e Chuck Berry fazem isso o tempo todo, tanto no canto quanto na guitarra.",
+   "destaque": "Uma boa melodia tem pelo menos duas frases: uma ideia e a resposta a ela.",
+   "visual": null
+  },
+  {
+   "titulo": "Frase, pausa, resposta",
+   "texto": "A mecânica é simples. Você toca uma frase curta, para, e toca outra que reaproveita as notas, o ritmo ou o ponto de partida da primeira, mudando pouca coisa: o final, um bend, uma figura rítmica. O silêncio no meio cria expectativa. A semelhança entre as frases deixa claro que uma responde à outra, e você não precisa inventar material novo a cada compasso.",
+   "destaque": "A resposta reaproveita o material e muda o final.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Mesmo começo, outro final: a pergunta para na 5ª (Mi) e a resposta pousa na tônica (Lá). Repare no compasso de silêncio entre as duas.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Onde a pergunta para e onde a resposta pousa",
+   "texto": "A pergunta termina numa nota sem repouso, e a tensão fica no ar: a 5ª, a ♭3ª ou até uma nota fora do acorde, como o Ré sobre Am. A resposta resolve na tônica, que é Lá em Lá menor ou Mi em Mi menor. Os professores divergem num ponto: alguns usam a 3ª para encerrar a pergunta, outros aceitam a 3ª como final de resposta. Na dúvida, deixe o ouvido decidir. Para ouvir melhor a diferença, exagere, como a voz que sobe no fim de uma pergunta falada.",
+   "destaque": "A pergunta fica suspensa e a resposta volta para casa.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Pontos de pouso na caixa de Lá menor (casa 5). Com anel ficam as tônicas, onde a resposta termina. As 5ªs (E) e ♭3ªs (C) servem para encerrar perguntas.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O contraste deixa o diálogo mais claro",
+   "texto": "Faça as duas frases parecerem duas vozes. Você pode mudar o registro (pergunta no grave, resposta no agudo), a dinâmica (pergunta suave, resposta forte, ou o contrário), a direção (uma frase sobe e a outra desce) ou a cor (pentatônica maior pergunta, menor responde). Depois de algumas trocas, uma frase C bem diferente das anteriores serve de respiro.",
+   "destaque": "Mude uma dimensão e mantenha o resto.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "A pergunta sobe a partir do grave e para na ♭7, sem repouso. A resposta é curta, desce do agudo e fecha no Lá.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Em escala maior: a forma e o estilo",
+   "texto": "No blues de 12 compassos, cada linha de 4 compassos já é uma conversa pronta: chamada em 1–2, resposta em 3–4. Num nível menor, dá para pensar em blocos de quatro tempos, em que um cria tensão e o seguinte conclui. Em solos rápidos, os blocos de notas é que respondem uns aos outros. No jazz, onde os acordes mudam a cada dois tempos, a resposta acompanha a troca de acorde.",
+   "destaque": "A técnica vale do blues ao shred.",
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Acordes do blues em Lá para treinar o diálogo na forma de 12 compassos",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 5,
+   "porque": "Paul Davids mostra na guitarra como uma frase falada vira chamada e como a resposta a completa, quase como uma conversa real.",
+   "fonte": {
+    "id": "6n2308MSpjk#I01",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=36s",
+    "video": "6n2308MSpjk",
+    "inicio": 36,
+    "momento": "00:38",
+    "ideia": "Call and response como fala musical"
+   }
+  },
+  {
+   "ref": 23,
+   "porque": "Bradley Hall toca a mesma ideia terminando na 5ª e depois na tônica, e você ouve a pergunta se transformar em resposta.",
+   "fonte": {
+    "id": "VNSfej3sPII#I06",
+    "tipo": "video",
+    "autor": "Bradley Hall's Guitar School",
+    "titulo": "The Ultimate Solo PHRASING Masterclass",
+    "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=267s",
+    "video": "VNSfej3sPII",
+    "inicio": 267,
+    "momento": "04:29",
+    "ideia": "Terminar frases de pergunta na quinta da tonalidade"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "Paul Davids converte sílabas e o contorno de uma frase falada num lick sobre blues em Lá.",
+   "fonte": {
+    "id": "6n2308MSpjk#I03",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=102s",
+    "video": "6n2308MSpjk",
+    "inicio": 102,
+    "momento": "01:44",
+    "ideia": "Transformar uma frase falada em lick"
+   }
+  },
+  {
+   "ref": 33,
+   "porque": "Bradley Hall toca perguntas sobre a backing track e deixa o espaço para você responder ao vivo.",
+   "fonte": {
+    "id": "VNSfej3sPII#I10",
+    "tipo": "video",
+    "autor": "Bradley Hall's Guitar School",
+    "titulo": "The Ultimate Solo PHRASING Masterclass",
+    "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=371s",
+    "video": "VNSfej3sPII",
+    "inicio": 371,
+    "momento": "06:13",
+    "ideia": "Completar as perguntas com respostas sobre a backing track"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Daniel Seriff conversa com a banda: chamada subindo na pentatônica maior de Ré sobre D7 e resposta curta descendo na menor sobre G7.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I25",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=862s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 862,
+    "momento": "14:24",
+    "ideia": "Call and response entre as duas pentatônicas"
+   }
+  },
+  {
+   "ref": 51,
+   "porque": "Jens Larsen responde a uma frase com ela mesma invertida e aplica a ideia num jazz blues em Dó.",
+   "fonte": {
+    "id": "jVTRXGg0Sdg#I21",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Soloing Exercise That Changed My Life",
+    "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=352s",
+    "video": "jVTRXGg0Sdg",
+    "inicio": 352,
+    "momento": "05:54",
+    "ideia": "Responder com a versão inversa da frase"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Mesmo começo, outro final",
+   "objetivo": "Sentir na mão e no ouvido a diferença entre parar na 5ª (pergunta) e pousar na tônica (resposta).",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque o compasso 1 da tab V1 e segure o Mi (corda 2, casa 5) até o tempo 4.",
+    "Fique em silêncio por um compasso inteiro, contando de 1 a 4 em voz alta.",
+    "Toque a resposta: o mesmo começo, que desce até o Lá da corda 4, casa 7. Deixe soar com vibrato.",
+    "Repita o ciclo 5 vezes sobre um drone ou backing track em Lá menor.",
+    "Agora crie o seu próprio par: 4 ou 5 notas da caixa, a primeira versão terminando em E ou C e a segunda em A."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Mesmo começo, outro final: a pergunta para na 5ª (Mi) e a resposta pousa na tônica (Lá). Repare no compasso de silêncio entre as duas.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine a pergunta no Dó (♭3) em vez do Mi e compare a sensação.",
+    "Use uma pausa de dois compassos e repare como a expectativa cresce."
+   ],
+   "cuidado": "Tocar a resposta logo em seguida, sem pausa. Sem o silêncio, as duas frases se fundem numa só.",
+   "inspirado_em": [
+    {
+     "id": "blog--p-8459-aecaa8#I02",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mecânica de chamada e resposta"
+    },
+    {
+     "id": "2-KlhAakkfU#I01",
+     "tipo": "video",
+     "autor": "RUAN DE CASTRO - GUITAR MAPS",
+     "titulo": "O EXERCÍCIO DE CRIATIVIDADE QUE VAI DESTRAVAR O SEU FRASEADO NA PENTATÔNICA MENOR",
+     "url": "https://www.youtube.com/watch?v=2-KlhAakkfU&t=63s",
+     "video": "2-KlhAakkfU",
+     "inicio": 63,
+     "momento": "01:05",
+     "ideia": "Pergunta e resposta"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I15",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tensão nas chamadas e resolução nas respostas"
+    },
+    {
+     "id": "VNSfej3sPII#I06",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=267s",
+     "video": "VNSfej3sPII",
+     "inicio": 267,
+     "momento": "04:29",
+     "ideia": "Terminar frases de pergunta na quinta da tonalidade"
+    },
+    {
+     "id": "VNSfej3sPII#I07",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=302s",
+     "video": "VNSfej3sPII",
+     "inicio": 302,
+     "momento": "05:04",
+     "ideia": "Terminar frases de resposta na tônica"
+    },
+    {
+     "id": "6n2308MSpjk#I04",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=169s",
+     "video": "6n2308MSpjk",
+     "inicio": 169,
+     "momento": "02:51",
+     "ideia": "Resposta deve terminar na tônica para soar como afirmação"
+    }
+   ]
+  },
+  {
+   "titulo": "Nota fora pergunta, nota do acorde responde",
+   "objetivo": "Usar uma nota que não pertence ao acorde como final de pergunta e resolver repetindo o motivo.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque o motivo C–D–E da tab V4 e termine segurando o Ré (corda 3, casa 7) sobre Am. Ele soa incompleto.",
+    "Respire durante um compasso.",
+    "Repita o motivo e, desta vez, desça C e termine no Lá (corda 4, casa 7).",
+    "Teste outros finais de pergunta: Ré (4), Sol (♭7) e Si (casa 7 da corda 1). Dê uma nota de 1 a 5 para a tensão que cada um causa.",
+    "Escolha o final que mais pede resposta e use-o em 3 pares seguidos."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "A pergunta termina em Ré, que não pertence ao acorde de Am, e soa incompleta. A resposta repete o motivo e resolve no Lá.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Na resposta, termine no Dó (♭3) em vez do Lá e decida se ainda soa conclusivo.",
+    "Toque a pergunta com um bend de meio tom no final, sem resolver."
+   ],
+   "cuidado": "Sustentar a nota fora do acorde tempo demais, na resposta. Ela serve para perguntar, não para encerrar.",
+   "inspirado_em": [
+    {
+     "id": "guitarworld--rut-busters-guitarists-part-3-8-phrasing-c8aed7#I05",
+     "tipo": "documento",
+     "autor": "Adrian Galysh",
+     "titulo": "Rut-Busters for Guitarists: Phrasing",
+     "url": "https://guitarworld.com/lessons/rut-busters-guitarists-part-3-8-phrasing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Construir pergunta e resposta com nota fora e dentro do acorde"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I15",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tensão nas chamadas e resolução nas respostas"
+    },
+    {
+     "id": "VNSfej3sPII#I08",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=337s",
+     "video": "VNSfej3sPII",
+     "inicio": 337,
+     "momento": "05:39",
+     "ideia": "Usar a terça como alternativa para a pergunta"
+    }
+   ]
+  },
+  {
+   "titulo": "Da fala ao lick",
+   "objetivo": "Usar o contorno da voz falada para criar chamadas e respostas que você conseguiria cantar.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Diga em voz alta: 'E aí, tudo bem?' (5 sílabas, a voz sobe no fim).",
+    "Toque 5 notas da pentatônica de Lá menor na casa 5 com esse ritmo de fala, subindo no final. Pare numa nota que não seja o Lá.",
+    "Responda em voz alta: 'Tudo ótimo' (a voz desce).",
+    "Toque essa resposta com o mesmo número de sílabas, descendo até um Lá.",
+    "Faça 5 diálogos diferentes sobre um blues em Lá, sempre falando antes de tocar."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Se não souber o que responder, fale a resposta inteira antes e copie só o contorno.",
+    "Cante a frase junto com a guitarra para conferir se ela é cantável."
+   ],
+   "cuidado": "Trocar a frase da fala por uma corrida de escala. Mantenha o número de sílabas e a direção da voz.",
+   "inspirado_em": [
+    {
+     "id": "VNSfej3sPII#I05",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=236s",
+     "video": "VNSfej3sPII",
+     "inicio": 236,
+     "momento": "03:58",
+     "ideia": "Exagerar a inflexão das frases de pergunta"
+    },
+    {
+     "id": "VNSfej3sPII#I11",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=405s",
+     "video": "VNSfej3sPII",
+     "inicio": 405,
+     "momento": "06:47",
+     "ideia": "Vocalizar a pergunta para encontrar a resposta"
+    },
+    {
+     "id": "6n2308MSpjk#I03",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=102s",
+     "video": "6n2308MSpjk",
+     "inicio": 102,
+     "momento": "01:44",
+     "ideia": "Transformar uma frase falada em lick"
+    },
+    {
+     "id": "_Ke2d-2zkHg#I09",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=347s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 347,
+     "momento": "05:49",
+     "ideia": "Call and response e frases cantáveis"
+    }
+   ]
+  },
+  {
+   "titulo": "Grave pergunta, agudo responde",
+   "objetivo": "Reforçar o diálogo com contraste de registro, direção e dinâmica.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a pergunta da tab V3 suave, subindo das cordas graves até o Sol da corda 4.",
+    "Silêncio por um compasso.",
+    "Responda forte, no agudo, com só 3 notas descendo até o Lá da corda 1, casa 5.",
+    "Inverta a dinâmica: pergunta forte e resposta suave. Qual versão conta melhor a história?",
+    "Depois de dois pares, toque uma frase C: em outra região (por exemplo, a caixa na casa 8) e na direção oposta à da última frase."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "A pergunta sobe a partir do grave e para na ♭7, sem repouso. A resposta é curta, desce do agudo e fecha no Lá.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mantenha a mesma altura e mude só a dinâmica.",
+    "Faça a pergunta descendo e a resposta subindo."
+   ],
+   "cuidado": "Mudar tudo ao mesmo tempo, ritmo, região e notas. Mantenha algo em comum entre as frases para o ouvinte reconhecer a conversa.",
+   "inspirado_em": [
+    {
+     "id": "blog--p-8459-aecaa8#I12",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Trocar de registro entre chamada e resposta"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I13",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Contrastar dinâmica entre chamada e resposta"
+    },
+    {
+     "id": "0DiKyaXf71E#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "You’ll NEVER Noodle Again After Using THIS Secret System",
+     "url": "https://www.youtube.com/watch?v=0DiKyaXf71E&t=386s",
+     "video": "0DiKyaXf71E",
+     "inicio": 386,
+     "momento": "06:28",
+     "ideia": "Pergunta e resposta com escalas"
+    },
+    {
+     "id": "dQZXiPA5wac#I20",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=529s",
+     "video": "dQZXiPA5wac",
+     "inicio": 529,
+     "momento": "08:51",
+     "ideia": "Frase C como contraste ou pausa"
+    },
+    {
+     "id": "dQZXiPA5wac#I12",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=356s",
+     "video": "dQZXiPA5wac",
+     "inicio": 356,
+     "momento": "05:58",
+     "ideia": "Frase C em direção oposta"
+    },
+    {
+     "id": "dQZXiPA5wac#I21",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=529s",
+     "video": "dQZXiPA5wac",
+     "inicio": 529,
+     "momento": "08:51",
+     "ideia": "Praticar a frase C em outra região da pentatônica"
+    }
+   ]
+  },
+  {
+   "titulo": "Lick, lick, resposta: maior pergunta, menor responde",
+   "objetivo": "Criar a resposta trocando a cor da pentatônica com o mesmo desenho deslocado 3 casas.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Sobre A7, toque o lick da tab V5 na casa 2 (C♯–E–F♯), que soa doce e termina na 6ª.",
+    "Repita o lick igual no compasso seguinte.",
+    "Na terceira vez, mantenha o desenho dos dedos e suba 3 casas: E–G–A. Agora a cor é menor e o final cai na tônica.",
+    "Repita o ciclo por um blues inteiro.",
+    "Crie um lick seu na casa 2 que termine no F♯ da corda 1 e faça a mesma mudança."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Lick, lick, resposta sobre A7. O lick é tocado duas vezes na pentatônica maior de Lá (casa 2) e termina na 6ª. Na terceira vez, o mesmo desenho sobe 3 casas, vira pentatônica menor e pousa na tônica.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Siga a ideia de Seriff sobre D7–G7: chamada subindo na pentatônica maior de Ré e resposta curta descendo na menor.",
+    "Faça um lick só em vez de dois antes da resposta."
+   ],
+   "cuidado": "Esquecer que o desenho subiu 3 casas e tocar a resposta na mesma posição. Ela soaria igual à pergunta.",
+   "inspirado_em": [
+    {
+     "id": "WNtvx2q2CrI#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=173s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 173,
+     "momento": "02:55",
+     "ideia": "Call and response entre maior e menor"
+    },
+    {
+     "id": "WNtvx2q2CrI#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Practice your pentatonics like this everyday to skyrocket your skills",
+     "url": "https://www.youtube.com/watch?v=WNtvx2q2CrI&t=208s",
+     "video": "WNtvx2q2CrI",
+     "inicio": 208,
+     "momento": "03:30",
+     "ideia": "Lick-lick-resposta"
+    },
+    {
+     "id": "Ork2Vc2bva8#I25",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=862s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 862,
+     "momento": "14:24",
+     "ideia": "Call and response entre as duas pentatônicas"
+    }
+   ]
+  },
+  {
+   "titulo": "O mapa do diálogo no blues de 12 compassos",
+   "objetivo": "Distribuir chamadas e respostas pela forma do blues e fechar o chorus resolvido.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Ponha uma backing track de blues em Lá (A7, D7 e E7, como em V6).",
+    "Compassos 1–2: chamada curta. Compassos 3–4: resposta que termina em Lá.",
+    "Compasso 5 (D7): repita a chamada ou varie só o final. Compassos 6–8: resposta.",
+    "Compasso 9 (E7): nova chamada, a mais tensa do chorus. Compassos 10–12: resposta que termine em Lá, sem atropelar a virada.",
+    "Grave um chorus e confira se cada linha de 4 compassos soa como pergunta e resposta."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Acordes do blues em Lá para treinar o diálogo na forma de 12 compassos",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça a resposta mais curta do que a chamada em todas as linhas.",
+    "Use a frase invertida (mesmas notas, descendo) como resposta ao longo da forma, à maneira de Jens Larsen."
+   ],
+   "cuidado": "Tocar sem parar nos 12 compassos. A forma só aparece se os buracos entre as frases existirem.",
+   "inspirado_em": [
+    {
+     "id": "blog--p-8459-aecaa8#I04",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Chamada no compasso 5 com variação ou repetição"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I05",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Fechar a forma com resposta que resolve"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I03",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Divisão do blues de 12 compassos em linhas de quatro"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I21",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=352s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 352,
+     "momento": "05:54",
+     "ideia": "Responder com a versão inversa da frase"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I22",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=386s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 386,
+     "momento": "06:28",
+     "ideia": "Praticar call and response no blues"
+    }
+   ]
+  },
+  {
+   "titulo": "A conversa que se aprofunda",
+   "objetivo": "Encadear várias trocas a partir de uma frase-âncora, construindo um arco narrativo.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Escolha uma frase-âncora de 4 ou 5 notas na pentatônica de Lá menor.",
+    "Chamada (âncora) → resposta curta, terminando em Lá.",
+    "Repita a âncora → responda com outra pergunta, que pare numa 5ª ou numa nota fora.",
+    "Feche com uma resposta mais longa, que use bend e vibrato e termine com firmeza na tônica.",
+    "Recomece a partir da última resposta como nova âncora e faça 3 rodadas, deixando a ideia evoluir.",
+    "Grave tudo e marque onde o diálogo se perdeu, ou seja, onde uma frase não reagiu à anterior."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Pense em blocos de quatro tempos, com um de tensão e um de conclusão, e acelere para colcheias rápidas.",
+    "Teste sobre um ii–V–I: a resposta tem de cair no acorde seguinte e contrastar com a chamada."
+   ],
+   "cuidado": "Tornar a resposta longa um amontoado de notas. Ela é mais longa, mas continua citando a âncora.",
+   "inspirado_em": [
+    {
+     "id": "7FilvCPSYXc#I23",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I Improvise on guitar? Start simple and expand! Guitar Lesson - ML136",
+     "url": "https://www.youtube.com/watch?v=7FilvCPSYXc&t=962s",
+     "video": "7FilvCPSYXc",
+     "inicio": 962,
+     "momento": "16:04",
+     "ideia": "Frase-âncora com respostas variadas"
+    },
+    {
+     "id": "6n2308MSpjk#I09",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=304s",
+     "video": "6n2308MSpjk",
+     "inicio": 304,
+     "momento": "05:06",
+     "ideia": "Pergunta e resposta com aprofundamento no blues"
+    },
+    {
+     "id": "0MLUiyPWt8s#I33",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Explicação Sobre a PENTATÔNICA Que Mudou Meu Jeito de Improvisar na Guitarra!",
+     "url": "https://www.youtube.com/watch?v=0MLUiyPWt8s&t=1762s",
+     "video": "0MLUiyPWt8s",
+     "inicio": 1762,
+     "momento": "29:24",
+     "ideia": "Frase em blocos de quatro tempos"
+    },
+    {
+     "id": "VNSfej3sPII#I19",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=776s",
+     "video": "VNSfej3sPII",
+     "inicio": 776,
+     "momento": "12:58",
+     "ideia": "Solos rápidos também usam pergunta e resposta, em blocos"
+    },
+    {
+     "id": "yw6K7j6GbDc#I21",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=499s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 499,
+     "momento": "08:21",
+     "ideia": "Chord response: resposta contrastante sobre G7"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar a pergunta e a resposta coladas, sem silêncio no meio.",
+  "Fazer uma resposta que não tem nada a ver com a chamada: material novo demais quebra a conversa.",
+  "Terminar todas as frases na tônica e transformar todas em resposta, sem nenhuma tensão.",
+  "Terminar todas as frases suspensas, de modo que o solo nunca chega a lugar nenhum.",
+  "Repetir a chamada idêntica sempre, sem mudar final, ritmo ou bend.",
+  "Ignorar a forma e deixar as respostas atravessarem a virada do blues."
+ ],
+ "resumo": [
+  "Chamada, pausa, resposta: o silêncio no meio também faz parte do diálogo.",
+  "A resposta reaproveita notas e ritmo da chamada e muda pouca coisa, geralmente o final.",
+  "A pergunta para na 5ª, na ♭3ª ou numa nota fora do acorde. A resposta pousa na tônica.",
+  "Contraste de registro, dinâmica, direção ou cor (maior/menor) deixa as duas vozes mais claras.",
+  "No blues, cada linha de 4 compassos é uma conversa: chamada em 1–2 e resposta em 3–4."
+ ],
+ "proximos_passos": "Siga para \"Motivo, repetição e desenvolvimento motívico\", que transforma a âncora em tema, e para \"Estrutura, narrativa e final do solo\", que encadeia várias conversas num arco completo. Para reforçar onde as frases pousam, revise \"Notas do acorde: onde a frase pousa\". Para aplicar tudo com a banda, veja \"Solar sobre o blues\".",
+ "_meta": {
+  "subcategoria": "C07.4",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Pergunta e resposta (call and response)",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:37:35",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 23054,
+   "cache_read": 8780,
+   "output": 14149,
+   "thinking": 3212,
+   "turns": 4,
+   "custo_nominal": 0.48817299999999997
+  }
+ }
+}

@@ -1,0 +1,2178 @@
+{
+ "titulo": "Estrutura, narrativa e final do solo",
+ "gancho": "Um solo memorável funciona como um filme curto: abre calmo, a tensão cresce, chega a um clímax e termina num fim que o público sente.",
+ "porque_importa": "Frases boas soltas ainda não fazem um solo. Para o ouvinte acompanhar, ele precisa sentir uma direção: de onde o solo sai, para onde vai e quando acaba. Saber contar a forma, guardar material para o clímax e fechar com clareza é o que separa um solo de uma coleção de licks.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "A história precisa de um mapa",
+   "texto": "Antes de pensar em começo, meio e fim, é preciso saber onde eles estão. Para isso, conte os compassos. Num blues de 12, os compassos 1–4 apresentam a ideia, os 5–8 trazem a mudança para o IV e os 9–12 são a hora da tensão e do fechamento. Cada troca de acorde funciona como pontuação. Quem toca notas sem parar acaba perdendo o lugar na forma, e a banda percebe.",
+   "destaque": "É o número de compassos que mostra onde fica o começo, o meio e o fim.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Os três acordes do blues em Lá. Forma: A7 (comp. 1–4), D7 (5–6), A7 (7–8), E7 (9), D7 (10), A7 (11), E7 (12)",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Começo: cumprimente antes de falar",
+   "texto": "Abra o solo com intenção, mas com pouco: região grave, frases curtas e bastante espaço. Se você mostrar todos os recursos no primeiro compasso, o resto do solo fica sem surpresa. Comece pequeno para ter para onde crescer.",
+   "destaque": "Não gaste tudo no começo: guarde material para depois.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Abertura (comp. 1–4): região grave, poucas notas e muito espaço. É o solo dizendo 'olá' antes de começar a contar a história.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Meio: frases de tamanhos diferentes e ligadas entre si",
+   "texto": "Quando todas as frases têm um compasso, o solo soa mecânico. Misture frases curtas com longas, como num texto que alterna frases curtas e compridas. E ligue cada frase à anterior, não só ao acorde do momento: uma frase pode atravessar a troca de acorde em vez de parar e recomeçar a cada troca.",
+   "destaque": "Uma frase pode atravessar a troca de acorde.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Uma frase só, do compasso 5 ao 8. Ela começa no contratempo, passa pela troca D7 → A7 sem parar e só pousa no compasso 8.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Direção e clímax: registro, densidade e volume",
+   "texto": "Três controles dão a sensação de que o solo está avançando: o registro (do grave para o agudo), a densidade (de frases espaçadas para frases cheias) e o volume (de suave para forte). Escolha onde fica o clímax e deixe a nota mais aguda do solo para esse momento. O que causa impacto é a hora em que você muda de andar, não onde você começou.",
+   "destaque": "Guarde a nota mais aguda para o clímax.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Clímax (comp. 9–12): na região aguda, mais notas por compasso, e no compasso 10 chega a nota mais alta do solo. Dá para fazer o Lá da casa 17 com um bend de um tom na casa 15.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 17,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 14,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Final: avise que acabou",
+   "texto": "Se o solo vai sumindo sem fechar, ele enfraquece tudo o que veio antes. Para fechar com segurança: pouse na tônica, segure a última nota por alguns tempos ou faça a última frase descer, já que as anteriores subiam. Comece a pensar no final antes que ele chegue, porque a banda começa a fechar antes de você.",
+   "destaque": "Um bom final avisa o público de que ele pode reagir.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Final: a frase desce da região aguda até o Lá grave e fica soando até o fim do compasso. Ao descer, ela se diferencia de todas as subidas anteriores.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 61,
+   "porque": "Jeff Schneider mostra um solo completo com arco de intensidade, em que o clímax cai na nota mais aguda, num ponto planejado da forma.",
+   "fonte": {
+    "id": "Z-KzfB7vfFA#I26",
+    "tipo": "video",
+    "autor": "Jeff Schneider",
+    "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+    "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=876s",
+    "video": "Z-KzfB7vfFA",
+    "inicio": 876,
+    "momento": "14:38",
+    "ideia": "Arco dinâmico com clímax no agudo"
+   }
+  },
+  {
+   "ref": 35,
+   "porque": "Mostra uma frase única tocada do compasso 5 ao 8 do blues em Lá, em vez de vários pedaços de dois compassos.",
+   "fonte": {
+    "id": "LNe3bdHBdp4#I18",
+    "tipo": "video",
+    "autor": "GuitarLessonsVancouver",
+    "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+    "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=698s",
+    "video": "LNe3bdHBdp4",
+    "inicio": 698,
+    "momento": "11:40",
+    "ideia": "Frase única nos compassos 5 a 8"
+   }
+  },
+  {
+   "ref": 47,
+   "porque": "Paul Davids e Ariel Posen começam com volume baixo e região grave e vão crescendo enquanto sobem no braço.",
+   "fonte": {
+    "id": "rh6HEF5Dy2I#I21",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+    "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=849s",
+    "video": "rh6HEF5Dy2I",
+    "inicio": 849,
+    "momento": "14:11",
+    "ideia": "Começar com dinâmica baixa e subir no braço"
+   }
+  },
+  {
+   "ref": 68,
+   "porque": "Mostra como fechar o solo com uma frase que desce, para se diferenciar das frases anteriores, que subiam.",
+   "fonte": {
+    "id": "6n2308MSpjk#I18",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=620s",
+    "video": "6n2308MSpjk",
+    "inicio": 620,
+    "momento": "10:22",
+    "ideia": "Terminar a frase final descendo em vez de subindo"
+   }
+  },
+  {
+   "ref": 76,
+   "porque": "Steve Stine alterna, sobre uma backing track, ideias planejadas e improviso livre, voltando à ideia planejada no acorde combinado.",
+   "fonte": {
+    "id": "fhtaQFOkLXc#I19",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+    "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=1066s",
+    "video": "fhtaQFOkLXc",
+    "inicio": 1066,
+    "momento": "17:48",
+    "ideia": "Alternar trechos planejados e improviso livre"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Mapa de 12 compassos: contar sem se perder",
+   "objetivo": "Sentir a forma do blues por blocos de 4 compassos enquanto toca",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque uma backing track de blues em Lá (A7, D7, E7) e ouça um chorus inteiro só contando: '1 2 3 4 / 2 2 3 4 / 3 2 3 4…'. No primeiro tempo de cada compasso, diga o número do compasso.",
+    "No segundo chorus, toque o acorde de cada compasso só no tempo 1 e continue contando.",
+    "No terceiro chorus, toque uma nota única no início de cada bloco: compassos 1, 5 e 9. Use a tônica do acorde daquele compasso.",
+    "Agora toque frases livres, mas faça uma pausa curta sempre no fim de cada bloco (compassos 4, 8 e 12).",
+    "Faça 3 choruses seguidos sem se perder. Se se perder, pare e recomece do compasso 1."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Os três acordes do blues em Lá. Forma: A7 (comp. 1–4), D7 (5–6), A7 (7–8), E7 (9), D7 (10), A7 (11), E7 (12)",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Depois, conte blocos de 8 e de 16 compassos com uma base pop (4 acordes repetindo).",
+    "Feche os olhos e tente prever, pelo ouvido, quando vem a troca para D7."
+   ],
+   "cuidado": "Parar de contar quando a frase fica difícil. A contagem tem que seguir em segundo plano mesmo quando você erra uma nota.",
+   "inspirado_em": [
+    {
+     "id": "rh6HEF5Dy2I#I16",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=675s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 675,
+     "momento": "11:17",
+     "ideia": "Manter a forma da música ao improvisar"
+    },
+    {
+     "id": "LNe3bdHBdp4#I02",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=75s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 75,
+     "momento": "01:17",
+     "ideia": "Conhecer a forma antes de solar"
+    },
+    {
+     "id": "x8V99YYMRTc#I03",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=100s",
+     "video": "x8V99YYMRTc",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Passo 1: decorar a base"
+    },
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I03",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Contar 4 compassos em 4/4 acentuando o tempo 1"
+    },
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I07",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar solos em grupos de compassos"
+    }
+   ]
+  },
+  {
+   "titulo": "Abertura em três degraus",
+   "objetivo": "Começar o solo pequeno, grave e espaçado, deixando espaço para crescer",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a abertura do V2 sobre os compassos 1–4 do blues: uma frase, um compasso de silêncio, a mesma frase terminando no Lá e outro compasso de silêncio.",
+    "Tocando baixo (volume 3 de 10), crie mais 3 aberturas com no máximo 4 notas cada, sempre na posição aberta.",
+    "Regra: nos compassos 1–4, nenhuma nota acima da casa 5 e nenhuma frase com mais de 6 notas.",
+    "Grave uma abertura e ouça. Pergunte: dá para crescer a partir daqui? Se a resposta for 'não', você começou forte demais."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Abertura (comp. 1–4): região grave, poucas notas e muito espaço. É o solo dizendo 'olá' antes de começar a contar a história.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece com a mesma abertura no compasso 1 do chorus seguinte e só depois mude de região.",
+    "Comece no médio (casa 5) e guarde o grave para o final, como um contraste."
+   ],
+   "cuidado": "Achar que começar com pouco é tocar sem vontade. As notas são poucas, mas cada uma é tocada com intenção, timbre e vibrato.",
+   "inspirado_em": [
+    {
+     "id": "Rm8Y-Q6wbR4#I26",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=1056s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 1056,
+     "momento": "17:38",
+     "ideia": "Começar o solo com intenção"
+    },
+    {
+     "id": "6n2308MSpjk#I12",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=340s",
+     "video": "6n2308MSpjk",
+     "inicio": 340,
+     "momento": "05:42",
+     "ideia": "Preparar o ouvinte antes da história"
+    },
+    {
+     "id": "lEZzseFo6OQ#I09",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=335s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 335,
+     "momento": "05:37",
+     "ideia": "Dar início, meio e fim e subir pelo braço"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I21",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=849s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 849,
+     "momento": "14:11",
+     "ideia": "Começar com dinâmica baixa e subir no braço"
+    },
+    {
+     "id": "LNe3bdHBdp4#I05",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=142s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 142,
+     "momento": "02:24",
+     "ideia": "Frases curtas no início e longas depois"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma frase só, do compasso 5 ao 8",
+   "objetivo": "Criar uma frase longa que atravesse a troca de acorde e se ligue à anterior",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Aprenda a frase do V4 a 70 bpm. Repare que ela começa no contratempo do compasso 5 e passa pela troca D7 → A7 sem parar.",
+    "Note os pontos de apoio no caminho: o F♯ (3ª de D7) no compasso 5 e o C♯ (3ª de A7) logo no 1 do compasso 7.",
+    "Toque o blues inteiro: frases curtas nos compassos 1–4, a frase longa nos 5–8, e silêncio nos 9–12.",
+    "Agora crie a sua própria frase longa para os compassos 5–8. Ela só pode pousar de vez no compasso 8.",
+    "Alterne: um chorus com frases de 1 compasso e o seguinte com uma frase longa. Ouça a diferença no fluxo."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Uma frase só, do compasso 5 ao 8. Ela começa no contratempo, passa pela troca D7 → A7 sem parar e só pousa no compasso 8.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece a frase no tempo 4 do compasso 4, antes da troca para D7.",
+    "Estique a frase até o compasso 9 e resolva no E7."
+   ],
+   "cuidado": "Parar no compasso 7 só porque o acorde mudou. A troca é uma vírgula, não um ponto final.",
+   "inspirado_em": [
+    {
+     "id": "jVTRXGg0Sdg#I14",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=199s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 199,
+     "momento": "03:21",
+     "ideia": "Frases que combinam com o acorde, mas não entre si"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I15",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=546s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 546,
+     "momento": "09:08",
+     "ideia": "Frase como um fluxo único"
+    },
+    {
+     "id": "-sKYzObpWpA#I09",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=232s",
+     "video": "-sKYzObpWpA",
+     "inicio": 232,
+     "momento": "03:54",
+     "ideia": "Frases de mesmo comprimento soam mecânicas"
+    },
+    {
+     "id": "-sKYzObpWpA#I10",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=264s",
+     "video": "-sKYzObpWpA",
+     "inicio": 264,
+     "momento": "04:26",
+     "ideia": "Variar o comprimento das frases"
+    },
+    {
+     "id": "LNe3bdHBdp4#I18",
+     "tipo": "video",
+     "autor": "GuitarLessonsVancouver",
+     "titulo": "Breakthrough Phrasing Skills in JUST 2 STEPS - guitar solo mastery",
+     "url": "https://www.youtube.com/watch?v=LNe3bdHBdp4&t=698s",
+     "video": "LNe3bdHBdp4",
+     "inicio": 698,
+     "momento": "11:40",
+     "ideia": "Frase única nos compassos 5 a 8"
+    }
+   ]
+  },
+  {
+   "titulo": "Teto de registro: guardar o clímax",
+   "objetivo": "Construir intensidade com registro, densidade e volume, colocando o clímax num lugar planejado",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Use o V6 para localizar os três andares: grave, médio e agudo.",
+    "Toque 2 choruses seguidos (24 compassos). No chorus 1, fique abaixo da casa 8, com frases curtas e volume baixo.",
+    "No chorus 2, compassos 1–8: suba para a casa 5–8, com frases mais longas e volume médio.",
+    "Compassos 9–10 do chorus 2: suba para as casas 12–17, toque mais colcheias e chegue à nota mais aguda do solo (o Lá da casa 17, V3). Ele aparece uma vez só.",
+    "Compassos 11–12: desça e pouse. Grave e confira se o ponto mais alto ficou mesmo no compasso 10."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Clímax (comp. 9–12): na região aguda, mais notas por compasso, e no compasso 10 chega a nota mais alta do solo. Dá para fazer o Lá da casa 17 com um bend de um tom na casa 15.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 17,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 13,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 14,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque para o captador da ponte no chorus 2 para reforçar a subida.",
+    "Arco invertido: comece agudo e cheio e termine grave e espaçado. Note como o clima muda."
+   ],
+   "cuidado": "Subir cedo demais. Se a nota mais aguda aparecer no chorus 1, o clímax já foi gasto.",
+   "inspirado_em": [
+    {
+     "id": "lEZzseFo6OQ#I09",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=335s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 335,
+     "momento": "05:37",
+     "ideia": "Dar início, meio e fim e subir pelo braço"
+    },
+    {
+     "id": "-sKYzObpWpA#I05",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "Guitar Solo Techniques",
+     "url": "https://www.youtube.com/watch?v=-sKYzObpWpA&t=167s",
+     "video": "-sKYzObpWpA",
+     "inicio": 167,
+     "momento": "02:49",
+     "ideia": "Subir para notas mais agudas cria sensação de progresso"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I16",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Controlar o registro pelas mudanças"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I22",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=741s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 741,
+     "momento": "12:23",
+     "ideia": "Aumentar atividade rítmica antes da resolução"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I26",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=876s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 876,
+     "momento": "14:38",
+     "ideia": "Arco dinâmico com clímax no agudo"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=414s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 414,
+     "momento": "06:56",
+     "ideia": "Notas rápidas no clímax funcionam"
+    }
+   ]
+  },
+  {
+   "titulo": "Final que fecha: descer, pousar, segurar",
+   "objetivo": "Treinar finais claros nos compassos 11–12, comparando com finais que ficam no ar",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o final do V5: a frase desce da casa 8 da corda Mi aguda até o Lá grave (corda 6, casa 5) e segura por 3 tempos, com vibrato.",
+    "Agora toque o contrário: termine subindo, numa nota que não é a tônica, e corte de repente. Ouça a sensação de 'ideia no ar'.",
+    "Faça três finais diferentes para o mesmo blues: (a) descida até a tônica, (b) pouso na tônica aguda com nota longa, (c) pouso ousado na 9ª ou na 5ª, segurado.",
+    "Avise o final: comece a última frase já no compasso 11, e não no 12.",
+    "Toque o blues inteiro de forma livre e use um dos três finais. Em seguida, tire a mão e deixe o silêncio."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Final: a frase desce da região aguda até o Lá grave e fica soando até o fim do compasso. Ao descer, ela se diferencia de todas as subidas anteriores.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine junto com o último acorde da banda, com um corte seco.",
+    "Termine antes do último acorde e deixe a banda fechar sozinha."
+   ],
+   "cuidado": "Deixar o final sumir: tocar a última nota fraca e curta. A nota de chegada precisa durar e ter apoio.",
+   "inspirado_em": [
+    {
+     "id": "lEZzseFo6OQ#I11",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=369s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 369,
+     "momento": "06:11",
+     "ideia": "O solo precisa de uma conclusão clara"
+    },
+    {
+     "id": "rODBvbol8dk#I05",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=203s",
+     "video": "rODBvbol8dk",
+     "inicio": 203,
+     "momento": "03:25",
+     "ideia": "Frase precisa de conclusão"
+    },
+    {
+     "id": "lEZzseFo6OQ#I12",
+     "tipo": "video",
+     "autor": "Bradley Hall",
+     "titulo": "How To Build A Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=lEZzseFo6OQ&t=369s",
+     "video": "lEZzseFo6OQ",
+     "inicio": 369,
+     "momento": "06:11",
+     "ideia": "Terminar na fundamental ou em intervalos mais ousados"
+    },
+    {
+     "id": "6n2308MSpjk#I18",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=620s",
+     "video": "6n2308MSpjk",
+     "inicio": 620,
+     "momento": "10:22",
+     "ideia": "Terminar a frase final descendo em vez de subindo"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I27",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=907s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 907,
+     "momento": "15:09",
+     "ideia": "Segurar a nota final para sensação de chegada"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I25",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=897s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 897,
+     "momento": "14:59",
+     "ideia": "Pensar no final antes que ele chegue"
+    }
+   ]
+  },
+  {
+   "titulo": "Solo preparado: começo e fim fixos, meio livre",
+   "objetivo": "Garantir uma forma clara improvisando a parte do meio",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Fixe sua abertura (compassos 1–4, a do exercício 2) e seu final (compassos 11–12 do último chorus, a do exercício 5).",
+    "Toque 3 choruses: a abertura fixa no início, depois improviso livre até o chorus 3, e o final fixo nos compassos 11–12.",
+    "Marque um compasso de retorno no meio (por exemplo, o compasso 5 do chorus 2). Nele, toque uma ideia planejada sobre o D7 e depois volte ao improviso.",
+    "Se travar no meio, repita o último lick que você tocou até a próxima troca. Isso dá tempo para pensar.",
+    "Grave e confira: o começo e o fim seguraram a forma mesmo quando o meio vacilou?"
+   ],
+   "visual": null,
+   "variacoes": [
+    "Troque só a abertura e mantenha o final por uma semana.",
+    "Toque sobre uma música com vocal e combine com você mesmo onde o solo termina, antes da estrofe."
+   ],
+   "cuidado": "O meio livre virar um monte de notas sem parar. Mesmo improvisando, mantenha a contagem e faça frases com começo e fim.",
+   "inspirado_em": [
+    {
+     "id": "fhtaQFOkLXc#I08",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=421s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 421,
+     "momento": "07:03",
+     "ideia": "Pré-planejar partes do solo"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I28",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Início e fim marcantes no solo"
+    },
+    {
+     "id": "fhtaQFOkLXc#I19",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "#1 Tip to Effective Melodic Guitar Soloing - Steve Stine Guitar Lessons",
+     "url": "https://www.youtube.com/watch?v=fhtaQFOkLXc&t=1066s",
+     "video": "fhtaQFOkLXc",
+     "inicio": 1066,
+     "momento": "17:48",
+     "ideia": "Alternar trechos planejados e improviso livre"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I12",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=313s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 313,
+     "momento": "05:15",
+     "ideia": "Repetir lick como forma de ganhar tempo para pensar"
+    }
+   ]
+  },
+  {
+   "titulo": "Compor um solo de 24 compassos",
+   "objetivo": "Juntar abertura, frases variadas, clímax e final num solo completo, escrito e tocado",
+   "nivel": "avancado",
+   "minutos": 45,
+   "passos": [
+    "Ouça a base (blues em Lá, 2 choruses) até decorar: quais acordes, quantos compassos cada um e se os dois ciclos são iguais.",
+    "No papel, faça o roteiro: chorus 1 = grave e espaçado, ideia A nos compassos 1–4 e repetida com variação nos 5–8, frase nova nos 9–12. Chorus 2 = médio subindo, frase longa nos 5–8, clímax no compasso 10, final descendo nos 11–12.",
+    "Componha frase por frase, com calma. Grave duas ou três versões de cada trecho e escolha a melhor.",
+    "Acrescente a interpretação: vibrato nos pousos, um bend no clímax e volume crescente.",
+    "Toque o solo inteiro 5 vezes seguidas até sair sem pensar e depois grave a versão final."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Versão cronometrada: crie o solo inteiro em 30 minutos, como num pedido de estúdio.",
+    "Transponha o roteiro para um trecho de 1 minuto de uma backing track em Mi menor."
+   ],
+   "cuidado": "Compor tudo no mesmo nível de intensidade. Confira o roteiro: o chorus 2 tem que ser claramente maior que o 1.",
+   "inspirado_em": [
+    {
+     "id": "x8V99YYMRTc#I03",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=100s",
+     "video": "x8V99YYMRTc",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Passo 1: decorar a base"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I12",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aplicar AA'B ao solo: repetir a frase com variação e fechar com algo novo"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I12",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vantagens de compor e ensaiar um solo"
+    },
+    {
+     "id": "x8V99YYMRTc#I01",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=65s",
+     "video": "x8V99YYMRTc",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Compor passo a passo quando se está começando"
+    },
+    {
+     "id": "x8V99YYMRTc#I12",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=407s",
+     "video": "x8V99YYMRTc",
+     "inicio": 407,
+     "momento": "06:49",
+     "ideia": "Repetir até automatizar o solo composto"
+    },
+    {
+     "id": "W9o9gR5f8-A#I05",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=400s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 400,
+     "momento": "06:42",
+     "ideia": "Usar trecho curto de backing track (cerca de 1 min 10 s)"
+    },
+    {
+     "id": "W9o9gR5f8-A#I17",
+     "tipo": "video",
+     "autor": "Lucas Bittencourt",
+     "titulo": "o MELHOR ESTUDO para melhorar os improvisos e solos | Você deveria fazer",
+     "url": "https://www.youtube.com/watch?v=W9o9gR5f8-A&t=749s",
+     "video": "W9o9gR5f8-A",
+     "inicio": 749,
+     "momento": "12:31",
+     "ideia": "Treinar solo cronometrado para situações de estúdio"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar notas sem parar e sem pausas, até perder o lugar na forma",
+  "Ficar o solo inteiro na mesma região do braço, sem direção",
+  "Mostrar tudo no começo (nota mais aguda, bends grandes, velocidade) e não ter para onde crescer",
+  "Fazer todas as frases do mesmo tamanho, sempre de um compasso",
+  "Parar e recomeçar a frase a cada troca de acorde, como licks soltos",
+  "Terminar subindo ou sumindo, sem pouso claro, ou pensar no final só quando ele já chegou"
+ ],
+ "resumo": [
+  "Conte os compassos: é a forma que mostra onde fica o começo, o meio e o fim.",
+  "Comece pequeno: grave, curto e com espaço.",
+  "Varie o tamanho das frases e deixe algumas atravessarem a troca de acorde.",
+  "Crie direção com registro, densidade e volume, e guarde a nota mais aguda para o clímax.",
+  "Termine com clareza: desça ou pouse na tônica, segure a nota e pense no final antes que ele chegue."
+ ],
+ "proximos_passos": "Para levar essa estrutura para a banda, siga para \"Tocar com a banda e para a música\". Para dar mais cara a cada trecho, revise \"Motivo, repetição e desenvolvimento motívico\" e \"Dinâmica de toque, ataque e timbre\". Para aplicar tudo na forma de 12 compassos, vá para \"Solar sobre o blues\". E grave seus solos compostos seguindo \"Gravação, autoavaliação e feedback\".",
+ "_meta": {
+  "subcategoria": "C07.6",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Estrutura, narrativa e final do solo",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:41:56",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 24191,
+   "cache_read": 4913,
+   "output": 13589,
+   "thinking": 4482,
+   "turns": 2,
+   "custo_nominal": 0.4853396
+  }
+ }
+}

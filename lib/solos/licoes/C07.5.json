@@ -1,0 +1,2187 @@
+{
+ "titulo": "Motivo, repetição e desenvolvimento motívico",
+ "gancho": "Três notas bem cuidadas rendem um solo inteiro. Basta não abandoná-las.",
+ "porque_importa": "Um solo que emenda ideias soltas soa como um discurso sem assunto. Quando você repete e transforma um motivo, o ouvinte reconhece a ideia, acompanha o que acontece com ela e sai cantarolando. É assim que um improviso parece composto, e você não precisa de nenhuma nota nova para chegar lá.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Motivo: a semente do solo",
+   "texto": "Motivo é uma ideia curta, de 2 a 5 notas ou só um ritmo, que o ouvido consegue reconhecer. Ele precisa ter ritmo: sem uma figura rítmica clara, vira apenas um punhado de notas. Pense no \"ta-ta-ta-TAM\" de Beethoven. A Quinta Sinfonia inteira trabalha com essas quatro notas. No solo é igual: menos material, usado com intenção, prende mais do que a escala corrida.",
+   "destaque": "Sem ritmo não há motivo, só notas.",
+   "visual": null
+  },
+  {
+   "titulo": "Repetir é o primeiro passo, não preguiça",
+   "texto": "Quando uma frase funciona, toque-a de novo. A repetição diz ao ouvinte: \"isto é o assunto\". Um lick de 2 segundos repetido com pausas sustenta 10 a 15 segundos de solo. Ainda assim, tocar três vezes idêntico começa a cansar. A regra prática é repetir uma ou duas vezes e mudar alguma coisa na seguinte.",
+   "destaque": "Repita para afirmar e varie para manter o interesse.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Motivo A três vezes exatamente igual e depois um compasso inteiro de silêncio. Mesmas notas, mesmo ritmo e mesma força.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Mexer numa nota só: change, add, subtract",
+   "texto": "A variação mais simples, a A' (A linha), mantém quase tudo e mexe numa nota só. Troque a nota final (ou a primeira, ou uma do meio), acrescente uma nota ou tire uma. Tirar é poderoso porque o ouvinte espera a nota que não vem. A frase continua sendo reconhecida, mas agora conta algo novo.",
+   "destaque": "Para criar a frase B, você não precisa de material novo.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As três operações básicas: A original, A' com a última nota trocada (change), A com uma nota a mais (add) e A sem a última nota (subtract). O ouvinte espera o Mi, que não vem.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Geometria do motivo: virar, embaralhar, transportar",
+   "texto": "Com o ritmo fixo, você pode mexer na forma da ideia. Ela pode virar ao contrário (retrógrado) ou de cabeça para baixo (se subia, agora desce). Também dá para embaralhar a ordem das notas, subir nota a nota pela escala (sequência) ou mudar de registro (V1). Você pode ainda abrir ou fechar os saltos. Em todos os casos o ouvinte reconhece o \"parente\" e percebe movimento.",
+   "destaque": "Mesmo DNA, outra roupa.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "O motivo C–D–E (♭3–4–5 de Am) em três registros: grave, médio e agudo. O desenho é o mesmo e muda só a altura.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 12,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Forma: AABA, ABAC e o reset",
+   "texto": "Organize as ideias como numa canção. A é a ideia inicial, B é parente de A e C é o contraste: costuma ir na direção oposta ou para outro registro. Formas como A-A'-A-B, AABA e ABAC dão um roteiro pronto para 8 compassos. No fim, solte a ideia e comece outra exploração a partir do C (o reset).",
+   "destaque": "A cria a expectativa, B a confirma e C a quebra.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Forma ABAC, uma ideia por compasso: A, depois B (A com o final virado para baixo), A de volta e C, que contrasta no registro, na direção, na densidade e pousa na tônica.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 81,
+   "porque": "Jared demonstra, sobre Lá menor pentatônica, a forma A-A'-A-B: a ideia repetida e o \"prime\" que só troca a última nota.",
+   "fonte": {
+    "id": "Ib5qv48K7ww#I03",
+    "tipo": "video",
+    "autor": "Sound Guitar Lessons With Jared",
+    "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+    "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=87s",
+    "video": "Ib5qv48K7ww",
+    "inicio": 87,
+    "momento": "01:29",
+    "ideia": "Blueprint AAAB com prime sobre Lá menor pentatônica"
+   }
+  },
+  {
+   "ref": 64,
+   "porque": "Scott Paul Johnson toca a frase A e mostra ao vivo as operações change, add e subtract gerando frases B.",
+   "fonte": {
+    "id": "dQZXiPA5wac#I07",
+    "tipo": "video",
+    "autor": "Scott Paul Johnson | Guitar Lessons",
+    "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+    "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=211s",
+    "video": "dQZXiPA5wac",
+    "inicio": 211,
+    "momento": "03:33",
+    "ideia": "Change: trocar uma nota da frase A"
+   }
+  },
+  {
+   "ref": 89,
+   "porque": "Análise do fraseado de Gilmour: uma frase que desce e sobe vira a mesma frase subindo e descendo.",
+   "fonte": {
+    "id": "6aJqjgu5LwM#I09",
+    "tipo": "video",
+    "autor": "That Pedal Show",
+    "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+    "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=529s",
+    "video": "6aJqjgu5LwM",
+    "inicio": 529,
+    "momento": "08:51",
+    "ideia": "Inverter a direção da frase"
+   }
+  },
+  {
+   "ref": 123,
+   "porque": "Allen Hinds leva o mesmo motivo grau a grau pela escala de Ré maior e mostra como os intervalos mudam no caminho.",
+   "fonte": {
+    "id": "HVG0MqzGz30#I04",
+    "tipo": "video",
+    "autor": "Tim Pierce Guitar",
+    "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+    "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=192s",
+    "video": "HVG0MqzGz30",
+    "inicio": 192,
+    "momento": "03:14",
+    "ideia": "Motivo iniciado em graus sucessivos da escala"
+   }
+  },
+  {
+   "ref": 99,
+   "porque": "Paul Davids mostra Jeff Beck repetindo a mesma célula rítmica numa onda descendente com notas diferentes.",
+   "fonte": {
+    "id": "6n2308MSpjk#I15",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=508s",
+    "video": "6n2308MSpjk",
+    "inicio": 508,
+    "momento": "08:30",
+    "ideia": "Jeff Beck em 'We've Ended as Lovers'"
+   }
+  },
+  {
+   "ref": 44,
+   "porque": "Daniel Seriff toca a restrição de repetir a mesma ideia de 3 a 5 vezes e explica por que isso gera intenção.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I19",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=719s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 719,
+    "momento": "12:01",
+    "ideia": "Repetir uma ideia de três a cinco vezes"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Três vezes igual, depois respire",
+   "objetivo": "Treinar a memória e a coragem para repetir uma ideia exatamente igual.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Ligue uma base em Lá menor (vamp de Am) a 75 bpm.",
+    "Toque o motivo A da tab: C–D em colcheias e o E longo, no tempo 1.",
+    "Repita-o mais duas vezes idêntico: mesma nota, mesmo ritmo, mesma intensidade.",
+    "Deixe o 4º compasso em silêncio total.",
+    "Faça o ciclo de 4 compassos 5 vezes. Se escapar uma nota diferente, recomece o ciclo."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Motivo A três vezes exatamente igual e depois um compasso inteiro de silêncio. Mesmas notas, mesmo ritmo e mesma força.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Crie seu próprio motivo de 3 notas na mesma caixa e aplique o ciclo.",
+    "Estenda até 5 repetições exatas como teste de concentração."
+   ],
+   "cuidado": "Acelerar ou mudar o ritmo sem perceber nas repetições. Se mudou, já não é repetição exata.",
+   "inspirado_em": [
+    {
+     "id": "N8N6MAxvJIk#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=852s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 852,
+     "momento": "14:14",
+     "ideia": "Repetir uma frase curta com backing track"
+    },
+    {
+     "id": "0DiKyaXf71E#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "You’ll NEVER Noodle Again After Using THIS Secret System",
+     "url": "https://www.youtube.com/watch?v=0DiKyaXf71E&t=285s",
+     "video": "0DiKyaXf71E",
+     "inicio": 285,
+     "momento": "04:47",
+     "ideia": "Repetir a mesma ideia 3 a 5 vezes"
+    },
+    {
+     "id": "Ork2Vc2bva8#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=719s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 719,
+     "momento": "12:01",
+     "ideia": "Repetir uma ideia de três a cinco vezes"
+    },
+    {
+     "id": "N8N6MAxvJIk#I24",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=928s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 928,
+     "momento": "15:30",
+     "ideia": "Usar um grupo de três notas como frase a repetir"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I04",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=157s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 157,
+     "momento": "02:39",
+     "ideia": "Criar e repetir um lick simples"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I08",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=197s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 197,
+     "momento": "03:19",
+     "ideia": "Estender o tempo de um lick curto"
+    }
+   ]
+  },
+  {
+   "titulo": "Change, add, subtract",
+   "objetivo": "Derivar frases novas mexendo em uma única nota do motivo.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque A (C–D–E) no compasso 1.",
+    "Compasso 2, change: troque só a última nota por G (corda Si, casa 8).",
+    "Compasso 3, add: toque A inteiro e acrescente um A (corda Mi aguda, casa 5) no tempo 3.",
+    "Compasso 4, subtract: toque só C–D e deixe o resto em silêncio.",
+    "Repita o bloco e, a cada volta, troque uma nota diferente: a primeira, depois a do meio."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "As três operações básicas: A original, A' com a última nota trocada (change), A com uma nota a mais (add) e A sem a última nota (subtract). O ouvinte espera o Mi, que não vem.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Change na primeira nota: comece em A (corda Sol, casa 7... ou corda Ré, casa 7) e mantenha o resto.",
+    "Faça o subtract tirando a nota do meio, e não a última."
+   ],
+   "cuidado": "Mudar duas ou três coisas ao mesmo tempo e perder o parentesco com A. Mexa numa nota só.",
+   "inspirado_em": [
+    {
+     "id": "dQZXiPA5wac#I07",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=211s",
+     "video": "dQZXiPA5wac",
+     "inicio": 211,
+     "momento": "03:33",
+     "ideia": "Change: trocar uma nota da frase A"
+    },
+    {
+     "id": "dQZXiPA5wac#I08",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=244s",
+     "video": "dQZXiPA5wac",
+     "inicio": 244,
+     "momento": "04:06",
+     "ideia": "Change: começar em outra nota"
+    },
+    {
+     "id": "dQZXiPA5wac#I09",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=281s",
+     "video": "dQZXiPA5wac",
+     "inicio": 281,
+     "momento": "04:43",
+     "ideia": "Change: trocar uma nota no meio da frase"
+    },
+    {
+     "id": "dQZXiPA5wac#I10",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=315s",
+     "video": "dQZXiPA5wac",
+     "inicio": 315,
+     "momento": "05:17",
+     "ideia": "Add: acrescentar uma nota"
+    },
+    {
+     "id": "dQZXiPA5wac#I11",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=315s",
+     "video": "dQZXiPA5wac",
+     "inicio": 315,
+     "momento": "05:17",
+     "ideia": "Subtract: retirar uma nota"
+    },
+    {
+     "id": "Ib5qv48K7ww#I04",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=126s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 126,
+     "momento": "02:08",
+     "ideia": "Prime é variar só a nota final"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I12",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar um motivo de quatro notas com variação"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I11",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Repetição com variação"
+    }
+   ]
+  },
+  {
+   "titulo": "Vire, inverta, embaralhe",
+   "objetivo": "Gerar variações pela direção e pela ordem das notas, mantendo o ritmo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque A subindo: C–D–E.",
+    "Retrógrado: toque as mesmas notas de trás para frente (E–D–C), com o mesmo ritmo.",
+    "Contorno invertido: parta do C e desça dois passos da escala (C–A–G).",
+    "Permutação: embaralhe as três notas (D–C–E) e ouça qual ordem soa mais cantável.",
+    "Encadeie os quatro compassos sem parar sobre a base."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Mesmo ritmo, outra geometria: original, retrógrado (de trás para frente), contorno invertido (desce em vez de subir) e uma permutação (D–C–E).",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Liste as 6 ordens possíveis de C–D–E e toque todas, cada uma duas vezes.",
+    "Ponha um bend de um tom do D para o E na versão retrógrada."
+   ],
+   "cuidado": "Ao inverter, mudar também o ritmo. Ritmo fixo é o que mantém a ideia reconhecível.",
+   "inspirado_em": [
+    {
+     "id": "dQZXiPA5wac#I13",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=390s",
+     "video": "dQZXiPA5wac",
+     "inicio": 390,
+     "momento": "06:32",
+     "ideia": "Flip: inverter a direção da frase"
+    },
+    {
+     "id": "6aJqjgu5LwM#I09",
+     "tipo": "video",
+     "autor": "That Pedal Show",
+     "titulo": "Want To Nail Gilmour's Tone? Before Effects Pedals & Amps, Understand His **Phrasing**",
+     "url": "https://www.youtube.com/watch?v=6aJqjgu5LwM&t=529s",
+     "video": "6aJqjgu5LwM",
+     "inicio": 529,
+     "momento": "08:51",
+     "ideia": "Inverter a direção da frase"
+    },
+    {
+     "id": "pickupmusic--soloing-with-caged-90d614#I23",
+     "tipo": "documento",
+     "autor": "Sophie Giuliani",
+     "titulo": "Master the Art of Guitar Soloing with CAGED System | CAGED Guitar Techniques - Pickup Music",
+     "url": "https://www.pickupmusic.com/blog/soloing-with-caged",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variar o contorno melódico de um mesmo lick"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I13",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=166s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Variar direção e ponto de partida das linhas"
+    },
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I04",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Permutar as notas da célula"
+    },
+    {
+     "id": "ea2g6P0pCKg#I18",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=503s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 503,
+     "momento": "08:25",
+     "ideia": "Mudar a ordem das notas da escala"
+    }
+   ]
+  },
+  {
+   "titulo": "O motivo sobe a escada",
+   "objetivo": "Transportar o motivo nota a nota pela pentatônica (sequência) até ele reaparecer uma oitava acima.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque A começando no C (corda Sol, casa 5).",
+    "Recomece o mesmo desenho rítmico na próxima nota da escala, D: D–E–G.",
+    "Continue: E–G–A, depois G–A–C.",
+    "Siga sozinho: A–C–D, depois C–D–E na corda Mi aguda (casas 8, 10, 12). É o motivo original uma oitava acima.",
+    "Desça a escada de volta, compasso a compasso."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Sequência: o motivo de três notas seguidas sobe uma nota da pentatônica de Lá menor a cada compasso. O ritmo fica igual e o ponto de partida anda.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a sequência descendo a partir do C agudo.",
+    "Aplique a escada a um motivo seu com um salto (ex.: 1–♭3–4)."
+   ],
+   "cuidado": "Transformar a sequência em exercício mecânico sem pausa. Deixe o tempo 3 e o 4 vazios para a frase respirar.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I28",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sequência melódica"
+    },
+    {
+     "id": "HVG0MqzGz30#I04",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=192s",
+     "video": "HVG0MqzGz30",
+     "inicio": 192,
+     "momento": "03:14",
+     "ideia": "Motivo iniciado em graus sucessivos da escala"
+    },
+    {
+     "id": "premierguitar--pentatonic-escape-routes-5d1291#I03",
+     "tipo": "documento",
+     "autor": "Paul DePauw",
+     "titulo": "Pentatonic Escape Routes",
+     "url": "https://www.premierguitar.com/lessons/scales/pentatonic-escape-routes",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mover o motivo para a próxima nota da escala"
+    },
+    {
+     "id": "premierguitar--pentatonic-escape-routes-5d1291#I06",
+     "tipo": "documento",
+     "autor": "Paul DePauw",
+     "titulo": "Pentatonic Escape Routes",
+     "url": "https://www.premierguitar.com/lessons/scales/pentatonic-escape-routes",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "O Ex. 6 é o motivo original uma oitava acima"
+    },
+    {
+     "id": "UG_P4KNw0XM#I04",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=81s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 81,
+     "momento": "01:23",
+     "ideia": "Estender a frase para criar linhas mais longas"
+    },
+    {
+     "id": "HVG0MqzGz30#I05",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=260s",
+     "video": "HVG0MqzGz30",
+     "inicio": 260,
+     "momento": "04:22",
+     "ideia": "Intervalos saltados no motivo"
+    }
+   ]
+  },
+  {
+   "titulo": "Roteiro ABAC em 8 compassos",
+   "objetivo": "Organizar motivo, variação e contraste numa forma reconhecível.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque a tab uma vez como modelo: A, B (final virado para baixo), A, C contrastante pousando na tônica.",
+    "Agora dobre: cada letra ocupa 2 compassos (frase e resposta ou frase e silêncio).",
+    "Crie um A novo seu, de 3 ou 4 notas.",
+    "Derive B com uma operação: change, add, subtract ou flip.",
+    "Faça o C ir para outro registro e na direção oposta, terminando numa nota do Am (A, C ou E).",
+    "Repita a forma 3 vezes, cada vez com um A diferente."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Forma ABAC, uma ideia por compasso: A, depois B (A com o final virado para baixo), A de volta e C, que contrasta no registro, na direção, na densidade e pousa na tônica.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque a forma: A-A'-A-B, AABA ou AABC.",
+    "Varie a 3ª repetição de um bloco AAAA e volte ao ritmo original no 4º compasso."
+   ],
+   "cuidado": "Esquecer o A no meio da forma. Se não lembrar o A, ele era longo demais: encurte.",
+   "inspirado_em": [
+    {
+     "id": "Ib5qv48K7ww#I03",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=87s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 87,
+     "momento": "01:29",
+     "ideia": "Blueprint AAAB com prime sobre Lá menor pentatônica"
+    },
+    {
+     "id": "Ib5qv48K7ww#I11",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=497s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 497,
+     "momento": "08:19",
+     "ideia": "Blueprint AABC com ideia contrastante final"
+    },
+    {
+     "id": "Ib5qv48K7ww#I10",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=478s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 478,
+     "momento": "08:00",
+     "ideia": "Blueprints funcionam com qualquer estilo"
+    },
+    {
+     "id": "Ib5qv48K7ww#I12",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=497s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 497,
+     "momento": "08:19",
+     "ideia": "Criar blueprints próprios"
+    },
+    {
+     "id": "dQZXiPA5wac#I23",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=613s",
+     "video": "dQZXiPA5wac",
+     "inicio": 613,
+     "momento": "10:15",
+     "ideia": "Prática com forma fixa e nova frase A"
+    },
+    {
+     "id": "hWlyxQclPcs#I14",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=479s",
+     "video": "hWlyxQclPcs",
+     "inicio": 479,
+     "momento": "08:01",
+     "ideia": "Ponte com variação na terceira repetição"
+    },
+    {
+     "id": "dQZXiPA5wac#I04",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=105s",
+     "video": "dQZXiPA5wac",
+     "inicio": 105,
+     "momento": "01:47",
+     "ideia": "Frases A, B e C"
+    },
+    {
+     "id": "dQZXiPA5wac#I12",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=356s",
+     "video": "dQZXiPA5wac",
+     "inicio": 356,
+     "momento": "05:58",
+     "ideia": "Frase C em direção oposta"
+    }
+   ]
+  },
+  {
+   "titulo": "Explore, morph, reset com operações combinadas",
+   "objetivo": "Tornar o desenvolvimento motívico automático no improviso livre.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Explore: improvise sobre a base até ouvir uma célula de 3 notas que valha a pena. Pare nela.",
+    "Morph 1: aplique uma operação por vez (change, add, subtract, flip, sequência, outro registro, intervalos mais largos).",
+    "Morph 2: combine duas ou três operações na mesma frase. Exemplos: retrógrado uma oitava acima, ou sequência com a última nota trocada.",
+    "Conte quantos compassos você sustenta só com essa célula. Anote o número.",
+    "Reset: toque uma frase C bem diferente e trate-a como a nova célula. Recomece."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Use uma frase que você já toca no automático como célula inicial e transforme-a.",
+    "Faça um solo de 32 compassos inteiro sem nenhum reset."
+   ],
+   "cuidado": "Fazer o reset cedo demais por ansiedade. Esgote a ideia antes de trocar.",
+   "inspirado_em": [
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I12",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Progressão de estudo: de um conceito a vários combinados"
+    },
+    {
+     "id": "dQZXiPA5wac#I25",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=647s",
+     "video": "dQZXiPA5wac",
+     "inicio": 647,
+     "momento": "10:49",
+     "ideia": "Combinar as operações de morph"
+    },
+    {
+     "id": "dQZXiPA5wac#I24",
+     "tipo": "video",
+     "autor": "Scott Paul Johnson | Guitar Lessons",
+     "titulo": "How to SOLO on GUITAR | Part 1: Phrases",
+     "url": "https://www.youtube.com/watch?v=dQZXiPA5wac&t=647s",
+     "video": "dQZXiPA5wac",
+     "inicio": 647,
+     "momento": "10:49",
+     "ideia": "Explore, morph, reset"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I24",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Repetir sempre as mesmas frases"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I27",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Modificar o que já se sabe"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I21",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 3: solo de 32 compassos só com motivos"
+    },
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I07",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ampliar ou reduzir a estrutura intervalar"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar uma boa frase e partir logo para outra: o solo vira uma lista de ideias soltas.",
+  "Repetir a mesma frase idêntica três vezes ou mais sem nenhuma virada.",
+  "Criar um motivo longo demais para lembrar e, por isso, não conseguir repeti-lo.",
+  "Variar tudo ao mesmo tempo (notas, ritmo e registro), até a ligação com o original sumir.",
+  "Tratar o motivo como sequência de notas e esquecer que o ritmo é o que faz o ouvinte reconhecê-lo."
+ ],
+ "resumo": [
+  "Motivo é uma ideia curta e reconhecível, sempre com ritmo.",
+  "Repita para afirmar e varie na 2ª ou 3ª vez.",
+  "Change, add e subtract: mexa numa nota só para criar a frase B.",
+  "Flip, retrógrado, permutação, sequência, registro e intervalos transformam a ideia sem perder o parentesco.",
+  "Formas como ABAC e AABA dão roteiro, e o reset abre a próxima ideia."
+ ],
+ "proximos_passos": "Para colocar o motivo dentro do arco do solo, siga para \"Estrutura, narrativa e final do solo\". Para usá-lo em diálogo, veja \"Pergunta e resposta (call and response)\". Se quiser mais ferramentas para variar o ritmo da ideia, vá a \"Variação rítmica e ganchos rítmicos\" e \"Deslocamento, síncope e ponto de entrada\".",
+ "_meta": {
+  "subcategoria": "C07.5",
+  "modulo": {
+   "id": "C07",
+   "nome": "Fraseado e construção do solo"
+  },
+  "nome": "Motivo, repetição e desenvolvimento motívico",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:39:50",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 37518,
+   "cache_read": 8780,
+   "output": 14120,
+   "thinking": 2262,
+   "turns": 4,
+   "custo_nominal": 0.6139690000000001
+  }
+ }
+}
