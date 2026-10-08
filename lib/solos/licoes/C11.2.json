@@ -1,0 +1,2004 @@
+{
+ "titulo": "Modos: construção, sonoridade e nota característica",
+ "gancho": "Sete notas, sete sotaques: troque só o chão em que você pisa e Dó maior vira flamenco, blues ou trilha de cinema.",
+ "porque_importa": "Quem já sabe a escala maior já tem as notas dos sete modos. O que falta é ouvir qual nota manda e qual nota dá a cor. Saber a nota característica de cada modo permite escolher a emoção de uma frase de propósito, sem precisar decorar sete desenhos novos.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Mesmas notas, outra casa",
+   "texto": "Um modo é a escala maior girada. Você mantém as sete notas e escolhe outro grau como tônica. Com as notas de Dó maior: Dó jônio, Ré dórico, Mi frígio, Fá lídio, Sol mixolídio, Lá eólio e Si lócrio. Quando muda a tônica, muda a ordem de tons e semitons: o T-T-S-T-T-T-S do jônio vira T-S-T-T-T-S-T no dórico. Só essas sete escalas são modos da maior. Pentatônica, blues e menor harmônica são escalas, mas não modos da maior.",
+   "destaque": "O modo não troca as notas. Troca o chão.",
+   "visual": {
+    "id": "V7",
+    "tipo": "braco",
+    "legenda": "As sete notas de Dó maior na corda Lá. Cada uma pode ser a tônica de um modo: Dó jônio, Ré dórico, Mi frígio, Fá lídio, Sol mixolídio, Lá eólio e Si lócrio. Os graus estão em relação a Dó.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 14,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Uma nota de diferença: a nota característica",
+   "texto": "Cada modo é uma escala que você já conhece com uma nota alterada. Modos maiores (tríade maior na tônica): lídio = maior com ♯4; mixolídio = maior com ♭7. Modos menores (tríade menor na tônica): dórico = menor com 6 maior; frígio = menor com ♭2. O lócrio é menor com ♭2 e ♭5, e a tríade da tônica fica diminuta. Para o modo aparecer, apoie-se na tônica, na 3ª e na nota característica.",
+   "destaque": "Pergunte primeiro se o modo é maior ou menor. Depois pergunte qual nota mudou.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A mesma frase sobre Am duas vezes. Na primeira, o Fá (♭6) deixa o som eólio, mais triste. Na segunda, o Fá♯ (6) deixa o som dórico, mais claro. Os compassos 2 e 4 ficam em silêncio para você ouvir a diferença.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Os meios-tons fazem o som",
+   "texto": "O caráter vem de onde caem os dois semitons. Jônio: 3-4 e 7-8. Dórico: 2-♭3 e 6-♭7. Frígio: 1-♭2 e 5-♭6. Lídio: ♯4-5 e 7-8. Mixolídio: 3-4 e 6-♭7. Eólio: 2-♭3 e 5-♭6. Lócrio: 1-♭2 e 4-♭5. Uma frase que passa por esses semitons faz o modo soar. Uma frase que evita esses semitons soa só como uma escala qualquer.",
+   "destaque": "O meio-tom é a assinatura do modo.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Jônio × lídio sobre Dó. No compasso 1, o Fá (4) cai no Mi e a frase pousa. No compasso 2, o Fá♯ (♯4) sobe meio tom até o Sol e a frase fica aberta, flutuando.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Modo é sonoridade, não desenho",
+   "texto": "Quem decide o modo é a base. As notas de Sol maior só soam Lá dórico se a harmonia girar em torno de Lá menor. A progressão D–Am–C–G usa as notas de Sol maior, mas pousa em Ré, então está em Ré mixolídio. Tocar a mesma forma começando em outra casa, sobre a mesma base, não muda nada. Para achar as notas, use a escala-mãe: o dórico nasce no 2º grau, o frígio no 3º, o lídio no 4º, o mixolídio no 5º, o eólio no 6º e o lócrio no 7º. Por exemplo, Dó mixolídio usa as notas de Fá maior.",
+   "destaque": "Se a base não mudou, o modo também não mudou.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Ré dórico numa oitava: são as notas de Dó maior, mas com Ré como casa. O Si (6ª maior) é a nota característica.",
+    "tonica": "D",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Cor, cuidado e um pouco de história",
+   "texto": "Em brilho, do mais claro ao mais escuro: lídio, jônio, mixolídio, dórico, eólio, frígio, lócrio. Maior tende ao alegre e menor ao triste, mas isso é tendência, não regra. Algumas notas características raspam no acorde, como a ♭2 do frígio. Use-as de passagem ou com intenção. O modo dá as notas, não a frase. Os nomes vêm da Grécia antiga, mas os modos gregos eram outra coisa: tetracordes sem centro tonal. Os modos da Igreja já tinham uma nota de repouso, o final, e é daí que vem a ideia atual de tônica.",
+   "destaque": "O modo dá a cor. A frase continua sendo trabalho seu.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 39,
+   "porque": "Rick Beato monta a tabela de meios-tons dos sete modos e mostra como reconhecer cada um por ela.",
+   "fonte": {
+    "id": "juQVAFsdFMQ#I21",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "The FASTEST Way To Learn MODES",
+    "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=580s",
+    "video": "juQVAFsdFMQ",
+    "inicio": 580,
+    "momento": "09:42",
+    "ideia": "Tabela de meios-tons dos sete modos"
+   }
+  },
+  {
+   "ref": 74,
+   "porque": "Você ouve a tríade de Fá ganhar o Si (♯4) e passar a soar lídio na hora.",
+   "fonte": {
+    "id": "juQVAFsdFMQ#I07",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "The FASTEST Way To Learn MODES",
+    "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=106s",
+    "video": "juQVAFsdFMQ",
+    "inicio": 106,
+    "momento": "01:48",
+    "ideia": "Tríade de Fá com ♯4 soa lídio"
+   }
+  },
+  {
+   "ref": 98,
+   "porque": "Gu Pedrico toca uma progressão com as notas de Sol maior centrada em Ré e mostra por que ela é Ré mixolídio, e não Sol maior.",
+   "fonte": {
+    "id": "Ivr_-S7ku8E#I13",
+    "tipo": "video",
+    "autor": "Gu Pedrico",
+    "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+    "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=1049s",
+    "video": "Ivr_-S7ku8E",
+    "inicio": 1049,
+    "momento": "17:31",
+    "ideia": "Progressão com notas de Sol mas centro em Ré = Ré mixolídio"
+   }
+  },
+  {
+   "ref": 45,
+   "porque": "Ozeias Rodrigues destaca o Si sobre Ré menor e mostra como a 6ª maior marca o som dórico.",
+   "fonte": {
+    "id": "hlA3fv1Jq5I#I10",
+    "tipo": "video",
+    "autor": "Ozeias Rodrigues",
+    "titulo": "Exercício para melhorar a improvisação - Pare de subir e descer escalas.",
+    "url": "https://www.youtube.com/watch?v=hlA3fv1Jq5I&t=449s",
+    "video": "hlA3fv1Jq5I",
+    "inicio": 449,
+    "momento": "07:31",
+    "ideia": "Sexta (Si) no dórico: som diferente e marcante"
+   }
+  },
+  {
+   "ref": 104,
+   "porque": "Jens Larsen toca o frígio sobre Em7 e mostra como a ♭9 (Fá) pode soar errada sobre o acorde.",
+   "fonte": {
+    "id": "iWm_dxEszu0#I11",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "\"Learn The Modes!\" is Horrible Advice - This is A Better Skill",
+    "url": "https://www.youtube.com/watch?v=iWm_dxEszu0&t=229s",
+    "video": "iWm_dxEszu0",
+    "inicio": 229,
+    "momento": "03:51",
+    "ideia": "Tocar o ♭9 do Em7 (frígio sobre iii de Dó)"
+   }
+  },
+  {
+   "ref": 105,
+   "porque": "Guthrie Govan compara dórico e frígio e mostra como duas notas bemolizadas escurecem o som.",
+   "fonte": {
+    "id": "Cy_c2InwkSk#I03",
+    "tipo": "video",
+    "autor": "DIME Group - Music Courses, Classes & Programs",
+    "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+    "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=71s",
+    "video": "Cy_c2InwkSk",
+    "inicio": 71,
+    "momento": "01:13",
+    "ideia": "Frígio é bem mais escuro que o Dórico"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Mesmas notas, outro chão: Dó maior vira Ré dórico",
+   "objetivo": "Sentir que mudar a tônica muda o som sem trocar nenhuma nota.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque Dó maior uma oitava, de Dó a Dó, sobre um acorde de C. Note como o Dó soa como casa.",
+    "Toque as mesmas notas de Ré a Ré, na forma do V1, sobre um Dm em loop ou um drone de Ré.",
+    "Improvise frases de 3 a 5 notas que comecem ou terminem em Ré. Pare em cada pouso e escute.",
+    "Pouse duas ou três vezes no Si (corda Sol, casa 4) sobre o Dm e note o brilho da 6ª maior.",
+    "Troque a base para Am sem mudar as notas e ouça o centro ir para Lá."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Ré dórico numa oitava: são as notas de Dó maior, mas com Ré como casa. O Si (6ª maior) é a nota característica.",
+    "tonica": "D",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "1",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça a mesma coisa com Ré dórico a partir da casa 10 da corda Mi grave.",
+    "Cante o Ré antes de cada frase para manter o centro no ouvido."
+   ],
+   "cuidado": "Subir e descer a escala de Dó a Dó por hábito. Se a frase acaba em Dó, o ouvido volta para Dó maior.",
+   "inspirado_em": [
+    {
+     "id": "hlA3fv1Jq5I#I02",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Exercício para melhorar a improvisação - Pare de subir e descer escalas.",
+     "url": "https://www.youtube.com/watch?v=hlA3fv1Jq5I&t=0s",
+     "video": "hlA3fv1Jq5I",
+     "inicio": 0,
+     "momento": "00:00",
+     "ideia": "Ré dórico como escala de Dó começando em Ré"
+    },
+    {
+     "id": "en--mode_-music-72a13e#I08",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National France BnF data",
+     "titulo": "Mode (music) - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mode_(music)",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar as notas de Dó maior começando em Ré (dórico)"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I04",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=314s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 314,
+     "momento": "05:16",
+     "ideia": "Os sete modos a partir das notas de Dó maior"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I05",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=314s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 314,
+     "momento": "05:16",
+     "ideia": "Dórico: segunda maior e terça menor sobre a tônica Ré"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma casa muda tudo: eólio × dórico",
+   "objetivo": "Ouvir a 6ª como a nota que separa o menor triste do menor brilhante.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque Am e deixe soar.",
+    "Toque a frase do compasso 1 do V2 com o Fá (♭6) e escute em silêncio no compasso 2.",
+    "Toque a mesma frase com o Fá♯ (6) e escute de novo.",
+    "Diga em voz alta qual frase soou mais triste e qual soou mais aberta.",
+    "Improvise 1 minuto em Lá eólio e depois 1 minuto em Lá dórico, sobre a mesma base de Am."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A mesma frase sobre Am duas vezes. Na primeira, o Fá (♭6) deixa o som eólio, mais triste. Na segunda, o Fá♯ (6) deixa o som dórico, mais claro. Os compassos 2 e 4 ficam em silêncio para você ouvir a diferença.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Segure o Fá♯ por um tempo inteiro, com vibrato, como nota-alvo.",
+    "Faça em Mi menor: Dó (♭6) × Dó♯ (6)."
+   ],
+   "cuidado": "Passar correndo pela 6ª. Se ela só passa, você não ouve a diferença: segure a nota.",
+   "inspirado_em": [
+    {
+     "id": "hlA3fv1Jq5I#I10",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Exercício para melhorar a improvisação - Pare de subir e descer escalas.",
+     "url": "https://www.youtube.com/watch?v=hlA3fv1Jq5I&t=449s",
+     "video": "hlA3fv1Jq5I",
+     "inicio": 449,
+     "momento": "07:31",
+     "ideia": "Sexta (Si) no dórico: som diferente e marcante"
+    },
+    {
+     "id": "qLEyhW3f08k#I01",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+     "url": "https://www.youtube.com/watch?v=qLEyhW3f08k&t=40s",
+     "video": "qLEyhW3f08k",
+     "inicio": 40,
+     "momento": "00:42",
+     "ideia": "Dórico: modo menor com 6ª maior"
+    },
+    {
+     "id": "juQVAFsdFMQ#I10",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=212s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 212,
+     "momento": "03:34",
+     "ideia": "Dórico é menor com 6 natural"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I04",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dórico é menor natural com a 6ª maior"
+    },
+    {
+     "id": "FFGKJoljMS4#I05",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "As Escalas e suas Emoções (Modos Gregos na Guitarra)",
+     "url": "https://www.youtube.com/watch?v=FFGKJoljMS4&t=206s",
+     "video": "FFGKJoljMS4",
+     "inicio": 206,
+     "momento": "03:28",
+     "ideia": "Eólio (menor natural): tristeza e melancolia"
+    },
+    {
+     "id": "juQVAFsdFMQ#I08",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=138s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 138,
+     "momento": "02:20",
+     "ideia": "Eólio tem ♭6 como nota característica"
+    }
+   ]
+  },
+  {
+   "titulo": "A ♯4 que flutua: Dó jônio × Dó lídio",
+   "objetivo": "Ouvir como a ♯4 tira o peso da 4ª e deixa o som aberto, de trilha de cinema.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque um acorde de C e deixe soar.",
+    "Toque o compasso 1 do V3: a 4 (Fá) cai na 3ª e a frase fecha.",
+    "Toque o compasso 2: a ♯4 (Fá♯) sobe meio tom até a 5ª e a frase fica suspensa.",
+    "Toque a tríade Dó-Mi-Sol e acrescente só o Fá♯. Compare com a tríade pura.",
+    "Improvise sobre C mantendo o Fá♯ como nota de destaque, não de fuga."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Jônio × lídio sobre Dó. No compasso 1, o Fá (4) cai no Mi e a frase pousa. No compasso 2, o Fá♯ (♯4) sobe meio tom até o Sol e a frase fica aberta, flutuando.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo em Fá lídio com as notas naturais: o Si é a ♯4.",
+    "Some a 9ª (Ré) e a 6ª (Lá) para a cor lídia ficar mais aberta."
+   ],
+   "cuidado": "Tratar o Fá♯ como nota errada e fugir dele. No lídio, a ♯4 é o motivo de tocar o modo.",
+   "inspirado_em": [
+    {
+     "id": "NbNH_C3QAS0#I10",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=312s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 312,
+     "momento": "05:14",
+     "ideia": "Modo lídio: quarta aumentada"
+    },
+    {
+     "id": "juQVAFsdFMQ#I03",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=31s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 31,
+     "momento": "00:33",
+     "ideia": "Nota característica do lídio é o ♯4"
+    },
+    {
+     "id": "juQVAFsdFMQ#I07",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=106s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 106,
+     "momento": "01:48",
+     "ideia": "Tríade de Fá com ♯4 soa lídio"
+    },
+    {
+     "id": "aHzmIWB0P00#I15",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=893s",
+     "video": "aHzmIWB0P00",
+     "inicio": 893,
+     "momento": "14:55",
+     "ideia": "Lídio é a escala maior com quarta aumentada"
+    },
+    {
+     "id": "14UZEproJ-A#I19",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
+     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=1031s",
+     "video": "14UZEproJ-A",
+     "inicio": 1031,
+     "momento": "17:13",
+     "ideia": "Quarta aumentada sobre Dó sugere lídio"
+    }
+   ]
+  },
+  {
+   "titulo": "Mixolídio pela escala-mãe e pelo ouvido",
+   "objetivo": "Encontrar o mixolídio de qualquer tônica e ouvir a ♭7 como a nota bluesy.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o V4 sobre G: compare o Fá♯ (7), que puxa para o Sol, com o Fá (♭7), que cai no Mi.",
+    "Escreva a regra: X mixolídio usa a escala maior que fica uma 4ª justa acima de X, porque X é o V dela.",
+    "Calcule e confira: Sol mixolídio = Dó maior; Dó mixolídio = Fá maior (com Si♭); Ré mixolídio = Sol maior (com Fá♯ e Dó); Lá mixolídio = Ré maior.",
+    "Sobre G7, improvise usando só as notas de Dó maior, mas pousando sempre em Sol, Si ou Ré.",
+    "Repita sobre D7 com as notas de Sol maior."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Sol maior × Sol mixolídio sobre um acorde de Sol. Muda uma casa só: o Fá♯ (7) puxa para o Sol e o Fá (♭7) cai no Mi e soa bluesy.",
+    "tonica": "G",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use a mesma lógica para o dórico (2º grau): Lá dórico = Sol maior.",
+    "Use a mesma lógica para o lídio (4º grau): Dó lídio = Sol maior."
+   ],
+   "cuidado": "Inverter a conta. Dó é o V de Fá, então Dó mixolídio usa Fá maior, e não Sol maior.",
+   "inspirado_em": [
+    {
+     "id": "aHzmIWB0P00#I13",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=760s",
+     "video": "aHzmIWB0P00",
+     "inicio": 760,
+     "momento": "12:42",
+     "ideia": "Achar o mixolídio de um tom pelo acorde V"
+    },
+    {
+     "id": "NbNH_C3QAS0#I12",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=391s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 391,
+     "momento": "06:33",
+     "ideia": "Modo mixolídio: sétima menor"
+    },
+    {
+     "id": "aHzmIWB0P00#I09",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=532s",
+     "video": "aHzmIWB0P00",
+     "inicio": 532,
+     "momento": "08:54",
+     "ideia": "Mixolídio é a escala maior com sétima menor"
+    },
+    {
+     "id": "juQVAFsdFMQ#I12",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=299s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 299,
+     "momento": "05:01",
+     "ideia": "Mixolídio é maior e usado sobre o V grau"
+    },
+    {
+     "id": "bhYXolbCrr0#I16",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=1293s",
+     "video": "bhYXolbCrr0",
+     "inicio": 1293,
+     "momento": "21:35",
+     "ideia": "Mixolídio de Ré como quinto modo de Sol maior"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I25",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=695s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 695,
+     "momento": "11:37",
+     "ideia": "Sol maior como Sol mixolídio usa a escala de Dó"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I13",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Encontrar a escala maior-pai pelo intervalo da tônica"
+    }
+   ]
+  },
+  {
+   "titulo": "Frígio: o meio-tom na porta",
+   "objetivo": "Sentir o semitom 1-♭2 do frígio e aprender a usá-lo sem soar errado.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque Em e depois o compasso 1 do V5 (eólio, com Fá♯).",
+    "Toque o compasso 2 (frígio, com Fá). Ouça o som espanhol aparecer.",
+    "Toque só Mi-Fá-Mi devagar, com o Mi grave solto como drone.",
+    "Agora pare uma frase no Fá e segure-o sobre Em. Note como ele raspa no acorde.",
+    "Improvise usando o Fá sempre como passagem que cai no Mi, ou como tensão breve antes de pousar."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Mi eólio × Mi frígio, só na corda Mi aguda e sobre Em. Do Fá♯ (2) para o Fá (♭2): uma casa e o som vira flamenco.",
+    "tonica": "E",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque em Lá frígio sobre Am: Lá-Si♭-Lá na corda Sol (casas 2-3-2).",
+    "Compare Mi dórico, Mi eólio e Mi frígio em sequência e ordene-os do mais claro ao mais escuro."
+   ],
+   "cuidado": "Pousar no Fá como se fosse nota de repouso. A ♭2 é tempero forte: ela resolve no Mi.",
+   "inspirado_em": [
+    {
+     "id": "FFGKJoljMS4#I07",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "As Escalas e suas Emoções (Modos Gregos na Guitarra)",
+     "url": "https://www.youtube.com/watch?v=FFGKJoljMS4&t=297s",
+     "video": "FFGKJoljMS4",
+     "inicio": 297,
+     "momento": "04:59",
+     "ideia": "Frígio: espanhol, flamenco e tensão"
+    },
+    {
+     "id": "juQVAFsdFMQ#I14",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=378s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Frígio tem ♭2 como nota característica"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I09",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Frígio tem 2ª menor e cor espanhola"
+    },
+    {
+     "id": "iWm_dxEszu0#I11",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "\"Learn The Modes!\" is Horrible Advice - This is A Better Skill",
+     "url": "https://www.youtube.com/watch?v=iWm_dxEszu0&t=229s",
+     "video": "iWm_dxEszu0",
+     "inicio": 229,
+     "momento": "03:51",
+     "ideia": "Tocar o ♭9 do Em7 (frígio sobre iii de Dó)"
+    },
+    {
+     "id": "Cy_c2InwkSk#I03",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=71s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 71,
+     "momento": "01:13",
+     "ideia": "Frígio é bem mais escuro que o Dórico"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I06",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=351s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 351,
+     "momento": "05:53",
+     "ideia": "Frígio: referência em Mi nas notas de Dó"
+    }
+   ]
+  },
+  {
+   "titulo": "Detetive de meios-tons",
+   "objetivo": "Reconhecer o modo pelo ouvido, usando a posição dos semitons, sem tabela.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Escreva a tabela: modo, maior ou menor, e onde caem os dois meios-tons.",
+    "Ligue um drone de Lá. Toque Lá jônio, dórico, frígio, lídio, mixolídio, eólio e lócrio, sempre numa oitava, devagar.",
+    "Em cada modo, toque só os semitons (ex.: lídio: Ré♯-Mi e Sol♯-Lá) e cante-os.",
+    "Peça para alguém, ou um app, tocar um modo ao acaso sobre o drone. Responda primeiro se é maior ou menor e depois qual nota mudou.",
+    "Confira na tabela só depois de responder. Repita até acertar 5 seguidos."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Troque o drone para Ré e repita.",
+    "Toque você mesmo de olhos fechados, escolhendo o modo em silêncio, e grave para testar depois."
+   ],
+   "cuidado": "Tentar reconhecer o modo pela lista de notas. O ouvido reconhece pela cor e pelos semitons, não por letras.",
+   "inspirado_em": [
+    {
+     "id": "qLEyhW3f08k#I02",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+     "url": "https://www.youtube.com/watch?v=qLEyhW3f08k&t=75s",
+     "video": "qLEyhW3f08k",
+     "inicio": 75,
+     "momento": "01:17",
+     "ideia": "Enfatize os semitons para soar o modo"
+    },
+    {
+     "id": "juQVAFsdFMQ#I05",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=74s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 74,
+     "momento": "01:16",
+     "ideia": "Som do modo está nos meios-tons e no tipo maior ou menor"
+    },
+    {
+     "id": "juQVAFsdFMQ#I21",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=580s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 580,
+     "momento": "09:42",
+     "ideia": "Tabela de meios-tons dos sete modos"
+    },
+    {
+     "id": "juQVAFsdFMQ#I20",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=580s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 580,
+     "momento": "09:42",
+     "ideia": "Memorizar os sete modos pelos meios-tons"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada de brilho: sete modos, uma tônica",
+   "objetivo": "Ver que, numa tônica fixa, cada modo difere do vizinho em uma nota só, do mais claro ao mais escuro.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Ligue um drone de Dó e mantenha-o o tempo todo.",
+    "Toque Dó lídio: C D E F♯ G A B.",
+    "Abaixe uma nota por vez e toque cada modo: Fá♯→Fá (jônio), Si→Si♭ (mixolídio), Mi→Mi♭ (dórico), Lá→Lá♭ (eólio), Ré→Ré♭ (frígio), Sol→Sol♭ (lócrio).",
+    "Em cada degrau, toque uma frase curta de 4 compassos que destaque a nota que acabou de mudar.",
+    "No lócrio, perceba que a 5ª diminuta tira o chão: a tônica vira m7♭5 e não descansa.",
+    "Volte subindo, do lócrio ao lídio, desfazendo uma alteração por vez."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "braco",
+    "legenda": "As sete notas de Dó maior na corda Lá. Cada uma pode ser a tônica de um modo: Dó jônio, Ré dórico, Mi frígio, Fá lídio, Sol mixolídio, Lá eólio e Si lócrio. Os graus estão em relação a Dó.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 3,
+      "nota": "C",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 12,
+      "nota": "A",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 14,
+      "nota": "B",
+      "grau": "7",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça a escada em Lá e em Mi, tônicas confortáveis para guitarra.",
+    "Para cada modo, diga qual é a escala-mãe (ex.: Dó dórico = Si♭ maior)."
+   ],
+   "cuidado": "Mudar duas notas de uma vez e perder a lógica. Cada degrau altera exatamente uma nota e mantém a tônica.",
+   "inspirado_em": [
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I12",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ver modos como alteração de uma nota"
+    },
+    {
+     "id": "juQVAFsdFMQ#I17",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The FASTEST Way To Learn MODES",
+     "url": "https://www.youtube.com/watch?v=juQVAFsdFMQ&t=498s",
+     "video": "juQVAFsdFMQ",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Lócrio é o sétimo modo, usado sobre meio-diminutos"
+    },
+    {
+     "id": "en--mode_-music-72a13e#I13",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National France BnF data",
+     "titulo": "Mode (music) - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mode_(music)",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Lócrio: quinta diminuta e tônica diminuta"
+    },
+    {
+     "id": "orphiq--music-modes-explained-9a1b6e#I11",
+     "tipo": "documento",
+     "autor": "orphiq.com",
+     "titulo": "Music Modes Explained for Songwriters | Orphiq",
+     "url": "https://orphiq.com/resources/music-modes-explained",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Lócrio tem tríade diminuta na tônica"
+    },
+    {
+     "id": "Cy_c2InwkSk#I03",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=71s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 71,
+     "momento": "01:13",
+     "ideia": "Frígio é bem mais escuro que o Dórico"
+    },
+    {
+     "id": "N1shDBha6Y0#I05",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=159s",
+     "video": "N1shDBha6Y0",
+     "inicio": 159,
+     "momento": "02:41",
+     "ideia": "Dórico de C como modo de Si♭ maior"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Achar que tocar o desenho de Sol maior começando em Lá já é dórico. Sem uma base centrada em Lá menor, continua sendo Sol maior.",
+  "Decorar sete listas de notas sem ouvir a cor de cada modo. Isso dá a sensação de ter aprendido sem ter aprendido.",
+  "Evitar a nota característica por medo. No lídio, a ♯4 é a razão de usar o modo.",
+  "Pousar em notas características ásperas, como a ♭2 do frígio, como se fossem repouso.",
+  "Errar a escala-mãe: Dó mixolídio usa Fá maior (Dó é o V de Fá), e não Sol maior.",
+  "Contar com o modo para resolver o fraseado. Ele dá notas, não frases.",
+  "Chamar de modo da maior escalas que não são, como a menor harmônica ou a pentatônica."
+ ],
+ "resumo": [
+  "Modo = escala maior girada: as mesmas sete notas com outra tônica.",
+  "Cada modo é maior ou menor com uma nota alterada: lídio ♯4, mixolídio ♭7, dórico 6, frígio ♭2, lócrio ♭2 e ♭5.",
+  "O som mora nos dois meios-tons e no grau que vira tônica.",
+  "Quem define o modo é a base, não o desenho no braço.",
+  "Escala-mãe: dórico no 2º grau, frígio no 3º, lídio no 4º, mixolídio no 5º, eólio no 6º, lócrio no 7º."
+ ],
+ "proximos_passos": "Leve as cores para a música em \"Modos na prática: tonal vs. modal e troca de modo\". Para misturar modos com pentatônicas, siga para \"Escalas híbridas, menores e pentatônicas modais\". Se a escala-mãe ainda trava, revise \"Escala maior e campo harmônico\" e \"Tonalidade, relativas e transposição\".",
+ "_meta": {
+  "subcategoria": "C11.2",
+  "modulo": {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica"
+  },
+  "nome": "Modos: construção, sonoridade e nota característica",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:16:39",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 32302,
+   "cache_read": 8780,
+   "output": 17746,
+   "thinking": 4102,
+   "turns": 4,
+   "custo_nominal": 0.64186
+  }
+ }
+}

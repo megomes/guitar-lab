@@ -1,0 +1,2799 @@
+{
+ "titulo": "Escalas híbridas, menores e pentatônicas modais",
+ "gancho": "Troque uma única nota da pentatônica que você já sabe e ela muda de cor: fica doce, ganha cara de blues, soa flamenca ou vai para o jazz.",
+ "porque_importa": "Quem fica só na pentatônica menor acaba soando sempre igual. A saída não é decorar 21 escalas. Basta conhecer poucos sabores e saber em que acorde cada um funciona: uma nota trocada, uma escala menor para o dominante e uma penta sobreposta já mudam o seu som.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Troque uma nota, ganhe uma cor",
+   "texto": "Qualquer grupo de cinco notas pode virar uma pentatônica. Você não precisa de um desenho novo: mova uma nota da caixa que já conhece. Na menor, trocar a ♭7 pela 6 dá a menor 6 pentatônica de Robben Ford e Matt Schofield (1-♭3-4-5-6), de som doce e dórico. Na maior, trocar a 6 pela ♭7 dá a mixolídia (1-2-3-5-♭7). Trocar a 6 pela ♭6 dá 1-2-3-5-♭6, uma espécie de harmônica maior sem a 7ª.",
+   "destaque": "Uma casa a menos ou a mais, e a escala muda de personalidade.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor com 6: o G (♭7) sai e entra o F♯ (6), um tom abaixo. É o mesmo desenho com uma nota trocada.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Pentatônica mixolídia e a híbrida",
+   "texto": "Para dominantes, a pentatônica mixolídia 1-3-4-5-♭7 (em Lá: A C♯ D E G) junta as notas que definem o som de mixolídio. Ela tem a 3ª maior, que a penta menor não tem, e a ♭7, que a penta maior não tem. Se você somar todas as notas da blues menor e do mixolídio, chega à híbrida mixolídio-blues (1-2-♭3-3-4-♭5-5-6-♭7). A forma dela já aparece em 'Misturar pentatônica maior e menor'. Aqui o foco é a ♭7, que dá a cara de dominante.",
+   "destaque": "3ª maior + ♭7 = dominante. O resto é tempero.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Pentatônica mixolídia de Lá (A C♯ D E G = 1-3-4-5-♭7) sobre A7, em grupos de três notas. As frases param na 3ª.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Menor harmônica: a sensível que puxa",
+   "texto": "A menor harmônica (1-2-♭3-4-5-♭6-7) é a menor natural com a 7ª elevada. Ela soa dramática e clássica, como em Plug In Baby, do Muse. Seu uso mais prático está no dominante que vai para um acorde menor: em E7 → Am, toque Lá menor harmônica sobre o E7. A partir do Mi, ela vira frígio dominante (1-♭2-3-4-5-♭6-♭7), o som do flamenco e da música árabe, com ♭9 e ♭13 que pedem resolução.",
+   "destaque": "No V7 que vai para um menor, toque a menor harmônica do acorde de destino.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "E7 → Am com Lá menor harmônica. Sobre o E7, ela dá ♭9 (F), 3 (G♯) e ♭13 (C). O F cai em E, o G♯ (o anel) sobe para A e o D desce para C.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Melódica menor: a maior com ♭3",
+   "texto": "Pense nela assim: escala maior com a 3ª abaixada. Lá maior (A B C♯ D E F♯ G♯) vira A B C D E F♯ G♯. Sobre um acorde menor de tônica (Am6, Am com 7M), ela soa menor, mas sofisticada, sem o peso da ♭6. É a terceira escala da lista curta de Jens Larsen: maior, menor harmônica e melódica menor.",
+   "destaque": "Você já sabe a escala maior. Falta mexer em uma casa.",
+   "visual": {
+    "id": "V8",
+    "tipo": "braco",
+    "legenda": "Lá melódica menor (A B C D E F♯ G♯), região das casas 4 a 10. É Lá maior com a 3ª abaixada (C♯ → C). A 6 e a 7 maiores são as cores.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 4,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 9,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Pentatônicas modais: cor modal com dedilhado fácil",
+   "texto": "Cada modo tem uma pentatônica de cinco notas que inclui a nota característica dele. A forma mais simples de usar isso é sobrepor uma pentatônica conhecida a outro acorde. A penta de Ré menor (D F G A C) sobre Cm dá 9, 11, 5, 13 e 1: é o som do dórico, sem tocar sete notas. O assunto continua em 'Superposição e estrutura superior'.",
+   "destaque": "Ache a pentatônica que contém a nota característica e toque essa.",
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Ré menor (D F G A C) sobre Cm, perto da casa 8. Os graus estão contados a partir de Dó: 9, 11, 5, 13 e 1. O A (6ª maior) é a nota do dórico.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "9",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "11",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "13",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "9",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "11",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "13",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "9",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 11,
+   "porque": "A pentatônica mixolídia tocada em grupos de três e de quatro notas, que soa como frase, não como escala.",
+   "fonte": {
+    "id": "vPIebPDBizs#I19",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=645s",
+    "video": "vPIebPDBizs",
+    "inicio": 645,
+    "momento": "10:47",
+    "ideia": "Pentatônica mixolídia em grupos de três e quatro notas"
+   }
+  },
+  {
+   "ref": 35,
+   "porque": "Paul Davids troca o B pelo B♭ na pentatônica de Ré e mostra como isso soa sobre o próprio acorde de Ré maior.",
+   "fonte": {
+    "id": "NbNH_C3QAS0#I33",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "The Ultimate GUITAR SOLO Guide",
+    "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=1070s",
+    "video": "NbNH_C3QAS0",
+    "inicio": 1070,
+    "momento": "17:52",
+    "ideia": "Pentatônica de Ré com ♭6 também sobre Ré"
+   }
+  },
+  {
+   "ref": 13,
+   "porque": "O mixolídio temperado com a blues maior: o F passa para o F♯ e dá sabor de blues sobre Ré.",
+   "fonte": {
+    "id": "NbNH_C3QAS0#I13",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "The Ultimate GUITAR SOLO Guide",
+    "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=438s",
+    "video": "NbNH_C3QAS0",
+    "inicio": 438,
+    "momento": "07:20",
+    "ideia": "Temperar o mixolídio com a escala blues maior"
+   }
+  },
+  {
+   "ref": 25,
+   "porque": "Jens Larsen explica por que, sobre um dominante secundário, a escala vem do acorde de destino.",
+   "fonte": {
+    "id": "h4zQjSecjvI#I07",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+    "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=172s",
+    "video": "h4zQjSecjvI",
+    "inicio": 172,
+    "momento": "02:54",
+    "ideia": "Escala do dominante secundário"
+   }
+  },
+  {
+   "ref": 24,
+   "porque": "A menor harmônica do destino tocada sobre F7 → Bm, com as tensões ♭9 e ♭13 ouvidas na prática.",
+   "fonte": {
+    "id": "EJW2rIhE_GA#I20",
+    "tipo": "video",
+    "autor": "TomoFujitaMusic",
+    "titulo": "7 Great Improvisation Tips That Do Not Make You As Just OKAY Guitarist anymore!",
+    "url": "https://www.youtube.com/watch?v=EJW2rIhE_GA&t=1056s",
+    "video": "EJW2rIhE_GA",
+    "inicio": 1056,
+    "momento": "17:38",
+    "ideia": "Menor harmônica sobre dominante com alterações"
+   }
+  },
+  {
+   "ref": 1,
+   "porque": "Por que três escalas bem usadas valem mais do que uma lista de 21.",
+   "fonte": {
+    "id": "EMQydbilqmo#I02",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+    "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=63s",
+    "video": "EMQydbilqmo",
+    "inicio": 63,
+    "momento": "01:05",
+    "ideia": "Tentar estudar muitas escalas"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Uma casa, dois humores: menor 6 pentatônica",
+   "objetivo": "Ouvir e controlar a troca da ♭7 pela 6 na pentatônica de Lá menor, sem aprender um desenho novo.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a pentatônica de Lá menor na casa 5 e ache todos os G (♭7).",
+    "Mova cada G uma casa e meia para trás, até o F♯: corda D na casa 4 e corda B na casa 7 (veja o braço).",
+    "Toque a frase da tab: os compassos 1 e 2 têm G e os compassos 3 e 4 têm F♯. Use Am e depois Am6 como base.",
+    "Improvise 8 compassos só com a versão de F♯ e faça pelo menos duas frases pousarem nele."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A mesma frase duas vezes: primeiro com G (♭7, som de blues) sobre Am7, depois com F♯ (6, som doce e dórico) sobre Am6. Ouça a diferença que uma casa faz.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça em Si♭ (B♭ D♭ E♭ F G), sobre B♭7, como Matt Schofield.",
+    "Alterne: um compasso com G e o seguinte com F♯."
+   ],
+   "cuidado": "Não mantenha G e F♯ juntos o tempo todo. Uma escala de seis notas apaga o contraste que você quer ouvir.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--23426-beyond-blues-matt-schofields-sophisticated-solos-23d34f#I02",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: Matt Schofield’s Sophisticated Solos",
+     "url": "https://www.premierguitar.com/articles/23426-beyond-blues-matt-schofields-sophisticated-solos",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica menor de Bb com a 6 (menor 6 pentatônica)"
+    },
+    {
+     "id": "lJRzTqOf1ro#I09",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=376s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 376,
+     "momento": "06:18",
+     "ideia": "Pentatônica menor com sexta maior"
+    },
+    {
+     "id": "pt--escala_pentatônica-58d055#I06",
+     "tipo": "documento",
+     "autor": "pt.wikipedia.org",
+     "titulo": "Escala pentatônica – Wikipédia, a enciclopédia livre",
+     "url": "https://pt.wikipedia.org/wiki/Escala_pentatônica",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentas menores alternativas (em Dó)"
+    }
+   ]
+  },
+  {
+   "titulo": "Pentatônica mixolídia em grupos de três",
+   "objetivo": "Dar som de dominante ao solo sobre A7 com cinco notas (1-3-4-5-♭7) e sair do sobe-e-desce da escala.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Monte a forma de A C♯ D E G na casa 5. O C♯ fica na corda A, casa 4, e na corda G, casa 6.",
+    "Toque a tab em grupos de três notas a 70 bpm e pare de verdade nas pausas.",
+    "Depois faça o mesmo em grupos de quatro (A C♯ D E, C♯ D E G...).",
+    "Sobre um vamp de A7, improvise e termine cada frase no C♯ ou no G."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Pentatônica mixolídia de Lá (A C♯ D E G = 1-3-4-5-♭7) sobre A7, em grupos de três notas. As frases param na 3ª.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 4,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve tudo para Ré (D F♯ G A C) sobre D7.",
+    "Ponha um bend de meio tom na corda B, casa 7 (F♯ → G), para chegar à ♭7 com tensão."
+   ],
+   "cuidado": "Por hábito, o dedo procura o C (♭3) da penta menor. Aqui a 3ª é maior: C♯.",
+   "inspirado_em": [
+    {
+     "id": "vPIebPDBizs#I18",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=610s",
+     "video": "vPIebPDBizs",
+     "inicio": 610,
+     "momento": "10:12",
+     "ideia": "Pentatônica mixolídia: 1 3 4 5 ♭7"
+    },
+    {
+     "id": "vPIebPDBizs#I19",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=645s",
+     "video": "vPIebPDBizs",
+     "inicio": 645,
+     "momento": "10:47",
+     "ideia": "Pentatônica mixolídia em grupos de três e quatro notas"
+    },
+    {
+     "id": "ZPELVwO27lc#I08",
+     "tipo": "video",
+     "autor": "swiftlessons",
+     "titulo": "The Mixolydian Blues Hybrid Scale - The Holy Grail of Major Soloing!",
+     "url": "https://www.youtube.com/watch?v=ZPELVwO27lc&t=364s",
+     "video": "ZPELVwO27lc",
+     "inicio": 364,
+     "momento": "6:06",
+     "ideia": "Trazer a ♭7 para licks de pentatônica"
+    }
+   ]
+  },
+  {
+   "titulo": "Ré maior com ♭6: o B♭ que cai",
+   "objetivo": "Usar a pentatônica 1-2-3-5-♭6 sobre um acorde maior e resolver a ♭6 meio tom abaixo, na 5.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque a pentatônica de Ré maior em posição aberta (D E F♯ A B).",
+    "Troque o B (corda G, casa 4) por B♭ (corda G, casa 3).",
+    "Toque a tab: os compassos 1 e 2 têm B♭ e o compasso 3 tem B natural para comparar.",
+    "Improvise sobre um acorde de Ré parado. Toda vez que tocar B♭, a nota seguinte deve ser A."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Pentatônica de Ré maior com ♭6 (D E F♯ A B♭). O B♭ cai meio tom no A, e o A (o anel) é o destino. No compasso 3 vem a mesma frase com B natural, para comparar.",
+    "tonica": "D",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 3,
+          "nota": "B♭",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque D por 2 compassos e Gm por 2. O B♭ vira a 3ª do Gm e o som de IV menor aparece sozinho.",
+    "Leve para a casa 10 (D na corda A, casa 5 + 12 = casa 17 é alto demais; use a corda E grave, casa 10)."
+   ],
+   "cuidado": "Se o B♭ ficar parado, soa como erro. Ele é passagem e funciona porque desce para o A.",
+   "inspirado_em": [
+    {
+     "id": "NbNH_C3QAS0#I31",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=1004s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 1004,
+     "momento": "16:46",
+     "ideia": "Escala 1-2-3-5-♭6 resultante"
+    },
+    {
+     "id": "NbNH_C3QAS0#I33",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=1070s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 1070,
+     "momento": "17:52",
+     "ideia": "Pentatônica de Ré com ♭6 também sobre Ré"
+    },
+    {
+     "id": "XL9TYmwkHWs#I26",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1793s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1793,
+     "momento": "29:55",
+     "ideia": "Escala maior com sexta menor como fonte de cromatismo"
+    }
+   ]
+  },
+  {
+   "titulo": "E7 → Am: a menor harmônica do destino",
+   "objetivo": "Sobre o dominante, tocar a escala do acorde menor para onde ele vai e resolver ♭9 → 5 e 3 → 1.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Grave um loop de E7 (1 compasso) e Am (1 compasso).",
+    "Toque Lá menor harmônica na casa 5. A única diferença para a menor natural é o G♯ no lugar do G.",
+    "Toque a tab a 66 bpm e sinta o F (♭9) cair no E e o G♯ (3) subir para o A.",
+    "Improvise só sobre o E7 com F e G♯ e, no Am, pare numa nota do acorde (A, C ou E)."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "E7 → Am com Lá menor harmônica. Sobre o E7, ela dá ♭9 (F), 3 (G♯) e ♭13 (C). O F cai em E, o G♯ (o anel) sobe para A e o D desce para C.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Em Mi menor: B7 → Em com Mi menor harmônica (E F♯ G A B C D♯).",
+    "Toque só sobre o E7 por 4 compassos (frígio dominante) com o Mi grave solto soando, em clima de flamenco."
+   ],
+   "cuidado": "Não leve o G♯ para o compasso de Am. Lá ele bate com a harmonia. No acorde menor, volte para a menor natural ou para a penta.",
+   "inspirado_em": [
+    {
+     "id": "EJW2rIhE_GA#I20",
+     "tipo": "video",
+     "autor": "TomoFujitaMusic",
+     "titulo": "7 Great Improvisation Tips That Do Not Make You As Just OKAY Guitarist anymore!",
+     "url": "https://www.youtube.com/watch?v=EJW2rIhE_GA&t=1056s",
+     "video": "EJW2rIhE_GA",
+     "inicio": 1056,
+     "momento": "17:38",
+     "ideia": "Menor harmônica sobre dominante com alterações"
+    },
+    {
+     "id": "h4zQjSecjvI#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=172s",
+     "video": "h4zQjSecjvI",
+     "inicio": 172,
+     "momento": "02:54",
+     "ideia": "Escala do dominante secundário"
+    },
+    {
+     "id": "en--mode_-music-72a13e#I16",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National France BnF data",
+     "titulo": "Mode (music) - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Mode_(music)",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Modos da menor harmônica"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I11",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=467s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 467,
+     "momento": "07:49",
+     "ideia": "Menor harmônica tem potencial dramático"
+    }
+   ]
+  },
+  {
+   "titulo": "Melódica menor: Lá maior com uma casa a menos",
+   "objetivo": "Montar a melódica menor a partir da escala maior e ouvir a cor da 6 e da 7 maiores sobre um acorde menor.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque Lá maior na região da casa 5 e diga o nome de cada nota.",
+    "Abaixe todos os C♯ meio tom, para C. Você está tocando Lá melódica menor (veja o braço).",
+    "Sobre um vamp de Am6, improvise 8 compassos com Lá menor natural (F e G).",
+    "Repita com a melódica (F♯ e G♯) e pare as frases no F♯ ou no G♯ para ouvir a cor."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "braco",
+    "legenda": "Lá melódica menor (A B C D E F♯ G♯), região das casas 4 a 10. É Lá maior com a 3ª abaixada (C♯ → C). A 6 e a 7 maiores são as cores.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 4,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 6,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 9,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça em Fá: F G A♭ B♭ C D E sobre Fm6.",
+    "Na mesma frase, toque G♯ subindo e G descendo, como na música clássica."
+   ],
+   "cuidado": "Sobre Am7 (com G), o G♯ bate. Use a melódica quando o acorde é Am6, Am(7M) ou um menor sem sétima definida.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I22",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estudar a melódica menor"
+    },
+    {
+     "id": "XL9TYmwkHWs#I24",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=1655s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 1655,
+     "momento": "27:37",
+     "ideia": "Melódica menor como escala maior com terça menor"
+    },
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I21",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com outros padrões além da pentatônica"
+    },
+    {
+     "id": "tRi4vMs2z8M#I37",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=2529s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 2529,
+     "momento": "42:11",
+     "ideia": "Caminhos avançados após a base"
+    },
+    {
+     "id": "EMQydbilqmo#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=63s",
+     "video": "EMQydbilqmo",
+     "inicio": 63,
+     "momento": "01:05",
+     "ideia": "Tentar estudar muitas escalas"
+    }
+   ]
+  },
+  {
+   "titulo": "Ré menor sobre Dó menor: dórico por sobreposição",
+   "objetivo": "Tirar o som dórico de uma pentatônica já conhecida, visando a 13 (A) nos tempos fortes.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Grave um vamp de Cm7 e toque o arpejo de Cm para fixar o som do acorde.",
+    "Toque a penta de Ré menor perto da casa 8 e diga os graus em relação a Dó: 9, 11, 5, 13, 1.",
+    "Toque a tab e repare que as duas frases começam ou caem no A.",
+    "Improvise alternando 2 compassos de penta de Dó menor com 2 de penta de Ré menor. Depois tente uma frase que passe de uma para a outra sem parar."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Frase com a penta de Ré menor sobre Cm7, para soar dórico: o A dá a cor de 13. Os anéis marcam onde ela pousa em notas do acorde (G e C). O E♭ (corda G, casa 8) entra uma vez só, para lembrar que o acorde é menor.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Cm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 10,
+          "nota": "F",
+          "grau": "11",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente a penta de Sol menor (G B♭ C D F) como terceira cor e junte as três numa linha.",
+    "Sobre Cmaj7 com intenção lídia, toque a penta de Ré maior (D E F♯ A B = 9, 3, ♯11, 13, 7) e depois a de Lá menor (A C D E G)."
+   ],
+   "cuidado": "Pense em Dó, não em Ré. Se pousar no D como tônica, a frase perde a referência do acorde.",
+   "inspirado_em": [
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I29",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônicas modais"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I27",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica do acorde menor dórico"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I28",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Frase combinando três sobreposições pentatônicas"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I30",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Combinar as cinco pentatônicas modais sobre um acorde"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Decorar uma lista de escalas sem aplicar nenhuma num acorde concreto. Pegue uma por vez e use num contexto real.",
+  "Achar que trocar uma nota exige um desenho novo. É a mesma caixa com uma casa mexida.",
+  "Usar a menor harmônica no acorde menor e esquecer o dominante. O G♯ funciona no E7 e bate no Am7.",
+  "Deixar as notas de cor (♭6, ♭9, 6) paradas. Elas soam melhor quando resolvem meio tom ou um tom ao lado.",
+  "Na sobreposição, pensar na tônica da penta e não na do acorde. Os graus contam a partir do acorde."
+ ],
+ "resumo": [
+  "Uma nota trocada na pentatônica muda tudo: 6 no lugar da ♭7 (doce), ♭7 no lugar da 6 (dominante) ou ♭6 no lugar da 6 (tensão).",
+  "Pentatônica mixolídia: 1-3-4-5-♭7. A híbrida soma blues e mixolídio para soar sobre acordes dominantes.",
+  "No V7 que vai para um acorde menor, use a menor harmônica do destino (frígio dominante a partir do V).",
+  "Melódica menor = escala maior com ♭3.",
+  "Pentatônicas modais: ache a penta que contém a nota característica, como Ré menor sobre Cm para o dórico."
+ ],
+ "proximos_passos": "Leve a menor harmônica e as tensões do dominante para 'Vocabulário de jazz: bebop, dominantes e tensões'. Aprofunde a sobreposição em 'Superposição e estrutura superior'. Se quiser revisar a forma completa da híbrida, volte a 'Misturar pentatônica maior e menor'. Para decidir onde cada sabor entra, veja 'Centro tonal vs. acorde a acorde: escolher a abordagem'.",
+ "_meta": {
+  "subcategoria": "C11.4",
+  "modulo": {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica"
+  },
+  "nome": "Escalas híbridas, menores e pentatônicas modais",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:23:00",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 29652,
+   "cache_read": 8780,
+   "output": 22664,
+   "thinking": 5437,
+   "turns": 4,
+   "custo_nominal": 0.7170120000000001
+  }
+ }
+}

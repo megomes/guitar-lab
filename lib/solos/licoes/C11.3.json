@@ -1,0 +1,2146 @@
+{
+ "titulo": "Modos na prática: tonal vs. modal e troca de modo",
+ "gancho": "As notas são as mesmas. Muda o chão, e a música inteira muda de cor.",
+ "porque_importa": "Saber o nome dos modos não basta. Na hora de tocar, você precisa decidir quando uma escala só cobre tudo e quando vale trocar a cor no meio do vamp. Esta lição treina essa decisão: achar o centro, trocar uma nota no momento certo e voltar antes que ela bata com o acorde.",
+ "ilustracao": "respiracao",
+ "conceito": [
+  {
+   "titulo": "Quem dá nome ao modo é o centro",
+   "texto": "A progressão D–C–G–D usa só notas de Sol maior, mas a música repousa em Ré. Então ela está em Ré mixolídio, e não em Sol. Antes de pensar em desenho, pergunte duas coisas: qual acorde está embaixo e em que nota a música para. A região do braço onde você toca não muda o modo.",
+   "destaque": "Nomeie pelo centro, nunca pela escala de origem.",
+   "visual": null
+  },
+  {
+   "titulo": "Tonal ou modal: uma escala ou uma por acorde",
+   "texto": "No pensamento tonal, uma escala atravessa a progressão inteira. Sol maior cobre G–C–D, e cada acorde 'ganha' um nome de modo sem você trocar nada (jônio no G, lídio no C, mixolídio no D). No pensamento modal, cada acorde recebe a escala que você escolhe para ele. Use o modal em vamps de um ou dois acordes, onde há tempo para uma cor durar, e nos acordes de fora do tom. Em trocas rápidas e diatônicas, querer acertar um modo por acorde só complica.",
+   "destaque": "Vamp parado pede modo. Progressão no tom pede uma escala só.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "G–C–D–G só com as notas de Sol maior. Sobre o C, o Fá♯ soa lídio (♯4). Sobre o D, o Dó soa mixolídio (♭7). A escala é uma só, e os nomes mudam com o acorde.",
+    "tonica": "G",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Trocar de modo é trocar uma nota",
+   "texto": "Os modos vizinhos em brilho diferem em uma nota só: eólio↔dórico (♭6/6), dórico↔frígio (2/♭2) e jônio↔mixolídio (7/♭7). Você não muda de posição. Mantém a mão onde está e move um dedo uma casa. A pentatônica menor serve de chão firme porque não tem nem 2ª nem 6ª, justamente as notas que separam os modos menores.",
+   "destaque": "Mesma posição, um dedo uma casa.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Lá menor na casa 5: a pentatônica fica parada e só a 6ª muda. Fá (♭6) dá o eólio, Fá♯ (6) dá o dórico.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 3,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 6,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A regra da colisão: confira o acorde do momento",
+   "texto": "Antes de trocar, pergunte: a nota nova bate com alguma nota do acorde que está soando? Am7 (A C E G) e Em7 não têm Fá nem Fá♯, então dórico e eólio se revezam à vontade. Em Bm7–C é diferente: o Dó♯ do dórico fica lindo no Bm7, mas bate com o Dó do C. O modo de base é o que cabe nos dois acordes (Si frígio). A cor extra entra só onde não colide.",
+   "destaque": "Modo de base cobre tudo; a cor entra só onde não colide.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Vamp Bm7–C. Sobre Bm7 entra o Dó♯ (Si dórico). Quando chega o C, o Dó natural assume (Si frígio). Os graus do compasso de C são contados a partir do próprio C.",
+    "tonica": "B",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Bm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Bm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Tempero, não prato",
+   "texto": "Um modo emprestado usado o tempo todo, ou fora de hora, só soa como nota errada. Fique no diatônico e use a nota nova de propósito: uma frase, um compasso, um acorde. A alternância funciona como respiração: inspira com a cor nova, expira de volta na base.",
+   "destaque": "",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 17,
+   "porque": "Gu Pedrico toca a mesma escala de Dó sobre bases em Dó, Ré e Mi, e você ouve a cor mudar sem que nenhuma nota mude.",
+   "fonte": {
+    "id": "Ivr_-S7ku8E#I10",
+    "tipo": "video",
+    "autor": "Gu Pedrico",
+    "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+    "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=832s",
+    "video": "Ivr_-S7ku8E",
+    "inicio": 832,
+    "momento": "13:54",
+    "ideia": "Mesma escala sobre bases em Dó, Ré e Mi"
+   }
+  },
+  {
+   "ref": 40,
+   "porque": "Active Melody mostra a regra do I–IV–V: uma escala maior que vira lídio no IV e mixolídio no V.",
+   "fonte": {
+    "id": "aHzmIWB0P00#I11",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+    "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=661s",
+    "video": "aHzmIWB0P00",
+    "inicio": 661,
+    "momento": "11:03",
+    "ideia": "Regra prática do 1-4-5 com modos"
+   }
+  },
+  {
+   "ref": 27,
+   "porque": "Signals Music Studio toca Ré mixolídio sobre um jam track e sustenta Ré, Fá♯ e Lá até o centro aparecer.",
+   "fonte": {
+    "id": "vPIebPDBizs#I12",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=398s",
+    "video": "vPIebPDBizs",
+    "inicio": 398,
+    "momento": "06:40",
+    "ideia": "Destacar as notas de Ré maior na escala"
+   }
+  },
+  {
+   "ref": 95,
+   "porque": "Rick Beato alterna Dó dórico e Mi♭ dórico a cada dois compassos, na mesma região do braço.",
+   "fonte": {
+    "id": "N1shDBha6Y0#I22",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+    "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1516s",
+    "video": "N1shDBha6Y0",
+    "inicio": 1516,
+    "momento": "25:18",
+    "ideia": "Alternar dois compassos de Dórico de C e Mi♭ Dórico"
+   }
+  },
+  {
+   "ref": 51,
+   "porque": "Rick Beato mostra como Eleanor Rigby mistura a 6ª maior do dórico com a ♭6 do eólio.",
+   "fonte": {
+    "id": "qLEyhW3f08k#I04",
+    "tipo": "video",
+    "autor": "Rick Beato",
+    "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+    "url": "https://www.youtube.com/watch?v=qLEyhW3f08k&t=154s",
+    "video": "qLEyhW3f08k",
+    "inicio": 154,
+    "momento": "02:36",
+    "ideia": "Eleanor Rigby alterna dórico e eólio"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Detetive do repouso: cinco loops, cinco modos",
+   "objetivo": "Nomear o modo pelo acorde onde a música para, e não pelas notas que ela usa.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Grave em loop (ou toque com looper) cada progressão por 1 minuto: (a) G–C–D–G, (b) D–C–G–D, (c) Am7–D, (d) Am–F–G–Am, (e) Bm7–C.",
+    "Repare: as cinco usam só notas de Sol maior/Mi menor, exceto o F da (d), que é Lá eólio.",
+    "Em cada loop, cante a nota onde a música 'assenta' e ache essa nota na corda Mi grave.",
+    "Nomeie: (a) Sol jônio, (b) Ré mixolídio, (c) Lá dórico (o D maior entrega a 6ª Fá♯), (d) Lá eólio, (e) Si frígio (o C entrega a ♭2).",
+    "Improvise 4 compassos em cada loop terminando sempre na nota de repouso."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Os acordes dos vamps desta lição",
+    "tonica": "",
+    "acordes": [
+     {
+      "nome": "Am7",
+      "digitacao": "x02010"
+     },
+     {
+      "nome": "Em7",
+      "digitacao": "022030"
+     },
+     {
+      "nome": "Bm7",
+      "digitacao": "x24232"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "D6",
+      "digitacao": "xx0202"
+     },
+     {
+      "nome": "C6",
+      "digitacao": "x32210"
+     },
+     {
+      "nome": "Cm7",
+      "digitacao": "x35343"
+     },
+     {
+      "nome": "E♭m7",
+      "digitacao": "x68676"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Peça a alguém para tocar um dos loops sem dizer qual e adivinhe o modo.",
+    "Troque de tom: D–C–G–D vira A–G–D–A (Lá mixolídio)."
+   ],
+   "cuidado": "Olhar só para as notas e dizer 'é tudo Sol maior'. O que decide o modo é o acorde de repouso.",
+   "inspirado_em": [
+    {
+     "id": "Ivr_-S7ku8E#I15",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=1120s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 1120,
+     "momento": "18:42",
+     "ideia": "Analisar a progressão pelo grau de repouso"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I13",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=1049s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 1049,
+     "momento": "17:31",
+     "ideia": "Progressão com notas de Sol mas centro em Ré = Ré mixolídio"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I08",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=727s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 727,
+     "momento": "12:09",
+     "ideia": "Escala de Dó sobre base em Dó vs. base em Ré menor"
+    },
+    {
+     "id": "Ivr_-S7ku8E#I10",
+     "tipo": "video",
+     "autor": "Gu Pedrico",
+     "titulo": "VOCÊ APRENDEU ISSO ERRADO - Esclarecendo os Modos Gregos",
+     "url": "https://www.youtube.com/watch?v=Ivr_-S7ku8E&t=832s",
+     "video": "Ivr_-S7ku8E",
+     "inicio": 832,
+     "momento": "13:54",
+     "ideia": "Mesma escala sobre bases em Dó, Ré e Mi"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma escala, três nomes: Sol maior sobre G–C–D",
+   "objetivo": "Sentir o pensamento tonal: a escala fica parada e o acorde muda o papel de cada nota.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a frase de V7 sobre G–C–D–G, um compasso por acorde.",
+    "No C, segure o Fá♯ e ouça a ♯4: é o som lídio, que você ganhou sem trocar de escala.",
+    "No D, segure o Dó e ouça a ♭7: é o som mixolídio.",
+    "Agora improvise livremente em Sol maior, na mesma posição, e diga em voz alta 'lídio' no C e 'mixolídio' no D toda vez que tocar essas notas."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "G–C–D–G só com as notas de Sol maior. Sobre o C, o Fá♯ soa lídio (♯4). Sobre o D, o Dó soa mixolídio (♭7). A escala é uma só, e os nomes mudam com o acorde.",
+    "tonica": "G",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve para Mi: Mi maior sobre E–A–B (Lá lídio, Si mixolídio).",
+    "Tente o oposto: troque para Ré maior em cima do D e ouça o Dó♯ estranhar a tonalidade."
+   ],
+   "cuidado": "Achar que precisa tocar 'a escala do D' no V. Dentro do tom, o mixolídio já está na escala maior do I.",
+   "inspirado_em": [
+    {
+     "id": "aHzmIWB0P00#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=466s",
+     "video": "aHzmIWB0P00",
+     "inicio": 466,
+     "momento": "07:48",
+     "ideia": "O acorde V pede resolução"
+    },
+    {
+     "id": "aHzmIWB0P00#I11",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=661s",
+     "video": "aHzmIWB0P00",
+     "inicio": 661,
+     "momento": "11:03",
+     "ideia": "Regra prática do 1-4-5 com modos"
+    },
+    {
+     "id": "aHzmIWB0P00#I14",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=824s",
+     "video": "aHzmIWB0P00",
+     "inicio": 824,
+     "momento": "13:46",
+     "ideia": "Mi maior sobre A gera A lídio"
+    },
+    {
+     "id": "aHzmIWB0P00#I10",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=629s",
+     "video": "aHzmIWB0P00",
+     "inicio": 629,
+     "momento": "10:31",
+     "ideia": "Mesmas notas, centro tonal diferente"
+    }
+   ]
+  },
+  {
+   "titulo": "Fá ou Fá♯: dórico e eólio no mesmo vamp",
+   "objetivo": "Trocar de cor menor mexendo um dedo, num vamp onde as duas cores cabem.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ponha um vamp Am7–Em7, um compasso cada, a 75 bpm.",
+    "Toque a frase de V2 e compare o Fá (eólio, mais sombrio, resolvendo no Mi) com o Fá♯ (dórico, mais claro).",
+    "Improvise 4 compassos só na pentatônica de Lá menor da casa 5 (V1).",
+    "Nos 4 seguintes, acrescente só o Fá. Nos próximos 4, só o Fá♯.",
+    "Por fim, alterne livremente as duas cores a cada frase, sem mudar de posição."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Vamp Am7–Em7. A mesma frase duas vezes: primeiro em Lá eólio (Fá), depois em Lá dórico (Fá♯). Os compassos de Em7 ficam em silêncio para você ouvir a diferença.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em7",
+      "tempos": []
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o Em7 por D maior: agora o Fá colide com o Fá♯ do acorde. Ouça e use só o dórico.",
+    "Troque por F maior: agora só o eólio cabe."
+   ],
+   "cuidado": "Esquecer de conferir o acorde. Num vamp com D ou F, uma das duas notas vira erro.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I06",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alternar Dórico e Eólio sobre o mesmo vamp"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I03",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Lá dórico sobre Am7–E7#9 e a característica do 6"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I05",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Checar as notas do acorde para liberar modos"
+    },
+    {
+     "id": "qLEyhW3f08k#I04",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+     "url": "https://www.youtube.com/watch?v=qLEyhW3f08k&t=154s",
+     "video": "qLEyhW3f08k",
+     "inicio": 154,
+     "momento": "02:36",
+     "ideia": "Eleanor Rigby alterna dórico e eólio"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I04",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônica como alternativa sobre modos menores"
+    }
+   ]
+  },
+  {
+   "titulo": "Respirar: Si dórico no Bm7, Si frígio no C",
+   "objetivo": "Trocar de modo exatamente na mudança de acorde sem quebrar o fluxo.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Vamp Bm7–C, um compasso cada, a 60–70 bpm.",
+    "Primeiro toque V3 até a troca Dó♯→Dó ficar automática.",
+    "Depois suba e desça a escala de Si na casa 7 em colcheias contínuas: com Dó♯ no Bm7 e com Dó natural no C, sem parar.",
+    "Fale 'dórico' e 'frígio' em voz alta a cada troca.",
+    "Por último, saia das colcheias e improvise frases curtas, com pausas, mantendo a regra."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Vamp Bm7–C. Sobre Bm7 entra o Dó♯ (Si dórico). Quando chega o C, o Dó natural assume (Si frígio). Os graus do compasso de C são contados a partir do próprio C.",
+    "tonica": "B",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Bm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Bm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use só o frígio nos dois acordes por 8 compassos e só depois coloque o dórico de volta: ouça o que a cor nova traz.",
+    "Faça a troca meio tempo antes da mudança de acorde e repare como soa adiantado."
+   ],
+   "cuidado": "Deixar o Dó♯ escapar em cima do C. Ele bate de frente com a fundamental do acorde.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I08",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vamp Bm7–C como Si frígio"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I10",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Si dórico sobre o acorde de C clasha"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I09",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Si dórico sobre Bm7"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I14",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alternância Dórico/Frígio como respiração musical"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I12",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Troca contínua entre Si dórico e Si frígio"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I13",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Verbalizar a escala ao trocar"
+    }
+   ]
+  },
+  {
+   "titulo": "Brilho emprestado: D6–C6 com mixolídio, jônio e lídio",
+   "objetivo": "Usar um modo de base e emprestar cores maiores só onde elas não colidem.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Vamp D6–C6, um compasso cada, a 72 bpm. Base: Ré mixolídio (D E F♯ G A B C).",
+    "Toque V4: Dó♯ (jônio) no 1º D6, Sol♯ (lídio) no 2º e volta ao Dó e ao Sol naturais no C6.",
+    "Improvise 8 compassos só em mixolídio.",
+    "Mais 8 compassos com o Dó♯ no D6. Depois mais 8 com Dó♯ e Sol♯ no D6.",
+    "Grave e decida qual cor o vamp pede: o rock do mixolídio, a doçura do jônio ou o mistério do lídio."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Vamp D6–C6. Ré mixolídio é a base. Sobre o D6 entram as cores emprestadas: Dó♯ (jônio) na 1ª volta e Sol♯ (lídio) na 2ª. No C6 tudo volta para o Dó e o Sol naturais.",
+    "tonica": "D",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "D6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C6",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use só o lídio no D6 por um chorus inteiro.",
+    "Toque o vamp com um groove de funk e depois com uma balada, e veja se a melhor escolha muda."
+   ],
+   "cuidado": "Levar o Dó♯ ou o Sol♯ para o C6: eles batem com o Dó e o Sol do acorde.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I15",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ré mixolídio sobre D6–C6"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I17",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ré jônio sobre D6 e a sétima maior C#"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I18",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ré lídio sobre D6 para um som mais estranho"
+    },
+    {
+     "id": "premierguitar--kick-out-the-jams-using-the-wrong-mode-in-the-right-way-58cfcd#I19",
+     "tipo": "documento",
+     "autor": "Rob Compa",
+     "titulo": "Kick Out the Jams: Using the “Wrong” Mode in the Right Way",
+     "url": "https://www.premierguitar.com/lessons/kick-out-the-jams-using-the-wrong-mode-in-the-right-way",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Voltar ao Ré mixolídio quando o acorde mudar para C6"
+    },
+    {
+     "id": "aHzmIWB0P00#I22",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=1096s",
+     "video": "aHzmIWB0P00",
+     "inicio": 1096,
+     "momento": "18:18",
+     "ideia": "Trocar de modo movendo um dedo uma casa"
+    }
+   ]
+  },
+  {
+   "titulo": "So What em miniatura: Dó dórico ↔ Mi♭ dórico",
+   "objetivo": "Mudar de centro modal sem mudar de região do braço, mantendo a frase viva.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Loop de Cm7 (2 compassos) e E♭m7 (2 compassos), a 80 bpm.",
+    "Lembre as escalas-mãe: Dó dórico = notas de Si♭ maior, Mi♭ dórico = notas de Ré♭ maior.",
+    "Toque V6: o mesmo motivo 5-6-♭7-1 aparece nos dois centros, entre as casas 8 e 11.",
+    "Improvise 2 compassos em cada modo sem sair das casas 6 a 11.",
+    "Ligue as trocas: termine a frase de Dó dórico numa nota a meio tom ou a um tom da primeira nota de Mi♭ dórico."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Dó dórico (2 compassos) → Mi♭ dórico (2 compassos), sempre na mesma região. O motivo é o mesmo, 5-6-♭7-1, deslocado uma terça menor acima.",
+    "tonica": "C",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Cm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 11,
+          "nota": "B♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 11,
+          "nota": "E♭",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cm7",
+      "tempos": []
+     },
+     {
+      "acorde": "E♭m7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 11,
+          "nota": "B♭",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "D♭",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 11,
+          "nota": "E♭",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E♭m7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Monte a forma de So What: 16 compassos em Ré dórico, 8 em Mi♭ dórico e 8 em Ré dórico.",
+    "Na troca, mire a 6ª maior (Lá em Dó, Dó em Mi♭): é ela que diz 'dórico'."
+   ],
+   "cuidado": "Pular de posição na troca e perder a linha. A região fica e os dedos se ajustam.",
+   "inspirado_em": [
+    {
+     "id": "N1shDBha6Y0#I22",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1516s",
+     "video": "N1shDBha6Y0",
+     "inicio": 1516,
+     "momento": "25:18",
+     "ideia": "Alternar dois compassos de Dórico de C e Mi♭ Dórico"
+    },
+    {
+     "id": "N1shDBha6Y0#I19",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1202s",
+     "video": "N1shDBha6Y0",
+     "inicio": 1202,
+     "momento": "20:04",
+     "ideia": "Troca de tonalidade para Mi♭ Dórico"
+    },
+    {
+     "id": "N1shDBha6Y0#I23",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1583s",
+     "video": "N1shDBha6Y0",
+     "inicio": 1583,
+     "momento": "26:25",
+     "ideia": "Fazer a troca de escala na mesma região do braço"
+    },
+    {
+     "id": "qLEyhW3f08k#I07",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The Dorian Mode | Why Everyone Loves This Mode",
+     "url": "https://www.youtube.com/watch?v=qLEyhW3f08k&t=298s",
+     "video": "qLEyhW3f08k",
+     "inicio": 298,
+     "momento": "05:00",
+     "ideia": "So What e Impressions em dórico"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I03",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisação modal sobre centros tonais fixos"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Dar nome ao modo pela escala de origem ('é Sol maior') em vez de dar pelo centro em que a música repousa.",
+  "Achar que tocar outro desenho no braço muda o modo. Quem muda o modo é a base.",
+  "Trocar de modo sem conferir o acorde: o Dó♯ do dórico em cima de um C, o Sol♯ do lídio em cima de um C6.",
+  "Querer um modo diferente para cada acorde numa progressão diatônica rápida, quando uma escala só já cobre tudo.",
+  "Usar a cor emprestada o tempo todo: ela deixa de ser tempero e vira nota errada.",
+  "Tocar o modo como escada e nunca pousar no centro, e aí o ouvido não percebe modo nenhum."
+ ],
+ "resumo": [
+  "O centro (o acorde ou a nota de repouso) define o modo, e não o desenho.",
+  "Tonal: uma escala para a progressão toda. Modal: um modo por acorde, ideal em vamps e acordes de fora.",
+  "Modos vizinhos diferem em uma nota: troque mexendo um dedo, na mesma posição.",
+  "Confira o acorde do momento: a cor nova só entra onde não colide.",
+  "O modo é tempero. Escolha pela emoção que você quer, não por sofisticação."
+ ],
+ "proximos_passos": "Para ouvir e construir cada modo nota a nota, revise \"Modos: construção, sonoridade e nota característica\". Para escolher entre escala única e escala por acorde em progressões maiores, siga para \"Centro tonal vs. acorde a acorde: escolher a abordagem\". Depois expanda a paleta com \"Escalas híbridas, menores e pentatônicas modais\" e \"Harmonia de jazz para o solista\".",
+ "_meta": {
+  "subcategoria": "C11.3",
+  "modulo": {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica"
+  },
+  "nome": "Modos na prática: tonal vs. modal e troca de modo",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:19:40",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 38544,
+   "cache_read": 8780,
+   "output": 21406,
+   "thinking": 5540,
+   "turns": 4,
+   "custo_nominal": 0.769857
+  }
+ }
+}

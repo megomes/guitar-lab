@@ -1,23 +1,17 @@
 {
- "titulo": "Superposição e estrutura superior: um arpejo por cima do acorde",
- "gancho": "Você já sabe tocar Em7. Toque esse arpejo sobre um Cmaj7 e o acorde ganha uma 9ª, sem você aprender nenhuma forma nova.",
- "porque_importa": "As notas que dão cor ao som de jazz, neo-soul e fusion são a 9ª, a 11ª e a 13ª, e procurar uma por uma no braço trava qualquer solo. Com a superposição você chega a elas por arpejos e tríades que já conhece, só que tocados por cima de outro acorde. Com a mesma mão e os mesmos desenhos, o som fica outro.",
+ "titulo": "Superposição e estrutura superior",
+ "gancho": "Toque um arpejo que você já sabe sobre o acorde certo, e a 9ª, a 11ª e a 13ª aparecem sem você caçar nenhuma delas.",
+ "porque_importa": "Solar só com a escala do acorde ou só com o arpejo dele costuma soar previsível. Na superposição, você usa formas que já domina (Em7, Bm7, uma tríade de Ré) e as coloca sobre outro acorde. Assim as tensões chegam organizadas e soam intencionais, não como notas de passagem.",
  "ilustracao": "degraus",
  "conceito": [
   {
-   "titulo": "Superpor: um acorde tocado sobre outro",
-   "texto": "Superpor é tocar sobre um acorde um arpejo ou uma tríade que não são dele. O baixo e a base continuam dizendo \"Dó\", e o que você toca por cima muda o papel de cada nota: o D de um Em7, sobre C, vira a 9ª. Você não precisa procurar as extensões no braço, porque elas já estão dentro dos desenhos que você sabe. Usar só a escala inteira do acorde tende a soar previsível. Com o arpejo superposto, você escolhe quais notas quer destacar.",
-   "destaque": "Mesmos desenhos, outros papéis: quem dá o nome às notas é o acorde de baixo.",
-   "visual": null
-  },
-  {
-   "titulo": "A regra de ouro: o arpejo que começa na 3ª",
-   "texto": "Sobre qualquer acorde, toque o arpejo de sétima que começa na 3ª dele. Ele traz 3ª, 5ª e 7ª, as notas que definem o acorde, e põe a 9ª no topo. Em Dó: Cmaj7 → Em7, Dm7 → Fmaj7, G7 → Bm7♭5. Barry Harris chamava isso de arpejo a partir da terça, e é um dos recursos mais usados no jazz. Como a fundamental fica de fora, o baixista pode tocá-la e você soa moderno sem sair da harmonia.",
-   "destaque": "Tire a fundamental e ponha a 9ª: o acorde continua lá, com mais cor.",
+   "titulo": "Superpor: um arpejo conhecido sobre outro acorde",
+   "texto": "Para chegar à 9ª de Cmaj7, você não precisa achar o Ré no braço. Toque Em7 (Mi Sol Si Ré) sobre o acorde. Em relação a Dó, essas notas são 3, 5, 7 e 9. A forma é velha, mas o som é novo, porque quem dá nome aos graus é o acorde que está soando.",
+   "destaque": "A forma é velha, o som é novo: quem dá nome aos graus é o acorde que está soando.",
    "visual": {
     "id": "V1",
     "tipo": "braco",
-    "legenda": "Arpejo de Em7 (E G B D) entre as casas 7 e 10, lido sobre Cmaj7: 3, 5, 7 e 9. O C aparece como referência.",
+    "legenda": "Em7 sobre Cmaj7 (região da casa 7): o arpejo tem 3, 5, 7 e 9 de Dó. Os Dós (1) aparecem só como referência. A 9ª (Ré) é a cor nova.",
     "tonica": "C",
     "marcas": [
      {
@@ -97,13 +91,277 @@
    }
   },
   {
-   "titulo": "Outras notas do acorde, outras cores",
-   "texto": "Não precisa parar na 3ª. Sobre Dm7, monte o arpejo diatônico a partir de cada nota: Dm7 (só notas do acorde), Fmaj7 (traz a 9ª), Am7 (9ª e 11ª) e Cmaj7 (9ª, 11ª e 13ª, com só o C pertencendo ao acorde). Cada degrau acima aumenta a tensão. O mesmo vale para tríades e para o menor: Bm7 sobre Em soa como Em11, e Gmaj7 sobre Em soa como Em9.",
-   "destaque": "Quanto mais longe da fundamental começa o arpejo, mais estrutura superior aparece.",
+   "titulo": "A regra de ouro: o arpejo a partir da 3ª",
+   "texto": "Comece o arpejo na 3ª do acorde e suba em terças. Você leva junto 3ª, 5ª e 7ª (a identidade do acorde) e ganha a 9ª no topo. Em Dó: Fmaj7 sobre Dm7, Bm7♭5 sobre G7 e Em7 sobre Cmaj7. Sobre acorde menor, o maj7 da ♭3 dá o som m9: Gmaj7 sobre Em = Em9. Barry Harris chamava isso de arpejo a partir da terça. É o atalho mais usado no jazz.",
+   "destaque": "3ª, 5ª e 7ª garantem o acorde; a 9ª no topo traz a cor.",
    "visual": {
-    "id": "V5",
+    "id": "V2",
     "tipo": "tab",
-    "legenda": "Bm7 (B D F♯ A) sobre Em: 5, ♭7, 9 e 11. Soa como Em11 e você nem precisa conhecer esse acorde.",
+    "legenda": "ii-V-I em Dó com arpejos da 3ª: Fmaj7 sobre Dm7, Bm7♭5 sobre G7 e Em7 sobre Cmaj7, tudo entre as casas 5 e 10. As 3ªs de cada acorde abrem o compasso, e as 9ªs (E, A, D) dão a cor. Repare no Fá que cai para o Mi na entrada do Cmaj7.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Outras notas do acorde, outras cores",
+   "texto": "Construa arpejos em cada nota do acorde. Sobre Dm7: Dm7 dá 1-♭3-5-♭7; Fmaj7 dá ♭3-5-♭7-9; Am7 dá 5-♭7-9-11; Cmaj7 dá ♭7-9-11-13. Quanto mais alto o ponto de partida, mais tensão. O mesmo vale para tríades: D sobre G dá 5-7-9, e Bm7 sobre Em dá 5-♭7-9-11 (Em11). São as notas do dórico, mas em arpejo as tensões ficam em evidência.",
+   "destaque": "Quanto mais alto o ponto de partida, mais tensão.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Fragmentos de Bm7 (B D F♯ A) sobre Em: 5, ♭7, 9 e 11. Soa como Em11 sem você montar esse acorde. O Si (5ª) é a âncora no acorde, e o F♯ e o Lá são as cores. O último compasso fica em silêncio.",
     "tonica": "E",
     "bpm": 72,
     "compassos": [
@@ -114,11 +372,11 @@
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
+          "corda": 1,
+          "casa": 7,
           "nota": "B",
           "grau": "5",
-          "alvo": false
+          "alvo": true
          }
         ]
        },
@@ -126,10 +384,10 @@
         "t": 0.5,
         "notas": [
          {
-          "corda": 3,
-          "casa": 7,
-          "nota": "D",
-          "grau": "♭7",
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "11",
           "alvo": false
          }
         ]
@@ -142,19 +400,7 @@
           "casa": 7,
           "nota": "F♯",
           "grau": "9",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 1.5,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 5,
-          "nota": "A",
-          "grau": "11",
-          "alvo": true
+          "alvo": false
          }
         ]
        },
@@ -162,10 +408,10 @@
         "t": 3,
         "notas": [
          {
-          "corda": 2,
+          "corda": 3,
           "casa": 7,
-          "nota": "F♯",
-          "grau": "9",
+          "nota": "D",
+          "grau": "♭7",
           "alvo": false
          }
         ]
@@ -174,10 +420,10 @@
         "t": 3.5,
         "notas": [
          {
-          "corda": 3,
+          "corda": 2,
           "casa": 7,
-          "nota": "D",
-          "grau": "♭7",
+          "nota": "F♯",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -191,20 +437,8 @@
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
-          "nota": "B",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 4,
-          "casa": 7,
+          "corda": 2,
+          "casa": 10,
           "nota": "A",
           "grau": "11",
           "alvo": false
@@ -212,228 +446,13 @@
         ]
        },
        {
-        "t": 1,
+        "t": 2,
         "notas": [
          {
-          "corda": 4,
-          "casa": 4,
+          "corda": 2,
+          "casa": 7,
           "nota": "F♯",
           "grau": "9",
-          "alvo": true
-         }
-        ]
-       }
-      ]
-     }
-    ],
-    "marcas": [],
-    "acordes": []
-   }
-  },
-  {
-   "titulo": "Pequenas cores: sus4 e notas somadas à tríade",
-   "texto": "Nem toda superposição precisa de arpejo de quatro notas. Ponha a 4ª dentro da tríade maior (o F na tríade de C) e alterne com a 3ª. O F, colado meio tom acima do E, cria uma tensão que pede resolução. Sobre dominantes, misturar a 4ª e a 3ª soa como 7sus4, no estilo de Jerry Garcia ou dos Beatles. É o jeito mais barato de soar intencional.",
-   "destaque": "A 4ª é a vizinha que incomoda a 3ª, e é aí que a frase fica interessante.",
-   "visual": {
-    "id": "V4",
-    "tipo": "tab",
-    "legenda": "Tríade de Dó na casa 8 com a 4ª (F) intrometida: a tensão vem do F e o alívio da descida para o E",
-    "tonica": "C",
-    "bpm": 75,
-    "compassos": [
-     {
-      "acorde": "C",
-      "tempos": [
-       {
-        "t": 0,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 8,
-          "nota": "C",
-          "grau": "1",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1.5,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 10,
-          "nota": "F",
-          "grau": "4",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 3,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 9,
-          "nota": "E",
-          "grau": "3",
-          "alvo": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "acorde": "C",
-      "tempos": [
-       {
-        "t": 0,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 8,
-          "nota": "C",
-          "grau": "1",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 10,
-          "nota": "F",
-          "grau": "4",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 1.5,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 2,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 9,
-          "nota": "E",
-          "grau": "3",
-          "alvo": true
-         }
-        ]
-       }
-      ]
-     }
-    ],
-    "marcas": [],
-    "acordes": []
-   }
-  },
-  {
-   "titulo": "Pares de tríades, estrutura superior e trítono",
-   "texto": "Junte a tríade do I com uma tríade característica do modo, as duas na mesma região e com o mesmo desenho. Para o lídio, C + D (ou Bm, que forma a estrutura superior de Cmaj7(♯11)). Para o mixolídio, C + B♭ ou Gm. Para o dórico, Cm + F ou Dm. No dominante alterado o arpejo da 3ª falha, porque traz 9ª e 5ª naturais. Então pense no substituto por trítono: G7alt vira D♭7, e o arpejo da 3ª de D♭7 é Fm7♭5, que entrega ♭9 e ♭13 sobre G.",
-   "destaque": "G7 e D♭7 dividem o trítono B–F. Troque o dono e as tensões aparecem.",
-   "visual": {
-    "id": "V6",
-    "tipo": "tab",
-    "legenda": "Par de tríades lídio sobre C: C sobe, D desce, as duas com o mesmo desenho nas cordas 3-2-1. A tríade de D traz 9, ♯11 e 13.",
-    "tonica": "C",
-    "bpm": 70,
-    "compassos": [
-     {
-      "acorde": "C",
-      "tempos": [
-       {
-        "t": 0,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 5,
-          "nota": "C",
-          "grau": "1",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 5,
-          "nota": "E",
-          "grau": "3",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 3,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 2,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 5,
-          "nota": "A",
-          "grau": "13",
           "alvo": false
          }
         ]
@@ -442,11 +461,11 @@
         "t": 2.5,
         "notas": [
          {
-          "corda": 2,
+          "corda": 3,
           "casa": 7,
-          "nota": "F♯",
-          "grau": "♯11",
-          "alvo": true
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
          }
         ]
        },
@@ -454,9 +473,26 @@
         "t": 3,
         "notas": [
          {
-          "corda": 3,
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
           "casa": 7,
-          "nota": "D",
+          "nota": "F♯",
           "grau": "9",
           "alvo": false
          }
@@ -465,28 +501,36 @@
       ]
      },
      {
-      "acorde": "C",
+      "acorde": "Em",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Cor numa nota só: sus4, 6ª e 9ª",
+   "texto": "Nem sempre é preciso um arpejo inteiro. A 4ª no lugar da 3ª (ou antes dela) dá o som sus4: melódico, cantável, do Beatles ao Jerry Garcia. A 6ª, a ♭7 e a 9ª encostadas na tríade fazem a mesma coisa em escala menor: a mão fica onde está e só uma nota muda de cor. Os nomes dos acordes estão em 'Formação de acordes'. Aqui o assunto é usá-los na frase.",
+   "destaque": "",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Sus4 no acorde aberto: o Sol (4ª de Ré) cai no Fá♯, e o Ré (4ª de Lá) cai no Dó♯. A resolução na 3ª é o alvo. A corda solta entrega a 9ª de cada acorde.",
+    "tonica": "D",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "D",
       "tempos": [
        {
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 7,
-          "nota": "D",
-          "grau": "9",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 7,
-          "nota": "F♯",
-          "grau": "♯11",
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
           "alvo": false
          }
         ]
@@ -496,9 +540,180 @@
         "notas": [
          {
           "corda": 1,
-          "casa": 5,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
           "nota": "A",
-          "grau": "13",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -508,21 +723,9 @@
         "notas": [
          {
           "corda": 2,
-          "casa": 7,
-          "nota": "F♯",
-          "grau": "♯11",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 3,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 3,
-          "nota": "G",
-          "grau": "5",
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
           "alvo": false
          }
         ]
@@ -533,12 +736,70 @@
     "marcas": [],
     "acordes": []
    }
+  },
+  {
+   "titulo": "Pares de tríades e a substituição por trítono",
+   "texto": "Junte a tríade do I com uma tríade característica do modo. Sobre Dó: C + D soa lídio (♯11), C + B♭ soa mixolídio, e C + Dm soa jônio. Mantenha as duas no mesmo desenho e na mesma região. No dominante alterado, o arpejo da 3ª (Bm7♭5) traz a 9ª e a 5ª naturais, que brigam com o acorde. Troque G7 por D♭7, que divide o trítono Si–Fá com ele, e toque o arpejo da 3ª de D♭7: Fm7♭5 = ♭7, ♭9, 3 e ♭13 de Sol.",
+   "destaque": "G7alt? Pense D♭7 e toque Fm7♭5.",
+   "visual": {
+    "id": "V6",
+    "tipo": "braco",
+    "legenda": "Par de tríades lídio sobre Dó: C (Mi-Sol-Dó) e, duas casas acima com o mesmo desenho, D (Fá♯-Lá-Ré), nas cordas Sol, Si e Mi.",
+    "tonica": "C",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "♯11",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "13",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "9",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
   }
  ],
  "fontes_destaque": [
   {
    "ref": 28,
-   "porque": "Jens Larsen apresenta a regra do arpejo a partir da 3ª e toca Em7 sobre Cmaj7, Fmaj7 sobre Dm7 e Bm7♭5 sobre G7.",
+   "porque": "Jens Larsen apresenta a regra do arpejo a partir da 3ª e a aplica em Cmaj7, Dm7 e G7.",
    "fonte": {
     "id": "Md9ZC0qFK3s#I02",
     "tipo": "video",
@@ -552,23 +813,23 @@
    }
   },
   {
-   "ref": 40,
-   "porque": "Carter Arrington aplica os arpejos da 3ª num ii-V-I tocado, e dá para ouvir a diferença em relação ao arpejo comum.",
+   "ref": 42,
+   "porque": "Bm7♭5 tocado sobre G7 num ii-V-I, mostrando como a linha chega ao Sol do Cmaj7.",
    "fonte": {
-    "id": "tqnvvqZu2_c#I16",
+    "id": "Md9ZC0qFK3s#I03",
     "tipo": "video",
-    "autor": "Pow Music",
-    "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-    "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=1044s",
-    "video": "tqnvvqZu2_c",
-    "inicio": 1044,
-    "momento": "17:26",
-    "ideia": "Arpejos a partir da terça em uma progressão 2-5-1"
+    "autor": "Jens Larsen",
+    "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+    "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=103s",
+    "video": "Md9ZC0qFK3s",
+    "inicio": 103,
+    "momento": "01:45",
+    "ideia": "ii-V-I com Bm7♭5 sobre G7"
    }
   },
   {
    "ref": 54,
-   "porque": "Os quatro arpejos que nascem das notas de Dm7 são montados e comparados um a um, com as tensões explicadas.",
+   "porque": "Carter Arrington monta os quatro arpejos a partir das notas de Dm7 e mostra a cor que cada um traz.",
    "fonte": {
     "id": "tqnvvqZu2_c#I11",
     "tipo": "video",
@@ -582,23 +843,8 @@
    }
   },
   {
-   "ref": 27,
-   "porque": "Jack Gardiner toca Bm7 sobre Em e mostra como um arpejo simples produz o som de Em11.",
-   "fonte": {
-    "id": "tRi4vMs2z8M#I29",
-    "tipo": "video",
-    "autor": "Jack Gardiner",
-    "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
-    "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1989s",
-    "video": "tRi4vMs2z8M",
-    "inicio": 1989,
-    "momento": "33:11",
-    "ideia": "Superpor arpejo de Bm7 sobre Em"
-   }
-  },
-  {
    "ref": 20,
-   "porque": "Marty mostra na guitarra o truque da tríade com sus4 na casa 14 virando frase melódica.",
+   "porque": "Marty mostra, no braço, a tríade de Ré na casa 14 virando Dsus4 com o mindinho e a frase que nasce dali.",
    "fonte": {
     "id": "yuf_RoHXf-k#I02",
     "tipo": "video",
@@ -612,8 +858,23 @@
    }
   },
   {
+   "ref": 10,
+   "porque": "A 6ª, a ♭7 e a 9ª somadas à tríade de Sol, uma casa por vez, com o som de cada uma.",
+   "fonte": {
+    "id": "QXp8yDb3zyQ#I17",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Triads are the answer!  Use Triads to up your game when improvising on guitar - Guitar Lesson- EP485",
+    "url": "https://www.youtube.com/watch?v=QXp8yDb3zyQ&t=860s",
+    "video": "QXp8yDb3zyQ",
+    "inicio": 860,
+    "momento": "14:22",
+    "ideia": "Sexta: adicionar a 6ª (E) à tríade de Sol"
+   }
+  },
+  {
    "ref": 75,
-   "porque": "Jens resolve o problema do dominante alterado com Fm7♭5 sobre G7alt e compara com a versão comum.",
+   "porque": "Fm7♭5 tocado sobre G7alt e comparado com a versão diatônica: a diferença fica clara de ouvido.",
    "fonte": {
     "id": "Md9ZC0qFK3s#I21",
     "tipo": "video",
@@ -629,21 +890,21 @@
  ],
  "exercicios": [
   {
-   "titulo": "Em7 sobre Cmaj7: ouvir a 9ª nascer",
-   "objetivo": "Sentir na prática que um arpejo conhecido, tocado sobre outro acorde, muda de função e revela a 9ª.",
-   "nivel": "iniciante",
+   "titulo": "Em7 sobre Cmaj7: ouvir a 9ª aparecer",
+   "objetivo": "Perceber que um arpejo conhecido muda de função quando muda o acorde de baixo.",
+   "nivel": "intermediario",
    "minutos": 8,
    "passos": [
-    "Grave ou use um loop de Cmaj7 (x3545x) parado, a 70 bpm.",
-    "Toque o arpejo de Em7 na região das casas 7–10 (V1), subindo e descendo bem devagar.",
-    "A cada nota, diga o grau em relação a C: E = 3, G = 5, B = 7, D = 9.",
-    "Agora pare sempre no D (casa 7 da corda G ou casa 10 da corda E) e segure dois tempos com vibrato. É a 9ª soando.",
-    "Compare: toque o arpejo de Cmaj7 na mesma região e volte para o Em7. Ouça qual soa mais aberto."
+    "Grave ou ponha em loop um Cmaj7 (ou só a nota Dó grave) a 70 bpm.",
+    "Toque o arpejo de Em7 na região da casa 7 (V1), subindo e descendo em colcheias, falando os graus em voz alta: 3, 5, 7, 9.",
+    "Pare em cada Ré (9) e segure 2 tempos. Ouça a nota flutuar sobre o acorde.",
+    "Agora toque o mesmo arpejo sobre um Em puro e compare: no Em ele é repouso, no Cmaj7 é cor.",
+    "Faça três frases curtas só com essas notas, cada uma terminando num Ré ou num Si."
    ],
    "visual": {
     "id": "V1",
     "tipo": "braco",
-    "legenda": "Arpejo de Em7 (E G B D) entre as casas 7 e 10, lido sobre Cmaj7: 3, 5, 7 e 9. O C aparece como referência.",
+    "legenda": "Em7 sobre Cmaj7 (região da casa 7): o arpejo tem 3, 5, 7 e 9 de Dó. Os Dós (1) aparecem só como referência. A 9ª (Ré) é a cor nova.",
     "tonica": "C",
     "marcas": [
      {
@@ -722,22 +983,11 @@
     "bpm": 70
    },
    "variacoes": [
-    "Versão mínima: só B, E e G (quase um Em) sobre Cmaj7.",
-    "Arpejo pivô: comece o Em7 pelo E uma oitava acima e desça, como George Benson faz."
+    "Versão pivô: comece no Mi uma oitava acima (corda Sol, casa 9) e desça.",
+    "Versão simples: use só Si, Mi e Sol (quase um Em) sobre Cmaj7."
    ],
-   "cuidado": "Pensar \"estou tocando Mi menor\". O baixo é Dó: nomeie as notas pelo acorde de baixo, senão você não percebe que a 9ª é o alvo.",
+   "cuidado": "Achar que 'está tocando Em'. Diga sempre os graus em relação a Dó; senão o ouvido não aprende a cor.",
    "inspirado_em": [
-    {
-     "id": "Md9ZC0qFK3s#I02",
-     "tipo": "video",
-     "autor": "Jens Larsen",
-     "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
-     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=72s",
-     "video": "Md9ZC0qFK3s",
-     "inicio": 72,
-     "momento": "01:14",
-     "ideia": "Regra: usar o arpejo a partir da 3ª do acorde"
-    },
     {
      "id": "yw6K7j6GbDc#I14",
      "tipo": "video",
@@ -796,47 +1046,35 @@
    ]
   },
   {
-   "titulo": "A 4ª que incomoda: tríade de Dó com sus4",
-   "objetivo": "Usar a 4ª como cor melódica dentro da tríade maior e resolvê-la na 3ª.",
-   "nivel": "iniciante",
+   "titulo": "Sus4 que respira: Ré e Lá no acorde aberto",
+   "objetivo": "Usar a 4ª como nota melódica que resolve na 3ª, sem sair do desenho do acorde.",
+   "nivel": "intermediario",
    "minutos": 8,
    "passos": [
-    "Com um loop de C, toque a frase de V4 a 75 bpm.",
-    "Observe o F (casa 10 da corda G), colado meio tom acima do E (casa 9).",
-    "Segure o F um pouco mais do que parece confortável e só depois resolva no E.",
-    "Crie três frases próprias com as mesmas quatro notas (C, E, F, G), sempre terminando no E ou no G.",
-    "Repita sobre um loop de C7 e misture F e E de propósito, buscando o clima de 7sus4."
+    "Faça o acorde de Ré aberto e coloque o mindinho na casa 3 da corda Mi aguda (Sol = 4ª): é o Dsus4.",
+    "Toque a frase da V4: a 4ª no tempo forte, a 3ª logo depois.",
+    "No Lá aberto, a 4ª (Ré) fica na casa 3 da corda Si e resolve no Dó♯ da casa 2.",
+    "Em loop D–A, improvise usando só a tríade, a 4ª e a corda solta (9ª).",
+    "Deixe ao menos um tempo de silêncio por compasso."
    ],
    "visual": {
     "id": "V4",
     "tipo": "tab",
-    "legenda": "Tríade de Dó na casa 8 com a 4ª (F) intrometida: a tensão vem do F e o alívio da descida para o E",
-    "tonica": "C",
-    "bpm": 75,
+    "legenda": "Sus4 no acorde aberto: o Sol (4ª de Ré) cai no Fá♯, e o Ré (4ª de Lá) cai no Dó♯. A resolução na 3ª é o alvo. A corda solta entrega a 9ª de cada acorde.",
+    "tonica": "D",
+    "bpm": 80,
     "compassos": [
      {
-      "acorde": "C",
+      "acorde": "D",
       "tempos": [
        {
         "t": 0,
         "notas": [
          {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
           "corda": 1,
-          "casa": 8,
-          "nota": "C",
-          "grau": "1",
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
           "alvo": false
          }
         ]
@@ -845,75 +1083,10 @@
         "t": 1,
         "notas": [
          {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1.5,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 10,
-          "nota": "F",
-          "grau": "4",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 3,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 9,
-          "nota": "E",
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
           "grau": "3",
-          "alvo": false
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "acorde": "C",
-      "tempos": [
-       {
-        "t": 0,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 8,
-          "nota": "C",
-          "grau": "1",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 1,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 10,
-          "nota": "F",
-          "grau": "4",
           "alvo": true
          }
         ]
@@ -923,9 +1096,9 @@
         "notas": [
          {
           "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
           "alvo": false
          }
         ]
@@ -935,10 +1108,169 @@
         "notas": [
          {
           "corda": 3,
-          "casa": 9,
-          "nota": "E",
+          "casa": 2,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 2,
+          "nota": "F♯",
           "grau": "3",
           "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
          }
         ]
        }
@@ -949,44 +1281,11 @@
     "acordes": []
    },
    "variacoes": [
-    "Leve a ideia para a tríade de Ré na casa 14 (G 14, B 15, E 14) e ponha o G na casa 15 da corda E: Dsus4.",
-    "Toque um bend da 4ª até a 5ª sobre o dominante."
+    "Leve tudo para a casa 14 (tríade de Ré nas cordas Sol, Si e Mi: 14-15-14) e repita a ideia uma oitava acima.",
+    "Sobre A7, faça bend da 4ª (Ré) até a 5ª (Mi) e alterne com a 3ª: som 7sus4."
    ],
-   "cuidado": "Pousar no F e deixar lá no final da frase. A 4ª sobre o acorde maior é tensão de passagem: ela pede para cair no E.",
+   "cuidado": "Segurar a 4ª como pouso final. Ela pede resolução; termine na 3ª ou na 1ª.",
    "inspirado_em": [
-    {
-     "id": "14UZEproJ-A#I15",
-     "tipo": "video",
-     "autor": "Steve Stine Guitar Lessons",
-     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
-     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=796s",
-     "video": "14UZEproJ-A",
-     "inicio": 796,
-     "momento": "13:18",
-     "ideia": "Adicionar a quarta F"
-    },
-    {
-     "id": "0Dz1QC7xk5U#I06",
-     "tipo": "video",
-     "autor": "TomHessMusicCorp",
-     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
-     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=270s",
-     "video": "0Dz1QC7xk5U",
-     "inicio": 270,
-     "momento": "04:32",
-     "ideia": "Fá como 4ª ou 11ª sobre Dó maior"
-    },
-    {
-     "id": "14UZEproJ-A#I21",
-     "tipo": "video",
-     "autor": "Steve Stine Guitar Lessons",
-     "titulo": "Learn to Expand Your Triads/Arpeggios for Better Solos by Steve Stine - Guitar Solo Tips",
-     "url": "https://www.youtube.com/watch?v=14UZEproJ-A&t=1096s",
-     "video": "14UZEproJ-A",
-     "inicio": 1096,
-     "momento": "18:18",
-     "ideia": "Nota na casa 8 da corda Lá"
-    },
     {
      "id": "1ksOozBYk8g#I08",
      "tipo": "video",
@@ -1045,21 +1344,21 @@
    ]
   },
   {
-   "titulo": "Em11 sem decorar acorde: Bm7 sobre Em",
-   "objetivo": "Criar frases sobre um acorde menor usando um arpejo que começa na 5ª, destacando a 9ª e a 11ª.",
+   "titulo": "Em11 de graça: Bm7 sobre Mi menor",
+   "objetivo": "Pegar 9ª e 11ª num acorde menor usando um arpejo menor comum.",
    "nivel": "intermediario",
    "minutos": 10,
    "passos": [
-    "Loop de Em (um acorde só), 72 bpm.",
-    "Nomeie em voz alta as notas de Bm7 em relação a E: B = 5, D = ♭7, F♯ = 9, A = 11.",
-    "Toque a frase de V5 e segure o F♯ final: é a 9ª em destaque.",
-    "Faça quatro frases curtas. Cada uma termina numa nota-alvo diferente (F♯, A, D, B), e entre elas deixe um compasso de silêncio.",
-    "Troque o arpejo por Gmaj7 (G B D F♯) sobre o mesmo Em e compare: soa Em9, mais doce."
+    "Ponha um loop de Em (ou um drone de Mi).",
+    "Escreva as notas de Bm7 (Si Ré Fá♯ Lá) e, embaixo de cada uma, o grau em Mi: 5, ♭7, 9, 11.",
+    "Toque a frase da V3 e note o silêncio do último compasso.",
+    "Crie fragmentos de 2 a 3 notas do Bm7 e encaixe-os entre frases de pentatônica de Mi menor.",
+    "Termine cada frase numa nota diferente: Fá♯ (9), Lá (11), Si (5)."
    ],
    "visual": {
-    "id": "V5",
+    "id": "V3",
     "tipo": "tab",
-    "legenda": "Bm7 (B D F♯ A) sobre Em: 5, ♭7, 9 e 11. Soa como Em11 e você nem precisa conhecer esse acorde.",
+    "legenda": "Fragmentos de Bm7 (B D F♯ A) sobre Em: 5, ♭7, 9 e 11. Soa como Em11 sem você montar esse acorde. O Si (5ª) é a âncora no acorde, e o F♯ e o Lá são as cores. O último compasso fica em silêncio.",
     "tonica": "E",
     "bpm": 72,
     "compassos": [
@@ -1070,11 +1369,11 @@
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
+          "corda": 1,
+          "casa": 7,
           "nota": "B",
           "grau": "5",
-          "alvo": false
+          "alvo": true
          }
         ]
        },
@@ -1082,10 +1381,10 @@
         "t": 0.5,
         "notas": [
          {
-          "corda": 3,
-          "casa": 7,
-          "nota": "D",
-          "grau": "♭7",
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "11",
           "alvo": false
          }
         ]
@@ -1098,19 +1397,7 @@
           "casa": 7,
           "nota": "F♯",
           "grau": "9",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 1.5,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 5,
-          "nota": "A",
-          "grau": "11",
-          "alvo": true
+          "alvo": false
          }
         ]
        },
@@ -1118,10 +1405,10 @@
         "t": 3,
         "notas": [
          {
-          "corda": 2,
+          "corda": 3,
           "casa": 7,
-          "nota": "F♯",
-          "grau": "9",
+          "nota": "D",
+          "grau": "♭7",
           "alvo": false
          }
         ]
@@ -1130,10 +1417,10 @@
         "t": 3.5,
         "notas": [
          {
-          "corda": 3,
+          "corda": 2,
           "casa": 7,
-          "nota": "D",
-          "grau": "♭7",
+          "nota": "F♯",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -1147,20 +1434,8 @@
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
-          "nota": "B",
-          "grau": "5",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 0.5,
-        "notas": [
-         {
-          "corda": 4,
-          "casa": 7,
+          "corda": 2,
+          "casa": 10,
           "nota": "A",
           "grau": "11",
           "alvo": false
@@ -1168,28 +1443,73 @@
         ]
        },
        {
-        "t": 1,
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
         "notas": [
          {
           "corda": 4,
-          "casa": 4,
-          "nota": "F♯",
-          "grau": "9",
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
           "alvo": true
          }
         ]
        }
       ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": []
      }
     ],
     "marcas": [],
     "acordes": []
    },
    "variacoes": [
-    "Use só fragmentos de três notas do Bm7 dentro de uma frase de pentatônica de Mi menor.",
-    "Teste também a tríade de D (D F♯ A) sobre Em: ♭7, 9 e 11."
+    "Troque Bm7 por Gmaj7 (Sol Si Ré Fá♯) sobre Em: som m9.",
+    "Experimente a tríade de D sobre Em: ♭7, 9 e 11."
    ],
-   "cuidado": "Correr o arpejo de baixo para cima sem pouso. A superposição só é percebida quando a extensão é sustentada ou cai no tempo forte.",
+   "cuidado": "Tocar o arpejo inteiro, de cima a baixo, como exercício. Use pedaços dele dentro da frase.",
    "inspirado_em": [
     {
      "id": "tRi4vMs2z8M#I29",
@@ -1236,34 +1556,34 @@
      "ideia": "Tríades da escala harmonizada geram cores diferentes"
     },
     {
-     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I45",
-     "tipo": "documento",
-     "autor": "repositorio.ufu.br",
-     "titulo": "",
-     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
-     "video": null,
-     "inicio": null,
-     "momento": null,
-     "ideia": "Tocar notas-alvo de forma alternada"
+     "id": "Rm8Y-Q6wbR4#I14",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=662s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 662,
+     "momento": "11:04",
+     "ideia": "Uma tríade serve sobre vários acordes"
     }
    ]
   },
   {
    "titulo": "ii-V-I só com arpejos da 3ª",
-   "objetivo": "Aplicar a regra do arpejo da 3ª numa progressão e numa posição só, com a ♭7 de cada acorde caindo na 3ª do próximo.",
+   "objetivo": "Aplicar a regra da 3ª em uma progressão, sem trocar de região do braço.",
    "nivel": "intermediario",
    "minutos": 12,
    "passos": [
-    "Grave Dm7 – G7 – Cmaj7 – Cmaj7 (V2) em loop a 70 bpm.",
-    "Toque a linha de V3 até sair limpa: Fmaj7 sobre Dm7, Bm7♭5 sobre G7, Em7 sobre Cmaj7.",
-    "Note os encontros: C (♭7 de Dm7) cai em B (3 de G7) e F (♭7 de G7) cai em E (3 de Cmaj7).",
-    "Agora improvise usando só esses três arpejos, na mesma região (casas 4–8). Valem fragmentos, notas repetidas e pausas.",
-    "Em cada acorde, termine pelo menos uma frase na 9ª (E, A, D)."
+    "Ponha Dm7–G7–Cmaj7–Cmaj7 em loop, um compasso cada, a 70 bpm.",
+    "Toque a V2: Fmaj7 no Dm7, Bm7♭5 no G7, Em7 no Cmaj7.",
+    "Ouça a passagem Fá → Mi do G7 para o Cmaj7, que liga os acordes.",
+    "Agora improvise com a mesma regra, começando cada compasso numa nota diferente do arpejo.",
+    "Por fim, ponha uma aproximação cromática (meio tom abaixo) antes da primeira nota de cada compasso."
    ],
    "visual": {
-    "id": "V3",
+    "id": "V2",
     "tipo": "tab",
-    "legenda": "ii-V-I só com arpejos da 3ª: Fmaj7 sobre Dm7, Bm7♭5 sobre G7, Em7 sobre Cmaj7. A ♭7 de cada acorde cai na 3ª do seguinte.",
+    "legenda": "ii-V-I em Dó com arpejos da 3ª: Fmaj7 sobre Dm7, Bm7♭5 sobre G7 e Em7 sobre Cmaj7, tudo entre as casas 5 e 10. As 3ªs de cada acorde abrem o compasso, e as 9ªs (E, A, D) dão a cor. Repare no Fá que cai para o Mi na entrada do Cmaj7.",
     "tonica": "C",
     "bpm": 70,
     "compassos": [
@@ -1314,7 +1634,19 @@
           "casa": 5,
           "nota": "E",
           "grau": "9",
-          "alvo": true
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
          }
         ]
        },
@@ -1322,10 +1654,10 @@
         "t": 3,
         "notas": [
          {
-          "corda": 3,
-          "casa": 5,
-          "nota": "C",
-          "grau": "♭7",
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
           "alvo": false
          }
         ]
@@ -1339,8 +1671,8 @@
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
+          "corda": 4,
+          "casa": 9,
           "nota": "B",
           "grau": "3",
           "alvo": true
@@ -1379,7 +1711,19 @@
           "casa": 5,
           "nota": "A",
           "grau": "9",
-          "alvo": true
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
          }
         ]
        },
@@ -1391,7 +1735,7 @@
           "casa": 6,
           "nota": "F",
           "grau": "♭7",
-          "alvo": false
+          "alvo": true
          }
         ]
        }
@@ -1440,10 +1784,10 @@
         "t": 1.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 8,
-          "nota": "G",
-          "grau": "5",
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -1452,11 +1796,11 @@
         "t": 2,
         "notas": [
          {
-          "corda": 3,
+          "corda": 1,
           "casa": 7,
-          "nota": "D",
-          "grau": "9",
-          "alvo": true
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
          }
         ]
        },
@@ -1465,9 +1809,9 @@
         "notas": [
          {
           "corda": 2,
-          "casa": 5,
-          "nota": "E",
-          "grau": "3",
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
           "alvo": false
          }
         ]
@@ -1476,29 +1820,41 @@
      },
      {
       "acorde": "Cmaj7",
-      "tempos": []
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
      }
     ],
     "marcas": [],
     "acordes": []
    },
    "variacoes": [
-    "Arpejo pivô: comece cada arpejo pela 1ª nota uma oitava acima.",
-    "Estenda para os sete acordes de Dó: Am7 → Cmaj7, Em7 → G, Fmaj7 → Am7, Bm7♭5 → Dm7.",
-    "Aplique numa música que você já toca: ache a 3ª de cada acorde e monte o arpejo."
+    "Aplique a regra nos sete acordes do campo de Dó (Am7 → Cmaj7, Em7 → G7, Fmaj7 → Am7…).",
+    "Use uma música que você já sabe: anote, para cada acorde, o arpejo da 3ª."
    ],
-   "cuidado": "Pular de região a cada acorde. Os três arpejos cabem entre as casas 4 e 8: se a mão viaja, a linha perde a costura.",
+   "cuidado": "Pular de posição a cada acorde. Os três arpejos cabem entre as casas 5 e 10.",
    "inspirado_em": [
     {
-     "id": "Md9ZC0qFK3s#I13",
+     "id": "Md9ZC0qFK3s#I02",
      "tipo": "video",
      "autor": "Jens Larsen",
      "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
-     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=320s",
+     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=72s",
      "video": "Md9ZC0qFK3s",
-     "inicio": 320,
-     "momento": "05:22",
-     "ideia": "Por que a regra funciona"
+     "inicio": 72,
+     "momento": "01:14",
+     "ideia": "Regra: usar o arpejo a partir da 3ª do acorde"
     },
     {
      "id": "5hmSQuMIf-w#I16",
@@ -1510,6 +1866,39 @@
      "inicio": 462,
      "momento": "07:44",
      "ideia": "Arpejo a partir da 3ª do acorde"
+    },
+    {
+     "id": "Md9ZC0qFK3s#I01",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=72s",
+     "video": "Md9ZC0qFK3s",
+     "inicio": 72,
+     "momento": "01:14",
+     "ideia": "Arpejo da 3ª de G7 é Bm7♭5"
+    },
+    {
+     "id": "Md9ZC0qFK3s#I04",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
+     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=171s",
+     "video": "Md9ZC0qFK3s",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Arpejo da 3ª de Dm7 é Fmaj7"
+    },
+    {
+     "id": "tqnvvqZu2_c#I02",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=99s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 99,
+     "momento": "01:41",
+     "ideia": "Sobre Dm7, tocar o arpejo de Fmaj7"
     },
     {
      "id": "tqnvvqZu2_c#I16",
@@ -1556,6 +1945,17 @@
      "ideia": "Estudar os arpejos diatônicos de C"
     },
     {
+     "id": "5hmSQuMIf-w#I18",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=528s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 528,
+     "momento": "08:50",
+     "ideia": "Combinar arpejos da 3ª com cromatismo"
+    },
+    {
      "id": "Md9ZC0qFK3s#I22",
      "tipo": "video",
      "autor": "Jens Larsen",
@@ -1565,136 +1965,27 @@
      "inicio": 528,
      "momento": "08:50",
      "ideia": "Aplicar a regra numa música conhecida"
-    },
-    {
-     "id": "Md9ZC0qFK3s#I17",
-     "tipo": "video",
-     "autor": "Jens Larsen",
-     "titulo": "The Most Important Arpeggio For EVERY Jazz Chord (It Will SKYROCKET Your Playing)",
-     "url": "https://www.youtube.com/watch?v=Md9ZC0qFK3s&t=425s",
-     "video": "Md9ZC0qFK3s",
-     "inicio": 425,
-     "momento": "07:07",
-     "ideia": "Aplicar o arpejo pivô a qualquer arpejo"
     }
    ]
   },
   {
-   "titulo": "Escada de tensão sobre Dm7",
-   "objetivo": "Ouvir como cada arpejo diatônico construído sobre uma nota do acorde traz mais estrutura superior.",
-   "nivel": "intermediario",
-   "minutos": 12,
-   "passos": [
-    "Loop de Dm7 parado (x57565), 65 bpm.",
-    "Escreva D, F, A, C e monte o arpejo de sétima de Dó maior que começa em cada uma: Dm7, Fmaj7, Am7 e Cmaj7.",
-    "Anote os graus sobre Dm7: Fmaj7 = ♭3 5 ♭7 9 · Am7 = 5 ♭7 9 11 · Cmaj7 = ♭7 9 11 13.",
-    "Toque um compasso de cada, em ordem, sempre na região das casas 5–8, e ouça a tensão crescer.",
-    "Improvise oito compassos que comecem em Dm7, subam até Cmaj7 e voltem para Fmaj7 no final."
-   ],
-   "visual": null,
-   "variacoes": [
-    "Mude a distribuição por corda: 1-1-1-1, 2-1-1 e 3-1 notas.",
-    "Faça o mesmo sobre Cmaj7 com Cmaj7, Em7, G7 e Bm7♭5."
-   ],
-   "cuidado": "Tocar os arpejos como escala corrida. Se você só sobe e desce, as tensões soam como dórico comum: comece e termine em notas diferentes e segure as extensões.",
-   "inspirado_em": [
-    {
-     "id": "tqnvvqZu2_c#I01",
-     "tipo": "video",
-     "autor": "Pow Music",
-     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=0s",
-     "video": "tqnvvqZu2_c",
-     "inicio": 0,
-     "momento": "00:01",
-     "ideia": "Arpejos a partir de outras notas do acorde"
-    },
-    {
-     "id": "tqnvvqZu2_c#I03",
-     "tipo": "video",
-     "autor": "Pow Music",
-     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=132s",
-     "video": "tqnvvqZu2_c",
-     "inicio": 132,
-     "momento": "02:14",
-     "ideia": "Explorar o maior a partir de cada nota da tríade"
-    },
-    {
-     "id": "tqnvvqZu2_c#I12",
-     "tipo": "video",
-     "autor": "Pow Music",
-     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=788s",
-     "video": "tqnvvqZu2_c",
-     "inicio": 788,
-     "momento": "13:10",
-     "ideia": "Arpejo ou escala com as mesmas notas: sonoridade diferente"
-    },
-    {
-     "id": "tqnvvqZu2_c#I04",
-     "tipo": "video",
-     "autor": "Pow Music",
-     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=204s",
-     "video": "tqnvvqZu2_c",
-     "inicio": 204,
-     "momento": "03:26",
-     "ideia": "Quantas notas de acorde e de extensão cada arpejo dá sobre Dm7"
-    },
-    {
-     "id": "EMQydbilqmo#I09",
-     "tipo": "video",
-     "autor": "Jens Larsen",
-     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
-     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=164s",
-     "video": "EMQydbilqmo",
-     "inicio": 164,
-     "momento": "02:46",
-     "ideia": "Usar vários arpejos sobre o mesmo acorde"
-    },
-    {
-     "id": "tqnvvqZu2_c#I11",
-     "tipo": "video",
-     "autor": "Pow Music",
-     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
-     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=682s",
-     "video": "tqnvvqZu2_c",
-     "inicio": 682,
-     "momento": "11:24",
-     "ideia": "Montar os arpejos a partir de cada nota de Dm7 na tonalidade de Dó"
-    },
-    {
-     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I20",
-     "tipo": "documento",
-     "autor": "repositorio.ufu.br",
-     "titulo": "",
-     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
-     "video": null,
-     "inicio": null,
-     "momento": null,
-     "ideia": "Arpejos de tétrades progressivos a partir das notas estruturais"
-    }
-   ]
-  },
-  {
-   "titulo": "Par de tríades lídio: C sobe, D desce",
-   "objetivo": "Criar som lídio com duas tríades do mesmo desenho, destacando a ♯11.",
+   "titulo": "Pares de tríades: Dó lídio com C + D",
+   "objetivo": "Criar som modal combinando duas tríades no mesmo desenho e destacar a nota característica.",
    "nivel": "intermediario",
    "minutos": 10,
    "passos": [
-    "Loop de C (ou Cmaj7), 70 bpm.",
-    "Monte a tríade de C nas cordas G-B-E (5-5-3) e a de D duas casas acima (7-7-5). O desenho é o mesmo.",
-    "Toque V6: a primeira tríade sobe e a segunda desce.",
-    "No segundo compasso, repita notas (F♯ duas vezes) para dar ritmo ao motivo.",
-    "Termine uma frase no F♯ (♯11) e outra no A (13), alternando as notas-alvo."
+    "Monte C (Mi-Sol-Dó, casas 9-8-8) e D (Fá♯-Lá-Ré, casas 11-10-10) nas cordas Sol, Si e Mi (V6). É o mesmo desenho, duas casas acima.",
+    "Toque a V7: a tríade de C sobe, a de D desce.",
+    "Repita notas (Ré-Ré, Fá♯ segurado) para dar ritmo ao motivo.",
+    "Sobre um drone de Dó, faça quatro frases, cada uma pousando num alvo diferente: Fá♯, Ré, Lá.",
+    "Troque a segunda tríade: B♭ (Ré-Fá-Si♭, casas 7-6-6) dá mixolídio, e Dm (Fá-Lá-Ré, casas 10-10-10) dá jônio. Compare."
    ],
    "visual": {
-    "id": "V6",
+    "id": "V7",
     "tipo": "tab",
-    "legenda": "Par de tríades lídio sobre C: C sobe, D desce, as duas com o mesmo desenho nas cordas 3-2-1. A tríade de D traz 9, ♯11 e 13.",
+    "legenda": "Par C + D sobre Dó lídio: a tríade de C sobe, a de D desce, e há notas repetidas para dar ritmo. O Fá♯ (♯11) dá a cor lídia, e as notas de C (Mi e Sol) servem de chão para pousar a frase.",
     "tonica": "C",
-    "bpm": 70,
+    "bpm": 76,
     "compassos": [
      {
       "acorde": "C",
@@ -1704,10 +1995,10 @@
         "notas": [
          {
           "corda": 3,
-          "casa": 5,
-          "nota": "C",
-          "grau": "1",
-          "alvo": false
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
          }
         ]
        },
@@ -1716,9 +2007,9 @@
         "notas": [
          {
           "corda": 2,
-          "casa": 5,
-          "nota": "E",
-          "grau": "3",
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
           "alvo": false
          }
         ]
@@ -1728,9 +2019,21 @@
         "notas": [
          {
           "corda": 1,
-          "casa": 3,
-          "nota": "G",
-          "grau": "5",
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -1739,8 +2042,8 @@
         "t": 2,
         "notas": [
          {
-          "corda": 1,
-          "casa": 5,
+          "corda": 2,
+          "casa": 10,
           "nota": "A",
           "grau": "13",
           "alvo": false
@@ -1751,22 +2054,10 @@
         "t": 2.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 7,
+          "corda": 3,
+          "casa": 11,
           "nota": "F♯",
           "grau": "♯11",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 3,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 7,
-          "nota": "D",
-          "grau": "9",
           "alvo": false
          }
         ]
@@ -1780,8 +2071,61 @@
         "t": 0,
         "notas": [
          {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "13",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
           "corda": 3,
-          "casa": 7,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "♯11",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
           "nota": "D",
           "grau": "9",
           "alvo": false
@@ -1792,10 +2136,10 @@
         "t": 0.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 7,
-          "nota": "F♯",
-          "grau": "♯11",
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "9",
           "alvo": false
          }
         ]
@@ -1804,8 +2148,8 @@
         "t": 1,
         "notas": [
          {
-          "corda": 1,
-          "casa": 5,
+          "corda": 2,
+          "casa": 10,
           "nota": "A",
           "grau": "13",
           "alvo": false
@@ -1813,26 +2157,31 @@
         ]
        },
        {
-        "t": 2,
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "♯11",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
         "notas": [
          {
           "corda": 2,
-          "casa": 7,
-          "nota": "F♯",
-          "grau": "♯11",
-          "alvo": true
-         }
-        ]
-       },
-       {
-        "t": 3,
-        "notas": [
-         {
-          "corda": 1,
-          "casa": 3,
+          "casa": 8,
           "nota": "G",
           "grau": "5",
-          "alvo": false
+          "alvo": true
          }
         ]
        }
@@ -1843,24 +2192,11 @@
     "acordes": []
    },
    "variacoes": [
-    "Jônio: C + Dm ou C + F.",
-    "Mixolídio (sobre C7): C + B♭ ou C + Gm.",
-    "Dórico (sobre Cm): Cm + F ou Cm + Dm.",
-    "Estrutura superior: troque D por Bm (B D F♯) para soar Cmaj7(♯11)."
+    "Faça o par na 2ª inversão das duas tríades.",
+    "Sobre Dó menor: Cm + F soa dórico."
    ],
-   "cuidado": "Pegar a segunda tríade em outra inversão e em outra região. Mantenha a mesma inversão e o mesmo grupo de cordas: a mão só desliza.",
+   "cuidado": "Deixar o Fá♯ só de passagem. Se a ♯11 não ganha duração ou tempo forte, o ouvinte não percebe o lídio.",
    "inspirado_em": [
-    {
-     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I06",
-     "tipo": "documento",
-     "autor": "repositorio.ufu.br",
-     "titulo": "",
-     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
-     "video": null,
-     "inicio": null,
-     "momento": null,
-     "ideia": "Tríades da camada superior"
-    },
     {
      "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I15",
      "tipo": "documento",
@@ -1970,26 +2306,145 @@
      "inicio": 214,
      "momento": "03:36",
      "ideia": "Estudar as duas tríades no mesmo formato"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I45",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar notas-alvo de forma alternada"
     }
    ]
   },
   {
-   "titulo": "G7alt vira D♭7: Fm7♭5 no ii-V-I",
-   "objetivo": "Usar o arpejo da 3ª do substituto por trítono para tocar ♭9 e ♭13 sobre o dominante e resolver por semitom.",
-   "nivel": "avancado",
-   "minutos": 15,
+   "titulo": "Quatro arpejos sobre um Dm7",
+   "objetivo": "Ouvir como a tensão cresce conforme o arpejo começa mais alto no acorde.",
+   "nivel": "intermediario",
+   "minutos": 12,
    "passos": [
-    "Grave Dm7 – G7(♯5) – Cmaj7 (V2), 66 bpm.",
-    "Primeiro, toque V3 sobre essa base e ouça como o A (9ª natural) e o D (5ª justa) brigam com o acorde alterado.",
-    "Agora toque V7: sobre o V, F A♭ B E♭ (Fm7♭5, o arpejo da 3ª de D♭7).",
-    "Nomeie sobre G: F = ♭7, A♭ = ♭9, B = 3, E♭ = ♭13.",
-    "Confira as resoluções: E♭ → E, A♭ → G, F → E. Cada tensão anda meio tom até uma nota do Cmaj7.",
-    "Improvise alternando, a cada volta, Bm7♭5 (V comum) e Fm7♭5 (V alterado)."
+    "Ponha um vamp de Dm7.",
+    "Escreva Ré, Fá, Lá e Dó e monte Dm7, Fmaj7, Am7 e Cmaj7 na região da casa 5.",
+    "Toque cada arpejo por 4 compassos, nessa ordem, falando quais notas são do acorde e quais são extensões.",
+    "Classifique de ouvido: qual soa mais estável e qual soa mais 'jazz'?",
+    "Improvise 8 compassos alternando dois arpejos (por exemplo Fmaj7 e Cmaj7), com pausas."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Mude o número de notas por corda: 1-1-1-1, 2-1-1, 3-1.",
+    "Termine cada frase numa extensão: 9 (Mi), 11 (Sol) ou 13 (Si)."
+   ],
+   "cuidado": "Tocar tudo como escala corrida. A graça está nos saltos de terça, que deixam a tensão exposta.",
+   "inspirado_em": [
+    {
+     "id": "tqnvvqZu2_c#I01",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=0s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 0,
+     "momento": "00:01",
+     "ideia": "Arpejos a partir de outras notas do acorde"
+    },
+    {
+     "id": "tqnvvqZu2_c#I03",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=132s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Explorar o maior a partir de cada nota da tríade"
+    },
+    {
+     "id": "tqnvvqZu2_c#I12",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=788s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 788,
+     "momento": "13:10",
+     "ideia": "Arpejo ou escala com as mesmas notas: sonoridade diferente"
+    },
+    {
+     "id": "tqnvvqZu2_c#I04",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=204s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Quantas notas de acorde e de extensão cada arpejo dá sobre Dm7"
+    },
+    {
+     "id": "tRi4vMs2z8M#I28",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1876s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1876,
+     "momento": "31:18",
+     "ideia": "Arpejos de sétima como fonte de cores"
+    },
+    {
+     "id": "EMQydbilqmo#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=164s",
+     "video": "EMQydbilqmo",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "Usar vários arpejos sobre o mesmo acorde"
+    },
+    {
+     "id": "tqnvvqZu2_c#I11",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "How to Nail the Jazzy Notes by Mixing 7th Arpeggios in Your Solos! Guitar Lesson w/ Carter Arrington",
+     "url": "https://www.youtube.com/watch?v=tqnvvqZu2_c&t=682s",
+     "video": "tqnvvqZu2_c",
+     "inicio": 682,
+     "momento": "11:24",
+     "ideia": "Montar os arpejos a partir de cada nota de Dm7 na tonalidade de Dó"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I20",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Arpejos de tétrades progressivos a partir das notas estruturais"
+    }
+   ]
+  },
+  {
+   "titulo": "G7 alterado: pense D♭7, toque Fm7♭5",
+   "objetivo": "Gerar ♭9 e ♭13 no dominante com um único arpejo e resolver por semitom.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Ponha Dm7–G7alt–Cmaj7–Cmaj7 em loop a 66 bpm.",
+    "Monte Fm7♭5 (Fá Lá♭ Si/Dó♭ Mi♭) entre as casas 6 e 9 e diga os graus em Sol: ♭7, ♭9, 3, ♭13.",
+    "Toque a V5 e ouça o Mi♭ subir meio tom até o Mi do Cmaj7.",
+    "Agora toque a versão diatônica (Bm7♭5) no mesmo compasso e compare a tensão.",
+    "Improvise alternando as duas versões a cada volta, sempre resolvendo por semitom."
    ],
    "visual": {
-    "id": "V7",
+    "id": "V5",
     "tipo": "tab",
-    "legenda": "ii-V-I com dominante alterado: sobre o G7alt entra Fm7♭5 (F A♭ B E♭), o arpejo da 3ª de D♭7. As tensões ♭9 e ♭13 resolvem por semitom no Cmaj7.",
+    "legenda": "G7 alterado com Fm7♭5 (o arpejo da 3ª de D♭7): ♭7, ♭9, 3 e ♭13. As tensões ♭9 e ♭13 giram em volta da 3ª e da ♭7, e o Mi♭ sobe meio tom e chega ao Mi, a 3ª de Cmaj7.",
     "tonica": "C",
     "bpm": 66,
     "compassos": [
@@ -2004,7 +2459,7 @@
           "casa": 8,
           "nota": "F",
           "grau": "♭3",
-          "alvo": false
+          "alvo": true
          }
         ]
        },
@@ -2024,8 +2479,8 @@
         "t": 1,
         "notas": [
          {
-          "corda": 3,
-          "casa": 5,
+          "corda": 4,
+          "casa": 10,
           "nota": "C",
           "grau": "♭7",
           "alvo": false
@@ -2036,10 +2491,22 @@
         "t": 1.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 5,
+          "corda": 3,
+          "casa": 9,
           "nota": "E",
           "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭7",
           "alvo": false
          }
         ]
@@ -2048,10 +2515,10 @@
         "t": 3,
         "notas": [
          {
-          "corda": 3,
-          "casa": 5,
-          "nota": "C",
-          "grau": "♭7",
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
           "alvo": false
          }
         ]
@@ -2059,17 +2526,17 @@
       ]
      },
      {
-      "acorde": "G7alt",
+      "acorde": "G7",
       "tempos": [
        {
         "t": 0,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
-          "nota": "B",
-          "grau": "3",
-          "alvo": false
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": true
          }
         ]
        },
@@ -2077,11 +2544,11 @@
         "t": 0.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 4,
-          "nota": "E♭",
-          "grau": "♭13",
-          "alvo": true
+          "corda": 4,
+          "casa": 6,
+          "nota": "A♭",
+          "grau": "♭9",
+          "alvo": false
          }
         ]
        },
@@ -2089,10 +2556,10 @@
         "t": 1,
         "notas": [
          {
-          "corda": 1,
-          "casa": 4,
-          "nota": "A♭",
-          "grau": "♭9",
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
           "alvo": true
          }
         ]
@@ -2101,10 +2568,10 @@
         "t": 1.5,
         "notas": [
          {
-          "corda": 2,
-          "casa": 6,
-          "nota": "F",
-          "grau": "♭7",
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭13",
           "alvo": false
          }
         ]
@@ -2114,9 +2581,9 @@
         "notas": [
          {
           "corda": 2,
-          "casa": 4,
-          "nota": "E♭",
-          "grau": "♭13",
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
           "alvo": false
          }
         ]
@@ -2125,10 +2592,10 @@
         "t": 2.5,
         "notas": [
          {
-          "corda": 3,
-          "casa": 4,
-          "nota": "B",
-          "grau": "3",
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "♭9",
           "alvo": false
          }
         ]
@@ -2137,22 +2604,10 @@
         "t": 3,
         "notas": [
          {
-          "corda": 4,
-          "casa": 6,
-          "nota": "A♭",
-          "grau": "♭9",
-          "alvo": false
-         }
-        ]
-       },
-       {
-        "t": 3.5,
-        "notas": [
-         {
-          "corda": 4,
-          "casa": 3,
-          "nota": "F",
-          "grau": "♭7",
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭13",
           "alvo": false
          }
         ]
@@ -2166,8 +2621,8 @@
         "t": 0,
         "notas": [
          {
-          "corda": 4,
-          "casa": 2,
+          "corda": 3,
+          "casa": 9,
           "nota": "E",
           "grau": "3",
           "alvo": true
@@ -2175,40 +2630,32 @@
         ]
        },
        {
-        "t": 0.5,
+        "t": 2,
         "notas": [
          {
-          "corda": 3,
-          "casa": 0,
+          "corda": 2,
+          "casa": 8,
           "nota": "G",
           "grau": "5",
           "alvo": false
          }
         ]
-       },
-       {
-        "t": 1,
-        "notas": [
-         {
-          "corda": 3,
-          "casa": 4,
-          "nota": "B",
-          "grau": "7",
-          "alvo": true
-         }
-        ]
        }
       ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
      }
     ],
     "marcas": [],
     "acordes": []
    },
    "variacoes": [
-    "Toque o acorde D♭7 (x4342x) no lugar do G7 na base e use a mesma linha.",
-    "Experimente as tríades de C e G♭ alternadas sobre C7, para sentir a tensão do trítono entre tríades."
+    "Resolva o Lá♭ (♭9) no Sol (5 de Dó).",
+    "Experimente as tríades C e G♭ sobre um vamp de C7, a um trítono uma da outra."
    ],
-   "cuidado": "Pousar na ♭9 ou na ♭13 no fim da frase. Essas notas alteradas existem para resolver: se o Cmaj7 chega e você não cai na nota vizinha, soa como erro.",
+   "cuidado": "Usar Fm7♭5 num G7 comum, que a base toca com a 9ª natural. Combine a tensão com o que a harmonia pede.",
    "inspirado_em": [
     {
      "id": "Md9ZC0qFK3s#I19",
@@ -2255,35 +2702,46 @@
      "ideia": "Tensão de trítono entre tríades"
     },
     {
-     "id": "5hmSQuMIf-w#I18",
+     "id": "PLRMB8b_3pk#I07",
      "tipo": "video",
-     "autor": "Jens Larsen",
-     "titulo": "II V I  - You Need To Practice This For Solos",
-     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=528s",
-     "video": "5hmSQuMIf-w",
-     "inicio": 528,
-     "momento": "08:50",
-     "ideia": "Combinar arpejos da 3ª com cromatismo"
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=301s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 301,
+     "momento": "05:03",
+     "ideia": "Arpejo de dominante de cinco notas com ♭9"
+    },
+    {
+     "id": "PLRMB8b_3pk#I09",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=373s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Frase do dominante resolvendo na 3ª menor do acorde-alvo"
     }
    ]
   }
  ],
  "erros_comuns": [
-  "Nomear as notas pelo arpejo superposto (\"estou tocando Em\") e não pelo acorde de baixo. Assim você perde a noção de qual nota é a 9ª, a 11ª ou a 13ª.",
-  "Correr os arpejos para cima e para baixo sem pouso: as extensões passam despercebidas e soam como escala.",
-  "Trocar de região do braço a cada superposição. Mantenha as tríades e os arpejos na mesma posição e, se der, com o mesmo desenho.",
-  "Usar o arpejo da 3ª comum (Bm7♭5) sobre um dominante alterado: a 9ª e a 5ª naturais brigam com ♭9 e ♭13.",
-  "Pousar em tensões fortes (4ª sobre o maior, ♭9, ♭13) no final da frase, sem resolver por semitom.",
-  "Decorar superposições soltas, sem entender a lógica: a fundamental fica fora e as extensões entram."
+  "Dar às notas os nomes do arpejo superposto ('estou em Mi menor') e não os graus do acorde real. Assim o ouvido não aprende a cor.",
+  "Pular de região a cada acorde: a superposição fica impraticável. Mantenha as duas formas na mesma área do braço.",
+  "Passar pelas extensões sem destacá-las: 9ª, 11ª e ♯11 precisam de duração, tempo forte ou aproximação.",
+  "Usar o arpejo da 3ª (Bm7♭5) num G7 alterado: a 9ª e a 5ª naturais brigam com ♭9 e ♭13.",
+  "Pousar na 4ª do sus4 sobre o acorde maior como se fosse repouso, sem resolver na 3ª.",
+  "Tocar os arpejos sempre de baixo para cima em fila: soa como exercício, não como frase."
  ],
  "resumo": [
-  "Superpor é tocar sobre um acorde um arpejo ou tríade de outro acorde. Os papéis das notas vêm do acorde de baixo.",
-  "Regra de ouro: arpejo a partir da 3ª. Cmaj7 → Em7, Dm7 → Fmaj7, G7 → Bm7♭5. Ele traz 3, 5, 7 e 9.",
-  "Arpejos a partir da 5ª e da 7ª trazem 9, 11 e 13. Por exemplo, Bm7 sobre Em soa como Em11.",
-  "sus4 e pares de tríades do mesmo desenho dão cor modal sem sair da região.",
-  "No dominante alterado, pense no substituto por trítono: Fm7♭5 sobre G7alt dá ♭9 e ♭13, que resolvem por semitom."
+  "Superpor é tocar um arpejo ou tríade conhecido sobre outro acorde para alcançar 9ª, 11ª e 13ª.",
+  "Regra de ouro: o arpejo a partir da 3ª traz 3-5-7 + 9. Em Dó: Fmaj7/Dm7, Bm7♭5/G7, Em7/Cmaj7.",
+  "Quanto mais alto no acorde o arpejo começa, mais tensão: Bm7 sobre Em = Em11.",
+  "Sus4, 6ª e 9ª colorem a tríade sem mudar a mão de lugar. Pares de tríades (C + D) criam a cor do modo.",
+  "G7alt: pense D♭7 e toque Fm7♭5 (♭7, ♭9, 3, ♭13), resolvendo por semitom."
  ],
- "proximos_passos": "Para aprofundar as tensões alteradas e o fraseado sobre o V7, siga para \"Vocabulário de jazz: bebop, dominantes e tensões\". Quem quiser costurar os arpejos superpostos com notas cromáticas encontra apoio em \"Aproximação cromática, enclosures e notas de passagem\". Para usar os pares de tríades com consciência modal, revise \"Modos na prática: tonal vs. modal e troca de modo\". O contexto harmônico do ii-V-I e dos substitutos está em \"Harmonia de jazz para o solista\".",
+ "proximos_passos": "Para encaixar esses arpejos em linhas com cromatismo, siga para 'Vocabulário de jazz: bebop, dominantes e tensões'. Se quiser explorar o lado 'fora' das tríades a um trítono, vá a 'Tensão, dissonância e notas fora'. Se as formas de sétima ainda estão lentas na mão, revise 'Arpejos de sétima e diatônicos' e 'Tríades em grupos de cordas e inversões'.",
  "_meta": {
   "subcategoria": "C10.5",
   "modulo": {
@@ -2294,44 +2752,17 @@
   "modelo": "claude-opus-5-5",
   "via": "agent-sdk",
   "effort": "medium",
-  "gerado_em": "2026-10-08T19:54:38",
-  "erros_restantes": [
-   "conceito 3 (visual V5) c1: nota-alvo F♯ não pertence a Em",
-   "conceito 3 (visual V5) c1: nota-alvo A não pertence a Em",
-   "conceito 3 (visual V5) c2: nota-alvo F♯ não pertence a Em",
-   "conceito 4 (visual V4) c1: nota-alvo F não pertence a C",
-   "conceito 4 (visual V4) c2: nota-alvo F não pertence a C",
-   "conceito 5 (visual V6) c1: nota-alvo F♯ não pertence a C",
-   "conceito 5 (visual V6) c2: nota-alvo F♯ não pertence a C",
-   "exercício 'A 4ª que incomoda: tríade de Dó com sus4' (visual V4) c1: nota-alvo F não pertence a C",
-   "exercício 'A 4ª que incomoda: tríade de Dó com sus4' (visual V4) c2: nota-alvo F não pertence a C",
-   "exercício 'Em11 sem decorar acorde: Bm7 sobre Em' (visual V5) c1: nota-alvo F♯ não pertence a Em",
-   "exercício 'Em11 sem decorar acorde: Bm7 sobre Em' (visual V5) c1: nota-alvo A não pertence a Em",
-   "exercício 'Em11 sem decorar acorde: Bm7 sobre Em' (visual V5) c2: nota-alvo F♯ não pertence a Em",
-   "exercício 'ii-V-I só com arpejos da 3ª' (visual V3) c1: nota-alvo E não pertence a Dm7",
-   "exercício 'ii-V-I só com arpejos da 3ª' (visual V3) c2: nota-alvo A não pertence a G7",
-   "exercício 'ii-V-I só com arpejos da 3ª' (visual V3) c3: nota-alvo D não pertence a Cmaj7",
-   "exercício 'Par de tríades lídio: C sobe, D desce' (visual V6) c1: nota-alvo F♯ não pertence a C",
-   "exercício 'Par de tríades lídio: C sobe, D desce' (visual V6) c2: nota-alvo F♯ não pertence a C",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) compasso 2: acorde 'G7alt' não reconhecido",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t0: B não é o 3 da referência (3ª corda, casa 4)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t0.5: E♭ não é o ♭13 da referência (2ª corda, casa 4)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t1: A♭ não é o ♭9 da referência (1ª corda, casa 4)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t1.5: F não é o ♭7 da referência (2ª corda, casa 6)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t2: E♭ não é o ♭13 da referência (2ª corda, casa 4)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t2.5: B não é o 3 da referência (3ª corda, casa 4)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t3: A♭ não é o ♭9 da referência (4ª corda, casa 6)",
-   "exercício 'G7alt vira D♭7: Fm7♭5 no ii-V-I' (visual V7) c2 t3.5: F não é o ♭7 da referência (4ª corda, casa 3)"
-  ],
-  "tentativas": 3,
+  "gerado_em": "2026-10-08T20:26:22",
+  "erros_restantes": [],
+  "tentativas": 1,
   "uso": {
-   "input": 12,
-   "cache_write": 63505,
-   "cache_read": 111959,
-   "output": 81277,
-   "thinking": 21595,
-   "turns": 11,
-   "custo_nominal": 2.2376458
+   "input": 4,
+   "cache_write": 36478,
+   "cache_read": 8780,
+   "output": 22959,
+   "thinking": 5463,
+   "turns": 4,
+   "custo_nominal": 0.7829790000000001
   }
  }
 }
