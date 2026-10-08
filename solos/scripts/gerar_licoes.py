@@ -146,6 +146,10 @@ def clean_text(x):
 def inline_visuals(L: dict) -> dict:
     """O modelo devolve os visuais numa lista (schema menor); a lição final traz cada um no seu lugar."""
     L = clean_text(L)
+    for v in L.get("visuais", []):
+        for k in ("compassos", "marcas", "acordes"):
+            v.setdefault(k, [])
+        v.setdefault("bpm", 70)
     by_id = {v["id"]: v for v in L.pop("visuais", [])}
     for blk in L.get("conceito", []) + L.get("exercicios", []):
         if isinstance(blk.get("visual"), str):
@@ -171,7 +175,9 @@ NOTE = {"type": "object", "additionalProperties": False, "required": ["corda", "
                        "alvo": {"type": "boolean", "description": "nota-alvo do exercício (ganha anel)"}}}
 VISUAL = {
     "type": "object", "additionalProperties": False,
-    "required": ["id", "tipo", "legenda", "tonica", "bpm", "compassos", "marcas", "acordes"],
+    # Só o essencial é obrigatório: quando o modelo omitia uma lista vazia (ex.: "acordes" numa tab), o SDK
+    # recusava a resposta e ele reescrevia a lição inteira. As listas que faltarem viram [] em inline_visuals.
+    "required": ["id", "tipo", "legenda", "tonica"],
     "properties": {
         "id": {"type": "string", "description": "V1, V2, ... (referenciado por conceito/exercício)"},
         "tipo": {"type": "string", "enum": ["tab", "braco", "acordes", "nenhum"]},
@@ -193,6 +199,9 @@ VISUAL = {
                                                               "digitacao": {"type": "string", "description": "6 caracteres da 6ª para a 1ª corda, x = abafada; casas ≥10 em letra (a=10, b=11, c=12)"}}}},
     },
 }
+FIX_SCHEMA = {"type": "object", "additionalProperties": False, "required": ["visuais"],
+              "properties": {"visuais": {"type": "array", "items": VISUAL}}}
+
 SCHEMA = {
     "type": "object", "additionalProperties": False,
     "required": ["titulo", "gancho", "porque_importa", "ilustracao", "visuais", "conceito", "fontes_destaque",
@@ -441,9 +450,40 @@ async def sdk_generate(sub_id: str, effort: str):
         log(f"[{sub_id}] sdk tentativa {attempt} usage={u} turnos={res.num_turns} custo={res.total_cost_usd} erros={errs}")
         if not errs:
             break
-        prompt = (text + "\n\nSUA VERSÃO ANTERIOR (JSON) foi reprovada pelo validador automático, que calcula a nota real "
-                  "de cada corda/casa. Devolva a lição inteira corrigida.\nERROS:\n- " + "\n- ".join(errs[:30]) +
-                  "\n\nVERSÃO ANTERIOR:\n" + json.dumps(raw, ensure_ascii=False))
+        # Só os visuais com erro voltam ao modelo; o resto da lição fica como está (custa uma fração da reescrita).
+        bad = sorted(set(re.findall(r"visual (V\w+)", " ".join(errs))))
+        if not bad or attempt == MAX_ATTEMPTS:
+            continue
+        cur = {v["id"]: v for v in raw.get("visuais", [])}
+        fix_prompt = ("Estes visuais de uma lição de guitarra foram reprovados pelo validador automático, que calcula a "
+                      "nota real de cada corda/casa. Corrija só o necessário (notas, casas, graus, digitações) mantendo a "
+                      "ideia musical e o mesmo id, e devolva apenas estes visuais.\nERROS:\n- " + "\n- ".join(errs[:30]) +
+                      "\n\nVISUAIS:\n" + json.dumps([cur[b] for b in bad if b in cur], ensure_ascii=False))
+        fix_opts = ClaudeAgentOptions(model=MODEL, system_prompt=SYSTEM, tools=[], allowed_tools=[], setting_sources=[],
+                                      strict_mcp_config=True, mcp_servers={}, plugins=[], max_turns=3, effort="medium",
+                                      cwd=empty, output_format={"type": "json_schema", "schema": FIX_SCHEMA})
+        fres = None
+        async for m in query(prompt=fix_prompt, options=fix_opts):
+            if isinstance(m, ResultMessage):
+                fres = m
+        if fres is None or fres.is_error or fres.structured_output is None:
+            log(f"[{sub_id}] correção dos visuais falhou: {getattr(fres, 'subtype', None)}")
+            continue
+        fu = fres.usage or {}
+        usage_tot["cache_write"] += fu.get("cache_creation_input_tokens", 0)
+        usage_tot["cache_read"] += fu.get("cache_read_input_tokens", 0)
+        usage_tot["input"] += fu.get("input_tokens", 0)
+        usage_tot["output"] += fu.get("output_tokens", 0)
+        usage_tot["turns"] += fres.num_turns
+        usage_tot["custo_nominal"] += fres.total_cost_usd or 0
+        for v in fres.structured_output.get("visuais", []):
+            cur[v["id"]] = v
+        raw = {**raw, "visuais": list(cur.values())}
+        L = inline_visuals(json.loads(json.dumps(raw)))
+        errs = validate_lesson(L)
+        log(f"[{sub_id}] correção de {bad}: out={fu.get('output_tokens')} erros={errs}")
+        if not errs:
+            break
     L = resolve_sources(L, gids)
     L["_meta"] = {"subcategoria": sub_id, "modulo": {"id": c["id"], "nome": c["nome"]}, "nome": s["nome"], "modelo": MODEL,
                   "via": "agent-sdk", "effort": effort, "gerado_em": datetime.now().isoformat(timespec="seconds"),
