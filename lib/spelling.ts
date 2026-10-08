@@ -45,3 +45,21 @@ export function namesForScale(rootPc: number, intervals: number[]): Names {
 
 /** O nome de cada tônica no seletor, escrito no tom dela mesma. */
 export const tonicLabel = (pc: number, minor: boolean) => namesForTonic(pc, minor)(pc)
+
+const LETTERS = ['C', 'D', 'E', 'F', 'G', 'A', 'B']
+const LETTER_PC = [0, 2, 4, 5, 7, 9, 11]
+const ACCIDENTAL: Record<number, string> = { [-2]: '𝄫', [-1]: '♭', 0: '', 1: '♯', 2: '𝄪' }
+
+/**
+ * A nota de um acorde escrita pelo grau: a letra anda junto com o número (a ♭7 de
+ * C é B♭, nunca A♯; a ♯9 é D♯, nunca E♭), e o acidente acerta a altura.
+ */
+export function spellDegree(rootName: string, pc: number, degree: string): string {
+  const num = parseInt(degree.replace(/\D/g, ''), 10)
+  const li = LETTERS.indexOf(rootName[0])
+  if (!num || li < 0) return sharpNames(pc)
+  const l = (li + num - 1) % 7
+  let diff = mod12(pc - LETTER_PC[l])
+  if (diff > 6) diff -= 12
+  return diff in ACCIDENTAL ? LETTERS[l] + ACCIDENTAL[diff] : sharpNames(pc)
+}

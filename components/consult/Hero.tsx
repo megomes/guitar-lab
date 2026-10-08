@@ -13,7 +13,7 @@ import { useNames } from '../names'
 
 const INTERVALS = ['1', '♭2', '2', '♭3', '3', '4', '♭5', '5', '♭6', '6', '♭7', '7']
 
-function Pip({ top, main, degree }: { top: string; main: string; degree: string }) {
+export function Pip({ top, main, degree }: { top: string; main: string; degree: string }) {
   const color = degreeColor(degree)
   return (
     <div className="pip">

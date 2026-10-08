@@ -61,7 +61,7 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   return (
     <svg className="stage-wheel" viewBox="0 0 200 200" role="group" aria-label="roda das notas">
       <circle cx={100} cy={100} r={R} fill="none" stroke="rgba(255,255,255,0.07)" />
-      {lit.size > 2 && <polygon points={poly} fill="rgba(255,91,36,0.12)" stroke="rgba(255,122,69,0.75)" strokeWidth={1.4} strokeLinejoin="round" />}
+      {lit.size > 2 && <polygon points={poly} style={{ fill: 'rgba(var(--accent-rgb), 0.12)', stroke: 'rgba(var(--accent-2-rgb), 0.75)' }} strokeWidth={1.4} strokeLinejoin="round" />}
       {lit.size === 2 && <polyline points={poly} fill="none" stroke="rgba(255,122,69,0.75)" strokeWidth={1.4} />}
       <text x={100} y={sub ? 96 : 100} className="stage-wheel-center">
         {center}
@@ -112,7 +112,7 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   )
 }
 
-const Wheel = memo(WheelView)
+export const Wheel = memo(WheelView)
 
 /* ── Um diagrama de pé, como no caderno de acordes ────────────────────── */
 

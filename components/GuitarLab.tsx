@@ -12,7 +12,7 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 
 import { chordIntervals } from '@/lib/chords'
 import { SCALES } from '@/lib/fretboard'
-import { MODES, type ModeId } from '@/lib/modes'
+import { INSTRUMENT_NAME, MODES, instrumentOf, type Instrument, type ModeId } from '@/lib/modes'
 import { PROG_BY } from '@/lib/practice/caged'
 import { computePractice, modeName, tonicName } from '@/lib/practice/session'
 import { DEFAULTS, STORAGE_KEY, loadSettings, type Settings } from '@/lib/settings'
@@ -21,6 +21,8 @@ import { isMinorish, namesForScale, namesForTonic, sharpNames } from '@/lib/spel
 import { ChordsV2 } from './consult/ChordsV2'
 import { ConsultView } from './consult/ConsultView'
 import { NamesContext } from './names'
+import { PianoGame } from './piano/PianoGame'
+import { PianoView } from './piano/PianoView'
 import { MeetingView } from './practice/MeetingView'
 import { PlanView } from './practice/PlanView'
 import { PracticeView } from './practice/PracticeView'
@@ -82,8 +84,30 @@ export function GuitarLab() {
   }, [])
 
   const { mode, rootPc, shape, scaleId, quality, tonality, prog } = settings
+  const instrument = instrumentOf(mode)
+
+  /* O seletor do topo: volta para a tela onde o outro instrumento ficou. */
+  const setInstrument = useCallback((i: Instrument) => {
+    setSettings((s) => (instrumentOf(s.mode) === i ? s : { ...s, mode: s.otherMode, otherMode: s.mode }))
+    goTop()
+  }, [])
+
+  /* O nome da aba segue o instrumento. Os metadados do Next escrevem "Guitar Lab"
+     depois da hidratação, então o título é reaplicado quando muda por fora. */
+  useEffect(() => {
+    const name = INSTRUMENT_NAME[instrument]
+    const apply = () => {
+      if (document.title !== name) document.title = name
+    }
+    apply()
+    const obs = new MutationObserver(apply)
+    obs.observe(document.head, { childList: true, subtree: true, characterData: true })
+    return () => obs.disconnect()
+  }, [instrument])
+
   const group = MODES.find((m) => m.id === mode)?.group ?? 'consulta'
   const scale = useMemo(() => SCALES.find((s) => s.id === scaleId) ?? SCALES[0], [scaleId])
+  const pScale = useMemo(() => SCALES.find((s) => s.id === settings.pScaleId) ?? SCALES[0], [settings.pScaleId])
 
   /* A posição do treino: calculada uma vez e dividida pelas três telas. */
   const P = useMemo(
@@ -97,8 +121,12 @@ export function GuitarLab() {
     /* As oito formas misturam maiores e menores: a grafia é a da tônica como tom maior. */
     if (mode === 'chords2') return namesForTonic(rootPc, false)
     if (mode === 'notes') return sharpNames
+    if (mode === 'pChords') return namesForTonic(rootPc, isMinorish(chordIntervals(settings.pQuality)))
+    if (mode === 'pScales') return namesForScale(rootPc, pScale.intervals)
+    /* O jogo escolhe a grafia sozinho, pelo tom ou pelo acorde sorteado. */
+    if (mode === 'pGame') return sharpNames
     return P.names
-  }, [mode, rootPc, scale, quality, P])
+  }, [mode, rootPc, scale, quality, P, settings.pQuality, pScale])
 
   /* Da escala para o treino: a tônica e a forma ficam; menor ou maior sai da escala. */
   const toPractice = useCallback(() => {
@@ -131,7 +159,13 @@ export function GuitarLab() {
   }, [])
 
   const context =
-    mode === 'solos'
+    mode === 'pChords'
+      ? `${names(rootPc)} · acordes`
+      : mode === 'pScales'
+      ? `${names(rootPc)} ${pScale.name.toLowerCase()}`
+      : mode === 'pGame'
+      ? 'Jogo de acordes'
+      : mode === 'solos'
       ? 'Solo e improvisação'
       : mode === 'quiz'
       ? `${settings.quizPcs.length} notas · ${settings.quizStrings.length} cordas`
@@ -144,7 +178,9 @@ export function GuitarLab() {
         : `${names(rootPc)} · forma ${shape}`
 
   const cta =
-    mode === 'notes'
+    instrument === 'piano'
+      ? undefined
+      : mode === 'notes'
       ? { label: 'Jogar', onPress: toQuiz }
       : mode === 'quiz'
         ? { label: 'Ver as notas', onPress: toNotes }
@@ -154,19 +190,23 @@ export function GuitarLab() {
 
   return (
     <NamesContext.Provider value={names}>
-      <div className="app">
+      <div className="app" data-inst={instrument}>
         <div className="backdrop" aria-hidden />
         <Nav
           mode={mode}
           onMode={setMode}
           context={context}
           cta={cta}
+          onInstrument={setInstrument}
         />
 
         {mode === 'chords2' && <ChordsV2 settings={settings} set={set} />}
         {group === 'consulta' && mode !== 'chords2' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
         {mode === 'solos' && <SolosView />}
+        {mode === 'pChords' && <PianoView view="chords" settings={settings} set={set} patch={patch} />}
+        {mode === 'pScales' && <PianoView view="scales" settings={settings} set={set} patch={patch} />}
+        {mode === 'pGame' && <PianoGame settings={settings} set={set} />}
         {mode === 'practice' && <PracticeView P={P} settings={settings} set={set} patch={patch} onConsult={toConsult} />}
         {mode === 'meeting' && <MeetingView P={P} settings={settings} set={set} patch={patch} />}
         {mode === 'plan' && (
@@ -187,7 +227,7 @@ export function GuitarLab() {
           />
         )}
 
-        <TabBar mode={mode} onMode={setMode} cta={cta} />
+        <TabBar mode={mode} onMode={setMode} cta={cta} onInstrument={setInstrument} />
       </div>
     </NamesContext.Provider>
   )

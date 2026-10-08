@@ -24,12 +24,17 @@
   --accent: #ff5b24;
   --accent-2: #ff7a45;
   --accent-deep: #c23a10;
-  --accent-soft: rgba(255, 91, 36, 0.14);
-  --accent-line: rgba(255, 110, 60, 0.55);
+  /* Os mesmos tons em RGB, para as transparências (luz, borda, sombra). */
+  --accent-rgb: 255, 91, 36;
+  --accent-2-rgb: 255, 122, 69;
+  --accent-deep-rgb: 160, 42, 12;
+  --accent-hi-rgb: 255, 215, 195;
+  --accent-soft: rgba(var(--accent-rgb), 0.14);
+  --accent-line: rgba(var(--accent-2-rgb), 0.55);
   --warn: #ff4d6d;
 
-  --glass: linear-gradient(165deg, rgba(255, 128, 82, 0.96) 0%, rgba(240, 78, 32, 0.94) 42%, rgba(160, 42, 12, 0.92) 100%);
-  --glass-glow: 0 0 0 1px rgba(255, 170, 130, 0.35) inset, 0 1px 0 rgba(255, 220, 200, 0.55) inset, 0 18px 60px rgba(255, 80, 30, 0.28);
+  --glass: linear-gradient(165deg, rgba(var(--accent-2-rgb), 0.96) 0%, rgba(var(--accent-rgb), 0.94) 42%, rgba(var(--accent-deep-rgb), 0.92) 100%);
+  --glass-glow: 0 0 0 1px rgba(var(--accent-hi-rgb), 0.35) inset, 0 1px 0 rgba(var(--accent-hi-rgb), 0.55) inset, 0 18px 60px rgba(var(--accent-rgb), 0.28);
 
   --r-xs: 7px;
   --r-sm: 9px;
@@ -48,6 +53,23 @@
   --gutter: 20px;
 
   color-scheme: dark;
+}
+
+/* O Piano Lab: o mesmo app, com o acento num azul escuro quente (puxando para o
+   índigo) no lugar do laranja. Os tokens que dependem do RGB são refeitos aqui,
+   porque o var() de :root já chega resolvido. */
+.app[data-inst='piano'] {
+  --accent: #3b55d4;
+  --accent-2: #5a73ea;
+  --accent-deep: #1f2c8c;
+  --accent-rgb: 59, 85, 212;
+  --accent-2-rgb: 96, 120, 240;
+  --accent-deep-rgb: 26, 36, 120;
+  --accent-hi-rgb: 200, 210, 255;
+  --accent-soft: rgba(var(--accent-rgb), 0.16);
+  --accent-line: rgba(var(--accent-2-rgb), 0.55);
+  --glass: linear-gradient(165deg, rgba(var(--accent-2-rgb), 0.96) 0%, rgba(var(--accent-rgb), 0.94) 42%, rgba(var(--accent-deep-rgb), 0.92) 100%);
+  --glass-glow: 0 0 0 1px rgba(var(--accent-hi-rgb), 0.35) inset, 0 1px 0 rgba(var(--accent-hi-rgb), 0.55) inset, 0 18px 60px rgba(var(--accent-rgb), 0.3);
 }
 
 * {
@@ -143,9 +165,9 @@ h3 {
   z-index: -1;
   pointer-events: none;
   background:
-    radial-gradient(ellipse 60% 38% at 50% -6%, rgba(255, 91, 36, 0.12), transparent 70%),
-    radial-gradient(ellipse 34% 40% at 0% 62%, rgba(255, 70, 20, 0.07), transparent 70%),
-    radial-gradient(ellipse 34% 40% at 100% 62%, rgba(255, 70, 20, 0.07), transparent 70%);
+    radial-gradient(ellipse 60% 38% at 50% -6%, rgba(var(--accent-rgb), 0.12), transparent 70%),
+    radial-gradient(ellipse 34% 40% at 0% 62%, rgba(var(--accent-rgb), 0.07), transparent 70%),
+    radial-gradient(ellipse 34% 40% at 100% 62%, rgba(var(--accent-rgb), 0.07), transparent 70%);
 }
 
 .backdrop::before,
@@ -202,7 +224,7 @@ h3 {
   display: grid;
   place-items: center;
   background: var(--glass);
-  box-shadow: 0 1px 0 rgba(255, 220, 200, 0.5) inset, 0 4px 18px rgba(255, 80, 30, 0.35);
+  box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 4px 18px rgba(var(--accent-rgb), 0.35);
 }
 
 .links {
@@ -279,11 +301,11 @@ h3 {
 .btn-primary {
   color: #fff;
   background: linear-gradient(180deg, var(--accent-2), var(--accent));
-  box-shadow: 0 1px 0 rgba(255, 210, 190, 0.5) inset, 0 6px 20px rgba(255, 80, 30, 0.28);
+  box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 6px 20px rgba(var(--accent-rgb), 0.28);
 }
 
 .btn-primary:hover {
-  box-shadow: 0 1px 0 rgba(255, 210, 190, 0.5) inset, 0 8px 28px rgba(255, 80, 30, 0.42);
+  box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 8px 28px rgba(var(--accent-rgb), 0.42);
 }
 
 .btn-ghost {
@@ -446,7 +468,7 @@ h3 {
   color: #fff;
   border-color: transparent;
   background: linear-gradient(180deg, var(--accent-2), var(--accent));
-  box-shadow: 0 1px 0 rgba(255, 210, 190, 0.5) inset, 0 4px 16px rgba(255, 80, 30, 0.3);
+  box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 4px 16px rgba(var(--accent-rgb), 0.3);
 }
 
 .chip-on small {
@@ -556,7 +578,7 @@ h3 {
   flex: none;
   color: var(--accent-2);
   background: var(--accent-soft);
-  border: 1px solid rgba(255, 110, 60, 0.22);
+  border: 1px solid rgba(var(--accent-2-rgb), 0.22);
 }
 
 .pips {
@@ -776,7 +798,7 @@ h3 {
 
 .fb-now {
   pointer-events: none;
-  filter: drop-shadow(0 0 8px rgba(255, 140, 90, 0.9));
+  filter: drop-shadow(0 0 8px rgba(var(--accent-2-rgb), 0.9));
 }
 
 @keyframes fb-pop {
@@ -891,7 +913,7 @@ h3 {
   font-size: 10.5px;
   color: var(--accent-2);
   background: var(--accent-soft);
-  border: 1px solid rgba(255, 110, 60, 0.3);
+  border: 1px solid rgba(var(--accent-2-rgb), 0.3);
   flex: none;
 }
 
@@ -1100,14 +1122,14 @@ h3 {
 }
 
 .fn-target {
-  background: rgba(255, 91, 36, 0.14);
+  background: rgba(var(--accent-rgb), 0.14);
   box-shadow: 0 0 0 1px var(--accent-line);
 }
 
 .fn-now {
   background: var(--fg) !important;
   color: var(--bg) !important;
-  box-shadow: 0 0 0 2px var(--accent), 0 0 14px rgba(255, 91, 36, 0.85) !important;
+  box-shadow: 0 0 0 2px var(--accent), 0 0 14px rgba(var(--accent-rgb), 0.85) !important;
 }
 
 .beats {
@@ -1215,7 +1237,7 @@ h3 {
   font-size: 16px;
   color: var(--accent-2);
   background: var(--accent-soft);
-  border: 1px solid rgba(255, 110, 60, 0.3);
+  border: 1px solid rgba(var(--accent-2-rgb), 0.3);
 }
 
 .blk b {
@@ -1310,7 +1332,7 @@ button.wk-on:hover {
 .rule {
   padding: 12px 14px;
   border-radius: var(--r-md);
-  border: 1px solid rgba(255, 110, 60, 0.3);
+  border: 1px solid rgba(var(--accent-2-rgb), 0.3);
   background: var(--accent-soft);
   color: var(--fg-2);
   font-size: 13px;
@@ -1396,7 +1418,7 @@ button.wk-on:hover {
   border-radius: var(--r-xl);
   border: 1px solid var(--line-2);
   background:
-    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 91, 36, 0.16), transparent 70%),
+    radial-gradient(ellipse 80% 60% at 50% 0%, rgba(var(--accent-rgb), 0.16), transparent 70%),
     linear-gradient(180deg, var(--card-2), var(--bg-2));
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.6);
   font-size: 13.5px;
@@ -2119,7 +2141,7 @@ button.wk-on:hover {
   line-height: 0.95;
   letter-spacing: -0.03em;
   color: var(--accent-2);
-  text-shadow: 0 0 60px rgba(255, 91, 36, 0.45);
+  text-shadow: 0 0 60px rgba(var(--accent-rgb), 0.45);
   animation: quiz-pop 280ms var(--ease) both;
   transition: color var(--t) var(--ease), text-shadow var(--t) var(--ease);
 }
@@ -2908,7 +2930,7 @@ button.stage-box-on:hover {
     border-radius: 11px;
     color: #fff;
     background: linear-gradient(180deg, var(--accent-2), var(--accent));
-    box-shadow: 0 1px 0 rgba(255, 210, 190, 0.5) inset, 0 4px 16px rgba(255, 80, 30, 0.3);
+    box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 4px 16px rgba(var(--accent-rgb), 0.3);
   }
 
   .screen {
@@ -3384,5 +3406,328 @@ button.stage-box-on:hover {
 
   .v2-blurb {
     min-height: 0;
+  }
+}
+
+/* ── Piano Lab ───────────────────────────────────────────────────────── */
+
+/* O seletor de instrumento, colado na marca. */
+.brand-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.inst {
+  display: inline-flex;
+  padding: 3px;
+  gap: 2px;
+  border-radius: 10px;
+  border: 1px solid var(--line-2);
+  background: var(--card);
+}
+
+.inst-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  color: var(--fg-3);
+  transition: color var(--t) var(--ease), background var(--t) var(--ease);
+}
+
+.inst-btn:hover {
+  color: var(--fg);
+}
+
+.inst-on {
+  color: #fff;
+  background: var(--glass);
+  box-shadow: var(--glass-glow);
+}
+
+.tab-inst {
+  display: none;
+}
+
+.brand {
+  white-space: nowrap;
+}
+
+/* Sem espaço para o nome: fica só o ícone de cada instrumento. */
+@media (max-width: 1299px) {
+  .inst-btn {
+    padding: 0 8px;
+  }
+
+  .inst-btn span {
+    display: none;
+  }
+}
+
+/* O teclado: brancas em marfim, pretas em grafite, sobre o card escuro. */
+.piano-viewport {
+  gap: 12px;
+}
+
+.piano-hint {
+  font-size: 12px;
+  color: var(--fg-4);
+}
+
+.kb-wrap {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  min-height: 150px;
+}
+
+.kb {
+  position: relative;
+  flex: 1;
+  height: 100%;
+  min-height: 150px;
+  max-height: 300px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
+}
+
+.kb-key {
+  position: absolute;
+  top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  transition: background 90ms var(--ease), box-shadow 90ms var(--ease), transform 90ms var(--ease);
+}
+
+.kb-white {
+  --key: #efebe4;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 0 0 7px 7px;
+  border: 1px solid rgba(0, 0, 0, 0.55);
+  border-top: 0;
+  background: linear-gradient(180deg, #d9d4cc 0%, var(--key) 7%, var(--key) 88%, #d6d1c9 100%);
+  color: #1b1a19;
+}
+
+.kb-black {
+  --key: #1b1b1e;
+  height: 62%;
+  z-index: 2;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid #000;
+  border-top: 0;
+  background: linear-gradient(180deg, #0c0c0d 0%, var(--key) 70%, #2b2b2f 94%, #121214 100%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.55);
+  color: #f4f1ec;
+}
+
+/* A nota marcada: a tecla toma a cor do papel por baixo, com o nome e o grau. */
+.kb-white.kb-marked {
+  background: linear-gradient(180deg, #d9d4cc 0%, var(--key) 7%, var(--key) 45%, color-mix(in srgb, var(--mk) 45%, var(--key)) 100%);
+}
+
+.kb-black.kb-marked {
+  background: linear-gradient(180deg, #0c0c0d 0%, var(--key) 40%, color-mix(in srgb, var(--mk) 55%, var(--key)) 100%);
+}
+
+.kb-ghost {
+  box-shadow: inset 0 0 0 2px var(--mk);
+}
+
+.kb-mark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin-bottom: 9px;
+  pointer-events: none;
+  line-height: 1;
+}
+
+.kb-mark b {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.kb-mark small {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  opacity: 0.75;
+}
+
+.kb-mark i {
+  width: 10px;
+  height: 10px;
+  margin-top: 3px;
+  border-radius: 50%;
+  background: var(--mk);
+  box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.35), 0 0 10px var(--mk);
+}
+
+.kb-ghost .kb-mark i {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--mk);
+}
+
+.kb-black .kb-mark b {
+  font-size: 10px;
+}
+
+.kb-black .kb-mark small {
+  font-size: 11px;
+}
+
+.kb-black .kb-mark {
+  margin-bottom: 7px;
+}
+
+.kb-oct {
+  margin-bottom: 8px;
+  font-size: 10px;
+  color: #8d8983;
+  pointer-events: none;
+}
+
+/* Tocada: afunda e acende no acento. No jogo, verde ou vermelho por cima. */
+.kb-on {
+  transform: translateY(1px);
+}
+
+.kb-white.kb-on {
+  --key: color-mix(in srgb, var(--accent-2) 50%, #efebe4);
+}
+
+.kb-black.kb-on {
+  --key: var(--accent);
+}
+
+.kb-white.kb-hit {
+  --key: #9fe9d9;
+}
+
+.kb-black.kb-hit {
+  --key: #3fae98;
+}
+
+.kb-white.kb-miss {
+  --key: #ff8da0;
+}
+
+.kb-black.kb-miss {
+  --key: #d93453;
+}
+
+/* Os teclados pequenos do palco: mais largos que os diagramas da guitarra. */
+.piano-boxes {
+  grid-auto-columns: minmax(0, 190px);
+}
+
+.piano-field {
+  grid-auto-columns: minmax(0, 130px);
+}
+
+.piano-boxes .stage-box svg {
+  height: 58px;
+  max-height: 58px;
+}
+
+.piano-field-label {
+  text-align: center;
+}
+
+/* O teclado grande, com a mesma altura do braço na consulta. */
+@media (min-width: 700px) and (min-height: 560px) {
+  .piano .kb-wrap {
+    flex: none;
+  }
+
+  .piano .kb {
+    flex: 1;
+    height: max(170px, min(24vw, 32vh, 300px));
+  }
+}
+
+/* O jogo: o mesmo palco do jogo da guitarra. */
+.pg-slash {
+  font-size: 0.55em;
+  color: var(--fg-3);
+}
+
+.pg-big-bad {
+  color: #ff4d6d;
+  text-shadow: 0 0 60px rgba(255, 77, 109, 0.4);
+}
+
+.pg-held .pip {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.pg-tries {
+  display: inline-flex;
+  gap: 6px;
+}
+
+.pg-tries i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--line-3);
+}
+
+.pg-tries .pg-spent {
+  background: #ff4d6d;
+  box-shadow: 0 0 8px rgba(255, 77, 109, 0.6);
+}
+
+.pg-worst {
+  gap: 8px;
+}
+
+.pg-worst b {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 3px;
+}
+
+@media (max-width: 1099px) {
+  .piano-hint {
+    display: none;
+  }
+}
+
+/* Celular deitado: o trilho ganha a troca de instrumento no topo, e o piano mantém
+   o topo da tela (os botões de tocar moram lá). */
+@media (orientation: landscape) and (max-height: 559px), (orientation: portrait) and (max-width: 559px) {
+  .tab-inst {
+    display: grid;
+    place-items: center;
+    flex: none;
+    height: 36px;
+    margin-bottom: 4px;
+    border-radius: 11px;
+    color: var(--fg-2);
+    border: 1px solid var(--line-2);
+    background: var(--card-2);
+  }
+
+  .piano .consult-head {
+    display: flex;
+  }
+
+  .kb,
+  .kb-wrap {
+    min-height: 120px;
   }
 }

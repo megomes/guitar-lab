@@ -7,7 +7,8 @@
 import { QUALITIES, type QualityId } from './chords'
 import { MAJOR_SEVENTHS, MINOR_SEVENTHS } from './jazz'
 import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
-import { MODES, type ModeId } from './modes'
+import { MODES, instrumentOf, type ModeId } from './modes'
+import { NINTHS, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
 import { DRILLS, PERMS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
@@ -88,6 +89,27 @@ export interface Settings {
   quizSpell: QuizSpell
   /** Tocar a nota da casa tocada. */
   quizSound: boolean
+
+  /* Piano */
+  /** A tela onde o outro instrumento ficou: o seletor do topo troca uma pela outra. */
+  otherMode: ModeId
+  /** A tríade do acorde do piano; a sétima e a nona vêm por cima. */
+  pQuality: QualityId
+  pSeventh: Seventh
+  pNinth: Ninth
+  /** 0 = estado fundamental, 1 = 1ª inversão… até a 3ª nos acordes de sétima. */
+  pInversion: number
+  pScaleId: string
+  /* Jogo do piano */
+  pgQualities: QualityId[]
+  pgInversions: number[]
+  /** 'free', ou o tom: '0-maj', '9-min'… */
+  pgKey: string
+  /** Erros antes de mostrar o acorde; 0 é só no botão. */
+  pgReveal: number
+  /** A inversão só vale com a nota certa no baixo. */
+  pgBass: boolean
+  pgSound: boolean
 }
 
 export const DEFAULTS: Settings = {
@@ -135,6 +157,18 @@ export const DEFAULTS: Settings = {
   quizRound: 'free',
   quizSpell: 'sharp',
   quizSound: true,
+  otherMode: 'pChords',
+  pQuality: 'maj',
+  pSeventh: 'none',
+  pNinth: 'none',
+  pInversion: 0,
+  pScaleId: 'major',
+  pgQualities: ['maj', 'min'],
+  pgInversions: [0],
+  pgKey: 'free',
+  pgReveal: 3,
+  pgBass: false,
+  pgSound: true,
 }
 
 export const STORAGE_KEY = 'guitarlab:settings'
@@ -206,6 +240,26 @@ export function loadSettings(): Settings {
     if (s.quizRound !== 'free' && s.quizRound !== 'sprint') s.quizRound = DEFAULTS.quizRound
     if (!['sharp', 'flat', 'mix'].includes(s.quizSpell)) s.quizSpell = DEFAULTS.quizSpell
     s.quizSound = s.quizSound !== false
+    if (!MODES.some((m) => m.id === s.otherMode) || instrumentOf(s.otherMode) === instrumentOf(s.mode))
+      s.otherMode = instrumentOf(s.mode) === 'piano' ? 'scales' : 'pChords'
+    if (!(s.pQuality in QUALITIES)) s.pQuality = DEFAULTS.pQuality
+    /* Antes a tétrade era uma qualidade só: vira tríade mais sétima. */
+    const split: Partial<Record<QualityId, [QualityId, Seventh]>> = { maj7: ['maj', '7'], min7: ['min', 'b7'], dom7: ['maj', 'b7'], m7b5: ['dim', 'b7'], dim7: ['dim', 'bb7'], six: ['maj', '6'] }
+    const parts = split[s.pQuality]
+    if (parts) [s.pQuality, s.pSeventh] = parts
+    if (!isTriad(s.pQuality)) s.pQuality = DEFAULTS.pQuality
+    if (!seventhsFor(s.pQuality).includes(s.pSeventh)) s.pSeventh = 'none'
+    if (!NINTHS.includes(s.pNinth)) s.pNinth = 'none'
+    s.pInversion = int(s.pInversion, 0, 3, 0)
+    if (!SCALES.some((x) => x.id === s.pScaleId)) s.pScaleId = DEFAULTS.pScaleId
+    const qs = Array.isArray(s.pgQualities) ? [...new Set(s.pgQualities.filter((q) => q in QUALITIES))] : []
+    s.pgQualities = qs.length ? qs : DEFAULTS.pgQualities
+    s.pgInversions = list(s.pgInversions, 3) ?? DEFAULTS.pgInversions
+    if (!s.pgInversions.length) s.pgInversions = DEFAULTS.pgInversions
+    if (typeof s.pgKey !== 'string' || !(s.pgKey === 'free' || /^([0-9]|1[01])-(maj|min)$/.test(s.pgKey))) s.pgKey = DEFAULTS.pgKey
+    if (![0, 1, 2, 3, 5].includes(s.pgReveal)) s.pgReveal = DEFAULTS.pgReveal
+    s.pgBass = s.pgBass === true
+    s.pgSound = s.pgSound !== false
     return s
   } catch {
     return DEFAULTS

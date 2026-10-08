@@ -214,7 +214,7 @@
 
 .sl-pill-on:hover {
   transform: translateY(-1px);
-  box-shadow: 0 6px 22px rgba(255, 80, 30, 0.25);
+  box-shadow: 0 6px 22px rgba(var(--accent-rgb), 0.25);
 }
 
 .sl-filter {
@@ -370,7 +370,7 @@
   align-items: center;
   padding: 26px 26px 22px;
   background:
-    radial-gradient(ellipse 70% 90% at 100% 0%, rgba(255, 91, 36, 0.1), transparent 60%),
+    radial-gradient(ellipse 70% 90% at 100% 0%, rgba(var(--accent-rgb), 0.1), transparent 60%),
     linear-gradient(180deg, var(--card), var(--bg-2));
 }
 
@@ -500,7 +500,7 @@
 
 .sl-vis-on {
   border-color: var(--accent-line);
-  box-shadow: 0 0 0 1px rgba(255, 110, 60, 0.15), 0 10px 40px rgba(255, 80, 30, 0.12);
+  box-shadow: 0 0 0 1px rgba(var(--accent-2-rgb), 0.15), 0 10px 40px rgba(var(--accent-rgb), 0.12);
 }
 
 .sl-vis-bar {
