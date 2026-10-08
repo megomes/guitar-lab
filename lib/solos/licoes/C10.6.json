@@ -1,0 +1,2873 @@
+{
+ "titulo": "Tríades e voicings no acompanhamento: a base que abre espaço",
+ "gancho": "Toque menos notas, no lugar certo, e a banda inteira soa melhor. O solista também.",
+ "porque_importa": "Quem sola passa a maior parte do tempo acompanhando, e uma base boa é a que deixa espaço livre. Com acordes de três ou quatro notas, um ritmo firme e pequenas aproximações, você acompanha qualquer blues ou standard sem atrapalhar o baixo, o teclado ou o solista. Os voicings pequenos que você aprende aqui também são o esqueleto do seu solo.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "Comping: acompanhar é escolher na hora",
+   "texto": "Comping é a base improvisada. Você escolhe o voicing e o ritmo no momento para apoiar quem está solando. A regra é ocupar o espaço que sobra, sem preencher tudo. Uma pestana de seis cordas dobra notas e invade o grave, que é a região do baixo e da mão esquerda do teclado. Acordes de três ou quatro notas soam mais limpos, às vezes até mais sofisticados, e deixam espaço para a melodia.",
+   "destaque": "Uma boa base é medida pelo espaço que deixa livre.",
+   "visual": null
+  },
+  {
+   "titulo": "Tire o grave: o baixo já tocou a fundamental",
+   "texto": "Pegue a pestana de Lá na casa 5 e desça a nota da corda D da casa 7 para a 5 (de A para G, a ♭7). Agora tire as cordas E e A. Sobra xx5655, um A7 só nas quatro cordas agudas. A nota mais grave é a ♭7, mas dentro da banda o acorde não soa invertido, porque o baixo segura o A. Com a forma xx7778 você tem o D7, e com a mesma forma duas casas acima, o E7. São três formas e um blues inteiro.",
+   "destaque": "Em banda, a guitarra cuida do brilho e o baixo cuida do chão.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Dominantes nas quatro cordas agudas para o blues em Lá. O baixo toca a fundamental, e você toca só o brilho.",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "xx5655"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx7778"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "xx999a"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Shells: 1, 3 e 7, e nada mais",
+   "texto": "O shell é o acorde de sétima reduzido a três notas: fundamental, 3ª e 7ª, sem a 5ª. Ele tem duas formas: com fundamental na corda E grave (1-7-3) e com fundamental na corda A (1-3-7). No blues em Lá, as fundamentais de A7, D7 e E7 formam um L no braço, e o desenho serve para qualquer tom. Como o grave fica separado do par 3ª/7ª, dá para tocar as duas partes em momentos diferentes e criar ritmo.",
+   "destaque": "Três notas bastam para dizer qual é o acorde.",
+   "visual": {
+    "id": "V4",
+    "tipo": "acordes",
+    "legenda": "Shells do blues em Lá (1, 3 e ♭7). As fundamentais formam um L: A na corda E grave, D e E na corda A.",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "5x56xx"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "x545xx"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "x767xx"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O ritmo é metade do acorde",
+   "texto": "Num groove, entrar no 2 e no 4, junto com a caixa, já encaixa a base. O Charleston ataca no 1 e no \"e\" do 2 e deixa o resto do compasso livre. Ele funciona em quase tudo, do blues ao jazz. Quando não souber o que tocar, toque Charleston e ouça o solista.",
+   "destaque": "Se não souber o que tocar, use o Charleston.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Ritmo Charleston: ataque no 1 e no \"e\" do 2. Depois disso, silêncio até o próximo compasso.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A base que anda",
+   "texto": "Base parada cansa. Três recursos simples dão movimento a ela. O primeiro é chegar ao acorde vindo da mesma forma meio tom abaixo, meio tom acima ou um tom abaixo. O segundo é ligar e desligar extensões (9, 13) com um único dedo. O terceiro são double stops de passagem que levam ao IV. Use tudo isso com critério: tensão demais no comping prende o solista.",
+   "destaque": "Pequenos movimentos fazem a base andar sem tomar espaço do solista.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "A base que anda: a mesma posição do A7, ligando e desligando a 9 (A9, D9) e a 13 (A13) dentro do Charleston.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A9",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "9",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A13",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "13",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D9",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "9",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 25,
+   "porque": "Daniel Seriff toca o blues de 12 compassos em Lá só com as três formas agudas de sétima, e dá para ouvir como sobra espaço na banda.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I10",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=371s",
+    "video": "gueqUPZ88rs",
+    "inicio": 371,
+    "momento": "6:13",
+    "ideia": "Tocar o blues de 12 compassos em A com as três formas"
+   }
+  },
+  {
+   "ref": 28,
+   "porque": "Seriff mostra o ritmo Charleston aplicado às formas pequenas e explica por que ele é o porto seguro do comping.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=440s",
+    "video": "gueqUPZ88rs",
+    "inicio": 440,
+    "momento": "7:22",
+    "ideia": "Charleston como porto seguro para comping"
+   }
+  },
+  {
+   "ref": 64,
+   "porque": "A aproximação de meio tom abaixo no tempo 4 sobre o D7, tocada dentro do groove.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I15",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=546s",
+    "video": "gueqUPZ88rs",
+    "inicio": 546,
+    "momento": "9:08",
+    "ideia": "Aproximação de semitom no tempo 4 sobre D7"
+   }
+  },
+  {
+   "ref": 31,
+   "porque": "Os shells de A7 e D7 no padrão em L, como alternativa portátil à pestana.",
+   "fonte": {
+    "id": "H3DDn8CcSTA#I05",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+    "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=171s",
+    "video": "H3DDn8CcSTA",
+    "inicio": 171,
+    "momento": "02:53",
+    "ideia": "Shell voicing de A7 com raiz na corda Mi grave"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "Jens Larsen encadeia Dm7–G7–Cmaj7 com shells vizinhos, tratando o ii-V-I como um bloco só.",
+   "fonte": {
+    "id": "EMQydbilqmo#I18",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+    "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=363s",
+    "video": "EMQydbilqmo",
+    "inicio": 363,
+    "momento": "06:05",
+    "ideia": "ii-V-I com Dm7 de raiz na 5ª corda"
+   }
+  },
+  {
+   "ref": 72,
+   "porque": "Seriff transforma A7 em A9 e D7 em D9 movendo um único dedo, sem sair da posição.",
+   "fonte": {
+    "id": "gueqUPZ88rs#I22",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+    "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=785s",
+    "video": "gueqUPZ88rs",
+    "inicio": 785,
+    "momento": "13:07",
+    "ideia": "Aplicar a nona em A7, D7 e E7"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Pestana fora, brilho dentro: o blues no 2 e no 4",
+   "objetivo": "Trocar a pestana pelas formas de quatro cordas agudas e encaixar os acordes junto com a caixa.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque a pestana de Lá na casa 5. Desça a corda D da casa 7 para a 5 e ouça o A7.",
+    "Abafe as cordas E e A. Fica xx5655 (G, C♯, E, A).",
+    "Monte o D7 em xx7778 e o E7 em xx999a, que é a mesma forma duas casas acima.",
+    "Com metrônomo a 80 (clique no 2 e no 4), toque A7–D7–A7–E7 só nos tempos 2 e 4, como na tab.",
+    "Solte a pressão logo depois de cada ataque. O acorde precisa ser curto e deixar silêncio no 1 e no 3.",
+    "Toque os 12 compassos do blues em Lá sobre uma backing track sem parar."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Acordes só no 2 e no 4, junto com a caixa. Os tempos 1 e 3 ficam em silêncio.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente uma colcheia de contratempo (o \"e\" do 2) entre os ataques do 2 e do 4.",
+    "Toque com a palheta só nas cordas G, B e e, só a tríade aguda."
+   ],
+   "cuidado": "Deixar as cordas graves soando. Encoste a ponta do dedo da casa 5 nas cordas E e A para abafá-las.",
+   "inspirado_em": [
+    {
+     "id": "gueqUPZ88rs#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=137s",
+     "video": "gueqUPZ88rs",
+     "inicio": 137,
+     "momento": "2:19",
+     "ideia": "Forma de pestana na corda E casa 5 dá A maior"
+    },
+    {
+     "id": "gueqUPZ88rs#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=170s",
+     "video": "gueqUPZ88rs",
+     "inicio": 170,
+     "momento": "2:52",
+     "ideia": "Transformar A maior em A7 abaixando a tônica"
+    },
+    {
+     "id": "gueqUPZ88rs#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=339s",
+     "video": "gueqUPZ88rs",
+     "inicio": 339,
+     "momento": "5:41",
+     "ideia": "Família de D para sétimas nas cordas agudas"
+    },
+    {
+     "id": "gueqUPZ88rs#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=405s",
+     "video": "gueqUPZ88rs",
+     "inicio": 405,
+     "momento": "6:47",
+     "ideia": "E7 como forma de D7 transposta um tom"
+    },
+    {
+     "id": "gueqUPZ88rs#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=371s",
+     "video": "gueqUPZ88rs",
+     "inicio": 371,
+     "momento": "6:13",
+     "ideia": "Tocar o blues de 12 compassos em A com as três formas"
+    },
+    {
+     "id": "enk-fXAONJQ#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why PRO Guitarists DON'T Play Bar Chords",
+     "url": "https://www.youtube.com/watch?v=enk-fXAONJQ&t=407s",
+     "video": "enk-fXAONJQ",
+     "inicio": 407,
+     "momento": "06:49",
+     "ideia": "Groove de acordes no 2 e no 4"
+    }
+   ]
+  },
+  {
+   "titulo": "Charleston no piloto automático",
+   "objetivo": "Tocar o Charleston nos 12 compassos sem pensar em cada ataque.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Conte \"1 e 2 e 3 e 4 e\" em voz alta e bata palma só no 1 e no \"e\" do 2.",
+    "Passe a contagem para a guitarra com o A7 xx5655: o primeiro ataque é longo e o segundo é curto.",
+    "Toque a tab A7–A7–D7–A7 a 80 bpm, deixando o silêncio do tempo 3 e do tempo 4 inteiro.",
+    "Toque o ciclo completo de 12 compassos sobre a backing track, com as formas do exercício anterior.",
+    "Na segunda volta, pare de contar em voz alta e ouça só a bateria."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Ritmo Charleston: ataque no 1 e no \"e\" do 2. Depois disso, silêncio até o próximo compasso.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Charleston invertido: ataque só no \"e\" do 2. Fica mais leve e flutuante.",
+    "Alterne compassos de Charleston com compassos em 2 e 4."
+   ],
+   "cuidado": "Adiantar o segundo ataque para o tempo 2. Ele cai exatamente entre o 2 e o 3.",
+   "inspirado_em": [
+    {
+     "id": "gueqUPZ88rs#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=440s",
+     "video": "gueqUPZ88rs",
+     "inicio": 440,
+     "momento": "7:22",
+     "ideia": "Ritmo Charleston"
+    },
+    {
+     "id": "gueqUPZ88rs#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=440s",
+     "video": "gueqUPZ88rs",
+     "inicio": 440,
+     "momento": "7:22",
+     "ideia": "Charleston como porto seguro para comping"
+    },
+    {
+     "id": "gueqUPZ88rs#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=474s",
+     "video": "gueqUPZ88rs",
+     "inicio": 474,
+     "momento": "7:56",
+     "ideia": "Charleston sobre a backing track"
+    }
+   ]
+  },
+  {
+   "titulo": "Shells em L: baixo e acorde conversando",
+   "objetivo": "Dominar os shells portáteis do blues e separar o grave do par 3ª/♭7 para criar ritmo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "A7 = 5x56xx: as cordas A, B e e ficam mudas.",
+    "D7 = x545xx: desça uma corda e mantenha o desenho na mão.",
+    "E7 = x767xx: é o D7 duas casas acima. Repare no L que as fundamentais formam.",
+    "Toque cada shell em bloco, quatro vezes, no tempo 1.",
+    "Agora separe: a fundamental no 1 e o par de cima no \"e\" do 2 e no 4, como na tab.",
+    "Toque o blues inteiro dessa forma sobre a backing track."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Shell separado: a fundamental no 1 e o par 3ª/♭7 no contratempo e no 4. O baixo e o acorde conversam.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve tudo para a casa 12: A7 = x(12)(11)(12), D7 = (10)x(10)(11) e E7 com fundamental na casa 12 da corda E grave.",
+    "Transponha o L para o blues em Sol (fundamental do I na casa 3)."
+   ],
+   "cuidado": "Deixar a corda A soar no A7 shell. A polpa do dedo 1 precisa encostar nela.",
+   "inspirado_em": [
+    {
+     "id": "H3DDn8CcSTA#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=139s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 139,
+     "momento": "02:21",
+     "ideia": "Shell voicing como alternativa à pestana"
+    },
+    {
+     "id": "H3DDn8CcSTA#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=171s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 171,
+     "momento": "02:53",
+     "ideia": "Shell voicing de A7 com raiz na corda Mi grave"
+    },
+    {
+     "id": "H3DDn8CcSTA#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=183s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 183,
+     "momento": "03:05",
+     "ideia": "Shell voicing de D7 com raiz na corda Lá"
+    },
+    {
+     "id": "H3DDn8CcSTA#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=203s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 203,
+     "momento": "03:25",
+     "ideia": "Shape de E7 movendo o D7 duas casas"
+    },
+    {
+     "id": "H3DDn8CcSTA#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=203s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 203,
+     "momento": "03:25",
+     "ideia": "Padrão em L: raízes 1-4-5"
+    },
+    {
+     "id": "H3DDn8CcSTA#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=304s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 304,
+     "momento": "05:06",
+     "ideia": "Shapes na casa 12 para o mesmo blues"
+    },
+    {
+     "id": "yw6K7j6GbDc#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=202s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Separar shell voicings em baixo e acorde para criar ritmos"
+    }
+   ]
+  },
+  {
+   "titulo": "Chegar pelo vizinho: aproximações no tempo 4",
+   "objetivo": "Fazer a base andar deslizando para o acorde a partir de meio tom abaixo, meio tom acima e um tom abaixo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o Charleston em D7 (xx7778) com a backing track.",
+    "No tempo 4, toque a mesma forma uma casa abaixo (C♯7) e resolva no D7 no 1 seguinte.",
+    "No próximo compasso, aproxime pelo lado de cima (D♯7, uma casa acima).",
+    "No terceiro, aproxime de um tom abaixo (C7, duas casas abaixo).",
+    "Repita a tab em loop e ouça a aproximação puxando o tempo 1.",
+    "Leve a ideia para as trocas do blues: no tempo 4 do compasso 4, use C♯7 e chegue ao D7 do compasso 5."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Charleston em D7 com aproximação no tempo 4: de meio tom abaixo (C♯7), de meio tom acima (D♯7) e de um tom abaixo (C7). Os graus se referem ao D7 do compasso, e o D7 do tempo 1 é o alvo.",
+    "tonica": "D",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "♭5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 8,
+          "nota": "A♯",
+          "grau": "♭6",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "D♯",
+          "grau": "♭2",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "4",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "9",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "A♯",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Aproximação prolongada: um tom abaixo no 4, meio tom abaixo no \"e\" do 4, alvo no 1.",
+    "Faça a aproximação com os shells em L, em vez das formas de quatro cordas."
+   ],
+   "cuidado": "Pousar no acorde de passagem. Ele é curto e sempre resolve no tempo 1, nunca no meio do compasso.",
+   "inspirado_em": [
+    {
+     "id": "gueqUPZ88rs#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=518s",
+     "video": "gueqUPZ88rs",
+     "inicio": 518,
+     "momento": "8:40",
+     "ideia": "Aproximação de um traste abaixo"
+    },
+    {
+     "id": "gueqUPZ88rs#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=546s",
+     "video": "gueqUPZ88rs",
+     "inicio": 546,
+     "momento": "9:08",
+     "ideia": "Aproximação de semitom no tempo 4 sobre D7"
+    },
+    {
+     "id": "gueqUPZ88rs#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=581s",
+     "video": "gueqUPZ88rs",
+     "inicio": 581,
+     "momento": "9:43",
+     "ideia": "Alternar aproximações de cima e de baixo"
+    },
+    {
+     "id": "gueqUPZ88rs#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=622s",
+     "video": "gueqUPZ88rs",
+     "inicio": 622,
+     "momento": "10:24",
+     "ideia": "Aproximação de dois trastes abaixo"
+    }
+   ]
+  },
+  {
+   "titulo": "Liga-desliga da 9 e da 13",
+   "objetivo": "Criar uma pequena melodia dentro da base trocando extensões com um único dedo, sem mudar de posição.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Do A7 xx5655, suba a corda e da casa 5 para a 7 (B) e você tem o A9.",
+    "Volte ao A7 e suba a corda B da casa 5 para a 7 (F♯) para tocar o A13.",
+    "No D7 xx7778, suba a corda G da casa 7 para a 9 (E) e você tem o D9.",
+    "Toque a tab no Charleston: o acorde normal no 1 e a extensão no \"e\" do 2, ou o contrário.",
+    "Cante a nota de cima enquanto toca. Ela deve formar uma linha, não um ruído."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "A base que anda: a mesma posição do A7, ligando e desligando a 9 (A9, D9) e a 13 (A13) dentro do Charleston.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "A9",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "9",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A13",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "13",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D9",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "9",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça no E7 xx999a: a corda e da casa 10 para a 12 dá a 9 (F♯).",
+    "Inspirado em Kirk Fletcher: alterne uma nota grave (a corda D) com o double stop agudo (cordas B e e) para criar balanço até o IV."
+   ],
+   "cuidado": "Encher todos os compassos de extensão. Use a cor em um ou dois pontos do ciclo e deixe o resto limpo para o solista.",
+   "inspirado_em": [
+    {
+     "id": "fJs5AALy4GY#I02",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=238s",
+     "video": "fJs5AALy4GY",
+     "inicio": 238,
+     "momento": "04:00",
+     "ideia": "Manter movimento na base rítmica"
+    },
+    {
+     "id": "fJs5AALy4GY#I03",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=272s",
+     "video": "fJs5AALy4GY",
+     "inicio": 272,
+     "momento": "04:34",
+     "ideia": "Double stops de passagem para o IV"
+    },
+    {
+     "id": "gueqUPZ88rs#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=721s",
+     "video": "gueqUPZ88rs",
+     "inicio": 721,
+     "momento": "12:03",
+     "ideia": "Extensões para dar sabor sem formas grandes"
+    },
+    {
+     "id": "gueqUPZ88rs#I24",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=886s",
+     "video": "gueqUPZ88rs",
+     "inicio": 886,
+     "momento": "14:48",
+     "ideia": "Adicionar e remover extensões cria movimento"
+    },
+    {
+     "id": "gueqUPZ88rs#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=785s",
+     "video": "gueqUPZ88rs",
+     "inicio": 785,
+     "momento": "13:07",
+     "ideia": "Aplicar a nona em A7, D7 e E7"
+    }
+   ]
+  },
+  {
+   "titulo": "ii-V-I com shells no Charleston",
+   "objetivo": "Acompanhar um ii-V-I de jazz com shells vizinhos e ritmo separado, tratando a progressão como um bloco só.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Monte Dm7 x535xx, G7 3x34xx e Cmaj7 x324xx.",
+    "Repare no que se move: F fica parado do Dm7 para o G7, C desce para B, e F desce para E no Cmaj7.",
+    "Toque em bloco, um acorde por compasso, a 70 bpm.",
+    "Agora separe: a fundamental no 1 e o par 3ª/7ª no \"e\" do 2, como na tab.",
+    "Toque a progressão em loop, sem pausa entre as voltas, por 3 minutos.",
+    "Refaça começando com o Dm7 de fundamental na corda E grave (casa 10: (10)x(10)(10)xx), seguido de G7 x(10)(9)(10)xx e Cmaj7 8x99xx, e compare as duas regiões."
+   ],
+   "visual": {
+    "id": "V8",
+    "tipo": "tab",
+    "legenda": "ii-V-I em Dó com shells no Charleston: a fundamental no 1 e o par 3ª/7ª no \"e\" do 2. Quase nada se move entre um acorde e outro.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 3,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 3,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Acrescente a aproximação de meio tom no tempo 4 antes do Cmaj7.",
+    "Toque o campo de Dó inteiro em shells, um acorde por tempo, e depois um a cada dois tempos."
+   ],
+   "cuidado": "Tocar a 5ª por hábito, com a pestana. Nos shells a 5ª fica de fora e as cordas agudas ficam mudas.",
+   "inspirado_em": [
+    {
+     "id": "EMQydbilqmo#I14",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=265s",
+     "video": "EMQydbilqmo",
+     "inicio": 265,
+     "momento": "04:27",
+     "ideia": "Shell voicings de três notas"
+    },
+    {
+     "id": "EMQydbilqmo#I15",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=298s",
+     "video": "EMQydbilqmo",
+     "inicio": 298,
+     "momento": "05:00",
+     "ideia": "Duas formas de shell voicing"
+    },
+    {
+     "id": "EMQydbilqmo#I16",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=331s",
+     "video": "EMQydbilqmo",
+     "inicio": 331,
+     "momento": "05:33",
+     "ideia": "Aprender shell voicings como acordes diatônicos"
+    },
+    {
+     "id": "2OxHReoGIqs#I02",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=67s",
+     "video": "2OxHReoGIqs",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Tocar o campo harmônico de Dó maior em tempo"
+    },
+    {
+     "id": "EMQydbilqmo#I17",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=363s",
+     "video": "EMQydbilqmo",
+     "inicio": 363,
+     "momento": "06:05",
+     "ideia": "Conectar acordes em progressões curtas"
+    },
+    {
+     "id": "EMQydbilqmo#I18",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=363s",
+     "video": "EMQydbilqmo",
+     "inicio": 363,
+     "momento": "06:05",
+     "ideia": "ii-V-I com Dm7 de raiz na 5ª corda"
+    },
+    {
+     "id": "EMQydbilqmo#I19",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=398s",
+     "video": "EMQydbilqmo",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "ii-V-I com Dm7 de raiz na 6ª corda"
+    },
+    {
+     "id": "2OxHReoGIqs#I14",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Chord Rules Every Pro Knows But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=2OxHReoGIqs&t=358s",
+     "video": "2OxHReoGIqs",
+     "inicio": 358,
+     "momento": "06:00",
+     "ideia": "Tocar o chunk como um movimento"
+    },
+    {
+     "id": "yw6K7j6GbDc#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=166s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Shell voicings movendo-se pelo braço"
+    },
+    {
+     "id": "yw6K7j6GbDc#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises Every Jazz Beginner Needs to Master (Or Get Stuck)",
+     "url": "https://www.youtube.com/watch?v=yw6K7j6GbDc&t=202s",
+     "video": "yw6K7j6GbDc",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Separar shell voicings em baixo e acorde para criar ritmos"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Usar pestana de seis cordas em tudo: embola o grave com o baixo e o teclado e cansa a mão.",
+  "Deixar o acorde soando o compasso inteiro. Na base, a duração curta e o silêncio também fazem o groove.",
+  "Encher a base de tensões: 9, 13 e alterados o tempo todo prendem as escolhas de quem sola.",
+  "Tocar no 1 e no 3 num groove de blues ou R&B, contra a caixa, em vez de junto com ela.",
+  "Colecionar dezenas de voicings difíceis e não conseguir acompanhar uma música do começo ao fim.",
+  "Pousar no acorde de aproximação. Ele é passagem e resolve no tempo 1 seguinte."
+ ],
+ "resumo": [
+  "A base serve o solista: poucas notas, longe do grave, com espaço sobrando.",
+  "Fora da pestana: xx5655 (A7), xx7778 (D7) e xx999a (E7). O baixo cobre a fundamental.",
+  "Shells (1, 3 e 7) formam um L no blues e funcionam em qualquer tom. Separe o grave do par de cima para criar ritmo.",
+  "Toque no 2 e no 4 com a caixa. Na dúvida, use o Charleston: o 1 e o \"e\" do 2.",
+  "Aproximações de meio tom, extensões trocadas com um dedo e double stops fazem a base andar sem tomar espaço."
+ ],
+ "proximos_passos": "Para levar os pares 3ª/7ª para linhas melódicas, siga para \"Guide tones e condução de vozes\". Para achar inversões mais próximas nos quatro grupos de cordas, veja \"Tríades em grupos de cordas e inversões\". Para encaixar sua base no resto do grupo, estude \"Tocar com a banda e para a música\". Se quiser chegar aos rootless voicings, continue em \"Harmonia de jazz para o solista\".",
+ "_meta": {
+  "subcategoria": "C10.6",
+  "modulo": {
+   "id": "C10",
+   "nome": "Arpejos e tríades no solo"
+  },
+  "nome": "Tríades e voicings no acompanhamento",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:00:09",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 6,
+   "cache_write": 52676,
+   "cache_read": 44789,
+   "output": 34258,
+   "thinking": 3613,
+   "turns": 5,
+   "custo_nominal": 1.1426088
+  }
+ }
+}

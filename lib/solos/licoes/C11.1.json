@@ -1,0 +1,2534 @@
+{
+ "titulo": "Escala maior no solo: sete notas na mão",
+ "gancho": "Você já sabe cinco notas de cor. Com mais duas, a guitarra ganha cores que a pentatônica não tem.",
+ "porque_importa": "A pentatônica é segura, mas uma hora começa a soar sempre igual. A escala maior acrescenta a 4ª e a 7ª, que trazem tensão, doçura e o som de melodia cantada, do pop ao jazz. Em troca, você precisa saber onde essas notas moram e como usá-las sem tropeçar.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "Cinco notas + duas = sete",
+   "texto": "A pentatônica maior de Sol tem G A B D E. A escala maior completa acrescenta o Dó (4ª) e o Fá♯ (7ª). Essas duas notas ficam a meio tom de vizinhas (C–B e F♯–G), e é daí que vem a tensão. Ganha-se cor e perde-se a sensação de que qualquer nota cai bem.",
+   "destaque": "A escala maior é a pentatônica que você já conhece mais duas notas com meio tom.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Sol maior, forma móvel com a tônica na corda Lá, casa 10 (mindinho). Casas 7 a 10, um dedo por casa. As notas com anel (Dó = 4ª e Fá♯ = 7ª) são as duas que a pentatônica não tem.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Uma forma móvel, um dedo por casa",
+   "texto": "Ponha o mindinho na tônica da corda Lá e o indicador três casas atrás. Daí sai a escala inteira, com a oitava na corda Si e notas extras abaixo da tônica, nas cordas graves. Na casa 10 a forma dá Sol maior, na 7 dá Mi maior e na 5 dá Ré maior. O desenho é o mesmo e quem decide o tom é a nota do mindinho.",
+   "destaque": "Mova o mindinho e você muda de tom.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Sol maior, forma móvel com a tônica na corda Lá, casa 10 (mindinho). Casas 7 a 10, um dedo por casa. As notas com anel (Dó = 4ª e Fá♯ = 7ª) são as duas que a pentatônica não tem.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A pentatônica já está aí dentro",
+   "texto": "Tire o Dó e o Fá♯ da forma da V1 e sobra uma caixa de pentatônica que você já conhece (G maior = Em). Não é preciso começar do zero. Enxergue a caixa antiga e acenda as duas notas novas em volta dela. As notas de Sol maior também servem sobre Mi menor, a relativa, e nesse contexto o Dó vira ♭6 e o Fá♯ vira 9.",
+   "destaque": "Você não troca de escala, você completa a que já tem.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Sol maior, forma móvel com a tônica na corda Lá, casa 10 (mindinho). Casas 7 a 10, um dedo por casa. As notas com anel (Dó = 4ª e Fá♯ = 7ª) são as duas que a pentatônica não tem.",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 9,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 10,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 9,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "7",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Notas de passagem e notas de pouso",
+   "texto": "Sobre o acorde de Sol, o Sol, o Si e o Ré repousam. Lá, Mi e Fá♯ colorem. O Dó é a nota mais tensa porque esbarra no Si do acorde e pede para descer. Use a 4ª e a 7ª no caminho e termine a frase numa vizinha estável. Notas cromáticas de fora ficam para depois.",
+   "destaque": "A 4ª passa, não pousa.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Termômetro de tensão: cada nota da escala dura meio compasso sobre o acorde de Sol. Ouça quais repousam (1, 3, 5), quais colorem (2, 6, 7) e qual pede resolução (4 → 3). O anel marca o Si, onde a tensão do Dó repousa.",
+    "tonica": "G",
+    "bpm": 60,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Uma posição por vez, depois as costuras",
+   "texto": "A escala maior cobre o braço inteiro em várias posições. Algumas são mistas (2 ou 3 notas por corda) e outras seguem o sistema de 3 notas por corda (3nps). Aprenda uma posição até tocar de olhos fechados e faça solos inteiros só nela. Depois some a vizinha e treine as passagens entre as duas. Usar só 3nps fica previsível, e a mistura soa mais melódica.",
+   "destaque": "Domine uma região antes de abrir a próxima.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Duas regiões numa só frase: sobe em 3 notas por corda (casas 5–8) nas cordas Si e Mi, chega ao Ré da casa 10 e desce pela forma mista da V1.",
+    "tonica": "G",
+    "bpm": 66,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 10,
+   "porque": "A forma móvel com o mindinho na tônica da corda Lá, mostrada gerando escalas maiores em tons diferentes.",
+   "fonte": {
+    "id": "xKbtQM-qzSM#I01",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+    "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=28s",
+    "video": "xKbtQM-qzSM",
+    "inicio": 28,
+    "momento": "00:30",
+    "ideia": "Forma móvel que gera escalas maiores"
+   }
+  },
+  {
+   "ref": 35,
+   "porque": "Uma exploração livre de Sol maior sobre backing track, subindo, repetindo e deixando as notas soarem antes de qualquer regra.",
+   "fonte": {
+    "id": "xKbtQM-qzSM#I02",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+    "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=97s",
+    "video": "xKbtQM-qzSM",
+    "inicio": 97,
+    "momento": "01:39",
+    "ideia": "Exploração livre da escala de Sol maior"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "O shape expandido de Mi maior, que reúne a pentatônica e as sete notas, com as notas do acorde localizadas em lugares novos.",
+   "fonte": {
+    "id": "hafoCeXWxAE#I15",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+    "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=836s",
+    "video": "hafoCeXWxAE",
+    "inicio": 836,
+    "momento": "13:58",
+    "ideia": "Shape expandido: escala maior completa no braço"
+   }
+  },
+  {
+   "ref": 49,
+   "porque": "O contraste ao vivo entre uma passagem com as sete notas e a volta para a pentatônica maior.",
+   "fonte": {
+    "id": "xKbtQM-qzSM#I14",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+    "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=574s",
+    "video": "xKbtQM-qzSM",
+    "inicio": 574,
+    "momento": "09:36",
+    "ideia": "Alternar escala maior e pentatônica maior"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Matteo Mancuso explica por que prefere posições mistas ao sistema rígido de 3 notas por corda.",
+   "fonte": {
+    "id": "XL9TYmwkHWs#I11",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+    "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=709s",
+    "video": "XL9TYmwkHWs",
+    "inicio": 709,
+    "momento": "11:51",
+    "ideia": "Posições mistas da escala maior"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "A forma de Sol de memória",
+   "objetivo": "Tocar uma oitava de Sol maior na forma da casa 10 sem olhar o diagrama, falando os graus.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Mindinho no Sol (corda Lá, casa 10) e indicador pronto na casa 7: um dedo por casa.",
+    "Toque a V2 a 70 bpm, subindo e descendo, falando os graus em voz alta: 1, 2, 3, 4, 5, 6, 7, 1.",
+    "No compasso de silêncio, tire a mão das cordas e cante o Sol.",
+    "Repita 5 vezes olhando a tab e mais 5 de olhos fechados.",
+    "Quando sair limpo, estenda a escala: desça até o Si da corda Mi grave (casa 7) e suba até o Ré da corda Mi aguda (casa 10)."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Uma oitava de Sol maior na forma da casa 10: sobe e desce, depois um compasso inteiro de silêncio para ouvir o que ficou.",
+    "tonica": "G",
+    "bpm": 70,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mova a forma: mindinho na casa 7 (Mi maior) e na casa 5 (Ré maior), com o mesmo desenho e os mesmos graus.",
+    "Suba e desça trocando de direção num ponto aleatório, sem parar o metrônomo."
+   ],
+   "cuidado": "Acelerar antes de memorizar. Se você precisa olhar a tab, ainda está lento demais para pensar em velocidade.",
+   "inspirado_em": [
+    {
+     "id": "xKbtQM-qzSM#I01",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=28s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 28,
+     "momento": "00:30",
+     "ideia": "Forma móvel que gera escalas maiores"
+    },
+    {
+     "id": "aHzmIWB0P00#I03",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=268s",
+     "video": "aHzmIWB0P00",
+     "inicio": 268,
+     "momento": "04:30",
+     "ideia": "Escala de Mi maior na forma C"
+    },
+    {
+     "id": "hafoCeXWxAE#I02",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=144s",
+     "video": "hafoCeXWxAE",
+     "inicio": 144,
+     "momento": "02:26",
+     "ideia": "Dominar o shape de E maior na corda E grave"
+    },
+    {
+     "id": "wEMMddpcIe0#I02",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=8s",
+     "video": "wEMMddpcIe0",
+     "inicio": 8,
+     "momento": "00:10",
+     "ideia": "Memorizar a escala antes de improvisar"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I04",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Memorizar a forma da escala"
+    },
+    {
+     "id": "UbIv3AKmNl0#I03",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "The Interval Lesson I wish someone had given me!  How to both HEAR and USE Intervals in music EP492",
+     "url": "https://www.youtube.com/watch?v=UbIv3AKmNl0&t=164s",
+     "video": "UbIv3AKmNl0",
+     "inicio": 164,
+     "momento": "02:46",
+     "ideia": "Escala de Si maior na posição com shape de E"
+    },
+    {
+     "id": "-VjHVHzWL0o#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1447s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 1447,
+     "momento": "24:09",
+     "ideia": "Escala com mudanças aleatórias de direção"
+    }
+   ]
+  },
+  {
+   "titulo": "Termômetro de tensão",
+   "objetivo": "Ouvir o papel de cada uma das sete notas sobre o acorde de Sol: repouso, cor ou tensão.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Grave ou toque um acorde de Sol sustentado (ou use um drone em G).",
+    "Toque a V3: cada nota dura meio compasso.",
+    "Depois de cada nota, classifique em voz alta: 'repousa', 'colore' ou 'quer sair'.",
+    "Fique 4 tempos no Dó (4) e só então desça para o Si. Repare no alívio.",
+    "Repita a classificação com um acorde de Dó por baixo e veja como as mesmas notas mudam de papel."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Termômetro de tensão: cada nota da escala dura meio compasso sobre o acorde de Sol. Ouça quais repousam (1, 3, 5), quais colorem (2, 6, 7) e qual pede resolução (4 → 3). O anel marca o Si, onde a tensão do Dó repousa.",
+    "tonica": "G",
+    "bpm": 60,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo só nas três cordas agudas, mudando as notas de região.",
+    "Troque a ordem: comece pelo Fá♯ e resolva para o Sol logo acima."
+   ],
+   "cuidado": "Achar que 'está na escala, então serve para terminar'. A 4ª sobre o I é da escala e mesmo assim soa como esbarrão se você parar nela.",
+   "inspirado_em": [
+    {
+     "id": "wEMMddpcIe0#I03",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=74s",
+     "video": "wEMMddpcIe0",
+     "inicio": 74,
+     "momento": "01:16",
+     "ideia": "Usar só notas da escala"
+    },
+    {
+     "id": "wEMMddpcIe0#I04",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=88s",
+     "video": "wEMMddpcIe0",
+     "inicio": 88,
+     "momento": "01:30",
+     "ideia": "Notas fora da escala"
+    },
+    {
+     "id": "yb9PBaQngn4#I06",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=158s",
+     "video": "yb9PBaQngn4",
+     "inicio": 158,
+     "momento": "02:40",
+     "ideia": "Absorver a escala de Dó maior no braço"
+    },
+    {
+     "id": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I14",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Como improvisar na guitarra - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/como-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar sobre Sol maior com um shape da escala maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Primeiro passeio: só cordas agudas",
+   "objetivo": "Improvisar livremente na escala maior sobre uma base em Sol, ouvindo cada nota contra os acordes.",
+   "nivel": "iniciante",
+   "minutos": 12,
+   "passos": [
+    "Grave ou ponha uma base G–Em–C–D (V7), um acorde por compasso, a 70–80 bpm.",
+    "Na primeira passada, só ouça a base, sem tocar.",
+    "Na segunda, suba e desça a escala devagar, uma nota por tempo, só nas cordas Sol, Si e Mi (casas 7–10).",
+    "Na terceira, toque notas em qualquer ordem, repetindo trechos e deixando notas soarem.",
+    "A cada troca de acorde, repare em qual nota caiu bonito e anote duas favoritas por acorde."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "acordes",
+    "legenda": "Progressão diatônica em Sol para gravar a sua base: G – Em – C – D, um compasso cada.",
+    "tonica": "G",
+    "marcas": [],
+    "compassos": [],
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     }
+    ],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça a mesma volta de olhos fechados.",
+    "Limite-se a duas cordas (Si e Mi) e veja quanta melodia cabe nelas."
+   ],
+   "cuidado": "Tocar sem parar e não ouvir mais a base. Toque menos notas e deixe espaço para ouvir o acorde.",
+   "inspirado_em": [
+    {
+     "id": "hafoCeXWxAE#I03",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=186s",
+     "video": "hafoCeXWxAE",
+     "inicio": 186,
+     "momento": "03:08",
+     "ideia": "Tocar a escala sobre a backing track de Slow Dancing"
+    },
+    {
+     "id": "xKbtQM-qzSM#I02",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=97s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 97,
+     "momento": "01:39",
+     "ideia": "Exploração livre da escala de Sol maior"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I10",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar livremente com as notas da escala"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I07",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Subir e descer a escala com a backing track"
+    },
+    {
+     "id": "enk-fXAONJQ#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why PRO Guitarists DON'T Play Bar Chords",
+     "url": "https://www.youtube.com/watch?v=enk-fXAONJQ&t=640s",
+     "video": "enk-fXAONJQ",
+     "inicio": 640,
+     "momento": "10:42",
+     "ideia": "Notas de Lá maior"
+    },
+    {
+     "id": "wEMMddpcIe0#I17",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Basic Improvisation with Pattern 1 of the Major Scale",
+     "url": "https://www.youtube.com/watch?v=wEMMddpcIe0&t=422s",
+     "video": "wEMMddpcIe0",
+     "inicio": 422,
+     "momento": "07:04",
+     "ideia": "Demonstrar a escala nas cordas finas"
+    }
+   ]
+  },
+  {
+   "titulo": "Pentatônica + Dó + Fá♯",
+   "objetivo": "Enxergar a escala maior como a pentatônica conhecida com duas notas a mais e usar essas notas resolvendo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Na forma da V1, toque só as notas sem anel: é a sua caixa pentatônica de Sol/Em.",
+    "Toque a V4: os compassos 1–2 são só pentatônica e os compassos 3–4 trazem o Dó e o Fá♯.",
+    "Observe o caminho: Dó desce para Si e Fá♯ sobe para Sol, cada nota nova a meio tom da sua resolução.",
+    "Improvise 2 minutos sobre um acorde de Sol: frases com a pentatônica, e a cada duas frases entra uma nota nova, sempre resolvida.",
+    "Alterne: uma frase com as sete notas, outra só com a pentatônica. Ouça o contraste."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Primeiro, só pentatônica (compassos 1–2). Depois a mesma região com as duas notas novas: o Dó (4) desce para o Si (3) e o Fá♯ (7) sobe para o Sol (1). Os anéis marcam onde cada uma resolve.",
+    "tonica": "G",
+    "bpm": 72,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use o Fá♯ como nota longa sobre o C (vira #4, cor lídia) e ouça como ele muda de papel.",
+    "Faça o mesmo na caixa de Lá menor da casa 5: acrescente Fá e Si e você tem Dó maior."
+   ],
+   "cuidado": "Encher a frase das notas novas só porque são novas. Elas temperam, quem sustenta ainda é a pentatônica.",
+   "inspirado_em": [
+    {
+     "id": "XL9TYmwkHWs#I09",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=658s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 658,
+     "momento": "11:00",
+     "ideia": "Escala maior como segunda camada"
+    },
+    {
+     "id": "U3u3jiF7zVg#I18",
+     "tipo": "video",
+     "autor": "Pedro Bernardi",
+     "titulo": "Como tocar solos por todo o braço da guitarra",
+     "url": "https://www.youtube.com/watch?v=U3u3jiF7zVg&t=606s",
+     "video": "U3u3jiF7zVg",
+     "inicio": 606,
+     "momento": "10:08",
+     "ideia": "Expandir a pentatônica para escalas diatônicas"
+    },
+    {
+     "id": "5e0SpzCw3IA#I13",
+     "tipo": "video",
+     "autor": "Brian Kelly",
+     "titulo": "Chord Tone Soloing Series (part 1) - Targeting Chord Tones in the \"Home Box\"",
+     "url": "https://www.youtube.com/watch?v=5e0SpzCw3IA&t=666s",
+     "video": "5e0SpzCw3IA",
+     "inicio": 666,
+     "momento": "11:08",
+     "ideia": "Escala diatônica como próximo nível"
+    },
+    {
+     "id": "Xs2umOucpSM#I21",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=779s",
+     "video": "Xs2umOucpSM",
+     "inicio": 779,
+     "momento": "13:01",
+     "ideia": "Da pentatônica à escala diatônica de sete notas"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I19",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escala maior dentro da pentatônica menor"
+    },
+    {
+     "id": "hafoCeXWxAE#I15",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=836s",
+     "video": "hafoCeXWxAE",
+     "inicio": 836,
+     "momento": "13:58",
+     "ideia": "Shape expandido: escala maior completa no braço"
+    },
+    {
+     "id": "hafoCeXWxAE#I16",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=881s",
+     "video": "hafoCeXWxAE",
+     "inicio": 881,
+     "momento": "14:43",
+     "ideia": "Localizar as notas de acorde no shape expandido"
+    },
+    {
+     "id": "hafoCeXWxAE#I13",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=770s",
+     "video": "hafoCeXWxAE",
+     "inicio": 770,
+     "momento": "12:52",
+     "ideia": "Combinar escala maior com pentatônica menor"
+    },
+    {
+     "id": "xKbtQM-qzSM#I14",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=574s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 574,
+     "momento": "09:36",
+     "ideia": "Alternar escala maior e pentatônica maior"
+    },
+    {
+     "id": "guitareo--improvising-guitar-solos-guide-b7c09a#I21",
+     "tipo": "documento",
+     "autor": "www.guitareo.com",
+     "titulo": "A Guide To Improvising Guitar Solos For Complete Beginners",
+     "url": "https://www.guitareo.com/riff/improvising-guitar-solos-guide/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mover a escala maior para a 5ª casa"
+    }
+   ]
+  },
+  {
+   "titulo": "Sol maior sobre Mi menor",
+   "objetivo": "Usar a escala maior relativa para sair do chavão da pentatônica em tom menor.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ponha uma base Em – C (dois compassos cada) ou grave a sua.",
+    "Toque a V5: comece no Sol, deslize até o Lá, passe pelo Dó (♭6) e pelo Fá♯ (9) e pouse no Mi.",
+    "Na base, improvise primeiro 1 minuto só com a pentatônica de Em na mesma região.",
+    "Depois mais 1 minuto com a escala de Sol inteira, terminando as frases em Mi, Sol ou Si sobre o Em.",
+    "Compare as duas gravações: onde a escala completa trouxe algo que a pentatônica não tinha?"
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "A mesma forma de Sol maior sobre Mi menor, a relativa. Do Sol você desliza até o Lá, passa pelo Dó (♭6) e pelo Fá♯ (9), as cores que a pentatônica de Em não tem, e pousa no Mi.",
+    "tonica": "E",
+    "bpm": 75,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o slide Sol → Lá → Si numa corda só e volte ao Sol.",
+    "Some o arpejo de Em (E G B) como esqueleto e preencha com a escala entre as notas dele."
+   ],
+   "cuidado": "Pensar 'agora estou em Sol' e terminar as frases no Sol por hábito. O centro continua sendo o Mi.",
+   "inspirado_em": [
+    {
+     "id": "5CSSVcINF1o#I07",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como pensar na hora de improvisar - Free Backing Track Em - Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=5CSSVcINF1o&t=231s",
+     "video": "5CSSVcINF1o",
+     "inicio": 231,
+     "momento": "03:53",
+     "ideia": "Escala maior relativa expande o braço"
+    },
+    {
+     "id": "5CSSVcINF1o#I03",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como pensar na hora de improvisar - Free Backing Track Em - Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=5CSSVcINF1o&t=74s",
+     "video": "5CSSVcINF1o",
+     "inicio": 74,
+     "momento": "01:16",
+     "ideia": "Ficar preso ao chavão da pentatônica de Em"
+    },
+    {
+     "id": "5CSSVcINF1o#I06",
+     "tipo": "video",
+     "autor": "Gustavo Guerra",
+     "titulo": "Como pensar na hora de improvisar - Free Backing Track Em - Guitar Solo",
+     "url": "https://www.youtube.com/watch?v=5CSSVcINF1o&t=191s",
+     "video": "5CSSVcINF1o",
+     "inicio": 191,
+     "momento": "03:13",
+     "ideia": "Improvisar em Em com duas pentatônicas, dois arpejos e a escala maior relativa"
+    },
+    {
+     "id": "mw6d34vqDMs#I02",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO CRIAR FRASES NA GUITARRA",
+     "url": "https://www.youtube.com/watch?v=mw6d34vqDMs&t=62s",
+     "video": "mw6d34vqDMs",
+     "inicio": 62,
+     "momento": "01:04",
+     "ideia": "Frase de Em7 = escala de Sol maior + pentatônica de Mi menor"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas regiões, uma frase",
+   "objetivo": "Ligar um trecho em 3 notas por corda à forma mista, sem parar o pulso.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque devagar a V6, só o compasso 1: casas 5–7–8 na corda Si e 5–7–8 na Mi, e chegue ao Ré da casa 10.",
+    "Repare no deslocamento da mão: o indicador sai da casa 5 e assume a casa 7 da forma da V1.",
+    "Toque os compassos 2–3 descendo pela forma mista até o Sol da corda Lá.",
+    "Junte tudo a 66 bpm e só suba o andamento quando a passagem não engasgar.",
+    "Improvise frases curtas que comecem numa região e terminem na outra."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Duas regiões numa só frase: sobe em 3 notas por corda (casas 5–8) nas cordas Si e Mi, chega ao Ré da casa 10 e desce pela forma mista da V1.",
+    "tonica": "G",
+    "bpm": 66,
+    "marcas": [],
+    "compassos": [
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o caminho inverso: desça da casa 10 para a região da casa 5.",
+    "Mantenha 3 notas por corda nas cordas Ré e Sol também e compare com a forma mista. Qual soa mais cantado?"
+   ],
+   "cuidado": "Parar o ritmo na troca de região. A mudança de posição tem que caber dentro do pulso.",
+   "inspirado_em": [
+    {
+     "id": "gkcw9CzLA-A#I19",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=922s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 922,
+     "momento": "15:24",
+     "ideia": "Sol maior diatônica em spread fingering"
+    },
+    {
+     "id": "gkcw9CzLA-A#I20",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=959s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 959,
+     "momento": "16:01",
+     "ideia": "Segunda posição de Sol maior a partir do Lá"
+    },
+    {
+     "id": "gkcw9CzLA-A#I21",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=1009s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 1009,
+     "momento": "16:51",
+     "ideia": "Combinar posições diatônicas"
+    },
+    {
+     "id": "superprof--aprenda-a-improvisar-na-guitarra-1659d5#I09",
+     "tipo": "documento",
+     "autor": "Fernanda",
+     "titulo": "O guia da improvisação: guitarra e violão",
+     "url": "https://www.superprof.com.br/blog/aprenda-a-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aprender uma posição por vez"
+    },
+    {
+     "id": "aHzmIWB0P00#I04",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+     "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=333s",
+     "video": "aHzmIWB0P00",
+     "inicio": 333,
+     "momento": "05:35",
+     "ideia": "Aprender uma posição antes de espalhar pelo braço"
+    },
+    {
+     "id": "XL9TYmwkHWs#I11",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "5 LEVELS OF IMPROVISATION (ft. Matteo Mancuso)",
+     "url": "https://www.youtube.com/watch?v=XL9TYmwkHWs&t=709s",
+     "video": "XL9TYmwkHWs",
+     "inicio": 709,
+     "momento": "11:51",
+     "ideia": "Posições mistas da escala maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Solo diatônico de 16 compassos",
+   "objetivo": "Improvisar por centro tonal com a escala de Sol inteira sobre uma progressão diatônica, misturando posições.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Grave G–Em–C–D (V7) em loop: 4 voltas, 16 compassos.",
+    "Volta 1: só a forma da casa 7–10, frases curtas e pausas.",
+    "Volta 2: inclua a região das casas 5–8 (V6) e ligue as duas.",
+    "Volta 3: dê slides, bends de um tom (Lá→Si, Mi→Fá♯) e vibrato nas notas de pouso.",
+    "Volta 4: termine cada frase numa nota do acorde do momento. Dó e Fá♯ só passam.",
+    "Grave tudo e marque o compasso onde a escala soou mais 'sua'."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "acordes",
+    "legenda": "Progressão diatônica em Sol para gravar a sua base: G – Em – C – D, um compasso cada.",
+    "tonica": "G",
+    "marcas": [],
+    "compassos": [],
+    "acordes": [
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "Em",
+      "digitacao": "022000"
+     },
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     }
+    ],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Transponha a forma toda para Ré maior (mindinho na casa 5) com uma base D–Bm–G–A.",
+    "Na mesma base, alterne quatro compassos de escala maior com quatro de pentatônica maior."
+   ],
+   "cuidado": "Tratar o shape como destino e só subir e descer o desenho. O desenho mostra onde estão as notas, e quem escolhe é o ouvido.",
+   "inspirado_em": [
+    {
+     "id": "gkcw9CzLA-A#I21",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Connect the Pentatonic Scale Across the Entire Fretboard (and Use it in Your Solos)",
+     "url": "https://www.youtube.com/watch?v=gkcw9CzLA-A&t=1009s",
+     "video": "gkcw9CzLA-A",
+     "inicio": 1009,
+     "momento": "16:51",
+     "ideia": "Combinar posições diatônicas"
+    },
+    {
+     "id": "yb9PBaQngn4#I02",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Iniciando na improvisação - Como estudar de forma eficiente.",
+     "url": "https://www.youtube.com/watch?v=yb9PBaQngn4&t=121s",
+     "video": "yb9PBaQngn4",
+     "inicio": 121,
+     "momento": "02:03",
+     "ideia": "Shapes viram muleta"
+    },
+    {
+     "id": "78ZqWUGMzqU#I07",
+     "tipo": "video",
+     "autor": "Brandon D'Eon",
+     "titulo": "How to Improvise Solos on Guitar THE HARD WAY",
+     "url": "https://www.youtube.com/watch?v=78ZqWUGMzqU&t=214s",
+     "video": "78ZqWUGMzqU",
+     "inicio": 214,
+     "momento": "03:36",
+     "ideia": "Toque cada shape mil vezes"
+    },
+    {
+     "id": "78ZqWUGMzqU#I09",
+     "tipo": "video",
+     "autor": "Brandon D'Eon",
+     "titulo": "How to Improvise Solos on Guitar THE HARD WAY",
+     "url": "https://www.youtube.com/watch?v=78ZqWUGMzqU&t=378s",
+     "video": "78ZqWUGMzqU",
+     "inicio": 378,
+     "momento": "06:20",
+     "ideia": "Pratique em todos os tons"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I27",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=1162s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 1162,
+     "momento": "19:24",
+     "ideia": "Improvisar com instinto, com foco na escala"
+    },
+    {
+     "id": "mw6d34vqDMs#I06",
+     "tipo": "video",
+     "autor": "jonatha guitar",
+     "titulo": "COMO CRIAR FRASES NA GUITARRA",
+     "url": "https://www.youtube.com/watch?v=mw6d34vqDMs&t=136s",
+     "video": "mw6d34vqDMs",
+     "inicio": 136,
+     "momento": "02:18",
+     "ideia": "Modo livre dentro do campo harmônico"
+    },
+    {
+     "id": "hafoCeXWxAE#I22",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1131s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1131,
+     "momento": "18:53",
+     "ideia": "Teste final da seção 2: shape expandido com técnicas"
+    },
+    {
+     "id": "BQTrA3hpqkM#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=801s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 801,
+     "momento": "13:23",
+     "ideia": "Estudar escalas maiores com as cinco formas"
+    },
+    {
+     "id": "QS6dpweE_Q4#I08",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+     "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4&t=295s",
+     "video": "QS6dpweE_Q4",
+     "inicio": 295,
+     "momento": "04:57",
+     "ideia": "Organizar a escala de Em dentro de cada bloco"
+    },
+    {
+     "id": "QS6dpweE_Q4#I09",
+     "tipo": "video",
+     "autor": "Edu Ardanuy",
+     "titulo": "Improvisação Tonal com um Arpejo para cada Acorde",
+     "url": "https://www.youtube.com/watch?v=QS6dpweE_Q4&t=322s",
+     "video": "QS6dpweE_Q4",
+     "inicio": 322,
+     "momento": "05:24",
+     "ideia": "Bloco 1: posições de G jônio e F# lócrio"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Usar o shape como muleta: apertar o desenho sem ouvir o que soa.",
+  "Terminar frases na 4ª (Dó sobre Sol). Ela é da escala, mas pede resolução.",
+  "Tentar aprender todas as posições e todos os tons de uma vez e não dominar nenhum.",
+  "Achar que a escala maior substitui a pentatônica, quando na verdade ela a completa.",
+  "Usar só 3 notas por corda e soar como exercício de escala.",
+  "Usar a relativa maior sobre um tom menor e terminar as frases na tônica maior por hábito."
+ ],
+ "resumo": [
+  "A escala maior é a pentatônica maior mais a 4ª e a 7ª, as duas notas que ficam a meio tom de vizinhas.",
+  "Forma móvel: mindinho na tônica da corda Lá. Casa 10 = Sol, 7 = Mi, 5 = Ré.",
+  "1, 3 e 5 repousam, 2, 6 e 7 colorem, e a 4ª sobre o I passa sem pousar.",
+  "As notas de Sol maior servem sobre Mi menor, mas o centro continua sendo o Mi.",
+  "Aprenda uma posição até tocar de olhos fechados e só depois ligue a vizinha."
+ ],
+ "proximos_passos": "Com uma forma de sete notas na mão, siga para \"Modos: construção, sonoridade e nota característica\" e veja como essas mesmas notas ganham outros centros. Para tirar a escala do sobe-e-desce, use \"Sequências, intervalos e padrões melódicos\". Para escolher onde cada frase termina, estude \"Notas do acorde, repouso e tensão-resolução\".",
+ "_meta": {
+  "subcategoria": "C11.1",
+  "modulo": {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica"
+  },
+  "nome": "Escala maior e diatônica no solo",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:03:16",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 29860,
+   "cache_read": 8780,
+   "output": 20733,
+   "thinking": 7737,
+   "turns": 4,
+   "custo_nominal": 0.679579
+  }
+ }
+}
