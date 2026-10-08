@@ -1,0 +1,1822 @@
+{
+ "titulo": "Pulso, contagem e subdivisões",
+ "gancho": "Ninguém se lembra da escala que você usou. Todo mundo percebe quando você sai do tempo.",
+ "porque_importa": "Uma frase com notas simples soa profissional quando está no tempo. Um lick difícil soa amador quando escorrega. Ritmo é quando cada nota começa, quanto dura e quando termina, e isso vale em todos os momentos do solo. Antes de pensar em mais notas, aprenda a dividir o pulso e a se manter nele.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Ritmo vem antes das notas",
+   "texto": "Quem conhece escalas e toca rápido ainda soa amador quando o tempo oscila. Motivos, frases e licks só funcionam se você estiver no pulso. Toda nota tem três decisões rítmicas: quando começa, quanto dura e quando termina. Sentir isso é mais importante do que saber ler partitura.",
+   "destaque": "Nota certa fora do tempo soa errada. Nota simples no tempo soa como música.",
+   "visual": null
+  },
+  {
+   "titulo": "As figuras são frações do compasso",
+   "texto": "Em 4/4 há quatro tempos. A semibreve dura o compasso inteiro (4 tempos). A mínima dura 2 tempos. A semínima dura 1 tempo, uma por contagem. A colcheia dura meio tempo, então cabem duas por tempo. A tercina põe três notas iguais num tempo, e a semicolcheia põe quatro. O andamento não muda: muda em quantas partes você divide cada tempo.",
+   "destaque": "Mais notas por tempo não é mais rápido. É o mesmo pulso dividido em mais partes.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Uma nota só (Lá, casa 7 da corda Ré) em quatro figuras: semibreve, mínimas, semínimas e colcheias. O pulso não muda, só a quantidade de ataques.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Conte em voz alta",
+   "texto": "Cada subdivisão tem a sua contagem. Semínimas: \"1 2 3 4\". Colcheias: \"1 e 2 e 3 e 4 e\" (oito pontos no compasso). Tercinas: \"1 e a 2 e a…\" (três sílabas por tempo, o feel do blues em 12/8). Semicolcheias: \"1 i e a 2 i e a…\" (quatro sílabas por tempo). Não confunda: tercina tem três sílabas e semicolcheia tem quatro. Conte com balanço, como quem canta, não como um robô.",
+   "destaque": "Se você não consegue contar, ainda não consegue tocar.",
+   "visual": null
+  },
+  {
+   "titulo": "O pé marca o pulso, não as notas",
+   "texto": "O pé fica nas semínimas o tempo todo, como um bumbo. As mãos fazem as subdivisões por cima. Se o pé começa a seguir as notas da guitarra, você perdeu a referência. Ouça também a bateria: o bumbo e o prato costumam marcar o 1, e a caixa normalmente cai no 2 e no 4. Ache o 1 antes de entrar.",
+   "destaque": "",
+   "visual": null
+  },
+  {
+   "titulo": "Notas rápidas também são divisões do pulso",
+   "texto": "Até os runs mais rápidos caem em colcheias, tercinas ou semicolcheias. Não existe lick bom fora do groove do baterista. Quando você começa a escolher notas, a cabeça se distrai e o tempo desmorona. Por isso o caminho tem três passos: primeiro o ritmo sem notas, depois poucas notas, e por último a improvisação com uma subdivisão fixa.",
+   "destaque": "Para segurar o groove, troque de nota mais devagar.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Troque de nota devagar: em semínimas, cada nota se repete 4 vezes, depois 2, depois 1. O cérebro escolhe menos e o groove assenta.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 16,
+   "porque": "Daniel Seriff conta um blues em voz alta, primeiro em semínimas e depois em tercinas, antes de encostar na guitarra.",
+   "fonte": {
+    "id": "Ork2Vc2bva8#I09",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=275s",
+    "video": "Ork2Vc2bva8",
+    "inicio": 275,
+    "momento": "04:37",
+    "ideia": "Contar em voz alta com a subdivisão ternária"
+   }
+  },
+  {
+   "ref": 26,
+   "porque": "Demonstração do drumitar: cordas abafadas, só ritmo, e o tempo mantido com as mãos em movimento.",
+   "fonte": {
+    "id": "BQTrA3hpqkM#I04",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Why Do Some Guitarists Get Better So Fast?",
+    "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=139s",
+    "video": "BQTrA3hpqkM",
+    "inicio": 139,
+    "momento": "2:21",
+    "ideia": "Drumitar: mão de trás abafando as cordas"
+   }
+  },
+  {
+   "ref": 51,
+   "porque": "A progressão de 4, 2 e 1 repetição por nota em semínimas, tocada sobre uma base em Mi menor.",
+   "fonte": {
+    "id": "Qk8rk-uaBzU#I04",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+    "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=134s",
+    "video": "Qk8rk-uaBzU",
+    "inicio": 134,
+    "momento": "02:16",
+    "ideia": "Semínimas com uma nota por tempo, repetida 4 vezes"
+   }
+  },
+  {
+   "ref": 57,
+   "porque": "Improviso preso a um único valor rítmico por vez, mostrando como isso cola o solo na bateria.",
+   "fonte": {
+    "id": "3dW_GQsC5Ak#I13",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+    "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=446s",
+    "video": "3dW_GQsC5Ak",
+    "inicio": 446,
+    "momento": "07:28",
+    "ideia": "Improviso com ritmos específicos"
+   }
+  },
+  {
+   "ref": 13,
+   "porque": "Explicação clara da contagem \"1 e 2 e\" e de como localizar cada colcheia dentro do compasso.",
+   "fonte": {
+    "id": "hWlyxQclPcs#I02",
+    "tipo": "video",
+    "autor": "Your Guitar Academy",
+    "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+    "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=34s",
+    "video": "hWlyxQclPcs",
+    "inicio": 34,
+    "momento": "00:36",
+    "ideia": "Contagem com colcheias"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Palmas e voz: a escada das subdivisões",
+   "objetivo": "Fixar o pulso e as quatro subdivisões no corpo, sem a distração das notas.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Ligue o metrônomo a 70 BPM ou uma base com bateria bem marcada.",
+    "Bata o pé nas semínimas e conte \"1 2 3 4\" em voz alta durante 4 compassos.",
+    "Mantenha o pé igual e bata palmas em colcheias, contando \"1 e 2 e 3 e 4 e\". Faça 4 compassos.",
+    "Passe às tercinas (\"1 e a\") por 4 compassos e depois às semicolcheias (\"1 i e a\") por mais 4.",
+    "Desça a escada na ordem inversa sem parar, até voltar às semínimas.",
+    "Só vá para a guitarra quando a troca de subdivisão sair limpa, sem tropeço."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça a escada contando só com a voz, por exemplo andando na rua.",
+    "Sobre uma música qualquer do rádio, ache o 1 antes de começar a contar."
+   ],
+   "cuidado": "O pé acelera junto com as palmas quando a subdivisão fica mais densa. Ele tem que continuar nas semínimas.",
+   "inspirado_em": [
+    {
+     "id": "On_Ho3azaLk#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=309s",
+     "video": "On_Ho3azaLk",
+     "inicio": 309,
+     "momento": "05:11",
+     "ideia": "Contar em voz alta com o backing track"
+    },
+    {
+     "id": "Ork2Vc2bva8#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=275s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 275,
+     "momento": "04:37",
+     "ideia": "Contar em voz alta com a subdivisão ternária"
+    },
+    {
+     "id": "hWlyxQclPcs#I03",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=67s",
+     "video": "hWlyxQclPcs",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Treinar ritmo sem violão"
+    },
+    {
+     "id": "tRi4vMs2z8M#I02",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=231s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 231,
+     "momento": "03:53",
+     "ideia": "Cantar ou bater ritmos sobre a backing track"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I14",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Bater os ritmos com metrônomo"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=662s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 662,
+     "momento": "11:04",
+     "ideia": "Perna ou pé acompanhando as notas"
+    }
+   ]
+  },
+  {
+   "titulo": "Drumitar: ritmo com as cordas abafadas",
+   "objetivo": "Levar as subdivisões para a mão da palheta, ainda sem escolher notas.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Encoste a mão esquerda em todas as cordas, sem apertar casa nenhuma, para que só saia um \"tchic\" percussivo.",
+    "No metrônomo a 70 BPM, toque semínimas na corda Ré, todas para baixo, contando em voz alta.",
+    "Passe às colcheias com palhetada alternada (baixo no número, cima no \"e\").",
+    "Depois faça tercinas e semicolcheias, 4 compassos cada, sempre contando.",
+    "Repita a escada palhetando 3 ou 4 cordas de uma vez, como se fosse uma batida.",
+    "Grave 30 segundos e confira se cada ataque cai junto com o clique."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Troque o metrônomo por um loop de bateria reta a 80–90 BPM.",
+    "Acentue só o primeiro ataque de cada tempo para ouvir a subdivisão com mais clareza."
+   ],
+   "cuidado": "Nas tercinas, a palhetada alternada inverte a direção a cada tempo, e isso costuma puxar você de volta para as colcheias. Conte as três sílabas em voz alta.",
+   "inspirado_em": [
+    {
+     "id": "BQTrA3hpqkM#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=139s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 139,
+     "momento": "2:21",
+     "ideia": "Drumitar: mão de trás abafando as cordas"
+    },
+    {
+     "id": "BQTrA3hpqkM#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=207s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 207,
+     "momento": "3:29",
+     "ideia": "Subdivisões: colcheias, tercinas e semicolcheias"
+    },
+    {
+     "id": "BQTrA3hpqkM#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=120s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 120,
+     "momento": "2:02",
+     "ideia": "Ritmo se desorganiza ao mover as mãos"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma nota, quatro figuras",
+   "objetivo": "Sentir a duração de cada figura e a energia que cresce quando a subdivisão fica mais densa.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Ponha uma base em Lá menor e toque o Lá da casa 7 da corda Ré.",
+    "Toque a tab V1: semibreve (sustente os 4 tempos), duas mínimas, quatro semínimas e oito colcheias.",
+    "Na semibreve, ouça a harmonia se mexer em volta da sua nota parada.",
+    "Repita a sequência começando cada figura em um tempo diferente (a mínima no 2, a semibreve no 3…).",
+    "Por fim, misture as figuras livremente na mesma nota e crie um ritmo que combine com a base."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Uma nota só (Lá, casa 7 da corda Ré) em quatro figuras: semibreve, mínimas, semínimas e colcheias. O pulso não muda, só a quantidade de ataques.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use o Si da casa 12 da corda Si.",
+    "Toque as notas alternando forte e fraco, sem perder o tempo."
+   ],
+   "cuidado": "Cortar a semibreve e a mínima antes da hora. Uma nota longa só termina no tempo seguinte à sua duração.",
+   "inspirado_em": [
+    {
+     "id": "ECtdGsEEecI#I13",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=405s",
+     "video": "ECtdGsEEecI",
+     "inicio": 405,
+     "momento": "06:47",
+     "ideia": "Whole note sobre a nota A na corda D"
+    },
+    {
+     "id": "ECtdGsEEecI#I14",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=440s",
+     "video": "ECtdGsEEecI",
+     "inicio": 440,
+     "momento": "07:22",
+     "ideia": "Half notes com a nota raiz"
+    },
+    {
+     "id": "ECtdGsEEecI#I15",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=473s",
+     "video": "ECtdGsEEecI",
+     "inicio": 473,
+     "momento": "07:55",
+     "ideia": "Quarter notes com a nota raiz"
+    },
+    {
+     "id": "tRi4vMs2z8M#I03",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=306s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 306,
+     "momento": "05:08",
+     "ideia": "Aplicar ritmos a uma única nota"
+    },
+    {
+     "id": "stringkick--guitar-improvisation-74638e#I08",
+     "tipo": "documento",
+     "autor": "Just Rijna",
+     "titulo": "How to Improvise On Guitar [Easy Guide] | StringKick",
+     "url": "https://www.stringkick.com/blog-lessons/guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar com uma nota só"
+    },
+    {
+     "id": "ECtdGsEEecI#I12",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=339s",
+     "video": "ECtdGsEEecI",
+     "inicio": 339,
+     "momento": "05:41",
+     "ideia": "Tocar figuras rítmicas sobre o backing track a partir de tempos escolhidos"
+    }
+   ]
+  },
+  {
+   "titulo": "Escada de figuras na pentatônica",
+   "objetivo": "Manter a figura certa enquanto as notas começam a mudar.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Reveja no braço (V2) a pentatônica de Lá menor na casa 5.",
+    "Toque a tab V4 a 70 BPM: semibreve, mínimas, semínimas e um compasso de colcheias que pousa no Lá.",
+    "Depois suba e desça a forma inteira em semínimas, uma nota por tempo, sem parar.",
+    "Faça o mesmo em colcheias, mudando de direção em pontos aleatórios sem quebrar o fluxo.",
+    "Se atrasar em alguma troca de corda, baixe 10 BPM e repita."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Escada de figuras: o andamento fica igual e as notas ficam mais curtas a cada compasso. Repare no silêncio do último tempo.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça as colcheias só com palhetada alternada e as semínimas só com palhetada para baixo.",
+    "Toque a escada também em tercinas, contando \"1 e a\"."
+   ],
+   "cuidado": "Apressar as colcheias porque a escala já está decorada. Os dedos sabem o caminho, mas quem manda é o clique.",
+   "inspirado_em": [
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I07",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Caminhar pela escala no tempo"
+    },
+    {
+     "id": "hWlyxQclPcs#I04",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=100s",
+     "video": "hWlyxQclPcs",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Colcheias contínuas sobre o backing track"
+    },
+    {
+     "id": "ghU-p7QAoRQ#I09",
+     "tipo": "video",
+     "autor": "Guto Gabrelon",
+     "titulo": "O ÚNICO Jeito de Ganhar Velocidade na Guitarra (Exercício + PDF) | Guto Gabrelon",
+     "url": "https://www.youtube.com/watch?v=ghU-p7QAoRQ&t=299s",
+     "video": "ghU-p7QAoRQ",
+     "inicio": 299,
+     "momento": "05:01",
+     "ideia": "Tocar o exercício com metrônomo"
+    },
+    {
+     "id": "-VjHVHzWL0o#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=1447s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 1447,
+     "momento": "24:09",
+     "ideia": "Escala com mudanças aleatórias de direção"
+    }
+   ]
+  },
+  {
+   "titulo": "Troque de nota devagar: 4×, 2×, 1×",
+   "objetivo": "Improvisar dentro de uma subdivisão sem perder o groove, reduzindo quantas decisões você toma por segundo.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Base em Lá menor (ou Mi menor) a 75–85 BPM, usando a pentatônica.",
+    "Semínimas: escolha uma nota e toque-a 4 vezes, depois escolha outra. A ordem das notas é livre. Faça 8 compassos.",
+    "Agora 2 vezes por nota (como na tab V3) e depois 1 vez por nota, sempre improvisando a ordem.",
+    "Repita em colcheias: 4×, 2× e 1×.",
+    "Tercinas: 6×, 3× e 1×. Semicolcheias: 4×, 2× e 1× (se ficar rápido demais, use uma base mais lenta).",
+    "Mantenha as notas ligadas umas nas outras e o volume uniforme. Só avance quando o nível anterior estiver firme."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Troque de nota devagar: em semínimas, cada nota se repete 4 vezes, depois 2, depois 1. O cérebro escolhe menos e o groove assenta.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use a forma diagonal da pentatônica em vez da caixa.",
+    "Termine cada rodada com uma nota longa em tempo forte."
+   ],
+   "cuidado": "Na versão 1× a cabeça corre atrás da próxima nota e o tempo afrouxa. Se acontecer, volte para 2×.",
+   "inspirado_em": [
+    {
+     "id": "jexCJFrAeH4#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=338s",
+     "video": "jexCJFrAeH4",
+     "inicio": 338,
+     "momento": "05:40",
+     "ideia": "Slowing the rate of change"
+    },
+    {
+     "id": "jexCJFrAeH4#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=408s",
+     "video": "jexCJFrAeH4",
+     "inicio": 408,
+     "momento": "06:50",
+     "ideia": "Progressão de densidade rítmica"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=134s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Semínimas com uma nota por tempo, repetida 4 vezes"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I05",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=205s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 205,
+     "momento": "03:27",
+     "ideia": "Semínimas trocando de nota a cada duas batidas"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I07",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=238s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 238,
+     "momento": "04:00",
+     "ideia": "Colcheias com palhetada alternada"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=342s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 342,
+     "momento": "05:44",
+     "ideia": "Tercinas com seis e três repetições por nota"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=450s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 450,
+     "momento": "07:32",
+     "ideia": "Semicolcheias com contagem 1 e 2 e 3 e 4 e"
+    },
+    {
+     "id": "jexCJFrAeH4#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=408s",
+     "video": "jexCJFrAeH4",
+     "inicio": 408,
+     "momento": "06:50",
+     "ideia": "Downstrokes nas semínimas para sentir o pulso"
+    }
+   ]
+  },
+  {
+   "titulo": "Improviso com uma subdivisão fixa",
+   "objetivo": "Fazer escolhas melódicas reais sem sair da subdivisão escolhida, guiado pela bateria.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Ponha uma base com bateria (por exemplo, Lá dórico ou Lá menor a 85 BPM).",
+    "Rodada 1, cerca de 2 minutos: improvise só em semínimas. Faça cada nota valer.",
+    "Rodada 2: só colcheias. Rodada 3: só tercinas. Rodada 4: só semicolcheias, em trechos curtos.",
+    "Pausas são permitidas, mas quando você volta a tocar, volta na mesma subdivisão.",
+    "Rodada final: combine duas subdivisões, por exemplo colcheias e tercinas, e troque de uma para outra no início de cada compasso.",
+    "Termine runs rápidos no ataque do prato, no 1 do compasso seguinte."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor na casa 5: as notas que você vai usar nos exercícios de subdivisão. As tônicas (Lá) servem de ponto de apoio.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Em vez da base, use um loop de bateria reta, sem harmonia.",
+    "Faça um blues em Lá em 12/8 só com tercinas, sem perder a forma de 12 compassos."
+   ],
+   "cuidado": "Escorregar das tercinas para as colcheias, ou o contrário, sem perceber. Grave e confira.",
+   "inspirado_em": [
+    {
+     "id": "J-vMFMHwpkQ#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "How to improve your speed SO FAST it feels ILLEGAL",
+     "url": "https://www.youtube.com/watch?v=J-vMFMHwpkQ&t=240s",
+     "video": "J-vMFMHwpkQ",
+     "inicio": 240,
+     "momento": "04:02",
+     "ideia": "Praticar os padrões sobre bateria a 90 BPM"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I31",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=1230s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 1230,
+     "momento": "20:32",
+     "ideia": "Praticar a música com metrônomo ou faixa de bateria"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=446s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 446,
+     "momento": "07:28",
+     "ideia": "Improviso com ritmos específicos"
+    },
+    {
+     "id": "jexCJFrAeH4#I02",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=66s",
+     "video": "jexCJFrAeH4",
+     "inicio": 66,
+     "momento": "01:08",
+     "ideia": "Improvisar com um único valor rítmico"
+    },
+    {
+     "id": "jexCJFrAeH4#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=338s",
+     "video": "jexCJFrAeH4",
+     "inicio": 338,
+     "momento": "05:40",
+     "ideia": "Ritmos constantes sobre backing track"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I31",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=1205s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 1205,
+     "momento": "20:07",
+     "ideia": "Consistent rhythms"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I23",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 5: tocar só com semínimas"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I12",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Looper de tercinas sem perder a forma"
+    }
+   ]
+  },
+  {
+   "titulo": "Base muda: conte sozinho e caia no 1",
+   "objetivo": "Construir um pulso interno que não dependa de ouvir a bateria.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Improvise colcheias sobre a base em Lá menor.",
+    "Peça a alguém (ou use um app) para zerar o volume da base durante 4 compassos. No começo, você pode simplesmente abaixar o volume no meio da frase.",
+    "Continue tocando e contando por dentro, sentindo bem o 1 e o 3 de cada compasso.",
+    "Quando o som voltar, confira: você estava no 1 junto com a base?",
+    "Aumente o silêncio para 8 compassos. Depois troque o metrônomo por um clique só no 2 e no 4.",
+    "Por fim, toque sem base nenhuma uma progressão que você conhece, pare em qualquer momento e diga em que compasso e tempo está."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça o mesmo em tercinas.",
+    "Conte e bata palmas em compassos de 5 e de 7 tempos, acentuando o 1."
+   ],
+   "cuidado": "Acelerar no silêncio. Quem toca sozinho tende a correr, e só a volta da base, ou a gravação, revela isso.",
+   "inspirado_em": [
+    {
+     "id": "rh6HEF5Dy2I#I33",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=1264s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 1264,
+     "momento": "21:06",
+     "ideia": "Tendência a correr o tempo"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I12",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Looper de tercinas sem perder a forma"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=266s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 266,
+     "momento": "04:28",
+     "ideia": "Compor fora do tempo focando nos tempos fortes"
+    },
+    {
+     "id": "jazzadvice--p-11773-202013#I20",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "8 Projects To Get Better At Playing Jazz Fast • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=11773",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treinar compassos ímpares"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Bater o pé seguindo as notas da guitarra em vez de marcar o pulso.",
+  "Contar semicolcheias com três sílabas, que é contagem de tercina. Semicolcheia tem quatro sílabas por tempo.",
+  "Achar que mais notas por tempo exige um andamento maior. O pulso é o mesmo, só dividido em mais partes.",
+  "Tocar escala perfeita no metrônomo e perder o tempo ao improvisar, por pular direto para escolher muitas notas.",
+  "Cortar notas longas antes da hora: a duração também é ritmo.",
+  "Correr o tempo tocando sozinho e só perceber na gravação.",
+  "Entrar sem ter achado o 1 da música."
+ ],
+ "resumo": [
+  "Ritmo é quando cada nota começa, quanto dura e quando termina, e manda tanto quanto as notas.",
+  "Semibreve = 4 tempos, mínima = 2, semínima = 1, colcheia = ½. Tercina põe 3 notas por tempo e semicolcheia põe 4.",
+  "Conte em voz alta: \"1 e\", \"1 e a\", \"1 i e a\". O pé fica sempre nas semínimas.",
+  "Primeiro ritmo sem notas, depois uma nota, depois poucas notas repetidas, e só então o improviso livre.",
+  "Improvise com uma subdivisão fixa por rodada e siga a bateria."
+ ],
+ "proximos_passos": "Com o pulso firme, siga para \"Deslocamento, síncope e ponto de entrada\", para começar frases fora do 1, e para \"Variação rítmica e ganchos rítmicos\". Depois vá a \"Feel: swing, groove e rubato\". Para trabalhar o silêncio entre as frases, veja \"Espaço, silêncio e respiração\", e para conferir se o seu tempo está firme, use \"Gravação, autoavaliação e feedback\".",
+ "_meta": {
+  "subcategoria": "C06.1",
+  "modulo": {
+   "id": "C06",
+   "nome": "Ritmo, tempo e groove"
+  },
+  "nome": "Pulso, contagem e subdivisões",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:06:05",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 36989,
+   "cache_read": 33041,
+   "output": 20641,
+   "thinking": 3132,
+   "turns": 3,
+   "custo_nominal": 0.7337102
+  }
+ }
+}

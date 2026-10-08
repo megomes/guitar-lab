@@ -1,0 +1,2438 @@
+{
+ "titulo": "Variação rítmica e ganchos rítmicos",
+ "gancho": "Com as mesmas quatro notas, você pode tocar três frases diferentes. Quem muda tudo é o ritmo.",
+ "porque_importa": "O ouvido reconhece uma frase pelo ritmo antes de reconhecer as notas. Por isso um solo com escala nova e o mesmo ritmo de sempre continua soando igual. Já um ritmo bem escolhido, repetido e variado vira gancho e une as frases numa só história.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "O ouvido lembra do ritmo",
+   "texto": "Quando o solo não convence, o reflexo é buscar outra escala. Quase sempre o problema é rítmico: frases diferentes com o mesmo ritmo soam como a mesma frase. Bradley Hall resume o fraseado como metade notas, metade ritmo. A metade das notas você já treina todo dia. A do ritmo exige treino de propósito.",
+   "destaque": "Antes de trocar de escala, troque o ritmo.",
+   "visual": null
+  },
+  {
+   "titulo": "Mude só o ritmo",
+   "texto": "Pegue uma sequência de notas e mexa só na divisão. Segure a primeira nota, antecipe a segunda, aperte o final em colcheias. A melodia é a mesma e o caráter é outro. Com as cinco notas da pentatônica há milhares de versões, e é isso que torna um lick seu.",
+   "destaque": "Mesmas alturas, outra frase.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor nas três cordas agudas (casas 5 a 8), mais a tônica da corda 4: o material de todos os exercícios",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Mantenha o ritmo, troque as notas",
+   "texto": "O caminho inverso também funciona: conserve uma célula rítmica e mude as notas. O ouvinte percebe a ligação e escuta uma história, não um texto sem pontuação. Melodias que grudam, como o Canon de Pachelbel, têm ritmo muito constante. Jeff Beck faz isso em 'We've Ended as Lovers': repete a mesma célula numa onda descendente.",
+   "destaque": "Ritmo repetido vira gancho.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Blueprint AAB: a mesma célula de três notas (colcheia, colcheia, semínima) aparece três vezes com notas novas, descendo, descendo e subindo. O fechamento B usa outro ritmo e pousa na tônica.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Padrão fixo como andaime",
+   "texto": "Escolha um ritmo de um compasso e toque só ele durante o improviso. A restrição tira você do piloto automático e obriga a pensar o braço de outro jeito. Depois de dominar o padrão, siga-o em uns 90% das vezes: pule uma nota aqui, acrescente outra ali. Repetição pura cansa. Repetição com pequenas mudanças prende o ouvinte.",
+   "destaque": "Rigidez para aprender, 10% de liberdade para soar humano.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Andaime rítmico: pausa no 1, duas colcheias no 2 e semínimas no 3 e no 4. Primeiro com uma nota, depois com duas e por fim um lick que termina na tônica.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Roube ritmos, não notas",
+   "texto": "Toda música que você conhece é um banco de ritmos. Tire só o ritmo de uma frase famosa, jogue fora as notas e encaixe nele as suas notas. Também ajuda escrever ritmos no papel: lá fica mais fácil ver as permutações que a mão nunca faria sozinha.",
+   "destaque": "",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "O ritmo de 'Brilha, brilha, estrelinha' (quatro semínimas, depois duas semínimas e uma mínima) com notas novas da pentatônica de Lá menor",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 49,
+   "porque": "Você vê o padrão com pausa no tempo 1 virar a base de um improviso inteiro na pentatônica menor.",
+   "fonte": {
+    "id": "gQuuCibwBzY#I09",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=428s",
+    "video": "gQuuCibwBzY",
+    "inicio": 428,
+    "momento": "07:10",
+    "ideia": "Improvisar com um padrão rítmico fixo"
+   }
+  },
+  {
+   "ref": 56,
+   "porque": "Bradley Hall tira o ritmo de 'Barbie Girl' e de 'Master of Puppets', aplica a notas próprias e mostra como a frase ganha outra vida.",
+   "fonte": {
+    "id": "VNSfej3sPII#I14",
+    "tipo": "video",
+    "autor": "Bradley Hall's Guitar School",
+    "titulo": "The Ultimate Solo PHRASING Masterclass",
+    "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=571s",
+    "video": "VNSfej3sPII",
+    "inicio": 571,
+    "momento": "09:33",
+    "ideia": "Aplicar o ritmo de uma melodia conhecida às suas notas"
+   }
+  },
+  {
+   "ref": 47,
+   "porque": "Paul Davids mostra Jeff Beck repetindo uma mesma célula rítmica em onda descendente e explica por que as frases soam conectadas.",
+   "fonte": {
+    "id": "6n2308MSpjk#I15",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+    "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=508s",
+    "video": "6n2308MSpjk",
+    "inicio": 508,
+    "momento": "08:30",
+    "ideia": "Jeff Beck em 'We've Ended as Lovers'"
+   }
+  },
+  {
+   "ref": 42,
+   "porque": "O blueprint AAB tocado: o mesmo ritmo três vezes com notas novas e um fechamento diferente.",
+   "fonte": {
+    "id": "Ib5qv48K7ww#I06",
+    "tipo": "video",
+    "autor": "Sound Guitar Lessons With Jared",
+    "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+    "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=320s",
+    "video": "Ib5qv48K7ww",
+    "inicio": 320,
+    "momento": "05:22",
+    "ideia": "Blueprint AAB por ritmo"
+   }
+  },
+  {
+   "ref": 37,
+   "porque": "Jeff Schneider repete o movimento 7→3 com ritmos diferentes num etude: notas fixas e ritmo vivo.",
+   "fonte": {
+    "id": "Z-KzfB7vfFA#I14",
+    "tipo": "video",
+    "autor": "Jeff Schneider",
+    "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+    "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=439s",
+    "video": "Z-KzfB7vfFA",
+    "inicio": 439,
+    "momento": "07:21",
+    "ideia": "Repetir o contorno com variação rítmica"
+   }
+  },
+  {
+   "ref": 25,
+   "porque": "Steve Stine toca o mesmo padrão de poucas notas em várias divisões rítmicas, numa demonstração bem direta.",
+   "fonte": {
+    "id": "KorP9lq1voU#I13",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=408s",
+    "video": "KorP9lq1voU",
+    "inicio": 408,
+    "momento": "06:50",
+    "ideia": "Mudar o ritmo de um mesmo padrão"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Mesmas quatro notas, três frases",
+   "objetivo": "Sentir que só o ritmo já muda o caráter de uma frase.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Com a base de Lá menor ou o metrônomo a 75, toque C–A–G–A em semínimas retas (compasso 1 de V2).",
+    "Agora segure o C por dois tempos e apresse o resto: A no 3, G no 'e' do 3, A no 4 (compasso 2).",
+    "Versão sincopada: comece no 'e' do 1 e pouse no A no tempo 3, deixando o resto do compasso vazio (compasso 3).",
+    "Respeite o compasso de silêncio e repita o ciclo 4 vezes.",
+    "Invente uma quarta versão sua, ainda com as mesmas quatro notas, e grave as quatro em sequência."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Mesmas notas (C–A–G–A), três ritmos: semínimas retas, nota longa com final apressado e versão sincopada. O último compasso fica em silêncio.",
+    "tonica": "A",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use outras quatro notas da caixa (ex.: E–G–A–C) e crie três ritmos.",
+    "Faça uma versão em que uma das notas se repete duas vezes seguidas."
+   ],
+   "cuidado": "Mudar as notas sem perceber. Confira se a sequência de alturas é idêntica nas três versões.",
+   "inspirado_em": [
+    {
+     "id": "KorP9lq1voU#I13",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=408s",
+     "video": "KorP9lq1voU",
+     "inicio": 408,
+     "momento": "06:50",
+     "ideia": "Mudar o ritmo de um mesmo padrão"
+    },
+    {
+     "id": "ea2g6P0pCKg#I21",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=572s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 572,
+     "momento": "09:34",
+     "ideia": "Variar o timing das notas"
+    },
+    {
+     "id": "AUhEZ-7q5WI#I16",
+     "tipo": "video",
+     "autor": "Guitar Mastery Method",
+     "titulo": "This ONE TRICK Keeps My Solos Going Forever",
+     "url": "https://www.youtube.com/watch?v=AUhEZ-7q5WI&t=504s",
+     "video": "AUhEZ-7q5WI",
+     "inicio": 504,
+     "momento": "08:26",
+     "ideia": "Variar o timing do lick"
+    },
+    {
+     "id": "GC-HIgdwVSM#I16",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=1085s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 1085,
+     "momento": "18:07",
+     "ideia": "Variar a mesma frase com diferentes divisões rítmicas"
+    },
+    {
+     "id": "Rm8Y-Q6wbR4#I01",
+     "tipo": "video",
+     "autor": "John Nathan Cordy",
+     "titulo": "Play MELODIC Solos That DON'T Sound Like SCALES - Improvising Melodic Guitar Solo Tutorial",
+     "url": "https://www.youtube.com/watch?v=Rm8Y-Q6wbR4&t=174s",
+     "video": "Rm8Y-Q6wbR4",
+     "inicio": 174,
+     "momento": "02:56",
+     "ideia": "Mudar apenas um aspecto da linha"
+    },
+    {
+     "id": "ECtdGsEEecI#I17",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=573s",
+     "video": "ECtdGsEEecI",
+     "inicio": 573,
+     "momento": "09:35",
+     "ideia": "Combinar figuras diferentes"
+    }
+   ]
+  },
+  {
+   "titulo": "Andaime: pausa no 1, toca no 2, 3 e 4",
+   "objetivo": "Usar um padrão rítmico fixo como estrutura do improviso.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Bata palmas no padrão: silêncio no 1, duas colcheias no 2, semínimas no 3 e no 4. Conte em voz alta.",
+    "Toque o padrão com uma nota só (A, casa 5 da corda 1) por 4 compassos.",
+    "Alterne duas notas (G e A) no mesmo padrão.",
+    "Toque licks inteiros dentro do padrão, como nos compassos 3 e 4 de V3.",
+    "Improvise 16 compassos sobre a base sem sair do padrão.",
+    "Na rodada final, siga o padrão em uns 90%: pule uma nota ou acrescente uma de vez em quando."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Andaime rítmico: pausa no 1, duas colcheias no 2 e semínimas no 3 e no 4. Primeiro com uma nota, depois com duas e por fim um lick que termina na tônica.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Crie seu próprio padrão de um compasso e repita o processo.",
+    "Troque o andaime a cada 8 compassos entre dois padrões diferentes."
+   ],
+   "cuidado": "Entrar no tempo 1 por hábito. A pausa no 1 faz parte do padrão: deixe-a vazia.",
+   "inspirado_em": [
+    {
+     "id": "gQuuCibwBzY#I09",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=428s",
+     "video": "gQuuCibwBzY",
+     "inicio": 428,
+     "momento": "07:10",
+     "ideia": "Improvisar com um padrão rítmico fixo"
+    },
+    {
+     "id": "gQuuCibwBzY#I10",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=461s",
+     "video": "gQuuCibwBzY",
+     "inicio": 461,
+     "momento": "07:43",
+     "ideia": "Padrão rítmico como andaime do solo"
+    },
+    {
+     "id": "gQuuCibwBzY#I11",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=579s",
+     "video": "gQuuCibwBzY",
+     "inicio": 579,
+     "momento": "09:41",
+     "ideia": "Equilíbrio entre rigidez e liberdade"
+    },
+    {
+     "id": "hWlyxQclPcs#I08",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=269s",
+     "video": "hWlyxQclPcs",
+     "inicio": 269,
+     "momento": "04:31",
+     "ideia": "Criar um bloco rítmico repetível"
+    },
+    {
+     "id": "hWlyxQclPcs#I10",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 3",
+     "url": "https://www.youtube.com/watch?v=hWlyxQclPcs&t=340s",
+     "video": "hWlyxQclPcs",
+     "inicio": 340,
+     "momento": "05:42",
+     "ideia": "Loop de 4 compassos com variação"
+    }
+   ]
+  },
+  {
+   "titulo": "AAB: o ritmo segura, as notas andam",
+   "objetivo": "Criar coesão repetindo uma célula rítmica com notas novas e fechar com contraste.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a célula A de V4: colcheia, colcheia, semínima, a partir do tempo 1.",
+    "Repita o mesmo ritmo com outras notas, ainda descendo (compasso 2).",
+    "Na terceira vez, mantenha o ritmo e inverta a direção: suba (compasso 3).",
+    "Feche com B: um ritmo diferente, começando no contratempo e pousando na tônica (compasso 4).",
+    "Agora improvise: invente sua célula A, faça A-A-A com notas novas e feche com um B diferente."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Blueprint AAB: a mesma célula de três notas (colcheia, colcheia, semínima) aparece três vezes com notas novas, descendo, descendo e subindo. O fechamento B usa outro ritmo e pousa na tônica.",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça A-A-B-B': o B se repete com uma pequena mudança.",
+    "Use a mesma célula A, mas com o primeiro A começando no tempo 2."
+   ],
+   "cuidado": "Deixar o ritmo de A escorregar nas repetições. Ele tem que ser idêntico; só as notas mudam.",
+   "inspirado_em": [
+    {
+     "id": "Ib5qv48K7ww#I06",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=320s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 320,
+     "momento": "05:22",
+     "ideia": "Blueprint AAB por ritmo"
+    },
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I09",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar só o ritmo da ideia original"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I18",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=608s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 608,
+     "momento": "10:10",
+     "ideia": "Contrastar a direção das frases"
+    },
+    {
+     "id": "x8V99YYMRTc#I05",
+     "tipo": "video",
+     "autor": "Rodrigo Flausino",
+     "titulo": "Como criar um solo - 3 passos",
+     "url": "https://www.youtube.com/watch?v=x8V99YYMRTc&t=169s",
+     "video": "x8V99YYMRTc",
+     "inicio": 169,
+     "momento": "02:51",
+     "ideia": "Repetir o motivo rítmico e variar a resolução"
+    },
+    {
+     "id": "blog--p-8459-aecaa8#I14",
+     "tipo": "documento",
+     "autor": "ArtistWorks",
+     "titulo": "Call and Response Improvisation: Guitar Solos That Sing",
+     "url": "https://blog.artistworks.com/?p=8459",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ritmo como gancho da assinatura do solo"
+    },
+    {
+     "id": "6n2308MSpjk#I14",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How the PROS use Call & Response (must-know solo trick!)",
+     "url": "https://www.youtube.com/watch?v=6n2308MSpjk&t=476s",
+     "video": "6n2308MSpjk",
+     "inicio": 476,
+     "momento": "07:58",
+     "ideia": "Ritmo como elo narrativo entre frases"
+    }
+   ]
+  },
+  {
+   "titulo": "Estica e encolhe: aumentação e diminuição",
+   "objetivo": "Variar a intensidade de uma ideia sem trocar as notas.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque a célula E–G–A em semínimas e segure o A (compasso 1 de V5).",
+    "Aumentação: dobre todos os valores. A célula agora ocupa dois compassos e soa calma.",
+    "Diminuição: corte os valores pela metade e toque a célula duas vezes no mesmo compasso.",
+    "Toque os três tamanhos em sequência e perceba como a tensão sobe na versão curta.",
+    "Improvise 8 compassos começando largo e terminando denso com uma célula sua."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Célula E–G–A em três tamanhos: original em semínimas, aumentação (valores dobrados, ocupando dois compassos) e diminuição (colcheias, tocada duas vezes)",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o caminho inverso: comece denso e termine com a versão aumentada.",
+    "Aplique a diminuição só às duas últimas notas da célula."
+   ],
+   "cuidado": "Acelerar o andamento na diminuição. O pulso fica o mesmo; só as figuras encurtam.",
+   "inspirado_em": [
+    {
+     "id": "jazzguitartoday--helpful-phrasing-and-motivic-development-tips-8ec9a3#I05",
+     "tipo": "documento",
+     "autor": "Guest Perspectives",
+     "titulo": "Helpful Phrasing and Motivic Development Tips",
+     "url": "https://jazzguitartoday.com/2021/03/helpful-phrasing-and-motivic-development-tips",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alongar ou encurtar os ritmos (aumentação e diminuição rítmica)"
+    },
+    {
+     "id": "musical-u--how-to-improvise-on-guitar-3-simple-steps-66dfab#I09",
+     "tipo": "documento",
+     "autor": "James Stinton",
+     "titulo": "How to Improvise on Guitar: 3 simple steps",
+     "url": "https://www.musical-u.com/learn/how-to-improvise-on-guitar-3-simple-steps/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Explorar ritmo: notas curtas e longas"
+    },
+    {
+     "id": "ECtdGsEEecI#I07",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=240s",
+     "video": "ECtdGsEEecI",
+     "inicio": 240,
+     "momento": "04:02",
+     "ideia": "Momentum pelas figuras menores"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas notas, quatro ritmos",
+   "objetivo": "Manter um movimento fixo entre notas do acorde e dar vida a ele só com variação rítmica.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Sobre um vamp de Am7, toque G (♭7) → C (♭3) como em V7, compasso 1.",
+    "Toque cada compasso de V7. O movimento é sempre o mesmo e o ritmo muda a cada vez.",
+    "Agora crie quatro ritmos seus para o mesmo G → C, um por compasso.",
+    "Escolha outro par de notas do acorde (ex.: E → A, 5 → 1) e repita.",
+    "Encaixe uma das versões numa frase maior e veja se ela ainda soa natural."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Duas notas do acorde, G (♭7) → C (♭3), sobre Am7, com quatro ritmos diferentes. As notas não mudam; muda só o quando.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am7",
+      "tempos": [
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça um dos ritmos atravessar a barra: G no 'e' do 4 e C no 1 seguinte.",
+    "Use tercinas numa das quatro repetições."
+   ],
+   "cuidado": "Achar que precisa de mais notas para soar interessante. Fique só com as duas e deixe o ritmo trabalhar.",
+   "inspirado_em": [
+    {
+     "id": "Z-KzfB7vfFA#I14",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=439s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 439,
+     "momento": "07:21",
+     "ideia": "Repetir o contorno com variação rítmica"
+    },
+    {
+     "id": "jazzadvice--p-1873-82f813#I12",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Transcribing Solos Is NOT What You Think It Is • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=1873",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variar uma frase alterando o ritmo"
+    },
+    {
+     "id": "jazzadvice--p-293-c8bd85#I08",
+     "tipo": "documento",
+     "autor": "Eric",
+     "titulo": "Practice Techniques to Get More From Transcribed Solos • Jazzadvice",
+     "url": "https://www.jazzadvice.com/?p=293",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Variação rítmica da frase"
+    },
+    {
+     "id": "2xR1QJfawjg#I06",
+     "tipo": "video",
+     "autor": "Emanuel Hedberg",
+     "titulo": "Blues Guitar Lesson (Phrasing) - How To Stop Playing The Pentatonic Scale Up And Down",
+     "url": "https://www.youtube.com/watch?v=2xR1QJfawjg&t=179s",
+     "video": "2xR1QJfawjg",
+     "inicio": 179,
+     "momento": "03:01",
+     "ideia": "Repita e varie suas frases"
+    }
+   ]
+  },
+  {
+   "titulo": "Ladrão de ritmos",
+   "objetivo": "Ampliar o vocabulário rítmico emprestando ritmos de melodias conhecidas.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Cante 'Brilha, brilha, estrelinha' e bata só o ritmo: quatro semínimas, depois duas semínimas e uma mínima.",
+    "Toque V6: o mesmo ritmo com notas da pentatônica de Lá menor.",
+    "Escolha uma música de que você gosta e cante uma frase do refrão. Bata só o ritmo, sem as notas.",
+    "Encaixe esse ritmo numa sequência de notas sua na caixa de Lá menor.",
+    "Ajuste: troque uma nota, acrescente um slide ou um bend e grave o resultado."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "O ritmo de 'Brilha, brilha, estrelinha' (quatro semínimas, depois duas semínimas e uma mínima) com notas novas da pentatônica de Lá menor",
+    "tonica": "A",
+    "bpm": 80,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use o ritmo de um riff de rock ou da letra de um rap.",
+    "Aplique o mesmo ritmo emprestado três vezes seguidas com notas diferentes (AAB)."
+   ],
+   "cuidado": "Copiar também as notas da melodia original. O exercício é roubar o ritmo e inventar as notas.",
+   "inspirado_em": [
+    {
+     "id": "VNSfej3sPII#I14",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=571s",
+     "video": "VNSfej3sPII",
+     "inicio": 571,
+     "momento": "09:33",
+     "ideia": "Aplicar o ritmo de uma melodia conhecida às suas notas"
+    },
+    {
+     "id": "VNSfej3sPII#I18",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "The Ultimate Solo PHRASING Masterclass",
+     "url": "https://www.youtube.com/watch?v=VNSfej3sPII&t=744s",
+     "video": "VNSfej3sPII",
+     "inicio": 744,
+     "momento": "12:26",
+     "ideia": "Aplicar ritmos de outras músicas às suas melodias"
+    }
+   ]
+  },
+  {
+   "titulo": "Caderno de dez ritmos e solo com gancho",
+   "objetivo": "Sair do piloto automático e montar um solo inteiro em torno de um gancho rítmico.",
+   "nivel": "avancado",
+   "minutos": 20,
+   "passos": [
+    "Escreva no papel dez ritmos curtos de um compasso, misturando semínimas, colcheias, mínimas e pausas.",
+    "Bata cada ritmo e depois toque-o num trecho de três notas da pentatônica de Lá menor.",
+    "Escolha o ritmo que mais grudou: esse é o seu gancho.",
+    "Improvise 16 compassos sobre a base. O gancho aparece pelo menos quatro vezes, sempre com notas diferentes.",
+    "Entre uma aparição e outra, use outros ritmos do caderno para contrastar.",
+    "Grave e ouça: o gancho dá unidade? As variações evitam o cansaço?"
+   ],
+   "visual": null,
+   "variacoes": [
+    "Ritmo-alvo: num chorus, só pode tocar notas que começam no tempo 2 ou no tempo 4.",
+    "Toque o gancho com notas aleatórias, até fora da escala, e tente fazê-lo soar musical só pelo ritmo."
+   ],
+   "cuidado": "Repetir o gancho de forma idêntica e sem fim. Use-o como sal: nos pontos certos, com pequenas mudanças.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I13",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escrever dez ritmos no papel"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I15",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aplicar o ritmo a trechos de escala"
+    },
+    {
+     "id": "BQTrA3hpqkM#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Why Do Some Guitarists Get Better So Fast?",
+     "url": "https://www.youtube.com/watch?v=BQTrA3hpqkM&t=290s",
+     "video": "BQTrA3hpqkM",
+     "inicio": 290,
+     "momento": "4:52",
+     "ideia": "Ritmos-alvo (targeted rhythms)"
+    },
+    {
+     "id": "Ib5qv48K7ww#I16",
+     "tipo": "video",
+     "autor": "Sound Guitar Lessons With Jared",
+     "titulo": "This matters MORE than playing the \"right\" notes (5 Guitar Phrasing Exercises)",
+     "url": "https://www.youtube.com/watch?v=Ib5qv48K7ww&t=712s",
+     "video": "Ib5qv48K7ww",
+     "inicio": 712,
+     "momento": "11:54",
+     "ideia": "Praticar phrasing com notas aleatórias e atonais"
+    },
+    {
+     "id": "gQuuCibwBzY#I11",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=579s",
+     "video": "gQuuCibwBzY",
+     "inicio": 579,
+     "momento": "09:41",
+     "ideia": "Equilíbrio entre rigidez e liberdade"
+    },
+    {
+     "id": "gQuuCibwBzY#I12",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=611s",
+     "video": "gQuuCibwBzY",
+     "inicio": 611,
+     "momento": "10:13",
+     "ideia": "Técnicas como tempero"
+    },
+    {
+     "id": "tRi4vMs2z8M#I20",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=1180s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 1180,
+     "momento": "19:42",
+     "ideia": "Improvisar ritmicamente quando faltam ideias"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Trocar de escala quando o problema é o ritmo: a frase continua soando igual.",
+  "Tocar tudo na mesma figura contínua, como um chimbau, sem notas longas nem pausas.",
+  "Usar sempre os mesmos dois ou três ritmos: frases com notas diferentes parecem a mesma frase.",
+  "Repetir um ritmo sem nenhuma variação até cansar, ou nunca repetir nada e soar como texto sem pontuação.",
+  "Variar ao acaso em vez de responder ao que acabou de tocar."
+ ],
+ "resumo": [
+  "O ouvido reconhece a frase pelo ritmo: mude o ritmo antes de mudar a escala.",
+  "Mesmas notas com outro ritmo dão uma frase nova. O mesmo ritmo com outras notas dá unidade.",
+  "Um padrão fixo funciona como andaime: siga-o à risca e depois com cerca de 10% de liberdade.",
+  "Aumentação e diminuição mudam a intensidade sem trocar uma nota.",
+  "Roube ritmos de músicas que você ama e encaixe neles as suas notas."
+ ],
+ "proximos_passos": "Para levar o gancho rítmico a um solo inteiro, siga para \"Motivo, repetição e desenvolvimento motívico\". Para tirar suas células do tempo 1, estude \"Deslocamento, síncope e ponto de entrada\". Para fazer as frases conversarem, veja \"Pergunta e resposta (call and response)\", e para o balanço, \"Feel: swing, groove e rubato\".",
+ "_meta": {
+  "subcategoria": "C06.3",
+  "modulo": {
+   "id": "C06",
+   "nome": "Ritmo, tempo e groove"
+  },
+  "nome": "Variação rítmica e ganchos rítmicos",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:11:12",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 36884,
+   "cache_read": 30738,
+   "output": 25852,
+   "thinking": 3591,
+   "turns": 3,
+   "custo_nominal": 0.8345746
+  }
+ }
+}

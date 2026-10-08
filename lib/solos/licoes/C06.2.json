@@ -1,0 +1,1544 @@
+{
+ "titulo": "Deslocamento, síncope e ponto de entrada",
+ "gancho": "As notas são as mesmas. O que muda é onde a frase entra no compasso, e é isso que faz o solo deixar de soar quadrado e começar a balançar.",
+ "porque_importa": "Quem entra sempre no tempo 1 acaba terminando no 4 e recomeçando no 1, e o solo fica previsível mesmo com as notas certas. Escolher o ponto de entrada, sincopar e deixar a frase atravessar a barra dá movimento e discurso ao solo. Além disso, cada lick que você já sabe passa a render várias frases novas, sem decorar nenhuma nota a mais.",
+ "ilustracao": "degraus",
+ "conceito": [
+  {
+   "titulo": "O tempo 1 é um vício",
+   "texto": "Quase todo iniciante ataca no 1, preenche até o 4 e recomeça no 1. O ouvinte adivinha o próximo passo antes de você tocar. Deixe o 1 vazio e entre no 2, no 3, no 4 ou no 'e' de um deles. É como chegar um pouco atrasado à festa: você chama mais atenção.",
+   "destaque": "Pausa no 1 também é uma escolha rítmica.",
+   "visual": null
+  },
+  {
+   "titulo": "Mesmo lick, outro endereço",
+   "texto": "Um lick começado no tempo 2 não soa igual ao mesmo lick começado no 1. A nota de pouso cai em outro lugar e a frase muda de sentido. Cada lick que você sabe tem pelo menos 8 pontos de entrada: os 4 tempos e os 4 contratempos.",
+   "destaque": "Deslocar é ganhar vocabulário novo sem aprender nenhuma nota nova.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O mesmo lick em dois endereços: no compasso 1 ele começa no tempo 1 e, no compasso 2, no tempo 2. Toque os dois e compare como cada um soa.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Atravessar a barra e antecipar",
+   "texto": "A barra de compasso existe no papel, não no ouvido. Uma frase que começa no fim de um compasso e termina no seguinte une os dois. Isso se chama anacruse: você começa antes e a nota principal cai em cheio no 1. Para isso, pense na frase enquanto ainda conta o compasso anterior.",
+   "destaque": "Comece antes para chegar no lugar certo.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Anacruse: o compasso 1 fica em silêncio até o tempo 3, a frase atravessa a barra e o Lá cai em cheio no tempo 1. Depois vem um compasso inteiro de respiro.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Síncope pede precisão",
+   "texto": "Sincopar é acentuar o contratempo e evitar o óbvio. Mas a síncope só convence quando as notas de chegada caem exatamente no tempo. Se a síncope sair imprecisa, vai soar como erro, não como estilo. Use o metrônomo como juiz.",
+   "destaque": "Quem desloca o ritmo precisa saber exatamente onde está o tempo.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Síncope com uma nota só: os ataques caem nos 'e' (contratempos), e a chegada do compasso 1 cai exatamente no tempo 3. No fim do compasso 2, o 'e' do 4 antecipa o próximo 1.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Sempre saiba onde está o 1",
+   "texto": "Você pode deslocar à vontade, desde que nunca perca o tempo 1. Um bom equilíbrio é entrar fora do tempo e pousar num tempo forte (1 ou 3). Atrasar o pouso para o meio do compasso também funciona, mas como recurso sutil e consciente, não por ter se perdido.",
+   "destaque": "Liberdade rítmica depende de saber onde está o tempo 1.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 10,
+   "porque": "O professor improvisa duas vezes sobre a mesma base, primeiro entrando no tempo 1 e depois entrando atrasado, e dá para ouvir a diferença na hora.",
+   "fonte": {
+    "id": "gQuuCibwBzY#I02",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=43s",
+    "video": "gQuuCibwBzY",
+    "inicio": 43,
+    "momento": "00:45",
+    "ideia": "Improviso comparando tempo 1 e entrada tardia"
+   }
+  },
+  {
+   "ref": 27,
+   "porque": "Um lick simples deslocado tempo a tempo e meio tempo a meio tempo sobre um blues, mostrando onde o final passa a cair.",
+   "fonte": {
+    "id": "gQuuCibwBzY#I04",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=147s",
+    "video": "gQuuCibwBzY",
+    "inicio": 147,
+    "momento": "02:29",
+    "ideia": "Offset de um lick em quartos e colcheias"
+   }
+  },
+  {
+   "ref": 24,
+   "porque": "Mostra que o mesmo lick, iniciado no contratempo, ganha outro contexto e outra sensação.",
+   "fonte": {
+    "id": "gQuuCibwBzY#I05",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=195s",
+    "video": "gQuuCibwBzY",
+    "inicio": 195,
+    "momento": "03:17",
+    "ideia": "Deslocar o lick muda seu contexto e sensação"
+   }
+  },
+  {
+   "ref": 20,
+   "porque": "Um solo de blues com 6 notas em que a segunda frase espera a troca para o IV (D) para entrar.",
+   "fonte": {
+    "id": "zSTAvmXG5m8#I16",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+    "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=486s",
+    "video": "zSTAvmXG5m8",
+    "inicio": 486,
+    "momento": "08:08",
+    "ideia": "Esperar a troca para o IV (D)"
+   }
+  },
+  {
+   "ref": 34,
+   "porque": "Tercinas deslocadas para partes diferentes do tempo, um passo avançado para quem já domina as colcheias.",
+   "fonte": {
+    "id": "gQuuCibwBzY#I13",
+    "tipo": "video",
+    "autor": "Signals Music Studio",
+    "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+    "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=643s",
+    "video": "gQuuCibwBzY",
+    "inicio": 643,
+    "momento": "10:45",
+    "ideia": "Frases com tercinas deslocadas"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Quatro portas: o lick em cada tempo",
+   "objetivo": "Sentir como a mesma frase muda de forma quando começa em cada um dos 4 tempos.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Decore o lick de V2: Ré, Mi, Sol e Lá, com o Lá sustentado.",
+    "Ligue o metrônomo a 72 bpm e conte '1-2-3-4' em voz alta.",
+    "Toque o lick começando no tempo 1, depois espere um compasso inteiro em silêncio.",
+    "Repita começando no tempo 2 e depois no tempo 3. Mantenha sempre o compasso de silêncio entre as tentativas.",
+    "Por último, comece no tempo 4: o Lá vai cair do outro lado da barra. Observe em que tempo ele cai."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O mesmo lick em dois endereços: no compasso 1 ele começa no tempo 1 e, no compasso 2, no tempo 2. Toque os dois e compare como cada um soa.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque o lick por uma única nota longa (mínima ou semibreve) e faça o mesmo percurso pelos 4 tempos.",
+    "Use um clichê de blues que você já toca no lugar do lick."
+   ],
+   "cuidado": "Acelerar a contagem para 'encaixar' o lick. O metrônomo dita o tempo e a frase se adapta a ele, nunca o contrário.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I05",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Deslocar o início da frase pelos tempos do compasso"
+    },
+    {
+     "id": "ECtdGsEEecI#I16",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=506s",
+     "video": "ECtdGsEEecI",
+     "inicio": 506,
+     "momento": "08:28",
+     "ideia": "Deslocar figuras para começar em tempos diferentes"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I24",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=843s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 843,
+     "momento": "14:05",
+     "ideia": "Iniciar a célula em pontos diferentes do compasso"
+    },
+    {
+     "id": "ECtdGsEEecI#I12",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=339s",
+     "video": "ECtdGsEEecI",
+     "inicio": 339,
+     "momento": "05:41",
+     "ideia": "Tocar figuras rítmicas sobre o backing track a partir de tempos escolhidos"
+    },
+    {
+     "id": "ECtdGsEEecI#I23",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=672s",
+     "video": "ECtdGsEEecI",
+     "inicio": 672,
+     "momento": "11:14",
+     "ideia": "Combinar figuras em todas as entradas possíveis"
+    }
+   ]
+  },
+  {
+   "titulo": "Duas tomadas: no 1 e depois do 1",
+   "objetivo": "Comparar, gravando, o fraseado quadrado com o fraseado de entrada tardia.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Coloque uma base em Lá menor e use só as notas de V1.",
+    "Tomada A, com 2 minutos: toda frase começa exatamente no tempo 1.",
+    "Tomada B, com 2 minutos: o tempo 1 fica sempre vazio e cada frase entra no 2, no 3, no 4 ou num 'e'.",
+    "Grave as duas tomadas e ouça uma em seguida da outra.",
+    "Anote os dois momentos da tomada B em que a entrada atrasada soou melhor."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "As 5 notas dos licks da lição: um pedaço da caixa 1 da pentatônica de Lá menor (casas 5–8). O Lá da 1ª corda é o pouso.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Tomada C: alterne, com uma frase no 1 e a próxima fora do 1.",
+    "Na tomada B, deixe pelo menos uma frase atravessar a barra."
+   ],
+   "cuidado": "Na tomada B, entrar sempre no tempo 2 só cria outra fórmula. Varie o ponto de entrada.",
+   "inspirado_em": [
+    {
+     "id": "gQuuCibwBzY#I02",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=43s",
+     "video": "gQuuCibwBzY",
+     "inicio": 43,
+     "momento": "00:45",
+     "ideia": "Improviso comparando tempo 1 e entrada tardia"
+    },
+    {
+     "id": "GC-HIgdwVSM#I18",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=1119s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 1119,
+     "momento": "18:41",
+     "ideia": "Sempre entrar no tempo 1"
+    },
+    {
+     "id": "ECtdGsEEecI#I19",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=605s",
+     "video": "ECtdGsEEecI",
+     "inicio": 605,
+     "momento": "10:07",
+     "ideia": "Começar no tempo 2 ou 3 em vez do tempo 1"
+    },
+    {
+     "id": "GC-HIgdwVSM#I19",
+     "tipo": "video",
+     "autor": "Reggie Guitarrista",
+     "titulo": "3 Coisas ESSENCIAIS Para Melhorar Os Solos na Guitarra",
+     "url": "https://www.youtube.com/watch?v=GC-HIgdwVSM&t=1119s",
+     "video": "GC-HIgdwVSM",
+     "inicio": 1119,
+     "momento": "18:41",
+     "ideia": "Entrar a frase no tempo 2 ou 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Anacruse: chegar ao 1 vindo de trás",
+   "objetivo": "Começar a frase antes da barra para que a nota principal caia exatamente no tempo 1.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Recite uma cantiga conhecida, como 'Atirei o pau no gato', batendo o pulso com o pé. Repare que o 'A-' de 'Atirei' vem antes do tempo forte.",
+    "Toque V3: fique em silêncio nos tempos 1 e 2 e comece no tempo 3 (Ré, Mi, Sol).",
+    "Faça o Lá cair junto com o tempo 1 do compasso seguinte, sem adiantar nem atrasar.",
+    "Fique um compasso inteiro em silêncio e repita.",
+    "Agora comece a anacruse no tempo 4 com só 2 notas (Mi e Sol) e mantenha o Lá no 1."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Anacruse: o compasso 1 fica em silêncio até o tempo 3, a frase atravessa a barra e o Lá cai em cheio no tempo 1. Depois vem um compasso inteiro de respiro.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece a anacruse no 'e' do 3, tocando as 3 notas mais apertadas.",
+    "Pouse no tempo 3 do compasso seguinte em vez do 1."
+   ],
+   "cuidado": "Esperar o 1 para pensar na frase. Ela precisa estar decidida ainda no compasso anterior.",
+   "inspirado_em": [
+    {
+     "id": "ECtdGsEEecI#I05",
+     "tipo": "video",
+     "autor": "Your Guitar Academy",
+     "titulo": "Improvisation Level 1 | Guitar Skills Course - Lesson 2",
+     "url": "https://www.youtube.com/watch?v=ECtdGsEEecI&t=132s",
+     "video": "ECtdGsEEecI",
+     "inicio": 132,
+     "momento": "02:14",
+     "ideia": "Frase que atravessa a barra de compasso"
+    },
+    {
+     "id": "bennysutton--how_to_improvise_lead_guitar-878e07#I04",
+     "tipo": "documento",
+     "autor": "www.bennysutton.com",
+     "titulo": "How to improvise on Lead Guitar",
+     "url": "https://www.bennysutton.com/Lead_Guitar_Tutorials/How_To_Improvise_Lead_Guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cantiga 'Mary had a little lamb' para sentir 4 compassos"
+    },
+    {
+     "id": "N1shDBha6Y0#I15",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=800s",
+     "video": "N1shDBha6Y0",
+     "inicio": 800,
+     "momento": "13:22",
+     "ideia": "Começar a frase antes do compasso"
+    }
+   ]
+  },
+  {
+   "titulo": "Síncope com uma nota só",
+   "objetivo": "Treinar o posicionamento rítmico sem a preocupação de escolher notas.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Use só o Lá da 1ª corda, casa 5.",
+    "Toque V4 a 70 bpm: os ataques caem nos 'e' e a chegada cai no tempo 3, que é a nota marcada.",
+    "Bata o pé nos tempos. A palheta sobe nos 'e' e o pé não sai do pulso.",
+    "Depois improvise ritmos com essa mesma nota sobre uma base em Lá menor, criando uma síncope nova a cada 2 compassos.",
+    "Toda vez, garanta uma chegada exatamente num tempo (1 ou 3)."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Síncope com uma nota só: os ataques caem nos 'e' (contratempos), e a chegada do compasso 1 cai exatamente no tempo 3. No fim do compasso 2, o 'e' do 4 antecipa o próximo 1.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque para duas notas (Sol e Lá) sem mudar o ritmo.",
+    "Abafe a nota com a mão da palheta para ouvir só o ataque."
+   ],
+   "cuidado": "Deixar o pé ir junto com a palheta e marcar os 'e'. Quando isso acontece, a síncope vira tempo forte e desaparece.",
+   "inspirado_em": [
+    {
+     "id": "_Ke2d-2zkHg#I10",
+     "tipo": "video",
+     "autor": "R.J. Ronquillo",
+     "titulo": "Improve Your Solos With This Phrasing Exercise (with BACKING TRACK) - Guitar Lesson - Tutorial",
+     "url": "https://www.youtube.com/watch?v=_Ke2d-2zkHg&t=347s",
+     "video": "_Ke2d-2zkHg",
+     "inicio": 347,
+     "momento": "05:49",
+     "ideia": "Praticar síncope com uma única nota"
+    },
+    {
+     "id": "premierguitar--blues_basics_saying_more_with_less-adf9db#I06",
+     "tipo": "documento",
+     "autor": "Lisa Lim",
+     "titulo": "Blues Basics: Saying More With Less",
+     "url": "https://www.premierguitar.com/articles/Blues_Basics_Saying_More_With_Less",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Ritmo sincopado e precisão no tempo 3"
+    }
+   ]
+  },
+  {
+   "titulo": "Entrar antes da troca do blues",
+   "objetivo": "Fazer a frase atravessar a barra justo na mudança de acorde, pousando na 3ª do acorde novo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Use uma base de blues em Lá: A7 por 4 compassos e depois D7.",
+    "Fique em silêncio no compasso 4 até o 'e' do 3.",
+    "Toque V6: Ré, Mi e Sol ainda sobre A7, e o Fá♯ no tempo 1 do D7.",
+    "Faça isso em várias voltas do blues, mas em algumas delas entre já no tempo 2 do compasso 4, com mais notas.",
+    "Em pelo menos uma volta, não toque nada na troca e entre depois dela."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Blues em Lá: a frase começa ainda no A7 e atravessa a barra. O Fá♯, que é a 3ª do D7, chega no tempo 1 da troca. O Sol (♭7 de A7) desce meio tom até ele.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Antecipe também a volta ao A7 no compasso 7, pousando no Dó♯ (3ª de A7, corda 2 casa 2 ou corda 3 casa 6).",
+    "Pouse no 'e' do 1 em vez de no 1."
+   ],
+   "cuidado": "Entrar sempre no mesmo ponto da troca. Se você repetir o truque em toda volta, ele fica previsível.",
+   "inspirado_em": [
+    {
+     "id": "zSTAvmXG5m8#I16",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=486s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 486,
+     "momento": "08:08",
+     "ideia": "Esperar a troca para o IV (D)"
+    },
+    {
+     "id": "zSTAvmXG5m8#I34",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=1134s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 1134,
+     "momento": "18:56",
+     "ideia": "Repetir o mesmo timing fica previsível"
+    },
+    {
+     "id": "N1shDBha6Y0#I15",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=800s",
+     "video": "N1shDBha6Y0",
+     "inicio": 800,
+     "momento": "13:22",
+     "ideia": "Começar a frase antes do compasso"
+    }
+   ]
+  },
+  {
+   "titulo": "Permutações no contratempo",
+   "objetivo": "Multiplicar um lick conhecido deslocando-o meio tempo de cada vez.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque o lick de V2 começando no tempo 1, uma vez em cada compasso de um blues em Lá.",
+    "Agora toque V5: o mesmo lick no 'e' do 1 e depois no 'e' do 2.",
+    "Continue com o 'e' do 3 e o 'e' do 4. No 'e' do 4, o lick atravessa a barra.",
+    "A cada versão, diga em voz alta em que ponto do compasso o Lá caiu.",
+    "Escolha as 2 permutações que mais gostou e use-as num improviso livre."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "O lick de V2 deslocado meio tempo: no compasso 1 ele começa no 'e' do 1 e, no compasso 2, no 'e' do 2. O Lá passa a cair fora do tempo.",
+    "tonica": "A",
+    "bpm": 68,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com um lick seu, de 4 a 6 notas.",
+    "Alterne duas permutações no mesmo chorus: uma no 1 e a outra no 'e' do 2."
+   ],
+   "cuidado": "Perder o tempo 1 depois de deslocar. Se precisar, conte em voz alta enquanto toca.",
+   "inspirado_em": [
+    {
+     "id": "gQuuCibwBzY#I04",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=147s",
+     "video": "gQuuCibwBzY",
+     "inicio": 147,
+     "momento": "02:29",
+     "ideia": "Offset de um lick em quartos e colcheias"
+    },
+    {
+     "id": "gQuuCibwBzY#I07",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=261s",
+     "video": "gQuuCibwBzY",
+     "inicio": 261,
+     "momento": "04:23",
+     "ideia": "Permutações rítmicas de um mesmo lick"
+    },
+    {
+     "id": "gQuuCibwBzY#I05",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=195s",
+     "video": "gQuuCibwBzY",
+     "inicio": 195,
+     "momento": "03:17",
+     "ideia": "Deslocar o lick muda seu contexto e sensação"
+    },
+    {
+     "id": "gQuuCibwBzY#I06",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=227s",
+     "video": "gQuuCibwBzY",
+     "inicio": 227,
+     "momento": "03:49",
+     "ideia": "Rendimento de licks já praticados"
+    }
+   ]
+  },
+  {
+   "titulo": "Grupo de 6 contra o compasso",
+   "objetivo": "Criar um deslocamento automático com um padrão cujo tamanho não bate com o compasso.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Aprenda as 6 notas de V7 devagar e fora do tempo: Mi, Ré, Dó, Lá, Sol e Mi grave. É 1 nota na corda Si, 2 na Sol, 2 na Ré e 1 na Lá.",
+    "Com o metrônomo a 66 bpm, pule a primeira colcheia e comece com a palheta para cima no 'e' do 1.",
+    "Repita o grupo sem parar: a segunda vez começa no 'e' do 4 e a terceira começaria no 'e' do 3.",
+    "Pare o grupo para pousar no Lá no tempo 1 do compasso 3.",
+    "Depois de 2 compassos, faça o grupo durar até o pouso cair de novo num tempo 1."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Um grupo de 6 colcheias tocado contra um compasso de 8: ele pula o primeiro tempo e, a cada repetição, começa num lugar diferente. O pouso vem no tempo 1 do compasso 3.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Escreva no papel um grupo de 3 notas em tercina seguido de colcheias e só depois toque.",
+    "Faça o mesmo com um grupo de 3 notas: o acento cai a cada 3 colcheias."
+   ],
+   "cuidado": "Acentuar sem querer o início de cada grupo como se fosse o tempo 1. O pé continua marcando o pulso real.",
+   "inspirado_em": [
+    {
+     "id": "36xG0NIDd7E#I08",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=623s",
+     "video": "36xG0NIDd7E",
+     "inicio": 623,
+     "momento": "10:25",
+     "ideia": "Frase sincopada: uma nota na B, duas na G e três na D"
+    },
+    {
+     "id": "gQuuCibwBzY#I13",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "3 Rhythmic Concepts to Improve your Solos [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=gQuuCibwBzY&t=643s",
+     "video": "gQuuCibwBzY",
+     "inicio": 643,
+     "momento": "10:45",
+     "ideia": "Frases com tercinas deslocadas"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Começar toda frase no tempo 1 e terminá-la no 4, o que deixa o solo quadrado mesmo com as notas certas.",
+  "Trocar um vício por outro, por exemplo entrar sempre no tempo 2 ou sempre na troca de acorde.",
+  "Fazer uma síncope imprecisa: a chegada precisa cair exatamente no tempo.",
+  "Perder o tempo 1 ao deslocar um lick e voltar com a banda um tempo atrasado.",
+  "Esperar o compasso começar para pensar na frase, o que impede qualquer antecipação."
+ ],
+ "resumo": [
+  "Deixe o tempo 1 vazio às vezes. Entrar no 2, 3, 4 ou num 'e' já deixa o solo menos quadrado.",
+  "Um lick tem pelo menos 8 pontos de entrada no compasso, e deslocar rende frases novas sem notas novas.",
+  "A frase pode atravessar a barra: comece antes (anacruse) para que a nota principal caia no lugar certo.",
+  "Na síncope, o acento vai para o contratempo, mas a chegada cai exatamente no tempo.",
+  "Desloque à vontade, mas nunca perca o tempo 1."
+ ],
+ "proximos_passos": "Siga para \"Variação rítmica e ganchos rítmicos\", que transforma esses deslocamentos em motivos marcantes, e para \"Feel: swing, groove e rubato\", que trabalha a maneira como as notas se encaixam no tempo. Para aplicar a antecipação nas trocas de acorde, veja \"Pensar à frente: linhas que levam ao próximo acorde\". O silêncio antes da entrada é aprofundado em \"Espaço, silêncio e respiração\".",
+ "_meta": {
+  "subcategoria": "C06.2",
+  "modulo": {
+   "id": "C06",
+   "nome": "Ritmo, tempo e groove"
+  },
+  "nome": "Deslocamento, síncope e ponto de entrada",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T17:07:55",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 15811,
+   "cache_read": 4913,
+   "output": 11719,
+   "thinking": 3203,
+   "turns": 2,
+   "custo_nominal": 0.37452060000000004
+  }
+ }
+}
