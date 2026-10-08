@@ -1,0 +1,1275 @@
+{
+ "titulo": "Forma e harmonia do blues",
+ "gancho": "Doze compassos e três acordes: entendendo essa forma, você consegue tocar numa jam de blues em qualquer lugar.",
+ "porque_importa": "O blues é a forma mais usada para aprender a improvisar porque deixa a estrutura bem visível. Quem sabe em que compasso está e qual acorde vem a seguir para de só repetir caixas de escala e passa a tocar com a harmonia. Antes de solar, é preciso conhecer o mapa.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Três acordes, todos com sétima",
+   "texto": "A forma usa os graus I, IV e V do tom: em Lá, A, D e E; em Dó, C, F e G. No blues, os três são dominantes (1-3-5-♭7). Isso não segue o campo harmônico maior, em que só o V é dominante. Por isso o blues tem uma lógica de improviso própria. A sétima de A7 é G, e não G♯.",
+   "destaque": "I7, IV7, V7: no blues, até a tônica é dominante.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: os três acordes são dominantes (I7, IV7, V7)",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O mapa dos 12 compassos",
+   "texto": "São três linhas de quatro compassos: I I I I | IV IV I I | V IV I V. Em Lá: A7 A7 A7 A7 | D7 D7 A7 A7 | E7 D7 A7 E7. Pense em graus, não em nomes, e a forma vai para qualquer tom. As três linhas também organizam a melodia em AA'B: uma frase, a mesma frase repetida com variação e depois uma frase nova (o diálogo entre elas está em Pergunta e resposta).",
+   "destaque": "4 de I, 2 de IV, 2 de I, V, IV, I, V.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Onde moram as fundamentais do blues em Lá: I na corda Mi grave; IV, V e ♭VI na corda Lá, todas perto da casa 5",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "As variações mais comuns",
+   "texto": "Quick change: o IV entra já no compasso 2 (I IV I I), e o solista precisa ouvir essa troca antecipada. No compasso 12, o V puxa a volta ao início; tocar I no compasso 12 soa como repouso, um final. No compasso 6, o IV7 pode virar um diminuto meio tom acima (em Lá, D♯dim7), que leva cromaticamente de volta ao I. No jazz, os compassos 9 e 10 viram ii-V (em Dó, Dm7 | G7).",
+   "destaque": "Mesma forma, outros detalhes: ouça antes de entrar.",
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Diminuto de passagem: D7 vira D♯dim7 mudando só a nota do baixo, e o caminho segue para A7",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "D♯dim7",
+      "digitacao": "xx1212"
+     },
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Dois V, duas funções",
+   "texto": "O V do compasso 9 é de passagem e segue para o IV. O V do compasso 12 é o turnaround, que resolve no I e por isso tem mais tensão. Os dois últimos compassos preparam a próxima volta, e quem toca blues guarda alguns licks de turnaround para usar nesse ponto.",
+   "destaque": "O compasso 12 é a seta que aponta para o compasso 1.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Turnaround em Lá: descida cromática no A7 (compasso 11), o E7 puxa a volta (compasso 12) e o A7 reabre a forma",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Blues menor e outras durações",
+   "texto": "Blues menor: i7 i7 i7 i7 | iv7 iv7 i7 i7 | ♭VI7 V7 i7 i7. Em Lá menor: Am7, Dm7, F7 e E7. O turnaround típico é ♭VI-V-i (F7 → E7 → Am), e não V-iv-i. Também existem blues de 8 e de 16 compassos, então conte a forma antes de solar.",
+   "destaque": "No blues menor, o caminho de volta é ♭VI → V → i.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Turnaround do blues menor em Lá: ♭VI7 → V7 → i (fundamental, 3ª e ♭7 de cada acorde)",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "F7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 8,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 20,
+   "porque": "A forma de 12 compassos em Lá tocada e explicada compasso a compasso.",
+   "fonte": {
+    "id": "H3DDn8CcSTA#I09",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+    "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=239s",
+    "video": "H3DDn8CcSTA",
+    "inicio": 239,
+    "momento": "04:01",
+    "ideia": "Forma de 12 compassos em A (blues dominante)"
+   }
+  },
+  {
+   "ref": 32,
+   "porque": "O quick change soando na prática: o D7 chega já no compasso 2.",
+   "fonte": {
+    "id": "H3DDn8CcSTA#I11",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+    "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=336s",
+    "video": "H3DDn8CcSTA",
+    "inicio": 336,
+    "momento": "05:38",
+    "ideia": "Quick change em blues dominante"
+   }
+  },
+  {
+   "ref": 34,
+   "porque": "Por que o V do compasso 9 e o V do compasso 12 pedem notas diferentes.",
+   "fonte": {
+    "id": "DKe5jX-5pII#I17",
+    "tipo": "video",
+    "autor": "fretjam",
+    "titulo": "Tone Targeting In 1 4 5 Blues",
+    "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=503s",
+    "video": "DKe5jX-5pII",
+    "inicio": 503,
+    "momento": "08:25",
+    "ideia": "Funções diferentes do V no blues de 12 compassos"
+   }
+  },
+  {
+   "ref": 38,
+   "porque": "O F7 trocado por F♯dim7 num blues em Dó, com a lógica da nota alterada.",
+   "fonte": {
+    "id": "jVTRXGg0Sdg#I03",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Soloing Exercise That Changed My Life",
+    "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=66s",
+    "video": "jVTRXGg0Sdg",
+    "inicio": 66,
+    "momento": "01:08",
+    "ideia": "F♯ diminuto como variação do F7"
+   }
+  },
+  {
+   "ref": 47,
+   "porque": "O turnaround ♭VI-V-i do blues menor e a diferença para o V-iv-i.",
+   "fonte": {
+    "id": "H3DDn8CcSTA#I20",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+    "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=648s",
+    "video": "H3DDn8CcSTA",
+    "inicio": 648,
+    "momento": "10:50",
+    "ideia": "Turnaround mais comum: ♭6-5-1"
+   }
+  },
+  {
+   "ref": 48,
+   "porque": "As variações F9 (James Brown) e E7♯9 (Hendrix) no fim do blues menor.",
+   "fonte": {
+    "id": "H3DDn8CcSTA#I21",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+    "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=671s",
+    "video": "H3DDn8CcSTA",
+    "inicio": 671,
+    "momento": "11:13",
+    "ideia": "Turnaround estilo James Brown e Hendrix"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "A forma em Lá, contada em voz alta",
+   "objetivo": "Memorizar os 12 compassos a ponto de não precisar contar.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Metrônomo a 70 bpm. Toque 4 batidas por compasso, contando \"1 2 3 4\".",
+    "Compassos 1-4: A7. Compassos 5-6: D7. Compassos 7-8: A7.",
+    "Compasso 9: E7. Compasso 10: D7. Compasso 11: A7. Compasso 12: E7. Volte ao início.",
+    "Na segunda volta, troque a contagem pelo número do compasso (\"um\", \"dois\"...) no tempo 1.",
+    "Na terceira volta, fale só o grau (\"um, um, um, um, quatro...\")."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: os três acordes são dominantes (I7, IV7, V7)",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Com backing track de blues em Lá.",
+    "De olhos fechados, sem olhar a mão."
+   ],
+   "cuidado": "Achar que a forma vai para o V logo depois do IV: entre eles há dois compassos de I (7 e 8).",
+   "inspirado_em": [
+    {
+     "id": "H3DDn8CcSTA#I01",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=38s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 38,
+     "momento": "00:40",
+     "ideia": "Estrutura do blues de 12 compassos"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I03",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Forma básica em C: 4 compassos de I, 2 de IV, 2 de I, V, IV, I, V"
+    },
+    {
+     "id": "H3DDn8CcSTA#I09",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=239s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 239,
+     "momento": "04:01",
+     "ideia": "Forma de 12 compassos em A (blues dominante)"
+    },
+    {
+     "id": "gueqUPZ88rs#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The SIMPLE Chord Shapes That Every PRO Guitarist LOVES",
+     "url": "https://www.youtube.com/watch?v=gueqUPZ88rs&t=371s",
+     "video": "gueqUPZ88rs",
+     "inicio": 371,
+     "momento": "6:13",
+     "ideia": "Tocar o blues de 12 compassos em A com as três formas"
+    }
+   ]
+  },
+  {
+   "titulo": "Só fundamentais: o mapa na casa 5",
+   "objetivo": "Ver no braço onde ficam I, IV e V e trocar de tom sem pensar em nomes.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque só a fundamental de cada compasso, em semínimas: A na casa 5 da corda Mi grave, D na casa 5 da corda Lá, E na casa 7 da corda Lá.",
+    "Percorra os 12 compassos sem parar, dizendo o grau.",
+    "Agora coloque a tônica na casa 3 (Sol): as outras fundamentais andam junto, com a mesma distância entre elas.",
+    "Repita com a tônica na casa 8 (Dó)."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Onde moram as fundamentais do blues em Lá: I na corda Mi grave; IV, V e ♭VI na corda Lá, todas perto da casa 5",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 8,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Tônica na corda Lá (Ré na casa 5): o IV e o V passam para a corda Ré.",
+    "No tempo 4, toque uma nota cromática que leve à próxima fundamental."
+   ],
+   "cuidado": "Decorar 'A-D-E' em vez de 'I-IV-V'. O desenho e o número são o que serve em qualquer tom.",
+   "inspirado_em": [
+    {
+     "id": "o1qXU6Nm_d4#I05",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=168s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 168,
+     "momento": "02:50",
+     "ideia": "Progressão I-IV-V em A (A, D, E)"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I04",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pensar em graus (números romanos) para transpor"
+    },
+    {
+     "id": "H3DDn8CcSTA#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=742s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 742,
+     "momento": "12:24",
+     "ideia": "Forma do blues menor no braço"
+    }
+   ]
+  },
+  {
+   "titulo": "Forma lenta × quick change",
+   "objetivo": "Sentir a diferença e notar a troca antecipada no compasso 2.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque uma volta da forma normal em Lá (A7 nos compassos 1 a 4).",
+    "Na volta seguinte, use o quick change: A7 | D7 | A7 | A7 e o resto igual.",
+    "Alterne as duas versões a cada volta, sem parar.",
+    "Com uma backing track desconhecida, descubra pelo ouvido se o compasso 2 vai para o IV."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "Blues em Lá: os três acordes são dominantes (I7, IV7, V7)",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     },
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Termine o ciclo em V-IV-I-I (compasso 12 em A7) e compare com o E7 de volta.",
+    "Faça o mesmo em Sol: G7 | C7 | G7 | G7."
+   ],
+   "cuidado": "Continuar no A7 por puro hábito quando a banda já foi para o D7 no compasso 2.",
+   "inspirado_em": [
+    {
+     "id": "H3DDn8CcSTA#I11",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=336s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 336,
+     "momento": "05:38",
+     "ideia": "Quick change em blues dominante"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I06",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Quick change (quick to four): IV no compasso 2"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I05",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Shuffle blues: V-IV-I-I nos últimos quatro compassos"
+    }
+   ]
+  },
+  {
+   "titulo": "Turnaround: o compasso 12 aponta para o 1",
+   "objetivo": "Ouvir e tocar a função de volta dos dois últimos compassos.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o V3 devagar: a descida G-F♯-F-E sobre o Mi solto no compasso 11.",
+    "No compasso 12, pouse no G♯ (3ª do E7) e no D (♭7): são as notas que puxam para o A7.",
+    "Agora toque os compassos 1 a 10 só com acordes e use o turnaround nos compassos 11 e 12.",
+    "Repita por três voltas e repare como o A7 do compasso 1 soa como chegada."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Turnaround em Lá: descida cromática no A7 (compasso 11), o E7 puxa a volta (compasso 12) e o A7 reabre a forma",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 4,
+          "nota": "F♯",
+          "grau": "6",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 0,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 0,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 2,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a descida na corda Si, mantendo o A na casa 5 da corda Mi aguda.",
+    "Na última volta, troque o E7 do compasso 12 por A7 e sinta que a música terminou."
+   ],
+   "cuidado": "Tocar o turnaround do V para o I no compasso errado. Ele ocupa os compassos 11 e 12, e o A7 chega no compasso 1.",
+   "inspirado_em": [
+    {
+     "id": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I08",
+     "tipo": "documento",
+     "autor": "MusicRadar",
+     "titulo": "How to start soloing over a 12-bar blues",
+     "url": "https://www.musicradar.com/how-to/12-bar-blues-guitar-solo-lesson",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Turnaround: dois últimos compassos"
+    },
+    {
+     "id": "UiCQL5cxnUA#I16",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "COMO TOCAR BLUES: Tudo que você precisa para começar",
+     "url": "https://www.youtube.com/watch?v=UiCQL5cxnUA&t=660s",
+     "video": "UiCQL5cxnUA",
+     "inicio": 660,
+     "momento": "11:02",
+     "ideia": "Turnaround como retorno ao início"
+    },
+    {
+     "id": "jVTRXGg0Sdg#I05",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=100s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 100,
+     "momento": "01:42",
+     "ideia": "Turnaround de volta ao topo da forma"
+    },
+    {
+     "id": "musicradar--12-bar-blues-guitar-solo-lesson-b72a06#I09",
+     "tipo": "documento",
+     "autor": "MusicRadar",
+     "titulo": "How to start soloing over a 12-bar blues",
+     "url": "https://www.musicradar.com/how-to/12-bar-blues-guitar-solo-lesson",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Montar um repertório próprio de licks de turnaround"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=137s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 137,
+     "momento": "02:19",
+     "ideia": "Atenção à virada extra no compasso 12"
+    }
+   ]
+  },
+  {
+   "titulo": "Diminuto de passagem no compasso 6",
+   "objetivo": "Trazer cor para a linha 2 com o IV♯dim7.",
+   "nivel": "avancado",
+   "minutos": 7,
+   "passos": [
+    "Toque a linha 2 normalmente: D7 | D7 | A7 | A7.",
+    "No compasso 6, troque o D7 (xx0212) por D♯dim7 (xx1212): só o baixo sobe meio tom.",
+    "Ouça o baixo subir D → D♯ → E (a 5ª do A7) quando o A7 chega.",
+    "Toque a forma inteira com essa troca e depois volte à versão simples para comparar."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Diminuto de passagem: D7 vira D♯dim7 mudando só a nota do baixo, e o caminho segue para A7",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "D7",
+      "digitacao": "xx0212"
+     },
+     {
+      "nome": "D♯dim7",
+      "digitacao": "xx1212"
+     },
+     {
+      "nome": "A7",
+      "digitacao": "x02020"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Em Dó: F7 | F♯dim7 | C7.",
+    "Divida o compasso 6: dois tempos de D7 e dois de D♯dim7."
+   ],
+   "cuidado": "Usar o diminuto no compasso 5 ou em cima do A7. Ele funciona como passagem entre o IV e o I.",
+   "inspirado_em": [
+    {
+     "id": "jVTRXGg0Sdg#I03",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=66s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 66,
+     "momento": "01:08",
+     "ideia": "F♯ diminuto como variação do F7"
+    },
+    {
+     "id": "7Pdss_Gswtc#I18",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=922s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 922,
+     "momento": "15:24",
+     "ideia": "Movimento de cor no blues"
+    },
+    {
+     "id": "7Pdss_Gswtc#I17",
+     "tipo": "video",
+     "autor": "Soulful Guitar Lessons",
+     "titulo": "Everyone’s Blues Solos Are BAD Until They Learn This!",
+     "url": "https://www.youtube.com/watch?v=7Pdss_Gswtc&t=889s",
+     "video": "7Pdss_Gswtc",
+     "inicio": 889,
+     "momento": "14:51",
+     "ideia": "Acorde diminuto de F♯ entre IV e I"
+    }
+   ]
+  },
+  {
+   "titulo": "Blues menor com ♭VI-V-i",
+   "objetivo": "Tocar a forma menor e o turnaround mais comum dela.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Compassos 1-4: Am7. Compassos 5-6: Dm7. Compassos 7-8: Am7.",
+    "Compasso 9: F7. Compasso 10: E7. Compassos 11-12: Am7.",
+    "Toque o V4 isolado: compare a 3ª do F7 (A), a 3ª do E7 (G♯) e a ♭3 do Am (C).",
+    "Toque três voltas seguidas sem parar."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Blues menor em Lá: i7, iv7, ♭VI7 e V7",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "Am7",
+      "digitacao": "x02010"
+     },
+     {
+      "nome": "Dm7",
+      "digitacao": "xx0211"
+     },
+     {
+      "nome": "F7",
+      "digitacao": "131211"
+     },
+     {
+      "nome": "E7",
+      "digitacao": "020100"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Troque o F7 por F9 e o E7 por E7♯9.",
+    "Troque o E7 por Em7 numa das voltas e compare."
+   ],
+   "cuidado": "Fechar com Em7-Dm7-Am7 (V-iv-i) por hábito: isso é raro no blues menor e confunde numa jam.",
+   "inspirado_em": [
+    {
+     "id": "H3DDn8CcSTA#I15",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=540s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 540,
+     "momento": "09:02",
+     "ideia": "Blues menor em Am: Am7, Dm7 e E"
+    },
+    {
+     "id": "en--twelve-bar_blues-36fb30#I09",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Blues menor: i7, iv7 e bVI7-V7"
+    },
+    {
+     "id": "H3DDn8CcSTA#I22",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=742s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 742,
+     "momento": "12:24",
+     "ideia": "Forma do blues menor no braço"
+    },
+    {
+     "id": "H3DDn8CcSTA#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=613s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 613,
+     "momento": "10:15",
+     "ideia": "Turnaround 5-4-1 não é a mais comum no blues menor"
+    },
+    {
+     "id": "H3DDn8CcSTA#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=648s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 648,
+     "momento": "10:50",
+     "ideia": "Turnaround mais comum: ♭6-5-1"
+    },
+    {
+     "id": "H3DDn8CcSTA#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Learn Every Blues Song Ever in 12 Minutes",
+     "url": "https://www.youtube.com/watch?v=H3DDn8CcSTA&t=671s",
+     "video": "H3DDn8CcSTA",
+     "inicio": 671,
+     "momento": "11:13",
+     "ideia": "Turnaround estilo James Brown e Hendrix"
+    }
+   ]
+  },
+  {
+   "titulo": "Detetive de forma",
+   "objetivo": "Descobrir de ouvido quantos compassos tem um blues antes de solar.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Escolha três gravações de blues e conte os compassos de uma volta inteira, do I até o próximo I do início.",
+    "Anote: 8, 12 ou 16 compassos? Tem quick change? O compasso 12 vai para o V ou fica no I?",
+    "Escreva a forma em graus (ex.: I IV I I | IV IV I I | V IV I V).",
+    "Toque a base junto com a gravação seguindo o que você anotou."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Inclua um blues menor (ex.: The Thrill Is Gone) e identifique o ♭VI.",
+    "Ache um blues de jazz com ii-V nos compassos 9 e 10."
+   ],
+   "cuidado": "Assumir que é sempre 12 compassos e começar a solar antes de ouvir a primeira volta inteira.",
+   "inspirado_em": [
+    {
+     "id": "en--twelve-bar_blues-36fb30#I10",
+     "tipo": "documento",
+     "autor": "en.wikipedia.org",
+     "titulo": "Twelve-bar blues - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Twelve-bar_blues",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Blues de 8 e 16 compassos"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I03",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=137s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 137,
+     "momento": "02:19",
+     "ideia": "Atenção à virada extra no compasso 12"
+    },
+    {
+     "id": "fJs5AALy4GY#I01",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=98s",
+     "video": "fJs5AALy4GY",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Progressão em Si♭ menor com acordes de sétima"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tocar A, D e E maiores sem sétima ou usar Amaj7: no blues, os três acordes são dominantes.",
+  "Ir para o V logo depois dos dois compassos de IV, pulando os compassos 7 e 8 em I.",
+  "Tratar os dois V do mesmo jeito: o V do compasso 9 é passagem, e o V do compasso 12 resolve no I.",
+  "Ignorar o quick change e ficar no I durante o compasso 2.",
+  "Usar V-iv-i como turnaround do blues menor em vez de ♭VI-V-i.",
+  "Achar que todo blues tem 12 compassos sem ouvir a forma antes."
+ ],
+ "resumo": [
+  "12 compassos: I I I I | IV IV I I | V IV I V, e todos os acordes são dominantes.",
+  "Pense em graus e no desenho das fundamentais: a forma vai para qualquer tom.",
+  "Variações: quick change no compasso 2, I de repouso no 12, IV♯dim7 no 6 e ii-V nos compassos 9 e 10.",
+  "Turnaround nos compassos 11 e 12: o V do compasso 12 puxa de volta ao compasso 1.",
+  "Blues menor: i7 iv7, com ♭VI7-V7-i no fim. Também existem formas de 8 e 16 compassos."
+ ],
+ "proximos_passos": "Com a forma memorizada, siga para \"Solar sobre o blues\". Para mudar as notas junto com cada acorde, veja \"Seguir as trocas: escala por acorde e chord chasing\" e \"Guide tones e condução de vozes\". Para organizar as frases nas três linhas, veja \"Pergunta e resposta (call and response)\". O balanço do shuffle está em \"Feel: swing, groove e rubato\".",
+ "_meta": {
+  "subcategoria": "C12.1",
+  "modulo": {
+   "id": "C12",
+   "nome": "Linguagens de blues e jazz"
+  },
+  "nome": "Forma e harmonia do blues",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:32:21",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 22015,
+   "cache_read": 4913,
+   "output": 9228,
+   "thinking": 2313,
+   "turns": 2,
+   "custo_nominal": 0.3793456
+  }
+ }
+}

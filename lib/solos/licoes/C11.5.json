@@ -1,0 +1,2199 @@
+{
+ "titulo": "Tensão, dissonância e notas fora",
+ "gancho": "Nenhuma nota é proibida. A diferença entre erro e cor está em saber quanto ela pesa, quanto tempo você fica nela e para onde ela vai depois.",
+ "porque_importa": "Um solo só com notas do acorde fica certinho e sem graça. Um solo cheio de notas tensas tocadas sem critério soa como engano. O que prende o ouvinte é tensão escolhida de propósito e resolvida na hora certa, e isso só acontece quando você sabe o peso de cada nota sobre o acorde que está soando.",
+ "ilustracao": "gravidade",
+ "conceito": [
+  {
+   "titulo": "Um espectro, não certo e errado",
+   "texto": "Guthrie Govan propõe uma régua: numa ponta fica a nota mais óbvia (a tônica), na outra a mais áspera. Todas as 12 notas cabem nessa régua. Sobre Lá menor, A, C e E são o chão. D, G e B soam como cor suave. F♯ é a cor do dórico. F e B♭ escurecem. C♯ e G♯ brigam com o acorde. O ponto é saber onde cada nota está na régua antes de tocá-la, não proibir nenhuma.",
+   "destaque": "Toda nota é válida se você sabe o som que ela vai produzir.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "O espectro inteiro numa corda só: as 12 notas na corda Sol, da casa 2 à 14, sobre o Lá solto. Os anéis marcam o chão (A, C, E). O resto vai da cor suave ao atrito forte.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 13,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O atrito de meio tom: notas de evitação",
+   "texto": "A nota mais áspera costuma ser a que fica meio tom acima de uma nota do acorde. Sobre C, o F esbarra no E. Sobre Em, o C esbarra no B. Sobre A maior, o C natural briga com o C♯. A mesma letra pode ficar livre em outro acorde: sobre Cm7, o F fica um tom acima do E♭ e soa como uma 11ª tranquila. Antes de chamar uma nota de errada, olhe para os vizinhos dela dentro do acorde.",
+   "destaque": "Meio tom acima de uma nota do acorde: cuidado. Um tom: geralmente é cor.",
+   "visual": null
+  },
+  {
+   "titulo": "Tempo e duração decidem",
+   "texto": "Uma nota tensa no contratempo e de passagem quase não se nota. A mesma nota sustentada ou no fim da frase vira o assunto principal. Dois recursos clássicos usam isso a seu favor. Na apojatura, a nota tensa cai no tempo forte e resolve um passo ao lado. Na suspensão, uma nota do acorde anterior continua no acorde seguinte e só depois desce para o lugar certo. Nos dois casos, a resolução é o que dá sentido à tensão.",
+   "destaque": "Tensão sem resolução soa como engano. Com resolução, soa como intenção.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O Fá sobre Dó. Compasso 1: ele passa no contratempo e cai no Mi, e soa bem. Compasso 2: ele fica parado no fim e soa azedo. Compasso 3: o Mi finalmente alivia.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "O dominante aguenta mais",
+   "texto": "Acordes de dominante (V7) já carregam tensão por natureza, por isso aceitam notas mais ásperas: ♭9, ♯9, ♯5. Num blues em Lá, a pentatônica de Lá menor tocada sobre o E7 transforma o C em ♯5 e o G em ♯9. O ouvido espera a resolução no A7, e o C♯ entrega.",
+   "destaque": "Quanto mais o acorde quer ir para outro lugar, mais tensão ele aceita.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Pentatônica de Lá menor sobre o E7 de um blues em Lá: o C (♯5/♭6) e o G (♯9) viram tensões alteradas e resolvem no C♯, a 3ª do A7.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♯9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♯9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Outside: sair para poder voltar",
+   "texto": "Tocar outside é sair da tonalidade de propósito. O jeito mais simples é tocar a mesma forma de escala um semitom acima. Também dá para sobrepor uma tríade a um trítono de distância (G♭ sobre C) ou usar um dominante secundário. O que separa outside de erro é o retorno: a frase sai com lógica (um desenho reconhecível) e volta para uma nota sólida. Faça isso de vez em quando. Se o solo inteiro for tensão, nada mais surpreende.",
+   "destaque": "Saia com um desenho que o ouvido reconheça e volte com firmeza.",
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Sobreposição de semitom sobre Am: dentro (Lá menor pentatônica, casa 5), fora (a mesma forma na casa 6, Si♭ menor pentatônica) e de volta. O E♭ sobe meio tom e cai no E, e a frase termina no A.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 11,
+   "porque": "Guthrie Govan explica a régua de notas, da mais óbvia à mais áspera, e por que nenhuma é proibida.",
+   "fonte": {
+    "id": "Cy_c2InwkSk#I09",
+    "tipo": "video",
+    "autor": "DIME Group - Music Courses, Classes & Programs",
+    "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+    "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=253s",
+    "video": "Cy_c2InwkSk",
+    "inicio": 253,
+    "momento": "04:15",
+    "ideia": "Pense num espectro de notas, não em certas e erradas"
+   }
+  },
+  {
+   "ref": 68,
+   "porque": "Govan sola sobre uma base menor e para de propósito nas notas fora da pentatônica para mostrar o efeito de cada uma, no dórico e no frígio.",
+   "fonte": {
+    "id": "Cy_c2InwkSk#I02",
+    "tipo": "video",
+    "autor": "DIME Group - Music Courses, Classes & Programs",
+    "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+    "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=37s",
+    "video": "Cy_c2InwkSk",
+    "inicio": 37,
+    "momento": "00:39",
+    "ideia": "Explorar as notas fora da pentatônica sobre um backing track simples"
+   }
+  },
+  {
+   "ref": 21,
+   "porque": "Justin Sandercoe mostra o F sobre C: passando ele funciona, parado ele azeda.",
+   "fonte": {
+    "id": "OkTBizvNWoI#I19",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Improvisation On Guitar Without Overthinking :)",
+    "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=982s",
+    "video": "OkTBizvNWoI",
+    "inicio": 982,
+    "momento": "16:24",
+    "ideia": "Nota F sobre C: passar sim, parar não"
+   }
+  },
+  {
+   "ref": 59,
+   "porque": "Joe Satriani começa a melodia na 4ª sobre E e mostra como encurtar ou esticar a resolução.",
+   "fonte": {
+    "id": "GAckLGgA86o#I04",
+    "tipo": "video",
+    "autor": "Guitar World",
+    "titulo": "Joe Satriani Guitar Lesson - How to Build Melody",
+    "url": "https://www.youtube.com/watch?v=GAckLGgA86o&t=67s",
+    "video": "GAckLGgA86o",
+    "inicio": 67,
+    "momento": "01:09",
+    "ideia": "Começar na 4ª sobre o acorde de E e adiar a resolução"
+   }
+  },
+  {
+   "ref": 74,
+   "porque": "A fretjam mostra a pentatônica de Lá menor virando som de E7 alterado no V de um blues e resolvendo no A7.",
+   "fonte": {
+    "id": "DKe5jX-5pII#I20",
+    "tipo": "video",
+    "autor": "fretjam",
+    "titulo": "Tone Targeting In 1 4 5 Blues",
+    "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=613s",
+    "video": "DKe5jX-5pII",
+    "inicio": 613,
+    "momento": "10:15",
+    "ideia": "E7 alterado com pentatônica de Lá no V pretônico"
+   }
+  },
+  {
+   "ref": 15,
+   "porque": "Jeff Schneider ordena as notas do Cmaj7 da mais estável à mais tensa, tocando cada uma sobre o acorde.",
+   "fonte": {
+    "id": "Z-KzfB7vfFA#I02",
+    "tipo": "video",
+    "autor": "Jeff Schneider",
+    "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+    "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=64s",
+    "video": "Z-KzfB7vfFA",
+    "inicio": 64,
+    "momento": "01:06",
+    "ideia": "Espectro de consonância sobre Cmaj7"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "A régua das 12 notas sobre o Lá",
+   "objetivo": "Montar de ouvido o seu próprio espectro de tensão das 12 notas sobre Lá menor.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a corda Lá solta e deixe soar (ou use um drone/base de Am).",
+    "Na corda Sol, toque cada casa de 2 a 14 (V1) e sustente cada nota por 4 tempos.",
+    "Dê uma nota de 1 a 4 para cada uma: 1 = repouso, 2 = cor suave, 3 = cor forte, 4 = atrito.",
+    "Escreva sua régua e compare com a do conceito. Onde você discordou?",
+    "Agora toque só as notas de nível 3 e 4 e resolva cada uma na nota de nível 1 mais próxima."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "O espectro inteiro numa corda só: as 12 notas na corda Sol, da casa 2 à 14, sobre o Lá solto. Os anéis marcam o chão (A, C, E). O resto vai da cor suave ao atrito forte.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 5,
+      "casa": 0,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 2,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 3,
+      "nota": "B♭",
+      "grau": "♭2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 8,
+      "nota": "E♭",
+      "grau": "♭5",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 10,
+      "nota": "F",
+      "grau": "♭6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 11,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 12,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 13,
+      "nota": "G♯",
+      "grau": "7",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 14,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Repita sobre um drone de A maior (A–C♯–E): C e C♯ trocam de lugar na régua.",
+    "Faça a mesma régua sobre Dó maior, na corda Si, da casa 1 à 13."
+   ],
+   "cuidado": "Passar rápido pelas notas. A régua só se forma se cada nota soar contra o drone por tempo suficiente para você sentir o peso dela.",
+   "inspirado_em": [
+    {
+     "id": "Cy_c2InwkSk#I09",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=253s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 253,
+     "momento": "04:15",
+     "ideia": "Pense num espectro de notas, não em certas e erradas"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I03",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=98s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 98,
+     "momento": "01:40",
+     "ideia": "Qualquer nota pode soar bem"
+    },
+    {
+     "id": "Z-KzfB7vfFA#I02",
+     "tipo": "video",
+     "autor": "Jeff Schneider",
+     "titulo": "The RIGHT Way to Improvise with CHORD TONES for Better Solos",
+     "url": "https://www.youtube.com/watch?v=Z-KzfB7vfFA&t=64s",
+     "video": "Z-KzfB7vfFA",
+     "inicio": 64,
+     "momento": "01:06",
+     "ideia": "Espectro de consonância sobre Cmaj7"
+    },
+    {
+     "id": "566LrQfcqgE#I17",
+     "tipo": "video",
+     "autor": "samuraiguitarist",
+     "titulo": "A LIFE-CHANGING Practice Routine",
+     "url": "https://www.youtube.com/watch?v=566LrQfcqgE&t=459s",
+     "video": "566LrQfcqgE",
+     "inicio": 459,
+     "momento": "07:41",
+     "ideia": "Conhecer o braço para escolher notas com intenção"
+    },
+    {
+     "id": "Cy_c2InwkSk#I05",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=152s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 152,
+     "momento": "02:34",
+     "ideia": "Aprenda a escala para saber o quão desagradáveis são suas notas"
+    }
+   ]
+  },
+  {
+   "titulo": "O Fá sobre Dó: passar, parar e resolver",
+   "objetivo": "Sentir que a mesma nota de evitação muda de efeito conforme o ritmo e a duração.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Grave ou ponha uma base de C parado.",
+    "Toque o compasso 1 do V2: o F passa no contratempo e cai no E.",
+    "Toque o compasso 2: o F fica parado no tempo 4. Deixe soar e ouça o atrito.",
+    "No compasso 3, resolva no E e perceba o alívio.",
+    "Improvise 2 minutos usando o F só no contratempo e sempre seguido de E ou G."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "O Fá sobre Dó. Compasso 1: ele passa no contratempo e cai no Mi, e soa bem. Compasso 2: ele fica parado no fim e soa azedo. Compasso 3: o Mi finalmente alivia.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o mesmo com o C sobre Em (meio tom acima do B).",
+    "Sobre Cm7, sustente o F de propósito e compare: ali ele fica livre."
+   ],
+   "cuidado": "Achar que o F é proibido. Ele só está mal colocado quando fica parado no tempo forte ou no fim da frase.",
+   "inspirado_em": [
+    {
+     "id": "OkTBizvNWoI#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Improvisation On Guitar Without Overthinking :)",
+     "url": "https://www.youtube.com/watch?v=OkTBizvNWoI&t=982s",
+     "video": "OkTBizvNWoI",
+     "inicio": 982,
+     "momento": "16:24",
+     "ideia": "Nota F sobre C: passar sim, parar não"
+    },
+    {
+     "id": "Cy_c2InwkSk#I04",
+     "tipo": "video",
+     "autor": "DIME Group - Music Courses, Classes & Programs",
+     "titulo": "Guthrie Govan on the Profound Effect of Intervals",
+     "url": "https://www.youtube.com/watch?v=Cy_c2InwkSk&t=104s",
+     "video": "Cy_c2InwkSk",
+     "inicio": 104,
+     "momento": "01:46",
+     "ideia": "Notas tensas passam em velocidade, mas pedem cuidado em notas longas"
+    },
+    {
+     "id": "-VjHVHzWL0o#I24",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "How to Make Melodic Solos Out of Scales On Guitar",
+     "url": "https://www.youtube.com/watch?v=-VjHVHzWL0o&t=372s",
+     "video": "-VjHVHzWL0o",
+     "inicio": 372,
+     "momento": "06:14",
+     "ideia": "Ruim e certo em notas próximas"
+    },
+    {
+     "id": "tRi4vMs2z8M#I33",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=2193s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 2193,
+     "momento": "36:35",
+     "ideia": "Notas a evitar na escala de G maior sobre Em"
+    },
+    {
+     "id": "0Dz1QC7xk5U#I06",
+     "tipo": "video",
+     "autor": "TomHessMusicCorp",
+     "titulo": "[Guitar Solo Lesson] Improve Your Phrasing Immediately",
+     "url": "https://www.youtube.com/watch?v=0Dz1QC7xk5U&t=270s",
+     "video": "0Dz1QC7xk5U",
+     "inicio": 270,
+     "momento": "04:32",
+     "ideia": "Fá como 4ª ou 11ª sobre Dó maior"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I06",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=207s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 207,
+     "momento": "03:29",
+     "ideia": "A 4ª (Fá) como nota de cor sobre Cm7"
+    }
+   ]
+  },
+  {
+   "titulo": "Apojaturas em C–G–Am–F",
+   "objetivo": "Colocar a tensão no tempo forte de propósito e resolver um passo ao lado.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ponha uma base com C, G, Am e F, um compasso cada (V8).",
+    "Toque o V3: a nota tensa no tempo 1 e a nota do acorde no tempo 2, deixada soando até o fim do compasso.",
+    "Exagere um pouco a dinâmica: tensa mais forte, resolução mais suave, como um suspiro.",
+    "Mantenha o ritmo e troque as notas: em cada acorde, chegue na 5ª vindo de um passo acima.",
+    "Improvise livremente, mas com uma apojatura por compasso."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Apojaturas em posição aberta: a nota tensa cai no tempo forte e resolve um passo ao lado, na nota do acorde, que fica soando.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use apojaturas cromáticas: meio tom abaixo da 3ª, de fora da escala.",
+    "Deixe a nota tensa durar 2 tempos antes de resolver."
+   ],
+   "cuidado": "Resolver para uma nota que também não é do acorde. Confira se a nota de chegada é 1, 3 ou 5 do acorde do momento.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I26",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Apoggiaturas"
+    },
+    {
+     "id": "t8SmU7wIxnc#I18",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=1048s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 1048,
+     "momento": "17:30",
+     "ideia": "Dissonância que resolve em nota-alvo"
+    },
+    {
+     "id": "rtKZBns_IMY#I14",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Copy This Triad Practice Routine, It'll 10X Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=rtKZBns_IMY&t=660s",
+     "video": "rtKZBns_IMY",
+     "inicio": 660,
+     "momento": "11:02",
+     "ideia": "Embelezar o acorde com nota da escala acima ou abaixo"
+    },
+    {
+     "id": "rODBvbol8dk#I12",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Como IMPROVISAR na Guitarra e CRIAR Frases e Solos que SOAM BEM (Mesmo Que Você Seja Iniciante!)",
+     "url": "https://www.youtube.com/watch?v=rODBvbol8dk&t=500s",
+     "video": "rODBvbol8dk",
+     "inicio": 500,
+     "momento": "08:22",
+     "ideia": "Quarta como nota de suspensão"
+    }
+   ]
+  },
+  {
+   "titulo": "Satriani: começar na 4ª e deixar o ouvinte esperando",
+   "objetivo": "Controlar quanto tempo a tensão dura, da resolução imediata à resolução bem adiada.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Grave ou ponha uma base de E maior parado.",
+    "Compassos 1 e 2 do V4: comece na 4ª (A) e resolva logo na 3ª (G♯). Depois, silêncio.",
+    "Compassos 3 e 4: comece na 4ª e passe por 2ª (F♯) e 6ª (C♯) sem pousar em nota do acorde.",
+    "Só no fim da frase longa, pouse na tônica E.",
+    "Improvise frases que comecem sempre na 4ª, alternando versões curtas e longas."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Ideia de Satriani sobre E. Compassos 1 e 2: a 4ª (A) resolve logo na 3ª. Compassos 3 e 4: a frase passa por 2ª e 6ª sem pousar e só chega na tônica no fim.",
+    "tonica": "E",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": []
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Termine uma frase de propósito na 4ª e deixe a próxima frase resolver.",
+    "Faça o mesmo sobre Am, começando no D."
+   ],
+   "cuidado": "Esticar a frase longa pousando em B ou E no meio do caminho. Assim a tensão se desfaz antes da hora.",
+   "inspirado_em": [
+    {
+     "id": "GAckLGgA86o#I04",
+     "tipo": "video",
+     "autor": "Guitar World",
+     "titulo": "Joe Satriani Guitar Lesson - How to Build Melody",
+     "url": "https://www.youtube.com/watch?v=GAckLGgA86o&t=67s",
+     "video": "GAckLGgA86o",
+     "inicio": 67,
+     "momento": "01:09",
+     "ideia": "Começar na 4ª sobre o acorde de E e adiar a resolução"
+    },
+    {
+     "id": "GAckLGgA86o#I02",
+     "tipo": "video",
+     "autor": "Guitar World",
+     "titulo": "Joe Satriani Guitar Lesson - How to Build Melody",
+     "url": "https://www.youtube.com/watch?v=GAckLGgA86o&t=34s",
+     "video": "GAckLGgA86o",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "Terminar frases em notas suspensas"
+    },
+    {
+     "id": "mtRKsf1Y5cw#I08",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "10 Minute Guide To Melodic Soloing - Guitar Lesson - Turn Scales Into Memorable Solos - EASY",
+     "url": "https://www.youtube.com/watch?v=mtRKsf1Y5cw&t=346s",
+     "video": "mtRKsf1Y5cw",
+     "inicio": 346,
+     "momento": "05:48",
+     "ideia": "Usar a 4ª (D) para um som de sus4"
+    }
+   ]
+  },
+  {
+   "titulo": "Suspensão: a nota que fica quando o acorde muda",
+   "objetivo": "Usar uma nota do acorde anterior como tensão no acorde seguinte e resolvê-la descendo.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ponha uma base com Am, G, Dm e C, um compasso cada.",
+    "Toque o V5. O C, que é tranquilo no Am, continua no G (onde vira 4ª) e só depois cai no B.",
+    "Faça o mesmo com o F: é ♭3 do Dm, vira 4ª do C e cai no E.",
+    "Em cada troca de acorde, escolha uma nota do acorde que está saindo e segure-a por cima do acorde novo.",
+    "Resolva sempre descendo um passo, na metade do compasso."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Suspensão: a nota é consonante num acorde, continua no próximo (onde vira tensão) e desce meio tom ou um tom até a nota do acorde. O C é ♭3 do Am, vira 4ª do G e cai no B. O F é ♭3 do Dm, vira 4ª do C e cai no E.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Dm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Segure a nota com vibrato em vez de palhetar de novo.",
+    "Atrase a resolução até o tempo 4."
+   ],
+   "cuidado": "Segurar uma nota que já é do acorde novo. Nesse caso não há suspensão nenhuma, só uma nota comum entre os dois acordes.",
+   "inspirado_em": [
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I24",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Suspensões"
+    },
+    {
+     "id": "5hmSQuMIf-w#I14",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "II V I  - You Need To Practice This For Solos",
+     "url": "https://www.youtube.com/watch?v=5hmSQuMIf-w&t=406s",
+     "video": "5hmSQuMIf-w",
+     "inicio": 406,
+     "momento": "06:48",
+     "ideia": "Atrasar o chord tone como suspensão"
+    },
+    {
+     "id": "GAckLGgA86o#I07",
+     "tipo": "video",
+     "autor": "Guitar World",
+     "titulo": "Joe Satriani Guitar Lesson - How to Build Melody",
+     "url": "https://www.youtube.com/watch?v=GAckLGgA86o&t=202s",
+     "video": "GAckLGgA86o",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Sustentar a 4ª enquanto os acordes mudam"
+    }
+   ]
+  },
+  {
+   "titulo": "E7 alterado com a pentatônica de Lá menor",
+   "objetivo": "Ouvir a mesma pentatônica gerar ♯9 e ♯5 sobre o V7 e resolver na 3ª do I.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Ponha um blues em Lá ou um loop de E7 (2 compassos) → A7 (2 compassos).",
+    "Toque o V6 devagar e ouça o C e o G contra o E7.",
+    "Pouse de propósito no G (♯9) por um tempo inteiro antes de seguir.",
+    "No A7, mire o C♯ (casa 6 da corda Sol) logo no tempo 1.",
+    "Improvise nos compassos 9 e 10 do blues, sempre chegando no A7 pelo C♯."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Pentatônica de Lá menor sobre o E7 de um blues em Lá: o C (♯5/♭6) e o G (♯9) viram tensões alteradas e resolvem no C♯, a 3ª do A7.",
+    "tonica": "A",
+    "bpm": 76,
+    "compassos": [
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♯9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♯9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Troque a resolução: termine no E (5ª do A7) e depois no G (♭7).",
+    "Leve a ideia para Dó menor: sobre G7, o E♭ é ♯5 e resolve no Cm7."
+   ],
+   "cuidado": "Sustentar o C da pentatônica quando o A7 entra. Ali ele é ♭3 e briga com o C♯ do acorde.",
+   "inspirado_em": [
+    {
+     "id": "DKe5jX-5pII#I20",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "Tone Targeting In 1 4 5 Blues",
+     "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=613s",
+     "video": "DKe5jX-5pII",
+     "inicio": 613,
+     "momento": "10:15",
+     "ideia": "E7 alterado com pentatônica de Lá no V pretônico"
+    },
+    {
+     "id": "Ak_iM6H9rxE#I20",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=684s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 684,
+     "momento": "11:26",
+     "ideia": "Mi♭ como ♯5 do G7 para tensão"
+    },
+    {
+     "id": "DKe5jX-5pII#I14",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "Tone Targeting In 1 4 5 Blues",
+     "url": "https://www.youtube.com/watch?v=DKe5jX-5pII&t=409s",
+     "video": "DKe5jX-5pII",
+     "inicio": 409,
+     "momento": "06:51",
+     "ideia": "Terça menor como ♯9 e uso breve"
+    },
+    {
+     "id": "en--jazz_improvisation-59a777#I10",
+     "tipo": "documento",
+     "autor": "Authority control databases National Czech Republic",
+     "titulo": "Jazz improvisation - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Jazz_improvisation",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dominante alterado sobre G"
+    }
+   ]
+  },
+  {
+   "titulo": "Fora e de volta: pentatônica meio tom acima",
+   "objetivo": "Tocar outside de forma controlada e voltar à escala com uma resolução clara.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Ponha um vamp de Am (ou Am7 dórico).",
+    "Toque o compasso 1 do V7 dentro da pentatônica de Lá menor, casa 5.",
+    "No compasso 2, suba a mesma forma uma casa (Si♭ menor) e desça rápido até o E♭.",
+    "Resolva o E♭ subindo meio tom para o E, e termine no A no compasso 3.",
+    "Improvise em ciclos: 3 compassos dentro, 1 fora, sempre voltando com firmeza."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Sobreposição de semitom sobre Am: dentro (Lá menor pentatônica, casa 5), fora (a mesma forma na casa 6, Si♭ menor pentatônica) e de volta. O E♭ sobe meio tom e cai no E, e a frase termina no A.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "A♭",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "E♭",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Saia meio tom abaixo (Lá♭ menor, casa 4) em vez de acima.",
+    "Leve a ideia ao Dó menor dórico: pentatônica de C, depois a de C♯ e de volta."
+   ],
+   "cuidado": "Ficar fora tempo demais ou terminar a frase numa nota de fora. A saída tem que ser curta e a última nota tem que estar dentro.",
+   "inspirado_em": [
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I31",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Sobreposição pentatônica um semitom acima para notas cromáticas"
+    },
+    {
+     "id": "tRi4vMs2z8M#I37",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=2529s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 2529,
+     "momento": "42:11",
+     "ideia": "Caminhos avançados após a base"
+    },
+    {
+     "id": "tRi4vMs2z8M#I40",
+     "tipo": "video",
+     "autor": "Jack Gardiner",
+     "titulo": "Improvisation: A Complete Overview for Guitar | Masterclass",
+     "url": "https://www.youtube.com/watch?v=tRi4vMs2z8M&t=2679s",
+     "video": "tRi4vMs2z8M",
+     "inicio": 2679,
+     "momento": "44:41",
+     "ideia": "Fundir arpejos, tríades e cromatismo para obter sons outside"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I47",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Excesso de notas da estrutura superior e de cromatismo"
+    },
+    {
+     "id": "repositorio--estrat-c3-a9giasexplorarestrutura-pdf-e84487#I46",
+     "tipo": "documento",
+     "autor": "repositorio.ufu.br",
+     "titulo": "",
+     "url": "https://repositorio.ufu.br/bitstream/123456789/38620/1/Estrat%c3%a9giasExplorarEstrutura.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Estrutura de improviso: chão, tensão e cromatismo"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Tratar notas como certas e erradas, em vez de saber o peso de cada uma sobre o acorde do momento.",
+  "Sustentar uma nota que fica meio tom acima de uma nota do acorde (F sobre C, C sobre Em) sem resolver.",
+  "Usar a mesma escala sobre um acorde maior emprestado e parar no ♭3 que briga com a 3ª dele.",
+  "Colocar tensões e cromatismo em toda frase. A surpresa some e o solo fica obsessivo.",
+  "Tentar soar outside antes de pousar com segurança nas notas do acorde.",
+  "Terminar a frase na nota de fora em vez de voltar para uma nota sólida."
+ ],
+ "resumo": [
+  "As 12 notas formam um espectro que vai do repouso ao atrito, e o peso de cada uma depende do acorde.",
+  "O atrito mais forte é meio tom acima de uma nota do acorde. Um tom acima costuma ser só cor.",
+  "Ritmo e duração decidem: nota tensa no contratempo passa, sustentada ou no fim da frase vira o foco.",
+  "Apojatura e suspensão são tensão planejada que resolve um passo ao lado.",
+  "Dominantes aceitam tensões alteradas, e outside funciona quando sai com lógica e volta firme."
+ ],
+ "proximos_passos": "Para aprofundar a resolução de tensões no meio da frase, siga para \"Aproximação cromática, enclosures e notas de passagem\". Para usar ♭9 e ♯9 com fluência em jazz, vá para \"Vocabulário de jazz: bebop, dominantes e tensões\". Para criar sons outside com arpejos inteiros, veja \"Superposição e estrutura superior\". Para treinar o ouvido a sentir o peso de cada nota, volte em \"Treino auditivo e escuta reativa\".",
+ "_meta": {
+  "subcategoria": "C11.5",
+  "modulo": {
+   "id": "C11",
+   "nome": "Escala maior, modos e cores além da pentatônica"
+  },
+  "nome": "Tensão, dissonância e notas fora",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T20:30:57",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 27700,
+   "cache_read": 4913,
+   "output": 16085,
+   "thinking": 6020,
+   "turns": 2,
+   "custo_nominal": 0.5663256
+  }
+ }
+}
