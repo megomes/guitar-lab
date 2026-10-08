@@ -549,7 +549,7 @@ def main():
     px = sub.add_parser("proximas")
     px.add_argument("--n", type=int, default=3)
     px.add_argument("--subs", nargs="+", help="ids específicos em vez das próximas da trilha")
-    px.add_argument("--effort", default="high")
+    px.add_argument("--effort", default="medium", help="medium desde C03: raciocínio era ~30% da saída; o validador cobre a teoria")
     v = sub.add_parser("validar")
     v.add_argument("arquivos", nargs="+")
     args = ap.parse_args()
