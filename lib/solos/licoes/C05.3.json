@@ -1,0 +1,2243 @@
+{
+ "titulo": "Slides, hammer-ons, pull-offs e legato",
+ "gancho": "Com as mesmas notas, só mudando a forma de ligar uma na outra, a frase deixa de soar como máquina de escrever e começa a cantar.",
+ "porque_importa": "Duas pessoas tocando as mesmas notas soam diferentes por causa da articulação. Ligados e slides são o caminho mais rápido para melhorar o som sem aprender nenhuma escala nova: você continua no mesmo shape e muda só a forma de passar de uma nota para a outra. Eles também mostram o que é tocar com a mão da casa e não só com a palheta.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Mesmas notas, outra voz",
+   "texto": "Palhetar todas as notas produz um 'tat-tat-tat' de ataques secos, porque na guitarra cada nota nasce forte e logo morre. Ligados e slides fazem a nota anterior fluir para a próxima. Você não troca de escala, só muda a forma de passar de uma nota para a outra. Primeiro defina o ritmo da frase e depois decida onde ligar.",
+   "destaque": "Articulação é o jeito de dizer as notas, não a escolha delas.",
+   "visual": null
+  },
+  {
+   "titulo": "Quem faz o som é a mão da casa",
+   "texto": "No hammer-on, o dedo cai como um martelo na ponta, perto do traste. No pull-off, o dedo puxa a corda levemente para o lado (para baixo, no sentido do chão) e não apenas se levanta. Use o mínimo de pressão que soa limpo e deixe o polegar atrás do dedo médio. Em cada corda da pentatônica há um par de notas pronto para ligar.",
+   "destaque": "Pressão mínima, dedo firme na ponta.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5–8). Em cada corda há um par de notas que você pode ligar com hammer-on (subindo) e pull-off (descendo), usando o indicador na casa 5 e o anelar ou o mindinho na 7 ou na 8.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Slide: chegar deslizando",
+   "texto": "No slide, você toca uma nota e, sem tirar a pressão, arrasta o dedo até a próxima. O tempero mais útil é o slide de meio tom abaixo: comece uma casa abaixo da nota do acorde e deslize até ela. A nota de partida dura só um instante e o ouvido registra apenas a chegada. Também vale trocar um bend ou um salto de corda por um slide na mesma corda.",
+   "destaque": "Uma casa abaixo, deslize, e a nota-alvo chega cantando.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Slide de meio tom abaixo sobre Am: toque a casa imediatamente abaixo e deslize uma casa até a nota do acorde (A, C, E, A), palhetando só a primeira. No compasso 3 entra o slide dobrado: duas chegadas seguidas ao mesmo A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Frases de 3 a 4 notas",
+   "texto": "Os ligados funcionam melhor em células curtas: um hammer-on ou pull-off numa corda e uma nota palhetada na corda vizinha. Essas células encaixam em qualquer par de cordas e se encadeiam. Varie também o timing: um ligado lento, com espera antes, soa diferente do mesmo ligado rápido. Deixar o hammer para o último instante dá o feel do blues.",
+   "destaque": "Palheta, liga, troca de corda. Pronto, já é uma frase.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Três frases curtas em Am. 1) Palheta no D (casa 5), hammer-on para o E (casa 7) e palheta no G da corda Ré. 2) Palheta no C (casa 8), pull-off para o A (casa 5) e palheta no G da corda Si. 3) Palheta no C, hammer-on para o D, pull-off de volta para o C e pouso no A da corda Ré. Depois de cada frase vem uma pausa.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Legato e staccato se alternam",
+   "texto": "Legato não é melhor que staccato. Os dois são cores, e a frase ganha vida quando você alterna entre eles: algumas notas palhetadas para dar ataque e outras ligadas para dar fluência. A prova de domínio é o pulso. O legato precisa ser estável devagar e no tempo, não só rápido.",
+   "destaque": "Ligado no tempo vale mais que ligado veloz.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 24,
+   "porque": "Daniel Seriff mostra a diferença entre notas picadas e notas que fluem, e por que isso estraga solos com boas ideias.",
+   "fonte": {
+    "id": "3dW_GQsC5Ak#I09",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+    "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=346s",
+    "video": "3dW_GQsC5Ak",
+    "inicio": 346,
+    "momento": "05:48",
+    "ideia": "Notas desconectadas soam picadas"
+   }
+  },
+  {
+   "ref": 29,
+   "porque": "Bernth demonstra hammer-on e pull-off com pressão mínima, procurando o ponto em que a nota soa limpa sem esforço.",
+   "fonte": {
+    "id": "36xG0NIDd7E#I12",
+    "tipo": "video",
+    "autor": "BERNTH Guitar Academy",
+    "titulo": "Everything You Need to Learn on Guitar (In Order)",
+    "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=988s",
+    "video": "36xG0NIDd7E",
+    "inicio": 988,
+    "momento": "16:30",
+    "ideia": "Hammer-on e pull-off com pressão mínima"
+   }
+  },
+  {
+   "ref": 39,
+   "porque": "Seriff toca o slide de meio tom abaixo e, logo depois, a versão com o slide dobrado.",
+   "fonte": {
+    "id": "On_Ho3azaLk#I18",
+    "tipo": "video",
+    "autor": "Daniel Seriff",
+    "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+    "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=631s",
+    "video": "On_Ho3azaLk",
+    "inicio": 631,
+    "momento": "10:33",
+    "ideia": "Slide de meio tom abaixo como nota de passagem"
+   }
+  },
+  {
+   "ref": 53,
+   "porque": "Dustin Hofsess monta, na pentatônica de Lá menor, as frases de 3 e 4 notas com hammer-on e pull-off em pares de cordas.",
+   "fonte": {
+    "id": "UG_P4KNw0XM#I03",
+    "tipo": "video",
+    "autor": "Dustin Hofsess",
+    "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+    "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=37s",
+    "video": "UG_P4KNw0XM",
+    "inicio": 37,
+    "momento": "00:39",
+    "ideia": "Frase de 3 notas com hammer-on"
+   }
+  },
+  {
+   "ref": 65,
+   "porque": "Samjam mostra slides e pull-offs numa única palhetada dentro de um lick de blues em Sol.",
+   "fonte": {
+    "id": "gNKJXn8g734#I07",
+    "tipo": "video",
+    "autor": "Samjamguitar",
+    "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+    "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=271s",
+    "video": "gNKJXn8g734",
+    "inicio": 271,
+    "momento": "04:33",
+    "ideia": "Slide ida e volta para a blue note na corda G"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Ligado com pressão mínima",
+   "objetivo": "Fazer hammer-ons e pull-offs soarem limpos com a mão relaxada.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Na corda Sol, toque a casa 5 (C) com o indicador e faça hammer-on na casa 7 (D) com o anelar.",
+    "Faça o pull-off de volta para a casa 5, puxando a corda levemente para baixo.",
+    "Repita o ciclo C-D-C apertando quase nada e aumente a pressão aos poucos.",
+    "Pare no menor aperto que ainda soa limpo, com o volume do hammer igual ao da nota palhetada.",
+    "Repita em todas as cordas do shape (V1), uma vez com o anelar e outra com o mindinho."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Pentatônica de Lá menor, shape 1 (casas 5–8). Em cada corda há um par de notas que você pode ligar com hammer-on (subindo) e pull-off (descendo), usando o indicador na casa 5 e o anelar ou o mindinho na 7 ou na 8.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 5,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o mesmo par na corda Mi aguda, casas 5 e 8 (A e C), com o mindinho.",
+    "Faça 30 segundos sem palhetar: só hammer e pull contínuos."
+   ],
+   "cuidado": "Esmagar o braço e tensionar o polegar. O som vem da precisão da ponta do dedo, não da força.",
+   "inspirado_em": [
+    {
+     "id": "36xG0NIDd7E#I12",
+     "tipo": "video",
+     "autor": "BERNTH Guitar Academy",
+     "titulo": "Everything You Need to Learn on Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=36xG0NIDd7E&t=988s",
+     "video": "36xG0NIDd7E",
+     "inicio": 988,
+     "momento": "16:30",
+     "ideia": "Hammer-on e pull-off com pressão mínima"
+    },
+    {
+     "id": "HVG0MqzGz30#I11",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=422s",
+     "video": "HVG0MqzGz30",
+     "inicio": 422,
+     "momento": "07:04",
+     "ideia": "Força e destreza da mão da casa"
+    },
+    {
+     "id": "HVG0MqzGz30#I10",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=455s",
+     "video": "HVG0MqzGz30",
+     "inicio": 455,
+     "momento": "07:37",
+     "ideia": "Usar o dedo mindinho no legato"
+    },
+    {
+     "id": "MvUgoNBTNjA#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERY DAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=MvUgoNBTNjA&t=487s",
+     "video": "MvUgoNBTNjA",
+     "inicio": 487,
+     "momento": "8:09",
+     "ideia": "Escolha livre dos dedos nos hammer-ons"
+    }
+   ]
+  },
+  {
+   "titulo": "Células de 3 e 4 notas na pentatônica de Lá menor",
+   "objetivo": "Transformar ligados em frases curtas que já soam como música.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a frase 1 do V2: D (palhetada), hammer para E, G palhetado na corda Ré. Depois fique em silêncio até o fim do compasso.",
+    "Toque a frase 2: C na Mi aguda, pull-off para A, G palhetado na corda Si.",
+    "Toque a frase 3: C, hammer para D, pull-off para C na corda Sol e pouso no A da corda Ré.",
+    "Leve cada célula para outros pares de cordas do shape 1.",
+    "Sobre uma base em Am, encadeie duas células e deixe espaço entre elas."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Três frases curtas em Am. 1) Palheta no D (casa 5), hammer-on para o E (casa 7) e palheta no G da corda Ré. 2) Palheta no C (casa 8), pull-off para o A (casa 5) e palheta no G da corda Si. 3) Palheta no C, hammer-on para o D, pull-off de volta para o C e pouso no A da corda Ré. Depois de cada frase vem uma pausa.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque a mesma célula duas vezes: primeiro com um hammer lento, com espera antes, e depois rápido.",
+    "Deixe o ligado para o último instante antes do tempo seguinte, com feel de blues."
+   ],
+   "cuidado": "Fazer o hammer-on mais fraco que a nota palhetada. A célula fica manca se uma nota some.",
+   "inspirado_em": [
+    {
+     "id": "UG_P4KNw0XM#I03",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=37s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Frase de 3 notas com hammer-on"
+    },
+    {
+     "id": "UG_P4KNw0XM#I05",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=115s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 115,
+     "momento": "01:57",
+     "ideia": "Frase de 3 notas com pull-off"
+    },
+    {
+     "id": "UG_P4KNw0XM#I06",
+     "tipo": "video",
+     "autor": "Dustin Hofsess",
+     "titulo": "Pentatonic Magic: Turn Scales into Music with Simple Phrases",
+     "url": "https://www.youtube.com/watch?v=UG_P4KNw0XM&t=161s",
+     "video": "UG_P4KNw0XM",
+     "inicio": 161,
+     "momento": "02:43",
+     "ideia": "Frase de 4 notas: hammer-on + pull-off e descida"
+    },
+    {
+     "id": "btoooVk54LY#I13",
+     "tipo": "video",
+     "autor": "Learning Guitar Now",
+     "titulo": "How to Solo over a 12 Bar Blues in the Key of A",
+     "url": "https://www.youtube.com/watch?v=btoooVk54LY&t=814s",
+     "video": "btoooVk54LY",
+     "inicio": 814,
+     "momento": "13:36",
+     "ideia": "Frase de pull-off descendente nas cordas D e G"
+    },
+    {
+     "id": "On_Ho3azaLk#I21",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=743s",
+     "video": "On_Ho3azaLk",
+     "inicio": 743,
+     "momento": "12:25",
+     "ideia": "Variar a velocidade dos hammer-ons"
+    },
+    {
+     "id": "gNKJXn8g734#I06",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=165s",
+     "video": "gNKJXn8g734",
+     "inicio": 165,
+     "momento": "02:47",
+     "ideia": "Deixar hammer-on e pull-off para o último momento"
+    }
+   ]
+  },
+  {
+   "titulo": "Slide de meio tom até a nota do acorde",
+   "objetivo": "Chegar às notas do Am (A, C, E) deslizando a partir da casa de baixo.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque o V3 devagar: G♯→A na corda Ré, B→C na Sol, D♯→E na Si e G♯→A na Mi aguda.",
+    "Palhete só a nota de baixo e mantenha a pressão durante o deslize de uma casa.",
+    "A nota de partida é curta, e quem ganha duração é a nota-alvo.",
+    "No compasso 3, faça o slide dobrado: duas chegadas seguidas ao mesmo A.",
+    "Toque cada nota-alvo uma vez seca e outra com slide, e compare."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Slide de meio tom abaixo sobre Am: toque a casa imediatamente abaixo e deslize uma casa até a nota do acorde (A, C, E, A), palhetando só a primeira. No compasso 3 entra o slide dobrado: duas chegadas seguidas ao mesmo A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 6,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 4,
+          "nota": "D♯",
+          "grau": "♯4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 4,
+          "nota": "G♯",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Aplique o slide de meio tom à nota mais grave de cada desenho de tríade de Am que você conhece.",
+    "Use o slide só na primeira nota de cada frase do improviso."
+   ],
+   "cuidado": "Pousar e ficar na nota de baixo (G♯, D♯). Ela é só passagem e precisa resolver logo.",
+   "inspirado_em": [
+    {
+     "id": "On_Ho3azaLk#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=631s",
+     "video": "On_Ho3azaLk",
+     "inicio": 631,
+     "momento": "10:33",
+     "ideia": "Slide de meio tom abaixo como nota de passagem"
+    },
+    {
+     "id": "On_Ho3azaLk#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=664s",
+     "video": "On_Ho3azaLk",
+     "inicio": 664,
+     "momento": "11:06",
+     "ideia": "Dobrar os slides de meio tom"
+    },
+    {
+     "id": "ExhI4nkjOAY#I08",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START a guitar solo?",
+     "url": "https://www.youtube.com/watch?v=ExhI4nkjOAY&t=263s",
+     "video": "ExhI4nkjOAY",
+     "inicio": 263,
+     "momento": "04:25",
+     "ideia": "Deslizar para a nota de arpejo a partir do traste abaixo"
+    },
+    {
+     "id": "qIewGDRWBu8#I10",
+     "tipo": "video",
+     "autor": "Ross Campbell",
+     "titulo": "How To ACTUALLY Improvise Melodic Guitar Solos (Complete Masterclass)",
+     "url": "https://www.youtube.com/watch?v=qIewGDRWBu8&t=800s",
+     "video": "qIewGDRWBu8",
+     "inicio": 800,
+     "momento": "13:22",
+     "ideia": "Deslizar para a nota grave de cada shell"
+    },
+    {
+     "id": "premierguitar--22582-fretboard-workshop-revisualize-the-pentatonic-scale-10858e#I12",
+     "tipo": "documento",
+     "autor": "Shawn Persinger",
+     "titulo": "Fretboard Workshop: Revisualize the Pentatonic Scale",
+     "url": "https://www.premierguitar.com/articles/22582-fretboard-workshop-revisualize-the-pentatonic-scale",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Grace-note slides na frase de uma nota por corda (Ex. 11)"
+    }
+   ]
+  },
+  {
+   "titulo": "Bend vira slide",
+   "objetivo": "Trocar o bend automático por slides que espelham a mesma linha com feel legato.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque D na casa 7 da corda Sol com bend de um tom até E.",
+    "Agora alcance o mesmo E deslizando da casa 7 para a 9, como no compasso 1 do V4.",
+    "Siga com o slide G→A na corda Si (8→10) e deixe o compasso 2 em silêncio.",
+    "Volte descendo com slides (compasso 3) até pousar no A da corda Ré.",
+    "Pegue uma frase sua com bend e crie a versão com slide."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Bend vira slide, em Am. No compasso 1, em vez do bend D→E na corda Sol, deslize da casa 7 para a 9. Depois deslize de G para A na corda Si (8→10). No compasso 3 vem o caminho de volta, com slides descendentes, até pousar no A da corda Ré.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Slides reversos: suba e desça o mesmo par (7→9→7) numa só palhetada.",
+    "Escolha o dedo do slide pelo ponto onde a mão precisa terminar."
+   ],
+   "cuidado": "Soltar a pressão no meio do slide. Aí a nota morre antes de chegar.",
+   "inspirado_em": [
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I04",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Slides reduzem a dependência de bends"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I09",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Slides no lugar de bends para efeito legato"
+    },
+    {
+     "id": "guitarworld--break-out-of-the-pentatonic-box-8a00aa#I12",
+     "tipo": "documento",
+     "autor": "Richard Barrett",
+     "titulo": "How to break out of the pentatonic box with your solos",
+     "url": "https://guitarworld.com/lessons/break-out-of-the-pentatonic-box",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Mesmas notas, entrega diferente"
+    },
+    {
+     "id": "tocandoguitarraeviolao--escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-cri-2e7111#I16",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "ESCALAS PENTATÔNICAS na Guitarra: Como Aprender, Aplicar e Criar Solos Melhores",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/25/escalas-pentatonicas-na-guitarra-como-aprender-aplicar-e-criar-solos-melhores/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Slides dentro do desenho"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I19",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=842s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 842,
+     "momento": "14:04",
+     "ideia": "Slides ascendentes, descendentes e reversos"
+    },
+    {
+     "id": "dZUSUZjRISI#I11",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=218s",
+     "video": "dZUSUZjRISI",
+     "inicio": 218,
+     "momento": "03:40",
+     "ideia": "Slide com dedo médio no padrão 2"
+    },
+    {
+     "id": "dZUSUZjRISI#I19",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=464s",
+     "video": "dZUSUZjRISI",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Slide com o dedo anelar no padrão 1 (A menor)"
+    }
+   ]
+  },
+  {
+   "titulo": "Pentatônica só com ligados, no pulso",
+   "objetivo": "Manter pulso e volume estáveis em legato, também devagar.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Ligue o metrônomo a 66 bpm e toque o V5 em colcheias.",
+    "Na subida, palhete a primeira nota de cada corda e faça hammer-on na segunda.",
+    "Na descida, palhete a nota aguda e faça pull-off para a grave.",
+    "Respeite a pausa do compasso 2.",
+    "Grave e confira se todas as notas têm o mesmo volume e caem exatamente na colcheia.",
+    "Baixe para 50 bpm: se desmoronar, é aí que está o trabalho."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Pentatônica de Lá menor (shape 1) só com ligados. Na subida, palhete a primeira nota de cada corda e faça hammer-on na segunda. Na descida, palhete a nota aguda e faça pull-off. Todas as notas são colcheias com o mesmo volume, e a pausa no compasso 2 é para respirar.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 6,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque em semínimas, com cada nota durando até a seguinte.",
+    "Faça o mesmo em outro shape da pentatônica que você já conhece."
+   ],
+   "cuidado": "Acelerar sem querer nos ligados e atrasar na troca de corda. O legato rápido costuma esconder um pulso frouxo.",
+   "inspirado_em": [
+    {
+     "id": "HVG0MqzGz30#I09",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=389s",
+     "video": "HVG0MqzGz30",
+     "inicio": 389,
+     "momento": "06:31",
+     "ideia": "Escalas sem palhetar"
+    },
+    {
+     "id": "tomhess--pt-269230#I04",
+     "tipo": "documento",
+     "autor": "De Nick Layton",
+     "titulo": "Melhorar O Teu Fraseado De Solos De Guitarra",
+     "url": "https://tomhess.net/ImprovingYourPhrasingPart3.aspx/pt",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Legato na pentatônica menor nas cinco formas"
+    },
+    {
+     "id": "HVG0MqzGz30#I12",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=487s",
+     "video": "HVG0MqzGz30",
+     "inicio": 487,
+     "momento": "08:09",
+     "ideia": "Legato rápido que não se sustenta no groove lento"
+    },
+    {
+     "id": "3dW_GQsC5Ak#I10",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "I've coached hundreds of guitarists, this wrecks their solos",
+     "url": "https://www.youtube.com/watch?v=3dW_GQsC5Ak&t=346s",
+     "video": "3dW_GQsC5Ak",
+     "inicio": 346,
+     "momento": "05:48",
+     "ideia": "Praticar legato com cada nota fluindo para a próxima"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I04",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=134s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Semínimas com uma nota por tempo, repetida 4 vezes"
+    }
+   ]
+  },
+  {
+   "titulo": "Cinco minutos de uma ferramenta só",
+   "objetivo": "Fazer o ligado e o slide virarem escolhas musicais no improviso, não truques.",
+   "nivel": "intermediario",
+   "minutos": 15,
+   "passos": [
+    "Ponha uma base em Am e um timer de 5 minutos.",
+    "Rodada 1: improvise só com hammer-ons (toda frase precisa ter pelo menos um).",
+    "Rodada 2: só com pull-offs. Rodada 3: só com slides.",
+    "Exagere de propósito, mesmo que soe estranho no começo.",
+    "Rodada final: combine duas ferramentas na mesma frase, como slide e pull-off."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Varie a velocidade dos ligados a cada frase.",
+    "Repita no dia seguinte começando pela ferramenta que soou pior."
+   ],
+   "cuidado": "Tocar a ferramenta sem intenção. Cada frase precisa ter começo, ritmo e pouso.",
+   "inspirado_em": [
+    {
+     "id": "N8N6MAxvJIk#I17",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Top 5 Exercises For Intermediate Guitarists That ACTUALLY WORK",
+     "url": "https://www.youtube.com/watch?v=N8N6MAxvJIk&t=717s",
+     "video": "N8N6MAxvJIk",
+     "inicio": 717,
+     "momento": "11:59",
+     "ideia": "Improvisar usando apenas hammer-ons"
+    },
+    {
+     "id": "jexCJFrAeH4#I12",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=677s",
+     "video": "jexCJFrAeH4",
+     "inicio": 677,
+     "momento": "11:19",
+     "ideia": "Foco em uma ferramenta de expressão por vez"
+    },
+    {
+     "id": "study-guitar--9-ways-to-improve-your-guitar-improvisation-fd474e#I19",
+     "tipo": "documento",
+     "autor": "www.study-guitar.com",
+     "titulo": "9 Ways to Improve Your Guitar Improvisation",
+     "url": "https://www.study-guitar.com/blog/9-ways-to-improve-your-guitar-improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Superutilizar um recurso por 5 minutos"
+    },
+    {
+     "id": "On_Ho3azaLk#I16",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=551s",
+     "video": "On_Ho3azaLk",
+     "inicio": 551,
+     "momento": "09:13",
+     "ideia": "Restringir o solo a uma técnica por vez"
+    },
+    {
+     "id": "jexCJFrAeH4#I13",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Tom Quayle Taught Me THIS and it 10X'd My Playing",
+     "url": "https://www.youtube.com/watch?v=jexCJFrAeH4&t=745s",
+     "video": "jexCJFrAeH4",
+     "inicio": 745,
+     "momento": "12:27",
+     "ideia": "Combinações de ferramentas (combo maneuvers)"
+    },
+    {
+     "id": "cifranota--escala-pentatonica-396a3a#I26",
+     "tipo": "documento",
+     "autor": "cifranota.com",
+     "titulo": "Escala Pentatônica: O Que É, Como Usar e 5 Shapes Essenciais",
+     "url": "https://cifranota.com/blog/escala-pentatonica/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar técnicas expressivas isoladamente em cada shape"
+    }
+   ]
+  },
+  {
+   "titulo": "Corrida legato de 3 notas por corda em Mi eólio",
+   "objetivo": "Fazer uma corrida longa e fluida palhetando só nas trocas de corda.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Use os dedos 1-3-4 nas cordas Lá e Ré (casas 7-9-10), 1-3-4 na Sol (casas 7-9-11) e 1-3-5 na Si (casas 8-10-12), com a mão aberta.",
+    "Na subida do V6, palhete só a primeira nota de cada corda.",
+    "Na descida, palhete o B da casa 12, faça pull-offs e entre na corda Sol com hammer-on sem palhetar.",
+    "Pouse no E da casa 9 da corda Sol e segure a nota com vibrato.",
+    "Comece a 60 bpm e só suba quando o volume estiver uniforme."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Corrida legato em Mi eólio com 3 notas por corda (casas 7–12). Na subida, palhete só a primeira nota de cada corda e ligue as outras duas com hammer-on. Na descida, palhete o B (casa 12), faça pull-offs, entre na corda Sol com hammer-on 'do nada' e pouse no E da casa 9 com vibrato.",
+    "tonica": "E",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 7,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 9,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 10,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 10,
+          "nota": "C",
+          "grau": "♭6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 11,
+          "nota": "F♯",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a descida completa: 7 notas com uma só palhetada.",
+    "Pule uma corda entre os grupos (Lá → Sol) para treinar legato com salto de corda."
+   ],
+   "cuidado": "Deixar as cordas soltas soarem. Abafe com a lateral da mão da palheta e com a sobra dos dedos.",
+   "inspirado_em": [
+    {
+     "id": "tomhess--pt-269230#I06",
+     "tipo": "documento",
+     "autor": "De Nick Layton",
+     "titulo": "Melhorar O Teu Fraseado De Solos De Guitarra",
+     "url": "https://tomhess.net/ImprovingYourPhrasingPart3.aspx/pt",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Corrida legato em Mi eólio, 3 notas por corda"
+    },
+    {
+     "id": "tomhess--pt-269230#I12",
+     "tipo": "documento",
+     "autor": "De Nick Layton",
+     "titulo": "Melhorar O Teu Fraseado De Solos De Guitarra",
+     "url": "https://tomhess.net/ImprovingYourPhrasingPart3.aspx/pt",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Descida legato terminando em nota longa com vibrato"
+    },
+    {
+     "id": "HVG0MqzGz30#I13",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "Melodic Soloing Lesson | Allen Hinds | Tim Pierce Masterclass",
+     "url": "https://www.youtube.com/watch?v=HVG0MqzGz30&t=521s",
+     "video": "HVG0MqzGz30",
+     "inicio": 521,
+     "momento": "08:43",
+     "ideia": "Legato com saltos de corda"
+    },
+    {
+     "id": "vPIebPDBizs#I07",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "How to Improvise Solos in Mixolydian Mode [Guitar Lesson]",
+     "url": "https://www.youtube.com/watch?v=vPIebPDBizs&t=227s",
+     "video": "vPIebPDBizs",
+     "inicio": 227,
+     "momento": "03:49",
+     "ideia": "Pull-offs com os dedos alinhados em uma corda"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Notas desconectadas: cada nota morre antes da próxima e a frase soa picada, às vezes disfarçada com muito delay.",
+  "Hammer-on fraco e pull-off que só levanta o dedo: a nota ligada fica quase inaudível.",
+  "Apertar demais o braço: tensão, cansaço e notas desafinadas.",
+  "Fazer todos os ligados na mesma velocidade padrão, sem variar o timing.",
+  "Legato rápido que desmorona em andamento lento ou num groove.",
+  "Soltar a pressão durante o slide, de modo que a nota de chegada não soa.",
+  "Pousar na nota de passagem do slide de meio tom em vez de resolver na nota do acorde."
+ ],
+ "resumo": [
+  "Ligados e slides mudam a voz das mesmas notas, sem trocar de escala.",
+  "Pressão mínima, ponta do dedo e pull-off puxando a corda para o lado.",
+  "Slide de meio tom abaixo: uma casa abaixo, deslize e pouse na nota do acorde.",
+  "Células de 3 a 4 notas (ligado + corda vizinha) viram frases na hora.",
+  "Legato só está dominado quando o pulso se mantém estável também devagar."
+ ],
+ "proximos_passos": "Para levar os slides a outras regiões do braço, siga para \"Sair da caixa: diagonal, 3-2, blocos e slides\". Se quiser slides e ligados com sotaque de blues, veja \"Blue note e escala de blues\". Depois complete o arsenal expressivo com \"Double stops, rakes, harmônicos, alavanca e ornamentos\" e \"Dinâmica de toque, ataque e timbre\".",
+ "_meta": {
+  "subcategoria": "C05.3",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Slides, hammer-ons, pull-offs e legato",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T14:42:16",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 28655,
+   "cache_read": 4913,
+   "output": 13754,
+   "thinking": 3549,
+   "turns": 2,
+   "custo_nominal": 0.5278026
+  }
+ }
+}

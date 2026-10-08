@@ -1,0 +1,2094 @@
+{
+ "titulo": "Bend: mecânica, afinação e variações",
+ "gancho": "O bend é o único jeito de a sua guitarra cantar entre as casas, mas ele só funciona se você souber exatamente onde a nota vai parar.",
+ "porque_importa": "O bend é a assinatura do blues e do rock: BB King, Gilmour e Jeff Beck são reconhecidos em uma nota só. É também a técnica que mais denuncia o amador, porque um bend desafinado estraga até o solo mais rápido. Aqui você aprende a fazê-lo com o braço e não com os dedos, a afiná-lo pelo ouvido e a controlar a vida inteira da nota: subida, topo, descida e o que existe entre as casas.",
+ "ilustracao": "gravidade",
+ "conceito": [
+  {
+   "titulo": "De uma nota para outra, nunca para lugar nenhum",
+   "texto": "Ao empurrar a corda, a tensão aumenta e a nota sobe, como quando você gira a tarraxa. O bend só sobe e tem destino: meio tom (uma casa), um tom (duas casas) ou um tom e meio (três). Na pentatônica, o bend mais natural leva a nota até a próxima nota da escala. Por exemplo, a casa 8 da Si (G) sobe até soar como a casa 10 (A), a tônica de Lá menor.",
+   "destaque": "Antes de esticar, saiba onde a nota vai parar.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Três bends de um tom na pentatônica de Lá menor (casa 5). Sem anel: a casa onde você pisa e faz o bend. Com anel: a nota-alvo, que você toca antes como referência e precisa igualar.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "A força vem do antebraço",
+   "texto": "Os músculos dos dedos são fracos, então os dedos servem só de gancho. O movimento é uma rotação do punho e do antebraço, como girar uma maçaneta, com pivô na base do indicador encostada no braço e o polegar como âncora. Faça o bend com o dedo 3 e deixe o 2 e o 1 na mesma corda, atrás dele: é o 'super dedo'. A corda fica no meio da polpa, e a força vai na corda, não na madeira. Os dedos livres, o polegar e a palheta abafam as cordas vizinhas.",
+   "destaque": "Gire a mão, não aperte o dedo.",
+   "visual": null
+  },
+  {
+   "titulo": "Afinação se treina com o ouvido",
+   "texto": "Toque a nota-alvo pisada, volte e faça o bend até soar igual. Se ficou baixo, falta. Se passou, sobrou. Não use afinador nem olhe o braço: no palco só o ouvido decide. O meio tom engana porque o movimento é mínimo e a mão tende a passar do ponto. Comece devagar, ouvindo a nota subir, e acelere só quando acertar sempre. Bend errado repetido vira hábito.",
+   "destaque": "O ouvido manda e a memória muscular registra.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Tom × meio tom, sempre a partir da casa 7 da corda Sol (D). Compasso 1: referência E (casa 9, com anel, a quinta de Lá) e bend de um tom até ela. Compasso 2: referência D♯ (casa 8) e bend de meio tom, só até a blue note. Compasso 3: os dois bends sem referência, primeiro o de tom e depois o de meio tom. Compasso 4: silêncio para conferir.",
+    "tonica": "A",
+    "bpm": 63,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "D♯",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A vida de um bend: subida, topo e descida",
+   "texto": "Cada bend tem três momentos que você controla: a velocidade da subida, o tempo no topo e o fim. Você pode fazer o release (soltar audível, voltando até a casa) ou cortar a nota no topo, abafando antes de soltar: bend, abafa, solta. No pre-bend, a corda já está esticada quando você palheta, e só se ouve a descida. Para ler o pre-bend na tab, a casa de retorno diz onde pisar.",
+   "destaque": "Soltar é uma escolha, não um acidente.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Duas formas de terminar um bend. Compassos 1 e 2: bend de um tom na casa 7 da Sol (D→E). Segure, faça o release audível no tempo 2 e meio, pull-off 7→5 e pouso em Lá (com anel) no tempo 1 do compasso 2. Compasso 3: bend de um tom na casa 8 da Si (G→A). Corte o som com a corda ainda esticada e só depois solte, em silêncio. Os tempos vazios fazem parte da frase.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Entre as casas: microbend e bends sujos",
+   "texto": "O microbend (blues curl) sobe menos de meio tom. Ele não busca outra nota, dá voz à nota. Em Lá menor, os melhores alvos são a ♭3 (C) e a ♭7 (G). Sobre um acorde maior, a ♭3 parada entre a terça menor e a maior é puro BB King. Bends 'sujos', que passam um pouco do alvo e voltam, também são tempero, desde que sejam de propósito.",
+   "destaque": "É a nota entre a tecla branca e a preta, e o piano não tem.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Microbend sobre A7. Compasso 1: o lick 'reto', sem bends. Compasso 3: o MESMO lick, e o G com anel (♭7) e o C (♭3) sobem um fio, menos de meio tom, empurrados pelo indicador ou pelo dedo 3. O C fica entre a terça menor e a maior, sem chegar ao C♯.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 58,
+   "porque": "JustinGuitar monta o 3º dedo na casa 8 da Si com os dedos de apoio e mostra o movimento de rotação, sem se preocupar com a afinação.",
+   "fonte": {
+    "id": "fgDY8k0Gjzc#I10",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Bending Technique In Blues Lead Guitar",
+    "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=332s",
+    "video": "fgDY8k0Gjzc",
+    "inicio": 332,
+    "momento": "05:34",
+    "ideia": "Mecânica com o 3º dedo na 8ª casa da corda B"
+   }
+  },
+  {
+   "ref": 74,
+   "porque": "O primeiro bend afinado demonstrado devagar: toca a casa 10 da Si, volta à 8 e sobe até igualar.",
+   "fonte": {
+    "id": "fgDY8k0Gjzc#I13",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Bending Technique In Blues Lead Guitar",
+    "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=466s",
+    "video": "fgDY8k0Gjzc",
+    "inicio": 466,
+    "momento": "07:48",
+    "ideia": "Primeiro bend afinado: corda B, 8ª para 10ª casa"
+   }
+  },
+  {
+   "ref": 77,
+   "porque": "O Cifra Club mostra o exercício de ouvir o intervalo de um tom (casas 10 e 12) e reproduzi-lo com bend, passando por todas as cordas.",
+   "fonte": {
+    "id": "I5PF2nD9qjM#I16",
+    "tipo": "video",
+    "autor": "Cifra Club",
+    "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+    "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=412s",
+    "video": "I5PF2nD9qjM",
+    "inicio": 412,
+    "momento": "06:54",
+    "ideia": "Exercício 1: ouvir e reproduzir o intervalo de um tom"
+   }
+  },
+  {
+   "ref": 118,
+   "porque": "A sequência bend, abafa e solta, executada em close, para eliminar o ruído da corda descendo.",
+   "fonte": {
+    "id": "fgDY8k0Gjzc#I20",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Bending Technique In Blues Lead Guitar",
+    "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=731s",
+    "video": "fgDY8k0Gjzc",
+    "inicio": 731,
+    "momento": "12:13",
+    "ideia": "Sequência bend, mute, release"
+   }
+  },
+  {
+   "ref": 130,
+   "porque": "Guthrie Govan faz pre-bends sobre um acorde de Em, e dá para ouvir como o acorde denuncia na hora o pre-bend desafinado.",
+   "fonte": {
+    "id": "tELIgr96WcM#I18",
+    "tipo": "video",
+    "autor": "Guitarist",
+    "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+    "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=495s",
+    "video": "tELIgr96WcM",
+    "inicio": 495,
+    "momento": "08:17",
+    "ideia": "Usar backing com acordes como referência de afinação"
+   }
+  },
+  {
+   "ref": 180,
+   "porque": "Guthrie toca o mesmo lick de Lá menor reto e depois com microbends na ♭3 e na ♭7, e a diferença de expressão é imediata.",
+   "fonte": {
+    "id": "tELIgr96WcM#I03",
+    "tipo": "video",
+    "autor": "Guitarist",
+    "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+    "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=103s",
+    "video": "tELIgr96WcM",
+    "inicio": 103,
+    "momento": "01:45",
+    "ideia": "Comparar o mesmo lick reto e com microbends"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Mecânica muda: girar antes de afinar",
+   "objetivo": "Sentir que o bend vem da rotação do punho, com pivô no indicador e dedos de apoio, sem forçar o dedo.",
+   "nivel": "iniciante",
+   "minutos": 5,
+   "passos": [
+    "Encoste a base do indicador no braço, perto da casa 7, com o polegar só apoiado por cima, sem apertar.",
+    "Sem tocar nenhuma corda, gire a mão como quem abre uma maçaneta, até a região do dedo mínimo encostar no braço. Repita 10 vezes devagar.",
+    "Agora coloque o dedo 3 na casa 8 da corda Si, o 2 na casa 7 e o 1 na 6.",
+    "Palhete de leve e faça bends pequenos, girando o punho. Não se preocupe com a afinação.",
+    "Abafe a corda Mi aguda com um dedo livre e as graves com o polegar. Pare se doer: cinco minutos por dia bastam no começo."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Repita na corda Sol, casa 7, puxando a corda para baixo, em direção ao chão.",
+    "Faça o mesmo movimento com o dedo 2 (apoiado pelo 1) para começar a fortalecer outros dedos."
+   ],
+   "cuidado": "Dobrar só a falange do dedo com o antebraço parado: dói, cansa e não dá controle.",
+   "inspirado_em": [
+    {
+     "id": "fgDY8k0Gjzc#I08",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=200s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Mecânica da dobra da mão"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I10",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=332s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 332,
+     "momento": "05:34",
+     "ideia": "Mecânica com o 3º dedo na 8ª casa da corda B"
+    },
+    {
+     "id": "I5PF2nD9qjM#I04",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=68s",
+     "video": "I5PF2nD9qjM",
+     "inicio": 68,
+     "momento": "01:10",
+     "ideia": "Primeiro bend com o dedo 3 na casa 8 da segunda corda"
+    },
+    {
+     "id": "5sknWaNKxMA#I06",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=106s",
+     "video": "5sknWaNKxMA",
+     "inicio": 106,
+     "momento": "01:48",
+     "ideia": "Movimento de rotação, não vertical"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I06",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=134s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 134,
+     "momento": "02:16",
+     "ideia": "Usar braço e punho, não os dedos"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I07",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=166s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 166,
+     "momento": "02:48",
+     "ideia": "Pivô na borda do primeiro dedo"
+    },
+    {
+     "id": "musicradar--bend-in-tune-on-guitar-bd9353#I05",
+     "tipo": "documento",
+     "autor": "Total Guitar",
+     "titulo": "How to bend in tune on your guitar like a pro every time",
+     "url": "https://musicradar.com/how-to/bend-in-tune-on-guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Apoie o dedo do bend com os outros dedos"
+    },
+    {
+     "id": "5sknWaNKxMA#I08",
+     "tipo": "video",
+     "autor": "Kiko Loureiro",
+     "titulo": "Guitarra Para Iniciantes - Bends E Vibratos",
+     "url": "https://www.youtube.com/watch?v=5sknWaNKxMA&t=141s",
+     "video": "5sknWaNKxMA",
+     "inicio": 141,
+     "momento": "02:23",
+     "ideia": "Abafar as cordas com polegar, palheta e dedos"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I24",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=938s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 938,
+     "momento": "15:40",
+     "ideia": "Tempo diário de bend no início"
+    }
+   ]
+  },
+  {
+   "titulo": "Referência e bend: o tom inteiro em três cordas",
+   "objetivo": "Afinar bends de um tom pelo ouvido, comparando sempre com a nota-alvo pisada.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a casa 10 da Si (A) e cante a nota mentalmente.",
+    "Volte à casa 8 (G) com o dedo 3, o 2 e o 1 atrás, e faça o bend devagar até soar igual ao A.",
+    "Use o compasso vazio para julgar: ficou baixo, passou ou acertou? Corrija na próxima vez.",
+    "Repita na Sol (7→9, D→E) e na Mi aguda (8→10, C→D), como na tab.",
+    "Quando acertar 4 vezes seguidas, faça o bend mais rápido, de uma vez, sem perder a altura."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Referência e bend. No tempo 1, toque a nota-alvo com anel, pisada: é o som que você precisa alcançar. No tempo 3, toque a nota duas casas abaixo e faça o bend de UM TOM até soar igual à referência. O app toca a casa sem bend; quem leva a nota até o alvo é a sua mão. O compasso 4 vazio serve para ouvir e corrigir.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 12,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Rotina pelo braço: em qualquer casa e corda, toque a referência, desça duas casas e faça o bend de volta, 4 vezes, cada uma com um dedo diferente.",
+    "Grave e ouça só os bends, sem a referência: soam afinados contra o Am da base?"
+   ],
+   "cuidado": "Pular a referência e confiar no olho ou no afinador. O treino é do ouvido.",
+   "inspirado_em": [
+    {
+     "id": "musicradar--bend-in-tune-on-guitar-bd9353#I01",
+     "tipo": "documento",
+     "autor": "Total Guitar",
+     "titulo": "How to bend in tune on your guitar like a pro every time",
+     "url": "https://musicradar.com/how-to/bend-in-tune-on-guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Toque a nota-alvo na casa antes de fazer o bend"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I13",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=466s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 466,
+     "momento": "07:48",
+     "ideia": "Primeiro bend afinado: corda B, 8ª para 10ª casa"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=567s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 567,
+     "momento": "09:29",
+     "ideia": "Bend de tom na 7ª casa da corda G"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I18",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=665s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 665,
+     "momento": "11:07",
+     "ideia": "Bend na 8ª casa da corda E aguda"
+    },
+    {
+     "id": "I5PF2nD9qjM#I16",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=412s",
+     "video": "I5PF2nD9qjM",
+     "inicio": 412,
+     "momento": "06:54",
+     "ideia": "Exercício 1: ouvir e reproduzir o intervalo de um tom"
+    },
+    {
+     "id": "I5PF2nD9qjM#I17",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=482s",
+     "video": "I5PF2nD9qjM",
+     "inicio": 482,
+     "momento": "08:04",
+     "ideia": "Exercício 2: bend de um tom da casa 12 para a casa 14"
+    },
+    {
+     "id": "fundamental-changes--p-3331-491a30#I04",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Guitar Technique Lesson How to Bend in Tune - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/?p=3331",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Bend até uma nota de referência (treino auditivo)"
+    },
+    {
+     "id": "S9GgTvj9FXs#I03",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=34s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 34,
+     "momento": "00:36",
+     "ideia": "Bend de um tom sem vibrato para testar o ouvido"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I30",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=1135s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 1135,
+     "momento": "18:57",
+     "ideia": "Repetir o bend até afinar sempre"
+    },
+    {
+     "id": "fundamental-changes--p-3331-491a30#I05",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Guitar Technique Lesson How to Bend in Tune - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/?p=3331",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Comece com bends bem lentos e acelere"
+    }
+   ]
+  },
+  {
+   "titulo": "Meio tom não é metade do esforço",
+   "objetivo": "Diferenciar com precisão o bend de meio tom do bend de um tom, sem passar do ponto.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Monte os três dedos na casa 7 da corda Sol antes de palhetar.",
+    "Compasso 1: toque E (casa 9) e faça o bend de um tom até ele.",
+    "Compasso 2: toque D♯ (casa 8) e faça o bend de só meio tom. O movimento é bem menor.",
+    "Compasso 3: os dois bends sem referência, o de tom e depois o de meio tom. Confira tocando as casas 9 e 8 no compasso vazio.",
+    "Faça cada bend devagar, deixando a nota 'passar' pelo caminho até o alvo."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Tom × meio tom, sempre a partir da casa 7 da corda Sol (D). Compasso 1: referência E (casa 9, com anel, a quinta de Lá) e bend de um tom até ela. Compasso 2: referência D♯ (casa 8) e bend de meio tom, só até a blue note. Compasso 3: os dois bends sem referência, primeiro o de tom e depois o de meio tom. Compasso 4: silêncio para conferir.",
+    "tonica": "A",
+    "bpm": 63,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "D♯",
+          "grau": "♭5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Meio tom vindo de baixo: escolha qualquer nota da pentatônica, toque uma casa abaixo e faça o bend de meio tom até ela.",
+    "Scoop: toque a nota, suba meio tom e volte."
+   ],
+   "cuidado": "Overbend: no meio tom a mão costuma subir demais por hábito do bend de tom.",
+   "inspirado_em": [
+    {
+     "id": "S9GgTvj9FXs#I06",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=143s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 143,
+     "momento": "02:25",
+     "ideia": "Overbend no bend de meio tom"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I17",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=600s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 600,
+     "momento": "10:02",
+     "ideia": "Bend de meio tom"
+    },
+    {
+     "id": "I5PF2nD9qjM#I18",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=565s",
+     "video": "I5PF2nD9qjM",
+     "inicio": 565,
+     "momento": "09:27",
+     "ideia": "Exercício 3: bend de meio tom lento"
+    },
+    {
+     "id": "I5PF2nD9qjM#I19",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=I5PF2nD9qjM&t=599s",
+     "video": "I5PF2nD9qjM",
+     "inicio": 599,
+     "momento": "10:01",
+     "ideia": "Exercício 4: posicionar os dedos antes do bend"
+    },
+    {
+     "id": "zSTAvmXG5m8#I17",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=522s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 522,
+     "momento": "08:44",
+     "ideia": "Half bend na casa 12 da corda B"
+    },
+    {
+     "id": "Qk8rk-uaBzU#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "3 exercises to SKYROCKET your playing IN 2026",
+     "url": "https://www.youtube.com/watch?v=Qk8rk-uaBzU&t=943s",
+     "video": "Qk8rk-uaBzU",
+     "inicio": 943,
+     "momento": "15:45",
+     "ideia": "Bend de meio tom a partir de um traste abaixo"
+    },
+    {
+     "id": "On_Ho3azaLk#I27",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=976s",
+     "video": "On_Ho3azaLk",
+     "inicio": 976,
+     "momento": "16:18",
+     "ideia": "Bend de meio tom com retorno (scoop)"
+    }
+   ]
+  },
+  {
+   "titulo": "Soltar ou cortar: dois finais para o mesmo bend",
+   "objetivo": "Controlar o fim do bend: release audível e limpo, ou corte no topo com a sequência bend, abafa, solta.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Compasso 1: bend de um tom na casa 7 da Sol (D→E). Segure e, no tempo 2 e meio, solte a corda devagar até voltar exatamente ao D.",
+    "Na sequência, pull-off 7→5 (C) e pouso no Lá (corda Ré, casa 7) no tempo 1 do compasso 2. Deixe soar.",
+    "Compasso 3: bend de um tom na casa 8 da Si (G→A). No tempo 2, abafe com a palma da mão da palheta ou com um dedo livre, com a corda ainda esticada.",
+    "Só então solte a corda, em silêncio. Os tempos vazios são o fim seco da frase.",
+    "Alterne as duas versões e escolha qual conta melhor a história."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Duas formas de terminar um bend. Compassos 1 e 2: bend de um tom na casa 7 da Sol (D→E). Segure, faça o release audível no tempo 2 e meio, pull-off 7→5 e pouso em Lá (com anel) no tempo 1 do compasso 2. Compasso 3: bend de um tom na casa 8 da Si (G→A). Corte o som com a corda ainda esticada e só depois solte, em silêncio. Os tempos vazios fazem parte da frase.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Varie a duração: subida lenta e topo curto, ou subida instantânea e topo longo.",
+    "Encoste o indicador de leve na corda Sol durante o bend na Si para ela não soar no release."
+   ],
+   "cuidado": "Deixar o release acontecer sem querer: o som da corda descendo vira ruído em vez de expressão.",
+   "inspirado_em": [
+    {
+     "id": "F09p1VI9ins#I01",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Release e Pré-Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=F09p1VI9ins&t=37s",
+     "video": "F09p1VI9ins",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Release: soltar a corda após o bend"
+    },
+    {
+     "id": "F09p1VI9ins#I03",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Release e Pré-Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=F09p1VI9ins&t=142s",
+     "video": "F09p1VI9ins",
+     "inicio": 142,
+     "momento": "02:24",
+     "ideia": "Controle a duração de subida, permanência e descida"
+    },
+    {
+     "id": "zSTAvmXG5m8#I25",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=730s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 730,
+     "momento": "12:12",
+     "ideia": "Soltar o bend sem ruído"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=697s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 697,
+     "momento": "11:39",
+     "ideia": "Nota ressoando ao descer o bend"
+    },
+    {
+     "id": "fgDY8k0Gjzc#I20",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Bending Technique In Blues Lead Guitar",
+     "url": "https://www.youtube.com/watch?v=fgDY8k0Gjzc&t=731s",
+     "video": "fgDY8k0Gjzc",
+     "inicio": 731,
+     "momento": "12:13",
+     "ideia": "Sequência bend, mute, release"
+    },
+    {
+     "id": "tELIgr96WcM#I08",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=203s",
+     "video": "tELIgr96WcM",
+     "inicio": 203,
+     "momento": "03:25",
+     "ideia": "Encontrar parte da mão que abafa a corda após o bend"
+    },
+    {
+     "id": "zSTAvmXG5m8#I20",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=602s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 602,
+     "momento": "10:04",
+     "ideia": "Cortar a nota no topo do bend"
+    },
+    {
+     "id": "tELIgr96WcM#I07",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=170s",
+     "video": "tELIgr96WcM",
+     "inicio": 170,
+     "momento": "02:52",
+     "ideia": "Cortar a nota enquanto ela ainda está bendada"
+    },
+    {
+     "id": "dZUSUZjRISI#I21",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=464s",
+     "video": "dZUSUZjRISI",
+     "inicio": 464,
+     "momento": "07:46",
+     "ideia": "Frase com bend, release e pull-off em A menor"
+    },
+    {
+     "id": "dZUSUZjRISI#I06",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=147s",
+     "video": "dZUSUZjRISI",
+     "inicio": 147,
+     "momento": "02:29",
+     "ideia": "Frase com bend de um tom, release e pull-off"
+    }
+   ]
+  },
+  {
+   "titulo": "Pre-bend de memória, conferido pelo acorde",
+   "objetivo": "Acertar a altura sem ouvir a subida e usar a harmonia como juiz.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a casa 10 da Si (A) como referência e depois volte à casa 8.",
+    "Sem palhetar, estique a corda até onde você acha que está o A.",
+    "Palhete: se soou A, faça o release até o G e siga a frase da tab até o Lá. Se não soou A, refaça.",
+    "Repita na corda Sol, casa 7, com a corda pré-esticada até o E.",
+    "Toque sobre uma base em Am: um pre-bend errado briga com o acorde na hora."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Pre-bend em Lá menor. A primeira nota de cada frase é esticada ANTES da palhetada: no compasso 1 a corda Si casa 8 já soa A, e no compasso 3 a corda Sol casa 7 já soa E. Palhete, faça o release até a nota da casa e continue a frase até o Lá com anel, o ponto de pouso.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Pre-bend de meio tom: corda Si, casa 8 pré-esticada só até o G♯, e release.",
+    "Termine uma frase com pre-bend sem release, cortando no topo."
+   ],
+   "cuidado": "Esticar 'por sensação' sem conferir com a referência: o pre-bend esconde o erro de quem toca, mas não de quem ouve.",
+   "inspirado_em": [
+    {
+     "id": "fundamental-changes--p-3331-491a30#I06",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Guitar Technique Lesson How to Bend in Tune - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/?p=3331",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "O que é um pre-bend"
+    },
+    {
+     "id": "F09p1VI9ins#I04",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Release e Pré-Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=F09p1VI9ins&t=142s",
+     "video": "F09p1VI9ins",
+     "inicio": 142,
+     "momento": "02:24",
+     "ideia": "Pré-bend: levantar a corda antes de tocar"
+    },
+    {
+     "id": "F09p1VI9ins#I05",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Release e Pré-Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=F09p1VI9ins&t=178s",
+     "video": "F09p1VI9ins",
+     "inicio": 178,
+     "momento": "03:00",
+     "ideia": "Diferença entre release e pré-bend"
+    },
+    {
+     "id": "F09p1VI9ins#I06",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Release e Pré-Bend (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=F09p1VI9ins&t=215s",
+     "video": "F09p1VI9ins",
+     "inicio": 215,
+     "momento": "03:37",
+     "ideia": "Como ler o pré-bend na tablatura"
+    },
+    {
+     "id": "fundamental-changes--p-3331-491a30#I07",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Guitar Technique Lesson How to Bend in Tune - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/?p=3331",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar pre-bends adaptando os exercícios de bend"
+    },
+    {
+     "id": "tELIgr96WcM#I17",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=453s",
+     "video": "tELIgr96WcM",
+     "inicio": 453,
+     "momento": "07:35",
+     "ideia": "Pré-bend: bendar antes de atacar a nota"
+    },
+    {
+     "id": "tELIgr96WcM#I18",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=495s",
+     "video": "tELIgr96WcM",
+     "inicio": 495,
+     "momento": "08:17",
+     "ideia": "Usar backing com acordes como referência de afinação"
+    },
+    {
+     "id": "tELIgr96WcM#I19",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=532s",
+     "video": "tELIgr96WcM",
+     "inicio": 532,
+     "momento": "08:54",
+     "ideia": "Verificar o pré-bend com o acorde: erro fica evidente"
+    },
+    {
+     "id": "zSTAvmXG5m8#I32",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Easy Blues Guitar Lesson - Lead with just 6 Notes - Phrasing Lesson - EP219",
+     "url": "https://www.youtube.com/watch?v=zSTAvmXG5m8&t=1030s",
+     "video": "zSTAvmXG5m8",
+     "inicio": 1030,
+     "momento": "17:12",
+     "ideia": "Pre-bend na casa 13 da corda B com vibrato"
+    }
+   ]
+  },
+  {
+   "titulo": "Microbend: o mesmo lick, outra voz",
+   "objetivo": "Ouvir e controlar bends menores que meio tom na ♭3 e na ♭7 sobre um acorde dominante.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Compasso 1: toque o lick reto, todas as notas na altura da casa.",
+    "Compasso 3: o mesmo lick, mas o G (Si casa 8) sobe um fio e o C (Sol casa 5) sobe um pouco, puxado pelo indicador.",
+    "O C deve parar entre o C e o C♯, sem chegar à terça maior.",
+    "Toque sobre uma base de A7 e alterne as versões até ouvir claramente a diferença.",
+    "Leve a ideia para um lick de blues que você já sabe: ache a ♭3 e a ♭7 e dê um 'curl' nelas."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Microbend sobre A7. Compasso 1: o lick 'reto', sem bends. Compasso 3: o MESMO lick, e o G com anel (♭7) e o C (♭3) sobem um fio, menos de meio tom, empurrados pelo indicador ou pelo dedo 3. O C fica entre a terça menor e a maior, sem chegar ao C♯.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Microbend com release imediato, como um soluço na nota.",
+    "Em Lá menor (base Am), compare o curl na ♭3 com o bend de um tom do C ao D."
+   ],
+   "cuidado": "Exagerar e transformar o microbend num meio tom desafinado. É um fio, não uma casa.",
+   "inspirado_em": [
+    {
+     "id": "tELIgr96WcM#I01",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=37s",
+     "video": "tELIgr96WcM",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Microtonal bend: levar a nota um pouco acima sem chegar ao semitom"
+    },
+    {
+     "id": "gNKJXn8g734#I08",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=373s",
+     "video": "gNKJXn8g734",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Blues curl: bend de quarto de tom"
+    },
+    {
+     "id": "dZUSUZjRISI#I18",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=429s",
+     "video": "dZUSUZjRISI",
+     "inicio": 429,
+     "momento": "07:11",
+     "ideia": "Micro bend com o dedo indicador"
+    },
+    {
+     "id": "tELIgr96WcM#I02",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=70s",
+     "video": "tELIgr96WcM",
+     "inicio": 70,
+     "momento": "01:12",
+     "ideia": "Notas-alvo do microbend em Lá menor: 3ª menor (Dó) e ♭7 (Sol)"
+    },
+    {
+     "id": "tELIgr96WcM#I03",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=103s",
+     "video": "tELIgr96WcM",
+     "inicio": 103,
+     "momento": "01:45",
+     "ideia": "Comparar o mesmo lick reto e com microbends"
+    },
+    {
+     "id": "tELIgr96WcM#I09",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=234s",
+     "video": "tELIgr96WcM",
+     "inicio": 234,
+     "momento": "03:56",
+     "ideia": "Bendar a ♭3 e a ♭7 em qualquer lick de blues"
+    },
+    {
+     "id": "dZUSUZjRISI#I17",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=429s",
+     "video": "dZUSUZjRISI",
+     "inicio": 429,
+     "momento": "07:11",
+     "ideia": "Terça menor com micro bend"
+    },
+    {
+     "id": "bhYXolbCrr0#I08",
+     "tipo": "video",
+     "autor": "Pow Music",
+     "titulo": "BB King Teaches How to Solo Over a Blues Progression! Animated Fretboard Guitar Lesson (fretLIVE)",
+     "url": "https://www.youtube.com/watch?v=bhYXolbCrr0&t=607s",
+     "video": "bhYXolbCrr0",
+     "inicio": 607,
+     "momento": "10:09",
+     "ideia": "Microbend entre a 3ª menor e a 3ª maior"
+    },
+    {
+     "id": "btoooVk54LY#I08",
+     "tipo": "video",
+     "autor": "Learning Guitar Now",
+     "titulo": "How to Solo over a 12 Bar Blues in the Key of A",
+     "url": "https://www.youtube.com/watch?v=btoooVk54LY&t=625s",
+     "video": "btoooVk54LY",
+     "inicio": 625,
+     "momento": "10:27",
+     "ideia": "Bend parcial entre terça menor e maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Bends pesados: tom e meio e pedal-steel",
+   "objetivo": "Conhecer o limite físico com o 'super dedo' de três dedos e fazer o bend de uma corda enquanto outras ficam presas.",
+   "nivel": "avancado",
+   "minutos": 10,
+   "passos": [
+    "Toque G (Sol casa 12) como referência.",
+    "Com o dedo 3 na casa 9 e o 2 e o 1 atrás, faça o bend de tom e meio (E→G) girando todo o antebraço. Confira com a referência.",
+    "Se doer ou não chegar, pare: alguns bends não são viáveis com o seu calibre de cordas. Não force com um dedo só.",
+    "Pedal-steel: o mínimo faz pestana na casa 15 (Si e Mi aguda) e o dedo 3, apoiado pelo 2, fica na casa 14 da Sol.",
+    "Toque as três cordas juntas (palheta + dedos, se puder) e estique só a Sol de A até B. As outras não podem desafinar."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Bends pesados. Compasso 1: referência G (Sol casa 12) e bend de TOM E MEIO a partir da casa 9 (E→G, da 5ª à ♭7 de Lá menor), com o dedo 3 apoiado pelo 2 e pelo 1. Compasso 3: pedal-steel em Sol. O mínimo faz pestana na casa 15 (D e G, com o G como tônica de referência), o dedo 3, apoiado pelo 2, estica a corda Sol da casa 14 de A até B (2→3), e as cordas presas não se movem.",
+    "tonica": "A",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 12,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 14,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 15,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 15,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Bend sujo: na casa 14 da Sol, faça o bend de um tom, suba mais um semitom, volte o semitom e solte.",
+    "Cascata: encadeie bends de um tom descendo pelas cordas (Mi 8, Si 8, Sol 7), cada um afinado, sem pausa entre eles."
+   ],
+   "cuidado": "Deixar o bend da corda Sol empurrar a pestana e desafinar as notas presas, ou forçar o tom e meio com um dedo e se machucar.",
+   "inspirado_em": [
+    {
+     "id": "gNKJXn8g734#I21",
+     "tipo": "video",
+     "autor": "Samjamguitar",
+     "titulo": "The ULTIMATE Guide to BLUES SOLOING on GUITAR",
+     "url": "https://www.youtube.com/watch?v=gNKJXn8g734&t=1554s",
+     "video": "gNKJXn8g734",
+     "inicio": 1554,
+     "momento": "25:56",
+     "ideia": "Bend de um tom e meio para a 13ª casa"
+    },
+    {
+     "id": "tELIgr96WcM#I15",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=420s",
+     "video": "tELIgr96WcM",
+     "inicio": 420,
+     "momento": "07:02",
+     "ideia": "Aceitar que alguns bends fortes podem não ser viáveis"
+    },
+    {
+     "id": "tELIgr96WcM#I14",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=386s",
+     "video": "tELIgr96WcM",
+     "inicio": 386,
+     "momento": "06:28",
+     "ideia": "Usar dois dedos em bends mais fortes"
+    },
+    {
+     "id": "tELIgr96WcM#I13",
+     "tipo": "video",
+     "autor": "Guitarist",
+     "titulo": "Guthrie Govan String Bending Masterclass - Part One",
+     "url": "https://www.youtube.com/watch?v=tELIgr96WcM&t=386s",
+     "video": "tELIgr96WcM",
+     "inicio": 386,
+     "momento": "06:28",
+     "ideia": "Forçar bends intensos com um só dedo"
+    },
+    {
+     "id": "fundamental-changes--p-3331-491a30#I02",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Guitar Technique Lesson How to Bend in Tune - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/?p=3331",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treine bends com todos os dedos (2, 3 e 4) até 1 tom e meio"
+    },
+    {
+     "id": "ea2g6P0pCKg#I14",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "How do I START Improvising on guitar?  Don't get overwhelmed. Remember to keep it simple! ML073",
+     "url": "https://www.youtube.com/watch?v=ea2g6P0pCKg&t=400s",
+     "video": "ea2g6P0pCKg",
+     "inicio": 400,
+     "momento": "06:42",
+     "ideia": "Bend em dupla de cordas"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I19",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pedal-steel bends no country"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I20",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pedal-steel bend na tonalidade de Sol"
+    },
+    {
+     "id": "fwyn5tQdF4k#I10",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "Stop Thinking in Scales: why your solos sound boring",
+     "url": "https://www.youtube.com/watch?v=fwyn5tQdF4k&t=475s",
+     "video": "fwyn5tQdF4k",
+     "inicio": 475,
+     "momento": "07:57",
+     "ideia": "Bend de tom, semitom e volta"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I23",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Cascata de bends estilo Hendrix"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Fazer bend sem destino: a nota sobe 'mais ou menos' e a frase perde a direção.",
+  "Fazer força com os dedos em vez de girar o punho e o antebraço.",
+  "Fazer o bend com um dedo só, sem os outros atrás, principalmente em bends de tom ou mais.",
+  "Passar do ponto no meio tom porque a mão está acostumada ao bend de um tom.",
+  "Deixar as cordas vizinhas soarem e o release acontecer sem querer, com ruído.",
+  "Começar o vibrato antes de chegar à altura do alvo.",
+  "Conferir com afinador ou com o olho em vez de usar o ouvido.",
+  "Treinar demais no começo e machucar a ponta dos dedos."
+ ],
+ "resumo": [
+  "Todo bend vai de uma nota para outra: meio tom, um tom, tom e meio, ou um microbend de propósito.",
+  "A força vem da rotação do antebraço, com pivô no indicador, polegar de âncora e dedos de apoio atrás.",
+  "Para afinar: toque a referência, faça o bend até igualar e julgue com o ouvido, devagar antes de rápido.",
+  "Você decide o fim: release audível, corte no topo (bend, abafa, solta) ou pre-bend, em que só se ouve a descida.",
+  "Microbend na ♭3 e na ♭7 dá voz de blues, e bends pesados pedem dois ou três dedos."
+ ],
+ "proximos_passos": "Com o bend afinado, siga para \"Vibrato\" e aprenda a fazer o vibrato no topo do bend. Depois explore \"Double stops, rakes, harmônicos, alavanca e ornamentos\" para os bends em pares de cordas. Para escolher onde o bend deve pousar, veja \"Notas do acorde, repouso e tensão-resolução\" e \"Blue note e escala de blues\" (o bend da ♭5 até a 5ª).",
+ "_meta": {
+  "subcategoria": "C05.1",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Bend: mecânica, afinação e variações",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T14:38:12",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 45682,
+   "cache_read": 8780,
+   "output": 18572,
+   "thinking": 4000,
+   "turns": 4,
+   "custo_nominal": 0.775249
+  }
+ }
+}

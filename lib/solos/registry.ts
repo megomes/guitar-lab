@@ -19,6 +19,9 @@ import L_C04_2 from './licoes/C04.2.json'
 import L_C04_3 from './licoes/C04.3.json'
 import L_C04_4 from './licoes/C04.4.json'
 import L_C04_5 from './licoes/C04.5.json'
+import L_C05_1 from './licoes/C05.1.json'
+import L_C05_2 from './licoes/C05.2.json'
+import L_C05_3 from './licoes/C05.3.json'
 import L_C07_3 from './licoes/C07.3.json'
 import L_C09_1 from './licoes/C09.1.json'
 
@@ -41,6 +44,9 @@ export const LESSONS: Record<string, Lesson> = {
   'C04.3': L_C04_3 as unknown as Lesson,
   'C04.4': L_C04_4 as unknown as Lesson,
   'C04.5': L_C04_5 as unknown as Lesson,
+  'C05.1': L_C05_1 as unknown as Lesson,
+  'C05.2': L_C05_2 as unknown as Lesson,
+  'C05.3': L_C05_3 as unknown as Lesson,
   'C07.3': L_C07_3 as unknown as Lesson,
   'C09.1': L_C09_1 as unknown as Lesson,
 }

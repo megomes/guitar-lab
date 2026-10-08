@@ -1,0 +1,1741 @@
+{
+ "titulo": "Vibrato: dar voz à nota longa",
+ "gancho": "É uma nota só, e dá para reconhecer o guitarrista só pelo jeito como ela treme.",
+ "porque_importa": "Uma nota longa sem vibrato soa crua, quase como um teclado sem expressão. O vibrato faz ela soar como uma voz e, junto com o bend, é o que mais diferencia um guitarrista do outro. B.B. King mostrou que uma nota bem vibrada emociona mais que dez notas rápidas.",
+ "ilustracao": "ondas",
+ "conceito": [
+  {
+   "titulo": "Uma nota que respira",
+   "texto": "Vibrato é fazer a altura da nota oscilar de forma regular, sempre voltando ao ponto de partida. Você não troca de nota: o ouvido percebe a altura média, e a nota soa mais quente e mais viva. O gesto é o mesmo do bend (tensionar a corda e soltar), mas com outro objetivo. O bend leva a nota a outro lugar. O vibrato faz ela pulsar onde está.",
+   "destaque": "Bend muda a nota; vibrato a faz pulsar onde está.",
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Nota reta × nota viva. Compasso 1: A totalmente reto. Compasso 2: o mesmo A com vibrato standard. Compasso 3: E com vibrato. Compasso 4: silêncio para ouvir o que ficou.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Rate e depth: velocidade e largura",
+   "texto": "Rate é a velocidade: quantas vezes por segundo a nota sobe e volta. Lento demais nem parece vibrato; rápido demais vira um 'boing'. Depth é a largura: de 1/4 de tom, quase imperceptível, até 1 tom inteiro no rock. Todo vibrato é uma combinação dessas duas medidas. Ter só uma combinação é como falar sempre no mesmo tom de voz.",
+   "destaque": "Todo vibrato é uma combinação de velocidade e largura.",
+   "visual": null
+  },
+  {
+   "titulo": "A mão gira, os dedos não mexem",
+   "texto": "No vibrato standard, os dedos ficam travados juntos na nota e a borda da mão (a base do indicador ou o polegar) se apoia no braço como pivô. Quem faz o movimento é o pulso ou o antebraço, igual ao bend. Mexer só a ponta do dedo gera ruído e desafina. Puxe a corda (ou empurre), volte à posição natural e repita. Comece com a mão apoiada; o polegar solto fica para depois. Use o dedo 3 com o 1 e o 2 ajudando atrás.",
+   "destaque": "Pivô firme, dedos travados, o pulso faz o trabalho.",
+   "visual": {
+    "id": "V1",
+    "tipo": "braco",
+    "legenda": "Região da casa 7 à 10 em Lá menor (pentatônica). As tônicas (anel) são os melhores pontos de pouso para vibrar. Use o dedo 3 com os dedos 1 e 2 ajudando atrás.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 10,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 9,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 10,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 8,
+      "nota": "C",
+      "grau": "♭3",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 10,
+      "nota": "D",
+      "grau": "4",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Um cardápio de tipos",
+   "texto": "Clássico: o dedo balança ao longo da corda; sutil, ótimo em baladas. Standard: pivô e giro, o padrão para tudo. Rock: o standard mais rápido e mais largo. Butterfly (B.B. King): rápido e estreito com o dedo 1. Blues à Clapton: a mão sai do braço e a ponta do dedo 'quica' a nota. Albert King: lento, largo e 'bêbado'. Com bend: microbends no topo da nota dobrada. Neck vibrato: empurrar o braço do instrumento, sutil e bom para acordes.",
+   "destaque": "Domine o standard; os outros tipos são variações dele.",
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Acordes para testar o neck vibrato, sempre bem sutil: Am aberto e Am com pestana na casa 5. Com o acorde soando, empurre levemente o braço da guitarra.",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "577555"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Onde e quando entra",
+   "texto": "Vibre uma ou duas notas por frase: a nota de chegada, a tônica, a terça que conclui, a nota longa. Nas notas de passagem, deixe sem vibrato. Além disso, importa o momento em que o vibrato começa: a nota pode nascer reta e ganhar vibrato só no fim (vibrato atrasado, como os cantores pop fazem) ou vibrar do começo ao fim. Na tônica, a afinação precisa ser perfeita: comece da nota certa e volte a ela em cada ciclo.",
+   "destaque": "Nota rápida passa reta; nota de chegada ganha vida.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Frase com vibrato só no pouso. As notas rápidas ficam retas. O A (tempo 4 do compasso 1) começa reto e o vibrato entra só no compasso 2 (vibrato atrasado). O mesmo acontece com o E final.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 21,
+   "porque": "JustinGuitar mostra de perto o pivô na borda da mão e os dedos travados do vibrato standard.",
+   "fonte": {
+    "id": "i9yDenSMpJk#I08",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+    "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=476s",
+    "video": "i9yDenSMpJk",
+    "inicio": 476,
+    "momento": "07:58",
+    "ideia": "Vibrato standard: pivô na borda da mão"
+   }
+  },
+  {
+   "ref": 8,
+   "porque": "Rate e depth demonstrados em sequência, de lento e estreito a rápido e largo.",
+   "fonte": {
+    "id": "i9yDenSMpJk#I02",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+    "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=94s",
+    "video": "i9yDenSMpJk",
+    "inicio": 94,
+    "momento": "01:36",
+    "ideia": "Rate do vibrato"
+   }
+  },
+  {
+   "ref": 66,
+   "porque": "O vibrato de blues com a mão fora do braço, à Clapton, tocado e explicado.",
+   "fonte": {
+    "id": "i9yDenSMpJk#I13",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+    "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=870s",
+    "video": "i9yDenSMpJk",
+    "inicio": 870,
+    "momento": "14:32",
+    "ideia": "Vibrato de blues com mão solta"
+   }
+  },
+  {
+   "ref": 60,
+   "porque": "Music is Win acerta o bend antes e só então faz os microbends no topo.",
+   "fonte": {
+    "id": "S9GgTvj9FXs#I20",
+    "tipo": "video",
+    "autor": "Music is Win",
+    "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+    "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=458s",
+    "video": "S9GgTvj9FXs",
+    "inicio": 458,
+    "momento": "07:40",
+    "ideia": "Vibrato é um microbend sobre a nota já dobrada"
+   }
+  },
+  {
+   "ref": 26,
+   "porque": "Kirk Fletcher alterna o polegar apoiado e o flutuante e fala da convicção no vibrato.",
+   "fonte": {
+    "id": "fJs5AALy4GY#I14",
+    "tipo": "video",
+    "autor": "Brett Papa",
+    "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+    "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1297s",
+    "video": "fJs5AALy4GY",
+    "inicio": 1297,
+    "momento": "21:39",
+    "ideia": "Vibrato com o polegar apoiado ou flutuando"
+   }
+  },
+  {
+   "ref": 55,
+   "porque": "O vibrato clássico ao longo da corda e o som sutil que ele produz.",
+   "fonte": {
+    "id": "i9yDenSMpJk#I05",
+    "tipo": "video",
+    "autor": "JustinGuitar",
+    "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+    "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=242s",
+    "video": "i9yDenSMpJk",
+    "inicio": 242,
+    "momento": "04:04",
+    "ideia": "Vibrato clássico: mecânica do dedo"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Pivô e nota reta",
+   "objetivo": "Montar a mecânica do vibrato standard e ouvir a diferença entre a nota reta e a nota viva.",
+   "nivel": "iniciante",
+   "minutos": 6,
+   "passos": [
+    "Primeiro sem tocar: dedo 3 na casa 10 da corda 2 (A), dedos 1 e 2 atrás, base do indicador encostada no braço.",
+    "Gire o pulso para empurrar a corda um pouco para cima e volte. Os dedos não dobram. Faça 20 vezes em silêncio.",
+    "Agora com som, sobre um Am: compasso 1 com a nota totalmente reta, compasso 2 com vibrato lento e estreito.",
+    "Faça o mesmo no E (corda 3, casa 9) e depois deixe um compasso de silêncio.",
+    "Teste também a outra direção: puxe a corda para baixo em vez de empurrar. Fique com a que der mais controle."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Nota reta × nota viva. Compasso 1: A totalmente reto. Compasso 2: o mesmo A com vibrato standard. Compasso 3: E com vibrato. Compasso 4: silêncio para ouvir o que ficou.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça na casa 5 da corda 3 (C) com o dedo 1, como no clássico exercício de iniciante.",
+    "Aplique o mesmo gesto em cada nota da pentatônica de Am da região da casa 7 (V1)."
+   ],
+   "cuidado": "Mexer só a ponta do dedo. Se o pulso está parado e o dedo sobe e desce sozinho, você está fazendo um bend tremido, não vibrato.",
+   "inspirado_em": [
+    {
+     "id": "oQpLyyRCc6A#I02",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=36s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 36,
+     "momento": "00:38",
+     "ideia": "Exercício básico de vibrato na casa 5 da 3ª corda"
+    },
+    {
+     "id": "i9yDenSMpJk#I08",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=476s",
+     "video": "i9yDenSMpJk",
+     "inicio": 476,
+     "momento": "07:58",
+     "ideia": "Vibrato standard: pivô na borda da mão"
+    },
+    {
+     "id": "i9yDenSMpJk#I09",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=541s",
+     "video": "i9yDenSMpJk",
+     "inicio": 541,
+     "momento": "09:03",
+     "ideia": "Mover os dedos em vez da mão"
+    },
+    {
+     "id": "oQpLyyRCc6A#I04",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=70s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 70,
+     "momento": "01:12",
+     "ideia": "Não mova a corda para cima e para baixo"
+    },
+    {
+     "id": "oQpLyyRCc6A#I05",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=83s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 83,
+     "momento": "01:25",
+     "ideia": "Direção do vibrato: para baixo ou para cima"
+    }
+   ]
+  },
+  {
+   "titulo": "Vibrato no metrônomo",
+   "objetivo": "Controlar a velocidade (rate) do vibrato e deixá-lo regular, como um pulso.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Metrônomo a 60 bpm, nota A na corda 2, casa 10.",
+    "Compasso 1: um ciclo completo (sobe e volta) por clique.",
+    "Compasso 2: dois ciclos por clique.",
+    "Compasso 3: três ciclos por clique.",
+    "Compasso 4: quatro ciclos por clique. Se a altura ficar irregular, volte um degrau.",
+    "Suba o metrônomo 5 bpm por dia só quando os quatro compassos soarem iguais e afinados."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Vibrato no metrônomo: o mesmo A sustentado em cada compasso. Compasso 1: 1 ciclo (sobe e volta) por tempo. Compasso 2: 2 ciclos por tempo. Compasso 3: 3 ciclos por tempo (tercinas). Compasso 4: 4 ciclos por tempo.",
+    "tonica": "A",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça com o dedo 1 na corda 1, casa 5 (A), rumo ao butterfly de B.B. King: rápido e estreito.",
+    "Faça na corda 3 e na corda 4 para sentir a tensão diferente de cada corda."
+   ],
+   "cuidado": "Acelerar e perder a afinação. Vibrato rápido e torto soa pior que vibrato lento e certo.",
+   "inspirado_em": [
+    {
+     "id": "S9GgTvj9FXs#I22",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=458s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 458,
+     "momento": "07:40",
+     "ideia": "Acelerar o vibrato gradualmente"
+    },
+    {
+     "id": "i9yDenSMpJk#I02",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=94s",
+     "video": "i9yDenSMpJk",
+     "inicio": 94,
+     "momento": "01:36",
+     "ideia": "Rate do vibrato"
+    },
+    {
+     "id": "i9yDenSMpJk#I15",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=739s",
+     "video": "i9yDenSMpJk",
+     "inicio": 739,
+     "momento": "12:21",
+     "ideia": "Vibrato de butterfly (BB King)"
+    }
+   ]
+  },
+  {
+   "titulo": "Régua de largura: meio tom e um tom",
+   "objetivo": "Calibrar a largura (depth) pelo ouvido usando casas reais como teto.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque A (casa 10) e depois A♯ (casa 11) para ouvir o teto do vibrato de meio tom.",
+    "Toque A de novo e vibre só até encostar na altura do A♯, voltando sempre ao A.",
+    "Repita com B (casa 12) como teto, para um vibrato largo de 1 tom, típico do rock.",
+    "Por fim, faça o vibrato estreito de 1/4 de tom: só a metade do caminho até o A♯.",
+    "Toque as quatro combinações seguidas: lento e estreito, lento e largo, rápido e estreito, rápido e largo."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Régua de largura. Compasso 1: A e depois A♯ (casa 11), que é o teto do vibrato de meio tom. Compasso 2: A vibrado encostando no A♯. Compasso 3: A e depois B (casa 12), o teto do vibrato largo de 1 tom. Compasso 4: A vibrado encostando no B.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 11,
+          "nota": "A♯",
+          "grau": "♭2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 12,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Imite o vibrato 'bêbado' de Albert King: lento e com 1 tom de largura, sem passar do B.",
+    "Grave e confira com um afinador se o centro volta mesmo ao A."
+   ],
+   "cuidado": "Começar com a nota já dobrada ou apertar demais a corda: o centro sai do A e tudo soa azedo. Relaxe a pressão e parta da nota exata.",
+   "inspirado_em": [
+    {
+     "id": "i9yDenSMpJk#I03",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=94s",
+     "video": "i9yDenSMpJk",
+     "inicio": 94,
+     "momento": "01:36",
+     "ideia": "Depth do vibrato"
+    },
+    {
+     "id": "en--vibrato-633c98#I04",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National United States France BnF data Latvia Israel Other Yale LUX",
+     "titulo": "Vibrato - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Extensão típica do vibrato"
+    },
+    {
+     "id": "i9yDenSMpJk#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=805s",
+     "video": "i9yDenSMpJk",
+     "inicio": 805,
+     "momento": "13:27",
+     "ideia": "Vibrato rock: aumentar rate e depth juntos"
+    },
+    {
+     "id": "fJs5AALy4GY#I17",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1398s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1398,
+     "momento": "23:20",
+     "ideia": "Vibrato 'bêbado' de Albert King"
+    },
+    {
+     "id": "S9GgTvj9FXs#I15",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=388s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 388,
+     "momento": "06:30",
+     "ideia": "Cerca de 90% do vibrato é saber a altura da nota"
+    },
+    {
+     "id": "On_Ho3azaLk#I24",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=910s",
+     "video": "On_Ho3azaLk",
+     "inicio": 910,
+     "momento": "15:12",
+     "ideia": "Pressionar demais a corda no vibrato"
+    }
+   ]
+  },
+  {
+   "titulo": "Vibrato só no pouso, e atrasado",
+   "objetivo": "Decidir onde o vibrato entra numa frase e controlar o momento em que ele começa.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque a frase de V5 sobre um vamp de Am a 72 bpm, com as colcheias totalmente retas.",
+    "No A do tempo 4, deixe a nota nascer reta e só comece o vibrato no tempo 1 do compasso seguinte.",
+    "Faça o mesmo no E final do compasso 3: dois tempos reto, depois vibrato até cortar.",
+    "Agora inverta: vibrato desde o ataque. Compare as duas versões e escolha a que conta melhor a história.",
+    "Toque uma terceira vez com vibrato em todas as notas, só para ouvir como isso fica pesado."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Frase com vibrato só no pouso. As notas rápidas ficam retas. O A (tempo 4 do compasso 1) começa reto e o vibrato entra só no compasso 2 (vibrato atrasado). O mesmo acontece com o E final.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Coloque vibrato num riff que você já conhece e que não tem nenhum (ex.: Come As You Are), só nas notas longas.",
+    "Termine a frase no C (corda 1, casa 8, a ♭3) com vibrato largo e compare com o final na tônica."
+   ],
+   "cuidado": "Vibrar as notas de passagem. O vibrato vale como destaque; se aparece em toda nota, não destaca nenhuma.",
+   "inspirado_em": [
+    {
+     "id": "oQpLyyRCc6A#I09",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=204s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 204,
+     "momento": "03:26",
+     "ideia": "Onde aplicar o vibrato na frase"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I14",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vibrato para enfatizar a última nota da frase"
+    },
+    {
+     "id": "Ork2Vc2bva8#I18",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=Ork2Vc2bva8&t=586s",
+     "video": "Ork2Vc2bva8",
+     "inicio": 586,
+     "momento": "09:48",
+     "ideia": "Vibrato nas notas de chegada"
+    },
+    {
+     "id": "3kSPGjxI-ns#I13",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "Aula de GUITARRA BLUES Para Quem Quer IMPROVISAR Com Estilo e Domínio!",
+     "url": "https://www.youtube.com/watch?v=3kSPGjxI-ns&t=544s",
+     "video": "3kSPGjxI-ns",
+     "inicio": 544,
+     "momento": "09:06",
+     "ideia": "Vibrato na tônica ao aterrissar"
+    },
+    {
+     "id": "oQpLyyRCc6A#I10",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=223s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 223,
+     "momento": "03:45",
+     "ideia": "Colocar vibrato em riffs que não o têm"
+    },
+    {
+     "id": "i9yDenSMpJk#I26",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1637s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1637,
+     "momento": "27:19",
+     "ideia": "Vibrato evolui com o tempo"
+    }
+   ]
+  },
+  {
+   "titulo": "Cardápio de tipos na mesma nota",
+   "objetivo": "Conhecer o som e a mecânica de cada tipo de vibrato, comparando todos numa nota só.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Use o A da corda 2, casa 10, sustentado por um compasso inteiro em cada tipo.",
+    "Clássico: o dedo fica parado e a mão balança ao longo da corda, no sentido da cabeça e do corpo da guitarra. Bem sutil.",
+    "Standard: pivô e giro do pulso, largura média.",
+    "Rock: o mesmo standard, mais rápido e mais largo.",
+    "Blues à Clapton: tire a palma do braço, só a ponta do dedo segura a nota, e o antebraço 'quica' a corda.",
+    "Neck vibrato: toque o Am aberto de V6 e empurre o braço da guitarra de leve, quase nada. Nunca force."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "acordes",
+    "legenda": "Acordes para testar o neck vibrato, sempre bem sutil: Am aberto e Am com pestana na casa 5. Com o acorde soando, empurre levemente o braço da guitarra.",
+    "tonica": "A",
+    "acordes": [
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "577555"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Faça o butterfly com o dedo 1 na corda 1, casa 5: rápido e estreito, pivô na mão.",
+    "Toque uma escala maior de Sol devagar e aplique um tipo diferente a cada nota."
+   ],
+   "cuidado": "Querer dominar todos os tipos de uma vez. Explore todos, mas mantenha o standard como base até ele sair sem pensar. E no neck vibrato, força demais pode danificar o braço.",
+   "inspirado_em": [
+    {
+     "id": "oQpLyyRCc6A#I07",
+     "tipo": "video",
+     "autor": "Cifra Club",
+     "titulo": "Técnicas de Guitarra -  Vibratos (aula iniciante)",
+     "url": "https://www.youtube.com/watch?v=oQpLyyRCc6A&t=138s",
+     "video": "oQpLyyRCc6A",
+     "inicio": 138,
+     "momento": "02:20",
+     "ideia": "Vibrato lateral (mover o dedo de um lado para o outro)"
+    },
+    {
+     "id": "i9yDenSMpJk#I05",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=242s",
+     "video": "i9yDenSMpJk",
+     "inicio": 242,
+     "momento": "04:04",
+     "ideia": "Vibrato clássico: mecânica do dedo"
+    },
+    {
+     "id": "i9yDenSMpJk#I16",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=805s",
+     "video": "i9yDenSMpJk",
+     "inicio": 805,
+     "momento": "13:27",
+     "ideia": "Vibrato rock: aumentar rate e depth juntos"
+    },
+    {
+     "id": "i9yDenSMpJk#I13",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=870s",
+     "video": "i9yDenSMpJk",
+     "inicio": 870,
+     "momento": "14:32",
+     "ideia": "Vibrato de blues com mão solta"
+    },
+    {
+     "id": "btoooVk54LY#I11",
+     "tipo": "video",
+     "autor": "Learning Guitar Now",
+     "titulo": "How to Solo over a 12 Bar Blues in the Key of A",
+     "url": "https://www.youtube.com/watch?v=btoooVk54LY&t=697s",
+     "video": "btoooVk54LY",
+     "inicio": 697,
+     "momento": "11:39",
+     "ideia": "Vibrato estilo Eric Clapton"
+    },
+    {
+     "id": "i9yDenSMpJk#I15",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=739s",
+     "video": "i9yDenSMpJk",
+     "inicio": 739,
+     "momento": "12:21",
+     "ideia": "Vibrato de butterfly (BB King)"
+    },
+    {
+     "id": "i9yDenSMpJk#I18",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1069s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1069,
+     "momento": "17:51",
+     "ideia": "Neck vibrato"
+    },
+    {
+     "id": "i9yDenSMpJk#I19",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1103s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1103,
+     "momento": "18:25",
+     "ideia": "Quebrar o braço no neck vibrato"
+    },
+    {
+     "id": "i9yDenSMpJk#I27",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1637s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1637,
+     "momento": "27:19",
+     "ideia": "Experimentar os tipos de vibrato na escala maior"
+    }
+   ]
+  },
+  {
+   "titulo": "Vibrato no topo do bend",
+   "objetivo": "Fazer vibrato numa nota dobrada sem perder a altura do alvo.",
+   "nivel": "avancado",
+   "minutos": 10,
+   "passos": [
+    "Toque o A de referência (corda 2, casa 10) e memorize a altura.",
+    "Faça o bend de 1 tom no G (casa 8, dedo 3 com o 1 e o 2 ajudando) até chegar exatamente no A.",
+    "Segure ali um tempo sem vibrar, para confirmar a afinação.",
+    "Agora relaxe levemente a pegada, deixe a nota cair cerca de 1/8 de tom e empurre de volta ao A. Repita devagar.",
+    "Acelere aos poucos. Tem que soar como um A vibrado, não como um bend que sobe e desce.",
+    "Repita o bend sem a referência (compasso 3) e confira gravando."
+   ],
+   "visual": {
+    "id": "V7",
+    "tipo": "tab",
+    "legenda": "Vibrato no topo do bend. Compasso 1: A de referência (casa 10, a nota-alvo) e, no tempo 3, G na casa 8 com bend de 1 tom até virar A. Compasso 2: segure o bend e vibre lá em cima, no A. Compasso 3: o mesmo bend sem a referência; ele tem que chegar no mesmo A. Compasso 4: silêncio.",
+    "tonica": "A",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça na corda 3: bend de 1 tom no D (casa 7) até E, com vibrato no topo.",
+    "Bend de meio tom no G até G♯ com vibrato bem estreito, para um som mais contido."
+   ],
+   "cuidado": "Começar o vibrato antes de chegar ao alvo ou passar do teto ao 'empurrar de volta'. A oscilação deve ficar só abaixo e até o A, nunca acima dele.",
+   "inspirado_em": [
+    {
+     "id": "S9GgTvj9FXs#I20",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=458s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 458,
+     "momento": "07:40",
+     "ideia": "Vibrato é um microbend sobre a nota já dobrada"
+    },
+    {
+     "id": "S9GgTvj9FXs#I21",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=458s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 458,
+     "momento": "07:40",
+     "ideia": "Vibrato por relaxamento e retorno da pegada"
+    },
+    {
+     "id": "S9GgTvj9FXs#I23",
+     "tipo": "video",
+     "autor": "Music is Win",
+     "titulo": "Ultimate Bending and Vibrato Mega Lesson",
+     "url": "https://www.youtube.com/watch?v=S9GgTvj9FXs&t=527s",
+     "video": "S9GgTvj9FXs",
+     "inicio": 527,
+     "momento": "08:49",
+     "ideia": "Acertar o bend antes de começar o vibrato"
+    },
+    {
+     "id": "musicradar--bend-in-tune-on-guitar-bd9353#I04",
+     "tipo": "documento",
+     "autor": "Total Guitar",
+     "titulo": "How to bend in tune on your guitar like a pro every time",
+     "url": "https://musicradar.com/how-to/bend-in-tune-on-guitar",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Vibrato no bend exige mais controle da mão esquerda"
+    },
+    {
+     "id": "i9yDenSMpJk#I21",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1238s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1238,
+     "momento": "20:40",
+     "ideia": "Bending vibrato"
+    },
+    {
+     "id": "i9yDenSMpJk#I22",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1334s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1334,
+     "momento": "22:16",
+     "ideia": "Aprender bend e vibrato separadamente"
+    }
+   ]
+  },
+  {
+   "titulo": "Liga-desliga e cópia do ídolo",
+   "objetivo": "Ter controle total de quando o vibrato aparece e começar a moldar seu vibrato pessoal.",
+   "nivel": "avancado",
+   "minutos": 12,
+   "passos": [
+    "Toque a frase de V5 três vezes sem nenhum vibrato. Se ele aparecer sem querer, pare um minuto e recomece.",
+    "Depois toque com vibrato só nas duas notas-alvo, decidindo antes o tipo e a velocidade de cada uma.",
+    "Escolha um guitarrista que você admira e uma nota longa de um solo dele.",
+    "Ouça essa nota várias vezes prestando atenção só no vibrato: velocidade, largura e quando começa.",
+    "Imite na mesma nota, ajustando a mecânica, e grave para comparar com o original.",
+    "Toque a frase de V5 mais uma vez com o vibrato 'emprestado', com convicção e exagerando um pouco."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Frase com vibrato só no pouso. As notas rápidas ficam retas. O A (tempo 4 do compasso 1) começa reto e o vibrato entra só no compasso 2 (vibrato atrasado). O mesmo acontece com o E final.",
+    "tonica": "A",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Compare o vibrato de B.B. King com o de Albert King e ouça o contraste entre rápido e estreito e lento e largo.",
+    "Sobre um vamp de Am, toque só uma nota por compasso, a tônica, com vibrato diferente em cada compasso."
+   ],
+   "cuidado": "Deixar o vibrato no piloto automático. Se você não consegue tirá-lo, ele não é uma escolha, é um tique.",
+   "inspirado_em": [
+    {
+     "id": "en--vibrato-633c98#I06",
+     "tipo": "documento",
+     "autor": "Authority control databases International GND National United States France BnF data Latvia Israel Other Yale LUX",
+     "titulo": "Vibrato - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar sem vibrato para dominar a técnica"
+    },
+    {
+     "id": "i9yDenSMpJk#I25",
+     "tipo": "video",
+     "autor": "JustinGuitar",
+     "titulo": "Vibrato on Guitar | 6 Techniques & Mechanics",
+     "url": "https://www.youtube.com/watch?v=i9yDenSMpJk&t=1569s",
+     "video": "i9yDenSMpJk",
+     "inicio": 1569,
+     "momento": "26:11",
+     "ideia": "Imitar o vibrato de um guitarrista admirado"
+    },
+    {
+     "id": "pickupmusic--guitar-techniques-bending-and-vibrato-b895d6#I11",
+     "tipo": "documento",
+     "autor": "Sam Blakelock",
+     "titulo": "Mastering Bends and Vibrato on Guitar: Essential Tips & Tricks - Pickup Music",
+     "url": "https://pickupmusic.com/blog/guitar-techniques-bending-and-vibrato",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Copiar um guitarrista admirado"
+    },
+    {
+     "id": "fJs5AALy4GY#I16",
+     "tipo": "video",
+     "autor": "Brett Papa",
+     "titulo": "Amazing Blues Guitar Lesson With Kirk Fletcher - Simple Phrasing With Soul - Soloing and Rhythm Tips",
+     "url": "https://www.youtube.com/watch?v=fJs5AALy4GY&t=1363s",
+     "video": "fJs5AALy4GY",
+     "inicio": 1363,
+     "momento": "22:45",
+     "ideia": "Convicção no vibrato"
+    },
+    {
+     "id": "ZBQr7STNnCE#I12",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "15 Guitarists Who Shocked The World (1930 - NOW)",
+     "url": "https://www.youtube.com/watch?v=ZBQr7STNnCE&t=634s",
+     "video": "ZBQr7STNnCE",
+     "inicio": 634,
+     "momento": "10:36",
+     "ideia": "Uma nota bem vibrada pode emocionar mais que muitas notas"
+    },
+    {
+     "id": "dZUSUZjRISI#I16",
+     "tipo": "video",
+     "autor": "Desi Serna | Guitar Music Theory",
+     "titulo": "Build Killer Guitar Licks with Pentatonic Phrasing",
+     "url": "https://www.youtube.com/watch?v=dZUSUZjRISI&t=394s",
+     "video": "dZUSUZjRISI",
+     "inicio": 394,
+     "momento": "06:36",
+     "ideia": "Nota A no tempo 1 com vibrato"
+    },
+    {
+     "id": "On_Ho3azaLk#I23",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Your Self-Doubt on Guitar WILL VANISH by doing THIS!",
+     "url": "https://www.youtube.com/watch?v=On_Ho3azaLk&t=809s",
+     "video": "On_Ho3azaLk",
+     "inicio": 809,
+     "momento": "13:31",
+     "ideia": "Evitar vibrato com padrão único"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Mexer só a ponta dos dedos em vez de girar a mão a partir do pivô: dá ruído e afinação instável.",
+  "Começar com a nota já levemente dobrada, principalmente na tônica, que precisa estar exatamente afinada.",
+  "Apertar demais a corda contra o braço: o vibrato fica azedo, vago e um pouco desafinado.",
+  "Usar sempre a mesma velocidade e largura, em todas as músicas e em todas as notas.",
+  "Vibrar notas de passagem e deixar a nota de chegada reta: é exatamente o contrário.",
+  "Sacudir a guitarra inteira no ar achando que isso é vibrato.",
+  "No vibrato com bend, começar a oscilar antes de chegar à altura certa do alvo."
+ ],
+ "resumo": [
+  "Vibrato oscila em volta da nota e sempre volta a ela; o ouvido escuta a altura média.",
+  "Rate é a velocidade e depth é a largura: combine as duas conforme a música.",
+  "No vibrato standard, os dedos ficam travados, a borda da mão faz o pivô e o pulso gira.",
+  "Use vibrato em uma ou duas notas por frase: chegada, tônica, nota longa. Ele pode entrar atrasado.",
+  "Copie o vibrato de quem você admira até ele virar o seu."
+ ],
+ "proximos_passos": "Se o vibrato no topo do bend ficou instável, volte a \"Bend: mecânica, afinação e variações\". Depois siga para \"Dinâmica de toque, ataque e timbre\" e \"Double stops, rakes, harmônicos, alavanca e ornamentos\" para ampliar a expressão. Para usar o vibrato onde ele mais conta, estude \"Notas do acorde, repouso e tensão-resolução\" e \"Espaço, silêncio e respiração\".",
+ "_meta": {
+  "subcategoria": "C05.2",
+  "modulo": {
+   "id": "C05",
+   "nome": "Técnica expressiva e articulação"
+  },
+  "nome": "Vibrato",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T14:40:16",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 4,
+   "cache_write": 21047,
+   "cache_read": 8780,
+   "output": 13276,
+   "thinking": 3773,
+   "turns": 4,
+   "custo_nominal": 0.452567
+  }
+ }
+}
