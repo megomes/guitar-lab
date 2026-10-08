@@ -1,0 +1,2606 @@
+{
+ "titulo": "Guide tones e condução de vozes",
+ "gancho": "Duas notas por acorde e um passo de meio tom bastam para o solo \"contar\" a harmonia sem precisar de banda.",
+ "porque_importa": "A 3ª e a 7ª são as notas que dizem se o acorde é maior, menor ou dominante, e são elas que mudam quando a harmonia muda. Quando você liga essas notas de um acorde ao seguinte pelo caminho mais curto, o solo para de pular de caixa em caixa e vira uma linha contínua, e quem ouve sente a troca de acorde mesmo sem acompanhamento.",
+ "ilustracao": "conversa",
+ "conceito": [
+  {
+   "titulo": "3ª e 7ª: a identidade do acorde",
+   "texto": "A 3ª diz se o acorde é maior (3) ou menor (♭3). A 7ª diz se ele é maj7 (7) ou dominante/m7 (♭7). A fundamental quase sempre já está no baixo, e a 5ª é praticamente igual em todos os acordes. Sobram duas notas que realmente definem o som: os guide tones. Em A7 eles são C♯ e G. Em D7, F♯ e C.",
+   "destaque": "Toque só 3ª e 7ª e o acorde inteiro aparece.",
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Shapes de guide tones no blues em Lá (A7–D7–A7–E7): só 3ª e ♭7, nas cordas Sol e Si. Repare que cada nota anda no máximo meio tom.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A 7ª cai e vira 3ª",
+   "texto": "Quando os acordes andam em quartas (A7→D7, Dm7→G7→Cmaj7), a 7ª de um acorde desce meio tom e vira a 3ª do seguinte. No ii-V-I em Dó, o C de Dm7 cai para o B de G7, e o F de G7 cai para o E de Cmaj7. A cada troca, uma voz fica parada e a outra anda um semitom. Por isso a troca soa tão clara.",
+   "destaque": "Uma voz fica, a outra anda meio tom.",
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "ii-V-I em Dó só com guide tones (cordas Si e Mi). Voz de baixo: F fica e depois cai para E. Voz de cima: C cai para B e fica. A cada troca, só uma nota se move.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Nota comum: a ponte parada",
+   "texto": "Às vezes o melhor movimento é não se mover. Am e F têm A e C em comum, e o C ainda está em C. Sustente uma nota pivô enquanto a harmonia muda embaixo e ela troca de papel sozinha (♭3, depois 5, depois 1). Quando a nota comum acaba, ela anda só meio tom.",
+   "destaque": "Se a nota serve no próximo acorde, deixe-a ficar.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Nota pivô em Am–F–C–G: o C (corda Si, casa 1) fica parado enquanto os acordes mudam embaixo dele. Ele só cede no G, descendo meio tom para B, a 3ª.",
+    "tonica": "C",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "A nota mais próxima",
+   "texto": "Na troca, procure a nota do acorde seguinte mais perto da última que você tocou: a mesma nota, meio tom ou um tom de distância, de preferência na mesma corda ou na mesma região do braço. Evite pular de caixa. É assim que os solistas de swing e bebop fazem a harmonia aparecer numa linha só.",
+   "destaque": "Menor distância = troca mais suave.",
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Never-ending arpeggio em Dm7–G7–Cmaj7: colcheias sem parar, e em cada troca você vai para a nota mais próxima do próximo arpejo (C→B, D→E).",
+    "tonica": "C",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Uma linha só, não três caixas",
+   "texto": "Escala, pentatônica e arpejo são o recheio. Os guide tones mostram aonde a frase chega. Pense numa melodia contínua que atravessa Dm7, G7 e C, e não em três ideias soltas. Mirar a nota que muda no tempo 1 do compasso novo já basta para o ouvido perceber a troca. A 7ª sozinha engana: muitas vezes ela não se move. Prefira a 3ª ou a nota que realmente mudou.",
+   "destaque": "Os guide tones mostram aonde a frase vai.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 26,
+   "porque": "Jens Larsen mostra as quatro vozes de Dm7→G7→Cmaj7 andando por semitom ou ficando paradas.",
+   "fonte": {
+    "id": "9oAxHq-ZLwI#I09",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+    "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=364s",
+    "video": "9oAxHq-ZLwI",
+    "inicio": 364,
+    "momento": "06:06",
+    "ideia": "Movimento das quatro vozes de Dm7 a G7 a Cmaj7"
+   }
+  },
+  {
+   "ref": 46,
+   "porque": "fretjam toca uma nota por acorde em A–E–Bm–D e mostra como achar o caminho mais suave.",
+   "fonte": {
+    "id": "itLSHk5jnTI#I05",
+    "tipo": "video",
+    "autor": "fretjam",
+    "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+    "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=184s",
+    "video": "itLSHk5jnTI",
+    "inicio": 184,
+    "momento": "03:06",
+    "ideia": "Tocar uma nota por acorde da progressão A-E-Bm-D"
+   }
+  },
+  {
+   "ref": 35,
+   "porque": "Paul Davids e Ariel Posen usam uma nota pivô que fica enquanto os acordes trocam embaixo.",
+   "fonte": {
+    "id": "rh6HEF5Dy2I#I10",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+    "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=504s",
+    "video": "rh6HEF5Dy2I",
+    "inicio": 504,
+    "momento": "08:26",
+    "ideia": "Condução de vozes por nota pivô"
+   }
+  },
+  {
+   "ref": 48,
+   "porque": "Ozeias Rodrigues tira duas ou três notas do arpejo e conecta cada uma à nota vizinha do acorde seguinte.",
+   "fonte": {
+    "id": "Y4BPUd_Zxds#I09",
+    "tipo": "video",
+    "autor": "Ozeias Rodrigues",
+    "titulo": "Transforme arpejos em melodias.",
+    "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=317s",
+    "video": "Y4BPUd_Zxds",
+    "inicio": 317,
+    "momento": "05:19",
+    "ideia": "Conectar uma nota à seguinte"
+   }
+  },
+  {
+   "ref": 64,
+   "porque": "Jens Larsen demonstra o never-ending arpeggio: colcheias contínuas que passam à nota mais próxima em cada troca.",
+   "fonte": {
+    "id": "jVTRXGg0Sdg#I31",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "The Soloing Exercise That Changed My Life",
+    "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=564s",
+    "video": "jVTRXGg0Sdg",
+    "inicio": 564,
+    "momento": "09:26",
+    "ideia": "Never-ending arpeggio"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Shapes de duas notas no blues em Lá",
+   "objetivo": "Ver e ouvir 3ª e ♭7 de A7, D7 e E7 como shapes vizinhos de duas notas.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Toque o V1 devagar, uma díade (duas notas juntas) por tempo forte, sobre um baixo ou backing track de blues em Lá.",
+    "Em cada troca, diga em voz alta qual nota é a 3ª e qual é a ♭7.",
+    "Observe que nenhum dedo anda mais que uma casa: C♯→C, G→F♯, C♯→D, G→G♯.",
+    "Percorra os 12 compassos do blues usando só esses três shapes, sem parar.",
+    "Saiba sempre onde está a fundamental, mesmo sem tocá-la: casa 5 da corda Mi grave para A7, casa 5 da corda Lá para D7, casa 7 da corda Lá para E7."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Shapes de guide tones no blues em Lá (A7–D7–A7–E7): só 3ª e ♭7, nas cordas Sol e Si. Repare que cada nota anda no máximo meio tom.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Toque as mesmas díades nas cordas Ré e Sol (G casa 5 → F♯ casa 4).",
+    "Arpeje a díade (grave e depois aguda) em vez de tocar as duas juntas."
+   ],
+   "cuidado": "Trocar de shape depois do tempo 1. O shape novo precisa soar exatamente quando o acorde muda.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I03",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Aprender os guide tones como shapes no braço (Ex. 1)"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I05",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas do acorde A7 e suas guide tones"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I06",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas do acorde D7 e suas guide tones"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I07",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Movimento das guide tones entre A7 e D7"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I13",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "A mesma troca de guide tones na oitava inferior"
+    },
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I02",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dá para tocar standards só com 3ª e 7ª"
+    }
+   ]
+  },
+  {
+   "titulo": "A ♭7 cai na 3ª",
+   "objetivo": "Treinar a resolução por semitom da ♭7 de um acorde para a 3ª do seguinte, numa linha de uma nota só.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque o V2 com o metrônomo a 70 bpm.",
+    "Segure um pouco a última nota de cada compasso (G, C, G) e ouça a tensão.",
+    "Resolva meio tom acima ou abaixo exatamente no tempo 1 (notas com anel).",
+    "Toque só a primeira nota de cada compasso, sem a base, e confira se ainda dá para ouvir as trocas.",
+    "Invente seus próprios inícios de compasso, mantendo a regra: o compasso termina na ♭7 e o próximo começa na 3ª."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "A ♭7 cai (ou sobe) meio tom para a 3ª do acorde seguinte: G→F♯ (A7→D7), C→C♯ (D7→A7), G→G♯ (A7→E7). As notas com anel caem no tempo 1.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 9,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece cada compasso pela 3ª e termine na ♭7 em lugares diferentes do braço.",
+    "Antecipe a resolução em uma colcheia (no 4-e) e compare a sensação."
+   ],
+   "cuidado": "Resolver na fundamental por hábito. O alvo aqui é a 3ª, a nota que muda.",
+   "inspirado_em": [
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I07",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Movimento das guide tones entre A7 e D7"
+    },
+    {
+     "id": "web--fqbk-handbook-pdf-582590#I35",
+     "tipo": "documento",
+     "autor": "web.archive.org",
+     "titulo": "",
+     "url": "https://web.archive.org/web/2016/http://www.jazzbooks.com/mm5/download/FQBK-handbook.pdf",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Usar 3ªs e 7ªs para ouvir a harmonia no blues"
+    },
+    {
+     "id": "h4zQjSecjvI#I10",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Easy Jazz Solo Exercises That You Want To Know",
+     "url": "https://www.youtube.com/watch?v=h4zQjSecjvI&t=271s",
+     "video": "h4zQjSecjvI",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Terça como nota-alvo"
+    },
+    {
+     "id": "EMQydbilqmo#I30",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=672s",
+     "video": "EMQydbilqmo",
+     "inicio": 672,
+     "momento": "11:14",
+     "ideia": "Terça como nota-alvo mais fácil"
+    },
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I11",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escalas e arpejos com intenção de alvo (Ex. 5)"
+    }
+   ]
+  },
+  {
+   "titulo": "ii-V-I em duas vozes",
+   "objetivo": "Ouvir e cantar as duas linhas de guide tones de Dm7–G7–Cmaj7.",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque o V3 como díades e repare qual nota se move em cada troca.",
+    "Toque só a voz de baixo (F–F–E) e depois só a de cima (C–B–B).",
+    "Cante uma das vozes enquanto toca a outra.",
+    "Toque a mesma ideia uma oitava abaixo: F na corda Ré, casa 3; C na corda Sol, casa 5; B na corda Sol, casa 4; E na corda Ré, casa 2.",
+    "Só avance quando conseguir ouvir mentalmente o F cair para E e o C cair para B antes de tocar."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "ii-V-I em Dó só com guide tones (cordas Si e Mi). Voz de baixo: F fica e depois cai para E. Voz de cima: C cai para B e fica. A cada troca, só uma nota se move.",
+    "tonica": "C",
+    "bpm": 66,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": []
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Backdoor: Dm7–B♭7–Cmaj7 com a voz A (5ª de Dm7, corda Mi aguda, casa 5) → A♭ (♭7 de B♭7, casa 4) → G (5ª de Cmaj7, casa 3).",
+    "Aplique o mesmo método a Autumn Leaves inteira, só com 3ªs e 7ªs."
+   ],
+   "cuidado": "Achar que a ♭7 de G7 (F) marca a troca. Ela é a mesma nota da 3ª de Dm7, e quem anuncia o G7 é o B.",
+   "inspirado_em": [
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I11",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas-guia do ii-V-I em C"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I09",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=364s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 364,
+     "momento": "06:06",
+     "ideia": "Movimento das quatro vozes de Dm7 a G7 a Cmaj7"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I04",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=202s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 202,
+     "momento": "03:24",
+     "ideia": "Condução da 5ª de Dm7 para a ♭7 de B♭7 e a 5ª de Cmaj7"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I20",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Critério para avançar"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I27",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Checkpoint com Autumn Leaves"
+    },
+    {
+     "id": "G5q1lfMQ5A4#I12",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Jazz Solo System That Pros Use But Nobody Teaches",
+     "url": "https://www.youtube.com/watch?v=G5q1lfMQ5A4&t=373s",
+     "video": "G5q1lfMQ5A4",
+     "inicio": 373,
+     "momento": "06:15",
+     "ideia": "Usar a 7ª sozinha para marcar a troca"
+    }
+   ]
+  },
+  {
+   "titulo": "Nota pivô: o C que fica",
+   "objetivo": "Usar uma nota comum como ponte e ouvir como ela muda de papel conforme o acorde.",
+   "nivel": "intermediario",
+   "minutos": 8,
+   "passos": [
+    "Toque o V4 sobre Am–F–C–G, um acorde por compasso.",
+    "Fale o grau do C em cada acorde: ♭3, 5, 1. No G, ele cede para o B (3).",
+    "Toque só a nota pivô com vibrato, deixando-a soar o compasso inteiro.",
+    "Crie um motivo de três notas que sempre passe pelo pivô e mude só a nota em volta dele.",
+    "Repita com outro pivô: E (5 de Am, 3 de C), que no F desce para F e no G desce para D."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Nota pivô em Am–F–C–G: o C (corda Si, casa 1) fica parado enquanto os acordes mudam embaixo dele. Ele só cede no G, descendo meio tom para B, a 3ª.",
+    "tonica": "C",
+    "bpm": 75,
+    "compassos": [
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Coloque o pivô como nota mais grave do motivo em vez de nota do meio.",
+    "Antes de tocar, liste por escrito as notas comuns de outra progressão sua."
+   ],
+   "cuidado": "Manter o pivô quando ele já não pertence ao acorde. Quando a nota comum acaba, ela tem que andar meio tom.",
+   "inspirado_em": [
+    {
+     "id": "ui6qUcvaKU0#I29",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "Start Practicing Triads EVERYDAY Like THIS to SKYROCKET Your Guitar Playing",
+     "url": "https://www.youtube.com/watch?v=ui6qUcvaKU0&t=688s",
+     "video": "ui6qUcvaKU0",
+     "inicio": 688,
+     "momento": "11:30",
+     "ideia": "Lá menor e Fá maior têm notas em comum"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I17",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas comuns entre acordes"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I18",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Notas comuns entre os acordes da progressão"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I10",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=504s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 504,
+     "momento": "08:26",
+     "ideia": "Condução de vozes por nota pivô"
+    },
+    {
+     "id": "rh6HEF5Dy2I#I11",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "How Triads TRULY Unlock The Fretboard (Ft. Ariel Posen)",
+     "url": "https://www.youtube.com/watch?v=rh6HEF5Dy2I&t=541s",
+     "video": "rh6HEF5Dy2I",
+     "inicio": 541,
+     "momento": "09:03",
+     "ideia": "Escolher a nota da melodia entre topo, meio ou base"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I24",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Dia 6: motivo a partir de notas comuns"
+    },
+    {
+     "id": "jgmusiclessons--how-to-use-chord-tones-to-get-better-at-improvising-8baaf3#I31",
+     "tipo": "documento",
+     "autor": "JG",
+     "titulo": "How to Confidently Solo Over Chord Progressions with Chord Tones On Guitar",
+     "url": "https://jgmusiclessons.com/how-to-use-chord-tones-to-get-better-at-improvising/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escrever os tons de cada acorde"
+    }
+   ]
+  },
+  {
+   "titulo": "Pentatônica com destino",
+   "objetivo": "Improvisar com a escala que você já sabe, mas terminar cada frase num guide tone do acorde seguinte.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Use uma base de A7–D7 com dois compassos de cada acorde.",
+    "Sobre A7, improvise com a pentatônica de Lá menor (A C D E G) por volta da casa 5.",
+    "No último tempo antes da troca, mire o F♯ (corda Si, casa 7) ou o C (corda Sol, casa 5), os guide tones de D7.",
+    "Sobre D7, faça o caminho inverso e chegue ao C♯ (corda Sol, casa 6), a 3ª de A7.",
+    "Grave e ouça sem a base: as trocas precisam continuar audíveis."
+   ],
+   "visual": {
+    "id": "V1",
+    "tipo": "tab",
+    "legenda": "Shapes de guide tones no blues em Lá (A7–D7–A7–E7): só 3ª e ♭7, nas cordas Sol e Si. Repare que cada nota anda no máximo meio tom.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "A7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": true
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 6,
+          "nota": "C♯",
+          "grau": "3",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         },
+         {
+          "corda": 2,
+          "casa": 9,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Blues em F: arpejo de F7 (F A C E♭) resolvendo no D, a 3ª de B♭7.",
+    "Escolha antes de começar se o alvo será a 3ª ou a ♭7 e mantenha a escolha por toda a rodada."
+   ],
+   "cuidado": "Tocar o F♯ fora do tempo 1 ou passar direto por ele. É um pouso: segure a nota.",
+   "inspirado_em": [
+    {
+     "id": "premierguitar--beyond-blues-how-to-use-guide-tones-c3999a#I11",
+     "tipo": "documento",
+     "autor": "Levi Clay",
+     "titulo": "Beyond Blues: How to Use Guide Tones",
+     "url": "https://www.premierguitar.com/beyond-blues-how-to-use-guide-tones",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Escalas e arpejos com intenção de alvo (Ex. 5)"
+    },
+    {
+     "id": "EMQydbilqmo#I31",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "Everything You Need To Learn For Jazz Guitar (In Order)",
+     "url": "https://www.youtube.com/watch?v=EMQydbilqmo&t=672s",
+     "video": "EMQydbilqmo",
+     "inicio": 672,
+     "momento": "11:14",
+     "ideia": "Blues em F: arpejo de F7 resolvendo na terça de Bb7"
+    },
+    {
+     "id": "fundamental-changes--targeting-chord-tones-b70c9e#I03",
+     "tipo": "documento",
+     "autor": "TIm Pettingale",
+     "titulo": "Chord Tones: Targeting Blues Guitar - Fundamental Changes – Music Books & Free Lessons for Guitar and More",
+     "url": "https://www.fundamental-changes.com/targeting-chord-tones/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Targetear as notas que mudam entre os acordes"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I10",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=400s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 400,
+     "momento": "06:42",
+     "ideia": "Observar as notas que mudam de acorde"
+    },
+    {
+     "id": "NbNH_C3QAS0#I30",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=972s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 972,
+     "momento": "16:14",
+     "ideia": "Alterar só a nota que muda"
+    },
+    {
+     "id": "PLRMB8b_3pk#I15",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Esse truque me fez improvisar por acordes.",
+     "url": "https://www.youtube.com/watch?v=PLRMB8b_3pk&t=678s",
+     "video": "PLRMB8b_3pk",
+     "inicio": 678,
+     "momento": "11:20",
+     "ideia": "Escolher a resolução na 3ª do acorde-alvo"
+    }
+   ]
+  },
+  {
+   "titulo": "Never-ending arpeggio",
+   "objetivo": "Conduzir vozes em tempo real: colcheias contínuas trocando para a nota mais próxima do arpejo seguinte.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Toque o V5 a 60 bpm, devagar e sem parar.",
+    "Note as conexões: C (♭7 de Dm7) → B (3 de G7) e D (5 de G7) → E (3 de Cmaj7).",
+    "Agora improvise: toque o arpejo do acorde atual em qualquer direção e, no tempo 1 do próximo acorde, vá para a nota dele mais próxima.",
+    "Não interrompa as colcheias. Se errar a nota, continue.",
+    "Quando estiver fluindo, troque a direção dos arpejos para cair em alvos diferentes."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "tab",
+    "legenda": "Never-ending arpeggio em Dm7–G7–Cmaj7: colcheias sem parar, e em cada troca você vai para a nota mais próxima do próximo arpejo (C→B, D→E).",
+    "tonica": "C",
+    "bpm": 60,
+    "compassos": [
+     {
+      "acorde": "Dm7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 7,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 5,
+          "casa": 5,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 2,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 0.5,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 5,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Cmaj7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "7",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Use poucas notas: duas ou três por acorde, ligando a última à vizinha do próximo.",
+    "Leve para um blues em Lá ou para Autumn Leaves."
+   ],
+   "cuidado": "Recomeçar cada arpejo pela fundamental. A primeira nota do acorde novo é sempre a mais próxima, nunca a tônica por padrão.",
+   "inspirado_em": [
+    {
+     "id": "jVTRXGg0Sdg#I31",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "The Soloing Exercise That Changed My Life",
+     "url": "https://www.youtube.com/watch?v=jVTRXGg0Sdg&t=564s",
+     "video": "jVTRXGg0Sdg",
+     "inicio": 564,
+     "momento": "09:26",
+     "ideia": "Never-ending arpeggio"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I07",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=285s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 285,
+     "momento": "04:47",
+     "ideia": "Arpejos na mesma faixa de altura"
+    },
+    {
+     "id": "9oAxHq-ZLwI#I08",
+     "tipo": "video",
+     "autor": "Jens Larsen",
+     "titulo": "5 Exercises That Will Help You Solo over Chord Changes",
+     "url": "https://www.youtube.com/watch?v=9oAxHq-ZLwI&t=332s",
+     "video": "9oAxHq-ZLwI",
+     "inicio": 332,
+     "momento": "05:34",
+     "ideia": "Mesma nota em posição diferente"
+    },
+    {
+     "id": "weissguitar--the_art_of_guitar_improvisation-f448e3#I13",
+     "tipo": "documento",
+     "autor": "Daniel Weiss",
+     "titulo": "Guitar Improvisation: The Complete Guide to Improvising on Guitar | Daniel Weiss Guitar",
+     "url": "https://weissguitar.com/the_art_of_guitar_improvisation/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Começar cada acorde na nota mais próxima"
+    },
+    {
+     "id": "TdzOXWlKtTQ#I12",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Arpeggio Deep Dive: How to use Arpeggios when improvising chord changes - Guitar Lesson EP512",
+     "url": "https://www.youtube.com/watch?v=TdzOXWlKtTQ&t=858s",
+     "video": "TdzOXWlKtTQ",
+     "inicio": 858,
+     "momento": "14:20",
+     "ideia": "Escolher a nota de destino mais próxima"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I09",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=317s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 317,
+     "momento": "05:19",
+     "ideia": "Conectar uma nota à seguinte"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I10",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=386s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 386,
+     "momento": "06:28",
+     "ideia": "Usar notas próximas e repetições"
+    },
+    {
+     "id": "Y4BPUd_Zxds#I15",
+     "tipo": "video",
+     "autor": "Ozeias Rodrigues",
+     "titulo": "Transforme arpejos em melodias.",
+     "url": "https://www.youtube.com/watch?v=Y4BPUd_Zxds&t=916s",
+     "video": "Y4BPUd_Zxds",
+     "inicio": 916,
+     "momento": "15:18",
+     "ideia": "Tocar devagar para sentir a conexão"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Confiar na 7ª sozinha para marcar a troca. Muitas vezes ela é uma nota comum e não se move.",
+  "Recomeçar cada acorde pela fundamental, numa caixa nova, em vez de ir à nota mais próxima.",
+  "Chegar ao guide tone fora do tempo 1, o que dilui a troca.",
+  "Trocar de região do braço a cada acorde e saltar uma oitava sem necessidade.",
+  "Tratar os guide tones como regra rígida e esquecer de fazer música com ritmo e motivo."
+ ],
+ "resumo": [
+  "Guide tones = 3ª e 7ª, as notas que definem a qualidade do acorde.",
+  "Em acordes que andam em quartas, a 7ª desce meio tom e vira a 3ª do próximo.",
+  "Nota comum = ponte: deixe-a ficar enquanto a harmonia muda.",
+  "Na troca, vá à nota mais próxima: a mesma nota, meio tom ou um tom.",
+  "Pense numa linha contínua que atravessa os acordes, e não em caixas separadas."
+ ],
+ "proximos_passos": "Siga para \"Aproximação cromática, enclosures e notas de passagem\" para enfeitar a chegada aos guide tones e para \"Pensar à frente: linhas que levam ao próximo acorde\" para planejar a frase em direção ao alvo. Para formas completas, veja \"Arpejos de sétima e diatônicos\" e \"Harmonia de jazz para o solista\".",
+ "_meta": {
+  "subcategoria": "C09.2",
+  "modulo": {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes"
+  },
+  "nome": "Guide tones e condução de vozes",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:14:36",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 22548,
+   "cache_read": 4913,
+   "output": 13755,
+   "thinking": 4650,
+   "turns": 2,
+   "custo_nominal": 0.4744916
+  }
+ }
+}

@@ -1,0 +1,1391 @@
+{
+ "titulo": "Seguir as trocas: uma pentatônica por acorde (chord chasing)",
+ "gancho": "Quando o acorde muda e o solo muda junto, quem ouve sente que você está tocando a música, e não só por cima dela.",
+ "porque_importa": "Uma pentatônica só para a música inteira funciona até a harmonia pedir outra cor. Músicos de sessão, de country e de rock seguem cada acorde com a pentatônica de mesmo nome dele: é simples, soa certo e treina o ouvido para escutar as trocas. O pulo do gato é fazer a troca sem pular pelo braço, mudando só uma ou duas notas.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Chord chasing: perseguir o acorde",
+   "texto": "Em vez de uma só escala para a música inteira, cada acorde ganha a pentatônica da sua própria tônica. Acorde maior pede a pentatônica maior; acorde menor, a menor. Em C toque Dó maior pentatônica, em Am Lá menor, em F Fá maior. Não precisa saber se o acorde é empréstimo, dominante secundária ou outra coisa. A regra funciona do mesmo jeito.",
+   "destaque": "Mesmo nome, mesma qualidade: C → C maior penta, Am → A menor penta.",
+   "visual": null
+  },
+  {
+   "titulo": "Por que funciona: a tríade já está lá dentro",
+   "texto": "A pentatônica maior (1-2-3-5-6) contém a tríade 1-3-5, e a menor (1-♭3-4-5-♭7) contém 1-♭3-5. Três das cinco notas são do acorde, então é difícil errar o pouso. Trocar de pentatônica é, na prática, trocar o conjunto de notas seguras.",
+   "destaque": "Três notas de cinco são do acorde: a pentatônica certa já mira o alvo por você.",
+   "visual": null
+  },
+  {
+   "titulo": "Mesma região, uma nota de diferença",
+   "texto": "Dentro de um tom, as pentatônicas dos acordes costumam diferir em uma única nota. A caixa de Lá menor na casa 5 vira Sol maior pentatônica quando você troca o C por B. Por isso não é preciso saltar pelo braço: fique na região e mexa só na nota que muda. Ela costuma ser justamente a 3ª ou a tônica do acorde novo, ou seja, o melhor alvo.",
+   "destaque": "Não troque de lugar, troque de nota.",
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Sol maior pentatônica na mesma região. É a caixa de Lá menor com o C trocado por B, a 3ª de G (anéis).",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Acordes de fora: troque a escala ou só a nota",
+   "texto": "Um acorde fora do tom faz alguma nota da sua escala bater contra ele. Em D–G–Gm, o B de Ré maior briga com o Gm. Há dois caminhos. O mais fácil é tocar a pentatônica do próprio acorde (G menor). O mais ligado ao que veio antes é mudar só a nota que colide: B vira B♭. A segunda opção soa como uma única linha, e não como dois solos colados.",
+   "destaque": "Mude o mínimo de notas possível para o som continuar sendo seu.",
+   "visual": {
+    "id": "V5",
+    "tipo": "acordes",
+    "legenda": "Os acordes do exemplo de empréstimo: o Gm vem de Ré menor e traz o B♭.",
+    "tonica": "D",
+    "acordes": [
+     {
+      "nome": "D",
+      "digitacao": "xx0232"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     },
+     {
+      "nome": "Gm",
+      "digitacao": "355333"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "O centro do solo é móvel",
+   "texto": "A casa do solo acompanha o acorde da vez. Quando a música modula, como de Sol para Si♭ por uma seção inteira, leve o shape que você já conhece até a nova tônica e volte junto com a banda. Trocar de escala não basta: chegar ao acorde novo despejando a caixa inteira soa pior do que ficar no tom. A troca precisa de uma nota de chegada.",
+   "destaque": "Troque com a banda, no tempo 1, e chegue numa nota do acorde.",
+   "visual": null
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 41,
+   "porque": "Steve Stine toca C–Am–F–G trocando a pentatônica a cada acorde e mirando a tônica de cada um.",
+   "fonte": {
+    "id": "Xs2umOucpSM#I12",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=398s",
+    "video": "Xs2umOucpSM",
+    "inicio": 398,
+    "momento": "06:40",
+    "ideia": "Improvisar acorde a acorde sobre C – Am – F – G"
+   }
+  },
+  {
+   "ref": 43,
+   "porque": "StichMethod mostra a troca de forma em Friend of the Devil (G, C, D, Am), com trechos curtos nas cordas agudas.",
+   "fonte": {
+    "id": "9xHvDRP5Yds#I10",
+    "tipo": "video",
+    "autor": "StichMethod Guitar",
+    "titulo": "Start Soloing WITH THE MUSIC. How to  KEEP TRACK Of The Chord Changes.",
+    "url": "https://www.youtube.com/watch?v=9xHvDRP5Yds&t=431s",
+    "video": "9xHvDRP5Yds",
+    "inicio": 431,
+    "momento": "07:13",
+    "ideia": "Trocar a pentatônica a cada acorde da progressão"
+   }
+  },
+  {
+   "ref": 54,
+   "porque": "Luiz Criasom põe a pentatônica de Sol maior sobre a de Lá menor e mostra que só uma nota muda.",
+   "fonte": {
+    "id": "W96yUcOEub0#I22",
+    "tipo": "video",
+    "autor": "Luiz Criasom",
+    "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+    "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=1089s",
+    "video": "W96yUcOEub0",
+    "inicio": 1089,
+    "momento": "18:11",
+    "ideia": "Empilhar pentatônica de Sol maior sobre a de Lá menor"
+   }
+  },
+  {
+   "ref": 88,
+   "porque": "Paul Davids demonstra o Gm emprestado: dá para trocar de pentatônica ou mudar só o B para B♭.",
+   "fonte": {
+    "id": "NbNH_C3QAS0#I26",
+    "tipo": "video",
+    "autor": "Paul Davids",
+    "titulo": "The Ultimate GUITAR SOLO Guide",
+    "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=857s",
+    "video": "NbNH_C3QAS0",
+    "inicio": 857,
+    "momento": "14:19",
+    "ideia": "Sol menor muda só o Si"
+   }
+  },
+  {
+   "ref": 76,
+   "porque": "Bradley Hall sai da caixa de Em e desloca o centro para o B, voltando a Em no riff.",
+   "fonte": {
+    "id": "-KZSGF0gY6E#I15",
+    "tipo": "video",
+    "autor": "Bradley Hall's Guitar School",
+    "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+    "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=608s",
+    "video": "-KZSGF0gY6E",
+    "inicio": 608,
+    "momento": "10:10",
+    "ideia": "Exemplo: de Em para Bm usando a pentatônica e o shape de B"
+   }
+  },
+  {
+   "ref": 119,
+   "porque": "Andrew Clarke leva o shape para B♭ na modulação de Gravity e volta a Sol junto com a banda.",
+   "fonte": {
+    "id": "hafoCeXWxAE#I33",
+    "tipo": "video",
+    "autor": "Andrew Clarke",
+    "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+    "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1767s",
+    "video": "hafoCeXWxAE",
+    "inicio": 1767,
+    "momento": "29:29",
+    "ideia": "Deslocar o shape para B♭ e voltar a G"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Dois acordes, duas caixas, um lugar",
+   "objetivo": "Sentir a troca de pentatônica de mesmo nome entre Am e G sem tirar a mão da casa 5.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Faça um loop de Am (2 compassos) e G (2 compassos), a 70 bpm.",
+    "Primeiro, só no Am: improvise com a caixa de Lá menor (V1) por 1 minuto.",
+    "Depois, só no G: a mesma caixa com B no lugar de C (V2) por 1 minuto.",
+    "Junte os dois: no Am use C; quando entrar o G, toque um B (anel) logo no tempo 1.",
+    "Faça frases de 2 a 4 notas por acorde e deixe sempre um tempo de silêncio antes da troca."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "braco",
+    "legenda": "Sol maior pentatônica na mesma região. É a caixa de Lá menor com o C trocado por B, a 3ª de G (anéis).",
+    "tonica": "G",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "1",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "3",
+      "alvo": true
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Troque G por F: a caixa de Am vira Fá maior pentatônica trocando E por F.",
+    "Faça o loop com Em–D e encontre você mesmo a nota que muda."
+   ],
+   "cuidado": "Não leve o C para o G: contra o B do acorde ele vira uma 4ª pendurada. Na troca, o B tem que aparecer.",
+   "inspirado_em": [
+    {
+     "id": "Ak_iM6H9rxE#I08",
+     "tipo": "video",
+     "autor": "Daniel Seriff",
+     "titulo": "The EASIEST Way To Play Over ANY Chord Changes",
+     "url": "https://www.youtube.com/watch?v=Ak_iM6H9rxE&t=240s",
+     "video": "Ak_iM6H9rxE",
+     "inicio": 240,
+     "momento": "04:02",
+     "ideia": "Estudar cada acorde sobre backing track separada"
+    },
+    {
+     "id": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I10",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Como improvisar na guitarra - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/como-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Treinar com progressões de dois acordes e aumentar"
+    },
+    {
+     "id": "Xs2umOucpSM#I22",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=779s",
+     "video": "Xs2umOucpSM",
+     "inicio": 779,
+     "momento": "13:01",
+     "ideia": "Estudar as pentatônicas separadas antes de juntá-las"
+    },
+    {
+     "id": "W96yUcOEub0#I22",
+     "tipo": "video",
+     "autor": "Luiz Criasom",
+     "titulo": "O Primeiro Passo Para Quem Quer IMPROVISAR em Cima de PROGRESSÕES de Acordes: AULA PRÁTICA",
+     "url": "https://www.youtube.com/watch?v=W96yUcOEub0&t=1089s",
+     "video": "W96yUcOEub0",
+     "inicio": 1089,
+     "momento": "18:11",
+     "ideia": "Empilhar pentatônica de Sol maior sobre a de Lá menor"
+    },
+    {
+     "id": "xKbtQM-qzSM#I09",
+     "tipo": "video",
+     "autor": "Signals Music Studio",
+     "titulo": "Improvising In Major Is Insanely Fun. Here's How To Do It! [GUITAR LESSON]",
+     "url": "https://www.youtube.com/watch?v=xKbtQM-qzSM&t=342s",
+     "video": "xKbtQM-qzSM",
+     "inicio": 342,
+     "momento": "05:44",
+     "ideia": "Casar as tônicas com cada acorde da progressão"
+    }
+   ]
+  },
+  {
+   "titulo": "Chord chasing em C–Am–F–G",
+   "objetivo": "Seguir quatro acordes com a pentatônica de cada um, pousando numa nota do acorde.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Toque a frase de V3 junto com o áudio até sair sem pensar.",
+    "Repare no que muda: o F entra no lugar do E no compasso de F, e o B no lugar do C no G.",
+    "Agora improvise na mesma região: no máximo 4 notas por acorde, terminando em 1, 3 ou 5.",
+    "Mire a tônica primeiro (C, A, F, G). Depois repita mirando a 3ª (E, C, A, B).",
+    "Compare: toque a mesma progressão só com Lá menor pentatônica e ouça o que se perde no F e no G."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "C–Am–F–G com uma pentatônica por acorde, sem sair da região da casa 5. Cada frase pousa numa nota do acorde e respira no tempo 4.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 5,
+          "nota": "C",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 8,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 6,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 4,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Mesma progressão na região da casa 8–10.",
+    "Ordem C–F–Am–G: as caixas são as mesmas, só a sequência muda."
+   ],
+   "cuidado": "Não recomece a escala do zero a cada acorde. A frase do novo acorde deve começar perto de onde a anterior parou.",
+   "inspirado_em": [
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I11",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Tocar devagar sobre a progressão"
+    },
+    {
+     "id": "9xHvDRP5Yds#I11",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Start Soloing WITH THE MUSIC. How to  KEEP TRACK Of The Chord Changes.",
+     "url": "https://www.youtube.com/watch?v=9xHvDRP5Yds&t=498s",
+     "video": "9xHvDRP5Yds",
+     "inicio": 498,
+     "momento": "08:20",
+     "ideia": "Tocar frases curtas em vez de solo longo"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I18",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=399s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 399,
+     "momento": "06:41",
+     "ideia": "Improvisar com uma pentatônica por acorde"
+    },
+    {
+     "id": "academiamusical--como-improvisar-na-guitarra-9d4f5f#I09",
+     "tipo": "documento",
+     "autor": "Ricardo Frade",
+     "titulo": "Como improvisar na guitarra - Academiamusical | Escola Online",
+     "url": "https://www.academiamusical.com.pt/tutoriais/guitarra/como-improvisar-na-guitarra/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Exemplo com progressão C - F - Am - G"
+    },
+    {
+     "id": "Xs2umOucpSM#I02",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=65s",
+     "video": "Xs2umOucpSM",
+     "inicio": 65,
+     "momento": "01:07",
+     "ideia": "Escalas para a progressão C – Am – F – G"
+    },
+    {
+     "id": "Xs2umOucpSM#I12",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=398s",
+     "video": "Xs2umOucpSM",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Improvisar acorde a acorde sobre C – Am – F – G"
+    }
+   ]
+  },
+  {
+   "titulo": "Popcorn Em–C–G–D: a corrente de uma nota",
+   "objetivo": "Descobrir que, num tom, cada troca de pentatônica muda só uma nota, e usar essa nota como alvo.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "No papel: Em = E G A B D; C = C D E G A; G = G A B D E; D = D E F♯ A B.",
+    "Marque a nota nova em cada troca: Em→C (B vira C), C→G (C vira B), G→D (G vira F♯), D→Em (F♯ vira G).",
+    "Escolha uma região (por exemplo, a caixa de Em na casa 12) e ache as quatro notas novas ali.",
+    "Loop de 1 compasso por acorde a 70 bpm: toque a nota nova exatamente no tempo 1 de cada acorde.",
+    "Depois preencha o resto do compasso com as outras notas da pentatônica da vez."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça o mesmo em Ré–Lá–Bm–Sol e escreva a corrente de notas novas.",
+    "Toque só as quatro notas novas, como uma melodia de quatro tempos."
+   ],
+   "cuidado": "Não trate a mudança como 'outra escala inteira'. Se você não sabe qual é a nota que mudou, ainda não seguiu a troca.",
+   "inspirado_em": [
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I08",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Improvisar sobre a progressão popcorn com pentatônicas de mesmo nome"
+    },
+    {
+     "id": "NbNH_C3QAS0#I23",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=757s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 757,
+     "momento": "12:39",
+     "ideia": "Progressão Ré-Lá-Si menor-Sol com pentatônicas"
+    },
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I05",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Encontrar a pentatônica na mesma região do braço"
+    },
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I06",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pentatônicas de acordes diatônicos diferem em uma nota"
+    },
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I07",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Troca de uma nota entre Em e D maior pentatônica"
+    },
+    {
+     "id": "NbNH_C3QAS0#I22",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=712s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 712,
+     "momento": "11:54",
+     "ideia": "Pentatônica de cada acorde diatônico"
+    }
+   ]
+  },
+  {
+   "titulo": "O acorde emprestado: Gm no meio de Ré",
+   "objetivo": "Lidar com um acorde fora do tom de dois jeitos: trocando a pentatônica ou mudando só a nota que colide.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Toque os acordes de V5 em loop: D–G–Gm–D, 1 compasso cada.",
+    "Improvise só com Ré maior pentatônica e ouça o choque no Gm, principalmente se pousar no B.",
+    "Solução 1: no Gm, toque Sol menor pentatônica (G B♭ C D F) e volte a Ré no D.",
+    "Solução 2: fique na caixa de Ré e troque só o B por B♭ (V4). A escala vira D E F♯ A B♭.",
+    "Grave as duas soluções e decida qual soa mais como uma linha só."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "D–G–Gm–D: a mesma caixa de Ré maior pentatônica. No Gm, só o B vira B♭ (casa 6 da corda 1). O resto fica igual.",
+    "tonica": "D",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Gm",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 5,
+          "nota": "A",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 6,
+          "nota": "B♭",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "D",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 5,
+          "nota": "E",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 7,
+          "nota": "D",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Em Mi maior com G e Am emprestados: use G maior penta (= Em penta) e A menor penta.",
+    "Depois de C, entra um B♭: ache a tônica B♭ numa forma conhecida e siga a mesma lógica."
+   ],
+   "cuidado": "No Gm, evite pousar no F♯: contra o acorde menor ele soa como erro, não como cor.",
+   "inspirado_em": [
+    {
+     "id": "NbNH_C3QAS0#I24",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=791s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 791,
+     "momento": "13:13",
+     "ideia": "Acorde externo ou empréstimo modal"
+    },
+    {
+     "id": "musictheoryforguitar--pentatonic-chord-tone-soloing-046047#I13",
+     "tipo": "documento",
+     "autor": "Tommaso Zillio",
+     "titulo": "THIS Is The RIGHT Way To Follow A Chord Progression When You SOLO",
+     "url": "https://www.musictheoryforguitar.com/pentatonic-chord-tone-soloing",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Alternar tonalidade maior com empréstimos"
+    },
+    {
+     "id": "NbNH_C3QAS0#I27",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=857s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 857,
+     "momento": "14:19",
+     "ideia": "Pentatônica de Sol menor sobre o acorde externo"
+    },
+    {
+     "id": "Xs2umOucpSM#I15",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=510s",
+     "video": "Xs2umOucpSM",
+     "inicio": 510,
+     "momento": "08:32",
+     "ideia": "Achar a tônica de um acorde inesperado"
+    },
+    {
+     "id": "NbNH_C3QAS0#I26",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=857s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 857,
+     "momento": "14:19",
+     "ideia": "Sol menor muda só o Si"
+    },
+    {
+     "id": "NbNH_C3QAS0#I30",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=972s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 972,
+     "momento": "16:14",
+     "ideia": "Alterar só a nota que muda"
+    },
+    {
+     "id": "NbNH_C3QAS0#I32",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=1036s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 1036,
+     "momento": "17:18",
+     "ideia": "Mudar o mínimo de notas possível"
+    },
+    {
+     "id": "NbNH_C3QAS0#I31",
+     "tipo": "video",
+     "autor": "Paul Davids",
+     "titulo": "The Ultimate GUITAR SOLO Guide",
+     "url": "https://www.youtube.com/watch?v=NbNH_C3QAS0&t=1004s",
+     "video": "NbNH_C3QAS0",
+     "inicio": 1004,
+     "momento": "16:46",
+     "ideia": "Escala 1-2-3-5-♭6 resultante"
+    }
+   ]
+  },
+  {
+   "titulo": "Em → B: o acorde que pede uma nota nova",
+   "objetivo": "Deslocar o centro para o V maior de uma tonalidade menor ajustando a nota que falta (D → D♯).",
+   "nivel": "intermediario",
+   "minutos": 10,
+   "passos": [
+    "Toque Em e B (V7) e ouça: o B tem D♯, e a pentatônica de Em tem D.",
+    "Toque V6 devagar: dois compassos em Em, um em B, voltando a Em.",
+    "No B, use as notas do acorde (B, D♯, F♯) e pouse no D♯, meia casa acima do D.",
+    "Improvise o mesmo ciclo: frases livres em Em e, no B, sempre passe pelo D♯.",
+    "Resolva cada volta no E do compasso 4 e segure."
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Em–Em–B–Em na região da casa 7. No B, o D da pentatônica de Mi menor sobe meia casa e vira D♯, a 3ª do B.",
+    "tonica": "E",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 10,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 7,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 10,
+          "nota": "A",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 8,
+          "nota": "G",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "B",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 7,
+          "nota": "F♯",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 8,
+          "nota": "D♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 9,
+          "nota": "B",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Em",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 9,
+          "nota": "E",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça o B na região da casa 14 da corda Lá, com tônica no dedo 1, e volte para a caixa de Em.",
+    "Troque B por B7 e acrescente o A (♭7) como nota de passagem até o G de Em."
+   ],
+   "cuidado": "Shape de Bm sobre B maior: o D da pentatônica de Si menor bate contra o D♯ do acorde. Priorize as notas do acorde.",
+   "inspirado_em": [
+    {
+     "id": "-KZSGF0gY6E#I14",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=543s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 543,
+     "momento": "09:05",
+     "ideia": "O centro do solo (home) é móvel e acompanha o acorde"
+    },
+    {
+     "id": "-KZSGF0gY6E#I15",
+     "tipo": "video",
+     "autor": "Bradley Hall's Guitar School",
+     "titulo": "How To EASILY Solo Over Chord Changes Like A PRO (Pt.1)",
+     "url": "https://www.youtube.com/watch?v=-KZSGF0gY6E&t=608s",
+     "video": "-KZSGF0gY6E",
+     "inicio": 608,
+     "momento": "10:10",
+     "ideia": "Exemplo: de Em para Bm usando a pentatônica e o shape de B"
+    },
+    {
+     "id": "lJRzTqOf1ro#I25",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=1860s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 1860,
+     "momento": "31:02",
+     "ideia": "Nota de fora da pentatônica sobre um acorde novo"
+    }
+   ]
+  },
+  {
+   "titulo": "Modulação: levar o shape de Sol para Si♭ e voltar",
+   "objetivo": "Mudar o centro do solo junto com a banda quando a música troca de tonalidade por uma seção inteira.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Monte um loop de 8 compassos: G–C–D–G e depois B♭–E♭–F–B♭.",
+    "Seção de Sol: Sol maior pentatônica com a tônica na casa 3 da corda Mi grave.",
+    "Seção de Si♭: o mesmo shape três casas acima, com a tônica na casa 6 da corda Mi grave.",
+    "Na virada, toque a tônica nova (B♭) exatamente no tempo 1 do primeiro compasso de Si♭.",
+    "Na volta, faça o mesmo com o G. Repita até a mudança sair sem parar o fluxo."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Em vez de subir o shape, ache Si♭ maior pentatônica na mesma região da casa 3 (tônica na casa 1 da corda Lá).",
+    "Ideia de Rick Beato: 2 compassos em Dó dórico e 2 em Mi♭ dórico, na mesma região do braço."
+   ],
+   "cuidado": "Atrasar a troca: se você continua em Sol no primeiro tempo do Si♭, todo mundo ouve. Antecipe mentalmente e conte os compassos.",
+   "inspirado_em": [
+    {
+     "id": "SYE8tDSLU0k#I11",
+     "tipo": "video",
+     "autor": "Tim Pierce Guitar",
+     "titulo": "How To Play BETTER Solos (The Gilmour Method)",
+     "url": "https://www.youtube.com/watch?v=SYE8tDSLU0k&t=329s",
+     "video": "SYE8tDSLU0k",
+     "inicio": 329,
+     "momento": "05:31",
+     "ideia": "Mudança para Lá menor com Mi menor de um compasso"
+    },
+    {
+     "id": "hafoCeXWxAE#I32",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1696s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1696,
+     "momento": "28:18",
+     "ideia": "Modulação no pré-refrão de Gravity"
+    },
+    {
+     "id": "hafoCeXWxAE#I34",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1803s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1803,
+     "momento": "30:05",
+     "ideia": "Trocar de tonalidade com a banda na hora da mudança"
+    },
+    {
+     "id": "hafoCeXWxAE#I35",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1821s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1821,
+     "momento": "30:23",
+     "ideia": "Modulações curtas em músicas antigas"
+    },
+    {
+     "id": "hafoCeXWxAE#I33",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=1767s",
+     "video": "hafoCeXWxAE",
+     "inicio": 1767,
+     "momento": "29:29",
+     "ideia": "Deslocar o shape para B♭ e voltar a G"
+    },
+    {
+     "id": "N1shDBha6Y0#I22",
+     "tipo": "video",
+     "autor": "Rick Beato",
+     "titulo": "The MOST Efficient Way to PRACTICE Soloing",
+     "url": "https://www.youtube.com/watch?v=N1shDBha6Y0&t=1516s",
+     "video": "N1shDBha6Y0",
+     "inicio": 1516,
+     "momento": "25:18",
+     "ideia": "Alternar dois compassos de Dórico de C e Mi♭ Dórico"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Trocar a escala maior ou menor inteira a cada acorde. Isso muda o tom a cada troca; a pentatônica de mesmo nome segue o acorde sem sair da tonalidade.",
+  "Pular pelo braço para achar a caixa 'oficial' de cada acorde, em vez de procurar a nova pentatônica na região onde a mão já está.",
+  "Despejar o shape inteiro da nova pentatônica. Trocar de escala não substitui escolher a nota de chegada.",
+  "Tratar cada acorde como uma ilha: frases que começam do zero a cada troca soam desconectadas.",
+  "Tentar acompanhar trocas rápidas antes de dominar as lentas. Comece com acordes longos, poucas notas e um andamento baixo.",
+  "Procurar um modo para cada acorde fora do tom quando basta mudar uma nota ou usar a pentatônica do próprio acorde."
+ ],
+ "resumo": [
+  "Acorde maior → pentatônica maior de mesma tônica; acorde menor → pentatônica menor.",
+  "Funciona porque cada pentatônica já contém a tríade do acorde.",
+  "Dentro do tom, a troca costuma mudar uma nota só, e ela é um ótimo alvo.",
+  "Acorde de fora: use a pentatônica dele ou mude só a nota que colide.",
+  "Na modulação, mova o shape até a nova tônica e troque junto com a banda, no tempo 1."
+ ],
+ "proximos_passos": "Para refinar o que tocar em cada troca, siga para \"Pensar à frente: linhas que levam ao próximo acorde\" e \"Aproximação cromática, enclosures e notas de passagem\". Se ainda está em dúvida entre seguir cada acorde ou usar uma escala só, veja \"Centro tonal vs. acorde a acorde: escolher a abordagem\". Para trocar a pentatônica por arpejos, vá para \"Arpejos: conceito e formas básicas\" e \"Arpejo como melodia: combinar com escala e pentatônica\".",
+ "_meta": {
+  "subcategoria": "C09.3",
+  "modulo": {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes"
+  },
+  "nome": "Seguir as trocas: escala por acorde e chord chasing",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:16:36",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 35964,
+   "cache_read": 4913,
+   "output": 12834,
+   "thinking": 4297,
+   "turns": 2,
+   "custo_nominal": 0.5733826000000001
+  }
+ }
+}

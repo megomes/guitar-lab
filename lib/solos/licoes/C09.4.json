@@ -1,0 +1,1874 @@
+{
+ "titulo": "Centro tonal ou acorde a acorde: escolher a abordagem",
+ "gancho": "A mesma escala pode soar como uma melodia que canta ou como uma lista de notas sem rumo. A diferença está em saber onde você está: na tonalidade, no acorde ou nos dois ao mesmo tempo.",
+ "porque_importa": "Toda progressão faz a mesma pergunta: fico numa escala só ou troco a cada acorde? Se você responde no automático, o solo fica sem rumo ou fica picotado. Aqui você aprende a avaliar a progressão, escolher o caminho e misturar as duas abordagens dentro do mesmo solo.",
+ "ilustracao": "mapa",
+ "conceito": [
+  {
+   "titulo": "Duas estradas: horizontal e vertical",
+   "texto": "Na abordagem horizontal, ou de centro tonal, você escolhe uma escala que serve para um grupo de acordes e busca fios melódicos que atravessem todos eles. O resultado é mais cantável, mas pode perder o sabor de cada acorde. Na abordagem vertical, ou acorde a acorde, cada acorde vira uma ilha com escala ou arpejo próprio. Ela sempre soa de acordo com a harmonia, mas pode ficar picotada se faltar transição. Nenhuma das duas é a certa. São ferramentas diferentes.",
+   "destaque": "Horizontal canta, vertical descreve. O bom solo usa as duas.",
+   "visual": {
+    "id": "V1",
+    "tipo": "acordes",
+    "legenda": "C–F–Am–G: os quatro acordes cabem no campo de Dó maior (I–IV–vi–V).",
+    "tonica": "C",
+    "acordes": [
+     {
+      "nome": "C",
+      "digitacao": "x32010"
+     },
+     {
+      "nome": "F",
+      "digitacao": "133211"
+     },
+     {
+      "nome": "Am",
+      "digitacao": "x02210"
+     },
+     {
+      "nome": "G",
+      "digitacao": "320003"
+     }
+    ],
+    "compassos": [],
+    "marcas": [],
+    "bpm": 70
+   }
+  },
+  {
+   "titulo": "Antes de tocar, avalie a progressão",
+   "texto": "Pergunte: todos os acordes cabem num mesmo campo harmônico? C–F–Am–G cabe em Dó (I–IV–vi–V), então a escala de Dó serve para tudo. Isso é uma progressão tonal. Se aparece um acorde de fora, como um E7 em Lá menor ou um B♭ em Dó, a progressão é sortida, e esse trecho pede atenção acorde a acorde. Some a isso duas outras perguntas: as trocas são rápidas ou lentas? E o estilo pede melodia ou mudanças explícitas?",
+   "destaque": "Primeiro a avaliação, depois a escala.",
+   "visual": null
+  },
+  {
+   "titulo": "Chord-scale: escala por acorde, mas a escala certa",
+   "texto": "O sistema chord-scale associa uma escala a cada acorde e troca de escala na troca de acorde. O critério é a escala conter as notas do acorde sem colidir com elas. Sobre Dm7 (D F A C), servem Ré dórico, eólio e frígio, porque todos têm 1, ♭3, 5 e ♭7. A armadilha é pegar a escala maior da tônica de cada acorde: sobre B7, a escala de Si maior traz A♯, que bate de frente com o A do acorde. Quando o sistema é usado como fórmula, o solo soa a exercício. Ele serve de mapa, não de música pronta.",
+   "destaque": "Uma escala serve sobre o acorde quando contém as notas dele sem bater com nenhuma.",
+   "visual": null
+  },
+  {
+   "titulo": "Visão dupla: tonalidade e acorde ao mesmo tempo",
+   "texto": "O pensamento mais útil não é escolher uma abordagem ou a outra, e sim usar as duas camadas ao mesmo tempo. A escala do tom é o chão e as notas do acorde atual são os pontos de chegada. Por exemplo: 'Estou em Dó maior, agora soa G, então B, D e G são minhas chegadas.' A linha corre pela escala e pousa nas notas do acorde nos tempos fortes. Ver só a escala é ver metade do quadro.",
+   "destaque": "Pense na escala para se mover e no acorde para chegar.",
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Visão dupla: a escala de Dó corre por baixo e os tempos 1 e 3 caem em notas do acorde do momento (anel). A linha flui e mesmo assim mostra a harmonia.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  },
+  {
+   "titulo": "Misture por trecho e pense em blocos",
+   "texto": "Trocar de escala a cada acorde isolado sobrecarrega a cabeça e quebra as frases. Agrupe os acordes em blocos, como 'esses quatro são Dó maior' ou 'aqui entra um acorde de fora', e crie uma ideia que atravesse o bloco inteiro. Use a abordagem horizontal no trecho diatônico e a vertical onde a harmonia sai do tom ou troca rápido. Uma boa melodia costuma funcionar sobre vários acordes, então teste antes de trocar.",
+   "destaque": "Divida a música em trechos e decida a abordagem de cada um.",
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Plano misto em Lá menor/Dó: em F e G a linha fica na escala do tom (horizontal). No E7, que está fora do tom, ela muda para o arpejo com G♯ (vertical) e resolve no A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   }
+  }
+ ],
+ "fontes_destaque": [
+  {
+   "ref": 18,
+   "porque": "Bertamini improvisa sobre C–F–Am–G só com a escala de Dó, e dá para ouvir a mesma escala mudar de cor a cada acorde.",
+   "fonte": {
+    "id": "yDiWrTsQ1tc#I15",
+    "tipo": "video",
+    "autor": "Daniel Bertamini",
+    "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+    "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=334s",
+    "video": "yDiWrTsQ1tc",
+    "inicio": 334,
+    "momento": "05:36",
+    "ideia": "Improvisar sobre C-F-Am-G com a escala de Dó"
+   }
+  },
+  {
+   "ref": 52,
+   "porque": "Steve Stine fica numa única posição sobre A–D–G e compara na hora com a versão que segue cada acorde.",
+   "fonte": {
+    "id": "KorP9lq1voU#I27",
+    "tipo": "video",
+    "autor": "Steve Stine Guitar Lessons",
+    "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+    "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=783s",
+    "video": "KorP9lq1voU",
+    "inicio": 783,
+    "momento": "13:05",
+    "ideia": "Ficar na posição de A sobre A-D-G"
+   }
+  },
+  {
+   "ref": 59,
+   "porque": "StichMethod mostra as duas camadas no braço, a escala e o acorde do momento, e como enxergá-las juntas.",
+   "fonte": {
+    "id": "o1qXU6Nm_d4#I16",
+    "tipo": "video",
+    "autor": "StichMethod Guitar",
+    "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+    "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=578s",
+    "video": "o1qXU6Nm_d4",
+    "inicio": 578,
+    "momento": "09:40",
+    "ideia": "Ver as duas camadas ao mesmo tempo"
+   }
+  },
+  {
+   "ref": 45,
+   "porque": "Active Melody toca a escala maior de cada acorde sobre a progressão, e dá para ouvir o choque do A♯ contra o B7.",
+   "fonte": {
+    "id": "aHzmIWB0P00#I05",
+    "tipo": "video",
+    "autor": "Active Melody",
+    "titulo": "Play the chord changes with just ONE scale! (using modes) - How Modes work. Guitar Lesson VG31",
+    "url": "https://www.youtube.com/watch?v=aHzmIWB0P00&t=400s",
+    "video": "aHzmIWB0P00",
+    "inicio": 400,
+    "momento": "06:42",
+    "ideia": "Trocar a escala a cada acorde pela raiz"
+   }
+  },
+  {
+   "ref": 69,
+   "porque": "Jens Larsen explica por que pensar em blocos de acordes gera frases melhores do que trocar de escala a cada acorde.",
+   "fonte": {
+    "id": "7mpVem0mrQE#I15",
+    "tipo": "video",
+    "autor": "Jens Larsen",
+    "titulo": "Beginner Mistakes To Avoid: How To Solo Over Chords",
+    "url": "https://www.youtube.com/watch?v=7mpVem0mrQE&t=317s",
+    "video": "7mpVem0mrQE",
+    "inicio": 317,
+    "momento": "05:19",
+    "ideia": "Pensar em progressões e não em acordes isolados"
+   }
+  },
+  {
+   "ref": 58,
+   "porque": "Nicky V demonstra a visão dupla: tríade e escala-mãe visíveis ao mesmo tempo enquanto ele sola.",
+   "fonte": {
+    "id": "t8SmU7wIxnc#I05",
+    "tipo": "video",
+    "autor": "Nicky V",
+    "titulo": "The Secret To Melodic Soloing...The Session Method.",
+    "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=322s",
+    "video": "t8SmU7wIxnc",
+    "inicio": 322,
+    "momento": "05:24",
+    "ideia": "Visão dupla: tríade e escala ao mesmo tempo"
+   }
+  }
+ ],
+ "exercicios": [
+  {
+   "titulo": "Avaliação: tonal ou sortida?",
+   "objetivo": "Decidir a abordagem antes de tocar a primeira nota, verificando se a progressão cabe num campo harmônico.",
+   "nivel": "iniciante",
+   "minutos": 8,
+   "passos": [
+    "Escreva estas progressões: (a) C–F–Am–G; (b) G–Em–C–D; (c) Am–F–G–E7; (d) C–B♭–F–C.",
+    "Para cada uma, procure um campo maior que contenha todos os acordes e anote o grau de cada acorde (I, ii, iii, IV, V, vi, vii).",
+    "Marque o resultado: 'tonal' (uma escala para tudo) ou 'sortida' (circule o acorde intruso).",
+    "Para os intrusos, anote a nota que muda: o E7 traz G♯ no lugar de G e o B♭ traz B♭ no lugar de B.",
+    "Respostas: (a) Dó, tonal; (b) Sol, tonal; (c) Lá menor com E7 de fora (G♯); (d) Dó com B♭ emprestado."
+   ],
+   "visual": null,
+   "variacoes": [
+    "Faça o mesmo com três músicas que você toca, tirando os acordes de uma cifra.",
+    "Cronometre: tente avaliar cada progressão em menos de 30 segundos."
+   ],
+   "cuidado": "Chamar de tonal uma progressão só porque o primeiro acorde é o tom. Confira acorde por acorde, inclusive a qualidade (E e E7 não são Em).",
+   "inspirado_em": [
+    {
+     "id": "z1YGMPsz-rU#I06",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=271s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 271,
+     "momento": "04:33",
+     "ideia": "Progressão tonal x progressão sortida"
+    },
+    {
+     "id": "z1YGMPsz-rU#I07",
+     "tipo": "video",
+     "autor": "Israel Rodrigues",
+     "titulo": "Improvisação Tonal e Modal (MODOS GREGOS)",
+     "url": "https://www.youtube.com/watch?v=z1YGMPsz-rU&t=305s",
+     "video": "z1YGMPsz-rU",
+     "inicio": 305,
+     "momento": "05:07",
+     "ideia": "Verificar se a progressão cabe em um campo harmônico"
+    }
+   ]
+  },
+  {
+   "titulo": "Horizontal: um fio atravessa quatro acordes",
+   "objetivo": "Sentir a abordagem de centro tonal com uma só escala e uma linha cantável que não se preocupa com cada troca.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Coloque C–F–Am–G em loop, um compasso por acorde, a 72 bpm.",
+    "Toque a frase de V2 várias vezes, sem pressa, e repare que é uma única linha descendente na escala de Dó.",
+    "Ouça o que a mesma nota vira em cada acorde: o E é a 3 do C e a 7 do F.",
+    "Improvise 8 voltas só com a escala de Dó maior em primeira posição, priorizando graus conjuntos e linhas longas.",
+    "Anote quais finais de frase pareceram estáveis e quais pediram continuação."
+   ],
+   "visual": {
+    "id": "V2",
+    "tipo": "tab",
+    "legenda": "Horizontal: um único fio descendente na escala de Dó atravessa os quatro acordes. Ninguém trocou de escala, e a linha canta.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2.5,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Leve a mesma ideia para Sol maior sobre G–Em–C–D.",
+    "Use só a pentatônica de Dó maior (C D E G A) e compare: fica mais segura, mas tem menos cor."
+   ],
+   "cuidado": "Confundir horizontal com tocar a esmo. A linha precisa ter direção, mesmo sem olhar cada acorde.",
+   "inspirado_em": [
+    {
+     "id": "yDiWrTsQ1tc#I15",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=334s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 334,
+     "momento": "05:36",
+     "ideia": "Improvisar sobre C-F-Am-G com a escala de Dó"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I14",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=301s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 301,
+     "momento": "05:03",
+     "ideia": "Improvisação no centro tonal"
+    },
+    {
+     "id": "hafoCeXWxAE#I07",
+     "tipo": "video",
+     "autor": "Andrew Clarke",
+     "titulo": "Improvising Guitar Solos For Beginners - The Ultimate Guide",
+     "url": "https://www.youtube.com/watch?v=hafoCeXWxAE&t=398s",
+     "video": "hafoCeXWxAE",
+     "inicio": 398,
+     "momento": "06:40",
+     "ideia": "Não é preciso uma escala diferente para cada acorde"
+    },
+    {
+     "id": "blog--p-20309-5f6c7e#I05",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Solo horizontal (linear)"
+    }
+   ]
+  },
+  {
+   "titulo": "Vertical: um arpejo por acorde",
+   "objetivo": "Ouvir a força e o problema da abordagem acorde a acorde: harmonia nítida, mas linha que pula.",
+   "nivel": "iniciante",
+   "minutos": 10,
+   "passos": [
+    "Mesmo loop, C–F–Am–G a 72 bpm.",
+    "Toque V3: em cada compasso, só as notas do acorde (1, 3, 5).",
+    "Repita fechando os olhos e ouvindo: dá para reconhecer o acorde só pela sua linha?",
+    "Agora toque V2 e V3 em sequência e compare. Qual soa mais como melodia e qual descreve melhor a harmonia?",
+    "Improvise 4 voltas usando só notas do acorde, mas mudando o ritmo a cada volta."
+   ],
+   "visual": {
+    "id": "V3",
+    "tipo": "tab",
+    "legenda": "Vertical: um arpejo por acorde, na mesma região. Cada compasso mostra o acorde com nitidez, mas a linha pula de um bloco para o outro.",
+    "tonica": "C",
+    "bpm": 72,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 3,
+          "nota": "G",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 4,
+          "casa": 3,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 1,
+          "nota": "F",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Comece cada arpejo pela nota do acorde mais próxima da última nota tocada, e não pela tônica.",
+    "Faça os arpejos descendo em vez de subindo."
+   ],
+   "cuidado": "Começar sempre pela tônica no tempo 1. É isso que deixa o vertical robótico e cheio de saltos.",
+   "inspirado_em": [
+    {
+     "id": "blog--p-20309-5f6c7e#I04",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Solo vertical (tocar as mudanças)"
+    },
+    {
+     "id": "_kK1_apm-qs#I07",
+     "tipo": "video",
+     "autor": "Active Melody",
+     "titulo": "Land on THESE notes when improvising lead guitar - Guitar Lesson - EP527",
+     "url": "https://www.youtube.com/watch?v=_kK1_apm-qs&t=200s",
+     "video": "_kK1_apm-qs",
+     "inicio": 200,
+     "momento": "03:22",
+     "ideia": "Duas abordagens para improvisar sobre a música"
+    },
+    {
+     "id": "lJRzTqOf1ro#I24",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Intervalos/Notas Alvo na GUITARRA TODA - Pentatônica Maior e Menor",
+     "url": "https://www.youtube.com/watch?v=lJRzTqOf1ro&t=1824s",
+     "video": "lJRzTqOf1ro",
+     "inicio": 1824,
+     "momento": "30:26",
+     "ideia": "Acorde por acorde ou centro tonal"
+    }
+   ]
+  },
+  {
+   "titulo": "Visão dupla: escala corre, acorde recebe",
+   "objetivo": "Juntar as duas abordagens: andar pela escala do tom e chegar a notas do acorde nos tempos fortes.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Loop C–F–Am–G a 70 bpm. Antes de tocar, diga em voz alta as notas de cada acorde: C-E-G, F-A-C, A-C-E, G-B-D.",
+    "Toque V4 e observe os anéis: os tempos 1 e 3 sempre caem numa nota do acorde e o resto é escala de Dó.",
+    "Improvise com esta regra: só os tempos 1 e 3 precisam ser notas do acorde, o resto é livre dentro da escala.",
+    "Depois afrouxe a regra e exija só o tempo 1 de cada compasso.",
+    "Por último, toque livre e confira de ouvido se as chegadas continuam claras."
+   ],
+   "visual": {
+    "id": "V4",
+    "tipo": "tab",
+    "legenda": "Visão dupla: a escala de Dó corre por baixo e os tempos 1 e 3 caem em notas do acorde do momento (anel). A linha flui e mesmo assim mostra a harmonia.",
+    "tonica": "C",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "C",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "7",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "9",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1.5,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "5",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "4",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "♭3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Faça a mesma regra em Sol maior sobre G–Em–C–D, uma região acima no braço.",
+    "Use notas mais longas nas chegadas e notas rápidas no caminho."
+   ],
+   "cuidado": "Parar a linha para procurar a nota do acorde. A escala precisa levar até ela sem frear.",
+   "inspirado_em": [
+    {
+     "id": "t8SmU7wIxnc#I05",
+     "tipo": "video",
+     "autor": "Nicky V",
+     "titulo": "The Secret To Melodic Soloing...The Session Method.",
+     "url": "https://www.youtube.com/watch?v=t8SmU7wIxnc&t=322s",
+     "video": "t8SmU7wIxnc",
+     "inicio": 322,
+     "momento": "05:24",
+     "ideia": "Visão dupla: tríade e escala ao mesmo tempo"
+    },
+    {
+     "id": "o1qXU6Nm_d4#I16",
+     "tipo": "video",
+     "autor": "StichMethod Guitar",
+     "titulo": "Where Guitar IMPROVISATION Begins: The [ABSOLUTE] Fundamental MindSet",
+     "url": "https://www.youtube.com/watch?v=o1qXU6Nm_d4&t=578s",
+     "video": "o1qXU6Nm_d4",
+     "inicio": 578,
+     "momento": "09:40",
+     "ideia": "Ver as duas camadas ao mesmo tempo"
+    },
+    {
+     "id": "tocandoguitarraeviolao--passos-para-improvisar-na-guitarra-conectando-escalas-pentat-b43d31#I12",
+     "tipo": "documento",
+     "autor": "Publicado por Violão; Guitarra",
+     "titulo": "COMO IMPROVISAR na Guitarra: 7 Passos para Criar Solos Mais Musicais",
+     "url": "https://tocandoguitarraeviolao.wordpress.com/2026/08/29/passos-para-improvisar-na-guitarra-conectando-escalas-pentatonicas-arpejos-campo-harmonico-ritmo-e-fraseado/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pensar na tonalidade e no acorde ao mesmo tempo"
+    },
+    {
+     "id": "fretjam--how-to-solo-over-chord-changes-html-a60088#I21",
+     "tipo": "documento",
+     "autor": "www.fretjam.com",
+     "titulo": "How to Solo Over Chord Changes - 3 Step Approach",
+     "url": "https://www.fretjam.com/how-to-solo-over-chord-changes.html",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Praticar as notas da escala com as backing tracks"
+    },
+    {
+     "id": "5e0SpzCw3IA#I20",
+     "tipo": "video",
+     "autor": "Brian Kelly",
+     "titulo": "Chord Tone Soloing Series (part 1) - Targeting Chord Tones in the \"Home Box\"",
+     "url": "https://www.youtube.com/watch?v=5e0SpzCw3IA&t=1066s",
+     "video": "5e0SpzCw3IA",
+     "inicio": 1066,
+     "momento": "17:48",
+     "ideia": "Misturar pensamento de escala com pensamento de acordes"
+    }
+   ]
+  },
+  {
+   "titulo": "Uma posição só sobre A–D–G",
+   "objetivo": "Comparar ficar num centro com seguir cada acorde e aprender a escolher o centro.",
+   "nivel": "intermediario",
+   "minutos": 12,
+   "passos": [
+    "Coloque A–D–G em loop, um compasso cada. A abre e fecha a volta, então é o acorde principal.",
+    "Fique na região da 5ª casa de V5 o tempo todo: são as notas de Ré maior, que vistas a partir de Lá formam o mixolídio. Improvise 8 voltas sem trocar de posição.",
+    "Mire as tônicas com anel no início de cada acorde: A sobre A, D sobre D, G sobre G.",
+    "Agora repita seguindo cada acorde: uma região diferente para A, para D e para G.",
+    "Teste também D e G como centro e decida qual versão soou mais musical, e por quê."
+   ],
+   "visual": {
+    "id": "V5",
+    "tipo": "braco",
+    "legenda": "Região da 5ª casa para A–D–G. São as notas de Ré maior, ou Lá mixolídio, que servem para os três acordes. Os anéis mostram as tônicas de A, D e G. Graus em relação a Lá.",
+    "tonica": "A",
+    "marcas": [
+     {
+      "corda": 6,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 6,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 4,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 5,
+      "casa": 5,
+      "nota": "D",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 5,
+      "casa": 7,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 4,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 4,
+      "casa": 5,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": true
+     },
+     {
+      "corda": 4,
+      "casa": 7,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 3,
+      "casa": 4,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 6,
+      "nota": "C♯",
+      "grau": "3",
+      "alvo": false
+     },
+     {
+      "corda": 3,
+      "casa": 7,
+      "nota": "D",
+      "grau": "4",
+      "alvo": true
+     },
+     {
+      "corda": 2,
+      "casa": 5,
+      "nota": "E",
+      "grau": "5",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 7,
+      "nota": "F♯",
+      "grau": "6",
+      "alvo": false
+     },
+     {
+      "corda": 2,
+      "casa": 8,
+      "nota": "G",
+      "grau": "♭7",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 5,
+      "nota": "A",
+      "grau": "1",
+      "alvo": true
+     },
+     {
+      "corda": 1,
+      "casa": 7,
+      "nota": "B",
+      "grau": "2",
+      "alvo": false
+     }
+    ],
+    "compassos": [],
+    "acordes": [],
+    "bpm": 70
+   },
+   "variacoes": [
+    "Troque as tônicas-alvo por terças: C♯ sobre A, F♯ sobre D e B sobre G (B fica na corda 3, casa 4).",
+    "Use só a pentatônica de Lá maior na mesma região e compare com a escala completa."
+   ],
+   "cuidado": "Achar que o G soa errado porque o tom é Lá. O G é o ♭7 de Lá mixolídio e é justamente o que dá a cor dessa progressão.",
+   "inspirado_em": [
+    {
+     "id": "KorP9lq1voU#I27",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=783s",
+     "video": "KorP9lq1voU",
+     "inicio": 783,
+     "momento": "13:05",
+     "ideia": "Ficar na posição de A sobre A-D-G"
+    },
+    {
+     "id": "KorP9lq1voU#I28",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=815s",
+     "video": "KorP9lq1voU",
+     "inicio": 815,
+     "momento": "13:37",
+     "ideia": "Testar outros centros de posição"
+    },
+    {
+     "id": "KorP9lq1voU#I25",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=705s",
+     "video": "KorP9lq1voU",
+     "inicio": 705,
+     "momento": "11:47",
+     "ideia": "Escolher o acorde principal"
+    },
+    {
+     "id": "KorP9lq1voU#I24",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "Learn To Solo In 5 Minutes - 6 Note Soloing Technique - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=KorP9lq1voU&t=637s",
+     "video": "KorP9lq1voU",
+     "inicio": 637,
+     "momento": "10:39",
+     "ideia": "Progressão de acordes A-D-G"
+    }
+   ]
+  },
+  {
+   "titulo": "Plano misto: horizontal no tom, vertical no intruso",
+   "objetivo": "Dividir a progressão em trechos e trocar de abordagem só onde a harmonia exige.",
+   "nivel": "avancado",
+   "minutos": 15,
+   "passos": [
+    "Loop de 4 compassos: F | G | E7 | Am, a 70 bpm.",
+    "Faça a avaliação: F, G e Am estão em Lá menor/Dó, mas o E7 traz G♯ e fica fora.",
+    "Toque V6: nos dois primeiros compassos, linha na escala do tom; no E7, arpejo com G♯; no Am, resolução G♯ → A.",
+    "Improvise com o plano: liberdade horizontal em F e G e chegada obrigatória no G♯ (ou no D, a ♭7) durante o E7.",
+    "Grave 2 minutos e ouça: a troca para o E7 aparece no seu solo ou só na base?"
+   ],
+   "visual": {
+    "id": "V6",
+    "tipo": "tab",
+    "legenda": "Plano misto em Lá menor/Dó: em F e G a linha fica na escala do tom (horizontal). No E7, que está fora do tom, ela muda para o arpejo com G♯ (vertical) e resolve no A.",
+    "tonica": "A",
+    "bpm": 70,
+    "compassos": [
+     {
+      "acorde": "F",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "6",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 1,
+          "nota": "C",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "G",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "2",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 0,
+          "nota": "G",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "E7",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 1,
+          "casa": 0,
+          "nota": "E",
+          "grau": "1",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 1,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 3,
+          "nota": "D",
+          "grau": "♭7",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 2,
+        "notas": [
+         {
+          "corda": 2,
+          "casa": 0,
+          "nota": "B",
+          "grau": "5",
+          "alvo": false
+         }
+        ]
+       },
+       {
+        "t": 3,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 1,
+          "nota": "G♯",
+          "grau": "3",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "acorde": "Am",
+      "tempos": [
+       {
+        "t": 0,
+        "notas": [
+         {
+          "corda": 3,
+          "casa": 2,
+          "nota": "A",
+          "grau": "1",
+          "alvo": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "marcas": [],
+    "acordes": []
+   },
+   "variacoes": [
+    "Estenda para Am–Dm–G–C–F–Dm–E7–Am e marque no papel onde fica cada abordagem antes de tocar.",
+    "Sobre o E7, troque o arpejo por uma escala menor harmônica de Lá (A B C D E F G♯) e compare."
+   ],
+   "cuidado": "Tocar G natural sobre o E7 por inércia da escala do tom. É exatamente a nota que entrega que você não ouviu a troca.",
+   "inspirado_em": [
+    {
+     "id": "Xs2umOucpSM#I17",
+     "tipo": "video",
+     "autor": "Steve Stine Guitar Lessons",
+     "titulo": "How to Solo over ANY CHORD Using the Pentatonic Scale - Steve Stine Guitar Lesson",
+     "url": "https://www.youtube.com/watch?v=Xs2umOucpSM&t=575s",
+     "video": "Xs2umOucpSM",
+     "inicio": 575,
+     "momento": "09:37",
+     "ideia": "Quando usar chord chasing"
+    },
+    {
+     "id": "yDiWrTsQ1tc#I27",
+     "tipo": "video",
+     "autor": "Daniel Bertamini",
+     "titulo": "Improvisação Por Acorde: Como Pensar (Guitarra e Violão)!",
+     "url": "https://www.youtube.com/watch?v=yDiWrTsQ1tc&t=778s",
+     "video": "yDiWrTsQ1tc",
+     "inicio": 778,
+     "momento": "13:00",
+     "ideia": "Não há uma única forma certa de pensar o improviso"
+    },
+    {
+     "id": "itLSHk5jnTI#I01",
+     "tipo": "video",
+     "autor": "fretjam",
+     "titulo": "How to Solo Over Chord Changes - 3 Approaches",
+     "url": "https://www.youtube.com/watch?v=itLSHk5jnTI&t=37s",
+     "video": "itLSHk5jnTI",
+     "inicio": 37,
+     "momento": "00:39",
+     "ideia": "Combinar as abordagens para não limitar o solo"
+    },
+    {
+     "id": "blog--p-20309-5f6c7e#I06",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Mastering Soloing Over Chord Changes: A Guitarist’s Guide to Melodic Freedom",
+     "url": "https://blog.truefire.com/?p=20309",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Misture linhas horizontais com arpejos verticais"
+    },
+    {
+     "id": "blog--guitar-phrasing-97a22b#I18",
+     "tipo": "documento",
+     "autor": "TrueFire",
+     "titulo": "Guitar Phrasing: A Player's Guide to Sounding Musical",
+     "url": "https://blog.truefire.com/guitar-lessons/guitar-phrasing/",
+     "video": null,
+     "inicio": null,
+     "momento": null,
+     "ideia": "Pensar na progressão inteira, não em escala por acorde"
+    }
+   ]
+  }
+ ],
+ "erros_comuns": [
+  "Sair tocando a escala do tom sem olhar os acordes. Funciona, mas soa sem rumo e desperdiça a harmonia.",
+  "Trocar para a escala maior da tônica de cada acorde (Si maior sobre B7): o A♯ colide com o A do acorde.",
+  "Trocar de escala a cada acorde isolado, o que picota a frase e sobrecarrega a cabeça. Pense em blocos.",
+  "Usar a pentatônica como garantia: ela soa segura, mas nem toda nota dela é nota do acorde do momento.",
+  "Escolher uma abordagem para a música inteira, quando o melhor é decidir trecho por trecho.",
+  "Fazer a abordagem vertical sempre pela tônica no tempo 1, o que soa como exercício e não como melodia."
+ ],
+ "resumo": [
+  "Horizontal (centro tonal): uma escala para o grupo de acordes. Soa mais cantável, mas pode perder a cor de cada acorde.",
+  "Vertical (acorde a acorde/chord-scale): escala ou arpejo por acorde. Mostra bem a harmonia, mas corre o risco de ficar picotado.",
+  "Avalie antes de tocar: se a progressão cabe num campo, use uma escala só; se um acorde sai do tom, ele pede atenção vertical.",
+  "Visão dupla: a escala para se mover e as notas do acorde para chegar nos tempos fortes.",
+  "Misture por trecho e pense em blocos, não em acordes isolados."
+ ],
+ "proximos_passos": "Para afiar as chegadas, revise \"Notas do acorde, repouso e tensão-resolução\" e \"Guide tones e condução de vozes\". Para ligar um acorde ao seguinte, siga para \"Aproximação cromática, enclosures e notas de passagem\" e \"Pensar à frente: linhas que levam ao próximo acorde\". Para aprofundar o lado vertical, estude \"Arpejo como melodia: combinar com escala e pentatônica\" e \"Modos na prática: tonal vs. modal e troca de modo\".",
+ "_meta": {
+  "subcategoria": "C09.4",
+  "modulo": {
+   "id": "C09",
+   "nome": "Notas-alvo e solar sobre os acordes"
+  },
+  "nome": "Centro tonal vs. acorde a acorde: escolher a abordagem",
+  "modelo": "claude-opus-5-5",
+  "via": "agent-sdk",
+  "effort": "medium",
+  "gerado_em": "2026-10-08T18:18:51",
+  "erros_restantes": [],
+  "tentativas": 1,
+  "uso": {
+   "input": 2,
+   "cache_write": 23499,
+   "cache_read": 4913,
+   "output": 14832,
+   "thinking": 5180,
+   "turns": 2,
+   "custo_nominal": 0.5040156
+  }
+ }
+}
