@@ -49,7 +49,70 @@ function ZoomToggle() {
       aria-label={zoom.on ? 'voltar o braço' : 'ampliar o centro'}
     >
       {zoom.on ? <Minimize2 size={14} strokeWidth={1.9} /> : <Maximize2 size={14} strokeWidth={1.9} />}
+      <span className="stage-zoom-lbl">braço</span>
     </button>
+  )
+}
+
+/** No celular o palco e o braço não cabem juntos: este botão, no canto do braço, troca para o
+ * centro. A volta é o botão do canto do palco. Fora do celular ele não aparece. */
+export function StageSwap() {
+  const zoom = useContext(StageZoom)
+  if (!zoom) return null
+  return (
+    <button type="button" className="stage-swap" onClick={zoom.toggle} aria-label="ver o centro no lugar do braço">
+      <Maximize2 size={13} strokeWidth={1.9} />
+      centro
+    </button>
+  )
+}
+
+/* ── O zoom: uma forma em foco ────────────────────────────────────────── */
+
+interface StripItem {
+  id: string
+  label: string
+  sub?: string
+  on: boolean
+  onPress: () => void
+  thumb: DiagramProps
+}
+
+/**
+ * O palco ampliado: a roda à esquerda, a forma escolhida grande no meio (a forma e o acorde lado
+ * a lado) e as cinco formas em miniatura numa coluna à direita, para trocar. Com cinco diagramas
+ * numa fileira quem limita o tamanho é a largura; com um em foco, é a altura toda.
+ */
+function FocusLayout({ wheel, title, sub, panels, strip }: { wheel: ReactNode; title: string; sub?: string; panels: { caption: string; diagram: DiagramProps }[]; strip: StripItem[] }) {
+  return (
+    <div className="stage-in stage-focus-in">
+      {wheel}
+      <div className="stage-focus">
+        <span className="stage-pair-head stage-focus-head">
+          <b>{title}</b>
+          {sub && <small>{sub}</small>}
+        </span>
+        <div className="stage-focus-panels">
+          {panels.map((p, i) => (
+            <figure key={i}>
+              <Diagram {...p.diagram} />
+              <figcaption>{p.caption}</figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+      <div className="stage-strip" role="radiogroup" aria-label="formas">
+        {strip.map((it) => (
+          <button key={it.id} type="button" role="radio" aria-checked={it.on} className={`stage-thumb${it.on ? ' stage-thumb-on' : ''}`} onClick={it.onPress}>
+            <Diagram {...it.thumb} />
+            <span className="stage-pair-head">
+              <b>{it.label}</b>
+              {it.sub && <small>{it.sub}</small>}
+            </span>
+          </button>
+        ))}
+      </div>
+    </div>
   )
 }
 
@@ -396,35 +459,61 @@ export function ScaleStage({
     return { id, pos, dots, chord: pos ? parentChord(rootPc, parent, id, pos.window) : [] }
   })
   /* Todos os diagramas com o mesmo número de casas, para as janelas ficarem do mesmo tamanho. */
-  const shapes = raw.map((r) => ({ ...r, frame: shapeFrame(r.pos?.window ?? null, r.chord) }))
+  const shapes = raw.map((r) => {
+    const frame = shapeFrame(r.pos?.window ?? null, r.chord)
+    const barre = barreOf(r.chord)
+    /* Embaixo da pestana não sobra nota da escala: ali a corda está presa no acorde. */
+    const under = (d: Dot) => !!barre && d.fret === barre.fret && d.string >= barre.from && d.string <= barre.to
+    const back = r.dots.filter((d) => !under(d) && !r.chord.some((c) => c.string === d.string && c.fret === d.fret)).map((d) => ({ ...d, ghost: true }))
+    const top: DiagramProps = { dots: r.dots, frame, label: byDegree }
+    const bottom: DiagramProps = { dots: [...back, ...r.chord], barre, frame, label: byDegree }
+    return {
+      ...r,
+      name: shapeLabel(r.id, parent === 'min'),
+      range: r.pos ? `${r.pos.window.from}–${r.pos.window.to}` : undefined,
+      chordName: `${r.id}${parent === 'min' ? 'm' : ''}`,
+      top,
+      bottom,
+    }
+  })
+  const zoomed = useContext(StageZoom)?.on ?? false
+  const focus = shapes.find((x) => x.id === shape) ?? shapes[0]
+  const wheel = <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
       <ZoomToggle />
-      <div className="stage-in">
-        <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
-        <div className="stage-side">
-          <div className="stage-boxes">
-            {shapes.map(({ id, pos, dots, chord, frame }) => {
-              const barre = barreOf(chord)
-              /* Embaixo da pestana não sobra nota da escala: ali a corda está presa no acorde. */
-              const under = (d: Dot) => !!barre && d.fret === barre.fret && d.string >= barre.from && d.string <= barre.to
-              const back = dots.filter((d) => !under(d) && !chord.some((c) => c.string === d.string && c.fret === d.fret)).map((d) => ({ ...d, ghost: true }))
-              return (
+      {zoomed ? (
+        <FocusLayout
+          wheel={wheel}
+          title={`forma ${focus.name}`}
+          sub={focus.range}
+          panels={[
+            { caption: 'a escala', diagram: focus.top },
+            { caption: `o acorde ${focus.chordName} aqui (vira ${chordSymbol(rootPc, parent, nn)})`, diagram: focus.bottom },
+          ]}
+          strip={shapes.map((x) => ({ id: x.id, label: x.name, sub: x.range, on: x.id === shape, onPress: () => onShape(x.id), thumb: x.top }))}
+        />
+      ) : (
+        <div className="stage-in">
+          {wheel}
+          <div className="stage-side">
+            <div className="stage-boxes">
+              {shapes.map((x) => (
                 <PairBox
-                  key={id}
-                  name={shapeLabel(id, parent === 'min')}
-                  range={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
-                  hint={chord.length ? `forma ${id}: em cima a escala, embaixo o acorde ${id}${parent === 'min' ? 'm' : ''} nessa casa (aqui ele vira ${chordSymbol(rootPc, parent, nn)})` : `forma ${id}`}
-                  top={{ dots, frame, label: byDegree }}
-                  bottom={{ dots: [...back, ...chord], barre, frame, label: byDegree }}
-                  on={id === shape}
-                  onPress={() => onShape(id)}
+                  key={x.id}
+                  name={x.name}
+                  range={x.range}
+                  hint={x.chord.length ? `forma ${x.id}: em cima a escala, embaixo o acorde ${x.chordName} nessa casa (aqui ele vira ${chordSymbol(rootPc, parent, nn)})` : `forma ${x.id}`}
+                  top={x.top}
+                  bottom={x.bottom}
+                  on={x.id === shape}
+                  onPress={() => onShape(x.id)}
                 />
-              )
-            })}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </section>
   )
 }
@@ -454,12 +543,32 @@ export function ChordStage({
   const lit = new Map(chordIntervals(quality).map((iv, i) => [mod12(rootPc + iv), q.degrees[i] ?? '']))
   const set = STRING_SETS[triadSet] ?? STRING_SETS[0]
   const inversions = triads ? closedTriads(rootPc, quality, set).slice(0, 3) : []
+  const zoomed = useContext(StageZoom)?.on ?? false
+  const wheel = <Wheel top={rootPc} lit={lit} center={chordSymbol(rootPc, quality, nn)} sub={q.name} onPress={onRoot} pressHint="virar a fundamental" />
+
+  /* No zoom, a digitação escolhida grande e as cinco em miniatura (as tríades seguem iguais). */
+  if (zoomed && !triads) {
+    const voicings = SHAPE_IDS.map((id) => ({ id, v: chordVoicing(rootPc, quality, id) }))
+    const pick = voicings.find((x) => x.id === shape) ?? voicings[0]
+    return (
+      <section className="stage card" aria-label="o acorde de outros ângulos">
+        <ZoomToggle />
+        <FocusLayout
+          wheel={wheel}
+          title={`forma ${pick.id}`}
+          sub={pick.v ? `tônica na ${SHAPE_ROOT_STRING[pick.id]}ª` : 'não cabe'}
+          panels={[{ caption: chordSymbol(rootPc, quality, nn), diagram: { dots: pick.v?.voices ?? [], muted: pick.v?.muted } }]}
+          strip={voicings.map(({ id, v }) => ({ id, label: id, sub: v ? `${v.window.from}–${v.window.to}` : undefined, on: id === shape, onPress: () => onShape(id), thumb: { dots: v?.voices ?? [], muted: v?.muted } }))}
+        />
+      </section>
+    )
+  }
 
   return (
     <section className="stage card" aria-label="o acorde de outros ângulos">
       <ZoomToggle />
       <div className="stage-in">
-        <Wheel top={rootPc} lit={lit} center={chordSymbol(rootPc, quality, nn)} sub={q.name} onPress={onRoot} pressHint="virar a fundamental" />
+        {wheel}
         <div className="stage-side">
           <div className="stage-boxes">
             {triads

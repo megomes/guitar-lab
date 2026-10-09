@@ -34,7 +34,7 @@ import { Pip, ScaleHero } from '../consult/Hero'
 import { useNames } from '../names'
 import { Chip, Legend } from '../ui'
 import { Keyboard, type KeyMark } from './Keyboard'
-import { StageZoom } from '../consult/Stage'
+import { StageSwap, StageZoom } from '../consult/Stage'
 import { PianoChordStage, PianoScaleStage } from './PianoStage'
 import { useNoteInput } from './useNoteInput'
 
@@ -200,6 +200,7 @@ export function PianoView({ view, settings, set, patch }: Props) {
       )}
 
       <div className="screen-fill">
+        <StageSwap />
         <section className="viewport card piano-viewport" aria-label="teclado">
           <div className="viewport-bar">
             <Legend items={LEGEND} />

@@ -21,7 +21,7 @@ import { Neck } from '../Neck'
 import { Chip, Segmented } from '../ui'
 import { CGroup, ChordControls, NoteControls, ScaleBar, ScaleControls } from './Controls'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
-import { ChordStage, NoteStage, ScaleStage, StageZoom } from './Stage'
+import { ChordStage, NoteStage, ScaleStage, StageSwap, StageZoom } from './Stage'
 
 type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
 
@@ -223,6 +223,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
       {mode === 'notes' && <NoteStage pcs={notePcs} onToggle={(pc) => set('notePcs')(togglePc(notePcs, pc))} />}
 
       <div className="screen-fill">
+        <StageSwap />
         <Neck
           className="card"
           marks={diag ? diag.neck.marks : triads ? triads.marks : marks}

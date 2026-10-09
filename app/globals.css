@@ -4127,7 +4127,7 @@ button.stage-box-on:hover {
     display: none;
   }
 
-  /* A roda ao lado dos diagramas, do tamanho que couber (até um terço da largura). */
+  /* A roda ao lado dos diagramas, pequena: no zoom o foco são os diagramas. */
   .screen.screen-zoom .stage-in {
     grid-template-columns: auto minmax(0, 1fr);
     grid-template-rows: minmax(0, 1fr);
@@ -4135,7 +4135,7 @@ button.stage-box-on:hover {
   }
 
   .screen.screen-zoom .stage-wheel {
-    height: min(100cqh - 24px, 30cqw);
+    height: min(100cqh - 24px, 17cqw, 230px);
     max-height: none;
     align-self: center;
   }
@@ -4148,5 +4148,268 @@ button.stage-box-on:hover {
   .screen.screen-zoom .stage .stage-pair svg,
   .screen.screen-zoom .stage .stage-pair svg + svg {
     max-height: none;
+  }
+}
+
+/* ── Zoom: uma forma em foco ─────────────────────────────────────────── */
+
+/* A roda pequena à esquerda, a forma grande no meio, as cinco em miniatura à direita. */
+.screen .stage-in.stage-focus-in {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-rows: minmax(0, 1fr);
+  align-items: center;
+  justify-items: stretch;
+  gap: 12px 22px;
+  height: 100%;
+}
+
+.stage-focus {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+}
+
+.stage-focus-head {
+  font-size: 16px;
+}
+
+.stage-focus-head small {
+  font-size: 12px;
+}
+
+.stage-focus-panels {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4%;
+  width: 100%;
+  min-height: 0;
+}
+
+.stage-focus-panels figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  margin: 0;
+}
+
+/* O desenho grande: a altura do palco, tirando o título e a legenda. */
+.stage-focus-panels svg {
+  display: block;
+  width: auto;
+  height: calc(100cqh - 78px);
+  max-width: 100%;
+}
+
+.stage-focus-panels figcaption {
+  font-size: 11.5px;
+  color: var(--fg-3);
+  text-align: center;
+}
+
+.stage-strip {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  height: 100%;
+  min-height: 0;
+}
+
+.stage-thumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 10px 3px 4px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.015);
+  color: var(--fg-2);
+  text-align: left;
+}
+
+.stage-thumb:hover {
+  border-color: var(--line-2);
+}
+
+.stage-thumb-on,
+.stage-thumb-on:hover {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--fg);
+}
+
+.stage-thumb-on .stage-pair-head b {
+  color: var(--accent-2);
+}
+
+.stage-thumb svg {
+  display: block;
+  width: auto;
+  height: calc((100cqh - 24px - 4 * 6px) / 5 - 8px);
+}
+
+.stage-thumb .stage-pair-head {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.screen.screen-zoom .stage-focus-in .stage-wheel {
+  height: min(100cqh - 24px, 17cqw, 230px);
+}
+
+/* O botão do canto e o da troca do celular. */
+.stage-zoom-lbl,
+.stage-swap {
+  display: none;
+}
+
+.screen-fill {
+  position: relative;
+}
+
+/* ── Celular: o menu do trilho e a troca braço ↔ centro ──────────────── */
+
+@media (orientation: landscape) and (max-height: 559px), (orientation: portrait) and (max-width: 559px) {
+  /* O trilho rola: cada tela com altura para o ícone e o nome, sem encavalar. */
+  .tabbar {
+    width: calc(62px + env(safe-area-inset-left));
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .tabbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-inst {
+    flex: none;
+  }
+
+  .tab-btn {
+    flex: none;
+    height: 44px;
+    max-height: none;
+    padding: 0 2px;
+    font-size: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tab-btn span {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .tab-cta {
+    flex: none;
+    height: 40px;
+    max-height: none;
+    margin-top: 8px;
+    position: sticky;
+    bottom: 0;
+  }
+
+  /* Braço ou centro: o botão no canto do braço troca, o do canto do palco volta. */
+  .stage-swap {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    height: 28px;
+    padding: 0 10px;
+    border-radius: var(--r-sm);
+    border: 1px solid var(--line-2);
+    background: var(--card-2);
+    color: var(--fg-2);
+    font-size: 12px;
+  }
+
+  .stage-zoom-lbl {
+    display: inline;
+    font-size: 12px;
+  }
+
+  .stage-zoom {
+    width: auto;
+    gap: 5px;
+    padding: 0 9px;
+    display: flex;
+    align-items: center;
+  }
+
+  .screen.screen-zoom > .screen-fill {
+    display: none;
+  }
+
+  .screen.screen-zoom > .stage {
+    display: block;
+    flex: 1 1 auto;
+    min-height: 0;
+    padding: 8px 10px;
+    container: stage / size;
+  }
+
+  .screen.screen-zoom .stage-in {
+    height: 100%;
+  }
+
+  .screen.screen-zoom .stage-focus-in .stage-wheel {
+    height: min(100cqh - 8px, 21cqw);
+  }
+
+  .screen.screen-zoom .stage-focus-panels svg {
+    height: calc(100cqh - 56px);
+  }
+
+  /* No celular as miniaturas viram só a letra. */
+  .screen.screen-zoom .stage-thumb svg {
+    display: none;
+  }
+
+  .screen.screen-zoom .stage-thumb {
+    padding: 4px 10px;
+  }
+
+  /* As letras começam abaixo do botão "braço", no canto de cima. */
+  .screen.screen-zoom .stage-strip {
+    gap: 4px;
+    padding-top: 34px;
+  }
+
+  .screen.screen-zoom .stage-thumb {
+    padding: 2px 10px;
+  }
+
+  /* As telas sem foco (tríades, notas, piano): a roda e os diagramas na altura do palco. */
+  .screen.screen-zoom .stage-in:not(.stage-focus-in) {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: center;
+    gap: 10px 16px;
+  }
+
+  .screen.screen-zoom .stage-in:not(.stage-focus-in) .stage-wheel {
+    height: min(100cqh - 8px, 34cqw);
+  }
+
+  .screen.screen-zoom .stage .stage-box svg {
+    width: auto;
+    max-width: 100%;
+    height: calc(100cqh - 50px);
   }
 }
