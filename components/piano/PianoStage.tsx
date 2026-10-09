@@ -124,7 +124,7 @@ export function PianoScaleStage({
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
       <div className="stage-in">
-        <Wheel top={rootPc} lit={lit} center={nn(rootPc)} sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
+        <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">
           {field.length > 0 ? (
             <>

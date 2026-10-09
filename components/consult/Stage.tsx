@@ -37,6 +37,8 @@ interface WheelProps {
   /** As notas acesas e o grau de cada uma. */
   lit: Map<number, string>
   center: string
+  /** O centro é o nome do tom: ganha o m quando o tom aceso é menor (C vira Cm). */
+  asKey?: boolean
   sub?: string
   onPress?: (pc: number) => void
   /** Rótulo de leitor de tela para o toque: "tônica", "ligar ou desligar". */
@@ -72,7 +74,7 @@ const RINGS = { outer: [71, 97], inner: [44, 69] } as const
  * (cada uma a uma quinta da outra), e a tônica salta um pouco para fora. O outro anel fica
  * quieto, com a relativa marcada por um contorno: as mesmas notas, lidas da outra tônica.
  */
-function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
+function WheelView({ top, lit, center, asKey = false, sub, onPress, pressHint }: WheelProps) {
   const nn = useNames()
   const degrees = [...lit.values()]
   /* Tom menor quando a terça acesa é a menor. */
@@ -94,7 +96,8 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
       /* No anel quieto, a fatia da relativa: logo acima ou abaixo da tônica. */
       const relative = !active && k === (minorKey ? 9 : 0) && lit.size > 0
       const color = on ? degreeColor(degree) : undefined
-      const name = active || which === 'outer' ? nn(pc) : `${nn(pc)}m`
+      /* O anel de dentro é o dos tons menores: o m fica sempre, aceso ou não. */
+      const name = which === 'outer' ? nn(pc) : `${nn(pc)}m`
       /* Nome e grau empilhados na vertical, em qualquer ponto da roda. */
       const c = polar(k, mid)
       const label = { x: c.x, y: on ? round2(c.y - 3.5) : c.y }
@@ -142,7 +145,7 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
         {ring('outer')}
       </g>
       <text x={100} y={sub ? 95 : 100} className="stage-wheel-center">
-        {center}
+        {asKey && minorKey ? `${center}m` : center}
       </text>
       {sub && (
         <text x={100} y={114} className="stage-wheel-sub">
@@ -372,7 +375,7 @@ export function ScaleStage({
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
       <div className="stage-in">
-        <Wheel top={rootPc} lit={lit} center={nn(rootPc)} sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
+        <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">
           <div className="stage-boxes">
             {shapes.map(({ id, pos, dots, chord, frame }) => {
