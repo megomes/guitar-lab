@@ -133,7 +133,8 @@ function FretboardView({
   }, [])
 
   const labeled = windows.some((w) => w.label)
-  const padTop = labeled ? 34 : 12
+  /* Uma faixa só: o nome dela numa linha em cima. Várias: em duas alturas, para não encostarem. */
+  const padTop = labeled ? (windows.length > 1 ? 34 : 24) : 12
   const { width, height } = size
   const boardLeft = OPEN_WIDTH + NUT_WIDTH
   const boardRight = width - PAD_RIGHT
@@ -385,6 +386,15 @@ function FretboardView({
                 stroke="rgba(255,122,69,0.6)"
                 strokeWidth={1.2}
               />
+            )}
+            {windows.length === 1 && windows[0].label && (
+              <text
+                x={(bandX(windows[0]) + bandRight(windows[0])) / 2}
+                y={(windows[0].strings ? stringY(windows[0].strings[1]) - rowHeight / 2 + 1 : boardTop - 4) - 10}
+                className="fb-win-label"
+              >
+                {windows[0].label}
+              </text>
             )}
             {windows.length > 1 &&
               windows.map((w, i) => {

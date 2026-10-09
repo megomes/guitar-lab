@@ -1571,6 +1571,77 @@ button.wk-on:hover {
   padding: 10px 12px;
 }
 
+/* As escalas: uma linha só, embaixo dos outros controles; se faltar largura, rola de lado. */
+.scale-bar {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.scale-bar > .cgroup-label {
+  margin-right: 2px;
+}
+
+.scale-btn,
+.scale-rel {
+  display: grid;
+  flex: none;
+  justify-items: center;
+  gap: 1px;
+  min-width: 92px;
+  padding: 5px 12px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--card-2);
+  color: var(--fg-2);
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.scale-btn:hover,
+.scale-rel:hover {
+  color: var(--fg);
+  border-color: var(--line-2);
+}
+
+.scale-btn small,
+.scale-rel small {
+  min-height: 12px;
+  color: var(--fg-4);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.scale-btn-on,
+.scale-btn-on:hover {
+  color: #fff;
+  border-color: transparent;
+  background: linear-gradient(180deg, var(--accent-2), var(--accent));
+  box-shadow: 0 1px 0 rgba(var(--accent-hi-rgb), 0.5) inset, 0 4px 16px rgba(var(--accent-rgb), 0.3);
+}
+
+.scale-btn-on small {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* A relativa fica à parte, no fim: não é outra escala, são as mesmas notas. */
+.scale-rel {
+  margin-left: auto;
+  border-style: dashed;
+  background: transparent;
+}
+
+.scale-rel small {
+  font-family: var(--font);
+}
+
 .cgroup {
   display: flex;
   align-items: center;
@@ -2543,6 +2614,31 @@ button.wk-on:hover {
   min-height: 0;
 }
 
+/* Escalas: em cima a forma, embaixo o acorde aberto que dá nome a ela, coluna a coluna. */
+.stage-boxes-pairs {
+  grid-template-rows: auto auto;
+  grid-auto-columns: minmax(0, 170px);
+  align-items: stretch;
+}
+
+/* Com duas fileiras, o título vai ao lado do diagrama: a altura fica toda para o desenho. */
+.stage-boxes-pairs .stage-box {
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  padding: 5px 8px;
+}
+
+.stage-boxes-pairs .stage-box svg {
+  width: auto;
+  max-width: 62%;
+}
+
+.stage-boxes-pairs .stage-box-title {
+  text-align: left;
+  white-space: normal;
+}
+
 .stage-box {
   display: flex;
   flex-direction: column;
@@ -2732,6 +2828,17 @@ button.stage-box-on:hover {
     max-height: calc(100cqh - 116px);
   }
 
+  /* Duas fileiras de diagramas: cada uma com metade da altura, tirando os dois títulos. */
+  .stage .stage-boxes-pairs .stage-box svg {
+    height: calc((100cqh - 60px) / 2);
+    max-height: 170px;
+  }
+
+  .stage:has(.stage-field) .stage-boxes-pairs .stage-box svg {
+    height: calc((100cqh - 102px) / 2);
+    max-height: 170px;
+  }
+
   @container stage (max-height: 170px) {
     .stage-wheel,
     .stage-field {
@@ -2758,6 +2865,14 @@ button.stage-box-on:hover {
       max-width: 60%;
       height: calc(100cqh - 40px);
       max-height: none;
+    }
+
+    .stage .stage-boxes-pairs .stage-box svg {
+      height: calc((100cqh - 56px) / 2);
+    }
+
+    .stage-boxes-pairs .stage-box {
+      padding: 3px 10px;
     }
 
     .stage-box-title {
@@ -2792,6 +2907,12 @@ button.stage-box-on:hover {
     .stage:has(.stage-field) .stage-box svg {
       max-height: 190px;
     }
+
+    .stage .stage-boxes-pairs .stage-box svg,
+    .stage:has(.stage-field) .stage-boxes-pairs .stage-box svg {
+      height: auto;
+      max-height: 150px;
+    }
   }
 }
 
@@ -2818,6 +2939,21 @@ button.stage-box-on:hover {
 
   .stage-box {
     padding: 6px 3px 5px;
+  }
+
+  /* No celular a coluna é estreita: o título volta para baixo do diagrama. */
+  .stage-boxes-pairs .stage-box {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .stage-boxes-pairs .stage-box svg {
+    width: 100%;
+    max-width: none;
+  }
+
+  .stage-boxes-pairs .stage-box-title {
+    text-align: center;
   }
 
   .stage-box-title small {

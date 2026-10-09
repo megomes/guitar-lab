@@ -19,7 +19,7 @@ import { INVERSION_NAME, STRING_SETS, closedTriads, hasTriad, setLabel } from '@
 
 import { Neck } from '../Neck'
 import { Chip, Segmented } from '../ui'
-import { CGroup, ChordControls, NoteControls, ScaleControls } from './Controls'
+import { CGroup, ChordControls, NoteControls, ScaleBar, ScaleControls } from './Controls'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
 import { ChordStage, NoteStage, ScaleStage } from './Stage'
 
@@ -66,7 +66,9 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
     return marksFromSpots(scaleSpots(rootPc, scale, position))
   }, [mode, notePcs, quality, rootPc, scale, position])
 
-  const window = mode === 'notes' ? null : voicing ? voicing.window : (position?.window ?? null)
+  const w = mode === 'notes' ? null : voicing ? voicing.window : (position?.window ?? null)
+  /* A letra da forma em cima da faixa, para nunca ficar a dúvida de qual forma está acesa. */
+  const window = w && { ...w, label: shape }
 
   /* Pentatônica: a diagonal do tom com a forma escolhida desenhada por cima. */
   const isPenta = mode === 'scales' && (scaleId === 'pentaMinor' || scaleId === 'pentaMajor')
@@ -78,7 +80,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
     const box = scaleSpots(rootPc, scale, position)
       .filter((sp) => sp.inShape)
       .map((sp) => ({ s: sp.string, f: sp.fret }))
-    return { neck: diagNeck(P, P.diag.notes, box), legend: diagLegend(P, `forma ${shape}`) }
+    return { neck: diagNeck(P, P.diag.notes, box, shape), legend: diagLegend(P, `forma ${shape}`) }
   }, [isPenta, scaleView, scaleId, rootPc, shape, scale, position, shapeOct, diagString])
 
   /* Acordes em tríades: as três inversões fechadas no grupo de cordas, subindo o braço,
@@ -148,11 +150,9 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
             rootPc={rootPc}
             minor={scaleMinor}
             shape={shape}
-            scaleId={scaleId}
             window={position?.window ?? null}
             onRoot={set('rootPc')}
             onShape={(s: ShapeId) => patch({ shape: s, shapeOct: 0 })}
-            onScale={set('scaleId')}
           />
         )}
         {diag && (
@@ -171,6 +171,9 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
             value={scaleView}
             onChange={set('scaleView')}
           />
+        )}
+        {mode === 'scales' && (
+          <ScaleBar rootPc={rootPc} scaleId={scaleId} onScale={set('scaleId')} onRelative={(pc, id) => patch({ rootPc: pc, scaleId: id })} />
         )}
         {mode === 'chords' && (
           <ChordControls

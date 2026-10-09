@@ -6,7 +6,7 @@
  */
 import { QUALITIES, type QualityId } from './chords'
 import { MAJOR_SEVENTHS, MINOR_SEVENTHS } from './jazz'
-import { SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
+import { GUITAR_SCALE_IDS, SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, instrumentOf, type ModeId } from './modes'
 import { KEY_OPTIONS, NINTHS, PIANO_SCALES, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
@@ -204,7 +204,11 @@ export function loadSettings(): Settings {
     if (!SHAPE_IDS.includes(s.shape)) s.shape = DEFAULTS.shape
     if (!['both', 'note', 'degree'].includes(s.labelMode)) s.labelMode = DEFAULTS.labelMode
     s.showOutside = s.showOutside !== false
-    if (!SCALES.some((x) => x.id === s.scaleId)) s.scaleId = DEFAULTS.scaleId
+    /* Na guitarra ficaram só cinco escalas: um modo que estava salvo vira a maior ou a menor. */
+    if (!GUITAR_SCALE_IDS.includes(s.scaleId)) {
+      const old = SCALES.find((x) => x.id === s.scaleId)
+      s.scaleId = !old ? DEFAULTS.scaleId : old.intervals.includes(4) ? 'major' : 'minor'
+    }
     if (!(s.quality in QUALITIES)) s.quality = DEFAULTS.quality
     if (!MAJOR_SEVENTHS.includes(s.v2Maj7)) s.v2Maj7 = DEFAULTS.v2Maj7
     if (!MINOR_SEVENTHS.includes(s.v2Min7)) s.v2Min7 = DEFAULTS.v2Min7

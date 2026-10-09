@@ -18,7 +18,7 @@
 import { memo, type ReactNode } from 'react'
 
 import { QUALITIES, SHAPE_ROOT_STRING, chordIntervals, chordSymbol, chordVoicing, type QualityId } from '@/lib/chords'
-import { SHAPE_IDS, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
+import { FRET_COUNT, SHAPE_IDS, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
 import { harmonicField } from '@/lib/harmony'
 import { fretsByString } from '@/lib/notes'
 import { degreeColor } from '@/lib/roles'
@@ -121,6 +121,18 @@ export interface Dot {
   fret: number
   pc: number
   degree: string
+  /** Nota de fundo: apagada, só para situar o resto. */
+  ghost?: boolean
+}
+
+/** A primeira casa desenhada e quantas casas o diagrama mostra. */
+export function frameOf(dots: { fret: number }[]): { first: number; rows: number } {
+  const pressed = dots.filter((d) => d.fret > 0).map((d) => d.fret)
+  const lo = pressed.length ? Math.min(...pressed) : 1
+  const hi = pressed.length ? Math.max(...pressed) : 4
+  /* Com corda solta, o diagrama começa no capotraste. */
+  const first = dots.some((d) => d.fret === 0) || lo <= 2 ? 1 : lo
+  return { first, rows: Math.max(4, hi - first + 1) }
 }
 
 interface BoxProps {
@@ -132,16 +144,24 @@ interface BoxProps {
   onPress?: () => void
   /** O que vai escrito na bolinha; sem isso, o nome da nota. */
   label?: (d: Dot) => string
+  /** Para alinhar vários diagramas: a mesma moldura em todos. */
+  frame?: { first: number; rows: number }
+  /** A pestana do acorde: uma barra numa casa, de uma corda a outra. */
+  barre?: { fret: number; from: number; to: number } | null
 }
 
-function BoxView({ dots, muted = [], title, sub, on = false, onPress, label }: BoxProps) {
+/** A pestana: a casa presa mais baixa, quando duas ou mais cordas caem nela. */
+export function barreOf(dots: Dot[]): { fret: number; from: number; to: number } | null {
+  const pressed = dots.filter((d) => d.fret > 0)
+  if (pressed.length < 2) return null
+  const lo = Math.min(...pressed.map((d) => d.fret))
+  const on = pressed.filter((d) => d.fret === lo).map((d) => d.string)
+  return on.length >= 2 ? { fret: lo, from: Math.min(...on), to: Math.max(...on) } : null
+}
+
+function BoxView({ dots, muted = [], title, sub, on = false, onPress, label, frame, barre }: BoxProps) {
   const nn = useNames()
-  const pressed = dots.filter((d) => d.fret > 0).map((d) => d.fret)
-  const lo = pressed.length ? Math.min(...pressed) : 1
-  const hi = pressed.length ? Math.max(...pressed) : 4
-  /* Com corda solta, o diagrama começa no capotraste. */
-  const first = dots.some((d) => d.fret === 0) || lo <= 2 ? 1 : lo
-  const rows = Math.max(4, hi - first + 1)
+  const { first, rows } = frame ?? frameOf(dots)
   const L = 22
   const GAP = 16
   const TOP = 18
@@ -173,13 +193,32 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress, label }: B
             ×
           </text>
         ))}
+        {barre && (
+          <rect
+            x={x(barre.from) - 7.4}
+            y={y(barre.fret) - 7.4}
+            width={x(barre.to) - x(barre.from) + 14.8}
+            height={14.8}
+            rx={7.4}
+            fill="rgba(236,231,224,0.22)"
+            stroke="rgba(236,231,224,0.45)"
+            strokeWidth={0.8}
+          />
+        )}
         {dots.map((d) => {
-          const c = degreeColor(d.degree)
+          const c = d.ghost ? 'rgba(236,231,224,0.28)' : degreeColor(d.degree)
           const open = d.fret === 0
           return (
             <g key={`${d.string}-${d.fret}`} transform={`translate(${x(d.string)} ${y(d.fret)})`}>
               {open ? (
-                <circle r={5.5} fill="#0f0f10" stroke={c} strokeWidth={1.6} />
+                <circle r={5.5} fill="#0f0f10" stroke={c} strokeWidth={d.ghost ? 1 : 1.6} />
+              ) : d.ghost ? (
+                <>
+                  <circle r={7.4} fill="#1d1c1e" stroke="rgba(236,231,224,0.16)" strokeWidth={0.8} />
+                  <text className="stage-box-name" fill="rgba(236,231,224,0.4)">
+                    {label ? label(d) : nn(d.pc)}
+                  </text>
+                </>
               ) : (
                 <>
                   <circle r={7.4} fill={c} />
@@ -204,6 +243,21 @@ export const Box = memo(BoxView)
 
 /* ── Escalas ──────────────────────────────────────────────────────────── */
 
+/** O acorde da forma (o acorde aberto que dá nome a ela) encaixado na caixa da escala: a oitava
+ * que mais cai dentro dela, e só as notas que cabem ali — perto do capotraste a forma às vezes
+ * pediria uma casa negativa, e aí aquela nota fica de fora, mas o desenho continua. */
+function parentChord(rootPc: number, quality: QualityId, shape: ShapeId, w: { from: number; to: number }): Dot[] {
+  const v = chordVoicing(rootPc, quality, shape)
+  if (!v) return []
+  const fits = (f: number) => f >= 0 && f <= FRET_COUNT && f >= w.from - 1 && f <= w.to + 1
+  let best: Dot[] = []
+  for (const by of [-24, -12, 0, 12, 24]) {
+    const notes = v.voices.filter((x) => fits(x.fret + by)).map((x) => ({ string: x.string, fret: x.fret + by, pc: x.pc, degree: x.degree }))
+    if (notes.length > best.length) best = notes
+  }
+  return best
+}
+
 export function ScaleStage({
   rootPc,
   scale,
@@ -222,16 +276,49 @@ export function ScaleStage({
   const nn = useNames()
   const lit = new Map(scale.intervals.map((iv, i) => [mod12(rootPc + iv), scale.degrees[i]]))
   const field = harmonicField(rootPc, scale)
+  /* O acorde que dá nome a cada forma: maior se a escala tem a terça maior, menor se não. */
+  const parent: QualityId = scale.intervals.includes(4) ? 'maj' : 'min'
+  const raw = SHAPE_IDS.map((id) => {
+    const pos = boxFor(rootPc, id, scale)
+    const dots: Dot[] = pos ? scaleSpots(rootPc, scale, pos).filter((s) => s.inShape) : []
+    return { id, pos, dots, chord: pos ? parentChord(rootPc, parent, id, pos.window) : [] }
+  })
+  /* Todos os diagramas com o mesmo número de casas, para as janelas ficarem do mesmo tamanho. */
+  const frames = raw.map((r) => frameOf([...r.dots, ...r.chord]))
+  const rows = Math.max(...frames.map((f) => f.rows))
+  const shapes = raw.map((r, i) => ({ ...r, frame: { first: frames[i].first, rows } }))
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
       <div className="stage-in">
         <Wheel top={rootPc} lit={lit} center={nn(rootPc)} sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">
-          <div className="stage-boxes">
-            {SHAPE_IDS.map((id) => {
-              const pos = boxFor(rootPc, id, scale)
-              const dots = pos ? scaleSpots(rootPc, scale, pos).filter((s) => s.inShape) : []
-              return <Box key={id} dots={dots} title={`forma ${id}`} sub={pos ? `${pos.window.from}–${pos.window.to}` : undefined} on={id === shape} onPress={() => onShape(id)} />
+          <div className="stage-boxes stage-boxes-pairs">
+            {shapes.flatMap(({ id, pos, dots, chord, frame }) => {
+              const barre = barreOf(chord)
+              /* Embaixo da pestana não sobra nota da escala: ali a corda está presa no acorde. */
+              const under = (d: Dot) => !!barre && d.fret === barre.fret && d.string >= barre.from && d.string <= barre.to
+              const back = dots.filter((d) => !under(d) && !chord.some((c) => c.string === d.string && c.fret === d.fret)).map((d) => ({ ...d, ghost: true }))
+              return [
+              <Box
+                key={id}
+                dots={dots}
+                frame={frame}
+                title={`forma ${id}`}
+                sub={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
+                on={id === shape}
+                onPress={() => onShape(id)}
+              />,
+              <Box
+                key={`${id}-acorde`}
+                dots={[...back, ...chord]}
+                barre={barre}
+                frame={frame}
+                title={`${id}${parent === 'min' ? 'm' : ''} aberto`}
+                sub={chord.length ? `vira ${chordSymbol(rootPc, parent, nn)}` : 'não cabe'}
+                on={id === shape}
+                onPress={() => onShape(id)}
+              />,
+              ]
             })}
           </div>
           {field.length > 0 && (

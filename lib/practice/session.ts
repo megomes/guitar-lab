@@ -352,7 +352,7 @@ export function positionOf(P: Practice, notes: PNote[]): Position {
 /** O braço da penta diagonal com a forma CAGED por cima: a diagonal acesa, as notas da forma
  * que não estão nela só em contorno, a faixa da forma, e o resto da penta fantasma. Assim dá
  * para ver onde a diagonal entra e sai da forma sem duas camadas acesas brigando. */
-export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number }[]) {
+export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number }[], label?: string) {
   const has = (list: { s: number; f: number }[], s: number, f: number) => list.some((n) => n.s === s && n.f === f)
   const marks: Mark[] = []
   for (let s = 0; s < 6; s++)
@@ -363,7 +363,7 @@ export function diagNeck(P: Practice, diag: PNote[], box: { s: number; f: number
       marks.push({ string: s, fret: f, pc, degree: pentDeg(pc, P.tonicPc, P.minor), level })
     }
   const bf = box.map((n) => n.f)
-  const windows: NeckWindow[] = box.length ? [{ from: Math.min(...bf), to: Math.max(...bf) }] : []
+  const windows: NeckWindow[] = box.length ? [{ from: Math.min(...bf), to: Math.max(...bf), label }] : []
   const fs = diag.map((n) => n.f).concat(bf)
   return { marks, windows, focus: { from: Math.min(...fs), to: Math.max(...fs) } }
 }
@@ -562,13 +562,13 @@ export function exerciseNeck(id: ExerciseId, P: Practice, sel: number): NeckData
   const inW = (f: number) => f >= lo && f <= hi
   const marks: Mark[] = []
   const rings: Pin[] = []
-  const posWindow = [{ from: lo, to: hi }]
+  const posWindow = [{ from: lo, to: hi, label: P.pos.label }]
   const focus = { from: lo, to: hi }
   const each = (fn: (s: number, f: number, pc: number) => void) => {
     for (let s = 0; s < 6; s++) for (let f = 0; f <= FRET_COUNT; f++) fn(s, f, mod12(OPEN[s] + f))
   }
 
-  if (id === 'diag') return { rings, ...diagNeck(P, P.diag.notes, P.box.notes) }
+  if (id === 'diag') return { rings, ...diagNeck(P, P.diag.notes, P.box.notes, P.pos.label) }
   if (id === 'box') {
     const inBox = (s: number, f: number) => P.box.notes.some((n) => n.s === s && n.f === f)
     each((s, f, pc) => {

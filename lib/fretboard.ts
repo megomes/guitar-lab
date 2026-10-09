@@ -52,6 +52,42 @@ export const SCALES: Scale[] = [
 
 export const SCALE_BY_ID = new Map(SCALES.map((s) => [s.id, s]))
 
+/** As escalas da guitarra: as cinco do dia a dia, com o nome curto do botão. */
+export const GUITAR_SCALES: { id: string; label: string }[] = [
+  { id: 'major', label: 'Maior' },
+  { id: 'minor', label: 'Menor' },
+  { id: 'pentaMajor', label: 'Penta maior' },
+  { id: 'pentaMinor', label: 'Penta menor' },
+  { id: 'blues', label: 'Blues' },
+]
+export const GUITAR_SCALE_IDS = GUITAR_SCALES.map((s) => s.id)
+
+/** Um grau escrito pelo número: '♭3' e '3' são a mesma terça, alterada ou não. */
+const degreeNumber = (d: string) => Number(d.replace(/[♭♯]/g, ''))
+
+/**
+ * O que muda de uma escala para outra, na mesma tônica, em poucos sinais:
+ * um grau alterado aparece como fica ('♭3'), um que entra com '+', um que sai com '−'.
+ * Da menor para a penta menor: '−2 −♭6'; da penta menor para o blues: '+♭5'.
+ */
+export function scaleDelta(from: Scale, to: Scale): string[] {
+  const fromBy = new Map(from.intervals.map((iv, i) => [iv, from.degrees[i]]))
+  const toBy = new Map(to.intervals.map((iv, i) => [iv, to.degrees[i]]))
+  const gone = [...fromBy].filter(([iv]) => !toBy.has(iv)).map(([, d]) => d)
+  const out: { n: number; text: string }[] = []
+  for (const [iv, d] of toBy) {
+    if (fromBy.has(iv)) continue
+    const k = gone.findIndex((g) => degreeNumber(g) === degreeNumber(d))
+    if (k >= 0) {
+      gone.splice(k, 1)
+      /* Um grau que volta ao natural leva o ♮, senão parece que entrou. */
+      out.push({ n: degreeNumber(d), text: /[♭♯]/.test(d) ? d : `♮${d}` })
+    } else out.push({ n: degreeNumber(d), text: `+${d}` })
+  }
+  for (const d of gone) out.push({ n: degreeNumber(d), text: `−${d}` })
+  return out.sort((a, b) => a.n - b.n).map((x) => x.text)
+}
+
 /* ── CAGED ────────────────────────────────────────────────────────────── */
 
 export type ShapeId = 'C' | 'A' | 'G' | 'E' | 'D'

@@ -5,7 +5,7 @@
 import { memo, type ReactNode } from 'react'
 
 import { QUALITIES, QUALITY_IDS, SHAPE_ROOT_STRING, type QualityId } from '@/lib/chords'
-import { SCALES, SHAPE_IDS, type ShapeId } from '@/lib/fretboard'
+import { GUITAR_SCALES, SCALES, SCALE_BY_ID, SHAPE_IDS, scaleDelta, type ShapeId } from '@/lib/fretboard'
 import { ALL_PCS, NATURALS, togglePc } from '@/lib/notes'
 import type { ChordView } from '@/lib/settings'
 import { sharpNames, tonicLabel } from '@/lib/spelling'
@@ -44,14 +44,12 @@ interface ScaleControlsProps {
   rootPc: number
   minor: boolean
   shape: ShapeId
-  scaleId: string
   window: { from: number; to: number } | null
   onRoot: (pc: number) => void
   onShape: (shape: ShapeId) => void
-  onScale: (id: string) => void
 }
 
-function ScaleControlsView({ rootPc, minor, shape, scaleId, window, onRoot, onShape, onScale }: ScaleControlsProps) {
+function ScaleControlsView({ rootPc, minor, shape, window, onRoot, onShape }: ScaleControlsProps) {
   return (
     <>
       <Tonics rootPc={rootPc} minor={minor} onRoot={onRoot} />
@@ -60,21 +58,57 @@ function ScaleControlsView({ rootPc, minor, shape, scaleId, window, onRoot, onSh
           <Chip key={id} label={id} fixed on={shape === id} onPress={() => onShape(id)} />
         ))}
       </CGroup>
-      <label className="select">
-        Escala
-        <select value={scaleId} onChange={(e) => onScale(e.target.value)}>
-          {SCALES.map((s) => (
-            <option key={s.id} value={s.id}>
-              {s.name}
-            </option>
-          ))}
-        </select>
-      </label>
     </>
   )
 }
 
 export const ScaleControls = memo(ScaleControlsView)
+
+/* A relativa: as mesmas notas lidas de outra tônica — três semitons abaixo no maior, acima no menor. */
+const RELATIVE: Record<string, { id: string; by: number }> = {
+  major: { id: 'minor', by: 9 },
+  minor: { id: 'major', by: 3 },
+  pentaMajor: { id: 'pentaMinor', by: 9 },
+  pentaMinor: { id: 'pentaMajor', by: 3 },
+}
+
+/**
+ * As cinco escalas numa linha de botões. Embaixo de cada uma, o que muda em relação à que
+ * está acesa — '−2 −♭6' da menor para a penta menor, '+♭5' para o blues —, e no fim a
+ * relativa, que tem as mesmas notas a partir de outra tônica.
+ */
+function ScaleBarView({ rootPc, scaleId, onScale, onRelative }: { rootPc: number; scaleId: string; onScale: (id: string) => void; onRelative: (rootPc: number, scaleId: string) => void }) {
+  const cur = SCALE_BY_ID.get(scaleId) ?? SCALES[0]
+  const rel = RELATIVE[scaleId]
+  const relPc = rel ? (rootPc + rel.by) % 12 : 0
+  const relMinor = rel?.id === 'minor' || rel?.id === 'pentaMinor'
+  return (
+    <div className="scale-bar" role="radiogroup" aria-label="escala">
+      <span className="cgroup-label">
+        Escala
+        <small>o que muda</small>
+      </span>
+      {GUITAR_SCALES.map((s) => {
+        const on = s.id === scaleId
+        const delta = on ? [] : scaleDelta(cur, SCALE_BY_ID.get(s.id)!)
+        return (
+          <button key={s.id} type="button" role="radio" aria-checked={on} className={`scale-btn${on ? ' scale-btn-on' : ''}`} onClick={() => onScale(s.id)}>
+            {s.label}
+            <small>{on ? `${cur.intervals.length} notas` : delta.join(' ')}</small>
+          </button>
+        )
+      })}
+      {rel && (
+        <button type="button" className="scale-rel" onClick={() => onRelative(relPc, rel.id)} title="as mesmas notas, a partir de outra tônica">
+          <small>relativa</small>
+          {tonicLabel(relPc, relMinor)} {GUITAR_SCALES.find((g) => g.id === rel.id)!.label.toLowerCase()}
+        </button>
+      )}
+    </div>
+  )
+}
+
+export const ScaleBar = memo(ScaleBarView)
 
 /* ── Acordes ──────────────────────────────────────────────────────────── */
 
