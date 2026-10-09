@@ -159,7 +159,10 @@ export function barreOf(dots: Dot[]): { fret: number; from: number; to: number }
   return on.length >= 2 ? { fret: lo, from: Math.min(...on), to: Math.max(...on) } : null
 }
 
-function BoxView({ dots, muted = [], title, sub, on = false, onPress, label, frame, barre }: BoxProps) {
+type DiagramProps = Pick<BoxProps, 'dots' | 'muted' | 'label' | 'frame' | 'barre'>
+
+/** O desenho de um diagrama, sem moldura nem título. */
+function Diagram({ dots, muted = [], label, frame, barre }: DiagramProps) {
   const nn = useNames()
   const { first, rows } = frame ?? frameOf(dots)
   const L = 22
@@ -171,9 +174,7 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress, label, fra
   const x = (s: number) => L + s * GAP
   const y = (f: number) => (f === 0 ? TOP - 9 : TOP + (f - first + 0.5) * ROW)
 
-  const Tag = onPress ? 'button' : 'div'
   return (
-    <Tag type={onPress ? 'button' : undefined} className={`stage-box${on ? ' stage-box-on' : ''}`} onClick={onPress} aria-pressed={onPress ? on : undefined}>
       <svg viewBox={`0 0 ${W} ${H}`} style={{ aspectRatio: `${W} / ${H}` }} aria-hidden>
         {first === 1 ? (
           <rect x={x(0) - 1} y={TOP - 3} width={GAP * 5 + 2} height={4} rx={1.5} fill="#e9e4da" />
@@ -231,6 +232,14 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress, label, fra
           )
         })}
       </svg>
+  )
+}
+
+function BoxView({ title, sub, on = false, onPress, ...diagram }: BoxProps) {
+  const Tag = onPress ? 'button' : 'div'
+  return (
+    <Tag type={onPress ? 'button' : undefined} className={`stage-box${on ? ' stage-box-on' : ''}`} onClick={onPress} aria-pressed={onPress ? on : undefined}>
+      <Diagram {...diagram} />
       <span className="stage-box-title">
         {title}
         {sub && <small>{sub}</small>}
@@ -240,6 +249,23 @@ function BoxView({ dots, muted = [], title, sub, on = false, onPress, label, fra
 }
 
 export const Box = memo(BoxView)
+
+/** Uma forma e o acorde que dá nome a ela, um em cima do outro, na mesma caixa e na mesma moldura. */
+function PairBox({ top, bottom, on, onPress }: { top: BoxProps; bottom: BoxProps; on: boolean; onPress: () => void }) {
+  return (
+    <button type="button" className={`stage-box stage-pair${on ? ' stage-box-on' : ''}`} onClick={onPress} aria-pressed={on}>
+      {[top, bottom].map(({ title, sub, ...diagram }, i) => (
+        <div key={i} className="stage-pair-row">
+          <Diagram {...diagram} />
+          <span className="stage-box-title">
+            {title}
+            {sub && <small>{sub}</small>}
+          </span>
+        </div>
+      ))}
+    </button>
+  )
+}
 
 /* ── Escalas ──────────────────────────────────────────────────────────── */
 
@@ -292,33 +318,27 @@ export function ScaleStage({
       <div className="stage-in">
         <Wheel top={rootPc} lit={lit} center={nn(rootPc)} sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">
-          <div className="stage-boxes stage-boxes-pairs">
-            {shapes.flatMap(({ id, pos, dots, chord, frame }) => {
+          <div className="stage-boxes">
+            {shapes.map(({ id, pos, dots, chord, frame }) => {
               const barre = barreOf(chord)
               /* Embaixo da pestana não sobra nota da escala: ali a corda está presa no acorde. */
               const under = (d: Dot) => !!barre && d.fret === barre.fret && d.string >= barre.from && d.string <= barre.to
               const back = dots.filter((d) => !under(d) && !chord.some((c) => c.string === d.string && c.fret === d.fret)).map((d) => ({ ...d, ghost: true }))
-              return [
-              <Box
-                key={id}
-                dots={dots}
-                frame={frame}
-                title={`forma ${id}`}
-                sub={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
-                on={id === shape}
-                onPress={() => onShape(id)}
-              />,
-              <Box
-                key={`${id}-acorde`}
-                dots={[...back, ...chord]}
-                barre={barre}
-                frame={frame}
-                title={`${id}${parent === 'min' ? 'm' : ''} aberto`}
-                sub={chord.length ? `vira ${chordSymbol(rootPc, parent, nn)}` : 'não cabe'}
-                on={id === shape}
-                onPress={() => onShape(id)}
-              />,
-              ]
+              return (
+                <PairBox
+                  key={id}
+                  top={{ dots, frame, title: `forma ${id}`, sub: pos ? `${pos.window.from}–${pos.window.to}` : undefined }}
+                  bottom={{
+                    dots: [...back, ...chord],
+                    barre,
+                    frame,
+                    title: `${id}${parent === 'min' ? 'm' : ''} aberto`,
+                    sub: chord.length ? `vira ${chordSymbol(rootPc, parent, nn)}` : 'não cabe',
+                  }}
+                  on={id === shape}
+                  onPress={() => onShape(id)}
+                />
+              )
             })}
           </div>
           {field.length > 0 && (

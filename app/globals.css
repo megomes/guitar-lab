@@ -2614,29 +2614,31 @@ button.wk-on:hover {
   min-height: 0;
 }
 
-/* Escalas: em cima a forma, embaixo o acorde aberto que dá nome a ela, coluna a coluna. */
-.stage-boxes-pairs {
-  grid-template-rows: auto auto;
-  grid-auto-columns: minmax(0, 170px);
-  align-items: stretch;
+/* Escalas: numa caixa só, a forma em cima e o acorde aberto que dá nome a ela embaixo,
+   cada um com o título ao lado, para a altura ficar toda para os desenhos. */
+.stage-boxes .stage-pair {
+  display: grid;
+  align-content: center;
+  gap: 2px;
+  padding: 4px 8px;
 }
 
-/* Com duas fileiras, o título vai ao lado do diagrama: a altura fica toda para o desenho. */
-.stage-boxes-pairs .stage-box {
-  flex-direction: row;
+.stage-pair-row {
+  display: flex;
+  align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 5px 8px;
+  min-width: 0;
 }
 
-.stage-boxes-pairs .stage-box svg {
-  width: auto;
-  max-width: 62%;
-}
-
-.stage-boxes-pairs .stage-box-title {
+.stage-pair .stage-box-title {
   text-align: left;
   white-space: normal;
+}
+
+.stage-boxes .stage-pair svg {
+  width: auto;
+  max-width: 62%;
 }
 
 .stage-box {
@@ -2829,13 +2831,13 @@ button.stage-box-on:hover {
   }
 
   /* Duas fileiras de diagramas: cada uma com metade da altura, tirando os dois títulos. */
-  .stage .stage-boxes-pairs .stage-box svg {
-    height: calc((100cqh - 60px) / 2);
+  .stage .stage-pair svg {
+    height: calc((100cqh - 46px) / 2);
     max-height: 170px;
   }
 
-  .stage:has(.stage-field) .stage-boxes-pairs .stage-box svg {
-    height: calc((100cqh - 102px) / 2);
+  .stage:has(.stage-field) .stage-pair svg {
+    height: calc((100cqh - 88px) / 2);
     max-height: 170px;
   }
 
@@ -2867,11 +2869,13 @@ button.stage-box-on:hover {
       max-height: none;
     }
 
-    .stage .stage-boxes-pairs .stage-box svg {
-      height: calc((100cqh - 56px) / 2);
+    .stage .stage-pair svg {
+      height: calc((100cqh - 44px) / 2);
+      max-width: none;
     }
 
-    .stage-boxes-pairs .stage-box {
+    .stage .stage-pair {
+      flex-direction: column;
       padding: 3px 10px;
     }
 
@@ -2908,8 +2912,8 @@ button.stage-box-on:hover {
       max-height: 190px;
     }
 
-    .stage .stage-boxes-pairs .stage-box svg,
-    .stage:has(.stage-field) .stage-boxes-pairs .stage-box svg {
+    .stage .stage-pair svg,
+    .stage:has(.stage-field) .stage-pair svg {
       height: auto;
       max-height: 150px;
     }
@@ -2942,17 +2946,17 @@ button.stage-box-on:hover {
   }
 
   /* No celular a coluna é estreita: o título volta para baixo do diagrama. */
-  .stage-boxes-pairs .stage-box {
+  .stage-pair-row {
     flex-direction: column;
-    gap: 4px;
+    gap: 2px;
   }
 
-  .stage-boxes-pairs .stage-box svg {
+  .stage-boxes .stage-pair svg {
     width: 100%;
     max-width: none;
   }
 
-  .stage-boxes-pairs .stage-box-title {
+  .stage-pair .stage-box-title {
     text-align: center;
   }
 
