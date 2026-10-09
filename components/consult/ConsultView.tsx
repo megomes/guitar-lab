@@ -200,7 +200,6 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
           shape={shape}
           onRoot={set('rootPc')}
           onShape={(s) => patch({ shape: s, shapeOct: 0 })}
-          onChord={(root, q) => patch({ mode: 'chords', rootPc: root, quality: q, chordView: 'caged' })}
         />
       )}
       {mode === 'chords' && (

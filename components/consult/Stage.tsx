@@ -19,7 +19,6 @@ import { memo, type ReactNode } from 'react'
 
 import { QUALITIES, SHAPE_ROOT_STRING, chordIntervals, chordSymbol, chordVoicing, type QualityId } from '@/lib/chords'
 import { FRET_COUNT, SHAPE_IDS, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
-import { harmonicField } from '@/lib/harmony'
 import { fretsByString } from '@/lib/notes'
 import { degreeColor } from '@/lib/roles'
 import { sharpNames } from '@/lib/spelling'
@@ -53,9 +52,11 @@ function slice(k: number, r0: number, r1: number): string {
   return `M ${p(r1, a0)} A ${r1} ${r1} 0 0 1 ${p(r1, a1)} L ${p(r0, a1)} A ${r0} ${r0} 0 0 0 ${p(r0, a0)} Z`
 }
 
+/* Arredondado: o servidor e o navegador erram o seno na última casa e a hidratação reclama. */
+const round2 = (v: number) => Math.round(v * 100) / 100
 const polar = (k: number, r: number) => {
   const a = (k * 30 * Math.PI) / 180
-  return { x: 100 + r * Math.sin(a), y: 100 - r * Math.cos(a) }
+  return { x: round2(100 + r * Math.sin(a)), y: round2(100 - r * Math.cos(a)) }
 }
 
 /* Os dois anéis: por fora os tons maiores, por dentro a relativa menor de cada um. */
@@ -94,8 +95,8 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
       const name = active || which === 'outer' ? nn(pc) : `${nn(pc)}m`
       /* Nome e grau empilhados na vertical, em qualquer ponto da roda. */
       const c = polar(k, mid)
-      const label = { x: c.x, y: on ? c.y - 3.5 : c.y }
-      const deg = { x: c.x, y: c.y + 5 }
+      const label = { x: c.x, y: on ? round2(c.y - 3.5) : c.y }
+      const deg = { x: c.x, y: round2(c.y + 5) }
       return (
         <g
           key={`${which}-${k}`}
@@ -285,19 +286,17 @@ function BoxView({ title, sub, on = false, onPress, ...diagram }: BoxProps) {
 
 export const Box = memo(BoxView)
 
-/** Uma forma e o acorde que dá nome a ela, um em cima do outro, na mesma caixa e na mesma moldura. */
-function PairBox({ top, bottom, on, onPress }: { top: BoxProps; bottom: BoxProps; on: boolean; onPress: () => void }) {
+/** Uma forma e o acorde que dá nome a ela, um em cima do outro, na mesma caixa e na mesma
+ * moldura. O texto é uma linha só em cima — a letra da forma e as casas —, o resto é desenho. */
+function PairBox({ name, range, hint, top, bottom, on, onPress }: { name: string; range?: string; hint: string; top: DiagramProps; bottom: DiagramProps; on: boolean; onPress: () => void }) {
   return (
-    <button type="button" className={`stage-box stage-pair${on ? ' stage-box-on' : ''}`} onClick={onPress} aria-pressed={on}>
-      {[top, bottom].map(({ title, sub, ...diagram }, i) => (
-        <div key={i} className="stage-pair-row">
-          <Diagram {...diagram} />
-          <span className="stage-box-title">
-            {title}
-            {sub && <small>{sub}</small>}
-          </span>
-        </div>
-      ))}
+    <button type="button" className={`stage-box stage-pair${on ? ' stage-box-on' : ''}`} onClick={onPress} aria-pressed={on} title={hint}>
+      <span className="stage-pair-head">
+        <b>{name}</b>
+        {range && <small>{range}</small>}
+      </span>
+      <Diagram {...top} />
+      <Diagram {...bottom} />
     </button>
   )
 }
@@ -325,18 +324,15 @@ export function ScaleStage({
   shape,
   onRoot,
   onShape,
-  onChord,
 }: {
   rootPc: number
   scale: Scale
   shape: ShapeId
   onRoot: (pc: number) => void
   onShape: (s: ShapeId) => void
-  onChord: (root: number, quality: QualityId) => void
 }) {
   const nn = useNames()
   const lit = new Map(scale.intervals.map((iv, i) => [mod12(rootPc + iv), scale.degrees[i]]))
-  const field = harmonicField(rootPc, scale)
   /* O acorde que dá nome a cada forma: maior se a escala tem a terça maior, menor se não. */
   const parent: QualityId = scale.intervals.includes(4) ? 'maj' : 'min'
   const raw = SHAPE_IDS.map((id) => {
@@ -362,31 +358,17 @@ export function ScaleStage({
               return (
                 <PairBox
                   key={id}
-                  top={{ dots, frame, title: `forma ${id}`, sub: pos ? `${pos.window.from}–${pos.window.to}` : undefined }}
-                  bottom={{
-                    dots: [...back, ...chord],
-                    barre,
-                    frame,
-                    title: `${id}${parent === 'min' ? 'm' : ''} aberto`,
-                    sub: chord.length ? `vira ${chordSymbol(rootPc, parent, nn)}` : 'não cabe',
-                  }}
+                  name={id}
+                  range={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
+                  hint={chord.length ? `forma ${id}: em cima a escala, embaixo o acorde ${id}${parent === 'min' ? 'm' : ''} nessa casa (aqui ele vira ${chordSymbol(rootPc, parent, nn)})` : `forma ${id}`}
+                  top={{ dots, frame }}
+                  bottom={{ dots: [...back, ...chord], barre, frame }}
                   on={id === shape}
                   onPress={() => onShape(id)}
                 />
               )
             })}
           </div>
-          {field.length > 0 && (
-            <div className="stage-field" role="group" aria-label="campo harmônico">
-              <span className="stage-label">Campo harmônico</span>
-              {field.map((d) => (
-                <button key={d.numeral} type="button" className="stage-chord" onClick={() => onChord(d.root, d.quality)} title="ver o acorde">
-                  <small>{d.numeral}</small>
-                  {chordSymbol(d.root, d.quality, nn)}
-                </button>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </section>

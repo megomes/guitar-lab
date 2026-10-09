@@ -2621,29 +2621,42 @@ button.wk-on:hover {
 
 /* Escalas: numa caixa só, a forma em cima e o acorde aberto que dá nome a ela embaixo,
    cada um com o título ao lado, para a altura ficar toda para os desenhos. */
-.stage-boxes .stage-pair {
-  display: grid;
-  align-content: center;
-  gap: 2px;
-  padding: 4px 8px;
+/* As caixas de par ocupam a largura toda do palco: quem limita o desenho é a altura. */
+.stage-boxes:has(.stage-pair) {
+  grid-auto-columns: minmax(0, 1fr);
+  width: 100%;
 }
 
-.stage-pair-row {
+.stage-boxes .stage-pair {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  min-width: 0;
+  gap: 3px;
+  padding: 5px 6px 6px;
 }
 
-.stage-pair .stage-box-title {
-  text-align: left;
-  white-space: normal;
+.stage-pair-head {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-size: 13px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.stage-pair-head small {
+  font-size: 10.5px;
+  color: var(--fg-4);
+}
+
+.stage-box-on .stage-pair-head b {
+  color: var(--accent-2);
 }
 
 .stage-boxes .stage-pair svg {
   width: auto;
-  max-width: 62%;
+  max-width: 100%;
 }
 
 .stage-box {
@@ -2837,8 +2850,8 @@ button.stage-box-on:hover {
 
   /* Duas fileiras de diagramas: cada uma com metade da altura, tirando os dois títulos. */
   .stage .stage-pair svg {
-    height: calc((100cqh - 46px) / 2);
-    max-height: 170px;
+    height: calc((100cqh - 36px) / 2);
+    max-height: 210px;
   }
 
   .stage:has(.stage-field) .stage-pair svg {
@@ -2875,13 +2888,13 @@ button.stage-box-on:hover {
     }
 
     .stage .stage-pair svg {
-      height: calc((100cqh - 44px) / 2);
+      height: calc((100cqh - 40px) / 2);
       max-width: none;
     }
 
     .stage .stage-pair {
       flex-direction: column;
-      padding: 3px 10px;
+      padding: 3px 6px;
     }
 
     .stage-box-title {
@@ -2951,19 +2964,11 @@ button.stage-box-on:hover {
   }
 
   /* No celular a coluna é estreita: o título volta para baixo do diagrama. */
-  .stage-pair-row {
-    flex-direction: column;
-    gap: 2px;
-  }
-
   .stage-boxes .stage-pair svg {
     width: 100%;
     max-width: none;
   }
 
-  .stage-pair .stage-box-title {
-    text-align: center;
-  }
 
   .stage-box-title small {
     display: none;
