@@ -5,7 +5,7 @@
 import { memo, type ReactNode } from 'react'
 
 import { QUALITIES, QUALITY_IDS, SHAPE_ROOT_STRING, type QualityId } from '@/lib/chords'
-import { GUITAR_SCALES, SCALES, SCALE_BY_ID, SHAPE_IDS, scaleDelta, type ShapeId } from '@/lib/fretboard'
+import { GUITAR_SCALES, RELATIVE_MAJOR_SHAPE, SCALES, SCALE_BY_ID, SHAPE_IDS, scaleDelta, type ShapeId } from '@/lib/fretboard'
 import { ALL_PCS, NATURALS, togglePc } from '@/lib/notes'
 import type { ChordView } from '@/lib/settings'
 import { sharpNames, tonicLabel } from '@/lib/spelling'
@@ -55,7 +55,22 @@ function ScaleControlsView({ rootPc, minor, shape, window, onRoot, onShape }: Sc
       <Tonics rootPc={rootPc} minor={minor} onRoot={onRoot} />
       <CGroup label="Forma" hint={window ? `casas ${window.from}–${window.to}` : undefined}>
         {SHAPE_IDS.map((id) => (
-          <Chip key={id} label={id} fixed on={shape === id} onPress={() => onShape(id)} />
+          <Chip
+            key={id}
+            fixed
+            on={shape === id}
+            onPress={() => onShape(id)}
+            label={
+              <>
+                {id}
+                {/* Numa escala menor, a letra da forma na relativa maior. O lugar fica guardado
+                    no maior, para os botões não mudarem de largura ao trocar de escala. */}
+                <small className="chip-rel" style={minor ? undefined : { visibility: 'hidden' }}>
+                  ({RELATIVE_MAJOR_SHAPE[id]})
+                </small>
+              </>
+            }
+          />
         ))}
       </CGroup>
     </>

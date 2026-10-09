@@ -101,6 +101,16 @@ export type ShapeId = 'C' | 'A' | 'G' | 'E' | 'D'
 const SHAPE_ORDER: ShapeId[] = ['E', 'D', 'C', 'A', 'G']
 export const SHAPE_IDS: ShapeId[] = ['C', 'A', 'G', 'E', 'D']
 
+/**
+ * Numa escala menor a forma tem o nome do acorde menor (C = forma do Cm); a mesma caixa, lida
+ * da relativa maior, é outra letra: o Cm mora onde mora a forma D do maior, o Am na C, o Gm
+ * na A, o Em na G e o Dm na E. É a mesma tabela de MINOR_LABEL da prática, lida ao contrário.
+ */
+export const RELATIVE_MAJOR_SHAPE: Record<ShapeId, ShapeId> = { C: 'D', A: 'C', G: 'A', E: 'G', D: 'E' }
+
+/** O nome da forma, com a letra da relativa maior entre parênteses numa escala menor: "C (D)". */
+export const shapeLabel = (id: ShapeId, minor: boolean) => (minor ? `${id} (${RELATIVE_MAJOR_SHAPE[id]})` : id)
+
 const PENTA_MAJOR = [0, 2, 4, 7, 9]
 const PENTA_MINOR = [0, 3, 5, 7, 10]
 

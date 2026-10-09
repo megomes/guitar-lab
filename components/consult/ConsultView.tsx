@@ -8,7 +8,7 @@ import { ArrowUpRight } from 'lucide-react'
 import { useMemo } from 'react'
 
 import { chordIntervals, chordSymbol, chordVoicing, shiftVoicing, QUALITIES } from '@/lib/chords'
-import { SCALES, SHAPE_IDS, boxFor, scaleSpots, shiftPosition, type Scale, type ShapeId } from '@/lib/fretboard'
+import { SCALES, SHAPE_IDS, boxFor, shapeLabel, scaleSpots, shiftPosition, type Scale, type ShapeId } from '@/lib/fretboard'
 import { marksFromSpots, nearestWindow } from '@/lib/marks'
 import { noteSpots, togglePc } from '@/lib/notes'
 import { DIAG_STARTS, PROG_BY } from '@/lib/practice/caged'
@@ -68,7 +68,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
 
   const w = mode === 'notes' ? null : voicing ? voicing.window : (position?.window ?? null)
   /* A letra da forma em cima da faixa, para nunca ficar a dúvida de qual forma está acesa. */
-  const window = w && { ...w, label: shape }
+  const window = w && { ...w, label: mode === 'scales' ? shapeLabel(shape, isMinorish(scale.intervals)) : shape }
 
   /* Pentatônica: a diagonal do tom com a forma escolhida desenhada por cima. */
   const isPenta = mode === 'scales' && (scaleId === 'pentaMinor' || scaleId === 'pentaMajor')
@@ -80,7 +80,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
     const box = scaleSpots(rootPc, scale, position)
       .filter((sp) => sp.inShape)
       .map((sp) => ({ s: sp.string, f: sp.fret }))
-    return { neck: diagNeck(P, P.diag.notes, box, shape), legend: diagLegend(P, `forma ${shape}`) }
+    return { neck: diagNeck(P, P.diag.notes, box, shapeLabel(shape, t === 'min')), legend: diagLegend(P, `forma ${shapeLabel(shape, t === 'min')}`) }
   }, [isPenta, scaleView, scaleId, rootPc, shape, scale, position, shapeOct, diagString])
 
   /* Acordes em tríades: as três inversões fechadas no grupo de cordas, subindo o braço,

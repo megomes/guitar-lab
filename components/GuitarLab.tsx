@@ -11,7 +11,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
 import { chordIntervals } from '@/lib/chords'
-import { SCALES } from '@/lib/fretboard'
+import { SCALES, shapeLabel } from '@/lib/fretboard'
 import { INSTRUMENT_NAME, MODES, instrumentOf, type Instrument, type ModeId } from '@/lib/modes'
 import { PROG_BY } from '@/lib/practice/caged'
 import { computePractice, modeName, tonicName } from '@/lib/practice/session'
@@ -175,7 +175,7 @@ export function GuitarLab() {
         ? `${names(rootPc)} · 8 formas`
       : mode === 'notes'
         ? `${settings.notePcs.length} notas`
-        : `${names(rootPc)} · forma ${shape}`
+        : `${names(rootPc)} · forma ${mode === 'scales' ? shapeLabel(shape, isMinorish(scale.intervals)) : shape}`
 
   const cta =
     instrument === 'piano'

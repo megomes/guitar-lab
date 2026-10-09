@@ -18,7 +18,7 @@
 import { memo, type ReactNode } from 'react'
 
 import { QUALITIES, SHAPE_ROOT_STRING, chordIntervals, chordSymbol, chordVoicing, type QualityId } from '@/lib/chords'
-import { FRET_COUNT, SHAPE_IDS, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
+import { FRET_COUNT, SHAPE_IDS, shapeLabel, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
 import { fretsByString } from '@/lib/notes'
 import { degreeColor } from '@/lib/roles'
 import { sharpNames } from '@/lib/spelling'
@@ -386,7 +386,7 @@ export function ScaleStage({
               return (
                 <PairBox
                   key={id}
-                  name={id}
+                  name={shapeLabel(id, parent === 'min')}
                   range={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
                   hint={chord.length ? `forma ${id}: em cima a escala, embaixo o acorde ${id}${parent === 'min' ? 'm' : ''} nessa casa (aqui ele vira ${chordSymbol(rootPc, parent, nn)})` : `forma ${id}`}
                   top={{ dots, frame, label: byDegree }}
