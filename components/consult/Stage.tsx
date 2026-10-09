@@ -258,14 +258,14 @@ function Diagram({ dots, muted = [], label, frame, barre }: DiagramProps) {
               ) : d.ghost ? (
                 <>
                   <circle r={7.4} fill="#1d1c1e" stroke="rgba(236,231,224,0.16)" strokeWidth={0.8} />
-                  <text className="stage-box-name" fill="rgba(236,231,224,0.4)">
+                  <text className={`stage-box-name${label ? " stage-box-deg" : ""}`} fill="rgba(236,231,224,0.4)">
                     {label ? label(d) : nn(d.pc)}
                   </text>
                 </>
               ) : (
                 <>
                   <circle r={7.4} fill={c} />
-                  <text className="stage-box-name" fill="#141212">
+                  <text className={`stage-box-name${label ? " stage-box-deg" : ""}`} fill="#141212">
                     {label ? label(d) : nn(d.pc)}
                   </text>
                 </>

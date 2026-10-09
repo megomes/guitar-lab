@@ -2753,6 +2753,13 @@ button.stage-box-on:hover {
   dominant-baseline: central;
 }
 
+/* O grau na bolinha: o maior que cabe nela, para ler de longe. */
+.stage-box-deg {
+  font-size: 9px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+}
+
 .stage-label {
   font-size: 11px;
   color: var(--fg-3);
