@@ -11,7 +11,7 @@ export const BLOCKS: { min: number; name: string; ex: ExerciseId; txt: string }[
   { min: 5, name: 'Acordes cheios', ex: 'base', txt: 'A progressão com as formas completas da posição da noite.' },
   { min: 8, name: 'Arpejos encadeados', ex: 'arp', txt: 'Colcheias contínuas no metrônomo, nota mais próxima na troca.' },
   { min: 6, name: 'Penta até a terça', ex: 'penta', txt: 'Linha na penta da tônica caindo na terça de cada acorde.' },
-  { min: 7, name: 'Penta diagonal', ex: 'diag', txt: 'A penta do tom na diagonal (2-3 no menor, 3-2 no maior), atravessando as posições. Depois, backing track no tom, gravando.' },
+  { min: 7, name: 'Penta diagonal', ex: 'diag', txt: 'A penta do tom na diagonal (1 + 3-2 no menor, 3-2 no maior), atravessando as posições. Depois, backing track no tom, gravando.' },
 ]
 
 export function blockRanges(): [number, number][] {

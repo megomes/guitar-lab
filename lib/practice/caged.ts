@@ -185,51 +185,62 @@ export function pentBoxes(keyPc: number): PentBox[] {
   })
 }
 
-/* Penta diagonal (o método de Daniel Seriff): uma célula de 5 notas num par de cordas,
-   repetida igual no par seguinte, duas casas acima — três ao entrar no par da corda Si.
-   A célula depende só da tonalidade e sai da raiz na 6ª corda:
-   - menor, 2-3: ♭7 1 na corda grave do par, ♭3 4 5 na aguda (Lá menor: Sol 3, Lá 5 | Dó 3, Ré 5, Mi 7);
-   - maior, 3-2: 1 2 3 na corda grave, 5 6 na aguda (Dó maior: 8, 10, 12 | 10, 12).
-   Em graus do tom maior, o trio é sempre 1 2 3 e o par 5 6: a menor é a mesma conta lida da relativa. */
-const TRIO = [0, 2, 4]
-const DUO = [7, 9]
+/* Penta diagonal (o método de Daniel Seriff): sai sempre da tônica e sobe a escala em grupos
+   de 3 e 2 notas por corda, alternando — duas casas acima a cada corda, três ao entrar na Si.
+   - maior, 3-2: 1 2 3 na corda de saída, 5 6 na seguinte, e assim por diante
+     (Mi maior da 6ª: 0 2 4 | 2 4 | 2 4 6 | 4 6 | 5 7 9 | 7 9 12);
+   - menor, 1 + 3-2: só a tônica na corda de saída, depois ♭3 4 5 e ♭7 1 alternando
+     (Mi menor da 6ª: 12 | 10 12 14 | 12 14 | 12 14 16 | 15 17 | 15 17).
+   A 1ª corda fecha com número fixo de notas: 3 no maior (5 6 1, voltando à tônica, quando
+   cairia o par) e 2 no menor (♭3 4, quando cairia o trio). */
+const PENT_UP = [0, 2, 4, 7, 9]
 
 export interface Diagonal {
-  /** Quantas notas na corda de saída: 2 no menor (2-3), 3 no maior (3-2). */
-  first: 3 | 2
+  /** Quantas notas na corda de saída: 1 no menor (só a tônica), 3 no maior. */
+  first: 3 | 1
   /** A corda de onde a diagonal sai (0 = 6ª): a raiz pode estar em qualquer uma. */
   start: number
   notes: PNote[]
 }
 
-/** O nome da célula: 2-3 no menor, 3-2 no maior. */
-export const diagCell = (minor: boolean) => (minor ? '2-3' : '3-2')
+/** O nome da célula: 3-2 no maior, e a tônica sozinha antes dela no menor. */
+export const diagCell = (minor: boolean) => (minor ? '1 + 3-2' : '3-2')
 
 /** As cordas de onde a diagonal pode sair: da 6ª à 2ª. */
 export const DIAG_STARTS = [0, 1, 2, 3, 4]
 
+/** Quantas notas a diagonal toca em cada corda, da de saída até a 1ª. */
+function diagCounts(start: number, minor: boolean): number[] {
+  const counts: number[] = minor ? [1] : []
+  let trio = true
+  while (start + counts.length < 5) {
+    counts.push(trio ? 3 : 2)
+    trio = !trio
+  }
+  counts.push(minor ? 2 : 3)
+  return counts
+}
+
 /** As diagonais do tom, inteiras, saindo de cada corda e em cada oitava que cabe no braço.
- * Da corda de saída para cima a célula se repete igual; a corda Si soma uma casa sozinha,
+ * A escala sobe nota a nota na pentatônica; a corda Si soma uma casa sozinha,
  * porque a conta é feita em altura, não em desenho. */
 export function diagonals(keyPc: number, minor: boolean, maxFret = FRET_COUNT): Diagonal[] {
   const out: Diagonal[] = []
-  const first = minor ? 2 : 3
-  const groups = [first === 3 ? TRIO : DUO, first === 3 ? DUO : TRIO]
-  const startPc = mod12(keyPc + groups[0][0])
+  const tonicPc = mod12(keyPc + (minor ? 9 : 0))
   for (const start of DIAG_STARTS)
     for (let oct = 0; oct <= 1; oct++) {
-      const f0 = mod12(startPc - OPEN[start]) + 12 * oct
+      const f0 = mod12(tonicPc - OPEN[start]) + 12 * oct
       const notes: PNote[] = []
       let m = OPEN[start] + f0
-      for (let s = start; s < 6; s++) {
-        const g = groups[(s - start) % 2]
-        for (let k = 0; k < g.length; k++) {
-          while (mod12(m - keyPc) !== g[k]) m++
+      diagCounts(start, minor).forEach((n, i) => {
+        const s = start + i
+        for (let k = 0; k < n; k++) {
+          while (!PENT_UP.includes(mod12(m - keyPc))) m++
           notes.push({ s, f: m - OPEN[s], midi: m })
           m++
         }
-      }
-      if (notes.every((n) => n.f >= 0 && n.f <= maxFret)) out.push({ first, start, notes })
+      })
+      if (notes.every((n) => n.f >= 0 && n.f <= maxFret)) out.push({ first: minor ? 1 : 3, start, notes })
     }
   return out.sort((a, b) => a.start - b.start || a.notes[0].f - b.notes[0].f)
 }

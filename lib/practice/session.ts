@@ -82,7 +82,7 @@ export interface Practice {
   tonicChord: Chord
   /** A caixa da pentatônica (2 notas por corda) que mora na posição. */
   box: { forma: number; notes: PNote[] }
-  /** A penta diagonal do tom (2-3 no menor, 3-2 no maior); se há duas, a que mais passa pela posição. */
+  /** A penta diagonal do tom (1 + 3-2 no menor, 3-2 no maior); se há duas, a que mais passa pela posição. */
   diag: Diagonal
 }
 
@@ -325,7 +325,7 @@ function boxLine(P: Practice): Bar[] {
   return bars
 }
 
-/** Penta diagonal: sobe as 15 notas da 6ª à 1ª corda, 2-3 no menor e 3-2 no maior, e desce de volta. */
+/** Penta diagonal: sobe da tônica até a 1ª corda, 1 + 3-2 no menor e 3-2 no maior, e desce de volta. */
 function diagLine(P: Practice): Bar[] {
   const d = P.diag.notes
   const seq = d.concat(d.slice(0, -1).reverse())
@@ -510,12 +510,12 @@ export function exerciseText(id: ExerciseId, P: Practice): HowText {
     const to = d[d.length - 1]
     const nn = P.names
     const cell = P.minor
-      ? `<b>2-3</b>, saindo da ♭7: na ${6 - P.diag.start}ª corda ♭7 e 1 (${nn(d[0].midi)} e ${nn(d[1].midi)}), na ${5 - P.diag.start}ª ♭3 4 5`
-      : `<b>3-2</b>, saindo da tônica: na ${6 - P.diag.start}ª corda 1 2 3 (${nn(d[0].midi)}, ${nn(d[1].midi)}, ${nn(d[2].midi)}), na ${5 - P.diag.start}ª 5 e 6`
+      ? `<b>1 + 3-2</b>, saindo da tônica: na ${6 - P.diag.start}ª corda só o 1 (${nn(d[0].midi)}), na ${5 - P.diag.start}ª ♭3 4 5, na seguinte ♭7 1, e assim alternando`
+      : `<b>3-2</b>, saindo da tônica: na ${6 - P.diag.start}ª corda 1 2 3 (${nn(d[0].midi)}, ${nn(d[1].midi)}, ${nn(d[2].midi)}), na ${5 - P.diag.start}ª 5 e 6, e assim alternando`
     return {
       how:
         `A pentatônica de <b>${key}</b> na diagonal. No ${modeName(P)} a célula é ${cell}. ` +
-        `Cada nota fica a um tom da vizinha, e a célula se repete igual a cada par de cordas — duas casas acima, três ao entrar na corda Si — ` +
+        `As notas de cada corda ficam a um tom uma da outra, e a célula se repete igual a cada par de cordas — duas casas acima, três ao entrar na corda Si — ` +
         `da casa ${from.f} à ${to.f}, sem trocar de desenho. ` +
         `No braço, a faixa e as notas em contorno são a <b>forma ${P.pos.label}</b> da posição: dá para ver por onde a diagonal entra nela e por onde sai. Troque a posição para ver a diagonal cruzando as outras formas.`,
       more: [

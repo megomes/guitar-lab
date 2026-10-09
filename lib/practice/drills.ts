@@ -75,7 +75,7 @@ export const DRILLS: Drill[] = [
     name: 'Diagonal em 4s',
     min: 4,
     icon: 'diag',
-    why: 'A penta do tom na diagonal — 2-3 no menor, 3-2 no maior —, em grupos de 4 notas, atravessando o braço.',
+    why: 'A penta do tom na diagonal — 1 + 3-2 no menor, 3-2 no maior —, em grupos de 4 notas, atravessando o braço.',
     steps: [
       'Uma célula por tom: no menor ♭7 1 | ♭3 4 5, no maior 1 2 3 | 5 6, repetida a cada par de cordas.',
       'Grupos de 4 subindo: 1 2 3 4, 2 3 4 5...',
