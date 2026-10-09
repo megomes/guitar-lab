@@ -330,6 +330,9 @@ function parentChord(rootPc: number, quality: QualityId, shape: ShapeId, w: { fr
    acorde passa no máximo uma de cada lado. */
 const SHAPE_ROWS = 6
 
+/** Nos diagramas das formas, a bolinha leva o grau, não o nome da nota. */
+const byDegree = (d: Dot) => d.degree
+
 /** A moldura de uma forma: pela janela da caixa, que é a mesma na maior e na penta maior (e na
  * menor, penta menor e blues), com a forma centrada; perto do capotraste, a partir dele. */
 function shapeFrame(w: { from: number; to: number } | null, chord: Dot[]): { first: number; rows: number } {
@@ -383,8 +386,8 @@ export function ScaleStage({
                   name={id}
                   range={pos ? `${pos.window.from}–${pos.window.to}` : undefined}
                   hint={chord.length ? `forma ${id}: em cima a escala, embaixo o acorde ${id}${parent === 'min' ? 'm' : ''} nessa casa (aqui ele vira ${chordSymbol(rootPc, parent, nn)})` : `forma ${id}`}
-                  top={{ dots, frame }}
-                  bottom={{ dots: [...back, ...chord], barre, frame }}
+                  top={{ dots, frame, label: byDegree }}
+                  bottom={{ dots: [...back, ...chord], barre, frame, label: byDegree }}
                   on={id === shape}
                   onPress={() => onShape(id)}
                 />
