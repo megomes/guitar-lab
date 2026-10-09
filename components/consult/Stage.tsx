@@ -5,7 +5,7 @@
  * O braço fica preso embaixo, e o que sobra em cima não fica vazio: vira uma
  * segunda leitura do que o braço mostra, de outro ângulo.
  *
- * - A roda: as doze notas em círculo, com a tônica no alto. A escala ou o acorde
+ * - A roda: as doze notas no ciclo de quintas, com a tônica no alto. A escala ou o acorde
  *   vira um polígono — e o desenho é a estrutura: toda pentatônica menor tem o
  *   mesmo desenho, todo acorde menor o mesmo triângulo, em qualquer tom.
  * - Os diagramas: as cinco formas CAGED de pé, como num caderno de acordes. Tocar
@@ -51,7 +51,9 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
     const a = (k / 12) * Math.PI * 2 - Math.PI / 2
     return { x: 100 + R * Math.cos(a), y: 100 + R * Math.sin(a) }
   }
-  const order = Array.from({ length: 12 }, (_, k) => mod12(top + k))
+  /* Ciclo de quintas: cada vizinho a uma quinta justa. A pentatônica vira cinco vizinhas
+     seguidas, a escala maior sete; a terça maior cai quatro casas à direita, a menor três à esquerda. */
+  const order = Array.from({ length: 12 }, (_, k) => mod12(top + 7 * k))
   const poly = order
     .map((pc, k) => (lit.has(pc) ? at(k) : null))
     .filter((p): p is { x: number; y: number } => p !== null)
