@@ -54,6 +54,8 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   /* Ciclo de quintas: cada vizinho a uma quinta justa. A pentatônica vira cinco vizinhas
      seguidas, a escala maior sete; a terça maior cai quatro casas à direita, a menor três à esquerda. */
   const order = Array.from({ length: 12 }, (_, k) => mod12(top + 7 * k))
+  /* Tom menor quando a terça acesa é a menor: aí a tônica é a relativa de quem está três quintas abaixo. */
+  const minorKey = [...lit.values()].includes('♭3') && ![...lit.values()].includes('3')
   const poly = order
     .map((pc, k) => (lit.has(pc) ? at(k) : null))
     .filter((p): p is { x: number; y: number } => p !== null)
@@ -65,6 +67,24 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
       <circle cx={100} cy={100} r={R} fill="none" stroke="rgba(255,255,255,0.07)" />
       {lit.size > 2 && <polygon points={poly} style={{ fill: 'rgba(var(--accent-rgb), 0.12)', stroke: 'rgba(var(--accent-2-rgb), 0.75)' }} strokeWidth={1.4} strokeLinejoin="round" />}
       {lit.size === 2 && <polyline points={poly} fill="none" stroke="rgba(255,122,69,0.75)" strokeWidth={1.4} />}
+      {/* O anel de dentro: a relativa menor de cada nota, como no ciclo de quintas de sempre
+          (C por fora, Am por dentro). Acesa, a dupla do tom que está na tela: a relativa da
+          tônica numa escala maior, ou a própria tônica menor embaixo da relativa maior. */}
+      {order.map((pc, k) => {
+        const a = (k / 12) * Math.PI * 2 - Math.PI / 2
+        const minorPc = mod12(pc + 9)
+        const on = k === (minorKey ? 9 : 0)
+        return (
+          <text
+            key={`m${pc}`}
+            x={100 + 53 * Math.cos(a)}
+            y={100 + 53 * Math.sin(a)}
+            className={`stage-wheel-minor${on ? ' stage-wheel-minor-on' : ''}`}
+          >
+            {nn(minorPc)}m
+          </text>
+        )
+      })}
       <text x={100} y={sub ? 96 : 100} className="stage-wheel-center">
         {center}
       </text>
