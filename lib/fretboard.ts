@@ -147,7 +147,13 @@ export interface Position {
   window: Window
   /** As casas da posição, por corda (índice 0 = 6ª). */
   frets: number[][]
+  /** A caixa inteira, quando perto do capotraste alguma nota cairia antes da casa 0 e ficou
+   *  de fora de `frets`: é dela que a oitava de cima sai completa. */
+  whole?: number[][]
 }
+
+/** Quantas notas a forma pode perder no capotraste e continuar sendo ela. */
+const NUT_MISSING = 3
 
 /**
  * A caixa de uma forma, montada por índice de grau em vez de janela de casas.
@@ -174,24 +180,44 @@ export function boxFor(
   const fretsFor = (base: number) =>
     tuning.map((open, s) => [0, 1].map((j) => midiFor(base + 2 * s + j) - open))
 
-  // Sobe de oitava em oitava até a caixa inteira caber no braço desenhado.
+  // Sobe de oitava em oitava até a caixa inteira caber no braço desenhado. Se a oitava de
+  // baixo só não coube por uma ou outra nota antes da casa 0 (a forma D do Ré maior pediria
+  // o Fá♯ da 3ª corda na casa −1), ela vale assim mesmo, sem essas notas: é a forma do acorde
+  // aberto, e a completa continua uma oitava acima.
   let base = degree
   while (midiFor(base) < tuning[0]) base += size
+  let nearNut: number[][] | null = null
   for (let tries = 0; tries < 12; tries++) {
     const frets = fretsFor(base)
     const flat = frets.flat()
     if (flat.every((f) => f >= 0 && f <= fretCount)) {
-      return { shape, window: { from: Math.min(...flat), to: Math.max(...flat) }, frets }
+      return nearNut ? partial(shape, nearNut) : { shape, window: { from: Math.min(...flat), to: Math.max(...flat) }, frets }
     }
+    const under = flat.filter((f) => f < 0).length
+    nearNut = flat.every((f) => f >= -2 && f <= fretCount) && under <= NUT_MISSING ? frets : null
     base += size
   }
   return null
 }
 
-/** A mesma forma uma oitava acima — o CAGED recomeça depois do D. Null se não cabe. */
+/** Uma forma sem as notas que cairiam antes do capotraste, guardando a inteira. */
+function partial(shape: ShapeId, whole: number[][]): Position {
+  const frets = whole.map((fs) => fs.filter((f) => f >= 0))
+  const flat = frets.flat()
+  return { shape, window: { from: Math.min(...flat), to: Math.max(...flat) }, frets, whole }
+}
+
+/** A mesma forma uma oitava acima — o CAGED recomeça depois do D. Null se não cabe. A partir
+ * da caixa inteira: a forma que perdeu notas no capotraste volta completa lá em cima. */
 export function shiftPosition(p: Position, by: number, fretCount = FRET_COUNT): Position | null {
-  if (p.window.to + by > fretCount || p.window.from + by < 0) return null
-  return { ...p, window: { from: p.window.from + by, to: p.window.to + by }, frets: p.frets.map((fs) => fs.map((f) => f + by)) }
+  const whole = (p.whole ?? p.frets).map((fs) => fs.map((f) => f + by))
+  const flat = whole.flat()
+  if (flat.some((f) => f > fretCount)) return null
+  if (flat.some((f) => f < 0)) {
+    if (flat.filter((f) => f < 0).length > NUT_MISSING || flat.some((f) => f < -2)) return null
+    return partial(p.shape, whole)
+  }
+  return { shape: p.shape, window: { from: Math.min(...flat), to: Math.max(...flat) }, frets: whole }
 }
 
 /* ── Posições no braço ────────────────────────────────────────────────── */
