@@ -66,7 +66,9 @@ const RINGS = { outer: [71, 97], inner: [44, 69] } as const
  * O ciclo de quintas em dois anéis, como no de papel: C por fora, Am por dentro.
  *
  * O anel do tom que está na tela acende: maior acende o de fora, menor o de dentro — e a
- * tônica fica sempre no alto. As notas da escala viram fatias coloridas pelo grau, vizinhas
+ * tônica fica sempre no alto. Os nomes não mudam de lugar ao trocar maior por menor: a roda
+ * gira um quarto de volta (a tônica menor mora três quintas antes, embaixo da relativa maior)
+ * e os nomes giram ao contrário, para ficarem de pé. As notas da escala viram fatias coloridas pelo grau, vizinhas
  * (cada uma a uma quinta da outra), e a tônica salta um pouco para fora. O outro anel fica
  * quieto, com a relativa marcada por um contorno: as mesmas notas, lidas da outra tônica.
  */
@@ -75,9 +77,9 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   const degrees = [...lit.values()]
   /* Tom menor quando a terça acesa é a menor. */
   const minorKey = degrees.includes('♭3') && !degrees.includes('3')
-  /* O tom maior do alto: a própria tônica, ou a relativa maior dela. */
-  const majorTop = minorKey ? mod12(top + 3) : top
-  const outer = Array.from({ length: 12 }, (_, k) => mod12(majorTop + 7 * k))
+  const outer = Array.from({ length: 12 }, (_, k) => mod12(top + 7 * k))
+  const turn = minorKey ? 90 : 0
+  const upright = (c: { x: number; y: number }) => ({ transform: `rotate(${-turn}deg)`, transformOrigin: `${c.x}px ${c.y}px` })
   const inner = outer.map((pc) => mod12(pc + 9))
 
   const ring = (which: 'outer' | 'inner') => {
@@ -90,7 +92,7 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
       const on = degree !== undefined
       const tonic = on && degree === '1'
       /* No anel quieto, a fatia da relativa: logo acima ou abaixo da tônica. */
-      const relative = !active && k === 0 && lit.size > 0
+      const relative = !active && k === (minorKey ? 9 : 0) && lit.size > 0
       const color = on ? degreeColor(degree) : undefined
       const name = active || which === 'outer' ? nn(pc) : `${nn(pc)}m`
       /* Nome e grau empilhados na vertical, em qualquer ponto da roda. */
@@ -107,12 +109,12 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
         >
           <path
             d={slice(k, r0, tonic ? r1 + 3 : r1)}
-            fill={on ? color : active ? 'rgba(255,255,255,0.045)' : 'rgba(255,255,255,0.018)'}
             stroke={relative ? 'var(--accent-2)' : on ? 'none' : 'rgba(255,255,255,0.06)'}
             strokeWidth={relative ? 1 : 0.6}
             strokeDasharray={relative ? '2.5 2' : undefined}
-            style={tonic ? { filter: `drop-shadow(0 0 5px ${color})` } : undefined}
+            style={{ fill: on ? color : active ? 'rgba(255,255,255,0.045)' : 'rgba(255,255,255,0.018)', filter: tonic ? `drop-shadow(0 0 5px ${color})` : undefined }}
           />
+          <g className="stage-wheel-upright" style={upright(c)}>
           <text
             x={label.x}
             y={label.y}
@@ -126,6 +128,7 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
               {degree}
             </text>
           )}
+          </g>
         </g>
       )
     })
@@ -134,8 +137,10 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   return (
     <svg className="stage-wheel" viewBox="0 0 200 200" role="group" aria-label={`ciclo de quintas, ${minorKey ? 'tons menores' : 'tons maiores'} acesos`}>
       <circle cx={100} cy={100} r={40} fill="rgba(255,255,255,0.025)" stroke="rgba(255,255,255,0.06)" />
-      {ring('inner')}
-      {ring('outer')}
+      <g className="stage-wheel-turn" style={{ transform: `rotate(${turn}deg)`, transformOrigin: '100px 100px' }}>
+        {ring('inner')}
+        {ring('outer')}
+      </g>
       <text x={100} y={sub ? 95 : 100} className="stage-wheel-center">
         {center}
       </text>
@@ -246,7 +251,8 @@ function Diagram({ dots, muted = [], label, frame, barre }: DiagramProps) {
           const c = d.ghost ? 'rgba(236,231,224,0.28)' : degreeColor(d.degree)
           const open = d.fret === 0
           return (
-            <g key={`${d.string}-${d.fret}`} transform={`translate(${x(d.string)} ${y(d.fret)})`}>
+            <g key={`${d.string}-${d.fret}-${d.ghost ? 'g' : d.degree}`} transform={`translate(${x(d.string)} ${y(d.fret)})`}>
+              <g className="stage-dot">
               {open ? (
                 <circle r={5.5} fill="#0f0f10" stroke={c} strokeWidth={d.ghost ? 1 : 1.6} />
               ) : d.ghost ? (
@@ -264,6 +270,7 @@ function Diagram({ dots, muted = [], label, frame, barre }: DiagramProps) {
                   </text>
                 </>
               )}
+              </g>
             </g>
           )
         })}
@@ -318,6 +325,23 @@ function parentChord(rootPc: number, quality: QualityId, shape: ShapeId, w: { fr
   return best
 }
 
+/* Todo diagrama de forma tem seis casas, em qualquer escala e tônica: trocar de escala só
+   troca as bolinhas, nada muda de tamanho. Cabe tudo — a caixa tem até cinco casas e o
+   acorde passa no máximo uma de cada lado. */
+const SHAPE_ROWS = 6
+
+/** A moldura de uma forma: pela janela da caixa, que é a mesma na maior e na penta maior (e na
+ * menor, penta menor e blues), com a forma centrada; perto do capotraste, a partir dele. */
+function shapeFrame(w: { from: number; to: number } | null, chord: Dot[]): { first: number; rows: number } {
+  if (!w) return { first: 1, rows: SHAPE_ROWS }
+  const fr = [w.from, w.to, ...chord.map((c) => c.fret)]
+  const pressed = fr.filter((f) => f > 0)
+  const lo = Math.min(...pressed)
+  const hi = Math.max(...pressed)
+  if (fr.includes(0) || lo <= 1) return { first: 1, rows: SHAPE_ROWS }
+  return { first: Math.max(1, lo - Math.floor((SHAPE_ROWS - (hi - lo + 1)) / 2)), rows: SHAPE_ROWS }
+}
+
 export function ScaleStage({
   rootPc,
   scale,
@@ -341,9 +365,7 @@ export function ScaleStage({
     return { id, pos, dots, chord: pos ? parentChord(rootPc, parent, id, pos.window) : [] }
   })
   /* Todos os diagramas com o mesmo número de casas, para as janelas ficarem do mesmo tamanho. */
-  const frames = raw.map((r) => frameOf([...r.dots, ...r.chord]))
-  const rows = Math.max(...frames.map((f) => f.rows))
-  const shapes = raw.map((r, i) => ({ ...r, frame: { first: frames[i].first, rows } }))
+  const shapes = raw.map((r) => ({ ...r, frame: shapeFrame(r.pos?.window ?? null, r.chord) }))
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
       <div className="stage-in">

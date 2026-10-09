@@ -98,11 +98,16 @@ function ScaleBarView({ rootPc, scaleId, onScale, onRelative }: { rootPc: number
           </button>
         )
       })}
-      {rel && (
+      {rel ? (
         <button type="button" className="scale-rel" onClick={() => onRelative(relPc, rel.id)} title="as mesmas notas, a partir de outra tônica">
           <small>relativa</small>
           {tonicLabel(relPc, relMinor)} {GUITAR_SCALES.find((g) => g.id === rel.id)!.label.toLowerCase()}
         </button>
+      ) : (
+        /* O blues não tem relativa entre as cinco: o lugar fica guardado, para nada andar. */
+        <span className="scale-rel" aria-hidden style={{ visibility: 'hidden' }}>
+          <small>relativa</small>–
+        </span>
       )}
     </div>
   )

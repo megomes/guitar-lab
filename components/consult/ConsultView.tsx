@@ -162,7 +162,10 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
             ))}
           </CGroup>
         )}
-        {mode === 'scales' && isPenta && (
+        {/* Só a pentatônica tem diagonal; nas outras o seletor fica guardado, invisível, para a
+            faixa de controles não mudar de altura ao trocar de escala. */}
+        {mode === 'scales' && (
+          <span className="seg-slot" style={isPenta ? undefined : { visibility: 'hidden' }} aria-hidden={!isPenta} inert={!isPenta}>
           <Segmented<ScaleView>
             options={[
               { value: 'box', label: 'forma' },
@@ -171,6 +174,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
             value={scaleView}
             onChange={set('scaleView')}
           />
+          </span>
         )}
         {mode === 'scales' && (
           <ScaleBar rootPc={rootPc} scaleId={scaleId} onScale={set('scaleId')} onRelative={(pc, id) => patch({ rootPc: pc, scaleId: id })} />
