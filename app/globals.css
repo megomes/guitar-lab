@@ -4061,3 +4061,21 @@ button.stage-box-on:hover {
     order: -1;
   }
 }
+
+/* Tablet e celular: só a forma, sem o acorde embaixo — ela fica com a caixa inteira. */
+@media (max-width: 1100px), (pointer: coarse) {
+  .stage-pair svg + svg {
+    display: none;
+  }
+
+  .stage .stage-pair svg {
+    height: calc(100cqh - 40px);
+    max-height: 240px;
+  }
+}
+
+@media (max-width: 699px), (max-height: 559px) {
+  .stage .stage-pair svg {
+    height: auto;
+  }
+}
