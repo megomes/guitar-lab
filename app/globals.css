@@ -2558,14 +2558,14 @@ button.wk-on:hover {
 .stage-wheel-center {
   fill: var(--fg);
   font-family: var(--serif);
-  font-size: 26px;
+  font-size: 22px;
   text-anchor: middle;
   dominant-baseline: central;
 }
 
 .stage-wheel-sub {
   fill: var(--fg-3);
-  font-size: 9px;
+  font-size: 7.5px;
   text-anchor: middle;
   dominant-baseline: central;
 }
@@ -2578,24 +2578,13 @@ button.wk-on:hover {
   pointer-events: none;
 }
 
-/* A relativa menor de cada nota, no anel de dentro: discreta, só a do tom acesa. */
-.stage-wheel-minor {
-  fill: rgba(236, 231, 224, 0.32);
+.stage-wheel-name-in {
   font-size: 6.5px;
-  font-weight: 500;
-  text-anchor: middle;
-  dominant-baseline: central;
-  pointer-events: none;
-}
-
-.stage-wheel-minor-on {
-  fill: var(--accent-2);
-  font-weight: 700;
 }
 
 .stage-wheel-degree {
-  font-size: 7px;
-  font-weight: 600;
+  font-size: 5.5px;
+  font-weight: 700;
   text-anchor: middle;
   dominant-baseline: central;
   pointer-events: none;
@@ -2605,8 +2594,9 @@ button.wk-on:hover {
   cursor: pointer;
 }
 
-.stage-press:hover > circle:nth-child(2) {
+.stage-press:hover > path {
   stroke: var(--accent-2);
+  stroke-width: 1;
 }
 
 .stage-side {

@@ -44,48 +44,98 @@ interface WheelProps {
   pressHint: string
 }
 
+/** Uma fatia de anel: de um ângulo a outro (em graus, 0 no alto), entre dois raios. */
+function slice(k: number, r0: number, r1: number): string {
+  const pad = 1.6
+  const a0 = ((k * 30 - 15 + pad) * Math.PI) / 180
+  const a1 = ((k * 30 + 15 - pad) * Math.PI) / 180
+  const p = (r: number, a: number) => `${(100 + r * Math.sin(a)).toFixed(2)} ${(100 - r * Math.cos(a)).toFixed(2)}`
+  return `M ${p(r1, a0)} A ${r1} ${r1} 0 0 1 ${p(r1, a1)} L ${p(r0, a1)} A ${r0} ${r0} 0 0 0 ${p(r0, a0)} Z`
+}
+
+const polar = (k: number, r: number) => {
+  const a = (k * 30 * Math.PI) / 180
+  return { x: 100 + r * Math.sin(a), y: 100 - r * Math.cos(a) }
+}
+
+/* Os dois anéis: por fora os tons maiores, por dentro a relativa menor de cada um. */
+const RINGS = { outer: [71, 97], inner: [44, 69] } as const
+
+/**
+ * O ciclo de quintas em dois anéis, como no de papel: C por fora, Am por dentro.
+ *
+ * O anel do tom que está na tela acende: maior acende o de fora, menor o de dentro — e a
+ * tônica fica sempre no alto. As notas da escala viram fatias coloridas pelo grau, vizinhas
+ * (cada uma a uma quinta da outra), e a tônica salta um pouco para fora. O outro anel fica
+ * quieto, com a relativa marcada por um contorno: as mesmas notas, lidas da outra tônica.
+ */
 function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
   const nn = useNames()
-  const R = 76
-  const at = (k: number) => {
-    const a = (k / 12) * Math.PI * 2 - Math.PI / 2
-    return { x: 100 + R * Math.cos(a), y: 100 + R * Math.sin(a) }
+  const degrees = [...lit.values()]
+  /* Tom menor quando a terça acesa é a menor. */
+  const minorKey = degrees.includes('♭3') && !degrees.includes('3')
+  /* O tom maior do alto: a própria tônica, ou a relativa maior dela. */
+  const majorTop = minorKey ? mod12(top + 3) : top
+  const outer = Array.from({ length: 12 }, (_, k) => mod12(majorTop + 7 * k))
+  const inner = outer.map((pc) => mod12(pc + 9))
+
+  const ring = (which: 'outer' | 'inner') => {
+    const active = (which === 'inner') === minorKey
+    const pcs = which === 'outer' ? outer : inner
+    const [r0, r1] = RINGS[which]
+    const mid = (r0 + r1) / 2
+    return pcs.map((pc, k) => {
+      const degree = active ? lit.get(pc) : undefined
+      const on = degree !== undefined
+      const tonic = on && degree === '1'
+      /* No anel quieto, a fatia da relativa: logo acima ou abaixo da tônica. */
+      const relative = !active && k === 0 && lit.size > 0
+      const color = on ? degreeColor(degree) : undefined
+      const name = active || which === 'outer' ? nn(pc) : `${nn(pc)}m`
+      /* Nome e grau empilhados na vertical, em qualquer ponto da roda. */
+      const c = polar(k, mid)
+      const label = { x: c.x, y: on ? c.y - 3.5 : c.y }
+      const deg = { x: c.x, y: c.y + 5 }
+      return (
+        <g
+          key={`${which}-${k}`}
+          className={`stage-wheel-slice${onPress ? ' stage-press' : ''}`}
+          onClick={onPress ? () => onPress(pc) : undefined}
+          role={onPress ? 'button' : undefined}
+          aria-label={onPress ? `${nn(pc)}${which === 'inner' ? ' menor' : ''}: ${pressHint}` : undefined}
+        >
+          <path
+            d={slice(k, r0, tonic ? r1 + 3 : r1)}
+            fill={on ? color : active ? 'rgba(255,255,255,0.045)' : 'rgba(255,255,255,0.018)'}
+            stroke={relative ? 'var(--accent-2)' : on ? 'none' : 'rgba(255,255,255,0.06)'}
+            strokeWidth={relative ? 1 : 0.6}
+            strokeDasharray={relative ? '2.5 2' : undefined}
+            style={tonic ? { filter: `drop-shadow(0 0 5px ${color})` } : undefined}
+          />
+          <text
+            x={label.x}
+            y={label.y}
+            className={`stage-wheel-name${which === 'inner' ? ' stage-wheel-name-in' : ''}`}
+            fill={on ? '#141212' : relative ? 'var(--accent-2)' : active ? 'rgba(236,231,224,0.55)' : 'rgba(236,231,224,0.3)'}
+          >
+            {name}
+          </text>
+          {on && (
+            <text x={deg.x} y={deg.y} className="stage-wheel-degree" fill="rgba(20,18,18,0.72)">
+              {degree}
+            </text>
+          )}
+        </g>
+      )
+    })
   }
-  /* Ciclo de quintas: cada vizinho a uma quinta justa. A pentatônica vira cinco vizinhas
-     seguidas, a escala maior sete; a terça maior cai quatro casas à direita, a menor três à esquerda. */
-  const order = Array.from({ length: 12 }, (_, k) => mod12(top + 7 * k))
-  /* Tom menor quando a terça acesa é a menor: aí a tônica é a relativa de quem está três quintas abaixo. */
-  const minorKey = [...lit.values()].includes('♭3') && ![...lit.values()].includes('3')
-  const poly = order
-    .map((pc, k) => (lit.has(pc) ? at(k) : null))
-    .filter((p): p is { x: number; y: number } => p !== null)
-    .map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`)
-    .join(' ')
 
   return (
-    <svg className="stage-wheel" viewBox="0 0 200 200" role="group" aria-label="roda das notas">
-      <circle cx={100} cy={100} r={R} fill="none" stroke="rgba(255,255,255,0.07)" />
-      {lit.size > 2 && <polygon points={poly} style={{ fill: 'rgba(var(--accent-rgb), 0.12)', stroke: 'rgba(var(--accent-2-rgb), 0.75)' }} strokeWidth={1.4} strokeLinejoin="round" />}
-      {lit.size === 2 && <polyline points={poly} fill="none" stroke="rgba(255,122,69,0.75)" strokeWidth={1.4} />}
-      {/* O anel de dentro: a relativa menor de cada nota, como no ciclo de quintas de sempre
-          (C por fora, Am por dentro). Acesa, a dupla do tom que está na tela: a relativa da
-          tônica numa escala maior, ou a própria tônica menor embaixo da relativa maior. */}
-      {order.map((pc, k) => {
-        const a = (k / 12) * Math.PI * 2 - Math.PI / 2
-        const minorPc = mod12(pc + 9)
-        const on = k === (minorKey ? 9 : 0)
-        return (
-          <text
-            key={`m${pc}`}
-            x={100 + 53 * Math.cos(a)}
-            y={100 + 53 * Math.sin(a)}
-            className={`stage-wheel-minor${on ? ' stage-wheel-minor-on' : ''}`}
-          >
-            {nn(minorPc)}m
-          </text>
-        )
-      })}
-      <text x={100} y={sub ? 96 : 100} className="stage-wheel-center">
+    <svg className="stage-wheel" viewBox="0 0 200 200" role="group" aria-label={`ciclo de quintas, ${minorKey ? 'tons menores' : 'tons maiores'} acesos`}>
+      <circle cx={100} cy={100} r={40} fill="rgba(255,255,255,0.025)" stroke="rgba(255,255,255,0.06)" />
+      {ring('inner')}
+      {ring('outer')}
+      <text x={100} y={sub ? 95 : 100} className="stage-wheel-center">
         {center}
       </text>
       {sub && (
@@ -93,43 +143,6 @@ function WheelView({ top, lit, center, sub, onPress, pressHint }: WheelProps) {
           {sub}
         </text>
       )}
-      {order.map((pc, k) => {
-        const p = at(k)
-        const degree = lit.get(pc)
-        const on = degree !== undefined
-        const color = on ? degreeColor(degree) : undefined
-        return (
-          <g
-            key={pc}
-            className={`stage-wheel-note${onPress ? ' stage-press' : ''}`}
-            transform={`translate(${p.x} ${p.y})`}
-            onClick={onPress ? () => onPress(pc) : undefined}
-            role={onPress ? 'button' : undefined}
-            aria-label={onPress ? `${nn(pc)}: ${pressHint}` : undefined}
-          >
-            <circle r={13} fill="transparent" />
-            {on ? (
-              <>
-                <circle r={11} fill={color} opacity={0.22} />
-                <circle r={9.5} fill={color} />
-                <text className="stage-wheel-name" fill="#141212">
-                  {nn(pc)}
-                </text>
-                <text y={-16} className="stage-wheel-degree" fill={color}>
-                  {degree}
-                </text>
-              </>
-            ) : (
-              <>
-                <circle r={8} fill="rgba(12,12,13,0.9)" stroke="rgba(255,255,255,0.14)" />
-                <text className="stage-wheel-name" fill="rgba(236,231,224,0.45)">
-                  {nn(pc)}
-                </text>
-              </>
-            )}
-          </g>
-        )
-      })}
     </svg>
   )
 }
