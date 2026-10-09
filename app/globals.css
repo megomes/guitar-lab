@@ -4086,3 +4086,67 @@ button.stage-box-on:hover {
   font-size: 10.5px;
   opacity: 0.75;
 }
+
+/* ── Zoom do centro ──────────────────────────────────────────────────── */
+
+.stage {
+  position: relative;
+}
+
+/* O botão do canto: discreto até passar o mouse; aceso quando o zoom está ligado. */
+.stage-zoom {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--r-sm);
+  border: 1px solid var(--line);
+  background: var(--card-2);
+  color: var(--fg-3);
+  transition: color var(--t) var(--ease), border-color var(--t) var(--ease);
+}
+
+.stage-zoom:hover {
+  color: var(--fg);
+  border-color: var(--line-2);
+}
+
+.stage-zoom[aria-pressed='true'] {
+  color: var(--accent-2);
+  border-color: var(--accent-line);
+}
+
+/* Com o zoom: o braço (ou o teclado) sai e o palco fica com a altura toda. Só onde o palco
+   é a sobra de altura (computador e tablet); no celular o palco já é outra coisa. */
+@media (min-width: 700px) and (min-height: 560px) {
+  .screen.screen-zoom > .screen-fill {
+    display: none;
+  }
+
+  /* A roda ao lado dos diagramas, do tamanho que couber (até um terço da largura). */
+  .screen.screen-zoom .stage-in {
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-rows: minmax(0, 1fr);
+    justify-items: stretch;
+  }
+
+  .screen.screen-zoom .stage-wheel {
+    height: min(100cqh - 24px, 30cqw);
+    max-height: none;
+    align-self: center;
+  }
+
+  .screen.screen-zoom .stage-side {
+    height: 100%;
+  }
+
+  .screen.screen-zoom .stage .stage-box svg,
+  .screen.screen-zoom .stage .stage-pair svg,
+  .screen.screen-zoom .stage .stage-pair svg + svg {
+    max-height: none;
+  }
+}

@@ -34,6 +34,7 @@ import { Pip, ScaleHero } from '../consult/Hero'
 import { useNames } from '../names'
 import { Chip, Legend } from '../ui'
 import { Keyboard, type KeyMark } from './Keyboard'
+import { StageZoom } from '../consult/Stage'
 import { PianoChordStage, PianoScaleStage } from './PianoStage'
 import { useNoteInput } from './useNoteInput'
 
@@ -133,7 +134,8 @@ export function PianoView({ view, settings, set, patch }: Props) {
   const onTriad = (q: QualityId) => patch({ pQuality: q, pSeventh: seventhsFor(q).includes(seventh) ? seventh : 'none' })
 
   return (
-    <main className="wrap screen piano">
+    <StageZoom.Provider value={{ on: settings.stageZoom, toggle: () => set('stageZoom')(!settings.stageZoom) }}>
+    <main className={`wrap screen piano${settings.stageZoom ? ' screen-zoom' : ''}`}>
       <div className="screen-head consult-head">
         {view === 'chords' ? (
           <>
@@ -209,5 +211,6 @@ export function PianoView({ view, settings, set, patch }: Props) {
         </section>
       </div>
     </main>
+    </StageZoom.Provider>
   )
 }

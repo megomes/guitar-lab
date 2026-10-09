@@ -15,7 +15,8 @@
  * Tudo é SVG com viewBox: cresce e encolhe com a sobra de altura, do celular ao
  * tablet em pé.
  */
-import { memo, type ReactNode } from 'react'
+import { Maximize2, Minimize2 } from 'lucide-react'
+import { createContext, memo, useContext, type ReactNode } from 'react'
 
 import { QUALITIES, SHAPE_ROOT_STRING, chordIntervals, chordSymbol, chordVoicing, type QualityId } from '@/lib/chords'
 import { FRET_COUNT, SHAPE_IDS, shapeLabel, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
@@ -28,6 +29,29 @@ import { useNames } from '../names'
 
 const INTERVALS = ['1', '♭2', '2', '♭3', '3', '4', '♭5', '5', '♭6', '6', '♭7', '7']
 const mod12 = (x: number) => ((x % 12) + 12) % 12
+
+/* ── Zoom do centro ───────────────────────────────────────────────────── */
+
+/** O zoom do palco, dado pela tela: ligado, o braço some e o centro fica com a altura toda. */
+export const StageZoom = createContext<{ on: boolean; toggle: () => void } | null>(null)
+
+/** O botão no canto do palco que amplia o centro e esconde o braço — e volta. */
+function ZoomToggle() {
+  const zoom = useContext(StageZoom)
+  if (!zoom) return null
+  return (
+    <button
+      type="button"
+      className="stage-zoom"
+      onClick={zoom.toggle}
+      aria-pressed={zoom.on}
+      title={zoom.on ? 'voltar o braço' : 'ampliar o centro e esconder o braço'}
+      aria-label={zoom.on ? 'voltar o braço' : 'ampliar o centro'}
+    >
+      {zoom.on ? <Minimize2 size={14} strokeWidth={1.9} /> : <Maximize2 size={14} strokeWidth={1.9} />}
+    </button>
+  )
+}
 
 /* ── A roda ───────────────────────────────────────────────────────────── */
 
@@ -157,6 +181,7 @@ function WheelView({ top, lit, center, asKey = false, sub, onPress, pressHint }:
 }
 
 export const Wheel = memo(WheelView)
+export { ZoomToggle }
 
 /* ── Um diagrama de pé, como no caderno de acordes ────────────────────── */
 
@@ -374,6 +399,7 @@ export function ScaleStage({
   const shapes = raw.map((r) => ({ ...r, frame: shapeFrame(r.pos?.window ?? null, r.chord) }))
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
+      <ZoomToggle />
       <div className="stage-in">
         <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">
@@ -431,6 +457,7 @@ export function ChordStage({
 
   return (
     <section className="stage card" aria-label="o acorde de outros ângulos">
+      <ZoomToggle />
       <div className="stage-in">
         <Wheel top={rootPc} lit={lit} center={chordSymbol(rootPc, quality, nn)} sub={q.name} onPress={onRoot} pressHint="virar a fundamental" />
         <div className="stage-side">
@@ -469,6 +496,7 @@ export function NoteStage({ pcs, onToggle }: { pcs: number[]; onToggle: (pc: num
   const ordered = [...pcs].sort((a, b) => mod12(a - ref) - mod12(b - ref))
   return (
     <section className="stage card" aria-label="onde cada nota mora">
+      <ZoomToggle />
       <div className="stage-in">
         <Wheel top={0} lit={lit} center={pcs.length ? String(pcs.length) : '–'} sub={pcs.length === 1 ? 'nota' : 'notas'} onPress={onToggle} pressHint="ligar ou desligar" />
         <div className="stage-side">

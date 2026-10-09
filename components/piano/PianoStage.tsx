@@ -14,7 +14,7 @@ import { harmonicField } from '@/lib/harmony'
 import { INVERSION_NAMES, PIANO_SCALES, TRIADS, isBlack, pianoChord, pianoVoicing, specBass, specDegrees, specIntervals, specSize, type ChordSpec, type PianoNote } from '@/lib/piano'
 import { degreeColor } from '@/lib/roles'
 
-import { Wheel } from '../consult/Stage'
+import { Wheel, ZoomToggle } from '../consult/Stage'
 import { useNames } from '../names'
 
 const mod12 = (x: number) => ((x % 12) + 12) % 12
@@ -75,6 +75,7 @@ export function PianoChordStage({
   const lit = new Map(specIntervals(spec).map((iv, i) => [mod12(spec.root + iv), degrees[i]]))
   return (
     <section className="stage card" aria-label="o acorde de outros ângulos">
+      <ZoomToggle />
       <div className="stage-in">
         <Wheel top={spec.root} lit={lit} center={symbol} sub={QUALITIES[spec.triad].name} onPress={onRoot} pressHint="virar a fundamental" />
         <div className="stage-side">
@@ -123,6 +124,7 @@ export function PianoScaleStage({
   const field = harmonicField(rootPc, scale)
   return (
     <section className="stage card" aria-label="a escala de outros ângulos">
+      <ZoomToggle />
       <div className="stage-in">
         <Wheel top={rootPc} lit={lit} center={nn(rootPc)} asKey sub={`${scale.intervals.length} notas`} onPress={onRoot} pressHint="virar a tônica" />
         <div className="stage-side">

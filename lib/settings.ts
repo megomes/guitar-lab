@@ -36,6 +36,8 @@ export interface Settings {
   shape: ShapeId
   labelMode: LabelMode
   showOutside: boolean
+  /** O centro ampliado: o braço (ou o teclado) some e o palco fica com a altura toda. */
+  stageZoom: boolean
 
   /* Consulta */
   scaleId: string
@@ -121,6 +123,7 @@ export const DEFAULTS: Settings = {
   shape: 'E',
   labelMode: 'both',
   showOutside: true,
+  stageZoom: false,
   scaleId: 'pentaMinor',
   lookup: null,
   quality: 'min',
@@ -204,6 +207,7 @@ export function loadSettings(): Settings {
     if (!SHAPE_IDS.includes(s.shape)) s.shape = DEFAULTS.shape
     if (!['both', 'note', 'degree'].includes(s.labelMode)) s.labelMode = DEFAULTS.labelMode
     s.showOutside = s.showOutside !== false
+    s.stageZoom = s.stageZoom === true
     /* Na guitarra ficaram só cinco escalas: um modo que estava salvo vira a maior ou a menor. */
     if (!GUITAR_SCALE_IDS.includes(s.scaleId)) {
       const old = SCALES.find((x) => x.id === s.scaleId)

@@ -21,7 +21,7 @@ import { Neck } from '../Neck'
 import { Chip, Segmented } from '../ui'
 import { CGroup, ChordControls, NoteControls, ScaleBar, ScaleControls } from './Controls'
 import { ChordHero, NoteHero, ScaleHero } from './Hero'
-import { ChordStage, NoteStage, ScaleStage } from './Stage'
+import { ChordStage, NoteStage, ScaleStage, StageZoom } from './Stage'
 
 type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
 
@@ -123,8 +123,11 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
   const chordMinor = isMinorish(chordIntervals(quality))
   const canPractice = scale.intervals.length >= 5
 
+  const zoom = { on: settings.stageZoom, toggle: () => set('stageZoom')(!settings.stageZoom) }
+
   return (
-    <main className="wrap screen">
+    <StageZoom.Provider value={zoom}>
+    <main className={`wrap screen${zoom.on ? ' screen-zoom' : ''}`}>
       <div className="screen-head consult-head">
         {mode === 'scales' && <ScaleHero rootPc={rootPc} scale={scale} />}
         {mode === 'chords' && <ChordHero rootPc={rootPc} quality={quality} shape={shape} voicing={voicing} triads={triads?.label} />}
@@ -236,5 +239,6 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
         />
       </div>
     </main>
+    </StageZoom.Provider>
   )
 }
