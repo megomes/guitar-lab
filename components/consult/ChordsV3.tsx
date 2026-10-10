@@ -164,42 +164,47 @@ export function ChordsV3({ settings, set }: { settings: Settings; set: Setter })
         <Keys sets={sets} name={name} />
       </section>
 
-      {/* Uma grade por corda-raiz, uma embaixo da outra: os diagramas ficam grandes e a tela rola. */}
-      {sets.map((S) => (
-        <section key={S.root} className="v3-grid card" aria-label={`raiz na ${S.root}ª corda`}>
-          <div className="v3-corner">
+      {/* A 6ª e a 5ª corda lado a lado, na mesma linha de cada acorde: dá para comparar as
+          duas raízes de relance. A tela rola para baixo. */}
+      <section className="v3-grid card" aria-label="as formas" style={{ ['--v3-blocks' as string]: sets.length }}>
+        <div className="v3-corner" style={{ gridRow: 'span 2' }}>
+          {v3Diff && (
+            <ul className="v3-legend">
+              <li>
+                <i className="v3-lg-ring" /> a nota que mudou
+              </li>
+              <li>
+                <i className="v3-lg-was" /> onde ela estava no maior
+              </li>
+              <li>
+                <i className="v3-lg-under" /> o resto da pestana
+              </li>
+            </ul>
+          )}
+        </div>
+        {sets.map((S, i) => (
+          <header key={S.root} className={`v3-blockhead${i > 0 ? ' v3-sep' : ''}`}>
             <b className="v3-block">Raiz na {S.root}ª corda</b>
             <small>
               forma {S.root === 6 ? 'E' : 'A'} · {name} na casa {S.r}
             </small>
-            {v3Diff && (
-              <ul className="v3-legend">
-                <li>
-                  <i className="v3-lg-ring" /> a nota que mudou
-                </li>
-                <li>
-                  <i className="v3-lg-was" /> onde ela estava no maior
-                </li>
-                <li>
-                  <i className="v3-lg-under" /> o resto da pestana
-                </li>
-              </ul>
-            )}
-          </div>
-          <ColumnHeads S={S} />
-          {V3_ROWS.map((row) => (
-            <Row key={row.q} q={row.q} sets={[S]} name={name} diff={v3Diff} label={label} />
-          ))}
-        </section>
-      ))}
+          </header>
+        ))}
+        {sets.map((S, i) => (
+          <ColumnHeads key={S.root} S={S} sep={i > 0} />
+        ))}
+        {V3_ROWS.map((row) => (
+          <Row key={row.q} q={row.q} sets={sets} name={name} diff={v3Diff} label={label} />
+        ))}
+      </section>
     </main>
   )
 }
 
-function ColumnHeads({ S }: { S: V3Set }) {
+function ColumnHeads({ S, sep }: { S: V3Set; sep: boolean }) {
   return (
     <>
-      <header className="v3-colhead">
+      <header className={`v3-colhead${sep ? ' v3-sep' : ''}`}>
         <b>Pestana</b>
         <small>as 6 (ou 5) cordas · forma {S.root === 6 ? 'E' : 'A'}</small>
       </header>
@@ -224,11 +229,11 @@ function Row({ q, sets, name, diff, label }: { q: (typeof V3_ROWS)[number]['q'];
         </span>
         <small>{row.how}</small>
       </div>
-      {sets.map((S) => {
+      {sets.map((S, si) => {
         const barre = S.barre[q]
         const rs = rootString(S.root)
         return [
-          <figure key={`${S.root}-b`} className="v3-cell">
+          <figure key={`${S.root}-b`} className={`v3-cell${si > 0 ? ' v3-sep' : ''}`}>
             <V3Diagram shape={barre} frame={S.frame} barre={{ fret: S.r, from: rs }} moved={diff && q !== 'maj' ? moves(S.barre.maj, barre) : []} label={label} />
             <figcaption className="mono">{barre.tab}</figcaption>
           </figure>,

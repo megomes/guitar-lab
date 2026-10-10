@@ -4495,7 +4495,7 @@ button.stage-box-on:hover {
 .v3-grid {
   display: grid;
   flex: none;
-  grid-template-columns: 190px minmax(0, 1fr) minmax(0, 2fr);
+  grid-template-columns: 150px repeat(var(--v3-blocks), minmax(0, 1fr) minmax(0, 2fr));
   align-items: center;
   gap: 4px 10px;
   padding: 12px 14px;
@@ -4613,11 +4613,32 @@ button.stage-box-on:hover {
   margin: 0;
 }
 
-/* Grande: é para decorar. Os da pestana e os da tríade do mesmo tamanho, para comparar. */
+/* Grande: é para decorar. Ocupa a coluna (os da tríade dividem a deles em dois), até 230px. */
 .v3-diagram {
   display: block;
-  width: clamp(150px, 14vw, 210px);
+  width: 100%;
+  max-width: 230px;
   height: auto;
+}
+
+.v3-cell-pair figure {
+  flex: 0 1 50%;
+  max-width: 50%;
+  min-width: 0;
+}
+
+/* O título de cada corda-raiz, por cima das duas colunas dela. */
+.v3-blockhead {
+  grid-column: span 2;
+  display: grid;
+  gap: 1px;
+  text-align: center;
+}
+
+/* A divisa entre a 6ª e a 5ª corda. */
+.v3-sep {
+  border-left: 1px solid var(--line-2);
+  padding-left: 10px;
 }
 
 .v3-corner {
@@ -4662,11 +4683,7 @@ button.stage-box-on:hover {
   }
 
   .v3-grid {
-    grid-template-columns: 130px minmax(0, 1fr) minmax(0, 2fr);
-  }
-
-  .v3-diagram {
-    width: clamp(110px, 17vw, 170px);
+    grid-template-columns: 110px repeat(var(--v3-blocks), minmax(0, 1fr) minmax(0, 2fr));
   }
 }
 
@@ -4678,7 +4695,7 @@ button.stage-box-on:hover {
 
   .v3-grid {
     overflow-x: auto;
-    grid-template-columns: 96px minmax(150px, 1fr) minmax(290px, 2fr);
+    grid-template-columns: 96px repeat(var(--v3-blocks), minmax(130px, 1fr) minmax(260px, 2fr));
   }
 
   .v3-rowhead {
