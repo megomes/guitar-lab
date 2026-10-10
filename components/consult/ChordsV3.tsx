@@ -7,8 +7,8 @@
  * decorar e ligar uma forma à outra. Por isso a tela tem duas partes bem separadas:
  *
  * - Você mexe: a tônica, qual corda-raiz, graus ou notas, e se marca o que mudou.
- * - Para olhar: as chaves (as poucas regras que geram todas as formas) e a grade, com as
- *   oito pestanas e as tríades lado a lado, na mesma moldura, para comparar de relance.
+ * - Para olhar: a grade, com as pestanas e as tríades lado a lado, na mesma moldura, para
+ *   comparar de relance. A regra de cada acorde vai no nome da linha, numa frase.
  *
  * Cada forma de cima para baixo é o maior com uma ou duas notas mexidas: no modo "o que
  * mudou", a nota que mexeu ganha um anel e o lugar de onde ela veio fica tracejado.
@@ -17,7 +17,7 @@ import { memo } from 'react'
 
 import { degreeColor } from '@/lib/roles'
 import type { Settings, V3RootView } from '@/lib/settings'
-import { TRIAD_VARIANT, V3_ROWS, moves, rootString, stringName, v3Set, type V3Move, type V3Note, type V3Root, type V3Set, type V3Shape } from '@/lib/v3'
+import { TRIAD_VARIANT, V3_ROWS, moves, rootString, v3Set, type V3Move, type V3Note, type V3Root, type V3Set, type V3Shape } from '@/lib/v3'
 
 import { useNames } from '../names'
 import { Segmented, Switch } from '../ui'
@@ -159,10 +159,7 @@ export function ChordsV3({ settings, set }: { settings: Settings; set: Setter })
       </div>
 
       {/* ── Para olhar ──────────────────────────────────────────── */}
-      <section className="v3-keys" aria-label="as chaves para decorar">
-        <span className="v3-part">para olhar · as chaves</span>
-        <Keys sets={sets} name={name} />
-      </section>
+      <span className="v3-part">para olhar</span>
 
       {/* A 6ª e a 5ª corda lado a lado, na mesma linha de cada acorde: dá para comparar as
           duas raízes de relance. A tela rola para baixo. */}
@@ -258,56 +255,5 @@ function Row({ q, sets, name, diff, label }: { q: (typeof V3_ROWS)[number]['q'];
         ]
       })}
     </>
-  )
-}
-
-/* ── As chaves ────────────────────────────────────────────────────────── */
-
-/** As poucas regras que geram as dezesseis formas, com as casas de verdade do tom escolhido. */
-function Keys({ sets, name }: { sets: V3Set[]; name: string }) {
-  const line = (S: V3Set, text: string) => (
-    <li key={S.root}>
-      <small>{S.root}ª</small>
-      {text}
-    </li>
-  )
-  const mv = (a: V3Shape, b: V3Shape) => moves(a, b)[0]
-  const fromTo = (m: V3Move | undefined) => (m ? `${stringName(m.s)}, casa ${m.from} → ${m.to}` : '')
-
-  return (
-    <div className="v3-keycards">
-      <article className="v3-key v3-key-star">
-        <h3>A ♭7 mora na casa da fundamental</h3>
-        <p>Em toda forma com 7ª — pestana ou shell, menor ou maior — a ♭7 cai na mesma casa da fundamental. Achou a raiz, achou a sétima.</p>
-        <ul>{sets.map((S) => line(S, `${name} na casa ${S.r}: a ♭7 também na ${S.r}`))}</ul>
-      </article>
-      <article className="v3-key">
-        <h3>Maior → menor: a terça desce 1 casa</h3>
-        <p>Só uma nota mexe. O resto do desenho fica parado.</p>
-        <ul>
-          {sets.map((S) => line(S, `pestana: ${fromTo(mv(S.barre.maj, S.barre.min))} · tríade: ${fromTo(mv(S.triad.maj[0], S.triad.min[0]))}`))}
-        </ul>
-      </article>
-      <article className="v3-key">
-        <h3>Maior → 7: uma nota vira ♭7</h3>
-        <p>Na pestana é a fundamental do meio (a oitava) que desce 2 casas. Na tríade é a 5ª, a nota de cima, que sobe 3.</p>
-        <ul>
-          {sets.map((S) => line(S, `pestana: ${fromTo(mv(S.barre.maj, S.barre.dom7))} · tríade: ${fromTo(mv(S.triad.maj[0], S.triad.dom7[0]))}`))}
-        </ul>
-      </article>
-      <article className="v3-key">
-        <h3>Menor com 7ª = as duas juntas</h3>
-        <p>A terça desce 1 e a oitava vira ♭7. Não é uma forma nova: é a soma das duas mudanças.</p>
-      </article>
-      <article className="v3-key">
-        <h3>O shell que pula corda é a pestana enxuta</h3>
-        <p>Tire da pestana as notas repetidas e a 5ª: sobram fundamental, ♭7 e terça. Os pontos apagados atrás dele são a pestana inteira.</p>
-        <ul>{sets.map((S) => line(S, `${S.barre.dom7.tab} → ${S.triad.dom7[1].tab}`))}</ul>
-      </article>
-      <article className="v3-key">
-        <h3>Na 5ª corda, o mesmo desenho uma corda acima</h3>
-        <p>A forma A é a forma E subindo uma corda; só a corda Si soma uma casa, porque ela é afinada diferente.</p>
-      </article>
-    </div>
   )
 }
