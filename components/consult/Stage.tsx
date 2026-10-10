@@ -22,7 +22,7 @@ import { QUALITIES, SHAPE_ROOT_STRING, chordIntervals, chordSymbol, chordVoicing
 import { FRET_COUNT, SHAPE_IDS, shapeLabel, STRING_LABELS, boxFor, scaleSpots, type Scale, type ShapeId } from '@/lib/fretboard'
 import { fretsByString } from '@/lib/notes'
 import { degreeColor } from '@/lib/roles'
-import { sharpNames } from '@/lib/spelling'
+import { isMinorish, sharpNames } from '@/lib/spelling'
 import { INVERSION_NAME, STRING_SETS, closedTriads, setLabel } from '@/lib/triads'
 
 import { useNames } from '../names'
@@ -426,15 +426,20 @@ const byDegree = (d: Dot) => d.degree
 
 /** A moldura de uma forma: pela janela da caixa, que é a mesma na maior e na penta maior (e na
  * menor, penta menor e blues), com a forma centrada; perto do capotraste, a partir dele. */
-function shapeFrame(w: { from: number; to: number } | null, chord: Dot[]): { first: number; rows: number } {
-  if (!w) return { first: 1, rows: SHAPE_ROWS }
+function shapeFrame(w: { from: number; to: number } | null, chord: Dot[], rows = SHAPE_ROWS): { first: number; rows: number } {
+  if (!w) return { first: 1, rows }
   const fr = [w.from, w.to, ...chord.map((c) => c.fret)]
   const pressed = fr.filter((f) => f > 0)
+  if (!pressed.length) return { first: 1, rows }
   const lo = Math.min(...pressed)
   const hi = Math.max(...pressed)
-  if (fr.includes(0) || lo <= 1) return { first: 1, rows: SHAPE_ROWS }
-  return { first: Math.max(1, lo - Math.floor((SHAPE_ROWS - (hi - lo + 1)) / 2)), rows: SHAPE_ROWS }
+  if (fr.includes(0) || lo <= 1) return { first: 1, rows }
+  return { first: Math.max(1, lo - Math.floor((rows - (hi - lo + 1)) / 2)), rows }
 }
+
+/* As digitações dos acordes cabem em cinco casas (a mão alcança quatro): todas com cinco,
+   para os cinco diagramas terem o mesmo tamanho em qualquer acorde. */
+const CHORD_ROWS = 5
 
 export function ScaleStage({
   rootPc,
@@ -545,20 +550,27 @@ export function ChordStage({
   const inversions = triads ? closedTriads(rootPc, quality, set).slice(0, 3) : []
   const zoomed = useContext(StageZoom)?.on ?? false
   const wheel = <Wheel top={rootPc} lit={lit} center={chordSymbol(rootPc, quality, nn)} sub={q.name} onPress={onRoot} pressHint="virar a fundamental" />
+  /* As cinco digitações com a mesma moldura e os graus nas bolinhas, como nas escalas; num
+     acorde menor, a forma da relativa maior entre parênteses. */
+  const minor = isMinorish(chordIntervals(quality))
+  const voicings = SHAPE_IDS.map((id) => {
+    const v = chordVoicing(rootPc, quality, id)
+    const diagram: DiagramProps = { dots: v?.voices ?? [], muted: v?.muted, frame: shapeFrame(v?.window ?? null, [], CHORD_ROWS), label: byDegree }
+    return { id, v, name: shapeLabel(id, minor), diagram }
+  })
 
   /* No zoom, a digitação escolhida grande e as cinco em miniatura (as tríades seguem iguais). */
   if (zoomed && !triads) {
-    const voicings = SHAPE_IDS.map((id) => ({ id, v: chordVoicing(rootPc, quality, id) }))
     const pick = voicings.find((x) => x.id === shape) ?? voicings[0]
     return (
       <section className="stage card" aria-label="o acorde de outros ângulos">
         <ZoomToggle />
         <FocusLayout
           wheel={wheel}
-          title={`forma ${pick.id}`}
+          title={`forma ${pick.name}`}
           sub={pick.v ? `tônica na ${SHAPE_ROOT_STRING[pick.id]}ª` : 'não cabe'}
-          panels={[{ caption: chordSymbol(rootPc, quality, nn), diagram: { dots: pick.v?.voices ?? [], muted: pick.v?.muted } }]}
-          strip={voicings.map(({ id, v }) => ({ id, label: id, sub: v ? `${v.window.from}–${v.window.to}` : undefined, on: id === shape, onPress: () => onShape(id), thumb: { dots: v?.voices ?? [], muted: v?.muted } }))}
+          panels={[{ caption: chordSymbol(rootPc, quality, nn), diagram: pick.diagram }]}
+          strip={voicings.map((x) => ({ id: x.id, label: x.name, sub: x.v ? `${x.v.window.from}–${x.v.window.to}` : undefined, on: x.id === shape, onPress: () => onShape(x.id), thumb: x.diagram }))}
         />
       </section>
     )
@@ -575,20 +587,16 @@ export function ChordStage({
               ? inversions.map((t) => (
                   <Box key={`${t.inv}-${t.from}`} dots={t.notes} muted={[0, 1, 2, 3, 4, 5].filter((s) => !set.includes(s))} title={INVERSION_NAME[t.inv]} sub={`cordas ${setLabel(set)}`} />
                 ))
-              : SHAPE_IDS.map((id) => {
-                  const v = chordVoicing(rootPc, quality, id)
-                  return (
-                    <Box
-                      key={id}
-                      dots={v?.voices ?? []}
-                      muted={v?.muted}
-                      title={`forma ${id}`}
-                      sub={v ? `tônica na ${SHAPE_ROOT_STRING[id]}ª` : 'não cabe'}
-                      on={id === shape}
-                      onPress={() => onShape(id)}
-                    />
-                  )
-                })}
+              : voicings.map((x) => (
+                  <Box
+                    key={x.id}
+                    {...x.diagram}
+                    title={`forma ${x.name}`}
+                    sub={x.v ? `tônica na ${SHAPE_ROOT_STRING[x.id]}ª` : 'não cabe'}
+                    on={x.id === shape}
+                    onPress={() => onShape(x.id)}
+                  />
+                ))}
           </div>
         </div>
       </div>

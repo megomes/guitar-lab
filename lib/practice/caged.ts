@@ -272,13 +272,19 @@ export interface Position {
   hi: number
 }
 
-/** As 5 posições CAGED do tom: a região de cada forma do acorde I, com 1 casa de folga. */
+/** As 5 posições CAGED do tom: a região de cada forma do acorde I, com 1 casa de folga. A forma
+ * que é um acorde aberto fica no capotraste (o D do Ré maior na casa 0), como nas escalas da
+ * consulta — o `ladderFor` a jogaria uma oitava acima. */
 export function positions(keyPc: number): Omit<Position, 'label'>[] {
-  return ladderFor(keyPc, 'maj', true)
-    .slice(0, 5)
-    .map((sh, i) => {
-      const fs = sh.fr.filter((f) => f >= 0)
-      return { id: i + 1, shape: sh.nm, lo: Math.max(1, Math.min(...fs) - 1), hi: Math.min(FRET_COUNT, Math.max(...fs) + 1) }
+  return TPL.maj
+    .map(([nm, tr, t]) => {
+      const fr = t.map((x) => (x < 0 ? -1 : x + mod12(keyPc - tr)))
+      return { nm, fs: fr.filter((f) => f >= 0) }
+    })
+    .sort((a, b) => Math.min(...a.fs) - Math.min(...b.fs))
+    .map(({ nm, fs }, i) => {
+      const lo = Math.min(...fs)
+      return { id: i + 1, shape: nm, lo: lo === 0 ? 0 : Math.max(1, lo - 1), hi: Math.min(FRET_COUNT, Math.max(...fs) + 1) }
     })
 }
 

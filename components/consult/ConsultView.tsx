@@ -68,7 +68,7 @@ export function ConsultView({ settings, set, patch, onPractice, onQuiz }: Props)
 
   const w = mode === 'notes' ? null : voicing ? voicing.window : (position?.window ?? null)
   /* A letra da forma em cima da faixa, para nunca ficar a dúvida de qual forma está acesa. */
-  const window = w && { ...w, label: mode === 'scales' ? shapeLabel(shape, isMinorish(scale.intervals)) : shape }
+  const window = w && { ...w, label: shapeLabel(shape, isMinorish(mode === 'scales' ? scale.intervals : chordIntervals(quality))) }
 
   /* Pentatônica: a diagonal do tom com a forma escolhida desenhada por cima. */
   const isPenta = mode === 'scales' && (scaleId === 'pentaMinor' || scaleId === 'pentaMajor')

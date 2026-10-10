@@ -95,7 +95,9 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
   const minor = tonality === 'min'
   const keyPc = keyOf(tonicPc, minor)
   const names = namesForKey(keyPc)
-  const ps: Position[] = positions(keyPc).map((p) => ({ ...p, label: minor ? MINOR_LABEL[p.shape] : p.shape }))
+  /* No menor, a letra da forma do acorde menor e a da relativa maior entre parênteses, como na
+     consulta: "D (E)" é a forma do Dm, a mesma região da forma E do Fá maior. */
+  const ps: Position[] = positions(keyPc).map((p) => ({ ...p, label: minor ? `${MINOR_LABEL[p.shape][0]} (${p.shape})` : p.shape }))
   const base = ps.find((p) => shapeOf(p) === shape) ?? ps[0]
   const pos = oct && base.hi + 12 <= FRET_COUNT ? { ...base, lo: base.lo + 12, hi: base.hi + 12 } : base
   const chords: PosChord[] = buildChords(keyPc, prog, names).map((c) => ({
@@ -119,9 +121,14 @@ export function computePractice(tonicPc: number, tonality: Tonality, prog: ProgI
   let bc = 1e9
   for (const b of pentBoxes(keyPc))
     for (const sh of [0, 12, -12]) {
-      const notes = b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))
-      if (notes.some((n) => n.f < 0 || n.f > FRET_COUNT)) continue
-      const c = notes.reduce((a, n) => a + Math.max(0, pos.lo - n.f, n.f - pos.hi), 0)
+      const all = b.notes.map((n) => ({ s: n.s, f: n.f + sh, midi: n.midi + sh }))
+      if (all.some((n) => n.f > FRET_COUNT)) continue
+      /* No capotraste a caixa pode perder até três notas (a casa −1 não existe), como as formas
+         da consulta; cada nota perdida pesa, para a caixa inteira ganhar quando também cabe. */
+      const notes = all.filter((n) => n.f >= 0)
+      const missing = all.length - notes.length
+      if (missing > 3 || all.some((n) => n.f < -2)) continue
+      const c = notes.reduce((a, n) => a + Math.max(0, pos.lo - n.f, n.f - pos.hi), 0) + missing
       if (c < bc) {
         bc = c
         box = { forma: b.forma, notes }

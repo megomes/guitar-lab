@@ -151,7 +151,9 @@ function ChordControlsView({ rootPc, minor, shape, quality, view, triadSet, onRo
   return (
     <>
       <Tonics rootPc={rootPc} minor={minor} onRoot={onRoot} />
-      {hasTriad(quality) && (
+      {/* Só a tríade tem inversões: nas tétrades o seletor fica guardado, invisível, para a
+          faixa de controles não mudar ao trocar de qualidade. */}
+      <span style={hasTriad(quality) ? undefined : { visibility: 'hidden' }} aria-hidden={!hasTriad(quality)} inert={!hasTriad(quality)}>
         <Segmented<ChordView>
           options={[
             { value: 'caged', label: 'forma CAGED' },
@@ -160,7 +162,7 @@ function ChordControlsView({ rootPc, minor, shape, quality, view, triadSet, onRo
           value={view}
           onChange={onView}
         />
-      )}
+      </span>
       {triads ? (
         <CGroup label="Cordas" hint="uma nota em cada">
           {STRING_SETS.map((set, i) => (
@@ -170,15 +172,31 @@ function ChordControlsView({ rootPc, minor, shape, quality, view, triadSet, onRo
       ) : (
         <CGroup label="Forma" hint="corda da tônica">
           {SHAPE_IDS.map((id) => (
-            <Chip key={id} label={`${id} ${SHAPE_ROOT_STRING[id]}ª`} fixed on={shape === id} onPress={() => onShape(id)} />
+            <Chip
+              key={id}
+              fixed
+              on={shape === id}
+              onPress={() => onShape(id)}
+              label={
+                <>
+                  {id} {SHAPE_ROOT_STRING[id]}ª
+                  {/* Acorde menor: a forma da relativa maior, como nas escalas. Guardada no maior. */}
+                  <small className="chip-rel" style={minor ? undefined : { visibility: 'hidden' }}>
+                    ({RELATIVE_MAJOR_SHAPE[id]})
+                  </small>
+                </>
+              }
+            />
           ))}
         </CGroup>
       )}
-      <CGroup label="Qualidade">
+      {/* A qualidade numa linha só, embaixo: rola de lado se faltar largura, nunca quebra. */}
+      <div className="scale-bar quality-bar" role="radiogroup" aria-label="qualidade">
+        <span className="cgroup-label">Qualidade</span>
         {QUALITY_IDS.map((id) => (
           <Chip key={id} label={qualityLabel(id)} fixed on={quality === id} onPress={() => onQuality(id)} />
         ))}
-      </CGroup>
+      </div>
     </>
   )
 }

@@ -175,7 +175,7 @@ export function GuitarLab() {
         ? `${names(rootPc)} · 8 formas`
       : mode === 'notes'
         ? `${settings.notePcs.length} notas`
-        : `${names(rootPc)} · forma ${mode === 'scales' ? shapeLabel(shape, isMinorish(scale.intervals)) : shape}`
+        : `${names(rootPc)} · forma ${shapeLabel(shape, isMinorish(mode === 'scales' ? scale.intervals : chordIntervals(quality)))}`
 
   const cta =
     instrument === 'piano'
