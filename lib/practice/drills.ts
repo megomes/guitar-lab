@@ -6,6 +6,7 @@
  * topo da Reunião (os mesmos da Prática).
  */
 import { STRING_LABELS } from '../fretboard'
+import { sharpNames } from '../spelling'
 import type { LegendItem, Mark, NeckWindow } from '../marks'
 import { ROLE_COLOR, degreeColor } from '../roles'
 import { OPEN, diagCell, diagonals, groups, mod12, pentBoxes, rootPositions, spider, type PNote } from './caged'
@@ -358,7 +359,8 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
     const downNotes = maj7Pass(f0 + k + 1, false)
     const rootOf = (shift: number) => mod12(R + shift)
     const degOf = (n: PNote, shift: number) => MAJ7_DEG[mod12(n.midi - rootOf(shift))] ?? ''
-    const name = (shift: number) => `${nn(rootOf(shift))}maj7`
+    /* Os nomes também fixos (F♯, G, G♯…), para ser sempre o mesmo exercício, em qualquer tônica do topo. */
+    const name = (shift: number) => `${sharpNames(rootOf(shift))}maj7`
     const bar = (notes: PNote[], shift: number, text: string): Bar => ({
       ci: null,
       head: { text, sub: '7 1 · 3 5' },
