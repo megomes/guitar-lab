@@ -5,7 +5,6 @@
  * (notas, graus) e o "fora da forma" também valem para tudo.
  */
 import { QUALITIES, type QualityId } from './chords'
-import { MAJOR_SEVENTHS, MINOR_SEVENTHS } from './jazz'
 import { GUITAR_SCALE_IDS, SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, instrumentOf, type ModeId } from './modes'
 import { KEY_OPTIONS, NINTHS, PIANO_SCALES, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
@@ -22,7 +21,6 @@ export type ScaleView = 'box' | 'diag'
 export type ChordView = 'caged' | 'triads'
 
 /** Acordes V2: as formas completas, ou o shell (fundamental, terça e sétima). */
-export type V2Voicing = 'full' | 'shell'
 /** Acordes V3: as duas cordas-raiz, ou só uma. */
 export type V3RootView = 'both' | '6' | '5'
 
@@ -47,9 +45,6 @@ export interface Settings {
   lookup: QualityId | null
   quality: QualityId
   /** Acordes V2: qual sétima aparece na coluna da terça maior e na da terça menor. */
-  v2Maj7: QualityId
-  v2Min7: QualityId
-  v2Voicing: V2Voicing
   v3Root: V3RootView
   /** Acordes V3: marcar a nota que mudou em relação ao maior, com o lugar de onde ela veio. */
   v3Diff: boolean
@@ -132,9 +127,6 @@ export const DEFAULTS: Settings = {
   scaleId: 'pentaMinor',
   lookup: null,
   quality: 'min',
-  v2Maj7: 'maj7',
-  v2Min7: 'min7',
-  v2Voicing: 'full',
   v3Root: 'both',
   v3Diff: true,
   /** A pentatônica menor de Lá, com a tônica primeiro (a referência dos graus). */
@@ -209,6 +201,8 @@ export function loadSettings(): Settings {
       s.quizHi = DEFAULTS.quizHi
     }
     s.version = SETTINGS_VERSION
+    /* O Acordes V2 saiu: quem estava nele abre no V3, que o substituiu. */
+    if ((s.mode as string) === 'chords2') s.mode = 'chords3'
     if (!MODES.some((m) => m.id === s.mode)) s.mode = DEFAULTS.mode
     s.rootPc = int(s.rootPc, 0, 11, DEFAULTS.rootPc)
     if (!SHAPE_IDS.includes(s.shape)) s.shape = DEFAULTS.shape
@@ -221,9 +215,6 @@ export function loadSettings(): Settings {
       s.scaleId = !old ? DEFAULTS.scaleId : old.intervals.includes(4) ? 'major' : 'minor'
     }
     if (!(s.quality in QUALITIES)) s.quality = DEFAULTS.quality
-    if (!MAJOR_SEVENTHS.includes(s.v2Maj7)) s.v2Maj7 = DEFAULTS.v2Maj7
-    if (!MINOR_SEVENTHS.includes(s.v2Min7)) s.v2Min7 = DEFAULTS.v2Min7
-    if (s.v2Voicing !== 'full' && s.v2Voicing !== 'shell') s.v2Voicing = DEFAULTS.v2Voicing
     if (!['both', '6', '5'].includes(s.v3Root)) s.v3Root = DEFAULTS.v3Root
     s.v3Diff = s.v3Diff !== false
     if (s.lookup !== null && !(s.lookup in QUALITIES)) s.lookup = null
