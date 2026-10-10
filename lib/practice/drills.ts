@@ -79,10 +79,10 @@ export const DRILLS: Drill[] = [
     name: 'Arpejo maj7 em semitons',
     min: 5,
     icon: 'arp',
-    key: true,
+    key: false,
     why: 'O arpejo de sétima maior com duas notas por corda, saindo da 7ª: 7 1 | 3 5 em cada corda. Sobe num tom, sobe um semitom e desce no tom seguinte; desce, sobe um semitom e sobe de novo — até passar pelas 12 tonalidades.',
     steps: [
-      'Escolha a tônica no topo: em F♯ é o exercício do professor ([6]1 [6]2 [5]1 [5]4 …).',
+      'Sempre o mesmo: começa na 6ª corda, casa 1 ([6]1 [6]2 [5]1 [5]4 …), em F♯maj7.',
       'Em cada corda, duas notas: na 6ª, 4ª e 2ª a 7ª e o 1 (meio tom de distância); na 5ª, 3ª e 1ª a 3ª e a 5ª.',
       'Uma nota de cada vez, todas com o mesmo tempo. No fim de cada passada, um semitom acima e volta pelo outro lado.',
       'As opções mostram cada ida e volta da rota, até terminar na 6ª corda, casa 12.',
@@ -347,17 +347,16 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
   }
 
   if (id === 'maj7') {
-    /* A 7ª da tônica escolhida na 6ª corda: em F♯, casa 1 (o Fá, que é o Mi♯ do F♯maj7). */
-    const f0 = mod12(T - 1 - OPEN[0])
+    /* Sempre o exercício do professor, fora da tônica do topo: começa na 6ª corda, casa 1 (o Fá,
+       que é o Mi♯ do F♯maj7), e a rota cabe inteira no braço até terminar na casa 12. */
+    const f0 = 1
+    const R = mod12(OPEN[0] + f0 + 1)
     const pair = Math.min(Math.max(S.maj7Pair, 0), MAJ7_PASSES / 2 - 1)
     /* A ida e a volta desse par de passadas: sobe no tom k e desce no tom seguinte. */
     const k = 2 * pair
-    /* Saindo de uma casa alta (em Mi, a 7ª está na 11), o fim da rota passaria da casa 21:
-       aí esse par de passadas desce uma oitava. Em Fá♯ (o do professor) a rota cabe inteira. */
-    const base = f0 + k + 1 + 8 > 21 ? f0 + k - 12 : f0 + k
-    const upNotes = maj7Pass(base, true)
-    const downNotes = maj7Pass(base + 1, false)
-    const rootOf = (shift: number) => mod12(T + shift)
+    const upNotes = maj7Pass(f0 + k, true)
+    const downNotes = maj7Pass(f0 + k + 1, false)
+    const rootOf = (shift: number) => mod12(R + shift)
     const degOf = (n: PNote, shift: number) => MAJ7_DEG[mod12(n.midi - rootOf(shift))] ?? ''
     const name = (shift: number) => `${nn(rootOf(shift))}maj7`
     const bar = (notes: PNote[], shift: number, text: string): Bar => ({
