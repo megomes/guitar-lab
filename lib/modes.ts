@@ -6,7 +6,7 @@
  * As duas metades olham para a mesma tônica e a mesma forma CAGED — trocar uma lá
  * troca aqui.
  */
-export type ModeId = 'scales' | 'chords' | 'chords2' | 'notes' | 'practice' | 'meeting' | 'plan' | 'quiz' | 'solos' | 'pChords' | 'pScales' | 'pGame'
+export type ModeId = 'scales' | 'chords' | 'chords2' | 'chords3' | 'notes' | 'practice' | 'meeting' | 'plan' | 'quiz' | 'solos' | 'pChords' | 'pScales' | 'pGame'
 
 export type ModeGroup = 'consulta' | 'treino' | 'jogo' | 'estudo' | 'piano' | 'pjogo'
 
@@ -25,6 +25,7 @@ export const MODES: Mode[] = [
   { id: 'scales', group: 'consulta', instrument: 'guitar', name: 'Escalas', hint: 'a escala na forma CAGED, e o acorde por cima' },
   { id: 'chords', group: 'consulta', instrument: 'guitar', name: 'Acordes', hint: 'a digitação nas cinco formas' },
   { id: 'chords2', group: 'consulta', instrument: 'guitar', name: 'Acordes V2', hint: 'as 8 formas com pestana, com os graus e a cifra do jazz' },
+  { id: 'chords3', group: 'consulta', instrument: 'guitar', name: 'Acordes V3', hint: 'as formas que estou decorando: pestana e tríade, na 6ª e na 5ª corda' },
   { id: 'notes', group: 'consulta', instrument: 'guitar', name: 'Notas', hint: 'onde cada nota mora no braço' },
   { id: 'practice', group: 'treino', instrument: 'guitar', name: 'Prática', hint: 'exercícios da posição, com som' },
   { id: 'meeting', group: 'treino', instrument: 'guitar', name: 'Reunião', hint: 'drills silenciosos para a mão esquerda' },

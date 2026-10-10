@@ -3,7 +3,7 @@
 /* A casca: a barra de cima com as telas do instrumento escolhido e a barra de
  * baixo no celular, que vira um trilho na lateral no celular, que fica sempre
  * deitado. O seletor ao lado da marca troca guitarra e piano — o app é o mesmo. */
-import { ArrowUpRight, CalendarDays, Crosshair, Gamepad2, GraduationCap, Guitar, LayoutGrid, Piano, Repeat, Video, Waypoints } from 'lucide-react'
+import { ArrowUpRight, BookOpen, CalendarDays, Crosshair, Gamepad2, GraduationCap, Guitar, LayoutGrid, Piano, Repeat, Video, Waypoints } from 'lucide-react'
 import { Fragment } from 'react'
 
 import { INSTRUMENT_NAME, instrumentOf, modesOf, type Instrument, type ModeId } from '@/lib/modes'
@@ -14,6 +14,7 @@ export const MODE_ICON: Record<ModeId, React.ReactNode> = {
   scales: <Waypoints {...ICON} />,
   chords: <Guitar {...ICON} />,
   chords2: <LayoutGrid {...ICON} />,
+  chords3: <BookOpen {...ICON} />,
   notes: <Crosshair {...ICON} />,
   practice: <Repeat {...ICON} />,
   meeting: <Video {...ICON} />,

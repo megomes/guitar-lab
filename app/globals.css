@@ -4413,3 +4413,282 @@ button.stage-box-on:hover {
     height: calc(100cqh - 50px);
   }
 }
+
+/* ── Acordes V3: as formas que estou decorando ───────────────────────── */
+
+/* A tela rola: a grade é para ler com calma, não precisa caber numa altura. */
+.screen.v3 {
+  overflow-y: auto;
+}
+
+/* "Você mexe" e "para olhar": as duas partes da tela, com nome. */
+.v3-part {
+  flex-basis: 100%;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-4);
+}
+
+.v3-keys {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.v3-keycards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.v3-key {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px 12px;
+  border-radius: var(--r-md);
+  border: 1px solid var(--line);
+  background: var(--card);
+}
+
+.v3-key h3 {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--fg);
+}
+
+.v3-key p {
+  font-size: 11.5px;
+  line-height: 1.4;
+  color: var(--fg-3);
+}
+
+.v3-key ul {
+  display: grid;
+  gap: 2px;
+  margin-top: auto;
+  list-style: none;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--fg-2);
+}
+
+.v3-key li small {
+  margin-right: 6px;
+  color: var(--accent-2);
+}
+
+/* A chave principal: a ♭7 na casa da fundamental. */
+.v3-key-star {
+  border-color: var(--accent-line);
+  background: var(--accent-soft);
+}
+
+.v3-key-star h3 {
+  color: var(--accent-2);
+}
+
+/* A grade: os nomes à esquerda, e para cada corda-raiz a pestana e a tríade. */
+.v3-grid {
+  display: grid;
+  flex: none;
+  grid-template-columns: 190px minmax(0, 1fr) minmax(0, 2fr);
+  align-items: center;
+  gap: 4px 10px;
+  padding: 12px 14px;
+}
+
+.v3-colhead {
+  display: grid;
+  gap: 1px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  align-self: end;
+}
+
+.v3-colhead b {
+  font-size: 13px;
+}
+
+.v3-colhead small {
+  font-size: 10.5px;
+  color: var(--fg-4);
+}
+
+.v3-corner {
+  align-self: end;
+}
+
+.v3-legend {
+  display: grid;
+  gap: 3px;
+  list-style: none;
+  font-size: 10.5px;
+  color: var(--fg-3);
+}
+
+.v3-legend i {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  margin-right: 5px;
+  vertical-align: -2px;
+  border-radius: 50%;
+}
+
+.v3-lg-ring {
+  border: 1.5px solid var(--accent-2);
+}
+
+.v3-lg-was {
+  border: 1.2px dashed var(--fg-3);
+}
+
+.v3-lg-under {
+  background: #1d1c1e;
+  border: 1px solid rgba(236, 231, 224, 0.2);
+}
+
+.v3-rowhead {
+  display: grid;
+  gap: 2px;
+  padding: 8px 0;
+  border-top: 1px solid var(--line);
+  align-self: stretch;
+  align-content: center;
+}
+
+.v3-rowhead b {
+  font-family: var(--serif);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.v3-sym {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-2);
+}
+
+.v3-sym small {
+  font-weight: 500;
+  color: var(--fg-3);
+}
+
+.v3-rowhead > small {
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--fg-3);
+}
+
+.v3-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+  padding: 8px 0 4px;
+  border-top: 1px solid var(--line);
+  align-self: stretch;
+  justify-content: center;
+}
+
+.v3-cell-pair {
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.v3-cell-pair figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+}
+
+/* Grande: é para decorar. Os da pestana e os da tríade do mesmo tamanho, para comparar. */
+.v3-diagram {
+  display: block;
+  width: clamp(150px, 14vw, 210px);
+  height: auto;
+}
+
+.v3-corner {
+  display: grid;
+  gap: 2px;
+}
+
+.v3-block {
+  font-family: var(--serif);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.v3-corner > small {
+  margin-bottom: 8px;
+  font-size: 11.5px;
+  color: var(--accent-2);
+}
+
+.v3-cell figcaption {
+  display: grid;
+  justify-items: center;
+  font-size: 11px;
+  line-height: 1.25;
+  color: var(--fg-2);
+}
+
+.v3-cell figcaption small {
+  font-size: 10px;
+  color: var(--fg-4);
+}
+
+.v3-was {
+  animation: fb-fade 300ms var(--ease) both;
+}
+
+/* Tablet: as chaves em duas colunas e os diagramas um pouco menores. */
+@media (max-width: 1100px) {
+  .v3-keycards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .v3-grid {
+    grid-template-columns: 130px minmax(0, 1fr) minmax(0, 2fr);
+  }
+
+  .v3-diagram {
+    width: clamp(110px, 17vw, 170px);
+  }
+}
+
+/* Celular: a grade rola de lado, com a coluna dos nomes presa. */
+@media (max-width: 699px), (max-height: 559px) {
+  .v3-keycards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .v3-grid {
+    overflow-x: auto;
+    grid-template-columns: 96px minmax(150px, 1fr) minmax(290px, 2fr);
+  }
+
+  .v3-rowhead {
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--card);
+  }
+
+  .v3-diagram {
+    width: 130px;
+  }
+}

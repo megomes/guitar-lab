@@ -19,6 +19,7 @@ import { DEFAULTS, STORAGE_KEY, loadSettings, type Settings } from '@/lib/settin
 import { isMinorish, namesForScale, namesForTonic, sharpNames } from '@/lib/spelling'
 
 import { ChordsV2 } from './consult/ChordsV2'
+import { ChordsV3 } from './consult/ChordsV3'
 import { ConsultView } from './consult/ConsultView'
 import { NamesContext } from './names'
 import { PianoGame } from './piano/PianoGame'
@@ -119,7 +120,7 @@ export function GuitarLab() {
     if (mode === 'scales') return namesForScale(rootPc, scale.intervals)
     if (mode === 'chords') return namesForTonic(rootPc, isMinorish(chordIntervals(quality)))
     /* As oito formas misturam maiores e menores: a grafia é a da tônica como tom maior. */
-    if (mode === 'chords2') return namesForTonic(rootPc, false)
+    if (mode === 'chords2' || mode === 'chords3') return namesForTonic(rootPc, false)
     if (mode === 'notes') return sharpNames
     if (mode === 'pChords') return namesForTonic(rootPc, isMinorish(chordIntervals(settings.pQuality)))
     if (mode === 'pScales') return namesForScale(rootPc, pScale.intervals)
@@ -173,6 +174,8 @@ export function GuitarLab() {
       ? `${tonicName(P)} ${modeName(P)} · forma ${P.pos.label}`
       : mode === 'chords2'
         ? `${names(rootPc)} · 8 formas`
+      : mode === 'chords3'
+        ? `${names(rootPc)} · formas para decorar`
       : mode === 'notes'
         ? `${settings.notePcs.length} notas`
         : `${names(rootPc)} · forma ${shapeLabel(shape, isMinorish(mode === 'scales' ? scale.intervals : chordIntervals(quality)))}`
@@ -201,7 +204,8 @@ export function GuitarLab() {
         />
 
         {mode === 'chords2' && <ChordsV2 settings={settings} set={set} />}
-        {group === 'consulta' && mode !== 'chords2' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
+        {mode === 'chords3' && <ChordsV3 settings={settings} set={set} />}
+        {group === 'consulta' && mode !== 'chords2' && mode !== 'chords3' && <ConsultView settings={settings} set={set} patch={patch} onPractice={toPractice} onQuiz={toQuiz} />}
         {mode === 'quiz' && <QuizView settings={settings} set={set} patch={patch} />}
         {mode === 'solos' && <SolosView />}
         {mode === 'pChords' && <PianoView view="chords" settings={settings} set={set} patch={patch} />}
