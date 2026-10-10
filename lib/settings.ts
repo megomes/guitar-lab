@@ -9,7 +9,7 @@ import { GUITAR_SCALE_IDS, SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, instrumentOf, type ModeId } from './modes'
 import { KEY_OPTIONS, NINTHS, PIANO_SCALES, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
-import { DRILLS, PERMS, TRILLS, WALKS, type DrillId } from './practice/drills'
+import { ANCHOR_PAIRS, DRILLS, LOOPS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
 import { QUIZ_KINDS, type QuizKind, type QuizRound, type QuizSpell } from './quiz'
 
@@ -70,11 +70,11 @@ export interface Settings {
   click: boolean
   drill: DrillId
   drillVis: VisMode
-  perm: string
+  /** Reunião: o laço de legato e o par de cordas dos dedos plantados. */
+  loop: string
+  anchor: number
   /** Reunião, arpejo maj7: qual ida e volta da rota (0 a 5). */
   maj7Pair: number
-  walk: string
-  trill: number
   box: number
   shift: number
   diag: number
@@ -145,12 +145,11 @@ export const DEFAULTS: Settings = {
   chordSel: 0,
   bpm: 70,
   click: false,
-  drill: 'aranha',
+  drill: 'lacos',
   drillVis: 'both',
-  perm: '1234',
+  loop: '1242',
+  anchor: 0,
   maj7Pair: 0,
-  walk: '12-34',
-  trill: 0,
   box: 0,
   shift: 0,
   diag: 0,
@@ -236,9 +235,8 @@ export function loadSettings(): Settings {
     if (!VIS.includes(s.drillVis)) s.drillVis = DEFAULTS.drillVis
     if (!EXERCISES.some((e) => e.id === s.exercise)) s.exercise = DEFAULTS.exercise
     if (!DRILLS.some((d) => d.id === s.drill)) s.drill = DEFAULTS.drill
-    if (!PERMS.includes(s.perm)) s.perm = DEFAULTS.perm
-    if (!WALKS.includes(s.walk)) s.walk = DEFAULTS.walk
-    s.trill = int(s.trill, 0, TRILLS.length - 1, 0)
+    if (!LOOPS.some((l) => l.id === s.loop)) s.loop = DEFAULTS.loop
+    if (!ANCHOR_PAIRS.includes(s.anchor)) s.anchor = DEFAULTS.anchor
     s.shift = int(s.shift, 0, 4, 0)
     s.maj7Pair = int(s.maj7Pair, 0, 5, 0)
     s.chordSel = int(s.chordSel, 0, 3, 0)

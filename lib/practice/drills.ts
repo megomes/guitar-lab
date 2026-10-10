@@ -1,19 +1,19 @@
 /* Modo reunião: drills de mão esquerda, desplugado e sem som.
  *
- * Dois blocos. Agilidade — aranha, aranha em diagonal, caminhada e trilos —, que não
- * dependem do tom: um dedo por casa, independência e troca de corda. E o braço — penta
- * em 3s, formas em 3s, diagonal e raízes —, na tônica e no maior/menor escolhidos no
- * topo da Reunião (os mesmos da Prática).
+ * Dois blocos. Técnica — laços de legato, escala legato em 3 por corda e dedos plantados —,
+ * o que se faz de hammer-on, pull-off e independência de dedo sem precisar de palheta. E o
+ * braço — penta em 3s, formas em 3s, diagonal e raízes —, na tônica e no maior/menor
+ * escolhidos no topo da Reunião (os mesmos da Prática).
  */
 import { STRING_LABELS } from '../fretboard'
 import { sharpNames } from '../spelling'
 import type { LegendItem, Mark, NeckWindow } from '../marks'
 import { ROLE_COLOR, degreeColor } from '../roles'
-import { OPEN, diagCell, diagonals, groups, mod12, pentBoxes, rootPositions, spider, type PNote } from './caged'
+import { OPEN, diagCell, diagonals, groups, mod12, pentBoxes, rootPositions, type PNote } from './caged'
 import { diagLegend, diagNeck, modeName, pentDeg, positionOf, tonicName, type Bar, type Practice, type TabEvent } from './session'
 
-export type DrillId = 'aranha' | 'aranhaDiag' | 'caminhada' | 'trilos' | 'maj7' | 'pent3' | 'formas3' | 'diag' | 'raizes'
-export type DrillIcon = 'spider' | 'diagUp' | 'walk' | 'trill' | 'arp' | 'wave' | 'route' | 'diag' | 'eye'
+export type DrillId = 'lacos' | 'escala3' | 'plantados' | 'maj7' | 'pent3' | 'formas3' | 'diag' | 'raizes'
+export type DrillIcon = 'loop' | 'stairs' | 'anchor' | 'arp' | 'wave' | 'route' | 'diag' | 'eye'
 
 export interface Drill {
   id: DrillId
@@ -28,51 +28,44 @@ export interface Drill {
 
 export const DRILLS: Drill[] = [
   {
-    id: 'aranha',
-    name: 'Aranha cromática',
+    id: 'lacos',
+    name: 'Laços de legato',
     min: 4,
-    icon: 'spider',
+    icon: 'loop',
     key: false,
-    why: 'Um dedo por casa, em legato. Quase sem barulho.',
-    steps: ['Indicador na casa 5, um dedo por casa.', 'Martele cada nota para soar sem palheta.', 'Dedos baixos. Troque a ordem a cada minuto.'],
-  },
-  {
-    id: 'aranhaDiag',
-    name: 'Aranha em diagonal',
-    min: 3,
-    icon: 'diagUp',
-    key: false,
-    why: 'A aranha subindo uma casa a cada corda: a mão anda pelo braço enquanto troca de corda.',
+    why: 'Um laço de dedos numa corda só, em hammer-on e pull-off, com a mão parada na posição: a palheta só na primeira nota, o resto sai da mão esquerda. É o motor do legato de Satriani e Vai.',
     steps: [
-      'Comece com o indicador na casa 5 da 6ª corda.',
-      'Cada corda nova começa uma casa acima: a mão vai deslizando sem perder o um-dedo-por-casa.',
-      'Na volta, desça corda a corda, com os dedos na ordem contrária.',
+      'Indicador fixo na casa 5. Palheta só na primeira nota de cada corda.',
+      'Subindo, hammer-on; voltando, pull-off — puxe a corda um pouco para baixo ao soltar, para a nota soar.',
+      'Todas as notas com o mesmo volume: o dedo fraco bate mais forte, o forte mais leve.',
+      'Dois laços por corda, da 6ª à 1ª e de volta. Metrônomo: 30 segundos, sobe 5 bpm.',
     ],
   },
   {
-    id: 'caminhada',
-    name: 'Caminhada da aranha',
-    min: 3,
-    icon: 'walk',
-    key: false,
-    why: 'Dois dedos de cada vez, alternando entre duas cordas vizinhas: troca de corda e independência juntas.',
+    id: 'escala3',
+    name: 'Escala legato em 3 por corda',
+    min: 5,
+    icon: 'stairs',
+    key: true,
+    why: 'A escala do tom com três notas por corda, inteira em legato: subindo em hammer-on — até a primeira nota de cada corda, um hammer-on "do nada" —, descendo em pull-off. Treina força, igualdade e troca de corda sem palheta.',
     steps: [
-      'Dedos 1 e 2 (ou 1 e 3) num par de cordas, depois os outros dois, uma casa adiante.',
-      'Cada dedo só sai da casa quando o próximo já apertou.',
-      'Suba um par de cordas por vez e volte.',
+      'Sai da fundamental na 6ª corda, três notas por corda até a 1ª, e volta.',
+      'Subindo: a primeira nota de cada corda nova é um hammer-on do nada, sem palheta.',
+      'Descendo: pull-off em tudo; a primeira nota de cada corda nova sai com o dedo já posicionado.',
+      'O número é o dedo: onde a corda pede abertura (1 2 4 com tom e tom), abra a mão em vez de deslizar.',
     ],
   },
   {
-    id: 'trilos',
-    name: 'Trilos',
+    id: 'plantados',
+    name: 'Dedos plantados',
     min: 3,
-    icon: 'trill',
+    icon: 'anchor',
     key: false,
-    why: 'Um par de dedos em hammer-on e pull-off, rápido e sem palheta: a independência de cada dedo.',
+    why: 'Os quatro dedos apertados numa corda; um de cada vez vai para a corda vizinha e volta, enquanto os outros três ficam parados. É o exercício de independência dos dedos de verdade.',
     steps: [
-      'Escolha o par do dia: o 3-4 e o 2-4 são os que mais pedem.',
-      'Hammer-on e pull-off sem parar, oito notas por corda.',
-      'Os outros dedos ficam perto das cordas, sem levantar.',
+      'Dedos 1 2 3 4 nas casas 5 6 7 8 da corda de baixo do par, todos apertando.',
+      'Só um dedo sai: vai para a mesma casa na corda de cima e volta. Os outros três não se mexem.',
+      'Faça os quatro dedos, depois troque o par de cordas. O 3 e o 4 são os que mais brigam.',
     ],
   },
   {
@@ -139,26 +132,21 @@ export const DRILLS: Drill[] = [
   },
 ]
 
-export const PERMS = ['1234', '1324', '1243', '2413', '4321']
-
-/** Os pares da caminhada: 1-2 e 3-4, ou 1-3 e 2-4. */
-export const WALKS = ['12-34', '13-24']
-
-/** Os pares dos trilos. */
-export const TRILLS: [number, number][] = [
-  [1, 2],
-  [1, 3],
-  [1, 4],
-  [2, 3],
-  [2, 4],
-  [3, 4],
+/** Os laços: os dedos de uma volta, e se a mão abre (tom entre os dedos) ou fica um dedo por casa. */
+export const LOOPS: { id: string; fingers: number[]; stretch: boolean; label: string }[] = [
+  { id: '1242', fingers: [1, 2, 4, 2], stretch: false, label: '1 2 4 2' },
+  { id: '1343', fingers: [1, 3, 4, 3], stretch: false, label: '1 3 4 3' },
+  { id: '123432', fingers: [1, 2, 3, 4, 3, 2], stretch: false, label: '1 2 3 4 3 2' },
+  { id: '1242x', fingers: [1, 2, 4, 2], stretch: true, label: '1 2 4 2 aberto' },
 ]
 
+/** Os pares de cordas dos dedos plantados: a de baixo segura, a de cima recebe. */
+export const ANCHOR_PAIRS = [0, 1, 2, 3, 4]
+
 export interface DrillChoices {
-  perm: string
+  loop: string
+  anchor: number
   maj7Pair: number
-  walk: string
-  trill: number
   box: number
   shift: number
   diag: number
@@ -274,76 +262,89 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       })
     return bars
   }
-  const fingerLegend: LegendItem[] = [{ kind: 'text', text: 'Número = dedo' }]
 
-  if (id === 'aranha') {
-    const p = PERMS.includes(S.perm) ? S.perm : '1234'
-    const notes = spider(p, 5)
+  if (id === 'lacos') {
+    const L = LOOPS.find((x) => x.id === S.loop) ?? LOOPS[0]
+    /* Um dedo por casa a partir da 5; aberto, um tom entre os dedos (1 2 4 → 5 7 9). */
+    const fretOf = (finger: number) => (L.stretch ? 5 + [0, 0, 2, 3, 4][finger] : 4 + finger)
+    const lap = (s: number) => [...L.fingers, ...L.fingers].map((finger) => fn(s, fretOf(finger), finger))
+    const order = [0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 0]
+    const notes = order.flatMap(lap)
+    const per = L.fingers.length * 2
     return {
-      bars: fingerBars(notes, 8, (i) => `Cordas ${STRING_LABELS[notes[i].s]} e ${STRING_LABELS[notes[Math.min(i + 4, notes.length - 1)].s]}`),
-      cols: 8,
+      bars: fingerBars(notes, per, (i) => `Corda ${STRING_LABELS[notes[i].s]} · palheta só na 1ª`),
+      cols: per,
       marks: fingerMarks(notes),
-      windows: [{ from: 5, to: 8 }],
-      focus: { from: 5, to: 8 },
-      opts: { key: 'perm', value: p, items: PERMS.map((x) => ({ v: x, label: `Dedos ${x}` })) },
-      legend: fingerLegend,
+      windows: [{ from: 5, to: fretOf(4) }],
+      focus: { from: 5, to: fretOf(4) },
+      opts: { key: 'loop', value: L.id, items: LOOPS.map((x) => ({ v: x.id, label: `Dedos ${x.label}` })) },
+      legend: [{ kind: 'text', text: 'Número = dedo · sobe em hammer-on, volta em pull-off' }],
     }
   }
 
-  if (id === 'aranhaDiag') {
-    const p = PERMS.includes(S.perm) ? S.perm : '1234'
+  if (id === 'escala3') {
+    /* A escala maior ou a menor natural do tom, da fundamental na 6ª corda, três notas por corda. */
+    const steps = P.minor ? [2, 1, 2, 2, 1, 2, 2] : [2, 2, 1, 2, 2, 2, 1]
+    let r = mod12(T - OPEN[0])
+    if (r < 1) r += 12
     const up: Fingered[] = []
-    for (let s = 0; s < 6; s++) for (const ch of p) up.push(fn(s, 4 + s + +ch, +ch))
-    const back = [...p].reverse()
-    const down: Fingered[] = []
-    for (let s = 5; s >= 0; s--) for (const ch of back) down.push(fn(s, 4 + s + +ch, +ch))
-    const notes = [...up, ...down]
+    let midi = OPEN[0] + r
+    let k = 0
+    for (let s = 0; s < 6; s++) {
+      const frets: number[] = []
+      for (let j = 0; j < 3; j++) {
+        frets.push(midi - OPEN[s])
+        midi += steps[k % 7]
+        k++
+      }
+      /* O dedo pela distância: meio tom é dedo vizinho, tom pula um (1 2 4, 1 3 4, 1 2 4 aberto). */
+      const d1 = frets[1] - frets[0]
+      const d2 = frets[2] - frets[1]
+      const fingers = d1 === 1 ? [1, 2, 4] : d2 === 1 ? [1, 3, 4] : [1, 2, 4]
+      frets.forEach((f, j) => up.push(fn(s, f, fingers[j])))
+    }
+    const notes = [...up, ...up.slice().reverse()]
+    const fs = notes.map((n) => n.f)
+    const w = span(fs)
+    const degOfScale = (n: PNote) => {
+      const iv = mod12(n.midi - T)
+      const deg: Record<number, string> = P.minor ? { 0: '1', 2: '2', 3: '♭3', 5: '4', 7: '5', 8: '♭6', 10: '♭7' } : { 0: '1', 2: '2', 4: '3', 5: '4', 7: '5', 9: '6', 11: '7' }
+      return deg[iv] ?? ''
+    }
     return {
-      bars: fingerBars(notes, 8, (i) => (i < up.length ? 'Sobe' : 'Desce')),
-      cols: 8,
-      marks: fingerMarks(notes),
-      windows: [{ from: 5, to: 13 }],
-      focus: { from: 5, to: 13 },
-      opts: { key: 'perm', value: p, items: PERMS.map((x) => ({ v: x, label: `Dedos ${x}` })) },
-      legend: fingerLegend,
+      bars: fingerBars(notes, 6, (i) => (i < up.length ? `Sobe · hammer-on (do nada na corda nova)` : 'Desce · pull-off')),
+      cols: 6,
+      marks: up.map((n) => ({ string: n.s, fret: n.f, pc: mod12(n.midi), degree: degOfScale(n), level: 'on' as const })),
+      windows: [w],
+      focus: w,
+      /* Sem opções: a escala vem da tônica e do maior/menor do topo. */
+      opts: { key: 'loop', value: '', items: [] },
+      legend: [{ kind: 'text', text: `Escala ${tonicName(P)} ${modeName(P)} · na tab, o número é o dedo` }],
     }
   }
 
-  if (id === 'caminhada') {
-    const w = WALKS.includes(S.walk) ? S.walk : WALKS[0]
-    /* Em cada par de cordas: dois dedos, um em cada corda, depois os outros dois. */
-    const order = w === '12-34' ? [[1, 0], [2, 1], [3, 0], [4, 1]] : [[1, 0], [3, 1], [2, 0], [4, 1]]
+  if (id === 'plantados') {
+    const lo = ANCHOR_PAIRS.includes(S.anchor) ? S.anchor : 0
+    const hi = lo + 1
+    /* Cada dedo vai para a corda de cima e volta, duas vezes; os outros três seguem plantados. */
     const notes: Fingered[] = []
-    for (let s = 0; s < 5; s++) for (const [finger, k] of order) notes.push(fn(s + k, 4 + finger, finger))
-    for (let s = 4; s >= 0; s--) for (const [finger, k] of [...order].reverse()) notes.push(fn(s + k, 4 + finger, finger))
+    for (let finger = 1; finger <= 4; finger++)
+      for (let k = 0; k < 2; k++) notes.push(fn(hi, 4 + finger, finger), fn(lo, 4 + finger, finger))
+    const marks: Mark[] = [
+      ...[1, 2, 3, 4].map((finger): Mark => ({ string: lo, fret: 4 + finger, pc: mod12(OPEN[lo] + 4 + finger), degree: '', level: 'on', label: String(finger) })),
+      ...[1, 2, 3, 4].map((finger): Mark => ({ string: hi, fret: 4 + finger, pc: mod12(OPEN[hi] + 4 + finger), degree: '', level: 'outline', label: String(finger) })),
+    ]
     return {
-      bars: fingerBars(notes, 8, (i) => {
-        const a = notes[i]
-        const b = notes[i + 1] ?? a
-        return `Cordas ${STRING_LABELS[Math.min(a.s, b.s)]} e ${STRING_LABELS[Math.max(a.s, b.s)]}`
-      }),
+      bars: fingerBars(notes, 8, (i) => `Dedos ${notes[i].finger} e ${notes[Math.min(i + 4, notes.length - 1)].finger} · os outros plantados`),
       cols: 8,
-      marks: fingerMarks(notes),
-      windows: [{ from: 5, to: 8 }],
+      marks,
+      windows: [{ from: 5, to: 8, strings: [lo, hi] }],
       focus: { from: 5, to: 8 },
-      opts: { key: 'walk', value: w, items: WALKS.map((x) => ({ v: x, label: `Dedos ${x.replace('-', ' e ')}` })) },
-      legend: fingerLegend,
-    }
-  }
-
-  if (id === 'trilos') {
-    const ti = Math.min(Math.max(S.trill, 0), TRILLS.length - 1)
-    const [a, b] = TRILLS[ti]
-    const notes: Fingered[] = []
-    for (let s = 0; s < 6; s++) for (let k = 0; k < 8; k++) notes.push(fn(s, 4 + (k % 2 ? b : a), k % 2 ? b : a))
-    return {
-      bars: fingerBars(notes, 8, (i) => `Corda ${STRING_LABELS[notes[i].s]}`),
-      cols: 8,
-      marks: fingerMarks(notes),
-      windows: [{ from: 5, to: 8 }],
-      focus: { from: 5, to: 8 },
-      opts: { key: 'trill', value: ti, items: TRILLS.map(([x, y], i) => ({ v: i, label: `Dedos ${x}-${y}` })) },
-      legend: fingerLegend,
+      opts: { key: 'anchor', value: lo, items: ANCHOR_PAIRS.map((x) => ({ v: x, label: `Cordas ${STRING_LABELS[x]} e ${STRING_LABELS[x + 1]}` })) },
+      legend: [
+        { kind: 'text', text: 'aceso: os dedos plantados' },
+        { kind: 'outline', text: 'para onde cada um vai, sozinho' },
+      ],
     }
   }
 
