@@ -14,9 +14,9 @@ import { Legend, Segmented, Switch } from './ui'
 export const ROLE_LEGEND: LegendItem[] = ROLES.map((role) => ({ kind: 'dot', color: ROLE_COLOR[role], text: ROLE_NAME[role] }))
 
 const LABEL_OPTIONS: { value: LabelMode; label: string }[] = [
-  { value: 'both', label: 'notas + graus' },
-  { value: 'note', label: 'notas' },
   { value: 'degree', label: 'graus' },
+  { value: 'note', label: 'notas' },
+  { value: 'both', label: 'notas + graus' },
 ]
 
 interface Props {

@@ -9,7 +9,7 @@ import { GUITAR_SCALE_IDS, SCALES, SHAPE_IDS, type ShapeId } from './fretboard'
 import { MODES, instrumentOf, type ModeId } from './modes'
 import { KEY_OPTIONS, NINTHS, PIANO_SCALES, isTriad, seventhsFor, type Ninth, type Seventh } from './piano'
 import { PROG_BY, type ProgId, type Tonality } from './practice/caged'
-import { DRILLS, PERMS, type DrillId } from './practice/drills'
+import { DRILLS, PERMS, TRILLS, WALKS, type DrillId } from './practice/drills'
 import { EXERCISES, type ExerciseId } from './practice/session'
 import { QUIZ_KINDS, type QuizKind, type QuizRound, type QuizSpell } from './quiz'
 
@@ -25,7 +25,7 @@ export type ChordView = 'caged' | 'triads'
 export type V3RootView = 'both' | '6' | '5'
 
 /** 2: a pentatônica menor virou o padrão de tudo. 3: o jogo pega o braço inteiro. */
-export const SETTINGS_VERSION = 3
+export const SETTINGS_VERSION = 4
 
 export interface Settings {
   version: number
@@ -71,12 +71,12 @@ export interface Settings {
   drill: DrillId
   drillVis: VisMode
   perm: string
+  walk: string
+  trill: number
   box: number
+  shift: number
   diag: number
-  invSet: number
-  cagedSel: number
   rootSel: number
-  accSel: number
 
   /* Jogo */
   quizKind: QuizKind
@@ -121,7 +121,7 @@ export const DEFAULTS: Settings = {
   mode: 'scales',
   rootPc: 9,
   shape: 'E',
-  labelMode: 'both',
+  labelMode: 'degree',
   showOutside: true,
   stageZoom: false,
   scaleId: 'pentaMinor',
@@ -143,15 +143,15 @@ export const DEFAULTS: Settings = {
   chordSel: 0,
   bpm: 70,
   click: false,
-  drill: 'caged',
+  drill: 'aranha',
   drillVis: 'both',
   perm: '1234',
+  walk: '12-34',
+  trill: 0,
   box: 0,
+  shift: 0,
   diag: 0,
-  invSet: 3,
-  cagedSel: 0,
   rootSel: 0,
-  accSel: 0,
   quizKind: 'find',
   quizStrings: [0, 1, 2, 3, 4, 5],
   /** Começa pelas naturais: os sustenidos vêm de graça depois. */
@@ -200,6 +200,8 @@ export function loadSettings(): Settings {
       s.quizLo = DEFAULTS.quizLo
       s.quizHi = DEFAULTS.quizHi
     }
+    /* Da versão 4 em diante os graus são o modo principal: quem estava em notas + graus passa para graus. */
+    if (!(parsed.version >= 4) && s.labelMode === 'both') s.labelMode = 'degree'
     s.version = SETTINGS_VERSION
     /* O Acordes V2 saiu: quem estava nele abre no V3, que o substituiu. */
     if ((s.mode as string) === 'chords2') s.mode = 'chords3'
@@ -232,15 +234,15 @@ export function loadSettings(): Settings {
     if (!EXERCISES.some((e) => e.id === s.exercise)) s.exercise = DEFAULTS.exercise
     if (!DRILLS.some((d) => d.id === s.drill)) s.drill = DEFAULTS.drill
     if (!PERMS.includes(s.perm)) s.perm = DEFAULTS.perm
+    if (!WALKS.includes(s.walk)) s.walk = DEFAULTS.walk
+    s.trill = int(s.trill, 0, TRILLS.length - 1, 0)
+    s.shift = int(s.shift, 0, 4, 0)
     s.chordSel = int(s.chordSel, 0, 3, 0)
     s.bpm = int(s.bpm, 40, 160, DEFAULTS.bpm)
     s.click = s.click === true
     s.box = int(s.box, 0, 4, 0)
     s.diag = int(s.diag, 0, 9, 0)
-    s.invSet = int(s.invSet, 0, 3, DEFAULTS.invSet)
-    s.cagedSel = int(s.cagedSel, 0, 5, 0)
     s.rootSel = int(s.rootSel, 0, 3, 0)
-    s.accSel = int(s.accSel, 0, 3, 0)
     if (!QUIZ_KINDS.some((k) => k.id === s.quizKind)) s.quizKind = DEFAULTS.quizKind
     const list = (v: unknown, hi: number) => (Array.isArray(v) && v.every((x) => Number.isInteger(x) && x >= 0 && x <= hi) ? [...new Set(v as number[])] : null)
     s.quizStrings = list(s.quizStrings, 5) ?? DEFAULTS.quizStrings

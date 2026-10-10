@@ -21,9 +21,9 @@ const DONE_KEY = 'guitarlab-solos-feitos'
 const NIVEL: Record<string, string> = { iniciante: 'iniciante', intermediario: 'intermediário', avancado: 'avançado' }
 
 const LABEL_OPTIONS: { value: LabelMode; label: string }[] = [
-  { value: 'both', label: 'notas + graus' },
-  { value: 'note', label: 'notas' },
   { value: 'degree', label: 'graus' },
+  { value: 'note', label: 'notas' },
+  { value: 'both', label: 'notas + graus' },
 ]
 
 function loadDone(): Set<string> {
@@ -157,7 +157,7 @@ function SourceChips({ list, onPlay }: { list: LSource[]; onPlay: (s: LSource) =
 
 export function LessonView({ lesson, onBack, next }: { lesson: Lesson; onBack: () => void; next?: { title: string; onGo: () => void } | null }) {
   const id = lesson._meta.subcategoria
-  const [labelMode, setLabelMode] = useState<LabelMode>('both')
+  const [labelMode, setLabelMode] = useState<LabelMode>('degree')
   const [video, setVideo] = useState<LSource | null>(null)
   const [done, setDone] = useState<Set<string>>(() => new Set())
   const [openEx, setOpenEx] = useState(0)

@@ -1,17 +1,20 @@
 'use client'
 
-/* Reunião — drills silenciosos de mão esquerda, do CAGED Lab, numa tela só. */
-import { AudioWaveform, Bug, Eye, Layers, MoveHorizontal, MoveUpRight, TrendingUp } from 'lucide-react'
+/* Reunião — drills silenciosos de mão esquerda, numa tela só. Em cima, a tônica e o maior/menor
+ * (os mesmos da Prática), que valem para os drills do braço; os de agilidade não dependem deles. */
+import { Activity, AudioWaveform, Bug, Eye, Footprints, MoveUpRight, Route, TrendingUp } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import type { SeqEvent } from '@/lib/practice/audio'
 import { DRILLS, drillData, type DrillIcon } from '@/lib/practice/drills'
+import { PROG_BY } from '@/lib/practice/caged'
 import type { Practice } from '@/lib/practice/session'
 import type { Settings } from '@/lib/settings'
 
 import { Neck, ROLE_LEGEND } from '../Neck'
 import { Tab } from '../Tab'
-import { Chip, HowDialog, type HowContent } from '../ui'
+import { Tonics } from '../consult/Controls'
+import { Chip, HowDialog, Segmented, type HowContent } from '../ui'
 import { PlayerBar, VisSwitch } from './PlayerBar'
 import { usePlayer } from './usePlayer'
 import { useSpaceToPlay } from './useSpaceToPlay'
@@ -19,11 +22,12 @@ import { useSpaceToPlay } from './useSpaceToPlay'
 type Setter = <K extends keyof Settings>(key: K) => (value: Settings[K]) => void
 
 const ICONS: Record<DrillIcon, React.ReactNode> = {
-  ladder: <TrendingUp size={17} strokeWidth={1.6} />,
-  layers: <Layers size={17} strokeWidth={1.6} />,
-  move: <MoveHorizontal size={17} strokeWidth={1.6} />,
   spider: <Bug size={17} strokeWidth={1.6} />,
+  diagUp: <TrendingUp size={17} strokeWidth={1.6} />,
+  walk: <Footprints size={17} strokeWidth={1.6} />,
+  trill: <Activity size={17} strokeWidth={1.6} />,
   wave: <AudioWaveform size={17} strokeWidth={1.6} />,
+  route: <Route size={17} strokeWidth={1.6} />,
   diag: <MoveUpRight size={17} strokeWidth={1.6} />,
   eye: <Eye size={17} strokeWidth={1.6} />,
 }
@@ -43,10 +47,10 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
   const data = useMemo(
     () => drillData(d.id, P, settings),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [d.id, P, settings.cagedSel, settings.accSel, settings.invSet, settings.perm, settings.box, settings.diag, settings.rootSel],
+    [d.id, P, settings.perm, settings.walk, settings.trill, settings.box, settings.shift, settings.diag, settings.rootSel],
   )
 
-  /* A escada e os acordes acompanham o som: a forma que soa é a que o braço mostra. */
+  /* Um drill pode seguir o som (a opção que soa é a que o braço mostra). */
   const follow = useCallback(
     (e: SeqEvent) => {
       if (e.follow) patch({ [e.follow.k]: e.follow.v })
@@ -62,6 +66,18 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
 
   return (
     <main className="wrap screen">
+      {/* A tônica e o maior/menor: valem para a penta, as formas, a diagonal e as raízes. */}
+      <div className="controls card meet-key" style={d.key ? undefined : { opacity: 0.45 }} title={d.key ? undefined : 'este drill não depende do tom'}>
+        <Tonics rootPc={settings.rootPc} minor={settings.tonality === 'min'} onRoot={set('rootPc')} />
+        <Segmented<'min' | 'maj'>
+          options={[
+            { value: 'min', label: 'Menor' },
+            { value: 'maj', label: 'Maior' },
+          ]}
+          value={settings.tonality}
+          onChange={(t) => t !== settings.tonality && patch({ tonality: t, prog: PROG_BY[t][0].id, chordSel: 0 })}
+        />
+      </div>
       <div className="dchips" role="group" aria-label="Drills">
         {DRILLS.map((x) => (
           <button key={x.id} type="button" className={`dchip${x.id === d.id ? ' dchip-on' : ''}`} aria-pressed={x.id === d.id} onClick={() => set('drill')(x.id)}>
