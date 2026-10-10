@@ -10,7 +10,7 @@ import { sharpNames } from '../spelling'
 import type { LegendItem, Mark, NeckWindow } from '../marks'
 import { ROLE_COLOR, degreeColor } from '../roles'
 import { OPEN, diagCell, diagonals, groups, mod12, pentBoxes, rootPositions, type PNote } from './caged'
-import { diagLegend, diagNeck, modeName, pentDeg, positionOf, tonicName, type Bar, type Practice, type TabEvent } from './session'
+import { diagLegend, diagNeck, modeName, pentDeg, positionOf, tonicName, type Bar, type Practice, type TabEvent, type Tech } from './session'
 
 export type DrillId = 'lacos' | 'escala3' | 'plantados' | 'maj7' | 'pent3' | 'formas3' | 'diag' | 'raizes'
 export type DrillIcon = 'loop' | 'stairs' | 'anchor' | 'arp' | 'wave' | 'route' | 'diag' | 'eye'
@@ -168,7 +168,7 @@ export interface DrillData {
 
 const span = (fs: number[]): NeckWindow => ({ from: Math.min(...fs), to: Math.max(...fs) })
 
-type Fingered = PNote & { finger: number }
+type Fingered = PNote & { finger: number; tech?: Tech }
 
 /** Em compassos de `per` notas, com o número do dedo na tab. */
 function fingerBars(notes: Fingered[], per: number, head?: (i: number) => string): Bar[] {
@@ -179,7 +179,7 @@ function fingerBars(notes: Fingered[], per: number, head?: (i: number) => string
       head: head ? { text: head(i) } : undefined,
       events: notes.slice(i, i + per).map((n, k) => ({
         col: k,
-        notes: [{ s: n.s, f: n.f, midi: n.midi, role: 'deg' as const, color: ROLE_COLOR.other, label: String(n.finger) }],
+        notes: [{ s: n.s, f: n.f, midi: n.midi, role: 'deg' as const, color: ROLE_COLOR.other, label: String(n.finger), tech: n.tech }],
       })),
     })
   return bars
@@ -193,6 +193,23 @@ function fingerMarks(notes: Fingered[]): Mark[] {
 }
 
 const fn = (s: number, f: number, finger: number): Fingered => ({ s, f, midi: OPEN[s] + f, finger })
+
+/**
+ * As ligaduras de uma sequência em legato: na mesma corda, subir é hammer-on e descer é pull-off;
+ * a primeira nota de uma corda nova é palhetada, ou — com `fromNowhere` — um hammer-on do nada.
+ * `slide` diz quando a passagem na mesma corda é um deslize em vez de ligadura.
+ */
+function legato<T extends PNote>(seq: T[], opts: { fromNowhere?: boolean; slide?: (a: T, b: T) => boolean } = {}): (T & { tech?: Tech })[] {
+  return seq.map((n, i) => {
+    const prev = seq[i - 1]
+    if (!prev) return { ...n }
+    if (prev.s !== n.s) return opts.fromNowhere ? { ...n, tech: 'h' as Tech } : { ...n }
+    if (prev.f === n.f) return { ...n }
+    const up = n.f > prev.f
+    if (opts.slide?.(prev, n)) return { ...n, tech: (up ? '/' : '\\') as Tech }
+    return { ...n, tech: (up ? 'h' : 'p') as Tech }
+  })
+}
 
 /* O arpejo maj7 do professor, em casas a partir da 7ª na 6ª corda: 7 1 | 3 5 | 7 1 | 3 5 | 7 1 | 3 5,
    duas notas por corda. Cada par de cordas anda duas casas; entrando na corda Si, três. */
@@ -269,7 +286,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
     const fretOf = (finger: number) => (L.stretch ? 5 + [0, 0, 2, 3, 4][finger] : 4 + finger)
     const lap = (s: number) => [...L.fingers, ...L.fingers].map((finger) => fn(s, fretOf(finger), finger))
     const order = [0, 1, 2, 3, 4, 5, 4, 3, 2, 1, 0]
-    const notes = order.flatMap(lap)
+    const notes = legato(order.flatMap(lap))
     const per = L.fingers.length * 2
     return {
       bars: fingerBars(notes, per, (i) => `Corda ${STRING_LABELS[notes[i].s]} · palheta só na 1ª`),
@@ -303,7 +320,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       const fingers = d1 === 1 ? [1, 2, 4] : d2 === 1 ? [1, 3, 4] : [1, 2, 4]
       frets.forEach((f, j) => up.push(fn(s, f, fingers[j])))
     }
-    const notes = [...up, ...up.slice().reverse()]
+    const notes = legato([...up, ...up.slice().reverse()], { fromNowhere: true })
     const fs = notes.map((n) => n.f)
     const w = span(fs)
     const degOfScale = (n: PNote) => {
@@ -404,7 +421,7 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
     const notes = boxes[bi]
     const w = span(notes.map((n) => n.f))
     return {
-      bars: degBars(fromRootGroups(notes, T), 12, 'Do 1 ao 1'),
+      bars: degBars(legato(fromRootGroups(notes, T)), 12, 'Do 1 ao 1'),
       cols: 12,
       marks: notes.map((n) => on(n, deg(n))),
       windows: [{ ...w, label: formName(P, notes) }],
@@ -437,7 +454,14 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
     const w = span(notes.map((n) => n.f))
     const windows = parts.map((p, j) => ({ ...span(p.map((n) => n.f)), label: names[j], strings: [2 * j, 2 * j + 1] as [number, number] }))
     return {
-      bars: degBars(fromRootGroups(notes, T), 12, names.join(' → ')),
+      bars: degBars(
+        legato(fromRootGroups(notes, T), {
+          /* O deslize é a nota de baixo da corda de troca para a de cima (ou o contrário). */
+          slide: (x, y) => Math.abs(y.f - x.f) >= 3 && parts.some((p, j) => j > 0 && p[0].s === x.s && p[0].midi === Math.min(x.midi, y.midi)),
+        }),
+        12,
+        names.join(' → '),
+      ),
       cols: 12,
       marks: notes.map((n) => on(n, deg(n))),
       windows,

@@ -38,12 +38,17 @@ import {
 
 export type NoteRole = 'deg' | 'target' | 'pass'
 
+/** Como a nota sai, na escrita da tab: h hammer-on, p pull-off, / e \\ deslize para cima e para baixo. */
+export type Tech = 'h' | 'p' | '/' | '\\'
+
 export interface TabNote extends PNote {
   role: NoteRole
   deg?: string
   color?: string
   /** No braço, no lugar do nome da nota. */
   label?: string
+  /** A ligadura com a nota de antes: "5h7", "7p5", "5/7". Sem isso, a nota é palhetada. */
+  tech?: Tech
 }
 
 export type FollowKey = 'cagedSel' | 'accSel'

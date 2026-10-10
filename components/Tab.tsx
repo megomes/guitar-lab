@@ -104,11 +104,20 @@ function TabView({ bars, cols, now, strip = false }: Props) {
                       const key = ev ? `${bi}:${ev.col}` : ''
                       return (
                         <div key={`${r}-${c}`} className="cell">
+                          {/* Hammer-on e pull-off: a ligadura em arco da nota de antes até esta, com o
+                              H ou o P em cima, como no Guitar Pro e nos livros. */}
+                          {n && (n.tech === 'h' || n.tech === 'p') && (
+                            <i className="fn-slur" aria-label={n.tech === 'h' ? 'hammer-on' : 'pull-off'}>
+                              <b>{n.tech.toUpperCase()}</b>
+                            </i>
+                          )}
                           {n && (
                             <span
                               className={`fn${n.role === 'pass' ? ' fn-pass' : ''}${n.role === 'target' ? ' fn-target' : ''}${key === now ? ' fn-now' : ''}`}
                               style={n.color ? { ['--c' as string]: n.color } : undefined}
                             >
+                              {/* O deslize fica entre as casas, como na tab de papel: 5/7, 7\5. */}
+                              {(n.tech === '/' || n.tech === '\\') && <i className="fn-tech">{n.tech}</i>}
                               {n.f}
                             </span>
                           )}

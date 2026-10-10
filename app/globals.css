@@ -1116,6 +1116,45 @@ h3 {
   transition: background 90ms linear, color 90ms linear, box-shadow 90ms linear;
 }
 
+/* A ligadura do hammer-on e do pull-off: um arco por cima, da nota de antes (a coluna da
+   esquerda) até esta, com a letra no alto do arco. */
+.fn-slur {
+  position: absolute;
+  z-index: 2;
+  bottom: 62%;
+  left: -50%;
+  width: 100%;
+  height: 7px;
+  border: 1.3px solid var(--fg-3);
+  border-bottom: 0;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  pointer-events: none;
+}
+
+.fn-slur b {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 8.5px;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--fg-2);
+}
+
+/* O deslize, pequeno, antes da casa. */
+.fn-tech {
+  margin-right: 1px;
+  font-size: 9.5px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--fg-3);
+}
+
+.fn-now .fn-tech {
+  color: inherit;
+}
+
 .fn-pass {
   color: var(--fg-3);
   font-weight: 500;
