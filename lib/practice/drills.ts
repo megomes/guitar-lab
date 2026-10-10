@@ -11,8 +11,8 @@ import { ROLE_COLOR, degreeColor } from '../roles'
 import { OPEN, diagCell, diagonals, groups, mod12, pentBoxes, rootPositions, spider, type PNote } from './caged'
 import { diagLegend, diagNeck, modeName, pentDeg, positionOf, tonicName, type Bar, type Practice, type TabEvent } from './session'
 
-export type DrillId = 'aranha' | 'aranhaDiag' | 'caminhada' | 'trilos' | 'pent3' | 'formas3' | 'diag' | 'raizes'
-export type DrillIcon = 'spider' | 'diagUp' | 'walk' | 'trill' | 'wave' | 'route' | 'diag' | 'eye'
+export type DrillId = 'aranha' | 'aranhaDiag' | 'caminhada' | 'trilos' | 'maj7' | 'pent3' | 'formas3' | 'diag' | 'raizes'
+export type DrillIcon = 'spider' | 'diagUp' | 'walk' | 'trill' | 'arp' | 'wave' | 'route' | 'diag' | 'eye'
 
 export interface Drill {
   id: DrillId
@@ -72,6 +72,20 @@ export const DRILLS: Drill[] = [
       'Escolha o par do dia: o 3-4 e o 2-4 são os que mais pedem.',
       'Hammer-on e pull-off sem parar, oito notas por corda.',
       'Os outros dedos ficam perto das cordas, sem levantar.',
+    ],
+  },
+  {
+    id: 'maj7',
+    name: 'Arpejo maj7 em semitons',
+    min: 5,
+    icon: 'arp',
+    key: true,
+    why: 'O arpejo de sétima maior com duas notas por corda, saindo da 7ª: 7 1 | 3 5 em cada corda. Sobe num tom, sobe um semitom e desce no tom seguinte; desce, sobe um semitom e sobe de novo — até passar pelas 12 tonalidades.',
+    steps: [
+      'Escolha a tônica no topo: em F♯ é o exercício do professor ([6]1 [6]2 [5]1 [5]4 …).',
+      'Em cada corda, duas notas: na 6ª, 4ª e 2ª a 7ª e o 1 (meio tom de distância); na 5ª, 3ª e 1ª a 3ª e a 5ª.',
+      'Uma nota de cada vez, todas com o mesmo tempo. No fim de cada passada, um semitom acima e volta pelo outro lado.',
+      'As opções mostram cada ida e volta da rota, até terminar na 6ª corda, casa 12.',
     ],
   },
   {
@@ -141,6 +155,7 @@ export const TRILLS: [number, number][] = [
 
 export interface DrillChoices {
   perm: string
+  maj7Pair: number
   walk: string
   trill: number
   box: number
@@ -189,6 +204,33 @@ function fingerMarks(notes: Fingered[]): Mark[] {
 }
 
 const fn = (s: number, f: number, finger: number): Fingered => ({ s, f, midi: OPEN[s] + f, finger })
+
+/* O arpejo maj7 do professor, em casas a partir da 7ª na 6ª corda: 7 1 | 3 5 | 7 1 | 3 5 | 7 1 | 3 5,
+   duas notas por corda. Cada par de cordas anda duas casas; entrando na corda Si, três. */
+const MAJ7_OFF: [number, number][] = [
+  [0, 0],
+  [0, 1],
+  [1, 0],
+  [1, 3],
+  [2, 2],
+  [2, 3],
+  [3, 2],
+  [3, 5],
+  [4, 5],
+  [4, 6],
+  [5, 5],
+  [5, 8],
+]
+const MAJ7_DEG: Record<number, string> = { 0: '1', 4: '3', 7: '5', 11: '7' }
+
+/** Uma passada do arpejo maj7: a 7ª na 6ª corda na casa `f7`, subindo ou descendo. */
+export function maj7Pass(f7: number, up: boolean): PNote[] {
+  const notes = MAJ7_OFF.map(([s, d]) => ({ s, f: f7 + d, midi: OPEN[s] + f7 + d }))
+  return up ? notes : notes.reverse()
+}
+
+/** As 12 passadas da rota, um semitom de cada vez: a primeira sobe, a segunda desce… */
+export const MAJ7_PASSES = 12
 
 /**
  * Grupos de n notas que saem do 1 e voltam para o 1: do primeiro 1 da forma para cima até o
@@ -301,6 +343,56 @@ export function drillData(id: DrillId, P: Practice, S: DrillChoices): DrillData 
       focus: { from: 5, to: 8 },
       opts: { key: 'trill', value: ti, items: TRILLS.map(([x, y], i) => ({ v: i, label: `Dedos ${x}-${y}` })) },
       legend: fingerLegend,
+    }
+  }
+
+  if (id === 'maj7') {
+    /* A 7ª da tônica escolhida na 6ª corda: em F♯, casa 1 (o Fá, que é o Mi♯ do F♯maj7). */
+    const f0 = mod12(T - 1 - OPEN[0])
+    const pair = Math.min(Math.max(S.maj7Pair, 0), MAJ7_PASSES / 2 - 1)
+    /* A ida e a volta desse par de passadas: sobe no tom k e desce no tom seguinte. */
+    const k = 2 * pair
+    /* Saindo de uma casa alta (em Mi, a 7ª está na 11), o fim da rota passaria da casa 21:
+       aí esse par de passadas desce uma oitava. Em Fá♯ (o do professor) a rota cabe inteira. */
+    const base = f0 + k + 1 + 8 > 21 ? f0 + k - 12 : f0 + k
+    const upNotes = maj7Pass(base, true)
+    const downNotes = maj7Pass(base + 1, false)
+    const rootOf = (shift: number) => mod12(T + shift)
+    const degOf = (n: PNote, shift: number) => MAJ7_DEG[mod12(n.midi - rootOf(shift))] ?? ''
+    const name = (shift: number) => `${nn(rootOf(shift))}maj7`
+    const bar = (notes: PNote[], shift: number, text: string): Bar => ({
+      ci: null,
+      head: { text, sub: '7 1 · 3 5' },
+      events: notes.map((n, i) => {
+        const d = degOf(n, shift)
+        return { col: i, notes: [{ ...n, role: 'deg' as const, deg: d, color: degreeColor(d) }] }
+      }),
+    })
+    const marks: Mark[] = [
+      ...upNotes.map((n) => on(n, degOf(n, k))),
+      /* A volta, um semitom acima, em contorno: dá para ver o desenho inteiro andar uma casa. */
+      ...downNotes
+        /* Onde as duas passadas usam a mesma casa (o 1 de uma é a 7ª da outra), fica a acesa. */
+        .filter((n) => !upNotes.some((u) => u.s === n.s && u.f === n.f))
+        .map((n): Mark => ({ string: n.s, fret: n.f, pc: mod12(n.midi), degree: degOf(n, k + 1), level: 'outline' })),
+    ]
+    const all = [...upNotes, ...downNotes].map((n) => n.f)
+    const w = span(all)
+    return {
+      bars: [bar(upNotes, k, `↑ ${name(k)}`), bar(downNotes, k + 1, `↓ ${name(k + 1)}, um semitom acima`)],
+      cols: 12,
+      marks,
+      windows: [w],
+      focus: w,
+      opts: {
+        key: 'maj7Pair',
+        value: pair,
+        items: Array.from({ length: MAJ7_PASSES / 2 }, (_, i) => ({ v: i, label: `↑ ${name(2 * i)} ↓ ${name(2 * i + 1)}` })),
+      },
+      legend: [
+        { kind: 'text', text: `aceso: sobe em ${name(k)}` },
+        { kind: 'outline', text: `desce em ${name(k + 1)}` },
+      ],
     }
   }
 

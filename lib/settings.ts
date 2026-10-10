@@ -71,6 +71,8 @@ export interface Settings {
   drill: DrillId
   drillVis: VisMode
   perm: string
+  /** Reunião, arpejo maj7: qual ida e volta da rota (0 a 5). */
+  maj7Pair: number
   walk: string
   trill: number
   box: number
@@ -146,6 +148,7 @@ export const DEFAULTS: Settings = {
   drill: 'aranha',
   drillVis: 'both',
   perm: '1234',
+  maj7Pair: 0,
   walk: '12-34',
   trill: 0,
   box: 0,
@@ -237,6 +240,7 @@ export function loadSettings(): Settings {
     if (!WALKS.includes(s.walk)) s.walk = DEFAULTS.walk
     s.trill = int(s.trill, 0, TRILLS.length - 1, 0)
     s.shift = int(s.shift, 0, 4, 0)
+    s.maj7Pair = int(s.maj7Pair, 0, 5, 0)
     s.chordSel = int(s.chordSel, 0, 3, 0)
     s.bpm = int(s.bpm, 40, 160, DEFAULTS.bpm)
     s.click = s.click === true

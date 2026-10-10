@@ -2,7 +2,7 @@
 
 /* Reunião — drills silenciosos de mão esquerda, numa tela só. Em cima, a tônica e o maior/menor
  * (os mesmos da Prática), que valem para os drills do braço; os de agilidade não dependem deles. */
-import { Activity, AudioWaveform, Bug, Eye, Footprints, MoveUpRight, Route, TrendingUp } from 'lucide-react'
+import { Activity, AudioWaveform, Bug, Eye, Footprints, MoveUpRight, Music2, Route, TrendingUp } from 'lucide-react'
 import { useCallback, useMemo, useState } from 'react'
 
 import type { SeqEvent } from '@/lib/practice/audio'
@@ -26,6 +26,7 @@ const ICONS: Record<DrillIcon, React.ReactNode> = {
   diagUp: <TrendingUp size={17} strokeWidth={1.6} />,
   walk: <Footprints size={17} strokeWidth={1.6} />,
   trill: <Activity size={17} strokeWidth={1.6} />,
+  arp: <Music2 size={17} strokeWidth={1.6} />,
   wave: <AudioWaveform size={17} strokeWidth={1.6} />,
   route: <Route size={17} strokeWidth={1.6} />,
   diag: <MoveUpRight size={17} strokeWidth={1.6} />,
@@ -47,7 +48,7 @@ export function MeetingView({ P, settings, set, patch }: { P: Practice; settings
   const data = useMemo(
     () => drillData(d.id, P, settings),
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    [d.id, P, settings.perm, settings.walk, settings.trill, settings.box, settings.shift, settings.diag, settings.rootSel],
+    [d.id, P, settings.perm, settings.maj7Pair, settings.walk, settings.trill, settings.box, settings.shift, settings.diag, settings.rootSel],
   )
 
   /* Um drill pode seguir o som (a opção que soa é a que o braço mostra). */
