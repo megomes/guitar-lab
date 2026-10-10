@@ -153,6 +153,3 @@ export function moves(a: V3Shape, b: V3Shape): V3Move[] {
   }
   return out
 }
-
-/** "6ª corda", "3ª corda". */
-export const stringName = (s: number) => `${6 - s}ª corda`
