@@ -4424,11 +4424,18 @@ button.stage-box-on:hover {
 /* "Você mexe" e "para olhar": as duas partes da tela, com nome. */
 .v3-part {
   flex-basis: 100%;
+  flex-grow: 0;
   font-size: 10.5px;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--fg-4);
+}
+
+/* Fora da faixa de controles, na coluna da tela, o rótulo só tem a altura do texto
+   (o flex-basis de 100% ali viraria a altura da tela inteira). */
+.screen > .v3-part {
+  flex-basis: auto;
 }
 
 /* A grade: os nomes à esquerda, e para cada corda-raiz a pestana e a tríade. */
